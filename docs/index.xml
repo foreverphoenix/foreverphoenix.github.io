@@ -1,4 +1,134 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Full Guide</title><link>http://example.org/docs/</link><description>Recent content in Full Guide on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="http://example.org/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Prerequisites</title><link>http://example.org/docs/01-setup/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/01-setup/step-01/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Full Guide</title><link>http://example.org/docs/</link><description>Recent content in Full Guide on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="http://example.org/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Essential Mods</title><link>http://example.org/docs/02-mod-installation/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-mod-installation/step-01/</guid><description>
+&lt;h2 id="address-library-for-skse-plugins">Address Library for SKSE Plugins&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32444?tab=files">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="download-instructions">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> All in one&lt;/li>
+&lt;/ul>
+&lt;h2 id="sse-engine-fixes">SSE Engine Fixes&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17230?tab=files">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> (Part 1) Engine Fixes&lt;/li>
+&lt;/ul>
+&lt;h4 id="preloader">Preloader&lt;/h4>
+&lt;ul>
+&lt;li>Download the following file manually:
+&lt;ul>
+&lt;li>&lt;strong>(Part 2) Engine Fixes - skse64 Preloader and TBB Lib&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Open the downloaded archive.&lt;/li>
+&lt;li>Extract the following files into your &lt;strong>root&lt;/strong> folder:
+&lt;ul>
+&lt;li>&lt;strong>d3dx9_42.dll&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>tbb.dll&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>tbbmalloc.dll&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Click &lt;strong>Yes&lt;/strong> when asked to overwrite.&lt;/li>
+&lt;/ul>
+&lt;h4 id="engine-fixes-ini">Engine Fixes INI&lt;/h4>
+&lt;ul>
+&lt;li>Double-click &lt;strong>SSE Engine Fixes&lt;/strong> in your mod order.&lt;/li>
+&lt;li>Switch to the &lt;strong>INI-Files&lt;/strong> tab and select the &lt;strong>EngineFixes.ini&lt;/strong>.&lt;/li>
+&lt;li>Edit the following line:
+&lt;ul>
+&lt;li>&lt;code>SleepWaitTime = true&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Close the window and click &lt;strong>Yes&lt;/strong> when asked to save your change.&lt;/li>
+&lt;/ul>
+&lt;h2 id="net-script-framework-nsf">.NET Script Framework (NSF)&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21294?tab=files">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> NetScriptFramework SkyrimSE v13&lt;/li>
+&lt;/ul>
+&lt;h2 id="sse-display-tweaks">SSE Display Tweaks&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34705?tab=files">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> SSE Display Tweaks&lt;/li>
+&lt;/ul>
+&lt;h2 id="autorun-console-commands-acc">Autorun Console Commands (ACC)&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24919?tab=files">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> ACC - Autorun Console Commands&lt;/li>
+&lt;/ul>
+&lt;h2 id="unofficial-high-definition-audio-project">Unofficial High Definition Audio Project&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18115?tab=files">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Music - HQ&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Voices EN - Part 1&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Voices EN - Part 2&lt;/li>
+&lt;/ul>
+&lt;h2 id="unofficial-skyrim-special-edition-patch-ussep">Unofficial Skyrim Special Edition Patch (USSEP)&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/266?tab=files">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Unofficial Skyrim Special Edition Patch&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and/or folder(s):
+&lt;ul>
+&lt;li>&lt;code>Unofficial Skyrim Special Edition Patch.modgroups&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="alternate-start---live-another-life-as-lal">Alternate Start - Live Another Life (AS LAL)&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/272?tab=files">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Alternate Start - Live Another Life&lt;/li>
+&lt;/ul>
+&lt;h2 id="skyrim-particle-patch">Skyrim Particle Patch&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="http://enbseries.enbdev.com/forum/viewtopic.php?t=1499">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="installation-instructions">Installation Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Find the &lt;strong>SPECIAL EDITION&lt;/strong> section in the forum post linked above and click the &lt;strong>GOOGLE DRIVE&lt;/strong> link (see picture).&lt;/li>
+&lt;li>Download the archive from Google Drive and move it manually to &lt;code>Your Modding Folder\ARCHIVE\MO2 Downloads&lt;/code>.&lt;/li>
+&lt;li>Go to the &lt;strong>Downloads&lt;/strong> tab and double-click the mod to install it as usual.&lt;/li>
+&lt;li>I recommend renaming it simply to &lt;strong>Skyrim Particle Patch&lt;/strong> after the installation.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="Pictures/mod_installation/skyrim_particle_patch_download.png" alt="Skyrim Particle Patch download link">&lt;/p>
+&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and/or folder(s):
+&lt;ul>
+&lt;li>&lt;code>textures\effects\gradients\gradwhitewater.dds&lt;/code>&lt;/li>
+&lt;li>&lt;code>Particle Patch for ENB SSE.esp&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The plugin is not needed. Its functionality was replaced by ENB Helper. The texture can cause water spray to look much darker than intended with Realistic Water Two.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="static-mesh-improvement-mod-smimhttpswwwnexusmodscomskyrimspecialeditionmods659tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/659/?tab=files">Static Mesh Improvement Mod (SMIM)&lt;/a>&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17230?tab=files">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> SMIM SE 2-08&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Installer Choice:&lt;/strong> Skyrim 2016 Special Edition: Everything&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and/or folder(s):
+&lt;ul>
+&lt;li>&lt;code>meshes\architecture\farmhouse\walkway\walkwaycwall01.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\architecture\solitude\doors\sgatedoor.nif&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The first mesh will be replaced either by the fixed version contained in Skyrim Landscape and Water Fixes or by Real Walls 3D. Deleting the second mesh will allow you to use a different retexture for the Solitude city gate.&lt;/p>
+&lt;/blockquote></description></item><item><title>Docs: Prerequisites</title><link>http://example.org/docs/01-setup/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/01-setup/step-01/</guid><description>
 &lt;h2 id="11-requirements">1.1 Requirements&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/">Skyrim Special Edition&lt;/a> on Steam.&lt;/li>
