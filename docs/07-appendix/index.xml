@@ -1,0 +1,30 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Appendix</title><link>http://example.org/docs/07-appendix/</link><description>Recent content in Appendix on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="http://example.org/docs/07-appendix/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Credits</title><link>http://example.org/docs/07-appendix/02_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/07-appendix/02_credits/</guid><description>
+&lt;h3 id="the-team">The Team&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Phoenix&lt;/strong> - that&amp;rsquo;s me! - published the guide initially way back in 2017 and stuck with it since. I do all the writing, basically.&lt;/li>
+&lt;li>&lt;strong>Umgak&lt;/strong> is in charge of all our custom patches, conflict resolution and consistency edits.&lt;/li>
+&lt;li>&lt;strong>Lively&lt;/strong> created and maintains the Wabbajack installer for TPF, and puts up with all the related help requests.&lt;/li>
+&lt;/ul>
+&lt;h3 id="past-and-present-contributors">Past and present contributors&lt;/h3>
+&lt;ul>
+&lt;li>Faron&lt;/li>
+&lt;li>Madi&lt;/li>
+&lt;li>alsa&lt;/li>
+&lt;li>Slim&lt;/li>
+&lt;li>D1Z4STR&lt;/li>
+&lt;li>zDas&lt;/li>
+&lt;li>jdsmith&lt;/li>
+&lt;/ul>
+&lt;h3 id="the-website">The Website&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Step&lt;/strong> for setting up Hugo and the Docsy theme, and for putting up with my constant pestering and feature requests as well as the dark theme (you know it&amp;rsquo;s for you).&lt;/li>
+&lt;li>&lt;strong>Kai&lt;/strong> for implementing the theme toggle so that alsa and I can use light mode, yay!&lt;/li>
+&lt;li>&lt;strong>vaecors&lt;/strong> for reminding me that Hugo would work perfectly with the markdown version of the guide and supporting us in setting it up.&lt;/li>
+&lt;li>&lt;strong>erri120&lt;/strong> without whom I might never have tried Github which turned out to be the perfect solution.&lt;/li>
+&lt;/ul>
+&lt;h3 id="further-acknowledgements">Further Acknowledgements&lt;/h3>
+&lt;ul>
+&lt;li>Thanks to &lt;strong>Lexy&lt;/strong> whose guide inspired me in many ways and with whom I&amp;rsquo;ve enjoyed some great conversations about the woes of maintaining a modding guide.&lt;/li>
+&lt;li>Thanks to &lt;strong>halgari&lt;/strong> and the Wabbajack team with whom we&amp;rsquo;ve been in touch since its inception and who have been very accomodating and supportive.&lt;/li>
+&lt;li>And lastly, thanks to many mod authors and fellow guide authors who have contributed to&lt;/li>
+&lt;/ul></description></item></channel></rss>
