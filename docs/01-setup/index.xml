@@ -424,7 +424,7 @@
 &lt;li>Extract the archive’s contents to &lt;code>Your Modding Folder\temp&lt;/code>.&lt;/li>
 &lt;li>Move the following three files into your Skyrim SE &lt;strong>root&lt;/strong> folder:
 &lt;ul>
-&lt;li>**skse64_**skyrim version number**.dll**&lt;/li>
+&lt;li>&lt;strong>skse64_skyrim version number.dll&lt;/strong>&lt;/li>
 &lt;li>&lt;strong>skse64_loader.exe&lt;/strong>&lt;/li>
 &lt;li>&lt;strong>skse64_steam_loader.dll&lt;/strong>&lt;/li>
 &lt;/ul>

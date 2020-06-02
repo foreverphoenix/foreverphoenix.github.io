@@ -1,10 +1,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Mod Installation</title><link>http://example.org/docs/02-mod-installation/</link><description>Recent content in Mod Installation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="http://example.org/docs/02-mod-installation/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Essential Mods</title><link>http://example.org/docs/02-mod-installation/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-mod-installation/step-01/</guid><description>
-&lt;h2 id="address-library-for-skse-plugins">Address Library for SKSE Plugins&lt;/h2>
+&lt;h2 id="11-address-library-for-skse-plugins">1.1 Address Library for SKSE Plugins&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods32444tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32444?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> All in one&lt;/li>
 &lt;/ul>
-&lt;h2 id="sse-engine-fixes">SSE Engine Fixes&lt;/h2>
+&lt;h2 id="12-sse-engine-fixes">1.2 SSE Engine Fixes&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods17230tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17230?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> (Part 1) Engine Fixes&lt;/li>
@@ -37,29 +37,29 @@
 &lt;/li>
 &lt;li>Close the window and click &lt;strong>Yes&lt;/strong> when asked to save your change.&lt;/li>
 &lt;/ul>
-&lt;h2 id="net-script-framework-nsf">.NET Script Framework (NSF)&lt;/h2>
+&lt;h2 id="13-net-script-framework-nsf">1.3 .NET Script Framework (NSF)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods21294tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21294?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> NetScriptFramework SkyrimSE v13&lt;/li>
 &lt;/ul>
-&lt;h2 id="sse-display-tweaks">SSE Display Tweaks&lt;/h2>
+&lt;h2 id="14-sse-display-tweaks">1.4 SSE Display Tweaks&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods34705tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34705?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> SSE Display Tweaks&lt;/li>
 &lt;/ul>
-&lt;h2 id="autorun-console-commands-acc">Autorun Console Commands (ACC)&lt;/h2>
+&lt;h2 id="15-autorun-console-commands-acc">1.5 Autorun Console Commands (ACC)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods24919tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24919?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> ACC - Autorun Console Commands&lt;/li>
 &lt;/ul>
-&lt;h2 id="unofficial-high-definition-audio-project">Unofficial High Definition Audio Project&lt;/h2>
+&lt;h2 id="16-unofficial-high-definition-audio-project">1.6 Unofficial High Definition Audio Project&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods18115tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18115?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Music - HQ&lt;/li>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Voices EN - Part 1&lt;/li>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Voices EN - Part 2&lt;/li>
 &lt;/ul>
-&lt;h2 id="unofficial-skyrim-special-edition-patch-ussep">Unofficial Skyrim Special Edition Patch (USSEP)&lt;/h2>
+&lt;h2 id="17-unofficial-skyrim-special-edition-patch-ussep">1.7 Unofficial Skyrim Special Edition Patch (USSEP)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods266tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/266?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Unofficial Skyrim Special Edition Patch&lt;/li>
@@ -72,12 +72,12 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="alternate-start---live-another-life-as-lal">Alternate Start - Live Another Life (AS LAL)&lt;/h2>
+&lt;h2 id="18-alternate-start---live-another-life-as-lal">1.8 Alternate Start - Live Another Life (AS LAL)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods272tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/272?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Alternate Start - Live Another Life&lt;/li>
 &lt;/ul>
-&lt;h2 id="skyrim-particle-patch">Skyrim Particle Patch&lt;/h2>
+&lt;h2 id="19-skyrim-particle-patch">1.9 Skyrim Particle Patch&lt;/h2>
 &lt;h4 id="download-instructionshttpenbseriesenbdevcomforumviewtopicphpt1499">&lt;a href="http://enbseries.enbdev.com/forum/viewtopic.php?t=1499">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>Find the &lt;strong>SPECIAL EDITION&lt;/strong> section in the forum post linked above and click the &lt;strong>GOOGLE DRIVE&lt;/strong> link (see picture).&lt;/li>
@@ -98,7 +98,7 @@
 &lt;blockquote>
 &lt;p>The plugin is not needed. Its functionality was replaced by ENB Helper. The texture can cause water spray to look much darker than intended with Realistic Water Two.&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="static-mesh-improvement-mod-smim">Static Mesh Improvement Mod (SMIM)&lt;/h2>
+&lt;h2 id="110-static-mesh-improvement-mod-smim">1.10 Static Mesh Improvement Mod (SMIM)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods17230tabfiles-1">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17230?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> SMIM SE 2-08&lt;/li>
@@ -119,7 +119,7 @@
 &lt;blockquote>
 &lt;p>The first mesh will be replaced either by the fixed version contained in Skyrim Landscape and Water Fixes or by Real Walls 3D. Deleting the second mesh will allow you to use a different retexture for the Solitude city gate.&lt;/p>
 &lt;/blockquote></description></item><item><title>Docs: Fixes</title><link>http://example.org/docs/02-mod-installation/step-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-mod-installation/step-02/</guid><description>
-&lt;h2 id="weapons-armor-clothing-and-clutter-fixes-waccf">Weapons, Armor, Clothing and Clutter Fixes (WACCF)&lt;/h2>
+&lt;h2 id="21-weapons-armor-clothing-and-clutter-fixes-waccf">2.1 Weapons, Armor, Clothing and Clutter Fixes (WACCF)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods18994tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18994?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main File&lt;/strong> - Weapons Armor Clothing and Clutter Fixes&lt;/li>
@@ -358,4 +358,515 @@
 &lt;h4 id="download-instructions-22">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main File&lt;/strong> - ActorLimitPlugin v2&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Tweaks</title><link>http://example.org/docs/02-mod-installation/step-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-mod-installation/step-03/</guid><description>
+&lt;h2 id="31-run-for-your-lives">3.1 Run For Your Lives&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods2272tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2272?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Run For Your Lives&lt;/li>
+&lt;/ul>
+&lt;h2 id="32-dwemer-gates-dont-reset-optional">3.2 Dwemer Gates Don&amp;rsquo;t Reset (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26331tabfiles-">&lt;a href="(https://www.nexusmods.com/skyrimspecialedition/mods/26331?tab=files)">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Dwemer Gates Don&amp;rsquo;t Reset&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Versions:&lt;/strong> Dwemer Only USSEP&lt;/li>
+&lt;/ul>
+&lt;h2 id="33-andrealphus-gameplay-tweaks-optional">3.3 Andrealphus&amp;rsquo; Gameplay Tweaks (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods27939tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27939?tab=files">Download instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> ANDR Tweaks 02 - Harder Mara Quests&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> ANDR Tweaks 06 - No Easy Bloodkin&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> ANDR Tweaks 07 - Only Dead Lover&amp;rsquo;s Cause Inheritance Letters&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> ANDR Tweaks 13A - Stones of Barenziah - Dawnguard&lt;/li>
+&lt;/ul>
+&lt;h2 id="34-calcelmo-has-standards-optional">3.4 Calcelmo Has Standards (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26503tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26503?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Calcelmo Has Standards SE&lt;/li>
+&lt;/ul>
+&lt;h2 id="35-helgen-keep-bandit-chief-executioner-optional">3.5 Helgen Keep Bandit Chief Executioner (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26816tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26816?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> HelgenKeepBanditChiefExecutioner SE v1.0&lt;/li>
+&lt;/ul>
+&lt;h2 id="36-move-it-dammit-optional">3.6 Move It Dammit (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods752tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/752?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Move it Dammit - for Skyrim Special Edition v1.1.0b (Installation Script)&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Custom:&lt;/strong> Move it Dammit&lt;/li>
+&lt;/ul>
+&lt;h2 id="37-npcs-run-and-walk-at-your-pace-optional">3.7 NPCs Run and Walk at Your Pace (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods2482tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2482?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Run and Walk at your Pace&lt;/li>
+&lt;/ul>
+&lt;h2 id="38-no-more-standing-too-close-optional">3.8 No More Standing Too Close (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods4784">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4784">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> No More Standing Too Close SSE&lt;/li>
+&lt;/ul>
+&lt;h2 id="39-realistic-conversations-optional">3.9 Realistic Conversations (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods1717tabfiles">&lt;a href="%5D(https://www.nexusmods.com/skyrimspecialedition/mods/1717?tab=files)">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Realistic Conversations&lt;/li>
+&lt;/ul>
+&lt;h2 id="310-no-npc-greetings-optional">3.10 No NPC Greetings (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods1044tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1044?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> No NPC Greetings (Special Edition) - NMM FOMOD Installer&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions-2">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Select an Option:&lt;/strong> Reduced Distance (Recommended)&lt;/li>
+&lt;/ul>
+&lt;h2 id="311-dont-talk-with-your-mouth-full-optional">3.11 Don&amp;rsquo;t Talk With Your Mouth Full (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods17715tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17715?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Don’t Talk With Your Mouth Full&lt;/li>
+&lt;/ul>
+&lt;h2 id="312-random-encounter-tweaks-optional">3.12 Random Encounter Tweaks (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods16804tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/16804?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Random Encounter Tweaks&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Please be aware that the only part of the mod that will come into effect is the addition of Shivs for Skooma dealers. Everything else will eventually be overwritten by Timing Is Everything.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="313-morrowloot-miscellania---better-ancient-knowledge-optional">3.13 Morrowloot Miscellania - Better Ancient Knowledge (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods27094tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27094?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Morrowloot Miscellania - Better Ancient Knowledge&lt;/li>
+&lt;/ul>
+&lt;h2 id="314-no-spinning-death-animation-optional">3.14 No Spinning Death Animation (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods1432tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1432?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> No Spinning Death Animation MERGED&lt;/li>
+&lt;/ul>
+&lt;h2 id="315-improved-weapon-impact-effects-optional">3.15 Improved Weapon Impact Effects (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods8936tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8936?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Sparkles&lt;/li>
+&lt;/ul>
+&lt;h2 id="316-simply-smaller-wolves-optional">3.16 Simply Smaller Wolves (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods10935tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/10935?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Simply Smaller Wolves&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The file is actually called Simply Bigger Wolves. Don’t be confused, this is a mistake on the part of the author.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;p>Simply Smaller Wolves conflicts with the USSEP. We will resolve these conflicts manually.&lt;/p>
+&lt;ul>
+&lt;li>Run &lt;strong>SSEEdit&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> in the plugin selection window to load all your mods.&lt;/li>
+&lt;li>Wait until SSEEdit returns &lt;code>Background loader: finished&lt;/code>.&lt;/li>
+&lt;li>Double-click &lt;strong>SimplySmallerWolfs2.esp&lt;/strong> in the left pane to expand the plugin.&lt;/li>
+&lt;li>Double-click &lt;strong>Non-Player Character (Actor)&lt;/strong> and select the &lt;strong>EncC06WolfSpirit&lt;/strong> record inside.&lt;/li>
+&lt;li>Drag and drop all edits highlighted red from the &lt;strong>Unofficial Skyrim Special Edition Patch.esp&lt;/strong> column into &lt;strong>SimplySmallerWolfs2.esp&lt;/strong>.&lt;/li>
+&lt;li>When asked, click &lt;strong>Yes I&amp;rsquo;m absolutely sure&lt;/strong>.&lt;/li>
+&lt;li>Once both conflicts are resolved, the record will be displayed in green.&lt;/li>
+&lt;li>Close SSEEdit. Click &lt;strong>OK&lt;/strong> to save your changes and quit.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/simply_smaller_wolves_conflict_1.png" alt="Simply Smaller Wolves 1">&lt;/p>
+&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/simply_smaller_wolves_conflict_2.png" alt="Simply Smaller Wolves 2">&lt;/p>
+&lt;h2 id="317-quiet-dog-optional">3.17 Quiet Dog (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods6066tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6066?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Quiet Dog - Sit&lt;/li>
+&lt;/ul>
+&lt;h2 id="318-skeletons-dont-breathe-optional">3.18 Skeletons Don&amp;rsquo;t Breathe (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods18542tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18542?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> skeletons don’t breathe SSE loose files version&lt;/li>
+&lt;/ul>
+&lt;h2 id="319-remove-sneak-attack-sound-optional">3.19 Remove Sneak Attack Sound (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods17496tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17496?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Remove Sneak Attack Sound - Loose&lt;/li>
+&lt;/ul>
+&lt;h2 id="320-bard-instrumentals-mostly---sing-rarely-optional">3.20 Bard Instrumentals Mostly - Sing Rarely (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods10927tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/10927?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Bard Instrumentals Mostly - Sing Rarely&lt;/li>
+&lt;/ul>
+&lt;h2 id="321-no-crime-teleport-optional">3.21 No Crime Teleport (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods13109tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/13109?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> No Crime Teleport&lt;/li>
+&lt;/ul>
+&lt;h2 id="322-better-dialogue-controls-optional">3.22 Better Dialogue Controls (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods1429tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1429?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Better Dialogue Controls v1_2&lt;/li>
+&lt;/ul>
+&lt;h2 id="323-better-messagebox-controls-optional">3.23 Better MessageBox Controls (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods1428tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1428?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Better MessageBox Controls v1_2&lt;/li>
+&lt;/ul>
+&lt;h2 id="324-better-stealing-optional">3.24 Better Stealing (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods32295tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32295?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> BetterStealing v2&lt;/li>
+&lt;/ul>
+&lt;h2 id="325-uninterrupted-invisibility-optional">3.25 Uninterrupted Invisibility (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods21729tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21729?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Uninterrupted Invisibility v2&lt;/li>
+&lt;/ul>
+&lt;h2 id="326-uninterrupted-ethereal-form-optional">3.26 Uninterrupted Ethereal Form (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods21765tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21765?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Uninterrupted Ethereal Form v2&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Interface</title><link>http://example.org/docs/02-mod-installation/step-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-mod-installation/step-04/</guid><description>
+&lt;h2 id="41-skyui">4.1 SkyUI&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods12604tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12604?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> SkyUI_5_2_SE&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Run SSEEdit through Mod Organizer 2.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> in the plugin selection window to load all plugins.&lt;/li>
+&lt;li>Wait for your mods to be loaded up before you proceed.&lt;/li>
+&lt;li>Right-click &lt;strong>SkyUI_SE.esp&lt;/strong> in the left pane and select &lt;strong>Add Masters&lt;/strong>.&lt;/li>
+&lt;li>Check &lt;strong>Skyrim.esm&lt;/strong> and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>Yes, I’m sure&lt;/strong> when the warning comes up.&lt;/li>
+&lt;li>Close SSEEdit and click &lt;strong>OK&lt;/strong> to save your changes.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The plugin had no masters assigned to it which causes errors. Every plugin needs to have at least Skyrim.esm as a master.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="42-fix-note-icon-for-skyui-optional">4.2 Fix Note Icon for SkyUI (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods32561tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32561/?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> FixNotesForSkyUI SKSE64 2.0.17&lt;/li>
+&lt;/ul>
+&lt;h2 id="43-remove-quicksave-button-from-skyui-systems-menu-optional">4.3 Remove Quicksave Button from SkyUI Systems Menu (optional)&lt;/h2>
+&lt;p>While quicksaving is not actually broken as the mod page claims (&lt;a href="https://www.reddit.com/r/skyrimmods/comments/7bkazq/whats_the_real_deal_with_quicksavesautosaves/">more about that here&lt;/a>), I personally like the re-ordering and decluttering of the Pause menu. It will look as follows:&lt;/p>
+&lt;ul>
+&lt;li>MCM&lt;/li>
+&lt;li>Save&lt;/li>
+&lt;li>Load&lt;/li>
+&lt;li>Settings&lt;/li>
+&lt;li>Controls&lt;/li>
+&lt;li>Quit&lt;/li>
+&lt;/ul>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods28334tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28334?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Remove QuickSave and Help Buttons (1)&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>While optional, I highly recommend installing this mod as it also contains the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20406">Flashing Savegame Fix&lt;/a> for SkyUI which solves a very annoying issue.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="44-wider-mcm-menu-for-skyui-optional">4.4 Wider MCM Menu for SkyUI (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods22825tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22825?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Opt. 1 - Wider MCM Menu for SkyUI&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>You can download any one of the main files. Check the GIFs and choose your preferred version.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="45-favorite-things---extended-favorites-menu-for-skyui-optional">4.5 Favorite Things - Extended Favorites Menu for SkyUI (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods27177tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27177?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Opt. 1 - Modified Vanilla Favorites&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>You can download any one of the main files. Check the pictures and choose your preferred version.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="46-stay-at-the-system-page-optional">4.6 Stay At The System Page (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods19832tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19832?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Stay At System Page&lt;/li>
+&lt;/ul>
+&lt;h2 id="47-racemenu">4.7 RaceMenu&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods19080tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19080?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> RaceMenu Special Edition v0-4-12&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and/or folder(s):
+&lt;ul>
+&lt;li>&lt;code>RaceMenuPlugin.esp&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="48-immersive-hud---ihud">4.8 Immersive HUD - iHUD&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods12440tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12440?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Immersive HUD - iHUD&lt;/li>
+&lt;/ul>
+&lt;h2 id="49-skyhud">4.9 SkyHUD&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods463tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/463?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> SkyHUD v090B v4&lt;/li>
+&lt;li>&lt;strong>Update Files:&lt;/strong> Patch - SkyHUD v090B ==merge with the main file==&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Install:&lt;/strong> Loose Files&lt;/li>
+&lt;li>&lt;strong>Preset:&lt;/strong> Vanilla Small&lt;/li>
+&lt;li>&lt;strong>Optional:&lt;/strong> Install iHUD compatibility patch&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
+&lt;p>&lt;strong>This is optional.&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Double-click &lt;strong>SkyHUD&lt;/strong> in your mod order.&lt;/li>
+&lt;li>In the &lt;strong>Text Files&lt;/strong> tab, select the &lt;strong>skyhud.txt&lt;/strong>.&lt;/li>
+&lt;li>Edit the following lines:
+&lt;ul>
+&lt;li>&lt;code>bAltArrow=1&lt;/code>&lt;/li>
+&lt;li>&lt;code>bAltCompass=1&lt;/code>&lt;/li>
+&lt;li>&lt;code>bDotCrosshair=1&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Close the window and confirm when asked to save.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>This will change the compass to a slimmer one and improve the arrow display. The crosshair will be turned into a simple dot.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="410-undiscovered-means-unknown-optional">4.10 Undiscovered Means Unknown (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods9762tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9762?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Undiscovered Means Unknown - Compass and Map Markers&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main:&lt;/strong>
+&lt;ul>
+&lt;li>Only the Compass&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Do you wish for the player&amp;rsquo;s location to be marked on the map?&lt;/strong>
+&lt;ul>
+&lt;li>Yes&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Have you installed SkyUI?&lt;/strong>
+&lt;ul>
+&lt;li>Yes&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Have you installed a HUD-altering mod?&lt;/strong>
+&lt;ul>
+&lt;li>SkyHUD&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Have you installed the mod Customizeable UI Replacer?&lt;/strong>
+&lt;ul>
+&lt;li>No&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Font choice:&lt;/strong>
+&lt;ul>
+&lt;li>Custom font&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Which colored map marker mod have you installed?&lt;/strong>
+&lt;ul>
+&lt;li>Default - Skyrim SE&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Do you wish for enemies to be visible in the compass?&lt;/strong>
+&lt;ul>
+&lt;li>Yes &lt;em>(this can easily be disabled in SkyHUD in the future)&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Which icon do you wish to use for undiscovered locations?&lt;/strong>
+&lt;ul>
+&lt;li>Nothing (an Invisible Icon)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="411-morehud-optional">4.11 moreHUD (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods12688tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12688?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> moreHUD SE Light Master&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-3">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Double-click &lt;strong>moreHUD&lt;/strong> in your mod order.&lt;/li>
+&lt;li>Switch to the &lt;strong>Filetree&lt;/strong> tab.&lt;/li>
+&lt;li>Rename the following file:
+&lt;ul>
+&lt;li>AHZmoreHUD.&lt;strong>esp&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>This is faster than ESL-ifying the ESP.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="412-morehud---inventory-edition-optional">4.12 moreHUD - Inventory Edition (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods18619tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18619?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> moreHUD Inventory Edition&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-4">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Double-click &lt;strong>moreHUD - Inventory Edition&lt;/strong> in your mod order.&lt;/li>
+&lt;li>Switch to the &lt;strong>Filetree&lt;/strong> tab.&lt;/li>
+&lt;li>Rename the following file:
+&lt;ul>
+&lt;li>AHZmoreHUDInventory.&lt;strong>esp&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>This is faster than ESL-ifying the ESP.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="413-a-matter-of-time---a-clock-hud-widget-optional">4.13 A Matter of Time - A Clock HUD Widget (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods12937tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12937?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> AMatterOfTime_v3_0_0_alpha_4&lt;/li>
+&lt;/ul>
+&lt;h2 id="414-a-matter-of-time---phoenix-preset-optional">4.14 A Matter of Time - Phoenix Preset (optional)&lt;/h2>
+&lt;p>This is my personal preset for AMOT. It uses the slim clock widget to match the slim compass from SkyHUD and has a small 24h clock with the ingame time centered below. You can change the clock to 12h through the MCM at any time.&lt;/p>
+&lt;p>Even if you have the preset installed, you can configure the AMOT settings to your liking. It will only be applied if you load it through the MCM specifically.&lt;/p>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> A Matter of Time - Phoenix Preset&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>&lt;strong>Mod Dependency:&lt;/strong> Only install this mod if you installed A Matter of Time. Otherwise skip it.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/amot_preset_preview.jpg" alt="My AMOT Preset Preview">&lt;/p>
+&lt;h2 id="415-shouts-in-the-dragon-tongue-sidt-optional">4.15 Shouts in the Dragon Tongue (SIDT) (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods5515tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5515?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> SIDT - Words Only&lt;/li>
+&lt;/ul>
+&lt;h2 id="416-skyrim-se-skill-interface-retexture-ssirt-optional">4.16 Skyrim SE Skill Interface Retexture (SSIRT) (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods1523tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1523?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> SSIRT SE v4.1&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions-2">FOMOD Instructions&lt;/h4>
+&lt;p>Below are my personal choices. Feel free to make your own!&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Background:&lt;/strong>
+&lt;ul>
+&lt;li>Background - Irradiant Stars - HDR Nebula&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Perk Lines:&lt;/strong>
+&lt;ul>
+&lt;li>Default&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Perk Line Colour:&lt;/strong>
+&lt;ul>
+&lt;li>Default&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Constellations:&lt;/strong>
+&lt;ul>
+&lt;li>HD Default&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Perk Stars:&lt;/strong>
+&lt;ul>
+&lt;li>Option 2&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Dawnguard:&lt;/strong>
+&lt;ul>
+&lt;li>HD Masser and Secunda and More Stars&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Vampire Background:&lt;/strong>
+&lt;ul>
+&lt;li>HDR Nebula&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="417-no-more-laser-printed-book-optional">4.17 No More Laser-Printed Book (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods462tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/462?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> No More Laser-Printed Book&lt;/li>
+&lt;/ul>
+&lt;h2 id="418-immersive-bookreading-and-lockpicking-optional">4.18 Immersive Bookreading and Lockpicking (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods4541tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4541?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Bookreading&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Lockpicking&lt;/li>
+&lt;/ul>
+&lt;h2 id="419-js-lockpicking-ui-optional">4.19 JS Lockpicking UI (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods22160tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22160?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> 2k Textures&lt;/li>
+&lt;/ul>
+&lt;h2 id="420-a-quality-world-map">4.20 A Quality World Map&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods5804tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5804?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> 8.4 A Quality World Map - Classic with All Roads&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-part-1">Additional Instructions, Part 1&lt;/h4>
+&lt;ul>
+&lt;li>Unpack &lt;strong>icepenguinworldmapclassic - textures.bsa&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Delete the following file(s) and/or folder(s):
+&lt;ul>
+&lt;li>&lt;code>icepenguinworldmapclassic.esp&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The BSA is deleted in order to allow A Quality World Map to overwrite some LOD files from Cathedral Landscapes. The plugin only contains one record which is completely overwritten by the AQWM+Luminosity lighting patch and it is no longer needed to load the BSA so it is redundant.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="additional-instructions-part-2">Additional Instructions, Part 2&lt;/h4>
+&lt;ul>
+&lt;li>Double-click &lt;strong>A Quality World Map&lt;/strong> in your mod order.&lt;/li>
+&lt;li>Switch to the &lt;strong>Filetree&lt;/strong> tab.&lt;/li>
+&lt;li>Rename the following file:
+&lt;ul>
+&lt;li>&lt;code>icepenguinworldmapclassic.ini&lt;/code> &amp;raquo; &lt;code>maplightfix.ini&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Since we just deleted the plugin, it can no longer load the INI file. By renaming it, the INI will now be loaded by the Luminosity map lighting patch (installed later on).&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="421-dynamic-snow-for-map-optional">4.21 Dynamic Snow for Map (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods29877tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/29877?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Type 1&lt;/li>
+&lt;/ul>
+&lt;h2 id="422-dawnguard-map-markers-optional">4.22 Dawnguard Map Markers (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods20931tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20931?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Dawnguard Map Markers&lt;/li>
+&lt;/ul>
+&lt;h2 id="423-smaller-vanilla-cursor-optional">4.23 Smaller Vanilla Cursor (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods20617tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20617?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Smaller Vanilla Cursors&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions-3">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Step 1:&lt;/strong> Right&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>If you are left-handed, feel free to select the &amp;ldquo;Left&amp;rdquo; option.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="424-recleaned-menu-optional">4.24 ReCleaned Menu (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26680tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26680?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> ReCleanedMenus&lt;/li>
+&lt;/ul>
+&lt;h2 id="425-loading-screen-smoke-removed-optional">4.25 Loading Screen Smoke Removed (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods4634tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4634?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Loading Screen Smoke Removed v1.0&lt;/li>
+&lt;/ul>
+&lt;h2 id="426-kenmod---time-on-loading-screen-optional">4.26 KenMOD - Time on Loading Screen (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods98tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/98?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Time on loading v5&lt;/li>
 &lt;/ul></description></item></channel></rss>

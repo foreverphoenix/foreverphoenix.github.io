@@ -1,11 +1,84 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Appendix</title><link>http://example.org/docs/07-appendix/</link><description>Recent content in Appendix on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="http://example.org/docs/07-appendix/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Credits</title><link>http://example.org/docs/07-appendix/02_credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/07-appendix/02_credits/</guid><description>
-&lt;h3 id="the-team">The team&lt;/h3>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Appendix</title><link>http://example.org/docs/07-appendix/</link><description>Recent content in Appendix on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="http://example.org/docs/07-appendix/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Troubleshooting</title><link>http://example.org/docs/07-appendix/01-troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/07-appendix/01-troubleshooting/</guid><description>
+&lt;h2 id="error-message-when-trying-to-launch-the-creation-kit">Error message when trying to launch the Creation Kit.&lt;/h2>
+&lt;p>If by chance you are seeing the error message picture below, it is simply an issue of the required version of Microsoft Visual C++ framework not being installed correctly. To fix this, download the latest &lt;strong>x64&lt;/strong> executable &lt;a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">here&lt;/a>. Run the downloaded executable and follow the prompts through the installation process.&lt;/p>
+&lt;p>&lt;img src="http://example.org/Pictures/faq/ck_error_vc_missing.jpg" alt="CK Error VC Missing">&lt;/p>
+&lt;h2 id="skyrim-crashes-upon-launch">Skyrim crashes upon launch.&lt;/h2>
+&lt;h4 id="launching-the-game-correctly">Launching the game correctly&lt;/h4>
+&lt;ul>
+&lt;li>Make sure Steam is running in the background.&lt;/li>
+&lt;li>In MO2, select SKSE64 from the drop-down menu and click Run.&lt;/li>
+&lt;/ul>
+&lt;h4 id="outdated-skse-plugins">Outdated SKSE plugins&lt;/h4>
+&lt;p>Skyrim may crash when you attempt to launch it with outdated SKSE plugins. This is a common problem in the weeks after a Skyrim SE and SKSE64 update. Normally there will be an error message as well, notifying you about the plugin in question. Mod Organizer 2 will show a warning as well.&lt;/p>
+&lt;p>One possible cause would be installing Simply Knock and accidentally skipping the updated SKSE64 DLL for it (&lt;strong>Mod Installation, Step 36&lt;/strong>). Double-check you have the latest versions of all mods with SKSE plugins installed and configured as per the guide’s instructions.&lt;/p>
+&lt;h4 id="skyrim-le-bsa">Skyrim LE BSA&lt;/h4>
+&lt;p>Skyrim will immediately crash if you attempt to launch it with an active Skyrim LE BSA (compiled with the Skyrim LE Creation Kit). You can find instructions on how to quickly narrow down the culprit in Resources &amp;gt; Quick Tutorials.&lt;/p>
+&lt;h4 id="ini-files">INI Files&lt;/h4>
+&lt;p>If none of the above helped, try regenerating your INI files from scratch. There are instructions under Resources &amp;gt; Quick Tutorials.&lt;/p>
+&lt;h2 id="skyrim-gets-stuck-in-the-main-menu">Skyrim gets stuck in the main menu.&lt;/h2>
+&lt;p>One of the more recent updates for the Unofficial Skyrim Special Edition Patch removed an AI package record from Aventus Aretino. None of the mods in the guide that touch Aventus (Prince and the Pauper, Simply Children, Adopt Aventus Aretino) have been updated since to incorporate that fix and they all have an unresolved error instead. This is fixed in the &lt;strong>Conflict Resolution Patch.esp&lt;/strong>.&lt;/p>
+&lt;p>If the main menu won&amp;rsquo;t load, your load order is messed up, or you aren&amp;rsquo;t using the CRP.&lt;/p>
+&lt;p>&lt;img src="http://example.org/Pictures/faq/stuck_in_main_menu.jpg" alt="Stuck in Main Menu">&lt;/p>
+&lt;h2 id="grass-looks-strangely-dull-and-flat">Grass looks strangely dull and flat.&lt;/h2>
+&lt;p>Without ENB, grass will unfortunately look much worse. If you are running an ENB preset, make sure &lt;strong>Ambient Occlusion&lt;/strong> and &lt;strong>Detailed Shadows&lt;/strong> are enabled as they really give grass some much needed depth. Be aware that those are both performance hungry settings that are disabled in Lite presets for a reason.&lt;/p>
+&lt;p>&lt;img src="https://cdn.discordapp.com/attachments/521296280165679119/702036429341065286/enb2020_4_21_00_57_56.jpg" alt="Example">&lt;/p>
+&lt;h2 id="lower-fps-than-expected">Lower FPS than expected.&lt;/h2>
+&lt;h4 id="playing-at-a-resolution-higher-than-1080p">Playing at a resolution higher than 1080p.&lt;/h4>
+&lt;p>You will experience a significant performance loss when playing on 1440p (or higher) compared to 1080p, around 20 FPS with TPF in my experience. Therefore I strongly recommend playing on 1080p even if your monitor is capable of a higher resolution. I&amp;rsquo;m personally doing just that on my 1440p monitor and it looks fine to me. Check Resources &amp;gt; Quick Tutorials for instructions on how to quickly change the game&amp;rsquo;s resolution.&lt;/p>
+&lt;h2 id="some-beards-look-strange-on-elven-player-characters">Some beards look strange on Elven player characters.&lt;/h2>
+&lt;p>This is unfortunately a known issue with the beard TRI files in Ethereal Elven Overhaul. Some of them clip into the skin. Fixed TRI files for one beard (HumanBeard25) are packaged with the guide&amp;rsquo;s CRP so that beards on humans look fine but issues remain with some beards on Elven characters. I have no idea to fix this and consider the issue low priority since Elves are rarely bearded anyway.&lt;/p>
+&lt;p>Check &lt;a href="https://github.com/foreverphoenix/the-phoenix-flavour/issues/8">issue report #8&lt;/a> for details and pictures.&lt;/p></description></item><item><title>Docs: Frequently Asked Questions</title><link>http://example.org/docs/07-appendix/02_faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/07-appendix/02_faq/</guid><description>
+&lt;h3 id="i-have-over-300-plugins-active-in-mod-organizer-2-is-that-intended">I have over 300 plugins active in Mod Organizer 2. Is that intended?&lt;/h3>
+&lt;p>Yes, that is definitely intended. While it&amp;rsquo;s true that Skyrim has a limit of 255 plugins, this applies only to ESP and ESM plugins. Many plugins in TPF are ESL-ified though, and do not count toward the limit. When you hover over the counter above the load order in MO2, you can see how many ESM + ESP plugins you have, and how close you really are to the limit.&lt;/p>
+&lt;h3 id="some-plugins-in-my-load-order-are-deactivated-is-that-intended">Some plugins in my load order are deactivated. Is that intended?&lt;/h3>
+&lt;p>No, this happens when renaming plugin extensions from ESL to ESP (in order to turn full ESLs into ESP-FE plugins). Make sure to check them again after renaming them. Eventually all plugins should be checked and active in your load order.&lt;/p>
+&lt;h3 id="is-enboost-a-thing-in-skyrim-se">Is ENBoost a thing in Skyrim SE?&lt;/h3>
+&lt;p>No. Because of the 64bit upgrade, Skyrim SE is able to allocate more RAM for itself which is essentially what ENBoost used to do for Classic Skyrim. The current ENB binaries for SE contain no ENBoost features.&lt;/p>
+&lt;h3 id="can-i-play-with-a-controller-instead-of-mouse-and-keyboard">Can I play with a controller instead of mouse and keyboard?&lt;/h3>
+&lt;p>Yep, it&amp;rsquo;s as easy as connecting a controller. The only potential issue would be lack of bindable hotkeys for mods.&lt;/p>
+&lt;h3 id="why-dont-all-classic-skyrim-mods-that-included-meshes-have-cao-instructions">Why don&amp;rsquo;t all Classic Skyrim mods that included meshes have CAO instructions?&lt;/h3>
+&lt;p>This is a good question. Generally, meshes created for LE need to be optimised before they can be used in SE. However, not all meshes actually need optimisation! When running a mod through Cathedral Assets Optimiser, check the &lt;strong>Log&lt;/strong> tab to see if there are any changes being made to specific files. If not, there is no need to use CAO on it. This is how I determined which mods need CAO instructions in the guide.&lt;/p>
+&lt;p>There is also the possibility that I simply forgot to add those instructions to a particular mod in the guide. When in doubt, you may run the mod through CAO with the &lt;strong>Optimise SLE Assets&lt;/strong> profile and check the log. If changes are indeed made, the lack of instructions are an oversight in which case I would ask you to report the mod on our Discord!&lt;/p>
+&lt;h3 id="is-it-still-necessary-to-roll-back-to-an-older-version-of-the-creation-kit">Is it still necessary to roll back to an older version of the Creation Kit?&lt;/h3>
+&lt;p>No, this is no longer necessary. You should be running the latest version of the Creation Kit. Go into your &lt;strong>root&lt;/strong> folder, right-click &lt;strong>CreationKit.exe&lt;/strong>, switch to the &lt;strong>Details&lt;/strong> tab and you should have &lt;strong>Product version 1.5.73.0&lt;/strong>.&lt;/p>
+&lt;p>For a time it was necessary to use the executable and DLLs of the previous version (1.5.53) because &lt;strong>CK Fixes&lt;/strong> was only working with that version of the Creation Kit. CK Fixes has since been updated.&lt;/p></description></item><item><title>Docs: Future Plans</title><link>http://example.org/docs/07-appendix/03_future_plans/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/07-appendix/03_future_plans/</guid><description>
+&lt;p>I am working on the guide in my free time of which I admittedly have plenty.&lt;/p>
+&lt;ul>
+&lt;li>You can check my current to do list on Github &lt;a href="https://github.com/foreverphoenix/the-phoenix-flavour/projects/2">here&lt;/a>.&lt;/li>
+&lt;li>Issues are tracked on Github &lt;a href="https://github.com/foreverphoenix/the-phoenix-flavour/issues">here&lt;/a>.&lt;/li>
+&lt;li>Mods pending review or addition to the guide are listed on my &lt;a href="https://trello.com/b/Rv20fMdV/the-phoenix-flavour-additional-mods">Trello board&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="planned-features">Planned features&lt;/h2>
+&lt;ul>
+&lt;li>More mods of course.&lt;/li>
+&lt;li>Small descriptions for (most) mods.&lt;/li>
+&lt;li>A beginner&amp;rsquo;s guide to precede the Setup.&lt;/li>
+&lt;li>A detailed MO2 guide for the Resources section.&lt;/li>
+&lt;li>A gameplay guide akin to what many Wabbajack lists offer.&lt;/li>
+&lt;/ul>
+&lt;p>The Customisation and Resources sections as well as the Troubleshooting page are also in need of many more updates and additions.&lt;/p>
+&lt;h2 id="additional-mods">Additional mods&lt;/h2>
+&lt;p>Mods that are being considered for TPF are listed on our Trello board, linked above.&lt;/p>
+&lt;h4 id="mods-that-will-not-be-added">Mods that will not be added&lt;/h4>
+&lt;p>Some popular mods will never, ever be added to TPF. This is not necessarily because I consider them &amp;ldquo;bad&amp;rdquo; or low quality but mostly because they do not fit the vision of a streamlined vanilla-plus version of Skyrim SE. This is a non-exhaustive list of mods, please do not ask me about them, I will not do it.&lt;/p>
+&lt;ul>
+&lt;li>Legacy of the Dragonborn&lt;/li>
+&lt;li>Ordinator&lt;/li>
+&lt;li>Chesko&amp;rsquo;s survival mods (Frostfall, Campfire)&lt;/li>
+&lt;li>Complete Alchemy and Cooking Overhaul (CACO)&lt;/li>
+&lt;/ul>
+&lt;p>TPF is unlikely to ever feature any kind of needs / survival mods with the exception of Parapets&amp;rsquo; &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33068">The Frozen North&lt;/a> which is subtle and streamlined enough to be considered.&lt;/p>
+&lt;h4 id="creation-club-support">Creation Club support&lt;/h4>
+&lt;p>My personal opinion of the CC is rather low for many reasons. However, I do consider adding support for some select &amp;ldquo;creations&amp;rdquo; in the future (Forgotten Seasons for instance). At present, TPF does not support any &amp;ldquo;creations&amp;rdquo; and installing them invalidates your right to receive support for issues just like adding other Nexus mods would.&lt;/p>
+&lt;h4 id="suggest-a-mod">Suggest a mod&lt;/h4>
+&lt;p>Any user is welcome to suggest mods for inclusion in the guide, but please make sure first that it isn&amp;rsquo;t already listed on our Trello (check the link above). If it isn&amp;rsquo;t, use our &lt;a href="https://docs.google.com/forms/d/1g9jL22NfnrHg_XwnKAFpL7WXOm28MKB3i1NRwHOUOUU/edit">Google Form&lt;/a> to submit your suggestion.&lt;/p></description></item><item><title>Docs: Credits</title><link>http://example.org/docs/07-appendix/04-credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/07-appendix/04-credits/</guid><description>
+&lt;h3 id="the-team">The Team&lt;/h3>
 &lt;ul>
 &lt;li>&lt;strong>Phoenix&lt;/strong> - that&amp;rsquo;s me! - published the guide initially way back in 2017 and stuck with it since. I do all the writing, basically.&lt;/li>
 &lt;li>&lt;strong>Umgak&lt;/strong> is in charge of all our custom patches, conflict resolution and consistency edits.&lt;/li>
 &lt;li>&lt;strong>Lively&lt;/strong> created and maintains the Wabbajack installer for TPF, and puts up with all the related help requests.&lt;/li>
 &lt;/ul>
-&lt;h3 id="past-and-present-contributors">Past and present contributors&lt;/h3>
+&lt;h3 id="past--present-contributors">Past &amp;amp; Present Contributors&lt;/h3>
 &lt;ul>
 &lt;li>Faron&lt;/li>
 &lt;li>Madi&lt;/li>
@@ -14,15 +87,18 @@
 &lt;li>D1Z4STR&lt;/li>
 &lt;li>zDas&lt;/li>
 &lt;li>jdsmith2816&lt;/li>
+&lt;li>Nth&lt;/li>
+&lt;li>Raven&lt;/li>
+&lt;li>nihues&lt;/li>
 &lt;/ul>
-&lt;h3 id="the-website">The website&lt;/h3>
+&lt;h3 id="the-website">The Website&lt;/h3>
 &lt;ul>
 &lt;li>Thanks to &lt;strong>Step&lt;/strong> for setting up Hugo and Docsy, for creating the dark theme, and for putting up with my constant pestering and feature requests.&lt;/li>
 &lt;li>Thanks to &lt;strong>Kai&lt;/strong> for implementing the theme toggle so that alsa and I and that one other user can use light mode, yay!&lt;/li>
 &lt;li>Thanks to &lt;strong>vaecors&lt;/strong> for reminding me that Hugo would work perfectly with the markdown version of the guide and supporting us in setting it up.&lt;/li>
 &lt;li>Thanks to &lt;strong>erri120&lt;/strong> without whom I might never have tried Github which turned out to be the perfect solution.&lt;/li>
 &lt;/ul>
-&lt;h3 id="further-acknowledgements">Further acknowledgements&lt;/h3>
+&lt;h3 id="further-acknowledgements">Further Acknowledgements&lt;/h3>
 &lt;ul>
 &lt;li>Thanks to &lt;strong>Lexy&lt;/strong> whose guide inspired me in many ways and with whom I&amp;rsquo;ve enjoyed some great conversations about the woes of maintaining a modding guide.&lt;/li>
 &lt;li>Thanks to &lt;strong>halgari&lt;/strong> and the Wabbajack team with whom we&amp;rsquo;ve been in touch since its inception and who have been very accomodating and supportive.&lt;/li>
