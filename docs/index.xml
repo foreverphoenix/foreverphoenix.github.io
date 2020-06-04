@@ -101,7 +101,7 @@
 &lt;p>Never underestimate the impact that high monitor resolutions have on performance. I would consider my setup to be on the higher end of the mid-tier spectrum, and when playing at 1080p I can get stable 60-100 FPS everywhere. At 1440p, I notice a considerable performance impact, losing 20 FPS on average. With the amount of additional pixels to render on resolutions like 1440p and upwards, the hardware requirement does go up quite harshly. And don’t expect 60FPS when playing on 4K with ENB.&lt;/p>
 &lt;p>The guide includes instructions to change the game&amp;rsquo;s resolution.&lt;/p>
 &lt;h2 id="getting-started">Getting Started&lt;/h2>
-&lt;p>Now that you have an idea of what the guide can offer you, it is your turn to decide which route to take. Continue with the &lt;strong>Setup&lt;/strong> &lt;a href="https://foreverphoenix.github.io/docs/01-setup/step-01/">here&lt;/a> to install the guide manually or find the &lt;strong>Wabbajack&lt;/strong> installer with instructions &lt;a href="https://docs.google.com/document/d/1wl3p-Nd0JZLohjJjDAV6SmxHDW6O4fYt7pngn8Es8DU/edit#heading=h.vqn9sw772v98">here&lt;/a>.&lt;/p>
+&lt;p>Now that you have an idea of what the guide can offer you, it is your turn to decide which route to take. Continue with the &lt;strong>Setup&lt;/strong> &lt;a href="https://foreverphoenix.github.io/docs/02-setup/step-01/">here&lt;/a> to install the guide manually or find the &lt;strong>Wabbajack&lt;/strong> installer with instructions &lt;a href="https://docs.google.com/document/d/1wl3p-Nd0JZLohjJjDAV6SmxHDW6O4fYt7pngn8Es8DU/edit#heading=h.vqn9sw772v98">here&lt;/a>.&lt;/p>
 &lt;h2 id="discord">Discord&lt;/h2>
 &lt;p>On our dedicated Discord server for The Phoenix Flavour, we are providing support for the main guide as well as the Wabbajack version of TPF. We are also talking guide changes, Skyrim modding, and gaming in general. Feel free to join us &lt;a href="https://discord.gg/BpwXX5f">here&lt;/a>!&lt;/p></description></item><item><title>Docs: Essential Mods</title><link>http://example.org/docs/03-mod-installation/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-01/</guid><description>
 &lt;h2 id="11-address-library-for-skse-plugins">1.1 Address Library for SKSE Plugins&lt;/h2>
@@ -338,7 +338,7 @@
 &lt;li>&lt;strong>Walkway Wall FIX:&lt;/strong> Walkway Wall FIX SMIM&lt;/li>
 &lt;li>&lt;strong>Optional:&lt;/strong> Missing Lights Fix&lt;/li>
 &lt;/ul>
-&lt;h2 id="27-landscape-fixes-for-grass-mods">2.7 [Landscape Fixes for Grass Mods&lt;/h2>
+&lt;h2 id="27-landscape-fixes-for-grass-mods">2.7 Landscape Fixes for Grass Mods&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods9005tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9005?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Landscape Fixes For Grass Mods&lt;/li>
@@ -1286,11 +1286,20 @@ iSize W=1920
 &lt;li>Eventually SSEEdit will return &lt;strong>Done: Applying script&lt;/strong>, and you can close the window.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="http://example.org/Pictures/finalisation/allgud_skeleton_patcher.png" alt="AllGUD Skeleton Patcher">&lt;/p></description></item><item><title>Docs: Changelog</title><link>http://example.org/docs/08-appendix/03-changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/08-appendix/03-changelog/</guid><description>
+&lt;h2 id="release-323">Release 3.2.3&lt;/h2>
+&lt;p>Maintenance update.&lt;/p>
+&lt;h4 id="mod-installation">Mod Installation&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>8.1:&lt;/strong> Updated download instructions for Frozen Electrocuted Combustion (file update).&lt;/li>
+&lt;li>&lt;strong>10.1:&lt;/strong> Updated FOMOD instructions for EVT Alternate Branch Textures (file update).&lt;/li>
+&lt;li>&lt;strong>37.1:&lt;/strong> Updated download instructions for Audio Overhaul for Skyrim, removed instructions to download the EBT Patch (now integrated into the CRP).&lt;/li>
+&lt;li>&lt;strong>37.1:&lt;/strong> Removed instructions to delete the SKSE folder (no longer preset) and added instructions to delete the modgroups file for Audio Overhaul for Skyrim.&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-322">Release 3.2.2&lt;/h2>
 &lt;p>Just a small maintenance update. Realistic Water Two received a big update today, then got hidden to fix oversights. It&amp;rsquo;s back up now. You can probably expect a CRP update soon, but for now here are the updated instructions.&lt;/p>
 &lt;p>For those who use Arthmoor&amp;rsquo;s additional towns from Customisation, there are now instructions for the Lanterns of Skyrim II patches. I missed them previously.&lt;/p>
 &lt;p>&lt;strong>Wabbajack users:&lt;/strong> Stop pestering Lively about fixing the installer. When mods are updated, he has to update his own setup and recompile, and that takes time. Consider the fact that he has a life that includes more than updating the installer the second a mod update drops. Plus when a mod is hidden, like RW2 was today, there is nothing anyone can do and we all have to wait for the mod author to unhide the mod page.&lt;/p>
-&lt;h4 id="mod-installation">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-1">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>1.9 Added instructions to delete a textures from the Particle Patch (fixes a bug where water spray would look much darker than intended).&lt;/li>
 &lt;li>9.7 Updated instructions for Realistic Water Two.&lt;/li>
@@ -1313,7 +1322,7 @@ iSize W=1920
 &lt;li>2.9 Added section on what to do with &amp;lsquo;creations&amp;rsquo; reinstalled alongside Skyrim SE.&lt;/li>
 &lt;li>6.3 Updated BethINI settings. Added screenshots.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-1">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-2">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Fixed some typos and duplicate instructions.&lt;/li>
 &lt;li>Incremented version numbers for some updated files.&lt;/li>
@@ -1387,7 +1396,7 @@ iSize W=1920
 &lt;li>Moved the Mod Installation Instructions to Setup, Step 10.&lt;/li>
 &lt;li>Moved &amp;ldquo;Step 5 - Skyrim Realistic Overhaul&amp;rdquo; from the Mod Installation section to the Setup as Step 9.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-2">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-3">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Removed Havok Fix (replaced with SSE Display Tweaks).&lt;/li>
 &lt;li>Removed Cutting Room Floor.&lt;/li>
@@ -4122,7 +4131,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods3532tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3532?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Frozen Electrocuted Combustion - 3.4.5&lt;/li>
-&lt;li>&lt;strong>Update Files:&lt;/strong> Frozen Electrocuted Combustion - 3.4.6 (update)&lt;/li>
+&lt;li>&lt;strong>Update Files:&lt;/strong> Frozen Electrocuted Combustion - 3.4.7 (update) &amp;mdash; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h2 id="82-enhanced-blood-textures">8.2 Enhanced Blood Textures&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods2357tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2357?tab=files">Download Instructions&lt;/a>&lt;/h4>
@@ -4763,6 +4772,11 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;/ul>
 &lt;/li>
 &lt;li>&lt;strong>Custom Trees - Greener Bark Textures:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;em>Select nothing on this page.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Darker EVT Textures:&lt;/strong>
 &lt;ul>
 &lt;li>&lt;em>Select nothing on this page.&lt;/em>&lt;/li>
 &lt;/ul>

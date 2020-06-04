@@ -179,7 +179,7 @@
 &lt;li>&lt;strong>Walkway Wall FIX:&lt;/strong> Walkway Wall FIX SMIM&lt;/li>
 &lt;li>&lt;strong>Optional:&lt;/strong> Missing Lights Fix&lt;/li>
 &lt;/ul>
-&lt;h2 id="27-landscape-fixes-for-grass-mods">2.7 [Landscape Fixes for Grass Mods&lt;/h2>
+&lt;h2 id="27-landscape-fixes-for-grass-mods">2.7 Landscape Fixes for Grass Mods&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods9005tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9005?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Landscape Fixes For Grass Mods&lt;/li>
@@ -1435,7 +1435,7 @@
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods3532tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3532?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Frozen Electrocuted Combustion - 3.4.5&lt;/li>
-&lt;li>&lt;strong>Update Files:&lt;/strong> Frozen Electrocuted Combustion - 3.4.6 (update)&lt;/li>
+&lt;li>&lt;strong>Update Files:&lt;/strong> Frozen Electrocuted Combustion - 3.4.7 (update) &amp;mdash; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h2 id="82-enhanced-blood-textures">8.2 Enhanced Blood Textures&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods2357tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2357?tab=files">Download Instructions&lt;/a>&lt;/h4>
@@ -1987,6 +1987,11 @@
 &lt;/ul>
 &lt;/li>
 &lt;li>&lt;strong>Custom Trees - Greener Bark Textures:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;em>Select nothing on this page.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Darker EVT Textures:&lt;/strong>
 &lt;ul>
 &lt;li>&lt;em>Select nothing on this page.&lt;/em>&lt;/li>
 &lt;/ul>
@@ -4506,7 +4511,7 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;h2 id="261-ai-overhaul">26.1 AI Overhaul&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods21654tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21654?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> AI Overhaul 1.5.2&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> AI Overhaul 1.5.3&lt;/li>
 &lt;/ul>
 &lt;h2 id="262-ai-overhaul---windsong-immersive-character-overhaul-patch">26.2 AI Overhaul - Windsong Immersive Character Overhaul Patch&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Download Instructions&lt;/a>&lt;/h4>
@@ -5267,7 +5272,7 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;h2 id="323-the-tools-of-kagrenac">32.3 The Tools of Kagrenac&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods14168tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14168?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> The Tools of Kagrenac V1.53a SSE&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> The Tools of Kagrenac V1.56 SSE&lt;/li>
 &lt;/ul>
 &lt;h2 id="324-it-beats-for-her-optional">32.4 It Beats For Her (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods22956tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22956?tab=files">Download Instructions&lt;/a>&lt;/h4>
@@ -5652,21 +5657,17 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;h2 id="371-audio-overhaul-for-skyrim-aos">37.1 Audio Overhaul for Skyrim (AOS)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods12466tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12466?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> - Audio Overhaul Skyrim (3.2.0)&lt;/li>
-&lt;li>&lt;strong>Miscellaneous Files:&lt;/strong> - Compatibility Patch for Enhanced Blood Textures&lt;/li>
-&lt;li>&lt;strong>Miscellaneous Files:&lt;/strong> - Weather Patch for Obsidian Weathers and Seasons&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Audio Overhaul Skyrim (3.3.2)&lt;/li>
+&lt;li>&lt;strong>Miscellaneous Files:&lt;/strong> Weather Patch for Obsidian Weathers and Seasons&lt;/li>
 &lt;/ul>
 &lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Delete the following file(s) and/or folder(s):
 &lt;ul>
-&lt;li>&lt;code>SKSE&lt;/code>&lt;/li>
+&lt;li>&lt;code>Audio Overhaul Skyrim.modgroups&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;blockquote>
-&lt;p>The SKSE plugin included with AOS is outdated. SSE Engine Fixes includes its functionality now.&lt;/p>
-&lt;/blockquote>
 &lt;h4 id="mod-order">Mod Order&lt;/h4>
 &lt;ul>
 &lt;li>Place both patches below the &lt;strong>PATCHES&lt;/strong> separator.&lt;/li>
