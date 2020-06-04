@@ -556,7 +556,7 @@
 &lt;p>&lt;img src="http://example.org/Pictures/setup/archive_folder.png" alt="Archive Folder">&lt;/p>
 &lt;h2 id="14-monitor-calibration">1.4 Monitor Calibration&lt;/h2>
 &lt;h3 id="141-gamma-and-brightness">1.4.1 Gamma and Brightness&lt;/h3>
-&lt;p>Assuming you already have your monitor configured with your preferred settings for resolution and refresh rate (in my case that is 60Hz and 1920x1080), you might still want to adjust the brightness and / or gamma either through your graphics card control panel or Windows&amp;rsquo; inbuilt calibration tool.&lt;/p>
+&lt;p>Assuming you already have your monitor configured with your preferred settings for resolution and refresh rate (in my case that is 60Hz and 1920x1080), you might still want to adjust the brightness and/or gamma either through your graphics card control panel or Windows&amp;rsquo; inbuilt calibration tool.&lt;/p>
 &lt;blockquote>
 &lt;p>Your monitor should have been running for at least 30 minutes before you adjust it.&lt;/p>
 &lt;/blockquote>
@@ -572,7 +572,7 @@
 &lt;li>&lt;a href="http://www.lagom.nl/lcd-test/">Lagom: LCD monitor test images&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="142-dynamic-range">1.4.2 Dynamic Range&lt;/h3>
-&lt;p>It is recommended that you ensure your monitor&amp;rsquo;s &lt;strong>Dynamic Range&lt;/strong> to &amp;ldquo;Full&amp;rdquo; if it is connected to your PC via DisplayPort or HDMI. Instructions for both NVIDIA and AMD based systems can be found &lt;a href="https://pcmonitors.info/articles/correcting-hdmi-colour-on-nvidia-and-amd-gpus/">here&lt;/a>.&lt;/p>
+&lt;p>It is recommended that you ensure your monitor&amp;rsquo;s &lt;strong>Dynamic Range&lt;/strong> is set to &amp;ldquo;Full&amp;rdquo; if it is connected to your PC via DisplayPort or HDMI. Instructions for both NVIDIA and AMD based systems can be found &lt;a href="https://pcmonitors.info/articles/correcting-hdmi-colour-on-nvidia-and-amd-gpus/">here&lt;/a>.&lt;/p>
 &lt;p>It turns out I actually had my monitor set to &amp;ldquo;Limited&amp;rdquo; for many years and grew so used to it that setting the Dynamic Range to &amp;ldquo;Full&amp;rdquo; only irritated me. Eventually I set it back to &amp;ldquo;Limited&amp;rdquo; with no regrets. Your mileage may vary.&lt;/p>
 &lt;h2 id="15-further-instructions">1.5 Further Instructions&lt;/h2>
 &lt;h3 id="151-rules">1.5.1 Rules&lt;/h3>
