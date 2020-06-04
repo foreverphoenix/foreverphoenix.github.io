@@ -5788,12 +5788,12 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - More Lights for ENB SE - Bthardamz&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Skeleton &amp; Animations</title><link>http://example.org/docs/02-mod-installation/step-39/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-mod-installation/step-39/</guid><description>
-&lt;h2 id="391-fores-new-idles-in-skyrim-fnishttpswwwnexusmodscomskyrimspecialeditionmods3038tabfiles">39.1 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3038?tab=files">Fores New Idles in Skyrim (FNIS)&lt;/a>&lt;/h2>
-&lt;h3 id="download-instructions">Download Instructions&lt;/h3>
+&lt;h2 id="391-fores-new-idles-in-skyrim-fnis">39.1 Fores New Idles in Skyrim (FNIS)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods3038tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3038?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> FNIS Behavior SE 7_6&lt;/li>
 &lt;/ul>
-&lt;h3 id="installation-instructions">Installation Instructions&lt;/h3>
+&lt;h4 id="installation-instructions">Installation Instructions&lt;/h4>
 &lt;p>This mod was not packaged correctly.&lt;/p>
 &lt;ul>
 &lt;li>Install the mod as usual by double-clicking it in the &lt;strong>Downloads&lt;/strong> tab.&lt;/li>
@@ -5801,12 +5801,12 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;li>Right-click the &lt;strong>Data&lt;/strong> folder and select &lt;strong>Set data directory&lt;/strong>.&lt;/li>
 &lt;li>Click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;h2 id="392-xp32-maximum-skeleton-special-extended-xpmssehttpswwwnexusmodscomskyrimspecialeditionmods1988tabfiles">39.2 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1988?tab=files">XP32 Maximum Skeleton Special Extended (XPMSSE)&lt;/a>&lt;/h2>
-&lt;h3 id="download-instructions-1">Download Instructions&lt;/h3>
+&lt;h2 id="392-xp32-maximum-skeleton-special-extended-xpmsse">39.2 XP32 Maximum Skeleton Special Extended (XPMSSE)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods1988tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1988?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> XP32 Maximum Skeleton Special Extended&lt;/li>
 &lt;/ul>
-&lt;h3 id="fomod-instructions">FOMOD Instructions&lt;/h3>
+&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Animation Rig Map:&lt;/strong>
 &lt;ul>
@@ -5874,12 +5874,12 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="393-xpmsse-fixes---automated-patcherhttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles">39.3 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">XPMSSE Fixes - Automated Patcher&lt;/a>&lt;/h2>
-&lt;h3 id="download-instructions-2">Download Instructions&lt;/h3>
+&lt;h2 id="393-xpmsse-fixes---automated-patcher">39.3 XPMSSE Fixes - Automated Patcher&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> XPMSSE Fixes - Automated Patcher &amp;mdash; &lt;code>download the file manually&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h3 id="special-instructions">Special Instructions&lt;/h3>
+&lt;h4 id="special-instructions">Special Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Find &lt;strong>XP32 Maximum Skeleton Special Extended&lt;/strong> in your mod order.&lt;/li>
 &lt;li>Right-click it and select &lt;strong>Open in Explorer&lt;/strong>.&lt;/li>
@@ -5888,49 +5888,49 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;li>Double-click &lt;strong>patch-xpmse.bat&lt;/strong> to start the process of applying the delta patch.&lt;/li>
 &lt;li>The patcher will delete themselves when it&amp;rsquo;s done.&lt;/li>
 &lt;/ul>
-&lt;h3 id="about-the-mod">About the mod&lt;/h3>
+&lt;h4 id="about-the-mod">About the mod&lt;/h4>
 &lt;p>Like many mod authors, Groovtama does not allow anyone to upload modified versions of his mod, XP32 Maximum Skeleton. At the same time he unfortunately refuses to fix some bugs in his mod so we will have to do that ourselves with our own copies of the mod. Instructions were posted &lt;a href="https://www.nexusmods.com/skyrim/articles/52373">here&lt;/a> by Kriffin, the author of All Geared Up Derivative, which is my source for the instructions below.&lt;/p>
 &lt;p>The automated version is a delta patcher to apply the changes automatically to your scripts (so there is no need for everyone to follow Kriffin&amp;rsquo;s instructions).&lt;/p>
-&lt;h2 id="394-all-geared-up-derivative-allgudhttpswwwnexusmodscomskyrimspecialeditionmods28833tabfiles">39.4 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28833?tab=files">All Geared Up Derivative (AllGUD)&lt;/a>&lt;/h2>
-&lt;h3 id="download-instructions-3">Download Instructions&lt;/h3>
+&lt;h2 id="394-all-geared-up-derivative-allgud">39.4 All Geared Up Derivative (AllGUD)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods28833tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28833?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> All Geared Up Derivative SE&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>In order to get AllGUD up and running, there are quite a few more additional steps. These will be taken care of during the Finalisation.&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="395-no-heavy-muscular-walk-and-idlehttpswwwnexusmodscomskyrimspecialeditionmods4746tabfiles-optional">39.5 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4746?tab=files">No Heavy Muscular Walk and Idle&lt;/a> (optional)&lt;/h2>
-&lt;h3 id="download-instructions-4">Download Instructions&lt;/h3>
+&lt;h2 id="395-no-heavy-muscular-walk-and-idle-optional">39.5 No Heavy Muscular Walk and Idle (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods4746tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4746?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> No heavy muscular walk and idle&lt;/li>
 &lt;/ul>
-&lt;h2 id="396-3rd-person-dual-wielding-fixhttpswwwnexusmodscomskyrimspecialeditionmods2425tabfiles-optional">39.6 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2425?tab=files">3rd Person Dual Wielding Fix&lt;/a> (optional)&lt;/h2>
-&lt;h3 id="download-instructions-5">Download Instructions&lt;/h3>
+&lt;h2 id="396-3rd-person-dual-wielding-fix-optional">39.6 3rd Person Dual Wielding Fix (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods2425tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2425?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> DWANIM&lt;/li>
 &lt;/ul>
-&lt;h2 id="397-d13-faster-get-up-stand-up-animationhttpswwwnexusmodscomskyrimspecialeditionmods5890tabfiles-optional">39.7 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5890?tab=files">D13 Faster GET UP STAND UP Animation&lt;/a> (optional)&lt;/h2>
-&lt;h3 id="download-instructions-6">Download Instructions&lt;/h3>
+&lt;h2 id="397-d13-faster-get-up-stand-up-animation-optional">39.7 D13 Faster GET UP STAND UP Animation (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods5890tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5890?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> D13 Faster Get Up Stand Up SSE&lt;/li>
 &lt;/ul>
-&lt;h2 id="398-dragon-animations-replacerhttpswwwnexusmodscomskyrimspecialeditionmods2163tabfiles-optional">39.8 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2163?tab=files">Dragon Animations Replacer&lt;/a> (optional)&lt;/h2>
-&lt;h3 id="download-instructions-7">Download Instructions&lt;/h3>
+&lt;h2 id="398-dragon-animations-replacer-optional">39.8 Dragon Animations Replacer (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods2163tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2163?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> DragonAnimationReplace_inSE_1_01&lt;/li>
 &lt;/ul>
-&lt;h2 id="399-immersive-dragonshttpswwwnexusmodscomskyrimspecialeditionmods18957tabfiles-optional">39.9 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18957?tab=files">Immersive Dragons&lt;/a> (optional)&lt;/h2>
-&lt;h3 id="download-instructions-8">Download Instructions&lt;/h3>
+&lt;h2 id="399-immersive-dragons-optional">39.9 Immersive Dragons (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods18957tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18957?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Dragons SE&lt;/li>
 &lt;/ul>
-&lt;h2 id="3910-supreme-vampire-lordhttpswwwnexusmodscomskyrimspecialeditionmods19706tabfiles-optional">39.10 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19706?tab=files">Supreme Vampire Lord&lt;/a> (optional)&lt;/h2>
-&lt;h3 id="download-instructions-9">Download Instructions&lt;/h3>
+&lt;h2 id="3910-supreme-vampire-lord-optional">39.10 Supreme Vampire Lord (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods19706tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19706?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Supreme Vampire Lords XP32 SE&lt;/li>
 &lt;/ul>
-&lt;h2 id="3911-werewolf-claws-affect-spider-webshttpswwwnexusmodscomskyrimspecialeditionmods11431tabfiles-optional">39.11 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11431?tab=files">Werewolf Claws Affect Spider Webs&lt;/a> (optional)&lt;/h2>
-&lt;h3 id="download-instructions-10">Download Instructions&lt;/h3>
+&lt;h2 id="3911-werewolf-claws-affect-spider-webs-optional">39.11 Werewolf Claws Affect Spider Webs (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods11431tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11431?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Werewolf Claws Affect Spider Webs - XPMSSE 4.71 version&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Utilities</title><link>http://example.org/docs/02-mod-installation/step-40/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-mod-installation/step-40/</guid><description>
