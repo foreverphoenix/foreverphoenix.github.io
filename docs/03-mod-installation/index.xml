@@ -5672,12 +5672,96 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;ul>
 &lt;li>Place both patches below the &lt;strong>PATCHES&lt;/strong> separator.&lt;/li>
 &lt;/ul>
-&lt;h2 id="372-improved-horse-step-sounds-optional">37.2 Improved Horse Step Sounds (optional)&lt;/h2>
+&lt;h2 id="372-immersive-sounds---compendium-isc">37.2 Immersive Sounds - Compendium (ISC)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods523tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/523/?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Sounds Compendium SSE 2.2&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Weapon Impact Options:&lt;/strong>
+&lt;ul>
+&lt;li>IS Default (Extra Bloody)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Weapon Draw/Sheathe Options:&lt;/strong>
+&lt;ul>
+&lt;li>Semi-Smooth Equip&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Bow Shot Option:&lt;/strong>
+&lt;ul>
+&lt;li>High Fantasy (Shorter Arrow Whistle)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Bow Pull Option:&lt;/strong>
+&lt;ul>
+&lt;li>IS Default&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Arrow Impact Options:&lt;/strong>
+&lt;ul>
+&lt;li>High Fantasy&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Extra Weaponry Options:&lt;/strong>
+&lt;ul>
+&lt;li>Extra Gory Killmove Sounds&lt;/li>
+&lt;li>Smooth Weapon Swings&lt;/li>
+&lt;li>Silent Arrow Projectile Loop&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Restauration Options:&lt;/strong>
+&lt;ul>
+&lt;li>Vanilla&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Firebolt Options:&lt;/strong>
+&lt;ul>
+&lt;li>Swooshy&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Creature Options:&lt;/strong>
+&lt;ul>
+&lt;li>Demonic Draugr&lt;/li>
+&lt;li>Well-Mannered Wolves&lt;/li>
+&lt;li>Sensible Storm Atronarchs&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Nirnroot Options:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;em>Feel free to make your own choice.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Misc Options:&lt;/strong>
+&lt;ul>
+&lt;li>More Rustling Heavy Armor &amp;mdash; &lt;code>this may get annoying, feel free to skip it&lt;/code>&lt;/li>
+&lt;li>&lt;del>Oblivion Skillup Sound&lt;/del>&lt;/li>
+&lt;li>Dungeon Ambiance&lt;/li>
+&lt;li>&lt;del>TESO Summoning&lt;/del>&lt;/li>
+&lt;li>&lt;em>You can (but don&amp;rsquo;t have to) select any of the silencer options.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="373-audio-overhaul---immersive-sounds-integration">37.3 Audio Overhaul - Immersive Sounds Integration&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods36761tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/36761?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Audio Overhaul Skyrim - Immersive Sounds Compendium Integration (1.0.1)&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and/or folder(s):
+&lt;ul>
+&lt;li>&lt;code>AOS_ISC_Integration.modgroups&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="374-improved-horse-step-sounds-optional">37.4 Improved Horse Step Sounds (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods848tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/848?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Improved Horse Step Sounds - Special Edition&lt;/li>
 &lt;/ul>
-&lt;h2 id="373-heart-of-the-beast--werewolf-sound-and-texture-overhaul-optional">37.3 Heart of the Beast – Werewolf Sound and Texture Overhaul (optional)&lt;/h2>
+&lt;h2 id="375-heart-of-the-beast--werewolf-sound-and-texture-overhaul-optional">37.5 Heart of the Beast – Werewolf Sound and Texture Overhaul (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods13779tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/13779?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Werewolf Sounds - LOW AGGRESSION&lt;/li>
@@ -5687,17 +5771,17 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Realistic Husky Sounds SE&lt;/li>
 &lt;/ul>
-&lt;h2 id="375-ominous-dragon-soul-absorb-music-optional">37.5 OMINOUS Dragon Soul Absorb Music (optional)&lt;/h2>
+&lt;h2 id="376-ominous-dragon-soul-absorb-music-optional">37.6 OMINOUS Dragon Soul Absorb Music (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods60767tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/60767?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> OMINOUS Dragon Soul Absorb Music&lt;/li>
 &lt;/ul>
-&lt;h2 id="376-soultrap-sound-edit--calm-wind-optional">37.6 Soultrap Sound Edit – Calm Wind (optional)&lt;/h2>
+&lt;h2 id="377-soultrap-sound-edit--calm-wind-optional">37.7 Soultrap Sound Edit – Calm Wind (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods8017tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8017?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Soultrap Sound Edit Calm Wind v1&lt;/li>
 &lt;/ul>
-&lt;h2 id="377-lower-sounding-thieves-guild-door-optional">37.7 Lower Sounding Thieves Guild Door (optional)&lt;/h2>
+&lt;h2 id="378-lower-sounding-thieves-guild-door-optional">37.8 Lower Sounding Thieves Guild Door (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods1826tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/1826?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> LowerVolume&lt;/li>
