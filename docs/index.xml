@@ -1286,19 +1286,9 @@ iSize W=1920
 &lt;li>Eventually SSEEdit will return &lt;strong>Done: Applying script&lt;/strong>, and you can close the window.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="http://example.org/Pictures/finalisation/allgud_skeleton_patcher.png" alt="AllGUD Skeleton Patcher">&lt;/p></description></item><item><title>Docs: Changelog</title><link>http://example.org/docs/08-appendix/03-changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/08-appendix/03-changelog/</guid><description>
-&lt;h2 id="release-33">Release 3.3&lt;/h2>
-&lt;h4 id="setup">Setup&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Step 7:&lt;/strong> Removed the zEdit section. zEdit will be re-added to the guide once mator provides ESL support.&lt;/li>
-&lt;/ul>
-&lt;h4 id="mod-installation">Mod Installation&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>37.2:&lt;/strong> Added Immersive Sounds - Compendium.&lt;/li>
-&lt;li>&lt;strong>37.3:&lt;/strong> Added Audio Overhaul - Immersive Sounds Integration.&lt;/li>
-&lt;/ul>
 &lt;h2 id="release-323">Release 3.2.3&lt;/h2>
 &lt;p>Maintenance update.&lt;/p>
-&lt;h4 id="mod-installation-1">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>8.1:&lt;/strong> Updated download instructions for Frozen Electrocuted Combustion (file update).&lt;/li>
 &lt;li>&lt;strong>10.1:&lt;/strong> Updated FOMOD instructions for EVT Alternate Branch Textures (file update).&lt;/li>
@@ -1309,7 +1299,7 @@ iSize W=1920
 &lt;p>Just a small maintenance update. Realistic Water Two received a big update today, then got hidden to fix oversights. It&amp;rsquo;s back up now. You can probably expect a CRP update soon, but for now here are the updated instructions.&lt;/p>
 &lt;p>For those who use Arthmoor&amp;rsquo;s additional towns from Customisation, there are now instructions for the Lanterns of Skyrim II patches. I missed them previously.&lt;/p>
 &lt;p>&lt;strong>Wabbajack users:&lt;/strong> Stop pestering Lively about fixing the installer. When mods are updated, he has to update his own setup and recompile, and that takes time. Consider the fact that he has a life that includes more than updating the installer the second a mod update drops. Plus when a mod is hidden, like RW2 was today, there is nothing anyone can do and we all have to wait for the mod author to unhide the mod page.&lt;/p>
-&lt;h4 id="mod-installation-2">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-1">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>1.9 Added instructions to delete a textures from the Particle Patch (fixes a bug where water spray would look much darker than intended).&lt;/li>
 &lt;li>9.7 Updated instructions for Realistic Water Two.&lt;/li>
@@ -1327,12 +1317,12 @@ iSize W=1920
 &lt;p>This is a small update, fixing some 3.2 oversights as well as bringing the guide up-to-date with the latest mod updates (of which there were several).&lt;/p>
 &lt;p>Most notably, BethINI and the guide&amp;rsquo;s instructions for it were updated. The process of re-doing BethINI is quite simple and detailed in a new FAQ section, &lt;a href="https://github.com/foreverphoenix/the-phoenix-flavour/blob/master/The-Phoenix-Flavour-3-2/06-FAQ.md#how-to-redo-ini-files-from-scratch">How to redo INI files from scratch&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Late note:&lt;/strong> I forgot to do this earlier, but the Enhanced Vanilla Trees section is all updated now. You will need to regenerate DynDOLOD.&lt;/p>
-&lt;h4 id="setup-1">Setup&lt;/h4>
+&lt;h4 id="setup">Setup&lt;/h4>
 &lt;ul>
 &lt;li>2.9 Added section on what to do with &amp;lsquo;creations&amp;rsquo; reinstalled alongside Skyrim SE.&lt;/li>
 &lt;li>6.3 Updated BethINI settings. Added screenshots.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-3">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-2">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Fixed some typos and duplicate instructions.&lt;/li>
 &lt;li>Incremented version numbers for some updated files.&lt;/li>
@@ -1389,7 +1379,7 @@ iSize W=1920
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h4 id="setup-2">Setup&lt;/h4>
+&lt;h4 id="setup-1">Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>3.6:&lt;/strong> Split up instructions into two parts.&lt;/li>
 &lt;li>&lt;strong>3.6.1:&lt;/strong> Changed instructions, we are now unpacking the Vanilla scripts as we will need them later.&lt;/li>
@@ -1406,7 +1396,7 @@ iSize W=1920
 &lt;li>Moved the Mod Installation Instructions to Setup, Step 10.&lt;/li>
 &lt;li>Moved &amp;ldquo;Step 5 - Skyrim Realistic Overhaul&amp;rdquo; from the Mod Installation section to the Setup as Step 9.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-4">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-3">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Removed Havok Fix (replaced with SSE Display Tweaks).&lt;/li>
 &lt;li>Removed Cutting Room Floor.&lt;/li>
@@ -3535,8 +3525,51 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;p>The &lt;strong>-DontCache&lt;/strong> argument will prevent an obscure bug that destroys parts of Apocrypha during the cleaning of Dragonborn.esm.&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;img src="http://example.org/Pictures/setup/add_quickautoclean_to_mo2.png" alt="Add QuickAutoClean to MO2">&lt;/p>
-&lt;h2 id="72-cathedral-assets-optimizer-cao">7.2 Cathedral Assets Optimizer (CAO)&lt;/h2>
+&lt;h2 id="72-zedit">7.2 zEdit&lt;/h2>
 &lt;h3 id="721-installation">7.2.1 Installation&lt;/h3>
+&lt;ul>
+&lt;li>Download the latest version of &lt;a href="https://github.com/z-edit/zedit/releases">zEdit&lt;/a> from Github:
+&lt;ul>
+&lt;li>zEdit_v0.6.5_-_Portable_x64.7z&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Create a new folder: &lt;code>Your Modding Folder\Tools\zEdit&lt;/code>.&lt;/li>
+&lt;li>Open the downloaded archive and extract everything into the new folder.&lt;/li>
+&lt;li>Switch back to Mod Organizer 2 and open the &lt;strong>Executables&lt;/strong> settings (Tools &amp;gt; Exectuables or CTRL + E).&lt;/li>
+&lt;li>Click the tiny blue plus icon to add a new executable and select &lt;strong>Add from file&lt;/strong>.&lt;/li>
+&lt;li>Navigate to &lt;code>Your Modding Folder\Tools\zEdit&lt;/code> and double-click &lt;strong>zEdit.exe&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> to close the window.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://example.org/Pictures/setup/zedit_download.png" alt="zEdit Download">&lt;/p>
+&lt;h3 id="722-configuration">7.2.2 Configuration&lt;/h3>
+&lt;ul>
+&lt;li>Run zEdit through Mod Organizer 2.&lt;/li>
+&lt;li>Click the gears icon to open the &lt;strong>Profile&lt;/strong> settings.&lt;/li>
+&lt;li>Make sure &lt;strong>Path&lt;/strong> (for Skyrim SE) correctly points to your Skyrim SE &lt;strong>root&lt;/strong> folder.&lt;/li>
+&lt;li>Close the profile settings window.&lt;/li>
+&lt;/ul>
+&lt;h3 id="723-zmerge-settings">7.2.3 zMerge Settings&lt;/h3>
+&lt;ul>
+&lt;li>Select &lt;strong>zMerge&lt;/strong> from the drop-down menu in zEdit and hit &lt;strong>Start Session&lt;/strong>.&lt;/li>
+&lt;li>Click the gears icon in the top right to open the settings.&lt;/li>
+&lt;li>Switch to the &lt;strong>Integration Settings&lt;/strong> tab and apply these settings:
+&lt;ul>
+&lt;li>&lt;strong>Mod manager:&lt;/strong> Mod Organizer 2&lt;/li>
+&lt;li>&lt;strong>MO2 instance:&lt;/strong> portable&lt;/li>
+&lt;li>&lt;strong>Mod manager path:&lt;/strong> &lt;code>{Your File Path}\Mod Organizer 2&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Mod manager mods path:&lt;/strong> &lt;code>{Your File Path}\Mod Organizer 2\mods&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Switch to the &lt;strong>Merge Settings&lt;/strong> tab:
+&lt;ul>
+&lt;li>&lt;strong>Merge output path:&lt;/strong> &lt;code>{Your File Path}\Mod Organizer 2\mods&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Integration:&lt;/strong> uncheck &lt;strong>Disable plugins&lt;/strong> and &lt;strong>Disable mods&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Once you have made sure everything is configured correctly, hit &lt;strong>OK&lt;/strong> and close zEdit.&lt;/li>
+&lt;/ul>
+&lt;h2 id="74-cathedral-assets-optimizer-cao">7.4 Cathedral Assets Optimizer (CAO)&lt;/h2>
+&lt;h3 id="741-installation">7.4.1 Installation&lt;/h3>
 &lt;ul>
 &lt;li>Download the latest version of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23316">Cathedral Assets Optimizer&lt;/a> manually from the Nexus.&lt;/li>
 &lt;li>Create a new folder: &lt;code>Your Modding Folder\Tools\Cathedral Assets Optimizer&lt;/code>.&lt;/li>
@@ -3545,21 +3578,21 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;blockquote>
 &lt;p>You will be using CAO plenty of times during the installation of the guide, so I recommend adding it to your Windows Taskbar for quick access.&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="722-profiles">7.2.2 Profiles&lt;/h3>
+&lt;h3 id="742-profiles">7.4.2 Profiles&lt;/h3>
 &lt;p>With the latest versions of CAO, you can set up dedicated profiles to switch between the two primary uses of CAO at will. I created several profiles for different purposes to be used during the installation of the guide.&lt;/p>
 &lt;ul>
 &lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14223">The Phoenix Flavour - CAO Profiles Pack&lt;/a> from the guide’s Nexus page.&lt;/li>
 &lt;li>Open the downloaded archive.&lt;/li>
 &lt;li>Extract all folders to &lt;code>Your Modding Folder\Tools\Cathedral Assets Optimizer\profiles&lt;/code>.&lt;/li>
 &lt;/ul>
-&lt;h2 id="73-sse-nif-optimizer">7.3 SSE NIF Optimizer&lt;/h2>
+&lt;h2 id="75-sse-nif-optimizer">7.5 SSE NIF Optimizer&lt;/h2>
 &lt;p>While the vast majority of SLE meshes can be fixed with Cathedral Assets Optimizer, there are some that will only work properly after running them through the original SSE NIF Optimizer.&lt;/p>
-&lt;h3 id="731-installation">7.3.1 Installation&lt;/h3>
+&lt;h3 id="751-installation">7.5.1 Installation&lt;/h3>
 &lt;ul>
 &lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4089">SSE NIF Optimizer&lt;/a> manually from the Nexus.&lt;/li>
 &lt;li>Extract the executable into Your Modding Folder. It’s just a single file so no separate directory is required.&lt;/li>
 &lt;/ul>
-&lt;h2 id="74-modwatch">7.4 Modwatch&lt;/h2>
+&lt;h2 id="76-modwatch">7.6 Modwatch&lt;/h2>
 &lt;ul>
 &lt;li>Download &lt;a href="https://www.nexusmods.com/skyrim/mods/56640">Modwat.ch&lt;/a> manually from the Nexus.&lt;/li>
 &lt;li>Create a new folder: &lt;code>Your Modding Folder\Tools\Modwat.ch&lt;/code>.&lt;/li>

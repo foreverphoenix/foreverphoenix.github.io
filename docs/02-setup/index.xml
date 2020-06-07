@@ -619,8 +619,51 @@
 &lt;p>The &lt;strong>-DontCache&lt;/strong> argument will prevent an obscure bug that destroys parts of Apocrypha during the cleaning of Dragonborn.esm.&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;img src="http://example.org/Pictures/setup/add_quickautoclean_to_mo2.png" alt="Add QuickAutoClean to MO2">&lt;/p>
-&lt;h2 id="72-cathedral-assets-optimizer-cao">7.2 Cathedral Assets Optimizer (CAO)&lt;/h2>
+&lt;h2 id="72-zedit">7.2 zEdit&lt;/h2>
 &lt;h3 id="721-installation">7.2.1 Installation&lt;/h3>
+&lt;ul>
+&lt;li>Download the latest version of &lt;a href="https://github.com/z-edit/zedit/releases">zEdit&lt;/a> from Github:
+&lt;ul>
+&lt;li>zEdit_v0.6.5_-_Portable_x64.7z&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Create a new folder: &lt;code>Your Modding Folder\Tools\zEdit&lt;/code>.&lt;/li>
+&lt;li>Open the downloaded archive and extract everything into the new folder.&lt;/li>
+&lt;li>Switch back to Mod Organizer 2 and open the &lt;strong>Executables&lt;/strong> settings (Tools &amp;gt; Exectuables or CTRL + E).&lt;/li>
+&lt;li>Click the tiny blue plus icon to add a new executable and select &lt;strong>Add from file&lt;/strong>.&lt;/li>
+&lt;li>Navigate to &lt;code>Your Modding Folder\Tools\zEdit&lt;/code> and double-click &lt;strong>zEdit.exe&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> to close the window.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://example.org/Pictures/setup/zedit_download.png" alt="zEdit Download">&lt;/p>
+&lt;h3 id="722-configuration">7.2.2 Configuration&lt;/h3>
+&lt;ul>
+&lt;li>Run zEdit through Mod Organizer 2.&lt;/li>
+&lt;li>Click the gears icon to open the &lt;strong>Profile&lt;/strong> settings.&lt;/li>
+&lt;li>Make sure &lt;strong>Path&lt;/strong> (for Skyrim SE) correctly points to your Skyrim SE &lt;strong>root&lt;/strong> folder.&lt;/li>
+&lt;li>Close the profile settings window.&lt;/li>
+&lt;/ul>
+&lt;h3 id="723-zmerge-settings">7.2.3 zMerge Settings&lt;/h3>
+&lt;ul>
+&lt;li>Select &lt;strong>zMerge&lt;/strong> from the drop-down menu in zEdit and hit &lt;strong>Start Session&lt;/strong>.&lt;/li>
+&lt;li>Click the gears icon in the top right to open the settings.&lt;/li>
+&lt;li>Switch to the &lt;strong>Integration Settings&lt;/strong> tab and apply these settings:
+&lt;ul>
+&lt;li>&lt;strong>Mod manager:&lt;/strong> Mod Organizer 2&lt;/li>
+&lt;li>&lt;strong>MO2 instance:&lt;/strong> portable&lt;/li>
+&lt;li>&lt;strong>Mod manager path:&lt;/strong> &lt;code>{Your File Path}\Mod Organizer 2&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Mod manager mods path:&lt;/strong> &lt;code>{Your File Path}\Mod Organizer 2\mods&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Switch to the &lt;strong>Merge Settings&lt;/strong> tab:
+&lt;ul>
+&lt;li>&lt;strong>Merge output path:&lt;/strong> &lt;code>{Your File Path}\Mod Organizer 2\mods&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Integration:&lt;/strong> uncheck &lt;strong>Disable plugins&lt;/strong> and &lt;strong>Disable mods&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Once you have made sure everything is configured correctly, hit &lt;strong>OK&lt;/strong> and close zEdit.&lt;/li>
+&lt;/ul>
+&lt;h2 id="74-cathedral-assets-optimizer-cao">7.4 Cathedral Assets Optimizer (CAO)&lt;/h2>
+&lt;h3 id="741-installation">7.4.1 Installation&lt;/h3>
 &lt;ul>
 &lt;li>Download the latest version of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23316">Cathedral Assets Optimizer&lt;/a> manually from the Nexus.&lt;/li>
 &lt;li>Create a new folder: &lt;code>Your Modding Folder\Tools\Cathedral Assets Optimizer&lt;/code>.&lt;/li>
@@ -629,21 +672,21 @@
 &lt;blockquote>
 &lt;p>You will be using CAO plenty of times during the installation of the guide, so I recommend adding it to your Windows Taskbar for quick access.&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="722-profiles">7.2.2 Profiles&lt;/h3>
+&lt;h3 id="742-profiles">7.4.2 Profiles&lt;/h3>
 &lt;p>With the latest versions of CAO, you can set up dedicated profiles to switch between the two primary uses of CAO at will. I created several profiles for different purposes to be used during the installation of the guide.&lt;/p>
 &lt;ul>
 &lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14223">The Phoenix Flavour - CAO Profiles Pack&lt;/a> from the guide’s Nexus page.&lt;/li>
 &lt;li>Open the downloaded archive.&lt;/li>
 &lt;li>Extract all folders to &lt;code>Your Modding Folder\Tools\Cathedral Assets Optimizer\profiles&lt;/code>.&lt;/li>
 &lt;/ul>
-&lt;h2 id="73-sse-nif-optimizer">7.3 SSE NIF Optimizer&lt;/h2>
+&lt;h2 id="75-sse-nif-optimizer">7.5 SSE NIF Optimizer&lt;/h2>
 &lt;p>While the vast majority of SLE meshes can be fixed with Cathedral Assets Optimizer, there are some that will only work properly after running them through the original SSE NIF Optimizer.&lt;/p>
-&lt;h3 id="731-installation">7.3.1 Installation&lt;/h3>
+&lt;h3 id="751-installation">7.5.1 Installation&lt;/h3>
 &lt;ul>
 &lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4089">SSE NIF Optimizer&lt;/a> manually from the Nexus.&lt;/li>
 &lt;li>Extract the executable into Your Modding Folder. It’s just a single file so no separate directory is required.&lt;/li>
 &lt;/ul>
-&lt;h2 id="74-modwatch">7.4 Modwatch&lt;/h2>
+&lt;h2 id="76-modwatch">7.6 Modwatch&lt;/h2>
 &lt;ul>
 &lt;li>Download &lt;a href="https://www.nexusmods.com/skyrim/mods/56640">Modwat.ch&lt;/a> manually from the Nexus.&lt;/li>
 &lt;li>Create a new folder: &lt;code>Your Modding Folder\Tools\Modwat.ch&lt;/code>.&lt;/li>
