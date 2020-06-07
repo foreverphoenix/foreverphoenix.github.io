@@ -42,9 +42,33 @@
 &lt;h3 id="is-it-still-necessary-to-roll-back-to-an-older-version-of-the-creation-kit">Is it still necessary to roll back to an older version of the Creation Kit?&lt;/h3>
 &lt;p>No, this is no longer necessary. You should be running the latest version of the Creation Kit. Go into your &lt;strong>root&lt;/strong> folder, right-click &lt;strong>CreationKit.exe&lt;/strong>, switch to the &lt;strong>Details&lt;/strong> tab and you should have &lt;strong>Product version 1.5.73.0&lt;/strong>.&lt;/p>
 &lt;p>For a time it was necessary to use the executable and DLLs of the previous version (1.5.53) because &lt;strong>CK Fixes&lt;/strong> was only working with that version of the Creation Kit. CK Fixes has since been updated.&lt;/p></description></item><item><title>Docs: Changelog</title><link>http://example.org/docs/08-appendix/03-changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/08-appendix/03-changelog/</guid><description>
+&lt;h2 id="release-33">Release 3.3&lt;/h2>
+&lt;p>I re-added the mod installation instructions that I completely missed in the original website setup. Whoops! It&amp;rsquo;s not like they&amp;rsquo;re important or anything. You can find them in the &lt;a href="https://foreverphoenix.github.io/docs/03-mod-installation/">mod installation parent page&lt;/a>. It&amp;rsquo;s not a straight copy-paste, I re-structured it and re-wrote parts as well. All &amp;ldquo;generic instructions&amp;rdquo; (using CAO, resaving plugins, etc) were moved to the &lt;a href="https://foreverphoenix.github.io/docs/07-resources/basic-instructions/">Basic Instructions&lt;/a> page under Resources.&lt;/p>
+&lt;p>The &amp;ldquo;Unpack Example.bsa&amp;rdquo; instructions previously contained instructions to delete the BSA afterwards. Some users missed this step and others got confused so I removed it and added instructions to delete the BSA directly to the mod instructions where appropriate. Should be pretty hard to miss now.&lt;/p>
+&lt;p>Some mods are now flagged as &lt;strong>(Conditional)&lt;/strong>, meaning they are optional but depend on other mods. You must install a &lt;strong>(Conditional)&lt;/strong> mod if you installed the mod that it depends on. Otherwise you must skip it.&lt;/p>
+&lt;p>And finally I added several new mods: &lt;strong>Immersive Sounds Compendium&lt;/strong> with DylanJames&amp;rsquo; new AOS integration patch to the main guide and my favourite new music mods with a merged patch to the Customisation.&lt;/p>
+&lt;h4 id="setup">Setup&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Step 7:&lt;/strong> Removed the zEdit section. zEdit will be re-added to the guide once mator provides ESL support.&lt;/li>
+&lt;/ul>
+&lt;h4 id="mod-installation">Mod Installation&lt;/h4>
+&lt;ul>
+&lt;li>Removed Dwemer Spectres.&lt;/li>
+&lt;li>Removed Dwemer Spectres - EBT No Bleeding and Other Fixes.&lt;/li>
+&lt;li>Moved Adopt Aventus Aretino from Non-Player Characters (Step 26) to New Mechanics &amp;amp; Features (Step 36).&lt;/li>
+&lt;li>&lt;strong>3.9:&lt;/strong> Changed download instructions for Realistic Conversation (using a different main file).&lt;/li>
+&lt;li>&lt;strong>8.5:&lt;/strong> Arctic - Frost Effects Redux is no longer optional (conflict with ISC had to be resolved in the CRP).&lt;/li>
+&lt;li>&lt;strong>36.8:&lt;/strong> Re-added Irondusk&amp;rsquo;s Saddlebags.&lt;/li>
+&lt;li>&lt;strong>37.2:&lt;/strong> Added Immersive Sounds - Compendium.&lt;/li>
+&lt;li>&lt;strong>37.3:&lt;/strong> Added Audio Overhaul - Immersive Sounds Integration.&lt;/li>
+&lt;/ul>
+&lt;h4 id="customisation">Customisation&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>New Music:&lt;/strong> Added this new section with five new music mods and a merged patch.&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-323">Release 3.2.3&lt;/h2>
 &lt;p>Maintenance update.&lt;/p>
-&lt;h4 id="mod-installation">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-1">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>8.1:&lt;/strong> Updated download instructions for Frozen Electrocuted Combustion (file update).&lt;/li>
 &lt;li>&lt;strong>10.1:&lt;/strong> Updated FOMOD instructions for EVT Alternate Branch Textures (file update).&lt;/li>
@@ -55,13 +79,13 @@
 &lt;p>Just a small maintenance update. Realistic Water Two received a big update today, then got hidden to fix oversights. It&amp;rsquo;s back up now. You can probably expect a CRP update soon, but for now here are the updated instructions.&lt;/p>
 &lt;p>For those who use Arthmoor&amp;rsquo;s additional towns from Customisation, there are now instructions for the Lanterns of Skyrim II patches. I missed them previously.&lt;/p>
 &lt;p>&lt;strong>Wabbajack users:&lt;/strong> Stop pestering Lively about fixing the installer. When mods are updated, he has to update his own setup and recompile, and that takes time. Consider the fact that he has a life that includes more than updating the installer the second a mod update drops. Plus when a mod is hidden, like RW2 was today, there is nothing anyone can do and we all have to wait for the mod author to unhide the mod page.&lt;/p>
-&lt;h4 id="mod-installation-1">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-2">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>1.9 Added instructions to delete a textures from the Particle Patch (fixes a bug where water spray would look much darker than intended).&lt;/li>
 &lt;li>9.7 Updated instructions for Realistic Water Two.&lt;/li>
 &lt;li>9.8 Added Realistic Water Two Patch Hub.&lt;/li>
 &lt;/ul>
-&lt;h4 id="customisation">Customisation&lt;/h4>
+&lt;h4 id="customisation-1">Customisation&lt;/h4>
 &lt;ul>
 &lt;li>Added missing Lanterns of Skyrim II patch instructions for Arthmoor&amp;rsquo;s Towns.&lt;/li>
 &lt;/ul>
@@ -73,12 +97,12 @@
 &lt;p>This is a small update, fixing some 3.2 oversights as well as bringing the guide up-to-date with the latest mod updates (of which there were several).&lt;/p>
 &lt;p>Most notably, BethINI and the guide&amp;rsquo;s instructions for it were updated. The process of re-doing BethINI is quite simple and detailed in a new FAQ section, &lt;a href="https://github.com/foreverphoenix/the-phoenix-flavour/blob/master/The-Phoenix-Flavour-3-2/06-FAQ.md#how-to-redo-ini-files-from-scratch">How to redo INI files from scratch&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Late note:&lt;/strong> I forgot to do this earlier, but the Enhanced Vanilla Trees section is all updated now. You will need to regenerate DynDOLOD.&lt;/p>
-&lt;h4 id="setup">Setup&lt;/h4>
+&lt;h4 id="setup-1">Setup&lt;/h4>
 &lt;ul>
 &lt;li>2.9 Added section on what to do with &amp;lsquo;creations&amp;rsquo; reinstalled alongside Skyrim SE.&lt;/li>
 &lt;li>6.3 Updated BethINI settings. Added screenshots.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-2">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-3">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Fixed some typos and duplicate instructions.&lt;/li>
 &lt;li>Incremented version numbers for some updated files.&lt;/li>
@@ -94,7 +118,7 @@
 &lt;li>21.22 Added Realistic Skin and Hair Shaders - Giants.&lt;/li>
 &lt;li>29.1 Updated MM Hybrid Loot link (now available on the Nexus).&lt;/li>
 &lt;/ul>
-&lt;h4 id="customisation-1">Customisation&lt;/h4>
+&lt;h4 id="customisation-2">Customisation&lt;/h4>
 &lt;ul>
 &lt;li>Split the tree tweaks section up into several smaller ones.&lt;/li>
 &lt;li>Rewrote Large Trees and Aspen Trees sections for EVT 2.0.&lt;/li>
@@ -135,7 +159,7 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h4 id="setup-1">Setup&lt;/h4>
+&lt;h4 id="setup-2">Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>3.6:&lt;/strong> Split up instructions into two parts.&lt;/li>
 &lt;li>&lt;strong>3.6.1:&lt;/strong> Changed instructions, we are now unpacking the Vanilla scripts as we will need them later.&lt;/li>
@@ -152,7 +176,7 @@
 &lt;li>Moved the Mod Installation Instructions to Setup, Step 10.&lt;/li>
 &lt;li>Moved &amp;ldquo;Step 5 - Skyrim Realistic Overhaul&amp;rdquo; from the Mod Installation section to the Setup as Step 9.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-3">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-4">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Removed Havok Fix (replaced with SSE Display Tweaks).&lt;/li>
 &lt;li>Removed Cutting Room Floor.&lt;/li>
@@ -350,7 +374,7 @@
 &lt;li>&lt;strong>6.6:&lt;/strong> Users now need to choose between the three profiles in DynDOLOD. Updated the screenshot.&lt;/li>
 &lt;li>&lt;strong>6.7:&lt;/strong> Updated recommendations to rename the Output mod folder.&lt;/li>
 &lt;/ul>
-&lt;h4 id="customisation-2">Customisation&lt;/h4>
+&lt;h4 id="customisation-3">Customisation&lt;/h4>
 &lt;ul>
 &lt;li>Basically re-did this section and expanded it at least with WIP directories.&lt;/li>
 &lt;li>Updated list of of rougeshot&amp;rsquo;s skeleton replacers.&lt;/li>
