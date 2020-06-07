@@ -868,4 +868,73 @@
 &lt;li>Back in Mod Organizer 2, press F5 to refresh.&lt;/li>
 &lt;li>&lt;strong>Skyrim Realistic Overhaul&lt;/strong> should now appear at the bottom of your mod order.&lt;/li>
 &lt;li>Drag it up all the way below the &lt;strong>MAIN VISUAL MODS&lt;/strong> separator and activate it.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Mod Installation</title><link>http://example.org/docs/02-setup/step-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-10/</guid><description>
+&lt;p>After completing the Setup, you are equipped with a correctly installed and configured instance of Mod Organizer 2 that is properly set up with the Skyrim Script Extender. It is now time to dive into the by far longest section in the guide - the mod installation.&lt;/p>
+&lt;p>The mods themselves are split up into forty categories which correspond to the separators of the same names installed for MO2 in the Setup. &lt;strong>Each set of mods must be installed in the order they are listed in&lt;/strong> and grouped below their respective separator.&lt;/p>
+&lt;p>It may be faster to download all mods of a page first, then install them, and finally go through the post-installation instructions.&lt;/p>
+&lt;p>&lt;strong>Do not attempt to launch Skyrim SE before you are instructed to&lt;/strong>. During the installation you will have missing dependencies and unresolved conflicts fixed later by additional mods and our CRP.&lt;/p>
+&lt;p>&lt;strong>ALL MODS AND INSTRUCTIONS ARE REQUIRED UNLESS THEY ARE CLEARLY MARKED AS OPTIONAL.&lt;/strong>&lt;/p>
+&lt;h2 id="general-installation-instructions">General Installation Instructions&lt;/h2>
+&lt;h3 id="flags">Flags&lt;/h3>
+&lt;ul>
+&lt;li>Mods marked as &lt;strong>(Optional)&lt;/strong> may freely be skipped.&lt;/li>
+&lt;li>Mods marked as &lt;strong>(Conditional)&lt;/strong> depend on other mods. Only install them if you installed the mod they depend on.&lt;/li>
+&lt;li>All other mods are required and must be installed.&lt;/li>
+&lt;/ul>
+&lt;h3 id="mod-instructions">Mod Instructions&lt;/h3>
+&lt;p>Each mod has its own section with the following instructions:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Download Instructions:&lt;/strong> Lists files to download and the Nexus link which will directly bring you to the Files section.&lt;/li>
+&lt;li>&lt;strong>Porting Instructions:&lt;/strong> Brief instructions if necessary for proper porting of a LE mod to SSE with the Creation Kit or CAO.&lt;/li>
+&lt;li>&lt;strong>Additional Instructions:&lt;/strong> May contain INI edits, file deletions or edits, rarely SSEEdit tweaks.&lt;/li>
+&lt;/ul>
+&lt;p>Not all mods strictly follow this template. Some have sections unique to them with extra explanations or instructions. Just follow those instructions one by one and to the letter. Occasionally they are optional (which is then clearly stated) and you can skip them.&lt;/p>
+&lt;h3 id="download-instructions">Download Instructions&lt;/h3>
+&lt;ul>
+&lt;li>Almost all mods are hosted on the Nexus.&lt;/li>
+&lt;li>The link to the mod&amp;rsquo;s file section is in the &lt;strong>Download Instructions&lt;/strong> header (CTRL+Click to open in new tab.)&lt;/li>
+&lt;li>The files listed under &lt;strong>Download Instructions&lt;/strong> are marked with the respective section you can find them in on the Nexus:
+&lt;ul>
+&lt;li>Main Files&lt;/li>
+&lt;li>Update Files&lt;/li>
+&lt;li>Optional Files&lt;/li>
+&lt;li>Miscellaneous Files&lt;/li>
+&lt;li>Old Files&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Download the file(s) by clicking &lt;strong>Mod Manager Download&lt;/strong>. It will automatically be downloaded through Mod Organizer 2. If a mod has special requirements, they are listed in a pop-up window where you will have to click the &lt;strong>Download&lt;/strong> button again. Don’t worry about these requirements, they are included in the guide or otherwise taken care of.&lt;/li>
+&lt;/ul>
+&lt;h3 id="mod-installation">Mod Installation&lt;/h3>
+&lt;ul>
+&lt;li>After downloading a mod, switch to the &lt;strong>Downloads&lt;/strong> tab in the right pane of Mod Organizer 2 and double-click the file(s) to install.&lt;/li>
+&lt;li>This may open a FOMOD installer if the mod includes one. In this case you need to follow the &lt;strong>FOMOD Instructions&lt;/strong> listed in the guide.&lt;/li>
+&lt;li>After installing a mod you may want to rename it in order to reflect the version you downloaded or options you selected in the FOMOD:
+&lt;ul>
+&lt;li>For retextures it is useful to add the texture resolution: &lt;strong>Embers HD 2k&lt;/strong>.&lt;/li>
+&lt;li>If there are different versions, note down which one you downloaded: &lt;strong>Less Ugly Tundragrass - Redder Variant&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Occasionally you will be instructed to download multiple files from the same page (usually the main mod with updates or patches). When installing them, always install the main file first. The second file will by default have the same name and MO2 will ask how you want to proceed:&lt;/p>
+&lt;ul>
+&lt;li>Unless otherwise specified in the guide&amp;rsquo;s instructions, always select &lt;strong>Rename&lt;/strong> and give the file a unique name so that it doesn&amp;rsquo;t overwrite the main file. For instance, if the main file was &lt;code>Simple Children&lt;/code> and you install the patch pack from the same mod page, click &lt;strong>Rename&lt;/strong> and enter &lt;code>Simple Children - Patches&lt;/code>.&lt;/li>
+&lt;li>On occasion you will be instructed to &amp;ldquo;merge with the main file&amp;rdquo; in which case you select the &lt;strong>Merge&lt;/strong> option. This will move all installed files into the mod folder of the main file, overwriting existing files.&lt;/li>
+&lt;li>Only when updating mods to a new version should you select &lt;strong>Replace&lt;/strong> which, of course, replaces all original files.&lt;/li>
+&lt;/ul>
+&lt;h3 id="basic-instructions">Basic Instructions&lt;/h3>
+&lt;p>Certain procedures - such as resaving a plugin or running a mod through the Cathedral Assets Optimizer - are repeated many times throughout the guide. After going through them for a few times, you will know them by heart but until then, please refer to the &lt;a href="https://foreverphoenix.github.io/docs/07-resources/basic-instructions/">Basic Instructions&lt;/a> page (keep it open in a separate tab).&lt;/p>
+&lt;p>The linked page includes detailed instructions for the following operators:&lt;/p>
+&lt;ul>
+&lt;li>&amp;ldquo;Resave Example.esp in the Creation Kit.&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;Clean Example.esp with SSEEdit.&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;Unpack Example.bsa through Mod Organizer 2.&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;Run the mod through Cathedral Assets Optimizer.&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;Run the mod through SSE NIF Optimizer.&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;Downsize the textures with Cathedral Assets Optimizer.&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;p>You will also be instructed to delete, rename, or move files through the MO2 interface. This is very simple:&lt;/p>
+&lt;ul>
+&lt;li>Double-click the mod in your mod order (left pane of Mod Organizer 2).&lt;/li>
+&lt;li>Switch to the &lt;strong>Filetree&lt;/strong> tab and find the files you need to delete/rename/move.&lt;/li>
+&lt;li>Right-click to remove/rename or move them per drag-and-drop.&lt;/li>
 &lt;/ul></description></item></channel></rss>
