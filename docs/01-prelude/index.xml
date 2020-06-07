@@ -81,12 +81,11 @@
 &lt;li>&lt;strong>CPU:&lt;/strong> Processor with high single core performance (3.2GHz or more).&lt;/li>
 &lt;li>&lt;strong>RAM:&lt;/strong> 8-16 GB of DDR3 or DDR4 memory, running at 2400MHz or faster.&lt;/li>
 &lt;li>&lt;strong>GPU:&lt;/strong> A modern card with at least 4GB of VRAM (ideally 6-8GB).&lt;/li>
-&lt;li>&lt;strong>Hard Drive:&lt;/strong> At least 100GB of free space on a fast HDD or SSD.&lt;/li>
+&lt;li>&lt;strong>Hard Drive:&lt;/strong> At least 80GB of free space, ideally on an SSD.&lt;/li>
 &lt;li>&lt;strong>Monitor:&lt;/strong> With a standard (16:9) or widescreen (21:9) aspect ratio.&lt;/li>
 &lt;/ul>
-&lt;blockquote>
-&lt;p>Widescreen support can be found in the Customisation section.&lt;/p>
-&lt;/blockquote>
+&lt;p>&lt;strong>Free space:&lt;/strong> The full TPF installation is about 60GB large, excluding downloads (they can easily be saved to a different hard drive). Skyrim SE is another 13GB. Obviously you need to remember that your hard drive needs to have some free space left, around 20% for optimal performance.&lt;/p>
+&lt;p>&lt;strong>Widescreen support:&lt;/strong> UI patches and replacers can be found in the Customisation section to be installed after the main guide.&lt;/p>
 &lt;h3 id="phoenixs-build">Phoenix&amp;rsquo;s Build&lt;/h3>
 &lt;ul>
 &lt;li>&lt;strong>CPU:&lt;/strong> Intel i5 7600k @4.2GHz, hybrid-cooled&lt;/li>

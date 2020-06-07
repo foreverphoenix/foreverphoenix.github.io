@@ -99,7 +99,7 @@
 &lt;p>The plugin is not needed. Its functionality was replaced by ENB Helper. The texture can cause water spray to look much darker than intended with Realistic Water Two.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="110-static-mesh-improvement-mod-smim">1.10 Static Mesh Improvement Mod (SMIM)&lt;/h2>
-&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods17230tabfiles-1">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17230?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods659tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/659?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> SMIM SE 2-08&lt;/li>
 &lt;/ul>
@@ -365,7 +365,7 @@
 &lt;li>&lt;strong>Main Files:&lt;/strong> Run For Your Lives&lt;/li>
 &lt;/ul>
 &lt;h2 id="32-dwemer-gates-dont-reset-optional">3.2 Dwemer Gates Don&amp;rsquo;t Reset (optional)&lt;/h2>
-&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26331tabfiles-">&lt;a href="(https://www.nexusmods.com/skyrimspecialedition/mods/26331?tab=files)">Download Instructions&lt;/a>&lt;/h4>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26331tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26331?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Dwemer Gates Don&amp;rsquo;t Reset&lt;/li>
 &lt;/ul>
@@ -411,9 +411,9 @@
 &lt;li>&lt;strong>Main Files:&lt;/strong> No More Standing Too Close SSE&lt;/li>
 &lt;/ul>
 &lt;h2 id="39-realistic-conversations-optional">3.9 Realistic Conversations (optional)&lt;/h2>
-&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods1717tabfiles">&lt;a href="%5D(https://www.nexusmods.com/skyrimspecialedition/mods/1717?tab=files)">Download Instructions&lt;/a>&lt;/h4>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods1717tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1717?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Realistic Conversations&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Realistic Conversations - No greetings compatible - longer pause between sentences&lt;/li>
 &lt;/ul>
 &lt;h2 id="310-no-npc-greetings-optional">3.10 No NPC Greetings (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods1044tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1044?tab=files">Download Instructions&lt;/a>&lt;/h4>
@@ -435,7 +435,7 @@
 &lt;li>&lt;strong>Main Files:&lt;/strong> Random Encounter Tweaks&lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>Please be aware that the only part of the mod that will come into effect is the addition of Shivs for Skooma dealers. Everything else will eventually be overwritten by Timing Is Everything.&lt;/p>
+&lt;p>Be aware that the only part of the mod that will come into effect is the addition of Shivs for Skooma dealers. Everything else will eventually be overwritten by Timing Is Everything.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="313-morrowloot-miscellania---better-ancient-knowledge-optional">3.13 Morrowloot Miscellania - Better Ancient Knowledge (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods27094tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27094?tab=files">Download Instructions&lt;/a>&lt;/h4>
@@ -727,16 +727,18 @@
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> AMatterOfTime_v3_0_0_alpha_4&lt;/li>
 &lt;/ul>
-&lt;h2 id="414-a-matter-of-time---phoenix-preset-optional">4.14 A Matter of Time - Phoenix Preset (optional)&lt;/h2>
-&lt;p>This is my personal preset for AMOT. It uses the slim clock widget to match the slim compass from SkyHUD and has a small 24h clock with the ingame time centered below. You can change the clock to 12h through the MCM at any time.&lt;/p>
-&lt;p>Even if you have the preset installed, you can configure the AMOT settings to your liking. It will only be applied if you load it through the MCM specifically.&lt;/p>
+&lt;h2 id="414-a-matter-of-time---phoenix-preset-conditional">4.14 A Matter of Time - Phoenix Preset (conditional)&lt;/h2>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Mod Dependency&lt;/h4>
+Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. Otherwise skip it.
+&lt;/div>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> A Matter of Time - Phoenix Preset&lt;/li>
 &lt;/ul>
-&lt;blockquote>
-&lt;p>&lt;strong>Mod Dependency:&lt;/strong> Only install this mod if you installed A Matter of Time. Otherwise skip it.&lt;/p>
-&lt;/blockquote>
+&lt;h4 id="about-the-mod">About the mod&lt;/h4>
+&lt;p>This is my personal preset for AMOT. It uses the slim clock widget to match the slim compass from SkyHUD and has a small 24h clock with the ingame time centered below. You can change the clock to 12h through the MCM at any time.&lt;/p>
+&lt;p>Even if you have the preset installed, you can configure the AMOT settings to your liking. It will only be applied if you load it through the MCM specifically.&lt;/p>
 &lt;p>&lt;img src="http://example.org/Pictures/mod_installation/amot_preset_preview.jpg" alt="My AMOT Preset Preview">&lt;/p>
 &lt;h2 id="415-shouts-in-the-dragon-tongue-sidt-optional">4.15 Shouts in the Dragon Tongue (SIDT) (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods5515tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5515?tab=files">Download Instructions&lt;/a>&lt;/h4>
@@ -751,41 +753,13 @@
 &lt;h4 id="fomod-instructions-2">FOMOD Instructions&lt;/h4>
 &lt;p>Below are my personal choices. Feel free to make your own!&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Background:&lt;/strong>
-&lt;ul>
-&lt;li>Background - Irradiant Stars - HDR Nebula&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Perk Lines:&lt;/strong>
-&lt;ul>
-&lt;li>Default&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Perk Line Colour:&lt;/strong>
-&lt;ul>
-&lt;li>Default&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Constellations:&lt;/strong>
-&lt;ul>
-&lt;li>HD Default&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Perk Stars:&lt;/strong>
-&lt;ul>
-&lt;li>Option 2&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Dawnguard:&lt;/strong>
-&lt;ul>
-&lt;li>HD Masser and Secunda and More Stars&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Vampire Background:&lt;/strong>
-&lt;ul>
-&lt;li>HDR Nebula&lt;/li>
-&lt;/ul>
-&lt;/li>
+&lt;li>&lt;strong>Background:&lt;/strong> Background - Irradiant Stars - HDR Nebula&lt;/li>
+&lt;li>&lt;strong>Perk Lines:&lt;/strong> Default&lt;/li>
+&lt;li>&lt;strong>Perk Line Colour:&lt;/strong> Default&lt;/li>
+&lt;li>&lt;strong>Constellations:&lt;/strong> HD Default&lt;/li>
+&lt;li>&lt;strong>Perk Stars:&lt;/strong> Option 2&lt;/li>
+&lt;li>&lt;strong>Dawnguard:&lt;/strong> HD Masser and Secunda and More Stars&lt;/li>
+&lt;li>&lt;strong>Vampire Background:&lt;/strong> HDR Nebula&lt;/li>
 &lt;/ul>
 &lt;h2 id="417-no-more-laser-printed-book-optional">4.17 No More Laser-Printed Book (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods462tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/462?tab=files">Download Instructions&lt;/a>&lt;/h4>
@@ -813,6 +787,7 @@
 &lt;li>Unpack &lt;strong>icepenguinworldmapclassic - textures.bsa&lt;/strong> through Mod Organizer 2.&lt;/li>
 &lt;li>Delete the following file(s) and/or folder(s):
 &lt;ul>
+&lt;li>&lt;code>icepenguinworldmapclassic - textures.bsa&lt;/code>&lt;/li>
 &lt;li>&lt;code>icepenguinworldmapclassic.esp&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -917,7 +892,7 @@
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods5870tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5870/?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Ruins_Clutter_Improved_SE_NMM_v3-1&lt;/li>
-&lt;li>&lt;strong>Update Files:&lt;/strong> Falmer Temple Chandelier &amp;mdash; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Update Files:&lt;/strong> Falmer Temple Chandelier &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
 &lt;ul>
@@ -1435,7 +1410,7 @@
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods3532tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3532?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Frozen Electrocuted Combustion - 3.4.5&lt;/li>
-&lt;li>&lt;strong>Update Files:&lt;/strong> Frozen Electrocuted Combustion - 3.4.7 (update) &amp;mdash; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Update Files:&lt;/strong> Frozen Electrocuted Combustion - 3.4.7 (update) &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h2 id="82-enhanced-blood-textures">8.2 Enhanced Blood Textures&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods2357tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2357?tab=files">Download Instructions&lt;/a>&lt;/h4>
@@ -1444,41 +1419,13 @@
 &lt;/ul>
 &lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Compatibility Patch:&lt;/strong>
-&lt;ul>
-&lt;li>&lt;del>Immersive Creatures&lt;/del>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Effects Distance:&lt;/strong>
-&lt;ul>
-&lt;li>Medium&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Blood Size:&lt;/strong>
-&lt;ul>
-&lt;li>None&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Wounds:&lt;/strong>
-&lt;ul>
-&lt;li>Reduced Wound Size (Optional)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Textures:&lt;/strong>
-&lt;ul>
-&lt;li>Reduced Res / Default Color&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Blurry Screen Blood:&lt;/strong>
-&lt;ul>
-&lt;li>&lt;del>EBT Blurry Screen Blood (Optional)&lt;/del>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Alternate Textures:&lt;/strong>
-&lt;ul>
-&lt;li>Reduced Res / Default Color&lt;/li>
-&lt;/ul>
-&lt;/li>
+&lt;li>&lt;strong>Compatibility Patch:&lt;/strong> &lt;del>Immersive Creatures&lt;/del>&lt;/li>
+&lt;li>&lt;strong>Effects Distance:&lt;/strong> Medium&lt;/li>
+&lt;li>&lt;strong>Blood Size:&lt;/strong> None&lt;/li>
+&lt;li>&lt;strong>Wounds:&lt;/strong> Reduced Wound Size (Optional)&lt;/li>
+&lt;li>&lt;strong>Textures:&lt;/strong> Reduced Res / Default Color&lt;/li>
+&lt;li>&lt;strong>Blurry Screen Blood:&lt;/strong> &lt;del>EBT Blurry Screen Blood (Optional)&lt;/del>&lt;/li>
+&lt;li>&lt;strong>Alternate Textures:&lt;/strong> Reduced Res / Default Color&lt;/li>
 &lt;/ul>
 &lt;h2 id="83-gorecap-optional">8.3 GORECAP (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods16440tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/16440?tab=files">Download Instructions&lt;/a>&lt;/h4>
@@ -1492,33 +1439,13 @@
 &lt;/ul>
 &lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Options:&lt;/strong>
-&lt;ul>
-&lt;li>Custom&lt;/li>
+&lt;li>&lt;strong>Options:&lt;/strong> Custom&lt;/li>
+&lt;li>&lt;strong>Custom:&lt;/strong> One Fire Impact (Default)&lt;/li>
+&lt;li>&lt;strong>Fire:&lt;/strong> Alternate 1&lt;/li>
+&lt;li>&lt;strong>Frost:&lt;/strong> Default&lt;/li>
+&lt;li>&lt;strong>Lightning:&lt;/strong> Alternate 1&lt;/li>
 &lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Custom:&lt;/strong>
-&lt;ul>
-&lt;li>One Fire Impact (Default)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Fire:&lt;/strong>
-&lt;ul>
-&lt;li>Alternate 1&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Frost:&lt;/strong>
-&lt;ul>
-&lt;li>Default&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Lightning:&lt;/strong>
-&lt;ul>
-&lt;li>Alternate 1&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="85-arctic---frost-effects-redux-optional">8.5 Arctic - Frost Effects Redux (optional)&lt;/h2>
+&lt;h2 id="85-arctic---frost-effects-redux">8.5 Arctic - Frost Effects Redux&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods29817tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/29817?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Arctic - Frost Effects Redux - AIO&lt;/li>
@@ -1697,7 +1624,7 @@
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26532tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26532?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Dark grey Rapid Rocks&lt;/li>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Update for both versions &amp;mdash; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Update for both versions &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h2 id="96-majestic-mountains---northside-optional">9.6 Majestic Mountains - Northside (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods27981tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27981?tab=files">Download Instructions&lt;/a>&lt;/h4>
@@ -1726,7 +1653,7 @@
 &lt;h2 id="97-realistic-water-two-rw2">9.7 Realistic Water Two (RW2)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods2182tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2182?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Realistic Water Two SE v3.0.2&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Realistic Water Two SE v3.0.3&lt;/li>
 &lt;/ul>
 &lt;h4 id="fomod-instructions-3">FOMOD Instructions&lt;/h4>
 &lt;ul>
@@ -1847,14 +1774,15 @@
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rorikstead Basalt Cliffs&lt;/li>
 &lt;/ul>
-&lt;h2 id="917-rorikstead-basalt-cliffs-patches-optional">9.17 Rorikstead Basalt Cliffs Patches (optional)&lt;/h2>
+&lt;h2 id="917-rorikstead-basalt-cliffs-patches-conditional">9.17 Rorikstead Basalt Cliffs Patches (conditional)&lt;/h2>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Mod Dependency&lt;/h4>
+Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/strong>. Otherwise skip it.
+&lt;/div>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods31981tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/31981?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rorikstead Basalt Cliffs Patches&lt;/li>
 &lt;/ul>
-&lt;blockquote>
-&lt;p>Install this mod if you installed Rorikstead Basalt Cliffs. Otherwise skip it.&lt;/p>
-&lt;/blockquote>
 &lt;h4 id="fomod-instructions-7">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Patches:&lt;/strong> Rorikstead Basalt Cliffs + Alternate Start - Live Another Life + Landscape Fixes for Grass Mods&lt;/li>
@@ -2100,14 +2028,15 @@
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Fallen Trees SSE&lt;/li>
 &lt;/ul>
-&lt;h2 id="1011-immersive-fallen-trees-patch-optional">10.11 Immersive Fallen Trees Patch (optional)&lt;/h2>
+&lt;h2 id="1011-immersive-fallen-trees-patch-conditional">10.11 Immersive Fallen Trees Patch (conditional)&lt;/h2>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Mod Dependency&lt;/h4>
+Only install this mod if you installed &lt;strong>Immersive Fallen Trees&lt;/strong>. Otherwise skip it.
+&lt;/div>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods27834tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27834?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Fallen Trees Patch&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>Install this mod if you installed Immersive Fallen Trees. Otherwise skip it.&lt;/p>
-&lt;/blockquote></description></item><item><title>Docs: Architecture</title><link>http://example.org/docs/03-mod-installation/step-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-11/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Architecture</title><link>http://example.org/docs/03-mod-installation/step-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-11/</guid><description>
 &lt;h2 id="111-mds-farmhouses-optional">11.1 MD&amp;rsquo;s Farmhouses (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods32160tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32160?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -2821,7 +2750,7 @@
 &lt;li>Switch to the &lt;strong>Filetree&lt;/strong> tab.&lt;/li>
 &lt;li>Rename the plugin’s file extension:
 &lt;ul>
-&lt;li>CC’sEnhancedOreVeinsSSE-HearthfirePatch.&lt;strong>esp&lt;/strong>&lt;/li>
+&lt;li>&lt;code>CC’sEnhancedOreVeinsSSE-HearthfirePatch.esl&lt;/code> &amp;raquo; &lt;code>CC’sEnhancedOreVeinsSSE-HearthfirePatch.esp&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -2871,8 +2800,8 @@
 &lt;/ul>
 &lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> Draw Knife – with Carvings&lt;/li>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> Silver Mold – with Silver Frame&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Draw Knife - with Carvings&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Silver Mold - with Silver Frame&lt;/li>
 &lt;/ul>
 &lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
 &lt;ul>
@@ -2893,10 +2822,10 @@
 &lt;p>The first five meshes conflict with and overwrite the arguably superior ones from Skyrim 3D Cooking.
 The final three meshes overwrite Embers HD and prevent its forge textures from being applied.&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="162-aetherial-crown-by-saerileth--plugin-replacer">16.2 Aetherial Crown by Saerileth – Plugin Replacer&lt;/h2>
+&lt;h2 id="162-aetherial-crown-by-saerileth---plugin-replacer">16.2 Aetherial Crown by Saerileth - Plugin Replacer&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods23631tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23631?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Aetherial Crown – Plugin Replacer&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Aetherial Crown - Plugin Replacer&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>The original mod is not required because the textures are included in Forgotten Retex Project.&lt;/p>
@@ -2967,14 +2896,11 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> 1k Textures&lt;/li>
 &lt;/ul>
-&lt;h2 id="1613-js-dragon-claws--patches-optional">16.13 JS Dragon Claws – Patches (optional)&lt;/h2>
+&lt;h2 id="1613-js-dragon-claws---patches-conditional">16.13 JS Dragon Claws - Patches (conditional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods23833tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23833?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> JS Dragon Claws - Amethyst Patch&lt;/li>
 &lt;/ul>
-&lt;blockquote>
-&lt;p>Only install this mods if you installed &lt;strong>JS Dragon Claws&lt;/strong>. Otherwise skip it.&lt;/p>
-&lt;/blockquote>
 &lt;h2 id="1614-rustic-soulgems">16.14 RUSTIC SOULGEMS&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods5785tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5785?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -3002,13 +2928,13 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods17757">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17757">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> RUSTIC ELDERSCROLL - Special Edition - 2K&lt;/li>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> ELDERSCROLL SSE - FX - 1K &amp;mdash; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> ELDERSCROLL SSE - FX - 1K &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h2 id="1617-rustic-animated-potions-and-poisons-optional">16.17 RUSTIC ANIMATED POTIONS AND POISONS (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods2276">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2276/">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> RUSTIC ANIMATED POTIONS and POISONS 1K&lt;/li>
-&lt;li>&lt;strong>Update Files:&lt;/strong> SSE Meshes &amp;mdash; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Update Files:&lt;/strong> SSE Meshes &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h2 id="1618-rallys-werewolf-totems-optional">16.18 Rally&amp;rsquo;s Werewolf Totems (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods28882">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28882">Download Instructions&lt;/a>&lt;/h4>
@@ -3019,7 +2945,7 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods34782tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34782/?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Meridia&amp;rsquo;s Luxon Beacon&lt;/li>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> No Handles Option &amp;mdash; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> No Handles Option &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h2 id="1620-bloodstone-chalice-reborn-optional">16.20 BLOODSTONE CHALICE REBORN (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods63551">&lt;a href="https://www.nexusmods.com/skyrim/mods/63551/">Download Instructions&lt;/a>&lt;/h4>
@@ -3453,19 +3379,20 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Open Face Guard Helmets&lt;/li>
 &lt;/ul>
-&lt;h2 id="199-open-face-guard-helmets--plugin-replacer-optional">19.9 Open Face Guard Helmets – Plugin Replacer (optional)&lt;/h2>
+&lt;h2 id="199-open-face-guard-helmets--plugin-replacer-conditional">19.9 Open Face Guard Helmets – Plugin Replacer (conditional)&lt;/h2>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Mod Dependency&lt;/h4>
+Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/strong>. Otherwise skip it.
+&lt;/div>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Open Face Guard Helmets - Replacer Plugin&lt;/li>
 &lt;/ul>
-&lt;blockquote>
-&lt;p>Install this mod if you installed Open Face Guard Helmets. Otherwise skip it.&lt;/p>
-&lt;/blockquote>
 &lt;h2 id="1910-frankly-hd-stormcloaks-and-city-guards-optional">19.10 Frankly HD Stormcloaks and City Guards (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods42404tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/42404?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> UltraHD - Stormcloak and City Guards 2K version&lt;/li>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> Fix by SpriterSan for 2k version &amp;mdash; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Fix by SpriterSan for 2k version &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h2 id="1911-amidianborn-stormcloak-officer-armour-optional">19.11 aMidianBorn Stormcloak Officer Armour (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods45692tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/45692?tab=files">Download Instructions&lt;/a>&lt;/h4>
@@ -3579,7 +3506,7 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods25110tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25110?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Frankly HD Dragonbone and Dragonscale 2k&lt;/li>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> Frankly HD Dragonbone and Dragonscale - Mesh patch &amp;mdash; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Frankly HD Dragonbone and Dragonscale - Mesh patch &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h2 id="1924-sunhallowed-and-bloodcursed-arrows--hd-retexture">19.24 Sunhallowed and Bloodcursed Arrows – HD Retexture&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods58118tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/58118?tab=files">Download Instructions&lt;/a>&lt;/h4>
@@ -3589,13 +3516,13 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;/ul>
 &lt;h4 id="porting-instructions">Porting Instructions&lt;/h4>
 &lt;ul>
-&lt;li>Run &lt;strong>Sunhallowed Arrows&lt;/strong> through Cathedral Assets Optimizer (&lt;strong>SSE – Optimise SLE Assets&lt;/strong>).&lt;/li>
+&lt;li>Run &lt;strong>Sunhallowed Arrows&lt;/strong> through Cathedral Assets Optimizer (&lt;strong>SSE - Optimise SLE Assets&lt;/strong>).&lt;/li>
 &lt;/ul>
 &lt;h2 id="1926-dragon-priest-weapons-improved-optional">19.26 Dragon Priest Weapons Improved (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods60075tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/60075?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Dragon Priest Weapon Improved&lt;/li>
-&lt;li>&lt;strong>Update Files:&lt;/strong> Quick Update &amp;mdash; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Update Files:&lt;/strong> Quick Update &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h4 id="porting-instructions-1">Porting Instructions&lt;/h4>
 &lt;ul>
@@ -4241,7 +4168,7 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods6580tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6580?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> SkySight Skins HD with Real Feet Meshes (HIGH - Recommended)&lt;/li>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> PATCH - Shoe Fixes (Less Shine) &amp;mdash; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> PATCH - Shoe Fixes (Less Shine) &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
 &lt;ul>
@@ -4315,7 +4242,7 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods24482tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24482?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> VMHD - All Races - 2K&lt;/li>
-&lt;li>&lt;strong>Update Files:&lt;/strong> VMHD - FemaleLowerEyeSocketFix - 2K &amp;mdash; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Update Files:&lt;/strong> VMHD - FemaleLowerEyeSocketFix - 2K &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h2 id="248-painterly--a-high-res-vanilla-warpaint-retexture-optional">24.8 Painterly – A High Res Vanilla Warpaint Retexture (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods67147tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/67147?tab=files">Download Instructions&lt;/a>&lt;/h4>
@@ -4410,7 +4337,11 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Complete Crafting Overhaul Remastered&lt;/li>
 &lt;/ul>
-&lt;h2 id="254-complete-crafting-overhaul-remastered---js-circlet-replacer-patch-optional">25.4 Complete Crafting Overhaul Remastered - JS Circlet Replacer Patch (optional)&lt;/h2>
+&lt;h2 id="254-complete-crafting-overhaul-remastered---js-circlet-replacer-patch-conditional">25.4 Complete Crafting Overhaul Remastered - JS Circlet Replacer Patch (conditional)&lt;/h2>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Mod Dependency&lt;/h4>
+Only install this mod if you installed &lt;strong>JS Circlet Replacer&lt;/strong>. Otherwise skip it.
+&lt;/div>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods19518tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19518?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Miscellaneous Files:&lt;/strong>
@@ -4419,9 +4350,6 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;blockquote>
-&lt;p>&lt;strong>Mod Dependency:&lt;/strong> Only install this mod if you installed &lt;strong>JS Circlet Replacer&lt;/strong>. Otherwise skip it.&lt;/p>
-&lt;/blockquote>
 &lt;h4 id="mod-order">Mod Order&lt;/h4>
 &lt;ul>
 &lt;li>Move below the &lt;strong>PATCHES&lt;/strong> separator.&lt;/li>
@@ -4434,7 +4362,7 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Double-click &lt;strong>Morningstar – Minimalistic Races of Skyrim&lt;/strong> in your mod order.&lt;/li>
-&lt;li>Switch to the &lt;strong>Filetree&lt;/strong> tab and rename the plugin:
+&lt;li>Switch to the &lt;strong>Filetree&lt;/strong> tab and rename the plugin to:
 &lt;ul>
 &lt;li>Morningstar – Minimalistic Races of Skyrim.&lt;strong>esp&lt;/strong>&lt;/li>
 &lt;/ul>
@@ -4448,14 +4376,15 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Subtle but Classless&lt;/li>
 &lt;/ul>
-&lt;h2 id="257-subtle-but-classless--ussep-and-eeo-patch-optional">25.7 Subtle But Classless – USSEP and EEO Patch (optional)&lt;/h2>
+&lt;h2 id="257-subtle-but-classless--ussep-and-eeo-patch-conditional">25.7 Subtle But Classless – USSEP and EEO Patch (conditional)&lt;/h2>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Mod Dependency&lt;/h4>
+Only install this mod if you installed &lt;strong>Subtle But Classless&lt;/strong>. Otherwise skip it.
+&lt;/div>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Subtle but Classless – USSEP and EEO Patch&lt;/li>
 &lt;/ul>
-&lt;blockquote>
-&lt;p>Install this mod if you installed Subtle But Classless. Otherwise skip it.&lt;/p>
-&lt;/blockquote>
 &lt;h4 id="mod-order-1">Mod Order&lt;/h4>
 &lt;ul>
 &lt;li>Place the mod below the &lt;strong>PATCHES&lt;/strong> separator.&lt;/li>
@@ -4658,11 +4587,6 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;li>&lt;del>Elemental Destruction Magic for SSE&lt;/del>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul>
-&lt;h2 id="2612-adopt-aventus-aretino">26.12 Adopt Aventus Aretino&lt;/h2>
-&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods3257tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3257?tab=files">Download Instructions&lt;/a>&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Adopt Aventus Aretino&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Improved Vanilla Quests</title><link>http://example.org/docs/03-mod-installation/step-27/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-27/</guid><description>
 &lt;h2 id="271-timing-is-everything">27.1 Timing Is Everything&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods25464tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25464?tab=files">Download Instructions&lt;/a>&lt;/h4>
@@ -4895,7 +4819,7 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Double-click &lt;strong>Disarming Traps Is Dangerous&lt;/strong> in your mod order.&lt;/li>
-&lt;li>Switch to the &lt;strong>Filetree&lt;/strong> tab and rename the plugin:
+&lt;li>Switch to the &lt;strong>Filetree&lt;/strong> tab and rename the plugin to:
 &lt;ul>
 &lt;li>DisarmingTrapsIsDangerous.&lt;strong>esp&lt;/strong>&lt;/li>
 &lt;/ul>
@@ -4975,7 +4899,7 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Skyrim Alchemy Fixed&lt;/li>
 &lt;/ul>
-&lt;h2 id="298-enchanting-adjustments-and-price-bug-fix">29.8 [Enchanting Adjustments and Price Bug Fix&lt;/h2>
+&lt;h2 id="298-enchanting-adjustments-and-price-bug-fix">29.8 Enchanting Adjustments and Price Bug Fix&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods8473tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8473?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Enchanting Adjustments FOMOD V2.4 Installer&lt;/li>
@@ -5097,14 +5021,15 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Talkative Dragons&lt;/li>
 &lt;/ul>
-&lt;h2 id="303-talkative-dragons--audio-replacer-optional">30.3 Talkative Dragons – Audio Replacer (optional)&lt;/h2>
+&lt;h2 id="303-talkative-dragons---audio-replacer-conditional">30.3 Talkative Dragons - Audio Replacer (conditional)&lt;/h2>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Mod Dependency&lt;/h4>
+Only install this mod if you installed &lt;strong>Talkative Dragons&lt;/strong>. Otherwise skip it.
+&lt;/div>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods27269tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27269?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> TDReplacer&lt;/li>
 &lt;/ul>
-&lt;blockquote>
-&lt;p>Install this mod if you installed &lt;strong>Talkative Dragons&lt;/strong>. Otherwise skip it.&lt;/p>
-&lt;/blockquote>
 &lt;h2 id="304-durnehviir-resurrected-optional">30.4 Durnehviir Resurrected (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods14272tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14272?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5319,7 +5244,7 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Double-click &lt;strong>Solstheim Lighthouse&lt;/strong> in your mod order.&lt;/li>
-&lt;li>Switch to the &lt;strong>Filetree&lt;/strong> tab and rename the plugin:
+&lt;li>Switch to the &lt;strong>Filetree&lt;/strong> tab and rename the plugin to:
 &lt;ul>
 &lt;li>SolstheimLighthouse.&lt;strong>esp&lt;/strong>&lt;/li>
 &lt;/ul>
@@ -5432,7 +5357,7 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;h2 id="345-more-werewolves-optional">34.5 More Werewolves (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods7259tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/7259?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files&lt;/strong> – More Werewolves&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> More Werewolves&lt;/li>
 &lt;/ul>
 &lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
 &lt;ul>
@@ -5442,45 +5367,33 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;h2 id="346-falkreath-hauntings-optional">34.6 Falkreath Hauntings (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods20733tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20733?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files&lt;/strong> – The Falkreath Hauntings&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> The Falkreath Hauntings&lt;/li>
 &lt;/ul>
-&lt;h2 id="347-dwemer-spectres-optional">34.7 Dwemer Spectres (optional)&lt;/h2>
-&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods8016tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8016?tab=files">Download Instructions&lt;/a>&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Dwemer Spectres Special Edition&lt;/li>
-&lt;/ul>
-&lt;h2 id="348-dwemer-spectres--ebt-no-bleeding-and-other-fixes-optional">34.8 Dwemer Spectres – EBT No Bleeding and Other Fixes (optional)&lt;/h2>
-&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26954tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26954?tab=files">Download Instructions&lt;/a>&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Dwemer Spectres EBT No Blood Patch and Other Fixes&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>&lt;strong>Mod Dependency:&lt;/strong> Install this mod if you installed &lt;strong>Dwemer Spectres&lt;/strong>. Otherwise skip it.&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="349-beast-skeletons-optional">34.9 Beast Skeletons (optional)&lt;/h2>
+&lt;h2 id="347-beast-skeletons-optional">34.7 Beast Skeletons (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods517tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/517?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Beast Skeletons 6.1&lt;/li>
 &lt;/ul>
-&lt;h2 id="3410-beast-skeletons---plugin-replacer-optional">34.10 Beast Skeletons - Plugin Replacer (optional)&lt;/h2>
+&lt;h2 id="348-beast-skeletons---plugin-replacer-conditional">34.8 Beast Skeletons - Plugin Replacer (conditional)&lt;/h2>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Mod Dependency&lt;/h4>
+Only install this mod if you installed &lt;strong>Beast Skeletons&lt;/strong>. Otherwise skip it.
+&lt;/div>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Beast Skeletons - Plugin Replacer&lt;/li>
 &lt;/ul>
-&lt;blockquote>
-&lt;p>&lt;strong>Mod Dependency:&lt;/strong> Install this mod if you installed &lt;strong>Beast Skeletons&lt;/strong>. Otherwise skip it.&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="3411-cannibal-draugr-on-solstheim-optional">34.11 Cannibal Draugr on Solstheim (optional)&lt;/h2>
+&lt;h2 id="349-cannibal-draugr-on-solstheim-optional">34.9 Cannibal Draugr on Solstheim (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods21238tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21238?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Filess:&lt;/strong> Cannibal Draugr on Solstheim&lt;/li>
 &lt;/ul>
-&lt;h2 id="3412-the-blood-horker-optional">34.12 The Blood Horker (optional)&lt;/h2>
+&lt;h2 id="3410-the-blood-horker-optional">34.10 The Blood Horker (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods13938tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/13938?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Blood Horker&lt;/li>
 &lt;/ul>
-&lt;h2 id="3413-cliff-racers-of-solstheim-optional">34.13 Cliff Racers of Solstheim (optional)&lt;/h2>
+&lt;h2 id="3411-cliff-racers-of-solstheim-optional">34.11 Cliff Racers of Solstheim (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods2168tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2168?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Cliff Racers on Solstheim&lt;/li>
@@ -5530,7 +5443,7 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;ul>
 &lt;li>Find the following file in your &lt;strong>Downloads&lt;/strong> tab:
 &lt;ul>
-&lt;li>Practical Female Armors SE - All-In-One Installer - NMM BAIN-2628-1-3o&lt;/li>
+&lt;li>&lt;code>Practical Female Armors SE - All-In-One Installer - NMM BAIN-2628-1-3o&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>Double-click to install as usual.&lt;/li>
@@ -5627,13 +5540,14 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="362-simply-knock-skse64-dll-optional">36.2 Simply Knock SKSE64 DLL (optional)&lt;/h2>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Mod Dependency&lt;/h4>
+Only install this mod if you installed &lt;strong>Simply Knock&lt;/strong>. Otherwise skip it.
+&lt;/div>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods24297tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24297?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> SimplyKnockSE SKSE64 2.0.17 DLL&lt;/li>
 &lt;/ul>
-&lt;blockquote>
-&lt;p>&lt;strong>Mod Dependency:&lt;/strong> Install this mod if you installed &lt;strong>Simply Knock&lt;/strong>. Otherwise skip it.&lt;/p>
-&lt;/blockquote>
 &lt;h2 id="363-quick-light-optional">36.3 Quick Light (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods12633tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12633?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5653,7 +5567,41 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods30887tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30887?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Choose Your Own Arch-Mage&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Sounds &amp; Music</title><link>http://example.org/docs/03-mod-installation/step-37/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-37/</guid><description>
+&lt;/ul>
+&lt;h2 id="367-adopt-aventus-aretino">36.7 Adopt Aventus Aretino&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods3257tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3257?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Adopt Aventus Aretino&lt;/li>
+&lt;/ul>
+&lt;h2 id="368-irondusks-saddlebags-optional">36.8 Irondusk&amp;rsquo;s Saddlebags (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods91395tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/91395?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Saddlebags 5-17-18&lt;/li>
+&lt;/ul>
+&lt;h4 id="porting-instructions">Porting Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Resave the plugin in the Creation Kit.&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
+&lt;p>Saddlebags comes not only with a horse storage feature but also a Lesser Power called Horse Whistle which calls your horse to your location. Nether&amp;rsquo;s Follower Framework already contains the same feature, but you can set it to a specific hotkey in the NFF MCM, making it a good deal more convenient than using yet another power.&lt;/p>
+&lt;p>It&amp;rsquo;s optional but I highly recommend disabling Saddlebag&amp;rsquo;s horse call power by following these steps:&lt;/p>
+&lt;ul>
+&lt;li>Run &lt;strong>SSEEdit&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> in the plugin selection window to load all plugins.&lt;/li>
+&lt;li>Wait for SSEEdit to return &lt;code>Background Loader: finished&lt;/code>.&lt;/li>
+&lt;li>Scroll down in the left pane to &lt;strong>Saddlebags.esp&lt;/strong> and double-click it.&lt;/li>
+&lt;li>Double-click the &lt;strong>Quest&lt;/strong> category and select the &lt;code>SaddlebagsQuest&lt;/code> record.&lt;/li>
+&lt;li>Under &lt;strong>Aliases&lt;/strong> &amp;raquo; &lt;strong>Alias Spells&lt;/strong>, delete the following (see screenshot below):
+&lt;ul>
+&lt;li>&lt;code>HorseWhistleSpell &amp;quot;Horse Whistle&amp;quot; [SPEL:9D001D92]&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Close SSEEdit and click &lt;strong>OK&lt;/strong> to save your changes.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>This will prevent the power from being given to the player, effectively disabling it.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/saddlebags_disable_whistle.png" alt="Saddlebags Disable Whistle">&lt;/p></description></item><item><title>Docs: Sounds &amp; Music</title><link>http://example.org/docs/03-mod-installation/step-37/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-37/</guid><description>
 &lt;h2 id="371-audio-overhaul-for-skyrim-aos">37.1 Audio Overhaul for Skyrim (AOS)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods12466tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12466?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5672,12 +5620,96 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;ul>
 &lt;li>Place both patches below the &lt;strong>PATCHES&lt;/strong> separator.&lt;/li>
 &lt;/ul>
-&lt;h2 id="372-improved-horse-step-sounds-optional">37.2 Improved Horse Step Sounds (optional)&lt;/h2>
+&lt;h2 id="372-immersive-sounds---compendium-isc">37.2 Immersive Sounds - Compendium (ISC)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods523tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/523/?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Sounds Compendium SSE 2.2&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Weapon Impact Options:&lt;/strong>
+&lt;ul>
+&lt;li>IS Default (Extra Bloody)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Weapon Draw/Sheathe Options:&lt;/strong>
+&lt;ul>
+&lt;li>Semi-Smooth Equip&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Bow Shot Option:&lt;/strong>
+&lt;ul>
+&lt;li>High Fantasy (Shorter Arrow Whistle)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Bow Pull Option:&lt;/strong>
+&lt;ul>
+&lt;li>IS Default&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Arrow Impact Options:&lt;/strong>
+&lt;ul>
+&lt;li>High Fantasy&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Extra Weaponry Options:&lt;/strong>
+&lt;ul>
+&lt;li>Extra Gory Killmove Sounds&lt;/li>
+&lt;li>Smooth Weapon Swings&lt;/li>
+&lt;li>Silent Arrow Projectile Loop&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Restauration Options:&lt;/strong>
+&lt;ul>
+&lt;li>Vanilla&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Firebolt Options:&lt;/strong>
+&lt;ul>
+&lt;li>Swooshy&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Creature Options:&lt;/strong>
+&lt;ul>
+&lt;li>Demonic Draugr&lt;/li>
+&lt;li>Well-Mannered Wolves&lt;/li>
+&lt;li>Sensible Storm Atronarchs&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Nirnroot Options:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;em>Feel free to make your own choice.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Misc Options:&lt;/strong>
+&lt;ul>
+&lt;li>More Rustling Heavy Armor &amp;raquo; &lt;code>this may get annoying, feel free to skip it&lt;/code>&lt;/li>
+&lt;li>&lt;del>Oblivion Skillup Sound&lt;/del>&lt;/li>
+&lt;li>Dungeon Ambiance&lt;/li>
+&lt;li>&lt;del>TESO Summoning&lt;/del>&lt;/li>
+&lt;li>&lt;em>You can (but don&amp;rsquo;t have to) select any of the silencer options.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="373-audio-overhaul---immersive-sounds-integration">37.3 Audio Overhaul - Immersive Sounds Integration&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods36761tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/36761?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Audio Overhaul Skyrim - Immersive Sounds Compendium Integration (1.0.1)&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and/or folder(s):
+&lt;ul>
+&lt;li>&lt;code>AOS_ISC_Integration.modgroups&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="374-improved-horse-step-sounds-optional">37.4 Improved Horse Step Sounds (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods848tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/848?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Improved Horse Step Sounds - Special Edition&lt;/li>
 &lt;/ul>
-&lt;h2 id="373-heart-of-the-beast--werewolf-sound-and-texture-overhaul-optional">37.3 Heart of the Beast – Werewolf Sound and Texture Overhaul (optional)&lt;/h2>
+&lt;h2 id="375-heart-of-the-beast--werewolf-sound-and-texture-overhaul-optional">37.5 Heart of the Beast – Werewolf Sound and Texture Overhaul (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods13779tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/13779?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Werewolf Sounds - LOW AGGRESSION&lt;/li>
@@ -5687,17 +5719,17 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Realistic Husky Sounds SE&lt;/li>
 &lt;/ul>
-&lt;h2 id="375-ominous-dragon-soul-absorb-music-optional">37.5 OMINOUS Dragon Soul Absorb Music (optional)&lt;/h2>
+&lt;h2 id="376-ominous-dragon-soul-absorb-music-optional">37.6 OMINOUS Dragon Soul Absorb Music (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods60767tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/60767?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> OMINOUS Dragon Soul Absorb Music&lt;/li>
 &lt;/ul>
-&lt;h2 id="376-soultrap-sound-edit--calm-wind-optional">37.6 Soultrap Sound Edit – Calm Wind (optional)&lt;/h2>
+&lt;h2 id="377-soultrap-sound-edit--calm-wind-optional">37.7 Soultrap Sound Edit – Calm Wind (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods8017tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8017?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Soultrap Sound Edit Calm Wind v1&lt;/li>
 &lt;/ul>
-&lt;h2 id="377-lower-sounding-thieves-guild-door-optional">37.7 Lower Sounding Thieves Guild Door (optional)&lt;/h2>
+&lt;h2 id="378-lower-sounding-thieves-guild-door-optional">37.8 Lower Sounding Thieves Guild Door (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods1826tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/1826?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> LowerVolume&lt;/li>
@@ -5809,71 +5841,19 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;/ul>
 &lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Animation Rig Map:&lt;/strong>
-&lt;ul>
-&lt;li>No Physics&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Character Creation:&lt;/strong>
-&lt;ul>
-&lt;li>Racemenu&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Weapon Style Randomizer for NPCs:&lt;/strong>
-&lt;ul>
-&lt;li>None&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Animation Variants:&lt;/strong>
-&lt;ul>
-&lt;li>&lt;em>leave everything on None&lt;/em>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>First Person Animation - Axes:&lt;/strong>
-&lt;ul>
-&lt;li>&lt;del>Axes on Back&lt;/del>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>First Person Animation - Swords&lt;/strong>
-&lt;ul>
-&lt;li>None&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Mounted Combat Animation - Axes:&lt;/strong>
-&lt;ul>
-&lt;li>&lt;del>Axes on Back&lt;/del>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Mounted Combat Animation - Bow:&lt;/strong>
-&lt;ul>
-&lt;li>&lt;del>Belt-Fastened Quiver&lt;/del>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Mounted Combat Animation - Sword:&lt;/strong>
-&lt;ul>
-&lt;li>None&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>The Joy of Perspective:&lt;/strong>
-&lt;ul>
-&lt;li>None&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Schlongs of Skyrim:&lt;/strong>
-&lt;ul>
-&lt;li>None&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Deadly Mutilation:&lt;/strong>
-&lt;ul>
-&lt;li>None&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Enderal:&lt;/strong>
-&lt;ul>
-&lt;li>None&lt;/li>
-&lt;/ul>
-&lt;/li>
+&lt;li>&lt;strong>Animation Rig Map:&lt;/strong> No Physics&lt;/li>
+&lt;li>&lt;strong>Character Creation:&lt;/strong> Racemenu&lt;/li>
+&lt;li>&lt;strong>Weapon Style Randomizer for NPCs:&lt;/strong> None&lt;/li>
+&lt;li>&lt;strong>Animation Variants:&lt;/strong> &lt;em>leave everything on None&lt;/em>&lt;/li>
+&lt;li>&lt;strong>First Person Animation - Axes:&lt;/strong> &lt;del>Axes on Back&lt;/del>&lt;/li>
+&lt;li>&lt;strong>First Person Animation - Swords&lt;/strong> None&lt;/li>
+&lt;li>&lt;strong>Mounted Combat Animation - Axes:&lt;/strong> &lt;del>Axes on Back&lt;/del>&lt;/li>
+&lt;li>&lt;strong>Mounted Combat Animation - Bow:&lt;/strong> &lt;del>Belt-Fastened Quiver&lt;/del>&lt;/li>
+&lt;li>&lt;strong>Mounted Combat Animation - Sword:&lt;/strong> None&lt;/li>
+&lt;li>&lt;strong>The Joy of Perspective:&lt;/strong> None&lt;/li>
+&lt;li>&lt;strong>Schlongs of Skyrim:&lt;/strong> None&lt;/li>
+&lt;li>&lt;strong>Deadly Mutilation:&lt;/strong> None&lt;/li>
+&lt;li>&lt;strong>Enderal:&lt;/strong> None&lt;/li>
 &lt;/ul>
 &lt;h2 id="393-xpmsse-fixes---automated-patcher">39.3 XPMSSE Fixes - Automated Patcher&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Download Instructions&lt;/a>&lt;/h4>
