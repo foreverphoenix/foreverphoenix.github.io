@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Mod Installation</title><link>http://example.org/docs/03-mod-installation/</link><description>Recent content in Mod Installation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="http://example.org/docs/03-mod-installation/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Essential Mods</title><link>http://example.org/docs/03-mod-installation/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-01/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Mod Installation</title><link>http://thephoenixflavour.com/docs/03-mod-installation/</link><description>Recent content in Mod Installation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="http://thephoenixflavour.com/docs/03-mod-installation/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Essential Mods</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-01/</guid><description>
 &lt;h2 id="11-address-library-for-skse-plugins">1.1 Address Library for SKSE Plugins&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods32444tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32444?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -85,7 +85,7 @@
 &lt;li>Go to the &lt;strong>Downloads&lt;/strong> tab and double-click the mod to install it as usual.&lt;/li>
 &lt;li>I recommend renaming it simply to &lt;strong>Skyrim Particle Patch&lt;/strong> after the installation.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/skyrim_particle_patch_download.png" alt="Skyrim Particle Patch download link">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/mod_installation/skyrim_particle_patch_download.png" alt="Skyrim Particle Patch download link">&lt;/p>
 &lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Delete the following file(s) and/or folder(s):
@@ -118,7 +118,7 @@
 &lt;/ul>
 &lt;blockquote>
 &lt;p>The first mesh will be replaced either by the fixed version contained in Skyrim Landscape and Water Fixes or by Real Walls 3D. Deleting the second mesh will allow you to use a different retexture for the Solitude city gate.&lt;/p>
-&lt;/blockquote></description></item><item><title>Docs: Fixes</title><link>http://example.org/docs/03-mod-installation/step-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-02/</guid><description>
+&lt;/blockquote></description></item><item><title>Docs: Fixes</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-02/</guid><description>
 &lt;h2 id="21-weapons-armor-clothing-and-clutter-fixes-waccf">2.1 Weapons, Armor, Clothing and Clutter Fixes (WACCF)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods18994tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18994?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -358,7 +358,7 @@
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods32349tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32349?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> ActorLimitPlugin v2&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Tweaks</title><link>http://example.org/docs/03-mod-installation/step-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-03/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Tweaks</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-03/</guid><description>
 &lt;h2 id="31-run-for-your-lives">3.1 Run For Your Lives&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods2272tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2272?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -473,8 +473,8 @@
 &lt;li>Once both conflicts are resolved, the record will be displayed in green.&lt;/li>
 &lt;li>Close SSEEdit. Click &lt;strong>OK&lt;/strong> to save your changes and quit.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/simply_smaller_wolves_conflict_1.png" alt="Simply Smaller Wolves 1">&lt;/p>
-&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/simply_smaller_wolves_conflict_2.png" alt="Simply Smaller Wolves 2">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/mod_installation/simply_smaller_wolves_conflict_1.png" alt="Simply Smaller Wolves 1">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/mod_installation/simply_smaller_wolves_conflict_2.png" alt="Simply Smaller Wolves 2">&lt;/p>
 &lt;h2 id="317-quiet-dog-optional">3.17 Quiet Dog (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods6066tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6066?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -524,7 +524,7 @@
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods21765tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21765?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Uninterrupted Ethereal Form v2&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Interface</title><link>http://example.org/docs/03-mod-installation/step-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-04/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Interface</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-04/</guid><description>
 &lt;h2 id="41-skyui">4.1 SkyUI&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods12604tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12604?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -739,7 +739,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;h4 id="about-the-mod">About the mod&lt;/h4>
 &lt;p>This is my personal preset for AMOT. It uses the slim clock widget to match the slim compass from SkyHUD and has a small 24h clock with the ingame time centered below. You can change the clock to 12h through the MCM at any time.&lt;/p>
 &lt;p>Even if you have the preset installed, you can configure the AMOT settings to your liking. It will only be applied if you load it through the MCM specifically.&lt;/p>
-&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/amot_preset_preview.jpg" alt="My AMOT Preset Preview">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/mod_installation/amot_preset_preview.jpg" alt="My AMOT Preset Preview">&lt;/p>
 &lt;h2 id="415-shouts-in-the-dragon-tongue-sidt-optional">4.15 Shouts in the Dragon Tongue (SIDT) (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods5515tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5515?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -844,7 +844,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods98tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/98?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Time on loading v5&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Main Visual Mods</title><link>http://example.org/docs/03-mod-installation/step-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-05/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Main Visual Mods</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-05/</guid><description>
 &lt;h2 id="51-skyrim-realistic-overhaul-sro">5.1 Skyrim Realistic Overhaul (SRO)&lt;/h2>
 &lt;h4 id="download-instructions">Download Instructions&lt;/h4>
 &lt;ul>
@@ -1118,7 +1118,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;li>&lt;del>Morph Files (Outfits)&lt;/del>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Docs: Weather</title><link>http://example.org/docs/03-mod-installation/step-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-06/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Weather</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-06/</guid><description>
 &lt;h2 id="61-obsidian-weathers-and-seasons">6.1 Obsidian Weathers and Seasons&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods12125tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12125?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -1203,7 +1203,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;h4 id="fomod-instructions-3">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Select Transpareny:&lt;/strong> 95% (Personal Choice)&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Lighting</title><link>http://example.org/docs/03-mod-installation/step-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-07/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Lighting</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-07/</guid><description>
 &lt;h2 id="71-relighting-skyrim">7.1 Relighting Skyrim&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods8586tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8586?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -1405,7 +1405,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods29376tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/29376?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> KD - Realistic Fireplaces - Charred Logs 2K&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Visual FX</title><link>http://example.org/docs/03-mod-installation/step-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-08/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Visual FX</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-08/</guid><description>
 &lt;h2 id="81-frozen-electrocuted-combustion-fec-optional">8.1 Frozen Electrocuted Combustion (FEC) (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods3532tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3532?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -1492,7 +1492,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods34148tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34148?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> GlowBeGoneSSE-Updated&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Landscape</title><link>http://example.org/docs/03-mod-installation/step-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-09/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Landscape</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-09/</guid><description>
 &lt;h2 id="91-majestic-mountains">9.1 Majestic Mountains&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods11052tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11052?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -1879,7 +1879,7 @@ Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/s
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods4126tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4126?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Dawnguard Dayspring Pass (IDDP)&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Flora</title><link>http://example.org/docs/03-mod-installation/step-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-10/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Flora</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-10/</guid><description>
 &lt;h2 id="101-enhanced-vanilla-trees-evt">10.1 Enhanced Vanilla Trees (EVT)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods11008tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11008?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -2036,7 +2036,7 @@ Only install this mod if you installed &lt;strong>Immersive Fallen Trees&lt;/str
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods27834tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27834?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Fallen Trees Patch&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Architecture</title><link>http://example.org/docs/03-mod-installation/step-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-11/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Architecture</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-11/</guid><description>
 &lt;h2 id="111-mds-farmhouses-optional">11.1 MD&amp;rsquo;s Farmhouses (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods32160tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32160?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -2172,7 +2172,7 @@ Only install this mod if you installed &lt;strong>Immersive Fallen Trees&lt;/str
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods7292tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/7292?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> SSE 2K Textures&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Misc Structures</title><link>http://example.org/docs/03-mod-installation/step-12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-12/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Misc Structures</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-12/</guid><description>
 &lt;h2 id="121-fences-of-skyrim-optional">12.1 Fences of Skyrim (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods5664tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5664?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -2372,7 +2372,7 @@ Only install this mod if you installed &lt;strong>Immersive Fallen Trees&lt;/str
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods18098tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18098?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Astral Aspect - 2K - 1.4&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Vanilla Locations</title><link>http://example.org/docs/03-mod-installation/step-13/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-13/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Vanilla Locations</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-13/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-13/</guid><description>
 &lt;h2 id="131-jks-cities--lite">13.1 JK’s Cities – Lite&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods71018tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/71018?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -2591,7 +2591,7 @@ Only install this mod if you installed &lt;strong>Immersive Fallen Trees&lt;/str
 &lt;li>&lt;del>Solitude Temple Frescoes 2019 (No Lanters) - ESL Flagged&lt;/del>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Docs: Interiors</title><link>http://example.org/docs/03-mod-installation/step-14/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-14/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Interiors</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-14/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-14/</guid><description>
 &lt;h2 id="141-rustic-windows">14.1 RUSTIC WINDOWS&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods1937tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1937?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -2642,7 +2642,7 @@ Only install this mod if you installed &lt;strong>Immersive Fallen Trees&lt;/str
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods33394tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33394?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> JS Shrines of the Divines SE - 2K&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Dungeons</title><link>http://example.org/docs/03-mod-installation/step-15/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-15/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Dungeons</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-15/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-15/</guid><description>
 &lt;h2 id="151-underground--a-dungeon-texture-overhaul">15.1 Underground – A Dungeon Texture Overhaul&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods14365tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14365?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -2792,7 +2792,7 @@ Only install this mod if you installed &lt;strong>Immersive Fallen Trees&lt;/str
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods7285tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/7285?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> HD Lava (4k)&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Clutter</title><link>http://example.org/docs/03-mod-installation/step-16/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-16/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Clutter</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-16/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-16/</guid><description>
 &lt;h2 id="161-forgotten-retex-project">16.1 Forgotten Retex Project&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods7849tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/7849?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -2960,7 +2960,7 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;h4 id="fomod-instructions-2">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Step 1:&lt;/strong> White Gold&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Food &amp; Ingredients</title><link>http://example.org/docs/03-mod-installation/step-17/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-17/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Food &amp; Ingredients</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-17/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-17/</guid><description>
 &lt;h2 id="171-high-quality-food-and-ingredients-se-optional">17.1 High Quality Food and Ingredients SE (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods10897tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/10897?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -3064,7 +3064,7 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;li>When the warning window pops up, click &lt;strong>Yes I&amp;rsquo;m absolutely sure&lt;/strong>.&lt;/li>
 &lt;li>Close SSEEdit and click &lt;strong>OK&lt;/strong> to save your changes.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/true_homecooked_meal_ussep.png" alt="True Homecooked Meal USSEP">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/mod_installation/true_homecooked_meal_ussep.png" alt="True Homecooked Meal USSEP">&lt;/p>
 &lt;h2 id="176-hd-meshes-and-textures-for-animal-and-creature-drops-optional">17.6 HD Meshes and Textures for Animal and Creature Drops (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods33791">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33791/">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -3084,7 +3084,7 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods27983tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27983?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> ElSopa HD - Briarheart Red 512&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Clothes &amp; Jewellery</title><link>http://example.org/docs/03-mod-installation/step-18/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-18/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Clothes &amp; Jewellery</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-18/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-18/</guid><description>
 &lt;h2 id="181-rustic-clothing">18.1 RUSTIC CLOTHING&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods4703tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4703?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -3150,7 +3150,7 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;li>Right-click &lt;strong>Scroll&lt;/strong> and select &lt;strong>Remove&lt;/strong>.&lt;/li>
 &lt;li>Close SSEEdit and click &lt;strong>OK&lt;/strong> to save your changes.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/gqj_delete_wild_edit.png" alt="Gemling Queen Jewelry - Delete Records in xEdit">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/mod_installation/gqj_delete_wild_edit.png" alt="Gemling Queen Jewelry - Delete Records in xEdit">&lt;/p>
 &lt;h2 id="184-js-circlet-replacer-optional">18.4 JS Circlet Replacer (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods8686tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8686?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -3179,7 +3179,7 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;/li>
 &lt;/ul>
 &lt;h4 id="about-the-mod">About the mod&lt;/h4>
-&lt;p>A similarly beautiful retexture of Barenziah’s Crown and the stones (made by Gamwich and Saerileth) is already included in Forgotten Retex Project. You can find screenshots of it &lt;a href="https://www.nexusmods.com/skyrim/mods/63902">here on its original mod page&lt;/a>. Skip JS Barenziah if you prefer Gamwich and Saerileth’s retexture which you already have installed.&lt;/p></description></item><item><title>Docs: Weapons &amp; Armor</title><link>http://example.org/docs/03-mod-installation/step-19/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-19/</guid><description>
+&lt;p>A similarly beautiful retexture of Barenziah’s Crown and the stones (made by Gamwich and Saerileth) is already included in Forgotten Retex Project. You can find screenshots of it &lt;a href="https://www.nexusmods.com/skyrim/mods/63902">here on its original mod page&lt;/a>. Skip JS Barenziah if you prefer Gamwich and Saerileth’s retexture which you already have installed.&lt;/p></description></item><item><title>Docs: Weapons &amp; Armor</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-19/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-19/</guid><description>
 &lt;h2 id="191-rustic-armor-and-weapons-raw-optional">19.1 RUSTIC ARMOR AND WEAPONS (RAW) (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods19666tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19666?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -3530,7 +3530,7 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;/ul>
 &lt;blockquote>
 &lt;p>Processing the meshes with CAO results in the staff 3rd person mesh being invisble ingame. Not processing causes the dagger 1st and 3rd person meshes to be invisible. Only SSE NIF Optimizer reliably fixes all meshes.&lt;/p>
-&lt;/blockquote></description></item><item><title>Docs: Unique Artifacts</title><link>http://example.org/docs/03-mod-installation/step-20/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-20/</guid><description>
+&lt;/blockquote></description></item><item><title>Docs: Unique Artifacts</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-20/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-20/</guid><description>
 &lt;h2 id="201-amidianborn-book-of-silence--unique-items">20.1 aMidianBorn Book of Silence – Unique Items&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods24909tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/24909?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -3686,7 +3686,7 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;h4 id="porting-instructions">Porting Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Run the mod through Cathedral Assets Optimizer (&lt;strong>SSE - Optimise SLE Assets&lt;/strong>).&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Creatures</title><link>http://example.org/docs/03-mod-installation/step-21/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-21/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Creatures</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-21/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-21/</guid><description>
 &lt;h2 id="211-bellyaches-animal-and-creature-pack-optional">21.1 Bellyache’s Animal and Creature Pack (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods6839tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6839?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -3906,7 +3906,7 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods17740tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17740?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> RUSTIC DEATH HOUND AND GARGOYLE SSE - 2K&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Daedra &amp; Dragons</title><link>http://example.org/docs/03-mod-installation/step-22/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-22/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Daedra &amp; Dragons</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-22/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-22/</guid><description>
 &lt;h2 id="221-rustic-daedra-optional">22.1 RUSTIC DAEDRA (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods19272tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19272?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -3930,7 +3930,7 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;li>Close SSEEdit. Only &lt;strong>UniqueBarbas.esp&lt;/strong> should appear in the next window.&lt;/li>
 &lt;li>Make sure it is checked, then click &lt;strong>OK&lt;/strong> to save and close.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/unique_barbas_height.png" alt="Unique Barbas xEdit">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/mod_installation/unique_barbas_height.png" alt="Unique Barbas xEdit">&lt;/p>
 &lt;h2 id="223-bellyaches-hd-dragon-replacer-pack-optional">22.3 Bellyache’s HD Dragon Replacer Pack (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods2636tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2636?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -3964,7 +3964,7 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;ul>
 &lt;li>&lt;strong>Texture:&lt;/strong> Smooth&lt;/li>
 &lt;li>&lt;strong>Mesh:&lt;/strong> Fixed UVs&lt;/li>
-&lt;/ul></description></item><item><title>Docs: NPC Overhauls</title><link>http://example.org/docs/03-mod-installation/step-23/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-23/</guid><description>
+&lt;/ul></description></item><item><title>Docs: NPC Overhauls</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-23/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-23/</guid><description>
 &lt;h2 id="231-vanilla-npcs-ruhmastered">23.1 Vanilla NPCs Ruhmastered&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods25977tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25977?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -4145,7 +4145,7 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;h4 id="mod-order">Mod Order&lt;/h4>
 &lt;ul>
 &lt;li>Place &lt;strong>Simple Children - Patches&lt;/strong> below the &lt;strong>PATCHES&lt;/strong> separator.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Appearance</title><link>http://example.org/docs/03-mod-installation/step-24/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-24/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Appearance</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-24/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-24/</guid><description>
 &lt;h2 id="241-bijin-skin-for-cbbe-optional">24.1 Bijin Skin for CBBE (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods20078tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20078?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -4321,7 +4321,7 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods27343tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27343?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Mouth and Teeth for Orcs - 1K - 1.0&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Gameplay Overhauls</title><link>http://example.org/docs/03-mod-installation/step-25/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-25/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Gameplay Overhauls</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-25/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-25/</guid><description>
 &lt;h2 id="251-mysticism--a-magic-overhaul">25.1 Mysticism – A Magic Overhaul&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods27839tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27839?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -4436,7 +4436,7 @@ Only install this mod if you installed &lt;strong>Subtle But Classless&lt;/stron
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods23794tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23794?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Night Eye Overhaul - Plugin Replacer - Sacrosanct Version&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Non-Player Characters</title><link>http://example.org/docs/03-mod-installation/step-26/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-26/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Non-Player Characters</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-26/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-26/</guid><description>
 &lt;h2 id="261-ai-overhaul">26.1 AI Overhaul&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods21654tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21654?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -4587,7 +4587,7 @@ Only install this mod if you installed &lt;strong>Subtle But Classless&lt;/stron
 &lt;li>&lt;del>Elemental Destruction Magic for SSE&lt;/del>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Docs: Improved Vanilla Quests</title><link>http://example.org/docs/03-mod-installation/step-27/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-27/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Improved Vanilla Quests</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-27/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-27/</guid><description>
 &lt;h2 id="271-timing-is-everything">27.1 Timing Is Everything&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods25464tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25464?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -4735,7 +4735,7 @@ Only install this mod if you installed &lt;strong>Subtle But Classless&lt;/stron
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods324tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/324?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Castle Volkihar Rebuilt&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Combat</title><link>http://example.org/docs/03-mod-installation/step-28/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-28/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Combat</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-28/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-28/</guid><description>
 &lt;h2 id="281-wildcat--combat-of-skyrim">28.1 Wildcat – Combat of Skyrim&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods1368tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1368?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -4805,7 +4805,7 @@ Only install this mod if you installed &lt;strong>Subtle But Classless&lt;/stron
 &lt;li>The &lt;strong>DragonRace&lt;/strong> record will turn green, confirming that no unresolved conflicts remain, and you can close &lt;strong>SSEEdit&lt;/strong>.&lt;/li>
 &lt;li>Click &lt;strong>OK&lt;/strong> to save your changes.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/mortal_enemies_simply_stronger_dragons_cr.png" alt="Fix Conflict between Mortal Enemies and Simply Stronger Dragons">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/mod_installation/mortal_enemies_simply_stronger_dragons_cr.png" alt="Fix Conflict between Mortal Enemies and Simply Stronger Dragons">&lt;/p>
 &lt;h2 id="2810-improved-traps">28.10 Improved Traps&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods17592tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17592?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -4839,7 +4839,7 @@ Only install this mod if you installed &lt;strong>Subtle But Classless&lt;/stron
 &lt;/ul>
 &lt;h4 id="about-the-mod">About the mod&lt;/h4>
 &lt;p>Even if you’re not looking to change anything about kill cams in general, VioLens is still very useful for toggling off kill cams against the player character. These often happen in situation where you could have survived the hit but because the kill cam triggers you instantly die which is especially annoying in (modded) lethal and fast-paced combat (which is achievable with the TPF setup).&lt;/p>
-&lt;p>You can also use VioLens to disable kill cams altogether which I usually do.&lt;/p></description></item><item><title>Docs: Balancing</title><link>http://example.org/docs/03-mod-installation/step-29/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-29/</guid><description>
+&lt;p>You can also use VioLens to disable kill cams altogether which I usually do.&lt;/p></description></item><item><title>Docs: Balancing</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-29/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-29/</guid><description>
 &lt;h2 id="291-morrowloot-miscellania---hybrid-loot">29.1 Morrowloot Miscellania - Hybrid Loot&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods27094tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27094?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5008,7 +5008,7 @@ Only install this mod if you installed &lt;strong>Subtle But Classless&lt;/stron
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods33723tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33723?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Unique Items Tweaks&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Immersion</title><link>http://example.org/docs/03-mod-installation/step-30/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-30/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Immersion</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-30/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-30/</guid><description>
 &lt;h2 id="301-dragon-remains-optional">30.1 Dragon Remains (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods21277tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21277?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5104,7 +5104,7 @@ Only install this mod if you installed &lt;strong>Talkative Dragons&lt;/strong>.
 &lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Plugin:&lt;/strong> Transparency Reduced and Infinite Summons&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Quality of Life Improvements</title><link>http://example.org/docs/03-mod-installation/step-31/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-31/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Quality of Life Improvements</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-31/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-31/</guid><description>
 &lt;h2 id="311-the-choice-is-yours-tciy">31.1 The Choice Is Yours (TCIY)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods3850tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3850?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5183,7 +5183,7 @@ Only install this mod if you installed &lt;strong>Talkative Dragons&lt;/strong>.
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods18967tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18967?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Better Jumping SE&lt;/li>
-&lt;/ul></description></item><item><title>Docs: New Quests &amp; Locations</title><link>http://example.org/docs/03-mod-installation/step-32/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-32/</guid><description>
+&lt;/ul></description></item><item><title>Docs: New Quests &amp; Locations</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-32/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-32/</guid><description>
 &lt;h2 id="321-the-forgotten-city">32.1 The Forgotten City&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods1179tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1179?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5257,7 +5257,7 @@ Only install this mod if you installed &lt;strong>Talkative Dragons&lt;/strong>.
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods14450tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14450?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Solstheim - Skaal Fishing Camp&lt;/li>
-&lt;/ul></description></item><item><title>Docs: New NPCs &amp; Companions</title><link>http://example.org/docs/03-mod-installation/step-33/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-33/</guid><description>
+&lt;/ul></description></item><item><title>Docs: New NPCs &amp; Companions</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-33/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-33/</guid><description>
 &lt;h2 id="331-diverse-skyrim">33.1 DIVERSE SKYRIM&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods7707tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/7707?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5324,7 +5324,7 @@ Only install this mod if you installed &lt;strong>Talkative Dragons&lt;/strong>.
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods22598tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22598?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Pandorable’s Lucien SE&lt;/li>
-&lt;/ul></description></item><item><title>Docs: New Encounters &amp; Creatures</title><link>http://example.org/docs/03-mod-installation/step-34/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-34/</guid><description>
+&lt;/ul></description></item><item><title>Docs: New Encounters &amp; Creatures</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-34/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-34/</guid><description>
 &lt;h2 id="341-immersive-patrols-optional">34.1 Immersive Patrols (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods718tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/718?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5353,7 +5353,7 @@ Only install this mod if you installed &lt;strong>Talkative Dragons&lt;/strong>.
 &lt;ul>
 &lt;li>Choose whichever options you like best for &lt;strong>Skin&lt;/strong> and &lt;strong>Eyes and Mouth&lt;/strong>. Refer to the picture below.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/diverse_werewolves_collection.png" alt="Diverse Werewolves Collection">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/mod_installation/diverse_werewolves_collection.png" alt="Diverse Werewolves Collection">&lt;/p>
 &lt;h2 id="345-more-werewolves-optional">34.5 More Werewolves (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods7259tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/7259?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5397,7 +5397,7 @@ Only install this mod if you installed &lt;strong>Beast Skeletons&lt;/strong>. O
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods2168tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2168?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Cliff Racers on Solstheim&lt;/li>
-&lt;/ul></description></item><item><title>Docs: New Items &amp; Equipment</title><link>http://example.org/docs/03-mod-installation/step-35/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-35/</guid><description>
+&lt;/ul></description></item><item><title>Docs: New Items &amp; Equipment</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-35/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-35/</guid><description>
 &lt;h2 id="351-armor-and-clothing-extension-ace">35.1 Armor and Clothing Extension (ACE)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods19002tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19002?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5495,7 +5495,7 @@ Only install this mod if you installed &lt;strong>Beast Skeletons&lt;/strong>. O
 &lt;/li>
 &lt;li>Close SSEEdit and click &lt;strong>OK&lt;/strong> to save your changes.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/disable_crafting_unique_scimitars.png" alt="Disable Crafting Unique Scimitars">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/mod_installation/disable_crafting_unique_scimitars.png" alt="Disable Crafting Unique Scimitars">&lt;/p>
 &lt;h2 id="3511-kthonias-unique-weapon-pack--dragonborn-weapons-optional">35.11 Kthonia’s Unique Weapon Pack – Dragonborn Weapons (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods15050tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/15050?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5524,7 +5524,7 @@ Only install this mod if you installed &lt;strong>Beast Skeletons&lt;/strong>. O
 &lt;blockquote>
 &lt;p>The bow with two perks would benefit twice as much from tempering which is unintended. This bug was found and fixed by &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/29298">Kulharin&lt;/a> but the fix can easily be applied to your own copy of the plugin without an additional patch ESP.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/fix_kthonia_chitin_bow.png" alt="Fix Kthonia Chitin Bow">&lt;/p></description></item><item><title>Docs: New Mechanics &amp; Features</title><link>http://example.org/docs/03-mod-installation/step-36/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-36/</guid><description>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/mod_installation/fix_kthonia_chitin_bow.png" alt="Fix Kthonia Chitin Bow">&lt;/p></description></item><item><title>Docs: New Mechanics &amp; Features</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-36/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-36/</guid><description>
 &lt;h2 id="361-simply-knock-optional">36.1 Simply Knock (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods14098tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14098?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5601,7 +5601,7 @@ Only install this mod if you installed &lt;strong>Simply Knock&lt;/strong>. Othe
 &lt;blockquote>
 &lt;p>This will prevent the power from being given to the player, effectively disabling it.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/saddlebags_disable_whistle.png" alt="Saddlebags Disable Whistle">&lt;/p></description></item><item><title>Docs: Sounds &amp; Music</title><link>http://example.org/docs/03-mod-installation/step-37/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-37/</guid><description>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/mod_installation/saddlebags_disable_whistle.png" alt="Saddlebags Disable Whistle">&lt;/p></description></item><item><title>Docs: Sounds &amp; Music</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-37/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-37/</guid><description>
 &lt;h2 id="371-audio-overhaul-for-skyrim-aos">37.1 Audio Overhaul for Skyrim (AOS)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods12466tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12466?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5733,7 +5733,7 @@ Only install this mod if you installed &lt;strong>Simply Knock&lt;/strong>. Othe
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods1826tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/1826?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> LowerVolume&lt;/li>
-&lt;/ul></description></item><item><title>Docs: ENB Particle Lights</title><link>http://example.org/docs/03-mod-installation/step-38/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-38/</guid><description>
+&lt;/ul></description></item><item><title>Docs: ENB Particle Lights</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-38/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-38/</guid><description>
 &lt;h2 id="381-enb-light">38.1 ENB Light&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods22574tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22574?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5820,7 +5820,7 @@ Only install this mod if you installed &lt;strong>Simply Knock&lt;/strong>. Othe
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods22703tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22703?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - More Lights for ENB SE - Bthardamz&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Skeleton &amp; Animations</title><link>http://example.org/docs/03-mod-installation/step-39/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-39/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Skeleton &amp; Animations</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-39/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-39/</guid><description>
 &lt;h2 id="391-fores-new-idles-in-skyrim-fnis">39.1 Fores New Idles in Skyrim (FNIS)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods3038tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3038?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5914,7 +5914,7 @@ Only install this mod if you installed &lt;strong>Simply Knock&lt;/strong>. Othe
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods11431tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11431?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Werewolf Claws Affect Spider Webs - XPMSSE 4.71 version&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Utilities</title><link>http://example.org/docs/03-mod-installation/step-40/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-40/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Utilities</title><link>http://thephoenixflavour.com/docs/03-mod-installation/step-40/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/03-mod-installation/step-40/</guid><description>
 &lt;h2 id="401-private-profile-redirector-optional">40.1 Private Profile Redirector (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods18860tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18860?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>

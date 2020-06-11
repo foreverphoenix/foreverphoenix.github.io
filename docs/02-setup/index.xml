@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Setup</title><link>http://example.org/docs/02-setup/</link><description>Recent content in Setup on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="http://example.org/docs/02-setup/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Prerequisites</title><link>http://example.org/docs/02-setup/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-01/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Setup</title><link>http://thephoenixflavour.com/docs/02-setup/</link><description>Recent content in Setup on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="http://thephoenixflavour.com/docs/02-setup/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Prerequisites</title><link>http://thephoenixflavour.com/docs/02-setup/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/02-setup/step-01/</guid><description>
 &lt;h2 id="11-requirements">1.1 Requirements&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/">Skyrim Special Edition&lt;/a> on Steam.&lt;/li>
@@ -18,7 +18,7 @@
 &lt;li>Click the &lt;strong>View&lt;/strong> tab at the top.&lt;/li>
 &lt;li>Make sure &lt;strong>File name extensions&lt;/strong> is checked.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/file_extensions_visible.png" alt="File Extensions Visible">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/file_extensions_visible.png" alt="File Extensions Visible">&lt;/p>
 &lt;h2 id="13-your-modding-folder">1.3 Your Modding Folder&lt;/h2>
 &lt;p>In order to keep all files related to modding Skyrim SE in one place, we will create a dedicated directory. It will serve as a hub for all tools, downloaded mod archives, custom files, notes, backups, screenshots and whatever else you can think of.&lt;/p>
 &lt;p>Throughout the guide I will refer to this folder as &lt;strong>Your Modding Folder&lt;/strong>.&lt;/p>
@@ -28,13 +28,13 @@
 &lt;li>Name it whatever you like, for example &lt;strong>Skyrim SE Modding&lt;/strong>.&lt;/li>
 &lt;li>Add several more new folders inside as shown below:&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/modding_folder.png" alt="Modding Folder">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/modding_folder.png" alt="Modding Folder">&lt;/p>
 &lt;h3 id="132-mod-archive">1.3.2 Mod Archive&lt;/h3>
 &lt;p>Proper organisation is key when modding Skyrim. You will come back many times to update or reinstall mods, or selectively extract files without installing the whole package. This is where the previously created &lt;strong>ARCHIVE&lt;/strong> comes into play - it will contain the majority of downloaded mod archives.&lt;/p>
 &lt;ul>
 &lt;li>Create several more folders inside the &lt;strong>ARCHIVE&lt;/strong> folder:&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/archive_folder.png" alt="Archive Folder">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/archive_folder.png" alt="Archive Folder">&lt;/p>
 &lt;h2 id="14-monitor-calibration">1.4 Monitor Calibration&lt;/h2>
 &lt;h3 id="141-gamma-and-brightness">1.4.1 Gamma and Brightness&lt;/h3>
 &lt;p>Assuming you already have your monitor configured with your preferred settings for resolution and refresh rate (in my case that is 60Hz and 1920x1080), you might still want to adjust the brightness and/or gamma either through your graphics card control panel or Windows&amp;rsquo; inbuilt calibration tool.&lt;/p>
@@ -88,7 +88,7 @@
 &lt;td>contains the game files&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Skyrim SE</title><link>http://example.org/docs/02-setup/step-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: Skyrim SE</title><link>http://thephoenixflavour.com/docs/02-setup/step-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/02-setup/step-02/</guid><description>
 &lt;h2 id="21-recommended-directory">2.1 Recommended Directory&lt;/h2>
 &lt;p>The entire point of reinstalling Skyrim SE is not only to make sure you have a clean, vanilla setup but also to be able to control where the game is installed on your drive. Here is what you need to keep in mind:&lt;/p>
 &lt;ul>
@@ -147,7 +147,7 @@
 &lt;li>Right-click &lt;strong>SkyrimSE.exe&lt;/strong> and select &lt;strong>Properties&lt;/strong>.&lt;/li>
 &lt;li>Switch to the &lt;strong>Details&lt;/strong> tab and check under &lt;strong>Product version&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/skyrim_se_1_5_97_0.png" alt="Skyrim SE 1.5.97.0">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/skyrim_se_1_5_97_0.png" alt="Skyrim SE 1.5.97.0">&lt;/p>
 &lt;h2 id="26-disable-auto-updates">2.6 Disable Auto Updates&lt;/h2>
 &lt;p>When Skyrim SE receives another update - which, thanks to the Creation Club, happens every once in a while - SKSE64 and all SKSE plugins will need to be updated as well. This usually takes at least a week.&lt;/p>
 &lt;p>However, you can continue playing the previous version with SKSE64 and all your mods by simply setting Skyrim SE to only update when launching the game. Since you start the game through the SKSE64 launcher, Steam will never update.&lt;/p>
@@ -157,7 +157,7 @@
 &lt;li>Make sure &lt;strong>Automatic updates&lt;/strong> is set to &lt;strong>Only update this game when I launch it&lt;/strong>.&lt;/li>
 &lt;li>Problem solved!&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/sse_disable_auto_updates.png" alt="Disable Auto Updates">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/sse_disable_auto_updates.png" alt="Disable Auto Updates">&lt;/p>
 &lt;h2 id="27-executables-backup">2.7 Executables Backup&lt;/h2>
 &lt;p>Although Steam will no longer update Skyrim SE automatically, I still recommend keeping backups of the two executables (&lt;strong>SkyrimSE.exe&lt;/strong> and &lt;strong>SkyrimSELauncher.exe&lt;/strong>), just in case. If you accidentally updated, all you need to do to roll back is replace the executables in your &lt;strong>root&lt;/strong> folder with the ones you backed up. This also comes in handy if you had to regenerate INI files or validate game files through Steam for whatever reason and were forced to update.&lt;/p>
 &lt;ul>
@@ -186,7 +186,7 @@
 &lt;li>Right-click it and select &lt;strong>Properties&lt;/strong>.&lt;/li>
 &lt;li>Uncheck &lt;strong>Enable the Steam Overlay while in-game&lt;/strong>.&lt;/li>
 &lt;li>Close the window.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: The Creation Kit</title><link>http://example.org/docs/02-setup/step-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-03/</guid><description>
+&lt;/ul></description></item><item><title>Docs: The Creation Kit</title><link>http://thephoenixflavour.com/docs/02-setup/step-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/02-setup/step-03/</guid><description>
 &lt;h2 id="31-acquisition">3.1 Acquisition&lt;/h2>
 &lt;p>With the release of Skyrim SE, Bethesda also published a new version of their official tool kit, the Creation Kit (or CK for short), updated for the new 64bit engine. Unfortunately the CK 2.0 can no longer be downloaded directly from Steam but requires the Bethesda Launcher and a Beth.net account.&lt;/p>
 &lt;blockquote>
@@ -198,7 +198,7 @@
 &lt;li>Click the &lt;strong>Download&lt;/strong> button in the &lt;strong>Bethesda Launcher&lt;/strong> section.&lt;/li>
 &lt;li>Double-click the downloaded executable.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/download_beth_launcher.png" alt="Download Beth Launcher">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/download_beth_launcher.png" alt="Download Beth Launcher">&lt;/p>
 &lt;h2 id="32-installation">3.2 Installation&lt;/h2>
 &lt;ul>
 &lt;li>Let the executable guide you through the installation process.&lt;/li>
@@ -209,14 +209,14 @@
 &lt;li>The CK should be installed directly into your &lt;strong>root&lt;/strong> folder (see picture).&lt;/li>
 &lt;li>Wait for the files to download.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/ck_installation_path.png" alt="Creation Kit Installation Path">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/ck_installation_path.png" alt="Creation Kit Installation Path">&lt;/p>
 &lt;h2 id="33-disable-auto-updates">3.3 Disable Auto Updates&lt;/h2>
 &lt;ul>
 &lt;li>In the Bethesda Launcher, go to &lt;strong>Game Options&lt;/strong>.&lt;/li>
 &lt;li>Toggle off &lt;strong>Auto Updates&lt;/strong>.&lt;/li>
 &lt;li>Close the Bethesda Launcher.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/ck_disable_auto_updates.png" alt="Disable Auto Updates">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/ck_disable_auto_updates.png" alt="Disable Auto Updates">&lt;/p>
 &lt;h2 id="34-custom-ini">3.4 Custom INI&lt;/h2>
 &lt;p>The custom INI file will allow you to load mods with multiple master files as well as fix some Creation Kit issues and crashes.&lt;/p>
 &lt;ul>
@@ -251,7 +251,7 @@
 &lt;li>&lt;code>Skyrim Special Edition\Data\Scripts\Source&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Docs: Mod Organizer 2</title><link>http://example.org/docs/02-setup/step-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-04/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Mod Organizer 2</title><link>http://thephoenixflavour.com/docs/02-setup/step-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/02-setup/step-04/</guid><description>
 &lt;h2 id="41-installation">4.1 Installation&lt;/h2>
 &lt;p>Installing MO2 with a portable instance means all of its subdirectories will be located inside the MO2 root folder which is required for some modding tools to work properly.&lt;/p>
 &lt;ul>
@@ -264,7 +264,7 @@
 &lt;li>Confirm when asked to associate NXM links with MO2.&lt;/li>
 &lt;li>Click &lt;strong>No&lt;/strong> when prompted with the tutorial option.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/mo2_choose_instance.png" alt="MO2 Choose Instance">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/mo2_choose_instance.png" alt="MO2 Choose Instance">&lt;/p>
 &lt;h2 id="42-configuration">4.2 Configuration&lt;/h2>
 &lt;h3 id="421-mod-order-fix">4.2.1 Mod Order Fix&lt;/h3>
 &lt;ul>
@@ -299,7 +299,7 @@
 &lt;li>Click &lt;strong>Authorise&lt;/strong>. You can revoke this any time in your Nexus settings.&lt;/li>
 &lt;li>Mod Organizer 2 may ask you to restart. Click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/authorise_mo2.png" alt="Authorise MO2">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/authorise_mo2.png" alt="Authorise MO2">&lt;/p>
 &lt;h2 id="43-manage-mod-downloads">4.3 Manage Mod Downloads&lt;/h2>
 &lt;p>Most people use the &amp;ldquo;With Mod Manager&amp;rdquo; download option on the Nexus and then install the mod through their mod manager’s UI. That is the fastest and simplest way to download and install mods.&lt;/p>
 &lt;p>Since we installed MO2 as a portable application, all our mod archives would normally be downloaded into a sub-directory of the (MO2) root folder – which in turn may be located on your SSD or otherwise fastest hard drive. These archives are then extracted into their own folders meaning after their installation they only use up space.&lt;/p>
@@ -310,7 +310,7 @@
 &lt;li>Switch to the &lt;strong>Paths&lt;/strong> tab.&lt;/li>
 &lt;li>Point &lt;strong>Downloads&lt;/strong> to &lt;code>Your Modding Folder\ARCHIVE\MO2 Downloads&lt;/code>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/mo2_archive.png" alt="MO2 Archive">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/mo2_archive.png" alt="MO2 Archive">&lt;/p>
 &lt;h2 id="44-user-interface">4.4 User Interface&lt;/h2>
 &lt;h3 id="441-components">4.4.1 Components&lt;/h3>
 &lt;p>You can now configure the UI to your liking. Personally I re-arrange the two panels so that the left one (mod order) is wider.&lt;/p>
@@ -331,7 +331,7 @@
 &lt;li>&lt;strong>Source Game&lt;/strong>&lt;/li>
 &lt;li>&lt;strong>Priority&lt;/strong>&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/mo2_customised.png" alt="MO2 Customized">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/mo2_customised.png" alt="MO2 Customized">&lt;/p>
 &lt;h2 id="45-custom-profiles">4.5 Custom Profiles&lt;/h2>
 &lt;h3 id="451-vanilla">4.5.1 Vanilla&lt;/h3>
 &lt;ul>
@@ -382,7 +382,7 @@
 &lt;/li>
 &lt;li>Confirm when asked to merge the &lt;strong>data&lt;/strong> folders.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/install_deorders_plugins.png" alt="Install Deorders Plugins">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/install_deorders_plugins.png" alt="Install Deorders Plugins">&lt;/p>
 &lt;h3 id="462-configuration">4.6.2 Configuration&lt;/h3>
 &lt;ul>
 &lt;li>Close and re-open Mod Organizer 2.&lt;/li>
@@ -410,14 +410,14 @@
 &lt;li>&lt;strong>…&lt;/strong>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Docs: Skyrim Script Extender</title><link>http://example.org/docs/02-setup/step-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-05/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Skyrim Script Extender</title><link>http://thephoenixflavour.com/docs/02-setup/step-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/02-setup/step-05/</guid><description>
 &lt;h2 id="51-download">5.1 Download&lt;/h2>
 &lt;ul>
 &lt;li>Download &lt;a href="http://skse.silverlock.org/">SKSE64&lt;/a>. You need build &lt;strong>2.0.17&lt;/strong> for the current version of Skyrim SE.&lt;/li>
 &lt;li>Save the downloaded archive to &lt;code>Your Modding Folder\ARCHIVE\SKSE64&lt;/code>.&lt;/li>
 &lt;/ul>
 &lt;p>If on the main page for SKSE there is a different version number than the one noted above, Skyrim and the Script Extender were likely updated and you need to download the previous version from the archive page (see picture below).&lt;/p>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/skse_download.png" alt="SKSE Download">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/skse_download.png" alt="SKSE Download">&lt;/p>
 &lt;h2 id="52-installation">5.2 Installation&lt;/h2>
 &lt;h3 id="521-binaries">5.2.1 Binaries&lt;/h3>
 &lt;ul>
@@ -465,7 +465,7 @@
 &lt;li>Type in &lt;code>getskseversion&lt;/code> and hit Enter. It should return the version number of your SKSE64 installation.&lt;/li>
 &lt;li>After confirming that SKSE64 was installed correctly, type &lt;strong>qqq&lt;/strong> in the console and hit Enter to quickly close the game.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/verify_skse64.jpg" alt="Verify SKSE64">&lt;/p></description></item><item><title>Docs: INI Files</title><link>http://example.org/docs/02-setup/step-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-06/</guid><description>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/verify_skse64.jpg" alt="Verify SKSE64">&lt;/p></description></item><item><title>Docs: INI Files</title><link>http://thephoenixflavour.com/docs/02-setup/step-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/02-setup/step-06/</guid><description>
 &lt;h2 id="61-generate-fresh-ini-files">6.1 Generate Fresh INI Files&lt;/h2>
 &lt;p>The basic game settings are saved in two INI files, &lt;strong>Skyrim.ini&lt;/strong> and &lt;strong>SkyrimPrefs.ini&lt;/strong>, and split up (somewhat arbitrarily) between them. In order to ensure that your INIs are completely untouched and vanilla, we will regenerate them before optimising them.&lt;/p>
 &lt;h3 id="611-remove-old-files">6.1.1 Remove old files&lt;/h3>
@@ -487,7 +487,7 @@
 &lt;li>A window will come up, informing you that Skyrim SE will now be configured based on your hardware.&lt;/li>
 &lt;li>Click &lt;strong>OK&lt;/strong> twice to confirm and hit &lt;strong>Exit&lt;/strong> once it’s done.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/regenerating_inis.png" alt="Regenerating INIs">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/regenerating_inis.png" alt="Regenerating INIs">&lt;/p>
 &lt;h2 id="62-install-bethini">6.2 Install BethINI&lt;/h2>
 &lt;ul>
 &lt;li>Download the latest version of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4875">BethINI&lt;/a> manually from the Nexus.&lt;/li>
@@ -512,7 +512,7 @@
 &lt;blockquote>
 &lt;p>Changing the INI Path will prompt BethINI to restart. Click No when asked about using the skyrimcustom.ini file.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/bethini_setup.png" alt="BethINI Setup">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/bethini_setup.png" alt="BethINI Setup">&lt;/p>
 &lt;h3 id="632-bethini---basic">6.3.2 BethINI - Basic&lt;/h3>
 &lt;p>Continue with the second tab, &lt;strong>Basic&lt;/strong>.&lt;/p>
 &lt;ul>
@@ -525,7 +525,7 @@
 &lt;blockquote>
 &lt;p>Note that 1920x1080 is the recommended resolution. The performance impact of 1440p over 1080p is considerable.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/bethini_basic.png" alt="BethINI Basic">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/bethini_basic.png" alt="BethINI Basic">&lt;/p>
 &lt;h3 id="633-bethini---interface">6.3.3 BethINI - Interface&lt;/h3>
 &lt;p>Continue with the fifth tab, &lt;strong>Interface&lt;/strong>.&lt;/p>
 &lt;ul>
@@ -536,7 +536,7 @@
 &lt;blockquote>
 &lt;p>You can always turn the subtitles back on in the ingame settings.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/bethini_interface.png" alt="BethINI Interface">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/bethini_interface.png" alt="BethINI Interface">&lt;/p>
 &lt;h3 id="634-bethini---detail">6.3.4 BethINI - Detail&lt;/h3>
 &lt;p>Continue with the sixth tab, &lt;strong>Detail&lt;/strong>.&lt;/p>
 &lt;ul>
@@ -550,13 +550,13 @@
 &lt;li>&lt;strong>Shadow Resolution:&lt;/strong> Set to &lt;code>2048&lt;/code> (unless your CPU is very slow).&lt;/li>
 &lt;li>&lt;strong>Ambient Occlusion:&lt;/strong> Uncheck this in favour of ENB AO.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/bethini_detail.png" alt="BethINI Detail">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/bethini_detail.png" alt="BethINI Detail">&lt;/p>
 &lt;h3 id="635-bethini---view-distance">6.3.5 BethINI - View Distance&lt;/h3>
 &lt;p>Continue with the seventh tab, &lt;strong>View Distance&lt;/strong>.&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Grass Fade:&lt;/strong> Set to &lt;code>15000&lt;/code> or higher.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/bethini_view_distance.png" alt="BethINI View Distance">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/bethini_view_distance.png" alt="BethINI View Distance">&lt;/p>
 &lt;h3 id="636-bethini---visuals">6.3.6 BethINI - Visuals&lt;/h3>
 &lt;p>Continue with the eighth tab, &lt;strong>Visuals&lt;/strong>.&lt;/p>
 &lt;ul>
@@ -565,13 +565,13 @@
 &lt;blockquote>
 &lt;p>This should eliminate the &amp;ldquo;black crush&amp;rdquo; some people are experiencing in Skyrim SE.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/bethini_visuals.png" alt="BethINI Visuals">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/bethini_visuals.png" alt="BethINI Visuals">&lt;/p>
 &lt;h2 id="64-save-changes">6.4 Save Changes&lt;/h2>
 &lt;ul>
 &lt;li>Return to the second tab, &lt;strong>Basic&lt;/strong>, and click &lt;code>Save and Exit&lt;/code>.&lt;/li>
 &lt;li>Restart Mod Organizer 2.&lt;/li>
 &lt;li>You might be notified about the missing skyrimcustom.ini in which case you can just click &lt;strong>OK&lt;/strong>.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Additional Tools</title><link>http://example.org/docs/02-setup/step-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-07/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Additional Tools</title><link>http://thephoenixflavour.com/docs/02-setup/step-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/02-setup/step-07/</guid><description>
 &lt;h2 id="71-sseedit">7.1 SSEEdit&lt;/h2>
 &lt;h3 id="711-installation">7.1.1 Installation&lt;/h3>
 &lt;ul>
@@ -583,7 +583,7 @@
 &lt;li>Navigate to &lt;code>Your Modding Folder\Tools\SSEEdit&lt;/code>and double-click &lt;strong>SSEEdit.exe&lt;/strong>.&lt;/li>
 &lt;li>Click &lt;strong>Apply&lt;/strong> to save the new executable.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/add_sseedit_to_mo2.png" alt="Add SSEEdit to MO2">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/add_sseedit_to_mo2.png" alt="Add SSEEdit to MO2">&lt;/p>
 &lt;h3 id="712-sseedit-cache-output">7.1.2 SSEEdit Cache Output&lt;/h3>
 &lt;p>Every time a new plugin is loaded into SSEEdit, a refcache file will be generated for it so that the next time it won’t have to processed again – SSEEdit can simply read the cache file, significantly shortening the startup time.&lt;/p>
 &lt;p>In order to store the cached files with the program files themselves, we need to add an argument for it:&lt;/p>
@@ -618,7 +618,7 @@
 &lt;blockquote>
 &lt;p>The &lt;strong>-DontCache&lt;/strong> argument will prevent an obscure bug that destroys parts of Apocrypha during the cleaning of Dragonborn.esm.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/add_quickautoclean_to_mo2.png" alt="Add QuickAutoClean to MO2">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/add_quickautoclean_to_mo2.png" alt="Add QuickAutoClean to MO2">&lt;/p>
 &lt;h2 id="73-cathedral-assets-optimizer-cao">7.3 Cathedral Assets Optimizer (CAO)&lt;/h2>
 &lt;h3 id="731-installation">7.3.1 Installation&lt;/h3>
 &lt;ul>
@@ -649,7 +649,7 @@
 &lt;li>Create a new folder: &lt;code>Your Modding Folder\Tools\Modwat.ch&lt;/code>.&lt;/li>
 &lt;li>Open the downloaded archive and double-click the &amp;ldquo;Modwatch-win32-ia32&amp;rdquo; folder within.&lt;/li>
 &lt;li>Extract everything into the new folder.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: ESM Cleaning</title><link>http://example.org/docs/02-setup/step-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-08/</guid><description>
+&lt;/ul></description></item><item><title>Docs: ESM Cleaning</title><link>http://thephoenixflavour.com/docs/02-setup/step-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/02-setup/step-08/</guid><description>
 &lt;h2 id="81-about-esm-cleaning">8.1 About ESM Cleaning&lt;/h2>
 &lt;p>With the release of SSEEdit 4.0, the process of cleaning plugins has been simplified quite a bit. Beginning with &lt;strong>Update.esm&lt;/strong>, we are going to clean the following four ESMs, Bethesda’s official master files, &lt;strong>one at a time&lt;/strong>.&lt;/p>
 &lt;ul>
@@ -707,7 +707,7 @@
 &lt;li>Wait until the cleaning procedure is completed.&lt;/li>
 &lt;li>Close SSEEdit.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/update_esm_cleaned.png" alt="Update ESM Cleaned">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/update_esm_cleaned.png" alt="Update ESM Cleaned">&lt;/p>
 &lt;h2 id="84-manual-cleaning---update-esm">8.4 Manual Cleaning - Update ESM&lt;/h2>
 &lt;h3 id="841-source">8.4.1 Source&lt;/h3>
 &lt;p>With 1.5.97, Bethesda changed the navmeshes in Solitude for their latest &amp;ldquo;creation&amp;rdquo;, Saints &amp;amp; Seducers (&lt;a href="https://www.reddit.com/r/skyrimmods/comments/dzvg03/teardown_of_the_1597_update/?utm_source=share&amp;amp;utm_medium=web2x">source&lt;/a>). Some mods however still rely on the old navmesh and they will crash if it&amp;rsquo;s missing (namely Interesting NPCs). Therefore we will revert the deletion of the old navmesh.&lt;/p>
@@ -733,7 +733,7 @@
 &lt;li>Make sure &lt;strong>Update.esm&lt;/strong> is checked, then click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;li>You’re done!&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/update_esm_manual_edit.png" alt="Update ESM Manual Edit">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/update_esm_manual_edit.png" alt="Update ESM Manual Edit">&lt;/p>
 &lt;h2 id="85-manual-cleaning---dawnguard-esm">8.5 Manual Cleaning - Dawnguard ESM&lt;/h2>
 &lt;h3 id="851-source">8.5.1 Source&lt;/h3>
 &lt;p>There are &lt;a href="https://forums.nexusmods.com/index.php?/topic/5381485-guide-manual-cleaning-skyrim-and-skyrim-special-edition-master-files/">additional instructions written up by alt3rn1ty&lt;/a> to manually clean some dirty edits that won’t be caught by SSEEdit’s quick cleaning procedure. Only one of the edits can affect actual gameplay though, so we won’t bother with removing the other two which are simply left-over test records.&lt;/p>
@@ -760,14 +760,14 @@
 &lt;li>Right-click &lt;code>RiftenRatwayZone [ECZN:0009FBB9]&lt;/code> in &lt;strong>Dawnguard.esm&lt;/strong> and select &lt;strong>Remove&lt;/strong> (see picture below).&lt;/li>
 &lt;li>There will be a warning, simply click &lt;strong>Yes I’m absolutely sure&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/esm_cleaning_manual_edit.png" alt="ESM Cleaning - Manual Edit">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/esm_cleaning_manual_edit.png" alt="ESM Cleaning - Manual Edit">&lt;/p>
 &lt;h3 id="854-save-changes">8.5.4 Save Changes&lt;/h3>
 &lt;ul>
 &lt;li>Close SSEEdit.&lt;/li>
 &lt;li>When asked to save your changes, only &lt;strong>Dawnguard.esm&lt;/strong> should appear in the list.&lt;/li>
 &lt;li>Make sure &lt;strong>Dawnguard.esm&lt;/strong> is checked, then click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;li>You’re done!&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Skyrim Realistic Overhaul</title><link>http://example.org/docs/02-setup/step-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-09/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Skyrim Realistic Overhaul</title><link>http://thephoenixflavour.com/docs/02-setup/step-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/02-setup/step-09/</guid><description>
 &lt;h2 id="91-download">9.1 Download&lt;/h2>
 &lt;p>Skyrim Realistic Overhaul is the most comprehensive texture overhaul out there, over 10GB in size and covering nearly every single texture in the game. We will use it as a base retexture for our setup.&lt;/p>
 &lt;p>Unfortunately SRO is not on the Nexus and we will have to download it from ModDB. Because the files are so large, the download may take a while (depending on your internet connection) and it may be advisable to let them load overnight.&lt;/p>
@@ -800,7 +800,7 @@
 &lt;li>This will take a while. &lt;strong>Make sure to merge and overwrite when asked.&lt;/strong>&lt;/li>
 &lt;li>Eventually you will have a single &lt;strong>textures&lt;/strong> folder with the size of a solid &lt;strong>10.2GB&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/sro_textures_folder.png" alt="SRO Textures Folder">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/sro_textures_folder.png" alt="SRO Textures Folder">&lt;/p>
 &lt;h2 id="93-processing-with-cao">9.3 Processing with CAO&lt;/h2>
 &lt;p>In order to be able to control the mod order of SRO and ensure it can be overwritten by other retexture mods, we will also pack the textures in BSAs (archives) and load the matching plugins high up in the load order. All packed up, the entirety of SRO will be reduced to 8.32GB this way.&lt;/p>
 &lt;p>&lt;strong>If you have 3GB of VRAM or less:&lt;/strong> Use the &lt;strong>SSE – Skyrim Realistic Overhaul (Performance)&lt;/strong> profile. In addition to repacking the textures, CAO will also half their resolution (all 4k textures to 2k, all 2k textures to 1k) which will help save VRAM. Note that this will take more time and result in less plugins and archives.&lt;/p>
@@ -812,7 +812,7 @@
 &lt;li>This will take a while! You can monitor the progress in the &lt;strong>Logs&lt;/strong> tab.&lt;/li>
 &lt;li>Wait until the CAO log returns: &lt;code>[INFO] Process completed&lt;/code>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/process_sro_in_cao.png" alt="Process SRO in CAO">&lt;/p>
+&lt;p>&lt;img src="http://thephoenixflavour.com/Pictures/setup/process_sro_in_cao.png" alt="Process SRO in CAO">&lt;/p>
 &lt;h2 id="94-installation">9.4 Installation&lt;/h2>
 &lt;ul>
 &lt;li>Navigate to &lt;code>Your Modding Folder\temp\Skyrim Realistic Overhaul&lt;/code> which now contains several ESPs and BSAs:
@@ -825,7 +825,7 @@
 &lt;li>Back in Mod Organizer 2, press F5 to refresh.&lt;/li>
 &lt;li>&lt;strong>Skyrim Realistic Overhaul&lt;/strong> should now appear at the bottom of your mod order.&lt;/li>
 &lt;li>Drag it up all the way below the &lt;strong>MAIN VISUAL MODS&lt;/strong> separator and activate it.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Mod Installation</title><link>http://example.org/docs/02-setup/step-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-10/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Mod Installation</title><link>http://thephoenixflavour.com/docs/02-setup/step-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://thephoenixflavour.com/docs/02-setup/step-10/</guid><description>
 &lt;p>After completing the Setup, you are equipped with a correctly installed and configured instance of Mod Organizer 2 that is properly set up with the Skyrim Script Extender. It is now time to dive into the by far longest section in the guide - the mod installation.&lt;/p>
 &lt;p>The mods themselves are split up into forty categories which correspond to the separators of the same names installed for MO2 in the Setup. &lt;strong>Each set of mods must be installed in the order they are listed in&lt;/strong> and grouped below their respective separator.&lt;/p>
 &lt;p>It may be faster to download all mods of a page first, then install them, and finally go through the post-installation instructions.&lt;/p>
