@@ -1,0 +1,244 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – New Game</title><link>http://example.org/docs/06-new-game/</link><description>Recent content in New Game on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="http://example.org/docs/06-new-game/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Final Adjustments</title><link>http://example.org/docs/06-new-game/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/06-new-game/step-01/</guid><description>
+&lt;h2 id="timing">Timing&lt;/h2>
+&lt;p>Before starting a new playthrough, there are some considerations.&lt;/p>
+&lt;p>Has there been a Skyrim update recently? If so, SKSE64, the mods depending on it as well as the guide may receive an update very soon, and it may be worth it to wait a week or two for everything to catch up before diving into the game.&lt;/p>
+&lt;blockquote>
+&lt;p>Also keep an eye on my blog or our Discord server in case a major update for the guide or a mod is imminent.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="mo2-notifications">MO2 Notifications&lt;/h2>
+&lt;p>Before jumping into the game, go through one final checkup. In Mod Organizer 2, go to &lt;strong>View &amp;gt; Notifications&lt;/strong>. If this is greyed out, you are good to go! If not there are multiple different warnings you might encounter:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Missing Masters:&lt;/strong> One of your plugins is missing a master file. It is marked with an exclamation mark in your load order. This is most likely due to skipping a mod that was not optional or selecting the wrong option in a FOMOD installer. Go back to the mod’s instructions in the guide and double-check everything.&lt;/li>
+&lt;li>&lt;strong>Form 43 Plugin:&lt;/strong> You forgot to re-save one or several plugins in the Creation Kit. Re-save them now.&lt;/li>
+&lt;li>&lt;strong>Outdated SKSE Plugin:&lt;/strong> Check the plugin&amp;rsquo;s mod page to see if there is a new version.&lt;/li>
+&lt;li>&lt;strong>Files in your overwrite:&lt;/strong> This one is not particularly problematic and you can probably ignore it for the time being.&lt;/li>
+&lt;/ul>
+&lt;h2 id="new-profile">New Profile&lt;/h2>
+&lt;ul>
+&lt;li>In Mod Organizer 2, open the &lt;strong>Profiles&lt;/strong> window (Tools &amp;gt; Profiles or CTRL + P).&lt;/li>
+&lt;li>Select your &lt;strong>The Phoenix Flavour&lt;/strong> or &lt;strong>The Phoenix Flavour - Customised&lt;/strong> profile and click &lt;strong>Copy&lt;/strong>.&lt;/li>
+&lt;li>Enter a name for the new profile. Here are some suggestions:
+&lt;ul>
+&lt;li>&lt;code>The Phoenix Flavour - {name of the character for the playthrough}&lt;/code>&lt;/li>
+&lt;li>&lt;code>The Phoenix Flavour - {name of the build or playstyle for the playthrough}&lt;/code>&lt;/li>
+&lt;li>&lt;code>The Phoenix Flavour - Playthrough 1&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> and select your new profile in the list. Make sure both options at the bottom are checked:
+&lt;ul>
+&lt;li>Use profile-specific Save Games&lt;/li>
+&lt;li>Use profile-specific Game INI Files&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Close the &lt;strong>Profiles&lt;/strong> window.&lt;/li>
+&lt;li>Switch to your new profile in Mod Organizer 2.&lt;/li>
+&lt;/ul>
+&lt;h2 id="optional-mods">Optional Mods&lt;/h2>
+&lt;p>In your new profile, go through your mod order again - this is your last opportunity to disable some optional mods that you&amp;rsquo;d rather not use for your upcoming playthrough. Keep in mind that some optional mods have dependencies (like patches or replacer plugins) that would need to be disabled also. Others will be masters for DynDOLOD.esp and you would have to regenerate DynDOLOD if you were to disable them.&lt;/p>
+&lt;h2 id="enb-shader-cache">ENB Shader Cache&lt;/h2>
+&lt;p>If you installed ENBSeries, you should be decently sure that your current preset is the one you want to use in your playthrough. Of course you can still switch anytime but if you are planning on sticking with the preset for a while at least, I&amp;rsquo;d recommend turning on Shader Cache in the enblocal.ini. This will speed up the game launch process as ENB won&amp;rsquo;t have to reload its shaders every time.&lt;/p>
+&lt;ul>
+&lt;li>Open &lt;strong>ENBMan&lt;/strong>.&lt;/li>
+&lt;li>Double-click the &lt;strong>Skyrim SE&lt;/strong> profile.&lt;/li>
+&lt;li>Disable your current preset (click the checkmark to save if you changed anything).&lt;/li>
+&lt;li>Click the gears icon in the &lt;strong>Global Settings&lt;/strong> section.&lt;/li>
+&lt;li>Double-click &lt;strong>enblocal.ini&lt;/strong>.&lt;/li>
+&lt;li>Scroll down to the performance area and double-click &lt;strong>ShaderCache&lt;/strong>.&lt;/li>
+&lt;li>Change the value to &lt;strong>True&lt;/strong> and click the green checkmark to confirm.&lt;/li>
+&lt;li>Close the window and click &lt;strong>Yes&lt;/strong> to save your change.&lt;/li>
+&lt;li>Close out of the &lt;strong>Global Configuration Files&lt;/strong> window and reactivate your preset.&lt;/li>
+&lt;/ul>
+&lt;h2 id="new-game">New Game&lt;/h2>
+&lt;ul>
+&lt;li>Run &lt;strong>SKSE&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Select &lt;strong>NEW&lt;/strong> in the Skyrim main menu to start your playthrough.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Mod Configuration</title><link>http://example.org/docs/06-new-game/step-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/06-new-game/step-02/</guid><description>
+&lt;h2 id="initialisation">Initialisation&lt;/h2>
+&lt;p>After starting a new game, you will be dropped in the &lt;strong>Alternate Start – Live Another Life&lt;/strong> cell where you can customise your character, then configure your mods before you actually start playing.&lt;/p>
+&lt;p>Stand still and wait until all messages have run through in the upper left corner (check the screenshot below). Then hit &lt;strong>ESCAPE&lt;/strong> and create a manual save before you continue.&lt;/p>
+&lt;p>&lt;img src="http://example.org/Pictures/new_game/Initialisation_complete.jpg" alt="Initialisation complete">&lt;/p>
+&lt;h2 id="wildcat---configuration-power">Wildcat - Configuration Power&lt;/h2>
+&lt;p>While Wildcat (the main combat overhaul) comes with a fantastic MCM, it also adds a lesser power for configuration purposes to your character. For SkyUI users, this is unneccesary clutter since it&amp;rsquo;s much easier to just use the MCM.&lt;/p>
+&lt;ul>
+&lt;li>Open your Magic/Powers menu (TAB &amp;gt; Magic) and equip the &lt;strong>Wildcat Config&lt;/strong> lesser power.&lt;/li>
+&lt;li>Press your Powers hotkey (the default key is Z) and click your way through the menu always selecting the &lt;strong>Default&lt;/strong> option.&lt;/li>
+&lt;li>The very last option is &lt;strong>Disable Configuration Power&lt;/strong>. Click &lt;strong>Remove&lt;/strong> and it will be gone from your Powers menu.&lt;/li>
+&lt;/ul>
+&lt;p>You can customise the mod later on through the MCM.&lt;/p>
+&lt;p>&lt;img src="http://example.org/Pictures/new_game/wildcat_config_power.jpg" alt="Wildcat Config Power">&lt;/p>
+&lt;h2 id="mod-configuration-menus">Mod Configuration Menus&lt;/h2>
+&lt;p>Thanks to SkyUI, it is possible to configure most mods directly through their Mod Configuration Menu – or MCM for short – which you can access through the main menu. Hit &lt;strong>ESCAPE&lt;/strong> and select &lt;strong>MCM&lt;/strong>. See recommended changes for most of the guide’s MCMs below.&lt;/p>
+&lt;h3 id="a-matter-of-time">A Matter of Time&lt;/h3>
+&lt;ul>
+&lt;li>You can either:
+&lt;ul>
+&lt;li>Configure the clock widget to your liking.&lt;/li>
+&lt;li>Untick &lt;strong>Show&lt;/strong> for each module in the &lt;strong>General&lt;/strong> tab to hide it until you are ready to customise it.&lt;/li>
+&lt;li>If you installed my personal AMOT preset, go to &lt;strong>Presets&lt;/strong> and click &lt;strong>Load user settings&lt;/strong> (see screenshot).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://example.org/Pictures/new_game/load_amot_preset.jpg" alt="Load AMOT Preset">&lt;/p>
+&lt;h3 id="all-geared-up-derivative">All Geared Up Derivative&lt;/h3>
+&lt;ul>
+&lt;li>In the &lt;strong>NPC&lt;/strong> tab, check &lt;strong>Enable Weapons&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://example.org/Pictures/new_game/allgud_mcm.jpg" alt="AllGUD MCM">&lt;/p>
+&lt;h3 id="complete-crafting-overhaul-remastered">Complete Crafting Overhaul Remastered&lt;/h3>
+&lt;h4 id="menu-filters-optional">Menu Filters (optional)&lt;/h4>
+&lt;ul>
+&lt;li>Under &lt;strong>Recipe Display&lt;/strong> &amp;gt; &lt;strong>Crafting Menu Filters&lt;/strong>, disable:
+&lt;ul>
+&lt;li>Crafting Categories&lt;/li>
+&lt;li>Item Type Filters&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>While I think CCOR’s crafting menu filters are a great idea, I very much dislike their implementation and prefer to disable them entirely.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="more-jewelry">More Jewelry&lt;/h4>
+&lt;ul>
+&lt;li>Under &lt;strong>Crafting Options&lt;/strong> &amp;gt; &lt;strong>Additional Items&lt;/strong>, disable:
+&lt;ul>
+&lt;li>More Jewelry&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>The added circlets would use vanilla models and textures, inconsistent with the vanilla cirlcets changed by JS Circlet Replacer.&lt;/p>
+&lt;h4 id="equipment-breakdown-optional">Equipment Breakdown (optional)&lt;/h4>
+&lt;ul>
+&lt;li>Under &lt;strong>Crafting Options&lt;/strong> &amp;gt; &lt;strong>Breakdown Equipment&lt;/strong>, disable:
+&lt;ul>
+&lt;li>At Smelter&lt;/li>
+&lt;li>At Tanning Rack&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Equipment breakdown can throw off balancing since you get more crafting resources that way. I personally don’t like the feature at all.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="upgrading-leveled-items">Upgrading Leveled Items&lt;/h4>
+&lt;ul>
+&lt;li>Under &lt;strong>Miscellaneous&lt;/strong> &amp;gt; &lt;strong>Leveled Items&lt;/strong>, disable:
+&lt;ul>
+&lt;li>Upgrade via Crafting&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://example.org/Pictures/new_game/ccor_crafting_optiosn.jpg" alt="CCOR MCM">&lt;/p>
+&lt;h3 id="diverse-dragons-collection">Diverse Dragons Collection&lt;/h3>
+&lt;p>By simply opening the MCM once, the mod will recognise that you have SKSE and SkyUI installed, and automatically removes its configuration tool from your Powers menu.&lt;/p>
+&lt;h3 id="nethers-follower-framework">Nether&amp;rsquo;s Follower Framework&lt;/h3>
+&lt;h4 id="npc-behaviour">NPC Behaviour&lt;/h4>
+&lt;ul>
+&lt;li>Turn on the following options under &lt;strong>Activity&lt;/strong> &amp;gt; &lt;strong>Sandboxing&lt;/strong>:
+&lt;ul>
+&lt;li>Ignore Special Furniture&lt;/li>
+&lt;li>Stop During Player Dialogue&lt;/li>
+&lt;li>Only Sandbox In Town&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="regard-system-optional">Regard System (optional)&lt;/h4>
+&lt;ul>
+&lt;li>Disable the Regard system under &lt;strong>Gameplay&lt;/strong> &amp;gt; &lt;strong>Regard&lt;/strong>:&lt;/li>
+&lt;li>Allow Regard: Off&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>This is completely optional. The feature works perfectly fine, I just don&amp;rsquo;t like it personally.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="additional-powers-optional">Additional Powers (optional)&lt;/h4>
+&lt;ul>
+&lt;li>You can disable the &lt;strong>Command Followers&lt;/strong> ability under &lt;strong>System&lt;/strong> &amp;gt; &lt;strong>Casted Abilities&lt;/strong> to further de-clutter your Powers menu.&lt;/li>
+&lt;/ul>
+&lt;h4 id="consoleutil-support">ConsoleUtil Support&lt;/h4>
+&lt;ul>
+&lt;li>Under &lt;strong>System&lt;/strong> &amp;gt; &lt;strong>Core&lt;/strong>, check the &lt;strong>Enable ConsoleUtil&lt;/strong> option.&lt;/li>
+&lt;/ul>
+&lt;h3 id="genuinely-intelligent-soul-traps-mcm">Genuinely Intelligent Soul Traps MCM&lt;/h3>
+&lt;p>This mod - while focusing on bug fixes and soul gem multithreading - comes with some very nifty level requirement options. If you like, you can set level requirements for each of its special features as well as the for capturing of each tier of souls. Toggle and adjust this system in the &lt;strong>Leveling&lt;/strong> tab.&lt;/p>
+&lt;h3 id="growl---werebeasts-of-skyrim-mcm">Growl - Werebeasts of Skyrim MCM&lt;/h3>
+&lt;ul>
+&lt;li>Toggle on &lt;strong>Invulnerable During Transformation&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="immersive-hud">Immersive HUD&lt;/h3>
+&lt;h4 id="toggle-settings-optional">Toggle Settings (optional)&lt;/h4>
+&lt;ul>
+&lt;li>You can change the hotkey to display the HUD here.&lt;/li>
+&lt;li>I recommend turning on the &lt;strong>Key Press Toggles&lt;/strong> option but that is a personal preference.&lt;/li>
+&lt;/ul>
+&lt;h4 id="link-widgets-optional">Link Widgets (optional)&lt;/h4>
+&lt;ul>
+&lt;li>Check &lt;strong>Link ALL SkyUI Widgets&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>If you installed A Matter of Time, this will link the clock widget to the HUD so that it gets toggled alongside the other components (such as the compass).&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="http://example.org/Pictures/new_game/ihud_link_widgets.jpg" alt="iHUD link widgets">&lt;/p>
+&lt;h3 id="morehud">moreHUD&lt;/h3>
+&lt;ul>
+&lt;li>In the &lt;strong>Enemy&amp;rsquo;s Level&lt;/strong> tab, uncheck the following options:
+&lt;ul>
+&lt;li>Show Magicky Meter&lt;/li>
+&lt;li>Show Stamina Meter&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>These only clutter up the interface in my opinion. You can also disable Health numbers if you like.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="http://example.org/Pictures/new_game/morehud_mcm.jpg" alt="moreHUD MCM">&lt;/p>
+&lt;h3 id="obsidian-weathers">Obsidian Weathers&lt;/h3>
+&lt;ul>
+&lt;li>Click &lt;strong>Remove Spell&lt;/strong> to get rid of the spell that was added for non-SkyUI users. All options can be configured through the MCM.&lt;/li>
+&lt;li>Click &lt;strong>Enable Season FX&lt;/strong> if you would like to have seasonal weathers (more snow in winter etc).&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://example.org/Pictures/new_game/obsidian_weathers_mcm.jpg" alt="Obsidian Weathers MCM">&lt;/p>
+&lt;h3 id="realistic-water-two">Realistic Water Two&lt;/h3>
+&lt;ul>
+&lt;li>Under &lt;strong>Mod Options&lt;/strong> &amp;gt; &lt;strong>Blacksmith Forge Water&lt;/strong>, toggle the following options:
+&lt;ul>
+&lt;li>The Fall of Granite Hill &lt;code>if you installed that mod during the Customisation section&lt;/code>&lt;/li>
+&lt;li>Kynesgrove&lt;/li>
+&lt;li>Rorikstead&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://example.org/Pictures/new_game/rwt_mcm.jpg" alt="Realistic Water 2 MCM">&lt;/p>
+&lt;h3 id="relationship-dialogue-overhaul">Relationship Dialogue Overhaul&lt;/h3>
+&lt;ul>
+&lt;li>Under &lt;strong>Other Options&lt;/strong> &amp;gt; &lt;strong>Toggle NPCs&lt;/strong>, disable:
+&lt;ul>
+&lt;li>Allow RDO Added Followers&lt;/li>
+&lt;li>Allow Terek&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="http://example.org/Pictures/new_game/rdo_mcm.jpg" alt="Relationship Dialogue Overhaul MCM">&lt;/p>
+&lt;h3 id="timing-is-everything">Timing Is Everything&lt;/h3>
+&lt;p>Another large MCM, and one you should configure now, at the start of the game as it affects many quests that start very early on in Vanilla. I’ve personally increased the Dawnguard level requirements to 30+ and set Dragonborn to start only after Alduin’s defeat but this is all down to your preferences and plans for this playthrough.&lt;/p>
+&lt;p>Thanks to the FISSES support, it is also possible to load, save and share custom presets through the MCM (&lt;strong>Extra Options&lt;/strong> tab).&lt;/p>
+&lt;h3 id="violens">VioLens&lt;/h3>
+&lt;ul>
+&lt;li>Under &lt;strong>Melee&lt;/strong>, enable &lt;strong>Player Killmove Immunity&lt;/strong>.
+&lt;ul>
+&lt;li>Killcams against the player character often trigger and kill you even if you could have survived the hit HP-wise.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>If you like, you can also disable Killmoves entirely (Melee and/or Ranged).&lt;/li>
+&lt;/ul>
+&lt;h3 id="wildcat---combat-in-skyrim">Wildcat - Combat in Skyrim&lt;/h3>
+&lt;ul>
+&lt;li>Personal recommendation: Disable &lt;strong>Injuries&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="wonders-of-weather">Wonders of Weather&lt;/h3>
+&lt;ul>
+&lt;li>Under &lt;strong>Rainsplashes&lt;/strong>, set &lt;strong>Level&lt;/strong> to &lt;strong>Disabled&lt;/strong> to disable the effect (I personally think it looks odd most of the time). This is optional.&lt;/li>
+&lt;/ul>
+&lt;h2 id="starting-the-game">Starting the game&lt;/h2>
+&lt;p>Once you’re done configuring everything, save the game manually. Then talk to the Statue of Mara, select one of the options and interact with the bed in the corner to truly start your playthrough.&lt;/p>
+&lt;p>As for the options, going with the &lt;code>vanilla start&lt;/code> is entirely possible but you can also choose the &lt;code>I am camping in the woods&lt;/code> option for a faster alternative that drops you in the same region but skips the cart ride and execution sequence. It is NOT recommended that you choose the &lt;code>vampire lair&lt;/code> option as that has been known to cause issues with Sacrosanct.&lt;/p>
+&lt;p>&lt;strong>Good luck and have fun!&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="http://example.org/Pictures/new_game/select_game_start.jpg" alt="Select game start">&lt;/p></description></item><item><title>Docs: Gameplay Guide</title><link>http://example.org/docs/06-new-game/step-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/06-new-game/step-03/</guid><description>
+&lt;p>Yes, this is a WIP.&lt;/p></description></item></channel></rss>
