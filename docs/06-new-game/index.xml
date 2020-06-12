@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – New Game</title><link>http://example.org/docs/06-new-game/</link><description>Recent content in New Game on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="http://example.org/docs/06-new-game/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Final Adjustments</title><link>http://example.org/docs/06-new-game/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/06-new-game/step-01/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – New Game</title><link>https://thephoenixflavour.com/docs/06-new-game/</link><description>Recent content in New Game on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/docs/06-new-game/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Final Adjustments</title><link>https://thephoenixflavour.com/docs/06-new-game/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/06-new-game/step-01/</guid><description>
 &lt;h2 id="timing">Timing&lt;/h2>
 &lt;p>Before starting a new playthrough, there are some considerations.&lt;/p>
 &lt;p>Has there been a Skyrim update recently? If so, SKSE64, the mods depending on it as well as the guide may receive an update very soon, and it may be worth it to wait a week or two for everything to catch up before diving into the game.&lt;/p>
@@ -52,11 +52,11 @@
 &lt;ul>
 &lt;li>Run &lt;strong>SKSE&lt;/strong> through Mod Organizer 2.&lt;/li>
 &lt;li>Select &lt;strong>NEW&lt;/strong> in the Skyrim main menu to start your playthrough.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Mod Configuration</title><link>http://example.org/docs/06-new-game/step-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/06-new-game/step-02/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Mod Configuration</title><link>https://thephoenixflavour.com/docs/06-new-game/step-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/06-new-game/step-02/</guid><description>
 &lt;h2 id="initialisation">Initialisation&lt;/h2>
 &lt;p>After starting a new game, you will be dropped in the &lt;strong>Alternate Start – Live Another Life&lt;/strong> cell where you can customise your character, then configure your mods before you actually start playing.&lt;/p>
 &lt;p>Stand still and wait until all messages have run through in the upper left corner (check the screenshot below). Then hit &lt;strong>ESCAPE&lt;/strong> and create a manual save before you continue.&lt;/p>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/Initialisation_complete.jpg" alt="Initialisation complete">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/Initialisation_complete.jpg" alt="Initialisation complete">&lt;/p>
 &lt;h2 id="wildcat---configuration-power">Wildcat - Configuration Power&lt;/h2>
 &lt;p>While Wildcat (the main combat overhaul) comes with a fantastic MCM, it also adds a lesser power for configuration purposes to your character. For SkyUI users, this is unneccesary clutter since it&amp;rsquo;s much easier to just use the MCM.&lt;/p>
 &lt;ul>
@@ -65,7 +65,7 @@
 &lt;li>The very last option is &lt;strong>Disable Configuration Power&lt;/strong>. Click &lt;strong>Remove&lt;/strong> and it will be gone from your Powers menu.&lt;/li>
 &lt;/ul>
 &lt;p>You can customise the mod later on through the MCM.&lt;/p>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/wildcat_config_power.jpg" alt="Wildcat Config Power">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/wildcat_config_power.jpg" alt="Wildcat Config Power">&lt;/p>
 &lt;h2 id="mod-configuration-menus">Mod Configuration Menus&lt;/h2>
 &lt;p>Thanks to SkyUI, it is possible to configure most mods directly through their Mod Configuration Menu – or MCM for short – which you can access through the main menu. Hit &lt;strong>ESCAPE&lt;/strong> and select &lt;strong>MCM&lt;/strong>. See recommended changes for most of the guide’s MCMs below.&lt;/p>
 &lt;h3 id="a-matter-of-time">A Matter of Time&lt;/h3>
@@ -78,12 +78,12 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/load_amot_preset.jpg" alt="Load AMOT Preset">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/load_amot_preset.jpg" alt="Load AMOT Preset">&lt;/p>
 &lt;h3 id="all-geared-up-derivative">All Geared Up Derivative&lt;/h3>
 &lt;ul>
 &lt;li>In the &lt;strong>NPC&lt;/strong> tab, check &lt;strong>Enable Weapons&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/allgud_mcm.jpg" alt="AllGUD MCM">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/allgud_mcm.jpg" alt="AllGUD MCM">&lt;/p>
 &lt;h3 id="complete-crafting-overhaul-remastered">Complete Crafting Overhaul Remastered&lt;/h3>
 &lt;h4 id="menu-filters-optional">Menu Filters (optional)&lt;/h4>
 &lt;ul>
@@ -126,7 +126,7 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/ccor_crafting_optiosn.jpg" alt="CCOR MCM">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/ccor_crafting_optiosn.jpg" alt="CCOR MCM">&lt;/p>
 &lt;h3 id="diverse-dragons-collection">Diverse Dragons Collection&lt;/h3>
 &lt;p>By simply opening the MCM once, the mod will recognise that you have SKSE and SkyUI installed, and automatically removes its configuration tool from your Powers menu.&lt;/p>
 &lt;h3 id="nethers-follower-framework">Nether&amp;rsquo;s Follower Framework&lt;/h3>
@@ -175,7 +175,7 @@
 &lt;blockquote>
 &lt;p>If you installed A Matter of Time, this will link the clock widget to the HUD so that it gets toggled alongside the other components (such as the compass).&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/ihud_link_widgets.jpg" alt="iHUD link widgets">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/ihud_link_widgets.jpg" alt="iHUD link widgets">&lt;/p>
 &lt;h3 id="morehud">moreHUD&lt;/h3>
 &lt;ul>
 &lt;li>In the &lt;strong>Enemy&amp;rsquo;s Level&lt;/strong> tab, uncheck the following options:
@@ -188,13 +188,13 @@
 &lt;blockquote>
 &lt;p>These only clutter up the interface in my opinion. You can also disable Health numbers if you like.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/morehud_mcm.jpg" alt="moreHUD MCM">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/morehud_mcm.jpg" alt="moreHUD MCM">&lt;/p>
 &lt;h3 id="obsidian-weathers">Obsidian Weathers&lt;/h3>
 &lt;ul>
 &lt;li>Click &lt;strong>Remove Spell&lt;/strong> to get rid of the spell that was added for non-SkyUI users. All options can be configured through the MCM.&lt;/li>
 &lt;li>Click &lt;strong>Enable Season FX&lt;/strong> if you would like to have seasonal weathers (more snow in winter etc).&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/obsidian_weathers_mcm.jpg" alt="Obsidian Weathers MCM">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/obsidian_weathers_mcm.jpg" alt="Obsidian Weathers MCM">&lt;/p>
 &lt;h3 id="realistic-water-two">Realistic Water Two&lt;/h3>
 &lt;ul>
 &lt;li>Under &lt;strong>Mod Options&lt;/strong> &amp;gt; &lt;strong>Blacksmith Forge Water&lt;/strong>, toggle the following options:
@@ -205,7 +205,7 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/rwt_mcm.jpg" alt="Realistic Water 2 MCM">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/rwt_mcm.jpg" alt="Realistic Water 2 MCM">&lt;/p>
 &lt;h3 id="relationship-dialogue-overhaul">Relationship Dialogue Overhaul&lt;/h3>
 &lt;ul>
 &lt;li>Under &lt;strong>Other Options&lt;/strong> &amp;gt; &lt;strong>Toggle NPCs&lt;/strong>, disable:
@@ -215,7 +215,7 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/rdo_mcm.jpg" alt="Relationship Dialogue Overhaul MCM">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/rdo_mcm.jpg" alt="Relationship Dialogue Overhaul MCM">&lt;/p>
 &lt;h3 id="timing-is-everything">Timing Is Everything&lt;/h3>
 &lt;p>Another large MCM, and one you should configure now, at the start of the game as it affects many quests that start very early on in Vanilla. I’ve personally increased the Dawnguard level requirements to 30+ and set Dragonborn to start only after Alduin’s defeat but this is all down to your preferences and plans for this playthrough.&lt;/p>
 &lt;p>Thanks to the FISSES support, it is also possible to load, save and share custom presets through the MCM (&lt;strong>Extra Options&lt;/strong> tab).&lt;/p>
@@ -240,5 +240,5 @@
 &lt;p>Once you’re done configuring everything, save the game manually. Then talk to the Statue of Mara, select one of the options and interact with the bed in the corner to truly start your playthrough.&lt;/p>
 &lt;p>As for the options, going with the &lt;code>vanilla start&lt;/code> is entirely possible but you can also choose the &lt;code>I am camping in the woods&lt;/code> option for a faster alternative that drops you in the same region but skips the cart ride and execution sequence. It is NOT recommended that you choose the &lt;code>vampire lair&lt;/code> option as that has been known to cause issues with Sacrosanct.&lt;/p>
 &lt;p>&lt;strong>Good luck and have fun!&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/select_game_start.jpg" alt="Select game start">&lt;/p></description></item><item><title>Docs: Gameplay Guide</title><link>http://example.org/docs/06-new-game/step-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/06-new-game/step-03/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/select_game_start.jpg" alt="Select game start">&lt;/p></description></item><item><title>Docs: Gameplay Guide</title><link>https://thephoenixflavour.com/docs/06-new-game/step-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/06-new-game/step-03/</guid><description>
 &lt;p>Yes, this is a WIP.&lt;/p></description></item></channel></rss>

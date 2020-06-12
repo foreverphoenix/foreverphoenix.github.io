@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Skyrim SE</title><link>http://example.org/docs/</link><description>Recent content in Skyrim SE on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="http://example.org/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: About the guide</title><link>http://example.org/docs/01-prelude/01-about-the-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/01-prelude/01-about-the-guide/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Skyrim SE</title><link>https://thephoenixflavour.com/docs/</link><description>Recent content in Skyrim SE on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: About the guide</title><link>https://thephoenixflavour.com/docs/01-prelude/01-about-the-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/01-prelude/01-about-the-guide/</guid><description>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>The Phoenix Flavour, at its core, is a modding guide like many others, teaching you how to set up a certain set of tools and mods for best results. Unlike other modding guides, it contains many optional mods as well as a dedicated Customisation section.&lt;/p>
 &lt;p>Overall, the guide is highly accessible for modding beginners with its countless additional notes, explanations and screenshots. The less experience you have with modding Skyrim, the more important it is that you read everything carefully.&lt;/p>
@@ -102,7 +102,7 @@
 &lt;h2 id="getting-started">Getting Started&lt;/h2>
 &lt;p>Now that you have an idea of what the guide can offer you, it is your turn to decide which route to take. Continue with the &lt;strong>Setup&lt;/strong> &lt;a href="https://foreverphoenix.github.io/docs/02-setup/step-01/">here&lt;/a> to install the guide manually or find the &lt;strong>Wabbajack&lt;/strong> installer with instructions &lt;a href="https://docs.google.com/document/d/1wl3p-Nd0JZLohjJjDAV6SmxHDW6O4fYt7pngn8Es8DU/edit#heading=h.vqn9sw772v98">here&lt;/a>.&lt;/p>
 &lt;h2 id="discord">Discord&lt;/h2>
-&lt;p>On our dedicated Discord server for The Phoenix Flavour, we are providing support for the main guide as well as the Wabbajack version of TPF. We are also talking guide changes, Skyrim modding, and gaming in general. Feel free to join us &lt;a href="https://discord.gg/BpwXX5f">here&lt;/a>!&lt;/p></description></item><item><title>Docs: Essential Mods</title><link>http://example.org/docs/03-mod-installation/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-01/</guid><description>
+&lt;p>On our dedicated Discord server for The Phoenix Flavour, we are providing support for the main guide as well as the Wabbajack version of TPF. We are also talking guide changes, Skyrim modding, and gaming in general. Feel free to join us &lt;a href="https://discord.gg/BpwXX5f">here&lt;/a>!&lt;/p></description></item><item><title>Docs: Essential Mods</title><link>https://thephoenixflavour.com/docs/03-mod-installation/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/03-mod-installation/step-01/</guid><description>
 &lt;h2 id="11-address-library-for-skse-plugins">1.1 Address Library for SKSE Plugins&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods32444tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32444?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -189,7 +189,7 @@
 &lt;li>Go to the &lt;strong>Downloads&lt;/strong> tab and double-click the mod to install it as usual.&lt;/li>
 &lt;li>I recommend renaming it simply to &lt;strong>Skyrim Particle Patch&lt;/strong> after the installation.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/skyrim_particle_patch_download.png" alt="Skyrim Particle Patch download link">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/mod_installation/skyrim_particle_patch_download.png" alt="Skyrim Particle Patch download link">&lt;/p>
 &lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Delete the following file(s) and/or folder(s):
@@ -222,7 +222,7 @@
 &lt;/ul>
 &lt;blockquote>
 &lt;p>The first mesh will be replaced either by the fixed version contained in Skyrim Landscape and Water Fixes or by Real Walls 3D. Deleting the second mesh will allow you to use a different retexture for the Solitude city gate.&lt;/p>
-&lt;/blockquote></description></item><item><title>Docs: Final Adjustments</title><link>http://example.org/docs/06-new-game/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/06-new-game/step-01/</guid><description>
+&lt;/blockquote></description></item><item><title>Docs: Final Adjustments</title><link>https://thephoenixflavour.com/docs/06-new-game/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/06-new-game/step-01/</guid><description>
 &lt;h2 id="timing">Timing&lt;/h2>
 &lt;p>Before starting a new playthrough, there are some considerations.&lt;/p>
 &lt;p>Has there been a Skyrim update recently? If so, SKSE64, the mods depending on it as well as the guide may receive an update very soon, and it may be worth it to wait a week or two for everything to catch up before diving into the game.&lt;/p>
@@ -276,7 +276,7 @@
 &lt;ul>
 &lt;li>Run &lt;strong>SKSE&lt;/strong> through Mod Organizer 2.&lt;/li>
 &lt;li>Select &lt;strong>NEW&lt;/strong> in the Skyrim main menu to start your playthrough.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Fixes</title><link>http://example.org/docs/03-mod-installation/step-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-02/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Fixes</title><link>https://thephoenixflavour.com/docs/03-mod-installation/step-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/03-mod-installation/step-02/</guid><description>
 &lt;h2 id="21-weapons-armor-clothing-and-clutter-fixes-waccf">2.1 Weapons, Armor, Clothing and Clutter Fixes (WACCF)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods18994tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18994?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -534,7 +534,7 @@
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods32349tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32349?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> ActorLimitPlugin v2&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Prerequisites</title><link>http://example.org/docs/02-setup/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-01/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Prerequisites</title><link>https://thephoenixflavour.com/docs/02-setup/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/02-setup/step-01/</guid><description>
 &lt;h2 id="11-requirements">1.1 Requirements&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/">Skyrim Special Edition&lt;/a> on Steam.&lt;/li>
@@ -554,7 +554,7 @@
 &lt;li>Click the &lt;strong>View&lt;/strong> tab at the top.&lt;/li>
 &lt;li>Make sure &lt;strong>File name extensions&lt;/strong> is checked.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/file_extensions_visible.png" alt="File Extensions Visible">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/file_extensions_visible.png" alt="File Extensions Visible">&lt;/p>
 &lt;h2 id="13-your-modding-folder">1.3 Your Modding Folder&lt;/h2>
 &lt;p>In order to keep all files related to modding Skyrim SE in one place, we will create a dedicated directory. It will serve as a hub for all tools, downloaded mod archives, custom files, notes, backups, screenshots and whatever else you can think of.&lt;/p>
 &lt;p>Throughout the guide I will refer to this folder as &lt;strong>Your Modding Folder&lt;/strong>.&lt;/p>
@@ -564,13 +564,13 @@
 &lt;li>Name it whatever you like, for example &lt;strong>Skyrim SE Modding&lt;/strong>.&lt;/li>
 &lt;li>Add several more new folders inside as shown below:&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/modding_folder.png" alt="Modding Folder">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/modding_folder.png" alt="Modding Folder">&lt;/p>
 &lt;h3 id="132-mod-archive">1.3.2 Mod Archive&lt;/h3>
 &lt;p>Proper organisation is key when modding Skyrim. You will come back many times to update or reinstall mods, or selectively extract files without installing the whole package. This is where the previously created &lt;strong>ARCHIVE&lt;/strong> comes into play - it will contain the majority of downloaded mod archives.&lt;/p>
 &lt;ul>
 &lt;li>Create several more folders inside the &lt;strong>ARCHIVE&lt;/strong> folder:&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/archive_folder.png" alt="Archive Folder">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/archive_folder.png" alt="Archive Folder">&lt;/p>
 &lt;h2 id="14-monitor-calibration">1.4 Monitor Calibration&lt;/h2>
 &lt;h3 id="141-gamma-and-brightness">1.4.1 Gamma and Brightness&lt;/h3>
 &lt;p>Assuming you already have your monitor configured with your preferred settings for resolution and refresh rate (in my case that is 60Hz and 1920x1080), you might still want to adjust the brightness and/or gamma either through your graphics card control panel or Windows&amp;rsquo; inbuilt calibration tool.&lt;/p>
@@ -624,7 +624,7 @@
 &lt;td>contains the game files&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Terminology</title><link>http://example.org/docs/07-resources/terminology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/07-resources/terminology/</guid><description>
+&lt;/table></description></item><item><title>Docs: Terminology</title><link>https://thephoenixflavour.com/docs/07-resources/terminology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/07-resources/terminology/</guid><description>
 &lt;h2 id="general">General&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -903,10 +903,10 @@
 &lt;td>Zim&amp;rsquo;s Immersive Artifacts&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Troubleshooting</title><link>http://example.org/docs/08-appendix/01-troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/08-appendix/01-troubleshooting/</guid><description>
+&lt;/table></description></item><item><title>Docs: Troubleshooting</title><link>https://thephoenixflavour.com/docs/08-appendix/01-troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/08-appendix/01-troubleshooting/</guid><description>
 &lt;h2 id="error-message-when-trying-to-launch-the-creation-kit">Error message when trying to launch the Creation Kit.&lt;/h2>
 &lt;p>If by chance you are seeing the error message picture below, it is simply an issue of the required version of Microsoft Visual C++ framework not being installed correctly. To fix this, download the latest &lt;strong>x64&lt;/strong> executable &lt;a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">here&lt;/a>. Run the downloaded executable and follow the prompts through the installation process.&lt;/p>
-&lt;p>&lt;img src="http://example.org/Pictures/faq/ck_error_vc_missing.jpg" alt="CK Error VC Missing">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/faq/ck_error_vc_missing.jpg" alt="CK Error VC Missing">&lt;/p>
 &lt;h2 id="skyrim-crashes-upon-launch">Skyrim crashes upon launch.&lt;/h2>
 &lt;h4 id="launching-the-game-correctly">Launching the game correctly&lt;/h4>
 &lt;ul>
@@ -923,7 +923,7 @@
 &lt;h2 id="skyrim-gets-stuck-in-the-main-menu">Skyrim gets stuck in the main menu.&lt;/h2>
 &lt;p>One of the more recent updates for the Unofficial Skyrim Special Edition Patch removed an AI package record from Aventus Aretino. None of the mods in the guide that touch Aventus (Prince and the Pauper, Simply Children, Adopt Aventus Aretino) have been updated since to incorporate that fix and they all have an unresolved error instead. This is fixed in the &lt;strong>Conflict Resolution Patch.esp&lt;/strong>.&lt;/p>
 &lt;p>If the main menu won&amp;rsquo;t load, your load order is messed up, or you aren&amp;rsquo;t using the CRP.&lt;/p>
-&lt;p>&lt;img src="http://example.org/Pictures/faq/stuck_in_main_menu.jpg" alt="Stuck in Main Menu">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/faq/stuck_in_main_menu.jpg" alt="Stuck in Main Menu">&lt;/p>
 &lt;h2 id="grass-looks-strangely-dull-and-flat">Grass looks strangely dull and flat.&lt;/h2>
 &lt;p>Without ENB, grass will unfortunately look much worse. If you are running an ENB preset, make sure &lt;strong>Ambient Occlusion&lt;/strong> and &lt;strong>Detailed Shadows&lt;/strong> are enabled as they really give grass some much needed depth. Be aware that those are both performance hungry settings that are disabled in Lite presets for a reason.&lt;/p>
 &lt;p>&lt;img src="https://cdn.discordapp.com/attachments/521296280165679119/702036429341065286/enb2020_4_21_00_57_56.jpg" alt="Example">&lt;/p>
@@ -932,7 +932,7 @@
 &lt;p>You will experience a significant performance loss when playing on 1440p (or higher) compared to 1080p, around 20 FPS with TPF in my experience. Therefore I strongly recommend playing on 1080p even if your monitor is capable of a higher resolution. I&amp;rsquo;m personally doing just that on my 1440p monitor and it looks fine to me. Check Resources &amp;gt; Quick Tutorials for instructions on how to quickly change the game&amp;rsquo;s resolution.&lt;/p>
 &lt;h2 id="some-beards-look-strange-on-elven-player-characters">Some beards look strange on Elven player characters.&lt;/h2>
 &lt;p>This is unfortunately a known issue with the beard TRI files in Ethereal Elven Overhaul. Some of them clip into the skin. Fixed TRI files for one beard (HumanBeard25) are packaged with the guide&amp;rsquo;s CRP so that beards on humans look fine but issues remain with some beards on Elven characters. I have no idea to fix this and consider the issue low priority since Elves are rarely bearded anyway.&lt;/p>
-&lt;p>Check &lt;a href="https://github.com/foreverphoenix/the-phoenix-flavour/issues/8">issue report #8&lt;/a> for details and pictures.&lt;/p></description></item><item><title>Docs: Widescreen Support</title><link>http://example.org/docs/05-customisation/widescreen-support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/05-customisation/widescreen-support/</guid><description>
+&lt;p>Check &lt;a href="https://github.com/foreverphoenix/the-phoenix-flavour/issues/8">issue report #8&lt;/a> for details and pictures.&lt;/p></description></item><item><title>Docs: Widescreen Support</title><link>https://thephoenixflavour.com/docs/05-customisation/widescreen-support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/05-customisation/widescreen-support/</guid><description>
 &lt;p>For owners of widescreen monitors (resolutions of 2560x1080 or 3440x1440), there are compatible versions of all modded interface files that you will need to install in addition to or instead of the original ones. Place the widescreen versions or patches below the original mods in the mod order (they should not be overwritten).&lt;/p>
 &lt;p>Because I do not own a widescreen monitor, I can&amp;rsquo;t download and test these files. You will have to figure it out yourself.&lt;/p>
 &lt;h2 id="complete-widescreen-fix">Complete Widescreen Fix&lt;/h2>
@@ -945,7 +945,7 @@
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Wider MCM Menu for SkyUI - Widescreen Fix &amp;mdash; &lt;code>optional in the guide&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h2 id="remove-quicksave-button">Remove QuickSave Button&lt;/h2>
-&lt;p>Download the &lt;strong>Remove QuickSave Button - UltraWide&lt;/strong> main file from the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28334?tab=files">mod page&lt;/a> and replace the original mod with it. This mod is also optional in the guide so you can skip it.&lt;/p></description></item><item><title>Docs: Wrapping Up</title><link>http://example.org/docs/04-finalisation/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/04-finalisation/step-01/</guid><description>
+&lt;p>Download the &lt;strong>Remove QuickSave Button - UltraWide&lt;/strong> main file from the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28334?tab=files">mod page&lt;/a> and replace the original mod with it. This mod is also optional in the guide so you can skip it.&lt;/p></description></item><item><title>Docs: Wrapping Up</title><link>https://thephoenixflavour.com/docs/04-finalisation/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/04-finalisation/step-01/</guid><description>
 &lt;h2 id="11-misc-college-of-winterhold-tweaks">1.1 Misc College of Winterhold Tweaks&lt;/h2>
 &lt;p>We were previously unable to properly install &lt;strong>Misc College of Winterhold Tweaks&lt;/strong> by SomethingObscure in Step 27 because the FOMOD options required the matching plugins to be available in the load order. These plugins are now in your available so we can re-install the mod.&lt;/p>
 &lt;p>Find &lt;strong>Misc College of Winterhold Tweaks&lt;/strong> in your mod order, right-click it and select &lt;strong>Reinstall&lt;/strong>.&lt;/p>
@@ -1017,7 +1017,7 @@
 &lt;li>Open the &lt;strong>Notifications&lt;/strong> window and check its contents.&lt;/li>
 &lt;li>Any plugins that are listed must be re-saved in the Creation Kit now.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/finalisation/check_for_form43_plugin.png" alt="Check for Form43 Plugins">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/check_for_form43_plugin.png" alt="Check for Form43 Plugins">&lt;/p>
 &lt;h2 id="15-flag-plugins-as-esl">1.5 Flag Plugins as ESL&lt;/h2>
 &lt;h3 id="151-example-plugin">1.5.1 Example Plugin&lt;/h3>
 &lt;p>While at this point many installed plugins are already flagged as ESL (ESP-Lite) and we are not exceeding the maximum of 255 ESP+ESM plugins, there are several more plugins that may easily be flagged as ESL in order to save plugin slots. This completely removes the need to merge some plugins.&lt;/p>
@@ -1055,7 +1055,7 @@
 &lt;li>UniqueBorderGates-All-BetterDGEntrance.esp &lt;strong>compact FormIDs&lt;/strong>&lt;/li>
 &lt;li>CFTO – Arthmoor Danwstar Patch.esp&lt;/li>
 &lt;li>RDO – USSEP.esp&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Basic Instructions</title><link>http://example.org/docs/07-resources/basic-instructions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/07-resources/basic-instructions/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Basic Instructions</title><link>https://thephoenixflavour.com/docs/07-resources/basic-instructions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/07-resources/basic-instructions/</guid><description>
 &lt;h2 id="converting-plugins">Converting Plugins&lt;/h2>
 &lt;blockquote>
 &lt;p>&amp;ldquo;Resave Example.esp in the Creation Kit.&amp;rdquo;&lt;/p>
@@ -1128,7 +1128,7 @@
 &lt;li>Click &lt;strong>Open Directory&lt;/strong> and navigate to &lt;code>Mod Organizer 2\mods&lt;/code>.&lt;/li>
 &lt;li>Click on the mod containing the textures and &lt;strong>Select folder&lt;/strong>.&lt;/li>
 &lt;li>Back in CAO, click &lt;strong>Run&lt;/strong> and wait for the process to be completed.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Fores New Idles</title><link>http://example.org/docs/04-finalisation/step-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/04-finalisation/step-02/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Fores New Idles</title><link>https://thephoenixflavour.com/docs/04-finalisation/step-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/04-finalisation/step-02/</guid><description>
 &lt;h2 id="21-add-fnis-to-mo2">2.1 Add FNIS to MO2&lt;/h2>
 &lt;p>In Step 38 we installed &lt;strong>Fores New Idles in Skyrim&lt;/strong> (FNIS) which is a tool used to add custom animations to Skyrim. It is required by XPMSSE and needs to be run on our mod order before it is properly installed.&lt;/p>
 &lt;ul>
@@ -1139,7 +1139,7 @@
 &lt;li>Change the Title to &lt;strong>Generate FNIS&lt;/strong>.&lt;/li>
 &lt;li>Click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/finalisation/add_fnis_to_tools.png" alt="Add FNIS to Tools">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/add_fnis_to_tools.png" alt="Add FNIS to Tools">&lt;/p>
 &lt;h2 id="22-generate-fnis">2.2 Generate FNIS&lt;/h2>
 &lt;ul>
 &lt;li>Run FNIS (the executable we just added) through Mod Organizer 2.&lt;/li>
@@ -1159,7 +1159,7 @@
 &lt;li>Right-click the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> located at the bottom of your mod order.&lt;/li>
 &lt;li>Select &lt;strong>Create Mod,&lt;/strong> enter &lt;strong>FNIS Output&lt;/strong> as the name and click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;li>Check the mod in your mod order.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Frequently Asked Questions</title><link>http://example.org/docs/08-appendix/02_faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/08-appendix/02_faq/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Frequently Asked Questions</title><link>https://thephoenixflavour.com/docs/08-appendix/02_faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/08-appendix/02_faq/</guid><description>
 &lt;h3 id="i-have-over-300-plugins-active-in-mod-organizer-2-is-that-intended">I have over 300 plugins active in Mod Organizer 2. Is that intended?&lt;/h3>
 &lt;p>Yes, that is definitely intended. While it&amp;rsquo;s true that Skyrim has a limit of 255 plugins, this applies only to ESP and ESM plugins. Many plugins in TPF are ESL-ified though, and do not count toward the limit. When you hover over the counter above the load order in MO2, you can see how many ESM + ESP plugins you have, and how close you really are to the limit.&lt;/p>
 &lt;h3 id="some-plugins-in-my-load-order-are-deactivated-is-that-intended">Some plugins in my load order are deactivated. Is that intended?&lt;/h3>
@@ -1173,7 +1173,7 @@
 &lt;p>There is also the possibility that I simply forgot to add those instructions to a particular mod in the guide. When in doubt, you may run the mod through CAO with the &lt;strong>Optimise SLE Assets&lt;/strong> profile and check the log. If changes are indeed made, the lack of instructions are an oversight in which case I would ask you to report the mod on our Discord!&lt;/p>
 &lt;h3 id="is-it-still-necessary-to-roll-back-to-an-older-version-of-the-creation-kit">Is it still necessary to roll back to an older version of the Creation Kit?&lt;/h3>
 &lt;p>No, this is no longer necessary. You should be running the latest version of the Creation Kit. Go into your &lt;strong>root&lt;/strong> folder, right-click &lt;strong>CreationKit.exe&lt;/strong>, switch to the &lt;strong>Details&lt;/strong> tab and you should have &lt;strong>Product version 1.5.73.0&lt;/strong>.&lt;/p>
-&lt;p>For a time it was necessary to use the executable and DLLs of the previous version (1.5.53) because &lt;strong>CK Fixes&lt;/strong> was only working with that version of the Creation Kit. CK Fixes has since been updated.&lt;/p></description></item><item><title>Docs: Interface Tweaks</title><link>http://example.org/docs/05-customisation/interface-tweaks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/05-customisation/interface-tweaks/</guid><description>
+&lt;p>For a time it was necessary to use the executable and DLLs of the previous version (1.5.53) because &lt;strong>CK Fixes&lt;/strong> was only working with that version of the Creation Kit. CK Fixes has since been updated.&lt;/p></description></item><item><title>Docs: Interface Tweaks</title><link>https://thephoenixflavour.com/docs/05-customisation/interface-tweaks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/05-customisation/interface-tweaks/</guid><description>
 &lt;h2 id="main-menu-mods">Main Menu Mods&lt;/h2>
 &lt;p>Everytime you start the game, you will spend approximately three seconds in the main menu (which is how long it takes to press NEW GAME or CONTINUE). That&amp;rsquo;s why you should definitely mod it in some way.&lt;/p>
 &lt;p>With ReCleaned menu (an optional mod which is part of the main guide), the main menu has already been decluttered and freed of any Creation Club ads. The background smoke has been removed as well (through another optional mod) which will look much better with custom main menu replacers.&lt;/p>
@@ -1241,11 +1241,11 @@
 &lt;h4 id="mod-order-3">Mod Order&lt;/h4>
 &lt;ul>
 &lt;li>Place below the &lt;strong>INTERFACE&lt;/strong> separator.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Mod Configuration</title><link>http://example.org/docs/06-new-game/step-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/06-new-game/step-02/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Mod Configuration</title><link>https://thephoenixflavour.com/docs/06-new-game/step-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/06-new-game/step-02/</guid><description>
 &lt;h2 id="initialisation">Initialisation&lt;/h2>
 &lt;p>After starting a new game, you will be dropped in the &lt;strong>Alternate Start – Live Another Life&lt;/strong> cell where you can customise your character, then configure your mods before you actually start playing.&lt;/p>
 &lt;p>Stand still and wait until all messages have run through in the upper left corner (check the screenshot below). Then hit &lt;strong>ESCAPE&lt;/strong> and create a manual save before you continue.&lt;/p>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/Initialisation_complete.jpg" alt="Initialisation complete">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/Initialisation_complete.jpg" alt="Initialisation complete">&lt;/p>
 &lt;h2 id="wildcat---configuration-power">Wildcat - Configuration Power&lt;/h2>
 &lt;p>While Wildcat (the main combat overhaul) comes with a fantastic MCM, it also adds a lesser power for configuration purposes to your character. For SkyUI users, this is unneccesary clutter since it&amp;rsquo;s much easier to just use the MCM.&lt;/p>
 &lt;ul>
@@ -1254,7 +1254,7 @@
 &lt;li>The very last option is &lt;strong>Disable Configuration Power&lt;/strong>. Click &lt;strong>Remove&lt;/strong> and it will be gone from your Powers menu.&lt;/li>
 &lt;/ul>
 &lt;p>You can customise the mod later on through the MCM.&lt;/p>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/wildcat_config_power.jpg" alt="Wildcat Config Power">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/wildcat_config_power.jpg" alt="Wildcat Config Power">&lt;/p>
 &lt;h2 id="mod-configuration-menus">Mod Configuration Menus&lt;/h2>
 &lt;p>Thanks to SkyUI, it is possible to configure most mods directly through their Mod Configuration Menu – or MCM for short – which you can access through the main menu. Hit &lt;strong>ESCAPE&lt;/strong> and select &lt;strong>MCM&lt;/strong>. See recommended changes for most of the guide’s MCMs below.&lt;/p>
 &lt;h3 id="a-matter-of-time">A Matter of Time&lt;/h3>
@@ -1267,12 +1267,12 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/load_amot_preset.jpg" alt="Load AMOT Preset">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/load_amot_preset.jpg" alt="Load AMOT Preset">&lt;/p>
 &lt;h3 id="all-geared-up-derivative">All Geared Up Derivative&lt;/h3>
 &lt;ul>
 &lt;li>In the &lt;strong>NPC&lt;/strong> tab, check &lt;strong>Enable Weapons&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/allgud_mcm.jpg" alt="AllGUD MCM">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/allgud_mcm.jpg" alt="AllGUD MCM">&lt;/p>
 &lt;h3 id="complete-crafting-overhaul-remastered">Complete Crafting Overhaul Remastered&lt;/h3>
 &lt;h4 id="menu-filters-optional">Menu Filters (optional)&lt;/h4>
 &lt;ul>
@@ -1315,7 +1315,7 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/ccor_crafting_optiosn.jpg" alt="CCOR MCM">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/ccor_crafting_optiosn.jpg" alt="CCOR MCM">&lt;/p>
 &lt;h3 id="diverse-dragons-collection">Diverse Dragons Collection&lt;/h3>
 &lt;p>By simply opening the MCM once, the mod will recognise that you have SKSE and SkyUI installed, and automatically removes its configuration tool from your Powers menu.&lt;/p>
 &lt;h3 id="nethers-follower-framework">Nether&amp;rsquo;s Follower Framework&lt;/h3>
@@ -1364,7 +1364,7 @@
 &lt;blockquote>
 &lt;p>If you installed A Matter of Time, this will link the clock widget to the HUD so that it gets toggled alongside the other components (such as the compass).&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/ihud_link_widgets.jpg" alt="iHUD link widgets">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/ihud_link_widgets.jpg" alt="iHUD link widgets">&lt;/p>
 &lt;h3 id="morehud">moreHUD&lt;/h3>
 &lt;ul>
 &lt;li>In the &lt;strong>Enemy&amp;rsquo;s Level&lt;/strong> tab, uncheck the following options:
@@ -1377,13 +1377,13 @@
 &lt;blockquote>
 &lt;p>These only clutter up the interface in my opinion. You can also disable Health numbers if you like.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/morehud_mcm.jpg" alt="moreHUD MCM">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/morehud_mcm.jpg" alt="moreHUD MCM">&lt;/p>
 &lt;h3 id="obsidian-weathers">Obsidian Weathers&lt;/h3>
 &lt;ul>
 &lt;li>Click &lt;strong>Remove Spell&lt;/strong> to get rid of the spell that was added for non-SkyUI users. All options can be configured through the MCM.&lt;/li>
 &lt;li>Click &lt;strong>Enable Season FX&lt;/strong> if you would like to have seasonal weathers (more snow in winter etc).&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/obsidian_weathers_mcm.jpg" alt="Obsidian Weathers MCM">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/obsidian_weathers_mcm.jpg" alt="Obsidian Weathers MCM">&lt;/p>
 &lt;h3 id="realistic-water-two">Realistic Water Two&lt;/h3>
 &lt;ul>
 &lt;li>Under &lt;strong>Mod Options&lt;/strong> &amp;gt; &lt;strong>Blacksmith Forge Water&lt;/strong>, toggle the following options:
@@ -1394,7 +1394,7 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/rwt_mcm.jpg" alt="Realistic Water 2 MCM">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/rwt_mcm.jpg" alt="Realistic Water 2 MCM">&lt;/p>
 &lt;h3 id="relationship-dialogue-overhaul">Relationship Dialogue Overhaul&lt;/h3>
 &lt;ul>
 &lt;li>Under &lt;strong>Other Options&lt;/strong> &amp;gt; &lt;strong>Toggle NPCs&lt;/strong>, disable:
@@ -1404,7 +1404,7 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/rdo_mcm.jpg" alt="Relationship Dialogue Overhaul MCM">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/rdo_mcm.jpg" alt="Relationship Dialogue Overhaul MCM">&lt;/p>
 &lt;h3 id="timing-is-everything">Timing Is Everything&lt;/h3>
 &lt;p>Another large MCM, and one you should configure now, at the start of the game as it affects many quests that start very early on in Vanilla. I’ve personally increased the Dawnguard level requirements to 30+ and set Dragonborn to start only after Alduin’s defeat but this is all down to your preferences and plans for this playthrough.&lt;/p>
 &lt;p>Thanks to the FISSES support, it is also possible to load, save and share custom presets through the MCM (&lt;strong>Extra Options&lt;/strong> tab).&lt;/p>
@@ -1429,7 +1429,7 @@
 &lt;p>Once you’re done configuring everything, save the game manually. Then talk to the Statue of Mara, select one of the options and interact with the bed in the corner to truly start your playthrough.&lt;/p>
 &lt;p>As for the options, going with the &lt;code>vanilla start&lt;/code> is entirely possible but you can also choose the &lt;code>I am camping in the woods&lt;/code> option for a faster alternative that drops you in the same region but skips the cart ride and execution sequence. It is NOT recommended that you choose the &lt;code>vampire lair&lt;/code> option as that has been known to cause issues with Sacrosanct.&lt;/p>
 &lt;p>&lt;strong>Good luck and have fun!&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="http://example.org/Pictures/new_game/select_game_start.jpg" alt="Select game start">&lt;/p></description></item><item><title>Docs: Skyrim SE</title><link>http://example.org/docs/02-setup/step-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-02/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/select_game_start.jpg" alt="Select game start">&lt;/p></description></item><item><title>Docs: Skyrim SE</title><link>https://thephoenixflavour.com/docs/02-setup/step-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/02-setup/step-02/</guid><description>
 &lt;h2 id="21-recommended-directory">2.1 Recommended Directory&lt;/h2>
 &lt;p>The entire point of reinstalling Skyrim SE is not only to make sure you have a clean, vanilla setup but also to be able to control where the game is installed on your drive. Here is what you need to keep in mind:&lt;/p>
 &lt;ul>
@@ -1488,7 +1488,7 @@
 &lt;li>Right-click &lt;strong>SkyrimSE.exe&lt;/strong> and select &lt;strong>Properties&lt;/strong>.&lt;/li>
 &lt;li>Switch to the &lt;strong>Details&lt;/strong> tab and check under &lt;strong>Product version&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/skyrim_se_1_5_97_0.png" alt="Skyrim SE 1.5.97.0">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/skyrim_se_1_5_97_0.png" alt="Skyrim SE 1.5.97.0">&lt;/p>
 &lt;h2 id="26-disable-auto-updates">2.6 Disable Auto Updates&lt;/h2>
 &lt;p>When Skyrim SE receives another update - which, thanks to the Creation Club, happens every once in a while - SKSE64 and all SKSE plugins will need to be updated as well. This usually takes at least a week.&lt;/p>
 &lt;p>However, you can continue playing the previous version with SKSE64 and all your mods by simply setting Skyrim SE to only update when launching the game. Since you start the game through the SKSE64 launcher, Steam will never update.&lt;/p>
@@ -1498,7 +1498,7 @@
 &lt;li>Make sure &lt;strong>Automatic updates&lt;/strong> is set to &lt;strong>Only update this game when I launch it&lt;/strong>.&lt;/li>
 &lt;li>Problem solved!&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/sse_disable_auto_updates.png" alt="Disable Auto Updates">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/sse_disable_auto_updates.png" alt="Disable Auto Updates">&lt;/p>
 &lt;h2 id="27-executables-backup">2.7 Executables Backup&lt;/h2>
 &lt;p>Although Steam will no longer update Skyrim SE automatically, I still recommend keeping backups of the two executables (&lt;strong>SkyrimSE.exe&lt;/strong> and &lt;strong>SkyrimSELauncher.exe&lt;/strong>), just in case. If you accidentally updated, all you need to do to roll back is replace the executables in your &lt;strong>root&lt;/strong> folder with the ones you backed up. This also comes in handy if you had to regenerate INI files or validate game files through Steam for whatever reason and were forced to update.&lt;/p>
 &lt;ul>
@@ -1527,7 +1527,7 @@
 &lt;li>Right-click it and select &lt;strong>Properties&lt;/strong>.&lt;/li>
 &lt;li>Uncheck &lt;strong>Enable the Steam Overlay while in-game&lt;/strong>.&lt;/li>
 &lt;li>Close the window.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: All Geared Up Derivative</title><link>http://example.org/docs/04-finalisation/step-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/04-finalisation/step-03/</guid><description>
+&lt;/ul></description></item><item><title>Docs: All Geared Up Derivative</title><link>https://thephoenixflavour.com/docs/04-finalisation/step-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/04-finalisation/step-03/</guid><description>
 &lt;h2 id="31-xedit-scripts">3.1 xEdit Scripts&lt;/h2>
 &lt;p>While we install the base mod already in Step 38, there is a number of additional steps to complete before the mod is fully implemented.&lt;/p>
 &lt;ul>
@@ -1574,7 +1574,7 @@
 &lt;li>Enter &lt;strong>AllGUD - Weapon Meshes&lt;/strong> as the name and click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;li>Leave the new mod at the bottom of your mod order and activate it.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/finalisation/create_empty_mod.png" alt="Create empty mod">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/create_empty_mod.png" alt="Create empty mod">&lt;/p>
 &lt;h3 id="332-running-the-script">3.3.2 Running the script&lt;/h3>
 &lt;ul>
 &lt;li>Run SSEEdit through Mod Organizer 2.&lt;/li>
@@ -1588,7 +1588,7 @@
 &lt;li>Click &lt;strong>Start&lt;/strong> to begin generating the meshes.&lt;/li>
 &lt;li>Eventually SSEEdit will return &lt;strong>Done: Applying script&lt;/strong>, and you can close the window.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/finalisation/allgud_weapon_meshes.png" alt="AllGUD Weapon Patcher">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/allgud_weapon_meshes.png" alt="AllGUD Weapon Patcher">&lt;/p>
 &lt;h2 id="34-skeleton-patcher">3.4 Skeleton Patcher&lt;/h2>
 &lt;h3 id="341-new-mod-folder">3.4.1 New Mod Folder&lt;/h3>
 &lt;ul>
@@ -1608,7 +1608,7 @@
 &lt;li>Click &lt;strong>Start&lt;/strong> to begin generating the meshes.&lt;/li>
 &lt;li>Eventually SSEEdit will return &lt;strong>Done: Applying script&lt;/strong>, and you can close the window.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/finalisation/allgud_skeleton_patcher.png" alt="AllGUD Skeleton Patcher">&lt;/p></description></item><item><title>Docs: Changelog</title><link>http://example.org/docs/08-appendix/03-changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/08-appendix/03-changelog/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/allgud_skeleton_patcher.png" alt="AllGUD Skeleton Patcher">&lt;/p></description></item><item><title>Docs: Changelog</title><link>https://thephoenixflavour.com/docs/08-appendix/03-changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/08-appendix/03-changelog/</guid><description>
 &lt;h2 id="release-331">Release 3.3.1&lt;/h2>
 &lt;h4 id="mod-installation">Mod Installation&lt;/h4>
 &lt;ul>
@@ -1987,8 +1987,8 @@
 &lt;li>We previously changed the script to check only every 60s instead of every 5s whether the lanterns are on and what time of day it is but with the Always On option, the script shouldn&amp;rsquo;t check in the first place (since lanterns aren&amp;rsquo;t disabled during the day.)&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Docs: Gameplay Guide</title><link>http://example.org/docs/06-new-game/step-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/06-new-game/step-03/</guid><description>
-&lt;p>Yes, this is a WIP.&lt;/p></description></item><item><title>Docs: Large Trees</title><link>http://example.org/docs/05-customisation/large-trees/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/05-customisation/large-trees/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Gameplay Guide</title><link>https://thephoenixflavour.com/docs/06-new-game/step-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/06-new-game/step-03/</guid><description>
+&lt;p>Yes, this is a WIP.&lt;/p></description></item><item><title>Docs: Large Trees</title><link>https://thephoenixflavour.com/docs/05-customisation/large-trees/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/05-customisation/large-trees/</guid><description>
 &lt;div class="alert alert-warning" role="alert">
 &lt;h4 class="alert-heading">Warning&lt;/h4>
 If you install this section, you will need to re-generate DynDOLOD later on.
@@ -2060,7 +2060,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;ul>
 &lt;li>Move the mod below the &lt;strong>Enhanced Vanilla Trees - Snowy Pine Trees (Small Custom)&lt;/strong> in your mod order.&lt;/li>
 &lt;li>Activate it and disable the other version.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Quick Tutorials</title><link>http://example.org/docs/07-resources/various-tutorials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/07-resources/various-tutorials/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Quick Tutorials</title><link>https://thephoenixflavour.com/docs/07-resources/various-tutorials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/07-resources/various-tutorials/</guid><description>
 &lt;h2 id="how-to-find-skyrim-le-bsas-in-mo2">How to find Skyrim LE BSAs in MO2&lt;/h2>
 &lt;p>Attempting to run Skyrim SE while a BSA compiled in the Skyrim LE Creation Kit is loaded, will result in an instant crash. These BSAs always have to unpacked and deleted. You can repack the loose files with the SSE Creation Kit but it&amp;rsquo;s not usually necessary. If you encounter a crash upon launch, you may have missed an instruction to unpack and delete a Skyrim LE BSA. This can easily be narrowed down using MO2&amp;rsquo;s filters.&lt;/p>
 &lt;p>Any such mod would be downloaded from the Skyrim LE Nexus and will display &lt;strong>Skyrim&lt;/strong> in the MO2 &lt;strong>Source Game&lt;/strong> column (Skyrim SE mods appear as &lt;strong>Skyrim Special Edition&lt;/strong>). You can filter for mods containing BSAs in Mod Organizer 2 and see if any of them have &lt;strong>Skyrim&lt;/strong> as their source game.&lt;/p>
@@ -2072,14 +2072,14 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;li>The loose assets might need optimizing with CAO (check the guide instructions for the mod).&lt;/li>
 &lt;li>To disable the filter again, click the &lt;strong>Clear&lt;/strong> button at the bottom and close the filter settings by clicking the arrows &lt;code>&amp;lt;&amp;lt;&lt;/code>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/guide-resources/find_le_bsa.png" alt="Find LE BSA">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/guide-resources/find_le_bsa.png" alt="Find LE BSA">&lt;/p>
 &lt;h2 id="how-to-re-generate-ini-files-from-scratch">How to re-generate INI files from scratch&lt;/h2>
 &lt;p>Re-doing INI files from scratch can be necessary when BethINI got an update. It can also help when you get a crash upon launch or when starting a new game caused by faulty INI edits. This is how to easily re-do INIs on a TPF setup.&lt;/p>
 &lt;ul>
 &lt;li>In MO2, click the folder icon to the right of the profiles selection drop-down&lt;/li>
 &lt;li>Select &lt;strong>Open Profile folder&lt;/strong> (see screenshot).&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/guide-resources/open_profiles_folder.png" alt="Open Profiles folder">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/guide-resources/open_profiles_folder.png" alt="Open Profiles folder">&lt;/p>
 &lt;ul>
 &lt;li>Delete the following folder and files:
 &lt;ul>
@@ -2106,7 +2106,7 @@ iSize W=1920
 &lt;/code>&lt;/pre>&lt;ul>
 &lt;li>Afterwards, click the &lt;strong>Save&lt;/strong> button and close the window.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/guide-resources/change_game_resolution.png" alt="Change Game Resolution">&lt;/p></description></item><item><title>Docs: The Creation Kit</title><link>http://example.org/docs/02-setup/step-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-03/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/guide-resources/change_game_resolution.png" alt="Change Game Resolution">&lt;/p></description></item><item><title>Docs: The Creation Kit</title><link>https://thephoenixflavour.com/docs/02-setup/step-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/02-setup/step-03/</guid><description>
 &lt;h2 id="31-acquisition">3.1 Acquisition&lt;/h2>
 &lt;p>With the release of Skyrim SE, Bethesda also published a new version of their official tool kit, the Creation Kit (or CK for short), updated for the new 64bit engine. Unfortunately the CK 2.0 can no longer be downloaded directly from Steam but requires the Bethesda Launcher and a Beth.net account.&lt;/p>
 &lt;blockquote>
@@ -2118,7 +2118,7 @@ iSize W=1920
 &lt;li>Click the &lt;strong>Download&lt;/strong> button in the &lt;strong>Bethesda Launcher&lt;/strong> section.&lt;/li>
 &lt;li>Double-click the downloaded executable.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/download_beth_launcher.png" alt="Download Beth Launcher">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/download_beth_launcher.png" alt="Download Beth Launcher">&lt;/p>
 &lt;h2 id="32-installation">3.2 Installation&lt;/h2>
 &lt;ul>
 &lt;li>Let the executable guide you through the installation process.&lt;/li>
@@ -2129,14 +2129,14 @@ iSize W=1920
 &lt;li>The CK should be installed directly into your &lt;strong>root&lt;/strong> folder (see picture).&lt;/li>
 &lt;li>Wait for the files to download.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/ck_installation_path.png" alt="Creation Kit Installation Path">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/ck_installation_path.png" alt="Creation Kit Installation Path">&lt;/p>
 &lt;h2 id="33-disable-auto-updates">3.3 Disable Auto Updates&lt;/h2>
 &lt;ul>
 &lt;li>In the Bethesda Launcher, go to &lt;strong>Game Options&lt;/strong>.&lt;/li>
 &lt;li>Toggle off &lt;strong>Auto Updates&lt;/strong>.&lt;/li>
 &lt;li>Close the Bethesda Launcher.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/ck_disable_auto_updates.png" alt="Disable Auto Updates">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/ck_disable_auto_updates.png" alt="Disable Auto Updates">&lt;/p>
 &lt;h2 id="34-custom-ini">3.4 Custom INI&lt;/h2>
 &lt;p>The custom INI file will allow you to load mods with multiple master files as well as fix some Creation Kit issues and crashes.&lt;/p>
 &lt;ul>
@@ -2171,7 +2171,7 @@ iSize W=1920
 &lt;li>&lt;code>Skyrim Special Edition\Data\Scripts\Source&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Docs: Tweaks</title><link>http://example.org/docs/03-mod-installation/step-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-03/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Tweaks</title><link>https://thephoenixflavour.com/docs/03-mod-installation/step-03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/03-mod-installation/step-03/</guid><description>
 &lt;h2 id="31-run-for-your-lives">3.1 Run For Your Lives&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods2272tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2272?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -2286,8 +2286,8 @@ iSize W=1920
 &lt;li>Once both conflicts are resolved, the record will be displayed in green.&lt;/li>
 &lt;li>Close SSEEdit. Click &lt;strong>OK&lt;/strong> to save your changes and quit.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/simply_smaller_wolves_conflict_1.png" alt="Simply Smaller Wolves 1">&lt;/p>
-&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/simply_smaller_wolves_conflict_2.png" alt="Simply Smaller Wolves 2">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/mod_installation/simply_smaller_wolves_conflict_1.png" alt="Simply Smaller Wolves 1">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/mod_installation/simply_smaller_wolves_conflict_2.png" alt="Simply Smaller Wolves 2">&lt;/p>
 &lt;h2 id="317-quiet-dog-optional">3.17 Quiet Dog (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods6066tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6066?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -2332,7 +2332,7 @@ iSize W=1920
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods21765tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21765?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Uninterrupted Ethereal Form v2&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Different Aspen Trees</title><link>http://example.org/docs/05-customisation/different-aspen-trees/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/05-customisation/different-aspen-trees/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Different Aspen Trees</title><link>https://thephoenixflavour.com/docs/05-customisation/different-aspen-trees/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/05-customisation/different-aspen-trees/</guid><description>
 &lt;div class="alert alert-warning" role="alert">
 &lt;h4 class="alert-heading">Warning&lt;/h4>
 If you install this section, you will need to re-generate DynDOLOD later on.
@@ -2414,7 +2414,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;/ul>
 &lt;/li>
 &lt;li>Place it below &lt;strong>Rudy HQ - Falling Leaves and Needles (ENB)&lt;/strong> in your mod order and activate it.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: ENBSeries</title><link>http://example.org/docs/04-finalisation/step-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/04-finalisation/step-04/</guid><description>
+&lt;/ul></description></item><item><title>Docs: ENBSeries</title><link>https://thephoenixflavour.com/docs/04-finalisation/step-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/04-finalisation/step-04/</guid><description>
 &lt;h2 id="41-general-notes">4.1 General Notes&lt;/h2>
 &lt;p>ENBSeries with a decent preset is the most performance-intense graphical improvement. It can also have a huge impact visually. To get stable 60FPS with an ENB preset you need a decently strong PC and quite possibly tone down some settings but it is very doable. Even if you’re not interested in all the bells and whistles, ENB ambient occlusion, complex particle lights and colour correction alone are certainly worthwhile.&lt;/p>
 &lt;p>With ENB Man - the preset management tool we will be using - you can easily switch between presets. ENB presets can be edited and toggled directly ingame at any time.&lt;/p>
@@ -2438,7 +2438,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;li>Click the green checkmark to confirm.&lt;/li>
 &lt;li>Double-click the new &lt;strong>Skyrim SE&lt;/strong> profile.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/finalisation/enb1_game_setup.png" alt="ENB Man 1 - Game Setup">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/enb1_game_setup.png" alt="ENB Man 1 - Game Setup">&lt;/p>
 &lt;h2 id="44-enbseries-binaries">4.4 ENBSeries Binaries&lt;/h2>
 &lt;ul>
 &lt;li>Download the latest version of &lt;a href="http://enbdev.com/download_mod_tesskyrimse.htm">ENBSeries for Skyrim SE&lt;/a>.&lt;/li>
@@ -2455,7 +2455,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;/li>
 &lt;li>Click the green checkmark to confirm.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/finalisation/enb2_binaries.png" alt="ENB Man 2 - Binaries">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/enb2_binaries.png" alt="ENB Man 2 - Binaries">&lt;/p>
 &lt;h2 id="45-global-ini-settings">4.5 Global INI Settings&lt;/h2>
 &lt;h3 id="451-import-enblocal-ini">4.5.1 Import enblocal INI&lt;/h3>
 &lt;ul>
@@ -2473,7 +2473,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;li>Back in the &lt;strong>Global Configuration Files&lt;/strong> window, check &lt;strong>enblocal.ini.&lt;/strong>&lt;/li>
 &lt;li>Click the green checkmark to close the window.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/finalisation/enb3_global_ini_settings.png" alt="ENB Man 3 - Global INI Settings">&lt;/p></description></item><item><title>Docs: Future Plans</title><link>http://example.org/docs/08-appendix/04_future_plans/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/08-appendix/04_future_plans/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/enb3_global_ini_settings.png" alt="ENB Man 3 - Global INI Settings">&lt;/p></description></item><item><title>Docs: Future Plans</title><link>https://thephoenixflavour.com/docs/08-appendix/04_future_plans/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/08-appendix/04_future_plans/</guid><description>
 &lt;p>I am working on the guide in my free time of which I admittedly have plenty.&lt;/p>
 &lt;ul>
 &lt;li>You can check my current to do list on Github &lt;a href="https://github.com/foreverphoenix/the-phoenix-flavour/projects/2">here&lt;/a>.&lt;/li>
@@ -2503,7 +2503,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;h4 id="creation-club-support">Creation Club support&lt;/h4>
 &lt;p>My personal opinion of the CC is rather low for many reasons. However, I do consider adding support for some select &amp;ldquo;creations&amp;rdquo; in the future (Forgotten Seasons for instance). At present, TPF does not support any &amp;ldquo;creations&amp;rdquo; and installing them invalidates your right to receive support for issues just like adding other Nexus mods would.&lt;/p>
 &lt;h4 id="suggest-a-mod">Suggest a mod&lt;/h4>
-&lt;p>Any user is welcome to suggest mods for inclusion in the guide, but please make sure first that it isn&amp;rsquo;t already listed on our Trello (check the link above). If it isn&amp;rsquo;t, use our &lt;a href="https://docs.google.com/forms/d/1g9jL22NfnrHg_XwnKAFpL7WXOm28MKB3i1NRwHOUOUU/edit">Google Form&lt;/a> to submit your suggestion.&lt;/p></description></item><item><title>Docs: Interface</title><link>http://example.org/docs/03-mod-installation/step-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-04/</guid><description>
+&lt;p>Any user is welcome to suggest mods for inclusion in the guide, but please make sure first that it isn&amp;rsquo;t already listed on our Trello (check the link above). If it isn&amp;rsquo;t, use our &lt;a href="https://docs.google.com/forms/d/1g9jL22NfnrHg_XwnKAFpL7WXOm28MKB3i1NRwHOUOUU/edit">Google Form&lt;/a> to submit your suggestion.&lt;/p></description></item><item><title>Docs: Interface</title><link>https://thephoenixflavour.com/docs/03-mod-installation/step-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/03-mod-installation/step-04/</guid><description>
 &lt;h2 id="41-skyui">4.1 SkyUI&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods12604tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12604?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -2718,7 +2718,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;h4 id="about-the-mod">About the mod&lt;/h4>
 &lt;p>This is my personal preset for AMOT. It uses the slim clock widget to match the slim compass from SkyHUD and has a small 24h clock with the ingame time centered below. You can change the clock to 12h through the MCM at any time.&lt;/p>
 &lt;p>Even if you have the preset installed, you can configure the AMOT settings to your liking. It will only be applied if you load it through the MCM specifically.&lt;/p>
-&lt;p>&lt;img src="http://example.org/Pictures/mod_installation/amot_preset_preview.jpg" alt="My AMOT Preset Preview">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/mod_installation/amot_preset_preview.jpg" alt="My AMOT Preset Preview">&lt;/p>
 &lt;h2 id="415-shouts-in-the-dragon-tongue-sidt-optional">4.15 Shouts in the Dragon Tongue (SIDT) (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods5515tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5515?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -2823,7 +2823,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods98tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/98?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Time on loading v5&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Mod Organizer 2</title><link>http://example.org/docs/02-setup/step-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-04/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Mod Organizer 2</title><link>https://thephoenixflavour.com/docs/02-setup/step-04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/02-setup/step-04/</guid><description>
 &lt;h2 id="41-installation">4.1 Installation&lt;/h2>
 &lt;p>Installing MO2 with a portable instance means all of its subdirectories will be located inside the MO2 root folder which is required for some modding tools to work properly.&lt;/p>
 &lt;ul>
@@ -2836,7 +2836,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;li>Confirm when asked to associate NXM links with MO2.&lt;/li>
 &lt;li>Click &lt;strong>No&lt;/strong> when prompted with the tutorial option.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/mo2_choose_instance.png" alt="MO2 Choose Instance">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/mo2_choose_instance.png" alt="MO2 Choose Instance">&lt;/p>
 &lt;h2 id="42-configuration">4.2 Configuration&lt;/h2>
 &lt;h3 id="421-mod-order-fix">4.2.1 Mod Order Fix&lt;/h3>
 &lt;ul>
@@ -2871,7 +2871,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;li>Click &lt;strong>Authorise&lt;/strong>. You can revoke this any time in your Nexus settings.&lt;/li>
 &lt;li>Mod Organizer 2 may ask you to restart. Click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/authorise_mo2.png" alt="Authorise MO2">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/authorise_mo2.png" alt="Authorise MO2">&lt;/p>
 &lt;h2 id="43-manage-mod-downloads">4.3 Manage Mod Downloads&lt;/h2>
 &lt;p>Most people use the &amp;ldquo;With Mod Manager&amp;rdquo; download option on the Nexus and then install the mod through their mod manager’s UI. That is the fastest and simplest way to download and install mods.&lt;/p>
 &lt;p>Since we installed MO2 as a portable application, all our mod archives would normally be downloaded into a sub-directory of the (MO2) root folder – which in turn may be located on your SSD or otherwise fastest hard drive. These archives are then extracted into their own folders meaning after their installation they only use up space.&lt;/p>
@@ -2882,7 +2882,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;li>Switch to the &lt;strong>Paths&lt;/strong> tab.&lt;/li>
 &lt;li>Point &lt;strong>Downloads&lt;/strong> to &lt;code>Your Modding Folder\ARCHIVE\MO2 Downloads&lt;/code>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/mo2_archive.png" alt="MO2 Archive">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/mo2_archive.png" alt="MO2 Archive">&lt;/p>
 &lt;h2 id="44-user-interface">4.4 User Interface&lt;/h2>
 &lt;h3 id="441-components">4.4.1 Components&lt;/h3>
 &lt;p>You can now configure the UI to your liking. Personally I re-arrange the two panels so that the left one (mod order) is wider.&lt;/p>
@@ -2903,7 +2903,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;li>&lt;strong>Source Game&lt;/strong>&lt;/li>
 &lt;li>&lt;strong>Priority&lt;/strong>&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/mo2_customised.png" alt="MO2 Customized">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/mo2_customised.png" alt="MO2 Customized">&lt;/p>
 &lt;h2 id="45-custom-profiles">4.5 Custom Profiles&lt;/h2>
 &lt;h3 id="451-vanilla">4.5.1 Vanilla&lt;/h3>
 &lt;ul>
@@ -2954,7 +2954,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;/li>
 &lt;li>Confirm when asked to merge the &lt;strong>data&lt;/strong> folders.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/install_deorders_plugins.png" alt="Install Deorders Plugins">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/install_deorders_plugins.png" alt="Install Deorders Plugins">&lt;/p>
 &lt;h3 id="462-configuration">4.6.2 Configuration&lt;/h3>
 &lt;ul>
 &lt;li>Close and re-open Mod Organizer 2.&lt;/li>
@@ -2982,7 +2982,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;li>&lt;strong>…&lt;/strong>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Docs: Credits</title><link>http://example.org/docs/08-appendix/05-credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/08-appendix/05-credits/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Credits</title><link>https://thephoenixflavour.com/docs/08-appendix/05-credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/08-appendix/05-credits/</guid><description>
 &lt;h3 id="the-team">The Team&lt;/h3>
 &lt;ul>
 &lt;li>&lt;strong>Phoenix&lt;/strong> - that&amp;rsquo;s me! - published the guide initially way back in 2017 and stuck with it since. I do all the writing, basically.&lt;/li>
@@ -3018,7 +3018,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;li>Thanks to all the mod authors and fellow guide authors who have collaborated / communicated with us: SimonMagus, VictorF, mnikjom, Nathan, Slidikins, and all the others.&lt;/li>
 &lt;li>Thanks to all the wonderful people on our Discord server, particularly those who have been around and active for a long time.&lt;/li>
 &lt;li>Thanks to my Patreons and everyone who donated over PayPal or by other means over the past years!&lt;/li>
-&lt;/ul></description></item><item><title>Docs: ENB Presets</title><link>http://example.org/docs/04-finalisation/step-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/04-finalisation/step-05/</guid><description>
+&lt;/ul></description></item><item><title>Docs: ENB Presets</title><link>https://thephoenixflavour.com/docs/04-finalisation/step-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/04-finalisation/step-05/</guid><description>
 &lt;h2 id="51-preset-selection">5.1 Preset Selection&lt;/h2>
 &lt;p>For the purposes of this guide we will be using my personal favourite preset – &lt;strong>Visceral ENB&lt;/strong>, warm and dreamy but still natural enough and quite performance-friendly. Afterwards, we will also install a second preset, &lt;strong>The Truth ENB&lt;/strong>, which is among the most presets with the least impact on performance out there for everyone with less modern hardware.&lt;/p>
 &lt;p>You can install any other preset the same way. The &lt;strong>Customisation&lt;/strong> section includes a list of other recommended presets.&lt;/p>
@@ -3028,7 +3028,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;li>Enter a name for the new preset, e.g. &lt;strong>Visceral ENB – for Obsidian Weathers [1.5]&lt;/strong>.&lt;/li>
 &lt;li>Click the green checkmark to confirm.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/finalisation/enb4_create_new_profile.png" alt="ENB Man 4 - Create New Profile">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/enb4_create_new_profile.png" alt="ENB Man 4 - Create New Profile">&lt;/p>
 &lt;h2 id="63-import-the-preset">6.3 Import the preset&lt;/h2>
 &lt;ul>
 &lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21779?tab=files">Visceral ENB&lt;/a> (Visceral ENB – Obsidian Weathers and Seasons) manually.&lt;/li>
@@ -3041,7 +3041,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;blockquote>
 &lt;p>Extracting the files into &lt;strong>temp&lt;/strong> before importing them into ENB Man is done because importing directly from the ZIP archive can be a little buggy at times (skipping files and such).&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://example.org/Pictures/finalisation/enb5_import_preset_files.png" alt="ENB Man 5 - Import Preset Files">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/enb5_import_preset_files.png" alt="ENB Man 5 - Import Preset Files">&lt;/p>
 &lt;h2 id="64-the-truth-enb">6.4 The Truth ENB&lt;/h2>
 &lt;p>&lt;strong>This is optional.&lt;/strong>&lt;/p>
 &lt;p>You can skip this step and simply use Visceral ENB or install a different preset later on if you have decent hardware. The Truth preset is for those that struggle to maintain 60FPS. People who prefer vanilla visuals (especially colour and lighting) over stylised ENB presets may also want to use The Truth.&lt;/p>
@@ -3059,7 +3059,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;li>Select the latest version of ENBSeries under &lt;strong>Binary&lt;/strong> and tick the checkbox.&lt;/li>
 &lt;li>Click the green checkmark at the bottom of the window to install the preset.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/finalisation/enb6_enable_preset.png" alt="ENB Man 6 - Enable Preset">&lt;/p></description></item><item><title>Docs: Main Visual Mods</title><link>http://example.org/docs/03-mod-installation/step-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-05/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/enb6_enable_preset.png" alt="ENB Man 6 - Enable Preset">&lt;/p></description></item><item><title>Docs: Main Visual Mods</title><link>https://thephoenixflavour.com/docs/03-mod-installation/step-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/03-mod-installation/step-05/</guid><description>
 &lt;h2 id="51-skyrim-realistic-overhaul-sro">5.1 Skyrim Realistic Overhaul (SRO)&lt;/h2>
 &lt;h4 id="download-instructions">Download Instructions&lt;/h4>
 &lt;ul>
@@ -3333,14 +3333,14 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;li>&lt;del>Morph Files (Outfits)&lt;/del>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Docs: Skyrim Script Extender</title><link>http://example.org/docs/02-setup/step-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-05/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Skyrim Script Extender</title><link>https://thephoenixflavour.com/docs/02-setup/step-05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/02-setup/step-05/</guid><description>
 &lt;h2 id="51-download">5.1 Download&lt;/h2>
 &lt;ul>
 &lt;li>Download &lt;a href="http://skse.silverlock.org/">SKSE64&lt;/a>. You need build &lt;strong>2.0.17&lt;/strong> for the current version of Skyrim SE.&lt;/li>
 &lt;li>Save the downloaded archive to &lt;code>Your Modding Folder\ARCHIVE\SKSE64&lt;/code>.&lt;/li>
 &lt;/ul>
 &lt;p>If on the main page for SKSE there is a different version number than the one noted above, Skyrim and the Script Extender were likely updated and you need to download the previous version from the archive page (see picture below).&lt;/p>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/skse_download.png" alt="SKSE Download">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/skse_download.png" alt="SKSE Download">&lt;/p>
 &lt;h2 id="52-installation">5.2 Installation&lt;/h2>
 &lt;h3 id="521-binaries">5.2.1 Binaries&lt;/h3>
 &lt;ul>
@@ -3388,7 +3388,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;li>Type in &lt;code>getskseversion&lt;/code> and hit Enter. It should return the version number of your SKSE64 installation.&lt;/li>
 &lt;li>After confirming that SKSE64 was installed correctly, type &lt;strong>qqq&lt;/strong> in the console and hit Enter to quickly close the game.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/verify_skse64.jpg" alt="Verify SKSE64">&lt;/p></description></item><item><title>Docs: Solstheim 3D Trees</title><link>http://example.org/docs/05-customisation/solstheim-3d-trees/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/05-customisation/solstheim-3d-trees/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/verify_skse64.jpg" alt="Verify SKSE64">&lt;/p></description></item><item><title>Docs: Solstheim 3D Trees</title><link>https://thephoenixflavour.com/docs/05-customisation/solstheim-3d-trees/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/05-customisation/solstheim-3d-trees/</guid><description>
 &lt;div class="alert alert-warning" role="alert">
 &lt;h4 class="alert-heading">Warning&lt;/h4>
 If you install this section, you will need to re-generate DynDOLOD later on.
@@ -3408,12 +3408,12 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;li>Extract the &lt;strong>textures&lt;/strong> and &lt;strong>meshes&lt;/strong> folders to &lt;code>Mod Organizer 2\mods\Enhanced Landscapes - Solstheim 3D Trees&lt;/code>.&lt;/li>
 &lt;li>Close the archive and the Explorer window.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/customisation/solstheim_tree_installation.png" alt="Solstheim Trees Installation">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/customisation/solstheim_tree_installation.png" alt="Solstheim Trees Installation">&lt;/p>
 &lt;h4 id="mod-order">Mod Order&lt;/h4>
 &lt;ul>
 &lt;li>Go back to Mod Organizer 2 and press F5 to refresh.&lt;/li>
 &lt;li>Move the new mod above &lt;strong>Enhanced Landscapes - Oaks Standalone (Mixed Greens)&lt;/strong> in your mod order and activate it.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Arthmoor's Towns</title><link>http://example.org/docs/05-customisation/arthmoors-towns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/05-customisation/arthmoors-towns/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Arthmoor's Towns</title><link>https://thephoenixflavour.com/docs/05-customisation/arthmoors-towns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/05-customisation/arthmoors-towns/</guid><description>
 &lt;div class="alert alert-warning" role="alert">
 &lt;h4 class="alert-heading">Warning&lt;/h4>
 If you install this section, you will need to re-generate DynDOLOD later on.
@@ -3461,7 +3461,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;blockquote>
 &lt;p>The record contains only one edit that is already made in the USSEP but overrides another one from Trade &amp;amp; Barter. The simplest solution is to just delete it.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://example.org/Pictures/customisation/keldnar_delete_record.png" alt="Keld-Nar - Delete Record">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/customisation/keldnar_delete_record.png" alt="Keld-Nar - Delete Record">&lt;/p>
 &lt;h2 id="simple-children---keld-nar-patch">Simple Children - Keld-Nar Patch&lt;/h2>
 &lt;h4 id="download-instructions">Download Instructions&lt;/h4>
 &lt;ul>
@@ -3540,7 +3540,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;li>In your &lt;strong>Downloads&lt;/strong> tab, find the &lt;strong>Lanterns Of Skyrim II - FOMOD v2.0&lt;/strong> archive.&lt;/li>
 &lt;li>Right-click it and select &lt;strong>Open File&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/finalisation/create_empty_mod.png" alt="Create empty mod">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/create_empty_mod.png" alt="Create empty mod">&lt;/p>
 &lt;p>At this point you need to extract the patches for Arthmoor&amp;rsquo;s town mods. Move all files from the respective folder into your new mod folder. When asked whether you want to merge folders, click &lt;strong>Yes&lt;/strong>.&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Helarchen Creek:&lt;/strong> Extract the meshes, textures, and plugin from the &lt;code>LoS II - HC&lt;/code> folder.&lt;/li>
@@ -3550,7 +3550,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;li>There is no patch for Keld-Nar.&lt;/li>
 &lt;/ul>
 &lt;p>The resulting mod folder should look like this:&lt;/p>
-&lt;p>&lt;img src="http://example.org/Pictures/customisation/los_ii_town_patches.png" alt="LoS II Town Patches">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/customisation/los_ii_town_patches.png" alt="LoS II Town Patches">&lt;/p>
 &lt;h4 id="mod-order">Mod Order&lt;/h4>
 &lt;ul>
 &lt;li>Back in Mod Organizer 2, press F5 to refresh.&lt;/li>
@@ -3570,7 +3570,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;ul>
 &lt;li>Place the mod below &lt;strong>Morrowloot Ultimate - INIGO Patch&lt;/strong> in the mod order and active it.&lt;/li>
 &lt;li>Move all plugins below &lt;strong>MLU - Inigo.esp&lt;/strong> in your load order.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: DynDOLOD</title><link>http://example.org/docs/04-finalisation/step-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/04-finalisation/step-06/</guid><description>
+&lt;/ul></description></item><item><title>Docs: DynDOLOD</title><link>https://thephoenixflavour.com/docs/04-finalisation/step-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/04-finalisation/step-06/</guid><description>
 &lt;h2 id="61-dyndolod-and-performance">6.1 DynDOLOD and Performance&lt;/h2>
 &lt;p>Contrary to popular belief, DynDOLOD is not inherently performance-intense. With the &lt;strong>Low&lt;/strong> or &lt;strong>Medium&lt;/strong> presets and regular tree LOD, you will hardly notice any performance impact, even on weaker machines, while still drastically improving distant terrain.&lt;/p>
 &lt;p>More hardware-taxing is however what is typically referred to as &amp;ldquo;ultra tree LOD&amp;rdquo; or simply 3D tree LOD. This is a DynDOLOD feature which disables regular tree LOD, the two dimensional, flat &amp;ldquo;cut-outs&amp;rdquo;. Instead, object LOD is generated for distant trees, utilising 3D meshes which drastically improve the visual quality of tree LOD to the point where you can barely tell fully-rendered trees and distant trees apart anymore.&lt;/p>
@@ -3605,7 +3605,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;/li>
 &lt;li>Click &lt;strong>OK&lt;/strong> to save and close the &lt;strong>Executables&lt;/strong> window.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/finalisation/texgen_dyndolod_executables.png" alt="Texgen DynDOLOD Executables">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/texgen_dyndolod_executables.png" alt="Texgen DynDOLOD Executables">&lt;/p>
 &lt;h2 id="63-texgen-configuration">6.3 TexGen Configuration&lt;/h2>
 &lt;p>TexGen is a component of DynDOLOD, used to generate textures based on your mod setup.&lt;/p>
 &lt;ul>
@@ -3616,7 +3616,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;blockquote>
 &lt;p>The generation will take a while (about 10 minutes for me) and I recommend you step away from your PC in the meantime.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://example.org/Pictures/finalisation/texgen_settings.png" alt="TexGen Settings">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/texgen_settings.png" alt="TexGen Settings">&lt;/p>
 &lt;h2 id="64-texgen-output">6.4 TexGen Output&lt;/h2>
 &lt;ul>
 &lt;li>Once TexGen has finished, click &lt;strong>Save and Exit&lt;/strong>.&lt;/li>
@@ -3625,7 +3625,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;li>Refresh Mod Organizer 2 (F5) and it will appear at the bottom of your mod order.&lt;/li>
 &lt;li>Place it right above the &lt;strong>WEATHER&lt;/strong> separator and activate it.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/finalisation/texgen_mod_order.png" alt="TexGen Output Mod Order">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/texgen_mod_order.png" alt="TexGen Output Mod Order">&lt;/p>
 &lt;h2 id="65-tweak-for-3d-tree-lod">6.5 Tweak for 3D Tree LOD&lt;/h2>
 &lt;blockquote>
 &lt;p>Only follow these instructions if you are planning to generate 3D tree LOD.&lt;/p>
@@ -3656,7 +3656,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;li>Double-check with the picture below that everything is configured correctly, then click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>Step away from your PC while DynDOLOD is working.&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="http://example.org/Pictures/finalisation/dyndolod_settings.png" alt="DynDOLOD Settings">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/dyndolod_settings.png" alt="DynDOLOD Settings">&lt;/p>
 &lt;h2 id="67-dyndolod-output">6.7 DynDOLOD Output&lt;/h2>
 &lt;ul>
 &lt;li>Once DynDOLOD is done, click &lt;strong>Save &amp;amp; Exit&lt;/strong>.&lt;/li>
@@ -3667,7 +3667,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;li>Place it last below the &lt;strong>PATCHER OUTPUT&lt;/strong> separator and activate it.&lt;/li>
 &lt;li>Move &lt;strong>DynDOLOD.esm&lt;/strong> below your other ESMs at the top of your load order.&lt;/li>
 &lt;li>Leave &lt;strong>DynDOLOD.esp&lt;/strong> at the very bottom as the last plugin.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: INI Files</title><link>http://example.org/docs/02-setup/step-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-06/</guid><description>
+&lt;/ul></description></item><item><title>Docs: INI Files</title><link>https://thephoenixflavour.com/docs/02-setup/step-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/02-setup/step-06/</guid><description>
 &lt;h2 id="61-generate-fresh-ini-files">6.1 Generate Fresh INI Files&lt;/h2>
 &lt;p>The basic game settings are saved in two INI files, &lt;strong>Skyrim.ini&lt;/strong> and &lt;strong>SkyrimPrefs.ini&lt;/strong>, and split up (somewhat arbitrarily) between them. In order to ensure that your INIs are completely untouched and vanilla, we will regenerate them before optimising them.&lt;/p>
 &lt;h3 id="611-remove-old-files">6.1.1 Remove old files&lt;/h3>
@@ -3689,7 +3689,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;li>A window will come up, informing you that Skyrim SE will now be configured based on your hardware.&lt;/li>
 &lt;li>Click &lt;strong>OK&lt;/strong> twice to confirm and hit &lt;strong>Exit&lt;/strong> once it’s done.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/regenerating_inis.png" alt="Regenerating INIs">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/regenerating_inis.png" alt="Regenerating INIs">&lt;/p>
 &lt;h2 id="62-install-bethini">6.2 Install BethINI&lt;/h2>
 &lt;ul>
 &lt;li>Download the latest version of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4875">BethINI&lt;/a> manually from the Nexus.&lt;/li>
@@ -3714,7 +3714,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;blockquote>
 &lt;p>Changing the INI Path will prompt BethINI to restart. Click No when asked about using the skyrimcustom.ini file.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/bethini_setup.png" alt="BethINI Setup">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/bethini_setup.png" alt="BethINI Setup">&lt;/p>
 &lt;h3 id="632-bethini---basic">6.3.2 BethINI - Basic&lt;/h3>
 &lt;p>Continue with the second tab, &lt;strong>Basic&lt;/strong>.&lt;/p>
 &lt;ul>
@@ -3727,7 +3727,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;blockquote>
 &lt;p>Note that 1920x1080 is the recommended resolution. The performance impact of 1440p over 1080p is considerable.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/bethini_basic.png" alt="BethINI Basic">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/bethini_basic.png" alt="BethINI Basic">&lt;/p>
 &lt;h3 id="633-bethini---interface">6.3.3 BethINI - Interface&lt;/h3>
 &lt;p>Continue with the fifth tab, &lt;strong>Interface&lt;/strong>.&lt;/p>
 &lt;ul>
@@ -3738,7 +3738,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;blockquote>
 &lt;p>You can always turn the subtitles back on in the ingame settings.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/bethini_interface.png" alt="BethINI Interface">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/bethini_interface.png" alt="BethINI Interface">&lt;/p>
 &lt;h3 id="634-bethini---detail">6.3.4 BethINI - Detail&lt;/h3>
 &lt;p>Continue with the sixth tab, &lt;strong>Detail&lt;/strong>.&lt;/p>
 &lt;ul>
@@ -3752,13 +3752,13 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;li>&lt;strong>Shadow Resolution:&lt;/strong> Set to &lt;code>2048&lt;/code> (unless your CPU is very slow).&lt;/li>
 &lt;li>&lt;strong>Ambient Occlusion:&lt;/strong> Uncheck this in favour of ENB AO.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/bethini_detail.png" alt="BethINI Detail">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/bethini_detail.png" alt="BethINI Detail">&lt;/p>
 &lt;h3 id="635-bethini---view-distance">6.3.5 BethINI - View Distance&lt;/h3>
 &lt;p>Continue with the seventh tab, &lt;strong>View Distance&lt;/strong>.&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Grass Fade:&lt;/strong> Set to &lt;code>15000&lt;/code> or higher.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/bethini_view_distance.png" alt="BethINI View Distance">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/bethini_view_distance.png" alt="BethINI View Distance">&lt;/p>
 &lt;h3 id="636-bethini---visuals">6.3.6 BethINI - Visuals&lt;/h3>
 &lt;p>Continue with the eighth tab, &lt;strong>Visuals&lt;/strong>.&lt;/p>
 &lt;ul>
@@ -3767,13 +3767,13 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;blockquote>
 &lt;p>This should eliminate the &amp;ldquo;black crush&amp;rdquo; some people are experiencing in Skyrim SE.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/bethini_visuals.png" alt="BethINI Visuals">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/bethini_visuals.png" alt="BethINI Visuals">&lt;/p>
 &lt;h2 id="64-save-changes">6.4 Save Changes&lt;/h2>
 &lt;ul>
 &lt;li>Return to the second tab, &lt;strong>Basic&lt;/strong>, and click &lt;code>Save and Exit&lt;/code>.&lt;/li>
 &lt;li>Restart Mod Organizer 2.&lt;/li>
 &lt;li>You might be notified about the missing skyrimcustom.ini in which case you can just click &lt;strong>OK&lt;/strong>.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Weather</title><link>http://example.org/docs/03-mod-installation/step-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-06/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Weather</title><link>https://thephoenixflavour.com/docs/03-mod-installation/step-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/03-mod-installation/step-06/</guid><description>
 &lt;h2 id="61-obsidian-weathers-and-seasons">6.1 Obsidian Weathers and Seasons&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods12125tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12125?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -3858,7 +3858,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;h4 id="fomod-instructions-3">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Select Transpareny:&lt;/strong> 95% (Personal Choice)&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Additional Tools</title><link>http://example.org/docs/02-setup/step-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-07/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Additional Tools</title><link>https://thephoenixflavour.com/docs/02-setup/step-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/02-setup/step-07/</guid><description>
 &lt;h2 id="71-sseedit">7.1 SSEEdit&lt;/h2>
 &lt;h3 id="711-installation">7.1.1 Installation&lt;/h3>
 &lt;ul>
@@ -3870,7 +3870,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;li>Navigate to &lt;code>Your Modding Folder\Tools\SSEEdit&lt;/code>and double-click &lt;strong>SSEEdit.exe&lt;/strong>.&lt;/li>
 &lt;li>Click &lt;strong>Apply&lt;/strong> to save the new executable.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/add_sseedit_to_mo2.png" alt="Add SSEEdit to MO2">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/add_sseedit_to_mo2.png" alt="Add SSEEdit to MO2">&lt;/p>
 &lt;h3 id="712-sseedit-cache-output">7.1.2 SSEEdit Cache Output&lt;/h3>
 &lt;p>Every time a new plugin is loaded into SSEEdit, a refcache file will be generated for it so that the next time it won’t have to processed again – SSEEdit can simply read the cache file, significantly shortening the startup time.&lt;/p>
 &lt;p>In order to store the cached files with the program files themselves, we need to add an argument for it:&lt;/p>
@@ -3905,7 +3905,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;blockquote>
 &lt;p>The &lt;strong>-DontCache&lt;/strong> argument will prevent an obscure bug that destroys parts of Apocrypha during the cleaning of Dragonborn.esm.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/add_quickautoclean_to_mo2.png" alt="Add QuickAutoClean to MO2">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/add_quickautoclean_to_mo2.png" alt="Add QuickAutoClean to MO2">&lt;/p>
 &lt;h2 id="73-cathedral-assets-optimizer-cao">7.3 Cathedral Assets Optimizer (CAO)&lt;/h2>
 &lt;h3 id="731-installation">7.3.1 Installation&lt;/h3>
 &lt;ul>
@@ -3936,7 +3936,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;li>Create a new folder: &lt;code>Your Modding Folder\Tools\Modwat.ch&lt;/code>.&lt;/li>
 &lt;li>Open the downloaded archive and double-click the &amp;ldquo;Modwatch-win32-ia32&amp;rdquo; folder within.&lt;/li>
 &lt;li>Extract everything into the new folder.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: First Launch</title><link>http://example.org/docs/04-finalisation/step-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/04-finalisation/step-07/</guid><description>
+&lt;/ul></description></item><item><title>Docs: First Launch</title><link>https://thephoenixflavour.com/docs/04-finalisation/step-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/04-finalisation/step-07/</guid><description>
 &lt;h2 id="71-the-final-step">7.1 The Final Step&lt;/h2>
 &lt;p>All mods are installed. Your ENB preset is configured correctly. DynDOLOD is generated. Now comes the moment of truth.&lt;/p>
 &lt;p>Once arrived at this point it is important to thoroughly test your setup in order to make sure your game looks beautiful, performs well and runs stable so that you can finally start a new playthrough without a high risk for nasty surprises.&lt;/p>
@@ -3972,7 +3972,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;li>Press &lt;strong>ESCAPE&lt;/strong> and go into &lt;strong>Settings&lt;/strong> &amp;gt; &lt;strong>Display&lt;/strong>.&lt;/li>
 &lt;li>Turn down &lt;strong>Depth of Field&lt;/strong> all the way.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/finalisation/turn_down_dof.jpg" alt="Turn down DoF">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/turn_down_dof.jpg" alt="Turn down DoF">&lt;/p>
 &lt;h2 id="74-testing-suggestions">7.4 Testing Suggestions&lt;/h2>
 &lt;ul>
 &lt;li>You will spawn near Helgen in an area you likely know well. Take some time to look around.&lt;/li>
@@ -4048,7 +4048,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;p>You will notice two additional sections following this one: In the &lt;strong>Customisation&lt;/strong>, you may find many options to expand or tweak your current setup. This includes changes to improve performance so don’t be discouraged if you find your game running at less than 60FPS upon your first launch!&lt;/p>
 &lt;p>The final section, &lt;strong>New Game&lt;/strong>, will help you get started with your next playthrough. It contains recommended changes to the Mod Configuration Menus.&lt;/p>
 &lt;p>So you see - your journey is not over yet.&lt;/p>
-&lt;p>&lt;strong>Happy modding!&lt;/strong>&lt;/p></description></item><item><title>Docs: Lighting</title><link>http://example.org/docs/03-mod-installation/step-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-07/</guid><description>
+&lt;p>&lt;strong>Happy modding!&lt;/strong>&lt;/p></description></item><item><title>Docs: Lighting</title><link>https://thephoenixflavour.com/docs/03-mod-installation/step-07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/03-mod-installation/step-07/</guid><description>
 &lt;h2 id="71-relighting-skyrim">7.1 Relighting Skyrim&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods8586tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8586?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -4250,7 +4250,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods29376tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/29376?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> KD - Realistic Fireplaces - Charred Logs 2K&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Rougeshot's Mods</title><link>http://example.org/docs/05-customisation/rougeshot-skeletons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/05-customisation/rougeshot-skeletons/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Rougeshot's Mods</title><link>https://thephoenixflavour.com/docs/05-customisation/rougeshot-skeletons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/05-customisation/rougeshot-skeletons/</guid><description>
 &lt;p>Mod author &lt;a href="https://www.nexusmods.com/skyrimspecialedition/users/20882614">rougeshot&lt;/a> has been publishing many skeleton overhauls for creatures that are quite popular. While I personally don’t like most of them, they are easy additions and can be dropped into a TPF setup anytime.&lt;/p>
 &lt;h4 id="mod-order">Mod Order&lt;/h4>
 &lt;p>All of the skeleton replacers have to be below &lt;strong>XPMSSE&lt;/strong> (XP32 Maximum Skeleton Special Edition) in the mod order to overwrite.&lt;/p>
@@ -4304,7 +4304,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;/ul>
 &lt;blockquote>
 &lt;p>While the two replacers with plugins may work perfectly fine with TPF, you would probably need to resolve conflicts with Mortal Enemies and/or other mods. I simply do not care enough about rougeshot&amp;rsquo;s mods to provide instructions for that.&lt;/p>
-&lt;/blockquote></description></item><item><title>Docs: ESM Cleaning</title><link>http://example.org/docs/02-setup/step-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-08/</guid><description>
+&lt;/blockquote></description></item><item><title>Docs: ESM Cleaning</title><link>https://thephoenixflavour.com/docs/02-setup/step-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/02-setup/step-08/</guid><description>
 &lt;h2 id="81-about-esm-cleaning">8.1 About ESM Cleaning&lt;/h2>
 &lt;p>With the release of SSEEdit 4.0, the process of cleaning plugins has been simplified quite a bit. Beginning with &lt;strong>Update.esm&lt;/strong>, we are going to clean the following four ESMs, Bethesda’s official master files, &lt;strong>one at a time&lt;/strong>.&lt;/p>
 &lt;ul>
@@ -4362,7 +4362,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;li>Wait until the cleaning procedure is completed.&lt;/li>
 &lt;li>Close SSEEdit.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/update_esm_cleaned.png" alt="Update ESM Cleaned">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/update_esm_cleaned.png" alt="Update ESM Cleaned">&lt;/p>
 &lt;h2 id="84-manual-cleaning---update-esm">8.4 Manual Cleaning - Update ESM&lt;/h2>
 &lt;h3 id="841-source">8.4.1 Source&lt;/h3>
 &lt;p>With 1.5.97, Bethesda changed the navmeshes in Solitude for their latest &amp;ldquo;creation&amp;rdquo;, Saints &amp;amp; Seducers (&lt;a href="https://www.reddit.com/r/skyrimmods/comments/dzvg03/teardown_of_the_1597_update/?utm_source=share&amp;amp;utm_medium=web2x">source&lt;/a>). Some mods however still rely on the old navmesh and they will crash if it&amp;rsquo;s missing (namely Interesting NPCs). Therefore we will revert the deletion of the old navmesh.&lt;/p>
@@ -4388,7 +4388,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;li>Make sure &lt;strong>Update.esm&lt;/strong> is checked, then click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;li>You’re done!&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/update_esm_manual_edit.png" alt="Update ESM Manual Edit">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/update_esm_manual_edit.png" alt="Update ESM Manual Edit">&lt;/p>
 &lt;h2 id="85-manual-cleaning---dawnguard-esm">8.5 Manual Cleaning - Dawnguard ESM&lt;/h2>
 &lt;h3 id="851-source">8.5.1 Source&lt;/h3>
 &lt;p>There are &lt;a href="https://forums.nexusmods.com/index.php?/topic/5381485-guide-manual-cleaning-skyrim-and-skyrim-special-edition-master-files/">additional instructions written up by alt3rn1ty&lt;/a> to manually clean some dirty edits that won’t be caught by SSEEdit’s quick cleaning procedure. Only one of the edits can affect actual gameplay though, so we won’t bother with removing the other two which are simply left-over test records.&lt;/p>
@@ -4415,14 +4415,14 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;li>Right-click &lt;code>RiftenRatwayZone [ECZN:0009FBB9]&lt;/code> in &lt;strong>Dawnguard.esm&lt;/strong> and select &lt;strong>Remove&lt;/strong> (see picture below).&lt;/li>
 &lt;li>There will be a warning, simply click &lt;strong>Yes I’m absolutely sure&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/esm_cleaning_manual_edit.png" alt="ESM Cleaning - Manual Edit">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/esm_cleaning_manual_edit.png" alt="ESM Cleaning - Manual Edit">&lt;/p>
 &lt;h3 id="854-save-changes">8.5.4 Save Changes&lt;/h3>
 &lt;ul>
 &lt;li>Close SSEEdit.&lt;/li>
 &lt;li>When asked to save your changes, only &lt;strong>Dawnguard.esm&lt;/strong> should appear in the list.&lt;/li>
 &lt;li>Make sure &lt;strong>Dawnguard.esm&lt;/strong> is checked, then click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;li>You’re done!&lt;/li>
-&lt;/ul></description></item><item><title>Docs: New Music</title><link>http://example.org/docs/05-customisation/new_music/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/05-customisation/new_music/</guid><description>
+&lt;/ul></description></item><item><title>Docs: New Music</title><link>https://thephoenixflavour.com/docs/05-customisation/new_music/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/05-customisation/new_music/</guid><description>
 &lt;p>Music tracks are added for certain parts of Skyrim through the &lt;strong>Music Type&lt;/strong> records. They are split into multiple categories, including MUSCombat and different MUSExplore / MUSDiscover types. While mods that add additional music tracks use their own records for the new tracks, they need to add those records to the &lt;strong>Music Type&lt;/strong> lists. Adding more than one music mod at a time will most likely require you to create a patch (if both mods add to the same Music Type) and forward all music tracks into the new plugin. This is as simple as using drag-and-drop.&lt;/p>
 &lt;p>For this section, I am including my personal favourite music overhauls plus a merged patch for them. If you are not comfortable editing the merged patch in SSEEdit, you must install all mods listed below and the patch. Alternatively you can install just one of the mods in which case the merged patch will not be necessary.&lt;/p>
 &lt;h2 id="the-northerner-diaries---immersive-edition">The Northerner Diaries - Immersive Edition&lt;/h2>
@@ -4461,7 +4461,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;li>Place all mods including the patch below the &lt;strong>SOUNDS &amp;amp; MUSIC&lt;/strong> separator.&lt;/li>
 &lt;li>Place the plugins in the order you installed them in below the other audio mods:&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/customisation/music_mods_lo.png" alt="Music Mods LO">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/customisation/music_mods_lo.png" alt="Music Mods LO">&lt;/p>
 &lt;h4 id="esl-flags">ESL Flags&lt;/h4>
 &lt;p>The patch itself depends on the &lt;strong>main files&lt;/strong> of each music mod which are (with the exception of Melodies of Civilisation) all regular ESPs. However, now that the patch is present in your load order, you can easily renumber form IDs for the other plugins and flag them as ESL.&lt;/p>
 &lt;ul>
@@ -4487,7 +4487,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;/ul>
 &lt;blockquote>
 &lt;p>Note that the merged patch will show up as edited which it should be. The renumbered FormIDs for Northerner Diaries in Skyrim.esp and NirShor-MusicalLore.esp were updated in the patch.&lt;/p>
-&lt;/blockquote></description></item><item><title>Docs: Visual FX</title><link>http://example.org/docs/03-mod-installation/step-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-08/</guid><description>
+&lt;/blockquote></description></item><item><title>Docs: Visual FX</title><link>https://thephoenixflavour.com/docs/03-mod-installation/step-08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/03-mod-installation/step-08/</guid><description>
 &lt;h2 id="81-frozen-electrocuted-combustion-fec-optional">8.1 Frozen Electrocuted Combustion (FEC) (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods3532tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3532?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -4574,7 +4574,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods34148tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34148?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> GlowBeGoneSSE-Updated&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Landscape</title><link>http://example.org/docs/03-mod-installation/step-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-09/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Landscape</title><link>https://thephoenixflavour.com/docs/03-mod-installation/step-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/03-mod-installation/step-09/</guid><description>
 &lt;h2 id="91-majestic-mountains">9.1 Majestic Mountains&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods11052tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11052?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -4961,7 +4961,7 @@ Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/s
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods4126tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4126?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Dawnguard Dayspring Pass (IDDP)&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Skyrim Realistic Overhaul</title><link>http://example.org/docs/02-setup/step-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-09/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Skyrim Realistic Overhaul</title><link>https://thephoenixflavour.com/docs/02-setup/step-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/02-setup/step-09/</guid><description>
 &lt;h2 id="91-download">9.1 Download&lt;/h2>
 &lt;p>Skyrim Realistic Overhaul is the most comprehensive texture overhaul out there, over 10GB in size and covering nearly every single texture in the game. We will use it as a base retexture for our setup.&lt;/p>
 &lt;p>Unfortunately SRO is not on the Nexus and we will have to download it from ModDB. Because the files are so large, the download may take a while (depending on your internet connection) and it may be advisable to let them load overnight.&lt;/p>
@@ -4994,7 +4994,7 @@ Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/s
 &lt;li>This will take a while. &lt;strong>Make sure to merge and overwrite when asked.&lt;/strong>&lt;/li>
 &lt;li>Eventually you will have a single &lt;strong>textures&lt;/strong> folder with the size of a solid &lt;strong>10.2GB&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/sro_textures_folder.png" alt="SRO Textures Folder">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/sro_textures_folder.png" alt="SRO Textures Folder">&lt;/p>
 &lt;h2 id="93-processing-with-cao">9.3 Processing with CAO&lt;/h2>
 &lt;p>In order to be able to control the mod order of SRO and ensure it can be overwritten by other retexture mods, we will also pack the textures in BSAs (archives) and load the matching plugins high up in the load order. All packed up, the entirety of SRO will be reduced to 8.32GB this way.&lt;/p>
 &lt;p>&lt;strong>If you have 3GB of VRAM or less:&lt;/strong> Use the &lt;strong>SSE – Skyrim Realistic Overhaul (Performance)&lt;/strong> profile. In addition to repacking the textures, CAO will also half their resolution (all 4k textures to 2k, all 2k textures to 1k) which will help save VRAM. Note that this will take more time and result in less plugins and archives.&lt;/p>
@@ -5006,7 +5006,7 @@ Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/s
 &lt;li>This will take a while! You can monitor the progress in the &lt;strong>Logs&lt;/strong> tab.&lt;/li>
 &lt;li>Wait until the CAO log returns: &lt;code>[INFO] Process completed&lt;/code>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/setup/process_sro_in_cao.png" alt="Process SRO in CAO">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/process_sro_in_cao.png" alt="Process SRO in CAO">&lt;/p>
 &lt;h2 id="94-installation">9.4 Installation&lt;/h2>
 &lt;ul>
 &lt;li>Navigate to &lt;code>Your Modding Folder\temp\Skyrim Realistic Overhaul&lt;/code> which now contains several ESPs and BSAs:
@@ -5019,7 +5019,7 @@ Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/s
 &lt;li>Back in Mod Organizer 2, press F5 to refresh.&lt;/li>
 &lt;li>&lt;strong>Skyrim Realistic Overhaul&lt;/strong> should now appear at the bottom of your mod order.&lt;/li>
 &lt;li>Drag it up all the way below the &lt;strong>MAIN VISUAL MODS&lt;/strong> separator and activate it.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Flora</title><link>http://example.org/docs/03-mod-installation/step-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-10/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Flora</title><link>https://thephoenixflavour.com/docs/03-mod-installation/step-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/03-mod-installation/step-10/</guid><description>
 &lt;h2 id="101-enhanced-vanilla-trees-evt">10.1 Enhanced Vanilla Trees (EVT)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods11008tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11008?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5176,7 +5176,7 @@ Only install this mod if you installed &lt;strong>Immersive Fallen Trees&lt;/str
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods27834tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27834?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Fallen Trees Patch&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Mod Installation</title><link>http://example.org/docs/02-setup/step-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-setup/step-10/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Mod Installation</title><link>https://thephoenixflavour.com/docs/02-setup/step-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/02-setup/step-10/</guid><description>
 &lt;p>After completing the Setup, you are equipped with a correctly installed and configured instance of Mod Organizer 2 that is properly set up with the Skyrim Script Extender. It is now time to dive into the by far longest section in the guide - the mod installation.&lt;/p>
 &lt;p>The mods themselves are split up into forty categories which correspond to the separators of the same names installed for MO2 in the Setup. &lt;strong>Each set of mods must be installed in the order they are listed in&lt;/strong> and grouped below their respective separator.&lt;/p>
 &lt;p>It may be faster to download all mods of a page first, then install them, and finally go through the post-installation instructions.&lt;/p>
@@ -5245,7 +5245,7 @@ Only install this mod if you installed &lt;strong>Immersive Fallen Trees&lt;/str
 &lt;li>Double-click the mod in your mod order (left pane of Mod Organizer 2).&lt;/li>
 &lt;li>Switch to the &lt;strong>Filetree&lt;/strong> tab and find the files you need to delete/rename/move.&lt;/li>
 &lt;li>Right-click to remove/rename or move them per drag-and-drop.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Modding Guides</title><link>http://example.org/docs/07-resources/modding-guides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/07-resources/modding-guides/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Modding Guides</title><link>https://thephoenixflavour.com/docs/07-resources/modding-guides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/07-resources/modding-guides/</guid><description>
 &lt;h2 id="recommended-guides">Recommended Guides&lt;/h2>
 &lt;h3 id="lexys-lotd">Lexy&amp;rsquo;s LOTD&lt;/h3>
 &lt;p>&lt;strong>by DarkLadyLexy &amp;amp; her team&lt;/strong>&lt;/p>
@@ -5322,7 +5322,7 @@ Only install this mod if you installed &lt;strong>Immersive Fallen Trees&lt;/str
 &lt;h3 id="ultimateimmersions-micro-mod-list">UltimateImmersion&amp;rsquo;s Micro Mod List&lt;/h3>
 &lt;p>The YouTuber Ultimate Immersion (known for very pretty mod showcases like hodilton) teamed up with YT colleague ESO (who covers general Elder Scrolls stuff as far as I know) and on their shared website posted a &lt;a href="https://eso-ui.com/skyrim-se-micro-list/">Micro Mod List&lt;/a> focused on visual improvements. It includes 40 mods and a custom ENB preset, and since it keeps popping up on places like reddit, I’m covering it here.&lt;/p>
 &lt;p>The list is quite frankly all over the place, featuring some essentials such as SKSE, SkyUI and the USSEP, but also including Immersive Citizens which is a broken mess of a mod as well as a faulty mod order. There’s no sign of absolute essentials like SSE Engine Fixes or a custom patch. He recommends Vortex as mod manager and uses xEdit solely to clean the official master files with an outdated method in a video with a very misleading title. While his contributions to the community in the form of breathtakingly beautiful showcase videos are to be respected for sure, this list gives the impression that he lacks indepth knowledge.&lt;/p>
-&lt;p>I’m sure UI’s Micro List is great for running around Skyrim taking screenshots for half an hour, however it cannot possibly be considered a proper guide and there are fundamental errors as well as inconsistencies that lead me to strongly recommend against using it.&lt;/p></description></item><item><title>Docs: Architecture</title><link>http://example.org/docs/03-mod-installation/step-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-11/</guid><description>
+&lt;p>I’m sure UI’s Micro List is great for running around Skyrim taking screenshots for half an hour, however it cannot possibly be considered a proper guide and there are fundamental errors as well as inconsistencies that lead me to strongly recommend against using it.&lt;/p></description></item><item><title>Docs: Architecture</title><link>https://thephoenixflavour.com/docs/03-mod-installation/step-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/03-mod-installation/step-11/</guid><description>
 &lt;h2 id="111-mds-farmhouses-optional">11.1 MD&amp;rsquo;s Farmhouses (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods32160tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32160?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5458,7 +5458,7 @@ Only install this mod if you installed &lt;strong>Immersive Fallen Trees&lt;/str
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods7292tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/7292?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> SSE 2K Textures&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Misc Structures</title><link>http://example.org/docs/03-mod-installation/step-12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/03-mod-installation/step-12/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Misc Structures</title><link>https://thephoenixflavour.com/docs/03-mod-installation/step-12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/03-mod-installation/step-12/</guid><description>
 &lt;h2 id="121-fences-of-skyrim-optional">12.1 Fences of Skyrim (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods5664tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5664?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>

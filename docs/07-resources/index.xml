@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Resources</title><link>http://example.org/docs/07-resources/</link><description>Recent content in Resources on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="http://example.org/docs/07-resources/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Terminology</title><link>http://example.org/docs/07-resources/terminology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/07-resources/terminology/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Resources</title><link>https://thephoenixflavour.com/docs/07-resources/</link><description>Recent content in Resources on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/docs/07-resources/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Terminology</title><link>https://thephoenixflavour.com/docs/07-resources/terminology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/07-resources/terminology/</guid><description>
 &lt;h2 id="general">General&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -277,7 +277,7 @@
 &lt;td>Zim&amp;rsquo;s Immersive Artifacts&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Basic Instructions</title><link>http://example.org/docs/07-resources/basic-instructions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/07-resources/basic-instructions/</guid><description>
+&lt;/table></description></item><item><title>Docs: Basic Instructions</title><link>https://thephoenixflavour.com/docs/07-resources/basic-instructions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/07-resources/basic-instructions/</guid><description>
 &lt;h2 id="converting-plugins">Converting Plugins&lt;/h2>
 &lt;blockquote>
 &lt;p>&amp;ldquo;Resave Example.esp in the Creation Kit.&amp;rdquo;&lt;/p>
@@ -350,7 +350,7 @@
 &lt;li>Click &lt;strong>Open Directory&lt;/strong> and navigate to &lt;code>Mod Organizer 2\mods&lt;/code>.&lt;/li>
 &lt;li>Click on the mod containing the textures and &lt;strong>Select folder&lt;/strong>.&lt;/li>
 &lt;li>Back in CAO, click &lt;strong>Run&lt;/strong> and wait for the process to be completed.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Quick Tutorials</title><link>http://example.org/docs/07-resources/various-tutorials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/07-resources/various-tutorials/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Quick Tutorials</title><link>https://thephoenixflavour.com/docs/07-resources/various-tutorials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/07-resources/various-tutorials/</guid><description>
 &lt;h2 id="how-to-find-skyrim-le-bsas-in-mo2">How to find Skyrim LE BSAs in MO2&lt;/h2>
 &lt;p>Attempting to run Skyrim SE while a BSA compiled in the Skyrim LE Creation Kit is loaded, will result in an instant crash. These BSAs always have to unpacked and deleted. You can repack the loose files with the SSE Creation Kit but it&amp;rsquo;s not usually necessary. If you encounter a crash upon launch, you may have missed an instruction to unpack and delete a Skyrim LE BSA. This can easily be narrowed down using MO2&amp;rsquo;s filters.&lt;/p>
 &lt;p>Any such mod would be downloaded from the Skyrim LE Nexus and will display &lt;strong>Skyrim&lt;/strong> in the MO2 &lt;strong>Source Game&lt;/strong> column (Skyrim SE mods appear as &lt;strong>Skyrim Special Edition&lt;/strong>). You can filter for mods containing BSAs in Mod Organizer 2 and see if any of them have &lt;strong>Skyrim&lt;/strong> as their source game.&lt;/p>
@@ -362,14 +362,14 @@
 &lt;li>The loose assets might need optimizing with CAO (check the guide instructions for the mod).&lt;/li>
 &lt;li>To disable the filter again, click the &lt;strong>Clear&lt;/strong> button at the bottom and close the filter settings by clicking the arrows &lt;code>&amp;lt;&amp;lt;&lt;/code>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/guide-resources/find_le_bsa.png" alt="Find LE BSA">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/guide-resources/find_le_bsa.png" alt="Find LE BSA">&lt;/p>
 &lt;h2 id="how-to-re-generate-ini-files-from-scratch">How to re-generate INI files from scratch&lt;/h2>
 &lt;p>Re-doing INI files from scratch can be necessary when BethINI got an update. It can also help when you get a crash upon launch or when starting a new game caused by faulty INI edits. This is how to easily re-do INIs on a TPF setup.&lt;/p>
 &lt;ul>
 &lt;li>In MO2, click the folder icon to the right of the profiles selection drop-down&lt;/li>
 &lt;li>Select &lt;strong>Open Profile folder&lt;/strong> (see screenshot).&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/guide-resources/open_profiles_folder.png" alt="Open Profiles folder">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/guide-resources/open_profiles_folder.png" alt="Open Profiles folder">&lt;/p>
 &lt;ul>
 &lt;li>Delete the following folder and files:
 &lt;ul>
@@ -396,7 +396,7 @@ iSize W=1920
 &lt;/code>&lt;/pre>&lt;ul>
 &lt;li>Afterwards, click the &lt;strong>Save&lt;/strong> button and close the window.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="http://example.org/Pictures/guide-resources/change_game_resolution.png" alt="Change Game Resolution">&lt;/p></description></item><item><title>Docs: Modding Guides</title><link>http://example.org/docs/07-resources/modding-guides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/07-resources/modding-guides/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/guide-resources/change_game_resolution.png" alt="Change Game Resolution">&lt;/p></description></item><item><title>Docs: Modding Guides</title><link>https://thephoenixflavour.com/docs/07-resources/modding-guides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/docs/07-resources/modding-guides/</guid><description>
 &lt;h2 id="recommended-guides">Recommended Guides&lt;/h2>
 &lt;h3 id="lexys-lotd">Lexy&amp;rsquo;s LOTD&lt;/h3>
 &lt;p>&lt;strong>by DarkLadyLexy &amp;amp; her team&lt;/strong>&lt;/p>
