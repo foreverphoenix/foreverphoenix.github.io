@@ -1,0 +1,476 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Resources</title><link>https://thephoenixflavour.com/skyrim-se/guide-resources/</link><description>Recent content in Resources on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/skyrim-se/guide-resources/index.xml" rel="self" type="application/rss+xml"/><item><title>Skyrim-Se: Terminology</title><link>https://thephoenixflavour.com/skyrim-se/guide-resources/terminology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/guide-resources/terminology/</guid><description>
+&lt;h2 id="general">General&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Term&lt;/th>
+&lt;th>Definition&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>CC&lt;/td>
+&lt;td>Creation Club&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>CK&lt;/td>
+&lt;td>Creation Kit&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Data folder&lt;/td>
+&lt;td>&lt;code>Steam\steamapps\common\Skyrim Special Edition\Data\&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ENB&lt;/td>
+&lt;td>ENBSeries, a post-processing FX injector.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ENB Binaries&lt;/td>
+&lt;td>d3d11.dll, d3dcompiler_46e.dll (core part of ENBSeries)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Form Version&lt;/td>
+&lt;td>Plugin component, 43 for SLE, 44 for SSE. Update SLE plugins to SSE by resaving them.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>INI Folder&lt;/td>
+&lt;td>&lt;code>C:\Users\Username\Documents\My Games\Skyrim Special Edition\&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>LOOT&lt;/td>
+&lt;td>Load Order Optimisation Tool, sorts plugins based on a masterlist.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>MO2&lt;/td>
+&lt;td>Mod Organizer 2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>NMM&lt;/td>
+&lt;td>Nexus Mod Manager (deprecated, superceded by Vortex)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Particle Patch&lt;/td>
+&lt;td>Mesh fix collection by mindflux, only available on the ENB forums.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Resaving&lt;/td>
+&lt;td>Loading and saving a plugin into the CK without editing it, updates to Form Version 44&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Root folder&lt;/td>
+&lt;td>&lt;code>Steam\steamapps\common\Skyrim Special Edition\&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>xEdit&lt;/td>
+&lt;td>Community-made plugin editing software, available for many Beth games (SSEEdit, FO4Edit, etc).&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="mod-acronyms">Mod Acronyms&lt;/h2>
+&lt;p>The table below contains many popular abbreviations for certain mods, including mods that are not in the guide.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Acronym&lt;/th>
+&lt;th>Mod&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>3DNPCs&lt;/td>
+&lt;td>Interesting NPCs&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ACE&lt;/td>
+&lt;td>Armor and Clothing Extension&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AGO&lt;/td>
+&lt;td>Archery Gameplay Overhaul&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AllGUD&lt;/td>
+&lt;td>All Geared Up Derivative&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AMB&lt;/td>
+&lt;td>aMidianBorn (Book of Silence)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AOS&lt;/td>
+&lt;td>Audio Overhaul (for) Skyrim.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AS LAL&lt;/td>
+&lt;td>Alternate Start - Live Another Life&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>BDS&lt;/td>
+&lt;td>Better Dynamic Snow&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>BSW&lt;/td>
+&lt;td>(LeanWolf&amp;rsquo;s) Better-Shaped Weapons&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>CACO&lt;/td>
+&lt;td>Complete Alchemy and Cooking overhaul&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>CBBE&lt;/td>
+&lt;td>Caliente&amp;rsquo;s Beautiful Bodies Enhancer&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>CCOR&lt;/td>
+&lt;td>Complete Crafting Overhaul Redone (SLE), Complete Crafting Overhaul Remastered (SSE)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>CFTO&lt;/td>
+&lt;td>Carriage and Ferry Travel Overhaul (formerly Complete Fast Travel Overhaul)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>CGO&lt;/td>
+&lt;td>Combat Gameplay Overhaul&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>CRF&lt;/td>
+&lt;td>Cutting Room Floor&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DDC&lt;/td>
+&lt;td>Diverse Dragons Collection&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DWC&lt;/td>
+&lt;td>Diverse Werewolves Collection&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>EBQO&lt;/td>
+&lt;td>Even Better Quest Objectives&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>EBT&lt;/td>
+&lt;td>Enhanced Blood Textures&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>EEO&lt;/td>
+&lt;td>Ethereal Elven Overhaul&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ELE&lt;/td>
+&lt;td>Enhanced Lighting for ENB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ELFX&lt;/td>
+&lt;td>Enhanced Lights and FX&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>EVT&lt;/td>
+&lt;td>Enhanced Vanilla Trees&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>FAR&lt;/td>
+&lt;td>Forgotten Argonian Roots&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>FEC&lt;/td>
+&lt;td>Frozen Electrocuted Combustion&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>FNIS&lt;/td>
+&lt;td>Fore&amp;rsquo;s New Idles&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>GIST&lt;/td>
+&lt;td>Genuinely Intelligent Soul Traps&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IDDP&lt;/td>
+&lt;td>Immersive Dawnguard Dayspring Pass&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>iHUD&lt;/td>
+&lt;td>Immersive HUD&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ISC&lt;/td>
+&lt;td>Immersive Sounds - Compendium&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>MLU&lt;/td>
+&lt;td>Morrowloot Ultimate&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>MM&lt;/td>
+&lt;td>Morrowloot Miscellania / Majestic Mountains&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>NEO&lt;/td>
+&lt;td>Night Eye Overhaul&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>NFF&lt;/td>
+&lt;td>Nether&amp;rsquo;s Follower Framework&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>NSM&lt;/td>
+&lt;td>Noble Skyrim Mod&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OCS&lt;/td>
+&lt;td>Open Cities Skyrim&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RCI&lt;/td>
+&lt;td>Ruins Clutter Improved&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RDO&lt;/td>
+&lt;td>Relationship Dialogue Overhaul&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>SFO&lt;/td>
+&lt;td>Skyrim Flora Overhaul&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>SKSE&lt;/td>
+&lt;td>Skyrim Script Extender&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>SKSE64&lt;/td>
+&lt;td>Skyrim Script Extender - 64bit version for Skyrim SE (is referred to simply as SKSE sometimes)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>SMIM&lt;/td>
+&lt;td>Static Mesh Improvement Mod&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>SRO&lt;/td>
+&lt;td>Skyrim Realistic Overhaul&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>TCIY&lt;/td>
+&lt;td>The Choice Is Yours&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>TIE&lt;/td>
+&lt;td>Timing Is Everything&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>USSEP&lt;/td>
+&lt;td>Unofficial Skyrim Special Edition Patch&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WACCF&lt;/td>
+&lt;td>Weapon, Armor, Clothing, and Clutter Fixes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>WICO&lt;/td>
+&lt;td>Windsong Immersive Character Overhaul&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>XPMSSE&lt;/td>
+&lt;td>XP32 Maximum Skeleton Special Extended&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ZIA&lt;/td>
+&lt;td>Zim&amp;rsquo;s Immersive Artifacts&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Skyrim-Se: Basic Instructions</title><link>https://thephoenixflavour.com/skyrim-se/guide-resources/basic-instructions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/guide-resources/basic-instructions/</guid><description>
+&lt;h2 id="converting-plugins">Converting Plugins&lt;/h2>
+&lt;blockquote>
+&lt;p>&amp;ldquo;Resave Example.esp in the Creation Kit.&amp;rdquo;&lt;/p>
+&lt;/blockquote>
+&lt;p>Plugins with Form Version 43 (typically downloaded from the Classic Skyrim Nexus) must be re-saved in the CK.&lt;/p>
+&lt;ul>
+&lt;li>Run the &lt;strong>Creation Kit&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Once it is loaded up, go to &lt;strong>File &amp;gt; Data&lt;/strong>.&lt;/li>
+&lt;li>Select the plugin you need to convert in the list and click &lt;strong>Set as Active File&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> and wait for the Creation Kit to load up the plugin.&lt;/li>
+&lt;li>Go to &lt;strong>File &amp;gt; Save&lt;/strong>. There will be a small confirmation message (&lt;strong>Saving… done!&lt;/strong>) at the bottom of the window.&lt;/li>
+&lt;li>Close the Creation Kit.&lt;/li>
+&lt;li>Afterwards, you can right-click the mod in MO2 and select &lt;strong>Mark converted/working&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="cleaning-plugins">Cleaning Plugins&lt;/h2>
+&lt;blockquote>
+&lt;p>&amp;ldquo;Clean Example.esp with SSEEdit.&amp;rdquo;&lt;/p>
+&lt;/blockquote>
+&lt;p>Very rarely a plugin may contain ITMs or deleted records in which case you need to run it through the QuickAutoClean version of SSEEdit (just like we did with the official master files).&lt;/p>
+&lt;ul>
+&lt;li>Run &lt;strong>SSEEdit - QuickAutoClean&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Check only the plugin you were instructed to clean in the plugin list.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> and wait for the process to complete (&lt;code>Quick Clean mode finished&lt;/code>).&lt;/li>
+&lt;li>Close SSEEdit.&lt;/li>
+&lt;/ul>
+&lt;h2 id="extracting-bsas">Extracting BSAs&lt;/h2>
+&lt;blockquote>
+&lt;p>&amp;ldquo;Unpack Example.bsa through Mod Organizer 2.&amp;rdquo;&lt;/p>
+&lt;/blockquote>
+&lt;p>Archives should be unpacked if they were created with the 32bit CK (which will crash SSE) or if included files need to be loose in order to overwrite or be selectively deleted.&lt;/p>
+&lt;ul>
+&lt;li>Switch to the &lt;strong>Archives&lt;/strong> tab in the right pane of Mod Organizer 2.&lt;/li>
+&lt;li>Find the archive you need to unpack and right-click it (it will only show up if the mod is active).&lt;/li>
+&lt;li>Navigate to &lt;code>Mod Organizer 2\mods&lt;/code>, click on the mod folder the archive belongs to and click &lt;strong>Select Folder&lt;/strong>.&lt;/li>
+&lt;li>After unpacking the files, press F5 to refresh Mod Organizer 2.&lt;/li>
+&lt;/ul>
+&lt;h2 id="optimising-sle-assets">Optimising SLE Assets&lt;/h2>
+&lt;blockquote>
+&lt;p>&amp;ldquo;Run the mod through Cathedral Assets Optimiser.&amp;rdquo;&lt;/p>
+&lt;/blockquote>
+&lt;p>Skyrim LE meshes often need to be fixed and optimised by Cathedral Assets Optimizer before they can be used in SE. We will also use CAO on mods to optimise (compress) included textures sometimes. If a Classic Skyrim mod does not have instructions to run it through CAO this is because I already did so and found that no meshes or textures needed optimising.&lt;/p>
+&lt;ul>
+&lt;li>Run &lt;strong>Cathedral Assets Optimizer&lt;/strong> (do not launch it through Mod Organizer 2).&lt;/li>
+&lt;li>Select the &lt;strong>SSE - Optimise SLE Assets&lt;/strong> profile from the drop-down menu.&lt;/li>
+&lt;li>Click &lt;strong>Open Directory&lt;/strong> and navigate to &lt;code>Mod Organizer 2\mods&lt;/code>.&lt;/li>
+&lt;li>Click on the folder of the mod you wish to optimise and hit &lt;strong>Select Folder&lt;/strong>.&lt;/li>
+&lt;li>Back in CAO, click &lt;strong>Run&lt;/strong> and wait for the process to complete.&lt;/li>
+&lt;li>Afterwards, you can right-click the mod in MO2 and select &lt;strong>Mark converted/working&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="fixing-meshes">Fixing Meshes&lt;/h2>
+&lt;blockquote>
+&lt;p>&amp;ldquo;Run the mod through SSE NIF Optimizer.&amp;rdquo;&lt;/p>
+&lt;/blockquote>
+&lt;p>Very few mods in the guide need to be run through SSE NIF Optimizer instead of Cathedral Assets Optimizer to fix their meshes.&lt;/p>
+&lt;ul>
+&lt;li>Double-click &lt;strong>SSE NIF Optimizer.exe&lt;/strong> which should be located inside Your Modding Folder.&lt;/li>
+&lt;li>Click &lt;strong>Browse&lt;/strong> and navigate to &lt;code>Mod Organizer 2\mods&lt;/code>.&lt;/li>
+&lt;li>Click on the folder of the mod you wish to optimise and hit &lt;strong>Select Folder&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>Optimise&lt;/strong> and wait until the process is finished.&lt;/li>
+&lt;li>Close &lt;strong>SSE NIF Optimizer&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="resizing-textures">Resizing Textures&lt;/h2>
+&lt;blockquote>
+&lt;p>&amp;ldquo;Downsize the textures with Cathedral Assets Optimizer.&amp;rdquo;&lt;/p>
+&lt;/blockquote>
+&lt;p>At times (re)textures are only available in a size unreasonably large for regular gameplay, potentially impacting performance for those with low VRAM. In those cases we will utilise CAO to reduce the texture resolution by half.&lt;/p>
+&lt;ul>
+&lt;li>Run &lt;strong>Cathedral Assets Optimizer&lt;/strong>.&lt;/li>
+&lt;li>Select the &lt;strong>SSE - Downsize Textures&lt;/strong> profile from the drop-down menu.&lt;/li>
+&lt;li>Click &lt;strong>Open Directory&lt;/strong> and navigate to &lt;code>Mod Organizer 2\mods&lt;/code>.&lt;/li>
+&lt;li>Click on the mod containing the textures and &lt;strong>Select folder&lt;/strong>.&lt;/li>
+&lt;li>Back in CAO, click &lt;strong>Run&lt;/strong> and wait for the process to be completed.&lt;/li>
+&lt;/ul></description></item><item><title>Skyrim-Se: Quick Tutorials</title><link>https://thephoenixflavour.com/skyrim-se/guide-resources/various-tutorials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/guide-resources/various-tutorials/</guid><description>
+&lt;h2 id="how-to-find-skyrim-le-bsas-in-mo2">How to find Skyrim LE BSAs in MO2&lt;/h2>
+&lt;p>Attempting to run Skyrim SE while a BSA compiled in the Skyrim LE Creation Kit is loaded, will result in an instant crash. These BSAs always have to unpacked and deleted. You can repack the loose files with the SSE Creation Kit but it&amp;rsquo;s not usually necessary. If you encounter a crash upon launch, you may have missed an instruction to unpack and delete a Skyrim LE BSA. This can easily be narrowed down using MO2&amp;rsquo;s filters.&lt;/p>
+&lt;p>Any such mod would be downloaded from the Skyrim LE Nexus and will display &lt;strong>Skyrim&lt;/strong> in the MO2 &lt;strong>Source Game&lt;/strong> column (Skyrim SE mods appear as &lt;strong>Skyrim Special Edition&lt;/strong>). You can filter for mods containing BSAs in Mod Organizer 2 and see if any of them have &lt;strong>Skyrim&lt;/strong> as their source game.&lt;/p>
+&lt;ul>
+&lt;li>In Mod Organizer 2, click the arrows button &lt;code>&amp;lt;&amp;lt;&lt;/code> way down in the bottom left to open the &lt;strong>Filter&lt;/strong> settings.&lt;/li>
+&lt;li>Select the &lt;strong>&amp;lt;Contains Bethesda Archives&amp;gt;&lt;/strong> filter to only display mods containing BSAs.&lt;/li>
+&lt;li>Scroll through the resulting list and check if any of the displayed mods have &lt;strong>Skyrim&lt;/strong> as their source game.&lt;/li>
+&lt;li>If you find one, unpack the BSA and delete it.&lt;/li>
+&lt;li>The loose assets might need optimizing with CAO (check the guide instructions for the mod).&lt;/li>
+&lt;li>To disable the filter again, click the &lt;strong>Clear&lt;/strong> button at the bottom and close the filter settings by clicking the arrows &lt;code>&amp;lt;&amp;lt;&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/guide-resources/find_le_bsa.png" alt="Find LE BSA">&lt;/p>
+&lt;h2 id="how-to-re-generate-ini-files-from-scratch">How to re-generate INI files from scratch&lt;/h2>
+&lt;p>Re-doing INI files from scratch can be necessary when BethINI got an update. It can also help when you get a crash upon launch or when starting a new game caused by faulty INI edits. This is how to easily re-do INIs on a TPF setup.&lt;/p>
+&lt;ul>
+&lt;li>In MO2, click the folder icon to the right of the profiles selection drop-down&lt;/li>
+&lt;li>Select &lt;strong>Open Profile folder&lt;/strong> (see screenshot).&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/guide-resources/open_profiles_folder.png" alt="Open Profiles folder">&lt;/p>
+&lt;ul>
+&lt;li>Delete the following folder and files:
+&lt;ul>
+&lt;li>BethINI Cache&lt;/li>
+&lt;li>Skyrim.ini&lt;/li>
+&lt;li>SkyrimPrefs.ini&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Navigate to &lt;code>C:\Users\Username\Documents\My Games\Skyrim Special Edition&lt;/code>.&lt;/li>
+&lt;li>Copy the &lt;strong>Skyrim.ini&lt;/strong> and &lt;strong>SkyrimPrefs.ini&lt;/strong> located inside this folder, they are completely untouched and vanilla.&lt;/li>
+&lt;li>Paste both files into the profiles folder.&lt;/li>
+&lt;/ul>
+&lt;p>Now all you have to do is close Mod Organizer 2, launch BethINI and follow the instructions under Setup, Step 6.3.&lt;/p>
+&lt;p>If you run more than one profile (Base TPF, TPF Customised, Playthrough), you can simply copy the tweaked INI files from your Base TPF profiles folder into the folders of the other profiles after re-running BethINI, and replace the existing ones.&lt;/p>
+&lt;h2 id="how-to-change-the-games-resolution">How to change the game&amp;rsquo;s resolution&lt;/h2>
+&lt;p>The majority of users most likely play on Full HD monitors with the standard 1080p resolution of 1920x1080 pixels. This is what I recommend for TPF. A higher resolution will heavily impact performance, especially on weaker machines. If you want to edit your game&amp;rsquo;s resolution, please do so through Mod Organizer 2 and not the game&amp;rsquo;s launcher. Note that this will only change the resolution for the profile you have currently selected as we are using profile-specific INI files. You can change the resolution at any time.&lt;/p>
+&lt;ul>
+&lt;li>In Mod Organizer 2, open the INI editor.&lt;/li>
+&lt;li>Switch to the &lt;strong>skyrimprefs.ini&lt;/strong> tab which contains the necessary settings.&lt;/li>
+&lt;li>Scroll down to the &lt;code>[Display]&lt;/code> section and edit the following two lines:&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code>iSize H=1080
+iSize W=1920
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>Afterwards, click the &lt;strong>Save&lt;/strong> button and close the window.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/guide-resources/change_game_resolution.png" alt="Change Game Resolution">&lt;/p></description></item><item><title>Skyrim-Se: Modding Guides</title><link>https://thephoenixflavour.com/skyrim-se/guide-resources/modding-guides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/guide-resources/modding-guides/</guid><description>
+&lt;h2 id="recommended-guides">Recommended Guides&lt;/h2>
+&lt;h3 id="lexys-lotd">Lexy&amp;rsquo;s LOTD&lt;/h3>
+&lt;p>&lt;strong>by DarkLadyLexy &amp;amp; her team&lt;/strong>&lt;/p>
+&lt;p>DarkLadyLexy&amp;rsquo;s Legacy of the Dragonborn Guide is one of the oldest and most complex SSE modding guides, regularly updated and expanded by a team of experienced modders. As the name suggests, it is based on the popular Legacy of the Dragonborn, a DLC-sized mod adding a museum and massive amounts of content. The game is significantly more challenging than vanilla and features optional survival mechanics. Lexy&amp;rsquo;s LOTD can be considered a large-scale overhaul of the entire game.&lt;/p>
+&lt;p>Owing to its complexity and the use of many advanced modding tools, Lexy&amp;rsquo;s LOTD is not recommended for inexperienced modders.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://lexyslotd.com/">Lexy&amp;rsquo;s LOTD - Official Website&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://discord.com/invite/xj7JcZ7">Official Discord Server&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://trello.com/b/V4o4FPSl/lexys-legacy-of-the-dragonborn-special-edition-suggested-mods">Trello board&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.patreon.com/user?u=185725">Lexy&amp;rsquo;s Patreon&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Also available as a Wabbajack installer.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="lotd-plus">LOTD Plus&lt;/h3>
+&lt;p>&lt;strong>by Evertiro&lt;/strong>&lt;/p>
+&lt;p>LOTD Plus is a fork / expansion of Lexy&amp;rsquo;s LOTD by Evertiro. It is even more difficult gameplay-wise than Lexy&amp;rsquo;s as well as more performance-intense and intended for high-end PCs.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://lotdplus.com/">LOTD Plus - Official Website&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://discord.com/invite/DFrVZgM">Official Discord Server&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://trello.com/b/4frV9G6X/suggested-mods">Trello board&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.patreon.com/lotdplus">Evertiro&amp;rsquo;s Patreon&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="the-phoenix-flavour">The Phoenix Flavour&lt;/h3>
+&lt;p>&lt;strong>by Phoenix &amp;amp; Umgak&lt;/strong>&lt;/p>
+&lt;p>Yes, this is my own guide, so I&amp;rsquo;m obviously biased.&lt;/p>
+&lt;p>First published in 2017, TPF has gone through many iterations over the years. What started as a modular beast with too many ideas eventually grew into a streamlined vanilla-plus experience, improving all aspects of the game. Content was added sparingly. Our primary focus lies on fixing the base game and improving the general user experience, enhancing the visuals without destroying performance, and rebalancing gameplay mechanics.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://foreverphoenix.github.io/">The Phoenix Flavour&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/foreverphoenix/the-phoenix-flavour">Github Repository&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://discord.com/invite/BpwXX5f">Official Discord Server&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://trello.com/b/Rv20fMdV/the-phoenix-flavour-additional-mods">Trello board&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.patreon.com/thephoenixflavour">Phoenix&amp;rsquo; Patreon&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Also available as a Wabbajack installer.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="the-northern-experience">The Northern Experience&lt;/h3>
+&lt;p>&lt;strong>by mnikjom&lt;/strong>&lt;/p>
+&lt;p>Originally known as YASHed, mnikjom&amp;rsquo;s guide is based on Yet Another Skyrim Hardcore Mod (YASH) and features many popular mods such as Experience, Summermyst and Legacy of the Dragonborn as well as a ton of new weapons and armors. There is also an Extended version with support for additional mods.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23894">The Northern Experience&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25479">The Northern Experience - Extended&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://discord.com/invite/fuhsnph">Official Discord Server&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://trello.com/b/HcG7ZLBW/the-northern-experience">Trello board&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="tucoguide">TUCOGUIDE&lt;/h3>
+&lt;p>&lt;strong>by the TUCO Modding Team&lt;/strong>&lt;/p>
+&lt;p>The TUCOGUIDE is smaller in scale than the previously mentioned ones, primarily focused on teaching good modding practices and introducing new users to Mod Organizer 2. It is recommended to be completed before diving into Lexy&amp;rsquo;s LOTD.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/10694">TUCOGUIDE&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://discord.com/invite/tvjWjCr">Official Discord Server&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="miscellaneous-guides">Miscellaneous Guides&lt;/h2>
+&lt;p>These are smaller and/or more recent guides that I do not have a strong opinion on.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://wiki.step-project.com/STEP:0.3.0b">STEP:Core for Skyrim SE&lt;/a> is based on the Classic Skyrim STEP guides. Since the STEP team is currently working on a major rework of the entire website, development has been very slow and only the Core guide (with basic mods) is available for Skyrim SE.&lt;/li>
+&lt;li>&lt;a href="https://wiki.step-project.com/User:DrPharmDawg/SkyRem_Guide_Home">SkyRem&lt;/a> is a STEP-based guide focused on improving roleplay elements in all aspects of gameplay.&lt;/li>
+&lt;/ul>
+&lt;h2 id="outdated-guides">Outdated Guides&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2846">S.E.P.T.I.M. - A Load Order and Installation Guide&lt;/a> was one of the very first SSE modding guides but hasn’t been updated since 2016 and is severely outdated. It was more of a mod compilation than an actual guide.&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12562">NORDIC SKYRIM&lt;/a> was the successor to S.E.P.T.I.M. but has also been discontinued. There have been no updates since March 2019 and it can be considered outdated. Mnikjom, who maintained and expanded it for a time, moved on to work on his own guide (YASHed / The Northern Experience).&lt;/li>
+&lt;li>&lt;a href="https://wiki.step-project.com/User:TechAngel85/SSE_Guide/v2">Tech&amp;rsquo;s Skyrim Special Edition Guide v2&lt;/a> is a STEP based guide by TechAngel that has been discontinued pending a major update to v3 which is supposed to be published with the reworked STEP website.&lt;/li>
+&lt;/ul>
+&lt;h2 id="not-recommended">Not Recommended&lt;/h2>
+&lt;h3 id="boss---a-total-overhaul-project">BOSS - A Total Overhaul Project&lt;/h3>
+&lt;p>It is hard to describe &lt;a href="https://lhmods.com/boss-a-total-overhaul-project-for-skyrim-se/">BOSS&lt;/a> as anything but a mess, written by someone who is obviously not very good in English. It is published on LupusHegemonia&amp;rsquo;s website alongside with all of LH&amp;rsquo;s mods after he was banned from the Nexus over multiple cases of proven asset theft and extraordinarily bad manners. Do not touch this with a ten foot pole.&lt;/p>
+&lt;h3 id="skyrim-se-ultimate-modding-guide">Skyrim SE Ultimate Modding Guide&lt;/h3>
+&lt;p>Sinitar&amp;rsquo;s &amp;ldquo;ULTIMATE&amp;rdquo; modding guides, including the &lt;a href="(https://www.sinitargaming.com/skyrim_se.html)">SSE Edition&lt;/a>, are unfortunately popular with beginners who are not aware of their flaws of which there are many. They were moved away from the Nexus after Fallout: New Vegas mod authors protested their mods being featured with inadequate instructions.&lt;/p>
+&lt;p>Sinitar’s approach of using &lt;em>all the bloody mods&lt;/em> is every beginner’s fever dream and typically the first lesson to learn - it doesn’t work, especially not with Nexus Mod Manager which he recommends. His claims of &amp;ldquo;perfect&amp;rdquo; stability are breathtakingly bold lies. He relies purely on LOOT for load order management on &lt;em>huge&lt;/em> lists, uses xEdit exclusively for cleaning and handles conflicts with Mator Smash and Wrye Bash. There are no custom patches - not even FOMOD instructions. Anyone who voices doubt or criticism on Sinitar&amp;rsquo;s Discord server gets told off or even banned instantly.&lt;/p>
+&lt;p>Do not touch his guides under any circumstances.&lt;/p>
+&lt;p>For some very specific criticism, check &lt;a href="https://www.reddit.com/r/skyrimmods/comments/d34mx7/shoutout_to_sinitar_gamings_skyrim_se_ultimate/f001nbb?utm_source=share&amp;amp;utm_medium=web2x">my reddit comment&lt;/a> on Sinitar’s SE guide.&lt;/p>
+&lt;h3 id="ultimateimmersions-micro-mod-list">UltimateImmersion&amp;rsquo;s Micro Mod List&lt;/h3>
+&lt;p>The YouTuber Ultimate Immersion (known for very pretty mod showcases like hodilton) teamed up with YT colleague ESO (who covers general Elder Scrolls stuff as far as I know) and on their shared website posted a &lt;a href="https://eso-ui.com/skyrim-se-micro-list/">Micro Mod List&lt;/a> focused on visual improvements. It includes 40 mods and a custom ENB preset, and since it keeps popping up on places like reddit, I’m covering it here.&lt;/p>
+&lt;p>The list is quite frankly all over the place, featuring some essentials such as SKSE, SkyUI and the USSEP, but also including Immersive Citizens which is a broken mess of a mod as well as a faulty mod order. There’s no sign of absolute essentials like SSE Engine Fixes or a custom patch. He recommends Vortex as mod manager and uses xEdit solely to clean the official master files with an outdated method in a video with a very misleading title. While his contributions to the community in the form of mod showcase videos are to be respected, this list gives the impression that he lacks indepth knowledge.&lt;/p>
+&lt;p>UI’s Micro List is probably great for half an hour of running around Skyrim taking screenshots, but it cannot possibly be considered a proper guide and there are fundamental errors as well as inconsistencies that lead me to strongly recommend against using it.&lt;/p></description></item></channel></rss>
