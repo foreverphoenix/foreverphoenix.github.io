@@ -29,12 +29,15 @@
 &lt;h4 id="engine-fixes-ini">Engine Fixes INI&lt;/h4>
 &lt;ul>
 &lt;li>Double-click &lt;strong>SSE Engine Fixes&lt;/strong> in your mod order.&lt;/li>
-&lt;li>Switch to the &lt;strong>INI-Files&lt;/strong> tab and select the &lt;strong>EngineFixes.ini&lt;/strong>.&lt;/li>
-&lt;li>Edit the following line:
+&lt;li>Switch to the &lt;strong>Filetree&lt;/strong> tab and navigate to &lt;code>SKSE\Plugins&lt;/code>.&lt;/li>
+&lt;li>Open the &lt;strong>EngineFixes.toml&lt;/strong> file inside.&lt;/li>
+&lt;li>If asked how you want to open the file, select &lt;strong>Notepad++&lt;/strong> or another editor capable of opening TOML files.&lt;/li>
+&lt;li>Edit the following line in the config file:
 &lt;ul>
 &lt;li>&lt;code>SleepWaitTime = true&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;/li>
+&lt;li>Save your changes (CTRL + S) and close the editor.&lt;/li>
 &lt;li>Close the window and click &lt;strong>Yes&lt;/strong> when asked to save your change.&lt;/li>
 &lt;/ul>
 &lt;h2 id="13-net-script-framework-nsf">1.3 .NET Script Framework (NSF)&lt;/h2>
@@ -46,6 +49,17 @@
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods34705tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34705?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> SSE Display Tweaks&lt;/li>
+&lt;/ul>
+&lt;h4 id="ini-tweaks">INI Tweaks&lt;/h4>
+&lt;ul>
+&lt;li>Double-click the mod in your mod order and switch to the &lt;strong>INI Files&lt;/strong> tab.&lt;/li>
+&lt;li>Select the &lt;strong>SSEDisplayTweaks.ini&lt;/strong> and edit the following:
+&lt;ul>
+&lt;li>&lt;code>BorderlessUpscale=true&lt;/code> if you play at a lower resolution than your monitor&amp;rsquo;s default (Skyrim @1080p on a 1440p monitor).&lt;/li>
+&lt;li>&lt;code>EnableVSync=false&lt;/code> if you want uncapped FPS. Will cause screentearing on monitors without G-Sync or FreeSync.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Hit CTRL+S to save and close the window.&lt;/li>
 &lt;/ul>
 &lt;h2 id="15-autorun-console-commands-acc">1.5 Autorun Console Commands (ACC)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods24919tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24919?tab=files">Download Instructions&lt;/a>&lt;/h4>
@@ -2002,6 +2016,11 @@ Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/s
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> ELOS Oaks mixed greens&lt;/li>
 &lt;/ul>
+&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Tree Type:&lt;/strong> GKB&amp;rsquo;s Trees&lt;/li>
+&lt;li>&lt;strong>Plugin Format:&lt;/strong> ESPFE&lt;/li>
+&lt;/ul>
 &lt;h2 id="105-sacred-trees-optional">10.5 Sacred Trees (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26214tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26214?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -2011,6 +2030,7 @@ Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/s
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods25939tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25939?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - Falling Leaves and Needles for ENB SE&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Rudy HQ - Falling Leaves and Needles SE - Yellow Leaves Texture 512&lt;/li>
 &lt;/ul>
 &lt;h2 id="107-cathedral-plants-optional">10.7 Cathedral Plants (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26104tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26104?tab=files">Download Instructions&lt;/a>&lt;/h4>
@@ -2898,22 +2918,34 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Business Ledger HD Retexture&lt;/li>
 &lt;/ul>
-&lt;h2 id="1612-js-dragon-claws-optional">16.12 JS Dragon Claws (optional)&lt;/h2>
+&lt;h2 id="1612-js-purses-and-septims-optional">16.12 JS Purses and Septims (optional)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods37306tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/37306/?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> JS Purses and Septims SE - FOMOD&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Purse Textures:&lt;/strong> 1K&lt;/li>
+&lt;li>&lt;strong>Coin Textures:&lt;/strong> Dirty - 1k Textures&lt;/li>
+&lt;li>&lt;strong>Coin Pile Textures:&lt;/strong> Dirty - 2k Textures&lt;/li>
+&lt;li>&lt;strong>Replacer Options:&lt;/strong> Vanilla Overwrite&lt;/li>
+&lt;/ul>
+&lt;h2 id="1613-js-dragon-claws-optional">16.13 JS Dragon Claws (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods1394tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1394?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> 1k Textures&lt;/li>
 &lt;/ul>
-&lt;h2 id="1613-js-dragon-claws---patches-conditional">16.13 JS Dragon Claws - Patches (conditional)&lt;/h2>
+&lt;h2 id="1614-js-dragon-claws---patches-conditional">16.14 JS Dragon Claws - Patches (conditional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods23833tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23833?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> JS Dragon Claws - Amethyst Patch&lt;/li>
 &lt;/ul>
-&lt;h2 id="1614-rustic-soulgems">16.14 RUSTIC SOULGEMS&lt;/h2>
+&lt;h2 id="1615-rustic-soulgems">16.15 RUSTIC SOULGEMS&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods5785tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5785?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> RUSTIC SOULGEMS - Special Edition - FOMOD - English Only&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions-2">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Texture Resolution:&lt;/strong>
 &lt;ul>
@@ -2926,45 +2958,45 @@ The final three meshes overwrite Embers HD and prevent its forge textures from b
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="1615-rustic-azuras-star-optional">16.15 RUSTIC AZURAS STAR (optional)&lt;/h2>
+&lt;h2 id="1616-rustic-azuras-star-optional">16.16 RUSTIC AZURAS STAR (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods18345">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18345">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> RUSTIC AZURA’S STAR - SSE - 2K&lt;/li>
 &lt;/ul>
-&lt;h2 id="1616-rustic-elderscroll-optional">16.16 RUSTIC ELDERSCROLL (optional)&lt;/h2>
+&lt;h2 id="1617-rustic-elderscroll-optional">16.17 RUSTIC ELDERSCROLL (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods17757">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17757">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> RUSTIC ELDERSCROLL - Special Edition - 2K&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> ELDERSCROLL SSE - FX - 1K &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h2 id="1617-rustic-animated-potions-and-poisons-optional">16.17 RUSTIC ANIMATED POTIONS AND POISONS (optional)&lt;/h2>
+&lt;h2 id="1618-rustic-animated-potions-and-poisons-optional">16.18 RUSTIC ANIMATED POTIONS AND POISONS (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods2276">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2276/">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> RUSTIC ANIMATED POTIONS and POISONS 1K&lt;/li>
 &lt;li>&lt;strong>Update Files:&lt;/strong> SSE Meshes &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h2 id="1618-rallys-werewolf-totems-optional">16.18 Rally&amp;rsquo;s Werewolf Totems (optional)&lt;/h2>
+&lt;h2 id="1619-rallys-werewolf-totems-optional">16.19 Rally&amp;rsquo;s Werewolf Totems (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods28882">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28882">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rallys Werewolf Totems HQ 2K-1K&lt;/li>
 &lt;/ul>
-&lt;h2 id="1619-meridias-luxon-beacon-replacer-optional">16.19 Meridia&amp;rsquo;s Luxon Beacon Replacer (optional)&lt;/h2>
+&lt;h2 id="1620-meridias-luxon-beacon-replacer-optional">16.20 Meridia&amp;rsquo;s Luxon Beacon Replacer (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods34782tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34782/?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Meridia&amp;rsquo;s Luxon Beacon&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> No Handles Option &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h2 id="1620-bloodstone-chalice-reborn-optional">16.20 BLOODSTONE CHALICE REBORN (optional)&lt;/h2>
+&lt;h2 id="1621-bloodstone-chalice-reborn-optional">16.21 BLOODSTONE CHALICE REBORN (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimmods63551">&lt;a href="https://www.nexusmods.com/skyrim/mods/63551/">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> BLOODSTONE CHALICE REBORN 1K&lt;/li>
 &lt;/ul>
-&lt;h2 id="1621-elsopa-hd---dragonborn-skull-variants-optional">16.21 ElSopa HD - Dragonborn Skull Variants (optional)&lt;/h2>
+&lt;h2 id="1622-elsopa-hd---dragonborn-skull-variants-optional">16.22 ElSopa HD - Dragonborn Skull Variants (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods21917tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21917?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> 1K Dragonborn Skull Variant&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions-2">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions-3">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Step 1:&lt;/strong> White Gold&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: 17 Food &amp; Ingredients</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/17-food-ingredients/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/17-food-ingredients/</guid><description>
@@ -3979,6 +4011,9 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Vanilla NPCs SSE Ruhmastered with Beast Glow v2.0 &amp;mdash; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Vanilla Vampire NPCs SSE Ruhmastered Vampire Red Glow v2.0 &amp;mdash; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
+&lt;blockquote>
+&lt;p>Make sure the resulting file is called &lt;strong>Vanilla NPCs SSE Ruhmastered&lt;/strong> in Mod Organizer 2. The name will later be used for a dummy ESP which in turn will not be recognised by the loadorder.txt if it isn&amp;rsquo;t called exactly this.&lt;/p>
+&lt;/blockquote>
 &lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
 &lt;p>In order to be able to control the mod’s facegen files via load order, we need to pack the loose files in a BSA and activate it with an empty plugin.&lt;/p>
 &lt;ul>
@@ -4787,17 +4822,10 @@ Only install this mod if you installed &lt;strong>Subtle But Classless&lt;/stron
 &lt;li>&lt;strong>Main Files:&lt;/strong> Realistic AI Detection 2 SE – Lite&lt;/li>
 &lt;/ul>
 &lt;h2 id="289-simply-stronger-dragons-optional">28.9 Simply Stronger Dragons (optional)&lt;/h2>
-&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods9917tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9917?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Simply Stronger Dragons&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Simply Stronger Dragons - TPF Repack&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
-&lt;ul>
-&lt;li>Change nothing, just click &lt;strong>Install&lt;/strong>.&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>This mod has a BAIN installer that looks different to regular FOMODs.&lt;/p>
-&lt;/blockquote>
 &lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
 &lt;p>If you also installed &lt;strong>Mortal Enemies&lt;/strong>, there will be a conflict between the two mods in the &lt;strong>DragonRace&lt;/strong> record. It’s fairly quick and easy to fix so there I am not uploading a separate patch. Follow the instructions below.&lt;/p>
 &lt;ul>
@@ -4840,7 +4868,7 @@ Only install this mod if you installed &lt;strong>Subtle But Classless&lt;/stron
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> VioLens - A Killmove Mod SE 2.22a&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Change nothing, simply click &lt;strong>Install&lt;/strong>.&lt;/li>
 &lt;/ul>
@@ -5184,7 +5212,7 @@ Only install this mod if you installed &lt;strong>Talkative Dragons&lt;/strong>.
 &lt;h2 id="3112-classic-sprinting-redone-optional">31.12 Classic Sprinting Redone (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods20166tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20166?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Classic Sprinting Redone (SKSE64)&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Classic Sprinting Redone - Version Independent&lt;/li>
 &lt;/ul>
 &lt;h2 id="3113-better-jumping-optional">31.13 Better Jumping (optional)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods18967tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18967?tab=files">Download Instructions&lt;/a>&lt;/h4>
@@ -5279,7 +5307,7 @@ Only install this mod if you installed &lt;strong>Talkative Dragons&lt;/strong>.
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods29194tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/29194?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Interesting NPCs SE - BSAs&lt;/li>
-&lt;li>&lt;strong>Update Files:&lt;/strong> Interesting NPCs SE - 4.3.6 to 4.3.14 Hotfix&lt;/li>
+&lt;li>&lt;strong>Update Files:&lt;/strong> Interesting NPCs SE - 4.3.6 to 4.4 Hotfix&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Interesting NPCs SE - Alternative Locations - Flagged ESL&lt;/li>
 &lt;/ul>
 &lt;h2 id="334-interesting-npcs---zora-fair-child-voice-enhanced-optional">33.4 Interesting NPCs - Zora Fair-Child Voice Enhanced (optional)&lt;/h2>
@@ -5608,7 +5636,7 @@ Only install this mod if you installed &lt;strong>Simply Knock&lt;/strong>. Othe
 &lt;blockquote>
 &lt;p>This will prevent the power from being given to the player, effectively disabling it.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/mod_installation/saddlebags_disable_whistle.png" alt="Saddlebags Disable Whistle">&lt;/p></description></item><item><title>Skyrim-Se: 37 Sounds Effects</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/37-sound-effects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/37-sound-effects/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/mod_installation/saddlebags_disable_whistle.png" alt="Saddlebags Disable Whistle">&lt;/p></description></item><item><title>Skyrim-Se: 37 Sound Effects</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/37-sound-effects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/37-sound-effects/</guid><description>
 &lt;h2 id="371-audio-overhaul-for-skyrim-aos">37.1 Audio Overhaul for Skyrim (AOS)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods12466tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12466?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5806,14 +5834,16 @@ Only install this mod if you installed &lt;strong>Simply Knock&lt;/strong>. Othe
 &lt;li>&lt;strong>Mounted Combat Animation - Bow:&lt;/strong> &lt;del>Belt-Fastened Quiver&lt;/del>&lt;/li>
 &lt;li>&lt;strong>Mounted Combat Animation - Sword:&lt;/strong> None&lt;/li>
 &lt;li>&lt;strong>The Joy of Perspective:&lt;/strong> None&lt;/li>
-&lt;li>&lt;strong>Schlongs of Skyrim:&lt;/strong> None&lt;/li>
+&lt;li>&lt;strong>Schlongs of Skyrim:&lt;/strong> None &amp;raquo; &lt;code>defaults to SOS, set to None&lt;/code>&lt;/li>
 &lt;li>&lt;strong>Deadly Mutilation:&lt;/strong> None&lt;/li>
 &lt;li>&lt;strong>Enderal:&lt;/strong> None&lt;/li>
 &lt;/ul>
 &lt;h2 id="393-xpmsse-fixes---automated-patcher">39.3 XPMSSE Fixes - Automated Patcher&lt;/h2>
+&lt;p>Like many mod authors, Groovtama does not allow anyone to upload modified versions of his mod, XP32 Maximum Skeleton. At the same time he unfortunately refuses to fix some bugs in his mod so we will have to do that ourselves with our own copies of the mod. Instructions were posted &lt;a href="https://www.nexusmods.com/skyrim/articles/52373">here&lt;/a> by Kriffin, the author of All Geared Up Derivative, which is my source for the instructions below.&lt;/p>
+&lt;p>The automated version is a delta patcher to apply the changes automatically to your scripts (so there is no need for everyone to follow Kriffin&amp;rsquo;s instructions).&lt;/p>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> XPMSSE Fixes - Automated Patcher &amp;mdash; &lt;code>download the file manually&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> XPMSSE Fixes - Automated Patcher &amp;raquo; &lt;code>download the file manually&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h4 id="special-instructions">Special Instructions&lt;/h4>
 &lt;ul>
@@ -5824,9 +5854,6 @@ Only install this mod if you installed &lt;strong>Simply Knock&lt;/strong>. Othe
 &lt;li>Double-click &lt;strong>patch-xpmse.bat&lt;/strong> to start the process of applying the delta patch.&lt;/li>
 &lt;li>The patcher will delete themselves when it&amp;rsquo;s done.&lt;/li>
 &lt;/ul>
-&lt;h4 id="about-the-mod">About the mod&lt;/h4>
-&lt;p>Like many mod authors, Groovtama does not allow anyone to upload modified versions of his mod, XP32 Maximum Skeleton. At the same time he unfortunately refuses to fix some bugs in his mod so we will have to do that ourselves with our own copies of the mod. Instructions were posted &lt;a href="https://www.nexusmods.com/skyrim/articles/52373">here&lt;/a> by Kriffin, the author of All Geared Up Derivative, which is my source for the instructions below.&lt;/p>
-&lt;p>The automated version is a delta patcher to apply the changes automatically to your scripts (so there is no need for everyone to follow Kriffin&amp;rsquo;s instructions).&lt;/p>
 &lt;h2 id="394-all-geared-up-derivative-allgud">39.4 All Geared Up Derivative (AllGUD)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods28833tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28833?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
@@ -5891,7 +5918,7 @@ Only install this mod if you installed &lt;strong>Simply Knock&lt;/strong>. Othe
 &lt;h2 id="404-papyrus-extender">40.4 Papyrus Extender&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods22854tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22854?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Papyrus Extender - SSE - 2.6&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Papyrus Extender - SSE - 3.0&lt;/li>
 &lt;/ul>
 &lt;h2 id="405-fileaccess-interface-for-skyrim-se-scripts-fisses">40.5 FileAccess Interface for Skyrim SE Scripts (FISSES)&lt;/h2>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods13956tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/13956?tab=files">Download Instructions&lt;/a>&lt;/h4>

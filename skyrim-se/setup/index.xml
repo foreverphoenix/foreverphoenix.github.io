@@ -69,8 +69,17 @@
 &lt;h3 id="142-dynamic-range">1.4.2 Dynamic Range&lt;/h3>
 &lt;p>It is recommended that you ensure your monitor&amp;rsquo;s &lt;strong>Dynamic Range&lt;/strong> is set to &amp;ldquo;Full&amp;rdquo; if it is connected to your PC via DisplayPort or HDMI. Instructions for both NVIDIA and AMD based systems can be found &lt;a href="https://pcmonitors.info/articles/correcting-hdmi-colour-on-nvidia-and-amd-gpus/">here&lt;/a>.&lt;/p>
 &lt;blockquote>
-&lt;p>It turns out I actually had my monitor set to &amp;ldquo;Limited&amp;rdquo; for many years and grew so used to it that setting the Dynamic Range to &amp;ldquo;Full&amp;rdquo; only irritated me. Eventually I set it back to &amp;ldquo;Limited&amp;rdquo; with no regrets. Your mileage may vary.&lt;/p>
-&lt;/blockquote></description></item><item><title>Skyrim-Se: 02 Skyrim SE</title><link>https://thephoenixflavour.com/skyrim-se/setup/02-skyrim-se/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/setup/02-skyrim-se/</guid><description>
+&lt;p>It turns out I actually had my monitor set to &amp;ldquo;Limited&amp;rdquo; for many years and grew so used to it that setting the Dynamic Range to &amp;ldquo;Full&amp;rdquo; only irritated me. I ended up setting it back to &amp;ldquo;Limited&amp;rdquo; with no regrets. Your mileage may vary.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="15-visual-c-redist">1.5 Visual C++ Redist&lt;/h2>
+&lt;p>The Microsoft Visual C++ Redistributable is a basic package required by Mod Organizer 2. You probably already have it installed but it&amp;rsquo;s best to make sure.&lt;/p>
+&lt;ul>
+&lt;li>Open the official &lt;a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">Microsoft Visual C++ website&lt;/a>.&lt;/li>
+&lt;li>Scroll to the &lt;strong>Visual Studio 2015, 2017 and 2019&lt;/strong> section.&lt;/li>
+&lt;li>Download the following file: &lt;code> vc_redist.x64.exe&lt;/code>.&lt;/li>
+&lt;li>Run the executable, it will guide you through the installation process.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/vc-redists.png" alt="VC Redist">&lt;/p></description></item><item><title>Skyrim-Se: 02 Skyrim SE</title><link>https://thephoenixflavour.com/skyrim-se/setup/02-skyrim-se/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/setup/02-skyrim-se/</guid><description>
 &lt;h2 id="21-recommended-directory">2.1 Recommended Directory&lt;/h2>
 &lt;p>The entire point of reinstalling Skyrim SE is not only to make sure you have a clean, vanilla setup but also to be able to control where the game is installed on your drive. Here is what you need to keep in mind:&lt;/p>
 &lt;ul>
@@ -610,7 +619,7 @@
 &lt;h3 id="722-profiles">7.2.2 Profiles&lt;/h3>
 &lt;p>With the latest versions of CAO, you can set up dedicated profiles to switch between the two primary uses of CAO at will. I created several profiles for different purposes to be used during the installation of the guide.&lt;/p>
 &lt;ul>
-&lt;li>Download the latest version of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23316">Cathedral Assets Optimizer&lt;/a> manually from the Nexus.&lt;/li>
+&lt;li>Download the latest version of the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Cathedral Assets Optimizer - Basic Profiles Pack&lt;/a> manually from the Nexus.&lt;/li>
 &lt;li>Open the downloaded archive.&lt;/li>
 &lt;li>Extract all folders to &lt;code>Your Modding Folder\Tools\Cathedral Assets Optimizer\profiles&lt;/code>.&lt;/li>
 &lt;/ul>
@@ -811,7 +820,7 @@
 &lt;li>&lt;strong>Skyrim Realistic Overhaul&lt;/strong> should now appear at the bottom of your mod order.&lt;/li>
 &lt;li>Drag it up all the way below the &lt;strong>05 MAIN VISUAL MODS&lt;/strong> separator and activate it.&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: 10 Mod Installation</title><link>https://thephoenixflavour.com/skyrim-se/setup/10-mod-installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/setup/10-mod-installation/</guid><description>
-&lt;h2 id="the-mod-installation">The Mod Installation&lt;/h2>
+&lt;h2 id="101-the-mod-installation">10.1 The Mod Installation&lt;/h2>
 &lt;p>After completing the Setup, you are equipped with a correctly installed and configured instance of Mod Organizer 2 that is properly set up with the Skyrim Script Extender. It is now time to dive into the by far longest section in the guide - the mod installation.&lt;/p>
 &lt;p>The mods themselves are split up into forty categories which correspond to the separators of the same names installed for MO2 in the Setup. &lt;strong>Each set of mods must be installed in the order they are listed in&lt;/strong> and grouped below their respective separator.&lt;/p>
 &lt;p>It may be faster to download all mods of a page first, then install them, and finally go through the post-installation instructions.&lt;/p>
@@ -820,14 +829,14 @@
 &lt;blockquote>
 &lt;p>Keep this page open in a separate tab so you can refer back to it.&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="installation-instructions">Installation Instructions&lt;/h2>
-&lt;h3 id="flags">Flags&lt;/h3>
+&lt;h2 id="102-installation-instructions">10.2 Installation Instructions&lt;/h2>
+&lt;h3 id="1021-flags">10.2.1 Flags&lt;/h3>
 &lt;ul>
 &lt;li>Mods marked as &lt;strong>(optional)&lt;/strong> may freely be skipped.&lt;/li>
 &lt;li>Mods marked as &lt;strong>(conditional)&lt;/strong> depend on other mods. Only install them if you installed the mod they depend on.&lt;/li>
 &lt;li>All other mods are required and must be installed.&lt;/li>
 &lt;/ul>
-&lt;h3 id="mod-instructions">Mod Instructions&lt;/h3>
+&lt;h3 id="1022-mod-instructions">10.2.2 Mod Instructions&lt;/h3>
 &lt;p>Each mod has its own section with the following instructions:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Download Instructions:&lt;/strong> Lists files to download and the Nexus link which will directly bring you to the Files section.&lt;/li>
@@ -835,7 +844,7 @@
 &lt;li>&lt;strong>Additional Instructions:&lt;/strong> May contain INI edits, file deletions or edits, rarely SSEEdit tweaks.&lt;/li>
 &lt;/ul>
 &lt;p>Not all mods strictly follow this template. Some have sections unique to them with extra explanations or instructions. Just follow those instructions one by one and to the letter. Sometimes they are optional (which is then clearly stated) and you can skip them.&lt;/p>
-&lt;h3 id="download-instructions">Download Instructions&lt;/h3>
+&lt;h3 id="1023-download-instructions">10.2.3 Download Instructions&lt;/h3>
 &lt;ul>
 &lt;li>Almost all mods are hosted on the Nexus.&lt;/li>
 &lt;li>The link to the mod&amp;rsquo;s file section is in the &lt;strong>Download Instructions&lt;/strong> header (CTRL+Click to open in new tab.)&lt;/li>
@@ -850,7 +859,7 @@
 &lt;/li>
 &lt;li>Download the file(s) by clicking &lt;strong>Mod Manager Download&lt;/strong>. It will automatically be downloaded through Mod Organizer 2. If a mod has special requirements, they are listed in a pop-up window where you will have to click the &lt;strong>Download&lt;/strong> button again. Don’t worry about these requirements, they are included in the guide or otherwise taken care of.&lt;/li>
 &lt;/ul>
-&lt;h3 id="mod-installation">Mod Installation&lt;/h3>
+&lt;h3 id="1024-mod-installation">10.2.4 Mod Installation&lt;/h3>
 &lt;ul>
 &lt;li>After downloading a mod, switch to the &lt;strong>Downloads&lt;/strong> tab in the right pane of Mod Organizer 2 and double-click the file(s) to install.&lt;/li>
 &lt;li>This may open a FOMOD installer if the mod includes one. &lt;strong>FOMOD Instructions&lt;/strong> are provided in the guide.&lt;/li>
@@ -867,8 +876,8 @@
 &lt;li>Rarely, you will be told to &amp;ldquo;merge with the main file&amp;rdquo; in which case you select the &lt;strong>Merge&lt;/strong> option. This will move all installed files into the mod folder of the main file, overwriting existing files.&lt;/li>
 &lt;li>Only when updating mods to a new version should you select &lt;strong>Replace&lt;/strong> which, of course, replaces all original files.&lt;/li>
 &lt;/ul>
-&lt;h3 id="basic-instructions">Basic Instructions&lt;/h3>
-&lt;p>Certain procedures - such as resaving a plugin or running a mod through the Cathedral Assets Optimizer - are repeated many times throughout the guide. After going through them for a few times, you will know them by heart but until then, please refer to the &lt;a href="https://thephoenixflavour.com/skyrim-se/resources/basic-instructions/">Basic Instructions&lt;/a> page (keep it open in a separate tab).&lt;/p>
+&lt;h3 id="1025-basic-instructions">10.2.5 Basic Instructions&lt;/h3>
+&lt;p>Certain procedures - such as resaving a plugin or running a mod through the Cathedral Assets Optimizer - are repeated many times throughout the guide. After going through them for a few times, you will know them by heart but until then, please refer to the &lt;a href="https://thephoenixflavour.com/skyrim-se/guide-resources/basic-instructions/">Basic Instructions&lt;/a> page (keep it open in a separate tab).&lt;/p>
 &lt;p>The linked page includes detailed instructions for the following operators:&lt;/p>
 &lt;ul>
 &lt;li>&amp;ldquo;Resave Example.esp in the Creation Kit.&amp;rdquo;&lt;/li>

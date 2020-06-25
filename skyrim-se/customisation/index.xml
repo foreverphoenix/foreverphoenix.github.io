@@ -101,13 +101,12 @@
 If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;/div>
 &lt;h2 id="performance">Performance&lt;/h2>
-&lt;p>The guide installs the &amp;lsquo;small&amp;rsquo; (vanilla-sized) version of EVT Custom Trees by default. While the &amp;lsquo;large&amp;rsquo; ones significantly boost &lt;em>immersion&lt;/em> and that feeling of being a small thing in a huge world, they also have a noticeable performance impact, at least on weaker machines. This is due to the fact that they cast larger shadows.&lt;/p>
+&lt;p>The guide installs the &amp;ldquo;small&amp;rdquo; (vanilla-sized) version of EVT Custom Trees by default. While the &amp;ldquo;large&amp;rdquo; ones significantly boost &lt;em>immersion&lt;/em> and that feeling of being a small thing in a huge world, they also have a noticeable performance impact, at least on weaker machines. This is primarily due to the fact that they cast larger shadows.&lt;/p>
 &lt;p>For those who enjoy very good performance with their existing TPF setup, I highly recommend installing the Large Custom Trees. This will require you to re-install the main file as well as the Alternative Trees file. Note that the Alternative Branch textures file does not have to be reinstalled as it supports both small and large versions of the custom trees.&lt;/p>
 &lt;h2 id="core-mod">Core Mod&lt;/h2>
-&lt;h4 id="instructions">Instructions&lt;/h4>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods11008tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11008?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
-&lt;li>Right-click &lt;strong>Enhanced Vanilla Trees - Small Custom Trees&lt;/strong> in your mod order and select &lt;strong>Reinstall&lt;/strong>.&lt;/li>
-&lt;li>Change the name to &lt;strong>Enhanced Vanilla Trees - Custom Large Trees&lt;/strong> and follow the FOMOD instructions below.&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Enhanced Vanilla Trees SE - Custom Large Trees&lt;/li>
 &lt;/ul>
 &lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
 &lt;ul>
@@ -134,7 +133,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;li>Activate it and disable the other version.&lt;/li>
 &lt;/ul>
 &lt;h2 id="alternative-trees">Alternative Trees&lt;/h2>
-&lt;h4 id="instructions-1">Instructions&lt;/h4>
+&lt;h4 id="instructions">Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Right-click &lt;strong>Enhanced Vanilla Trees - Snowy Pine Trees (Small Custom)&lt;/strong> in your mod order and select &lt;strong>Reinstall&lt;/strong>.&lt;/li>
 &lt;li>Change the name to &lt;strong>Enhanced Vanilla Trees - Snowy Pine Trees (Large Custom)&lt;/strong> and follow the FOMOD instructions below.&lt;/li>
@@ -245,10 +244,10 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;ul>
 &lt;li>Download the following file from the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25939?tab=files">Rudy HQ - Falling Leaves and Needles&lt;/a> Nexus page:
 &lt;ul>
-&lt;li>Rudy HQ - Falling Leaves and Needles SE - Green Leaves Texture 1K&lt;/li>
+&lt;li>Rudy HQ - Falling Leaves and Needles SE - Green Leaves Texture 512&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>Place it below &lt;strong>Rudy HQ - Falling Leaves and Needles (ENB)&lt;/strong> in your mod order and activate it.&lt;/li>
+&lt;li>Place it below &lt;strong>Rudy HQ - Falling Leaves and Needles (ENB)&lt;/strong> in your mod order and activate it. Disable the Yellow Leaves texture.&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Solstheim 3D Trees</title><link>https://thephoenixflavour.com/skyrim-se/customisation/solstheim-3d-trees/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/customisation/solstheim-3d-trees/</guid><description>
 &lt;div class="alert alert-warning" role="alert">
 &lt;h4 class="alert-heading">Warning&lt;/h4>
@@ -534,8 +533,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;p>This mod adds different effects to dead bodies, depending on how they were killed. It&amp;rsquo;s extremely customisable and fairly lightweight, however, there are occasionally bad interactions with other mods. If you can deal with some (mostly visual) bugs, feel free to install it. FEC requires powerofthree&amp;rsquo;s Papyrus Extender which was already installed in the main guide (40 Utilities).&lt;/p>
 &lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods3532tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3532?tab=files">Download Instructions&lt;/a>&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Frozen Electrocuted Combustion - 3.4.5&lt;/li>
-&lt;li>&lt;strong>Update Files:&lt;/strong> Frozen Electrocuted Combustion - 3.4.7 (update) &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Frozen Electrocuted Combustion - 3.5&lt;/li>
 &lt;/ul>
 &lt;h4 id="mod--load-order">Mod &amp;amp; Load Order&lt;/h4>
 &lt;ul>

@@ -41,18 +41,55 @@
 &lt;p>There is also the possibility that I simply forgot to add those instructions to a particular mod in the guide. When in doubt, you may run the mod through CAO with the &lt;strong>Optimise SLE Assets&lt;/strong> profile and check the log. If changes are indeed made, the lack of instructions are an oversight in which case I would ask you to report the mod on our Discord!&lt;/p>
 &lt;h3 id="is-it-still-necessary-to-roll-back-to-an-older-version-of-the-creation-kit">Is it still necessary to roll back to an older version of the Creation Kit?&lt;/h3>
 &lt;p>No, this is no longer necessary. You should be running the latest version of the Creation Kit. Go into your &lt;strong>root&lt;/strong> folder, right-click &lt;strong>CreationKit.exe&lt;/strong>, switch to the &lt;strong>Details&lt;/strong> tab and you should have &lt;strong>Product version 1.5.73.0&lt;/strong>.&lt;/p>
-&lt;p>For a time it was necessary to use the executable and DLLs of the previous version (1.5.53) because &lt;strong>CK Fixes&lt;/strong> was only working with that version of the Creation Kit. CK Fixes has since been updated.&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/appendix/03-changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/03-changelog/</guid><description>
+&lt;p>For a time it was necessary to use the executable and DLLs of the previous version (1.5.53) because &lt;strong>CK Fixes&lt;/strong> was only working with that version of the Creation Kit. CK Fixes has since been updated.&lt;/p>
+&lt;h3 id="why-dont-dragons-burn-away-and-turn-to-bones-when-i-kill-them">Why don&amp;rsquo;t Dragons burn away and turn to bones when I kill them?&lt;/h3>
+&lt;p>That&amp;rsquo;s actually intended behaviour. If you dislike it, uncheck &lt;strong>Dragon Remains&lt;/strong> in your mod order (30 IMMERSION).&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/appendix/03-changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/03-changelog/</guid><description>
+&lt;h2 id="release-333">Release 3.3.3&lt;/h2>
+&lt;p>This is a maintenance update, I fixed some broken links and updated instructions.&lt;/p>
+&lt;h4 id="setup">Setup&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>7.2.2:&lt;/strong> Fixed download instructions for the CAO Basic Profiles pack.&lt;/li>
+&lt;li>&lt;strong>10.2.5:&lt;/strong> Fixed the link to the Basic Instructions page.&lt;/li>
+&lt;/ul>
+&lt;h4 id="mod-installation">Mod Installation&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>1.2:&lt;/strong> Updated SSE Engine Fixes configuration instructions for the new TOML file.&lt;/li>
+&lt;li>&lt;strong>10.4:&lt;/strong> Added FOMOD instructions for the updated Enhanced Landscapes - Oaks Standalone.&lt;/li>
+&lt;li>&lt;strong>10.6:&lt;/strong> Added instructions to download the 512px leave textures for Rudy&amp;rsquo;s Fallen Leaves and Needles.&lt;/li>
+&lt;li>&lt;strong>16.12:&lt;/strong> Added JS Purses and Septims.&lt;/li>
+&lt;/ul>
+&lt;h4 id="customisation">Customisation&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Different Aspen Trees:&lt;/strong> Updated the instructions for the Green Aspen Leaves textures.&lt;/li>
+&lt;li>&lt;strong>Misc Mods:&lt;/strong> Updated download instructions for Frozen Electrocuted Combustion.&lt;/li>
+&lt;/ul>
+&lt;h2 id="release-332">Release 3.3.2&lt;/h2>
+&lt;h4 id="setup-1">Setup&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>1.5:&lt;/strong> Added instructions to install the Visual C++ redists required by Mod Organizer 2.&lt;/li>
+&lt;/ul>
+&lt;h4 id="mod-installation-1">Mod Installation&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>1.4:&lt;/strong> Finally added some INI tweak instructions for SSE Display Fixes.&lt;/li>
+&lt;li>&lt;strong>23.1:&lt;/strong> Added note to Vanilla NPCs Ruhmastered to use a specific file name.&lt;/li>
+&lt;li>&lt;strong>28.9:&lt;/strong> Replaced Simply Stronger Dragons with a repack of the double health / vanilla damage version that is easier to install.&lt;/li>
+&lt;li>&lt;strong>33.3:&lt;/strong> Updated Interesting NPCs download instructions (new hotfix).&lt;/li>
+&lt;/ul>
+&lt;h4 id="customisation-1">Customisation&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Large Trees:&lt;/strong> Fixed instructions (the Custom Large trees option is contained in a spearate main file now).&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-331">Release 3.3.1&lt;/h2>
 &lt;p>In this update, I primarily focused on restructuring the guide. A &lt;em>lot&lt;/em> has happened behind the scenes. Step improved much of the theming, especially the dark theme and fixed some remaining issues. We are back on the old domain - thephoenixflavour.com - now with free loudflare SSL. It just redirects from foreverphoenix.github.io so it doesn&amp;rsquo;t matter which URL you use. I&amp;rsquo;ve tinkering with more stuff for the guide content but realised fairly soon I was picking up way too many projects at once so most things were put on the backburner until the next update.&lt;/p>
 &lt;p>Because I&amp;rsquo;ve tried and moved and deleted so much stuff, the changelog is probably not complete. Sorry about that. This update kinda ran away from me and became a mess. I hope I didn&amp;rsquo;t horribly break anything.&lt;/p>
 &lt;p>An new ENBSeries section was added that covers everything related to ENB, including instructions for a new default preset, Silent Horizons ENB. Visceral is still supported and listed under 04 Additional Presets. The mods from the ENB Particle Lights section were moved here to 05 Related Mods. ENB Light is now optional. With these changes, ENBSeries can easily be skipped.&lt;/p>
-&lt;h4 id="setup">Setup&lt;/h4>
+&lt;h4 id="setup-2">Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>6.3:&lt;/strong> Updated BethINI instructions to remove ENB-related tweaks. Instructions to disable vanilla AO and increase particle count were moved to the new ENBSeries section.&lt;/li>
 &lt;li>&lt;strong>7.2:&lt;/strong> Adjusted instructions to link to the new download location for the CAO - Basic Profiles Pack.&lt;/li>
 &lt;li>&lt;strong>9.3:&lt;/strong> Added instructions to install the new CAO - SRO Profiles Pack.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-2">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Removed Remove Sneak Attack Sounds (feature included in Immersive Sounds - Compendium).&lt;/li>
 &lt;li>Moved Frozen Electrocuted Combustion to Customisation.&lt;/li>
@@ -65,7 +102,7 @@
 &lt;ul>
 &lt;li>Added this new section to cover everything related to ENBSeries.&lt;/li>
 &lt;/ul>
-&lt;h4 id="customisation">Customisation&lt;/h4>
+&lt;h4 id="customisation-2">Customisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>New Music:&lt;/strong> This section was moved to the main guide.&lt;/li>
 &lt;li>&lt;strong>Misc Mods:&lt;/strong> Moved Frozen Electrocuted Combustion here.&lt;/li>
@@ -78,11 +115,11 @@
 &lt;p>The &amp;ldquo;Unpack Example.bsa&amp;rdquo; instructions previously contained instructions to delete the BSA afterwards. Some users missed this step and others got confused so I removed it and added instructions to delete the BSA directly to the mod instructions where appropriate. Should be pretty hard to miss now.&lt;/p>
 &lt;p>Some mods are now flagged as &lt;strong>(conditional)&lt;/strong>, meaning they are optional but depend on other mods. You must install a &lt;strong>(conditional)&lt;/strong> mod if you installed the mod that it depends on. Otherwise you must skip it.&lt;/p>
 &lt;p>And finally I added several new mods: &lt;strong>Immersive Sounds Compendium&lt;/strong> with DylanJames&amp;rsquo; new AOS integration patch to the main guide and my favourite new music mods with a merged patch to the Customisation.&lt;/p>
-&lt;h4 id="setup-1">Setup&lt;/h4>
+&lt;h4 id="setup-3">Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Step 7:&lt;/strong> Removed the zEdit section. zEdit will be re-added to the guide once mator provides ESL support.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-1">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-3">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Removed Dwemer Spectres.&lt;/li>
 &lt;li>Removed Dwemer Spectres - EBT No Bleeding and Other Fixes.&lt;/li>
@@ -93,13 +130,13 @@
 &lt;li>&lt;strong>37.2:&lt;/strong> Added Immersive Sounds - Compendium.&lt;/li>
 &lt;li>&lt;strong>37.3:&lt;/strong> Added Audio Overhaul - Immersive Sounds Integration.&lt;/li>
 &lt;/ul>
-&lt;h4 id="customisation-1">Customisation&lt;/h4>
+&lt;h4 id="customisation-3">Customisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>New Music:&lt;/strong> Added this new section with five new music mods and a merged patch.&lt;/li>
 &lt;/ul>
 &lt;h2 id="release-323">Release 3.2.3&lt;/h2>
 &lt;p>Maintenance update.&lt;/p>
-&lt;h4 id="mod-installation-2">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-4">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>8.1:&lt;/strong> Updated download instructions for Frozen Electrocuted Combustion (file update).&lt;/li>
 &lt;li>&lt;strong>10.1:&lt;/strong> Updated FOMOD instructions for EVT Alternate Branch Textures (file update).&lt;/li>
@@ -108,7 +145,7 @@
 &lt;/ul>
 &lt;h2 id="release-323-1">Release 3.2.3&lt;/h2>
 &lt;p>Maintenance update.&lt;/p>
-&lt;h4 id="mod-installation-3">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-5">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>8.1:&lt;/strong> Updated download instructions for Frozen Electrocuted Combustion (file update).&lt;/li>
 &lt;li>&lt;strong>10.1:&lt;/strong> Updated FOMOD instructions for EVT Alternate Branch Textures (file update).&lt;/li>
@@ -119,13 +156,13 @@
 &lt;p>Just a small maintenance update. Realistic Water Two received a big update today, then got hidden to fix oversights. It&amp;rsquo;s back up now. You can probably expect a CRP update soon, but for now here are the updated instructions.&lt;/p>
 &lt;p>For those who use Arthmoor&amp;rsquo;s additional towns from Customisation, there are now instructions for the Lanterns of Skyrim II patches. I missed them previously.&lt;/p>
 &lt;p>&lt;strong>Wabbajack users:&lt;/strong> Stop pestering Lively about fixing the installer. When mods are updated, he has to update his own setup and recompile, and that takes time. Consider the fact that he has a life that includes more than updating the installer the second a mod update drops. Plus when a mod is hidden, like RW2 was today, there is nothing anyone can do and we all have to wait for the mod author to unhide the mod page.&lt;/p>
-&lt;h4 id="mod-installation-4">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-6">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>1.9 Added instructions to delete a textures from the Particle Patch (fixes a bug where water spray would look much darker than intended).&lt;/li>
 &lt;li>9.7 Updated instructions for Realistic Water Two.&lt;/li>
 &lt;li>9.8 Added Realistic Water Two Patch Hub.&lt;/li>
 &lt;/ul>
-&lt;h4 id="customisation-2">Customisation&lt;/h4>
+&lt;h4 id="customisation-4">Customisation&lt;/h4>
 &lt;ul>
 &lt;li>Added missing Lanterns of Skyrim II patch instructions for Arthmoor&amp;rsquo;s Towns.&lt;/li>
 &lt;/ul>
@@ -137,12 +174,12 @@
 &lt;p>This is a small update, fixing some 3.2 oversights as well as bringing the guide up-to-date with the latest mod updates (of which there were several).&lt;/p>
 &lt;p>Most notably, BethINI and the guide&amp;rsquo;s instructions for it were updated. The process of re-doing BethINI is quite simple and detailed in a new FAQ section, &lt;a href="https://github.com/foreverphoenix/the-phoenix-flavour/blob/master/The-Phoenix-Flavour-3-2/06-FAQ.md#how-to-redo-ini-files-from-scratch">How to redo INI files from scratch&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Late note:&lt;/strong> I forgot to do this earlier, but the Enhanced Vanilla Trees section is all updated now. You will need to regenerate DynDOLOD.&lt;/p>
-&lt;h4 id="setup-2">Setup&lt;/h4>
+&lt;h4 id="setup-4">Setup&lt;/h4>
 &lt;ul>
 &lt;li>2.9 Added section on what to do with &amp;lsquo;creations&amp;rsquo; reinstalled alongside Skyrim SE.&lt;/li>
 &lt;li>6.3 Updated BethINI settings. Added screenshots.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-5">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-7">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Fixed some typos and duplicate instructions.&lt;/li>
 &lt;li>Incremented version numbers for some updated files.&lt;/li>
@@ -158,7 +195,7 @@
 &lt;li>21.22 Added Realistic Skin and Hair Shaders - Giants.&lt;/li>
 &lt;li>29.1 Updated MM Hybrid Loot link (now available on the Nexus).&lt;/li>
 &lt;/ul>
-&lt;h4 id="customisation-3">Customisation&lt;/h4>
+&lt;h4 id="customisation-5">Customisation&lt;/h4>
 &lt;ul>
 &lt;li>Split the tree tweaks section up into several smaller ones.&lt;/li>
 &lt;li>Rewrote Large Trees and Aspen Trees sections for EVT 2.0.&lt;/li>
@@ -199,7 +236,7 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h4 id="setup-3">Setup&lt;/h4>
+&lt;h4 id="setup-5">Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>3.6:&lt;/strong> Split up instructions into two parts.&lt;/li>
 &lt;li>&lt;strong>3.6.1:&lt;/strong> Changed instructions, we are now unpacking the Vanilla scripts as we will need them later.&lt;/li>
@@ -216,7 +253,7 @@
 &lt;li>Moved the Mod Installation Instructions to Setup, Step 10.&lt;/li>
 &lt;li>Moved &amp;ldquo;Step 5 - Skyrim Realistic Overhaul&amp;rdquo; from the Mod Installation section to the Setup as Step 9.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-6">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-8">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Removed Havok Fix (replaced with SSE Display Tweaks).&lt;/li>
 &lt;li>Removed Cutting Room Floor.&lt;/li>
@@ -414,7 +451,7 @@
 &lt;li>&lt;strong>6.6:&lt;/strong> Users now need to choose between the three profiles in DynDOLOD. Updated the screenshot.&lt;/li>
 &lt;li>&lt;strong>6.7:&lt;/strong> Updated recommendations to rename the Output mod folder.&lt;/li>
 &lt;/ul>
-&lt;h4 id="customisation-4">Customisation&lt;/h4>
+&lt;h4 id="customisation-6">Customisation&lt;/h4>
 &lt;ul>
 &lt;li>Basically re-did this section and expanded it at least with WIP directories.&lt;/li>
 &lt;li>Updated list of of rougeshot&amp;rsquo;s skeleton replacers.&lt;/li>
@@ -503,7 +540,7 @@
 &lt;h3 id="further-acknowledgements">Further Acknowledgements&lt;/h3>
 &lt;ul>
 &lt;li>Thanks to &lt;strong>Lexy&lt;/strong> whose guide inspired me in many ways and with whom I&amp;rsquo;ve enjoyed some great conversations about the woes of maintaining a modding guide.&lt;/li>
-&lt;li>Thanks to &lt;strong>halgari&lt;/strong> and the Wabbajack team with whom we&amp;rsquo;ve been in touch since its inception and who have been very accomodating and supportive.&lt;/li>
+&lt;li>Thanks to &lt;strong>halgari&lt;/strong> and the Wabbajack team with whom we&amp;rsquo;ve been in touch since its inception and who have been very accommodating and supportive.&lt;/li>
 &lt;li>Thanks to &lt;strong>alt3rn1ty&lt;/strong> for their manual ESM cleaning instructions (included in Setup, Step 8.5).&lt;/li>
 &lt;li>Thanks to &lt;strong>Dodger&lt;/strong> for gifting me lifetime Nexus Premium and &lt;strong>Kedavix&lt;/strong> for the Snagit license.&lt;/li>
 &lt;li>Thanks to all the mod authors and fellow guide authors who have collaborated / communicated with us: SimonMagus, VictorF, mnikjom, Nathan, Slidikins, and all the others.&lt;/li>

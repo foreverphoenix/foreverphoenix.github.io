@@ -195,6 +195,16 @@
 &lt;li>Click &lt;strong>Enable Season FX&lt;/strong> if you would like to have seasonal weathers (more snow in winter etc).&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/obsidian_weathers_mcm.jpg" alt="Obsidian Weathers MCM">&lt;/p>
+&lt;h3 id="relationship-dialogue-overhaul">Relationship Dialogue Overhaul&lt;/h3>
+&lt;ul>
+&lt;li>Under &lt;strong>Other Options&lt;/strong> &amp;gt; &lt;strong>Toggle NPCs&lt;/strong>, disable:
+&lt;ul>
+&lt;li>Allow RDO Added Followers&lt;/li>
+&lt;li>Allow Terek&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/rdo_mcm.jpg" alt="Relationship Dialogue Overhaul MCM">&lt;/p>
 &lt;h3 id="realistic-water-two">Realistic Water Two&lt;/h3>
 &lt;ul>
 &lt;li>Under &lt;strong>Mod Options&lt;/strong> &amp;gt; &lt;strong>Blacksmith Forge Water&lt;/strong>, toggle the following options:
@@ -206,16 +216,6 @@
 &lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/rwt_mcm.jpg" alt="Realistic Water 2 MCM">&lt;/p>
-&lt;h3 id="relationship-dialogue-overhaul">Relationship Dialogue Overhaul&lt;/h3>
-&lt;ul>
-&lt;li>Under &lt;strong>Other Options&lt;/strong> &amp;gt; &lt;strong>Toggle NPCs&lt;/strong>, disable:
-&lt;ul>
-&lt;li>Allow RDO Added Followers&lt;/li>
-&lt;li>Allow Terek&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/rdo_mcm.jpg" alt="Relationship Dialogue Overhaul MCM">&lt;/p>
 &lt;h3 id="timing-is-everything">Timing Is Everything&lt;/h3>
 &lt;p>Another large MCM, and one you should configure now, at the start of the game as it affects many quests that start very early on in Vanilla. I’ve personally increased the Dawnguard level requirements to 30+ and set Dragonborn to start only after Alduin’s defeat but this is all down to your preferences and plans for this playthrough.&lt;/p>
 &lt;p>Thanks to the FISSES support, it is also possible to load, save and share custom presets through the MCM (&lt;strong>Extra Options&lt;/strong> tab).&lt;/p>
