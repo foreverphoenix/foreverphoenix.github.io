@@ -539,61 +539,7 @@ If you install this section, you will need to re-generate DynDOLOD later on.
 &lt;ul>
 &lt;li>Place the mod directly below the &lt;strong>VISUAL FX&lt;/strong> separator in your mod order.&lt;/li>
 &lt;li>Place the plugin above &lt;strong>dD-Enhanced Blood Main.esp&lt;/strong> in your load order.&lt;/li>
-&lt;/ul></description></item><item><title>Skyrim-Se: Removing ENB</title><link>https://thephoenixflavour.com/skyrim-se/customisation/removing-enb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/customisation/removing-enb/</guid><description>
-&lt;h2 id="considerations">Considerations&lt;/h2>
-&lt;h4 id="performance">Performance&lt;/h4>
-&lt;p>There are two reasons for removing ENBSeries: Either your machine has such low specs you cannot possibly run a preset while preserving an acceptable framerate, or you are among the few preferring vanilla visuals. Either way, by removing ENB you will most likely improve the game’s performance significantly.&lt;/p>
-&lt;p>Keep in mind that it is possible to tweak ENB presets or swap to a less performance-hungry preset like The Truth ENB.&lt;/p>
-&lt;p>You can also use the hotkey ingame to disable ENB completely without removing it outright. This will give you an idea of how the game would look and feel like without it. The default hotkey to toggle the effect is F12.&lt;/p>
-&lt;h4 id="what-you-will-miss-out-on">What you will miss out on&lt;/h4>
-&lt;p>The obvious disadvantage of removing ENB is the improved visuals, snappier shadows, much improved Ambient Occlusion, more saturated colours and a bunch of ENB-exclusive features.&lt;/p>
-&lt;p>One of those features is Complex Particle Lighting which is required for mods such as &lt;strong>ENB Light&lt;/strong> and Rudy’s &lt;strong>More Lights for ENB&lt;/strong> series of which most are included in The Phoenix Flavour. On the upside, you will also be able to lower the particle count when no longer using ENB Light which may improve performance further.&lt;/p>
-&lt;h4 id="personal-recommendation">Personal recommendation&lt;/h4>
-&lt;p>If you are considering to remove ENB because of the performance impact, I would definitely urge you to try other presets or tweak your own to tone down the FPS loss. On all except the weakest systems, you should be able to reach mostly stable 60FPS with a (tweaked) ENB preset.&lt;/p>
-&lt;h2 id="uninstalling-enbseries">Uninstalling ENBSeries&lt;/h2>
-&lt;ul>
-&lt;li>Open &lt;strong>ENB Man&lt;/strong> (which we used to set up ENBSeries).&lt;/li>
-&lt;li>Double-click the &lt;strong>Skyrim SE&lt;/strong> profile to open it.&lt;/li>
-&lt;li>Click the red button &lt;strong>Ø&lt;/strong> at the bottom to remove all ENB related files (binaries, INIs, preset) from your root folder.&lt;/li>
-&lt;li>Close ENB Man.&lt;/li>
-&lt;/ul>
-&lt;h2 id="related-mods">Related Mods&lt;/h2>
-&lt;p>Disable the following mods in your mod order:&lt;/p>
-&lt;ul>
-&lt;li>ENB Light – QuickLight Patch&lt;/li>
-&lt;li>Rudy HQ – More Lights for ENB SE – Soul Gems for RUSTIC&lt;/li>
-&lt;li>Rudy HQ – More Lights for ENB SE – Moths&lt;/li>
-&lt;li>Rudy HQ – More Lights for ENB SE – Deathbells and Nirnroots&lt;/li>
-&lt;li>Rudy HQ – More Lights for ENB SE – Chaurus Eggs and Sacs&lt;/li>
-&lt;li>Rudy HQ – More Lights for ENB SE – Bthardamz&lt;/li>
-&lt;li>ENB Particle Lights – Dwemer Lanterns&lt;/li>
-&lt;li>ENB Helper SE&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>ENB Light cannot be disabled as it is required by the CRP.&lt;/p>
-&lt;p>The Skyrim Particle Patch (aka ENB Particle Patch) contains many improvements that you will benefit from with or without ENB which is why it should not be deactivated.&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="ini-tweaks">INI Tweaks&lt;/h2>
-&lt;h4 id="ini-editor">INI Editor&lt;/h4>
-&lt;p>Without ENBSeries, there are several graphical enhancements that can be forced directly in the game. These will give better performance (with lower quality) than similar effects that could be forced through ENB.&lt;/p>
-&lt;p>In Mod Organizer 2, go to &lt;strong>Tools&lt;/strong> &amp;gt; &lt;strong>INI Editor&lt;/strong> in order to edit your INI files directly through MO2’s interface.&lt;/p>
-&lt;h4 id="ambient-occlusion">Ambient Occlusion&lt;/h4>
-&lt;p>You now have the option to use Skyrim’s inbuilt Ambient Occlusion (which has a performance impact of its own and does not look as good as ENB AO). Enabling Ambient Occlusion may result in a performance loss but not nearly as much as enabling ENB with AO would.&lt;/p>
-&lt;p>In the [Display] section of your &lt;strong>SkyrimPrefs.ini&lt;/strong>, change the following:&lt;/p>
-&lt;p>&lt;code>bSAOEnable=1&lt;/code>&lt;/p>
-&lt;h4 id="particles">Particles&lt;/h4>
-&lt;p>ENB Light (and meshes utilising the ENB Complex Particle Lights feature in general) required you to increase your particle count for better visuals which may also potentially impact performance so we will reverse this.&lt;/p>
-&lt;p>In the [Particles] section of your &lt;strong>SkyrimPrefs.ini&lt;/strong>, change the following:&lt;/p>
-&lt;p>&lt;code>iMaxDesired=2000&lt;/code>&lt;/p>
-&lt;h2 id="potential-replacements">Potential Replacements&lt;/h2>
-&lt;h4 id="imaginator">IMAGINATOR&lt;/h4>
-&lt;p>Even without ENBSeries there are ways to tweak the lighting and colours in your game to your liking. With the default guide setup, you can use the &lt;strong>Obsidian Weathers&lt;/strong> MCM to tweak the general tone and colour settings. There are several presets to choose from.&lt;/p>
-&lt;p>There is also the mod &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4577">IMAGINATOR&lt;/a> by Gopher, created to replace the colour customisation ENB offers. While it should not have a performance impact at all, it is not comparable to ENBSeries. For some people it may still be worth the performance gain. Feel free to try it out.&lt;/p>
-&lt;p>Please note that IMAGINATOR is a not officially included in the guide, meaning I will provide no installation instructions and no support for issues with the mod.&lt;/p>
-&lt;h4 id="reshade">ReShade&lt;/h4>
-&lt;p>Unlike ENBSeries, ReShade was not specifically created for Skyrim SE and has no way to interact with the engine for advanced effects. It is however a very capable, customisable and performance-friendly FX injector that may replace ENBSeries for those with weaker hardware (or different preferences with regards to visuals).&lt;/p>
-&lt;p>The &lt;a href="https://reshade.me/">ReShade Framework&lt;/a> is easy enough to install, however depending on your chose preset, you may require a certain version of it, or a specific set of shaders. To find presets, just search for &lt;strong>Reshade&lt;/strong> on the Special Edition Nexus. A word of warning though: There are still plenty of ENB-ReShade presets floating around which were made for both ENBSeries and ReShade to complement each other. Take care and read the mod page before installing.&lt;/p>
-&lt;p>Creating your own preset is arguably easier to do than it is with ENBSeries. ReShade can also be edited and customised ingame.&lt;/p></description></item><item><title>Skyrim-Se: DynDOLOD</title><link>https://thephoenixflavour.com/skyrim-se/customisation/dyndolod/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/customisation/dyndolod/</guid><description>
+&lt;/ul></description></item><item><title>Skyrim-Se: DynDOLOD</title><link>https://thephoenixflavour.com/skyrim-se/customisation/dyndolod/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/customisation/dyndolod/</guid><description>
 &lt;h2 id="preparations">Preparations&lt;/h2>
 &lt;h4 id="old-output">Old Output&lt;/h4>
 &lt;p>If you installed anything from &lt;strong>Tree Tweaks&lt;/strong> or &lt;strong>Arthmoor&amp;rsquo;s Towns&lt;/strong>, you MUST re-generate LOD with DynDOLOD - either with 3D or regular tree LOD.&lt;/p>
