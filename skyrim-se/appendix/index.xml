@@ -1,4 +1,34 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Appendix</title><link>https://thephoenixflavour.com/skyrim-se/appendix/</link><description>Recent content in Appendix on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/skyrim-se/appendix/index.xml" rel="self" type="application/rss+xml"/><item><title>Skyrim-Se: Troubleshooting</title><link>https://thephoenixflavour.com/skyrim-se/appendix/01-troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/01-troubleshooting/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Appendix</title><link>https://thephoenixflavour.com/skyrim-se/appendix/</link><description>Recent content in Appendix on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/skyrim-se/appendix/index.xml" rel="self" type="application/rss+xml"/><item><title>Skyrim-Se: Frequently Asked Questions</title><link>https://thephoenixflavour.com/skyrim-se/appendix/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/faq/</guid><description>
+&lt;blockquote>
+&lt;p>I have over 300 plugins active in Mod Organizer 2. Is that intended?&lt;/p>
+&lt;/blockquote>
+&lt;p>Yes, that is definitely intended. While it&amp;rsquo;s true that Skyrim has a limit of 255 plugins, this applies only to ESP and ESM plugins. Many plugins in TPF are ESL-ified though, and do not count toward the limit. When you hover over the counter above the load order in MO2, you can see how many ESM + ESP plugins you have, and how close you really are to the limit.&lt;/p>
+&lt;blockquote>
+&lt;p>Some plugins in my load order are deactivated. Is that intended?&lt;/p>
+&lt;/blockquote>
+&lt;p>No, this happens when renaming plugin extensions from ESL to ESP (in order to turn full ESLs into ESP-FE plugins). Make sure to check them again after renaming them. Eventually all plugins should be checked and active in your load order.&lt;/p>
+&lt;blockquote>
+&lt;p>Is ENBoost a thing in Skyrim SE?&lt;/p>
+&lt;/blockquote>
+&lt;p>No. Because of the 64bit upgrade, Skyrim SE is able to allocate more RAM for itself which is essentially what ENBoost used to do for Classic Skyrim. The current ENB binaries for SE contain no ENBoost features.&lt;/p>
+&lt;blockquote>
+&lt;p>Can I play with a controller instead of mouse and keyboard?&lt;/p>
+&lt;/blockquote>
+&lt;p>Yep, it&amp;rsquo;s as easy as connecting a controller. The only potential issue would be lack of bindable hotkeys for mods.&lt;/p>
+&lt;blockquote>
+&lt;p>Why don&amp;rsquo;t all Classic Skyrim mods that included meshes have CAO instructions?&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a good question. Generally, meshes created for LE need to be optimised before they can be used in SE. However, not all meshes actually need optimisation! When running a mod through Cathedral Assets Optimiser, check the &lt;strong>Log&lt;/strong> tab to see if there are any changes being made to specific files. If not, there is no need to use CAO on it. This is how I determined which mods need CAO instructions in the guide.&lt;/p>
+&lt;p>There is also the possibility that I simply forgot to add those instructions to a particular mod in the guide. When in doubt, you may run the mod through CAO with the &lt;strong>Optimise SLE Assets&lt;/strong> profile and check the log. If changes are indeed made, the lack of instructions are an oversight in which case I would ask you to report the mod on our Discord!&lt;/p>
+&lt;blockquote>
+&lt;p>Is it still necessary to roll back to an older version of the Creation Kit?&lt;/p>
+&lt;/blockquote>
+&lt;p>No, this is no longer necessary. You should be running the latest version of the Creation Kit. Go into your &lt;strong>root&lt;/strong> folder, right-click &lt;strong>CreationKit.exe&lt;/strong>, switch to the &lt;strong>Details&lt;/strong> tab and you should have &lt;strong>Product version 1.5.73.0&lt;/strong>.&lt;/p>
+&lt;p>For a time it was necessary to use the executable and DLLs of the previous version (1.5.53) because &lt;strong>CK Fixes&lt;/strong> was only working with that version of the Creation Kit. CK Fixes has since been updated.&lt;/p>
+&lt;blockquote>
+&lt;p>Why don&amp;rsquo;t Dragons burn away and turn to bones when I kill them?&lt;/p>
+&lt;/blockquote>
+&lt;p>That&amp;rsquo;s actually intended behaviour. If you dislike it, uncheck &lt;strong>Dragon Remains&lt;/strong> in your mod order (30 IMMERSION).&lt;/p></description></item><item><title>Skyrim-Se: Troubleshooting</title><link>https://thephoenixflavour.com/skyrim-se/appendix/troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/troubleshooting/</guid><description>
 &lt;h2 id="error-message-when-trying-to-launch-the-creation-kit">Error message when trying to launch the Creation Kit.&lt;/h2>
 &lt;p>If by chance you are seeing the error message picture below, it is simply an issue of the required version of Microsoft Visual C++ framework not being installed correctly. To fix this, download the latest &lt;strong>x64&lt;/strong> executable &lt;a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">here&lt;/a>. Run the downloaded executable and follow the prompts through the installation process.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/faq/ck_error_vc_missing.jpg" alt="CK Error VC Missing">&lt;/p>
@@ -27,31 +57,198 @@
 &lt;p>You will experience a significant performance loss when playing on 1440p (or higher) compared to 1080p, around 20 FPS with TPF in my experience. Therefore I strongly recommend playing on 1080p even if your monitor is capable of a higher resolution. I&amp;rsquo;m personally doing just that on my 1440p monitor and it looks fine to me. Check Resources &amp;gt; Quick Tutorials for instructions on how to quickly change the game&amp;rsquo;s resolution.&lt;/p>
 &lt;h2 id="some-beards-look-strange-on-elven-player-characters">Some beards look strange on Elven player characters.&lt;/h2>
 &lt;p>This is unfortunately a known issue with the beard TRI files in Ethereal Elven Overhaul. Some of them clip into the skin. Fixed TRI files for one beard (HumanBeard25) are packaged with the guide&amp;rsquo;s CRP so that beards on humans look fine but issues remain with some beards on Elven characters. I have no idea to fix this and consider the issue low priority since Elves are rarely bearded anyway.&lt;/p>
-&lt;p>Check &lt;a href="https://github.com/foreverphoenix/the-phoenix-flavour/issues/8">issue report #8&lt;/a> for details and pictures.&lt;/p></description></item><item><title>Skyrim-Se: Frequently Asked Questions</title><link>https://thephoenixflavour.com/skyrim-se/appendix/02_faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/02_faq/</guid><description>
-&lt;h3 id="i-have-over-300-plugins-active-in-mod-organizer-2-is-that-intended">I have over 300 plugins active in Mod Organizer 2. Is that intended?&lt;/h3>
-&lt;p>Yes, that is definitely intended. While it&amp;rsquo;s true that Skyrim has a limit of 255 plugins, this applies only to ESP and ESM plugins. Many plugins in TPF are ESL-ified though, and do not count toward the limit. When you hover over the counter above the load order in MO2, you can see how many ESM + ESP plugins you have, and how close you really are to the limit.&lt;/p>
-&lt;h3 id="some-plugins-in-my-load-order-are-deactivated-is-that-intended">Some plugins in my load order are deactivated. Is that intended?&lt;/h3>
-&lt;p>No, this happens when renaming plugin extensions from ESL to ESP (in order to turn full ESLs into ESP-FE plugins). Make sure to check them again after renaming them. Eventually all plugins should be checked and active in your load order.&lt;/p>
-&lt;h3 id="is-enboost-a-thing-in-skyrim-se">Is ENBoost a thing in Skyrim SE?&lt;/h3>
-&lt;p>No. Because of the 64bit upgrade, Skyrim SE is able to allocate more RAM for itself which is essentially what ENBoost used to do for Classic Skyrim. The current ENB binaries for SE contain no ENBoost features.&lt;/p>
-&lt;h3 id="can-i-play-with-a-controller-instead-of-mouse-and-keyboard">Can I play with a controller instead of mouse and keyboard?&lt;/h3>
-&lt;p>Yep, it&amp;rsquo;s as easy as connecting a controller. The only potential issue would be lack of bindable hotkeys for mods.&lt;/p>
-&lt;h3 id="why-dont-all-classic-skyrim-mods-that-included-meshes-have-cao-instructions">Why don&amp;rsquo;t all Classic Skyrim mods that included meshes have CAO instructions?&lt;/h3>
-&lt;p>This is a good question. Generally, meshes created for LE need to be optimised before they can be used in SE. However, not all meshes actually need optimisation! When running a mod through Cathedral Assets Optimiser, check the &lt;strong>Log&lt;/strong> tab to see if there are any changes being made to specific files. If not, there is no need to use CAO on it. This is how I determined which mods need CAO instructions in the guide.&lt;/p>
-&lt;p>There is also the possibility that I simply forgot to add those instructions to a particular mod in the guide. When in doubt, you may run the mod through CAO with the &lt;strong>Optimise SLE Assets&lt;/strong> profile and check the log. If changes are indeed made, the lack of instructions are an oversight in which case I would ask you to report the mod on our Discord!&lt;/p>
-&lt;h3 id="is-it-still-necessary-to-roll-back-to-an-older-version-of-the-creation-kit">Is it still necessary to roll back to an older version of the Creation Kit?&lt;/h3>
-&lt;p>No, this is no longer necessary. You should be running the latest version of the Creation Kit. Go into your &lt;strong>root&lt;/strong> folder, right-click &lt;strong>CreationKit.exe&lt;/strong>, switch to the &lt;strong>Details&lt;/strong> tab and you should have &lt;strong>Product version 1.5.73.0&lt;/strong>.&lt;/p>
-&lt;p>For a time it was necessary to use the executable and DLLs of the previous version (1.5.53) because &lt;strong>CK Fixes&lt;/strong> was only working with that version of the Creation Kit. CK Fixes has since been updated.&lt;/p>
-&lt;h3 id="why-dont-dragons-burn-away-and-turn-to-bones-when-i-kill-them">Why don&amp;rsquo;t Dragons burn away and turn to bones when I kill them?&lt;/h3>
-&lt;p>That&amp;rsquo;s actually intended behaviour. If you dislike it, uncheck &lt;strong>Dragon Remains&lt;/strong> in your mod order (30 IMMERSION).&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/appendix/03-changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/03-changelog/</guid><description>
+&lt;p>Check &lt;a href="https://github.com/foreverphoenix/the-phoenix-flavour/issues/8">issue report #8&lt;/a> for details and pictures.&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/appendix/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/changelog/</guid><description>
+&lt;h2 id="release-34">Release 3.4&lt;/h2>
+&lt;blockquote>
+&lt;p>14/07/2020&lt;/p>
+&lt;/blockquote>
+&lt;p>Welcome to the Make Phoenix Happy Again update, also known as MAPHA. Fuck Trump by the way (in case there are any doubts about my thoughts on the matter).&lt;/p>
+&lt;p>This update may well be controversial. A good deal of mods were removed in an effort to get back to my vision of a perfect vanilla-plus game. I fully expect that the changes will put off some users and I&amp;rsquo;m sorry for that, but it&amp;rsquo;s for the best. Removing pretty much all the customisation options (not including optional mods) helps me a great deal with streamlining my work behind the scenes. I have a lot of polishing and small edits in my backlog that I never get to because I&amp;rsquo;m busy with a million other things.&lt;/p>
+&lt;p>The intention is not to make TPF smaller, per se. I will be adding a number of mods over the course of the upcoming updates and I do not plan to keep TPF small for the sake of it. It&amp;rsquo;s the overall complexity and therefore the amount of work required that I need to keep reasonably small. I already struggle with a lack of focus and concentration, no need to make things harder for myself.&lt;/p>
+&lt;p>&lt;strong>Major changes:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Added a new Content Addon section that can be skipped completely. It includes the quest and companion mods that weren&amp;rsquo;t yeeted in this update and will likely be expanded in the future.&lt;/li>
+&lt;li>Interesting NPCs was yeeted for good. The quality of the mod is somewhat inconsistent and it doesn&amp;rsquo;t blend in at all (and doesn&amp;rsquo;t try to). It is by no means a &amp;ldquo;bad&amp;rdquo; mod, but it doesn&amp;rsquo;t fit TPF.&lt;/li>
+&lt;li>Arthmoor&amp;rsquo;s Towns were yeeted for good. Supporting two optional sections is just too much work and I don&amp;rsquo;t like them enough to add them to the new Content Addon.&lt;/li>
+&lt;li>Obsidian Weathers was swapped out for Cathedral Weathers (again). In order to be able to control visuals better, I have decided to support only a single weather+ENB combo which will be Cath Weathers and Serio&amp;rsquo;s ENB, ensuring working night eye visuals and decent grass blending.&lt;/li>
+&lt;li>Wildcat was swapped out for Blade and Blunt. Not only does B&amp;amp;B complement the existing suite of SimonMagus gameplay mods (Adamant, Mysticism, and Arena), it is also more light-weight while at the same time (partly) replacing other tweaks.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Structural changes:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Removed the numbering completely. The reason behind that is that with all the changes to the order of steps / mods I&amp;rsquo;m making, they are changing constantly anyway. Plus it&amp;rsquo;s a lot of annoying work to keep them updated. So fuck &amp;lsquo;em.&lt;/li>
+&lt;li>Changed the order of mod installation steps AGAIN. Yes, I&amp;rsquo;ve been reshuffling them with basically every major update. I&amp;rsquo;d like to think that I&amp;rsquo;m getting closer and closer to perfection, though.&lt;/li>
+&lt;li>Patches are no longer moved to the PATCHES separator. You can just leave them where they are in the installation order and the loadorder.txt will move the plugins to the correct spot.&lt;/li>
+&lt;/ul>
+&lt;h4 id="initial-setup">Initial Setup&lt;/h4>
+&lt;ul>
+&lt;li>This step was renamed to Initial Setup, simply because it looks better when the name is longer. Yeah&amp;hellip;&lt;/li>
+&lt;li>&lt;strong>Mod Organizer 2:&lt;/strong> Added instructions to change the background color for the MO2 separators.&lt;/li>
+&lt;li>&lt;strong>Mod Organizer 2:&lt;/strong> Added instructions for the new OFFICIAL MASTER FILES separator.&lt;/li>
+&lt;li>&lt;strong>INI Tweaks:&lt;/strong> Updated BethINI Detail instructions (increasing Exterior Draw Distance to 8000).&lt;/li>
+&lt;li>&lt;strong>ESM Cleaning:&lt;/strong> Added instructions to move the Cleaned ESMs mod folder below the new OFFICIAL MASTER FILES separator.&lt;/li>
+&lt;li>&lt;strong>Skyrim Realistic Overhaul:&lt;/strong> This step was removed completely. SRO is no longer part of the guide.&lt;/li>
+&lt;li>&lt;strong>Mod Installation:&lt;/strong> This step (containing general instructions for the mod installation) was moved to the Mod Installation section.&lt;/li>
+&lt;/ul>
+&lt;h4 id="mod-installation">Mod Installation&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Essential Mods:&lt;/strong> Moved More Informative Console here (from Quality of Life).&lt;/li>
+&lt;li>&lt;strong>Fixes:&lt;/strong> Updated FOMOD instructions for Skyrim Landscape and Water Fixes (mod update).&lt;/li>
+&lt;li>&lt;strong>Fixes:&lt;/strong> Updated FOMOD instructions for NARC (no longer selecting the Forgotten City patch).&lt;/li>
+&lt;li>&lt;strong>Fixes:&lt;/strong> Moved Keyboard Shortcuts Fix here (from Quality of Life).&lt;/li>
+&lt;li>&lt;strong>Tweaks:&lt;/strong> Moved Remember Lockpick Angle - Updated here (from Quality of Life).&lt;/li>
+&lt;li>&lt;strong>Tweaks:&lt;/strong> Moved No Lockpick Activate - Updated here (from Quality of Life).&lt;/li>
+&lt;li>&lt;strong>Tweaks:&lt;/strong> Moved Classic Sprinting Redone here (from Quality of Life).&lt;/li>
+&lt;li>&lt;strong>Tweaks:&lt;/strong> Moved Better Jumping here (from Quality of Life).&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Moved Roboto Font Replacer here (from Customisation).&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Moved DRELDYN&amp;rsquo;s Original Main Menu Overhaul (from Customisation).&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Moved Yes I&amp;rsquo;m Sure here (from Quality of Life).&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Moved Whose Quest Is It Anyway here (from Quality of Life)&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Moved Hide Those Futile Quests here (from Quality of Life).&lt;/li>
+&lt;li>&lt;strong>Graphics Baseline:&lt;/strong> This step was renamed from Main Visual Mods.&lt;/li>
+&lt;li>&lt;strong>Graphics Baseline:&lt;/strong> Removed aMidianBorn Book of Silence - Dragonborn DLC (redundant with the new, ported AIO).&lt;/li>
+&lt;li>&lt;strong>Graphics Baseline:&lt;/strong> Added aMidianBorn Book of Silence.&lt;/li>
+&lt;li>&lt;strong>Weather:&lt;/strong> Removed Obsidian Weathers (replaced by Cathedral Weathers).&lt;/li>
+&lt;li>&lt;strong>Weather:&lt;/strong> Removed Obsidian Weathers MCM (no longer necessary without OW).&lt;/li>
+&lt;li>&lt;strong>Weather:&lt;/strong> Removed Smooth Sky Mesh (included in Cathedral Weathers).&lt;/li>
+&lt;li>&lt;strong>Weather:&lt;/strong> Removed Yee - A New Snowflake Mod (included in Cathedral Weathers).&lt;/li>
+&lt;li>&lt;strong>Weather:&lt;/strong> Removed Wonders of Weather - Less Transparent Rain Splashes (prefer to just disable the feature entirely).&lt;/li>
+&lt;li>&lt;strong>Weather:&lt;/strong> Added Cathedral Weathers and Seasons.&lt;/li>
+&lt;li>&lt;strong>Weather:&lt;/strong> Added Cathedral Weathers MCM.&lt;/li>
+&lt;li>&lt;strong>Weather:&lt;/strong> Updated instructions for SkyGazer Moons to download the No Glow file because the glow effect looks weird with ENB.&lt;/li>
+&lt;li>&lt;strong>Weather:&lt;/strong> Added Volumetric Mist.&lt;/li>
+&lt;li>&lt;strong>Visual FX:&lt;/strong> Removed Glow Be Gone Updated (breaks ghost FX and the fix is rather involved).&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Renamed the step from Flora to Trees &amp;amp; Plants.&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Now using the Lush Large Trees option for EVT. FOMOD instructions were updated and simplified.&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Moved Solstheim 3D Trees here (from Customisation).&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Added note to keep Solstheim 3D Trees disabled for the time being.&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Moved Bent Pines II here (from Customisation). Added instructions to install the Navmesh patch.&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Changed FOMOD instructions, using Kojak’s Trees now.&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Added Rally&amp;rsquo;s Hanging Moss.&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Added Rally&amp;rsquo;s Solstheim Plants.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added Rally&amp;rsquo;s Solstheim Landscapes.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Moved Immersive Fallen Trees here (from Trees &amp;amp; Plants).&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Moved Immersive Fallen Trees Patch here (from Trees &amp;amp; Plants).&lt;/li>
+&lt;li>&lt;strong>Buildings &amp;amp; Interiors:&lt;/strong> This step is a merge of the former Vanilla Locations section and some other mods.&lt;/li>
+&lt;li>&lt;strong>Buildings &amp;amp; Interiors:&lt;/strong> Updated FOMOD instructions for Obscure&amp;rsquo;s College of Winterhold (no 3DNPC and ToK patches).&lt;/li>
+&lt;li>&lt;strong>Buildings &amp;amp; Interiors:&lt;/strong> Moved Provincial Courier Service here (from New Quests &amp;amp; Locations).&lt;/li>
+&lt;li>&lt;strong>Buildings &amp;amp; Interiors:&lt;/strong> Moved Unique Border Gates here (from New Quests &amp;amp; Locations).&lt;/li>
+&lt;li>&lt;strong>Buildings &amp;amp; Interiors:&lt;/strong> Moved Solstheim Lighthouse here (from New Quests &amp;amp; Locations).&lt;/li>
+&lt;li>&lt;strong>Buildings &amp;amp; Interiors:&lt;/strong> Solstheim Lighthouse is no longer optional.&lt;/li>
+&lt;li>&lt;strong>Buildings &amp;amp; Interiors:&lt;/strong> Moved Solstheim - Skaal Fishing Camp here (from New Quests &amp;amp; Locations).&lt;/li>
+&lt;li>&lt;strong>NPC Overhauls:&lt;/strong> Moved DIVERSE SKYRIM here (from New NPCs &amp;amp; Companions).&lt;/li>
+&lt;li>&lt;strong>NPC Overhauls:&lt;/strong> Moved DIVERSE SKYRIM - Ethereal Elven Overhaul Patch here (from New NPCs &amp;amp; Companions).&lt;/li>
+&lt;li>&lt;strong>NPC Overhauls:&lt;/strong> Updated FOMOD instructions for Simple Children (no longer installing the 3DNPC and Forgotten City patches).&lt;/li>
+&lt;li>&lt;strong>Architecture:&lt;/strong> Added Rally&amp;rsquo;s Raven Rock.&lt;/li>
+&lt;li>&lt;strong>Architecture:&lt;/strong> Added Rally&amp;rsquo;s Tel Mithryn.&lt;/li>
+&lt;li>&lt;strong>Architecture:&lt;/strong> Added Rally&amp;rsquo;s Riekling Outposts.&lt;/li>
+&lt;li>&lt;strong>Interiors:&lt;/strong> Added Rally&amp;rsquo;s Pillows.&lt;/li>
+&lt;li>&lt;strong>Apparel &amp;amp; Weapons:&lt;/strong> Renamed this step to Apparel &amp;amp; Weapons from Weapons &amp;amp; Armor.&lt;/li>
+&lt;li>&lt;strong>Apparel &amp;amp; Weapons:&lt;/strong> Moved all mods from the former Clothes &amp;amp; Jewellery step here.&lt;/li>
+&lt;li>&lt;strong>Apparel &amp;amp; Weapons:&lt;/strong> Removed aMidianBorn Book of Silence - Armors.&lt;/li>
+&lt;li>&lt;strong>Apparel &amp;amp; Weapons:&lt;/strong> Removed aMidianBorn Book of Silence - Weapons.&lt;/li>
+&lt;li>&lt;strong>Apparel &amp;amp; Weapons:&lt;/strong> Linked to the new Sunhallowed and Bloodcursed Arrows HD SSE port. Removed porting instructions.&lt;/li>
+&lt;li>&lt;strong>Unique Artifacts:&lt;/strong> Removed aMidianBorn Book of Silence - Unique Items.&lt;/li>
+&lt;li>&lt;strong>Creatures:&lt;/strong> Moved all mods from the former Daedra &amp;amp; Dragons step here.&lt;/li>
+&lt;li>&lt;strong>Creatures:&lt;/strong> Removed Bellyache&amp;rsquo;s HD Dragon Replacer Pack.&lt;/li>
+&lt;li>&lt;strong>Creatures:&lt;/strong> Removed Odahviing Enhanced.&lt;/li>
+&lt;li>&lt;strong>Creatures:&lt;/strong> Added RUSTIC DRAGONS.&lt;/li>
+&lt;li>&lt;strong>Creatures:&lt;/strong> Realistic Skin and Hair Shaders - Falmer and Hagravens is now optional.&lt;/li>
+&lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Moved Trua - Minimalistic Faiths of Skyrim here (from New Mechanics &amp;amp; Features).&lt;/li>
+&lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Moved Irondusk&amp;rsquo;s Saddlebags here (from New Mechanics &amp;amp; Features).&lt;/li>
+&lt;li>&lt;strong>Non-Player Characters:&lt;/strong> Updated FOMOD instructions for Nether&amp;rsquo;s Follower Framework (no longer selecting the 3DNPC patch).&lt;/li>
+&lt;li>&lt;strong>Non-Player Characters:&lt;/strong> Moved Prince &amp;amp; the Pauper here (from the former Clothes &amp;amp; Jewellery section).&lt;/li>
+&lt;li>&lt;strong>Non-Player Characters:&lt;/strong> Finally re-added Hearthfire Multiple Adoptions.&lt;/li>
+&lt;li>&lt;strong>Non-Player Characters:&lt;/strong> Added Prince and the Pauper - Hearthfire Multiple Adoptions Patch.&lt;/li>
+&lt;li>&lt;strong>Non-Player Characters:&lt;/strong> Moved Adopt Aventus Aretino here (from New Mechanics &amp;amp; Features).&lt;/li>
+&lt;li>&lt;strong>Non-Player Characters:&lt;/strong> Moved Immersive Patrols here (from New Encounters &amp;amp; Creatures).&lt;/li>
+&lt;li>&lt;strong>Non-Player Characters:&lt;/strong> Moved Immersive Patrols Simplified here (from New Encounters &amp;amp; Creatures).&lt;/li>
+&lt;li>&lt;strong>Non-Player Characters:&lt;/strong> Added FOMOD instructions for the new version of Immersive Patrols Simplified.&lt;/li>
+&lt;li>&lt;strong>Non-Player Characters:&lt;/strong> Moved Immersive College NPCs here (from New NPCs &amp;amp; Companions).&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Moved the Choice Is Yours here (from Quality of Life).&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Moved FOMOD instructions for Misc College of Winterhold Tweaks here (from Finalisation).&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Updated FOMOD instructions for Misc College of Winterhold (no longer selecting the 3DNPC patch).&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Moved Choose Your Own Arch-Mage here (from New Mechanics &amp;amp; Features).&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Moved Stackable Stones of Barenziah here (from Quality of Life).&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Moved Bounty Preview here (from Quality of Life).&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Renamed the step to Combat &amp;amp; Encounters from Combat.&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Removed Wildcat - Combat of Skyrim.&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Added Blade &amp;amp; Blunt - A Combat Overhaul.&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Removed Mortal Enemies (partly included in Blade and Blunt).&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Removed Athletik Combat (similar tweaks included in Blade and Blunt).&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Removed Realistic Melee Range (similar tweaks included in Blade and Blunt).&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Removed No BS AI Projectile Dodge (covered by Blade and Blunt).&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Removed VioLens - A Killmove Mod (BB includes player killmove immunity which is all we need).&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Moved Beast Skeletons here (from New Encounters &amp;amp; Creatures).&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Moved Beast Skeletons - Plugin Replacer here (from New Encounters &amp;amp; Creatures).&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Moved Diverse Dragons Collection here (from New Encounters &amp;amp; Creatures).&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Moved Splendor - Dragon Variants here (from Daedra &amp;amp; Dragons).&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Moved Diverse Werewolves Collection here (from New Encounters &amp;amp; Creatures).&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Moved More Werewolves here (from New Encounters &amp;amp; Creatures).&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Moved Cannibal Draugr on Solstheim here (from New Encounters &amp;amp; Creatures).&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Moved The Blood Horker here (from New Encounters &amp;amp; Creatures).&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Removed Cliff Racers of Solstheim (low quality of assets).&lt;/li>
+&lt;li>&lt;strong>Balancing:&lt;/strong> Removed Reliquary of Myth temporarily (will be re-added as soon as the mod has reached a stable state).&lt;/li>
+&lt;li>&lt;strong>Balancing:&lt;/strong> Updated FOMOD instructions for Zim&amp;rsquo;s Immersive Artifacts (no longer selecting the Thane pack).&lt;/li>
+&lt;li>&lt;strong>Miscellaneous:&lt;/strong> Renamed this step from Immersion to Miscellaneous.&lt;/li>
+&lt;li>&lt;strong>Miscellaneous:&lt;/strong> Moved Simply Knock here (from New Mechanics &amp;amp; Features).&lt;/li>
+&lt;li>&lt;strong>Miscellaneous:&lt;/strong> Moved Simply Knock SKSE564 DLL here (from New Mechanics &amp;amp; Features).&lt;/li>
+&lt;li>&lt;strong>Miscellaneous:&lt;/strong> Moved Quick Light here (from New Mechanics &amp;amp; Features).&lt;/li>
+&lt;li>&lt;strong>New Gear:&lt;/strong> Renamed this step from New Items &amp;amp; Equipment to New Gear.&lt;/li>
+&lt;li>&lt;strong>New Gear:&lt;/strong> Removed aMidianBorn Book of Silence - Content Addon (the assets are included in the new AIO).&lt;/li>
+&lt;li>&lt;strong>New Gear:&lt;/strong> Removed Unique Scimitars (low quality of assets).&lt;/li>
+&lt;li>&lt;strong>Content Addon:&lt;/strong> Added this section.&lt;/li>
+&lt;li>&lt;strong>Content Addon:&lt;/strong> Moved The Forgotten City here (from New Quests &amp;amp; Locations).&lt;/li>
+&lt;li>&lt;strong>Content Addon:&lt;/strong> Moved The Forgotten City - No Audio Books here (from New Quests &amp;amp; Locations).&lt;/li>
+&lt;li>&lt;strong>Content Addon:&lt;/strong> Added Simple Children - The Forgotten City Patch.&lt;/li>
+&lt;li>&lt;strong>Content Addon:&lt;/strong> Moved The Tools of Kagrenac here (from New Quests &amp;amp; Locations).&lt;/li>
+&lt;li>&lt;strong>Content Addon:&lt;/strong> Moved It Beats For Her here (from New Quests &amp;amp; Locations).&lt;/li>
+&lt;li>&lt;strong>Content Addon:&lt;/strong> Updated download instructions for It Beats For Her (the correct file is now once again main file).&lt;/li>
+&lt;li>&lt;strong>Content Addon:&lt;/strong> Moved Falkreath Hauntings here (from New Encounters &amp;amp; Creatures).&lt;/li>
+&lt;li>&lt;strong>Content Addon:&lt;/strong> Moved INIGO here (from New NPCs &amp;amp; Companions).&lt;/li>
+&lt;li>&lt;strong>Content Addon:&lt;/strong> Moved Morrowloot Ultimate - Inigo Patch here (from New NPCs &amp;amp; Companions).&lt;/li>
+&lt;li>&lt;strong>Content Addon:&lt;/strong> Added cleaning instructions for the MLU Inigo patch.&lt;/li>
+&lt;li>&lt;strong>Content Addon:&lt;/strong> Moved Inigo Whistle Key here (from New NPCs &amp;amp; Companions).&lt;/li>
+&lt;li>&lt;strong>Content Addon:&lt;/strong> Moved Lucien - Fully Voiced Follower here (from New NPCs &amp;amp; Companions).&lt;/li>
+&lt;li>&lt;strong>Content Addon:&lt;/strong> Lucien is now marked as optional since it&amp;rsquo;s not a CRP dependency.&lt;/li>
+&lt;li>&lt;strong>Content Addon:&lt;/strong> Moved Pandorable&amp;rsquo;s Lucien Replacer here (from New NPCs &amp;amp; Companions).&lt;/li>
+&lt;li>&lt;strong>Content Addon:&lt;/strong> Pandorable&amp;rsquo;s Lucien Replacer is now marked as conditional since it requires an optional mod (Lucien).&lt;/li>
+&lt;li>&lt;strong>Sound Effects:&lt;/strong> Removed instructions for the AOS Obsidian Weathers patch.&lt;/li>
+&lt;li>&lt;strong>Sound Effects:&lt;/strong> Added instructions to download the new AOS Cathedral Weathers patch (thanks, Dylan!).&lt;/li>
+&lt;li>&lt;strong>Utilities:&lt;/strong> Removed Papyrus Extender (since FEC is no longer in the guide).&lt;/li>
+&lt;li>&lt;strong>Utilities:&lt;/strong> Moved Copy and Paste in Console here (from Quality of Life).&lt;/li>
+&lt;/ul>
+&lt;h4 id="enbseries">ENBSeries&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Serio&amp;rsquo;s ENB:&lt;/strong> Renamed this step to Serio&amp;rsquo;s ENB from Silent Horizons.&lt;/li>
+&lt;li>&lt;strong>Serio&amp;rsquo;s ENB:&lt;/strong> Updated instructions for the new preset, Serio&amp;rsquo;s.&lt;/li>
+&lt;li>The Additional Presets step was removed.&lt;/li>
+&lt;li>&lt;strong>Related Mods:&lt;/strong> Added instructions to install the ENB Light Quick Light patch if Quick Light was installed.&lt;/li>
+&lt;li>&lt;strong>Related Mods:&lt;/strong> Removed the ENB Light - Patch Pack.&lt;/li>
+&lt;li>&lt;strong>Related Mods:&lt;/strong> Added The Phoenix Flavour - ENB Light Patch (same as the patches from the pack but in one ESP).&lt;/li>
+&lt;li>The ENB FAQ step was removed.&lt;/li>
+&lt;/ul>
+&lt;h4 id="finalisation">Finalisation&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Wrapping Up:&lt;/strong> Moved FOMOD instructions for MCWT back to the actual mod (since now all required mods are already installed prior to MCWT itself).&lt;/li>
+&lt;li>&lt;strong>Wrapping Up:&lt;/strong> Updated the list of plugins to ESL-ify.&lt;/li>
+&lt;li>&lt;strong>All Geared Up Derivative:&lt;/strong> Added instructions to download and installed a fixed version of one of the scripts.&lt;/li>
+&lt;li>&lt;strong>DynDOLOD:&lt;/strong> Updated the TexGen screenshot (no longer shows file compression change).&lt;/li>
+&lt;li>&lt;strong>DynDOLOD:&lt;/strong> The TexGen Output is now to be moved below the PATCHER OUTPUT separator.&lt;/li>
+&lt;li>&lt;strong>DynDOLOD:&lt;/strong> Added instructions to activate Solstheim 3D Trees before generating 3D tree LOD.&lt;/li>
+&lt;li>&lt;strong>First Launch:&lt;/strong> Added an ENB Configuration setting for Serio&amp;rsquo;s ENB.&lt;/li>
+&lt;li>&lt;strong>Clean-Up:&lt;/strong> Split off the final two steps from First Launch and moved them here.&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-333">Release 3.3.3&lt;/h2>
+&lt;blockquote>
+&lt;p>26.06.2020&lt;/p>
+&lt;/blockquote>
 &lt;p>This is a maintenance update, I fixed some broken links and updated instructions.&lt;/p>
 &lt;h4 id="setup">Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>7.2.2:&lt;/strong> Fixed download instructions for the CAO Basic Profiles pack.&lt;/li>
 &lt;li>&lt;strong>10.2.5:&lt;/strong> Fixed the link to the Basic Instructions page.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-1">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>1.2:&lt;/strong> Updated SSE Engine Fixes configuration instructions for the new TOML file.&lt;/li>
 &lt;li>&lt;strong>10.4:&lt;/strong> Added FOMOD instructions for the updated Enhanced Landscapes - Oaks Standalone.&lt;/li>
@@ -64,11 +261,14 @@
 &lt;li>&lt;strong>Misc Mods:&lt;/strong> Updated download instructions for Frozen Electrocuted Combustion.&lt;/li>
 &lt;/ul>
 &lt;h2 id="release-332">Release 3.3.2&lt;/h2>
+&lt;blockquote>
+&lt;p>Uhh&amp;hellip;&lt;/p>
+&lt;/blockquote>
 &lt;h4 id="setup-1">Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>1.5:&lt;/strong> Added instructions to install the Visual C++ redists required by Mod Organizer 2.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-1">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-2">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>1.4:&lt;/strong> Finally added some INI tweak instructions for SSE Display Fixes.&lt;/li>
 &lt;li>&lt;strong>23.1:&lt;/strong> Added note to Vanilla NPCs Ruhmastered to use a specific file name.&lt;/li>
@@ -80,7 +280,10 @@
 &lt;li>&lt;strong>Large Trees:&lt;/strong> Fixed instructions (the Custom Large trees option is contained in a spearate main file now).&lt;/li>
 &lt;/ul>
 &lt;h2 id="release-331">Release 3.3.1&lt;/h2>
-&lt;p>In this update, I primarily focused on restructuring the guide. A &lt;em>lot&lt;/em> has happened behind the scenes. Step improved much of the theming, especially the dark theme and fixed some remaining issues. We are back on the old domain - thephoenixflavour.com - now with free loudflare SSL. It just redirects from foreverphoenix.github.io so it doesn&amp;rsquo;t matter which URL you use. I&amp;rsquo;ve tinkering with more stuff for the guide content but realised fairly soon I was picking up way too many projects at once so most things were put on the backburner until the next update.&lt;/p>
+&lt;blockquote>
+&lt;p>13.06.2020&lt;/p>
+&lt;/blockquote>
+&lt;p>In this update, I primarily focused on restructuring the guide. A &lt;em>lot&lt;/em> has happened behind the scenes. Step improved much of the theming, especially the dark theme and fixed some remaining issues. We are back on the old domain - thephoenixflavour.com - now with free Cloudflare SSL. It just redirects from foreverphoenix.github.io so it doesn&amp;rsquo;t matter which URL you use. I&amp;rsquo;ve tinkering with more stuff for the guide content but realised fairly soon I was picking up way too many projects at once so most things were put on the backburner until the next update.&lt;/p>
 &lt;p>Because I&amp;rsquo;ve tried and moved and deleted so much stuff, the changelog is probably not complete. Sorry about that. This update kinda ran away from me and became a mess. I hope I didn&amp;rsquo;t horribly break anything.&lt;/p>
 &lt;p>An new ENBSeries section was added that covers everything related to ENB, including instructions for a new default preset, Silent Horizons ENB. Visceral is still supported and listed under 04 Additional Presets. The mods from the ENB Particle Lights section were moved here to 05 Related Mods. ENB Light is now optional. With these changes, ENBSeries can easily be skipped.&lt;/p>
 &lt;h4 id="setup-2">Setup&lt;/h4>
@@ -89,7 +292,7 @@
 &lt;li>&lt;strong>7.2:&lt;/strong> Adjusted instructions to link to the new download location for the CAO - Basic Profiles Pack.&lt;/li>
 &lt;li>&lt;strong>9.3:&lt;/strong> Added instructions to install the new CAO - SRO Profiles Pack.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-2">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-3">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Removed Remove Sneak Attack Sounds (feature included in Immersive Sounds - Compendium).&lt;/li>
 &lt;li>Moved Frozen Electrocuted Combustion to Customisation.&lt;/li>
@@ -98,7 +301,7 @@
 &lt;li>&lt;strong>6.2:&lt;/strong> Obsidian Weathers and Seasons MCM Patch is no longer optional.&lt;/li>
 &lt;li>&lt;strong>21.21:&lt;/strong> Realistic Skin Shader for Falmer and Hagravens is no longer optional.&lt;/li>
 &lt;/ul>
-&lt;h4 id="enbseries">ENBSeries&lt;/h4>
+&lt;h4 id="enbseries-1">ENBSeries&lt;/h4>
 &lt;ul>
 &lt;li>Added this new section to cover everything related to ENBSeries.&lt;/li>
 &lt;/ul>
@@ -110,6 +313,9 @@
 &lt;li>&lt;strong>Removing ENB:&lt;/strong> This section no longer exists as ENB itself was made completely optional.&lt;/li>
 &lt;/ul>
 &lt;h2 id="release-33">Release 3.3&lt;/h2>
+&lt;blockquote>
+&lt;p>07.06.2020&lt;/p>
+&lt;/blockquote>
 &lt;p>I re-added the mod installation instructions that I completely missed in the original website setup. Whoops! It&amp;rsquo;s not like they&amp;rsquo;re important or anything. You can find them &lt;a href="https://foreverphoenix.github.io/docs/02-setup/step-10/">here&lt;/a>. It&amp;rsquo;s not a straight copy-paste, I re-structured it and re-wrote parts as well. All &amp;ldquo;generic instructions&amp;rdquo; (using CAO, resaving plugins, etc) were moved to the &lt;a href="https://foreverphoenix.github.io/docs/07-resources/basic-instructions/">Basic Instructions&lt;/a> page under Resources.&lt;/p>
 &lt;p>The Mod Installation section itself was split up into four parts to avoid the ugly scrollbar.&lt;/p>
 &lt;p>The &amp;ldquo;Unpack Example.bsa&amp;rdquo; instructions previously contained instructions to delete the BSA afterwards. Some users missed this step and others got confused so I removed it and added instructions to delete the BSA directly to the mod instructions where appropriate. Should be pretty hard to miss now.&lt;/p>
@@ -119,7 +325,7 @@
 &lt;ul>
 &lt;li>&lt;strong>Step 7:&lt;/strong> Removed the zEdit section. zEdit will be re-added to the guide once mator provides ESL support.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-3">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-4">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Removed Dwemer Spectres.&lt;/li>
 &lt;li>Removed Dwemer Spectres - EBT No Bleeding and Other Fixes.&lt;/li>
@@ -135,15 +341,9 @@
 &lt;li>&lt;strong>New Music:&lt;/strong> Added this new section with five new music mods and a merged patch.&lt;/li>
 &lt;/ul>
 &lt;h2 id="release-323">Release 3.2.3&lt;/h2>
-&lt;p>Maintenance update.&lt;/p>
-&lt;h4 id="mod-installation-4">Mod Installation&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>8.1:&lt;/strong> Updated download instructions for Frozen Electrocuted Combustion (file update).&lt;/li>
-&lt;li>&lt;strong>10.1:&lt;/strong> Updated FOMOD instructions for EVT Alternate Branch Textures (file update).&lt;/li>
-&lt;li>&lt;strong>37.1:&lt;/strong> Updated download instructions for Audio Overhaul for Skyrim, removed instructions to download the EBT Patch (now integrated into the CRP).&lt;/li>
-&lt;li>&lt;strong>37.1:&lt;/strong> Removed instructions to delete the SKSE folder (no longer preset) and added instructions to delete the modgroups file for Audio Overhaul for Skyrim.&lt;/li>
-&lt;/ul>
-&lt;h2 id="release-323-1">Release 3.2.3&lt;/h2>
+&lt;blockquote>
+&lt;p>04.06.2020&lt;/p>
+&lt;/blockquote>
 &lt;p>Maintenance update.&lt;/p>
 &lt;h4 id="mod-installation-5">Mod Installation&lt;/h4>
 &lt;ul>
@@ -153,6 +353,9 @@
 &lt;li>&lt;strong>37.1:&lt;/strong> Removed instructions to delete the SKSE folder (no longer preset) and added instructions to delete the modgroups file for Audio Overhaul for Skyrim.&lt;/li>
 &lt;/ul>
 &lt;h2 id="release-322">Release 3.2.2&lt;/h2>
+&lt;blockquote>
+&lt;p>23.05.2020&lt;/p>
+&lt;/blockquote>
 &lt;p>Just a small maintenance update. Realistic Water Two received a big update today, then got hidden to fix oversights. It&amp;rsquo;s back up now. You can probably expect a CRP update soon, but for now here are the updated instructions.&lt;/p>
 &lt;p>For those who use Arthmoor&amp;rsquo;s additional towns from Customisation, there are now instructions for the Lanterns of Skyrim II patches. I missed them previously.&lt;/p>
 &lt;p>&lt;strong>Wabbajack users:&lt;/strong> Stop pestering Lively about fixing the installer. When mods are updated, he has to update his own setup and recompile, and that takes time. Consider the fact that he has a life that includes more than updating the installer the second a mod update drops. Plus when a mod is hidden, like RW2 was today, there is nothing anyone can do and we all have to wait for the mod author to unhide the mod page.&lt;/p>
@@ -171,6 +374,9 @@
 &lt;li>Added new RealisticWaterTwo - Resources.esm&lt;/li>
 &lt;/ul>
 &lt;h2 id="release-321">Release 3.2.1&lt;/h2>
+&lt;blockquote>
+&lt;p>21.05.2020&lt;/p>
+&lt;/blockquote>
 &lt;p>This is a small update, fixing some 3.2 oversights as well as bringing the guide up-to-date with the latest mod updates (of which there were several).&lt;/p>
 &lt;p>Most notably, BethINI and the guide&amp;rsquo;s instructions for it were updated. The process of re-doing BethINI is quite simple and detailed in a new FAQ section, &lt;a href="https://github.com/foreverphoenix/the-phoenix-flavour/blob/master/The-Phoenix-Flavour-3-2/06-FAQ.md#how-to-redo-ini-files-from-scratch">How to redo INI files from scratch&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Late note:&lt;/strong> I forgot to do this earlier, but the Enhanced Vanilla Trees section is all updated now. You will need to regenerate DynDOLOD.&lt;/p>
@@ -214,6 +420,9 @@
 &lt;li>Added HagravenSkinShaders.esp (new in 3.2.1).&lt;/li>
 &lt;/ul>
 &lt;h2 id="release-32">Release 3.2&lt;/h2>
+&lt;blockquote>
+&lt;p>20.05.2020&lt;/p>
+&lt;/blockquote>
 &lt;p>&lt;strong>Disclaimer:&lt;/strong> Release 3.2 is fairly substantial so I am bound to have missed some changes and not everything is fully documented. Installing the guide from scratch is required.&lt;/p>
 &lt;ul>
 &lt;li>Added many new screenshots and replaced outdated ones.&lt;/li>
@@ -435,7 +644,7 @@
 &lt;li>&lt;strong>39.3:&lt;/strong> Added XPMSSE Fixes - Automated Patcher.&lt;/li>
 &lt;li>&lt;strong>39.4:&lt;/strong> Added All Geared Up Derivative - AllGUD.&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-1">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>Moved FNIS instructions to Step 2.&lt;/li>
 &lt;li>Added Step 3 for All Geared Up Derivative.&lt;/li>
@@ -479,7 +688,7 @@
 &lt;li>We previously changed the script to check only every 60s instead of every 5s whether the lanterns are on and what time of day it is but with the Always On option, the script shouldn&amp;rsquo;t check in the first place (since lanterns aren&amp;rsquo;t disabled during the day.)&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Skyrim-Se: Future Plans</title><link>https://thephoenixflavour.com/skyrim-se/appendix/04_future_plans/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/04_future_plans/</guid><description>
+&lt;/ul></description></item><item><title>Skyrim-Se: Future Plans</title><link>https://thephoenixflavour.com/skyrim-se/appendix/future_plans/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/future_plans/</guid><description>
 &lt;p>I am working on the guide in my free time of which I admittedly have plenty.&lt;/p>
 &lt;ul>
 &lt;li>You can check my current to do list on Github &lt;a href="https://github.com/foreverphoenix/the-phoenix-flavour/projects/2">here&lt;/a>.&lt;/li>
@@ -509,11 +718,11 @@
 &lt;h4 id="creation-club-support">Creation Club support&lt;/h4>
 &lt;p>My personal opinion of the CC is rather low for many reasons. However, I do consider adding support for some select &amp;ldquo;creations&amp;rdquo; in the future (Forgotten Seasons for instance). At present, TPF does not support any &amp;ldquo;creations&amp;rdquo; and installing them invalidates your right to receive support for issues just like adding other Nexus mods would.&lt;/p>
 &lt;h4 id="suggest-a-mod">Suggest a mod&lt;/h4>
-&lt;p>Any user is welcome to suggest mods for inclusion in the guide, but please make sure first that it isn&amp;rsquo;t already listed on our Trello (check the link above). If it isn&amp;rsquo;t, use our &lt;a href="https://docs.google.com/forms/d/1g9jL22NfnrHg_XwnKAFpL7WXOm28MKB3i1NRwHOUOUU/edit">Google Form&lt;/a> to submit your suggestion.&lt;/p></description></item><item><title>Skyrim-Se: Credits</title><link>https://thephoenixflavour.com/skyrim-se/appendix/05-credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/05-credits/</guid><description>
+&lt;p>Any user is welcome to suggest mods for inclusion in the guide, but please make sure first that it isn&amp;rsquo;t already listed on our Trello (check the link above). If it isn&amp;rsquo;t, use our &lt;a href="https://docs.google.com/forms/d/1g9jL22NfnrHg_XwnKAFpL7WXOm28MKB3i1NRwHOUOUU/edit">Google Form&lt;/a> to submit your suggestion.&lt;/p></description></item><item><title>Skyrim-Se: Credits</title><link>https://thephoenixflavour.com/skyrim-se/appendix/credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/credits/</guid><description>
 &lt;h3 id="the-team">The Team&lt;/h3>
 &lt;ul>
-&lt;li>&lt;strong>Phoenix&lt;/strong> - that&amp;rsquo;s me! - published the guide initially way back in 2017 and stuck with it since. I do all the writing, basically.&lt;/li>
-&lt;li>&lt;strong>Umgak&lt;/strong> is in charge of all our custom patches, conflict resolution and consistency edits.&lt;/li>
+&lt;li>&lt;strong>Phoenix&lt;/strong> - that&amp;rsquo;s me! - initially published the guide way back in 2017 and stuck with it ever since. I do all the writing, basically.&lt;/li>
+&lt;li>&lt;strong>Umgak&lt;/strong> is in charge of all our custom patches, conflict resolution, and consistency edits.&lt;/li>
 &lt;li>&lt;strong>Lively&lt;/strong> created and maintains the Wabbajack installer for TPF, and puts up with all the related help requests.&lt;/li>
 &lt;/ul>
 &lt;h3 id="past--present-contributors">Past &amp;amp; Present Contributors&lt;/h3>
@@ -531,19 +740,19 @@
 &lt;/ul>
 &lt;h3 id="the-website">The Website&lt;/h3>
 &lt;ul>
-&lt;li>Thanks to &lt;strong>Step&lt;/strong> for setting up Hugo and Docsy, for creating the dark theme, and for putting up with my constant pestering and feature requests. &lt;i class="fas fa-heart">&lt;/i>&lt;/li>
-&lt;li>Thanks to &lt;strong>Kai&lt;/strong> for implementing the theme toggle so that alsa and I and that one other user can use light mode, yay!&lt;/li>
+&lt;li>Thanks to &lt;strong>Step&lt;/strong> for setting up Hugo and Docsy, and creating the dark theme. &lt;i class="fas fa-heart">&lt;/i>&lt;/li>
+&lt;li>Thanks to &lt;strong>Kai&lt;/strong> for implementing the theme toggle so that alsa and I can use light mode.&lt;/li>
 &lt;li>Thanks to &lt;strong>vaecors&lt;/strong> for reminding me that Hugo would be a perfect solution and supporting us in setting it up.&lt;/li>
 &lt;li>Thanks to &lt;strong>Luna&lt;/strong> who set up the proper domain and Cloudflare SSL on the Hugo website for us.&lt;/li>
 &lt;li>Thanks to &lt;strong>erri120&lt;/strong> without whom I might never have tried Github which turned out to be the perfect solution.&lt;/li>
 &lt;/ul>
 &lt;h3 id="further-acknowledgements">Further Acknowledgements&lt;/h3>
 &lt;ul>
-&lt;li>Thanks to &lt;strong>Lexy&lt;/strong> whose guide inspired me in many ways and with whom I&amp;rsquo;ve enjoyed some great conversations about the woes of maintaining a modding guide.&lt;/li>
-&lt;li>Thanks to &lt;strong>halgari&lt;/strong> and the Wabbajack team with whom we&amp;rsquo;ve been in touch since its inception and who have been very accommodating and supportive.&lt;/li>
-&lt;li>Thanks to &lt;strong>alt3rn1ty&lt;/strong> for their manual ESM cleaning instructions (included in Setup, Step 8.5).&lt;/li>
+&lt;li>Thanks to &lt;strong>Lexy&lt;/strong> with whom I&amp;rsquo;ve enjoyed some wonderful conversations about the woes of maintaining a modding guide.&lt;/li>
+&lt;li>Thanks to &lt;strong>halgari&lt;/strong> and the Wabbajack team who have been very accommodating and supportive.&lt;/li>
+&lt;li>Thanks to &lt;strong>alt3rn1ty&lt;/strong> for their manual ESM cleaning instructions (included in the Initial Setup section).&lt;/li>
 &lt;li>Thanks to &lt;strong>Dodger&lt;/strong> for gifting me lifetime Nexus Premium and &lt;strong>Kedavix&lt;/strong> for the Snagit license.&lt;/li>
-&lt;li>Thanks to all the mod authors and fellow guide authors who have collaborated / communicated with us: SimonMagus, VictorF, mnikjom, Nathan, Slidikins, and all the others.&lt;/li>
+&lt;li>Thanks to our fellow mod and guide authors: &lt;strong>SimonMagus&lt;/strong>, &lt;strong>VictorF&lt;/strong>, &lt;strong>mnikjom&lt;/strong>, &lt;strong>Nathan&lt;/strong>, &lt;strong>Slidikins&lt;/strong>, and all the others.&lt;/li>
 &lt;li>Thanks to all the wonderful people on our Discord server, particularly those who have been around and active for a long time.&lt;/li>
 &lt;li>Thanks to my Patreons and everyone who donated over PayPal or by other means over the past years!&lt;/li>
 &lt;/ul></description></item></channel></rss>
