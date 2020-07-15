@@ -260,7 +260,7 @@
 &lt;h5 id="skyrim-landscape-and-water-fixeshttpswwwnexusmodscomskyrimspecialeditionmods26138tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26138?tab=files">Skyrim Landscape and Water Fixes&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Skyrim Landscape and Water Fixes - FOMOD Installer&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Skyrim Landscape and Water Fixes&lt;/li>
 &lt;/ul>
 &lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
 &lt;ul>
@@ -301,7 +301,7 @@
 &lt;li>Patch for Arthmoor’s Falkreath&lt;/li>
 &lt;li>Patch for Arthmoor’s Rorikstead&lt;/li>
 &lt;li>Patch for Arthmoor’s Ivarstead&lt;/li>
-&lt;li>Patch for Provincial Courier&lt;/li>
+&lt;li>&lt;del>Patch for Provincial Courier&lt;/del>&lt;/li>
 &lt;li>&lt;del>Patch for Oakwood&lt;/del>&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -356,10 +356,10 @@
 &lt;ul>
 &lt;li>Resave &lt;strong>ImperialSoldiersEscortFix.esp&lt;/strong> in the Creation Kit.&lt;/li>
 &lt;/ul>
-&lt;h5 id="mannequins-stay-puthttpswwwnexusmodscomskyrimspecialeditionmods6414tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6414?tab=files">Mannequins Stay Put&lt;/a> (optional)&lt;/h5>
+&lt;h5 id="mannequin-managementhttpswwwnexusmodscomskyrimspecialeditionmods38221tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38221?tab=files">Mannequin Management&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Mannequin Stay Put&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Mannequin Management&lt;/li>
 &lt;/ul>
 &lt;h5 id="eye-normal-map-fixhttpswwwnexusmodscomskyrimspecialeditionmods5445tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5445?tab=files">Eye Normal Map Fix&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
@@ -508,7 +508,7 @@
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> HelgenKeepBanditChiefExecutioner SE v1.0&lt;/li>
 &lt;/ul>
-&lt;h5 id="move-it-dammithttpswwwnexusmodscomskyrimspecialeditionmods752tabfiles--optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/752?tab=files">Move It Dammit&lt;/a> (optional)&lt;/h5>
+&lt;h5 id="move-it-dammithttpswwwnexusmodscomskyrimspecialeditionmods752tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/752?tab=files">Move It Dammit&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Move it Dammit - for Skyrim Special Edition v1.1.0b (Installation Script)&lt;/li>
@@ -522,7 +522,7 @@
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Run and Walk at your Pace&lt;/li>
 &lt;/ul>
-&lt;h5 id="no-more-standing-too-closehttpswwwnexusmodscomskyrimspecialeditionmods4784-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4784">No More Standing Too Close&lt;/a> (optional)&lt;/h5>
+&lt;h5 id="no-more-standing-too-closehttpswwwnexusmodscomskyrimspecialeditionmods4784tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4784?tab=files">No More Standing Too Close&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> No More Standing Too Close SSE&lt;/li>
@@ -963,13 +963,8 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Hide Those Futile Quests 64&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Graphics Baseline</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/06-graphics-baseline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/06-graphics-baseline/</guid><description>
-&lt;h5 id="skyrim-realistic-overhaul-sro">Skyrim Realistic Overhaul (SRO)&lt;/h5>
-&lt;h4 id="download-instructions">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>This mod has already been installed.&lt;/li>
-&lt;/ul>
 &lt;h5 id="dyndolod-resourceshttpswwwnexusmodscomskyrimspecialeditionmods32382tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32382?tab=files">DynDOLOD Resources&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> DynDOLOD Resources SE&lt;/li>
 &lt;/ul>
@@ -996,18 +991,18 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;/li>
 &lt;/ul>
 &lt;h5 id="hd-lods-textureshttpswwwnexusmodscomskyrimspecialeditionmods3333tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3333?tab=files">HD LODs Textures&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> HD Lods Textures SE 1K V9.3 - DynDOLOD ONLY VERSION&lt;/li>
 &lt;/ul>
 &lt;h5 id="noble-skyrim-mod-hd-2k-nsmhttpswwwnexusmodscomskyrimspecialeditionmods21423tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21423?tab=files">Noble Skyrim Mod HD-2K (NSM)&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> A. Noble Skyrim - FULL PACK_2K&lt;/li>
 &lt;li>&lt;strong>Update Files:&lt;/strong> NSM - SMIM Patch&lt;/li>
 &lt;/ul>
 &lt;h5 id="amidianborn-book-of-silence-ambhttpswwwnexusmodscomskyrimspecialeditionmods35382tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/35382?tab=files">aMidianBorn Book of Silence (AMB)&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> 2) aMidianBorn Book of Silence SE - CCOR CONTENT ADDON&lt;/li>
 &lt;/ul>
@@ -1016,7 +1011,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;li>Run the mod through Cathedral Assets Optimizer (&lt;strong>Unpack BSA&lt;/strong>).&lt;/li>
 &lt;/ul>
 &lt;h5 id="ruins-clutter-improved-rcihttpswwwnexusmodscomskyrimspecialeditionmods5870tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5870/?tab=files">Ruins Clutter Improved (RCI)&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Ruins_Clutter_Improved_SE_NMM_v3-1&lt;/li>
 &lt;li>&lt;strong>Update Files:&lt;/strong> Falmer Temple Chandelier &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
@@ -1043,12 +1038,12 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;/li>
 &lt;/ul>
 &lt;h5 id="ruins-clutter-improved---fixeshttpswwwnexusmodscomskyrimspecialeditionmods21031tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21031?tab=files">Ruins Clutter Improved - Fixes&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Ruins Clutter Improved - Fixes 1.1&lt;/li>
 &lt;/ul>
 &lt;h5 id="revamped-assets-skyrimhttpswwwnexusmodscomskyrimmods75380tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/75380?tab=files">Revamped Assets Skyrim&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Revamped Assets Skyrim - High (FOMOD Package)&lt;/li>
 &lt;/ul>
@@ -1112,7 +1107,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;li>Run the mod through Cathedral Assets Optimizer (&lt;strong>Optimise SLE Assets&lt;/strong>).&lt;/li>
 &lt;/ul>
 &lt;h5 id="high-poly-projecthttpswwwnexusmodscomskyrimspecialeditionmods12029tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12029?tab=files">High Poly Project&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> High Poly Project&lt;/li>
 &lt;/ul>
@@ -1169,9 +1164,9 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;/li>
 &lt;/ul>
 &lt;h5 id="calientes-beautiful-bodies-enhancer-cbbehttpswwwnexusmodscomskyrimspecialeditionmods198tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/198?tab=files">Caliente&amp;rsquo;s Beautiful Bodies Enhancer (CBBE)&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Caliente&amp;rsquo;s Beautiful Bodies Enhancer - v1.5.6&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Caliente&amp;rsquo;s Beautiful Bodies Enhancer - v1.5.7&lt;/li>
 &lt;/ul>
 &lt;h4 id="fomod-instructions-4">FOMOD Instructions&lt;/h4>
 &lt;ul>
@@ -1311,10 +1306,6 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> A Quality Worldmap - Luminosity Compatibility Patch&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-order">Mod Order&lt;/h4>
-&lt;ul>
-&lt;li>Place the mod below the &lt;strong>PATCHES&lt;/strong> separator&lt;/li>
-&lt;/ul>
 &lt;h5 id="interior-floating-fog-removerhttpswwwnexusmodscomskyrimspecialeditionmods4298tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4298?tab=files">Interior Floating Fog Remover&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
 &lt;ul>
@@ -1390,7 +1381,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;h5 id="inferno---fire-effects-reduxhttpswwwnexusmodscomskyrimspecialeditionmods29316tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/29316?tab=files">Inferno - Fire Effects Redux&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Inferno - Fire Effects Redux - AIO&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Inferno - Fire Effects Redux&lt;/li>
 &lt;/ul>
 &lt;h4 id="fomod-instructions-2">FOMOD Instructions&lt;/h4>
 &lt;ul>
@@ -1529,7 +1520,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;h5 id="arctic---frost-effects-reduxhttpswwwnexusmodscomskyrimspecialeditionmods29817tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/29817?tab=files">Arctic - Frost Effects Redux&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Arctic - Frost Effects Redux - AIO&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Arctic - Frost Effects Redux&lt;/li>
 &lt;/ul>
 &lt;h4 id="fomod-instructions-2">FOMOD Instructions&lt;/h4>
 &lt;ul>
@@ -1572,9 +1563,8 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;h5 id="enhanced-vanilla-trees-evthttpswwwnexusmodscomskyrimspecialeditionmods11008tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11008?tab=files">Enhanced Vanilla Trees (EVT)&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Enhanced Vanilla Trees SE - Lush Large Trees&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Enhanced Vanilla Trees SE - Lush Trees&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Enhanced Vanilla Trees SE - Alternative Branch Textures&lt;/li>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> Enhanced Vanilla Trees SE - Alternative Trees&lt;/li>
 &lt;/ul>
 &lt;h4 id="fomod-instructions---main-file">FOMOD Instructions - Main File&lt;/h4>
 &lt;ul>
@@ -1589,9 +1579,11 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;li>Firewood Textures&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;strong>Greener Bark Textures:&lt;/strong>
+&lt;/ul>
 &lt;ul>
-&lt;li>&lt;em>Select nothing on this page.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Tree LODs:&lt;/strong>
+&lt;ul>
+&lt;li>Billboards&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -1600,11 +1592,6 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;li>&lt;strong>Custom Tree Options:&lt;/strong>
 &lt;ul>
 &lt;li>No&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Custom Trees - Greener Bark Textures:&lt;/strong>
-&lt;ul>
-&lt;li>&lt;em>Select nothing on this page.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>&lt;strong>Darker EVT Textures:&lt;/strong>
@@ -1618,54 +1605,64 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions---alternative-trees">FOMOD Instructions - Alternative Trees&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Select a version:&lt;/strong>
-&lt;ul>
-&lt;li>Enhanced Darker Meshes&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Select a tree option:&lt;/strong>
-&lt;ul>
-&lt;li>Lush Trees (large)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Custom Trees - Greener Bark Textures&lt;/strong>
-&lt;ul>
-&lt;li>&lt;em>Select nothing on this page.&lt;/em>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Alternative Trees:&lt;/strong>
-&lt;ul>
-&lt;li>&lt;del>Realistic Aspen Trees&lt;/del>&lt;/li>
-&lt;li>SFO Snowy Pine Trees&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h5 id="enhanced-vanilla-trees---vurts-light-snow-treeshttpswwwnexusmodscomskyrimmods76086tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/76086?tab=files">Enhanced Vanilla Trees - Vurts Light Snow Trees&lt;/a>&lt;/h5>
+&lt;h5 id="bent-pines-iihttpswwwnexusmodscomskyrimspecialeditionmods8306tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8306?tab=files">Bent Pines II&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> Light Snow Trees Replacer (for Vurts snow tree option users)&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Bent Pines II&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Navmesh .esp by CakeofHonor&lt;/li>
+&lt;/ul>
+&lt;h5 id="enhanced-landscapes---dead-marshhttpswwwnexusmodscomskyrimspecialeditionmods18162tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18162?tab=files">Enhanced Landscapes - Dead Marsh&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Main File v1.65&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Optional Files:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;del>Better Plant Textures&lt;/del>&lt;/li>
+&lt;li>&lt;del>Grass Overhaul&lt;/del>&lt;/li>
+&lt;li>&lt;del>Enhanced Solstheim Ash Trees 4k with 3D Tree LOD&lt;/del>&lt;/li>
+&lt;li>&lt;del>Green Aspen Trees for EVT&lt;/del>&lt;/li>
+&lt;li>&lt;del>Barren Marsh&lt;/del>&lt;/li>
+&lt;li>Dead Marsh&lt;/li>
+&lt;li>&lt;del>Green Fields&lt;/del>&lt;/li>
+&lt;li>&lt;del>LOD Noise Texture&lt;/del>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Patches:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;del>Immersive Citizens Patch&lt;/del>&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
 &lt;ul>
-&lt;li>Resave &lt;strong>EVT_LightSnowTrees_Replacer (For Vurts).esp&lt;/strong> in the Creation Kit.&lt;/li>
+&lt;li>Delete the following file(s) and/or folder(s):
+&lt;ul>
+&lt;li>&lt;code>DynDOLOD\&lt;/code>&lt;/li>
+&lt;li>&lt;code>Enhanced Landscapes.esp&lt;/code>&lt;/li>
+&lt;li>&lt;code>Enhanced Landscapes - Dead Marsh.esp&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Rename the mod to “&lt;strong>Enhanced Landscapes - Dead Marsh&lt;/strong>” to indicate that only that module is installed.&lt;/li>
+&lt;/ul>
+&lt;h5 id="enhanced-landscapes---dead-marsh-fixeshttpswwwnexusmodscomskyrimspecialeditionmods9951tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9951?tab=files">Enhanced Landscapes - Dead Marsh Fixes&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Enhanced Landscapes - Dead Marsh Fixes&lt;/li>
 &lt;/ul>
 &lt;h5 id="enhanced-landscapes---solstheim-3d-treeshttpswwwnexusmodscomskyrimspecialeditionmods18162tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18162?tab=files">Enhanced Landscapes - Solstheim 3D Trees&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>You already downloaded the required file.&lt;/li>
+&lt;li>You already downloaded this mod.&lt;/li>
 &lt;/ul>
 &lt;h4 id="installation-instructions">Installation Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Create an empty mod in Mod Organizer 2 and name it &lt;strong>Enhanced Landscapes - Solstheim 3D Trees&lt;/strong>.&lt;/li>
 &lt;li>Right-click it and select &lt;strong>Open in Explorer&lt;/strong>.&lt;/li>
-&lt;li>Go to &lt;code>Your Modding Folder\ARCHIVE\MO2 Downloads&lt;/code> and find the following archive:
-&lt;ul>
-&lt;li>Main File v1.65-18162-1-65.7z&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Open the archive and double-click the &lt;strong>3 - Solstheim3DTrees&lt;/strong> file inside.&lt;/li>
+&lt;li>Go to &lt;code>Your Modding Folder\ARCHIVE\MO2 Downloads&lt;/code> and find the &lt;strong>Main File v1.65-18162-1-65.7z&lt;/strong> archive.&lt;/li>
+&lt;li>Open it and double-click the &lt;strong>3 - Solstheim3DTrees&lt;/strong> file inside.&lt;/li>
 &lt;li>Extract the &lt;strong>textures&lt;/strong> and &lt;strong>meshes&lt;/strong> folders to &lt;code>Mod Organizer 2\mods\Enhanced Landscapes - Solstheim 3D Trees&lt;/code>.&lt;/li>
 &lt;li>Close the archive and the Explorer window.&lt;/li>
 &lt;/ul>
@@ -1677,42 +1674,12 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;blockquote>
 &lt;p>You will have the choice to generate 3D tree LOD with DynDOLOD later on which is when you will be instructed to re-enable this mod. If you don&amp;rsquo;t choose to generate 3D tree LOD this mod will stay disabled as it does not support regular tree LOD.&lt;/p>
 &lt;/blockquote>
-&lt;h5 id="tree-bark-in-high-definitionhttpswwwnexusmodscomskyrimspecialeditionmods20336tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20336?tab=files">Tree Bark in High Definition&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Tree Bark in High Definition&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>While tree bark retextures are generally incompatible with the new meshes from EVT, this retexture, even though it wasn&amp;rsquo;t made for EVT, looks perfectly fine. There are no textures cut off, or stretching.&lt;/p>
-&lt;/blockquote>
-&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
-&lt;ul>
-&lt;li>Delete the following file(s) and/or folder(s):
-&lt;ul>
-&lt;li>&lt;code>textures\landscape\trees\treeaspenbarkcomp.dds&lt;/code>&lt;/li>
-&lt;li>&lt;code>textures\landscape\trees\treeaspenbarkcomp_n.dds&lt;/code>&lt;/li>
-&lt;li>&lt;code>textures\landscape\trees\treepineforestbarkcompsnow.dds&lt;/code>&lt;/li>
-&lt;li>&lt;code>textures\landscape\trees\treepineforestbarkcompsnow_n.dds&lt;/code>&lt;/li>
-&lt;li>&lt;code>textures\landscape\trees\treepineforestbarkcompsnowl.dds&lt;/code>&lt;/li>
-&lt;li>&lt;code>textures\landscape\trees\treepineforestbarkcompsnowl_n.dds&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>I prefer the snowy pine and aspen bark textures from Enhanced Vanilla Trees.&lt;/p>
-&lt;/blockquote>
-&lt;h5 id="bent-pines-iihttpswwwnexusmodscomskyrimspecialeditionmods8306tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8306?tab=files">Bent Pines II&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Bent Pines II&lt;/li>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> Navmesh .esp by CakeofHonor&lt;/li>
-&lt;/ul>
 &lt;h5 id="enhanced-landscapes---oaks-standalonehttpswwwnexusmodscomskyrimspecialeditionmods27367tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27367?tab=files">Enhanced Landscapes - Oaks Standalone&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> ELOS Oaks mixed greens&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Tree Type:&lt;/strong> Kojak&amp;rsquo;s Trees&lt;/li>
 &lt;li>&lt;strong>Plugin Format:&lt;/strong> ESPFE&lt;/li>
@@ -1722,7 +1689,7 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;ul>
 &lt;li>&lt;strong>Main File:&lt;/strong> Sacred Trees&lt;/li>
 &lt;/ul>
-&lt;h5 id="rudy-hq--falling-leaves-and-needleshttpswwwnexusmodscomskyrimspecialeditionmods25939tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25939?tab=files">Rudy HQ – Falling Leaves and Needles&lt;/a> (optional)&lt;/h5>
+&lt;h5 id="rudy-hq---falling-leaves-and-needleshttpswwwnexusmodscomskyrimspecialeditionmods25939tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25939?tab=files">Rudy HQ - Falling Leaves and Needles&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - Falling Leaves and Needles for ENB SE&lt;/li>
@@ -1733,26 +1700,33 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Cathedral - Plants&lt;/li>
 &lt;/ul>
-&lt;h5 id="rallys-hanging-mosshttpswwwnexusmodscomskyrimspecialeditionmods33225tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33225?tab=files">Rally&amp;rsquo;s Hanging Moss&lt;/a> (optional)&lt;/h5>
+&lt;h5 id="flora-mod-collectionhttpswwwnexusmodscomskyrimmods80722tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrim/mods/80722/?tab=files">Flora Mod Collection&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Miscellaneous Files:&lt;/strong> Fern - 2K&lt;/li>
+&lt;li>&lt;strong>Miscellaneous Files:&lt;/strong> Green Ivy - 2K&lt;/li>
+&lt;li>&lt;strong>Miscellaneous Files:&lt;/strong> Swamp Fungal Pod - 2K&lt;/li>
+&lt;/ul>
+&lt;h5 id="rallys-hanging-mosshttpswwwnexusmodscomskyrimspecialeditionmods33225tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33225?tab=files">Rally&amp;rsquo;s Hanging Moss&lt;/a> (optional)&lt;/h5>
+&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rallys Hanging Moss - Desaturated&lt;/li>
 &lt;/ul>
 &lt;h5 id="realistic-hd-mushrooms-remasteredhttpswwwnexusmodscomskyrimspecialeditionmods21996tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21996?tab=files">Realistic HD Mushrooms Remastered&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Realistic HD Mushrooms Remastered&lt;/li>
 &lt;/ul>
 &lt;h5 id="less-ugly-tundra-grasshttpswwwnexusmodscomskyrimspecialeditionmods26740tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26740?tab=files">Less Ugly Tundra Grass&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Less Ugly Tundragrass - Redder Variant&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>I am recommending the &amp;ldquo;Redder Variant&amp;rdquo; because we are not using any green Whiterun tundra mods.&lt;/p>
 &lt;/blockquote>
-&lt;h5 id="rallys-solstheim-plantshttpswwwnexusmodscomskyrimspecialeditionmods35081-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/35081">Rally&amp;rsquo;s Solstheim Plants&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
+&lt;h5 id="rallys-solstheim-plantshttpswwwnexusmodscomskyrimspecialeditionmods35081tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/35081?tab=files">Rally&amp;rsquo;s Solstheim Plants&lt;/a> (optional)&lt;/h5>
+&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rally&amp;rsquo;s Solstheim Plants 2K&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Lods for Mushroom Trees 512x512&lt;/li>
@@ -1997,7 +1971,7 @@ Only install this mod if you installed &lt;strong>The Elder Scrolls - Veydosebro
 &lt;h5 id="better-dynamic-majestic-mountainshttpswwwnexusmodscomskyrimspecialeditionmods20102tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20102?tab=files">Better Dynamic Majestic Mountains&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Better Dynamic Majestic Mountains - v8&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Better Dynamic Majestic Mountains&lt;/li>
 &lt;/ul>
 &lt;h5 id="skyrim-3d-icefloeshttpswwwnexusmodscomskyrimspecialeditionmods20101tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20101?tab=files">Skyrim 3D Icefloes&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
@@ -2009,33 +1983,8 @@ Only install this mod if you installed &lt;strong>The Elder Scrolls - Veydosebro
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Better Dynamic Ash SE&lt;/li>
 &lt;/ul>
-&lt;h5 id="enhanced-landscapes---dead-marshhttpswwwnexusmodscomskyrimspecialeditionmods18162tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18162?tab=files">Enhanced Landscapes - Dead Marsh&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Main File v1.65&lt;/li>
-&lt;/ul>
-&lt;h4 id="fomod-instructions-6">FOMOD Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> Dead Marsh&lt;/li>
-&lt;/ul>
-&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
-&lt;ul>
-&lt;li>Delete the following file(s) and/or folder(s):
-&lt;ul>
-&lt;li>&lt;code>DynDOLOD\&lt;/code>&lt;/li>
-&lt;li>&lt;code>Enhanced Landscapes.esp&lt;/code>&lt;/li>
-&lt;li>&lt;code>Enhanced Landscapes - Dead Marsh.esp&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>Rename the mod to “&lt;strong>Enhanced Landscapes - Dead Marsh&lt;/strong>” to indicate that only that module is installed.&lt;/p>
-&lt;h5 id="enhanced-landscapes---dead-marsh-fixeshttpswwwnexusmodscomskyrimspecialeditionmods9951tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9951?tab=files">Enhanced Landscapes - Dead Marsh Fixes&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Enhanced Landscapes - Dead Marsh Fixes&lt;/li>
-&lt;/ul>
 &lt;h5 id="immersive-fallen-treeshttpswwwnexusmodscomskyrimspecialeditionmods8767tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8767?tab=files">Immersive Fallen Trees&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Fallen Trees SSE&lt;/li>
 &lt;/ul>
@@ -2044,12 +1993,12 @@ Only install this mod if you installed &lt;strong>The Elder Scrolls - Veydosebro
 &lt;h4 class="alert-heading">Mod Dependency&lt;/h4>
 Only install this mod if you installed &lt;strong>Immersive Fallen Trees&lt;/strong>. Otherwise skip it.
 &lt;/div>
-&lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Fallen Trees Patch&lt;/li>
 &lt;/ul>
 &lt;h5 id="rorikstead-basalt-cliffshttpswwwnexusmodscomskyrimspecialeditionmods25718tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25718?tab=files">Rorikstead Basalt Cliffs&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-18">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rorikstead Basalt Cliffs&lt;/li>
 &lt;/ul>
@@ -2058,30 +2007,30 @@ Only install this mod if you installed &lt;strong>Immersive Fallen Trees&lt;/str
 &lt;h4 class="alert-heading">Mod Dependency&lt;/h4>
 Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/strong>. Otherwise skip it.
 &lt;/div>
-&lt;h4 id="download-instructions-19">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rorikstead Basalt Cliffs Patches&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions-7">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions-6">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Patches:&lt;/strong> Rorikstead Basalt Cliffs + Alternate Start - Live Another Life + Landscape Fixes for Grass Mods&lt;/li>
 &lt;/ul>
 &lt;h5 id="ashbound---solstheim-enhancedhttpswwwnexusmodscomskyrimspecialeditionmods14663tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14663?tab=files">Ashbound - Solstheim Enhanced&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-20">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-18">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Ashbound 1.1&lt;/li>
 &lt;/ul>
 &lt;h5 id="point-the-wayhttpswwwnexusmodscomskyrimspecialeditionmods352tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/352?tab=files">Point The Way&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-21">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-19">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Point The Way&lt;/li>
 &lt;/ul>
 &lt;h5 id="lanterns-of-skyrim-iihttpswwwnexusmodscomskyrimspecialeditionmods30817tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30817?tab=files">Lanterns of Skyrim II&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-22">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-20">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Lanterns Of Skyrim II - FOMOD&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions-8">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions-7">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Addons:&lt;/strong>
 &lt;ul>
@@ -2136,7 +2085,7 @@ Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/s
 &lt;li>LoS II - Karthwasten patch&lt;/li>
 &lt;li>LoS II - Kynesgrove patch&lt;/li>
 &lt;li>&lt;del>LoS II - Oakwood patch&lt;/del>&lt;/li>
-&lt;li>LoS II - Provincial Courier Service patch&lt;/li>
+&lt;li>&lt;del>LoS II - Provincial Courier Service patch&lt;/del>&lt;/li>
 &lt;li>LoS II - Shor’s Stone patch&lt;/li>
 &lt;li>LoS II - Soljund’s Sinkhole patch&lt;/li>
 &lt;li>&lt;del>LoS II - Telengard patch&lt;/del>&lt;/li>
@@ -2146,16 +2095,16 @@ Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/s
 &lt;/li>
 &lt;/ul>
 &lt;h5 id="manor-roadshttpswwwnexusmodscomskyrimspecialeditionmods24715tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24715?tab=files">Manor Roads&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-23">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-21">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Manor Roads&lt;/li>
 &lt;/ul>
 &lt;h5 id="immersive-dawnguard-dayspring-pass-iddphttpswwwnexusmodscomskyrimspecialeditionmods4126tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4126?tab=files">Immersive Dawnguard Dayspring Pass (IDDP)&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-24">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-22">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Dawnguard Dayspring Pass (IDDP)&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Buildings &amp; Interiors</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/12-buildings-interiors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/12-buildings-interiors/</guid><description>
-&lt;h5 id="jks-cities--litehttpswwwnexusmodscomskyrimmods71018tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/71018?tab=files">JK’s Cities – Lite&lt;/a>&lt;/h5>
+&lt;h5 id="jks-cities---litehttpswwwnexusmodscomskyrimmods71018tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/71018?tab=files">JK’s Cities - Lite&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> JKs Cities - Lite and SuperLite - Installer - 1.3&lt;/li>
@@ -2374,20 +2323,15 @@ Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/s
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h5 id="provincial-courier-servicehttpswwwnexusmodscomskyrimspecialeditionmods10623tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/10623?tab=files">Provincial Courier Service&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Provincial Courier Service&lt;/li>
-&lt;/ul>
 &lt;h5 id="unique-border-gateshttpswwwnexusmodscomskyrimspecialeditionmods4819tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4819?tab=files">Unique Border Gates&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Unique Border Gates All&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Unique Border Gates All - Better DG Entrance - Patch&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Unique Border Gates All - Point The Way - Patch&lt;/li>
 &lt;/ul>
 &lt;h5 id="solstheim-lighthousehttpswwwnexusmodscomskyrimspecialeditionmods14329tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14329?tab=files">Solstheim Lighthouse&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Solstheim Lighthouse v1.2 ESL&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> HD Raven Rock Brick Texture Replacer&lt;/li>
@@ -2405,7 +2349,7 @@ Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/s
 &lt;p>This is faster than downloading and ESL-ifying the ESP version.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="solstheim---skaal-fishing-camphttpswwwnexusmodscomskyrimspecialeditionmods14450tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14450?tab=files">Solstheim - Skaal Fishing Camp&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Solstheim - Skaal Fishing Camp&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: NPC Overhauls</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/13-npc-overhauls/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/13-npc-overhauls/</guid><description>
@@ -2599,15 +2543,28 @@ Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/s
 &lt;/ul>
 &lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Architecture</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/14-architecture/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/14-architecture/</guid><description>
-&lt;h5 id="mds-farmhouseshttpswwwnexusmodscomskyrimspecialeditionmods32160tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32160?tab=files">MD&amp;rsquo;s Farmhouses&lt;/a> (optional)&lt;/h5>
+&lt;h5 id="true-nordic-farmhouseshttpswwwnexusmodscomskyrimspecialeditionmods38150tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38150?tab=files">True Nordic Farmhouses&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> MD&amp;rsquo;s Farmhouses - 2K&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> True Nordic Farmhouses - Standard&lt;/li>
 &lt;/ul>
+&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and/or folder(s):
+&lt;ul>
+&lt;li>&lt;code>meshes\&lt;/code>&lt;/li>
+&lt;li>&lt;code>textures\architecture\farmhouse\stonewall01.dds&lt;/code>&lt;/li>
+&lt;li>&lt;code>textures\architecture\farmhouse\stonewall01_n.dds&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The stone walls will be covered by another mod later on. The stone wall doesn&amp;rsquo;t look quite right in my opinion and by removing it, the game will revert to the Noble Skyrim textures which blends in better.&lt;/p>
+&lt;/blockquote>
 &lt;h5 id="the-streets-of-whiterun-hdhttpswwwnexusmodscomskyrimspecialeditionmods20396tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20396?tab=files">The Streets of Whiterun HD&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> The Streets of Whiterun in HD – 2k Mossier&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> The Streets of Whiterun in HD - 2k Mossier&lt;/li>
 &lt;/ul>
 &lt;h5 id="riften-in-high-definitionhttpswwwnexusmodscomskyrimspecialeditionmods20296tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20296?tab=files">Riften in High Definition&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
@@ -2642,10 +2599,10 @@ Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/s
 &lt;h5 id="hq-solitudehttpswwwnexusmodscomskyrimspecialeditionmods23937tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23937?tab=files">HQ Solitude&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> HQ Solitude – 2K&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> HQ Solitude - 2K&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> 4K Blue Palace Floor&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Delete the following files:
 &lt;ul>
@@ -2669,7 +2626,7 @@ Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/s
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Raven Rock LODs 512&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> RRR - Blended Roads Patch 2K&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Delete the following file(s) and/or folder(s) from the main file:
 &lt;ul>
@@ -2755,7 +2712,7 @@ Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/s
 &lt;h5 id="soul-cairn-hdhttpswwwnexusmodscomskyrimspecialeditionmods15481tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/15481?tab=files">Soul Cairn HD&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-21">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Soul Cairn HD 2K&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Soul Cairn 2K&lt;/li>
 &lt;/ul>
 &lt;h5 id="arris-snow-elf-ruins-retexturehttpswwwnexusmodscomskyrimspecialeditionmods7292tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/7292?tab=files">Arri’s Snow Elf Ruins Retexture&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-22">Download Instructions&lt;/h4>
@@ -3313,24 +3270,24 @@ Only install this mod if you installed &lt;strong>JS Dragon Claws&lt;/strong>. O
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h5 id="rustic-azuras-starhttpswwwnexusmodscomskyrimspecialeditionmods18345-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18345">RUSTIC AZURAS STAR&lt;/a> (optional)&lt;/h5>
+&lt;h5 id="rustic-azuras-starhttpswwwnexusmodscomskyrimspecialeditionmods18345tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18345?tab=files">RUSTIC AZURAS STAR&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> RUSTIC AZURA’S STAR - SSE - 2K&lt;/li>
 &lt;/ul>
-&lt;h5 id="rustic-elderscrollhttpswwwnexusmodscomskyrimspecialeditionmods17757-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17757">RUSTIC ELDERSCROLL&lt;/a> (optional)&lt;/h5>
+&lt;h5 id="rustic-elderscrollhttpswwwnexusmodscomskyrimspecialeditionmods17757tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17757?tab=files">RUSTIC ELDERSCROLL&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> RUSTIC ELDERSCROLL - Special Edition - 2K&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> ELDERSCROLL SSE - FX - 1K &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h5 id="rustic-animated-potions-and-poisonshttpswwwnexusmodscomskyrimspecialeditionmods2276-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2276/">RUSTIC ANIMATED POTIONS AND POISONS&lt;/a> (optional)&lt;/h5>
+&lt;h5 id="rustic-animated-potions-and-poisonshttpswwwnexusmodscomskyrimspecialeditionmods2276tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2276?tab=files">RUSTIC ANIMATED POTIONS AND POISONS&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> RUSTIC ANIMATED POTIONS and POISONS 1K&lt;/li>
 &lt;li>&lt;strong>Update Files:&lt;/strong> SSE Meshes &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h5 id="rallys-werewolf-totemshttpswwwnexusmodscomskyrimspecialeditionmods28882-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28882">Rally&amp;rsquo;s Werewolf Totems&lt;/a> (optional)&lt;/h5>
+&lt;h5 id="rallys-werewolf-totemshttpswwwnexusmodscomskyrimspecialeditionmods28882tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28882?tab=files">Rally&amp;rsquo;s Werewolf Totems&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-18">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rallys Werewolf Totems HQ 2K-1K&lt;/li>
@@ -3341,7 +3298,7 @@ Only install this mod if you installed &lt;strong>JS Dragon Claws&lt;/strong>. O
 &lt;li>&lt;strong>Main Files:&lt;/strong> Meridia&amp;rsquo;s Luxon Beacon&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> No Handles Option &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h5 id="bloodstone-chalice-rebornhttpswwwnexusmodscomskyrimmods63551-optional">&lt;a href="https://www.nexusmods.com/skyrim/mods/63551/">BLOODSTONE CHALICE REBORN&lt;/a> (optional)&lt;/h5>
+&lt;h5 id="bloodstone-chalice-rebornhttpswwwnexusmodscomskyrimmods63551tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrim/mods/63551?tab=files">BLOODSTONE CHALICE REBORN&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-20">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> BLOODSTONE CHALICE REBORN 1K&lt;/li>
@@ -3459,7 +3416,7 @@ Only install this mod if you installed &lt;strong>JS Dragon Claws&lt;/strong>. O
 &lt;li>Close SSEEdit and click &lt;strong>OK&lt;/strong> to save your changes.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/mod_installation/true_homecooked_meal_ussep.png" alt="True Homecooked Meal USSEP">&lt;/p>
-&lt;h5 id="hd-meshes-and-textures-for-animal-and-creature-dropshttpswwwnexusmodscomskyrimspecialeditionmods33791-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33791/">HD Meshes and Textures for Animal and Creature Drops&lt;/a> (optional)&lt;/h5>
+&lt;h5 id="hd-meshes-and-textures-for-animal-and-creature-dropshttpswwwnexusmodscomskyrimspecialeditionmods33791tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33791?tab=files">HD Meshes and Textures for Animal and Creature Drops&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> SSE HD Animal and Creature Drops&lt;/li>
@@ -4454,10 +4411,6 @@ Only install this mod if you installed &lt;strong>JS Circlet Replacer&lt;/strong
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-order">Mod Order&lt;/h4>
-&lt;ul>
-&lt;li>Move below the &lt;strong>PATCHES&lt;/strong> separator.&lt;/li>
-&lt;/ul>
 &lt;h5 id="morningstar---minimalistic-races-of-skyrimhttpswwwnexusmodscomskyrimspecialeditionmods22298tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22298?tab=files">Morningstar - Minimalistic Races of Skyrim&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
 &lt;ul>
@@ -4504,10 +4457,6 @@ Only install this mod if you installed &lt;strong>Subtle But Classless&lt;/stron
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Carriage and Ferry Travel Overhaul&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> CFTO - Dawnstar by Arthmoor Patch&lt;/li>
-&lt;/ul>
-&lt;h4 id="mod-order-1">Mod Order&lt;/h4>
-&lt;ul>
-&lt;li>Place &lt;strong>CFTO - Dawnstar by Arthmoor Patch&lt;/strong> below the &lt;strong>PATCHES&lt;/strong> separator.&lt;/li>
 &lt;/ul>
 &lt;h5 id="cfto---winterhold-carriagehttpswwwnexusmodscomskyrimspecialeditionmods27236tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27236?tab=files">CFTO - Winterhold Carriage&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
@@ -4658,7 +4607,7 @@ Only install this mod if you installed &lt;strong>Subtle But Classless&lt;/stron
 &lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Thugs Not Assassins&lt;/li>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> Thugs Not Assassins - Timing Is Everything Patch&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Thugs Not Assassins - Timing Is Everything&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>Even though Timing Is Everything will be installed later on and lower in the mod order, the scripts from the TNA patch BSA will still override it because the plugin will be loaded below TIE&amp;rsquo;s (BSA-packed assets override according to load order, not mod order).&lt;/p>
@@ -5025,29 +4974,24 @@ Install this mod if you installed &lt;strong>Immersive Patrols&lt;/strong>. Othe
 &lt;ul>
 &lt;li>&lt;strong>Main File:&lt;/strong> Arena - An Encounter Zone Overhaul&lt;/li>
 &lt;/ul>
-&lt;h5 id="mortal-enemieshttpswwwnexusmodscomskyrimspecialeditionmods4881tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4881?tab=files">Mortal Enemies&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Mortal Enemies SE - Rival Remix - No Run Walk Changes&lt;/li>
-&lt;/ul>
 &lt;h5 id="realistic-ai-detectionhttpswwwnexusmodscomskyrimspecialeditionmods2345tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2345?tab=files">Realistic AI Detection&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Realistic AI Detection 2 SE – Lite&lt;/li>
 &lt;/ul>
 &lt;h5 id="simply-stronger-dragonshttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Simply Stronger Dragons&lt;/a> (optional)&lt;/h5>
 &lt;p>&lt;em>This is a repack of the plugin that doubles the health of all dragons and quadruples it for Alduin. It is primarily meant for those who want longer dragon fights but can be too much depending on personal taste. I advise installing it but keeping it disabled until after the first few dragon fights. If they die too quickly for you, activate this mod.&lt;/em>&lt;/p>
-&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Simply Stronger Dragons - TPF Repack&lt;/li>
 &lt;/ul>
 &lt;h5 id="improved-trapshttpswwwnexusmodscomskyrimspecialeditionmods17592tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17592?tab=files">Improved Traps&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Improved Traps (Dangerous Edition)&lt;/li>
 &lt;/ul>
 &lt;h5 id="disarming-traps-is-dangeroushttpswwwnexusmodscomskyrimspecialeditionmods21691tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21691?tab=files">Disarming Traps Is Dangerous&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Disarming Traps Is Dangerous ESL Version&lt;/li>
 &lt;/ul>
@@ -5064,7 +5008,7 @@ Install this mod if you installed &lt;strong>Immersive Patrols&lt;/strong>. Othe
 &lt;p>This is faster than downloading and ESL-ifying the ESP version.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="beast-skeletonshttpswwwnexusmodscomskyrimspecialeditionmods517tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/517?tab=files">Beast Skeletons&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Beast Skeletons 6.1&lt;/li>
 &lt;/ul>
@@ -5077,17 +5021,17 @@ Only install this mod if you installed &lt;strong>Beast Skeletons&lt;/strong>. O
 &lt;li>&lt;strong>Main Files:&lt;/strong> Beast Skeletons - Plugin Replacer&lt;/li>
 &lt;/ul>
 &lt;h5 id="diverse-dragon-collection-ddchttpswwwnexusmodscomskyrimspecialeditionmods695tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/695?tab=files">Diverse Dragon Collection (DDC)&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Diverse Dragons Collection SE&lt;/li>
 &lt;/ul>
 &lt;h5 id="splendor---dragon-variantshttpswwwnexusmodscomskyrimspecialeditionmods9670tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9670?tab=files">Splendor - Dragon Variants&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Splendor - Dragon Variants&lt;/li>
 &lt;/ul>
 &lt;h5 id="diverse-werewolves-collection-dwchttpswwwnexusmodscomskyrimspecialeditionmods7009tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/7009?tab=files">Diverse Werewolves Collection (DWC)&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Diverse Werewolves Collection&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> DWC Player Werewolf Replacer&lt;/li>
@@ -5098,7 +5042,7 @@ Only install this mod if you installed &lt;strong>Beast Skeletons&lt;/strong>. O
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/mod_installation/diverse_werewolves_collection.png" alt="Diverse Werewolves Collection">&lt;/p>
 &lt;h5 id="more-werewolveshttpswwwnexusmodscomskyrimspecialeditionmods7259tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/7259?tab=files">More Werewolves&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> More Werewolves&lt;/li>
 &lt;/ul>
@@ -5108,40 +5052,32 @@ Only install this mod if you installed &lt;strong>Beast Skeletons&lt;/strong>. O
 &lt;li>&lt;strong>Patches:&lt;/strong> RFYL patch&lt;/li>
 &lt;/ul>
 &lt;h5 id="cannibal-draugr-on-solstheimhttpswwwnexusmodscomskyrimspecialeditionmods21238tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21238?tab=files">Cannibal Draugr on Solstheim&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Filess:&lt;/strong> Cannibal Draugr on Solstheim&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Cannibal Draugr on Solstheim&lt;/li>
 &lt;/ul>
 &lt;h5 id="the-blood-horkerhttpswwwnexusmodscomskyrimspecialeditionmods13938tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/13938?tab=files">The Blood Horker&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Blood Horker&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Balancing</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/28-balancing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/28-balancing/</guid><description>
-&lt;h5 id="morrowloot-miscellania---hybrid-loothttpswwwnexusmodscomskyrimspecialeditionmods27094tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27094?tab=files">Morrowloot Miscellania - Hybrid Loot&lt;/a>&lt;/h5>
+&lt;h5 id="morrowloot-miscellaniahttpswwwnexusmodscomskyrimspecialeditionmods27094tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27094?tab=files">Morrowloot Miscellania&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Hybrid Loot&lt;/li>
-&lt;/ul>
-&lt;h5 id="morrowloot-miscellania---item-distributionhttpswwwnexusmodscomskyrimspecialeditionmods27094tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27094?tab=files">Morrowloot Miscellania - Item Distribution&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
-&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Morrowloot Miscellania - Hybrid Loot&lt;/li>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Morrowloot Miscellania - Item Distribution&lt;/li>
-&lt;/ul>
-&lt;h5 id="morrowloot-miscellania---dremora-bound-weaponshttpswwwnexusmodscomskyrimspecialeditionmods27094tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27094?tab=files">Morrowloot Miscellania - Dremora Bound Weapons&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
-&lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Morrowloot Miscellania - Dremora Bound Weapons&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions---dremora-bound-weapons">FOMOD Instructions - Dremora Bound Weapons&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Patches:&lt;/strong> AOS Patch&lt;/li>
 &lt;/ul>
 &lt;h5 id="economy-overhaul-and-speechcraft-improvementshttpswwwnexusmodscomskyrimspecialeditionmods9542tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9542?tab=files">Economy Overhaul and Speechcraft Improvements&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Economy Overhaul and Speechcraft Improvements 3.0 Fomod Installer&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Mod Version:&lt;/strong>
 &lt;ul>
@@ -5162,26 +5098,26 @@ Only install this mod if you installed &lt;strong>Beast Skeletons&lt;/strong>. O
 &lt;p>All conflicts between this mod and other mods included in the guide are already covered in the TPF CRP.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="trade-and-barterhttpswwwnexusmodscomskyrimspecialeditionmods23081tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23081?tab=files">Trade and Barter&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Trade and Barter SE&lt;/li>
 &lt;/ul>
 &lt;h5 id="genuinely-intelligent-soul-traps-gisthttpswwwnexusmodscomskyrimspecialeditionmods15755tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/15755?tab=files">Genuinely Intelligent Soul Traps (GIST)&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> GIST Soul Trap&lt;/li>
 &lt;/ul>
 &lt;h5 id="skyrim-alchemy-fixedhttpswwwnexusmodscomskyrimspecialeditionmods2262tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2262?tab=files">Skyrim Alchemy Fixed&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Skyrim Alchemy Fixed&lt;/li>
 &lt;/ul>
 &lt;h5 id="enchanting-adjustments-and-price-bug-fixhttpswwwnexusmodscomskyrimspecialeditionmods8473tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8473?tab=files">Enchanting Adjustments and Price Bug Fix&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Enchanting Adjustments FOMOD V2.4 Installer&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions-2">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main File Choice:&lt;/strong>
 &lt;ul>
@@ -5197,16 +5133,16 @@ Only install this mod if you installed &lt;strong>Beast Skeletons&lt;/strong>. O
 &lt;/li>
 &lt;/ul>
 &lt;h5 id="more-expensive-transmute-for-mysticismhttpswwwnexusmodscomskyrimspecialeditionmods31754tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/31754?tab=files">More Expensive Transmute for Mysticism&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> More Expensive Transmute for Mysticism&lt;/li>
 &lt;/ul>
 &lt;h5 id="zims-immersive-artifactshttpswwwnexusmodscomskyrimspecialeditionmods9138tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9138?tab=files">Zim&amp;rsquo;s Immersive Artifacts&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Zim&amp;rsquo;s Immersive Artifacts V1.6.2&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions-3">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions-2">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Complete Pack:&lt;/strong>
 &lt;ul>
@@ -5255,7 +5191,7 @@ Only install this mod if you installed &lt;strong>Beast Skeletons&lt;/strong>. O
 &lt;/li>
 &lt;/ul>
 &lt;h5 id="unique-items-tweaks---improved-less-known-artifactshttpswwwnexusmodscomskyrimspecialeditionmods33723tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33723?tab=files">Unique Items Tweaks - Improved Less Known Artifacts&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Unique Items Tweaks&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Miscellaneous</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/29-miscellaneous/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/29-miscellaneous/</guid><description>
@@ -5401,10 +5337,6 @@ Only install this mod if you installed &lt;strong>Talkative Dragons&lt;/strong>.
 &lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>WACCF:&lt;/strong> WACCF + ACE&lt;/li>
-&lt;/ul>
-&lt;h4 id="mod-order">Mod Order&lt;/h4>
-&lt;ul>
-&lt;li>Place the mod below the &lt;strong>PATCHES&lt;/strong> separator.&lt;/li>
 &lt;/ul>
 &lt;h5 id="amidianborn-content-addonhttpswwwnexusmodscomskyrimspecialeditionmods35390tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/35390?tab=files">aMidianBorn Content Addon&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>

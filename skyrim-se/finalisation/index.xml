@@ -1,17 +1,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Finalisation</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/</link><description>Recent content in Finalisation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/skyrim-se/finalisation/index.xml" rel="self" type="application/rss+xml"/><item><title>Skyrim-Se: Wrapping Up</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/01-wrapping-up/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/01-wrapping-up/</guid><description>
 &lt;h2 id="conflict-resolution-patch">Conflict Resolution Patch&lt;/h2>
 &lt;ul>
-&lt;li>Download the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14223">Conflict Resolution Patch&lt;/a> from the guide’s Nexus page.&lt;/li>
-&lt;li>Install it as usual and place it last below the &lt;strong>PATCHES&lt;/strong> separator.&lt;/li>
+&lt;li>Download the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14223?tab=files">Conflict Resolution Patch&lt;/a> from the guide’s Nexus page.&lt;/li>
+&lt;li>Install it as usual and place it last below the &lt;strong>FINAL PATCHES&lt;/strong> separator.&lt;/li>
 &lt;/ul>
 &lt;h2 id="load-order-txt">Load Order TXT&lt;/h2>
 &lt;p>The pre-made TXT will arrange your plugins exactly like the way they are sorted in my personal setup. This is much faster than adjusting the load order manually or setting up LOOT with custom rules.&lt;/p>
+&lt;h3 id="enabling-all-plugins">Enabling all plugins&lt;/h3>
 &lt;ul>
-&lt;li>Download the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14223">Universal Load Order TXT&lt;/a> from the guide’s Nexus page.&lt;/li>
+&lt;li>Click anywhere in the right pane (load order) and select &lt;strong>Enable all&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>This will ensure all plugins are active prior to sorting them. Plugins may be unchecked automatically when renaming their file extensions.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="applying-the-load-order">Applying the load order&lt;/h3>
+&lt;ul>
+&lt;li>Download the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14223?tab=files">Universal Load Order TXT&lt;/a> from the guide’s Nexus page.&lt;/li>
 &lt;li>Open the archive and extract the &lt;strong>loadorder.txt&lt;/strong> to &lt;code>Mod Organizer 2\profiles\The Phoenix Flavour&lt;/code>.&lt;/li>
 &lt;li>Restart Mod Organizer 2 and the changes will be applied.&lt;/li>
 &lt;/ul>
-&lt;p>After applying the loadorder.txt and restarting MO2, there should be no plugins below &lt;strong>Conflict Resolution Patch.esp&lt;/strong> in the load order (right pane). If there are plugins, you either made a mistake during the mod installation, or a mod was updated and the loadorder.txt is not accounting for it yet. If this happens, please join us on Discord and post your Modwat.ch link in the #request-support channel.&lt;/p>
+&lt;p>After applying the loadorder.txt and restarting MO2, there should be no plugins below the &lt;strong>Conflict Resolution Patch.esp&lt;/strong> and the other official but optional patches in the load order (right pane).&lt;/p>
+&lt;p>If there are other plugins below, you either made a mistake during the mod installation, or a mod was updated and the loadorder.txt is not accounting for it yet. If this happens, please join us on Discord and post your Modwat.ch link in the &lt;code>#guide-support&lt;/code> channels.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/loadorder-final-plugins.png" alt="Load Order Final Plugins">&lt;/p>
 &lt;h2 id="check-for-mo2-warnings">Check for MO2 Warnings&lt;/h2>
 &lt;p>MO2 has inbuilt functionality that checks for plugins with Form 43 (Skyrim LE plugins that have not been re-saved in the Creation Kit). If no issues are detected, the &lt;strong>Notifications&lt;/strong> icon in MO2 will be greyed out.&lt;/p>
 &lt;ul>
@@ -53,7 +63,7 @@
 &lt;li>CBBE.esp&lt;/li>
 &lt;li>Subtle but Classless.esp&lt;/li>
 &lt;li>CFTO - Arthmoor Danwstar Patch.esp&lt;/li>
-&lt;li>RDO - USSEP.esp&lt;/li>
+&lt;li>RDO - USSEP Patch.esp&lt;/li>
 &lt;li>Miscellaneous Quests…as Miscellaneous Quests.esp&lt;/li>
 &lt;li>Northerner Diaries in Skyrim.esp &lt;strong>compact FormIDs&lt;/strong>&lt;/li>
 &lt;li>Still.esp&lt;/li>
@@ -84,7 +94,7 @@
 &lt;/ul>
 &lt;/li>
 &lt;li>Click &lt;strong>Update FNIS Behaviour&lt;/strong> to generate the new files.&lt;/li>
-&lt;li>Wait until FNIS confirms that animations were succesfully included, then close the window.&lt;/li>
+&lt;li>Wait until FNIS confirms that animations were successfully included, then close the window.&lt;/li>
 &lt;li>If asked to create a Desktop shortcut, click &lt;strong>Cancel&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;h2 id="fnis-output">FNIS Output&lt;/h2>
@@ -256,6 +266,9 @@
 &lt;li>Check &lt;strong>Enhanced Landscapes - Solstheim 3D Trees&lt;/strong> in your mod order (&lt;strong>09 TREES &amp;amp; PLANTS&lt;/strong> separator).&lt;/li>
 &lt;/ul>
 &lt;h2 id="dyndolod---lod-generation">DynDOLOD - LOD Generation&lt;/h2>
+&lt;blockquote>
+&lt;p>Continue here for either 2D or 3D LOD.&lt;/p>
+&lt;/blockquote>
 &lt;ul>
 &lt;li>Launch &lt;strong>DynDOLOD&lt;/strong> through Mod Organizer 2.&lt;/li>
 &lt;li>A window will come up, click &lt;strong>Advanced&lt;/strong>.&lt;/li>

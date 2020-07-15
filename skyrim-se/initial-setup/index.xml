@@ -216,7 +216,7 @@
 &lt;/ul>
 &lt;h2 id="creation-kit-fixes">Creation Kit Fixes&lt;/h2>
 &lt;ul>
-&lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20061">SSE Creation Kit Fixes&lt;/a> (CK64 Fixes release 2.x) manually from the Nexus.&lt;/li>
+&lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20061">SSE Creation Kit Fixes&lt;/a> (CK64Fixes Release 3.x) manually from the Nexus.&lt;/li>
 &lt;li>Extract the three DLL files and the INI into your &lt;strong>root&lt;/strong> folder.&lt;/li>
 &lt;li>&lt;strong>Optional:&lt;/strong> Move the archive to &lt;code>Your Modding Folder\ARCHIVE\CK Fixes&lt;/code> to keep as a backup.&lt;/li>
 &lt;/ul>
@@ -464,7 +464,7 @@
 &lt;ul>
 &lt;li>Locate your default INI files in the following directory:
 &lt;ul>
-&lt;li>&lt;code>C:\Users\{USERNAME}\My Games\Skyrim Special Edition&lt;/code>&lt;/li>
+&lt;li>&lt;code>C:\Users\{USERNAME}\Documents\My Games\Skyrim Special Edition&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>If you have old save games you wish to keep, back up the &lt;strong>saves&lt;/strong> folder now.&lt;/li>
@@ -539,6 +539,7 @@
 &lt;li>&lt;strong>Anamorphic Lens Flare:&lt;/strong> Looks ugly, recommended to be turned off.&lt;/li>
 &lt;li>&lt;strong>Shadow Resolution:&lt;/strong> Set to &lt;code>2048&lt;/code> (unless you have a very slow CPU).&lt;/li>
 &lt;li>&lt;strong>Exterior Draw Distance:&lt;/strong> Set to &lt;code>8000&lt;/code>.&lt;/li>
+&lt;li>&lt;strong>Tree Shadows:&lt;/strong> Check the box for this setting.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>&lt;strong>Object LOD&lt;/strong> reflections are broken in SSE, but the mod SSE Engine Fixes includes a fix. &lt;strong>Depth of Field&lt;/strong> should not be disabled in the INI as it will make underwater look perfectly clear. By turning DOF all the way down in the ingame settings, you can disable it without breaking underwater visuals (if you dislike the DOF and/or want to use an ENB DOF effect instead).&lt;/p>
@@ -667,7 +668,7 @@
 &lt;/li>
 &lt;li>Paste them into your new &lt;strong>Official Master Files – Cleaned&lt;/strong> folder.&lt;/li>
 &lt;li>In Mod Organizer 2, press F5 to refresh and your new &amp;ldquo;mod&amp;rdquo; will appear at the bottom of the mod order.&lt;/li>
-&lt;li>Drag it up above &lt;em>DLC: Dragonborn&lt;/em> in your mod order and activate it.&lt;/li>
+&lt;li>Drag it up below &lt;em>DLC: Dragonborn&lt;/em> in your mod order and activate it.&lt;/li>
 &lt;/ul>
 &lt;h2 id="automated-cleaning-process">Automated Cleaning Process&lt;/h2>
 &lt;h3 id="updateesm">Update.esm&lt;/h3>
