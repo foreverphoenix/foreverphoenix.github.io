@@ -428,7 +428,7 @@ iSize W=1920
 &lt;li>Navigate to &lt;code>Your Modding Folder\Tools\Cathedral Assets Optimizer&lt;/code>.&lt;/li>
 &lt;li>Delete everything except for the &lt;strong>profiles&lt;/strong> folder.&lt;/li>
 &lt;li>Download the new version of Cathedral Assets Optimizer.&lt;/li>
-&lt;li>Open the archive and move everything except into the CAO folder.&lt;/li>
+&lt;li>Open the archive and move everything into the CAO folder.&lt;/li>
 &lt;li>Merge and overwrite when prompted.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
