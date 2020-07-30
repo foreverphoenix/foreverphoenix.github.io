@@ -62,6 +62,7 @@
 &lt;blockquote>
 &lt;p>30/07/2020&lt;/p>
 &lt;/blockquote>
+&lt;p>Maintenance update.&lt;/p>
 &lt;h4 id="initial-setup">Initial Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Skyrim SE:&lt;/strong> Added a note that non-English installations of Skyrim SE are not supported.&lt;/li>
@@ -73,7 +74,7 @@
 &lt;li>&lt;strong>Buildings &amp;amp; Interiors:&lt;/strong> Updated FOMOD instructions for Obscure&amp;rsquo;s College of Winterhold (no longer using Mannequins Stay Put).&lt;/li>
 &lt;li>&lt;strong>Dungeons:&lt;/strong> Updated download instructions for CC&amp;rsquo;s Enhanced Ore Veins.&lt;/li>
 &lt;li>&lt;strong>Dungeons:&lt;/strong> Added instructions to remove Heartstone meshes/textures from Metallurgy.&lt;/li>
-&lt;li>&lt;strong>Dungeons:&lt;/strong> Added instructions to remove the scathecrow textures from Forgotten Retex Overhaul.&lt;/li>
+&lt;li>&lt;strong>Clutter:&lt;/strong> Added instructions to remove the scathecrow textures from Forgotten Retex Overhaul.&lt;/li>
 &lt;li>&lt;strong>Apparel &amp;amp; Weapons:&lt;/strong> Added Male Horns for Female Iron Helmet.&lt;/li>
 &lt;li>&lt;strong>Unique Artifacts:&lt;/strong> Unique Zephyr is no longer optional (needs a conflict fixed in the CRP).&lt;/li>
 &lt;li>&lt;strong>Miscellaneous:&lt;/strong> Added Ish&amp;rsquo;s Respec Mod.&lt;/li>
