@@ -120,6 +120,9 @@
 &lt;li>Close all windows when you’re done.&lt;/li>
 &lt;/ul>
 &lt;h2 id="reinstallation">Reinstallation&lt;/h2>
+&lt;blockquote>
+&lt;p>Make sure that Skyrim is set to English in Steam (right-click the game, select Properties &amp;raquo; Language). Non-English installations are not supported.&lt;/p>
+&lt;/blockquote>
 &lt;ul>
 &lt;li>Open Steam and go into your &lt;strong>Game Library&lt;/strong>.&lt;/li>
 &lt;li>Find &lt;strong>The Elder Scrolls V: Skyrim Special Edition&lt;/strong> in the list and click &lt;strong>Install&lt;/strong>.&lt;/li>
@@ -700,34 +703,8 @@
 &lt;li>Close SSEEdit.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/update_esm_cleaned.png" alt="Update ESM Cleaned">&lt;/p>
-&lt;h2 id="manual-cleaning---update-esm">Manual Cleaning - Update ESM&lt;/h2>
-&lt;h3 id="source">Source&lt;/h3>
-&lt;p>With 1.5.97, Bethesda changed the navmeshes in Solitude for their latest &amp;ldquo;creation&amp;rdquo;, Saints &amp;amp; Seducers (&lt;a href="https://www.reddit.com/r/skyrimmods/comments/dzvg03/teardown_of_the_1597_update/?utm_source=share&amp;amp;utm_medium=web2x">source&lt;/a>). Some mods however still rely on the old navmesh and they will crash if it&amp;rsquo;s missing (namely Interesting NPCs). Therefore we will revert the deletion of the old navmesh.&lt;/p>
-&lt;p>Instructions are copied with permission from Lexy&amp;rsquo;s LOTD.&lt;/p>
-&lt;h3 id="instructions">Instructions&lt;/h3>
-&lt;ul>
-&lt;li>Run SSEEdit through Mod Organizer 2 (do &lt;strong>not&lt;/strong> use the Quick Cleaning version).&lt;/li>
-&lt;li>In the plugin selection window, right-click and &lt;strong>Select None&lt;/strong>.&lt;/li>
-&lt;li>Check only &lt;strong>Update.esm&lt;/strong> and hit &lt;strong>OK&lt;/strong> (Skyrim.esm will be loaded automatically as well because it is a master).&lt;/li>
-&lt;li>Once SSEEedit returns the message &lt;code>Background Loader: finished&lt;/code>, you may proceed.&lt;/li>
-&lt;li>Double-click &lt;strong>Update.esm&lt;/strong> and navigate to the following section:
-&lt;ul>
-&lt;li>&lt;code>Worldspace \ 0000003C Tamriel \ Block 1, -1 \ Sub-Block 5, -4 \ 0000BDC9 \ Temporary&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Double-click &lt;strong>Temporary&lt;/strong> and delete the following record:
-&lt;ul>
-&lt;li>&lt;code>00106EAA Navigation Mesh&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Close SSEEdit.&lt;/li>
-&lt;li>When asked to save your changes, only &lt;strong>Update.esm&lt;/strong> should appear in the list.&lt;/li>
-&lt;li>Make sure &lt;strong>Update.esm&lt;/strong> is checked, then click &lt;strong>OK&lt;/strong>.&lt;/li>
-&lt;li>You’re done!&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/setup/update_esm_manual_edit.png" alt="Update ESM Manual Edit">&lt;/p>
 &lt;h2 id="manual-cleaning---dawnguard-esm">Manual Cleaning - Dawnguard ESM&lt;/h2>
-&lt;h3 id="source-1">Source&lt;/h3>
+&lt;h3 id="source">Source&lt;/h3>
 &lt;p>There are &lt;a href="https://forums.nexusmods.com/index.php?/topic/5381485-guide-manual-cleaning-skyrim-and-skyrim-special-edition-master-files/">additional instructions written up by alt3rn1ty&lt;/a> to manually clean some dirty edits that won’t be caught by SSEEdit’s quick cleaning procedure. Only one of the edits can affect actual gameplay though, so we won’t bother with removing the other two which are simply left-over test records.&lt;/p>
 &lt;h3 id="apply-filter">Apply Filter&lt;/h3>
 &lt;ul>

@@ -359,7 +359,7 @@
 &lt;h5 id="mannequin-managementhttpswwwnexusmodscomskyrimspecialeditionmods38221tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38221?tab=files">Mannequin Management&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Mannequin Management&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Mannequin Management-USSEP&lt;/li>
 &lt;/ul>
 &lt;h5 id="eye-normal-map-fixhttpswwwnexusmodscomskyrimspecialeditionmods5445tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5445?tab=files">Eye Normal Map Fix&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
@@ -1730,6 +1730,11 @@ Only install this mod if you installed &lt;strong>A Matter of Time&lt;/strong>. 
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rally&amp;rsquo;s Solstheim Plants 2K&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Lods for Mushroom Trees 512x512&lt;/li>
+&lt;/ul>
+&lt;h5 id="scathecraw-hd-2khttpswwwnexusmodscomskyrimspecialeditionmods38454tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38454?tab=files">Scathecraw HD 2K&lt;/a> (optional)&lt;/h5>
+&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File:&lt;/strong> Scathecraw HD 2K&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Landscape</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/11-landscape/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/11-landscape/</guid><description>
 &lt;h5 id="majestic-mountainshttpswwwnexusmodscomskyrimspecialeditionmods11052tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11052?tab=files">Majestic Mountains&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions">Download Instructions&lt;/h4>
@@ -2203,7 +2208,7 @@ Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/s
 &lt;/li>
 &lt;li>&lt;strong>Recommendations:&lt;/strong>
 &lt;ul>
-&lt;li>Mannequins Stay Put Detected &amp;raquo; &lt;code>this will be greyed out if you skipped Mannequins Stay Put&lt;/code>&lt;/li>
+&lt;li>&lt;del>Mannequins Stay Put Detected&lt;/del>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>&lt;strong>iNeed:&lt;/strong>
@@ -3068,7 +3073,8 @@ Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/s
 &lt;h5 id="ccs-enhanced-ore-veinshttpswwwnexusmodscomskyrimspecialeditionmods1306tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1306?tab=files">CC’s Enhanced Ore Veins&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Enhanced Ore Veins - 2K - 7.2&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Enhanced Ore Veins - 2K - 8.0&lt;/li>
+&lt;li>&lt;strong>Update Files:&lt;/strong> Enhanced Ore Veins - 8.0.1 - Patch &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
 &lt;ul>
@@ -3106,8 +3112,19 @@ Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/s
 &lt;h5 id="metallurgy---ingots-and-ore-hdhttpswwwnexusmodscomskyrimspecialeditionmods30738tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30738?tab=files">Metallurgy - Ingots and Ore HD&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Metallurgy - Ingots and Ore HD 1K (LOOSE)&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Metallurgy - Ingots Ore and Veins HD 1K (LOOSE)&lt;/li>
 &lt;/ul>
+&lt;h4 id="additional-instructions-3">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and/or folder(s):
+&lt;ul>
+&lt;li>&lt;code>textures\DLC02\&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The Heartstone and Heartstone ore textures are covered by CC&amp;rsquo;s Enhanced Ore Veins.&lt;/p>
+&lt;/blockquote>
 &lt;h5 id="ancient-potteryhttpswwwnexusmodscomskyrimspecialeditionmods24039tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24039?tab=files">Ancient Pottery&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
 &lt;ul>
@@ -3150,12 +3167,12 @@ Only install this mod if you installed &lt;strong>Rorikstead Basalt Cliffs&lt;/s
 &lt;li>&lt;code>meshes\furniture\blacksmithforgemarker.nif&lt;/code>&lt;/li>
 &lt;li>&lt;code>meshes\furniture\blacksmithforgemarkerwr.nif&lt;/code>&lt;/li>
 &lt;li>&lt;code>meshes\furniture\blacksmithingskyforgemarker.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>textures\dlc02\plants\&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>The first five meshes conflict with and overwrite the arguably superior ones from Skyrim 3D Cooking.
-The final three meshes overwrite Embers HD and prevent its forge textures from being applied.&lt;/p>
+&lt;p>The first five meshes conflict with and overwrite the arguably superior ones from Skyrim 3D Cooking. The blacksmith forge meshes overwrite Embers HD and prevent its forge textures from being applied. The textures from the plants folder are deleted because they would overwrite fadingsignal&amp;rsquo;s Scathecraw HD if that was installed.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="aetherial-crown-by-saerileth---plugin-replacerhttpswwwnexusmodscomskyrimspecialeditionmods23631tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23631?tab=files">Aetherial Crown by Saerileth - Plugin Replacer&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
@@ -3505,8 +3522,13 @@ Only install this mod if you installed &lt;strong>JS Dragon Claws&lt;/strong>. O
 &lt;blockquote>
 &lt;p>There is no need to select the individual options at the bottom.&lt;/p>
 &lt;/blockquote>
-&lt;h5 id="frankly-hd-silver-swordhttpswwwnexusmodscomskyrimmods29563tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/29563?tab=files">Frankly HD Silver Sword&lt;/a>&lt;/h5>
+&lt;h5 id="male-horns-for-female-iron-helmethttpswwwnexusmodscomskyrimspecialeditionmods38672tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38672?tab=files">Male Horns for Female Iron Helmet&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Male Horns for Female Iron Helmet&lt;/li>
+&lt;/ul>
+&lt;h5 id="frankly-hd-silver-swordhttpswwwnexusmodscomskyrimmods29563tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/29563?tab=files">Frankly HD Silver Sword&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> UHSS - Main File Mid Res - 2k&lt;/li>
 &lt;/ul>
@@ -3514,7 +3536,7 @@ Only install this mod if you installed &lt;strong>JS Dragon Claws&lt;/strong>. O
 &lt;p>No optimisation necessary as all meshes will be overwritten by the next mod.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="leanwolfs-better-shaped-weaponshttpswwwnexusmodscomskyrimspecialeditionmods2017tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2017?tab=files">LeanWolf’s Better-Shaped Weapons&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> LeanWolfs Better-Shaped Weapons Installer v2.1.03 SE&lt;/li>
 &lt;/ul>
@@ -3572,7 +3594,7 @@ Only install this mod if you installed &lt;strong>JS Dragon Claws&lt;/strong>. O
 &lt;/li>
 &lt;/ul>
 &lt;h5 id="open-face-guard-helmetshttpswwwnexusmodscomskyrimspecialeditionmods13943tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/13943?tab=files">Open Face Guard Helmets&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Open Face Guard Helmets&lt;/li>
 &lt;/ul>
@@ -3581,23 +3603,23 @@ Only install this mod if you installed &lt;strong>JS Dragon Claws&lt;/strong>. O
 &lt;h4 class="alert-heading">Mod Dependency&lt;/h4>
 Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/strong>. Otherwise skip it.
 &lt;/div>
-&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Open Face Guard Helmets - Replacer Plugin&lt;/li>
 &lt;/ul>
 &lt;h5 id="frankly-hd-stormcloaks-and-city-guardshttpswwwnexusmodscomskyrimmods42404tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrim/mods/42404?tab=files">Frankly HD Stormcloaks and City Guards&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> UltraHD - Stormcloak and City Guards 2K version&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Fix by SpriterSan for 2k version &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h5 id="amidianborn-stormcloak-officer-armourhttpswwwnexusmodscomskyrimmods45692tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrim/mods/45692?tab=files">aMidianBorn Stormcloak Officer Armour&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> aMidianBorn Stormcloak officer&lt;/li>
 &lt;/ul>
 &lt;h5 id="frankly-hd-imperial-armor-and-weaponshttpswwwnexusmodscomskyrimspecialeditionmods20848tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20848?tab=files">Frankly HD Imperial Armor and Weapons&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Frankly HD Imperial Armor And Weapons 2k&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Frankly HD Imperial Armor And Weapons - Sleeves and Pants Edition&lt;/li>
@@ -3611,7 +3633,7 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;/li>
 &lt;/ul>
 &lt;h5 id="frankly-hd-dawnguard-armor-and-weaponshttpswwwnexusmodscomskyrimspecialeditionmods19663tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19663?tab=files">Frankly HD Dawnguard Armor and Weapons&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> FranklyHD Dawnguard Armor and Weapons&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Frankly HD Dawnguard Armor CBBE SE&lt;/li>
@@ -3621,7 +3643,7 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;li>&lt;strong>Texture Resolution:&lt;/strong> 2K Resolution&lt;/li>
 &lt;/ul>
 &lt;h5 id="iron-thingshttpswwwnexusmodscomskyrimspecialeditionmods26947tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26947?tab=files">Iron Things&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Iron Things SE 1.2&lt;/li>
 &lt;/ul>
@@ -3646,17 +3668,17 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;p>There is no need to delete the textures as well. They are in a custom directory that will only be accessed by the mod’s meshes and won’t overwrite any vanilla files or other retextures.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="elven-weapons-for-silencehttpswwwnexusmodscomskyrimspecialeditionmods27994tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27994?tab=files">Elven Weapons for Silence&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Leanwolf Elven - Default Silver&lt;/li>
 &lt;/ul>
 &lt;h5 id="ccs-hd-dwemer-weapons-and-armorhttpswwwnexusmodscomskyrimspecialeditionmods32384tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32384?tab=files">CC’s HD Dwemer Weapons and Armor&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> CC’s HD Dwemer Weapons and Armor - 2K - 1.0&lt;/li>
 &lt;/ul>
 &lt;h5 id="frankly-hd-thieves-guild-armorhttpswwwnexusmodscomskyrimspecialeditionmods19953tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19953?tab=files">Frankly HD Thieves Guild Armor&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Frankly HD Thieves Guild Armors&lt;/li>
 &lt;/ul>
@@ -3665,7 +3687,7 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;li>&lt;strong>Texture Resolution:&lt;/strong> 2K Resolution&lt;/li>
 &lt;/ul>
 &lt;h5 id="frankly-hd-shrouded-armorhttpswwwnexusmodscomskyrimspecialeditionmods18785tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18785?tab=files">Frankly HD Shrouded Armor&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Frankly HD Shrouded Armor _ 1.1&lt;/li>
 &lt;/ul>
@@ -3675,12 +3697,12 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;li>&lt;strong>Options:&lt;/strong> &lt;del>Oblivion Style&lt;/del>&lt;/li>
 &lt;/ul>
 &lt;h5 id="falmer-weapons-for-amidianborn-book-of-silencehttpswwwnexusmodscomskyrimmods83950tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrim/mods/83950?tab=files">Falmer Weapons for aMidianBorn Book of Silence&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-18">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> falmerweapons4BoS&lt;/li>
 &lt;/ul>
 &lt;h5 id="outlandish-stalhrimhttpswwwnexusmodscomskyrimspecialeditionmods19562tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19562?tab=files">Outlandish Stalhrim&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-18">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-19">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Outlandish Stalhrim SSE&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Outlandish Stalhrim SSE - Better Shaped Weapons Patch&lt;/li>
@@ -3689,23 +3711,23 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;p>If you want the vanilla blue colour back for Stalhrim armor, download the &lt;strong>Blue Cubemap&lt;/strong> file from the Miscellaneous section.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="outlandish-chitin-armourhttpswwwnexusmodscomskyrimmods70681tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrim/mods/70681?tab=files">Outlandish Chitin Armour&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-19">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-20">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Outlandish Chitin Armour&lt;/li>
 &lt;/ul>
 &lt;h5 id="ebony-weapons-2017-retexturehttpswwwnexusmodscomskyrimspecialeditionmods30029tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30029?tab=files">Ebony Weapons 2017 Retexture&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-20">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-21">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Special Ebony Shiny Reflective Refractive Reshlective 2k 4k 5k 144Hz Immersive Overhaul Retexture Pack Collection Suite&lt;/li>
 &lt;/ul>
 &lt;h5 id="frankly-hd-dragonbone-and-dragonscalehttpswwwnexusmodscomskyrimspecialeditionmods25110tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25110?tab=files">Frankly HD Dragonbone and Dragonscale&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-21">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-22">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Frankly HD Dragonbone and Dragonscale 2k&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Frankly HD Dragonbone and Dragonscale - Mesh patch &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h5 id="sunhallowed-and-bloodcursed-arrows---hd-retexturehttpswwwnexusmodscomskyrimspecialeditionmods13649tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/13649?tab=files">Sunhallowed and Bloodcursed Arrows - HD Retexture&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-22">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-23">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Bloodcursed Arrows 1k&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Sunhallowed Arrows 1k&lt;/li>
@@ -3714,7 +3736,7 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;p>Merge both together (select Merge when installing the second file).&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="dragon-priest-weapons-improvedhttpswwwnexusmodscomskyrimmods60075tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrim/mods/60075?tab=files">Dragon Priest Weapons Improved&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-23">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-24">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Dragon Priest Weapon Improved&lt;/li>
 &lt;li>&lt;strong>Update Files:&lt;/strong> Quick Update &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
@@ -3727,7 +3749,7 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;p>Processing the meshes with CAO results in the staff 3rd person mesh being invisble ingame. Not processing causes the dagger 1st and 3rd person meshes to be invisible. Only SSE NIF Optimizer reliably fixes all meshes.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="gemling-queen-jewelryhttpswwwnexusmodscomskyrimspecialeditionmods4294tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4294?tab=files">Gemling Queen Jewelry&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-24">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-25">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Gemling Queen Jewelry SE&lt;/li>
 &lt;/ul>
@@ -3779,7 +3801,7 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/mod_installation/gqj_delete_wild_edit.png" alt="Gemling Queen Jewelry - Delete Records in xEdit">&lt;/p>
 &lt;h5 id="js-circlet-replacerhttpswwwnexusmodscomskyrimspecialeditionmods8686tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8686?tab=files">JS Circlet Replacer&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-25">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-26">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> JS Circlet Replacer&lt;/li>
 &lt;/ul>
@@ -3788,13 +3810,13 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;li>Downsize the mod’s textures with Cathedral Assets Optimizer (&lt;strong>SSE - Downsize Textures&lt;/strong>).&lt;/li>
 &lt;/ul>
 &lt;h5 id="rustic-amuletshttpswwwnexusmodscomskyrimspecialeditionmods35485tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/35485?tab=files">RUSTIC AMULETS&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-26">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-27">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> RUSTIC AMULETS SE&lt;/li>
 &lt;/ul>
 &lt;h5 id="js-barenziahhttpswwwnexusmodscomskyrimspecialeditionmods22990tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22990?tab=files">JS Barenziah&lt;/a> (optional)&lt;/h5>
 &lt;p>&lt;em>A similarly beautiful retexture of Barenziah’s Crown and the stones (made by Gamwich and Saerileth) is already included in Forgotten Retex Project. You can find screenshots of it &lt;a href="https://www.nexusmods.com/skyrim/mods/63902">here on its original mod page&lt;/a>. Skip JS Barenziah if you prefer Gamwich and Saerileth’s retexture which you already have installed.&lt;/em>&lt;/p>
-&lt;h4 id="download-instructions-27">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-28">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> JS Barenziah SE – 2K Textures&lt;/li>
 &lt;/ul>
@@ -3899,7 +3921,7 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Spell Breaker HD&lt;/li>
 &lt;/ul>
-&lt;h5 id="remiros-ancient-falmer-armor-hdhttpswwwnexusmodscomskyrimspecialeditionmods22458tabfiles--optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22458?tab=files">Remiros’ Ancient Falmer Armor HD&lt;/a> (optional)&lt;/h5>
+&lt;h5 id="remiros-ancient-falmer-armor-hdhttpswwwnexusmodscomskyrimspecialeditionmods22458tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22458?tab=files">Remiros’ Ancient Falmer Armor HD&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Remiros’ Ancient Falmer Armor&lt;/li>
@@ -3913,7 +3935,7 @@ Only install this mod if you installed &lt;strong>Open Face Guard Helmets&lt;/st
 &lt;ul>
 &lt;li>&lt;strong>Miscellaneous Files:&lt;/strong> Harkons Sword - Scabbard 2k&lt;/li>
 &lt;/ul>
-&lt;h5 id="unique-zephyrhttpswwwnexusmodscomskyrimspecialeditionmods16956tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/16956?tab=files">Unique Zephyr&lt;/a> (optional)&lt;/h5>
+&lt;h5 id="unique-zephyrhttpswwwnexusmodscomskyrimspecialeditionmods16956tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/16956?tab=files">Unique Zephyr&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Unique Zephyr 1.0&lt;/li>
@@ -5195,8 +5217,13 @@ Only install this mod if you installed &lt;strong>Beast Skeletons&lt;/strong>. O
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Unique Items Tweaks&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Miscellaneous</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/29-miscellaneous/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/29-miscellaneous/</guid><description>
-&lt;h5 id="simply-knockhttpswwwnexusmodscomskyrimspecialeditionmods14098tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14098?tab=files">Simply Knock&lt;/a> (optional)&lt;/h5>
+&lt;h5 id="ishs-respec-modhttpswwwnexusmodscomskyrimspecialeditionmods1960tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1960?tab=files">Ish&amp;rsquo;s Respec Mod&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Ish&amp;rsquo;s Respec Mod&lt;/li>
+&lt;/ul>
+&lt;h5 id="simply-knockhttpswwwnexusmodscomskyrimspecialeditionmods14098tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14098?tab=files">Simply Knock&lt;/a> (optional)&lt;/h5>
+&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Simply Knock SE 1.0.3 Release&lt;/li>
 &lt;/ul>
@@ -5214,23 +5241,23 @@ Only install this mod if you installed &lt;strong>Beast Skeletons&lt;/strong>. O
 &lt;h4 class="alert-heading">Mod Dependency&lt;/h4>
 Only install this mod if you installed &lt;strong>Simply Knock&lt;/strong>. Otherwise skip it.
 &lt;/div>
-&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> SimplyKnockSE SKSE64 2.0.17 DLL&lt;/li>
 &lt;/ul>
 &lt;h5 id="quick-lighthttpswwwnexusmodscomskyrimspecialeditionmods12633tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12633?tab=files">Quick Light&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Quick Light SE&lt;/li>
 &lt;/ul>
 &lt;h5 id="dragon-remainshttpswwwnexusmodscomskyrimspecialeditionmods21277tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21277?tab=files">Dragon Remains&lt;/a> (optional)&lt;/h5>
 &lt;p>&lt;em>This will stop dragons from disintegrating upon death. You will still receive their soul as usual but the corpse will be untouched. Great if you want to check out the new dragon types and retextures.&lt;/em>&lt;/p>
-&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Dragon Remains (Loose)&lt;/li>
 &lt;/ul>
 &lt;h5 id="talkative-dragonshttpswwwnexusmodscomskyrimspecialeditionmods26955tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26955?tab=files">Talkative Dragons&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Talkative Dragons&lt;/li>
 &lt;/ul>
@@ -5239,12 +5266,12 @@ Only install this mod if you installed &lt;strong>Simply Knock&lt;/strong>. Othe
 &lt;h4 class="alert-heading">Mod Dependency&lt;/h4>
 Only install this mod if you installed &lt;strong>Talkative Dragons&lt;/strong>. Otherwise skip it.
 &lt;/div>
-&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> TDReplacer&lt;/li>
 &lt;/ul>
 &lt;h5 id="durnehviir-resurrectedhttpswwwnexusmodscomskyrimspecialeditionmods14272tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14272?tab=files">Durnehviir Resurrected&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Durnehviir Resurrected&lt;/li>
 &lt;/ul>
@@ -5273,42 +5300,42 @@ Only install this mod if you installed &lt;strong>Talkative Dragons&lt;/strong>.
 &lt;/ul>
 &lt;h5 id="improved-shadowmarkshttpswwwnexusmodscomskyrimspecialeditionmods17609tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17609?tab=files">Improved Shadowmarks&lt;/a> (optional)&lt;/h5>
 &lt;p>&lt;em>This mod contains new textures for the Shadowmarks. Fortunately, since the textures are packed in a BSA, they will be automatically overwritten by the better looking ones from Ennead Shadowmarks if you installed that mod.&lt;/em>&lt;/p>
-&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Improved Shadowmarks (512)&lt;/li>
 &lt;/ul>
 &lt;h5 id="keeper-carcette-surviveshttpswwwnexusmodscomskyrimspecialeditionmods9476tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9476?tab=files">Keeper Carcette Survives&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Keeper Carcette Survives SSE 1.1&lt;/li>
 &lt;/ul>
 &lt;h5 id="windhelm-segregation---stay-at-new-gnisis-cornerclubhttpswwwnexusmodscomskyrimspecialeditionmods21181tabfiles--optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21181?tab=files">Windhelm Segregation - Stay at New Gnisis Cornerclub&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Windhelm Segregation - Stay at New Gnisis Cornerclub&lt;/li>
 &lt;/ul>
 &lt;h5 id="alikr-warriors-arent-welcomehttpswwwnexusmodscomskyrimspecialeditionmods25384tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25384?tab=files">Alik’r Warriors Aren’t Welcome&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Alik’r Warriors Aren’t Welcome&lt;/li>
 &lt;/ul>
 &lt;h5 id="delphines-map-reveals-dragon-moundshttpswwwnexusmodscomskyrimspecialeditionmods26301tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26301?tab=files">Delphine’s Map Reveals Dragon Mounds&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Delphine’s Map Reveals Dragon Mounds SE v1.0&lt;/li>
 &lt;/ul>
 &lt;h5 id="bring-meeko-to-lodhttpswwwnexusmodscomskyrimspecialeditionmods25246tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25246?tab=files">Bring Meeko to Lod&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Bring Meeko to Lod SE&lt;/li>
 &lt;/ul>
 &lt;h5 id="seranas-blood-tomb-cursehttpswwwnexusmodscomskyrimspecialeditionmods26852tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26852?tab=files">Serana’s Blood Tomb Curse&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> SeranasTombBloodCurse SE v1.1&lt;/li>
 &lt;/ul>
 &lt;h5 id="karstaag---the-frost-king-rebornhttpswwwnexusmodscomskyrimspecialeditionmods14328tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14328?tab=files">Karstaag - The Frost King Reborn&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Karstaag - The Frost King Reborn&lt;/li>
 &lt;/ul>
@@ -5737,33 +5764,44 @@ Only install this if you installed two or more of the five music mods above. Oth
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> No heavy muscular walk and idle&lt;/li>
 &lt;/ul>
-&lt;h5 id="3rd-person-dual-wielding-fixhttpswwwnexusmodscomskyrimspecialeditionmods2425tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2425?tab=files">3rd Person Dual Wielding Fix&lt;/a> (optional)&lt;/h5>
+&lt;h5 id="relaxed-sneaking-animationshttpswwwnexusmodscomskyrimspecialeditionmods37260tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/37260?tab=files">Relaxed Sneaking Animations&lt;/a> (optional)&lt;/h5>
+&lt;p>&lt;em>When sneaking, you will still feel crouched as the camera height isn&amp;rsquo;t changed but your companions and any other sneaking NPCs will look a great deal less ridiculous.&lt;/em>&lt;/p>
 &lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> DWANIM&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Relaxed Sneak Animations&lt;/li>
 &lt;/ul>
 &lt;h5 id="d13-faster-get-up-stand-up-animationhttpswwwnexusmodscomskyrimspecialeditionmods5890tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5890?tab=files">D13 Faster GET UP STAND UP Animation&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> D13 Faster Get Up Stand Up SSE&lt;/li>
 &lt;/ul>
-&lt;h5 id="dragon-animations-replacerhttpswwwnexusmodscomskyrimspecialeditionmods2163tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2163?tab=files">Dragon Animations Replacer&lt;/a> (optional)&lt;/h5>
+&lt;h5 id="3rd-person-dual-wielding-fixhttpswwwnexusmodscomskyrimspecialeditionmods2425tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2425?tab=files">3rd Person Dual Wielding Fix&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> DWANIM&lt;/li>
+&lt;/ul>
+&lt;h5 id="dragon-animations-replacerhttpswwwnexusmodscomskyrimspecialeditionmods2163tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2163?tab=files">Dragon Animations Replacer&lt;/a> (optional)&lt;/h5>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> DragonAnimationReplace_inSE_1_01&lt;/li>
 &lt;/ul>
 &lt;h5 id="immersive-dragonshttpswwwnexusmodscomskyrimspecialeditionmods18957tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18957?tab=files">Immersive Dragons&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Dragons SE&lt;/li>
 &lt;/ul>
 &lt;h5 id="supreme-vampire-lordhttpswwwnexusmodscomskyrimspecialeditionmods19706tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19706?tab=files">Supreme Vampire Lord&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Supreme Vampire Lords XP32 SE&lt;/li>
 &lt;/ul>
+&lt;h5 id="slofs-trotting-horsehttpswwwnexusmodscomskyrimspecialeditionmods38788tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38788?tab=files">Slof&amp;rsquo;s Trotting Horse&lt;/a> (optional)&lt;/h5>
+&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Slof&amp;rsquo;s Trotting Horse SSE&lt;/li>
+&lt;/ul>
 &lt;h5 id="werewolf-claws-affect-spider-webshttpswwwnexusmodscomskyrimspecialeditionmods11431tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11431?tab=files">Werewolf Claws Affect Spider Webs&lt;/a> (optional)&lt;/h5>
-&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Werewolf Claws Affect Spider Webs - XPMSSE 4.71 version&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Utilities</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/35-utilities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/35-utilities/</guid><description>
