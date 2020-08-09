@@ -406,7 +406,7 @@
 &lt;/ul></description></item><item><title>Skyrim-Se: Skyrim Script Extender</title><link>https://thephoenixflavour.com/skyrim-se/initial-setup/skyrim-script-extender/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/initial-setup/skyrim-script-extender/</guid><description>
 &lt;h2 id="download">Download&lt;/h2>
 &lt;ul>
-&lt;li>Download &lt;a href="http://skse.silverlock.org/">SKSE64&lt;/a>. You need build &lt;strong>2.0.17&lt;/strong> for the current version of Skyrim SE.&lt;/li>
+&lt;li>Download &lt;a href="http://skse.silverlock.org/">SKSE64&lt;/a>. You need build &lt;strong>2.0.18&lt;/strong> for the current version of Skyrim SE.&lt;/li>
 &lt;li>Save the downloaded archive to &lt;code>Your Modding Folder\ARCHIVE\SKSE64&lt;/code>.&lt;/li>
 &lt;/ul>
 &lt;p>If on the main page for SKSE there is a different version number than the one noted above, Skyrim and the Script Extender were likely updated and you need to download the previous version from the archive page (see picture below).&lt;/p>
@@ -538,6 +538,7 @@
 &lt;li>&lt;strong>Decal Quantity:&lt;/strong> Set to &lt;code>High&lt;/code>.&lt;/li>
 &lt;li>&lt;strong>Godrays&lt;/strong>: Set them to &lt;code>None&lt;/code> (performance-intense, ENB has better godrays).&lt;/li>
 &lt;li>&lt;strong>Field of View:&lt;/strong> Increase this if you prefer a wider FoV.&lt;/li>
+&lt;li>&lt;strong>Particles:&lt;/strong> Increase the particle count to &lt;code>1500&lt;/code>.&lt;/li>
 &lt;li>&lt;strong>Lens Flare:&lt;/strong> Matter of taste. Personally I disable this.&lt;/li>
 &lt;li>&lt;strong>Anamorphic Lens Flare:&lt;/strong> Looks ugly, recommended to be turned off.&lt;/li>
 &lt;li>&lt;strong>Shadow Resolution:&lt;/strong> Set to &lt;code>2048&lt;/code> (unless you have a very slow CPU).&lt;/li>

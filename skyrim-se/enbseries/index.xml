@@ -85,22 +85,22 @@
 &lt;li>Back in the &lt;strong>Global Configuration Files&lt;/strong> window, check &lt;strong>enblocal.ini.&lt;/strong>&lt;/li>
 &lt;li>Click the green checkmark to close the window.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/enbseries/global-ini-settings.png" alt="Global INI Settings">&lt;/p></description></item><item><title>Skyrim-Se: Serio's ENB</title><link>https://thephoenixflavour.com/skyrim-se/enbseries/03-serios-enb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/enbseries/03-serios-enb/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/enbseries/global-ini-settings.png" alt="Global INI Settings">&lt;/p></description></item><item><title>Skyrim-Se: ENB Preset Installation</title><link>https://thephoenixflavour.com/skyrim-se/enbseries/03-serios-enb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/enbseries/03-serios-enb/</guid><description>
 &lt;h2 id="preset-selection">Preset Selection&lt;/h2>
-&lt;p>The Phoenix Flavour is using &lt;strong>Serio&amp;rsquo;s ENB&lt;/strong>, a lightweight but beautiful Cathedral Weathers preset that doesn&amp;rsquo;t break vanilla image spaces (night eye will work) and features different LUTs. It requires some tweaking to perfect it for our setup but that is well worth it.&lt;/p>
+&lt;p>The Phoenix Flavour is using &lt;strong>Rudy ENB&lt;/strong> for Cathedral Weathers. Rudy ENB has been around since the Classic Skyrim days and enjoys a reputation of one of the most feature-rich and highest quality presets. The performance impact is noticeable but should not render the game unplayable on decently modern systems @1080p. Settings can be tweaked or disabled in order to gain more frames.&lt;/p>
 &lt;h2 id="create-a-new-preset">Create a new preset&lt;/h2>
 &lt;ul>
 &lt;li>In ENB Man, click the arrow under &lt;strong>Presets&lt;/strong> and select &lt;strong>Blank preset&lt;/strong>.&lt;/li>
-&lt;li>Enter a name for the new preset: &lt;code>Serio's ENB - for Cathedral Weathers [1.10]&lt;/code>.&lt;/li>
+&lt;li>Enter a name for the new preset: &lt;code>Rudy ENB - for Cathedral Weathers [1.0]&lt;/code>.&lt;/li>
 &lt;li>Click the green checkmark to confirm.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/enbseries/create-new-preset.png" alt="Create New Preset">&lt;/p>
 &lt;h2 id="import-the-preset">Import the preset&lt;/h2>
 &lt;ul>
-&lt;li>Manually download the main file from &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30506?tab=files">Serio&amp;rsquo;s ENB - Cathedral&lt;/a> mod page.&lt;/li>
+&lt;li>Manually download the main file from &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/39113?tab=files">Rudy ENB for Cathedral Weathers&lt;/a> mod page.&lt;/li>
 &lt;li>Navigate to &lt;code>Your Modding Folder\temp&lt;/code>.&lt;/li>
-&lt;li>Open the downloaded ENB Preset archive and double-click the folder inside.&lt;/li>
-&lt;li>Extract the following files into your &lt;strong>temp&lt;/strong> folder:
+&lt;li>Open the downloaded ENB Preset archive and navigate to &lt;code>Rudy for SSE 1.0 CW\! Catherdral Weathers Version\[ Skyrim SE folder ]&lt;/code>.&lt;/li>
+&lt;li>Extract all files into your &lt;strong>temp&lt;/strong> folder:
 &lt;ul>
 &lt;li>enbseries&lt;/li>
 &lt;li>enblocal.ini&lt;/li>
@@ -246,4 +246,9 @@ bSAOEnable=0
 &lt;p>Edit the following line in your &lt;strong>skyrimprefs.ini&lt;/strong> file to increase the particle count to the recommended value:&lt;/p>
 &lt;pre>&lt;code>[Particles]
 iMaxDesired=7500
+&lt;/code>&lt;/pre>&lt;h2 id="volumetric-lighting">Volumetric Lighting&lt;/h2>
+&lt;p>For Rudy ENB, it is recommended (but not required) to enable Volumetric Lighting aka godrays. Please note that there is a noticeable performance impact, especially on weaker machines.&lt;/p>
+&lt;p>Edit the following line in your &lt;strong>skyrimprefs.ini&lt;/strong> to enable godrays:&lt;/p>
+&lt;pre>&lt;code>[Display]
+bVolumetricLightingEnable=1
 &lt;/code>&lt;/pre></description></item></channel></rss>

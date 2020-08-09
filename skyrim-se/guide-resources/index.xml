@@ -320,7 +320,7 @@
 &lt;/ul>
 &lt;h2 id="optimising-sle-assets">Optimising SLE Assets&lt;/h2>
 &lt;blockquote>
-&lt;p>&amp;ldquo;Run the mod through Cathedral Assets Optimiser.&amp;rdquo;&lt;/p>
+&lt;p>&amp;ldquo;Run the mod through Cathedral Assets Optimiser (Optimise SLE Assets).&amp;rdquo;&lt;/p>
 &lt;/blockquote>
 &lt;p>Skyrim LE meshes often need to be fixed and optimised by Cathedral Assets Optimizer before they can be used in SE. We will also use CAO on mods to optimise (compress) included textures sometimes. If a Classic Skyrim mod does not have instructions to run it through CAO this is because I already did so and found that no meshes or textures needed optimising.&lt;/p>
 &lt;ul>
@@ -343,9 +343,9 @@
 &lt;li>Click &lt;strong>Optimise&lt;/strong> and wait until the process is finished.&lt;/li>
 &lt;li>Close &lt;strong>SSE NIF Optimizer&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;h2 id="resizing-textures">Resizing Textures&lt;/h2>
+&lt;h2 id="downsizing-textures">Downsizing Textures&lt;/h2>
 &lt;blockquote>
-&lt;p>&amp;ldquo;Downsize the textures with Cathedral Assets Optimizer.&amp;rdquo;&lt;/p>
+&lt;p>&amp;ldquo;Run the mod through Cathedral Assets Optimizer (Downsize Textures).&amp;rdquo;&lt;/p>
 &lt;/blockquote>
 &lt;p>At times (re)textures are only available in a size unreasonably large for regular gameplay, potentially impacting performance for those with low VRAM. In those cases we will utilise CAO to reduce the texture resolution by half.&lt;/p>
 &lt;ul>
@@ -473,6 +473,19 @@ iSize W=1920
 &lt;blockquote>
 &lt;p>Since the folder wasn&amp;rsquo;t changed, there is no need to update the file paths to the TexGen and DynDOLOD executables in MO2. They are still the same.&lt;/p>
 &lt;/blockquote>
+&lt;h2 id="skyrim-script-extender">Skyrim Script Extender&lt;/h2>
+&lt;p>When SKSE updates, please wait for the guide to update accordingly before installing the new version. For new Skyrim SE versions and matching SKSE updates, many other mods need to be updated as well.&lt;/p>
+&lt;p>In order to update, you need to replace the DLLs and executable in the &lt;strong>root&lt;/strong> folder as well as the &lt;strong>Scripts&lt;/strong> folder managed with MO2.&lt;/p>
+&lt;ul>
+&lt;li>Download the new version of the &lt;a href="https://skse.silverlock.org/">Skyrim Script Extender&lt;/a>.&lt;/li>
+&lt;li>Extract &lt;code>skse64_1_5_x.dll&lt;/code>, &lt;code>skse64_loader.exe&lt;/code>, and &lt;code>skse64_steam_loader.dll&lt;/code> into your &lt;strong>root&lt;/strong> folder.&lt;/li>
+&lt;li>Overwrite when prompted.&lt;/li>
+&lt;li>If the new version of SKSE is for a new version of Skyrim SE, you will have to delete the previous version&amp;rsquo;s &lt;code>skse64_1_5_x.dll&lt;/code>.&lt;/li>
+&lt;li>Navigate to &lt;code>Mod Organizer 2\mods\SKSE - Data 2.0.x&lt;/code> and rename the folder for the latest version of SKSE.&lt;/li>
+&lt;li>Open the folder and delete everything inside.&lt;/li>
+&lt;li>Double-click the &lt;strong>Data&lt;/strong> folder inside the SKSE archive and drag the &lt;strong>Scripts&lt;/strong> folder inside into the empty folder.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/guide-resources/update-skse.png" alt="Update SKSE">&lt;/p>
 &lt;h2 id="adamant---a-perk-overhaul">Adamant - A Perk Overhaul&lt;/h2>
 &lt;p>It is entirely possible to update Adamant in the middle of a playthrough with the help of Ish&amp;rsquo;s Respec Mod. However, big updates for Adamant often require the guide&amp;rsquo;s CRP to be updated as well which in turn is often accompanied by a guide update. So while Adamant is basically always safe to update, the CRP is not.&lt;/p>
 &lt;p>When Adamant as well as the guide and CRP received a save-safe update, you can do the following to update:&lt;/p>
