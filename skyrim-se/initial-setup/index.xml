@@ -406,7 +406,7 @@
 &lt;/ul></description></item><item><title>Skyrim-Se: Skyrim Script Extender</title><link>https://thephoenixflavour.com/skyrim-se/initial-setup/skyrim-script-extender/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/initial-setup/skyrim-script-extender/</guid><description>
 &lt;h2 id="download">Download&lt;/h2>
 &lt;ul>
-&lt;li>Download &lt;a href="http://skse.silverlock.org/">SKSE64&lt;/a>. You need build &lt;strong>2.0.18&lt;/strong> for the current version of Skyrim SE.&lt;/li>
+&lt;li>Download &lt;a href="http://skse.silverlock.org/">SKSE64&lt;/a>. You need build &lt;strong>2.0.19&lt;/strong> for the current version of Skyrim SE.&lt;/li>
 &lt;li>Save the downloaded archive to &lt;code>Your Modding Folder\ARCHIVE\SKSE64&lt;/code>.&lt;/li>
 &lt;/ul>
 &lt;p>If on the main page for SKSE there is a different version number than the one noted above, Skyrim and the Script Extender were likely updated and you need to download the previous version from the archive page (see picture below).&lt;/p>

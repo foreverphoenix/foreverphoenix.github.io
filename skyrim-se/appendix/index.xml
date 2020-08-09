@@ -66,7 +66,7 @@
 &lt;p>I&amp;rsquo;ve also finally gotten around to fixing up some &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38348/">personal tweaks&lt;/a> and putting them on Nexus. Of course they were added to the guide as well.&lt;/p>
 &lt;h4 id="initial-setup">Initial Setup&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Skyrim Script Extender:&lt;/strong> Updated instructions, now support SKSE 2.0.18 (latest update).&lt;/li>
+&lt;li>&lt;strong>Skyrim Script Extender:&lt;/strong> Updated instructions, now supporting SKSE 2.0.19 (latest update).&lt;/li>
 &lt;li>&lt;strong>INI Files:&lt;/strong> Added instructions to increase particle count to 1500 under BethINI Detail.&lt;/li>
 &lt;/ul>
 &lt;h4 id="mod-installation">Mod Installation&lt;/h4>
