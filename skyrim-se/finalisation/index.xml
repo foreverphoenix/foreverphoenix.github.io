@@ -330,63 +330,12 @@
 &lt;li>Turn down &lt;strong>Depth of Field&lt;/strong> all the way.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/turn_down_dof.jpg" alt="Turn down DoF">&lt;/p>
-&lt;h2 id="to-riverwood">To Riverwood&lt;/h2>
-&lt;ul>
-&lt;li>You will spawn near Helgen in an area you likely know well. Take some time to look around.&lt;/li>
-&lt;li>Activate the ENBSeries FPS counter if you installed ENB (default hotkey: Numpad *). Otherwise use the Steam overlay or something similar.&lt;/li>
-&lt;li>Go for a walk to Riverwood (if you don&amp;rsquo;t know where that is, open the console and type &lt;code>tmm 1&lt;/code> to enable all map markers).&lt;/li>
-&lt;/ul>
-&lt;h2 id="enb-configuration">ENB Configuration&lt;/h2>
-&lt;p>Serio&amp;rsquo;s ENB looks beautiful out of the box, but there are some tweaks that will optimise it for our setup. Open the console (this makes it much easier to customise the ENB) and press Shift+Enter to open the ENB GUI.&lt;/p>
-&lt;h3 id="detailed-shadows">Detailed Shadows&lt;/h3>
-&lt;p>One of the moderately performance-intense features of ENB is &lt;strong>Detailed Shadows&lt;/strong>, although that&amp;rsquo;s not why I recommend disabling it. Cathedral Grass (and grass mods in general) looks, in my opinion, a great deal better with this setting disabled.&lt;/p>
-&lt;ul>
-&lt;li>Open the &lt;strong>EFFECT&lt;/strong> section where you can toggle the main features of ENB.&lt;/li>
-&lt;li>Uncheck &lt;code>EnabledDetailedShadows&lt;/code> (see screenshot below).&lt;/li>
-&lt;li>Click &lt;strong>Save Configuration&lt;/strong>. Close the ENB GUI (Shift+Enter) and the console.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/enb-disable-detailed-shadows.png" alt="Disable Detailed Shadows">&lt;/p>
-&lt;h3 id="interior-lighting">Interior Lighting&lt;/h3>
-&lt;ul>
-&lt;li>Enter one of the two public interiors in town (the Sleeping Giant Inn or the Riverwood Trader).&lt;/li>
-&lt;li>Once again, open the console and ENB GUI.&lt;/li>
-&lt;li>Scroll down in the column on the left to &lt;strong>ENVIRONMENT&lt;/strong> and open that section.&lt;/li>
-&lt;li>Scroll down to the following two lines:
-&lt;ul>
-&lt;li>&lt;code>AmbientLightingIntensityInteriorDay&lt;/code>&lt;/li>
-&lt;li>&lt;code>AmbientLightingIntensityInteriorNight&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>These are currently tweaked for Enhanced Lighting and ENB, and are too high for Luminosity which is the TPF lighting overhaul.&lt;/li>
-&lt;li>Tweak these values as you see fit. For &lt;code>InteriorDay&lt;/code>, I prefer &lt;strong>1.10&lt;/strong>, the &lt;code>InteriorNight&lt;/code> value I set a little lower.&lt;/li>
-&lt;li>You can close the GUI / console to Wait (default hotkey is T) for nighttime to tweak the &lt;code>InteriorNight&lt;/code> value.&lt;/li>
-&lt;li>Once done, click &lt;strong>Save Configuration&lt;/strong>. Close the ENB GUI (Shift+Enter) and the console.&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>Note that when you type the values in the ENB GUI and hit Enter, they will also be typed in the console which will return an error. Don&amp;rsquo;t worry about this.&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/enb-environment-section.png" alt="ENB Environment">&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/enb-tweak-interior-lighting.png" alt="ENB Ambient Lighting">&lt;/p>
-&lt;h3 id="postpassfx">PostPassFX&lt;/h3>
-&lt;ul>
-&lt;li>Go back outside and use the Wait function to set the time to midday. In case of bad weather, type &lt;code>fw 81a&lt;/code> in the console and hit Enter.&lt;/li>
-&lt;li>Position yourself so that you have a nice view of the village. Open the console and the ENB GUI.&lt;/li>
-&lt;li>In the right column, open the &lt;strong>ENBEFFECTPOSTPASS.FX&lt;/strong> section which includes a bunch of optional tweaks.&lt;/li>
-&lt;/ul>
-&lt;p>You can toggle these options at any time. Personally I only change the LUT to something a little colder. Feel free to experiment!&lt;/p>
-&lt;ul>
-&lt;li>Toggle and tweak the &lt;strong>Vignette&lt;/strong> effect.&lt;/li>
-&lt;li>Toggle and tweak the &lt;strong>Letterbox&lt;/strong> effect.&lt;/li>
-&lt;li>Toggle and tweak the &lt;strong>LUT&lt;/strong> effect. Change the &lt;strong>Gradiant Tint Type&lt;/strong> for different LUTs.&lt;/li>
-&lt;/ul>
-&lt;p>Don&amp;rsquo;t forget to click &lt;strong>Save Configuration&lt;/strong> if you changed anything.&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/enb-postpass-fx.png" alt="ENB Ambient Lighting">&lt;/p>
 &lt;h2 id="testing-suggestions">Testing Suggestions&lt;/h2>
 &lt;ul>
 &lt;li>You will spawn near Helgen in an area you likely know well. Take some time to look around.&lt;/li>
 &lt;li>Activate the ENBSeries FPS counter if you installed ENB (default hotkey: Numpad *). Otherwise use the Steam overlay or something similar.&lt;/li>
 &lt;li>It is often convenient to use the console in order to enable godmode (&lt;code>tgm&lt;/code>) and disable enemy AI (&lt;code>tcai&lt;/code>) for testing purposes.&lt;/li>
-&lt;li>Travel around Skyrim and visit your favourite locations (open the console and type &lt;code>tmm 1&lt;/code> to enable all map markers if you haven&amp;rsquo;t done this already).&lt;/li>
+&lt;li>Travel around Skyrim and visit your favourite locations (open the console and type &lt;code>tmm 1&lt;/code> to enable all map markers).&lt;/li>
 &lt;li>Especially intense areas where you frame rate might drop are:
 &lt;ul>
 &lt;li>the southern forest, especially when looking down at Falkreath.&lt;/li>
