@@ -510,7 +510,54 @@ iSize W=1920
 &lt;li>If (Part 2) was updated, click &lt;strong>Manual Download&lt;/strong>.&lt;/li>
 &lt;li>Open the archive and extract all files into your &lt;strong>root&lt;/strong> folder.&lt;/li>
 &lt;li>Overwrite when prompted.&lt;/li>
-&lt;/ul></description></item><item><title>Skyrim-Se: Modding Guides</title><link>https://thephoenixflavour.com/skyrim-se/guide-resources/modding-guides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/guide-resources/modding-guides/</guid><description>
+&lt;/ul></description></item><item><title>Skyrim-Se: Widescreen Support</title><link>https://thephoenixflavour.com/skyrim-se/guide-resources/widescreen-support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/guide-resources/widescreen-support/</guid><description>
+&lt;p>Adding widescreen support is a matter of replacing interface mods with compatible versions. Thankfully, there is a central mod page offering widescreen patches for pretty much every interface mod out there.&lt;/p>
+&lt;p>It&amp;rsquo;s important to remember that some of the files below are &lt;strong>replacers&lt;/strong> that overwrite the original mod entirely and others are &lt;strong>patches&lt;/strong> that required the original mod.&lt;/p>
+&lt;blockquote>
+&lt;p>At the bottom of the page there is a mod order picture you can refer to if you are unsure about the placement of certain mods.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>I do not own a widescreen monitor so I cannot test any of these mods.&lt;/strong>&lt;/p>
+&lt;h2 id="complete-widescreen-fix">Complete Widescreen Fix&lt;/h2>
+&lt;p>All of the files below are available on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1778?tab=files">Complete Widescreen Fix&lt;/a> mod page.&lt;/p>
+&lt;h3 id="skyui">SkyUI&lt;/h3>
+&lt;p>Download the following file:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Complete Widescreen Fix for SkyUI 5.2 SE Alpha - 2560x1080&lt;/li>
+&lt;/ul>
+&lt;p>Install as usual. Place the mod below &lt;strong>SkyUI&lt;/strong> in the mod order and &lt;strong>SkyUI_SE.esp&lt;/strong> in the load order.&lt;/p>
+&lt;h3 id="better-dialogue--messagebox-controls">Better Dialogue &amp;amp; MessageBox Controls&lt;/h3>
+&lt;p>While these two mods are optional, they are invaluable. If you installed them, download the following files:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Better Dialogue Control Widescreen Fix&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Better MessageBox Control Widescreen Fix&lt;/li>
+&lt;/ul>
+&lt;p>These files are replacers. Place them below &lt;strong>Complete Widescreen Fix for SkyUI&lt;/strong> in the mod order and disable/delete the regular versions.&lt;/p>
+&lt;h3 id="wider-mcm-menu-for-skyui">Wider MCM Menu for SkyUI&lt;/h3>
+&lt;p>If you installed Wider MCM Menu for Skyrim, download the following file:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Opt. 1 - Wider MCM Menu for SkyUI - Widescreen Fix&lt;/li>
+&lt;/ul>
+&lt;p>This is a replacer. Disable/delete the regular version.&lt;/p>
+&lt;h3 id="skyhud">SkyHUD&lt;/h3>
+&lt;p>Download the following file:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> SkyHud - High Resolution Widescreen Fix&lt;/li>
+&lt;/ul>
+&lt;p>This is a patch. Place it below &lt;strong>SkyHUD&lt;/strong> in the mod order.&lt;/p>
+&lt;h3 id="racemenu">RaceMenu&lt;/h3>
+&lt;p>Download the following file:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Race Menu SE - WIdescreen Fix&lt;/li>
+&lt;/ul>
+&lt;p>This is a patch. Place it below &lt;strong>RaceMenu&lt;/strong> in the mod order.&lt;/p>
+&lt;h2 id="remove-quicksave-button">Remove QuickSave Button&lt;/h2>
+&lt;p>Download the following file from the original &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28334">Remove QuickSave Button&lt;/a> mod page:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Remove QuickSave Button - UltraWide&lt;/li>
+&lt;/ul>
+&lt;p>In the FOMOD select &lt;code>3b - MCM-Save-etc, MCM renamed&lt;/code>. This mod is a replacer. Disable/delete the original version.&lt;/p>
+&lt;h2 id="mod-order">Mod Order&lt;/h2>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/guide-resources/widescreen-mod-order.png" alt="Widescreen Mod Order">&lt;/p></description></item><item><title>Skyrim-Se: Modding Guides</title><link>https://thephoenixflavour.com/skyrim-se/guide-resources/modding-guides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/guide-resources/modding-guides/</guid><description>
 &lt;h2 id="recommended-guides">Recommended Guides&lt;/h2>
 &lt;h3 id="lexys-lotd">Lexy&amp;rsquo;s LOTD&lt;/h3>
 &lt;p>&lt;strong>by DarkLadyLexy &amp;amp; her team&lt;/strong>&lt;/p>

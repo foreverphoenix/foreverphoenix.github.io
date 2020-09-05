@@ -1,14 +1,14 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – ENBSeries</title><link>https://thephoenixflavour.com/skyrim-se/enbseries/</link><description>Recent content in ENBSeries on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/skyrim-se/enbseries/index.xml" rel="self" type="application/rss+xml"/><item><title>Skyrim-Se: About ENB</title><link>https://thephoenixflavour.com/skyrim-se/enbseries/01-about-enb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/enbseries/01-about-enb/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – ENBSeries</title><link>https://thephoenixflavour.com/skyrim-se/enbseries/</link><description>Recent content in ENBSeries on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/skyrim-se/enbseries/index.xml" rel="self" type="application/rss+xml"/><item><title>Skyrim-Se: About ENB</title><link>https://thephoenixflavour.com/skyrim-se/enbseries/about-enb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/enbseries/about-enb/</guid><description>
 &lt;h2 id="what-is-enbseries">What is ENBSeries?&lt;/h2>
 &lt;p>ENBSeries is a post-processing injector by Boris Vorontsov. Unlike ReShade, it is not universal but built for specific games and hooks directly into the engine. Effects are therefore highly advanced and specific to each games. ENB is also capable of fixing bugs and improving performance plus it offers additioanl features such as VSYNC, a screenshot hotkey, and a toggleable FPS counter.&lt;/p>
 &lt;p>The effects vary in their performance-intensity. A full preset, especially when Skyrim is run on high resolutions, can bring high-end PCs to their knees. Fortunately, Skyrim SE with its generally improved performance runs a great deal better with ENBSeries presets and 60FPS+ on a reasonable resolution (1080p) are comfortably attainable on most machines.&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style= "color: green">&lt;i class="fas fa-plus-circle">&lt;/i>&lt;/span> The visual improvements are immense. They can profoundly change the feel of Skyrim.&lt;/li>
-&lt;li>&lt;span style= "color: green">&lt;i class="fas fa-plus-circle">&lt;/i>&lt;/span> Everything. The performance impact can be dampened by turning off hard-hitters such as Ambient Occlusion.&lt;/li>
-&lt;li>&lt;span style= "color: green">&lt;i class="fas fa-plus-circle">&lt;/i>&lt;/span> You can tweak or swap presets, or uninstall ENBSeries entirely at any time. It does not affect savegames at all.&lt;/li>
-&lt;li>&lt;span style= "color: red">&lt;i class="fas fa-minus-circle">&lt;/i>&lt;/span> Most ENB presets come with a performance impact that is especially noticeable on low end machines.&lt;/li>
-&lt;li>&lt;span style= "color: red">&lt;i class="fas fa-minus-circle">&lt;/i>&lt;/span> Editing ENB presets beyond toggling options is not easy and may take a solid amount of trial &amp;amp; error.&lt;/li>
-&lt;li>&lt;span style= "color: red">&lt;i class="fas fa-minus-circle">&lt;/i>&lt;/span> Some presets do not support vanilla image space, they will not work with the Night Eye and other effects.&lt;/li>
+&lt;li>&lt;span style= "color: green">&lt;i class="fas fa-plus-circle">&lt;/i>&lt;/span> | The visual improvements are immense. They can profoundly change the feel of Skyrim.&lt;/li>
+&lt;li>&lt;span style= "color: green">&lt;i class="fas fa-plus-circle">&lt;/i>&lt;/span> | Everything can be customised. The performance impact can be dampened by turning off hard-hitters such as Ambient Occlusion.&lt;/li>
+&lt;li>&lt;span style= "color: green">&lt;i class="fas fa-plus-circle">&lt;/i>&lt;/span> | You can tweak or swap presets, or uninstall ENBSeries entirely at any time. It does not affect savegames at all.&lt;/li>
+&lt;li>&lt;span style= "color: red">&lt;i class="fas fa-minus-circle">&lt;/i>&lt;/span> | Most ENB presets come with a performance impact that is especially noticeable on low end machines.&lt;/li>
+&lt;li>&lt;span style= "color: red">&lt;i class="fas fa-minus-circle">&lt;/i>&lt;/span> | Editing ENB presets beyond toggling options is not easy and may take a solid amount of trial &amp;amp; error.&lt;/li>
+&lt;li>&lt;span style= "color: red">&lt;i class="fas fa-minus-circle">&lt;/i>&lt;/span> | Some presets do not support vanilla image space, they will not work with the Night Eye and other effects.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>Installing ENBSeries is completely optional. You can skip this entire section and continue with the Finalisation if you like.&lt;/strong>&lt;/p>
 &lt;h2 id="versions">Versions&lt;/h2>
@@ -24,7 +24,7 @@
 &lt;/blockquote>
 &lt;h2 id="preset-files">Preset Files&lt;/h2>
 &lt;p>Presets are primarily shared on the Nexus and range from subtle improvements to feature-rich packages. The bulk of the preset-specific settings are stored in the &lt;code>enbseries.ini&lt;/code> file. All general features can be tweaked or toggled on or off here. This INI is unique to its preset and also belongs into your &lt;strong>root&lt;/strong> folder.&lt;/p>
-&lt;p>This folder should be located in your &lt;strong>root&lt;/strong> folder and it includes all additional effect files (INI files and additional folders). The included effects vary from preset to preset, depending on what the author is utilising. In rare cases, the effect INIs are outside the &lt;strong>enbseries&lt;/strong> folder and kept in the &lt;strong>root&lt;/strong> folder as well (this is the case for the guide’s preset, Visceral ENB).&lt;/p>
+&lt;p>This folder should be located in your &lt;strong>root&lt;/strong> folder and it includes all additional effect files (INI files and additional folders). The included effects vary from preset to preset, depending on what the author is utilising. In rare cases, the effect INIs are outside the &lt;strong>enbseries&lt;/strong> folder and kept in the &lt;strong>root&lt;/strong> folder as well.&lt;/p>
 &lt;h2 id="enb-manager">ENB Manager&lt;/h2>
 &lt;p>Many users tend to switch back and forth between different ENB presets which is simplified by ENB managers. They are essentially mod managers for ENB presets that allow you to quickly set up global settings and deploy them alongside the ENB binaries and saved preset files. My personal favourite is ENB Man so that&amp;rsquo;s what all instructions are written for. If you are experienced with handling ENBSeries, you are free to use any other manager of your choice or install files manually.&lt;/p>
 &lt;p>ENB Man has a single problem which is that files need to be extracted from their archive before they can be imported into the program, otherwise files occasionally get skipped resulting in visual bugs and the preset not functioning correctly. This is a minor issue and easily worked around.&lt;/p>
@@ -33,7 +33,7 @@
 &lt;h2 id="complex-particle-lights">Complex Particle Lights&lt;/h2>
 &lt;p>Newer versions of ENBSeries include an effect called Complex Particle Lights. Meshes edited to support it emit light that can even affect grass or the player character. The ENB Light mod primarily implements this feature, but there is also rudy&amp;rsquo;s More Lights for ENB collection of mods which add lights to all kinds of objects such as soul gems and certain plants.&lt;/p>
 &lt;p>As these effects require an active ENB preset with Complex Particle Lights enabled, they are not included in the main guide. You can find installation instructions on the &lt;strong>Related Mods&lt;/strong> page.&lt;/p>
-&lt;p>Please note that the Complex Particle Lights feature does come with a small performance impact. Users with lower-end machines might want to disable it and skip the related mods.&lt;/p></description></item><item><title>Skyrim-Se: ENB Setup</title><link>https://thephoenixflavour.com/skyrim-se/enbseries/02-enb-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/enbseries/02-enb-setup/</guid><description>
+&lt;p>Please note that the Complex Particle Lights feature does come with a small performance impact. Users with lower-end machines might want to disable it and skip the related mods.&lt;/p></description></item><item><title>Skyrim-Se: ENB Setup</title><link>https://thephoenixflavour.com/skyrim-se/enbseries/enb-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/enbseries/enb-setup/</guid><description>
 &lt;h2 id="enb-man">ENB Man&lt;/h2>
 &lt;ul>
 &lt;li>Download &lt;a href="https://www.nexusmods.com/skyrim/mods/57620">ENB Man&lt;/a> (the main file) manually from the Nexus.&lt;/li>
@@ -61,7 +61,7 @@
 &lt;h3 id="import-to-enb-man">Import to ENB Man&lt;/h3>
 &lt;ul>
 &lt;li>Back in ENB Man, click the arrow under &lt;strong>Binaries&lt;/strong> and select &lt;strong>Add&lt;/strong>.&lt;/li>
-&lt;li>Enter &lt;strong>ENBSeries&lt;/strong> and the version number as name (eg &lt;strong>ENBSeries 0.427&lt;/strong>).&lt;/li>
+&lt;li>Enter &lt;strong>ENBSeries&lt;/strong> and the version number as name (eg &lt;strong>ENBSeries 0.440&lt;/strong>).&lt;/li>
 &lt;li>Click the green checkmark to confirm.&lt;/li>
 &lt;li>Drag the three files from your temp folder into the &lt;strong>Binary&lt;/strong> window.&lt;/li>
 &lt;li>Click the green checkmark to confirm.&lt;/li>
@@ -85,7 +85,7 @@
 &lt;li>Back in the &lt;strong>Global Configuration Files&lt;/strong> window, check &lt;strong>enblocal.ini.&lt;/strong>&lt;/li>
 &lt;li>Click the green checkmark to close the window.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/enbseries/global-ini-settings.png" alt="Global INI Settings">&lt;/p></description></item><item><title>Skyrim-Se: ENB Preset Installation</title><link>https://thephoenixflavour.com/skyrim-se/enbseries/03-enb-preset-installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/enbseries/03-enb-preset-installation/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/enbseries/global-ini-settings.png" alt="Global INI Settings">&lt;/p></description></item><item><title>Skyrim-Se: Preset Installation</title><link>https://thephoenixflavour.com/skyrim-se/enbseries/preset-installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/enbseries/preset-installation/</guid><description>
 &lt;h2 id="preset-selection">Preset Selection&lt;/h2>
 &lt;p>The Phoenix Flavour is using &lt;strong>Rudy ENB&lt;/strong> for Cathedral Weathers. Rudy ENB has been around since the Classic Skyrim days and enjoys a reputation of one of the most feature-rich and highest quality presets. The performance impact is noticeable but should not render the game unplayable on decently modern systems @1080p. Settings can be tweaked or disabled in order to gain more frames.&lt;/p>
 &lt;h2 id="create-a-new-preset">Create a new preset&lt;/h2>
@@ -122,11 +122,75 @@
 &lt;li>Click the green checkmark at the bottom of the window to install the preset.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;em>Reference picture shows a different preset but the process is the same.&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/enbseries/activate-enb-preset.png" alt="Enable Preset">&lt;/p></description></item><item><title>Skyrim-Se: Related Mods</title><link>https://thephoenixflavour.com/skyrim-se/enbseries/04-related-mods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/enbseries/04-related-mods/</guid><description>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Mod Order&lt;/h4>
-Place all mods from this section below the ENB PARTICLE LIGHTS separator unless otherwise specified.
-&lt;/div>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/enbseries/activate-enb-preset.png" alt="Enable Preset">&lt;/p></description></item><item><title>Skyrim-Se: Other Presets</title><link>https://thephoenixflavour.com/skyrim-se/enbseries/other-presets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/enbseries/other-presets/</guid><description>
+&lt;h2 id="enb-presets">ENB Presets&lt;/h2>
+&lt;p>When deciding for a preset, there are several factors to take into account:&lt;/p>
+&lt;ul>
+&lt;li>Is the preset compatible with my weather overhaul?&lt;/li>
+&lt;li>Do I like the preset visually?&lt;/li>
+&lt;li>How easy is the preset to customise?&lt;/li>
+&lt;li>How bad is the performance impact with default / intended settings?&lt;/li>
+&lt;li>Does it break vanilla imagespace?&lt;/li>
+&lt;/ul>
+&lt;p>Visuals are obviously subjective while performance depends on your hardware. You will likely have to install and test a preset before being able to decide whether you like it or not. Screenshots and showcase videos can be found on the mod pages for all presets.&lt;/p>
+&lt;p>Customisability can be a relevant aspect; however, it is important to note that any ENB preset can be tweaked in any way you want. It&amp;rsquo;s just simpler for some that have integrated certain options into their UI (toggling letterbox, changing LUTs, etc).&lt;/p>
+&lt;p>All presets recommended here are made for or have options for Cathedral Weathers.&lt;/p>
+&lt;h3 id="vanilla-imagespace-compatibility">Vanilla Imagespace Compatibility&lt;/h3>
+&lt;p>A final consideration would be compatibility with vanilla imagespaces, specifically the &lt;strong>Nighteye&lt;/strong> effect. With TPF you gain night vision as a Khajiit, vampire, or werewolf although you can also use the new spell, scroll, potion, and enchantment.&lt;/p>
+&lt;p>Some ENBs (including Rudy ENB) are &lt;strong>not compatible&lt;/strong> with image spaces so that you will not see a difference when toggling night vision. Others have a fix inbuilt (which is typically active by default). Since TPF has reasonably bright interiors as well as QuickLight (a toggleable torch effect), night vision is not as relevant.&lt;/p>
+&lt;p>However, if you wish to use &lt;strong>Nighteye&lt;/strong>, you need to install a preset that is compatible with vanilla imagespaces.&lt;/p>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>Any of the presets below can be installed as detailed in the previous step with Rudy ENB. Create a new profile in ENB Man, give it an appropriate name, copy over the files, make sure you have selected the latest ENB binaries, and click the green checkmark to deploy.&lt;/p>
+&lt;p>You can switch between presets anytime.&lt;/p>
+&lt;p>&lt;strong>Remember to always extract the preset files into the temp folder before importing them into ENB Man.&lt;/strong> Otherwise files might be skipped and the preset will not look as intended.&lt;/p>
+&lt;h2 id="recommended-presets">Recommended Presets&lt;/h2>
+&lt;h3 id="rudy-enb">Rudy ENB&lt;/h3>
+&lt;p>&lt;em>This is the default option, installed in the previous step.&lt;/em>&lt;/p>
+&lt;p>As one of the oldest and most popular ENB presets for both versions of Skyrim (SLE/SSE), Rudy ENB has been the default for TPF ever since its Cathedral Weathers edition was released. It is a fully featured preset using almost all features and effects available including custom per-weather settings.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Support:&lt;/strong> Rudy ENB is regularly updated.&lt;/li>
+&lt;li>&lt;strong>Features:&lt;/strong> Rudy ENB utilises almost all features of ENBSeries.&lt;/li>
+&lt;li>&lt;strong>Performance:&lt;/strong> Rudy ENB has a medium to strong impact on performance.&lt;/li>
+&lt;li>&lt;strong>Nighteye:&lt;/strong> Rudy ENB is not compatible with Vanilla image spaces.&lt;/li>
+&lt;/ul>
+&lt;h3 id="serios-enb-for-cathedral">Serio&amp;rsquo;s ENB for Cathedral&lt;/h3>
+&lt;p>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30506">Download here.&lt;/a>&lt;/p>
+&lt;p>Serio&amp;rsquo;s is a good performance-friendly alternative to Rudy. It needs some tweaking in order to look good with Luminosity, our lighting overhaul. You can find the instructions in the guide later on (New Game &amp;raquo; ENB Tweaks).&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Support:&lt;/strong> Serio&amp;rsquo;s ENB is updated occasionally.&lt;/li>
+&lt;li>&lt;strong>Features:&lt;/strong> Serio&amp;rsquo;s ENB features all basic effects plus many custom LUTs.&lt;/li>
+&lt;li>&lt;strong>Performance:&lt;/strong> Serio&amp;rsquo;s ENB has a light to medium impact on performance.&lt;/li>
+&lt;li>&lt;strong>Nighteye:&lt;/strong> Serio&amp;rsquo;s ENB is compatible with Vanilla image spaces.&lt;/li>
+&lt;/ul>
+&lt;h3 id="silent-horizons-enb">Silent Horizons ENB&lt;/h3>
+&lt;p>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21543">Download here.&lt;/a>&lt;/p>
+&lt;p>Silent Horizons is an incredibly customisable preset available for a range of different weather overhauls, including Cathedral. The mod page features indepth instructions for personalising the preset.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Support:&lt;/strong> Silent Horizons ENB has not been updated in a few months.&lt;/li>
+&lt;li>&lt;strong>Features:&lt;/strong> Silent Horizons ENB includes a wide range of features and many customisation options.&lt;/li>
+&lt;li>&lt;strong>Performance:&lt;/strong> Silent Horizons ENB has a medium impact on performance.&lt;/li>
+&lt;li>&lt;strong>Nighteye:&lt;/strong> Silent Horizons ENB is compatible with Vanilla image spaces.&lt;/li>
+&lt;/ul>
+&lt;h3 id="semirealis-enb">Semirealis ENB&lt;/h3>
+&lt;p>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25163">Download here.&lt;/a>&lt;/p>
+&lt;p>Semirealis is the Cathedral Weathers ENB by firemanaf who is the creator of many popular ENB presets for Skyrim SE (Skyrim Re-Engaged, Natural View Tamriel, etc). For my taste his presets are too dark across the board and the full quality versions are more performance-hungry than comparable presets.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Support:&lt;/strong> Semirealis ENB is kept up-to-date with the latest ENBSeries releases.&lt;/li>
+&lt;li>&lt;strong>Features:&lt;/strong> Semirealis ENB covers all ENB effects and some customisability.&lt;/li>
+&lt;li>&lt;strong>Performance:&lt;/strong> Semirealis ENB has a strong impact on performance; however, performance options are available.&lt;/li>
+&lt;li>&lt;strong>Nighteye:&lt;/strong> Semirealis ENB is compatible with Vanilla image spaces.&lt;/li>
+&lt;/ul>
+&lt;h3 id="the-truth-enb">The Truth ENB&lt;/h3>
+&lt;p>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9162">Download here.&lt;/a>&lt;/p>
+&lt;p>As the ultimate performance preset as Phinix ENB for SLE and The Truth ENB for SSE, this is the best choice for anyone with dated hardware or a dislike towards visually intense ENB presets. Its effects improve but do not radically change the visuals which makes the preset compatible with any weather overhaul out there.&lt;/p>
+&lt;p>The author, Phinix, is also the original creator of the ENB nighteye fix.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Support:&lt;/strong> The Truth ENB is being updated occasionally.&lt;/li>
+&lt;li>&lt;strong>Features:&lt;/strong> The Truth ENB covers select ENB effects.&lt;/li>
+&lt;li>&lt;strong>Performance:&lt;/strong> The Truth ENB has a light impact on performance.&lt;/li>
+&lt;li>&lt;strong>Nighteye:&lt;/strong> The Truth ENB is compatible with Vanilla image spaces.&lt;/li>
+&lt;/ul></description></item><item><title>Skyrim-Se: Related Mods</title><link>https://thephoenixflavour.com/skyrim-se/enbseries/related-mods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/enbseries/related-mods/</guid><description>
+&lt;p>&lt;strong>Place all mods from this section below the ENB PARTICLE LIGHTS separator unless otherwise instructed.&lt;/strong>&lt;/p>
 &lt;h5 id="enb-lighthttpswwwnexusmodscomskyrimspecialeditionmods22574tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22574?tab=files">ENB Light&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions">Download Instructions&lt;/h4>
 &lt;ul>
@@ -194,10 +258,6 @@ Install this if you installed &lt;strong>ENB Light&lt;/strong>. Otherwise skip i
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> The Phoenix Flavour - ENB Light Patch&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
-&lt;ul>
-&lt;li>Move the mod manually below the &lt;strong>39 FINAL PATCHES&lt;/strong> separator.&lt;/li>
-&lt;/ul>
 &lt;h5 id="enb-particle-lights---dwemer-lanternshttpswwwnexusmodscomskyrimspecialeditionmods24108tabfiles-optional">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24108?tab=files">ENB Particle Lights - Dwemer Lanterns&lt;/a> (optional)&lt;/h5>
 &lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
 &lt;ul>
@@ -227,7 +287,7 @@ Install this if you installed &lt;strong>ENB Light&lt;/strong>. Otherwise skip i
 &lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - More Lights for ENB SE - Bthardamz&lt;/li>
-&lt;/ul></description></item><item><title>Skyrim-Se: INI Tweaks</title><link>https://thephoenixflavour.com/skyrim-se/enbseries/05-ini-tweaks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/enbseries/05-ini-tweaks/</guid><description>
+&lt;/ul></description></item><item><title>Skyrim-Se: INI Tweaks</title><link>https://thephoenixflavour.com/skyrim-se/enbseries/ini-tweaks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/enbseries/ini-tweaks/</guid><description>
 &lt;h2 id="editing-inis-in-mo2">Editing INIs in MO2&lt;/h2>
 &lt;p>Just as a reminder: You can edit INI files for your profile directly through the Mod Organizer 2 interface.&lt;/p>
 &lt;ul>
@@ -247,7 +307,7 @@ bSAOEnable=0
 &lt;pre>&lt;code>[Particles]
 iMaxDesired=7500
 &lt;/code>&lt;/pre>&lt;h2 id="volumetric-lighting">Volumetric Lighting&lt;/h2>
-&lt;p>For Rudy ENB, it is recommended (but not required) to enable Volumetric Lighting aka godrays. Please note that there is a noticeable performance impact, especially on weaker machines.&lt;/p>
+&lt;p>For &lt;strong>Rudy ENB&lt;/strong>, it is recommended (but not required) to enable Volumetric Lighting aka godrays. Please note that there is a noticeable performance impact, especially on weaker machines.&lt;/p>
 &lt;p>Edit the following line in your &lt;strong>skyrimprefs.ini&lt;/strong> to enable godrays:&lt;/p>
 &lt;pre>&lt;code>[Display]
 bVolumetricLightingEnable=1

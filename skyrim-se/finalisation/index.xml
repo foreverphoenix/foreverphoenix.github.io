@@ -239,7 +239,7 @@
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/texgen_settings.png" alt="TexGen Settings">&lt;/p>
 &lt;h2 id="texgen-output">TexGen Output&lt;/h2>
 &lt;ul>
-&lt;li>Once TexGen has finished, click &lt;strong>Save and Exit&lt;/strong>.&lt;/li>
+&lt;li>Once TexGen has finished, click &lt;strong>Exit&lt;/strong>.&lt;/li>
 &lt;li>Navigate to &lt;code>Your Modding Folder\Tools\DynDOLOD&lt;/code>.&lt;/li>
 &lt;li>Cut (CTRL + X) the &lt;strong>TexGen_Output&lt;/strong> folder and paste (CTRL+V) it to &lt;code>Mod Organizer 2\mods&lt;/code>.&lt;/li>
 &lt;li>Refresh Mod Organizer 2 (F5) and it will appear at the bottom of your mod order.&lt;/li>

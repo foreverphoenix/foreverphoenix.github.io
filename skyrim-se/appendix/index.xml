@@ -1,4 +1,5 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Appendix</title><link>https://thephoenixflavour.com/skyrim-se/appendix/</link><description>Recent content in Appendix on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/skyrim-se/appendix/index.xml" rel="self" type="application/rss+xml"/><item><title>Skyrim-Se: Frequently Asked Questions</title><link>https://thephoenixflavour.com/skyrim-se/appendix/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/faq/</guid><description>
+&lt;h2 id="guide-instructions">Guide Instructions&lt;/h2>
 &lt;blockquote>
 &lt;p>I have over 300 plugins active in Mod Organizer 2. Is that intended?&lt;/p>
 &lt;/blockquote>
@@ -7,14 +8,6 @@
 &lt;p>Some plugins in my load order are deactivated. Is that intended?&lt;/p>
 &lt;/blockquote>
 &lt;p>No, this happens when renaming plugin extensions from ESL to ESP (in order to turn full ESLs into ESP-FE plugins). Make sure to check them again after renaming them. Eventually all plugins should be checked and active in your load order.&lt;/p>
-&lt;blockquote>
-&lt;p>Is ENBoost a thing in Skyrim SE?&lt;/p>
-&lt;/blockquote>
-&lt;p>No. Because of the 64bit upgrade, Skyrim SE is able to allocate more RAM for itself which is essentially what ENBoost used to do for Classic Skyrim. The current ENB binaries for SE contain no ENBoost features.&lt;/p>
-&lt;blockquote>
-&lt;p>Can I play with a controller instead of mouse and keyboard?&lt;/p>
-&lt;/blockquote>
-&lt;p>Yep, it&amp;rsquo;s as easy as connecting a controller. The only potential issue would be lack of bindable hotkeys for mods.&lt;/p>
 &lt;blockquote>
 &lt;p>Why don&amp;rsquo;t all Classic Skyrim mods that included meshes have CAO instructions?&lt;/p>
 &lt;/blockquote>
@@ -25,10 +18,25 @@
 &lt;/blockquote>
 &lt;p>No, this is no longer necessary. You should be running the latest version of the Creation Kit. Go into your &lt;strong>root&lt;/strong> folder, right-click &lt;strong>CreationKit.exe&lt;/strong>, switch to the &lt;strong>Details&lt;/strong> tab and you should have &lt;strong>Product version 1.5.73.0&lt;/strong>.&lt;/p>
 &lt;p>For a time it was necessary to use the executable and DLLs of the previous version (1.5.53) because &lt;strong>CK Fixes&lt;/strong> was only working with that version of the Creation Kit. CK Fixes has since been updated.&lt;/p>
+&lt;h2 id="guide-content">Guide Content&lt;/h2>
+&lt;blockquote>
+&lt;p>Will Legacy of the Dragonborn ever be added to the written guide?&lt;/p>
+&lt;/blockquote>
+&lt;p>It is extremely unlikely. LOTD is for the time being exclusive to the Wabbajack installer version and optional there. Perhaps there will one day be a fork (official or otherwise) of the guide that includes the mod.&lt;/p>
+&lt;h2 id="tpf-gameplay">TPF Gameplay&lt;/h2>
+&lt;blockquote>
+&lt;p>Can I play with a controller instead of mouse and keyboard?&lt;/p>
+&lt;/blockquote>
+&lt;p>Yep, it&amp;rsquo;s as easy as connecting a controller. The only potential issue would be lack of bindable hotkeys for mods.&lt;/p>
 &lt;blockquote>
 &lt;p>Why don&amp;rsquo;t Dragons burn away and turn to bones when I kill them?&lt;/p>
 &lt;/blockquote>
-&lt;p>That&amp;rsquo;s actually intended behaviour. If you dislike it, uncheck &lt;strong>Dragon Remains&lt;/strong> in your mod order (30 IMMERSION).&lt;/p></description></item><item><title>Skyrim-Se: Troubleshooting</title><link>https://thephoenixflavour.com/skyrim-se/appendix/troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/troubleshooting/</guid><description>
+&lt;p>That&amp;rsquo;s actually intended behaviour. If you dislike it, uncheck &lt;strong>Dragon Remains&lt;/strong> in your mod order (27 MISCELLANEOUS).&lt;/p>
+&lt;h2 id="general-sse-questions">General SSE Questions&lt;/h2>
+&lt;blockquote>
+&lt;p>Is ENBoost a thing in Skyrim SE?&lt;/p>
+&lt;/blockquote>
+&lt;p>No. Because of the 64bit upgrade, Skyrim SE is able to allocate more RAM for itself which is essentially what ENBoost used to do for Classic Skyrim. The current ENB binaries for SE contain no ENBoost features.&lt;/p></description></item><item><title>Skyrim-Se: Troubleshooting</title><link>https://thephoenixflavour.com/skyrim-se/appendix/troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/troubleshooting/</guid><description>
 &lt;h2 id="error-message-when-trying-to-launch-the-creation-kit">Error message when trying to launch the Creation Kit.&lt;/h2>
 &lt;p>If by chance you are seeing the error message picture below, it is simply an issue of the required version of Microsoft Visual C++ framework not being installed correctly. To fix this, download the latest &lt;strong>x64&lt;/strong> executable &lt;a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">here&lt;/a>. Run the downloaded executable and follow the prompts through the installation process.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/faq/ck_error_vc_missing.jpg" alt="CK Error VC Missing">&lt;/p>
@@ -40,11 +48,11 @@
 &lt;/ul>
 &lt;h4 id="outdated-skse-plugins">Outdated SKSE plugins&lt;/h4>
 &lt;p>Skyrim may crash when you attempt to launch it with outdated SKSE plugins. This is a common problem in the weeks after a Skyrim SE and SKSE64 update. Normally there will be an error message as well, notifying you about the plugin in question. Mod Organizer 2 will show a warning as well.&lt;/p>
-&lt;p>One possible cause would be installing Simply Knock and accidentally skipping the updated SKSE64 DLL for it (&lt;strong>Mod Installation, Step 36&lt;/strong>). Double-check you have the latest versions of all mods with SKSE plugins installed and configured as per the guide’s instructions.&lt;/p>
+&lt;p>One possible cause would be installing Simply Knock and accidentally skipping the updated SKSE64 DLL for it (&lt;strong>Mod Installation &amp;raquo; Miscellaneous&lt;/strong>). Double-check you have the latest versions of all mods with SKSE plugins installed and configured as per the guide’s instructions.&lt;/p>
 &lt;h4 id="skyrim-le-bsa">Skyrim LE BSA&lt;/h4>
-&lt;p>Skyrim will immediately crash if you attempt to launch it with an active Skyrim LE BSA (compiled with the Skyrim LE Creation Kit). You can find instructions on how to quickly narrow down the culprit in Resources &amp;gt; Quick Tutorials.&lt;/p>
+&lt;p>Skyrim will immediately crash if you attempt to launch it with an active Skyrim LE BSA (compiled with the Skyrim LE Creation Kit). You can find instructions on how to quickly narrow down the culprit in &lt;a href="https://thephoenixflavour.com/skyrim-se/guide-resources/various-tutorials/">Resources &amp;raquo; Various Tutorials&lt;/a>.&lt;/p>
 &lt;h4 id="ini-files">INI Files&lt;/h4>
-&lt;p>If none of the above helped, try regenerating your INI files from scratch. There are instructions under Resources &amp;gt; Quick Tutorials.&lt;/p>
+&lt;p>If none of the above helped, try regenerating your INI files from scratch. There are instructions under &lt;a href="https://thephoenixflavour.com/skyrim-se/guide-resources/various-tutorials/">Resources &amp;raquo; Various Tutorials&lt;/a>.&lt;/p>
 &lt;h2 id="main-menu-music-is-playing-but-the-screen-is-black">Main menu music is playing but the screen is black.&lt;/h2>
 &lt;p>This happens when VSYNC is enabled in enblocal.ini and conflicts with SSE Display Fixes. Open ENB Man and go into the Global Settings. The &lt;strong>enblocal.ini&lt;/strong> there should be checked so that it overwrites. Double-click it and make sure that &lt;code>ForceVSync&lt;/code> under ENGINE is set to false. VSYNC should be forced through SSE Display Fixes instead.&lt;/p>
 &lt;blockquote>
@@ -55,22 +63,79 @@
 &lt;p>One of the more recent updates for the Unofficial Skyrim Special Edition Patch removed an AI package record from Aventus Aretino. None of the mods in the guide that touch Aventus (Prince and the Pauper, Simply Children, Adopt Aventus Aretino) have been updated since to incorporate that fix and they all have an unresolved error instead. This is fixed in the &lt;strong>Conflict Resolution Patch.esp&lt;/strong>.&lt;/p>
 &lt;p>If the main menu won&amp;rsquo;t load, your load order is messed up, or you aren&amp;rsquo;t using the CRP.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/faq/stuck_in_main_menu.jpg" alt="Stuck in Main Menu">&lt;/p>
-&lt;h2 id="grass-looks-strangely-dull-and-flat">Grass looks strangely dull and flat.&lt;/h2>
-&lt;p>Without ENB, grass will unfortunately look much worse. If you are running an ENB preset, make sure &lt;strong>Ambient Occlusion&lt;/strong> is enabled to give grass some much needed depth. Be aware that Ambient Occlusion is fairly demanding and disabled in Lite presets for a reason.&lt;/p>
-&lt;p>&lt;img src="https://cdn.discordapp.com/attachments/521296280165679119/702036429341065286/enb2020_4_21_00_57_56.jpg" alt="Example">&lt;/p>
 &lt;h2 id="lower-fps-than-expected">Lower FPS than expected.&lt;/h2>
 &lt;h4 id="playing-at-a-resolution-higher-than-1080p">Playing at a resolution higher than 1080p.&lt;/h4>
-&lt;p>You will experience a significant performance loss when playing on 1440p (or higher) compared to 1080p, around 20 FPS with TPF in my experience. Therefore I strongly recommend playing on 1080p even if your monitor is capable of a higher resolution. I&amp;rsquo;m personally doing just that on my 1440p monitor and it looks fine to me. Check Resources &amp;gt; Quick Tutorials for instructions on how to quickly change the game&amp;rsquo;s resolution.&lt;/p>
-&lt;h2 id="some-beards-look-strange-on-elven-player-characters">Some beards look strange on Elven player characters.&lt;/h2>
+&lt;p>You will experience a significant performance loss when playing on 1440p (or higher) compared to 1080p, around 20 FPS with TPF in my experience. Therefore I strongly recommend playing on 1080p even if your monitor is capable of a higher resolution. I&amp;rsquo;m personally doing just that on my 1440p monitor and it looks fine to me. Check &lt;a href="https://thephoenixflavour.com/skyrim-se/guide-resources/various-tutorials/">Resources &amp;raquo; Various Tutorials&lt;/a> for instructions on how to quickly change the game&amp;rsquo;s resolution.&lt;/p></description></item><item><title>Skyrim-Se: Known Issues</title><link>https://thephoenixflavour.com/skyrim-se/appendix/known_issues/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/known_issues/</guid><description>
+&lt;h5 id="some-beards-look-strange-on-elven-player-characters">Some beards look strange on Elven player characters.&lt;/h5>
 &lt;p>This is unfortunately a known issue with the beard TRI files in Ethereal Elven Overhaul. Some of them clip into the skin. Fixed TRI files for one beard (HumanBeard25) are packaged with the guide&amp;rsquo;s CRP so that beards on humans look fine but issues remain with some beards on Elven characters. I have no idea to fix this and consider the issue low priority since Elves are rarely bearded anyway.&lt;/p>
-&lt;p>Check &lt;a href="https://github.com/foreverphoenix/the-phoenix-flavour/issues/8">issue report #8&lt;/a> for details and pictures.&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/appendix/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/changelog/</guid><description>
+&lt;p>Check &lt;a href="https://github.com/foreverphoenix/the-phoenix-flavour/issues/8">issue report #8&lt;/a> for details and pictures.&lt;/p>
+&lt;h5 id="dialogue-subtitles-get-stuck-on-the-screen-longer-after-they-played">Dialogue subtitles get stuck on the screen longer after they played.&lt;/h5>
+&lt;p>This is a known issue with the mod &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/15109?tab=bugs">Fuz Ro D-oh&lt;/a> that the author is aware of. Since it rarely happens and doesn&amp;rsquo;t disrupt gameplay, I will be keeping the mod in TPF for the forseeable future until we no longer need it.&lt;/p>
+&lt;p>Check &lt;a href="https://github.com/foreverphoenix/the-phoenix-flavour/issues/41">issue report #41&lt;/a> for details and pictures.&lt;/p>
+&lt;h5 id="grass-looks-strangely-dull-and-flat">Grass looks strangely dull and flat.&lt;/h5>
+&lt;p>Without ENB, grass will unfortunately look much worse. If you are running an ENB preset, make sure &lt;strong>Ambient Occlusion&lt;/strong> is enabled to give grass some much needed depth. Be aware that Ambient Occlusion is fairly demanding and disabled in Lite presets for a reason.&lt;/p>
+&lt;p>&lt;img src="https://cdn.discordapp.com/attachments/521296280165679119/702036429341065286/enb2020_4_21_00_57_56.jpg" alt="Example">&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/appendix/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/changelog/</guid><description>
+&lt;h2 id="release-35">Release 3.5&lt;/h2>
+&lt;blockquote>
+&lt;p>05/09/2020&lt;/p>
+&lt;/blockquote>
+&lt;p>With this update Aetherius and Mundus were added to complement the existing suite of gameplay mods by SimonMagus. Alchemy got a much needed balancing upgrade with the switch to skepmanmods&amp;rsquo; Alchemy Potions and Food Adjustments and fighting dragons should be less of a headache now after the removal of Simply Stronger Dragons.&lt;/p>
+&lt;p>Despite the overall trend to remove customisability, I have once again re-added a page on different ENB presets as I feel that this is an easy way for me to allow personalisation. Switching ENB presets is simple, it can be done anytime. Presets are highly dependent on personal taste and I know that I personally switch all the time (haven&amp;rsquo;t had a personal favourite since Visceral ENB). Rudy ENB remains the default but there are now recommendations/links to Serio&amp;rsquo;s ENB, The Truth, Silent Horizons, and Semirealis.&lt;/p>
+&lt;p>A handful of mods were removed in anticipation of the elimination of optional mods. &lt;strong>However, TPF 3.5 still has optional mods.&lt;/strong> I have decided to push this change to the next update so that from 3.6 (or whatever I&amp;rsquo;ll call it) onwards, you will no longer be able to skip currently optional mods (they will all be mandatory).&lt;/p>
+&lt;h4 id="mod-installation">Mod Installation&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Essential Mods:&lt;/strong> Reverted SSE Engine Fixes config file editing instructions to MO2 since it can now open TOML files.&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Removed Hide These Futile Quests (too confusing for people who don&amp;rsquo;t read).&lt;/li>
+&lt;li>&lt;strong>Unique Artifacts:&lt;/strong> Added a note to prevent confusion about the AMB FOMOD option that is greyed out.&lt;/li>
+&lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Replaced Morningstar - Minimalistic Races of Skyrim with Aetherius - A Race Overhaul.&lt;/li>
+&lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Added Mundus - A Standing Stone Overhaul.&lt;/li>
+&lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Removed Subtle But Classless (could no longer be optional with the addition of Aetherius).&lt;/li>
+&lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Removed the Subtle But Classless - USSEP and EEO Patch.&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Removed Simply Stronger Dragons - TPF Repack (makes dragon fights too difficult).&lt;/li>
+&lt;li>&lt;strong>Balancing:&lt;/strong> Added instructions to download the new Morrowloot Miscellania - No Fortify Enchanting Alchemy Smithing.&lt;/li>
+&lt;li>&lt;strong>Balancing:&lt;/strong> Added Alchemy Potions and Food Adjustments.&lt;/li>
+&lt;li>&lt;strong>Balancing:&lt;/strong> Removed Skyrim Alchemy Fixed.&lt;/li>
+&lt;li>&lt;strong>Sound Effects:&lt;/strong> Removed mod order instructions from Audio Overhaul Skyrim (they should have been gone several updates ago).&lt;/li>
+&lt;/ul>
+&lt;h4 id="enbseries">ENBSeries&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Other Presets:&lt;/strong> (Re-)Added this page, allowing you once again to choose your own ENB preset.&lt;/li>
+&lt;li>&lt;strong>Related Mods:&lt;/strong> Removed mod order instructions for the TPF ENB Light Patch.&lt;/li>
+&lt;li>&lt;strong>INI Tweaks:&lt;/strong> Specified that turning on godrays (Volumetric Lighting) is recommended specifically for Rudy ENB.&lt;/li>
+&lt;/ul>
+&lt;h4 id="finalisation">Finalisation&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>DynDOLOD:&lt;/strong> Fixed TexGen instructions (the button actually just says EXIT instead of SAVE AND EXIT).&lt;/li>
+&lt;/ul>
+&lt;h4 id="new-game">New Game&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Final Adjustments:&lt;/strong> Removed ENB Shader Cache section (doesn&amp;rsquo;t need to be reset for new presets anymore).&lt;/li>
+&lt;li>&lt;strong>Mod Configuration:&lt;/strong> Renamed &amp;ldquo;Nether&amp;rsquo;s Follower Framework&amp;rdquo; section to &amp;ldquo;Follower Framework&amp;rdquo; to match the ingame menu.&lt;/li>
+&lt;li>&lt;strong>Mod Configuration:&lt;/strong> Rephrased instructions to disable Wonders of Weather rainsplashes (must be disabled to prevent CTDs).&lt;/li>
+&lt;li>&lt;strong>ENB Tweaks:&lt;/strong> Added this page to reintegrate Serio&amp;rsquo;s ENB tweaks.&lt;/li>
+&lt;/ul>
+&lt;h4 id="resources">Resources&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Widescreen Support:&lt;/strong> Added proper instructions for widescreen monitor owners.&lt;/li>
+&lt;/ul>
+&lt;h4 id="appendix">Appendix&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Frequently Asked Questions:&lt;/strong> Restructured the page, updated and expanded it.&lt;/li>
+&lt;li>&lt;strong>Known Issues:&lt;/strong> Added this page.&lt;/li>
+&lt;/ul>
+&lt;h4 id="conflict-resolution-patch">Conflict Resolution Patch&lt;/h4>
+&lt;ul>
+&lt;li>Fixed conflicts between Ethereal Elven Overhaul and Aetherius - A Race Overhaul.&lt;/li>
+&lt;li>Cleaned out Skyrim Alchemy Fixed as the mod was removed.&lt;/li>
+&lt;li>CCOR changes the mesh path for the Necromancer&amp;rsquo;s Amulet but doesn&amp;rsquo;t package the new mesh so the amulet ends up being invisible. I reverted the mesh path back to vanilla. Thanks to caligineux for reporting this!&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-345">Release 3.4.5&lt;/h2>
 &lt;blockquote>
 &lt;p>30/08/2020&lt;/p>
 &lt;/blockquote>
 &lt;p>This is a quick fix-it for the recently reworked Veydosebrom. The new version no longer works with my plugin replacer / Cathedral addon - fortunately, the original Vey is still available for download.&lt;/p>
 &lt;p>A bigger update, 3.5, is currently in the works. No ETA.&lt;/p>
-&lt;h4 id="mod-installation">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-1">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Landscape:&lt;/strong> Updated instructions for Veydosebrom, downloading version from Old Files.&lt;/li>
 &lt;li>&lt;strong>Landscape:&lt;/strong> No longer selecting Snowy Farmhouses in the Better Dynamic Snow FOMOD (they don&amp;rsquo;t look great).&lt;/li>
@@ -85,16 +150,16 @@
 &lt;ul>
 &lt;li>&lt;strong>Skyrim Script Extender:&lt;/strong> Updated instructions, now supporting SKSE 2.0.19 (latest update).&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-1">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-2">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Apparel &amp;amp; Weapons:&lt;/strong> Actually removed the (optional) flag from Open Face Guard Helmets.&lt;/li>
 &lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Trua - Minimalistic Faiths of Skyrim is no longer optional (no, seriously this time).&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-1">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>First Launch:&lt;/strong> Removed ENB config section for Serio&amp;rsquo;s ENB that is no longer necessary with Rudy ENB.&lt;/li>
 &lt;/ul>
-&lt;h4 id="appendix">Appendix&lt;/h4>
+&lt;h4 id="appendix-1">Appendix&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Troubleshooting:&lt;/strong> Added section for the enblocal.ini VSYNC and SSE Display Fixes conflict.&lt;/li>
 &lt;/ul>
@@ -109,7 +174,7 @@
 &lt;li>&lt;strong>Skyrim Script Extender:&lt;/strong> Updated instructions, now supporting SKSE 2.0.18 (latest update).&lt;/li>
 &lt;li>&lt;strong>INI Files:&lt;/strong> Added instructions to increase particle count to 1500 under BethINI Detail.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-2">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-3">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Updated download instructions for a bunch of mods (incremented version numbers).&lt;/li>
 &lt;li>&lt;strong>Tweaks:&lt;/strong> Added Miscellaneous Tweaks Collection.&lt;/li>
@@ -125,17 +190,17 @@
 &lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Added No Road Predators Redone.&lt;/li>
 &lt;li>&lt;strong>Content Addon:&lt;/strong> Temporarily removed It Beats For Her (hidden on the Nexus).&lt;/li>
 &lt;/ul>
-&lt;h4 id="enbseries">ENBSeries&lt;/h4>
+&lt;h4 id="enbseries-1">ENBSeries&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>ENB Preset Installation:&lt;/strong> Renamed this step to have a generic name (because I keep changing presets).&lt;/li>
 &lt;li>&lt;strong>ENB Preset Installation:&lt;/strong> Swapped from Serio&amp;rsquo;s ENB to Rudy ENB for Cathedral Weathers.&lt;/li>
 &lt;li>&lt;strong>INI Tweaks:&lt;/strong> Added optional instructions to enable volumetric lighting (godrays).&lt;/li>
 &lt;/ul>
-&lt;h4 id="resources">Resources&lt;/h4>
+&lt;h4 id="resources-1">Resources&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>How To Update:&lt;/strong> Added Skyrim Script Extender updating instructions.&lt;/li>
 &lt;/ul>
-&lt;h4 id="conflict-resolution-patch">Conflict Resolution Patch&lt;/h4>
+&lt;h4 id="conflict-resolution-patch-1">Conflict Resolution Patch&lt;/h4>
 &lt;ul>
 &lt;li>Fixed conflicts between Open Face Guard Helmets and WACCF.&lt;/li>
 &lt;li>Fixed conflicts between Better Shrouded Armor - Ancient Replacer Only, WACCF, and Unique Item Tweaks.&lt;/li>
@@ -151,7 +216,7 @@
 &lt;li>&lt;strong>Skyrim SE:&lt;/strong> Added a note that non-English installations of Skyrim SE are not supported.&lt;/li>
 &lt;li>&lt;strong>ESM Cleaning:&lt;/strong> Removed manual cleaning instructions for Update ESM (may cause issues and 3DNPC is no longer in the guide).&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-3">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-4">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Added Scathecraw HD 2K.&lt;/li>
 &lt;li>&lt;strong>Buildings &amp;amp; Interiors:&lt;/strong> Updated FOMOD instructions for Obscure&amp;rsquo;s College of Winterhold (no longer using Mannequins Stay Put).&lt;/li>
@@ -164,11 +229,11 @@
 &lt;li>&lt;strong>Skeleton &amp;amp; Animations:&lt;/strong> Added Relaxed Sneaking Animations.&lt;/li>
 &lt;li>&lt;strong>Skeleton &amp;amp; Animations:&lt;/strong> Added Slof&amp;rsquo;s Trotting Horse.&lt;/li>
 &lt;/ul>
-&lt;h4 id="resources-1">Resources&lt;/h4>
+&lt;h4 id="resources-2">Resources&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>How To Update:&lt;/strong> Added this new page with instructions for updating various tools and certain mods.&lt;/li>
 &lt;/ul>
-&lt;h4 id="conflict-resolution-patch-1">Conflict Resolution Patch&lt;/h4>
+&lt;h4 id="conflict-resolution-patch-2">Conflict Resolution Patch&lt;/h4>
 &lt;ul>
 &lt;li>Fixed a conflict between Ish&amp;rsquo;s Respec Mod and Night Eye Overhaul.&lt;/li>
 &lt;li>Lowered the amount of Draughts of Fate Unwound available at Elgrim&amp;rsquo;s from 99 to 2.&lt;/li>
@@ -191,7 +256,7 @@
 &lt;li>&lt;strong>Additional Tools:&lt;/strong> Updated the Cathedral Assets Overhaul profiles screenshot.&lt;/li>
 &lt;li>&lt;strong>ESM Cleaning:&lt;/strong> Fixed a really dumb typo (move cleaned ESMs BELOW the uncleaned ones in MO2).&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-4">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-5">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Fixed a lot of version numbers, file names, and links.&lt;/li>
 &lt;li>&lt;strong>Fixes:&lt;/strong> Updated FOMOD instructions for Landscape Fixes for Grass Mods (no longer selecting the Provincial Courier Service patch).&lt;/li>
@@ -219,13 +284,13 @@
 &lt;li>&lt;strong>Balancing:&lt;/strong> Moved all Morrowloot Miscellania file into one step.&lt;/li>
 &lt;li>&lt;strong>New Gear:&lt;/strong> Removed leftover, redundant mod order instructions for the WACCF - CBBE Patch.&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-1">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-2">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Wrapping Up:&lt;/strong> Updated instructions for the renamed separator (PATCHES &amp;raquo; FINAL PATCHES).&lt;/li>
 &lt;li>&lt;strong>Wrapping Up:&lt;/strong> Added instructions to enable all plugins before applying the loadorder.txt.&lt;/li>
 &lt;li>&lt;strong>Wrapping Up:&lt;/strong> Updated instructions regarding plugins below the CRP.&lt;/li>
 &lt;/ul>
-&lt;h4 id="new-game">New Game&lt;/h4>
+&lt;h4 id="new-game-1">New Game&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Mod Configuration:&lt;/strong> Removed Wildcat - Configuration Power section.&lt;/li>
 &lt;li>&lt;strong>Mod Configuration:&lt;/strong> Added Cathedral Weathers MCM instructions.&lt;/li>
@@ -264,7 +329,7 @@
 &lt;li>&lt;strong>Skyrim Realistic Overhaul:&lt;/strong> This step was removed completely. SRO is no longer part of the guide.&lt;/li>
 &lt;li>&lt;strong>Mod Installation:&lt;/strong> This step (containing general instructions for the mod installation) was moved to the Mod Installation section.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-5">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-6">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Essential Mods:&lt;/strong> Moved More Informative Console here (from Quality of Life).&lt;/li>
 &lt;li>&lt;strong>Fixes:&lt;/strong> Updated FOMOD instructions for Skyrim Landscape and Water Fixes (mod update).&lt;/li>
@@ -392,7 +457,7 @@
 &lt;li>&lt;strong>Utilities:&lt;/strong> Removed Papyrus Extender (since FEC is no longer in the guide).&lt;/li>
 &lt;li>&lt;strong>Utilities:&lt;/strong> Moved Copy and Paste in Console here (from Quality of Life).&lt;/li>
 &lt;/ul>
-&lt;h4 id="enbseries-1">ENBSeries&lt;/h4>
+&lt;h4 id="enbseries-2">ENBSeries&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Serio&amp;rsquo;s ENB:&lt;/strong> Renamed this step to Serio&amp;rsquo;s ENB from Silent Horizons.&lt;/li>
 &lt;li>&lt;strong>Serio&amp;rsquo;s ENB:&lt;/strong> Updated instructions for the new preset, Serio&amp;rsquo;s.&lt;/li>
@@ -402,7 +467,7 @@
 &lt;li>&lt;strong>Related Mods:&lt;/strong> Added The Phoenix Flavour - ENB Light Patch (same as the patches from the pack but in one ESP).&lt;/li>
 &lt;li>The ENB FAQ step was removed.&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-2">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-3">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Wrapping Up:&lt;/strong> Moved FOMOD instructions for MCWT back to the actual mod (since now all required mods are already installed prior to MCWT itself).&lt;/li>
 &lt;li>&lt;strong>Wrapping Up:&lt;/strong> Updated the list of plugins to ESL-ify.&lt;/li>
@@ -423,7 +488,7 @@
 &lt;li>&lt;strong>7.2.2:&lt;/strong> Fixed download instructions for the CAO Basic Profiles pack.&lt;/li>
 &lt;li>&lt;strong>10.2.5:&lt;/strong> Fixed the link to the Basic Instructions page.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-6">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-7">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>1.2:&lt;/strong> Updated SSE Engine Fixes configuration instructions for the new TOML file.&lt;/li>
 &lt;li>&lt;strong>10.4:&lt;/strong> Added FOMOD instructions for the updated Enhanced Landscapes - Oaks Standalone.&lt;/li>
@@ -443,7 +508,7 @@
 &lt;ul>
 &lt;li>&lt;strong>1.5:&lt;/strong> Added instructions to install the Visual C++ redists required by Mod Organizer 2.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-7">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-8">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>1.4:&lt;/strong> Finally added some INI tweak instructions for SSE Display Fixes.&lt;/li>
 &lt;li>&lt;strong>23.1:&lt;/strong> Added note to Vanilla NPCs Ruhmastered to use a specific file name.&lt;/li>
@@ -467,7 +532,7 @@
 &lt;li>&lt;strong>7.2:&lt;/strong> Adjusted instructions to link to the new download location for the CAO - Basic Profiles Pack.&lt;/li>
 &lt;li>&lt;strong>9.3:&lt;/strong> Added instructions to install the new CAO - SRO Profiles Pack.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-8">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-9">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Removed Remove Sneak Attack Sounds (feature included in Immersive Sounds - Compendium).&lt;/li>
 &lt;li>Moved Frozen Electrocuted Combustion to Customisation.&lt;/li>
@@ -476,7 +541,7 @@
 &lt;li>&lt;strong>6.2:&lt;/strong> Obsidian Weathers and Seasons MCM Patch is no longer optional.&lt;/li>
 &lt;li>&lt;strong>21.21:&lt;/strong> Realistic Skin Shader for Falmer and Hagravens is no longer optional.&lt;/li>
 &lt;/ul>
-&lt;h4 id="enbseries-2">ENBSeries&lt;/h4>
+&lt;h4 id="enbseries-3">ENBSeries&lt;/h4>
 &lt;ul>
 &lt;li>Added this new section to cover everything related to ENBSeries.&lt;/li>
 &lt;/ul>
@@ -500,7 +565,7 @@
 &lt;ul>
 &lt;li>&lt;strong>Step 7:&lt;/strong> Removed the zEdit section. zEdit will be re-added to the guide once mator provides ESL support.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-9">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-10">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Removed Dwemer Spectres.&lt;/li>
 &lt;li>Removed Dwemer Spectres - EBT No Bleeding and Other Fixes.&lt;/li>
@@ -520,7 +585,7 @@
 &lt;p>04.06.2020&lt;/p>
 &lt;/blockquote>
 &lt;p>Maintenance update.&lt;/p>
-&lt;h4 id="mod-installation-10">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-11">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>8.1:&lt;/strong> Updated download instructions for Frozen Electrocuted Combustion (file update).&lt;/li>
 &lt;li>&lt;strong>10.1:&lt;/strong> Updated FOMOD instructions for EVT Alternate Branch Textures (file update).&lt;/li>
@@ -534,7 +599,7 @@
 &lt;p>Just a small maintenance update. Realistic Water Two received a big update today, then got hidden to fix oversights. It&amp;rsquo;s back up now. You can probably expect a CRP update soon, but for now here are the updated instructions.&lt;/p>
 &lt;p>For those who use Arthmoor&amp;rsquo;s additional towns from Customisation, there are now instructions for the Lanterns of Skyrim II patches. I missed them previously.&lt;/p>
 &lt;p>&lt;strong>Wabbajack users:&lt;/strong> Stop pestering Lively about fixing the installer. When mods are updated, he has to update his own setup and recompile, and that takes time. Consider the fact that he has a life that includes more than updating the installer the second a mod update drops. Plus when a mod is hidden, like RW2 was today, there is nothing anyone can do and we all have to wait for the mod author to unhide the mod page.&lt;/p>
-&lt;h4 id="mod-installation-11">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-12">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>1.9 Added instructions to delete a textures from the Particle Patch (fixes a bug where water spray would look much darker than intended).&lt;/li>
 &lt;li>9.7 Updated instructions for Realistic Water Two.&lt;/li>
@@ -560,7 +625,7 @@
 &lt;li>2.9 Added section on what to do with &amp;lsquo;creations&amp;rsquo; reinstalled alongside Skyrim SE.&lt;/li>
 &lt;li>6.3 Updated BethINI settings. Added screenshots.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-12">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-13">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Fixed some typos and duplicate instructions.&lt;/li>
 &lt;li>Incremented version numbers for some updated files.&lt;/li>
@@ -637,7 +702,7 @@
 &lt;li>Moved the Mod Installation Instructions to Setup, Step 10.&lt;/li>
 &lt;li>Moved &amp;ldquo;Step 5 - Skyrim Realistic Overhaul&amp;rdquo; from the Mod Installation section to the Setup as Step 9.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-13">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-14">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Removed Havok Fix (replaced with SSE Display Tweaks).&lt;/li>
 &lt;li>Removed Cutting Room Floor.&lt;/li>
@@ -819,7 +884,7 @@
 &lt;li>&lt;strong>39.3:&lt;/strong> Added XPMSSE Fixes - Automated Patcher.&lt;/li>
 &lt;li>&lt;strong>39.4:&lt;/strong> Added All Geared Up Derivative - AllGUD.&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-3">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-4">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>Moved FNIS instructions to Step 2.&lt;/li>
 &lt;li>Added Step 3 for All Geared Up Derivative.&lt;/li>
@@ -843,7 +908,7 @@
 &lt;li>Added Tree Tweaks section.&lt;/li>
 &lt;li>Added Arthmoor&amp;rsquo;s New Towns section.&lt;/li>
 &lt;/ul>
-&lt;h4 id="new-game-1">New Game&lt;/h4>
+&lt;h4 id="new-game-2">New Game&lt;/h4>
 &lt;ul>
 &lt;li>Split up instructions.&lt;/li>
 &lt;li>Moved ENB Shader Cache instructions to Step 1.&lt;/li>
@@ -878,18 +943,20 @@
 &lt;li>A detailed MO2 guide for the Resources section.&lt;/li>
 &lt;li>A gameplay guide akin to what many Wabbajack lists offer.&lt;/li>
 &lt;/ul>
-&lt;p>The Customisation and Resources sections as well as the Troubleshooting page are also in need of many more updates and additions.&lt;/p>
+&lt;p>The Resources sections as well as the Troubleshooting page are also in need of more updates and additions.&lt;/p>
 &lt;h2 id="additional-mods">Additional mods&lt;/h2>
 &lt;p>Mods that are being considered for TPF are listed on our Trello board, linked above.&lt;/p>
 &lt;h4 id="mods-that-will-not-be-added">Mods that will not be added&lt;/h4>
 &lt;p>Some popular mods will never, ever be added to TPF. This is not necessarily because I consider them &amp;ldquo;bad&amp;rdquo; or low quality but mostly because they do not fit the vision of a streamlined vanilla-plus version of Skyrim SE. This is a non-exhaustive list of mods, please do not ask me about them, I will not do it.&lt;/p>
 &lt;ul>
-&lt;li>Legacy of the Dragonborn&lt;/li>
 &lt;li>Ordinator&lt;/li>
 &lt;li>Chesko&amp;rsquo;s survival mods (Frostfall, Campfire)&lt;/li>
 &lt;li>Complete Alchemy and Cooking Overhaul (CACO)&lt;/li>
 &lt;/ul>
 &lt;p>TPF is unlikely to ever feature any kind of needs / survival mods with the exception of Parapets&amp;rsquo; &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33068">The Frozen North&lt;/a> which is subtle and streamlined enough to be considered.&lt;/p>
+&lt;blockquote>
+&lt;p>Legacy of the Dragonborn is now available in the optional TPF LOTD profile of the Wabbajack edition of TPF. It&amp;rsquo;s possible that there will be a fork of the written guide with LOTD in the future; however, it&amp;rsquo;s unlikely that it will ever be integrated into the main guide.&lt;/p>
+&lt;/blockquote>
 &lt;h4 id="creation-club-support">Creation Club support&lt;/h4>
 &lt;p>My personal opinion of the CC is rather low for many reasons. However, I do consider adding support for some select &amp;ldquo;creations&amp;rdquo; in the future (Forgotten Seasons for instance). At present, TPF does not support any &amp;ldquo;creations&amp;rdquo; and installing them invalidates your right to receive support for issues just like adding other Nexus mods would.&lt;/p>
 &lt;h4 id="suggest-a-mod">Suggest a mod&lt;/h4>
@@ -915,7 +982,7 @@
 &lt;/ul>
 &lt;h3 id="the-website">The Website&lt;/h3>
 &lt;ul>
-&lt;li>Thanks to &lt;strong>Step&lt;/strong> for setting up Hugo and Docsy, and creating the dark theme. &lt;i class="fas fa-heart">&lt;/i>&lt;/li>
+&lt;li>Thanks to &lt;strong>Step&lt;/strong> for setting up Hugo and Docsy, and creating the dark theme.&lt;/li>
 &lt;li>Thanks to &lt;strong>Kai&lt;/strong> for implementing the theme toggle so that alsa and I can use light mode.&lt;/li>
 &lt;li>Thanks to &lt;strong>vaecors&lt;/strong> for reminding me that Hugo would be a perfect solution and supporting us in setting it up.&lt;/li>
 &lt;li>Thanks to &lt;strong>Luna&lt;/strong> who set up the proper domain and Cloudflare SSL on the Hugo website for us.&lt;/li>
