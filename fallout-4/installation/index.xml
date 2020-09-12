@@ -1,0 +1,322 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Installation</title><link>https://thephoenixflavour.com/fallout-4/installation/</link><description>Recent content in Installation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/fallout-4/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>Fallout-4: Getting Started</title><link>https://thephoenixflavour.com/fallout-4/installation/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout-4/installation/getting-started/</guid><description>
+&lt;p>While Wabbajack takes care of 99% of the work, there are still some steps that need to be completed by the user. The &lt;strong>Installation&lt;/strong> section will take you through the process from start to finish and you are expected to follow it to the letter.&lt;/p>
+&lt;h2 id="requirements">Requirements&lt;/h2>
+&lt;ul>
+&lt;li>A copy of Fallout 4 with all official DLC (Game of the Year Edition) on Steam.&lt;/li>
+&lt;li>A &lt;a href="https://www.nexusmods.com/fallout4">Nexus Mods&lt;/a> account, preferably with a Premium subscription.&lt;/li>
+&lt;li>Around 38GB disc space for all mods and archives.&lt;/li>
+&lt;/ul>
+&lt;p>Grab a cup of coffee and let&amp;rsquo;s get started.&lt;/p>
+&lt;h2 id="modding-folder">Modding Folder&lt;/h2>
+&lt;ul>
+&lt;li>On a hard drive with plenty of free space (that is not your SSD), create a new folder called &lt;strong>Fallout 4 Modding&lt;/strong>.&lt;/li>
+&lt;li>Create several more folders inside:
+&lt;ul>
+&lt;li>&lt;code>Fallout 4 Modding\Downloads&lt;/code>&lt;/li>
+&lt;li>&lt;code>Fallout 4 Modding\Backups\Creation Club&lt;/code>&lt;/li>
+&lt;li>&lt;code>Fallout 4 Modding\Backups\Executables 1.10.163.0&lt;/code>&lt;/li>
+&lt;li>&lt;code>Fallout 4 Modding\Wabbajack&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Feel free to make use of an existing modding folder if you have one.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="vc-redists">VC Redists&lt;/h2>
+&lt;p>Mod Organizer 2 requires the latest Microsoft Visual C++ Redistributable.&lt;/p>
+&lt;ul>
+&lt;li>Open the &lt;a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">official VC Redists page&lt;/a> and download the following file:
+&lt;ul>
+&lt;li>&lt;strong>vc_redist.x64.exe&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Run downloaded executable. It will guide you through the installation process.&lt;/li>
+&lt;li>You may have to restart your computer in order to finalise the installation.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/vc-redists.png" alt="VC Redists">&lt;/p></description></item><item><title>Fallout-4: Fallout 4</title><link>https://thephoenixflavour.com/fallout-4/installation/fallout-4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout-4/installation/fallout-4/</guid><description>
+&lt;h2 id="installation-directory">Installation directory&lt;/h2>
+&lt;p>In order to ensure that your Fallout 4 installation is pristine and vanilla, we are going to completely re-install the game. This is especially important if you have modded the game previously as left-over files might interfere with your TPF FO4 installation.&lt;/p>
+&lt;h3 id="uac-protected-folders">UAC protected folders&lt;/h3>
+&lt;p>The reinstallation also serves the purpose of relocating the game files to a better directory. Using UAC protected folders (such as &lt;code>C:\Program Files&lt;/code> or &lt;code>C:\Program Files x86&lt;/code>) for the game or any modding tools has a risk of causing issues down the line. It is best to avoid those folders to begin with. Most Wabbajack list authors, including myself, will not provide support for people that disregard this warning and use UAC protected folders anyway.&lt;/p>
+&lt;p>Note that this does not include the Steam client. Most people will have it installed under &lt;code>C:\Program Files x86\Steam&lt;/code> which is completely fine.&lt;/p>
+&lt;h3 id="preferred-hard-drive">Preferred hard drive&lt;/h3>
+&lt;p>Fallout 4 and Mod Organizer 2 should always be installed on the same hard drive. Ideally that hard drive would be an SSD to reduce loading times and eliminate stuttering.&lt;/p>
+&lt;h2 id="uninstallation">Uninstallation&lt;/h2>
+&lt;p>Skip this if you do not have Fallout 4 installed.&lt;/p>
+&lt;ul>
+&lt;li>Open Steam and go into your games library.&lt;/li>
+&lt;li>Find &lt;strong>Fallout 4&lt;/strong> in the list, right-click it and select &lt;strong>Manage&lt;/strong> &amp;raquo; &lt;strong>Uninstall&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>Uninstall&lt;/strong> to confirm.&lt;/li>
+&lt;li>Navigate to your Fallout 4 directory. This is most likely:
+&lt;ul>
+&lt;li>&lt;code>C:\Program File x86\Steam\steamapps\common\Fallout 4&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Delete any left-over files in this folder.&lt;/li>
+&lt;/ul>
+&lt;h3 id="ini-folder">INI Folder&lt;/h3>
+&lt;p>More Fallout-related files are located inside the so-called &lt;strong>INI Folder&lt;/strong> which needs to be cleaned out as well. It contains your savegames as well as the game&amp;rsquo;s INI files and, if you modded Fallout 4 before, F4SE plugin logs.&lt;/p>
+&lt;ul>
+&lt;li>Navigate to the &lt;strong>INI Folder:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;code>C:\Users\{Your User Name}\Documents\My Games\Fallout4&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>If you have an ongoing vanilla playthrough, back up the &lt;strong>Saves&lt;/strong> folder.&lt;/li>
+&lt;li>Delete everything inside the &lt;strong>Fallout4&lt;/strong> folder.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>You can simply move the &lt;strong>Saves&lt;/strong> folder to &lt;strong>Fallout 4 Modding\Backups&lt;/strong>.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="reinstallation">Reinstallation&lt;/h2>
+&lt;h3 id="what-is-a-steam-library">What is a Steam Library?&lt;/h3>
+&lt;p>In order to prevent some confusion, I will refer to the Library in Steam as the &lt;strong>Game Library&lt;/strong>. It is the second of four items in the top menu in the Steam client and contains a list of all your games.&lt;/p>
+&lt;p>A &lt;strong>Steam Library&lt;/strong> on the other hand is a folder on your hard drive into which Steam games are installed. By default this would be &lt;code>C:\Program Files x86\Steam\steamapps\common\&lt;/code>. Since we do not want to have files inside a UAC protected folder like Program Files x86, we should not install Fallout 4 in the default directory. A new &lt;strong>Steam Library&lt;/strong> is required.&lt;/p>
+&lt;blockquote>
+&lt;p>It is important to note that Steam only allows one Steam Library per hard drive, although there is a workaround. If for instance you already have a Steam Library on your C drive, but you want to have your modding files on C as well, you need to create a second Steam Library manually following the instructions &lt;a href="https://steamcommunity.com/discussions/forum/1/1355112940663240029">here&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="creating-a-new-library">Creating a new library&lt;/h3>
+&lt;p>If you already have a separate Steam Library outside the UAC protected folders on the drive you want to install Fallout 4 and Mod Organizer 2 on, skip ahead to the next step (Reinstalling the game).&lt;/p>
+&lt;p>Otherwise follow the instructions below to create a new Steam Library:&lt;/p>
+&lt;ul>
+&lt;li>Open &lt;strong>Steam&lt;/strong> and go into the &lt;strong>Settings&lt;/strong>.&lt;/li>
+&lt;li>In the Downloads tab, select &lt;strong>Steam Library Folders&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>Add Library Folder&lt;/strong>.&lt;/li>
+&lt;li>Point it to a location somewhere outside the UAC protected folders, e.g. &lt;code>G:\Steam Library\&lt;/code>.&lt;/li>
+&lt;li>Close all windows when you’re done.&lt;/li>
+&lt;/ul>
+&lt;h3 id="setting-the-language-to-english">Setting the language to English&lt;/h3>
+&lt;p>Non-English installations of Fallout 4 are not supported.&lt;/p>
+&lt;ul>
+&lt;li>Right-click &lt;strong>Fallout 4&lt;/strong> in your Steam games library.&lt;/li>
+&lt;li>Select &lt;strong>Properties&lt;/strong> and switch to the &lt;strong>Langauge&lt;/strong> tab.&lt;/li>
+&lt;li>Ensure that the language is set to &lt;strong>English&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/fallout-english.png" alt="Fallout English">&lt;/p>
+&lt;h3 id="reinstalling-the-game">Reinstalling the game&lt;/h3>
+&lt;ul>
+&lt;li>Open Steam and go into your &lt;strong>Game Library&lt;/strong>.&lt;/li>
+&lt;li>Find &lt;strong>Fallout 4&lt;/strong> in the list and click &lt;strong>Install&lt;/strong>.&lt;/li>
+&lt;li>As location, select the &lt;strong>Steam Library&lt;/strong> you just created and click &lt;strong>Next&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>Wait for Fallout 4 to be downloaded before you proceed.&lt;/p>
+&lt;h3 id="regenerating-ini-files">Regenerating INI Files&lt;/h3>
+&lt;p>After re-installing the game, it is important to launch it at least once through Steam so that the registry keys are set up. Otherwise, certain modding tools may not recognise the game. Upon launching the game, the default set of INI files will also be regenerated.&lt;/p>
+&lt;ul>
+&lt;li>Find &lt;strong>Fallout 4&lt;/strong> in your &lt;strong>Games Library&lt;/strong> and hit &lt;strong>Play&lt;/strong>.&lt;/li>
+&lt;li>You will be prompted with a notification that Fallout 4 is configuring your video options, click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> again to the next window and hit &lt;strong>Exit&lt;/strong> to close the launcher again.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/regenerate-inis.png" alt="Regenerate INIs">&lt;/p>
+&lt;h2 id="future-updates">Future Updates&lt;/h2>
+&lt;p>The most important mod for any Bethesda game is the &lt;strong>Script Extender&lt;/strong>, a resource that is in turn required for many key mods. The &lt;strong>Fallout 4 Script Extender&lt;/strong> (F4SE) is &lt;em>version dependent&lt;/em>. It requires a specific version of Fallout 4. For instance, F4SE 0.6.21 &lt;em>requires&lt;/em> Fallout 4 1.10.163, and will not work with any other version of the game.&lt;/p>
+&lt;p>Unfortunately any update for the Creation Club requires the game executables to be updated which breaks F4SE every time. When that happens, the Script Extender team usually updates F4SE within a few days. Any F4SE plugins will have to be updated by their respective authors as well which can take several weeks.&lt;/p>
+&lt;p>In order to prevent Creation Club updates from interrupting your playthrough and breaking your game, we are going to disable automatic updates in Steam. We are also going to backup the current version&amp;rsquo;s executables so you can restore them at any time.&lt;/p>
+&lt;h3 id="disable-auto-updates">Disable Auto Updates&lt;/h3>
+&lt;ul>
+&lt;li>Open Steam and find &lt;strong>Fallout 4&lt;/strong> in your &lt;strong>Game Library&lt;/strong>.&lt;/li>
+&lt;li>Right-click it and select &lt;strong>Properties&lt;/strong>&lt;/li>
+&lt;li>In the &lt;strong>Updates&lt;/strong> tab, change &lt;strong>Automatic updates&lt;/strong> to the following setting:
+&lt;ul>
+&lt;li>Only update the game when I launch it&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Close the &lt;strong>Properties&lt;/strong> window.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/steam-disable-auto-updates.png" alt="Steam Disable Auto Updates">&lt;/p>
+&lt;h3 id="executables-backup">Executables Backup&lt;/h3>
+&lt;p>Although Steam will no longer update Fallout 4 automatically, I still recommend keeping backups of the two executables (&lt;strong>Fallout4.exe&lt;/strong> and &lt;strong>Fallout4Launcher.exe&lt;/strong>), just in case. If you accidentally updated, all you need to do to roll back is replace the executables in your &lt;strong>root&lt;/strong> folder with the ones you backed up. This also comes in handy if you had to regenerate INI files or validate game files through Steam for whatever reason and were forced to update.&lt;/p>
+&lt;ul>
+&lt;li>Navigate to &lt;code>steamapps\common\Fallout4&lt;/code> and copy (CTRL + C) the following files:
+&lt;ul>
+&lt;li>&lt;strong>Fallout4.exe&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Fallout4Launcher.exe&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Paste (CTRL + V) them to &lt;code>Fallout 4 Modding\Backups\Executables 1.10.163.0&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="official-high-resolution-texture-pack">Official High Resolution Texture Pack&lt;/h2>
+&lt;p>Bethesda published a free 55GB texture pack with upscaled 4K textures that are nowhere near worth the hard drive space, especially not when compared to higher quality mod-added textures. If you had the HD DLC installed previously, you need to disable it in Steam.&lt;/p>
+&lt;ul>
+&lt;li>Open &lt;strong>Steam&lt;/strong> and go into your &lt;strong>Game Library&lt;/strong>.&lt;/li>
+&lt;li>Go to the &lt;strong>Fallout 4&lt;/strong> page and click &lt;strong>Manage my 8 DLC&lt;/strong>.&lt;/li>
+&lt;li>Uncheck &lt;strong>Fallout 4 - High Resolution Texture Pack&lt;/strong> in the list and click &lt;strong>Save&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/disable-hd-dlc.png" alt="Disable HD DLC">&lt;/p>
+&lt;h2 id="creation-club-content">Creation Club Content&lt;/h2>
+&lt;p>If you bought any &amp;ldquo;creations&amp;rdquo; from the Creation Club (or grabbed some while they were available for free), they will have been re-downloaded alongside the game. Wabbajack lists do not typically support Creation Club content so you should remove the files from your &lt;strong>Data&lt;/strong> folder for the time being.&lt;/p>
+&lt;ul>
+&lt;li>Navigate to &lt;code>steamapps\common\Fallout4\Data&lt;/code> and cut (CTRL + X) all files starting with &lt;strong>cc&lt;/strong>.&lt;/li>
+&lt;li>Paste (CTRL + V) all files to &lt;code>Fallout 4 Modding\Backups\Creation Club&lt;/code>.&lt;/li>
+&lt;/ul></description></item><item><title>Fallout-4: Wabbajack</title><link>https://thephoenixflavour.com/fallout-4/installation/wabbajack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout-4/installation/wabbajack/</guid><description>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;ul>
+&lt;li>Download the &lt;a href="https://www.wabbajack.org/#/">Wabbajack&lt;/a> executable from the official website.&lt;/li>
+&lt;li>Move the downloaded file to &lt;code>Fallout 4 Modding\Wabbajack&lt;/code>.&lt;/li>
+&lt;li>Double-click &lt;strong>Wabbajack.exe&lt;/strong>. It will automatically download and install the latest version.&lt;/li>
+&lt;/ul>
+&lt;h3 id="downloading-tpf-fo4">Downloading TPF FO4&lt;/h3>
+&lt;ul>
+&lt;li>Once Wabbajack is installed and open, click on &lt;strong>Browse Modlists&lt;/strong>.&lt;/li>
+&lt;li>Find &lt;strong>TPF Fallout 4 Edition&lt;/strong> in the list and click the arrow to download.&lt;/li>
+&lt;li>Click the dots next to &lt;strong>Installation Location&lt;/strong> and choose a path.&lt;/li>
+&lt;li>Choose an empty, high-level folder, e.g. &lt;code>G:\TPF Fallout 4&lt;/code>.
+&lt;ul>
+&lt;li>SHOULD be on your SSD or otherwise fastest hard drive.&lt;/li>
+&lt;li>CANNOT be inside &lt;code>Fallout 4 Modding\Wabbajack&lt;/code>.&lt;/li>
+&lt;li>CANNOT be inside the Fallout 4 installation folder.&lt;/li>
+&lt;li>CANNOT be inside &lt;code>C:\Program Files&lt;/code> or &lt;code>C:\Program Files x86&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Change the &lt;strong>Download Location&lt;/strong> file path to &lt;code>Fallout 4 Modding\Downloads&lt;/code>.&lt;/li>
+&lt;li>Click the &lt;strong>Start&lt;/strong> button on the left to begin the installation process.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>By downloading the mod archives to a different location, you can save space on your SSD. The archives are only required for the initial mod installation and future updates so there is no need to put them on a fast hard drive.&lt;/p>
+&lt;/blockquote>
+&lt;p>Should anything go wrong during the installation process, please find the &lt;strong>Wabbajack.current.log&lt;/strong> file inside &lt;code>Fallout 4 Modding\Wabbajack\&amp;lt;version number&amp;gt;\logs\&lt;/code>. Upload it (drag and drop) into the TPF Fallout 4 support channel on either the TPF or Wabbajack Discord server.&lt;/p>
+&lt;h2 id="game-folder-files">Game Folder Files&lt;/h2>
+&lt;ul>
+&lt;li>Navigate to your Wabbajack installation directory&lt;/li>
+&lt;li>Open the &lt;strong>Game Folder Files&lt;/strong> folder and copy (CTRL+C) all files inside.&lt;/li>
+&lt;li>Find your Fallout 4 installation (&lt;code>Steam\steamapps\common\Fallout4&lt;/code>) and paste all files there (CTRL+V).&lt;/li>
+&lt;/ul></description></item><item><title>Fallout-4: New Game</title><link>https://thephoenixflavour.com/fallout-4/installation/new-game/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout-4/installation/new-game/</guid><description>
+&lt;h2 id="launching-the-game">Launching the game&lt;/h2>
+&lt;p>In order to play TPF Fallout 4, you must launch &lt;strong>f4se_loader.exe&lt;/strong> through Mod Organizer 2. Otherwise your mods will not work. When you open Mod Organizer 2, F4SE should be selected automatically in the executables drop-down and you can start the game by clicking &lt;strong>Run&lt;/strong>.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/run-f4se.png" alt="Start Game">&lt;/p>
+&lt;h2 id="hotkeys">Hotkeys&lt;/h2>
+&lt;p>Before you start a new game, I highly recommend going into the options and customising the keybinds. While they are up to personal preference, you will need to rebind &lt;strong>Quick Load&lt;/strong> at least as the default (F9) conflicts with the Open ENB GUI hotkey.&lt;/p>
+&lt;ul>
+&lt;li>In the main menu, go to &lt;strong>Options&lt;/strong> &amp;raquo; &lt;strong>Controls&lt;/strong>.&lt;/li>
+&lt;li>Change &lt;strong>Quick Load&lt;/strong> to &lt;strong>F8&lt;/strong>.&lt;/li>
+&lt;li>Feel free to change any of the other hotkeys as well.&lt;/li>
+&lt;/ul>
+&lt;p>These are my personal keybind changes:&lt;/p>
+&lt;ul>
+&lt;li>Activate to &lt;strong>F&lt;/strong>&lt;/li>
+&lt;li>Favourite to &lt;strong>E&lt;/strong>&lt;/li>
+&lt;li>Bash/Power Attack/Grenade to &lt;strong>Mouse 4&lt;/strong> (thumb button)&lt;/li>
+&lt;li>Run (toggle walk/run) to &lt;strong>Left CTRL&lt;/strong>&lt;/li>
+&lt;li>Move (automatically) to &lt;strong>C&lt;/strong>&lt;/li>
+&lt;li>Crouch to &lt;strong>ALT&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Of course you are not required to use the same keybinds as me. Keybinds can also be changed anytime.&lt;/p>
+&lt;h2 id="starting-a-new-save">Starting a new save&lt;/h2>
+&lt;p>TPF Fallout 4 does not include &lt;strong>Start Me Up&lt;/strong> or another quick start mod. The vanilla opening is unchanged.&lt;/p>
+&lt;ul>
+&lt;li>Press F9 to temporarily toggle off ENB. It may look strange during the prologue.&lt;/li>
+&lt;li>In the main menu, click &lt;strong>NEW&lt;/strong> to start a your playthrough.&lt;/li>
+&lt;/ul>
+&lt;h3 id="character-creation">Character Creation&lt;/h3>
+&lt;p>After the opening cutscene, you will be prompted to customise your character. The mod &lt;a href="https://www.nexusmods.com/fallout4/mods/12631">LooksMenu&lt;/a> expands the available options as well as allows you to load and save presets. &lt;strong>Do not press C during the character customisation.&lt;/strong> Doing so will crash the game.&lt;/p>
+&lt;p>Character presets for LooksMenu can be found in the &lt;a href="https://www.nexusmods.com/fallout4/mods/categories/58/">character presets&lt;/a> category on the Nexus. While you can probably install most of them, keep in mind that they might require additional mods not present in TPF Fallout 4.&lt;/p>
+&lt;blockquote>
+&lt;p>Installing character presets and any additional appearance mods counts as adding mods and will void your right to request support for any issues with TPF Fallout 4.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="the-prologue">The Prologue&lt;/h3>
+&lt;p>Play through the intro as usual and continue with the &lt;strong>Mod Configuration&lt;/strong> section after exiting the vault.&lt;/p></description></item><item><title>Fallout-4: Mod Configuration</title><link>https://thephoenixflavour.com/fallout-4/installation/mod-configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout-4/installation/mod-configuration/</guid><description>
+&lt;h2 id="mcm-settings">MCM Settings&lt;/h2>
+&lt;p>The first thing you should do after escaping Vault 111 is manually save the game. You&amp;rsquo;ve successfully completed the introduction and are now free to explore the Wasteland - after configuring your mods. Thanks to the &lt;a href="https://www.nexusmods.com/fallout4/mods/21497">Mod Configuration Menu&lt;/a>, many mods can now be tweaked through the MCM which can be accessed through the pause menu.&lt;/p>
+&lt;p>Hit &lt;strong>ESC&lt;/strong> and open the &lt;strong>Mod Configuration&lt;/strong>.&lt;/p>
+&lt;h2 id="faster-workshop">Faster Workshop&lt;/h2>
+&lt;ul>
+&lt;li>Set a hotkey for starting workshop mode.
+&lt;ul>
+&lt;li>I prefer &lt;strong>Z&lt;/strong> (or &lt;strong>Y&lt;/strong> on a QWERTY layout).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/faster-workshop-mcm.jpg" alt="Faster Workshop MCM">&lt;/p>
+&lt;h2 id="gcm-game-configuration-menu">GCM (Game Configuration Menu)&lt;/h2>
+&lt;h3 id="dlc">DLC&lt;/h3>
+&lt;ul>
+&lt;li>Loadscreen Rate &lt;strong>1&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>This lowers the chance for Automatron-related loading screens to 1% down from the default 20% to match most other loading screens. It replaces &lt;a href="https://www.nexusmods.com/fallout4/mods/21163">this tweak&lt;/a>.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/gcm-dlc-mcm.jpg" alt="GCM DLC MCM">&lt;/p>
+&lt;h3 id="experience">Experience&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Workstation:&lt;/strong>
+&lt;ul>
+&lt;li>Base experience &lt;strong>0&lt;/strong>&lt;/li>
+&lt;li>Maximum experience &lt;strong>0&lt;/strong>&lt;/li>
+&lt;li>Experience multiplier &lt;strong>0&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>With all the focus on settlement building including lowered weight for scrap I feel that balance is best served by taking it out of the level-up system entirely. The XP no longer earned by building is somewhat balanced out by the inclusion of PerkPointsPerLevel which grants you 1.2 perks per level up (one additional perk every 5 level ups).&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/gcm-xp-mcm.jpg" alt="GCM XP MCM">&lt;/p>
+&lt;h3 id="npcs">NPCs&lt;/h3>
+&lt;ul>
+&lt;li>Dodge chance &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>This disables the weird sidestep / dodge that makes it seem like all NPCs can use the Force and feel your bullet coming.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/gcm-npc-mcm.jpg" alt="GCM NPC MCM">&lt;/p>
+&lt;h3 id="skills">Skills&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Hacking:&lt;/strong>
+&lt;ul>
+&lt;li>Hacking min words &lt;strong>1&lt;/strong>&lt;/li>
+&lt;li>Hacking max words &lt;strong>1&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>This is optional (personal preference) but if you hate hacking as much as I do, this is how you can disable it. Perk requirements still apply for hacking higher-level terminals but only the correct word will be shown.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/gcm-hacking-mcm.jpg" alt="GCM Hacking MCM">&lt;/p>
+&lt;h2 id="immersive-hud">Immersive HUD&lt;/h2>
+&lt;ul>
+&lt;li>Main Settings: &lt;strong>Immersive HUD Enabled&lt;/strong>&lt;/li>
+&lt;li>Settings Holotape &lt;strong>Off&lt;/strong>&lt;/li>
+&lt;li>AID Toggle Items &lt;strong>Off&lt;/strong>&lt;/li>
+&lt;li>Hotkey to Toggle HUD: &lt;strong>X&lt;/strong> (personal preference)&lt;/li>
+&lt;li>Crosshair - Hitmarker: &lt;strong>Always&lt;/strong> (personal preference)&lt;/li>
+&lt;/ul>
+&lt;p>The Holotape and AID item are no longer needed with the MCM and ability to set a keybind directly.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/immersive-hud-mcm.jpg" alt="Immersive HUD MCM">&lt;/p>
+&lt;h2 id="holotime">HoloTime&lt;/h2>
+&lt;ul>
+&lt;li>Click on &lt;strong>Widget position&lt;/strong> and scale the clock down to &lt;strong>0.7&lt;/strong> (personal preference).&lt;/li>
+&lt;li>Toggle HoloTime Display to &lt;strong>V&lt;/strong> (personal preference)&lt;/li>
+&lt;/ul>
+&lt;p>Configuring HoloTime and iHUD can be a little annoying sometimes. Quit the MCM and toggle the HUD on (X), then toggle the clock widget (V). When you toggle off the HUD now, it should also hide the clock. If this doesn&amp;rsquo;t work, try changing the clock scale, then changing it back, or quicksaving, then quickloading the game.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/holotime-mcm.jpg" alt="HoloTime MCM">&lt;/p>
+&lt;h2 id="more-agombz">More AGOMBz&lt;/h2>
+&lt;h3 id="more-attacks">More Attacks&lt;/h3>
+&lt;p>On the &lt;strong>More attacks&lt;/strong> page, change the following:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Far Harbor creatures:&lt;/strong>
+&lt;ul>
+&lt;li>Allow Far Harbor creatures attacks on The Island &lt;strong>ON&lt;/strong>&lt;/li>
+&lt;li>Allow Far Harbor creatures attacks worldwide &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Nuka-World creatures&lt;/strong>
+&lt;ul>
+&lt;li>Allow Nuka-World creatures attacks on Nuka-World &lt;strong>ON&lt;/strong>&lt;/li>
+&lt;li>Allow Nuka-World creatures attacks worldwide &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/more-agombz-mcm-1.jpg" alt="More AGOMBz MCM">&lt;/p>
+&lt;h3 id="more--disable">More &amp;hellip; Disable&lt;/h3>
+&lt;p>On the &lt;strong>More &amp;hellip; Disable&lt;/strong> page, change the following:&lt;/p>
+&lt;ul>
+&lt;li>Disable radstags attacks &lt;strong>ON&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>This is done for consistency with the mod &lt;a href="https://www.nexusmods.com/fallout4/mods/3208">Docile Radstags&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/more-agombz-mcm-2.jpg" alt="More AGOMBz MCM">&lt;/p>
+&lt;h2 id="workshop-framework">Workshop Framework&lt;/h2>
+&lt;h3 id="settlement-gameplay">Settlement Gameplay&lt;/h3>
+&lt;ul>
+&lt;li>Shelter Mechanic &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Just build your settlers&amp;rsquo; beds somewhere below a roof to protect your immersion and ignore this buggy mechanic.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/workshop-framework-mcm-2.jpg" alt="Workshop Framework MCM 2">&lt;/p>
+&lt;h3 id="framework-controls">Framework Controls&lt;/h3>
+&lt;ul>
+&lt;li>Manage Workbench &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>The Manage menu accessible at workbenches is only for scrapping stuff placed by the player and the WF layouts feature. Since TPF Fallout 4 doesn&amp;rsquo;t currently include additional layouts, I would rather people disabled this entirely to prevent confusion. If you are interested in WF layouts, re-enable the Manage Workbench option and watch kinggath&amp;rsquo;s tutorials on &lt;a href="https://www.youtube.com/watch?v=N3MGiari9xc&amp;amp;feature=emb_logo">importing&lt;/a> and &lt;a href="https://www.youtube.com/watch?v=9OVzgFzjnRw&amp;amp;feature=emb_logo">exporting&lt;/a> them. Obviously, downloading and installing layouts counts as adding mods and voids your right to get support for TPF Fallout 4.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/workshop-framework-mcm-1.jpg" alt="Workshop Framework MCM 1">&lt;/p></description></item></channel></rss>

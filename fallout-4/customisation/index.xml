@@ -1,0 +1,77 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Customisation</title><link>https://thephoenixflavour.com/fallout-4/customisation/</link><description>Recent content in Customisation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/fallout-4/customisation/index.xml" rel="self" type="application/rss+xml"/><item><title>Fallout-4: Interface Colors</title><link>https://thephoenixflavour.com/fallout-4/customisation/interface-colors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout-4/customisation/interface-colors/</guid><description>
+&lt;p>In the INTERFACE section in Mod Organizer 2 you will find several separators with options to customise your interface, specifically the HUD colors. These options will be covered here. All of this is optional and can be skipped / ignored entirely. You can change any of these options at any point, they will not affect your save.&lt;/p>
+&lt;h3 id="hud-color">HUD Color&lt;/h3>
+&lt;p>The main HUD (heads-up display, the compass, health bar, etc) can be tweaked as usual ingame through the Settings menu. Unfortunately they are defined in the Fallout4Prefs.ini so it is not possible to tweak them through plugin INIs so you will have to either change the color ingame or edit the Fallout4Prefs.ini file. I actually recommend the latter.&lt;/p>
+&lt;ul>
+&lt;li>In order to change the color in the INI, open the INI editor through Mod Organizer 2.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Editing the INI files under &lt;code>C:\Username\Documents\My Games\Fallout4&lt;/code> will not work as we have profile-specific INI files in MO2.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/customisation/mo2-ini-editor.png" alt="Open INI Editor">&lt;/p>
+&lt;ul>
+&lt;li>Switch to the &lt;strong>fallout4prefs.ini&lt;/strong> tab and scroll down to the [Interface] section.&lt;/li>
+&lt;li>Replace the following three lines with a set from the list below:
+&lt;ul>
+&lt;li>&lt;code>iHUDColorB=&lt;/code>&lt;/li>
+&lt;li>&lt;code>iHUDColorG=&lt;/code>&lt;/li>
+&lt;li>&lt;code>iHUDColorR=&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Click &lt;strong>Save&lt;/strong> and close the window.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Fallout 4 Green (Vanilla Default):&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>iHUDColorB=21
+iHUDColorG=255
+iHUDColorR=18
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Pure White (TPF Default):&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>iHUDColorB=255
+iHUDColorG=255
+iHUDColorR=255
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Fallout 3 Green:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>iHUDColorB=26
+iHUDColorG=255
+iHUDColorR=128
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>Power Armor Amber:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>iHUDColorB=105
+iHUDColorG=209
+iHUDColorR=255
+&lt;/code>&lt;/pre>&lt;p>You can also use any other color combination you wish. Use the &lt;a href="https://www.google.com/search?q=color+picker">Google color picker&lt;/a> to choose your color and copy over the RGB values. Note that the order is BGR in the Fallout 4 INI files.&lt;/p>
+&lt;h3 id="pip-boy-flashlight-color">Pip-Boy Flashlight Color&lt;/h3>
+&lt;p>By default, the color of the flashlight (activated by holding TAB) will be the same as your HUD. By checking the &lt;strong>Always White&lt;/strong> option you can decouple it from your chosen HUD color.&lt;/p>
+&lt;h3 id="power-armor-hud-color">Power Armor HUD Color&lt;/h3>
+&lt;p>Unlike the main HUD color, the color for the power armor HUD is defined in the Fallout4.ini file which means it can be changed through plugin INIs. A pre-made set of plugin INIs is available for you to choose from, the colors corresponding to those listed above under HUD Color. In order to change the color, uncheck the previous option and check the one you prefer.&lt;/p>
+&lt;p>There is also a &amp;ldquo;Custom&amp;rdquo; option where you can paste your own RGB values. Use &lt;a href="https://drive.google.com/file/d/0B6ioBcQsnDXDV0JScWtubkRvSzQ/view">this guide&lt;/a> to find the correct values for the corresponding RGB numbers.&lt;/p>
+&lt;h3 id="pip-boy-dual-colors">Pip-Boy Dual Colors&lt;/h3>
+&lt;p>This section utilises the &lt;a href="https://www.nexusmods.com/fallout4/mods/43338">Pip-Boy Dual Colors&lt;/a>. Two of its options are included, the FO4 green and the FO3 green. The colors are identical to the corresponding HUD and power armor HUD colors. If there is demand, I will look into creating alternatives for the &amp;ldquo;Power Armor Amber&amp;rdquo; color and any other popular choices.&lt;/p>
+&lt;p>Note that Pip-Boy Dual Colors will overwrite the &lt;a href="https://www.nexusmods.com/fallout4/mods/13400">Small Map Markers&lt;/a> mod; however, its interface tweaks also include smaller markers so all this does is display a silver arrow next to SMM to show that the mod is being overwritten entirely.&lt;/p>
+&lt;p>If you want to use one of the Pip-Boy Dual Color options, you will also have to disable FX in the Pip-Boy. This will mostly disable the &amp;ldquo;holo&amp;rdquo; effect for item previews, displaying instead the inventory model directly. It will also remove the blur and scanlines effects. The setting &lt;code>bPipboyDisableFX=1&lt;/code> is forced by the &lt;strong>CHECK THIS TO ENABLE DUAL COLOR&lt;/strong> option which you obviously have to check / enable before activating one of the Pip-Boy Dual Color options.&lt;/p></description></item><item><title>Fallout-4: Ultrawide Support</title><link>https://thephoenixflavour.com/fallout-4/customisation/ultrawide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout-4/customisation/ultrawide/</guid><description>
+&lt;p>For users with a monitor resolution of 21:9 (ultrawide), manually changing the resolution is required as well as a patch for the interface.&lt;/p>
+&lt;h3 id="changing-the-resolution">Changing the resolution&lt;/h3>
+&lt;ul>
+&lt;li>Open the INI editor in Mod Organizer 2.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/customisation/mo2-ini-editor.png" alt="Open INI Editor">&lt;/p>
+&lt;ul>
+&lt;li>Switch to the fallout4prefs.ini tab and scroll down to the [Display] section.&lt;/li>
+&lt;li>Replace the following two lines with the set matching your monitor resolution:
+&lt;ul>
+&lt;li>&lt;code>iSize W=&lt;/code>&lt;/li>
+&lt;li>&lt;code>iSize H=&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Click &lt;strong>Save&lt;/strong> and close the window.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>For 2560x1080&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>iSize W=2560
+iSize H=1080
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>For 3440x1440&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>iSize W=3440
+iSize H=1440
+&lt;/code>&lt;/pre>&lt;h3 id="truby9-ultrawide">TruBy9 Ultrawide&lt;/h3>
+&lt;p>The most comprehensive widescreen fix mod for Fallout 4, TruBy9 Ultrawide, is already pre-installed with TPF Fallout 4; all you need to do is active it.&lt;/p>
+&lt;ul>
+&lt;li>In Mod Organizer 2, scroll to the &lt;strong>ULTRAWIDE SUPPORT (OPTIONAL)&lt;/strong> section under &lt;strong>INTERFACE&lt;/strong>.&lt;/li>
+&lt;li>Check the &lt;strong>ENABLE WIDESCREEN INI TWEAKS&lt;/strong> mod in Mod Organizer 2.&lt;/li>
+&lt;li>Check &lt;strong>TruBy9 UltraWide Fallout 4&lt;/strong> to activate the main mod.&lt;/li>
+&lt;/ul></description></item></channel></rss>
