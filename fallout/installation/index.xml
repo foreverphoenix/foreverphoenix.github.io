@@ -1,11 +1,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Installation</title><link>https://thephoenixflavour.com/fallout/installation/</link><description>Recent content in Installation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/fallout/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>Fallout: Getting Started</title><link>https://thephoenixflavour.com/fallout/installation/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/installation/getting-started/</guid><description>
-&lt;h2 id="prelude">Prelude&lt;/h2>
-&lt;p>While Wabbajack takes care of 99% of the work, there are still some steps that need to be completed by the user. The Installation section will take you through the process from start to finish and you are expected to follow it to the letter.&lt;/p>
+&lt;p>While Wabbajack takes care of 99% of the work, there are still some steps that need to be completed by the user. The &lt;strong>Installation&lt;/strong> section will take you through the process from start to finish and you are expected to follow it to the letter.&lt;/p>
 &lt;h2 id="requirements">Requirements&lt;/h2>
 &lt;ul>
 &lt;li>A copy of Fallout 4 with all official DLC (Game of the Year Edition) on Steam.&lt;/li>
 &lt;li>A &lt;a href="https://www.nexusmods.com/fallout4">Nexus Mods&lt;/a> account, preferably with a Premium subscription.&lt;/li>
-&lt;li>A hard drive (SSD preferred) with at least 100GB of free space.&lt;/li>
+&lt;li>Around 38GB disc space for all mods and archives.&lt;/li>
 &lt;/ul>
 &lt;p>Grab a cup of coffee and let&amp;rsquo;s get started.&lt;/p>
 &lt;h2 id="modding-folder">Modding Folder&lt;/h2>
@@ -13,6 +12,7 @@
 &lt;li>On a hard drive with plenty of free space (that is not your SSD), create a new folder called &lt;strong>Fallout 4 Modding&lt;/strong>.&lt;/li>
 &lt;li>Create several more folders inside:
 &lt;ul>
+&lt;li>&lt;code>Fallout 4 Modding\Downloads&lt;/code>&lt;/li>
 &lt;li>&lt;code>Fallout 4 Modding\Backups\Creation Club&lt;/code>&lt;/li>
 &lt;li>&lt;code>Fallout 4 Modding\Backups\Executables 1.10.163.0&lt;/code>&lt;/li>
 &lt;li>&lt;code>Fallout 4 Modding\Wabbajack&lt;/code>&lt;/li>
@@ -174,11 +174,149 @@
 &lt;blockquote>
 &lt;p>By downloading the mod archives to a different location, you can save space on your SSD. The archives are only required for the initial mod installation and future updates so there is no need to put them on a fast hard drive.&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="if-the-installation-fails">If the installation fails&lt;/h3>
 &lt;p>Should anything go wrong during the installation process, please find the &lt;strong>Wabbajack.current.log&lt;/strong> file inside &lt;code>Fallout 4 Modding\Wabbajack\&amp;lt;version number&amp;gt;\logs\&lt;/code>. Upload it (drag and drop) into the TPF Fallout 4 support channel on either the TPF or Wabbajack Discord server.&lt;/p>
 &lt;h2 id="game-folder-files">Game Folder Files&lt;/h2>
 &lt;ul>
 &lt;li>Navigate to your Wabbajack installation directory&lt;/li>
 &lt;li>Open the &lt;strong>Game Folder Files&lt;/strong> folder and copy (CTRL+C) all files inside.&lt;/li>
 &lt;li>Find your Fallout 4 installation (&lt;code>Steam\steamapps\common\Fallout4&lt;/code>) and paste all files there (CTRL+V).&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/ul></description></item><item><title>Fallout: New Game</title><link>https://thephoenixflavour.com/fallout/installation/new-game/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/installation/new-game/</guid><description>
+&lt;h2 id="launching-the-game">Launching the game&lt;/h2>
+&lt;p>In order to play TPF Fallout 4, you must launch &lt;strong>f4se_loader.exe&lt;/strong> through Mod Organizer 2. Otherwise your mods will not work. When you open Mod Organizer 2, F4SE should be selected automatically in the executables drop-down and you can start the game by clicking &lt;strong>Run&lt;/strong>.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/run-f4se.png" alt="Start Game">&lt;/p>
+&lt;h2 id="hotkeys">Hotkeys&lt;/h2>
+&lt;p>Before you start a new game, I highly recommend going into the options and customising the keybinds. While they are up to personal preference, you will need to rebind &lt;strong>Quick Load&lt;/strong> at least as the default (F9) conflicts with the Open ENB GUI hotkey.&lt;/p>
+&lt;ul>
+&lt;li>In the main menu, go to &lt;strong>Options&lt;/strong> &amp;raquo; &lt;strong>Controls&lt;/strong>.&lt;/li>
+&lt;li>Change &lt;strong>Quick Load&lt;/strong> to &lt;strong>F8&lt;/strong>.&lt;/li>
+&lt;li>Feel free to change any of the other hotkeys as well.&lt;/li>
+&lt;/ul>
+&lt;p>These are my personal keybind changes:&lt;/p>
+&lt;ul>
+&lt;li>Activate to &lt;strong>F&lt;/strong>&lt;/li>
+&lt;li>Favourite to &lt;strong>E&lt;/strong>&lt;/li>
+&lt;li>Bash/Power Attack/Grenade to &lt;strong>Mouse 4&lt;/strong> (thumb button)&lt;/li>
+&lt;li>Run (toggle walk/run) to &lt;strong>Left CTRL&lt;/strong>&lt;/li>
+&lt;li>Move (automatically) to &lt;strong>C&lt;/strong>&lt;/li>
+&lt;li>Crouch to &lt;strong>ALT&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Of course you are not required to use the same keybinds as me. Keybinds can also be changed anytime.&lt;/p>
+&lt;h2 id="starting-a-new-save">Starting a new save&lt;/h2>
+&lt;p>TPF Fallout 4 does not include &lt;strong>Start Me Up&lt;/strong> or another quick start mod. The vanilla opening is unchanged.&lt;/p>
+&lt;ul>
+&lt;li>Press F9 to temporarily toggle off ENB. It may look strange during the prologue.&lt;/li>
+&lt;li>In the main menu, click &lt;strong>NEW&lt;/strong> to start a your playthrough.&lt;/li>
+&lt;/ul>
+&lt;h3 id="character-creation">Character Creation&lt;/h3>
+&lt;p>After the opening cutscene, you will be prompted to customise your character. The mod &lt;a href="https://www.nexusmods.com/fallout4/mods/12631">LooksMenu&lt;/a> expands the available options as well as allows you to load and save presets. &lt;strong>Do not press C during the character customisation.&lt;/strong> Doing so will crash the game.&lt;/p>
+&lt;p>Character presets for LooksMenu can be found in the &lt;a href="https://www.nexusmods.com/fallout4/mods/categories/58/">character presets&lt;/a> category on the Nexus. While you can probably install most of them, keep in mind that they might require additional mods not present in TPF Fallout 4.&lt;/p>
+&lt;blockquote>
+&lt;p>Installing character presets and any additional appearance mods counts as adding mods and will void your right to request support for any issues with TPF Fallout 4.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="the-prologue">The Prologue&lt;/h3>
+&lt;p>Play through the intro as usual and continue with the &lt;strong>Mod Configuration&lt;/strong> section after exiting the vault.&lt;/p></description></item><item><title>Fallout: Mod Configuration</title><link>https://thephoenixflavour.com/fallout/installation/mod-configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/installation/mod-configuration/</guid><description>
+&lt;h2 id="mcm-settings">MCM Settings&lt;/h2>
+&lt;p>The first thing you should do after escaping Vault 111 is manually save the game. You&amp;rsquo;ve successfully completed the introduction and are now free to explore the Wasteland - after configuring your mods. Thanks to the &lt;a href="https://www.nexusmods.com/fallout4/mods/21497">Mod Configuration Menu&lt;/a>, many mods can now be tweaked through the MCM which can be accessed through the pause menu.&lt;/p>
+&lt;p>Hit &lt;strong>ESC&lt;/strong> and open the &lt;strong>Mod Configuration&lt;/strong>.&lt;/p>
+&lt;h2 id="faster-workshop">Faster Workshop&lt;/h2>
+&lt;ul>
+&lt;li>Set a hotkey for starting workshop mode.
+&lt;ul>
+&lt;li>I prefer &lt;strong>Z&lt;/strong> (or &lt;strong>Y&lt;/strong> on a QWERTY layout).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/faster-workshop-mcm.jpg" alt="Faster Workshop MCM">&lt;/p>
+&lt;h2 id="gcm-game-configuration-menu">GCM (Game Configuration Menu)&lt;/h2>
+&lt;h3 id="dlc">DLC&lt;/h3>
+&lt;ul>
+&lt;li>Loadscreen Rate &lt;strong>1&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>This lowers the chance for Automatron-related loading screens to 1% down from the default 20% to match most other loading screens. It replaces &lt;a href="https://www.nexusmods.com/fallout4/mods/21163">this tweak&lt;/a>.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/gcm-dlc-mcm.jpg" alt="GCM DLC MCM">&lt;/p>
+&lt;h3 id="experience">Experience&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Workstation:&lt;/strong>
+&lt;ul>
+&lt;li>Base experience &lt;strong>0&lt;/strong>&lt;/li>
+&lt;li>Maximum experience &lt;strong>0&lt;/strong>&lt;/li>
+&lt;li>Experience multiplier &lt;strong>0&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>With all the focus on settlement building including lowered weight for scrap I feel that balance is best served by taking it out of the level-up system entirely. The XP no longer earned by building is somewhat balanced out by the inclusion of PerkPointsPerLevel which grants you 1.2 perks per level up (one additional perk every 5 level ups).&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/gcm-xp-mcm.jpg" alt="GCM XP MCM">&lt;/p>
+&lt;h3 id="npcs">NPCs&lt;/h3>
+&lt;ul>
+&lt;li>Dodge chance &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>This disables the weird sidestep / dodge that makes it seem like all NPCs can use the Force and feel your bullet coming.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/gcm-npc-mcm.jpg" alt="GCM NPC MCM">&lt;/p>
+&lt;h3 id="skills">Skills&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Hacking:&lt;/strong>
+&lt;ul>
+&lt;li>Hacking min words &lt;strong>1&lt;/strong>&lt;/li>
+&lt;li>Hacking max words &lt;strong>1&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>This is optional (personal preference) but if you hate hacking as much as I do, this is how you can disable it. Perk requirements still apply for hacking higher-level terminals but only the correct word will be shown.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/gcm-hacking-mcm.jpg" alt="GCM Hacking MCM">&lt;/p>
+&lt;h2 id="immersive-hud">Immersive HUD&lt;/h2>
+&lt;ul>
+&lt;li>Main Settings: &lt;strong>Immersive HUD Enabled&lt;/strong>&lt;/li>
+&lt;li>Settings Holotape &lt;strong>Off&lt;/strong>&lt;/li>
+&lt;li>AID Toggle Items &lt;strong>Off&lt;/strong>&lt;/li>
+&lt;li>Hotkey to Toggle HUD: &lt;strong>X&lt;/strong> (personal preference)&lt;/li>
+&lt;li>Crosshair - Hitmarker: &lt;strong>Always&lt;/strong> (personal preference)&lt;/li>
+&lt;/ul>
+&lt;p>The Holotape and AID item are no longer needed with the MCM and ability to set a keybind directly.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/immersive-hud-mcm.jpg" alt="Immersive HUD MCM">&lt;/p>
+&lt;h2 id="holotime">HoloTime&lt;/h2>
+&lt;ul>
+&lt;li>Click on &lt;strong>Widget position&lt;/strong> and scale the clock down to &lt;strong>0.7&lt;/strong> (personal preference).&lt;/li>
+&lt;li>Toggle HoloTime Display to &lt;strong>V&lt;/strong> (personal preference)&lt;/li>
+&lt;/ul>
+&lt;p>Configuring HoloTime and iHUD can be a little annoying sometimes. Quit the MCM and toggle the HUD on (X), then toggle the clock widget (V). When you toggle off the HUD now, it should also hide the clock. If this doesn&amp;rsquo;t work, try changing the clock scale, then changing it back, or quicksaving, then quickloading the game.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/holotime-mcm.jpg" alt="HoloTime MCM">&lt;/p>
+&lt;h2 id="more-agombz">More AGOMBz&lt;/h2>
+&lt;h3 id="more-attacks">More Attacks&lt;/h3>
+&lt;p>On the &lt;strong>More attacks&lt;/strong> page, change the following:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Far Harbor creatures:&lt;/strong>
+&lt;ul>
+&lt;li>Allow Far Harbor creatures attacks on The Island &lt;strong>ON&lt;/strong>&lt;/li>
+&lt;li>Allow Far Harbor creatures attacks worldwide &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Nuka-World creatures&lt;/strong>
+&lt;ul>
+&lt;li>Allow Nuka-World creatures attacks on Nuka-World &lt;strong>ON&lt;/strong>&lt;/li>
+&lt;li>Allow Nuka-World creatures attacks worldwide &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/more-agombz-mcm-1.jpg" alt="More AGOMBz MCM">&lt;/p>
+&lt;h3 id="more--disable">More &amp;hellip; Disable&lt;/h3>
+&lt;p>On the &lt;strong>More &amp;hellip; Disable&lt;/strong> page, change the following:&lt;/p>
+&lt;ul>
+&lt;li>Disable radstags attacks &lt;strong>ON&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>This is done for consistency with the mod &lt;a href="https://www.nexusmods.com/fallout4/mods/3208">Docile Radstags&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/more-agombz-mcm-2.jpg" alt="More AGOMBz MCM">&lt;/p>
+&lt;h2 id="workshop-framework">Workshop Framework&lt;/h2>
+&lt;h3 id="settlement-gameplay">Settlement Gameplay&lt;/h3>
+&lt;ul>
+&lt;li>Shelter Mechanic &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Just build your settlers&amp;rsquo; beds somewhere below a roof to protect your immersion and ignore this buggy mechanic.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/workshop-framework-mcm-2.jpg" alt="Workshop Framework MCM 2">&lt;/p>
+&lt;h3 id="framework-controls">Framework Controls&lt;/h3>
+&lt;ul>
+&lt;li>Manage Workbench &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>The Manage menu accessible at workbenches is only for scrapping stuff placed by the player and the WF layouts feature. Since TPF Fallout 4 doesn&amp;rsquo;t currently include additional layouts, I would rather people disabled this entirely to prevent confusion. If you are interested in WF layouts, re-enable the Manage Workbench option and watch kinggath&amp;rsquo;s tutorials on &lt;a href="https://www.youtube.com/watch?v=N3MGiari9xc&amp;amp;feature=emb_logo">importing&lt;/a> and &lt;a href="https://www.youtube.com/watch?v=9OVzgFzjnRw&amp;amp;feature=emb_logo">exporting&lt;/a> them. Obviously, downloading and installing layouts counts as adding mods and voids your right to get support for TPF Fallout 4.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/workshop-framework-mcm-1.jpg" alt="Workshop Framework MCM 1">&lt;/p></description></item></channel></rss>
