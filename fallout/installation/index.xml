@@ -153,14 +153,32 @@
 &lt;ul>
 &lt;li>Download the &lt;a href="https://www.wabbajack.org/#/">Wabbajack&lt;/a> executable from the official website.&lt;/li>
 &lt;li>Move the downloaded file to &lt;code>Fallout 4 Modding\Wabbajack&lt;/code>.&lt;/li>
-&lt;li>Double-click &lt;strong>Wabbajack.exe&lt;/strong>.&lt;/li>
+&lt;li>Double-click &lt;strong>Wabbajack.exe&lt;/strong>. It will automatically download and install the latest version.&lt;/li>
 &lt;/ul>
+&lt;h3 id="downloading-tpf-fo4">Downloading TPF FO4&lt;/h3>
+&lt;ul>
+&lt;li>Once Wabbajack is installed and open, click on &lt;strong>Browse Modlists&lt;/strong>.&lt;/li>
+&lt;li>Find &lt;strong>TPF Fallout 4 Edition&lt;/strong> in the list and click the arrow to download.&lt;/li>
+&lt;li>Click the dots next to &lt;strong>Installation Location&lt;/strong> and choose a path.&lt;/li>
+&lt;li>Choose an empty, high-level folder, e.g. &lt;code>G:\TPF Fallout 4&lt;/code>.
+&lt;ul>
+&lt;li>SHOULD be on your SSD or otherwise fastest hard drive.&lt;/li>
+&lt;li>CANNOT be inside &lt;code>Fallout 4 Modding\Wabbajack&lt;/code>.&lt;/li>
+&lt;li>CANNOT be inside the Fallout 4 installation folder.&lt;/li>
+&lt;li>CANNOT be inside &lt;code>C:\Program Files&lt;/code> or &lt;code>C:\Program Files x86&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Change the &lt;strong>Download Location&lt;/strong> file path to &lt;code>Fallout 4 Modding\Downloads&lt;/code>.&lt;/li>
+&lt;li>Click the &lt;strong>Start&lt;/strong> button on the left to begin the installation process.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>By downloading the mod archives to a different location, you can save space on your SSD. The archives are only required for the initial mod installation and future updates so there is no need to put them on a fast hard drive.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="if-the-installation-fails">If the installation fails&lt;/h3>
+&lt;p>Should anything go wrong during the installation process, please find the &lt;strong>Wabbajack.current.log&lt;/strong> file inside &lt;code>Fallout 4 Modding\Wabbajack\&amp;lt;version number&amp;gt;\logs\&lt;/code>. Upload it (drag and drop) into the TPF Fallout 4 support channel on either the TPF or Wabbajack Discord server.&lt;/p>
 &lt;h2 id="game-folder-files">Game Folder Files&lt;/h2>
 &lt;ul>
-&lt;li>Navigate to your Wabbajack installation directory and open the &lt;strong>Game Folder Files&lt;/strong> folder.&lt;/li>
-&lt;li>Move all files inside to &lt;code>steamapps\common\Fallout4&lt;/code>.&lt;/li>
-&lt;/ul>
-&lt;h2 id="final-step">Final Step&lt;/h2>
-&lt;ul>
-&lt;li>Go read your Wabbajack list&amp;rsquo;s readme and follow any additional instructions.&lt;/li>
+&lt;li>Navigate to your Wabbajack installation directory&lt;/li>
+&lt;li>Open the &lt;strong>Game Folder Files&lt;/strong> folder and copy (CTRL+C) all files inside.&lt;/li>
+&lt;li>Find your Fallout 4 installation (&lt;code>Steam\steamapps\common\Fallout4&lt;/code>) and paste all files there (CTRL+V).&lt;/li>
 &lt;/ul></description></item></channel></rss>
