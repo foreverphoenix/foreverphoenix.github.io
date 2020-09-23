@@ -1,0 +1,166 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Installation</title><link>https://thephoenixflavour.com/fallout-4/installation/</link><description>Recent content in Installation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/fallout-4/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>Fallout-4: Getting Started</title><link>https://thephoenixflavour.com/fallout-4/installation/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout-4/installation/getting-started/</guid><description>
+&lt;h2 id="prelude">Prelude&lt;/h2>
+&lt;p>While Wabbajack takes care of 99% of the work, there are still some steps that need to be completed by the user. The Installation section will take you through the process from start to finish and you are expected to follow it to the letter.&lt;/p>
+&lt;h2 id="requirements">Requirements&lt;/h2>
+&lt;ul>
+&lt;li>A copy of Fallout 4 with all official DLC (Game of the Year Edition) on Steam.&lt;/li>
+&lt;li>A &lt;a href="https://www.nexusmods.com/fallout4">Nexus Mods&lt;/a> account, preferably with a Premium subscription.&lt;/li>
+&lt;li>A hard drive (SSD preferred) with at least 100GB of free space.&lt;/li>
+&lt;/ul>
+&lt;p>Grab a cup of coffee and let&amp;rsquo;s get started.&lt;/p>
+&lt;h2 id="modding-folder">Modding Folder&lt;/h2>
+&lt;ul>
+&lt;li>On a hard drive with plenty of free space (that is not your SSD), create a new folder called &lt;strong>Fallout 4 Modding&lt;/strong>.&lt;/li>
+&lt;li>Create several more folders inside:
+&lt;ul>
+&lt;li>&lt;code>Fallout 4 Modding\Backups\Creation Club&lt;/code>&lt;/li>
+&lt;li>&lt;code>Fallout 4 Modding\Backups\Executables 1.10.163.0&lt;/code>&lt;/li>
+&lt;li>&lt;code>Fallout 4 Modding\Wabbajack&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Feel free to make use of an existing modding folder if you have one.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="vc-redists">VC Redists&lt;/h2>
+&lt;p>Mod Organizer 2 requires the latest Microsoft Visual C++ Redistributable.&lt;/p>
+&lt;ul>
+&lt;li>Open the &lt;a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">official VC Redists page&lt;/a> and download the following file:
+&lt;ul>
+&lt;li>&lt;strong>vc_redist.x64.exe&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Run downloaded executable. It will guide you through the installation process.&lt;/li>
+&lt;li>You may have to restart your computer in order to finalise the installation.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/vc-redists.png" alt="VC Redists">&lt;/p></description></item><item><title>Fallout-4: Fallout 4</title><link>https://thephoenixflavour.com/fallout-4/installation/fallout-4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout-4/installation/fallout-4/</guid><description>
+&lt;h2 id="installation-directory">Installation directory&lt;/h2>
+&lt;p>In order to ensure that your Fallout 4 installation is pristine and vanilla, we are going to completely re-install the game. This is especially important if you have modded the game previously as left-over files might interfere with your TPF FO4 installation.&lt;/p>
+&lt;h3 id="uac-protected-folders">UAC protected folders&lt;/h3>
+&lt;p>The reinstallation also serves the purpose of relocating the game files to a better directory. Using UAC protected folders (such as &lt;code>C:\Program Files&lt;/code> or &lt;code>C:\Program Files x86&lt;/code>) for the game or any modding tools has a risk of causing issues down the line. It is best to avoid those folders to begin with. Most Wabbajack list authors, including myself, will not provide support for people that disregard this warning and use UAC protected folders anyway.&lt;/p>
+&lt;p>Note that this does not include the Steam client. Most people will have it installed under &lt;code>C:\Program Files x86\Steam&lt;/code> which is completely fine.&lt;/p>
+&lt;h3 id="preferred-hard-drive">Preferred hard drive&lt;/h3>
+&lt;p>Fallout 4 and Mod Organizer 2 should always be installed on the same hard drive. Ideally that hard drive would be an SSD to reduce loading times and eliminate stuttering.&lt;/p>
+&lt;h2 id="uninstallation">Uninstallation&lt;/h2>
+&lt;p>Skip this if you do not have Fallout 4 installed.&lt;/p>
+&lt;ul>
+&lt;li>Open Steam and go into your games library.&lt;/li>
+&lt;li>Find &lt;strong>Fallout 4&lt;/strong> in the list, right-click it and select &lt;strong>Manage&lt;/strong> &amp;raquo; &lt;strong>Uninstall&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>Uninstall&lt;/strong> to confirm.&lt;/li>
+&lt;li>Navigate to your Fallout 4 directory. This is most likely:
+&lt;ul>
+&lt;li>&lt;code>C:\Program File x86\Steam\steamapps\common\Fallout 4&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Delete any left-over files in this folder.&lt;/li>
+&lt;/ul>
+&lt;h3 id="ini-folder">INI Folder&lt;/h3>
+&lt;p>More Fallout-related files are located inside the so-called &lt;strong>INI Folder&lt;/strong> which needs to be cleaned out as well. It contains your savegames as well as the game&amp;rsquo;s INI files and, if you modded Fallout 4 before, F4SE plugin logs.&lt;/p>
+&lt;ul>
+&lt;li>Navigate to the &lt;strong>INI Folder:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;code>C:\Users\{Your User Name}\Documents\My Games\Fallout4&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>If you have an ongoing vanilla playthrough, back up the &lt;strong>Saves&lt;/strong> folder.&lt;/li>
+&lt;li>Delete everything inside the &lt;strong>Fallout4&lt;/strong> folder.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>You can simply move the &lt;strong>Saves&lt;/strong> folder to &lt;strong>Fallout 4 Modding\Backups&lt;/strong>.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="reinstallation">Reinstallation&lt;/h2>
+&lt;h3 id="what-is-a-steam-library">What is a Steam Library?&lt;/h3>
+&lt;p>In order to prevent some confusion, I will refer to the Library in Steam as the &lt;strong>Game Library&lt;/strong>. It is the second of four items in the top menu in the Steam client and contains a list of all your games.&lt;/p>
+&lt;p>A &lt;strong>Steam Library&lt;/strong> on the other hand is a folder on your hard drive into which Steam games are installed. By default this would be &lt;code>C:\Program Files x86\Steam\steamapps\common\&lt;/code>. Since we do not want to have files inside a UAC protected folder like Program Files x86, we should not install Fallout 4 in the default directory. A new &lt;strong>Steam Library&lt;/strong> is required.&lt;/p>
+&lt;blockquote>
+&lt;p>It is important to note that Steam only allows one Steam Library per hard drive, although there is a workaround. If for instance you already have a Steam Library on your C drive, but you want to have your modding files on C as well, you need to create a second Steam Library manually following the instructions &lt;a href="https://steamcommunity.com/discussions/forum/1/1355112940663240029">here&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="creating-a-new-library">Creating a new library&lt;/h3>
+&lt;p>If you already have a separate Steam Library outside the UAC protected folders on the drive you want to install Fallout 4 and Mod Organizer 2 on, skip ahead to the next step (Reinstalling the game).&lt;/p>
+&lt;p>Otherwise follow the instructions below to create a new Steam Library:&lt;/p>
+&lt;ul>
+&lt;li>Open &lt;strong>Steam&lt;/strong> and go into the &lt;strong>Settings&lt;/strong>.&lt;/li>
+&lt;li>In the Downloads tab, select &lt;strong>Steam Library Folders&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>Add Library Folder&lt;/strong>.&lt;/li>
+&lt;li>Point it to a location somewhere outside the UAC protected folders, e.g. &lt;code>G:\Steam Library\&lt;/code>.&lt;/li>
+&lt;li>Close all windows when you’re done.&lt;/li>
+&lt;/ul>
+&lt;h3 id="setting-the-language-to-english">Setting the language to English&lt;/h3>
+&lt;p>Non-English installations of Fallout 4 are not supported.&lt;/p>
+&lt;ul>
+&lt;li>Right-click &lt;strong>Fallout 4&lt;/strong> in your Steam games library.&lt;/li>
+&lt;li>Select &lt;strong>Properties&lt;/strong> and switch to the &lt;strong>Langauge&lt;/strong> tab.&lt;/li>
+&lt;li>Ensure that the language is set to &lt;strong>English&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/fallout-english.png" alt="Fallout English">&lt;/p>
+&lt;h3 id="reinstalling-the-game">Reinstalling the game&lt;/h3>
+&lt;ul>
+&lt;li>Open Steam and go into your &lt;strong>Game Library&lt;/strong>.&lt;/li>
+&lt;li>Find &lt;strong>Fallout 4&lt;/strong> in the list and click &lt;strong>Install&lt;/strong>.&lt;/li>
+&lt;li>As location, select the &lt;strong>Steam Library&lt;/strong> you just created and click &lt;strong>Next&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>Wait for Fallout 4 to be downloaded before you proceed.&lt;/p>
+&lt;h3 id="regenerating-ini-files">Regenerating INI Files&lt;/h3>
+&lt;p>After re-installing the game, it is important to launch it at least once through Steam so that the registry keys are set up. Otherwise, certain modding tools may not recognise the game. Upon launching the game, the default set of INI files will also be regenerated.&lt;/p>
+&lt;ul>
+&lt;li>Find &lt;strong>Fallout 4&lt;/strong> in your &lt;strong>Games Library&lt;/strong> and hit &lt;strong>Play&lt;/strong>.&lt;/li>
+&lt;li>You will be prompted with a notification that Fallout 4 is configuring your video options, click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> again to the next window and hit &lt;strong>Exit&lt;/strong> to close the launcher again.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/regenerate-inis.png" alt="Regenerate INIs">&lt;/p>
+&lt;h2 id="future-updates">Future Updates&lt;/h2>
+&lt;p>The most important mod for any Bethesda game is the &lt;strong>Script Extender&lt;/strong>, a resource that is in turn required for many key mods. The &lt;strong>Fallout 4 Script Extender&lt;/strong> (F4SE) is &lt;em>version dependent&lt;/em>. It requires a specific version of Fallout 4. For instance, F4SE 0.6.21 &lt;em>requires&lt;/em> Fallout 4 1.10.163, and will not work with any other version of the game.&lt;/p>
+&lt;p>Unfortunately any update for the Creation Club requires the game executables to be updated which breaks F4SE every time. When that happens, the Script Extender team usually updates F4SE within a few days. Any F4SE plugins will have to be updated by their respective authors as well which can take several weeks.&lt;/p>
+&lt;p>In order to prevent Creation Club updates from interrupting your playthrough and breaking your game, we are going to disable automatic updates in Steam. We are also going to backup the current version&amp;rsquo;s executables so you can restore them at any time.&lt;/p>
+&lt;h3 id="disable-auto-updates">Disable Auto Updates&lt;/h3>
+&lt;ul>
+&lt;li>Open Steam and find &lt;strong>Fallout 4&lt;/strong> in your &lt;strong>Game Library&lt;/strong>.&lt;/li>
+&lt;li>Right-click it and select &lt;strong>Properties&lt;/strong>&lt;/li>
+&lt;li>In the &lt;strong>Updates&lt;/strong> tab, change &lt;strong>Automatic updates&lt;/strong> to the following setting:
+&lt;ul>
+&lt;li>Only update the game when I launch it&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Close the &lt;strong>Properties&lt;/strong> window.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/steam-disable-auto-updates.png" alt="Steam Disable Auto Updates">&lt;/p>
+&lt;h3 id="executables-backup">Executables Backup&lt;/h3>
+&lt;p>Although Steam will no longer update Fallout 4 automatically, I still recommend keeping backups of the two executables (&lt;strong>Fallout4.exe&lt;/strong> and &lt;strong>Fallout4Launcher.exe&lt;/strong>), just in case. If you accidentally updated, all you need to do to roll back is replace the executables in your &lt;strong>root&lt;/strong> folder with the ones you backed up. This also comes in handy if you had to regenerate INI files or validate game files through Steam for whatever reason and were forced to update.&lt;/p>
+&lt;ul>
+&lt;li>Navigate to &lt;code>steamapps\common\Fallout4&lt;/code> and copy (CTRL + C) the following files:
+&lt;ul>
+&lt;li>&lt;strong>Fallout4.exe&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Fallout4Launcher.exe&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Paste (CTRL + V) them to &lt;code>Fallout 4 Modding\Backups\Executables 1.10.163.0&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="official-high-resolution-texture-pack">Official High Resolution Texture Pack&lt;/h2>
+&lt;p>Bethesda published a free 55GB texture pack with upscaled 4K textures that are nowhere near worth the hard drive space, especially not when compared to higher quality mod-added textures. If you had the HD DLC installed previously, you need to disable it in Steam.&lt;/p>
+&lt;ul>
+&lt;li>Open &lt;strong>Steam&lt;/strong> and go into your &lt;strong>Game Library&lt;/strong>.&lt;/li>
+&lt;li>Go to the &lt;strong>Fallout 4&lt;/strong> page and click &lt;strong>Manage my 8 DLC&lt;/strong>.&lt;/li>
+&lt;li>Uncheck &lt;strong>Fallout 4 - High Resolution Texture Pack&lt;/strong> in the list and click &lt;strong>Save&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/disable-hd-dlc.png" alt="Disable HD DLC">&lt;/p>
+&lt;h2 id="creation-club-content">Creation Club Content&lt;/h2>
+&lt;p>If you bought any &amp;ldquo;creations&amp;rdquo; from the Creation Club (or grabbed some while they were available for free), they will have been re-downloaded alongside the game. Wabbajack lists do not typically support Creation Club content so you should remove the files from your &lt;strong>Data&lt;/strong> folder for the time being.&lt;/p>
+&lt;ul>
+&lt;li>Navigate to &lt;code>steamapps\common\Fallout4\Data&lt;/code> and cut (CTRL + X) all files starting with &lt;strong>cc&lt;/strong>.&lt;/li>
+&lt;li>Paste (CTRL + V) all files to &lt;code>Fallout 4 Modding\Backups\Creation Club&lt;/code>.&lt;/li>
+&lt;/ul></description></item><item><title>Fallout-4: Wabbajack</title><link>https://thephoenixflavour.com/fallout-4/installation/wabbajack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout-4/installation/wabbajack/</guid><description>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;ul>
+&lt;li>Download the &lt;a href="https://www.wabbajack.org/#/">Wabbajack&lt;/a> executable from the official website.&lt;/li>
+&lt;li>Move the downloaded file to &lt;code>Fallout 4 Modding\Wabbajack&lt;/code>.&lt;/li>
+&lt;li>Double-click &lt;strong>Wabbajack.exe&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="game-folder-files">Game Folder Files&lt;/h2>
+&lt;ul>
+&lt;li>Navigate to your Wabbajack installation directory and open the &lt;strong>Game Folder Files&lt;/strong> folder.&lt;/li>
+&lt;li>Move all files inside to &lt;code>steamapps\common\Fallout4&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="final-step">Final Step&lt;/h2>
+&lt;ul>
+&lt;li>Go read your Wabbajack list&amp;rsquo;s readme and follow any additional instructions.&lt;/li>
+&lt;/ul></description></item></channel></rss>
