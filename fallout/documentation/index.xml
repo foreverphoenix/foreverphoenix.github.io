@@ -1,0 +1,15 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Documentation</title><link>https://thephoenixflavour.com/fallout/documentation/</link><description>Recent content in Documentation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/fallout/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Fallout: Mods Edits</title><link>https://thephoenixflavour.com/fallout/documentation/mod-edits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/documentation/mod-edits/</guid><description/></item><item><title>Fallout: Game Folder Files</title><link>https://thephoenixflavour.com/fallout/documentation/game-folder-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/documentation/game-folder-files/</guid><description>
+&lt;p>While regular mods for Bethesda games are installed into the &lt;strong>data&lt;/strong> folder, there are some additional tools that belong into the &lt;strong>root&lt;/strong> folder. These are not automatically moved by Wabbajack. Instructions for them are included in the &lt;strong>Installation&lt;/strong> setup, this page merely serves as an overview over the files in question and their purpose.&lt;/p>
+&lt;h3 id="fallout-4-script-extender">Fallout 4 Script Extender&lt;/h3>
+&lt;p>The &lt;a href="http://f4se.silverlock.org/">Fallout 4 Script Extender (F4SE)&lt;/a> is essential to modding Fallout 4 and required by many mods. Its executable and DLLs have to be inside the root folder.&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>f4se_1_10_163.dll&lt;/code>&lt;/li>
+&lt;li>&lt;code>f4se_loader.exe&lt;/code>&lt;/li>
+&lt;li>&lt;code>f4se_steam_loader.dll&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="xse-plugin-preloader">xSE Plugin Preloader&lt;/h3>
+&lt;p>The &lt;a href="https://www.nexusmods.com/fallout4/mods/33946">xSE Plugin Preloader F4&lt;/a> is required for Private Profile Redirector.&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>IpHlpAPI.dll&lt;/code>&lt;/li>
+&lt;li>&lt;code>xSE PluginPreloader.ini&lt;/code>&lt;/li>
+&lt;/ul></description></item></channel></rss>
