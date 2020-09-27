@@ -47,7 +47,7 @@ iHUDColorR=255
 &lt;p>Note that Pip-Boy Dual Colors will overwrite the &lt;a href="https://www.nexusmods.com/fallout4/mods/13400">Small Map Markers&lt;/a> mod; however, its interface tweaks also include smaller markers so all this does is display a silver arrow next to SMM to show that the mod is being overwritten entirely.&lt;/p>
 &lt;p>If you want to use one of the Pip-Boy Dual Color options, you will also have to disable FX in the Pip-Boy. This will mostly disable the &amp;ldquo;holo&amp;rdquo; effect for item previews, displaying instead the inventory model directly. It will also remove the blur and scanlines effects. The setting &lt;code>bPipboyDisableFX=1&lt;/code> is forced by the &lt;strong>CHECK THIS TO ENABLE DUAL COLOR&lt;/strong> option which you obviously have to check / enable before activating one of the Pip-Boy Dual Color options.&lt;/p></description></item><item><title>Fallout: Ultrawide Support</title><link>https://thephoenixflavour.com/fallout/customisation/ultrawide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/customisation/ultrawide/</guid><description>
 &lt;p>For users with a monitor resolution of 21:9 (ultrawide), manually changing the resolution is required as well as a patch for the interface.&lt;/p>
-&lt;h3 id="changing-the-resolution">Changing the resolution&lt;/h3>
+&lt;h2 id="changing-the-resolution">Changing the resolution&lt;/h2>
 &lt;ul>
 &lt;li>Open the INI editor in Mod Organizer 2.&lt;/li>
 &lt;/ul>
@@ -68,10 +68,12 @@ iSize H=1080
 &lt;/code>&lt;/pre>&lt;p>&lt;strong>For 3440x1440&lt;/strong>&lt;/p>
 &lt;pre>&lt;code>iSize W=3440
 iSize H=1440
-&lt;/code>&lt;/pre>&lt;h3 id="truby9-ultrawide">TruBy9 Ultrawide&lt;/h3>
-&lt;p>The most comprehensive widescreen fix mod for Fallout 4, TruBy9 Ultrawide, is already pre-installed with TPF Fallout 4; all you need to do is active it.&lt;/p>
+&lt;/code>&lt;/pre>&lt;h2 id="truby9-ultrawide">TruBy9 Ultrawide&lt;/h2>
+&lt;p>The most comprehensive widescreen fix mod for Fallout 4, TruBy9 Ultrawide, is already pre-installed with TPF Fallout 4. All you need to do is activate it.&lt;/p>
 &lt;ul>
 &lt;li>In Mod Organizer 2, scroll to the &lt;strong>ULTRAWIDE SUPPORT (OPTIONAL)&lt;/strong> section under &lt;strong>INTERFACE&lt;/strong>.&lt;/li>
 &lt;li>Check the &lt;strong>ENABLE WIDESCREEN INI TWEAKS&lt;/strong> mod in Mod Organizer 2.&lt;/li>
 &lt;li>Check &lt;strong>TruBy9 UltraWide Fallout 4&lt;/strong> to activate the main mod.&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/ul>
+&lt;hr>
+&lt;h4 id="continue-with-the-new-gamehttpsthephoenixflavourcomfalloutinstallationnew-game-page">Continue with the &lt;a href="https://thephoenixflavour.com/fallout/installation/new-game/">New Game&lt;/a> page.&lt;/h4></description></item></channel></rss>

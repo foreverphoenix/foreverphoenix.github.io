@@ -1,4 +1,33 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Appendix</title><link>https://thephoenixflavour.com/fallout/appendix/</link><description>Recent content in Appendix on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/fallout/appendix/index.xml" rel="self" type="application/rss+xml"/><item><title>Fallout: Changelog</title><link>https://thephoenixflavour.com/fallout/appendix/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/appendix/changelog/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Appendix</title><link>https://thephoenixflavour.com/fallout/appendix/</link><description>Recent content in Appendix on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/fallout/appendix/index.xml" rel="self" type="application/rss+xml"/><item><title>Fallout: Troubleshooting</title><link>https://thephoenixflavour.com/fallout/appendix/known-issues/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/appendix/known-issues/</guid><description>
+&lt;h2 id="known-issues">Known Issues&lt;/h2>
+&lt;h3 id="getting-stuck-when-interacting-with-a-terminal">Getting stuck when interacting with a terminal&lt;/h3>
+&lt;p>&lt;em>This is not a TPF Fallout 4 specific issue.&lt;/em>&lt;/p>
+&lt;p>Occasionally you may get stuck when attempting to access a terminal. This can be fixed by opening the console (tilde key, right above TAB on your keyboard) and typing in &lt;code>tcl&lt;/code>. Upon closing the console (hitting tilde again), you should be able to use the terminal. Remember to open the console and type in &lt;code>tcl&lt;/code> again to re-enable collision.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/appendix/stuck-terminal.jpg" alt="Stuck Terminal">&lt;/p>
+&lt;h3 id="subtitles-get-stuck-during-first-minutemen-quest">Subtitles get stuck during first Minutemen quest&lt;/h3>
+&lt;p>&lt;em>This is not a TPF Fallout 4 specific issue.&lt;/em>&lt;/p>
+&lt;p>When talking to Preston and Sturges in the Museum of Freedom, the subtitles usually get stuck for a time during the conversation. This happens in vanilla too and cannot be fixed as far as I know.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/appendix/subtitles-stuck.jpg" alt="Subtitles Stuck">&lt;/p></description></item><item><title>Fallout: Changelog</title><link>https://thephoenixflavour.com/fallout/appendix/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/appendix/changelog/</guid><description>
+&lt;h2 id="release-11">Release 1.1&lt;/h2>
+&lt;blockquote>
+&lt;p>27/09/2020&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;ul>
+&lt;li>Now using Lively&amp;rsquo;s pppl.ini file&lt;/li>
+&lt;li>Updated Buffout to 1.11.0&lt;/li>
+&lt;li>Removed one record from True Nights which can cause memory corruption according to Buffout&lt;/li>
+&lt;li>Removed LooksMenu (don&amp;rsquo;t really need it anyway)&lt;/li>
+&lt;li>Enabled the Classic Holstered Weapons Systems patch in Buffout&lt;/li>
+&lt;li>Adjusted loot / interact prompt and window position in my DEF_UI preset&lt;/li>
+&lt;li>Switched to the Alternative Version of Fixed Flickering Puddles (hopefully fixing black pre-war Codsworth)&lt;/li>
+&lt;li>Removed Skip raiding your own settlements (no time to troubleshoot the compilation error it causes)&lt;/li>
+&lt;/ul>
+&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fallout/installation/wabbajack/">Wabbajack&lt;/a>: Added new section on how change the game resolution.&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fallout/appendix/troubleshooting/">Troubleshooting&lt;/a>: Added this page with a few known issues.&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-101">Release 1.0.1&lt;/h2>
 &lt;blockquote>
 &lt;p>26/09/2020&lt;/p>

@@ -33,7 +33,9 @@
 &lt;li>Run downloaded executable. It will guide you through the installation process.&lt;/li>
 &lt;li>You may have to restart your computer in order to finalise the installation.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/vc-redists.png" alt="VC Redists">&lt;/p></description></item><item><title>Fallout: Fallout 4</title><link>https://thephoenixflavour.com/fallout/installation/fallout-4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/installation/fallout-4/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/vc-redists.png" alt="VC Redists">&lt;/p>
+&lt;hr>
+&lt;h4 id="continue-with-the-fallout-4httpsthephoenixflavourcomfalloutinstallationfallout-4-page">Continue with the &lt;a href="https://thephoenixflavour.com/fallout/installation/fallout-4/">Fallout 4&lt;/a> page.&lt;/h4></description></item><item><title>Fallout: Fallout 4</title><link>https://thephoenixflavour.com/fallout/installation/fallout-4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/installation/fallout-4/</guid><description>
 &lt;h2 id="installation-directory">Installation directory&lt;/h2>
 &lt;p>In order to ensure that your Fallout 4 installation is pristine and vanilla, we are going to completely re-install the game. This is especially important if you have modded the game previously as left-over files might interfere with your TPF FO4 installation.&lt;/p>
 &lt;h3 id="uac-protected-folders">UAC protected folders&lt;/h3>
@@ -148,7 +150,9 @@
 &lt;ul>
 &lt;li>Navigate to &lt;code>steamapps\common\Fallout4\Data&lt;/code> and cut (CTRL + X) all files starting with &lt;strong>cc&lt;/strong>.&lt;/li>
 &lt;li>Paste (CTRL + V) all files to &lt;code>Fallout 4 Modding\Backups\Creation Club&lt;/code>.&lt;/li>
-&lt;/ul></description></item><item><title>Fallout: Wabbajack</title><link>https://thephoenixflavour.com/fallout/installation/wabbajack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/installation/wabbajack/</guid><description>
+&lt;/ul>
+&lt;hr>
+&lt;h4 id="continue-with-the-wabbajackhttpsthephoenixflavourcomfalloutinstallationwabbajack-page">Continue with the &lt;a href="https://thephoenixflavour.com/fallout/installation/wabbajack/">Wabbajack&lt;/a> page.&lt;/h4></description></item><item><title>Fallout: Wabbajack</title><link>https://thephoenixflavour.com/fallout/installation/wabbajack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/installation/wabbajack/</guid><description>
 &lt;h2 id="installation">Installation&lt;/h2>
 &lt;ul>
 &lt;li>Download the &lt;a href="https://www.wabbajack.org/#/">Wabbajack&lt;/a> executable from the official website.&lt;/li>
@@ -158,7 +162,7 @@
 &lt;h3 id="downloading-tpf-fo4">Downloading TPF FO4&lt;/h3>
 &lt;ul>
 &lt;li>Once Wabbajack is installed and open, click on &lt;strong>Browse Modlists&lt;/strong>.&lt;/li>
-&lt;li>Find &lt;strong>TPF Fallout 4 Edition&lt;/strong> in the list and click the arrow to download.&lt;/li>
+&lt;li>Find &lt;strong>TPF Fallout 4&lt;/strong> in the list and click the arrow to download.&lt;/li>
 &lt;li>Click the dots next to &lt;strong>Installation Location&lt;/strong> and choose a path.&lt;/li>
 &lt;li>Choose an empty, high-level folder, e.g. &lt;code>G:\TPF Fallout 4&lt;/code>.
 &lt;ul>
@@ -174,13 +178,54 @@
 &lt;blockquote>
 &lt;p>By downloading the mod archives to a different location, you can save space on your SSD. The archives are only required for the initial mod installation and future updates so there is no need to put them on a fast hard drive.&lt;/p>
 &lt;/blockquote>
+&lt;h3 id="troubleshooting">Troubleshooting&lt;/h3>
 &lt;p>Should anything go wrong during the installation process, please find the &lt;strong>Wabbajack.current.log&lt;/strong> file inside &lt;code>Fallout 4 Modding\Wabbajack\&amp;lt;version number&amp;gt;\logs\&lt;/code>. Upload it (drag and drop) into the TPF Fallout 4 support channel on either the TPF or Wabbajack Discord server.&lt;/p>
 &lt;h2 id="game-folder-files">Game Folder Files&lt;/h2>
 &lt;ul>
 &lt;li>Navigate to your Wabbajack installation directory&lt;/li>
-&lt;li>Open the &lt;strong>Game Folder Files&lt;/strong> folder and copy (CTRL+C) all files inside.&lt;/li>
+&lt;li>Open the &lt;strong>Game Folder Files&lt;/strong> folder. Select (CTRL+A) and copy (CTRL+C) all files inside.&lt;/li>
 &lt;li>Find your Fallout 4 installation (&lt;code>Steam\steamapps\common\Fallout4&lt;/code>) and paste all files there (CTRL+V).&lt;/li>
-&lt;/ul></description></item><item><title>Fallout: New Game</title><link>https://thephoenixflavour.com/fallout/installation/new-game/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/installation/new-game/</guid><description>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/game-folder-files.png" alt="Game Folder Files">&lt;/p>
+&lt;h2 id="mod-organizer-2">Mod Organizer 2&lt;/h2>
+&lt;p>All mods are installed in Mod Organizer 2 which is required to play the setup. I recommend adding the MO2 executable to your taskbar or creating a shortcut on your Desktop for easy access.&lt;/p>
+&lt;ul>
+&lt;li>Navigate to your TPF Fallout 4 installation directory.&lt;/li>
+&lt;li>Double-click &lt;strong>ModOrganizer.exe&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="resolution">Resolution&lt;/h2>
+&lt;p>There are several relevant factors when deciding on which resolution to play at.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>What is my monitor&amp;rsquo;s aspect ratio?&lt;/strong> Most monitors nowadays have an aspect ratio of 16:9. However, widescreen / ultrawide monitors with a 21:9 aspect ratio are also fairly common.&lt;/li>
+&lt;li>&lt;strong>What is my monitor&amp;rsquo;s resolution?&lt;/strong> You are limited by your monitor&amp;rsquo;s maximum resolution. On a 1440p monitor, you can play with a resolution of 2560x1440 or lower. Playing at 1080p on a 1440p monitor will yield better performance at the cost of image sharpness / clarity.&lt;/li>
+&lt;li>&lt;strong>What is my hardware capable of?&lt;/strong> Generally speaking, you will get the best performance playing at 1080p. However, TPF Fallout 4 has been optimised for good performance at 1440p so with decently modern hardware, you should get stable 60FPS at that resolution. Be warned that increasing the resolution will always impact performance.&lt;/li>
+&lt;/ul>
+&lt;h3 id="169---1440p">16:9 - 1440p&lt;/h3>
+&lt;p>This is the resolution I am playing and TPF Fallout 4 is optimised for it (meaning I conserved performance wherever possible). If you have a 1440Hz monitor and the hardware to play modded Fallout 4 at 1440p, &lt;strong>everything is configured correctly by default&lt;/strong> and you can continue with the &lt;a href="https://thephoenixflavour.com/fallout/installation/new-game/">New Game&lt;/a> page.&lt;/p>
+&lt;h3 id="169---1080p-or-2160p">16:9 - 1080p or 2160p&lt;/h3>
+&lt;p>If you own a 16:9 monitor and want to play at 1080p or 2160p, follow the instructions below. Note that playing at 4K will significantly impact performance.&lt;/p>
+&lt;ul>
+&lt;li>Click the puzzle icon in MO2 and select &lt;strong>INI Editor&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/customisation/mo2-ini-editor.png" alt="Open INI Editor">&lt;/p>
+&lt;ul>
+&lt;li>Switch to the &lt;strong>falloutprefs.ini&lt;/strong> tab and scroll down to the [Display] section (see picture below).&lt;/li>
+&lt;li>Edit the following two lines with the respective values for your desired resolution:&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>For 1080p - 1920x1080:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>iSize H=1080
+iSize W=1920
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>For 2160p - 3840x2160:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>iSize H=2160
+iSize W=3840
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>Click &lt;strong>Save&lt;/strong> and close the window.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/change-resolution.png" alt="Adjust resolution">&lt;/p>
+&lt;h3 id="219---1080p-or-1440p">21:9 - 1080p or 1440p&lt;/h3>
+&lt;p>Please refer to the &lt;a href="https://thephoenixflavour.com/fallout/customisation/ultrawide/">Ultrawide Support&lt;/a> page.&lt;/p>
+&lt;hr>
+&lt;h4 id="continue-with-the-new-gamehttpsthephoenixflavourcomfalloutinstallationnew-game-page">Continue with the &lt;a href="https://thephoenixflavour.com/fallout/installation/new-game/">New Game&lt;/a> page.&lt;/h4></description></item><item><title>Fallout: New Game</title><link>https://thephoenixflavour.com/fallout/installation/new-game/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/installation/new-game/</guid><description>
 &lt;h2 id="launching-the-game">Launching the game&lt;/h2>
 &lt;p>In order to play TPF Fallout 4, you must launch &lt;strong>f4se_loader.exe&lt;/strong> through Mod Organizer 2. Otherwise your mods will not work. When you open Mod Organizer 2, F4SE should be selected automatically in the executables drop-down and you can start the game by clicking &lt;strong>Run&lt;/strong>.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/run-f4se.png" alt="Start Game">&lt;/p>
@@ -193,8 +238,6 @@
 &lt;/ul>
 &lt;p>These are my personal keybind changes:&lt;/p>
 &lt;ul>
-&lt;li>Activate to &lt;strong>F&lt;/strong>&lt;/li>
-&lt;li>Favourite to &lt;strong>E&lt;/strong>&lt;/li>
 &lt;li>Bash/Power Attack/Grenade to &lt;strong>Mouse 4&lt;/strong> (thumb button)&lt;/li>
 &lt;li>Run (toggle walk/run) to &lt;strong>Left CTRL&lt;/strong>&lt;/li>
 &lt;li>Move (automatically) to &lt;strong>C&lt;/strong>&lt;/li>
@@ -214,7 +257,9 @@
 &lt;p>Installing character presets and any additional appearance mods counts as adding mods and will void your right to request support for any issues with TPF Fallout 4.&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="the-prologue">The Prologue&lt;/h3>
-&lt;p>Play through the intro as usual and continue with the &lt;strong>Mod Configuration&lt;/strong> section after exiting the vault.&lt;/p></description></item><item><title>Fallout: Mod Configuration</title><link>https://thephoenixflavour.com/fallout/installation/mod-configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/installation/mod-configuration/</guid><description>
+&lt;p>Play through the intro as usual and continue with the &lt;strong>Mod Configuration&lt;/strong> section after exiting the vault.&lt;/p>
+&lt;hr>
+&lt;h4 id="continue-with-the-mod-configurationhttpsthephoenixflavourcomfalloutinstallationmod-configuration-page">Continue with the &lt;a href="https://thephoenixflavour.com/fallout/installation/mod-configuration/">Mod Configuration&lt;/a> page.&lt;/h4></description></item><item><title>Fallout: Mod Configuration</title><link>https://thephoenixflavour.com/fallout/installation/mod-configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/installation/mod-configuration/</guid><description>
 &lt;h2 id="mcm-settings">MCM Settings&lt;/h2>
 &lt;p>The first thing you should do after escaping Vault 111 is manually save the game. You&amp;rsquo;ve successfully completed the introduction and are now free to explore the Wasteland - after configuring your mods. Thanks to the &lt;a href="https://www.nexusmods.com/fallout4/mods/21497">Mod Configuration Menu&lt;/a>, many mods can now be tweaked through the MCM which can be accessed through the pause menu.&lt;/p>
 &lt;p>Hit &lt;strong>ESC&lt;/strong> and open the &lt;strong>Mod Configuration&lt;/strong>.&lt;/p>
@@ -236,7 +281,7 @@
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/gcm-dlc-mcm.jpg" alt="GCM DLC MCM">&lt;/p>
 &lt;h3 id="experience">Experience&lt;/h3>
 &lt;ul>
-&lt;li>&lt;strong>Workstation:&lt;/strong>
+&lt;li>&lt;strong>Workshop:&lt;/strong>
 &lt;ul>
 &lt;li>Base experience &lt;strong>0&lt;/strong>&lt;/li>
 &lt;li>Maximum experience &lt;strong>0&lt;/strong>&lt;/li>
@@ -319,4 +364,6 @@
 &lt;li>Manage Workbench &lt;strong>OFF&lt;/strong>&lt;/li>
 &lt;/ul>
 &lt;p>The Manage menu accessible at workbenches is only for scrapping stuff placed by the player and the WF layouts feature. Since TPF Fallout 4 doesn&amp;rsquo;t currently include additional layouts, I would rather people disabled this entirely to prevent confusion. If you are interested in WF layouts, re-enable the Manage Workbench option and watch kinggath&amp;rsquo;s tutorials on &lt;a href="https://www.youtube.com/watch?v=N3MGiari9xc&amp;amp;feature=emb_logo">importing&lt;/a> and &lt;a href="https://www.youtube.com/watch?v=9OVzgFzjnRw&amp;amp;feature=emb_logo">exporting&lt;/a> them. Obviously, downloading and installing layouts counts as adding mods and voids your right to get support for TPF Fallout 4.&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/workshop-framework-mcm-1.jpg" alt="Workshop Framework MCM 1">&lt;/p></description></item></channel></rss>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/new-game/workshop-framework-mcm-1.jpg" alt="Workshop Framework MCM 1">&lt;/p>
+&lt;hr>
+&lt;h4 id="enjoy-your-playthrough">Enjoy your playthrough!&lt;/h4></description></item></channel></rss>
