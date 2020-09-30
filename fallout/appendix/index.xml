@@ -8,11 +8,36 @@
 &lt;p>&lt;em>This is not a TPF Fallout 4 specific issue.&lt;/em>&lt;/p>
 &lt;p>When talking to Preston and Sturges in the Museum of Freedom, the subtitles usually get stuck for a time during the conversation. This happens in vanilla too and cannot be fixed as far as I know.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/appendix/subtitles-stuck.jpg" alt="Subtitles Stuck">&lt;/p></description></item><item><title>Fallout: Changelog</title><link>https://thephoenixflavour.com/fallout/appendix/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/appendix/changelog/</guid><description>
+&lt;h2 id="release-12">Release 1.2&lt;/h2>
+&lt;blockquote>
+&lt;p>30/09/2020&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;ul>
+&lt;li>Updated Buffout to 1.12.1&lt;/li>
+&lt;li>Placed the new Buffout TBB Redist plugin in the Game Folder Files folder&lt;/li>
+&lt;li>Removed Achievements (this is now a feature in Buffout)&lt;/li>
+&lt;li>Actually fixed the problematic True Nights record instead of bruteforce deleting it&lt;/li>
+&lt;li>Updated Classic Hostered Weapons System to 1.04c&lt;/li>
+&lt;li>Added Start Me Up - Basic Version&lt;/li>
+&lt;li>Added Lively&amp;rsquo;s Start Me Up Tweak&lt;/li>
+&lt;li>Resolved a conflict between Start Me Up and the UFO4P&lt;/li>
+&lt;li>Inlined Lively&amp;rsquo;s PPPL INI file&lt;/li>
+&lt;li>Updated Sweet Roll 5000 and rebuilt Clutter BA2s&lt;/li>
+&lt;li>Fixed Diamond City Radio tracks not playing (thanks Archie!)&lt;/li>
+&lt;/ul>
+&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fallout/installation/finalisation/">Finalisation&lt;/a>: Added this new page and moved the game resolution instructions here.&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fallout/installation/finalisation/">Finalisation&lt;/a>: Added instructions on how to force VSYNC and cap the framerate.&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fallout/installation/new-game/">New Game&lt;/a>: Removed LooksMenu related instructions as that mod was removed.&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fallout/installation/new-game/">New Game&lt;/a>: Added &lt;em>seriously&lt;/em> detailed instructions for Start Me Up.&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-11">Release 1.1&lt;/h2>
 &lt;blockquote>
 &lt;p>27/09/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Now using Lively&amp;rsquo;s pppl.ini file&lt;/li>
 &lt;li>Updated Buffout to 1.11.0&lt;/li>
@@ -23,7 +48,7 @@
 &lt;li>Switched to the Alternative Version of Fixed Flickering Puddles (hopefully fixing black pre-war Codsworth)&lt;/li>
 &lt;li>Removed Skip raiding your own settlements (no time to troubleshoot the compilation error it causes)&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fallout/installation/wabbajack/">Wabbajack&lt;/a>: Added new section on how change the game resolution.&lt;/li>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fallout/appendix/troubleshooting/">Troubleshooting&lt;/a>: Added this page with a few known issues.&lt;/li>
