@@ -189,43 +189,6 @@
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/game-folder-files.png" alt="Game Folder Files">&lt;/p>
 &lt;hr>
 &lt;h4 id="continue-with-the-finalisationhttpsthephoenixflavourcomfalloutinstallationfinalisation-page">Continue with the &lt;a href="https://thephoenixflavour.com/fallout/installation/finalisation/">Finalisation&lt;/a> page.&lt;/h4></description></item><item><title>Fallout: Finalisation</title><link>https://thephoenixflavour.com/fallout/installation/finalisation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/installation/finalisation/</guid><description>
-&lt;h2 id="mod-organizer-2">Mod Organizer 2&lt;/h2>
-&lt;p>All mods are installed in Mod Organizer 2 which is required to play the setup. I recommend adding the MO2 executable to your taskbar or creating a shortcut on your Desktop for easy access.&lt;/p>
-&lt;ul>
-&lt;li>Navigate to your TPF Fallout 4 installation directory.&lt;/li>
-&lt;li>Double-click &lt;strong>ModOrganizer.exe&lt;/strong>.&lt;/li>
-&lt;/ul>
-&lt;h2 id="resolution">Resolution&lt;/h2>
-&lt;p>There are several relevant factors when deciding on which resolution to play at.&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>What is my monitor&amp;rsquo;s aspect ratio?&lt;/strong> Most monitors nowadays have an aspect ratio of 16:9. However, widescreen / ultrawide monitors with a 21:9 aspect ratio are also fairly common.&lt;/li>
-&lt;li>&lt;strong>What is my monitor&amp;rsquo;s resolution?&lt;/strong> You are limited by your monitor&amp;rsquo;s maximum resolution. On a 1440p monitor, you can play with a resolution of 2560x1440 or lower. Playing at 1080p on a 1440p monitor will yield better performance at the cost of image sharpness / clarity.&lt;/li>
-&lt;li>&lt;strong>What is my hardware capable of?&lt;/strong> Generally speaking, you will get the best performance playing at 1080p. However, TPF Fallout 4 has been optimised for good performance at 1440p so with decently modern hardware, you should get stable 60FPS at that resolution. Be warned that increasing the resolution will always impact performance.&lt;/li>
-&lt;/ul>
-&lt;h3 id="169---1440p">16:9 - 1440p&lt;/h3>
-&lt;p>This is the resolution I am playing and TPF Fallout 4 is optimised for it (meaning I conserved performance wherever possible). If you have a 1440Hz monitor and the hardware to play modded Fallout 4 at 1440p, &lt;strong>everything is configured correctly by default&lt;/strong> and you can continue with the &lt;a href="https://thephoenixflavour.com/fallout/installation/new-game/">New Game&lt;/a> page.&lt;/p>
-&lt;h3 id="169---1080p-or-2160p">16:9 - 1080p or 2160p&lt;/h3>
-&lt;p>If you own a 16:9 monitor and want to play at 1080p or 2160p, follow the instructions below. Note that playing at 4K will significantly impact performance.&lt;/p>
-&lt;ul>
-&lt;li>Click the puzzle icon in MO2 and select &lt;strong>INI Editor&lt;/strong>.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/customisation/mo2-ini-editor.png" alt="Open INI Editor">&lt;/p>
-&lt;ul>
-&lt;li>Switch to the &lt;strong>falloutprefs.ini&lt;/strong> tab and scroll down to the [Display] section (see picture below).&lt;/li>
-&lt;li>Edit the following two lines with the respective values for your desired resolution:&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>For 1080p - 1920x1080:&lt;/strong>&lt;/p>
-&lt;pre>&lt;code>iSize H=1080
-iSize W=1920
-&lt;/code>&lt;/pre>&lt;p>&lt;strong>For 2160p - 3840x2160:&lt;/strong>&lt;/p>
-&lt;pre>&lt;code>iSize H=2160
-iSize W=3840
-&lt;/code>&lt;/pre>&lt;ul>
-&lt;li>Click &lt;strong>Save&lt;/strong> and close the window.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/change-resolution.png" alt="Adjust resolution">&lt;/p>
-&lt;h3 id="219---1080p-or-1440p">21:9 - 1080p or 1440p&lt;/h3>
-&lt;p>Please refer to the &lt;a href="https://thephoenixflavour.com/fallout/customisation/ultrawide/">Ultrawide Support&lt;/a> page.&lt;/p>
 &lt;h2 id="frame-rate-and-vsync">Frame Rate and VSYNC&lt;/h2>
 &lt;p>One of the Creation Engine&amp;rsquo;s drawbacks is the physics engine being tied to the frame rate. Simply put, the game breaks if it runs at more than 60FPS. There is a mod that allows you to unlock the frame rate by dynamically adjusting havok settings at runtime; however, most people are unlikely to get above 60FPS consistently anyway which is why TPF Fallout 4 does not include this mod. This means you have to &lt;strong>cap the frame rate to 60FPS&lt;/strong>.&lt;/p>
 &lt;p>Additionally, you will need to force &lt;strong>VSYNC&lt;/strong> in order to prevent &lt;a href="https://en.wikipedia.org/wiki/Screen_tearing">screentearing&lt;/a>. By default, the game&amp;rsquo;s inbuilt VSYNC is disabled in the TPF Fallout 4 INI files as it tends to be more of a performance hit than forcing VSYNC by other means would. Some monitors feature the G-Sync or FreeSync technologies which automatically force VSYNC in fullscreen applications.&lt;/p>
@@ -250,6 +213,43 @@ iSize W=3840
 &lt;p>Note that clean-installing your GPU driver will reset all profiles in which case you need to re-do this step.&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/nvidia-inspector-profile.png" alt="NVIDIA Inspector Profile">&lt;/p>
+&lt;h2 id="mod-organizer-2">Mod Organizer 2&lt;/h2>
+&lt;p>All mods are installed in Mod Organizer 2 which is required to play the setup. I recommend adding the MO2 executable to your taskbar or creating a shortcut on your Desktop for easy access.&lt;/p>
+&lt;ul>
+&lt;li>Navigate to your TPF Fallout 4 installation directory.&lt;/li>
+&lt;li>Double-click &lt;strong>ModOrganizer.exe&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="resolution">Resolution&lt;/h2>
+&lt;p>There are several relevant factors when deciding on which resolution to play at.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>What is my monitor&amp;rsquo;s aspect ratio?&lt;/strong> Most monitors nowadays have an aspect ratio of 16:9. However, widescreen / ultrawide monitors with a 21:9 aspect ratio are also fairly common.&lt;/li>
+&lt;li>&lt;strong>What is my monitor&amp;rsquo;s resolution?&lt;/strong> You are limited by your monitor&amp;rsquo;s maximum resolution. On a 1440p monitor, you can play with a resolution of 2560x1440 or lower. Playing at 1080p on a 1440p monitor will yield better performance at the cost of image sharpness / clarity.&lt;/li>
+&lt;li>&lt;strong>What is my hardware capable of?&lt;/strong> Generally speaking, you will get the best performance playing at 1080p. However, TPF Fallout 4 has been optimised for good performance at 1440p so with decently modern hardware, you should get stable 60FPS at that resolution. Be warned that increasing the resolution will always impact performance.&lt;/li>
+&lt;/ul>
+&lt;h3 id="169---1440p">16:9 - 1440p&lt;/h3>
+&lt;p>This is the resolution I am playing and TPF Fallout 4 is optimised for it (meaning I conserved performance wherever possible). If you have a 1440Hz monitor and the hardware to play modded Fallout 4 at 1440p, &lt;strong>everything is configured correctly by default&lt;/strong> and you can continue with the next step (Frame Rate &amp;amp; VSYNC).&lt;/p>
+&lt;h3 id="169---1080p-or-2160p">16:9 - 1080p or 2160p&lt;/h3>
+&lt;p>If you own a 16:9 monitor and want to play at 1080p or 2160p, follow the instructions below. Note that playing at 4K will significantly impact performance.&lt;/p>
+&lt;ul>
+&lt;li>Click the puzzle icon in MO2 and select &lt;strong>INI Editor&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/customisation/mo2-ini-editor.png" alt="Open INI Editor">&lt;/p>
+&lt;ul>
+&lt;li>Switch to the &lt;strong>falloutprefs.ini&lt;/strong> tab and scroll down to the [Display] section (see picture below).&lt;/li>
+&lt;li>Edit the following two lines with the respective values for your desired resolution:&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>For 1080p - 1920x1080:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>iSize H=1080
+iSize W=1920
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>For 2160p - 3840x2160:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>iSize H=2160
+iSize W=3840
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>Click &lt;strong>Save&lt;/strong> and close the window.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/change-resolution.png" alt="Adjust resolution">&lt;/p>
+&lt;h3 id="219---1080p-or-1440p">21:9 - 1080p or 1440p&lt;/h3>
+&lt;p>Please refer to the &lt;a href="https://thephoenixflavour.com/fallout/customisation/ultrawide/">Ultrawide Support&lt;/a> page.&lt;/p>
 &lt;hr>
 &lt;h4 id="continue-with-the-new-gamehttpsthephoenixflavourcomfalloutinstallationnew-game-page">Continue with the &lt;a href="https://thephoenixflavour.com/fallout/installation/new-game/">New Game&lt;/a> page.&lt;/h4></description></item><item><title>Fallout: New Game</title><link>https://thephoenixflavour.com/fallout/installation/new-game/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/installation/new-game/</guid><description>
 &lt;h2 id="launching-the-game">Launching the game&lt;/h2>
