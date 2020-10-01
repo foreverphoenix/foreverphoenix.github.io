@@ -13,6 +13,11 @@
 &lt;li>&lt;code>IpHlpAPI.dll&lt;/code>&lt;/li>
 &lt;li>&lt;code>xSE PluginPreloader.ini&lt;/code>&lt;/li>
 &lt;/ul>
+&lt;h3 id="buffout-4-tbb-redist">Buffout 4 TBB Redist&lt;/h3>
+&lt;p>&lt;a href="https://www.nexusmods.com/fallout4/mods/47359">Buffout 4&lt;/a> requires the TBB library, a small plugin that needs to be placed in the root folder:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>tbbmalloc.dll&lt;/code>&lt;/li>
+&lt;/ul>
 &lt;h3 id="enbseries-binaries">ENBSeries Binaries&lt;/h3>
 &lt;p>The &lt;a href="http://enbdev.com/download_mod_fallout4.htm">ENBSeries for Fallout 4&lt;/a>, latest version (0.428), required for ENB presets to work.&lt;/p>
 &lt;ul>
