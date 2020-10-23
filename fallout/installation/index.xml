@@ -37,7 +37,7 @@
 &lt;hr>
 &lt;h4 id="continue-with-the-fallout-4httpsthephoenixflavourcomfalloutinstallationfallout-4-page">Continue with the &lt;a href="https://thephoenixflavour.com/fallout/installation/fallout-4/">Fallout 4&lt;/a> page.&lt;/h4></description></item><item><title>Fallout: Fallout 4</title><link>https://thephoenixflavour.com/fallout/installation/fallout-4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/installation/fallout-4/</guid><description>
 &lt;h2 id="installation-directory">Installation directory&lt;/h2>
-&lt;p>In order to ensure that your Fallout 4 installation is pristine and vanilla, we are going to completely re-install the game. This is especially important if you have modded the game previously as left-over files might interfere with your TPF FO4 installation.&lt;/p>
+&lt;p>In order to ensure that your Fallout 4 installation is pristine and vanilla, we are going to completely re-install the game. This is especially important if you have modded the game previously as left-over files might interfere with your WTP installation.&lt;/p>
 &lt;h3 id="uac-protected-folders">UAC protected folders&lt;/h3>
 &lt;p>The reinstallation also serves the purpose of relocating the game files to a better directory. Using UAC protected folders (such as &lt;code>C:\Program Files&lt;/code> or &lt;code>C:\Program Files x86&lt;/code>) for the game or any modding tools has a risk of causing issues down the line. It is best to avoid those folders to begin with. Most Wabbajack list authors, including myself, will not provide support for people that disregard this warning and use UAC protected folders anyway.&lt;/p>
 &lt;p>Note that this does not include the Steam client. Most people will have it installed under &lt;code>C:\Program Files x86\Steam&lt;/code> which is completely fine.&lt;/p>
@@ -146,7 +146,7 @@
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/disable-hd-dlc.png" alt="Disable HD DLC">&lt;/p>
 &lt;h2 id="creation-club-content">Creation Club Content&lt;/h2>
-&lt;p>If you bought any &amp;ldquo;creations&amp;rdquo; from the Creation Club (or grabbed some while they were available for free), they will have been re-downloaded alongside the game. Wabbajack lists do not typically support Creation Club content so you should remove the files from your &lt;strong>Data&lt;/strong> folder for the time being.&lt;/p>
+&lt;p>If you bought any &amp;ldquo;creations&amp;rdquo; from the Creation Club (or grabbed some while they were available for free), they may still be present in your Data folder. Since WTP does not currently support Creation Club content you need to remove the files from your &lt;strong>Data&lt;/strong> folder for the time being.&lt;/p>
 &lt;ul>
 &lt;li>Navigate to &lt;code>steamapps\common\Fallout4\Data&lt;/code> and cut (CTRL + X) all files starting with &lt;strong>cc&lt;/strong>.&lt;/li>
 &lt;li>Paste (CTRL + V) all files to &lt;code>Fallout 4 Modding\Backups\Creation Club&lt;/code>.&lt;/li>
@@ -162,9 +162,9 @@
 &lt;h3 id="downloading-tpf-fo4">Downloading TPF FO4&lt;/h3>
 &lt;ul>
 &lt;li>Once Wabbajack is installed and open, click on &lt;strong>Browse Modlists&lt;/strong>.&lt;/li>
-&lt;li>Find &lt;strong>TPF Fallout 4&lt;/strong> in the list and click the arrow to download.&lt;/li>
+&lt;li>Find &lt;strong>Welcome to Paradise&lt;/strong> in the list and click the arrow to download.&lt;/li>
 &lt;li>Click the dots next to &lt;strong>Installation Location&lt;/strong> and choose a path.&lt;/li>
-&lt;li>Choose an empty, high-level folder, e.g. &lt;code>G:\TPF Fallout 4&lt;/code>.
+&lt;li>Choose an empty, high-level folder, e.g. &lt;code>G:\Welcome to Paradise&lt;/code>.
 &lt;ul>
 &lt;li>SHOULD be on your SSD or otherwise fastest hard drive.&lt;/li>
 &lt;li>CANNOT be inside &lt;code>Fallout 4 Modding\Wabbajack&lt;/code>.&lt;/li>
@@ -179,7 +179,7 @@
 &lt;p>By downloading the mod archives to a different location, you can save space on your SSD. The archives are only required for the initial mod installation and future updates so there is no need to put them on a fast hard drive.&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="troubleshooting">Troubleshooting&lt;/h3>
-&lt;p>Should anything go wrong during the installation process, please find the &lt;strong>Wabbajack.current.log&lt;/strong> file inside &lt;code>Fallout 4 Modding\Wabbajack\&amp;lt;version number&amp;gt;\logs\&lt;/code>. Upload it (drag and drop) into the TPF Fallout 4 support channel on either the TPF or Wabbajack Discord server.&lt;/p>
+&lt;p>Should anything go wrong during the installation process, please find the &lt;strong>Wabbajack.current.log&lt;/strong> file inside &lt;code>Fallout 4 Modding\Wabbajack\&amp;lt;version number&amp;gt;\logs\&lt;/code>. Upload it (drag and drop) into the WTP support channel on either the TPF (#wtp-support) or Wabbajack (#welcome-to-paradise-support) Discord server.&lt;/p>
 &lt;h2 id="game-folder-files">Game Folder Files&lt;/h2>
 &lt;ul>
 &lt;li>Navigate to your Wabbajack installation directory&lt;/li>
@@ -189,36 +189,31 @@
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/game-folder-files.png" alt="Game Folder Files">&lt;/p>
 &lt;hr>
 &lt;h4 id="continue-with-the-finalisationhttpsthephoenixflavourcomfalloutinstallationfinalisation-page">Continue with the &lt;a href="https://thephoenixflavour.com/fallout/installation/finalisation/">Finalisation&lt;/a> page.&lt;/h4></description></item><item><title>Fallout: Finalisation</title><link>https://thephoenixflavour.com/fallout/installation/finalisation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/installation/finalisation/</guid><description>
-&lt;h2 id="frame-rate-and-vsync">Frame Rate and VSYNC&lt;/h2>
-&lt;p>One of the Creation Engine&amp;rsquo;s drawbacks is the physics engine being tied to the frame rate. Simply put, the game breaks if it runs at more than 60FPS. There is a mod that allows you to unlock the frame rate by dynamically adjusting havok settings at runtime; however, most people are unlikely to get above 60FPS consistently anyway which is why TPF Fallout 4 does not include this mod. This means you have to &lt;strong>cap the frame rate to 60FPS&lt;/strong>.&lt;/p>
-&lt;p>Additionally, you will need to force &lt;strong>VSYNC&lt;/strong> in order to prevent &lt;a href="https://en.wikipedia.org/wiki/Screen_tearing">screentearing&lt;/a>. By default, the game&amp;rsquo;s inbuilt VSYNC is disabled in the TPF Fallout 4 INI files as it tends to be more of a performance hit than forcing VSYNC by other means would. Some monitors feature the G-Sync or FreeSync technologies which automatically force VSYNC in fullscreen applications.&lt;/p>
-&lt;h3 id="nvidia-inspector">NVIDIA Inspector&lt;/h3>
-&lt;p>My personal go-to method of capping the framerate is the NVIDIA Inspector which obviously only works if you have an NVIDIA GPU. AMD users might be able to achieve the same effect through RivaTuner. As for forcing VSYNC, this can be done through NVIDIA Inspector as well if your monitor does not feature G-Sync or FreeSync.&lt;/p>
-&lt;ul>
-&lt;li>Download and install &lt;a href="https://www.guru3d.com/files-details/nvidia-inspector-download.html">NVIDIA Inspector&lt;/a>.&lt;/li>
-&lt;li>Open the program and click the little icon next to &lt;strong>Driver Version&lt;/strong> to open the profile settings.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/nvidia-inspector.png" alt="Open profile settings">&lt;/p>
-&lt;ul>
-&lt;li>Select &lt;strong>Fallout 4&lt;/strong> from the Profiles drop-down menu at the top.&lt;/li>
-&lt;li>Under &lt;strong>Sync and Refresh&lt;/strong>, change the following:
-&lt;ul>
-&lt;li>Set Frame Rate Limiter to &lt;strong>60 FPS&lt;/strong>&lt;/li>
-&lt;li>Set Vertical Sync to &lt;strong>Force on&lt;/strong> (if your monitor does NOT feature G-Sync / FreeSync)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Click &lt;strong>Apply changes&lt;/strong> and close the profile settings window.&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>Note that clean-installing your GPU driver will reset all profiles in which case you need to re-do this step.&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/nvidia-inspector-profile.png" alt="NVIDIA Inspector Profile">&lt;/p>
 &lt;h2 id="mod-organizer-2">Mod Organizer 2&lt;/h2>
 &lt;p>All mods are installed in Mod Organizer 2 which is required to play the setup. I recommend adding the MO2 executable to your taskbar or creating a shortcut on your Desktop for easy access.&lt;/p>
 &lt;ul>
 &lt;li>Navigate to your TPF Fallout 4 installation directory.&lt;/li>
 &lt;li>Double-click &lt;strong>ModOrganizer.exe&lt;/strong>.&lt;/li>
 &lt;/ul>
+&lt;h2 id="frame-rate-and-vsync">Frame Rate and VSYNC&lt;/h2>
+&lt;p>One of the Creation Engine&amp;rsquo;s drawbacks is the physics engine which is tied to the frame rate. Simply put, the game breaks if it runs at more than 60FPS. There is a mod that allows you to unlock the frame rate by dynamically adjusting havok settings at runtime, aptly called &lt;strong>High FPS Physics Fix&lt;/strong>. WTP includes this mod as well as four pre-configured INI files of which you need to enable one.&lt;/p>
+&lt;p>The profiles allow any combination of &lt;strong>FPS cap&lt;/strong> and &lt;strong>VSYNC&lt;/strong> settings.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>FPS&lt;/strong> or frames per second is how the amount of still images shown every second are measured. The higher your FPS, the more fluid the game appears. The amount of frames per second that can be rendered depend on your hardware, primarily your CPU and GPU. In my opinion, a stable 60FPS is perfect for most games, including Fallout 4. Most systems should be able to achieve a consistent 60FPS in WTP.&lt;/li>
+&lt;li>&lt;strong>VSYNC&lt;/strong> is a technique that syncs a game&amp;rsquo;s framerate to your monitor&amp;rsquo;s refresh rate (hence the name). Enabling VSYNC prevents &lt;a href="https://en.wikipedia.org/wiki/Screen_tearing">screentearing&lt;/a> at the cost of latency and is always recommended. However, if your monitor supports G-Sync or FreeSync, you do not need to enable VSYNC by other means. G-Sync and FreeSync are advanced VSYNC methods applied globally to all fullscreen applications.&lt;/li>
+&lt;/ul>
+&lt;p>In Mod Organizer 2, you can see the &lt;strong>HIGH FPS PHYSICS FIX&lt;/strong> section near the top of the mod order (left pane). The main mod is already checked, but you need to enable one of the &lt;strong>Pre-made INIs&lt;/strong> as well. To figure out which profile you want, you need to consider your hardware:&lt;/p>
+&lt;ul>
+&lt;li>If your monitor &lt;strong>does not support G-Sync / FreeSync:&lt;/strong> Check one of the &lt;code>VSYNC&lt;/code> profiles.&lt;/li>
+&lt;li>If your monitor &lt;strong>supports G-Sync / FreeSync:&lt;/strong> Check one of the &lt;code>No VSYNC&lt;/code> profiles.&lt;/li>
+&lt;li>Whether to &lt;strong>cap&lt;/strong> or &lt;strong>uncap&lt;/strong> FPS comes down to personal taste. Personally, I prefer to cap at 60 FPS.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;blockquote>
+&lt;p>You must always have one profile checked.&lt;/p>
+&lt;/blockquote>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/installation/high-fps-physics-fix-profiles.png" alt="High FPS Physics Fix Profiles">&lt;/p>
 &lt;h2 id="resolution">Resolution&lt;/h2>
 &lt;p>There are several relevant factors when deciding on which resolution to play at.&lt;/p>
 &lt;ul>
@@ -227,7 +222,7 @@
 &lt;li>&lt;strong>What is my hardware capable of?&lt;/strong> Generally speaking, you will get the best performance playing at 1080p. However, TPF Fallout 4 has been optimised for good performance at 1440p so with decently modern hardware, you should get stable 60FPS at that resolution. Be warned that increasing the resolution will always impact performance.&lt;/li>
 &lt;/ul>
 &lt;h3 id="169---1440p">16:9 - 1440p&lt;/h3>
-&lt;p>This is the resolution I am playing and TPF Fallout 4 is optimised for it (meaning I conserved performance wherever possible). If you have a 1440Hz monitor and the hardware to play modded Fallout 4 at 1440p, &lt;strong>everything is configured correctly by default&lt;/strong> and you can continue with the next step (Frame Rate &amp;amp; VSYNC).&lt;/p>
+&lt;p>This is the resolution I am playing and TPF Fallout 4 is optimised for it (meaning I conserved performance wherever possible). If you have a 1440Hz monitor and the hardware to play modded Fallout 4 at 1440p, &lt;strong>everything is configured correctly by default&lt;/strong> and you can continue with the next page.&lt;/p>
 &lt;h3 id="169---1080p-or-2160p">16:9 - 1080p or 2160p&lt;/h3>
 &lt;p>If you own a 16:9 monitor and want to play at 1080p or 2160p, follow the instructions below. Note that playing at 4K will significantly impact performance.&lt;/p>
 &lt;ul>

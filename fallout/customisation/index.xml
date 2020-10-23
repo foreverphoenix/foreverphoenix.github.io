@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Customisation</title><link>https://thephoenixflavour.com/fallout/customisation/</link><description>Recent content in Customisation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/fallout/customisation/index.xml" rel="self" type="application/rss+xml"/><item><title>Fallout: Interface Colors</title><link>https://thephoenixflavour.com/fallout/customisation/interface-colors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/customisation/interface-colors/</guid><description>
 &lt;p>In the INTERFACE section in Mod Organizer 2 you will find several separators with options to customise your interface, specifically the HUD colors. These options will be covered here. All of this is optional and can be skipped / ignored entirely. You can change any of these options at any point, they will not affect your save.&lt;/p>
 &lt;h3 id="hud-color">HUD Color&lt;/h3>
-&lt;p>The main HUD (heads-up display, the compass, health bar, etc) can be tweaked as usual ingame through the Settings menu. Unfortunately they are defined in the Fallout4Prefs.ini so it is not possible to tweak them through plugin INIs so you will have to either change the color ingame or edit the Fallout4Prefs.ini file. I actually recommend the latter.&lt;/p>
+&lt;p>The main HUD (heads-up display, the compass, health bar, etc) can be tweaked as usual ingame through the Settings menu. Unfortunately they are defined in the Fallout4Prefs.ini so it is not possible to tweak them through plugin INIs so you will have to either change the color ingame or edit the &lt;strong>Fallout4Prefs.ini&lt;/strong> file. I actually recommend the latter.&lt;/p>
 &lt;ul>
 &lt;li>In order to change the color in the INI, open the INI editor through Mod Organizer 2.&lt;/li>
 &lt;/ul>
@@ -36,7 +36,7 @@ iHUDColorR=128
 &lt;pre>&lt;code>iHUDColorB=105
 iHUDColorG=209
 iHUDColorR=255
-&lt;/code>&lt;/pre>&lt;p>You can also use any other color combination you wish. Use the &lt;a href="https://www.google.com/search?q=color+picker">Google color picker&lt;/a> to choose your color and copy over the RGB values. Note that the order is BGR in the Fallout 4 INI files.&lt;/p>
+&lt;/code>&lt;/pre>&lt;p>You can also use any other color combination you wish. Use the &lt;a href="https://www.google.com/search?q=color+picker">Google color picker&lt;/a> to choose your color and copy over the RGB values. Note that the order is &lt;strong>BGR&lt;/strong> in the Fallout 4 INI files.&lt;/p>
 &lt;h3 id="pip-boy-flashlight-color">Pip-Boy Flashlight Color&lt;/h3>
 &lt;p>By default, the color of the flashlight (activated by holding TAB) will be the same as your HUD. Check the &lt;strong>Always White&lt;/strong> option to decouple it from your chosen HUD color.&lt;/p>
 &lt;h3 id="power-armor-hud-color">Power Armor HUD Color&lt;/h3>

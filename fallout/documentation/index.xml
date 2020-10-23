@@ -11,10 +11,10 @@
 &lt;p>The &lt;a href="https://www.nexusmods.com/fallout4/mods/33946">xSE Plugin Preloader F4&lt;/a> is required for Private Profile Redirector.&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>IpHlpAPI.dll&lt;/code>&lt;/li>
-&lt;li>&lt;code>xSE PluginPreloader.ini&lt;/code>&lt;/li>
+&lt;li>&lt;code>xSE PluginPreloader.xml&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h3 id="buffout-4-tbb-redist">Buffout 4 TBB Redist&lt;/h3>
-&lt;p>&lt;a href="https://www.nexusmods.com/fallout4/mods/47359">Buffout 4&lt;/a> requires the TBB library, a small plugin that needs to be placed in the root folder:&lt;/p>
+&lt;p>&lt;a href="https://www.nexusmods.com/fallout4/mods/47359">Buffout 4&lt;/a> requires the TBB library, a small plugin that needs to be placed in the root folder.&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>tbbmalloc.dll&lt;/code>&lt;/li>
 &lt;/ul>
@@ -77,7 +77,7 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/fallout4/users/34353495">SmithyPete&lt;/a> for the No Weapon Clutter tweak.&lt;/li>
 &lt;/ul>
 &lt;h2 id="def_hud---phoenix-preset">DEF_HUD - Phoenix Preset&lt;/h2>
-&lt;p>This is just my personal DEF_HUD preset, downsizing most elements and moving the compass to the top.&lt;/p>
+&lt;p>This is just my personal DEF_HUD preset, downsizing most elements and moving the compass to the top. It&amp;rsquo;s included in the main DEF_UI mod folder.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/documentation/def-hud-preset.png" alt="DEF_HUD Preset">&lt;/p>
 &lt;h2 id="keywords-crafting-sorting">Keywords, Crafting, Sorting&lt;/h2>
 &lt;h3 id="simple-keyword-resource">Simple Keyword Resource&lt;/h3>
