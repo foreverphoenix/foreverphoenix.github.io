@@ -8,12 +8,23 @@
 &lt;p>&lt;em>This is not a WTP-specific issue.&lt;/em>&lt;/p>
 &lt;p>When talking to Preston and Sturges in the Museum of Freedom, the subtitles usually get stuck for a time during the conversation. This happens in vanilla too and cannot be fixed as far as I know.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/appendix/subtitles-stuck.jpg" alt="Subtitles Stuck">&lt;/p></description></item><item><title>Fallout: Changelog</title><link>https://thephoenixflavour.com/fallout/appendix/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/appendix/changelog/</guid><description>
+&lt;h2 id="release-131">Release 1.3.1&lt;/h2>
+&lt;blockquote>
+&lt;p>24/10/2020&lt;/p>
+&lt;/blockquote>
+&lt;p>Just a minor fix and clean-up for yesterday&amp;rsquo;s update.&lt;/p>
+&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;ul>
+&lt;li>Updated Bullet Counted Reload System to 1.05b&lt;/li>
+&lt;li>Updated Workshop Framework to 2.0.3&lt;/li>
+&lt;li>Added missing ALWAYS INCLUDE flags to High FPS Physics Fix profiles&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-13">Release 1.3&lt;/h2>
 &lt;blockquote>
 &lt;p>23/10/2020&lt;/p>
 &lt;/blockquote>
 &lt;p>This update fixes a number of issues reported by users (thanks, guys!). I am also officially changing the list name to &lt;strong>Welcome to Paradise&lt;/strong>. The website, Discord channels, and Mod Organizer 2 profile have all been edited accordingly.&lt;/p>
-&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Hopefully fixed radio songs not playing for good&lt;/li>
 &lt;li>Updated xSE Plugin Preloader to 0.2.3 (XML unchanged, let me know if there are issues)&lt;/li>
@@ -37,7 +48,7 @@
 &lt;blockquote>
 &lt;p>01/10/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-2">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Actually fixed radio tracks not playing&lt;/li>
 &lt;li>Updated xSE Plugin Preloader to 0.2&lt;/li>
@@ -47,7 +58,7 @@
 &lt;blockquote>
 &lt;p>30/09/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-2">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-3">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated Buffout to 1.12.1&lt;/li>
 &lt;li>Placed the new Buffout TBB Redist plugin in the Game Folder Files folder&lt;/li>
@@ -72,7 +83,7 @@
 &lt;blockquote>
 &lt;p>27/09/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-3">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-4">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Now using Lively&amp;rsquo;s pppl.ini file&lt;/li>
 &lt;li>Updated Buffout to 1.11.0&lt;/li>
