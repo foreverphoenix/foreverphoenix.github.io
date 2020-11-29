@@ -5,9 +5,28 @@
 &lt;p>&lt;em>Please note that there are already a number of modding guides for the Mass Effect trilogy. I am not trying to replace any of them or claiming mine is better. The purpose of this guide is pretty much to bring all the up-to-date and relevant steps in modding ME1 to one place, summarised in such a way that anyone can follow them. Also I&amp;rsquo;m going through this for my own playthrough and found myself incapable of not documenting everything I do so I might as well publish it.&lt;/em>&lt;/p>
 &lt;h3 id="features">Features&lt;/h3>
 &lt;ul>
-&lt;li>Setup and configuration of Mass Effect 1 for both Steam and Origins editions.&lt;/li>
-&lt;li>Installation instructions for essential mods.&lt;/li>
-&lt;li>Fool-proof written instructions with pictures.&lt;/li>
+&lt;li>Instructions for the Origins and Steam versions of ME1&lt;/li>
+&lt;li>How to install the DLC for the Steam version&lt;/li>
+&lt;li>Specific instructions for AMD CPUs to fix a bug&lt;/li>
+&lt;li>Additonal profile settings for NVIDIA cards&lt;/li>
+&lt;li>INI tweaks for better MAKO controls&lt;/li>
+&lt;li>ME3Tweaks Mod Manager setup&lt;/li>
+&lt;li>Installation of some gameplay-related mods&lt;/li>
+&lt;li>Installation of ALOT + ALOV which drastically improve the visual quality&lt;/li>
+&lt;/ul>
+&lt;h3 id="all-mods">All Mods&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/masseffect/mods/114">ME1 Recalibrated&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/masseffect/mods/69">Faster Elevators&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/masseffect/mods/109">Faster Airlock&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/masseffect/mods/180">XP Rescale&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/masseffect/mods/205">Keepers Finders&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/masseffect/mods/104">Vignette Remover&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/masseffect/mods/115">Improved MAKO&lt;/a> (INI tweaks applied manually)&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/masseffect/mods/59">Mako - Improved Controls Mod&lt;/a> (INI tweaks applied manually)&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/masseffect/mods/83">A Lot of Textures (ALOT) for ME1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/masseffect/mods/1">MEUITM&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/masseffect/mods/144">A Lot of Videos (ALOV) for ME1&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="requirements">Requirements&lt;/h3>
 &lt;ul>
