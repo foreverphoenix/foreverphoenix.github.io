@@ -229,7 +229,7 @@
 &lt;ul>
 &lt;li>ME3MM will throw a warning about a missing backup for Mass Effect 1.&lt;/li>
 &lt;li>Click &lt;strong>Open Backup Manager&lt;/strong> and click the drop-down for &lt;strong>Mass Effect&lt;/strong>.&lt;/li>
-&lt;li>Select the &lt;strong>Link to an existing backup&lt;/strong> option and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Select the &lt;strong>Link to an existing backup&lt;/strong> option and click &lt;strong>Back up&lt;/strong>.&lt;/li>
 &lt;li>Click &lt;strong>OK&lt;/strong> again in the link warning window.&lt;/li>
 &lt;li>Navigate to &lt;code>Your Modding Folder\Mass Effect 1\Vanilla Game Backup\Binaries&lt;/code>.&lt;/li>
 &lt;li>Double-click &lt;strong>MassEffect.exe&lt;/strong> to confirm the installation as the backup.&lt;/li>
@@ -295,10 +295,10 @@
 &lt;li>Check the &lt;strong>Read-only&lt;/strong> box at the bottom in the &lt;strong>General&lt;/strong> tab and click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;h3 id="better-keybinds">Better Keybinds&lt;/h3>
-&lt;p>The &lt;a href="https://www.nexusmods.com/masseffect/mods/59">Mako - Improved Controls Mod&lt;/a> also includes a tweaks for the &lt;strong>BioInput.ini&lt;/strong> file for better MAKO keybinds. Since the file needs to be set to Read-Only to prevent edits from being reverted, you will no longer be able to change keybinds after applying the tweaks. This is why I recommended changing other keybinds a few steps earlier.&lt;/p>
+&lt;p>The &lt;a href="https://www.nexusmods.com/masseffect/mods/59">Mako - Improved Controls Mod&lt;/a> also includes a tweaks for the &lt;strong>BIOInput.ini&lt;/strong> file for better MAKO keybinds. Since the file needs to be set to Read-Only to prevent edits from being reverted, you will no longer be able to change keybinds after applying the tweaks. This is why I recommended changing other keybinds a few steps earlier.&lt;/p>
 &lt;ul>
 &lt;li>Navigate to &lt;code>C:\Users\Your User Name\Documents\Bioware\Mass Effect\Config&lt;/code>.&lt;/li>
-&lt;li>Open the &lt;strong>BIOGame.ini&lt;/strong> file in Notepad++.&lt;/li>
+&lt;li>Open the &lt;strong>BIOInput.ini&lt;/strong> file in Notepad++.&lt;/li>
 &lt;li>There are two lines that need to be replaced. Use the &lt;strong>Find &amp;amp; Replace&lt;/strong> function (CTRL + H).&lt;/li>
 &lt;li>Copy the lines below and paste them into the respective fields in Notepad++.&lt;/li>
 &lt;li>Click &lt;strong>Replace&lt;/strong> to replace the original line with the edited one.&lt;/li>
@@ -315,12 +315,38 @@
 &lt;blockquote>
 &lt;p>If a line cannot be found, it means you edited Toggle Crouch and/or Toggle Zoom when changing key binds earlier. There was an explicit warning not to do this. To fix this, close the INI file, go back ingame to the Controls settings, reset to default, and tweak any keybinds OTHER than Toggle Crouch / Toggle Zoom. Apply your changes, quit the game, and you should be able to find and replace the lines above.&lt;/p>
 &lt;/blockquote>
+&lt;p>&lt;strong>Do not close the INI file after applying the edits.&lt;/strong>&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bioware/mass-effect-1/mako-controls.png" alt="Mako Controls">&lt;/p>
+&lt;h2 id="unlocking-levels-51-60">Unlocking Levels 51-60&lt;/h2>
+&lt;p>The Mass Effect 1 level cap is 60; however, levels 51-60 are only unlocked after completing the game at least once (Medal of Honor achievement). In your first playthrough you will no longer advance after level 50.&lt;/p>
+&lt;p>A quick method to circumvent this requirement is to use the console and unlock the achievement that way. &lt;strong>This step is completely optional.&lt;/strong> If you don&amp;rsquo;t want to &amp;ldquo;cheat&amp;rdquo; the level cap, you can skip this.&lt;/p>
+&lt;p>Note that by default, you &lt;em>cannot&lt;/em> reach level 60 in a single playthrough, even after unlocking the achievement. Thankfully, there is &lt;strong>XP Rescale&lt;/strong>, a mod that we already installed earlier which rebalances the XP gain throughout the game, thereby making it possible to achieve the highest level within a single playthrough.&lt;/p>
+&lt;h3 id="enabling-the-console">Enabling the Console&lt;/h3>
+&lt;p>The ingame console is mostly useful for those who never played the game before. By enabling the Medal of Honor achievement (normally granted upon completing a playthrough), you&amp;rsquo;ll unlock levels 51-60 which you can achieve within a single playthrough thanks to &lt;strong>XP Rescale&lt;/strong>, a mod that we already installed.&lt;/p>
 &lt;ul>
-&lt;li>Save and close &lt;strong>BIOInput.ini&lt;/strong> after replacing the two lines.&lt;/li>
+&lt;li>Within the &lt;strong>BIOInput.ini&lt;/strong> file, find the &lt;strong>[Engine.Console]&lt;/strong> section.&lt;/li>
+&lt;li>Below the two existing lines, add the following:&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code>ConsoleKey=Tilde
+TypeKey=Tab
+&lt;/code>&lt;/pre>&lt;blockquote>
+&lt;p>Pressing TAB will open a small, one-line console while TILDE will open a large version. Note that the tilde key&amp;rsquo;s placement varies on different keyboard layouts and may not work properly. You can change the keybinds if you like.&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Save your changes and close &lt;strong>BIOInput.ini&lt;/strong>.&lt;/li>
 &lt;li>Right-click &lt;strong>BIOInput.ini&lt;/strong> in the Windows Explorer and select &lt;strong>Properties&lt;/strong>.&lt;/li>
 &lt;li>Check the &lt;strong>Read-only&lt;/strong> box at the bottom in the &lt;strong>General&lt;/strong> tab and click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;/ul>
+&lt;p>&lt;em>Source for the instructions was the excellent &lt;a href="https://masseffect.fandom.com/wiki/PC_Tweaks#Enabling_The_Console">Mass Effect Wiki&lt;/a>.&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bioware/mass-effect-1/enable-console.png" alt="Enable Console">&lt;/p>
+&lt;h3 id="medal-of-honor-achievement">Medal of Honor Achievement&lt;/h3>
+&lt;ul>
+&lt;li>Launch &lt;strong>Mass Effect 1&lt;/strong> (through ME3TMM, Steam, or Origin).&lt;/li>
+&lt;li>In the main menu, press &lt;strong>TAB&lt;/strong> to open the small console.&lt;/li>
+&lt;li>Type &lt;code>unlockachievement 1&lt;/code> and press Enter.&lt;/li>
+&lt;/ul>
+&lt;p>Nothing visible will happen but if you check &lt;strong>Options&lt;/strong> &amp;raquo; &lt;strong>Achievements&lt;/strong>, you will see that &lt;strong>Medal of Honor&lt;/strong> and thus levels 51-60 are now unlocked. Achievements are unlocked and saved globally within the &lt;code>Profile.MassEffectProfile&lt;/code> file located in the Saves directory.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bioware/mass-effect-1/unlock-moh.png" alt="Unlock MoH">&lt;/p>
 &lt;h2 id="black-blobs-fix">Black Blobs Fix&lt;/h2>
 &lt;blockquote>
 &lt;p>Skip this step if you own an Intel CPU. This is only required for AMD CPU users.&lt;/p>
@@ -395,6 +421,7 @@
 &lt;h2 id="texture-installation">Texture Installation&lt;/h2>
 &lt;ul>
 &lt;li>Click &lt;strong>Install Textures&lt;/strong>, the button in the bottom right corner.&lt;/li>
+&lt;li>If you have other ME games installed, you may be asked to select one (Mass Effect 1).&lt;/li>
 &lt;li>All options and mods should be enabled by default.&lt;/li>
 &lt;li>Feel free to toggle off 4K Texture LODs if you are concerned over performance.&lt;/li>
 &lt;li>Click &lt;strong>Begin Installation&lt;/strong> once you&amp;rsquo;re ready.&lt;/li>
@@ -417,7 +444,10 @@
 &lt;/ul>
 &lt;p>The remainder of the installation procedure will now run automatically. This will take a while.&lt;/p>
 &lt;p>When it&amp;rsquo;s done, click &lt;strong>Continue&lt;/strong> and close the ALOT installer.&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bioware/mass-effect-1/alot-success.png" alt="ALOT Success">&lt;/p></description></item><item><title>Bioware: Appendix</title><link>https://thephoenixflavour.com/bioware/mass-effect/appendix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bioware/mass-effect/appendix/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bioware/mass-effect-1/alot-success.png" alt="ALOT Success">&lt;/p>
+&lt;h2 id="starting-the-game">Starting the game&lt;/h2>
+&lt;p>At this point you&amp;rsquo;re all done! Feel free to dive into the game and enjoy the fantastic work of these mod authors, especially the ALOT + ALOV teams who truly delivered a remaster already and make this game feel much younger than it actually is.&lt;/p>
+&lt;p>You can launch the game either through ME3TMM or Steam/Origin. If you have the Steam version, you may encounter an error when attempting to start the game through ME3TMM (I did) which can potentially be fixed by installing PhysX legacy files or changing the game directory to the default one. The easiest solution is to simply launch it through Steam to begin with. After installing all mods, you don&amp;rsquo;t actually need ME3TMM anymore.&lt;/p></description></item><item><title>Bioware: Appendix</title><link>https://thephoenixflavour.com/bioware/mass-effect/appendix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bioware/mass-effect/appendix/</guid><description>
 &lt;h2 id="faq">FAQ&lt;/h2>
 &lt;blockquote>
 &lt;p>Can I use this guide with a pirated copy of Mass Effect 1?&lt;/p>
@@ -440,13 +470,35 @@
 &lt;blockquote>
 &lt;p>Can I reach level 60 in my first playthrough?&lt;/p>
 &lt;/blockquote>
-&lt;p>Not by default. The XP Rescale mod allows you to comfortably gain enough experience to reach max level in one playthrough; however, level 60 is only unlocked with the &lt;strong>Medal of Honor&lt;/strong> achievement which is granted after completing a full playthrough. This can be circumvented/unlocked by importing someone else&amp;rsquo;s completed save (some are available on the &lt;a href="https://www.nexusmods.com/masseffect/mods/categories/5/">Nexus&lt;/a>).&lt;/p>
+&lt;p>Not by default. The XP Rescale mod allows you to comfortably gain enough experience to reach max level in one playthrough; however, level 60 is only unlocked with the &lt;strong>Medal of Honor&lt;/strong> achievement which is granted after completing a full playthrough. Since version 1.1, the guide includes instructions on how to unlock the achievement through the console.&lt;/p>
+&lt;blockquote>
+&lt;p>Crash after selecting class specialisation on Luna.&lt;/p>
+&lt;/blockquote>
+&lt;p>This happened to me but the game worked fine after restarting it and I got past the selection screen without another crash. YMMV.&lt;/p>
 &lt;h2 id="resources">Resources&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://youtu.be/jf9JcQMMSls">N7 Day Modding Community Showcase 2020&lt;/a> - &lt;em>Excellent video showcase of recent major mod updates.&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://me3tweaks.com/guides/">ME3Tweaks Website - Modding Guides&lt;/a> - &lt;em>Various mod creation guides for all Mass Effect games and more.&lt;/em>&lt;/li>
 &lt;li>&lt;a href="https://me3explorer.fandom.com/wiki/Mod_Formats">Mass Effect Mod Formats&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.google.com/document/d/1U05QpMT2Ku37hK0wEhrrn1FzZvN4LhuuIM7o_JQ8zp4/edit#">SurfCrush&amp;rsquo;s Mass Effect Trilogy Modding Guide&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="changelog">Changelog&lt;/h2>
+&lt;h3 id="release-10">Release 1.0&lt;/h3>
+&lt;blockquote>
+&lt;p>29/11/2020&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Initial Release&lt;/li>
+&lt;/ul>
+&lt;h3 id="release-11">Release 1.1&lt;/h3>
+&lt;blockquote>
+&lt;p>08/12/2020&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Fixed a bunch of oversights reported by Sr Kaio (thanks again!).&lt;/li>
+&lt;li>Added &lt;strong>Unlock Levels 51-60&lt;/strong> section to the Mod Installation page.&lt;/li>
+&lt;li>This includes instructions to enable the console.&lt;/li>
+&lt;li>Added &lt;strong>Starting the Game&lt;/strong> section to clarify how the modded game can be launched.&lt;/li>
 &lt;/ul>
 &lt;h2 id="credits">Credits&lt;/h2>
 &lt;ul>
@@ -457,6 +509,7 @@
 &lt;li>Thanks to &lt;strong>Aqvilinus&lt;/strong> for their guide on &lt;a href="https://steamcommunity.com/sharedfiles/filedetails/?id=519913125">how to simply install DLCs&lt;/a> on Steam.&lt;/li>
 &lt;li>Thanks to &lt;strong>eezonaut&lt;/strong> for their INI tweaks for &lt;a href="https://www.nexusmods.com/masseffect/mods/59">Mako - Improved Controls Mod&lt;/a>.&lt;/li>
 &lt;li>Thanks to &lt;strong>Zupremo&lt;/strong> for their INI tweaks for &lt;a href="https://www.nexusmods.com/masseffect/mods/115">Improved MAKO&lt;/a>.&lt;/li>
+&lt;li>Thanks to &lt;strong>Sr. Kaio&lt;/strong> for making me aware of a bunch of oversights in the write-up.&lt;/li>
 &lt;li>Thanks to the &lt;strong>Mass Effect Crew&lt;/strong> for organising the &lt;a href="https://www.youtube.com/watch?v=BjzXCLpgBXE">2020 N7 Day Reunion Stream&lt;/a> which got me back into the franchise.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;strong>Please remember to ENDORSE the mods you downloaded on the Nexus.&lt;/strong> You can do so directly through ME3TMM by selecting the mods in your library and pressing the &amp;ldquo;Endorse mod&amp;rdquo; button.&lt;/p></description></item></channel></rss>
+&lt;p>&lt;strong>Please remember to ENDORSE the mods you downloaded from the Nexus.&lt;/strong> You can do so directly through ME3TMM by selecting the mods in your library and pressing the &amp;ldquo;Endorse mod&amp;rdquo; button.&lt;/p></description></item></channel></rss>
