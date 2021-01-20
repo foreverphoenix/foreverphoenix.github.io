@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – New Game</title><link>https://thephoenixflavour.com/skyrim-se/new-game/</link><description>Recent content in New Game on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/skyrim-se/new-game/index.xml" rel="self" type="application/rss+xml"/><item><title>Skyrim-Se: Final Adjustments</title><link>https://thephoenixflavour.com/skyrim-se/new-game/final-adjustments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/new-game/final-adjustments/</guid><description>
 &lt;h2 id="timing">Timing&lt;/h2>
-&lt;p>Before starting a new playthrough, there are some considerations.&lt;/p>
+&lt;p>Before starting a new playthrough, there are some considerations to make:&lt;/p>
 &lt;p>Has there been a Skyrim update recently? If so, SKSE64, the mods depending on it as well as the guide may receive an update very soon, and it may be worth it to wait a week or two for everything to catch up before diving into the game.&lt;/p>
 &lt;blockquote>
-&lt;p>Also keep an eye on my blog or our Discord server in case a major update for the guide or a mod is imminent.&lt;/p>
+&lt;p>Also keep an eye on our Discord server in case a major update for the guide or a mod is imminent.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="mo2-notifications">MO2 Notifications&lt;/h2>
-&lt;p>Before jumping into the game, go through one final checkup. In Mod Organizer 2, go to &lt;strong>View &amp;gt; Notifications&lt;/strong>. If this is greyed out, you are good to go! If not there are multiple different warnings you might encounter:&lt;/p>
+&lt;p>Before jumping into the game, go through one final checkup. In Mod Organizer 2, go to &lt;strong>View&lt;/strong> &amp;raquo; &lt;strong>Notifications&lt;/strong>. If this is greyed out, you are good to go! If not there are multiple different warnings you might encounter:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Missing Masters:&lt;/strong> One of your plugins is missing a master file. It is marked with an exclamation mark in your load order. This is most likely due to skipping a mod that was not optional or selecting the wrong option in a FOMOD installer. Go back to the mod’s instructions in the guide and double-check everything.&lt;/li>
 &lt;li>&lt;strong>Form 43 Plugin:&lt;/strong> You forgot to re-save one or several plugins in the Creation Kit. Re-save them now.&lt;/li>
@@ -16,7 +16,7 @@
 &lt;h2 id="new-profile">New Profile&lt;/h2>
 &lt;ul>
 &lt;li>In Mod Organizer 2, open the &lt;strong>Profiles&lt;/strong> window (Tools &amp;gt; Profiles or CTRL + P).&lt;/li>
-&lt;li>Select your &lt;strong>The Phoenix Flavour&lt;/strong> or &lt;strong>The Phoenix Flavour - Customised&lt;/strong> profile and click &lt;strong>Copy&lt;/strong>.&lt;/li>
+&lt;li>Select your &lt;strong>The Phoenix Flavour&lt;/strong> and click &lt;strong>Copy&lt;/strong>.&lt;/li>
 &lt;li>Enter a name for the new profile. Here are some suggestions:
 &lt;ul>
 &lt;li>&lt;code>The Phoenix Flavour - {name of the character for the playthrough}&lt;/code>&lt;/li>
@@ -33,8 +33,6 @@
 &lt;li>Close the &lt;strong>Profiles&lt;/strong> window.&lt;/li>
 &lt;li>Switch to your new profile in Mod Organizer 2.&lt;/li>
 &lt;/ul>
-&lt;h2 id="optional-mods">Optional Mods&lt;/h2>
-&lt;p>In your new profile, go through your mod order again - this is your last opportunity to disable some optional mods that you&amp;rsquo;d rather not use for your upcoming playthrough. Keep in mind that some optional mods have dependencies (like patches or replacer plugins) that would need to be disabled also. Others will be masters for DynDOLOD.esp and you would have to regenerate DynDOLOD if you were to disable them.&lt;/p>
 &lt;h2 id="new-game">New Game&lt;/h2>
 &lt;ul>
 &lt;li>Run &lt;strong>SKSE&lt;/strong> through Mod Organizer 2.&lt;/li>
@@ -44,7 +42,7 @@
 &lt;p>After starting a new game, you will be dropped in the &lt;strong>Alternate Start - Live Another Life&lt;/strong> cell where you can customise your character, then configure your mods before you actually start playing.&lt;/p>
 &lt;p>Stand still and wait until all messages have run through in the upper left corner (check the screenshot below). Then hit &lt;strong>ESCAPE&lt;/strong> and create a manual save before you continue.&lt;/p>
 &lt;p>Thanks to SkyUI, it is possible to configure most mods directly through their Mod Configuration Menu – or MCM for short – which you can access through the main menu. Hit &lt;strong>ESCAPE&lt;/strong> and select &lt;strong>MCM&lt;/strong>. See recommended changes for most of the guide’s MCMs below.&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/Initialisation_complete.jpg" alt="Initialisation complete">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/new-game/initialisation-complete.jpg" alt="Initialisation complete">&lt;/p>
 &lt;h2 id="a-matter-of-time">A Matter of Time&lt;/h2>
 &lt;ul>
 &lt;li>You can either:
@@ -55,60 +53,17 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/load_amot_preset.jpg" alt="Load AMOT Preset">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/new-game/load-amot-preset.jpg" alt="Load AMOT Preset">&lt;/p>
 &lt;h2 id="all-geared-up-derivative">All Geared Up Derivative&lt;/h2>
 &lt;ul>
 &lt;li>In the &lt;strong>NPC&lt;/strong> tab, check &lt;strong>Enable Weapons&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/allgud_mcm.jpg" alt="AllGUD MCM">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/new-game/allgud-mcm.jpg" alt="AllGUD MCM">&lt;/p>
 &lt;h2 id="cathedral-weathers">Cathedral Weathers&lt;/h2>
 &lt;ul>
 &lt;li>Uncheck &lt;strong>Configuration Spell&lt;/strong> (redundant when you can access the MCM).&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/cw-mcm.jpg" alt="Cathedral Weathers MCM">&lt;/p>
-&lt;h2 id="complete-crafting-ccor">Complete Crafting (CCOR)&lt;/h2>
-&lt;h4 id="menu-filters-optional">Menu Filters (optional)&lt;/h4>
-&lt;ul>
-&lt;li>Under &lt;strong>Recipe Display&lt;/strong> &amp;raquo; &lt;strong>Crafting Menu Filters&lt;/strong>, disable:
-&lt;ul>
-&lt;li>Crafting Categories&lt;/li>
-&lt;li>Item Type Filters&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>While I think CCOR’s crafting menu filters are a great idea, I very much dislike their implementation and prefer to disable them entirely.&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="more-jewelry">More Jewelry&lt;/h3>
-&lt;ul>
-&lt;li>Under &lt;strong>Crafting Options&lt;/strong> &amp;raquo; &lt;strong>Additional Items&lt;/strong>, disable:
-&lt;ul>
-&lt;li>More Jewelry&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>The added circlets would use vanilla models and textures, inconsistent with the vanilla cirlcets changed by JS Circlet Replacer.&lt;/p>
-&lt;h3 id="equipment-breakdown-optional">Equipment Breakdown (optional)&lt;/h3>
-&lt;ul>
-&lt;li>Under &lt;strong>Crafting Options&lt;/strong> &amp;raquo; &lt;strong>Breakdown Equipment&lt;/strong>, disable:
-&lt;ul>
-&lt;li>At Smelter&lt;/li>
-&lt;li>At Tanning Rack&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>Equipment breakdown can throw off balancing since you get more crafting resources that way. I personally don’t like the feature at all.&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="upgrading-leveled-items">Upgrading Leveled Items&lt;/h3>
-&lt;ul>
-&lt;li>Under &lt;strong>Miscellaneous&lt;/strong> &amp;raquo; &lt;strong>Leveled Items&lt;/strong>, disable:
-&lt;ul>
-&lt;li>Upgrade via Crafting&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/ccor_crafting_optiosn.jpg" alt="CCOR MCM">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/new-game/cw-mcm.jpg" alt="Cathedral Weathers MCM">&lt;/p>
 &lt;h2 id="diverse-dragons-collection">Diverse Dragons Collection&lt;/h2>
 &lt;ul>
 &lt;li>Open the MCM once, then exit it.&lt;/li>
@@ -117,7 +72,7 @@
 &lt;p>By doing so, the mod will recognise that you have SKSE and SkyUI installed and automatically removes its configuration tool from your Powers menu.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="follower-framework">Follower Framework&lt;/h2>
-&lt;h3 id="npc-behaviour">NPC Behaviour&lt;/h3>
+&lt;h3 id="npc-behaviour-optional">NPC Behaviour (optional)&lt;/h3>
 &lt;ul>
 &lt;li>Turn on the following options under &lt;strong>Activity&lt;/strong> &amp;raquo; &lt;strong>Sandboxing&lt;/strong>:
 &lt;ul>
@@ -130,6 +85,11 @@
 &lt;blockquote>
 &lt;p>My preferences. Optional.&lt;/p>
 &lt;/blockquote>
+&lt;h3 id="horse-whistle-optional">Horse Whistle (optional)&lt;/h3>
+&lt;p>NFF features a bindable horse whistle hotkey which you can press to call the last ridden mount to your location.&lt;/p>
+&lt;ul>
+&lt;li>Under &lt;strong>Activity&lt;/strong> &amp;raquo; &lt;strong>Player Horse&lt;/strong>, bind a &lt;strong>Call Player Horse Hotkey&lt;/strong>.&lt;/li>
+&lt;/ul>
 &lt;h3 id="regard-system-optional">Regard System (optional)&lt;/h3>
 &lt;ul>
 &lt;li>Disable the Regard system under &lt;strong>Gameplay&lt;/strong> &amp;raquo; &lt;strong>Regard&lt;/strong>:&lt;/li>
@@ -147,9 +107,9 @@
 &lt;ul>
 &lt;li>Under &lt;strong>System&lt;/strong> &amp;raquo; &lt;strong>Core&lt;/strong>, check the &lt;strong>Enable ConsoleUtil&lt;/strong> option.&lt;/li>
 &lt;/ul>
-&lt;h2 id="genuinely-intelligent-soul-traps-mcm">Genuinely Intelligent Soul Traps MCM&lt;/h2>
+&lt;h2 id="genuinely-intelligent-soul-traps">Genuinely Intelligent Soul Traps&lt;/h2>
 &lt;p>This mod - while focusing on bug fixes and soul gem multithreading - comes with some very nifty level requirement options. If you like, you can set level requirements for each of its special features as well as the for capturing of each tier of souls. Toggle and adjust this system in the &lt;strong>Leveling&lt;/strong> tab.&lt;/p>
-&lt;h2 id="growl---werebeasts-of-skyrim-mcm">Growl - Werebeasts of Skyrim MCM&lt;/h2>
+&lt;h2 id="growl---werebeasts-of-skyrim">Growl - Werebeasts of Skyrim&lt;/h2>
 &lt;ul>
 &lt;li>Toggle on &lt;strong>Invulnerable During Transformation&lt;/strong>.&lt;/li>
 &lt;/ul>
@@ -166,7 +126,7 @@
 &lt;blockquote>
 &lt;p>If you installed A Matter of Time, this will link the clock widget to the HUD so that it gets toggled alongside the other components (such as the compass).&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/ihud_link_widgets.jpg" alt="iHUD link widgets">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/new-game/ihud-link-widgets.jpg" alt="iHUD link widgets">&lt;/p>
 &lt;h2 id="morehud">moreHUD&lt;/h2>
 &lt;ul>
 &lt;li>In the &lt;strong>Enemy&amp;rsquo;s Level&lt;/strong> tab, uncheck the following options:
@@ -179,17 +139,7 @@
 &lt;blockquote>
 &lt;p>These only clutter up the interface in my opinion. You can also disable Health numbers if you like.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/morehud_mcm.jpg" alt="moreHUD MCM">&lt;/p>
-&lt;h2 id="relationship-dialogue-overhaul">Relationship Dialogue Overhaul&lt;/h2>
-&lt;ul>
-&lt;li>Under &lt;strong>Other Options&lt;/strong> &amp;raquo; &lt;strong>Toggle NPCs&lt;/strong>, disable:
-&lt;ul>
-&lt;li>Allow RDO Added Followers&lt;/li>
-&lt;li>Allow Terek&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/rdo_mcm.jpg" alt="Relationship Dialogue Overhaul MCM">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/new-game/morehud-mcm.jpg" alt="moreHUD MCM">&lt;/p>
 &lt;h2 id="realistic-water-two">Realistic Water Two&lt;/h2>
 &lt;ul>
 &lt;li>Under &lt;strong>Mod Options&lt;/strong> &amp;raquo; &lt;strong>Blacksmith Forge Water&lt;/strong>, toggle the following options:
@@ -199,22 +149,37 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/rwt_mcm.jpg" alt="Realistic Water 2 MCM">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/new-game/rwt-mcm.jpg" alt="Realistic Water 2 MCM">&lt;/p>
+&lt;h2 id="storm-lightning">Storm Lightning&lt;/h2>
+&lt;p>By default, the lightning storms with this mod are pretty intense. I&amp;rsquo;d suggest changing to a different preset (above &amp;ldquo;default&amp;rdquo;) to tone them down a little.&lt;/p>
+&lt;ul>
+&lt;li>Under &lt;strong>Presets&lt;/strong>, select any one on one of the options.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/new-game/storm-lightning-mcm.jpg" alt="Storm Lightning MCM">&lt;/p>
 &lt;h2 id="timing-is-everything">Timing Is Everything&lt;/h2>
 &lt;p>Another large MCM, and one you should configure now, at the start of the game as it affects many quests that start very early on in Vanilla. I’ve personally increased the Dawnguard level requirements to 30+ and set Dragonborn to start only after Alduin’s defeat but this is all down to your preferences and plans for this playthrough.&lt;/p>
 &lt;p>Thanks to the FISSES support, it is also possible to load, save and share custom presets through the MCM (&lt;strong>Extra Options&lt;/strong> tab).&lt;/p>
+&lt;h2 id="trade--barter">Trade &amp;amp; Barter&lt;/h2>
+&lt;ul>
+&lt;li>Under &lt;strong>Barter Rates&lt;/strong> &amp;raquo; &lt;strong>Settings&lt;/strong>, check the &lt;strong>Modify Barter Settings&lt;/strong> box.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/new-game/trade-barter-mcm.jpg" alt="Trade and Barter MCM">&lt;/p>
 &lt;h2 id="wonders-of-weather">Wonders of Weather&lt;/h2>
 &lt;ul>
-&lt;li>Under &lt;strong>Rainsplashes&lt;/strong>, set &lt;strong>Level&lt;/strong> to &lt;strong>Disabled&lt;/strong> to disable the effect.&lt;/li>
+&lt;li>Under &lt;strong>Rainsplashes&lt;/strong>, set &lt;strong>Level&lt;/strong> to &lt;strong>Disabled&lt;/strong> to turn the effect off.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>This is done to prevent CTDs.&lt;/p>
 &lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/new-game/wow-mcm.jpg" alt="Wonders of Weather MCM">&lt;/p>
 &lt;h2 id="starting-the-game">Starting the game&lt;/h2>
 &lt;p>Once you’re done configuring everything, save the game manually. Then talk to the Statue of Mara, select one of the options and interact with the bed in the corner to truly start your playthrough.&lt;/p>
-&lt;p>As for the options, going with the &lt;code>vanilla start&lt;/code> is entirely possible but you can also choose the &lt;code>I am camping in the woods&lt;/code> option for a faster alternative that drops you in the same region but skips the cart ride and execution sequence. It is NOT recommended that you choose the &lt;code>vampire lair&lt;/code> option as that has been known to cause issues with Sacrosanct.&lt;/p>
+&lt;p>As for the options, going with the &lt;code>vanilla start&lt;/code> is entirely possible but you can also choose the &lt;code>I am camping in the woods&lt;/code> option for a faster alternative that drops you in the same region but skips the cart ride and execution sequence. It is NOT recommended that you choose the &lt;code>vampire lair&lt;/code> option as that has been known to cause issues with vampire mods.&lt;/p>
+&lt;blockquote>
+&lt;p>For the best experience &lt;strong>I recommend the vanilla start&lt;/strong> as it is impossible to balance all the various options that AS LAL offers.&lt;/p>
+&lt;/blockquote>
 &lt;p>&lt;strong>Good luck and have fun!&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/new_game/select_game_start.jpg" alt="Select game start">&lt;/p></description></item><item><title>Skyrim-Se: ENB Tweaks</title><link>https://thephoenixflavour.com/skyrim-se/new-game/enb-tweaks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/new-game/enb-tweaks/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/new-game/select-game-start.jpg" alt="Select game start">&lt;/p></description></item><item><title>Skyrim-Se: ENB Tweaks</title><link>https://thephoenixflavour.com/skyrim-se/new-game/enb-tweaks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/new-game/enb-tweaks/</guid><description>
 &lt;p>Open the ENB GUI by pressing Shift+Enter. You can tweak the presets there and most changes will be visible instantly. Click &lt;strong>SAVE CONFIGURATION&lt;/strong> after changing anything.&lt;/p>
 &lt;p>This page currently only includes instructions for Serio&amp;rsquo;s ENB. If you are using another preset (such as the default Rudy ENB), you can still tweak anything you like through the UI, but there are no instructions / recommendations at this time.&lt;/p>
 &lt;h2 id="serios-enb">Serio&amp;rsquo;s ENB&lt;/h2>

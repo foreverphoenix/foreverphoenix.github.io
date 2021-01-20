@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Finalisation</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/</link><description>Recent content in Finalisation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/skyrim-se/finalisation/index.xml" rel="self" type="application/rss+xml"/><item><title>Skyrim-Se: Wrapping Up</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/01-wrapping-up/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/01-wrapping-up/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Finalisation</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/</link><description>Recent content in Finalisation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/skyrim-se/finalisation/index.xml" rel="self" type="application/rss+xml"/><item><title>Skyrim-Se: Wrapping Up</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/wrapping-up/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/wrapping-up/</guid><description>
 &lt;h2 id="conflict-resolution-patch">Conflict Resolution Patch&lt;/h2>
 &lt;ul>
 &lt;li>Download the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14223?tab=files">Conflict Resolution Patch&lt;/a> from the guide’s Nexus page.&lt;/li>
@@ -19,16 +19,15 @@
 &lt;li>Open the archive and extract the &lt;strong>loadorder.txt&lt;/strong> to &lt;code>Mod Organizer 2\profiles\The Phoenix Flavour&lt;/code>.&lt;/li>
 &lt;li>Restart Mod Organizer 2 and the changes will be applied.&lt;/li>
 &lt;/ul>
-&lt;p>After applying the loadorder.txt and restarting MO2, there should be no plugins below the &lt;strong>Conflict Resolution Patch.esp&lt;/strong> and the other official but optional patches in the load order (right pane).&lt;/p>
-&lt;p>If there are other plugins below, you either made a mistake during the mod installation, or a mod was updated and the loadorder.txt is not accounting for it yet. If this happens, please join us on Discord and post your Modwat.ch link in the &lt;code>#guide-support&lt;/code> channels.&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/loadorder-final-plugins.png" alt="Load Order Final Plugins">&lt;/p>
+&lt;p>After applying the loadorder.txt and restarting MO2, there should be no plugins below the &lt;strong>Conflict Resolution Patch.esp&lt;/strong> in the load order (right pane).&lt;/p>
+&lt;p>If there are other plugins below the CRP, you either made a mistake during the mod installation, or a mod was updated and the loadorder.txt is not accounting for it yet. If this happens, please join us on Discord and post your Modwat.ch link in the &lt;code>#guide-support&lt;/code> channels.&lt;/p>
 &lt;h2 id="check-for-mo2-warnings">Check for MO2 Warnings&lt;/h2>
 &lt;p>MO2 has inbuilt functionality that checks for plugins with Form 43 (Skyrim LE plugins that have not been re-saved in the Creation Kit). If no issues are detected, the &lt;strong>Notifications&lt;/strong> icon in MO2 will be greyed out.&lt;/p>
 &lt;ul>
 &lt;li>If the button is not greyed out, open the &lt;strong>Notifications&lt;/strong> window and check its contents.&lt;/li>
 &lt;li>Any plugins that are listed must be re-saved in the Creation Kit now.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/check_for_form43_plugin.png" alt="Check for Form43 Plugins">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/check-for-form43-plugin.png" alt="Check for Form43 Plugins">&lt;/p>
 &lt;h2 id="flag-plugins-as-esl">Flag Plugins as ESL&lt;/h2>
 &lt;h3 id="example-plugin">Example Plugin&lt;/h3>
 &lt;p>While at this point many installed plugins are already flagged as ESL (ESP-Lite) and we are not exceeding the maximum of 255 ESP+ESM plugins, there are several more plugins that may easily be flagged as ESL in order to save plugin slots. This completely removes the need to merge some plugins.&lt;/p>
@@ -51,64 +50,82 @@
 &lt;p>You will now need to repeat the process for a handful of other mods, most of which will not need their FormIDs renumbered. The plugins to ESL-ify are listed below. Simply add the ESL flag to each of them and don’t forget to renumber FormIDs first for those that need it.&lt;/p>
 &lt;ul>
 &lt;li>QuestsAreInSkyrimUSSEP.esp&lt;/li>
+&lt;li>Raven Rock - Fix Exit on Horseback.esp &lt;strong>compact FormIDs&lt;/strong>&lt;/li>
+&lt;li>Dawnguard Dont Hunt Cured Vampires.esp&lt;/li>
+&lt;li>ChargeDialogueFix.esp&lt;/li>
+&lt;li>ImperialSoldiersEscortFix.esp&lt;/li>
+&lt;li>WindhelmSegregation.esp&lt;/li>
+&lt;li>Move it Dammit.esp&lt;/li>
+&lt;li>Runandwalkpaces.esp&lt;/li>
+&lt;li>No More Standing Too Close SSE 1-0.esp&lt;/li>
+&lt;li>Realistic-Voice.esp &lt;strong>compact FormIDs&lt;/strong>&lt;/li>
+&lt;li>No NPC Greetings.esp&lt;/li>
+&lt;li>Don&amp;rsquo;tTalkWithYourMouthFull.esp&lt;/li>
+&lt;li>Random Encounter Tweaks.esp&lt;/li>
+&lt;li>dD-No Spinning Death Animation Merged.esp&lt;/li>
+&lt;li>SparklesSE.esp&lt;/li>
+&lt;li>SimplySmallerWolfs2.esp&lt;/li>
 &lt;li>SIDT - Special Edition.esp&lt;/li>
 &lt;li>dD-Medium Script Range.esp&lt;/li>
 &lt;li>dD-Reduced Wound Size.esp&lt;/li>
 &lt;li>DeadlySpellImpacts.esp&lt;/li>
 &lt;li>Enhanced Vanilla Trees SSE.esp&lt;/li>
-&lt;li>&lt;del>UniqueBorderGates-All-PointTheWay.esp&lt;/del>&lt;/li>
+&lt;li>&lt;del>UniqueBorderGates-All-PointTheWay.esp&lt;/del> &lt;em>already flagged&lt;/em>&lt;/li>
 &lt;li>UniqueBorderGates-All-BetterDGEntrance.esp &lt;strong>compact FormIDs&lt;/strong>&lt;/li>
+&lt;li>RUSTIC SOULGEMS - Sorted.esp&lt;/li>
+&lt;li>homeymealyum.esp&lt;/li>
 &lt;li>GQJ_DG_vampireamuletfix.esp&lt;/li>
-&lt;li>CBBE.esp&lt;/li>
-&lt;li>Subtle but Classless.esp&lt;/li>
-&lt;li>CFTO - Arthmoor Danwstar Patch.esp&lt;/li>
-&lt;li>RDO - USSEP Patch.esp&lt;/li>
 &lt;li>Miscellaneous Quests…as Miscellaneous Quests.esp&lt;/li>
+&lt;li>Mortal Enemies - No RunWalk Changes.esp&lt;/li>
+&lt;li>Realistic Melee Range.esp&lt;/li>
+&lt;li>Realistic AI Detection 2 SE Lite.esp &lt;strong>compact FormIDs&lt;/strong>&lt;/li>
 &lt;li>Northerner Diaries in Skyrim.esp &lt;strong>compact FormIDs&lt;/strong>&lt;/li>
 &lt;li>Still.esp&lt;/li>
 &lt;li>Hun Lovaas.esp&lt;/li>
 &lt;li>NirShor-MusicalLore.esp &lt;strong>compact FormIDs&lt;/strong>&lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>If you installed the new music mods, the Music Merge patch will show up as edited when closing SSEEdit. This is intended behaviour. The formIDs renumbered in Northerner Diaries in Skyrim.esp and NirShor-MusicalLore.esp were updated in the plugin.&lt;/p>
-&lt;/blockquote></description></item><item><title>Skyrim-Se: Fores New Idles</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/02-fnis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/02-fnis/</guid><description>
-&lt;h2 id="add-fnis-to-mo2">Add FNIS to MO2&lt;/h2>
-&lt;p>&lt;strong>Fores New Idles in Skyrim&lt;/strong> (FNIS) is a tool used to add custom animations to Skyrim. It is required by XPMSSE and needs to be run on your mod order before it works properly.&lt;/p>
+&lt;p>After renumbering the form IDs for Northern Diaries in Skyrim.esp and NirShor-MusicalLore.esp, the Phoenix - Merged Music Patch.esp will also be marked as updated which is intended behaviour as the previously renumbered form IDs are referenced there and updated accordingly.&lt;/p>
+&lt;/blockquote></description></item><item><title>Skyrim-Se: Nemesis Behavior Engine</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/nemesis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/nemesis/</guid><description>
+&lt;h2 id="create-nemesis-output-folder">Create Nemesis Output Folder&lt;/h2>
+&lt;p>&lt;strong>Nemesis Unlimited Behavior Engine&lt;/strong> is a tool used to add custom animations to Skyrim. It is an open-source replacement and upgrade for FNIS, and required for several animation-related mods in TPF.&lt;/p>
+&lt;p>Nemesis will generate a number of files specifically for your setup. In order to simplify the file management, we will set up an output folder ahead of time.&lt;/p>
+&lt;ul>
+&lt;li>In Mod Organizer 2, click the tools icon above your mod order and select &lt;strong>Create empty mod&lt;/strong> (see picture below).&lt;/li>
+&lt;li>Rename the new mod folder to &lt;strong>Nemesis Output&lt;/strong>.&lt;/li>
+&lt;li>Drag the new empty mod (displayed in grey italics) below the &lt;strong>PATCHER OUTPUT&lt;/strong> separator and activate it.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/create-empty-mod.png" alt="Create Empty Mod">&lt;/p>
+&lt;h2 id="add-nemesis-to-mo2">Add Nemesis to MO2&lt;/h2>
 &lt;ul>
 &lt;li>Open the &lt;strong>Executables&lt;/strong> window in Mod Organizer 2 (Tools &amp;gt; Executables or CTRL + E).&lt;/li>
 &lt;li>Click the blue plus icon and select &lt;strong>Add from file&lt;/strong>.&lt;/li>
-&lt;li>Navigate to &lt;code>Mod Organizer 2\mods\Fores New Idles in Skyrim\tools&lt;/code>.&lt;/li>
-&lt;li>Double-click &lt;strong>GenerateFNISforUsers.exe&lt;/strong>.&lt;/li>
-&lt;li>Change the Title to &lt;strong>Generate FNIS&lt;/strong>.&lt;/li>
-&lt;li>Click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Navigate to &lt;code>Mod Organizer 2\mods\Nemesis Unlimited Behavior Engine\Nemesis_Engine&lt;/code>.&lt;/li>
+&lt;li>Double-click &lt;strong>Nemesis Unlimited Behavior Engine.exe&lt;/strong>.&lt;/li>
+&lt;li>Check the &lt;strong>Create files in mod instead of overwrite&lt;/strong> checkbox and select &lt;strong>Nemesis Output&lt;/strong> from the drop down menu.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> to close the Tools window.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/add_fnis_to_tools.png" alt="Add FNIS to Tools">&lt;/p>
-&lt;h2 id="generate-fnis">Generate FNIS&lt;/h2>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/add-nemesis-to-mo2.png" alt="Add Nemesis to MO2">&lt;/p>
+&lt;h2 id="generate-nemesis">Generate Nemesis&lt;/h2>
 &lt;ul>
-&lt;li>Run FNIS (the executable we just added) through Mod Organizer 2.&lt;/li>
-&lt;li>In the window that comes up, check the following two patches in the bottom list:
-&lt;ul>
-&lt;li>&lt;code>&amp;quot;GENDER Specific Animations&amp;quot;&lt;/code>&lt;/li>
-&lt;li>&lt;code>&amp;quot;SKELETON Arm Fix&amp;quot;&lt;/code>&lt;/li>
+&lt;li>Run &lt;strong>Nemesis&lt;/strong> (the executable we just added) through Mod Organizer 2.&lt;/li>
+&lt;li>There will be two warnings about missing (not yet generated) cache, click &lt;strong>OK&lt;/strong> to both.&lt;/li>
+&lt;li>In Nemesis, a number of patches are available for mods that are not included in TPF. Do not check any of the boxes.&lt;/li>
+&lt;li>Click the &lt;strong>Update Engine&lt;/strong> button and wait for the process to be completed.&lt;/li>
+&lt;li>When it&amp;rsquo;s done, click the big &lt;strong>Launch Nemesis Behavior Engine&lt;/strong> button.&lt;/li>
+&lt;li>Nemesis will return &lt;code>Behavior generation complete&lt;/code> after a few seconds and you can close the tool.&lt;/li>
+&lt;li>Back in Mod Organizer 2, press F5 to refresh and you can see that files were added to the &lt;strong>Nemesis Output&lt;/strong> mod folder.&lt;/li>
+&lt;li>A &lt;strong>FNIS.esp&lt;/strong> will appear at the bottom of your load order. Activate it.&lt;/li>
 &lt;/ul>
-&lt;/li>
-&lt;li>Click &lt;strong>Update FNIS Behaviour&lt;/strong> to generate the new files.&lt;/li>
-&lt;li>Wait until FNIS confirms that animations were successfully included, then close the window.&lt;/li>
-&lt;li>If asked to create a Desktop shortcut, click &lt;strong>Cancel&lt;/strong>.&lt;/li>
-&lt;/ul>
-&lt;h2 id="fnis-output">FNIS Output&lt;/h2>
-&lt;p>After running FNIS, all generated files will be located inside the MO2 &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em>.&lt;/p>
-&lt;ul>
-&lt;li>Right-click the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> located at the bottom of your mod order.&lt;/li>
-&lt;li>Select &lt;strong>Create Mod,&lt;/strong> enter &lt;strong>FNIS Output&lt;/strong> as the name and click &lt;strong>OK&lt;/strong>.&lt;/li>
-&lt;li>Check the mod in your mod order.&lt;/li>
-&lt;/ul></description></item><item><title>Skyrim-Se: All Geared Up Derivative</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/03-allgud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/03-allgud/</guid><description>
+&lt;blockquote>
+&lt;p>FNIS.esp is an empty dummy plugin used to trick XPMSSE, the skeleton replacer, into thinking it&amp;rsquo;s actually present in the load order. Functionally, FNIS is replaced by Nemesis.&lt;/p>
+&lt;/blockquote></description></item><item><title>Skyrim-Se: All Geared Up Derivative</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/allgud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/allgud/</guid><description>
 &lt;h2 id="sseedit-scripts">SSEEdit Scripts&lt;/h2>
 &lt;p>While we install the base mod already, there is a number of additional steps to complete before the mod is fully implemented.&lt;/p>
 &lt;ul>
 &lt;li>Download the &lt;strong>AllGUD xEdit Scripts&lt;/strong> main file from the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28833?tab=files">AllGUD&lt;/a> mod page.&lt;/li>
 &lt;li>Open the downloaded archive and double-click the folder inside.&lt;/li>
-&lt;li>Extract all files from the &lt;strong>Edit Scripts&lt;/strong> folder to &lt;code>Your Modding Folder\Tools\SSEEdit\Edit Scripts&lt;/code>.&lt;/li>
+&lt;li>Extract everything from the &lt;strong>Edit Scripts&lt;/strong> folder to &lt;code>Your Modding Folder\Tools\SSEEdit\Edit Scripts&lt;/code>.&lt;/li>
 &lt;/ul>
 &lt;h3 id="fixed-texture-script">Fixed texture script&lt;/h3>
 &lt;p>One of the AllGUD scripts assigns faulty texture file paths to the generated meshes which will prevent the resulting objects from looking as intended. Fortunately, this was fixed by duskyBabz and provided to us (&lt;a href="https://github.com/foreverphoenix/the-phoenix-flavour/issues/26">source&lt;/a>).&lt;/p>
@@ -117,8 +134,7 @@
 &lt;li>Move the file to &lt;code>Your Modding Folder\Tools\SSEEdit\Edit Scripts&lt;/code>.&lt;/li>
 &lt;/ul>
 &lt;h2 id="alternate-textures-patches">Alternate Textures Patches&lt;/h2>
-&lt;h3 id="running-the-script">Running the script&lt;/h3>
-&lt;p>Before we can generate weapon meshes for all mods, there are three mods that use Alternate Textures for some new weapons which doesn&amp;rsquo;t work with AllGUD. Thankfully, one of the AllGUD SSEEdit scripts was created to patch these mods.&lt;/p>
+&lt;p>Before we can generate weapon meshes, there are some weapons that use Alternate Textures which doesn&amp;rsquo;t work with AllGUD. Thankfully, one of the AllGUD SSEEdit scripts was created to patch these weapons.&lt;/p>
 &lt;ul>
 &lt;li>Run SSEEdit through Mod Organizer 2.&lt;/li>
 &lt;li>In the plugin selection window, simply click &lt;strong>OK&lt;/strong> to load all plugins.&lt;/li>
@@ -131,6 +147,7 @@
 &lt;li>Eventually SSEEdit will return &lt;strong>Done: Applying script&lt;/strong>, and you can close the window.&lt;/li>
 &lt;li>Click &lt;strong>OK&lt;/strong> when prompted to save your changes.&lt;/li>
 &lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/allgud-alt-textures-fixed.png" alt="Alternate Textures Patch">&lt;/p>
 &lt;h3 id="output">Output&lt;/h3>
 &lt;ul>
 &lt;li>Back in Mod Organizer 2, scroll down all the way to the &lt;strong>Overwrite&lt;/strong> folder which contains the new plugin and meshes.&lt;/li>
@@ -139,30 +156,26 @@
 &lt;li>Activate the new mod in your mod order.&lt;/li>
 &lt;li>The plugin will now show up at the bottom of your load order, make sure it is checked.&lt;/li>
 &lt;/ul>
-&lt;h3 id="clean-masters">Clean Masters&lt;/h3>
-&lt;p>Unfortunately the plugin was assigned half our load order as master files so we will use SSEEdit to clean out master files that are not direct dependencies. Only the relevant plugins will remain master files to the plugin.&lt;/p>
-&lt;ul>
-&lt;li>Run SSEEdit through Mod Organizer 2.&lt;/li>
-&lt;li>In the plugin selection window, simply click &lt;strong>OK&lt;/strong> to load all plugins.&lt;/li>
-&lt;li>Wait until SSEEdit returns &lt;strong>Background loader: finished&lt;/strong>.&lt;/li>
-&lt;li>Scroll down to the bottom and right-click &lt;strong>AllGUD - Alternate Textures Patch.esp&lt;/strong>.&lt;/li>
-&lt;li>Select &lt;strong>Clean Masters&lt;/strong> and click &lt;strong>Yes I&amp;rsquo;m absolutely sure&lt;/strong> when the warning window pops up.&lt;/li>
-&lt;li>Close SSEEdit and click &lt;strong>OK&lt;/strong> to save the changes.&lt;/li>
-&lt;/ul>
 &lt;h2 id="weapon-mesh-generator">Weapon Mesh Generator&lt;/h2>
-&lt;h3 id="new-mod-folder">New mod folder&lt;/h3>
 &lt;ul>
-&lt;li>In Mod Organizer 2, click the spanner icon above the mod order pane and select &lt;strong>Create empty mod&lt;/strong>.&lt;/li>
+&lt;li>In Mod Organizer 2, click the tools icon above the mod order pane and select &lt;strong>Create empty mod&lt;/strong>.&lt;/li>
 &lt;li>Enter &lt;strong>AllGUD - Weapon Meshes&lt;/strong> as the name and click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;li>Leave the new mod at the bottom of your mod order and activate it.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/create_empty_mod.png" alt="Create empty mod">&lt;/p>
-&lt;h3 id="running-the-script-1">Running the script&lt;/h3>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/create-empty-mod.png" alt="Create empty mod">&lt;/p>
+&lt;h3 id="fixed-script">Fixed Script&lt;/h3>
+&lt;p>The original script has a bug. A fixed version is available on the Nexus.&lt;/p>
+&lt;ul>
+&lt;li>Download the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38151?tab=files">AllGUD Weapon Mesh Generator Script Fix&lt;/a> manually.&lt;/li>
+&lt;li>Open the downloaded archive and extract the script to &lt;code>Your Modding Folder\Tools\SSEEdit\Edit Scripts&lt;/code>.&lt;/li>
+&lt;li>Confirm when asked to overwrite.&lt;/li>
+&lt;/ul>
+&lt;h3 id="running-the-script">Running the script&lt;/h3>
 &lt;ul>
 &lt;li>Run SSEEdit through Mod Organizer 2.&lt;/li>
 &lt;li>In the plugin selection window, simply click &lt;strong>OK&lt;/strong> to load all plugins.&lt;/li>
 &lt;li>Wait until SSEEdit returns &lt;strong>Background loader: finished&lt;/strong>.&lt;/li>
-&lt;li>Click anywhere in the left pane (plugin list) and hit CTRL + A to select all plugins.&lt;/li>
+&lt;li>Click anywhere in the left pane (plugin list) and hit &lt;strong>CTRL + A&lt;/strong> to select all plugins.&lt;/li>
 &lt;li>Right-click the selected plugins and select &lt;strong>Apply Script&lt;/strong>.&lt;/li>
 &lt;li>Select the &lt;strong>AllGUD Weapon Mesh Generator&lt;/strong> script and click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;li>Click on the empty field below &lt;strong>Output Meshes Folder&lt;/strong> and navigate to &lt;code>Mod Organizer 2\mods&lt;/code>.&lt;/li>
@@ -170,15 +183,15 @@
 &lt;li>Click &lt;strong>Start&lt;/strong> to begin generating the meshes.&lt;/li>
 &lt;li>Eventually SSEEdit will return &lt;strong>Done: Applying script&lt;/strong>, and you can close the window.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/allgud_weapon_meshes.png" alt="AllGUD Weapon Patcher">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/allgud-weapon-meshes.png" alt="AllGUD Weapon Patcher">&lt;/p>
 &lt;h2 id="skeleton-patcher">Skeleton Patcher&lt;/h2>
-&lt;h3 id="new-mod-folder-1">New mod folder&lt;/h3>
 &lt;ul>
-&lt;li>In Mod Organizer 2, click the spanner icon above the mod order pane and select &lt;strong>Create empty mod&lt;/strong>.&lt;/li>
+&lt;li>In Mod Organizer 2, once again click the tools icon above the mod order pane and select &lt;strong>Create empty mod&lt;/strong>.&lt;/li>
 &lt;li>Enter &lt;strong>AllGUD - Skeleton Meshes&lt;/strong> as the name and click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;li>Leave the new mod at the bottom of your mod order and activate it.&lt;/li>
 &lt;/ul>
-&lt;h3 id="running-the-script-2">Running the script&lt;/h3>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/create-empty-mod.png" alt="Create empty mod">&lt;/p>
+&lt;h3 id="running-the-script-1">Running the script&lt;/h3>
 &lt;ul>
 &lt;li>Run SSEEdit through Mod Organizer 2.&lt;/li>
 &lt;li>In the plugin selection window, simply click &lt;strong>OK&lt;/strong> to load all plugins.&lt;/li>
@@ -190,14 +203,13 @@
 &lt;li>Click &lt;strong>Start&lt;/strong> to begin generating the meshes.&lt;/li>
 &lt;li>Eventually SSEEdit will return &lt;strong>Done: Applying script&lt;/strong>, and you can close the window.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/allgud_skeleton_patcher.png" alt="AllGUD Skeleton Patcher">&lt;/p></description></item><item><title>Skyrim-Se: DynDOLOD</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/04-dyndolod/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/04-dyndolod/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/allgud-skeleton-patcher.png" alt="AllGUD Skeleton Patcher">&lt;/p></description></item><item><title>Skyrim-Se: DynDOLOD</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/dyndolod/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/dyndolod/</guid><description>
 &lt;h2 id="dyndolod-and-performance">DynDOLOD and Performance&lt;/h2>
 &lt;p>Contrary to popular belief, DynDOLOD is not inherently performance-intense. With the &lt;strong>Low&lt;/strong> or &lt;strong>Medium&lt;/strong> presets and regular tree LOD, you will hardly notice any performance impact, even on weaker machines, while still drastically improving distant terrain.&lt;/p>
 &lt;p>More hardware-taxing is however what is typically referred to as &amp;ldquo;ultra tree LOD&amp;rdquo; or simply 3D tree LOD. This is a DynDOLOD feature which disables regular tree LOD, the two dimensional, flat &amp;ldquo;cut-outs&amp;rdquo;. Instead, object LOD is generated for distant trees, utilising 3D meshes which drastically improve the visual quality of tree LOD to the point where you can barely tell fully-rendered trees and distant trees apart anymore.&lt;/p>
 &lt;p>3D tree LOD is not recommended for people with less than 4GB VRAM. There is a potential performance impact but it is usually negligible on most modern machines (and very much worth the visual improvement).&lt;/p>
 &lt;p>&lt;strong>You will have the option to generate either regular or 3D tree LOD.&lt;/strong> Choose accordingly. Later on, you can always re-run DynDOLOD to generate the other type of tree LOD, depending on how well the game runs for you.&lt;/p>
 &lt;h2 id="dyndolod-setup">DynDOLOD Setup&lt;/h2>
-&lt;h3 id="file-download">File Download&lt;/h3>
 &lt;ul>
 &lt;li>Download the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32382">DynDOLOD&lt;/a> main file manually.&lt;/li>
 &lt;li>Navigate to &lt;code>Your Modding Folder\Tools&lt;/code> and create a new &lt;strong>DynDOLOD&lt;/strong> folder.&lt;/li>
@@ -225,7 +237,7 @@
 &lt;/li>
 &lt;li>Click &lt;strong>OK&lt;/strong> to save and close the &lt;strong>Executables&lt;/strong> window.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/texgen_dyndolod_executables.png" alt="Texgen DynDOLOD Executables">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/texgen-dyndolod-executables.png" alt="Texgen DynDOLOD Executables">&lt;/p>
 &lt;h2 id="texgen-configuration">TexGen Configuration&lt;/h2>
 &lt;p>TexGen is a component of DynDOLOD, used to generate textures based on your mod setup.&lt;/p>
 &lt;ul>
@@ -236,7 +248,7 @@
 &lt;blockquote>
 &lt;p>The generation will take a while (about 10 minutes for me) and I recommend you step away from your PC in the meantime.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/texgen_settings.png" alt="TexGen Settings">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/texgen-settings.png" alt="TexGen Settings">&lt;/p>
 &lt;h2 id="texgen-output">TexGen Output&lt;/h2>
 &lt;ul>
 &lt;li>Once TexGen has finished, click &lt;strong>Exit&lt;/strong>.&lt;/li>
@@ -249,7 +261,6 @@
 &lt;blockquote>
 &lt;p>Only follow these instructions if you are planning to generate 3D tree LOD.&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="ini-tweak">INI Tweak&lt;/h3>
 &lt;ul>
 &lt;li>Navigate to &lt;code>Your Modding Folder\Tools\DynDOLOD\Edit Scripts\DynDOLOD&lt;/code>.&lt;/li>
 &lt;li>Double-click &lt;strong>DynDOLOD_SSE.ini&lt;/strong>.&lt;/li>
@@ -262,28 +273,28 @@
 &lt;/ul>
 &lt;h3 id="solstheim-trees">Solstheim Trees&lt;/h3>
 &lt;ul>
-&lt;li>Check &lt;strong>Enhanced Landscapes - Solstheim 3D Trees&lt;/strong> in your mod order (&lt;strong>09 TREES &amp;amp; PLANTS&lt;/strong> separator).&lt;/li>
+&lt;li>Check &lt;strong>Enhanced Landscapes - Solstheim 3D Trees&lt;/strong> in your mod order (&lt;strong>TREES &amp;amp; PLANTS&lt;/strong> separator).&lt;/li>
 &lt;/ul>
 &lt;h2 id="dyndolod---lod-generation">DynDOLOD - LOD Generation&lt;/h2>
 &lt;blockquote>
-&lt;p>Continue here for either 2D or 3D LOD.&lt;/p>
+&lt;p>Continue here for both 2D or 3D LOD.&lt;/p>
 &lt;/blockquote>
 &lt;ul>
 &lt;li>Launch &lt;strong>DynDOLOD&lt;/strong> through Mod Organizer 2.&lt;/li>
-&lt;li>A window will come up, click &lt;strong>Advanced&lt;/strong>.&lt;/li>
+&lt;li>A window will come up, click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;li>You can see a list of all worldspaces at the top. Right-click inside and &lt;strong>Select all&lt;/strong>.&lt;/li>
-&lt;li>Select one preset:
+&lt;li>Under &lt;strong>Load rules for&lt;/strong> check both &lt;strong>Candles&lt;/strong> and &lt;strong>FXGlow&lt;/strong>.&lt;/li>
+&lt;li>Select one of the presets:
 &lt;ul>
 &lt;li>&lt;strong>Low&lt;/strong> if you already struggle with performance.&lt;/li>
 &lt;li>&lt;strong>Medium&lt;/strong> as the default option plus regular tree LOD.&lt;/li>
 &lt;li>&lt;strong>High&lt;/strong> for modern machines and 3D tree LOD.&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>Under &lt;strong>Load rules for&lt;/strong> check both &lt;strong>Candles&lt;/strong> and &lt;strong>FXGlow&lt;/strong>.&lt;/li>
 &lt;li>Double-check with the picture below that everything is configured correctly, then click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>Step away from your PC while DynDOLOD is working.&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/dyndolod_settings.png" alt="DynDOLOD Settings">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/dyndolod-settings.png" alt="DynDOLOD Settings">&lt;/p>
 &lt;h2 id="dyndolod-output">DynDOLOD Output&lt;/h2>
 &lt;ul>
 &lt;li>Once DynDOLOD is done, click &lt;strong>Save &amp;amp; Exit&lt;/strong>.&lt;/li>
@@ -293,7 +304,45 @@
 &lt;li>Place it last below the &lt;strong>PATCHER OUTPUT&lt;/strong> separator and activate it.&lt;/li>
 &lt;li>Move &lt;strong>DynDOLOD.esm&lt;/strong> below your other ESMs at the top of your load order.&lt;/li>
 &lt;li>Leave &lt;strong>DynDOLOD.esp&lt;/strong> at the very bottom as the last plugin.&lt;/li>
-&lt;/ul></description></item><item><title>Skyrim-Se: First Launch</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/05-first-launch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/05-first-launch/</guid><description>
+&lt;li>Make sure both plugins are activated.&lt;/li>
+&lt;/ul></description></item><item><title>Skyrim-Se: Occlusion</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/occlusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/occlusion/</guid><description>
+&lt;h2 id="sselodgen">SSELODGen&lt;/h2>
+&lt;p>While SSELODGen is primarily made to regenerate terrain LOD, we are only going to use it to rebuilt occlusion data. Cathedral Landscape is already packaged with specially made terrain LOD to minimize pop-in and seams.&lt;/p>
+&lt;ul>
+&lt;li>Download the latest version of &lt;a href="https://forum.step-project.com/topic/13451-xlodgen-terrain-lod-beta-66-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal/">xLODGen&lt;/a> from MEGA (see screenshot for the link).&lt;/li>
+&lt;li>Navigate to &lt;code>Your Modding Folder\Tools&lt;/code> and create a new &lt;strong>SSELODGen&lt;/strong> folder.&lt;/li>
+&lt;li>Open the downloaded archive, double-click the &lt;strong>xLODGen&lt;/strong> folder, and extract all files into your new directory.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/xlodgen-download.png" alt="Download xLODGen">&lt;/p>
+&lt;h3 id="add-xlodgen-to-mo2">Add xLODGen to MO2&lt;/h3>
+&lt;ul>
+&lt;li>In Mod Organizer 2, open the &lt;strong>Executables&lt;/strong> window (Tools &amp;gt; Executables or CTRL + E).&lt;/li>
+&lt;li>Click the blue plus icon to add a new executable and select &lt;strong>Add from file&lt;/strong>.&lt;/li>
+&lt;li>Navigate to &lt;code>Your Modding Folder\Tools\SSELODGen&lt;/code> and double-click &lt;strong>xLODGenx64.exe&lt;/strong>.&lt;/li>
+&lt;li>Change the &lt;strong>Title&lt;/strong> to &lt;strong>SSELODGen&lt;/strong>.&lt;/li>
+&lt;li>Under &lt;strong>Arguments&lt;/strong>, add &lt;code>-sse&lt;/code>.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> to close the window.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/add-xlodgen-to-mo2.png" alt="Add xLODGen to MO2">&lt;/p>
+&lt;h2 id="generate-occlusion-data">Generate Occlusion Data&lt;/h2>
+&lt;ul>
+&lt;li>Run &lt;strong>SSELODGen&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>In the worldspaces window, check &lt;strong>Tamriel &amp;ldquo;Skyrim&amp;rdquo;&lt;/strong> and &lt;strong>DLC2SolstheimWorld &amp;ldquo;Solstheim&amp;rdquo;&lt;/strong>.&lt;/li>
+&lt;li>Uncheck &lt;strong>Terrain LOD&lt;/strong>.&lt;/li>
+&lt;li>Check &lt;strong>Occlusion&lt;/strong>.&lt;/li>
+&lt;li>Set &lt;strong>Quality&lt;/strong> to &lt;strong>3&lt;/strong>.&lt;/li>
+&lt;li>Set &lt;strong>Height&lt;/strong> to &lt;strong>100&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>Generate&lt;/strong> and wait for the process to complete.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/generate-occlusion-data.png" alt="Generate Occlusion Data">&lt;/p>
+&lt;h2 id="output">Output&lt;/h2>
+&lt;ul>
+&lt;li>Once SSELODGen returns &lt;code>LOD generation complete&lt;/code>, you can close the window.&lt;/li>
+&lt;li>Right-click the &lt;strong>Overwrite&lt;/strong> folder in Mod Organizer 2 and select &lt;strong>Create mod&lt;/strong>.&lt;/li>
+&lt;li>Enter &lt;strong>SSELODGen - Occlusion Data&lt;/strong> as the name and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Activate the mod in the mod order.&lt;/li>
+&lt;li>Make sure &lt;strong>Occlusion.esp&lt;/strong> is at the bottom of your load order and checked.&lt;/li>
+&lt;/ul></description></item><item><title>Skyrim-Se: First Launch</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/first-launch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/first-launch/</guid><description>
 &lt;h2 id="the-final-step">The Final Step&lt;/h2>
 &lt;p>All mods are installed. The ENB preset is configured correctly. DynDOLOD is generated. Now comes the moment of truth.&lt;/p>
 &lt;p>Once arrived at this point it is important to test your setup in order to make sure your game looks as intended, performs well, and runs stable so that you can finally start a new playthrough without a high risk for nasty surprises.&lt;/p>
@@ -321,15 +370,15 @@
 &lt;li>You can also change the hotkey to a different one if its inconvenient for you (default is X).&lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>This will make it so that the clock widget from A Matter of Time is toggled along with iHUD (and therefore hidden most of the time). Pressing the hotkey once to toggle is more convenient than having to keep pressing it in my opinion.&lt;/p>
+&lt;p>This will make it so that the clock widget from A Matter of Time is toggled along with the rest of the HUD, and that you only have to press the button once to toggle all elements.&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="depth-of-field">Depth of Field&lt;/h3>
-&lt;p>While the default Depth of Field effect is fairly ugly, you will have noticed that we specifically left it turned on while configuring INI settings way back during the Setup section. This is because the DoF effect is tied to the underwater blur effect - turn off DoF and going underwater you will be able to see as clearly as above the surface. The solution to this is leaving the effect on but turning it down all the way so that the DoF doesn&amp;rsquo;t actually show up.&lt;/p>
+&lt;p>While the default Depth of Field effect is fairly ugly, you will have noticed that we specifically left it turned on while configuring INI settings way back during the Setup section. This is because the DoF effect is tied to the underwater blur effect - turn off DoF and you will be able to see as clearly underwater as above the surface. The solution to this is leaving the effect on but turning it down all the way so that the DoF effect doesn&amp;rsquo;t actually kick in.&lt;/p>
 &lt;ul>
-&lt;li>Press &lt;strong>ESCAPE&lt;/strong> and go into &lt;strong>Settings&lt;/strong> &amp;gt; &lt;strong>Display&lt;/strong>.&lt;/li>
+&lt;li>Press &lt;strong>ESCAPE&lt;/strong> and go into &lt;strong>Settings&lt;/strong> &amp;raquo; &lt;strong>Display&lt;/strong>.&lt;/li>
 &lt;li>Turn down &lt;strong>Depth of Field&lt;/strong> all the way.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/finalisation/turn_down_dof.jpg" alt="Turn down DoF">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/turn-down-dof.jpg" alt="Turn down DoF">&lt;/p>
 &lt;h2 id="testing-suggestions">Testing Suggestions&lt;/h2>
 &lt;ul>
 &lt;li>You will spawn near Helgen in an area you likely know well. Take some time to look around.&lt;/li>
@@ -338,14 +387,14 @@
 &lt;li>Travel around Skyrim and visit your favourite locations (open the console and type &lt;code>tmm 1&lt;/code> to enable all map markers).&lt;/li>
 &lt;li>Especially intense areas where you frame rate might drop are:
 &lt;ul>
-&lt;li>the southern forest, especially when looking down at Falkreath.&lt;/li>
-&lt;li>the swamp surrounding Morthal.&lt;/li>
-&lt;li>the bridge looking at Riverwood.&lt;/li>
+&lt;li>the southern forest, especially when looking down at Falkreath,&lt;/li>
+&lt;li>the swamp surrounding Morthal,&lt;/li>
+&lt;li>the bridge looking at Riverwood,&lt;/li>
 &lt;li>the Rift, particularly when approaching Riften from the south.&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>I recommend spending at least 10 to 20 minutes ingame. Enjoy the improved graphics and take some screenshots! Once you have quit the game, proceed with the next step.&lt;/p></description></item><item><title>Skyrim-Se: Clean-Up</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/06-cleanup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/06-cleanup/</guid><description>
+&lt;p>I recommend spending at least 10 to 20 minutes ingame. Enjoy the improved graphics and take some screenshots! Once you have quit the game, proceed with the next step.&lt;/p></description></item><item><title>Skyrim-Se: Clean-Up</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/cleanup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/cleanup/</guid><description>
 &lt;h2 id="overwrite-files">Overwrite Files&lt;/h2>
 &lt;p>As mentioned before, the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> folder in Mod Organizer 2 catches all files generated by mods or applications that would normally land in your &lt;strong>root&lt;/strong> folder. After the first launch, you will find quite a few files in your &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> that were generated by mods.&lt;/p>
 &lt;p>If you delete these, they’ll just be regenerated the next time you launch the game, but we don’t want them to clutter up the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> either. The best solution is to keep these files with the mods they belong to, inside their mod folders. This way they will also be removed and regenerated when the mod is updated.&lt;/p>

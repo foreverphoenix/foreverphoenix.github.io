@@ -366,14 +366,14 @@
 &lt;li>The loose assets might need optimizing with CAO (check the guide instructions for the mod).&lt;/li>
 &lt;li>To disable the filter again, click the &lt;strong>Clear&lt;/strong> button at the bottom and close the filter settings by clicking the arrows &lt;code>&amp;lt;&amp;lt;&lt;/code>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/guide-resources/find_le_bsa.png" alt="Find LE BSA">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/guide-resources/find-le-bsa.png" alt="Find LE BSA">&lt;/p>
 &lt;h2 id="how-to-re-generate-ini-files-from-scratch">How to re-generate INI files from scratch&lt;/h2>
 &lt;p>Re-doing INI files from scratch can be necessary when BethINI got an update. It can also help when you get a crash upon launch or when starting a new game caused by faulty INI edits. This is how to easily re-do INIs on a TPF setup.&lt;/p>
 &lt;ul>
 &lt;li>In MO2, click the folder icon to the right of the profiles selection drop-down&lt;/li>
 &lt;li>Select &lt;strong>Open Profile folder&lt;/strong> (see screenshot).&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/guide-resources/open_profiles_folder.png" alt="Open Profiles folder">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/guide-resources/open-profiles-folder.png" alt="Open Profiles folder">&lt;/p>
 &lt;ul>
 &lt;li>Delete the following folder and files:
 &lt;ul>
@@ -400,7 +400,7 @@ iSize W=1920
 &lt;/code>&lt;/pre>&lt;ul>
 &lt;li>Afterwards, click the &lt;strong>Save&lt;/strong> button and close the window.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/guide-resources/change_game_resolution.png" alt="Change Game Resolution">&lt;/p></description></item><item><title>Skyrim-Se: How To Update</title><link>https://thephoenixflavour.com/skyrim-se/guide-resources/how-to-update/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/guide-resources/how-to-update/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/guide-resources/change-game-resolution.png" alt="Change Game Resolution">&lt;/p></description></item><item><title>Skyrim-Se: How To Update</title><link>https://thephoenixflavour.com/skyrim-se/guide-resources/how-to-update/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/guide-resources/how-to-update/</guid><description>
 &lt;h2 id="mod-organizer-2">Mod Organizer 2&lt;/h2>
 &lt;p>It is possible to update Mod Organizer 2 without affecting your setup if you leave certain files and folders intact. You can do this anytime, and it will not affect your saves, mod list, or even your UI settings.&lt;/p>
 &lt;h3 id="remove-the-old-version">Remove the old version&lt;/h3>
@@ -415,7 +415,7 @@ iSize W=1920
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/guide-resources/mo2-before-update.png" alt="MO2 Before Update">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/guide-resources/mo2-before-update.png" alt="MO2 Before Update">&lt;/p>
 &lt;h3 id="install-the-new-version">Install the new version&lt;/h3>
 &lt;ul>
 &lt;li>Download the new version of Mod Organizer 2 (Archive).&lt;/li>
@@ -454,7 +454,7 @@ iSize W=1920
 &lt;li>Click &lt;strong>OK&lt;/strong>, close the MCM, and go into an interior cell (any house or cave will do).&lt;/li>
 &lt;li>Save and quit the game.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/guide-resources/deactivate-dyndolod.png" alt="Deactivate DynDOLOD">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/guide-resources/deactivate-dyndolod.png" alt="Deactivate DynDOLOD">&lt;/p>
 &lt;h3 id="resaving-without-dyndolod">Resaving without DynDOLOD&lt;/h3>
 &lt;ul>
 &lt;li>Back in Mod Organizer 2, delete both &lt;strong>TexGen Output&lt;/strong> and &lt;strong>DynDOLOD Output&lt;/strong>.&lt;/li>
@@ -485,7 +485,7 @@ iSize W=1920
 &lt;li>Open the folder and delete everything inside.&lt;/li>
 &lt;li>Double-click the &lt;strong>Data&lt;/strong> folder inside the SKSE archive and drag the &lt;strong>Scripts&lt;/strong> folder inside into the empty folder.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/guide-resources/update-skse.png" alt="Update SKSE">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/guide-resources/update-skse.png" alt="Update SKSE">&lt;/p>
 &lt;h2 id="adamant---a-perk-overhaul">Adamant - A Perk Overhaul&lt;/h2>
 &lt;p>It is entirely possible to update Adamant in the middle of a playthrough with the help of Ish&amp;rsquo;s Respec Mod. However, big updates for Adamant often require the guide&amp;rsquo;s CRP to be updated as well which in turn is often accompanied by a guide update. So while Adamant is basically always safe to update, the CRP is not.&lt;/p>
 &lt;p>When Adamant as well as the guide and CRP received a save-safe update, you can do the following to update:&lt;/p>
