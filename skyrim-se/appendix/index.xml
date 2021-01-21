@@ -90,7 +90,7 @@
 &lt;h4 id="initial-setup">Initial Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Mod Organizer 2:&lt;/strong> Removed instructions to install deorder&amp;rsquo;s MO2 plugins (better suited to a beginner&amp;rsquo;s guide).&lt;/li>
-&lt;li>&lt;strong>ESM Cleaning:&lt;/strong> Added instructions to use a specific filter when cleaning Dawnguard.esm manually.&lt;/li>
+&lt;li>&lt;strong>ESM Cleaning:&lt;/strong> Improved instructions for cleaning Dawnguard ESM manually.&lt;/li>
 &lt;li>&lt;strong>ESM Cleaning:&lt;/strong> Fixed broken link at the bottom to the next page.&lt;/li>
 &lt;/ul>
 &lt;h4 id="mod-installation">Mod Installation&lt;/h4>
