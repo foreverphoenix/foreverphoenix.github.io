@@ -1090,7 +1090,7 @@
 &lt;li>&lt;strong>Select version:&lt;/strong> BSA + ESL flagged&lt;/li>
 &lt;li>&lt;strong>Optional:&lt;/strong> &lt;del>Alternative Rain Splash Effect&lt;/del>&lt;/li>
 &lt;/ul>
-&lt;h5 id="wonders-of-weather---less-opaque-rain-splashes-for-enbhttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Wonders of Weather - Less Opaque Rain Splashes for ENB&lt;/a>&lt;/h5>
+&lt;h5 id="wonders-of-weather---less-opaque-rain-splashes-for-enbhttpswwwnexusmodscomskyrimspecialeditionmods32062tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32062?tab=files">Wonders of Weather - Less Opaque Rain Splashes for ENB&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Wonders Of Weather - Less opaque rain splashes for ENB&lt;/li>
@@ -1372,176 +1372,6 @@
 &lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Less Distracting Blowing Snow Effects 1.0&lt;/li>
-&lt;/ul></description></item><item><title>Skyrim-Se: Trees &amp; Plants</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/trees-plants/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/trees-plants/</guid><description>
-&lt;h5 id="enhanced-vanilla-trees-evthttpswwwnexusmodscomskyrimspecialeditionmods11008tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11008?tab=files">Enhanced Vanilla Trees (EVT)&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> 1) Enhanced Vanilla Trees SE - Lush Trees v2.1.0&lt;/li>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> 2) Enhanced Vanilla Trees SE - Alternative Branches v2.1.1&lt;/li>
-&lt;/ul>
-&lt;h4 id="fomod-instructions---main-file">FOMOD Instructions - Main File&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Mesh Options:&lt;/strong>
-&lt;ul>
-&lt;li>Enhanced Darker Meshes&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Clutter:&lt;/strong>
-&lt;ul>
-&lt;li>Enhanced Tree Clutter (recommended)&lt;/li>
-&lt;li>Firewood Textures&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;ul>
-&lt;li>&lt;strong>Tree LODs:&lt;/strong>
-&lt;ul>
-&lt;li>Billboards&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h4 id="fomod-instructions---alternative-branches">FOMOD Instructions - Alternative Branches&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Custom Tree Options:&lt;/strong>
-&lt;ul>
-&lt;li>No&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Normal Pine Branches:&lt;/strong>
-&lt;ul>
-&lt;li>SFO Branch Textures - Version 4&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Snowy Pine Branches&lt;/strong>
-&lt;ul>
-&lt;li>Darker EVT Snowy Pines&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Light Snowy Pine Branches:&lt;/strong>
-&lt;ul>
-&lt;li>Darker EVT Light Snowy Pines&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h5 id="enhanced-landscapes---solstheim-3d-treeshttpswwwnexusmodscomskyrimspecialeditionmods18162tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18162?tab=files">Enhanced Landscapes - Solstheim 3D Trees&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>You already downloaded this mod.&lt;/li>
-&lt;/ul>
-&lt;h4 id="installation-instructions">Installation Instructions&lt;/h4>
-&lt;ul>
-&lt;li>Create an empty mod in Mod Organizer 2 and name it &lt;strong>Enhanced Landscapes - Solstheim 3D Trees&lt;/strong>.&lt;/li>
-&lt;li>Right-click it and select &lt;strong>Open in Explorer&lt;/strong>.&lt;/li>
-&lt;li>Go to &lt;code>Your Modding Folder\ARCHIVE\MO2 Downloads&lt;/code> and find the &lt;strong>Main File v1.65-18162-1-65.7z&lt;/strong> archive.&lt;/li>
-&lt;li>Open it and double-click the &lt;strong>3 - Solstheim3DTrees&lt;/strong> file inside.&lt;/li>
-&lt;li>Extract the &lt;strong>textures&lt;/strong> and &lt;strong>meshes&lt;/strong> folders to &lt;code>Mod Organizer 2\mods\Enhanced Landscapes - Solstheim 3D Trees&lt;/code>.&lt;/li>
-&lt;li>Close the archive and the Explorer window.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/customisation/solstheim_tree_installation.png" alt="Solstheim Trees Installation">&lt;/p>
-&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
-&lt;ul>
-&lt;li>Do NOT check this mod in the mod order (left pane). Keep it disabled for now.&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>You will have the choice to generate 3D tree LOD with DynDOLOD later on which is when you will be instructed to re-enable this mod. If you don&amp;rsquo;t choose to generate 3D tree LOD this mod will stay disabled as it does not support regular tree LOD.&lt;/p>
-&lt;/blockquote>
-&lt;h5 id="enhanced-landscapes---oaks-standalonehttpswwwnexusmodscomskyrimspecialeditionmods27367tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27367?tab=files">Enhanced Landscapes - Oaks Standalone&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> ELOS Oaks mixed greens&lt;/li>
-&lt;/ul>
-&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Tree Type:&lt;/strong> Kojak&amp;rsquo;s Trees&lt;/li>
-&lt;li>&lt;strong>Plugin Format:&lt;/strong> ESPFE&lt;/li>
-&lt;/ul>
-&lt;h5 id="immersive-fallen-treeshttpswwwnexusmodscomskyrimspecialeditionmods8767tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8767?tab=files">Immersive Fallen Trees&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Fallen Trees SSE&lt;/li>
-&lt;/ul>
-&lt;h5 id="immersive-fallen-trees-patchhttpswwwnexusmodscomskyrimspecialeditionmods27834tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27834?tab=files">Immersive Fallen Trees Patch&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Fallen Trees Patch&lt;/li>
-&lt;/ul>
-&lt;h5 id="rudy-hq---falling-leaves-and-needleshttpswwwnexusmodscomskyrimspecialeditionmods25939tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25939?tab=files">Rudy HQ - Falling Leaves and Needles&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - Falling Leaves and Needles for ENB SE&lt;/li>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> Rudy HQ - Falling Leaves and Needles SE - Yellow Leaves Texture 512 &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;h5 id="cathedral-plantshttpswwwnexusmodscomskyrimspecialeditionmods26104tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26104?tab=files">Cathedral Plants&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Cathedral - Plants&lt;/li>
-&lt;/ul>
-&lt;h5 id="cathedral---3d-mountain-flowershttpswwwnexusmodscomskyrimspecialeditionmods41312tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41312?tab=files">Cathedral - 3D Mountain Flowers&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Cathedral - 3D Mountain Flowers&lt;/li>
-&lt;/ul>
-&lt;h5 id="flora-mod-collectionhttpswwwnexusmodscomskyrimmods80722tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/80722/?tab=files">Flora Mod Collection&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Miscellaneous Files:&lt;/strong> Fern - 2K&lt;/li>
-&lt;li>&lt;strong>Miscellaneous Files:&lt;/strong> Green Ivy - 2K&lt;/li>
-&lt;li>&lt;strong>Miscellaneous Files:&lt;/strong> Swamp Fungal Pod - 2K&lt;/li>
-&lt;/ul>
-&lt;h5 id="sufficiently-optimised-snowberries-3dhttpswwwnexusmodscomskyrimspecialeditionmods42033tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/42033?tab=files">Sufficiently Optimised Snowberries 3D&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Sufficiently Optimized Snowberries 3D FOMOD&lt;/li>
-&lt;/ul>
-&lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Berry Brightnesss:&lt;/strong> Darker Berries&lt;/li>
-&lt;/ul>
-&lt;h5 id="rudy-hq---more-lights-for-enb---deathbells-and-nirnrootshttpswwwnexusmodscomskyrimspecialeditionmods22814tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22814?tab=files">Rudy HQ - More Lights for ENB - Deathbells and Nirnroots&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - More Lights for ENB SE - Deathbells and Nirnroots&lt;/li>
-&lt;/ul>
-&lt;h5 id="rallys-hanging-mosshttpswwwnexusmodscomskyrimspecialeditionmods33225tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33225?tab=files">Rally&amp;rsquo;s Hanging Moss&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Rallys Hanging Moss - Desaturated&lt;/li>
-&lt;/ul>
-&lt;h5 id="realistic-hd-mushrooms-remasteredhttpswwwnexusmodscomskyrimspecialeditionmods21996tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21996?tab=files">Realistic HD Mushrooms Remastered&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Realistic HD Mushrooms Remastered&lt;/li>
-&lt;/ul>
-&lt;h5 id="rudy-hq---more-lights-for-enb---glowing-mushroomshttpswwwnexusmodscomskyrimspecialeditionmods40991tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/40991?tab=files">Rudy HQ - More Lights for ENB - Glowing Mushrooms&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - More Lights for ENB SE - Glowing Mushrooms&lt;/li>
-&lt;/ul>
-&lt;h5 id="high-poly-blackreach-mushroomshttpswwwnexusmodscomskyrimspecialeditionmods40418tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/40418?tab=files">High Poly Blackreach Mushrooms&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> High Poly Blackreach Mushrooms&lt;/li>
-&lt;/ul>
-&lt;h5 id="less-ugly-tundra-grasshttpswwwnexusmodscomskyrimspecialeditionmods26740tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26740?tab=files">Less Ugly Tundra Grass&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Less Ugly Tundragrass - Redder Variant&lt;/li>
-&lt;/ul>
-&lt;h5 id="high-poly-gleamblossomshttpswwwnexusmodscomskyrimspecialeditionmods40278tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/40278?tab=files">High Poly Gleamblossoms&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> High Poly Gleamblossoms - ENB light&lt;/li>
-&lt;/ul>
-&lt;h5 id="rallys-solstheim-plantshttpswwwnexusmodscomskyrimspecialeditionmods35081tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/35081?tab=files">Rally&amp;rsquo;s Solstheim Plants&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Rally&amp;rsquo;s Solstheim Plants 2K&lt;/li>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> Lods for Mushroom Trees 512x512 &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;h5 id="scathecraw-hd-2khttpswwwnexusmodscomskyrimspecialeditionmods38454tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38454?tab=files">Scathecraw HD 2K&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-18">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main File:&lt;/strong> Scathecraw HD 2K&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Landscape</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/landscape/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/landscape/</guid><description>
 &lt;h5 id="majestic-mountainshttpswwwnexusmodscomskyrimspecialeditionmods11052tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11052?tab=files">Majestic Mountains&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions">Download Instructions&lt;/h4>
@@ -1770,6 +1600,179 @@
 &lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rally&amp;rsquo;s Solstheim Landscapes 2K&lt;/li>
+&lt;/ul></description></item><item><title>Skyrim-Se: Trees &amp; Plants</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/trees-plants/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/trees-plants/</guid><description>
+&lt;h5 id="enhanced-vanilla-trees-evthttpswwwnexusmodscomskyrimspecialeditionmods11008tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11008?tab=files">Enhanced Vanilla Trees (EVT)&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> 1) Enhanced Vanilla Trees SE - Lush Trees v2.1.0&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> 2) Enhanced Vanilla Trees SE - Alternative Branches v2.1.1&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions---main-file">FOMOD Instructions - Main File&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Mesh Options:&lt;/strong>
+&lt;ul>
+&lt;li>Enhanced Darker Meshes&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Clutter:&lt;/strong>
+&lt;ul>
+&lt;li>Enhanced Tree Clutter (recommended)&lt;/li>
+&lt;li>Firewood Textures&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>&lt;strong>Tree LODs:&lt;/strong>
+&lt;ul>
+&lt;li>Billboards&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions---alternative-branches">FOMOD Instructions - Alternative Branches&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Custom Tree Options:&lt;/strong>
+&lt;ul>
+&lt;li>No&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Normal Pine Branches:&lt;/strong>
+&lt;ul>
+&lt;li>SFO Branch Textures - Version 4&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Snowy Pine Branches&lt;/strong>
+&lt;ul>
+&lt;li>Darker EVT Snowy Pines&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Light Snowy Pine Branches:&lt;/strong>
+&lt;ul>
+&lt;li>Darker EVT Light Snowy Pines&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="enhanced-landscapes---solstheim-3d-treeshttpswwwnexusmodscomskyrimspecialeditionmods18162tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18162?tab=files">Enhanced Landscapes - Solstheim 3D Trees&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Main File v1.6&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Do not install the mod yet.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="installation-instructions">Installation Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Create an empty mod in Mod Organizer 2 and name it &lt;strong>Enhanced Landscapes - Solstheim 3D Trees&lt;/strong>.&lt;/li>
+&lt;li>Right-click it and select &lt;strong>Open in Explorer&lt;/strong>.&lt;/li>
+&lt;li>Go to &lt;code>Your Modding Folder\ARCHIVE\MO2 Downloads&lt;/code> and find the &lt;strong>Main File v1.65-18162-1-65.7z&lt;/strong> archive.&lt;/li>
+&lt;li>Open it and double-click the &lt;strong>3 - Solstheim3DTrees&lt;/strong> file inside.&lt;/li>
+&lt;li>Extract the &lt;strong>textures&lt;/strong> and &lt;strong>meshes&lt;/strong> folders to &lt;code>Mod Organizer 2\mods\Enhanced Landscapes - Solstheim 3D Trees&lt;/code>.&lt;/li>
+&lt;li>Close the archive and the Explorer window.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/customisation/solstheim_tree_installation.png" alt="Solstheim Trees Installation">&lt;/p>
+&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Do NOT check this mod in the mod order (left pane). Keep it disabled for now.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>You will have the choice to generate 3D tree LOD with DynDOLOD later on which is when you will be instructed to re-enable this mod. If you don&amp;rsquo;t choose to generate 3D tree LOD this mod will stay disabled as it does not support regular tree LOD.&lt;/p>
+&lt;/blockquote>
+&lt;h5 id="enhanced-landscapes---oaks-standalonehttpswwwnexusmodscomskyrimspecialeditionmods27367tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27367?tab=files">Enhanced Landscapes - Oaks Standalone&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> ELOS Oaks mixed greens&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Tree Type:&lt;/strong> Kojak&amp;rsquo;s Trees&lt;/li>
+&lt;li>&lt;strong>Plugin Format:&lt;/strong> ESPFE&lt;/li>
+&lt;/ul>
+&lt;h5 id="immersive-fallen-treeshttpswwwnexusmodscomskyrimspecialeditionmods8767tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8767?tab=files">Immersive Fallen Trees&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Fallen Trees SSE&lt;/li>
+&lt;/ul>
+&lt;h5 id="immersive-fallen-trees-patchhttpswwwnexusmodscomskyrimspecialeditionmods27834tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27834?tab=files">Immersive Fallen Trees Patch&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Fallen Trees Patch&lt;/li>
+&lt;/ul>
+&lt;h5 id="rudy-hq---falling-leaves-and-needleshttpswwwnexusmodscomskyrimspecialeditionmods25939tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25939?tab=files">Rudy HQ - Falling Leaves and Needles&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - Falling Leaves and Needles for ENB SE&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Rudy HQ - Falling Leaves and Needles SE - Yellow Leaves Texture 512 &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h5 id="cathedral-plantshttpswwwnexusmodscomskyrimspecialeditionmods26104tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26104?tab=files">Cathedral Plants&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Cathedral - Plants&lt;/li>
+&lt;/ul>
+&lt;h5 id="cathedral---3d-mountain-flowershttpswwwnexusmodscomskyrimspecialeditionmods41312tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41312?tab=files">Cathedral - 3D Mountain Flowers&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Cathedral - 3D Mountain Flowers&lt;/li>
+&lt;/ul>
+&lt;h5 id="flora-mod-collectionhttpswwwnexusmodscomskyrimmods80722tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/80722/?tab=files">Flora Mod Collection&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Miscellaneous Files:&lt;/strong> Fern - 2K&lt;/li>
+&lt;li>&lt;strong>Miscellaneous Files:&lt;/strong> Green Ivy - 2K&lt;/li>
+&lt;li>&lt;strong>Miscellaneous Files:&lt;/strong> Swamp Fungal Pod - 2K&lt;/li>
+&lt;/ul>
+&lt;h5 id="sufficiently-optimised-snowberries-3dhttpswwwnexusmodscomskyrimspecialeditionmods42033tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/42033?tab=files">Sufficiently Optimised Snowberries 3D&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Sufficiently Optimized Snowberries 3D FOMOD&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Berry Brightnesss:&lt;/strong> Darker Berries&lt;/li>
+&lt;/ul>
+&lt;h5 id="rudy-hq---more-lights-for-enb---deathbells-and-nirnrootshttpswwwnexusmodscomskyrimspecialeditionmods22814tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22814?tab=files">Rudy HQ - More Lights for ENB - Deathbells and Nirnroots&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - More Lights for ENB SE - Deathbells and Nirnroots&lt;/li>
+&lt;/ul>
+&lt;h5 id="rallys-hanging-mosshttpswwwnexusmodscomskyrimspecialeditionmods33225tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33225?tab=files">Rally&amp;rsquo;s Hanging Moss&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Rallys Hanging Moss - Desaturated&lt;/li>
+&lt;/ul>
+&lt;h5 id="realistic-hd-mushrooms-remasteredhttpswwwnexusmodscomskyrimspecialeditionmods21996tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21996?tab=files">Realistic HD Mushrooms Remastered&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Realistic HD Mushrooms Remastered&lt;/li>
+&lt;/ul>
+&lt;h5 id="rudy-hq---more-lights-for-enb---glowing-mushroomshttpswwwnexusmodscomskyrimspecialeditionmods40991tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/40991?tab=files">Rudy HQ - More Lights for ENB - Glowing Mushrooms&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - More Lights for ENB SE - Glowing Mushrooms&lt;/li>
+&lt;/ul>
+&lt;h5 id="high-poly-blackreach-mushroomshttpswwwnexusmodscomskyrimspecialeditionmods40418tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/40418?tab=files">High Poly Blackreach Mushrooms&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> High Poly Blackreach Mushrooms&lt;/li>
+&lt;/ul>
+&lt;h5 id="less-ugly-tundra-grasshttpswwwnexusmodscomskyrimspecialeditionmods26740tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26740?tab=files">Less Ugly Tundra Grass&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Less Ugly Tundragrass - Redder Variant&lt;/li>
+&lt;/ul>
+&lt;h5 id="high-poly-gleamblossomshttpswwwnexusmodscomskyrimspecialeditionmods40278tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/40278?tab=files">High Poly Gleamblossoms&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> High Poly Gleamblossoms - ENB light&lt;/li>
+&lt;/ul>
+&lt;h5 id="rallys-solstheim-plantshttpswwwnexusmodscomskyrimspecialeditionmods35081tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/35081?tab=files">Rally&amp;rsquo;s Solstheim Plants&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Rally&amp;rsquo;s Solstheim Plants 2K&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Lods for Mushroom Trees 512x512 &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h5 id="scathecraw-hd-2khttpswwwnexusmodscomskyrimspecialeditionmods38454tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38454?tab=files">Scathecraw HD 2K&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-18">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File:&lt;/strong> Scathecraw HD 2K&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Worldspace Additions</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/worldspace-additions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/worldspace-additions/</guid><description>
 &lt;h5 id="point-the-wayhttpswwwnexusmodscomskyrimspecialeditionmods352tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/352?tab=files">Point The Way&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions">Download Instructions&lt;/h4>
@@ -1864,7 +1867,6 @@
 &lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Solstheim Lighthouse v1.2 ESL&lt;/li>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> HD Raven Rock Brick Texture Replacer&lt;/li>
 &lt;/ul>
 &lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
 &lt;ul>

@@ -373,27 +373,6 @@
 &lt;p>This new profile is separate from your vanilla install. It uses its own directories for INI and save files.&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/mo2-select-new-profile.png" alt="MO2 Select New Profile">&lt;/p>
-&lt;h2 id="deorders-mo2-plugins">Deorder&amp;rsquo;s MO2 Plugins&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>This step is optional.&lt;/strong>&lt;/p>
-&lt;/blockquote>
-&lt;p>Deorder&amp;rsquo;s &lt;strong>Sync Mod Order&lt;/strong> MO2 plugin allows you to update one profile&amp;rsquo;s mod order to mirror another&amp;rsquo;s. This is incredibly useful if you have multiple profiles (default TPF, a customised version, one for an ongoing playthrough, one for testing, etc).&lt;/p>
-&lt;ul>
-&lt;li>Open the Github page for &lt;a href="https://github.com/deorder/mo2-plugins/releases">deorder’s MO2 Plugins&lt;/a>.&lt;/li>
-&lt;li>Download the latest version by clicking on &lt;strong>Source code (zip)&lt;/strong>.&lt;/li>
-&lt;li>Open the downloaded archive and double-click the folder inside.&lt;/li>
-&lt;li>Navigate to &lt;code>Mod Organizer 2\plugins&lt;/code>.&lt;/li>
-&lt;li>Extract the following folder and files from the archive into the &lt;strong>plugins&lt;/strong> folder:
-&lt;ul>
-&lt;li>&lt;strong>data&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>pyMergePluginsHide.py&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>pySyncModOrder.py&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Confirm when asked to merge the &lt;strong>data&lt;/strong> folders.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;em>The Sync Mod Order plugin is extremely useful for maintaining multiple profiles. At present, TPF doesn&amp;rsquo;t include any merges so the second plugin, Merge Plugins Hide, is mostly added for the sake of completeness.&lt;/em>&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/deorders-plugins-installation.png" alt="Install Deorders Plugins">&lt;/p>
 &lt;h2 id="separators">Separators&lt;/h2>
 &lt;ul>
 &lt;li>Download the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14223">The Phoenix Flavour - MO2 Separator Pack&lt;/a> manually from the Nexus.&lt;/li>
@@ -732,9 +711,11 @@
 &lt;li>Check only &lt;strong>Dawnguard.esm&lt;/strong> and hit &lt;strong>OK&lt;/strong> (its masters, Skyrim.esm and Update.esm, will be loaded automatically).&lt;/li>
 &lt;li>Once SSEEedit returns the message &lt;code>Background Loader: finished&lt;/code>, you may proceed.&lt;/li>
 &lt;li>Right-click anywhere in the left pane and select &lt;strong>Apply Filter&lt;/strong>.&lt;/li>
-&lt;li>Change nothing in the window that comes up next, but simply click &lt;strong>Filter&lt;/strong> to confirm.&lt;/li>
+&lt;li>Make sure the &lt;strong>Basic Conflict Resolution&lt;/strong> filter preset is selected (check the screenshot below).&lt;/li>
+&lt;li>Click &lt;strong>Filter&lt;/strong> to start the process.&lt;/li>
 &lt;li>This will take a moment and you need to wait until it is done.&lt;/li>
 &lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/xedit-apply-filter.png" alt="ESM Cleaning - Apply Filter">&lt;/p>
 &lt;h3 id="delete-conflicting-sub-record">Delete conflicting sub-record&lt;/h3>
 &lt;ul>
 &lt;li>Proceed once SSEEdit returns &lt;code>Done: Applying Filter&lt;/code>.&lt;/li>
@@ -757,4 +738,4 @@
 &lt;li>You’re done!&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;h4 id="continue-with-the-instructionsskyrim-semod-installation01-instructions-page">Continue with the &lt;a href="https://thephoenixflavour.com/skyrim-se/mod-installation/01-instructions/">Instructions&lt;/a> page.&lt;/h4></description></item></channel></rss>
+&lt;h4 id="continue-with-the-instructionsskyrim-semod-installationinstructions-page">Continue with the &lt;a href="https://thephoenixflavour.com/skyrim-se/mod-installation/instructions/">Instructions&lt;/a> page.&lt;/h4></description></item></channel></rss>
