@@ -704,27 +704,16 @@
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/update-esm-cleaned.png" alt="Update ESM Cleaned">&lt;/p>
 &lt;h2 id="manual-cleaning---dawnguard-esm">Manual Cleaning - Dawnguard ESM&lt;/h2>
 &lt;p>There are &lt;a href="https://forums.nexusmods.com/index.php?/topic/5381485-guide-manual-cleaning-skyrim-and-skyrim-special-edition-master-files/">additional instructions written up by alt3rn1ty&lt;/a> to manually clean some dirty edits that won’t be caught by SSEEdit’s quick cleaning procedure. Only one of the edits can affect actual gameplay though, so we won’t bother with removing the other two which are simply left-over test records.&lt;/p>
-&lt;h3 id="apply-filter">Apply Filter&lt;/h3>
 &lt;ul>
 &lt;li>Run &lt;strong>SSEEdit&lt;/strong> through Mod Organizer 2 (do not use the Quick Cleaning version).&lt;/li>
 &lt;li>In the plugin selection window, right-click and &lt;strong>Select None&lt;/strong>.&lt;/li>
 &lt;li>Check only &lt;strong>Dawnguard.esm&lt;/strong> and hit &lt;strong>OK&lt;/strong> (its masters, Skyrim.esm and Update.esm, will be loaded automatically).&lt;/li>
 &lt;li>Once SSEEedit returns the message &lt;code>Background Loader: finished&lt;/code>, you may proceed.&lt;/li>
-&lt;li>Right-click anywhere in the left pane and select &lt;strong>Apply Filter&lt;/strong>.&lt;/li>
-&lt;li>Make sure the &lt;strong>Basic Conflict Resolution&lt;/strong> filter preset is selected (check the screenshot below).&lt;/li>
-&lt;li>Click &lt;strong>Filter&lt;/strong> to start the process.&lt;/li>
-&lt;li>This will take a moment and you need to wait until it is done.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/xedit-apply-filter.png" alt="ESM Cleaning - Apply Filter">&lt;/p>
 &lt;h3 id="delete-conflicting-sub-record">Delete conflicting sub-record&lt;/h3>
 &lt;ul>
-&lt;li>Proceed once SSEEdit returns &lt;code>Done: Applying Filter&lt;/code>.&lt;/li>
-&lt;li>Double-click &lt;strong>Dawnguard.esm&lt;/strong> (now displayed in orange), then double-click &lt;strong>Cell&lt;/strong>.&lt;/li>
-&lt;li>Find the following cell (highlighted in red) in the list and select it:
-&lt;ul>
-&lt;li>&lt;code>00016BCF RiftenRaggedFlagon&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
+&lt;li>Double-click &lt;strong>Dawnguard.esm&lt;/strong>, then double-click &lt;strong>Cell&lt;/strong>.&lt;/li>
+&lt;li>Navigate to &lt;code>Block 5\Sub-Block 3&lt;/code> and select the record highlighted with red: &lt;code>00016BCF RiftenRaggedFlagon&lt;/code>.&lt;/li>
 &lt;li>Scroll down in the right pane to the bottom until you can see the conflict in the line marked red.&lt;/li>
 &lt;li>Right-click &lt;code>RiftenRatwayZone [ECZN:0009FBB9]&lt;/code> in &lt;strong>Dawnguard.esm&lt;/strong> and select &lt;strong>Remove&lt;/strong> (see picture below).&lt;/li>
 &lt;li>There will be a warning, simply click &lt;strong>Yes I’m absolutely sure&lt;/strong>.&lt;/li>
