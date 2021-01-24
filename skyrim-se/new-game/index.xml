@@ -157,20 +157,25 @@
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/new-game/storm-lightning-mcm.jpg" alt="Storm Lightning MCM">&lt;/p>
 &lt;h2 id="timing-is-everything">Timing Is Everything&lt;/h2>
-&lt;p>Another large MCM, and one you should configure now, at the start of the game as it affects many quests that start very early on in Vanilla. I’ve personally increased the Dawnguard level requirements to 30+ and set Dragonborn to start only after Alduin’s defeat but this is all down to your preferences and plans for this playthrough.&lt;/p>
-&lt;p>Thanks to the FISSES support, it is also possible to load, save and share custom presets through the MCM (&lt;strong>Extra Options&lt;/strong> tab).&lt;/p>
+&lt;p>Another large MCM, and one you should configure now, at the start of the game as it affects many quests that start very early on in Vanilla. You can either leave the settings on default, tweak them, or apply my preset that we installed earlier. You can also apply my preset and &lt;em>then&lt;/em> tweak whatever you dislike about it.&lt;/p>
+&lt;p>To apply the custom preset, do the following:&lt;/p>
+&lt;ul>
+&lt;li>Go to the &lt;strong>Extra Options&lt;/strong> tab in the Timing Is Everything MCM.&lt;/li>
+&lt;li>Click &lt;strong>Load Preset&lt;/strong> and confirm.&lt;/li>
+&lt;li>You will be asked not the leave the MCM before the process is complete. Confirm again.&lt;/li>
+&lt;li>All values will be updated. Click &lt;strong>Okay&lt;/strong> to close the final message box.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/new-game/tie-mcm.jpg" alt="TIE MCM">&lt;/p>
 &lt;h2 id="trade--barter">Trade &amp;amp; Barter&lt;/h2>
 &lt;ul>
 &lt;li>Under &lt;strong>Barter Rates&lt;/strong> &amp;raquo; &lt;strong>Settings&lt;/strong>, check the &lt;strong>Modify Barter Settings&lt;/strong> box.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/new-game/trade-barter-mcm.jpg" alt="Trade and Barter MCM">&lt;/p>
 &lt;h2 id="wonders-of-weather">Wonders of Weather&lt;/h2>
+&lt;p>This is optional and personal preference.&lt;/p>
 &lt;ul>
 &lt;li>Under &lt;strong>Rainsplashes&lt;/strong>, set &lt;strong>Level&lt;/strong> to &lt;strong>Disabled&lt;/strong> to turn the effect off.&lt;/li>
 &lt;/ul>
-&lt;blockquote>
-&lt;p>This is done to prevent CTDs.&lt;/p>
-&lt;/blockquote>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/new-game/wow-mcm.jpg" alt="Wonders of Weather MCM">&lt;/p>
 &lt;h2 id="starting-the-game">Starting the game&lt;/h2>
 &lt;p>Once you’re done configuring everything, save the game manually. Then talk to the Statue of Mara, select one of the options and interact with the bed in the corner to truly start your playthrough.&lt;/p>
