@@ -64,13 +64,6 @@
 &lt;li>Uncheck &lt;strong>Configuration Spell&lt;/strong> (redundant when you can access the MCM).&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/new-game/cw-mcm.jpg" alt="Cathedral Weathers MCM">&lt;/p>
-&lt;h2 id="diverse-dragons-collection">Diverse Dragons Collection&lt;/h2>
-&lt;ul>
-&lt;li>Open the MCM once, then exit it.&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>By doing so, the mod will recognise that you have SKSE and SkyUI installed and automatically removes its configuration tool from your Powers menu.&lt;/p>
-&lt;/blockquote>
 &lt;h2 id="follower-framework">Follower Framework&lt;/h2>
 &lt;h3 id="npc-behaviour-optional">NPC Behaviour (optional)&lt;/h3>
 &lt;ul>
@@ -210,4 +203,158 @@ AmbientLightingIntensityInteriorNight=0.75
 &lt;blockquote>
 &lt;p>In the PostPassFX section you can also toggle other effects such as Film Grain, Vignette, and Letterbox.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim/new-game/serios-switch-lut.png" alt="Serios LUT">&lt;/p></description></item></channel></rss>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim/new-game/serios-switch-lut.png" alt="Serios LUT">&lt;/p></description></item><item><title>Skyrim-Se: Gameplay Guide</title><link>https://thephoenixflavour.com/skyrim-se/new-game/gameplay-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/new-game/gameplay-guide/</guid><description>
+&lt;h2 id="perks--leveling">Perks &amp;amp; Leveling&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2783">Mysticism - A Magic Overhaul&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30191">Adamant - A Perk Overhaul&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/35366">Skyrim Uncapper - Adamant Arena&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="vanilla-vs-tpf">Vanilla vs TPF&lt;/h3>
+&lt;p>In vanilla Skyrim, you gain levels by increasing your proficiency in various skills. Proficiency is gained by using said skills. For example, if you sneak a lot around enemies, your sneak skill will eventually increase which will also give you progress toward the next level up. Leveling up, you will then be given a choice between the three main attributes (Health, Stamina, Magicka) as well as a perk point.&lt;/p>
+&lt;p>In TPF, there are some differences you ought to be aware of. The rate at which you gain skill progression, level-ups, perk points, and attributes is controlled by Cheshyr’s Skyrim Uncapper preset for Adamant and Arena, our perk and encounter zone overhaul respectively.&lt;/p>
+&lt;p>For example, the preset rebalances crafting skill gains so that they don’t contribute as much to your overall progression toward the next level. Otherwise, due to the abundance of crafting material, you would be able to quickly grind out a few levels with crafting alone. If skill gain for crafting professions was simply slowed down, increasing your skill level for access to higher level perks would become a frustrating grind.&lt;/p>
+&lt;h3 id="leveling-up">Leveling Up&lt;/h3>
+&lt;p>The speed at which you level up (which is determined by how quickly you gain skill proficiency and how much the gained skill proficiency progresses you toward the next level-up) is adjusted for different periods in your playthrough. Leveling slows down after level 10 and picks up again after level 30, meaning you will spend a good deal more time between level 10 and 30 than in vanilla.&lt;/p>
+&lt;p>This makes sense in multiple ways: The leveled loot and encounter system of vanilla Skyrim will progress you very quickly through loot tiers and enemy variants until it spits you out north of level 35, having seen the vast majority of what the game has to offer. By slowing down progression before that happens, you spend more time in that part of the game where leveling up constantly unlocks new enemy types and gear variants as you play. This part of the game is also where many of the unique quests unlock, Daedric quests among them. You’ll be collecting your first artifacts and catch glimpses of what you will become.&lt;/p>
+&lt;p>In order to keep your own progression interesting, you will be awarded a bonus perk point at regular intervals when leveling up.&lt;/p>
+&lt;h3 id="legendary-skills">Legendary Skills&lt;/h3>
+&lt;p>Legendary Skills
+The ability to reset skills to “Legendary” was added in vanilla Skyrim to prevent the player from “wasting” skill gain on skills they already brought to 100. This essentially removes any level cap (like the previous 81) as you can simply reset and re-level any skill, and continue progressing toward another level-up. Unfortunately, making a skill “Legendary” would reset to skill level 15 which means you have to start all over again.&lt;/p>
+&lt;p>With Cheshyr’s Uncapper, you will be able to reset a skill from skill level 90 onward. This gives you the choice to skip the grind from skill level 90 to 100 and reset immediately at the cost of quicker access to the “capstone perk” which becomes available at skill level 100. Thankfully, if you choose to reset the skill, you will be set back to skill level 40 instead of 15, meaning you can retake essential perks immediately.&lt;/p>
+&lt;h3 id="perks">Perks&lt;/h3>
+&lt;p>The perk trees in TPF are from SimonMagus’ overhaul Adamant for which Cheshyr’s Skyrim Uncapper preset was made specifically. This allows for some neat synergy between the two. Adamant also requires Simon’s magic overhaul Mysticism which similarly allows the two mods to play off each other.&lt;/p>
+&lt;p>&lt;strong>Some key features:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Spells and related perks finally scale and remain strong options in the late game which is not the case in vanilla.&lt;/li>
+&lt;li>Shouts will also scale in strength based on your Speech level and advance your Speech skill.&lt;/li>
+&lt;li>Support for unarmed combat (see Combat Styles section).&lt;/li>
+&lt;li>Perks that activate when wearing a “full set” of heavy or light armor work with only three pieces worn (no need for a helmet).&lt;/li>
+&lt;/ul>
+&lt;p>Adamant perks are “vanilla plus”, meaning they feel very similar to the original perk trees but with noticeably less filler character. Capstone perks (those unlocked at skill level 100) are powerful and worthy of the grind unlike many of the lackluster vanilla equivalents. For example, in vanilla the capstone perk for Archery gives you a 15% chance to paralyze your target. Adamant’s Archery capstone perk with guaranteed critical damage to enemies at full health is a great deal stronger and more rewarding in comparison.&lt;/p>
+&lt;p>&lt;strong>Not-quite-removed perks:&lt;/strong>&lt;/p>
+&lt;p>Several vanilla perks were removed from their perk trees but added to the player automatically. These are:&lt;/p>
+&lt;ul>
+&lt;li>Dual casting for all mage schools.&lt;/li>
+&lt;li>Zooming in with ranged bow and crossbow (Eagle Eye).&lt;/li>
+&lt;li>Ability to improve enchanted equipment (Arcane Blacksmith).&lt;/li>
+&lt;li>Ability to press and hold the attack key while blocking to perform a Power Bash.&lt;/li>
+&lt;li>25% greater magnitude for mixed potions (Benefactor).&lt;/li>
+&lt;li>Ability to press the sprint button while sneaking to perform a Silent Roll.&lt;/li>
+&lt;li>Ability to perform a power attack while sprinting with one-handed weapons for additional damage (Critical Charge).&lt;/li>
+&lt;li>Ability to perform a power attack while sprinting with two-handed weapons for additional damage (Greater Critical Charge).&lt;/li>
+&lt;li>Increased range for summoning and conjuration spells (Summoner).&lt;/li>
+&lt;li>Increased range for placing rune spells (Rune Master).&lt;/li>
+&lt;/ul>
+&lt;h3 id="respeccing">Respeccing&lt;/h3>
+&lt;p>If you want are unhappy with how you spent your perk points, there are multiple ways to reset them:&lt;/p>
+&lt;p>&lt;strong>Make a skill legendary:&lt;/strong>&lt;/p>
+&lt;p>Upon reaching skill level 90 in any skill, you can make it &amp;ldquo;Legendary&amp;rdquo;, resetting it to level 40 and refunding all perk points. See Legendary Skills section.&lt;/p>
+&lt;p>&lt;strong>Complete the Dragonborn DLC main quest:&lt;/strong>&lt;/p>
+&lt;p>At the end of the main quest on Solstheim, you have the option to refund all perks from any of your perk trees at the cost of one Dragon Soul per tree.&lt;/p>
+&lt;p>&lt;strong>Buy a Draught of Fate Unwound:&lt;/strong>&lt;/p>
+&lt;p>This potion was added by &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1960?tab=files">Ish&amp;rsquo;s Respec Mod&lt;/a> and will automatically refund all your perks upon consuming it. Other than a relatively high price, there are no downsides associated with it. It was added primarily to allow users to refund perks before updating the perk overhaul, Adamant, as otherwise points spent on removed perks might be lost.&lt;/p>
+&lt;p>You can buy a Draught of Fate Unwound at &lt;a href="https://en.uesp.net/wiki/Skyrim:Elgrim%27s_Elixirs">Elgrim&amp;rsquo;s Elixirs&lt;/a> in Riften.&lt;/p>
+&lt;h2 id="smithing">Smithing&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30191">Adamant - A Perk Overhaul&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18994">Weapon Armor Clothing and Clutter Fixes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43441">Lightweight Smithing Tweaks&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5013">Craftable Torches&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3385">Craftable Lockpicks&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="perk-tree">Perk Tree&lt;/h3>
+&lt;p>Adamant’s smithing perk tree fixes inconsistencies with the vanilla one where perks were split into light and heavy. This makes sense for armors where that distinction is made but not for weapons. A heavy armor character may still want to upgrade their Orcish sword to Glass which requires a lower skill level than Ebony but it does require the other “light” perks which the heavy armor character likely didn’t take. It’s inconvenient to say the least.&lt;/p>
+&lt;p>Adamant fixes this by splitting the smithing perk tree into a crafting and a tempering branch. Progressing the crafting branch will unlock recipes for stronger equipment tiers while the tempering branch will improve your ability to upgrade your equipment.&lt;/p>
+&lt;p>&lt;strong>Crafting Perks:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Basic Styles (20):&lt;/strong> Steel, Leather&lt;/li>
+&lt;li>&lt;strong>Journeyman Styles (40):&lt;/strong> Dwarven, Scaled, Steel Plate&lt;/li>
+&lt;li>&lt;strong>Rare Styles (50):&lt;/strong> Elven, Chitin&lt;/li>
+&lt;li>&lt;strong>Intermediate Styles (60):&lt;/strong> Nordic, Orcish&lt;/li>
+&lt;li>&lt;strong>Exotic Styles (70):&lt;/strong> Glass, Stalhrim&lt;/li>
+&lt;li>&lt;strong>Advanced Styles (80):&lt;/strong> Ebony&lt;/li>
+&lt;li>&lt;strong>Mythic Styles (100):&lt;/strong> Daedric, Dragon&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Temper Perks:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Blacksmith (10/50):&lt;/strong> You can temper all items by one/two additional tiers.&lt;/li>
+&lt;li>&lt;strong>Armorsmith (30):&lt;/strong> You can temper armor and shields by one additional tier.&lt;/li>
+&lt;li>&lt;strong>Weaponsmith (60):&lt;/strong> You can temper weapons by one additional tier.&lt;/li>
+&lt;li>&lt;strong>Forgemaster (90):&lt;/strong> You can temper all items by one additional tier.&lt;/li>
+&lt;/ul>
+&lt;h3 id="arcane-blacksmith">Arcane Blacksmith&lt;/h3>
+&lt;p>In vanilla, a fairly advanced perk is required to temper enchanted equipment: Arcane Blacksmith. The perk is unlocked at skill level 60. In Adamant, this perk was removed from the perk tree and given to the player automatically. The idea is that being forced to decide between a weak but enchanted weapon or a strong unenchanted item is not particularly fun. Instead you will now be able to temper your enchanted gear in order to make it useable at your level without having to level to Smithing 60 and spend a perk.&lt;/p>
+&lt;h3 id="silver-and-gold-smithing">Silver and Gold Smithing&lt;/h3>
+&lt;p>In Lightweight Smithing Tweaks, I added level 30 and 60 as requirements for Silver and Gold smithing respectively. This change was inspired by kryptopyr’s Complete Crafting Overhaul Redone and is supposed to prevent the player from gaining large amounts of money and skill gain early on from smashing together some gems and ingots. In vanilla you can do this as soon as you have the materials, even if you have the smithing skills of a five-year-old.&lt;/p>
+&lt;p>For consistency, crafting the Gilded Elven Cuirass also requires Smithing 60 as well as one Gold Ingot.&lt;/p>
+&lt;h3 id="minor-changes">Minor Changes&lt;/h3>
+&lt;ul>
+&lt;li>You can now craft Lockpicks and Torches.&lt;/li>
+&lt;li>DLC-added recipes unlock after completing the intro quest to the respective DLC.&lt;/li>
+&lt;li>Dwemer scrap recipes don’t appear in the smelter menu unless you have at least one piece of it in your inventory.&lt;/li>
+&lt;/ul>
+&lt;h2 id="combat-styles">Combat Styles&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2783">Mysticism - A Magic Overhaul&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30191">Adamant - A Perk Overhaul&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="sneak-archer">Sneak Archer&lt;/h3>
+&lt;p>One of the strongest and most beloved vanilla builds remains viable and powerful in TPF. Rejoice, sneak archers!&lt;/p>
+&lt;h3 id="unarmed-combat">Unarmed Combat&lt;/h3>
+&lt;p>With Adamant, there is finally support for an unarmed playthrough. Three perks in the Light Armor perk boost your unarmed damage specifically. Additionally, unarmed damage scales with your Light Armor skill and you gain Light Armor experience from unarmed fighting.&lt;/p>
+&lt;h2 id="companions">Companions&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18076">Nether&amp;rsquo;s Follower Framework&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrim/mods/91395">Irondusk&amp;rsquo;s Saddlebags&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38348">Misc Tweaks - Better Horses&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="horses">Horses&lt;/h3>
+&lt;p>While TPF does not feature a full horse overhaul, there are three mods that make horses a great deal more convenient. For one, they will no longer attack and instead flee upon entering combat. The five buyable horses as well as the unique Frost were also set to Essential so they will not die if they do get hit.&lt;/p>
+&lt;p>&lt;strong>Saddlebags:&lt;/strong>&lt;/p>
+&lt;p>With Irondusk&amp;rsquo;s mod Saddlebags, you will be able to store up to 500 weight units of items on your horse. Simply interact with your horse while crouching and you will be prompted to open your saddle bags.&lt;/p>
+&lt;p>&lt;strong>Horse Whistle:&lt;/strong>&lt;/p>
+&lt;p>Nether&amp;rsquo;s Follower Framework includes a hotkey for calling your horse which you can define in the NFF MCM.&lt;/p>
+&lt;h2 id="shrines-and-divines">Shrines and Divines&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30191">Adamantine Addons - Shrines and Amulets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38348">Misc Tweaks - Shrines Don&amp;rsquo;t Cure Diseases&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="blessings">Blessings&lt;/h3>
+&lt;p>Upon interacting with a shrine, you will receive a blessing from the associated divine that lasts for 8 hours. You can only have one blessing at a time. These blessings were tweaked by Adamant&amp;rsquo;s Shrines and Amulets in TPF.&lt;/p>
+&lt;p>The Addon also tweaks the effects from amulets of the divines to match the updated shrine blessings. In vanilla they were identical except for Julianos and Kynareth whose amulets increased Magicka and Stamina by 10 points respectively while the shrines awarded +25 points. Their amulets now also grant +25 points in the respective attribute.&lt;/p>
+&lt;p>&lt;strong>Effects of blessings received at shrines and granted by amulets:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Akatosh:&lt;/strong> Magicka regenerates 25% faster (Vanilla: 10%).&lt;/li>
+&lt;li>&lt;strong>Arkay:&lt;/strong> Health is increased by 25pts (same as vanilla).&lt;/li>
+&lt;li>&lt;strong>Dibella:&lt;/strong> Skills improve 10% faster (Vanilla: +10 Persuasion).&lt;/li>
+&lt;li>&lt;strong>Julianos:&lt;/strong> Magicka is increased by 25pts (Shrines same as vanilla, Vanilla Amulets: +10pts).&lt;/li>
+&lt;li>&lt;strong>Kynareth:&lt;/strong> Stamina is increased by 25pts (Shrines same as vanilla, Vanilla Amulets: +10pts).&lt;/li>
+&lt;li>&lt;strong>Mara:&lt;/strong> Restoration spells cost 10% less Magicka (Vanilla: +10 Restoration).&lt;/li>
+&lt;li>&lt;strong>Stendarr:&lt;/strong> Stamina regenerates 25% faster (Vanilla: +10 Blocking).&lt;/li>
+&lt;li>&lt;strong>Talos:&lt;/strong> Shout cooldown is reduced by 10% (Vanilla: 20%).&lt;/li>
+&lt;li>&lt;strong>Zenithar:&lt;/strong> Carry weight is increased by 25pts (Vanilla: +10 Barter).&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Shrines no longer cure diseases upon interacting with them. You will need to buy, find, or craft a Cure Disease potion.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="pilgrim-perk">Pilgrim Perk&lt;/h3>
+&lt;p>In Adamant, a perk from the Restoration tree directly affects divine blessings. The first level of &lt;strong>Pilgrim&lt;/strong> (Restoration 30) increases the strength of divine blessings received to shrines while the second level (Restoration 60) adds an additional effect to each blessing.&lt;/p>
+&lt;p>&lt;strong>Additional effects gained with Pilgrim 2:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Jaws of Akatosh:&lt;/strong> You move 10% faster.&lt;/li>
+&lt;li>&lt;strong>Breath of Arkay:&lt;/strong> You restore 2 health per second.&lt;/li>
+&lt;li>&lt;strong>Beauty of Dibella:&lt;/strong> You deal 10% more damage to humans, elves, and beast races.&lt;/li>
+&lt;li>&lt;strong>Law of Julianos:&lt;/strong> All spells cost 10% less.&lt;/li>
+&lt;li>&lt;strong>Way of Kynareth:&lt;/strong> You spent 25% less Stamina when power attacking or drawing a bow.&lt;/li>
+&lt;li>&lt;strong>Benevolence of Mara:&lt;/strong> Healing spells are 10% stronger.&lt;/li>
+&lt;li>&lt;strong>Mercy of Stendarr:&lt;/strong> You deal 10% more damage to the undead.&lt;/li>
+&lt;li>&lt;strong>Fist of Talos:&lt;/strong> Your Shouts deal 25% more damage.&lt;/li>
+&lt;li>&lt;strong>Scales of Zenithar:&lt;/strong> Buying and selling prices are 25% better.&lt;/li>
+&lt;/ul>
+&lt;h3 id="divine-agent">Divine Agent&lt;/h3>
+&lt;p>There are two unique effects in Skyrim as blessings granted by Mara and Dibella respectively upon completing quests in their honor. These quests are &lt;a href="https://en.uesp.net/wiki/Skyrim:The_Book_of_Love">The Book of Love&lt;/a> for Mara (which in TPF occurs only after completing &lt;a href="https://en.uesp.net/wiki/Skyrim:Spread_the_Love">Spread the Love&lt;/a>) and &lt;a href="https://en.uesp.net/wiki/Skyrim:The_Heart_of_Dibella">The Heart of Dibella&lt;/a> for (you guessed it) Dibella.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Agent of Mara:&lt;/strong> Magic Resistance is increased by 10% (Vanilla: 15%).&lt;/li>
+&lt;li>&lt;strong>Agent of Dibella:&lt;/strong> Skills improve 10% faster (Vanilla: deal more damage to members of the opposite sex).&lt;/li>
+&lt;/ul></description></item></channel></rss>
