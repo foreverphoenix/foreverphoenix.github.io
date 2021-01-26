@@ -64,48 +64,8 @@
 &lt;li>Uncheck &lt;strong>Configuration Spell&lt;/strong> (redundant when you can access the MCM).&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/new-game/cw-mcm.jpg" alt="Cathedral Weathers MCM">&lt;/p>
-&lt;h2 id="follower-framework">Follower Framework&lt;/h2>
-&lt;h3 id="npc-behaviour-optional">NPC Behaviour (optional)&lt;/h3>
-&lt;ul>
-&lt;li>Turn on the following options under &lt;strong>Activity&lt;/strong> &amp;raquo; &lt;strong>Sandboxing&lt;/strong>:
-&lt;ul>
-&lt;li>Ignore Special Furniture&lt;/li>
-&lt;li>Stop During Player Dialogue&lt;/li>
-&lt;li>Only Sandbox In Town&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>My preferences. Optional.&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="horse-whistle-optional">Horse Whistle (optional)&lt;/h3>
-&lt;p>NFF features a bindable horse whistle hotkey which you can press to call the last ridden mount to your location.&lt;/p>
-&lt;ul>
-&lt;li>Under &lt;strong>Activity&lt;/strong> &amp;raquo; &lt;strong>Player Horse&lt;/strong>, bind a &lt;strong>Call Player Horse Hotkey&lt;/strong>.&lt;/li>
-&lt;/ul>
-&lt;h3 id="regard-system-optional">Regard System (optional)&lt;/h3>
-&lt;ul>
-&lt;li>Disable the Regard system under &lt;strong>Gameplay&lt;/strong> &amp;raquo; &lt;strong>Regard&lt;/strong>:&lt;/li>
-&lt;li>Allow Regard: Off&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>This is completely optional. The feature works perfectly fine, I just don&amp;rsquo;t like it personally.&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="additional-powers-optional">Additional Powers (optional)&lt;/h3>
-&lt;ul>
-&lt;li>Disable the &lt;strong>Command Followers&lt;/strong> ability under &lt;strong>System&lt;/strong> &amp;raquo; &lt;strong>Casted Abilities&lt;/strong> to further de-clutter your Powers menu.&lt;/li>
-&lt;li>You can define a hotkey for it above.&lt;/li>
-&lt;/ul>
-&lt;h3 id="consoleutil-support">ConsoleUtil Support&lt;/h3>
-&lt;ul>
-&lt;li>Under &lt;strong>System&lt;/strong> &amp;raquo; &lt;strong>Core&lt;/strong>, check the &lt;strong>Enable ConsoleUtil&lt;/strong> option.&lt;/li>
-&lt;/ul>
 &lt;h2 id="genuinely-intelligent-soul-traps">Genuinely Intelligent Soul Traps&lt;/h2>
 &lt;p>This mod - while focusing on bug fixes and soul gem multithreading - comes with some very nifty level requirement options. If you like, you can set level requirements for each of its special features as well as the for capturing of each tier of souls. Toggle and adjust this system in the &lt;strong>Leveling&lt;/strong> tab.&lt;/p>
-&lt;h2 id="growl---werebeasts-of-skyrim">Growl - Werebeasts of Skyrim&lt;/h2>
-&lt;ul>
-&lt;li>Toggle on &lt;strong>Invulnerable During Transformation&lt;/strong>.&lt;/li>
-&lt;/ul>
 &lt;h2 id="immersive-hud">Immersive HUD&lt;/h2>
 &lt;h3 id="toggle-settings-optional">Toggle Settings (optional)&lt;/h3>
 &lt;ul>
@@ -177,33 +137,7 @@
 &lt;p>For the best experience &lt;strong>I recommend the vanilla start&lt;/strong> as it is impossible to balance all the various options that AS LAL offers.&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;strong>Good luck and have fun!&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/new-game/select-game-start.jpg" alt="Select game start">&lt;/p></description></item><item><title>Skyrim-Se: ENB Tweaks</title><link>https://thephoenixflavour.com/skyrim-se/new-game/enb-tweaks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/new-game/enb-tweaks/</guid><description>
-&lt;p>Open the ENB GUI by pressing Shift+Enter. You can tweak the presets there and most changes will be visible instantly. Click &lt;strong>SAVE CONFIGURATION&lt;/strong> after changing anything.&lt;/p>
-&lt;p>This page currently only includes instructions for Serio&amp;rsquo;s ENB. If you are using another preset (such as the default Rudy ENB), you can still tweak anything you like through the UI, but there are no instructions / recommendations at this time.&lt;/p>
-&lt;h2 id="serios-enb">Serio&amp;rsquo;s ENB&lt;/h2>
-&lt;h3 id="detailed-shadows">Detailed Shadows&lt;/h3>
-&lt;p>I personally find grass to be better looking when the Detailed Shadows effect is disabled. You can do so by going to &lt;strong>EFFECT&lt;/strong> and unchecking &lt;strong>EnableDetailedShadows&lt;/strong>.&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim/new-game/serios-disable-detailed-shadows.png" alt="Serios Disable Detailed Shadows">&lt;/p>
-&lt;h3 id="interior-brightness">Interior Brightness&lt;/h3>
-&lt;p>Serio&amp;rsquo;s was tuned for the ELE lighting overhaul and will be too bright for Luminosity. Go into an interior and tweak the following values:&lt;/p>
-&lt;pre>&lt;code>[ENVIRONMENT]
-AmbientLightingIntensityInteriorDay=0.85
-AmbientLightingIntensityInteriorNight=0.75
-&lt;/code>&lt;/pre>&lt;blockquote>
-&lt;p>The exact values are merely suggestions. Feel free to tweak the brightness as you see fit.&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim/new-game/serios-tweak-interior-lighting.png" alt="Serios Interior Brightness">&lt;/p>
-&lt;h3 id="luts">LUTs&lt;/h3>
-&lt;p>LUTs are different color grading tables that change the overall tone of the image. Serio&amp;rsquo;s features eleven different LUTs that you can enable and switch between at will.&lt;/p>
-&lt;ul>
-&lt;li>Open the &lt;strong>ENBEFFECTPOSTPASS.FX&lt;/strong> section in the right pane.&lt;/li>
-&lt;li>Check the &lt;strong>Enable LUT&lt;/strong> option and cycle through the available LUTs under &lt;strong>Gradient Tint Type&lt;/strong>.&lt;/li>
-&lt;li>By customising the &lt;strong>Gradient Tint Amount&lt;/strong>, you can tweak how strong the color adjustment should be.&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>In the PostPassFX section you can also toggle other effects such as Film Grain, Vignette, and Letterbox.&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim/new-game/serios-switch-lut.png" alt="Serios LUT">&lt;/p></description></item><item><title>Skyrim-Se: Gameplay Guide</title><link>https://thephoenixflavour.com/skyrim-se/new-game/gameplay-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/new-game/gameplay-guide/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/new-game/select-game-start.jpg" alt="Select game start">&lt;/p></description></item><item><title>Skyrim-Se: Gameplay Guide</title><link>https://thephoenixflavour.com/skyrim-se/new-game/gameplay-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/new-game/gameplay-guide/</guid><description>
 &lt;h2 id="perks--leveling">Perks &amp;amp; Leveling&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2783">Mysticism - A Magic Overhaul&lt;/a>&lt;/li>
@@ -305,16 +239,14 @@ The ability to reset skills to “Legendary” was added in vanilla Skyrim to pr
 &lt;p>With Adamant, there is finally support for an unarmed playthrough. Three perks in the Light Armor perk boost your unarmed damage specifically. Additionally, unarmed damage scales with your Light Armor skill and you gain Light Armor experience from unarmed fighting.&lt;/p>
 &lt;h2 id="companions">Companions&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18076">Nether&amp;rsquo;s Follower Framework&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrim/mods/91395">Irondusk&amp;rsquo;s Saddlebags&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38348">Misc Tweaks - Better Horses&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="horses">Horses&lt;/h3>
 &lt;p>While TPF does not feature a full horse overhaul, there are three mods that make horses a great deal more convenient. For one, they will no longer attack and instead flee upon entering combat. The five buyable horses as well as the unique Frost were also set to Essential so they will not die if they do get hit.&lt;/p>
-&lt;p>&lt;strong>Saddlebags:&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>New functionality:&lt;/strong>&lt;/p>
 &lt;p>With Irondusk&amp;rsquo;s mod Saddlebags, you will be able to store up to 500 weight units of items on your horse. Simply interact with your horse while crouching and you will be prompted to open your saddle bags.&lt;/p>
-&lt;p>&lt;strong>Horse Whistle:&lt;/strong>&lt;/p>
-&lt;p>Nether&amp;rsquo;s Follower Framework includes a hotkey for calling your horse which you can define in the NFF MCM.&lt;/p>
+&lt;p>The mod also adds a Horse Call power which you can use to teleport your last ridden horse to your location.&lt;/p>
 &lt;h2 id="shrines-and-divines">Shrines and Divines&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30191">Adamantine Addons - Shrines and Amulets&lt;/a>&lt;/li>

@@ -61,6 +61,8 @@
 &lt;li>Realistic-Voice.esp &lt;strong>compact FormIDs&lt;/strong>&lt;/li>
 &lt;li>No NPC Greetings.esp&lt;/li>
 &lt;li>Don&amp;rsquo;tTalkWithYourMouthFull.esp&lt;/li>
+&lt;li>Followers Don&amp;rsquo;t Draw Weapons.esp&lt;/li>
+&lt;li>sandboxcylinderheight.esp&lt;/li>
 &lt;li>Random Encounter Tweaks.esp&lt;/li>
 &lt;li>dD-No Spinning Death Animation Merged.esp&lt;/li>
 &lt;li>SparklesSE.esp&lt;/li>
@@ -275,7 +277,7 @@
 &lt;ul>
 &lt;li>Check &lt;strong>Enhanced Landscapes - Solstheim 3D Trees&lt;/strong> in your mod order (&lt;strong>TREES &amp;amp; PLANTS&lt;/strong> separator).&lt;/li>
 &lt;/ul>
-&lt;h2 id="dyndolod---lod-generation">DynDOLOD - LOD Generation&lt;/h2>
+&lt;h2 id="dyndolod-generation">DynDOLOD Generation&lt;/h2>
 &lt;blockquote>
 &lt;p>Continue here for both 2D or 3D LOD.&lt;/p>
 &lt;/blockquote>
@@ -293,7 +295,7 @@
 &lt;/li>
 &lt;li>Double-check with the picture below that everything is configured correctly, then click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;strong>Step away from your PC while DynDOLOD is working.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Step away from your PC while DynDOLOD is working.&lt;/strong> This may take around 20-30 minutes.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/dyndolod-settings.png" alt="DynDOLOD Settings">&lt;/p>
 &lt;h2 id="dyndolod-output">DynDOLOD Output&lt;/h2>
 &lt;ul>
@@ -305,7 +307,20 @@
 &lt;li>Move &lt;strong>DynDOLOD.esm&lt;/strong> below your other ESMs at the top of your load order.&lt;/li>
 &lt;li>Leave &lt;strong>DynDOLOD.esp&lt;/strong> at the very bottom as the last plugin.&lt;/li>
 &lt;li>Make sure both plugins are activated.&lt;/li>
-&lt;/ul></description></item><item><title>Skyrim-Se: Occlusion</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/occlusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/occlusion/</guid><description>
+&lt;/ul>
+&lt;h2 id="dyndolod-loading-screens">DynDOLOD Loading Screens&lt;/h2>
+&lt;p>As DynDOLOD was such a revolutionary mod when it came out, there&amp;rsquo;s been an ongoing joke that one had to give their firstborn to the author, sheson, for using it - like in the &lt;a href="https://en.wikipedia.org/wiki/Rumpelstiltskin">fairy tale&lt;/a>. Also there&amp;rsquo;s a golden cow. Both memes were added to the mod as easter eggs and while the cow is optional in the FOMOD, the &lt;a href="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/dyndolod-loading-screen.png">three loading screens&lt;/a> featuring those memes are part of the generated DynDOLOD.esm.&lt;/p>
+&lt;p>Removing the loading screens can be done easily in SSEEdit after generating DynDOLOD. You can skip this step if they don&amp;rsquo;t bother you.&lt;/p>
+&lt;ul>
+&lt;li>Run &lt;strong>SSEEdit&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Click &lt;strong>Yes&lt;/strong> in the plugin selection window to load all plugins.&lt;/li>
+&lt;li>Wait until SSEEdit has loaded up your plugins.&lt;/li>
+&lt;li>Double-click &lt;strong>DynDOLOD.esm&lt;/strong> in the left pane.&lt;/li>
+&lt;li>Right-click the &lt;strong>Load Screen&lt;/strong> section and click &lt;strong>Remove&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>Yes, I&amp;rsquo;m absolutely sure&lt;/strong> and confirm deletion of all records.&lt;/li>
+&lt;li>Close SSEEdit and click &lt;strong>OK&lt;/strong> to save your changes.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/delete-dyndolod-loadscreens.png" alt="Delete DynDOLOD Load Screens">&lt;/p></description></item><item><title>Skyrim-Se: Occlusion</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/occlusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/occlusion/</guid><description>
 &lt;h2 id="sselodgen">SSELODGen&lt;/h2>
 &lt;p>While SSELODGen is primarily made to regenerate terrain LOD, we are only going to use it to rebuilt occlusion data. Cathedral Landscape is already packaged with specially made terrain LOD to minimize pop-in and seams.&lt;/p>
 &lt;ul>
@@ -342,7 +357,121 @@
 &lt;li>Enter &lt;strong>SSELODGen - Occlusion Data&lt;/strong> as the name and click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;li>Activate the mod in the mod order.&lt;/li>
 &lt;li>Make sure &lt;strong>Occlusion.esp&lt;/strong> is at the bottom of your load order and checked.&lt;/li>
-&lt;/ul></description></item><item><title>Skyrim-Se: First Launch</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/first-launch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/first-launch/</guid><description>
+&lt;/ul></description></item><item><title>Skyrim-Se: ENBSeries</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/enbseries/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/enbseries/</guid><description>
+&lt;h2 id="what-is-enbseries">What is ENBSeries?&lt;/h2>
+&lt;p>ENBSeries is a post-processing injector by Boris Vorontsov. Unlike ReShade, it is not universal but built for specific games and hooks directly into the engine. Effects are therefore highly advanced and specific to each games. ENB is also capable of fixing bugs and improving performance plus it offers additional features such as VSYNC, a screenshot hotkey, and a toggleable FPS counter.&lt;/p>
+&lt;p>The effects vary in their performance impact. A full preset, especially when Skyrim is run on high resolutions, can bring even high-end PCs to their knees. Fortunately, Skyrim SE with its generally improved performance runs a great deal better with ENBSeries presets and 60FPS+ on a reasonable resolution (1080p) are comfortably attainable on most machines.&lt;/p>
+&lt;p>TPF uses &lt;strong>Serio&amp;rsquo;s ENB&lt;/strong>, preset for Cathedral Weathers that is fairly performance-friendly and doesn&amp;rsquo;t break vanilla imagespaces (for Nighteye). For better compatibility with our lighting overhaul, we will be using a version of it tweaked specifically for the guide.&lt;/p>
+&lt;h3 id="is-installing-enbseries-mandatory">Is installing ENBSeries mandatory?&lt;/h3>
+&lt;p>Yes and no.&lt;/p>
+&lt;p>ENB and Serio&amp;rsquo;s preset are part of the guide. You are not supposed to skip these instructions. However, disabling ENBSeries is as simple as pressing a single key ingame or click &amp;ldquo;Uninstall&amp;rdquo; in ENB Man.&lt;/p>
+&lt;p>The problem is that the guide was made with ENB in mind. For example, Skyrim&amp;rsquo;s native ambient occlusion was disabled early on in the guide in favour of ENB AO. A number of mods installed up until this point are exclusively for ENB, fixing mesh brightness or adding effects.&lt;/p>
+&lt;p>Ultimately, you shouldn&amp;rsquo;t encounter any major issues when disabling ENB. If you don&amp;rsquo;t like the effect or find the performance impact too jarring, you can essentially skip this step or uninstall ENB later on. The point is that I will not be responsible for any visual inconsistencies or bugs stemming from a user&amp;rsquo;s refusal to use ENBSeries.&lt;/p>
+&lt;p>If you choose not to use ENBSeries, it is advisable to re-enable Skyrim&amp;rsquo;s native ambient occlusion and lower the particle count, both done in the SkyrimPrefs.ini file.&lt;/p>
+&lt;h2 id="enbman">ENBMan&lt;/h2>
+&lt;p>ENBMan is one of several ENB manager tools available. It happens to my favourite which is why we are using it for TPF. One downside of ENBMan is that importing files directly from archives usually doesn&amp;rsquo;t work so an extra step is required, extracting files, and then importing them in ENBMan. That&amp;rsquo;s a small inconvenience for an otherwise highy convenient tool though.&lt;/p>
+&lt;ul>
+&lt;li>Download &lt;a href="https://www.nexusmods.com/skyrim/mods/57620?tab=files">ENBMan&lt;/a> (the main file) manually from the Nexus.&lt;/li>
+&lt;li>Extract &lt;strong>ENBMan.exe&lt;/strong> to &lt;code>Your Modding Folder\Tools\ENB Man&lt;/code>.&lt;/li>
+&lt;li>Run &lt;strong>ENBMan.exe&lt;/strong> and click the green plus to add a new game.&lt;/li>
+&lt;li>Click the folder icon and point ENBMan to your &lt;strong>SkyrimSE.exe&lt;/strong> (located in your root folder).&lt;/li>
+&lt;li>You might want to edit the name to indicate that it’s the Special Edition (I’ve changed it to &lt;strong>Skyrim SE&lt;/strong>).&lt;/li>
+&lt;li>Click the green checkmark to confirm.&lt;/li>
+&lt;li>Double-click the new &lt;strong>Skyrim SE&lt;/strong> profile.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/enb-game-setup.png" alt="Game Setup">&lt;/p>
+&lt;h2 id="enbseries-binaries">ENBSeries Binaries&lt;/h2>
+&lt;ul>
+&lt;li>On the website for &lt;a href="http://enbdev.com/download_mod_tesskyrimse.htm">ENBSeries for Skyrim SE&lt;/a>, click on the latest version number (near the bottom).&lt;/li>
+&lt;li>Scroll down and click the &lt;strong>download&lt;/strong> below the changelog.&lt;/li>
+&lt;li>Open the downloaded archive and double-click the &lt;strong>WrapperVersion&lt;/strong> folder.&lt;/li>
+&lt;li>Extract the following files from the &lt;strong>WrapperVersion&lt;/strong> folder to &lt;code>Your Modding Folder\temp&lt;/code>:
+&lt;ul>
+&lt;li>d3d11.dll&lt;/li>
+&lt;li>d3dcompiler_46e.dll&lt;/li>
+&lt;li>enblocal.ini&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="import-to-enbman">Import to ENBMan&lt;/h3>
+&lt;ul>
+&lt;li>Back in ENBMan, click the arrow under &lt;strong>Binaries&lt;/strong> and select &lt;strong>Add&lt;/strong>.&lt;/li>
+&lt;li>Enter &lt;strong>ENBSeries&lt;/strong> and the version number as name (eg &lt;strong>ENBSeries 0.452&lt;/strong>).&lt;/li>
+&lt;li>Click the green checkmark to confirm.&lt;/li>
+&lt;li>Drag the three files from your temp folder into the &lt;strong>Binary&lt;/strong> window.&lt;/li>
+&lt;li>Click the green checkmark to confirm.&lt;/li>
+&lt;li>Delete the files from your &lt;strong>temp&lt;/strong> directory.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/install-enb-binaries.png" alt="Install ENB Binaries">&lt;/p>
+&lt;h2 id="global-ini-settings">Global INI Settings&lt;/h2>
+&lt;ul>
+&lt;li>Click the gears icon under &lt;strong>Global Settings&lt;/strong>.&lt;/li>
+&lt;li>A new window will come up. Click the green plus icon.&lt;/li>
+&lt;li>Enter &lt;strong>enblocal.ini&lt;/strong> as name. It will now appear in the list.&lt;/li>
+&lt;li>Double-click your new &lt;strong>enblocal.ini&lt;/strong>.&lt;/li>
+&lt;li>In the new window, click &lt;strong>Import Settings&lt;/strong> in the top bar.&lt;/li>
+&lt;li>Navigate to &lt;code>Your Modding Folder\Tools\ENBMan\Games\Skyrim SE\Binaries\ENBSeries 0.4xx&lt;/code>.&lt;/li>
+&lt;li>Double-click the &lt;strong>enblocal.ini&lt;/strong> inside to import it and check all boxes.&lt;/li>
+&lt;/ul>
+&lt;h3 id="better-hotkeys">Better Hotkeys&lt;/h3>
+&lt;p>I&amp;rsquo;m personally not a fan of the default ENB ingame hotkeys. &amp;ldquo;KeyUseEffect&amp;rdquo;, for instance, is on Shift+F12. At the same time, F12 is the Steam hotkey for &amp;ldquo;Take Screenshot&amp;rdquo;. You can see how that might result in many unwanted screenshots.&lt;/p>
+&lt;p>Check the screenshot below and mirror my values in the input section to get the following hotkeys:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>KeyCombination:&lt;/strong> Disabled.&lt;/li>
+&lt;li>&lt;strong>KeyDof:&lt;/strong> Disabled.&lt;/li>
+&lt;li>&lt;strong>KeyEditor:&lt;/strong> F11&lt;/li>
+&lt;li>&lt;strong>KeyFPSLimit:&lt;/strong> Disabled.&lt;/li>
+&lt;li>&lt;strong>KeyScreenshot:&lt;/strong> Disabled.&lt;/li>
+&lt;li>&lt;strong>KeyShowFPS:&lt;/strong> F7&lt;/li>
+&lt;li>&lt;strong>KeyUseEffect:&lt;/strong> F10&lt;/li>
+&lt;/ul>
+&lt;p>This means you can quickly toggle ENB ingame with F10, open the GUI to customise the preset with F11, and bring up a nifty FPS counter anytime with F7. No default keys are affected (like F5 and F9 for Quick Save and Quick Load respectively) and screenshots you can continue to take with F12 using the Steam overlay.&lt;/p>
+&lt;blockquote>
+&lt;p>If you want different hotkeys, use &lt;a href="https://keycode.info/">this super useful website&lt;/a> to figure out any key&amp;rsquo;s numeric value.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/enb-better-hotkeys.png" alt="ENB Better Hotkeys">&lt;/p>
+&lt;h3 id="save-global-configuration">Save Global Configuration&lt;/h3>
+&lt;ul>
+&lt;li>Click the green checkmark at the bottom, then click &lt;strong>Yes&lt;/strong> to confirm and save your changes.&lt;/li>
+&lt;li>Back in the &lt;strong>Global Configuration Files&lt;/strong> window, check the box next to &lt;strong>enblocal.ini.&lt;/strong>&lt;/li>
+&lt;li>Click the green checkmark to close the window.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/enb-global-ini.png" alt="ENB Better Hotkeys">&lt;/p>
+&lt;h2 id="serios-enb">Serio&amp;rsquo;s ENB&lt;/h2>
+&lt;ul>
+&lt;li>Open the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30506?tab=files">Serio&amp;rsquo;s ENB&lt;/a> mod page.&lt;/li>
+&lt;li>Download the &lt;strong>Serio&amp;rsquo;s ENB - TPF Edits&lt;/strong> miscellaneous file manually.&lt;/li>
+&lt;li>Open the downloaded archive and double-click the folder inside.&lt;/li>
+&lt;li>Extract the following files to &lt;code>Your Modding Folder\temp&lt;/code>:
+&lt;ul>
+&lt;li>enbseries&lt;/li>
+&lt;li>enblocal.ini&lt;/li>
+&lt;li>enbseries.ini&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="create-a-new-preset">Create a new preset&lt;/h3>
+&lt;ul>
+&lt;li>In ENBMan, click the arrow under &lt;strong>Presets&lt;/strong> and select &lt;strong>Blank preset&lt;/strong>.&lt;/li>
+&lt;li>Enter a name for the new preset: &lt;code>Serio's ENB for Cathedral Weathers 1.10&lt;/code>.&lt;/li>
+&lt;li>Click the green checkmark to confirm.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/create-new-preset.png" alt="Create New Preset">&lt;/p>
+&lt;h3 id="import-files-into-preset">Import files into preset&lt;/h3>
+&lt;ul>
+&lt;li>Drag-and-drop all files from the &lt;strong>temp&lt;/strong> folder into ENB Man.&lt;/li>
+&lt;li>Click &lt;strong>No&lt;/strong> both times when asked to add the palettes to ENB Man.&lt;/li>
+&lt;li>Remove all files inside the &lt;strong>temp&lt;/strong> folder.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>Reference picture shows a different preset but the process is the same.&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/install-enb-preset.png" alt="Import Preset Files">&lt;/p>
+&lt;h3 id="activate-the-preset">Activate the preset&lt;/h3>
+&lt;ul>
+&lt;li>Select the latest version of ENBSeries under &lt;strong>Binary&lt;/strong> and tick the checkbox.&lt;/li>
+&lt;li>Click the green checkmark at the bottom of the window to install the preset.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>Reference picture shows a different preset but the process is the same.&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/activate-enb-preset.png" alt="Enable Preset">&lt;/p></description></item><item><title>Skyrim-Se: First Launch</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/first-launch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/first-launch/</guid><description>
 &lt;h2 id="the-final-step">The Final Step&lt;/h2>
 &lt;p>All mods are installed. The ENB preset is configured correctly. DynDOLOD is generated. Now comes the moment of truth.&lt;/p>
 &lt;p>Once arrived at this point it is important to test your setup in order to make sure your game looks as intended, performs well, and runs stable so that you can finally start a new playthrough without a high risk for nasty surprises.&lt;/p>
@@ -354,9 +483,7 @@
 &lt;li>When you’re done, talk to the Statue of Mara and select the &lt;strong>I am camping in the woods&lt;/strong> option.&lt;/li>
 &lt;li>Go to the bed in the back in the cell and interact with it to &amp;ldquo;sleep&amp;rdquo;.&lt;/li>
 &lt;/ul>
-&lt;h2 id="configuration">Configuration&lt;/h2>
-&lt;h3 id="immersive-hud">Immersive HUD&lt;/h3>
-&lt;p>&lt;strong>Both of these changes are completely optional but recommended.&lt;/strong>&lt;/p>
+&lt;h2 id="immersive-hud">Immersive HUD&lt;/h2>
 &lt;p>Changes to MCM settings do not carry over across save games so it would be a waste of time to configure all MCMs for a test run. There are merely two changes in the Immersive HUD MCM that I recommend for now.&lt;/p>
 &lt;ul>
 &lt;li>Press &lt;strong>ESCAPE&lt;/strong> and select the &lt;strong>MCM&lt;/strong> Option.&lt;/li>
@@ -372,7 +499,7 @@
 &lt;blockquote>
 &lt;p>This will make it so that the clock widget from A Matter of Time is toggled along with the rest of the HUD, and that you only have to press the button once to toggle all elements.&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="depth-of-field">Depth of Field&lt;/h3>
+&lt;h2 id="depth-of-field">Depth of Field&lt;/h2>
 &lt;p>While the default Depth of Field effect is fairly ugly, you will have noticed that we specifically left it turned on while configuring INI settings way back during the Setup section. This is because the DoF effect is tied to the underwater blur effect - turn off DoF and you will be able to see as clearly underwater as above the surface. The solution to this is leaving the effect on but turning it down all the way so that the DoF effect doesn&amp;rsquo;t actually kick in.&lt;/p>
 &lt;ul>
 &lt;li>Press &lt;strong>ESCAPE&lt;/strong> and go into &lt;strong>Settings&lt;/strong> &amp;raquo; &lt;strong>Display&lt;/strong>.&lt;/li>
@@ -401,8 +528,7 @@
 &lt;h3 id="open-in-explorer">Open in Explorer&lt;/h3>
 &lt;ul>
 &lt;li>Right-click the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> and select &lt;strong>Open in Explorer&lt;/strong>.&lt;/li>
-&lt;li>Navigate to &lt;code>SKSE\Plugins&lt;/code> which contains files for Keyboard Shortcuts Fix, and Fuz Ro D’oh.&lt;/li>
-&lt;li>Drag the window to the side or your second monitor.&lt;/li>
+&lt;li>Navigate to &lt;code>SKSE\Plugins&lt;/code> which contains files for Keyboard Shortcuts Fix and Fuz Ro D’oh.&lt;/li>
 &lt;/ul>
 &lt;h3 id="keyboard-shortcuts-fix">Keyboard Shortcuts Fix&lt;/h3>
 &lt;ul>

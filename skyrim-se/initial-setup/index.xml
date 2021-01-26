@@ -529,14 +529,15 @@
 &lt;ul>
 &lt;li>&lt;strong>Water:&lt;/strong> Check &lt;code>Reflect Objects&lt;/code>.&lt;/li>
 &lt;li>&lt;strong>Decal Quantity:&lt;/strong> Set to &lt;code>High&lt;/code>.&lt;/li>
-&lt;li>&lt;strong>Godrays&lt;/strong>: Set them to &lt;code>None&lt;/code> (performance-intense, ENB has better godrays).&lt;/li>
+&lt;li>&lt;strong>Godrays&lt;/strong>: Set them to &lt;code>None&lt;/code> if you are concerned with performance.&lt;/li>
 &lt;li>&lt;strong>Field of View:&lt;/strong> Increase this if you prefer a wider FoV.&lt;/li>
-&lt;li>&lt;strong>Particles:&lt;/strong> Increase the particle count to &lt;code>1500&lt;/code>.&lt;/li>
+&lt;li>&lt;strong>Particles:&lt;/strong> Increase the particle count to &lt;code>7500&lt;/code>.&lt;/li>
 &lt;li>&lt;strong>Lens Flare:&lt;/strong> Matter of taste. Personally I disable this.&lt;/li>
 &lt;li>&lt;strong>Anamorphic Lens Flare:&lt;/strong> Looks ugly, recommended to be turned off.&lt;/li>
 &lt;li>&lt;strong>Shadow Resolution:&lt;/strong> Set to &lt;code>2048&lt;/code> (unless you have a very slow CPU).&lt;/li>
 &lt;li>&lt;strong>Exterior Draw Distance:&lt;/strong> Set to &lt;code>8000&lt;/code>.&lt;/li>
 &lt;li>&lt;strong>Tree Shadows:&lt;/strong> Check the box for this setting.&lt;/li>
+&lt;li>&lt;strong>Ambient Occlusion:&lt;/strong> Uncheck the box for this setting (covered by ENB).&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>&lt;strong>Object LOD&lt;/strong> reflections are broken in SSE, but the mod SSE Engine Fixes includes a fix. &lt;strong>Depth of Field&lt;/strong> should not be disabled in the INI as it will make underwater look perfectly clear. By turning DOF all the way down in the ingame settings, you can disable it without breaking underwater visuals (if you dislike the DOF and/or want to use an ENB DOF effect instead).&lt;/p>
