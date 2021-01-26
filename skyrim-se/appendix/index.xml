@@ -85,7 +85,7 @@
 &lt;p>&lt;img src="https://cdn.discordapp.com/attachments/521296280165679119/702036429341065286/enb2020_4_21_00_57_56.jpg" alt="Example">&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/appendix/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/changelog/</guid><description>
 &lt;h2 id="release-40-beta-5">Release 4.0 Beta 5&lt;/h2>
 &lt;blockquote>
-&lt;p>TBD&lt;/p>
+&lt;p>26/01/2021&lt;/p>
 &lt;/blockquote>
 &lt;p>As you may have noticed, the &lt;strong>ENBSeries&lt;/strong> section has vanished from the sidebar. What happened? It was reintegrated. Everything from those pages was moved back into the main body of the guide with ENBMan, binaries, and preset installation being a step in the Finalisation. This was done in order to further streamline the guide and eliminate optional paths and variations.&lt;/p>
 &lt;p>Also removed was &lt;strong>Nether&amp;rsquo;s Follower Framework&lt;/strong> after some internal discussions. Overtime, NFF has grown from a lightweight follower overhaul to an excessively bloated mod doing all kinds of things. While it remains high quality, the vast majority of features are misplaced in a v+ setup. Additionally, combat is easier for us to balance knowing that players are limited to a single follower like in vanilla. Some features of NFF were replaced by other mods.&lt;/p>
@@ -141,7 +141,7 @@
 &lt;/ul>
 &lt;h2 id="release-40-beta-4">Release 4.0 Beta 4&lt;/h2>
 &lt;blockquote>
-&lt;p>24/01/2020&lt;/p>
+&lt;p>24/01/2021&lt;/p>
 &lt;/blockquote>
 &lt;p>Simon&amp;rsquo;s werewolf overhaul is finally out now and replaced Growl which completes our suite of SimonRim mods for gameplay. Because of this and the update Scion received, a new save is required for Beta 4.&lt;/p>
 &lt;p>I also did some reshuffling. Again. It&amp;rsquo;s better if I do it now before 4.0 is officially out.&lt;/p>
@@ -232,7 +232,7 @@
 &lt;/ul>
 &lt;h2 id="release-40-beta-2">Release 4.0 Beta 2&lt;/h2>
 &lt;blockquote>
-&lt;p>21/01/2020&lt;/p>
+&lt;p>21/01/2021&lt;/p>
 &lt;/blockquote>
 &lt;h4 id="initial-setup-2">Initial Setup&lt;/h4>
 &lt;ul>
@@ -255,7 +255,7 @@
 &lt;/ul>
 &lt;h2 id="release-40-beta-1">Release 4.0 Beta 1&lt;/h2>
 &lt;blockquote>
-&lt;p>20/01/2020&lt;/p>
+&lt;p>20/01/2021&lt;/p>
 &lt;/blockquote>
 &lt;p>Update 4.0 for The Phoenix Flavour is firmly taking the setup back to its &amp;ldquo;vanilla plus&amp;rdquo; roots. TPF is committing to low-impact mods that blend in well while doubling down on our performance-friendly visual enhancements. Many mods were removed in this update, some of the beloved favourites, but there are solid reasons behind each removal.&lt;/p>
 &lt;p>New mods include the custom made &lt;strong>Armor Variants Lite&lt;/strong> which is an alternative to kryptopyr&amp;rsquo;s CCOR-dependent aMidianBorn Content Addon, created by Umgak from scratch. I also re-added the much requested artifact overhaul &lt;strong>Reliquary of Myth&lt;/strong> and completely rebuilt the appearance section which is now centered around &lt;strong>Cathedral NPCs&lt;/strong>. And finally Fore&amp;rsquo;s New Idles was replaced with the more recent and open source &lt;strong>Nemesis&lt;/strong>.&lt;/p>
