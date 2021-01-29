@@ -407,7 +407,19 @@ SetGS fSandboxCylinderBottom -576
 &lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> KeyboardShortcutsFix_SKSE64&lt;/li>
-&lt;/ul></description></item><item><title>Skyrim-Se: Tweaks</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/tweaks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/tweaks/</guid><description>
+&lt;/ul>
+&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Right-click &lt;strong>Keyboard Shortcuts Fix&lt;/strong> in your mod order.&lt;/li>
+&lt;li>Select &lt;strong>Open in Explorer&lt;/strong> and navigate to &lt;code>SKSE\Plugins&lt;/code>.&lt;/li>
+&lt;li>Right-click anywhere and select &lt;strong>New&lt;/strong> &amp;raquo; &lt;strong>Text Document&lt;/strong>.&lt;/li>
+&lt;li>Enter &lt;strong>KeyboardShortcutsFix&lt;/strong> as the name.&lt;/li>
+&lt;li>Change the file extension to .log by renaming it.&lt;/li>
+&lt;li>The full file name should be &lt;code>KeyboardShortcutsFix.log&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The mod will later write in the LOG file to confirm the mod is working. By creating the file now, we prevent the mod from generating it on its own which would place it in the MO2 Overwrite folder from where you would have to move it back to the mod folder manually.&lt;/p>
+&lt;/blockquote></description></item><item><title>Skyrim-Se: Tweaks</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/tweaks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/tweaks/</guid><description>
 &lt;h5 id="dwemer-gates-dont-resethttpswwwnexusmodscomskyrimspecialeditionmods26331tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26331?tab=files">Dwemer Gates Don&amp;rsquo;t Reset&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions">Download Instructions&lt;/h4>
 &lt;ul>
@@ -1706,7 +1718,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>Extract the &lt;strong>textures&lt;/strong> and &lt;strong>meshes&lt;/strong> folders to &lt;code>Mod Organizer 2\mods\Enhanced Landscapes - Solstheim 3D Trees&lt;/code>.&lt;/li>
 &lt;li>Close the archive and the Explorer window.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/customisation/solstheim_tree_installation.png" alt="Solstheim Trees Installation">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/mod-installation/solstheim-tree-installation.png" alt="Solstheim Trees Installation">&lt;/p>
 &lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Do NOT check this mod in the mod order (left pane). Keep it disabled for now.&lt;/li>
@@ -4668,8 +4680,13 @@ SetGS fSandboxCylinderBottom -576
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h5 id="enchanting-adjustments-and-price-bug-fixhttpswwwnexusmodscomskyrimspecialeditionmods8473tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8473?tab=files">Enchanting Adjustments and Price Bug Fix&lt;/a>&lt;/h5>
+&lt;h5 id="alchemy-adjustments---tpf-tweakshttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Alchemy Adjustments - TPF Tweaks&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Alchemy Adjustments - TPF Tweaks&lt;/li>
+&lt;/ul>
+&lt;h5 id="enchanting-adjustments-and-price-bug-fixhttpswwwnexusmodscomskyrimspecialeditionmods8473tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8473?tab=files">Enchanting Adjustments and Price Bug Fix&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Enchanting Adjustments FOMOD V2.4 Installer&lt;/li>
 &lt;/ul>
@@ -4689,42 +4706,42 @@ SetGS fSandboxCylinderBottom -576
 &lt;/li>
 &lt;/ul>
 &lt;h5 id="lightweight-smithing-tweakshttpswwwnexusmodscomskyrimspecialeditionmods43441tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43441?tab=files">Lightweight Smithing Tweaks&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Lightweight Smithing Tweaks&lt;/li>
 &lt;/ul>
 &lt;h5 id="faster-mining-plushttpswwwnexusmodscomskyrimspecialeditionmods2656tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2656?tab=files">Faster Mining Plus&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> FMPSE 3-3 Script (v2.0)&lt;/li>
 &lt;/ul>
 &lt;h5 id="craftable-torcheshttpswwwnexusmodscomskyrimspecialeditionmods5013tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5013?tab=files">Craftable Torches&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Craftable Torches&lt;/li>
 &lt;/ul>
 &lt;h5 id="craftable-lockpickshttpswwwnexusmodscomskyrimspecialeditionmods3385tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3385?tab=files">Craftable Lockpicks&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Craftable Lockpicks Option - 5&lt;/li>
 &lt;/ul>
 &lt;h5 id="armor-and-clothing-extensionhttpswwwnexusmodscomskyrimspecialeditionmods19002tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19002?tab=files">Armor and Clothing Extension&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Armor and Clothing Extension&lt;/li>
 &lt;/ul>
 &lt;h5 id="armor-and-clothing-extension-waccf---mcm-menu-fixhttpswwwnexusmodscomskyrimspecialeditionmods23471tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23471?tab=files">Armor and Clothing Extension (WACCF) - MCM Menu Fix&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> WACCF_MCM_Fix&lt;/li>
 &lt;/ul>
 &lt;h5 id="tweaks-for-waccf-and-acehttpswwwnexusmodscomskyrimspecialeditionmods43466tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43466?tab=files">Tweaks for WACCF and ACE&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Tweaks for WACCF and ACE&lt;/li>
 &lt;/ul>
 &lt;h5 id="amidianborn-armor-variants-litehttpsmeganzfile5vvibthrrhdtotizk9plp1a91ty0c6zwtzw_az1ie6qmknd1niu">&lt;a href="https://mega.nz/file/5VViBThR#RhdtoTIzK9plp1A91ty0C6ZWTzW_aZ1iE6qmKnd1nIU">aMidianBorn Armor Variants Lite&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> aMidianBorn Armor Variants Lite&lt;/li>
 &lt;/ul>
@@ -4745,7 +4762,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;/li>
 &lt;/ul>
 &lt;h5 id="morrowloot-miscellania---unleveled-uniqueshttpswwwnexusmodscomskyrimspecialeditionmods27094tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27094?tab=files">Morrowloot Miscellania - Unleveled Uniques&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Morrowloot Miscellania - Unleveled Uniques&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Combat &amp; Encounters</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/combat-encounters/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/combat-encounters/</guid><description>
@@ -5310,14 +5327,9 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Spell Perk Item Distributor - 4.1&lt;/li>
 &lt;/ul>
-&lt;h5 id="fuz-ro-d-oh---silent-voicehttpswwwnexusmodscomskyrimspecialeditionmods15109tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/15109?tab=files">Fuz Ro D-oh - Silent Voice&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Fuz Ro D’oh&lt;/li>
-&lt;/ul>
 &lt;h5 id="console-commands-extenderhttpswwwnexusmodscomskyrimspecialeditionmods28210tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28210?tab=files">Console Commands Extender&lt;/a>&lt;/h5>
 &lt;p>&lt;em>This mod was added mostly for the &lt;strong>spp&lt;/strong> console command which allows you to quickly cheat perk points. This can be useful for testing, since vanilla Skyrim has no command to directly add perk points.&lt;/em>&lt;/p>
-&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Console Commands Extender&lt;/li>
 &lt;/ul></description></item></channel></rss>

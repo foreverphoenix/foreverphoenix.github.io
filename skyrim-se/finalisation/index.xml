@@ -7,12 +7,11 @@
 &lt;/ul>
 &lt;h2 id="load-order-txt">Load Order TXT&lt;/h2>
 &lt;p>The pre-made TXT will arrange your plugins exactly like the way they are sorted in my personal setup. This is much faster than adjusting the load order manually or setting up LOOT with custom rules.&lt;/p>
-&lt;h3 id="enabling-all-plugins">Enabling all plugins&lt;/h3>
 &lt;ul>
 &lt;li>Click anywhere in the right pane (load order) and select &lt;strong>Enable all&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>This will ensure all plugins are active prior to sorting them. Plugins may be unchecked automatically when renaming their file extensions.&lt;/p>
+&lt;p>This will ensure all plugins are active prior to sorting them. Plugins may be unchecked automatically when renaming their file extensions from ESL to ESP as we did multiple times throughout the guide.&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="applying-the-load-order">Applying the load order&lt;/h3>
 &lt;ul>
@@ -21,12 +20,15 @@
 &lt;li>Restart Mod Organizer 2 and the changes will be applied.&lt;/li>
 &lt;/ul>
 &lt;p>After applying the loadorder.txt and restarting MO2, there should be no plugins below the &lt;strong>Conflict Resolution Patch.esp&lt;/strong> in the load order (right pane).&lt;/p>
-&lt;p>If there are other plugins below the CRP, you either made a mistake during the mod installation, or a mod was updated and the loadorder.txt is not accounting for it yet. If this happens, please join us on Discord and post your Modwat.ch link in the &lt;code>#guide-support&lt;/code> channels.&lt;/p>
+&lt;p>If there are other plugins below the CRP, you either made a mistake during the mod installation, or a mod was updated and the loadorder.txt is not accounting for it yet. If this happens, please join us on Discord and post your Modwat.ch link or a picture of the bottom of your load order in the &lt;code>#tpf-guide-support&lt;/code> channels.&lt;/p>
 &lt;h2 id="check-for-mo2-warnings">Check for MO2 Warnings&lt;/h2>
-&lt;p>MO2 has inbuilt functionality that checks for plugins with Form 43 (Skyrim LE plugins that have not been re-saved in the Creation Kit). If no issues are detected, the &lt;strong>Notifications&lt;/strong> icon in MO2 will be greyed out.&lt;/p>
+&lt;p>In Mod Organizer 2, check the notification icon in the top right corner (see screenshot below). Any issues found there should be fixed now. If it is greyed out, there are no warnings and you are good to go!&lt;/p>
+&lt;p>There are multiple different warnings that you may encounter:&lt;/p>
 &lt;ul>
-&lt;li>If the button is not greyed out, open the &lt;strong>Notifications&lt;/strong> window and check its contents.&lt;/li>
-&lt;li>Any plugins that are listed must be re-saved in the Creation Kit now.&lt;/li>
+&lt;li>&lt;strong>Missing Masters:&lt;/strong> One of your plugins is missing a master file. It is marked with an exclamation mark in your load order. This is most likely due to skipping a mod that was not optional or selecting the wrong option in a FOMOD installer. Go back to the mod’s instructions in the guide and double-check everything.&lt;/li>
+&lt;li>&lt;strong>Form 43 Plugin:&lt;/strong> You forgot to re-save one or several plugins in the Creation Kit. Re-save them now.&lt;/li>
+&lt;li>&lt;strong>Outdated SKSE Plugin:&lt;/strong> Check the plugin&amp;rsquo;s mod page to see if there is a new version.&lt;/li>
+&lt;li>&lt;strong>Files in Overwrite:&lt;/strong> Share a screenshot on Discord so we can take a look.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/check-for-form43-plugin.png" alt="Check for Form43 Plugins">&lt;/p>
 &lt;h2 id="flag-plugins-as-esl">Flag Plugins as ESL&lt;/h2>
@@ -478,10 +480,9 @@
 &lt;/ul>
 &lt;p>&lt;em>Reference picture shows a different preset but the process is the same.&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/activate-enb-preset.png" alt="Enable Preset">&lt;/p></description></item><item><title>Skyrim-Se: First Launch</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/first-launch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/first-launch/</guid><description>
-&lt;h2 id="the-final-step">The Final Step&lt;/h2>
+&lt;h2 id="a-test-game">A Test Game&lt;/h2>
 &lt;p>All mods are installed. The ENB preset is configured correctly. DynDOLOD is generated. Now comes the moment of truth.&lt;/p>
 &lt;p>Once arrived at this point it is important to test your setup in order to make sure your game looks as intended, performs well, and runs stable so that you can finally start a new playthrough without a high risk for nasty surprises.&lt;/p>
-&lt;h2 id="start-a-test-game">Start a test game&lt;/h2>
 &lt;ul>
 &lt;li>In Mod Organizer 2, select &lt;strong>SKSE&lt;/strong> in the exectuables drop-down and hit &lt;strong>Run&lt;/strong>.&lt;/li>
 &lt;li>In the main menu, open the console by pressing the tilde key (above TAB, next to 1).&lt;/li>
@@ -489,7 +490,7 @@
 &lt;li>After the loading screen, you&amp;rsquo;ll find yourself in Riverwood with a test character.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>Before you continue, wait for all messages in the upper left corner to run through&lt;/strong>.&lt;/p>
-&lt;h2 id="immersive-hud">Immersive HUD&lt;/h2>
+&lt;h3 id="immersive-hud">Immersive HUD&lt;/h3>
 &lt;p>Changes to MCM settings do not carry over across save games so it would be a waste of time to configure all MCMs for a test run. There are merely two changes in the Immersive HUD MCM that I recommend for now.&lt;/p>
 &lt;ul>
 &lt;li>Press &lt;strong>ESCAPE&lt;/strong> and select the &lt;strong>MCM&lt;/strong> Option.&lt;/li>
@@ -505,7 +506,7 @@
 &lt;blockquote>
 &lt;p>This will make it so that the clock widget from A Matter of Time is toggled along with the rest of the HUD, and that you only have to press the button once to toggle all elements.&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="depth-of-field">Depth of Field&lt;/h2>
+&lt;h3 id="depth-of-field">Depth of Field&lt;/h3>
 &lt;p>While the default Depth of Field effect is fairly ugly, you will have noticed that we specifically left it turned on while configuring INI settings way back during the Setup section. This is because the DoF effect is tied to the underwater blur effect - turn off DoF and you will be able to see as clearly underwater as above the surface. The solution to this is leaving the effect on but turning it down all the way so that the DoF effect doesn&amp;rsquo;t actually kick in.&lt;/p>
 &lt;ul>
 &lt;li>Press &lt;strong>ESCAPE&lt;/strong> and go into &lt;strong>Settings&lt;/strong> &amp;raquo; &lt;strong>Display&lt;/strong>.&lt;/li>
@@ -513,6 +514,7 @@
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/turn-down-dof.jpg" alt="Turn down DoF">&lt;/p>
 &lt;h2 id="testing-suggestions">Testing Suggestions&lt;/h2>
+&lt;p>I recommend you spend at least 10 to 20 minutes ingame. Enjoy the improved graphics and take some screenshots! Once you have quit the game, proceed with the next step.&lt;/p>
 &lt;ul>
 &lt;li>Activate the ENBSeries FPS counter (&lt;strong>F7&lt;/strong>) to monitor your frame rate.&lt;/li>
 &lt;li>It may be convenient to use the console in order to enable godmode (&lt;code>tgm&lt;/code>) and disable enemy AI (&lt;code>tcai&lt;/code>) for testing purposes.&lt;/li>
@@ -526,52 +528,9 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>I recommend spending at least 10 to 20 minutes ingame. Enjoy the improved graphics and take some screenshots! Once you have quit the game, proceed with the next step.&lt;/p></description></item><item><title>Skyrim-Se: Clean-Up</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/cleanup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/cleanup/</guid><description>
-&lt;h2 id="overwrite-files">Overwrite Files&lt;/h2>
-&lt;p>As mentioned before, the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> folder in Mod Organizer 2 catches all files generated by mods or applications that would normally land in your &lt;strong>root&lt;/strong> folder. After the first launch, you will find some files in your &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> that were generated by mods.&lt;/p>
-&lt;p>If you delete these, they’ll just be regenerated the next time you launch the game, but we don’t want them to clutter up the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> either. The best solution is to keep these files with the mods they belong to, inside their mod folders. This way they will also be removed and regenerated when the mod is updated.&lt;/p>
-&lt;ul>
-&lt;li>Right-click the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> and select &lt;strong>Open in Explorer&lt;/strong>.&lt;/li>
-&lt;li>Navigate to &lt;code>SKSE\Plugins&lt;/code> which contains files for Keyboard Shortcuts Fix and Fuz Ro D’oh.&lt;/li>
-&lt;/ul>
-&lt;h3 id="keyboard-shortcuts-fix">Keyboard Shortcuts Fix&lt;/h3>
-&lt;ul>
-&lt;li>Find &lt;strong>Keyboard Shortcuts Fix&lt;/strong> in your mod order, right-click it and select &lt;strong>Open in Explorer&lt;/strong>.&lt;/li>
-&lt;li>Navigate to &lt;code>Keyboard Shortcuts Fix\SKSE\Plugins&lt;/code>.&lt;/li>
-&lt;li>Drag the &lt;strong>KeyboardShortcutsFix.log&lt;/strong> file from the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> into that folder.&lt;/li>
-&lt;li>The resulting file path should be:
-&lt;ul>
-&lt;li>&lt;code>Mod Organizer 2\mods\Keyboard Shortcuts Fix\SKSE\Plugins\KeyboardShortcutsFix.log&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="fuz-ro-d-oh">Fuz Ro D-oh&lt;/h3>
-&lt;ul>
-&lt;li>Find &lt;strong>Fuz Ro D-oh&lt;/strong> in your mod order, right-click it and select &lt;strong>Open in Explorer&lt;/strong>.&lt;/li>
-&lt;li>Navigate to &lt;code>Fuz Ro D-oh\SKSE\Plugins&lt;/code>.&lt;/li>
-&lt;li>Drag the &lt;strong>Fuz Ro D’oh.ini&lt;/strong> file from the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> into that folder.&lt;/li>
-&lt;li>The resulting file path should be:
-&lt;ul>
-&lt;li>&lt;code>Mod Organizer 2\mods\Fuz Ro D-oh\SKSE\Plugins\Fuz Ro D'oh.ini&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="remaining-files">Remaining Files&lt;/h3>
-&lt;ul>
-&lt;li>Close all Explorer windows and return to Mod Organizer 2.&lt;/li>
-&lt;li>Double-click the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> and delete any left-over files.&lt;/li>
-&lt;/ul>
-&lt;h2 id="mo2-notifications">MO2 Notifications&lt;/h2>
-&lt;p>Before you can finally start your playthrough, there&amp;rsquo;s one final check. In Mod Organizer 2, go to &lt;strong>View&lt;/strong> &amp;raquo; &lt;strong>Notifications&lt;/strong>. If this is greyed out, you are good to go! If not there are multiple different warnings you might encounter:&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Missing Masters:&lt;/strong> One of your plugins is missing a master file. It is marked with an exclamation mark in your load order. This is most likely due to skipping a mod that was not optional or selecting the wrong option in a FOMOD installer. Go back to the mod’s instructions in the guide and double-check everything.&lt;/li>
-&lt;li>&lt;strong>Form 43 Plugin:&lt;/strong> You forgot to re-save one or several plugins in the Creation Kit. Re-save them now.&lt;/li>
-&lt;li>&lt;strong>Outdated SKSE Plugin:&lt;/strong> Check the plugin&amp;rsquo;s mod page to see if there is a new version.&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>If you have warnings in MO2 and are not certain what to do about them, please join us on Discord and ask there in the appropriate channels.&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="new-game">New Game&lt;/h2>
+&lt;p>&lt;strong>When you are satisfied, close Skyrim SE again.&lt;/strong>&lt;/p>
+&lt;p>If you encounter any bugs, performance lower than expected, or even crashes, please join us on Discord and provide us with detailed information about the problem. Any outstanding issues should be solved before diving back into Skyrim for a proper playthrough.&lt;/p>
+&lt;h2 id="a-new-playthrough">A New Playthrough&lt;/h2>
 &lt;p>&lt;strong>Congratulations, you have completed The Phoenix Flavour!&lt;/strong>&lt;/p>
 &lt;p>I hope you had a great time, found the instructions easy to follow, and didn’t run into any frustrating issues. Your game is now thoroughly overhauled and you learned plenty about modding over the course of the guide.&lt;/p>
 &lt;p>However, we are not quite done.&lt;/p>
