@@ -7,6 +7,15 @@
 &lt;blockquote>
 &lt;p>Keep this page open in a separate tab so you can refer back to it.&lt;/p>
 &lt;/blockquote>
+&lt;h2 id="additional-separators">Additional Separators&lt;/h2>
+&lt;p>We already went over how to create separators back on the &lt;a href="https://thephoenixflavour.com/skyrim-se/initial-setup/mod-organizer-2/">Mod Organizer 2&lt;/a> page. As you can see in the sidebar on the left, there are plenty of pages in the mod installation section. Each of them will correspond to a separator in Mod Organizer 2.&lt;/p>
+&lt;ul>
+&lt;li>Create a new separator for every page in the Mod Installation section as you go through them.&lt;/li>
+&lt;li>Enter the page&amp;rsquo;s title as the name for the separator (eg &lt;strong>FIXES&lt;/strong> or &lt;strong>INTERFACE&lt;/strong>).&lt;/li>
+&lt;li>The first one, &lt;strong>ESSENTIAL MODS&lt;/strong>, is already present of course.&lt;/li>
+&lt;/ul>
+&lt;p>In case you&amp;rsquo;re not sure how to create a new separator anymore:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/mo2-create-separator.png" alt="MO2 Create Separator">&lt;/p>
 &lt;h2 id="installation-instructions">Installation Instructions&lt;/h2>
 &lt;p>Each mod has its own section with the following instructions:&lt;/p>
 &lt;ul>
@@ -132,6 +141,19 @@
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> ACC - Autorun Console Commands&lt;/li>
 &lt;/ul>
+&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;p>The first set of console commands we want run automatically can be added now (more mod-related ones will come later). &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4524">Multiple Floors Sandboxing&lt;/a> merely changes two existing game settings which can simply edited through the console, thus removing the need for an additional plugin.&lt;/p>
+&lt;ul>
+&lt;li>Double-click &lt;strong>Autorun Console Commands&lt;/strong> in Mod Organizer 2.&lt;/li>
+&lt;li>Switch to the &lt;strong>Textfiles&lt;/strong> tab and select the &lt;strong>Autorun.txt&lt;/strong> file.&lt;/li>
+&lt;li>Add the following two lines in the text field:&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code>SetGS fSandboxCylinderTop 576
+SetGS fSandboxCylinderBottom -576
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>Close the window and click &lt;strong>Yes&lt;/strong> when asked to save.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/mod-installation/acc-add-mfs.png" alt="ACC Add MFS">&lt;/p>
 &lt;h5 id="unofficial-high-definition-audio-project-uhdaphttpswwwnexusmodscomskyrimspecialeditionmods18115tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18115?tab=files">Unofficial High Definition Audio Project (UHDAP)&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
 &lt;ul>
@@ -145,7 +167,7 @@
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Unofficial Skyrim Special Edition Patch&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Delete the following file(s) and/or folder(s):
 &lt;ul>
@@ -163,7 +185,7 @@
 &lt;ul>
 &lt;li>&lt;strong>Main File&lt;/strong> - Weapons Armor Clothing and Clutter Fixes&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Delete the following file(s) and/or folder(s):
 &lt;ul>
@@ -172,13 +194,8 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h5 id="alternate-start---live-another-life-as-lalhttpswwwnexusmodscomskyrimspecialeditionmods272tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/272?tab=files">Alternate Start - Live Another Life (AS LAL)&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Alternate Start - Live Another Life&lt;/li>
-&lt;/ul>
 &lt;h5 id="skyrim-particle-patchhttpenbseriesenbdevcomforumviewtopicphpt1499">&lt;a href="http://enbseries.enbdev.com/forum/viewtopic.php?t=1499">Skyrim Particle Patch&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Find the &lt;strong>SPECIAL EDITION&lt;/strong> section in the forum post linked above and click the &lt;strong>GOOGLE DRIVE&lt;/strong> link (see picture).&lt;/li>
 &lt;li>Download the archive from Google Drive and move it manually to &lt;code>Your Modding Folder\ARCHIVE\MO2 Downloads&lt;/code>.&lt;/li>
@@ -186,7 +203,7 @@
 &lt;li>I recommend renaming it simply to &lt;strong>Skyrim Particle Patch&lt;/strong> after the installation.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/mod-installation/skyrim-particle-patch-download.png" alt="Skyrim Particle Patch download link">&lt;/p>
-&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions-3">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Delete the following file(s) and/or folder(s):
 &lt;ul>
@@ -199,7 +216,7 @@
 &lt;p>The plugin is not needed. Its functionality was replaced by ENB Helper. The texture can cause water spray to look much darker than intended with Realistic Water Two.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="static-mesh-improvement-mod-smimhttpswwwnexusmodscomskyrimspecialeditionmods659tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/659?tab=files">Static Mesh Improvement Mod (SMIM)&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> SMIM SE 2-08&lt;/li>
 &lt;/ul>
@@ -207,7 +224,7 @@
 &lt;ul>
 &lt;li>&lt;strong>Main Installer Choice:&lt;/strong> Skyrim 2016 Special Edition: Everything&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions-3">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions-4">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Delete the following file(s) and/or folder(s):
 &lt;ul>
@@ -272,7 +289,7 @@
 &lt;ul>
 &lt;li>&lt;strong>Select options:&lt;/strong>
 &lt;ul>
-&lt;li>Patch for Alternate Start - Live Another Life&lt;/li>
+&lt;li>&lt;del>Patch for Alternate Start - Live Another Life&lt;/del>&lt;/li>
 &lt;li>&lt;del>Patch for Cutting Room Floor&lt;/del>&lt;/li>
 &lt;li>Patch for Arthmoor’s Dragon Bridge&lt;/li>
 &lt;li>Patch for Arthmoor’s Shor’s Stone&lt;/li>
@@ -471,13 +488,8 @@
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Followers Don&amp;rsquo;t Draw Weapons v1.0.1&lt;/li>
 &lt;/ul>
-&lt;h5 id="multiple-floors-sandboxinghttpswwwnexusmodscomskyrimspecialeditionmods4524tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4524?tab=files">Multiple Floors Sandboxing&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Multiple Floors Sandboxing&lt;/li>
-&lt;/ul>
 &lt;h5 id="random-encounter-tweakshttpswwwnexusmodscomskyrimspecialeditionmods16804tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/16804?tab=files">Random Encounter Tweaks&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Random Encounter Tweaks&lt;/li>
 &lt;/ul>
@@ -485,17 +497,17 @@
 &lt;p>Be aware that the only part of the mod that will come into effect is the addition of Shivs for Skooma dealers. Everything else will eventually be overwritten by Timing Is Everything.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="no-spinning-death-animationhttpswwwnexusmodscomskyrimspecialeditionmods1432tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1432?tab=files">No Spinning Death Animation&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> No Spinning Death Animation MERGED&lt;/li>
 &lt;/ul>
 &lt;h5 id="improved-weapon-impact-effectshttpswwwnexusmodscomskyrimspecialeditionmods8936tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8936?tab=files">Improved Weapon Impact Effects&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Sparkles&lt;/li>
 &lt;/ul>
 &lt;h5 id="simply-smaller-wolveshttpswwwnexusmodscomskyrimspecialeditionmods10935tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/10935?tab=files">Simply Smaller Wolves&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Simply Smaller Wolves&lt;/li>
 &lt;/ul>
@@ -503,32 +515,32 @@
 &lt;p>The file is actually called Simply Bigger Wolves. Don’t be confused, this is a mistake on the part of the author.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="quiet-doghttpswwwnexusmodscomskyrimspecialeditionmods6066tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6066?tab=files">Quiet Dog&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-18">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Quiet Dog - Sit&lt;/li>
 &lt;/ul>
 &lt;h5 id="skeletons-dont-breathehttpswwwnexusmodscomskyrimspecialeditionmods18542tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18542?tab=files">Skeletons Don&amp;rsquo;t Breathe&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-19">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-18">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> skeletons don’t breathe SSE loose files version&lt;/li>
 &lt;/ul>
 &lt;h5 id="bard-instrumentals-mostly---sing-rarelyhttpswwwnexusmodscomskyrimspecialeditionmods10927tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/10927?tab=files">Bard Instrumentals Mostly - Sing Rarely&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-20">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-19">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Bard Instrumentals Mostly - Sing Rarely&lt;/li>
 &lt;/ul>
 &lt;h5 id="no-crime-teleporthttpswwwnexusmodscomskyrimspecialeditionmods13109tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/13109?tab=files">No Crime Teleport&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-21">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-20">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> No Crime Teleport&lt;/li>
 &lt;/ul>
 &lt;h5 id="better-dialogue-controlshttpswwwnexusmodscomskyrimspecialeditionmods1429tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1429?tab=files">Better Dialogue Controls&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-22">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-21">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Better Dialogue Controls v1_2&lt;/li>
 &lt;/ul>
 &lt;h5 id="better-messagebox-controlshttpswwwnexusmodscomskyrimspecialeditionmods1428tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1428?tab=files">Better MessageBox Controls&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-23">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-22">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Better MessageBox Controls v1_2&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Interface</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/interface/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/interface/</guid><description>
@@ -867,12 +879,13 @@
 &lt;/ul>
 &lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
 &lt;ul>
-&lt;li>Unpack &lt;strong>aMidianBorn_ContentAddon.bsa&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Unpack &lt;strong>aMidianBorn_Book Of Silence.bsa&lt;/strong> through Mod Organizer 2.&lt;/li>
 &lt;li>Delete the following file(s) and / or folder(s):
 &lt;ul>
 &lt;li>&lt;code>aMidianBorn Optional Plugins&lt;/code>&lt;/li>
-&lt;li>&lt;code>aMidianBorn_Content.bsa&lt;/code>&lt;/li>
-&lt;li>&lt;code>aMidianBorn_Content.esp&lt;/code>&lt;/li>
+&lt;li>&lt;code>scripts&lt;/code>&lt;/li>
+&lt;li>&lt;code>aMidianBorn_Book Of Silence.bsa&lt;/code>&lt;/li>
+&lt;li>&lt;code>aMidianBorn_Book Of Silence.esp&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -1609,7 +1622,7 @@
 &lt;/ul>
 &lt;h4 id="fomod-instructions-5">FOMOD Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Choose Your Patches:&lt;/strong> RBC + ArthRorik + AS LAL + LFFGM&lt;/li>
+&lt;li>&lt;strong>Choose Your Patches:&lt;/strong> RBC + ArthRorik + LFFGM&lt;/li>
 &lt;/ul>
 &lt;h5 id="better-dynamic-ashhttpswwwnexusmodscomskyrimspecialeditionmods14644tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14644?tab=files">Better Dynamic Ash&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
@@ -2494,6 +2507,17 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
+&lt;h4 id="helgen-mud-fix">Helgen Mud Fix&lt;/h4>
+&lt;p>One of the meshes in Underground is in the wrong folder and will cause the mud on the ground during the intro quest to be weirdly shiny.&lt;/p>
+&lt;ul>
+&lt;li>Right-click &lt;strong>Underground&lt;/strong> in your mod order and select &lt;strong>Open in Explorer&lt;/strong>.&lt;/li>
+&lt;li>Navigate to &lt;code>meshes\clutter&lt;/code> and create a new folder called &lt;strong>helgen&lt;/strong>.&lt;/li>
+&lt;li>Move &lt;strong>helgenmud01.nif&lt;/strong> into the new &lt;strong>helgen&lt;/strong> folder.&lt;/li>
+&lt;li>The resulting file path should be &lt;code>meshes\clutter\helgen\helgenmud.nif&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The reason why I am not doing this within MO2&amp;rsquo;s UI is because it can get a bit buggy when moving files and sometimes doesn&amp;rsquo;t show that the file has indeed been moved.&lt;/p>
+&lt;/blockquote>
 &lt;h5 id="rudy-hq---nordic-ruinshttpswwwnexusmodscomskyrimspecialeditionmods19365tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19365?tab=files">Rudy HQ - Nordic Ruins&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
 &lt;ul>
@@ -3192,8 +3216,8 @@
 &lt;h5 id="sunhallowed-and-bloodcursed-arrows---hd-retexturehttpswwwnexusmodscomskyrimspecialeditionmods13649tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/13649?tab=files">Sunhallowed and Bloodcursed Arrows - HD Retexture&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-23">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> Bloodcursed Arrows 1k&lt;/li>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> Sunhallowed Arrows 1k &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Bloodcursed Arrows 1k&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Sunhallowed Arrows 1k &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h5 id="hd-reworked-shellbughttpswwwnexusmodscomskyrimspecialeditionmods41191tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41191?tab=files">HD Reworked Shellbug&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-24">Download Instructions&lt;/h4>
@@ -3888,6 +3912,7 @@
 &lt;/ul>
 &lt;h4 id="fomod-instructions---main-file">FOMOD Instructions - Main File&lt;/h4>
 &lt;ul>
+&lt;li>&lt;strong>Vanilla or USSEP:&lt;/strong> USSEP&lt;/li>
 &lt;li>&lt;strong>Texture Choices:&lt;/strong> Paler Eye Area&lt;/li>
 &lt;/ul>
 &lt;h4 id="fomod-instructions---updated-textures">FOMOD Instructions - Updated Textures&lt;/h4>
@@ -5270,7 +5295,7 @@
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> ScaleformTranslationPP&lt;/li>
 &lt;/ul>
-&lt;h5 id="consoleutilshttpswwwnexusmodscomskyrimspecialeditionmods24858tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24858?tab=files">ConsoleUtils&lt;/a>&lt;/h5>
+&lt;h5 id="consoleutilhttpswwwnexusmodscomskyrimspecialeditionmods24858tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24858?tab=files">ConsoleUtil&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> ConsoleUtilSSE&lt;/li>

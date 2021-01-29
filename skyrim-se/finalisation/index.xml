@@ -1,8 +1,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Finalisation</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/</link><description>Recent content in Finalisation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/skyrim-se/finalisation/index.xml" rel="self" type="application/rss+xml"/><item><title>Skyrim-Se: Wrapping Up</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/wrapping-up/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/wrapping-up/</guid><description>
 &lt;h2 id="conflict-resolution-patch">Conflict Resolution Patch&lt;/h2>
 &lt;ul>
+&lt;li>Create a &lt;strong>FINAL PATCH&lt;/strong> separator in Mod Organizer 2.&lt;/li>
 &lt;li>Download the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14223?tab=files">Conflict Resolution Patch&lt;/a> from the guide’s Nexus page.&lt;/li>
-&lt;li>Install it as usual and place it last below the &lt;strong>FINAL PATCHES&lt;/strong> separator.&lt;/li>
+&lt;li>Install it as usual, place it last below the &lt;strong>FINAL PATCH&lt;/strong> separator, and activate it.&lt;/li>
 &lt;/ul>
 &lt;h2 id="load-order-txt">Load Order TXT&lt;/h2>
 &lt;p>The pre-made TXT will arrange your plugins exactly like the way they are sorted in my personal setup. This is much faster than adjusting the load order manually or setting up LOOT with custom rules.&lt;/p>
@@ -29,7 +30,6 @@
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/check-for-form43-plugin.png" alt="Check for Form43 Plugins">&lt;/p>
 &lt;h2 id="flag-plugins-as-esl">Flag Plugins as ESL&lt;/h2>
-&lt;h3 id="example-plugin">Example Plugin&lt;/h3>
 &lt;p>While at this point many installed plugins are already flagged as ESL (ESP-Lite) and we are not exceeding the maximum of 255 ESP+ESM plugins, there are several more plugins that may easily be flagged as ESL in order to save plugin slots. This completely removes the need to merge some plugins.&lt;/p>
 &lt;ul>
 &lt;li>Run &lt;strong>SSEEdit&lt;/strong> through Mod Organizer 2.&lt;/li>
@@ -62,7 +62,6 @@
 &lt;li>No NPC Greetings.esp&lt;/li>
 &lt;li>Don&amp;rsquo;tTalkWithYourMouthFull.esp&lt;/li>
 &lt;li>Followers Don&amp;rsquo;t Draw Weapons.esp&lt;/li>
-&lt;li>sandboxcylinderheight.esp&lt;/li>
 &lt;li>Random Encounter Tweaks.esp&lt;/li>
 &lt;li>dD-No Spinning Death Animation Merged.esp&lt;/li>
 &lt;li>SparklesSE.esp&lt;/li>
@@ -89,9 +88,15 @@
 &lt;blockquote>
 &lt;p>After renumbering the form IDs for Northern Diaries in Skyrim.esp and NirShor-MusicalLore.esp, the Phoenix - Merged Music Patch.esp will also be marked as updated which is intended behaviour as the previously renumbered form IDs are referenced there and updated accordingly.&lt;/p>
 &lt;/blockquote></description></item><item><title>Skyrim-Se: Nemesis Behavior Engine</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/nemesis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/nemesis/</guid><description>
-&lt;h2 id="create-nemesis-output-folder">Create Nemesis Output Folder&lt;/h2>
+&lt;h2 id="nemesis-setup">Nemesis Setup&lt;/h2>
 &lt;p>&lt;strong>Nemesis Unlimited Behavior Engine&lt;/strong> is a tool used to add custom animations to Skyrim. It is an open-source replacement and upgrade for FNIS, and required for several animation-related mods in TPF.&lt;/p>
 &lt;p>Nemesis will generate a number of files specifically for your setup. In order to simplify the file management, we will set up an output folder ahead of time.&lt;/p>
+&lt;h3 id="new-separator">New Separator&lt;/h3>
+&lt;ul>
+&lt;li>Create a &lt;strong>PATCHER OUTPUT&lt;/strong> in Mod Organizer 2.&lt;/li>
+&lt;li>It should be at the bottom of your mod order, below the CRP.&lt;/li>
+&lt;/ul>
+&lt;h3 id="nemesis-output-folder">Nemesis Output Folder&lt;/h3>
 &lt;ul>
 &lt;li>In Mod Organizer 2, click the tools icon above your mod order and select &lt;strong>Create empty mod&lt;/strong> (see picture below).&lt;/li>
 &lt;li>Rename the new mod folder to &lt;strong>Nemesis Output&lt;/strong>.&lt;/li>
@@ -283,8 +288,10 @@
 &lt;/blockquote>
 &lt;ul>
 &lt;li>Launch &lt;strong>DynDOLOD&lt;/strong> through Mod Organizer 2.&lt;/li>
-&lt;li>A window will come up, click &lt;strong>OK&lt;/strong>.&lt;/li>
-&lt;li>You can see a list of all worldspaces at the top. Right-click inside and &lt;strong>Select all&lt;/strong>.&lt;/li>
+&lt;li>In the DynDOLOD Help window, click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>If you are not generating 3D tree LOD, there will be a window where you have to click &lt;strong>Advanced&lt;/strong>.&lt;/li>
+&lt;li>In the &lt;strong>Advanced&lt;/strong> window, you can see a list of all worldspaces at the top.&lt;/li>
+&lt;li>Right-click inside and &lt;strong>Select all&lt;/strong>.&lt;/li>
 &lt;li>Under &lt;strong>Load rules for&lt;/strong> check both &lt;strong>Candles&lt;/strong> and &lt;strong>FXGlow&lt;/strong>.&lt;/li>
 &lt;li>Select one of the presets:
 &lt;ul>
@@ -343,8 +350,7 @@
 &lt;ul>
 &lt;li>Run &lt;strong>SSELODGen&lt;/strong> through Mod Organizer 2.&lt;/li>
 &lt;li>In the worldspaces window, check &lt;strong>Tamriel &amp;ldquo;Skyrim&amp;rdquo;&lt;/strong> and &lt;strong>DLC2SolstheimWorld &amp;ldquo;Solstheim&amp;rdquo;&lt;/strong>.&lt;/li>
-&lt;li>Uncheck &lt;strong>Terrain LOD&lt;/strong>.&lt;/li>
-&lt;li>Check &lt;strong>Occlusion&lt;/strong>.&lt;/li>
+&lt;li>Uncheck all options except for &lt;strong>Occlusion&lt;/strong>.&lt;/li>
 &lt;li>Set &lt;strong>Quality&lt;/strong> to &lt;strong>3&lt;/strong>.&lt;/li>
 &lt;li>Set &lt;strong>Height&lt;/strong> to &lt;strong>100&lt;/strong>.&lt;/li>
 &lt;li>Click &lt;strong>Generate&lt;/strong> and wait for the process to complete.&lt;/li>
@@ -478,11 +484,11 @@
 &lt;h2 id="start-a-test-game">Start a test game&lt;/h2>
 &lt;ul>
 &lt;li>In Mod Organizer 2, select &lt;strong>SKSE&lt;/strong> in the exectuables drop-down and hit &lt;strong>Run&lt;/strong>.&lt;/li>
-&lt;li>In the main menu, select &lt;strong>New&lt;/strong> to start your test save.&lt;/li>
-&lt;li>After the initial loading screen you will find yourself in the AS LAL cell where you can customise your (testing) character.&lt;/li>
-&lt;li>When you’re done, talk to the Statue of Mara and select the &lt;strong>I am camping in the woods&lt;/strong> option.&lt;/li>
-&lt;li>Go to the bed in the back in the cell and interact with it to &amp;ldquo;sleep&amp;rdquo;.&lt;/li>
+&lt;li>In the main menu, open the console by pressing the tilde key (above TAB, next to 1).&lt;/li>
+&lt;li>Type in &lt;code>coc riverwood&lt;/code> and hit Enter.&lt;/li>
+&lt;li>After the loading screen, you&amp;rsquo;ll find yourself in Riverwood with a test character.&lt;/li>
 &lt;/ul>
+&lt;p>&lt;strong>Before you continue, wait for all messages in the upper left corner to run through&lt;/strong>.&lt;/p>
 &lt;h2 id="immersive-hud">Immersive HUD&lt;/h2>
 &lt;p>Changes to MCM settings do not carry over across save games so it would be a waste of time to configure all MCMs for a test run. There are merely two changes in the Immersive HUD MCM that I recommend for now.&lt;/p>
 &lt;ul>
@@ -508,9 +514,8 @@
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/turn-down-dof.jpg" alt="Turn down DoF">&lt;/p>
 &lt;h2 id="testing-suggestions">Testing Suggestions&lt;/h2>
 &lt;ul>
-&lt;li>You will spawn near Helgen in an area you likely know well. Take some time to look around.&lt;/li>
-&lt;li>Activate the ENBSeries FPS counter if you installed ENB (default hotkey: Numpad *). Otherwise use the Steam overlay or something similar.&lt;/li>
-&lt;li>It is often convenient to use the console in order to enable godmode (&lt;code>tgm&lt;/code>) and disable enemy AI (&lt;code>tcai&lt;/code>) for testing purposes.&lt;/li>
+&lt;li>Activate the ENBSeries FPS counter (&lt;strong>F7&lt;/strong>) to monitor your frame rate.&lt;/li>
+&lt;li>It may be convenient to use the console in order to enable godmode (&lt;code>tgm&lt;/code>) and disable enemy AI (&lt;code>tcai&lt;/code>) for testing purposes.&lt;/li>
 &lt;li>Travel around Skyrim and visit your favourite locations (open the console and type &lt;code>tmm 1&lt;/code> to enable all map markers).&lt;/li>
 &lt;li>Especially intense areas where you frame rate might drop are:
 &lt;ul>
@@ -525,7 +530,6 @@
 &lt;h2 id="overwrite-files">Overwrite Files&lt;/h2>
 &lt;p>As mentioned before, the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> folder in Mod Organizer 2 catches all files generated by mods or applications that would normally land in your &lt;strong>root&lt;/strong> folder. After the first launch, you will find some files in your &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> that were generated by mods.&lt;/p>
 &lt;p>If you delete these, they’ll just be regenerated the next time you launch the game, but we don’t want them to clutter up the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> either. The best solution is to keep these files with the mods they belong to, inside their mod folders. This way they will also be removed and regenerated when the mod is updated.&lt;/p>
-&lt;h3 id="open-in-explorer">Open in Explorer&lt;/h3>
 &lt;ul>
 &lt;li>Right-click the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> and select &lt;strong>Open in Explorer&lt;/strong>.&lt;/li>
 &lt;li>Navigate to &lt;code>SKSE\Plugins&lt;/code> which contains files for Keyboard Shortcuts Fix and Fuz Ro D’oh.&lt;/li>
@@ -557,8 +561,20 @@
 &lt;li>Close all Explorer windows and return to Mod Organizer 2.&lt;/li>
 &lt;li>Double-click the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> and delete any left-over files.&lt;/li>
 &lt;/ul>
-&lt;h2 id="what-now">What now?&lt;/h2>
+&lt;h2 id="mo2-notifications">MO2 Notifications&lt;/h2>
+&lt;p>Before you can finally start your playthrough, there&amp;rsquo;s one final check. In Mod Organizer 2, go to &lt;strong>View&lt;/strong> &amp;raquo; &lt;strong>Notifications&lt;/strong>. If this is greyed out, you are good to go! If not there are multiple different warnings you might encounter:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Missing Masters:&lt;/strong> One of your plugins is missing a master file. It is marked with an exclamation mark in your load order. This is most likely due to skipping a mod that was not optional or selecting the wrong option in a FOMOD installer. Go back to the mod’s instructions in the guide and double-check everything.&lt;/li>
+&lt;li>&lt;strong>Form 43 Plugin:&lt;/strong> You forgot to re-save one or several plugins in the Creation Kit. Re-save them now.&lt;/li>
+&lt;li>&lt;strong>Outdated SKSE Plugin:&lt;/strong> Check the plugin&amp;rsquo;s mod page to see if there is a new version.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>If you have warnings in MO2 and are not certain what to do about them, please join us on Discord and ask there in the appropriate channels.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="new-game">New Game&lt;/h2>
 &lt;p>&lt;strong>Congratulations, you have completed The Phoenix Flavour!&lt;/strong>&lt;/p>
-&lt;p>I hope you had a great time, found the instructions easy to follow, and didn’t run into any frustrating issues. Your game is now thoroughly overhauled and you learned plenty about modding in the meantime.&lt;/p>
-&lt;p>The final section, &lt;strong>New Game&lt;/strong>, will help you get started with your next playthrough. It contains recommended changes to the Mod Configuration Menus.&lt;/p>
-&lt;p>&lt;strong>Happy modding!&lt;/strong>&lt;/p></description></item></channel></rss>
+&lt;p>I hope you had a great time, found the instructions easy to follow, and didn’t run into any frustrating issues. Your game is now thoroughly overhauled and you learned plenty about modding over the course of the guide.&lt;/p>
+&lt;p>However, we are not quite done.&lt;/p>
+&lt;p>You can now start your own playthrough by running the SKSE through Mod Organizer 2 as usual and selecting &lt;strong>NEW&lt;/strong> in the main menu to start the vanilla intro. After completing the intro quest (after leaving Helgen), continue with the &lt;a href="https://thephoenixflavour.com/skyrim-se/new-game/mod-configuration/">Mod Configuration&lt;/a> page. &lt;strong>This is mandatory.&lt;/strong>&lt;/p>
+&lt;p>Also feel free to consult the &lt;a href="https://thephoenixflavour.com/skyrim-se/new-game/gameplay-guide/">Gameplay Guide&lt;/a> for additional information on how to play with the TPF setup.&lt;/p>
+&lt;p>&lt;strong>Happy &lt;del>modding&lt;/del> playing!&lt;/strong>&lt;/p></description></item></channel></rss>

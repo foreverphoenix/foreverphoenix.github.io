@@ -271,15 +271,11 @@
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/mo2-choose-instance.png" alt="MO2 Choose Instance">&lt;/p>
 &lt;h2 id="configuration">Configuration&lt;/h2>
-&lt;h3 id="mod-order-fix">Mod Order Fix&lt;/h3>
-&lt;ul>
-&lt;li>In the mod order (left pane), arrange the DLC as follows:
+&lt;p>In the mod order (left pane), arrange the DLC as follows:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>DLC: Dawnguard&lt;/strong>&lt;/li>
 &lt;li>&lt;strong>DLC: HearthFires&lt;/strong>&lt;/li>
 &lt;li>&lt;strong>DLC: Dragonborn&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>This is, admittedly, not actually necessary. It just bothers me to no end that they are in the wrong order and this is the order you will see them in in my screenshots.&lt;/p>
@@ -374,26 +370,28 @@
 &lt;/blockquote>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/mo2-select-new-profile.png" alt="MO2 Select New Profile">&lt;/p>
 &lt;h2 id="separators">Separators&lt;/h2>
+&lt;p>Mod Organizer 2 offers a separator feature which greatly helps with organising your mod order in the left pane. In the past, the separators were provided to me but I have since been persuaded that users benefit from learning how to create their own.&lt;/p>
 &lt;ul>
-&lt;li>Download the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14223">The Phoenix Flavour - MO2 Separator Pack&lt;/a> manually from the Nexus.&lt;/li>
-&lt;li>Open the downloaded archive.&lt;/li>
-&lt;li>Extract all folders ending on &lt;strong>_separator&lt;/strong> to &lt;code>Mod Organizer 2\mods&lt;/code>.&lt;/li>
-&lt;li>Switch back to Mod Organizer 2 and press F5 to refresh. The new separators will now appear in your mod order.&lt;/li>
-&lt;li>If you would like to change their color, click the first separator, then hold SHIFT and click the last to select all.&lt;/li>
-&lt;li>Right-click the selected separators, click &lt;strong>Select Color&lt;/strong> and change it to whatever you like.&lt;/li>
-&lt;li>Move the first separator above the official master files:
+&lt;li>In Mod Organizer 2, click the &lt;strong>Tools&lt;/strong> icon above the mod order (see screenshot).&lt;/li>
+&lt;li>Select &lt;strong>Create Separator&lt;/strong> and enter &lt;strong>&amp;ldquo;OFFICIAL MASTER FILES&lt;/strong> as the name.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> and the new separator will appear at the bottom of your mod order.&lt;/li>
+&lt;li>Select your new separator and move it per drag-and-drop above the three DLC.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/mo2-create-separator.png" alt="MO2 Create Separator">&lt;/p>
+&lt;h3 id="colour-customisation">Colour Customisation&lt;/h3>
+&lt;p>You can change the colour of your separators at any time. A new separator will always have the colour of the one you created previously. You can also have different colours for different sections. Once you have multiple separators, it is also possible to Shift-Click or Control-Click to select any or all of them, and change the colour for all at once.&lt;/p>
+&lt;p>To change the colour of your first separator:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>00 OFFICIAL MASTER FILES&lt;/strong>&lt;/li>
-&lt;li>&lt;em>DLC: Dawnguard&lt;/em>&lt;/li>
-&lt;li>&lt;em>DLC: HearthFires&lt;/em>&lt;/li>
-&lt;li>&lt;em>DLC: Dragonborn&lt;/em>&lt;/li>
-&lt;li>&lt;strong>01 ESSENTIAL MODS&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>02 FIXES&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>…&lt;/strong>&lt;/li>
+&lt;li>Right-click your &lt;strong>OFFICIAL MASTER FILES&lt;/strong> separator and click &lt;strong>Select color&lt;/strong>.&lt;/li>
+&lt;li>Change the colour to whatever you want and click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;/li>
+&lt;h3 id="essential-mods">Essential Mods&lt;/h3>
+&lt;p>While we&amp;rsquo;re at it, we should create another separator which we&amp;rsquo;ll need in the next step.&lt;/p>
+&lt;ul>
+&lt;li>Once again, click the &lt;strong>Tools&lt;/strong> icon above the mod order.&lt;/li>
+&lt;li>Select &lt;strong>Create Separator&lt;/strong> and enter &lt;strong>&amp;ldquo;ESSENTIAL MODS&amp;rdquo;&lt;/strong> as the name.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> and your new separator will appear at the bottom of your mod order where you should leave it for now.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/mo2-install-separators.png" alt="MO2 Separators">&lt;/p>
 &lt;hr>
 &lt;h4 id="continue-with-the-skyrim-script-extenderskyrim-seinitial-setupskyrim-script-extender-page">Continue with the &lt;a href="https://thephoenixflavour.com/skyrim-se/initial-setup/skyrim-script-extender/">Skyrim Script Extender&lt;/a> page.&lt;/h4></description></item><item><title>Skyrim-Se: Skyrim Script Extender</title><link>https://thephoenixflavour.com/skyrim-se/initial-setup/skyrim-script-extender/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/initial-setup/skyrim-script-extender/</guid><description>
 &lt;h2 id="download">Download&lt;/h2>
@@ -404,7 +402,6 @@
 &lt;p>If on the main page for SKSE there is a different version number than the one noted above, Skyrim and the Script Extender were likely updated and you need to download the previous version from the archive page (see picture below).&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/skse-download.png" alt="SKSE Download">&lt;/p>
 &lt;h2 id="installation">Installation&lt;/h2>
-&lt;h3 id="binaries">Binaries&lt;/h3>
 &lt;ul>
 &lt;li>Open the downloaded archive and extract its contents to &lt;code>Your Modding Folder\temp&lt;/code>.&lt;/li>
 &lt;li>Move the following three files into your Skyrim SE &lt;strong>root&lt;/strong> folder:
@@ -424,7 +421,7 @@
 &lt;li>Delete all remaining files inside your &lt;strong>temp&lt;/strong> folder.&lt;/li>
 &lt;li>Switch back to Mod Organizer 2.&lt;/li>
 &lt;li>Press F5 to refresh and the new mod will show up at the bottom of you mod order.&lt;/li>
-&lt;li>Move it up below the &lt;strong>01 ESSENTIAL MODS&lt;/strong> separator and click the checkmark to activate it.&lt;/li>
+&lt;li>Move it up below the &lt;strong>ESSENTIAL MODS&lt;/strong> separator and click the checkmark to activate it.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/skse-scripts-installation.png" alt="SKSE Scripts Installation">&lt;/p>
 &lt;h2 id="skse-ini">SKSE INI&lt;/h2>
@@ -713,7 +710,8 @@
 &lt;/ul>
 &lt;h3 id="delete-conflicting-sub-record">Delete conflicting sub-record&lt;/h3>
 &lt;ul>
-&lt;li>Double-click &lt;strong>Dawnguard.esm&lt;/strong>, then double-click &lt;strong>Cell&lt;/strong>.&lt;/li>
+&lt;li>Proceed once SSEEdit returns &lt;code>Background Loader: finished&lt;/code>.&lt;/li>
+&lt;li>Double-click &lt;strong>Dawnguard.esm&lt;/strong> in the left pane, then double-click &lt;strong>Cell&lt;/strong>.&lt;/li>
 &lt;li>Navigate to &lt;code>Block 5\Sub-Block 3&lt;/code> and select the record highlighted with red: &lt;code>00016BCF RiftenRaggedFlagon&lt;/code>.&lt;/li>
 &lt;li>Scroll down in the right pane to the bottom until you can see the conflict in the line marked red.&lt;/li>
 &lt;li>Right-click &lt;code>RiftenRatwayZone [ECZN:0009FBB9]&lt;/code> in &lt;strong>Dawnguard.esm&lt;/strong> and select &lt;strong>Remove&lt;/strong> (see picture below).&lt;/li>
@@ -724,8 +722,10 @@
 &lt;ul>
 &lt;li>Close SSEEdit.&lt;/li>
 &lt;li>When asked to save your changes, only &lt;strong>Dawnguard.esm&lt;/strong> should appear in the list.&lt;/li>
+&lt;li>Uncheck &lt;strong>Backup plugins&lt;/strong> at the bottom if it is checked.&lt;/li>
 &lt;li>Make sure &lt;strong>Dawnguard.esm&lt;/strong> is checked, then click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;li>You’re done!&lt;/li>
 &lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/save-dawnguard-esm.png" alt="Save Dawnguard ESM">&lt;/p>
 &lt;hr>
 &lt;h4 id="continue-with-the-instructionsskyrim-semod-installationinstructions-page">Continue with the &lt;a href="https://thephoenixflavour.com/skyrim-se/mod-installation/instructions/">Instructions&lt;/a> page.&lt;/h4></description></item></channel></rss>

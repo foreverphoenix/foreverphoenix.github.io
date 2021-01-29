@@ -400,7 +400,7 @@ iSize W=1920
 &lt;/code>&lt;/pre>&lt;ul>
 &lt;li>Afterwards, click the &lt;strong>Save&lt;/strong> button and close the window.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/guide-resources/change-game-resolution.png" alt="Change Game Resolution">&lt;/p></description></item><item><title>Skyrim-Se: How To Update</title><link>https://thephoenixflavour.com/skyrim-se/guide-resources/how-to-update/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/guide-resources/how-to-update/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/guide-resources/change-game-resolution.png" alt="Change Game Resolution">&lt;/p></description></item><item><title>Skyrim-Se: How To Update</title><link>https://thephoenixflavour.com/skyrim-se/guide-resources/how-to-update/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/guide-resources/how-to-update/</guid><description>
 &lt;h2 id="mod-organizer-2">Mod Organizer 2&lt;/h2>
 &lt;p>It is possible to update Mod Organizer 2 without affecting your setup if you leave certain files and folders intact. You can do this anytime, and it will not affect your saves, mod list, or even your UI settings.&lt;/p>
 &lt;h3 id="remove-the-old-version">Remove the old version&lt;/h3>
@@ -497,14 +497,13 @@ iSize W=1920
 &lt;li>Update your TPF installation: Adamant, CRP, and anything else that may have changed.&lt;/li>
 &lt;li>Load your save and spend your previously refunded perk points.&lt;/li>
 &lt;/ul>
-&lt;h2 id="various-mods">Various Mods&lt;/h2>
-&lt;h3 id="creation-kit-fixes">Creation Kit Fixes&lt;/h3>
+&lt;h2 id="creation-kit-fixes">Creation Kit Fixes&lt;/h2>
 &lt;ul>
 &lt;li>Download the newest version of the &lt;strong>CK64Fixes Release x.x&lt;/strong> main file.&lt;/li>
 &lt;li>Open the archive and extract all files into your &lt;strong>root&lt;/strong> folder.&lt;/li>
 &lt;li>Overwrite when prompted.&lt;/li>
 &lt;/ul>
-&lt;h3 id="sse-engine-fixes">SSE Engine Fixes&lt;/h3>
+&lt;h2 id="sse-engine-fixes">SSE Engine Fixes&lt;/h2>
 &lt;ul>
 &lt;li>If (Part 1) was updated, simply click &lt;strong>Mod Manager Download&lt;/strong> and install through MO2 as usual.&lt;/li>
 &lt;li>If (Part 2) was updated, click &lt;strong>Manual Download&lt;/strong>.&lt;/li>
