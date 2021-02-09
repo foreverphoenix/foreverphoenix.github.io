@@ -212,6 +212,9 @@
 &lt;li>Click &lt;strong>Start&lt;/strong> to begin generating the meshes.&lt;/li>
 &lt;li>Eventually SSEEdit will return &lt;strong>Done: Applying script&lt;/strong>, and you can close the window.&lt;/li>
 &lt;/ul>
+&lt;blockquote>
+&lt;p>Selecting all plugins first with CTRL + A is not necessary for this script.&lt;/p>
+&lt;/blockquote>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/allgud-skeleton-patcher.png" alt="AllGUD Skeleton Patcher">&lt;/p></description></item><item><title>Skyrim-Se: DynDOLOD</title><link>https://thephoenixflavour.com/skyrim-se/finalisation/dyndolod/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/finalisation/dyndolod/</guid><description>
 &lt;h2 id="dyndolod-and-performance">DynDOLOD and Performance&lt;/h2>
 &lt;p>Contrary to popular belief, DynDOLOD is not inherently performance-intense. With the &lt;strong>Low&lt;/strong> or &lt;strong>Medium&lt;/strong> presets and regular tree LOD, you will hardly notice any performance impact, even on weaker machines, while still drastically improving distant terrain.&lt;/p>
@@ -530,10 +533,4 @@
 &lt;/ul>
 &lt;p>&lt;strong>When you are satisfied, close Skyrim SE again.&lt;/strong>&lt;/p>
 &lt;p>If you encounter any bugs, performance lower than expected, or even crashes, please join us on Discord and provide us with detailed information about the problem. Any outstanding issues should be solved before diving back into Skyrim for a proper playthrough.&lt;/p>
-&lt;h2 id="a-new-playthrough">A New Playthrough&lt;/h2>
-&lt;p>&lt;strong>Congratulations, you have completed The Phoenix Flavour!&lt;/strong>&lt;/p>
-&lt;p>I hope you had a great time, found the instructions easy to follow, and didn’t run into any frustrating issues. Your game is now thoroughly overhauled and you learned plenty about modding over the course of the guide.&lt;/p>
-&lt;p>However, we are not quite done.&lt;/p>
-&lt;p>You can now start your own playthrough by running the SKSE through Mod Organizer 2 as usual and selecting &lt;strong>NEW&lt;/strong> in the main menu to start the vanilla intro. After completing the intro quest (after leaving Helgen), continue with the &lt;a href="https://thephoenixflavour.com/skyrim-se/new-game/mod-configuration/">Mod Configuration&lt;/a> page. &lt;strong>This is mandatory.&lt;/strong>&lt;/p>
-&lt;p>Also feel free to consult the &lt;a href="https://thephoenixflavour.com/skyrim-se/new-game/gameplay-guide/">Gameplay Guide&lt;/a> for additional information on how to play with the TPF setup.&lt;/p>
-&lt;p>&lt;strong>Happy &lt;del>modding&lt;/del> playing!&lt;/strong>&lt;/p></description></item></channel></rss>
+&lt;h4 id="continue-with-the-mod-configurationskyrim-semod-configuration-page">Continue with the &lt;a href="https://thephoenixflavour.com/skyrim-se/mod-configuration/">Mod Configuration&lt;/a> page.&lt;/h4></description></item></channel></rss>

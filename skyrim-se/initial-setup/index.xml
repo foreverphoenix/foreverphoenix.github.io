@@ -472,6 +472,9 @@
 &lt;li>A window will come up, informing you that Skyrim SE will now be configured based on your hardware.&lt;/li>
 &lt;li>Click &lt;strong>OK&lt;/strong> twice to confirm and hit &lt;strong>Exit&lt;/strong> once it’s done.&lt;/li>
 &lt;/ul>
+&lt;blockquote>
+&lt;p>If Skyrim is unable to detect your hardware, it&amp;rsquo;s likely because you have a newer AMD card. You can safely ignore this.&lt;/p>
+&lt;/blockquote>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/regenerating-inis.png" alt="Regenerating INIs">&lt;/p>
 &lt;h2 id="install-bethini">Install BethINI&lt;/h2>
 &lt;ul>
@@ -543,7 +546,11 @@
 &lt;h3 id="bethini---view-distance">BethINI - View Distance&lt;/h3>
 &lt;p>Continue with the seventh tab, &lt;strong>View Distance&lt;/strong>.&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Grass Fade:&lt;/strong> Set to &lt;code>15000&lt;/code> or higher.&lt;/li>
+&lt;li>&lt;strong>Object Fade:&lt;/strong> Set to &lt;code>12.0&lt;/code>.&lt;/li>
+&lt;li>&lt;strong>Actor Fade:&lt;/strong> Set to &lt;code>8.0&lt;/code>.&lt;/li>
+&lt;li>&lt;strong>Item Fade:&lt;/strong> Set to &lt;code>4.0&lt;/code>.&lt;/li>
+&lt;li>&lt;strong>Grass Fade:&lt;/strong> Set to &lt;code>15000&lt;/code>.&lt;/li>
+&lt;li>&lt;strong>Light Fade:&lt;/strong> Set to &lt;code>21605&lt;/code>.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/bethini-view-distance.png" alt="BethINI View Distance">&lt;/p>
 &lt;h3 id="bethini---visuals">BethINI - Visuals&lt;/h3>

@@ -136,10 +136,10 @@
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> More Informative Console for SKSE 2.17-2.19&lt;/li>
 &lt;/ul>
-&lt;h5 id="autorun-console-commands-acchttpswwwnexusmodscomskyrimspecialeditionmods24919tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24919?tab=files">Autorun Console Commands (ACC)&lt;/a>&lt;/h5>
+&lt;h5 id="autorunhttpswwwnexusmodscomskyrimspecialeditionmods45451tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45451?tab=files">Autorun&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> ACC - Autorun Console Commands&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Autorun&lt;/li>
 &lt;/ul>
 &lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
 &lt;p>The first set of console commands we want run automatically can be added now (more mod-related ones will come later). &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4524">Multiple Floors Sandboxing&lt;/a> merely changes two existing game settings which can simply edited through the console, thus removing the need for an additional plugin.&lt;/p>
@@ -1484,7 +1484,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>Cath Landscapes&amp;rsquo; &lt;strong>coast textures&lt;/strong> unfortunately have extremely bad tiling.&lt;strong>Plants&lt;/strong> will be covered by another mod later on.&lt;/p>
+&lt;p>Cath Landscapes&amp;rsquo; &lt;strong>coast textures&lt;/strong> unfortunately have extremely bad tiling. &lt;strong>Plants&lt;/strong> will be covered by another mod later on.&lt;/p>
 &lt;/blockquote>
 &lt;h4 id="ini-tweak">INI Tweak&lt;/h4>
 &lt;ul>
@@ -1525,12 +1525,25 @@ SetGS fSandboxCylinderBottom -576
 &lt;blockquote>
 &lt;p>All grass INI settings are already covered by Cathedral Landscape.&lt;/p>
 &lt;/blockquote>
-&lt;h5 id="realistic-water-two-rw2httpswwwnexusmodscomskyrimspecialeditionmods2182tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2182?tab=files">Realistic Water Two (RW2)&lt;/a>&lt;/h5>
+&lt;h5 id="blended-roadshttpswwwnexusmodscomskyrimspecialeditionmods8834tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8834?tab=files">Blended Roads&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Blended Roads&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Cathedral Landscapes includes an older version of Blended Roads which has very noticable texture seams on bridges. Therefore we are installing the newer 1.7 of Blended Roads separately to overwrite.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> REALly Blended Roads&lt;/li>
+&lt;li>&lt;strong>SMIM Comaptibility Patch:&lt;/strong> REALly Blended Roads&lt;/li>
+&lt;/ul>
+&lt;h5 id="realistic-water-two-rw2httpswwwnexusmodscomskyrimspecialeditionmods2182tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2182?tab=files">Realistic Water Two (RW2)&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Realistic Water Two SE v3.0.4&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions-2">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Optional Textures:&lt;/strong>
 &lt;ul>
@@ -1546,41 +1559,41 @@ SetGS fSandboxCylinderBottom -576
 &lt;/li>
 &lt;/ul>
 &lt;h5 id="realistic-water-two-patch-hubhttpswwwnexusmodscomskyrimspecialeditionmods35744tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/35744?tab=files">Realistic Water Two Patch Hub&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Miscellaneous Files:&lt;/strong> Landscape Fixes for Grass Mods Patch v1.0&lt;/li>
 &lt;/ul>
 &lt;h5 id="bright-waterfall-fix-for-enbhttpswwwnexusmodscomskyrimspecialeditionmods37956tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/37956?tab=files">Bright Waterfall Fix for ENB&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Bright Waterfall Fix for Realistic Water Two&lt;/li>
 &lt;/ul>
 &lt;h5 id="skyrim-se-improved-puddleshttpswwwnexusmodscomskyrimspecialeditionmods1462tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1462?tab=files">Skyrim SE Improved Puddles&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Skyrim SE Improved Puddles FOMOD v1-4 for ENB users&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions-2">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions-3">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Textures:&lt;/strong> 2048×2048 Resolution&lt;/li>
 &lt;/ul>
 &lt;h5 id="skyrim-3d-icefloeshttpswwwnexusmodscomskyrimspecialeditionmods20101tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20101?tab=files">Skyrim 3D Icefloes&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Skyrim 3D Icefloes&lt;/li>
 &lt;/ul>
 &lt;h5 id="pfuschers-rapid-rockshttpswwwnexusmodscomskyrimspecialeditionmods26532tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26532?tab=files">Pfuscher&amp;rsquo;s Rapid Rocks&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Dark grey Rapid Rocks&lt;/li>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Update for both versions &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h5 id="majestic-mountains---northsidehttpswwwnexusmodscomskyrimspecialeditionmods27981tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27981?tab=files">Majestic Mountains - Northside&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Majestic Mountains - Northside&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions-3">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions-4">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Mountain Textures:&lt;/strong>
 &lt;ul>
@@ -1599,12 +1612,20 @@ SetGS fSandboxCylinderBottom -576
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
+&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and / or folder(s):
+&lt;ul>
+&lt;li>&lt;code>textures\shadertests&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
 &lt;h5 id="better-dynamic-snowhttpswwwnexusmodscomskyrimspecialeditionmods9121tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9121?tab=files">Better Dynamic Snow&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Better Dynamic Snow SE v3.3&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions-4">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions-5">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Plugin Installation:&lt;/strong>
 &lt;ul>
@@ -1623,28 +1644,23 @@ SetGS fSandboxCylinderBottom -576
 &lt;/li>
 &lt;/ul>
 &lt;h5 id="rorikstead-basalt-cliffshttpswwwnexusmodscomskyrimspecialeditionmods25718tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25718?tab=files">Rorikstead Basalt Cliffs&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rorikstead Basalt Cliffs&lt;/li>
 &lt;/ul>
 &lt;h5 id="rorikstead-basalt-cliffs-patcheshttpswwwnexusmodscomskyrimspecialeditionmods31981tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/31981?tab=files">Rorikstead Basalt Cliffs Patches&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rorikstead Basalt Cliffs Patches&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions-5">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions-6">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Choose Your Patches:&lt;/strong> RBC + ArthRorik + LFFGM&lt;/li>
 &lt;/ul>
 &lt;h5 id="better-dynamic-ashhttpswwwnexusmodscomskyrimspecialeditionmods14644tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14644?tab=files">Better Dynamic Ash&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Better Dynamic Ash SE v2.0&lt;/li>
-&lt;/ul>
-&lt;h5 id="ashbound---solstheim-enhancedhttpswwwnexusmodscomskyrimspecialeditionmods14663tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14663?tab=files">Ashbound - Solstheim Enhanced&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Ashbound 1.1&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Better Dynamic Ash SE v2.0&lt;/li>
 &lt;/ul>
 &lt;h5 id="rallys-solstheim-landscapeshttpswwwnexusmodscomskyrimspecialeditionmods35590tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/35590?tab=files">Rally&amp;rsquo;s Solstheim Landscapes&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
@@ -2432,29 +2448,34 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> RUGNAROK - Special Edition - 2K&lt;/li>
 &lt;/ul>
-&lt;h5 id="vanilla-table-replacershttpswwwnexusmodscomskyrimspecialeditionmods33041tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33041?tab=files">Vanilla Table Replacers&lt;/a>&lt;/h5>
+&lt;h5 id="ennead-banners---rugnarok-patchhttpswwwnexusmodscomskyrimspecialeditionmods9951tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9951?tab=files">Ennead Banners - RUGNAROK Patch&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Ennead Banners - RUGNAROK Patch&lt;/li>
+&lt;/ul>
+&lt;h5 id="vanilla-table-replacershttpswwwnexusmodscomskyrimspecialeditionmods33041tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33041?tab=files">Vanilla Table Replacers&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Vanilla Table Replacers 2k 1k&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> 2k Common Table replacer optional (No Ropes) &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h5 id="nordic-bedshttpswwwnexusmodscomskyrimspecialeditionmods38733tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38733?tab=files">Nordic Beds&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Nordic Beds SE v3&lt;/li>
 &lt;/ul>
 &lt;h5 id="4k-retexture-for-nordic-bedshttpswwwnexusmodscomskyrimspecialeditionmods39007tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/39007?tab=files">4K Retexture for Nordic Beds&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> 2K Nordic Beds SE Retexture&lt;/li>
 &lt;/ul>
 &lt;h5 id="thrones-of-skyrimhttpswwwnexusmodscomskyrimspecialeditionmods41198tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41198?tab=files">Thrones of Skyrim&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Thrones of Skyrim SE&lt;/li>
 &lt;/ul>
 &lt;h5 id="medieval-candlehorns-and-sconceshttpswwwnexusmodscomskyrimspecialeditionmods24324tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24324?tab=files">Medieval Candlehorns and Sconces&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Medieval Candlehorns and Sconces&lt;/li>
 &lt;/ul>
@@ -2464,17 +2485,17 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>&lt;strong>Lantern:&lt;/strong> Version_1&lt;/li>
 &lt;/ul>
 &lt;h5 id="skyrim-3d-cookinghttpswwwnexusmodscomskyrimspecialeditionmods23007tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23007?tab=files">Skyrim 3D Cooking&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Skyrim 3D Cooking&lt;/li>
 &lt;/ul>
 &lt;h5 id="rustic-alchemy-and-enchanting-tableshttpswwwnexusmodscomskyrimmods62328tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/62328?tab=files">RUSTIC ALCHEMY AND ENCHANTING TABLES&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Retex of Revamped Alchemy Lab HD - 2K&lt;/li>
 &lt;/ul>
 &lt;h5 id="js-shrines-of-the-divineshttpswwwnexusmodscomskyrimspecialeditionmods33394tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33394?tab=files">JS Shrines of the Divines&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> JS Shrines of the Divines SE - 2K&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Dungeons</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/dungeons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/dungeons/</guid><description>
@@ -2641,13 +2662,23 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> ENB-ParticleLights-DwemerLanterns-1-02&lt;/li>
 &lt;/ul>
-&lt;h5 id="rudy-hq---more-lights-for-enb---bthardamzhttpswwwnexusmodscomskyrimspecialeditionmods22703tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22703?tab=files">Rudy HQ - More Lights for ENB - Bthardamz&lt;/a>&lt;/h5>
+&lt;h5 id="enb-particle-lights---dwemer-lanterns---ancient-dwemer-metal-patchhttpswwwnexusmodscomskyrimspecialeditionmods9951tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9951?tab=files">ENB Particle Lights - Dwemer Lanterns - Ancient Dwemer Metal Patch&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> ENB Particle Lights - Dwemer Lanterns - Ancient Dwemer Metal Patch&lt;/li>
+&lt;/ul>
+&lt;h5 id="rudy-hq---more-lights-for-enb---bthardamzhttpswwwnexusmodscomskyrimspecialeditionmods22703tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22703?tab=files">Rudy HQ - More Lights for ENB - Bthardamz&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - More Lights for ENB SE - Bthardamz&lt;/li>
 &lt;/ul>
+&lt;h5 id="rudy-hq---bthardamz---dwemer-ichor-barrel-patchhttpswwwnexusmodscomskyrimspecialeditionmods9951tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9951?tab=files">Rudy HQ - Bthardamz - Dwemer Ichor Barrel Patch&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - Bthardamz - Dwemer Ichor Barrel Patch&lt;/li>
+&lt;/ul>
 &lt;h5 id="hd-lava-for-dawnguardhttpswwwnexusmodscomskyrimspecialeditionmods7285tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/7285?tab=files">HD Lava for Dawnguard&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> HD Lava (4k)&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Clutter</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/clutter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/clutter/</guid><description>
@@ -2874,13 +2905,18 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Medieval Spirits&lt;/li>
 &lt;/ul>
-&lt;h5 id="remiros-dragonborn-alcohol-hdhttpswwwnexusmodscomskyrimspecialeditionmods41972tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41972?tab=files">Remiros&amp;rsquo; Dragonborn Alcohol HD&lt;/a>&lt;/h5>
+&lt;h5 id="unique-stros-mkai-rumhttpswwwnexusmodscomskyrimspecialeditionmods43830tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43830?tab=files">Unique Stros M&amp;rsquo;Kai Rum&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Stros M&amp;rsquo;Kai Rum Replacer 1K&lt;/li>
+&lt;/ul>
+&lt;h5 id="remiros-dragonborn-alcohol-hdhttpswwwnexusmodscomskyrimspecialeditionmods41972tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41972?tab=files">Remiros&amp;rsquo; Dragonborn Alcohol HD&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Remiros&amp;rsquo; Dragonborn Alcohol HD 2k&lt;/li>
 &lt;/ul>
 &lt;h5 id="boiled-creme-treat-sweet-roll-and-piehttpswwwnexusmodscomskyrimspecialeditionmods9034tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9034?tab=files">Boiled Creme Treat Sweet Roll and Pie&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Sweet Roll Boiled Creme Treat and Pie&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> MeatPie &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
@@ -2889,7 +2925,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;p>The optional file retextures the meat pies added by the USSEP which are not in fact vanilla food items.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="honey-pothttpswwwnexusmodscomskyrimspecialeditionmods3036tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3036?tab=files">Honey Pot&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Honey pot 1.3b Special Edition&lt;/li>
 &lt;/ul>
@@ -2899,37 +2935,37 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>&lt;strong>Texture size:&lt;/strong> 1k Texture&lt;/li>
 &lt;/ul>
 &lt;h5 id="true-homecooked-mealhttpswwwnexusmodscomskyrimspecialeditionmods33785tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33785?tab=files">True Homecooked Meal&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Main File Homecooked Meals&lt;/li>
 &lt;/ul>
 &lt;h5 id="hd-meshes-and-textures-for-animal-and-creature-dropshttpswwwnexusmodscomskyrimspecialeditionmods33791tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33791?tab=files">HD Meshes and Textures for Animal and Creature Drops&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> SSE HD Animal and Creature Drops&lt;/li>
 &lt;/ul>
 &lt;h5 id="falmer-ear-and-hagraven-clawhttpswwwnexusmodscomskyrimmods74792tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/74792?tab=files">Falmer Ear and Hagraven Claw&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Falmer Ear 512&lt;/li>
 &lt;/ul>
 &lt;h5 id="improved-dragonflyhttpswwwnexusmodscomskyrimspecialeditionmods34159tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34159?tab=files">Improved Dragonfly&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Improved Dragonfly&lt;/li>
 &lt;/ul>
 &lt;h5 id="elsopa-hd---briar-hearthttpswwwnexusmodscomskyrimspecialeditionmods27983tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27983?tab=files">ElSopa HD - Briar Heart&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> ElSopa HD - Briarheart Red 512&lt;/li>
 &lt;/ul>
 &lt;h5 id="rudy-hq---more-lights-for-enb---torchbugs-and-mothshttpswwwnexusmodscomskyrimspecialeditionmods22819tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22819?tab=files">Rudy HQ - More Lights for ENB - Torchbugs and Moths&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - More Lights for ENB SE - Moths and Fireflys&lt;/li>
 &lt;/ul>
 &lt;h5 id="rudy-hq---more-lights-for-enb---chaurus-eggs-and-sacshttpswwwnexusmodscomskyrimspecialeditionmods22705tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22705?tab=files">Rudy HQ - More Lights for ENB - Chaurus Eggs and Sacs&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - More Lights for ENB SE - Chaurus Eggs and Sacs&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Apparel &amp; Weapons</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/apparel-weapons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/apparel-weapons/</guid><description>
@@ -4143,8 +4179,13 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> AI Overhaul 1.6.4&lt;/li>
 &lt;/ul>
-&lt;h5 id="tavern-ai-fixhttpswwwnexusmodscomskyrimspecialeditionmods23107tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23107?tab=files">Tavern AI Fix&lt;/a>&lt;/h5>
+&lt;h5 id="simple-offence-suppressionhttpswwwnexusmodscomskyrimspecialeditionmods41764tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41764?tab=files">Simple Offence Suppression&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File:&lt;/strong> Simple Offence Suppression&lt;/li>
+&lt;/ul>
+&lt;h5 id="tavern-ai-fixhttpswwwnexusmodscomskyrimspecialeditionmods23107tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23107?tab=files">Tavern AI Fix&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> TavernAIFix&lt;/li>
 &lt;/ul>
@@ -4161,18 +4202,8 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>Press CTRL+S to save and close the window.&lt;/li>
 &lt;/ul>
 &lt;p>The commands will now be executed automatically when you start a new game or load your save.&lt;/p>
-&lt;h5 id="simple-offence-suppressionhttpswwwnexusmodscomskyrimspecialeditionmods41764tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41764?tab=files">Simple Offence Suppression&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main File:&lt;/strong> Simple Offence Suppression&lt;/li>
-&lt;/ul>
-&lt;h5 id="simple-offence-suppression-mcm---block-friendly-firehttpswwwnexusmodscomskyrimspecialeditionmods41774tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41774?tab=files">Simple Offence Suppression MCM - Block Friendly Fire&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Simple Offence Suppression MCM - Block Friendly Fire&lt;/li>
-&lt;/ul>
 &lt;h5 id="guard-dialogue-overhaul-gdohttpswwwnexusmodscomskyrimspecialeditionmods22075tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22075?tab=files">Guard Dialogue Overhaul (GDO)&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Guard Dialogue Overhaul SE&lt;/li>
 &lt;/ul>
@@ -4200,22 +4231,22 @@ SetGS fSandboxCylinderBottom -576
 &lt;p>By default, the &amp;ldquo;curved swords&amp;rdquo; line will play only until after the Alik&amp;rsquo;r quest, and the other three lines will no longer play in any hold that the player has become Thane of.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="misc-dialogue-editshttpswwwnexusmodscomskyrimspecialeditionmods28904tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28904?tab=files">Misc Dialogue Edits&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Misc Dialogue Edits&lt;/li>
 &lt;/ul>
 &lt;h5 id="more-dialogue-optionshttpswwwnexusmodscomskyrimspecialeditionmods28905tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28905?tab=files">More Dialogue Options&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> More Dialogue Options - for Misc Dialogue Edits&lt;/li>
 &lt;/ul>
 &lt;h5 id="hunters-not-banditshttpswwwnexusmodscomskyrimspecialeditionmods1547tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1547?tab=files">Hunters Not Bandits&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Hunters Not Bandits&lt;/li>
 &lt;/ul>
 &lt;h5 id="thugs-not-assassinshttpswwwnexusmodscomskyrimspecialeditionmods34028tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34028?tab=files">Thugs Not Assassins&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Thugs Not Assassins&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Thugs Not Assassins - Timing Is Everything&lt;/li>
@@ -4224,7 +4255,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;p>Even though Timing Is Everything will be installed later and lower in the mod order, the scripts from the TNA TIE patch will still override because the plugin will be loaded below TIE&amp;rsquo;s (BSA-packed assets override according to load order, not mod order).&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="prince-and-the-pauperhttpswwwnexusmodscomskyrimspecialeditionmods8354tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8354?tab=files">Prince and the Pauper&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Prince and the Pauper SE 4.1&lt;/li>
 &lt;/ul>
@@ -4233,7 +4264,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>&lt;strong>Texture Options:&lt;/strong> Rustic Clothing&lt;/li>
 &lt;/ul>
 &lt;h5 id="hearthfire-multiple-adoptionshttpswwwnexusmodscomskyrimspecialeditionmods3862tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3862?tab=files">Hearthfire Multiple Adoptions&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Hearthfire Multiple Adoptions and Custom Home Support SE&lt;/li>
 &lt;/ul>
@@ -4243,17 +4274,17 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>&lt;strong>Main Files:&lt;/strong> Prince and the Pauper - Hearthfire Multiple Adoptions Patch&lt;/li>
 &lt;/ul>
 &lt;h5 id="adopt-aventus-aretinohttpswwwnexusmodscomskyrimspecialeditionmods3257tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3257?tab=files">Adopt Aventus Aretino&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Adopt Aventus Aretino&lt;/li>
 &lt;/ul>
 &lt;h5 id="immersive-patrolshttpswwwnexusmodscomskyrimspecialeditionmods718tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/718?tab=files">Immersive Patrols&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Patrols Lite&lt;/li>
 &lt;/ul>
 &lt;h5 id="immersive-patrols-simplifiedhttpswwwnexusmodscomskyrimspecialeditionmods32765tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32765?tab=files">Immersive Patrols Simplified&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Patrols II Simplified&lt;/li>
 &lt;/ul>
@@ -4263,7 +4294,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>&lt;strong>Patches:&lt;/strong> No Merchants&lt;/li>
 &lt;/ul>
 &lt;h5 id="immersive-patrols---cathedral-npcs-facegen-patchhttpswwwnexusmodscomskyrimspecialeditionmods43514tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43514?tab=files">Immersive Patrols - Cathedral NPCs Facegen Patch&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Patrols II Lite - Cathedral NPCs Facegen Patch&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Improved Vanilla Quests</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/improved-vanilla-quests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/improved-vanilla-quests/</guid><description>
@@ -4282,22 +4313,41 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> The Choice is Yours&lt;/li>
 &lt;/ul>
-&lt;h5 id="miscellaneous-quests--as-miscellaneous-quests-mqmhttpswwwnexusmodscomskyrimspecialeditionmods11626tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11626?tab=files">Miscellaneous Quests … As Miscellaneous Quests (MQM)&lt;/a>&lt;/h5>
+&lt;h5 id="radiant-requirements-mcmhttpswwwnexusmodscomskyrimspecialeditionmods45427tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45427?tab=files">Radiant Requirements MCM&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Radiant Requirements&lt;/li>
+&lt;/ul>
+&lt;h5 id="radiant-requirements-mcm---tpf-presethttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Radiant Requirements MCM - TPF Preset&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Radiant Requirements MCM - TPF Preset&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Disregard the warning when installing the mod and simply click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>Ignore&lt;/strong> when MO2 warns you again.&lt;/li>
+&lt;li>After installing the mod, right-click it and select &lt;strong>Ignore missing data&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The &amp;ldquo;missing data&amp;rdquo; is not an issue. MO2 does not recognise the JSON file as a functioning mod but it does work as intended and automatically applies.&lt;/p>
+&lt;/blockquote>
+&lt;h5 id="miscellaneous-quests--as-miscellaneous-quests-mqmhttpswwwnexusmodscomskyrimspecialeditionmods11626tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11626?tab=files">Miscellaneous Quests … As Miscellaneous Quests (MQM)&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Miscellaneous Quests…as Miscellaneous Quests&lt;/li>
 &lt;/ul>
 &lt;h5 id="a-lovely-letter---alternate-routeshttpswwwnexusmodscomskyrimspecialeditionmods21916tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21916?tab=files">A Lovely Letter - Alternate Routes&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> A Lovely Letter Alternate Routes&lt;/li>
 &lt;/ul>
 &lt;h5 id="save-the-icerunner---lights-out-alternate-routeshttpswwwnexusmodscomskyrimspecialeditionmods34681tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34681?tab=files">Save the Icerunner - Lights Out Alternate Routes&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main File:&lt;/strong> Save the Icerunner&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Delete the follwoing file(s) and / or folder(s):
 &lt;ul>
@@ -4306,7 +4356,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;/li>
 &lt;/ul>
 &lt;h5 id="finding-derkeethushttpswwwnexusmodscomskyrimspecialeditionmods19550tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19550?tab=files">Finding Derkeethus&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Finding Derkeethus&lt;/li>
 &lt;/ul>
@@ -4315,7 +4365,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>&lt;strong>Objective Patches:&lt;/strong> None&lt;/li>
 &lt;/ul>
 &lt;h5 id="finding-helgi-and-laelette---a-laid-to-rest-overhaulhttpswwwnexusmodscomskyrimspecialeditionmods28973tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28973?tab=files">Finding Helgi and Laelette - A Laid To Rest Overhaul&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Finding Helgi and Laelette&lt;/li>
 &lt;/ul>
@@ -4324,7 +4374,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>Change nothing, click &lt;strong>Install&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;h5 id="finding-susanna-alive---a-blood-on-the-ice-trigger-revisionhttpswwwnexusmodscomskyrimspecialeditionmods32512tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32512?tab=files">Finding Susanna Alive - A Blood on the Ice Trigger Revision&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Finding Susanna Alive&lt;/li>
 &lt;/ul>
@@ -4333,17 +4383,17 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>Change nothing, click &lt;strong>Install&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;h5 id="improved-companions---questline-tweakshttpswwwnexusmodscomskyrimspecialeditionmods22300tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22300?tab=files">Improved Companions - Questline Tweaks&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Companions Questline Tweaks&lt;/li>
 &lt;/ul>
 &lt;h5 id="the-companions---dont-be-a-milk-drinkerhttpswwwnexusmodscomskyrimspecialeditionmods19490tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19490?tab=files">The Companions - Don&amp;rsquo;t Be A Milk Drinker&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Companions - Don&amp;rsquo;t be a Milk Drinker_v1.0&lt;/li>
 &lt;/ul>
 &lt;h5 id="more-radiant-quests-for-the-companionshttpswwwnexusmodscomskyrimspecialeditionmods24144tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24144?tab=files">More Radiant Quests for the Companions&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> More Radiant Quests for the Companions&lt;/li>
 &lt;/ul>
@@ -4352,22 +4402,22 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>&lt;strong>Select your option:&lt;/strong> Option 1 (see description)&lt;/li>
 &lt;/ul>
 &lt;h5 id="no-thieves-guild-grindhttpswwwnexusmodscomskyrimspecialeditionmods4382tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4382?tab=files">No Thieves Guild Grind&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> No TG Grind&lt;/li>
 &lt;/ul>
 &lt;h5 id="the-paarthurnax-resolutionhttpswwwnexusmodscomskyrimspecialeditionmods43766tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43766?tab=files">The Paarthurnax Resolution&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> The Paarthurnax Resolution&lt;/li>
 &lt;/ul>
 &lt;h5 id="stackable-stones-of-barenziahhttpswwwnexusmodscomskyrimspecialeditionmods22395tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22395?tab=files">Stackable Stones of Barenziah&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Stackable Stones of Barenziah with Optional Quest Markers&lt;/li>
 &lt;/ul>
 &lt;h5 id="andrealphus-gameplay-tweakshttpswwwnexusmodscomskyrimspecialeditionmods27939tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27939?tab=files">Andrealphus&amp;rsquo; Gameplay Tweaks&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-15">Download instructions&lt;/h4>
+&lt;h4 id="download-instructions-17">Download instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> ANDR Tweaks 02 - Harder Mara Quests&lt;/li>
 &lt;li>&lt;strong>Main Files:&lt;/strong> ANDR Tweaks 06 - No Easy Bloodkin&lt;/li>
@@ -4553,6 +4603,9 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>&lt;strong>Main Files:&lt;/strong> Misc. College of Winterhold Tweaks&lt;/li>
 &lt;/ul>
 &lt;h4 id="fomod-instructions-2">FOMOD Instructions&lt;/h4>
+&lt;blockquote>
+&lt;p>Make sure all previous mods are activated as you will otherwise be unable to select certain options in the FOMOD.&lt;/p>
+&lt;/blockquote>
 &lt;ul>
 &lt;li>&lt;strong>Arniel&amp;rsquo;s Appeals:&lt;/strong>
 &lt;ul>
@@ -4714,6 +4767,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> FMPSE 3-3 Script (v2.0)&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Stalhrim (Vanilla Speed) ESP&lt;/li>
 &lt;/ul>
 &lt;h5 id="craftable-torcheshttpswwwnexusmodscomskyrimspecialeditionmods5013tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5013?tab=files">Craftable Torches&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
@@ -4740,24 +4794,19 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Tweaks for WACCF and ACE&lt;/li>
 &lt;/ul>
-&lt;h5 id="amidianborn-armor-variants-litehttpsmeganzfile5vvibthrrhdtotizk9plp1a91ty0c6zwtzw_az1ie6qmknd1niu">&lt;a href="https://mega.nz/file/5VViBThR#RhdtoTIzK9plp1A91ty0C6ZWTzW_aZ1iE6qmKnd1nIU">aMidianBorn Armor Variants Lite&lt;/a>&lt;/h5>
+&lt;h5 id="amidianborn-armor-variants-litehttpswwwnexusmodscomskyrimspecialeditionmods45160tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45160?tab=files">aMidianBorn Armor Variants Lite&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> aMidianBorn Armor Variants Lite&lt;/li>
-&lt;/ul>
-&lt;h4 id="installation-instructions">Installation Instructions&lt;/h4>
-&lt;ul>
-&lt;li>Download the archive from MEGA.&lt;/li>
-&lt;li>Move the archive to &lt;code>Your Modding Folder\ARCHIVE\MO2 Downloads&lt;/code>.&lt;/li>
-&lt;li>Back in Mod Organizer 2, press F5 to refresh.&lt;/li>
-&lt;li>The mod will show up in the &lt;strong>Downloads&lt;/strong> tab as usual.&lt;/li>
 &lt;/ul>
 &lt;h4 id="fomod-instructions-2">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Patches:&lt;/strong>
 &lt;ul>
-&lt;li>Weapons Armor Clothing and Clutter Fixes Patch&lt;/li>
 &lt;li>Enchanting Adjustments Patch&lt;/li>
+&lt;li>Finding Velehk Sain Patch&lt;/li>
+&lt;li>Reliquary of Myth Patch&lt;/li>
+&lt;li>Weapons Armor Clothing and Clutter Fixes Patch&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -4869,18 +4918,30 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>Resave the plugin in the Creation Kit.&lt;/li>
 &lt;/ul>
-&lt;h5 id="quick-lighthttpswwwnexusmodscomskyrimspecialeditionmods12633tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12633?tab=files">Quick Light&lt;/a>&lt;/h5>
+&lt;h5 id="horses-for-followershttpswwwnexusmodscomskyrimspecialeditionmods45500tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45500/?tab=files">Horses for Followers&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Horses for Followers&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;p>If like me you don&amp;rsquo;t want or need the &amp;ldquo;ride ahead&amp;rdquo; feature, you can easily disable it through the console:&lt;/p>
+&lt;ul>
+&lt;li>Double-click &lt;strong>Autorun&lt;/strong> in your mod order (Essential Mods separator).&lt;/li>
+&lt;li>In the &lt;strong>Text Files&lt;/strong> tab, select the &lt;strong>Autorun.txt&lt;/strong>.&lt;/li>
+&lt;li>Add &lt;code>set hff_FollowerRideAheadEnabled to 0&lt;/code> below the existing lines.&lt;/li>
+&lt;/ul>
+&lt;h5 id="quick-lighthttpswwwnexusmodscomskyrimspecialeditionmods12633tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12633?tab=files">Quick Light&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Quick Light SE&lt;/li>
 &lt;/ul>
 &lt;h5 id="ishs-respec-modhttpswwwnexusmodscomskyrimspecialeditionmods1960tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1960?tab=files">Ish&amp;rsquo;s Respec Mod&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Ish&amp;rsquo;s Respec Mod&lt;/li>
 &lt;/ul>
 &lt;h5 id="durnehviir-resurrectedhttpswwwnexusmodscomskyrimspecialeditionmods14272tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14272?tab=files">Durnehviir Resurrected&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Durnehviir Resurrected&lt;/li>
 &lt;/ul>
@@ -4908,12 +4969,12 @@ SetGS fSandboxCylinderBottom -576
 &lt;/li>
 &lt;/ul>
 &lt;h5 id="simple-player-home-improvementshttpswwwnexusmodscomskyrimspecialeditionmods37236tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/37236?tab=files">Simple Player Home Improvements&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Simple Home Improvements AIO (Proudspire 4 Beds)&lt;/li>
 &lt;/ul>
 &lt;h5 id="improved-shadowmarkshttpswwwnexusmodscomskyrimspecialeditionmods17609tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17609?tab=files">Improved Shadowmarks&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Improved Shadowmarks (512)&lt;/li>
 &lt;/ul>
@@ -4921,22 +4982,22 @@ SetGS fSandboxCylinderBottom -576
 &lt;p>This mod also contains new textures for the shadowmarks. Fortunately, since the textures are packed in a BSA, they will be automatically overwritten by the better looking ones from Ennead Shadowmarks.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="delphines-map-reveals-dragon-moundshttpswwwnexusmodscomskyrimspecialeditionmods26301tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26301?tab=files">Delphine’s Map Reveals Dragon Mounds&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Delphine’s Map Reveals Dragon Mounds SE v1.0&lt;/li>
 &lt;/ul>
 &lt;h5 id="bring-meeko-to-lodhttpswwwnexusmodscomskyrimspecialeditionmods25246tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25246?tab=files">Bring Meeko to Lod&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Bring Meeko to Lod SE&lt;/li>
 &lt;/ul>
 &lt;h5 id="seranas-blood-tomb-cursehttpswwwnexusmodscomskyrimspecialeditionmods26852tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26852?tab=files">Serana’s Blood Tomb Curse&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> SeranasTombBloodCurse SE v1.1&lt;/li>
 &lt;/ul>
 &lt;h5 id="karstaag---the-frost-king-rebornhttpswwwnexusmodscomskyrimspecialeditionmods14328tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14328?tab=files">Karstaag - The Frost King Reborn&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Karstaag - The Frost King Reborn&lt;/li>
 &lt;/ul>
@@ -5179,7 +5240,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Musical Lore V1.2&lt;/li>
 &lt;/ul>
-&lt;h5 id="phoenix---merged-music-patchhttpswwwnexusmodscomskyrimspecialeditionmods26092">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092">Phoenix - Merged Music Patch&lt;/a>&lt;/h5>
+&lt;h5 id="phoenix---merged-music-patchhttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Phoenix - Merged Music Patch&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Phoenix - Merged Music Patch&lt;/li>
