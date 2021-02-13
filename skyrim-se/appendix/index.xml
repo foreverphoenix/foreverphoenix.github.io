@@ -86,6 +86,21 @@
 &lt;h2 id="waterfalls-appear-black">Waterfalls appear black.&lt;/h2>
 &lt;p>This happens when playing without ENB. Disable &amp;ldquo;Bright Waterfall Fix for ENB&amp;rdquo; under the &lt;strong>LANDSCAPE&lt;/strong> separator.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/appendix/black-waterfall.jpg" alt="Black Waterfall">&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/appendix/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/changelog/</guid><description>
+&lt;h2 id="release-412">Release 4.1.2&lt;/h2>
+&lt;blockquote>
+&lt;p>14/02/2021&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Wabbajack installer update.&lt;/strong> No changes to the manual guide. The update is &lt;em>save-safe&lt;/em> and can be applied to an ongoing playthrough.&lt;/p>
+&lt;h4 id="wabbajack-installer">Wabbajack Installer&lt;/h4>
+&lt;ul>
+&lt;li>Updated Skyrim Uncapper - Adamant Arena to 2.10&lt;/li>
+&lt;li>Updated Blade and Blunt to 1.2.1&lt;/li>
+&lt;li>Update aMidianBorn Armor Variants Lite to 1.2&lt;/li>
+&lt;li>Updated Horses for Followers to 1.1&lt;/li>
+&lt;li>Updated ENBSeries (no version number change)&lt;/li>
+&lt;li>Updated DynDOLOD to 2.92&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>Note that while I updated DynDOLOD itself, I haven&amp;rsquo;t re-generated LOD so there will be no problem with updating ongoing playthroughs.&lt;/em>&lt;/p>
 &lt;h2 id="release-411">Release 4.1.1&lt;/h2>
 &lt;blockquote>
 &lt;p>13/02/2021&lt;/p>
@@ -125,7 +140,7 @@
 &lt;li>&lt;strong>4.1:&lt;/strong> Reverted amount of pamphlets to be distributed in the Spread the Love quest to vanilla (30 &amp;gt; 20)&lt;/li>
 &lt;li>&lt;strong>4.1:&lt;/strong> Increased buy price for the Golden Claw from 500 to 5000 Septims&lt;/li>
 &lt;/ul>
-&lt;h4 id="wabbajack-installer">Wabbajack Installer&lt;/h4>
+&lt;h4 id="wabbajack-installer-1">Wabbajack Installer&lt;/h4>
 &lt;ul>
 &lt;li>Updated Adamant - A Perk Overhaul to 4.2.7&lt;/li>
 &lt;li>Updated Aetherius - A Race Overhaul to 2.4.0&lt;/li>
@@ -192,7 +207,7 @@
 &lt;li>Added Dargor&amp;rsquo;s Rock to cover up a hole near the Tomb of Ysgramor.&lt;/li>
 &lt;li>Added a replacement mesh for the Skyforge HD LOD to fix it clipping outside of the city walls.&lt;/li>
 &lt;/ul>
-&lt;h4 id="wabbajack-installer-1">Wabbajack Installer&lt;/h4>
+&lt;h4 id="wabbajack-installer-2">Wabbajack Installer&lt;/h4>
 &lt;ul>
 &lt;li>Updated ENBSeries (no file version change)&lt;/li>
 &lt;li>Updated Skyrim Landscape and Water Fixes to 5.9&lt;/li>
