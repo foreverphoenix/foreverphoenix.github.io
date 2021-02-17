@@ -356,22 +356,34 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Mannequin Slapper System&lt;/li>
 &lt;/ul>
-&lt;h5 id="blackreach-tentacle-mesh-fixhttpswwwnexusmodscomskyrimspecialeditionmods43083tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43083?tab=files">Blackreach Tentacle Mesh Fix&lt;/a>&lt;/h5>
+&lt;h5 id="skyrim-ultimate-eye-meshes-ruhmasteredhttpswwwnexusmodscomskyrimspecialeditionmods18147tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18147?tab=files">Skyrim Ultimate Eye Meshes Ruhmastered&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> SUEMR SSE v3.0 Meshes&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> SUEMR v3.0 Simple Vampire Fixes SSE&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Double-click &lt;strong>Skyrim Ultimate Eye Meshes Ruhmastered - Simple Vampire Fixes&lt;/strong> in your mod order.&lt;/li>
+&lt;li>Switch to the &lt;strong>Filetree&lt;/strong> tab.&lt;/li>
+&lt;li>Rename &lt;code>SimpleVampFixesSSE.esl&lt;/code> to &lt;code>SimpleVampFixesSSE.esp&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;h5 id="blackreach-tentacle-mesh-fixhttpswwwnexusmodscomskyrimspecialeditionmods43083tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43083?tab=files">Blackreach Tentacle Mesh Fix&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Blackreach Tentacle Mesh Fix&lt;/li>
 &lt;/ul>
 &lt;h5 id="sound-hammering-soundshttpswwwnexusmodscomskyrimspecialeditionmods5592tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5592?tab=files">Sound Hammering Sounds&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Sound Hammering Sounds&lt;/li>
 &lt;/ul>
 &lt;h5 id="dragon-stalking-fixhttpswwwnexusmodscomskyrimspecialeditionmods14060tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14060?tab=files">Dragon Stalking Fix&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Dragon Stalking Fix&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Unpack &lt;strong>DragonStalkingFix.bsa&lt;/strong> through Mod Organizer 2.&lt;/li>
 &lt;li>Delete the following file(s) and/or folder(s):
@@ -385,7 +397,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;p>The plugin is empty and only serves to load the archive which is now unpacked.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="seranas-hood-fixhttpswwwnexusmodscomskyrimspecialeditionmods20243tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20243?tab=files">Serana&amp;rsquo;s Hood Fix&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Serana’s Hood Fix&lt;/li>
 &lt;/ul>
@@ -394,21 +406,21 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>&lt;strong>Choose Version:&lt;/strong> Realistic&lt;/li>
 &lt;/ul>
 &lt;h5 id="bug-fixeshttpswwwnexusmodscomskyrimspecialeditionmods33261tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33261?tab=files">Bug Fixes&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Bug Fixes SSE v2&lt;/li>
 &lt;/ul>
 &lt;h5 id="actor-limit-fixhttpswwwnexusmodscomskyrimspecialeditionmods32349tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32349?tab=files">Actor Limit Fix&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> ActorLimitPlugin v2&lt;/li>
 &lt;/ul>
 &lt;h5 id="keyboard-shortcuts-fixhttpswwwnexusmodscomskyrimspecialeditionmods3620tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3620?tab=files">Keyboard Shortcuts Fix&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-18">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> KeyboardShortcutsFix_SKSE64&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Right-click &lt;strong>Keyboard Shortcuts Fix&lt;/strong> in your mod order.&lt;/li>
 &lt;li>Select &lt;strong>Open in Explorer&lt;/strong> and navigate to &lt;code>SKSE\Plugins&lt;/code>.&lt;/li>
@@ -725,7 +737,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>&lt;strong>Dawnguard:&lt;/strong> HD Masser and Secunda and More Stars&lt;/li>
 &lt;li>&lt;strong>Vampire Background:&lt;/strong> HDR Nebula&lt;/li>
 &lt;/ul>
-&lt;h5 id="extended-ui-for-skyrim-uncapperhttpswwwnexusmodscomskyrimspecialeditionmods44643tabdescription">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/44643?tab=description">Extended UI for Skyrim Uncapper&lt;/a>&lt;/h5>
+&lt;h5 id="extended-ui-for-skyrim-uncapperhttpswwwnexusmodscomskyrimspecialeditionmods44643tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/44643?tab=files">Extended UI for Skyrim Uncapper&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Extended UI for Skyrim Uncapper Adamant Arena&lt;/li>
@@ -1000,8 +1012,13 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>Run the mod through Cathedral Assets Optimizer (&lt;strong>Optimise SLE Assets&lt;/strong>).&lt;/li>
 &lt;/ul>
-&lt;h5 id="high-poly-projecthttpswwwnexusmodscomskyrimspecialeditionmods12029tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12029?tab=files">High Poly Project&lt;/a>&lt;/h5>
+&lt;h5 id="revamped-assets-skyrim---weapon-racks-patchhttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Revamped Assets Skyrim - Weapon Racks Patch&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Revamped Assets Skyrim - Weapon Racks Patch&lt;/li>
+&lt;/ul>
+&lt;h5 id="high-poly-projecthttpswwwnexusmodscomskyrimspecialeditionmods12029tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12029?tab=files">High Poly Project&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> High Poly Project&lt;/li>
 &lt;/ul>
@@ -3758,48 +3775,72 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> HD Reworked Dragon Collection 4K&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Appearance</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/appearance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/appearance/</guid><description>
-&lt;h5 id="cathedral-player-and-npc-overhaulhttpswwwnexusmodscomskyrimspecialeditionmods24174tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24174?tab=files">Cathedral Player and NPC Overhaul&lt;/a>&lt;/h5>
+&lt;h5 id="expressive-facial-animations---female-editionhttpswwwnexusmodscomskyrimspecialeditionmods19181tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19181?tab=files">Expressive Facial Animations - Female Edition&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> HMB II&lt;/li>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> Vanilla Body with UNP Textures by Shiva182&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Expressive Facial Animation - Female Edition&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
-&lt;ul>
-&lt;li>Delete the following file(s) and / or folder(s):
-&lt;ul>
-&lt;li>&lt;code>textures\actors\character\eyes\eyewerewolfbeastbrown.dds&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h5 id="expressive-facegen-morphshttpswwwnexusmodscomskyrimspecialeditionmods35785tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/35785?tab=files">Expressive Facegen Morphs&lt;/a>&lt;/h5>
+&lt;h5 id="expressive-facial-animations---female-editionhttpswwwnexusmodscomskyrimspecialeditionmods19532tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19532?tab=files">Expressive Facial Animations - Female Edition&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Expressive Facegen Morphs SE&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Expressive Facial Animation - Male Edition&lt;/li>
 &lt;/ul>
-&lt;h5 id="diverse-skyrimhttpswwwnexusmodscomskyrimspecialeditionmods7707tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/7707?tab=files">DIVERSE SKYRIM&lt;/a>&lt;/h5>
+&lt;h5 id="vanilla-body-with-unp-textureshttpswwwnexusmodscomskyrimspecialeditionmods20517tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20517?tab=files">Vanilla Body with UNP Textures&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> DIVERSE SKYRIM SSE&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Vanilla Body with UNP Textures&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
-&lt;ul>
-&lt;li>Delete the following file(s) and/or folder(s):
-&lt;ul>
-&lt;li>DIVERSE SKYRIM.bsa&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>The archive contains the facegen files which are going to be replaced by the next mod anyway.&lt;/p>
-&lt;/blockquote>
-&lt;h5 id="diverse-skyrim---cathedral-npcs-facegen-patchhttpswwwnexusmodscomskyrimspecialeditionmods43514tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43514?tab=files">DIVERSE SKYRIM - Cathedral NPCs Facegen Patch&lt;/a>&lt;/h5>
+&lt;h5 id="cathedral-player-and-npc-overhaul---female-skin-textureshttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Cathedral Player and NPC Overhaul - Female Skin Textures&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> DIVERSE SKYRIM - Cathedral NPCs Facegen Patch&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Cathedral Player and NPC Overhaul - Female Skin Textures&lt;/li>
+&lt;/ul>
+&lt;h5 id="skysight-skinshttpswwwnexusmodscomskyrimspecialeditionmods6580tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6580?tab=files">SkySight Skins&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> SkySight Skins HD with Real Feet Meshes (HIGH - Recommended)&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> PATCH - Shoe Fixes (Less Shine)&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Meshes:&lt;/strong> Real Feet Meshes PLUS Less Shiny Body Meshes&lt;/li>
+&lt;li>&lt;strong>Body Textures:&lt;/strong> Hairy and Clean (default)&lt;/li>
+&lt;li>&lt;strong>Body Veins:&lt;/strong> Reduced Veins&lt;/li>
+&lt;li>&lt;strong>Faces:&lt;/strong> Vanilla Age (default)&lt;/li>
+&lt;/ul>
+&lt;h5 id="males-of-skyrim---high-poly-handshttpswwwnexusmodscomskyrimspecialeditionmods37485tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/37485?tab=files">Males of Skyrim - High Poly Hands&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> 03 - High Poly Hands Only&lt;/li>
+&lt;/ul>
+&lt;h5 id="mild-complexionshttpswwwnexusmodscomskyrimspecialeditionmods28510tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28510?tab=files">Mild Complexions&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Mild Complexions - SE&lt;/li>
+&lt;/ul>
+&lt;h5 id="feminine-khajiit-textureshttpswwwnexusmodscomskyrimspecialeditionmods183tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/183?tab=files">Feminine Khajiit Textures&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Feminine Khajiit Textures (Grey Cat and Leopard) UNP&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Resolution Selection:&lt;/strong> [2K] Res Pack&lt;/li>
+&lt;li>&lt;strong>Variations:&lt;/strong> Grey Cat&lt;/li>
+&lt;li>&lt;strong>Chest Variations:&lt;/strong> Furry&lt;/li>
+&lt;/ul>
+&lt;h5 id="masculine-khajiit-textureshttpswwwnexusmodscomskyrimspecialeditionmods186tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/186?tab=files">Masculine Khajiit Textures&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Grey Cat and Leopard Vanilla v1.0 - 2K Res Pack&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions-2">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Variations:&lt;/strong> Grey Cat&lt;/li>
+&lt;li>&lt;strong>Chest textures:&lt;/strong> Furry&lt;/li>
 &lt;/ul>
 &lt;h5 id="forgotten-argonian-roots-farhttpswwwnexusmodscomskyrimspecialeditionmods1704tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1704?tab=files">Forgotten Argonian Roots (FAR)&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> FAR 2k. all-in-one with readme&lt;/li>
 &lt;/ul>
@@ -3807,15 +3848,15 @@ SetGS fSandboxCylinderBottom -576
 &lt;p>&lt;strong>Do not install this mod yet.&lt;/strong>&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="forgotten-argonian-roots---fomodhttpswwwnexusmodscomskyrimspecialeditionmods23322tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23322?tab=files">Forgotten Argonian Roots - FOMOD&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Forgotten Argonian Roots – FOMOD&lt;/li>
 &lt;/ul>
 &lt;h4 id="installation-instructions">Installation Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Extract the archive to &lt;code>Your Modding Folder\Temp&lt;/code>.&lt;/li>
-&lt;li>Find the &lt;strong>FAR 2k.all-in-one with readme.zip&lt;/strong> archive in &lt;code>Your Modding Folder\ARCHIVE\MO2 Downloads&lt;/code> and open it.&lt;/li>
-&lt;li>Move the following folders to &lt;code>Your Modding Folder\Temp\Forgotten Argonian Roots&lt;/code>:
+&lt;li>Find the &lt;strong>FAR 2k.all-in-one with readme.zip&lt;/strong> archive in &lt;code>Your Modding Folder\ARCHIVE\MO2 Downloads&lt;/code>.&lt;/li>
+&lt;li>Open the archive and move the following folders to &lt;code>Your Modding Folder\Temp\Forgotten Argonian Roots&lt;/code>:
 &lt;ul>
 &lt;li>&lt;strong>Males&lt;/strong>&lt;/li>
 &lt;li>&lt;strong>Females&lt;/strong>&lt;/li>
@@ -3826,7 +3867,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>Back in MO2, press F5 to refresh and it will show up in the &lt;strong>Downloads&lt;/strong> tab.&lt;/li>
 &lt;li>Right-click it and select &lt;strong>Query Info&lt;/strong> (Mod ID is &lt;strong>1704&lt;/strong>), then double-click to install as usual.&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions-3">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>FAR - Main:&lt;/strong>
 &lt;ul>
@@ -3841,53 +3882,107 @@ SetGS fSandboxCylinderBottom -576
 &lt;/li>
 &lt;li>&lt;strong>FAR - Females 1:&lt;/strong>
 &lt;ul>
-&lt;li>Vanilla body&lt;/li>
+&lt;li>UNP body&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;strong>FAR - Females 2 - Vanilla body:&lt;/strong>
+&lt;li>&lt;strong>FAR - Females 2 - UNP body:&lt;/strong>
 &lt;ul>
 &lt;li>None&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
+&lt;h5 id="mild-hair-colorshttpswwwnexusmodscomskyrimspecialeditionmods27013tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27013?tab=files">Mild Hair Colors&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Mild Hair Colors&lt;/li>
+&lt;/ul>
+&lt;h5 id="high-poly-vanilla-hairhttpswwwnexusmodscomskyrimspecialeditionmods41863tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41863?tab=files">High Poly Vanilla Hair&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> High Poly Vanilla Hair&lt;/li>
+&lt;/ul>
+&lt;h5 id="vanilla-hair---salt-and-windhttpswwwnexusmodscomskyrimspecialeditionmods45147tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45147?tab=files">Vanilla Hair - Salt and Wind&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Vanilla hair - Salt and Wind&lt;/li>
+&lt;/ul>
+&lt;h5 id="argonians-enhanced---hd-argonian-hairhttpswwwnexusmodscomskyrimspecialeditionmods4830tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4830?tab=files">Argonians Enhanced - HD Argonian Hair&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> HD Argonian Hairstyles&lt;/li>
+&lt;/ul>
 &lt;h5 id="hvergelmirs-aesthetics---browshttpswwwnexusmodscomskyrimspecialeditionmods1062tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1062?tab=files">Hvergelmir’s Aesthetics - Brows&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Hvergelmir’s Aesthetics - Brows 4.1&lt;/li>
 &lt;/ul>
-&lt;blockquote>
-&lt;p>Included with Cathedral NPCs but in a resolution that I consider too large.&lt;/p>
-&lt;/blockquote>
-&lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions-4">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Choose:&lt;/strong> Vanilla only&lt;/li>
 &lt;li>&lt;strong>Resolution:&lt;/strong> Low: 512&lt;/li>
 &lt;/ul>
 &lt;h5 id="hvergelmirs-aesthetics---beardshttpswwwnexusmodscomskyrimspecialeditionmods1067tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1067?tab=files">Hvergelmir’s Aesthetics - Beards&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Hvergelmir’s Aesthetics - Beards 5.0.1&lt;/li>
 &lt;/ul>
-&lt;blockquote>
-&lt;p>Included with Cathedral NPCs but in a resolution that I consider too large.&lt;/p>
-&lt;/blockquote>
-&lt;h4 id="fomod-instructions-2">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions-5">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Choose:&lt;/strong> Vanilla only&lt;/li>
 &lt;li>&lt;strong>Resolution:&lt;/strong> Low: 1024&lt;/li>
 &lt;/ul>
+&lt;h5 id="beard-stubblehttpswwwnexusmodscomskyrimspecialeditionmods42809tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/42809?tab=files">Beard Stubble&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Beard stubbles light&lt;/li>
+&lt;/ul>
+&lt;h5 id="authentic-eyeshttpswwwnexusmodscomskyrimspecialeditionmods36063tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/36063?tab=files">Authentic Eyes&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-18">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Authentic Eyes v1.1&lt;/li>
+&lt;/ul>
+&lt;h5 id="immersive-mouth-and-teethhttpswwwnexusmodscomskyrimspecialeditionmods12335tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12335?tab=files">Immersive Mouth and Teeth&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-19">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Mouth and Teeth - Skyrim Version - 2.0&lt;/li>
+&lt;/ul>
+&lt;h5 id="immersive-mouth-and-teeth-for-orcshttpswwwnexusmodscomskyrimspecialeditionmods27343tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27343?tab=files">Immersive Mouth and Teeth for Orcs&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-20">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Mouth and Teeth for Orcs - 1K - 1.0&lt;/li>
+&lt;/ul>
+&lt;h5 id="beastly-smileshttpswwwnexusmodscomskyrimspecialeditionmods15933tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/15933?tab=files">Beastly Smiles&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-21">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Beastly Smiles&lt;/li>
+&lt;/ul>
+&lt;h5 id="just-fangs-from-bvfehttpswwwnexusmodscomskyrimspecialeditionmods33779tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33779?tab=files">Just Fangs from BVFE&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-22">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Just Fangs From BVFE&lt;/li>
+&lt;/ul>
+&lt;h5 id="beast-race-fang-removalhttpswwwnexusmodscomskyrimspecialeditionmods20400tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20400?tab=files">Beast Race Fang Removal&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-23">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Beast Race Vampire Fang Removal&lt;/li>
+&lt;/ul>
 &lt;h5 id="vanilla-makeup-hdhttpswwwnexusmodscomskyrimspecialeditionmods24482tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24482?tab=files">Vanilla Makeup HD&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-24">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> VMHD - All Races - 2K&lt;/li>
 &lt;li>&lt;strong>Update Files:&lt;/strong> VMHD - FemaleLowerEyeSocketFix - 2K &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
+&lt;h5 id="painterly---a-high-res-vanilla-warpaint-retexturehttpswwwnexusmodscomskyrimmods67147tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/67147?tab=files">Painterly - A High Res Vanilla Warpaint Retexture&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-25">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Painterly_HighResVanillaWarpaint&lt;/li>
+&lt;/ul>
 &lt;h5 id="vanilla-warpaints-absolutionhttpswwwnexusmodscomskyrimspecialeditionmods20751tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20751?tab=files">Vanilla Warpaints Absolution&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-26">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Vanilla Warpaints Absolution - FOMOD Installer - All Inclusive&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions-3">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions-6">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Vanilla Replacers:&lt;/strong> 2K Vanilla Texture&lt;/li>
 &lt;li>&lt;strong>RaceMenu Plugins:&lt;/strong> None&lt;/li>
@@ -3905,7 +4000,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>&lt;strong>RaceMenu Variants Argonian Scaley:&lt;/strong> None&lt;/li>
 &lt;li>&lt;strong>SKSE Tintmask Configs:&lt;/strong> None&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Delete all files starting with &lt;strong>male&lt;/strong> or &lt;strong>female&lt;/strong>:
 &lt;ul>
@@ -3914,17 +4009,50 @@ SetGS fSandboxCylinderBottom -576
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h5 id="beast-race-fang-removalhttpswwwnexusmodscomskyrimspecialeditionmods20400tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20400?tab=files">Beast Race Fang Removal&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
+&lt;h5 id="forsworn-and-blackblood-and-boethiah-tattooshttpswwwnexusmodscomskyrimmods76486tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/76486?tab=files">Forsworn and Blackblood and Boethiah Tattoos&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-27">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Beast Race Vampire Fang Removal&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> 2k Forsworn Blackblood Boethiah replacers&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and / or folder(s):
+&lt;ul>
+&lt;li>&lt;code>textures\actors\character\character assets\tintmasks\femaleheaddarkelfwarpaint_06.dds&lt;/code>&lt;/li>
+&lt;li>&lt;code>textures\actors\character\character assets\tintmasks\maleheaddarkelfwarpaint_06.dds&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="northborn-scarshttpswwwnexusmodscomskyrimspecialeditionmods720tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/720?tab=files">Northborn Scars&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-28">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Northborn Scars&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete all files starting with &lt;strong>NBfemaleface&lt;/strong> and &lt;strong>NBface&lt;/strong>:
+&lt;ul>
+&lt;li>&lt;code>textures\actors\character\female\facedetails\NBfemaleface---.dds&lt;/code>&lt;/li>
+&lt;li>&lt;code>textures\actors\character\male\facedetails\NBface---.dds&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Delete the plugin:
+&lt;ul>
+&lt;li>&lt;code>NB-Scars.esp&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="better-beast-race-scarshttpswwwnexusmodscomskyrimspecialeditionmods29180tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/29180?tab=files">Better Beast Race Scars&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-29">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Beast scars&lt;/li>
 &lt;/ul>
 &lt;h5 id="tk-childrenhttpswwwnexusmodscomskyrimspecialeditionmods5916tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5916?tab=files">TK Children&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-30">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> TK Children SE&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions-4">FOMOD Instructions&lt;/h4>
+&lt;h4 id="fomod-instructions-7">FOMOD Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Irrelevant, just click &lt;strong>Next&lt;/strong> and &lt;strong>Install&lt;/strong>. We are only interested in this mod’s TRI files which are required for Simple Children.&lt;/li>
 &lt;/ul>
@@ -3942,7 +4070,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;/ul>
 &lt;p>Rename the mod to &lt;strong>TK Children - TRI Files&lt;/strong> in order to indicate that it is not the full mod.&lt;/p>
 &lt;h5 id="simple-childrenhttpswwwnexusmodscomskyrimspecialeditionmods22789tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22789?tab=files">Simple Children&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-31">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Simple Children Main - FOMOD&lt;/li>
 &lt;li>&lt;strong>Update Files:&lt;/strong> Simple Children - Updated Textures &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
@@ -4125,6 +4253,18 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Carriage and Ferry Travel Overhaul&lt;/li>
 &lt;/ul>
+&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and / or folder(s):
+&lt;ul>
+&lt;li>&lt;code>meshes&lt;/code>&lt;/li>
+&lt;li>&lt;code>textures&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The folders contains facegen files which we will later regenerate in higher quality.&lt;/p>
+&lt;/blockquote>
 &lt;h5 id="carriage-and-ferry-travel-overhaul---fixes-and-winterholdhttpswwwnexusmodscomskyrimspecialeditionmods40651tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/40651?tab=files">Carriage and Ferry Travel Overhaul - Fixes and Winterhold&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
 &lt;ul>
@@ -4136,13 +4276,8 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>&lt;strong>Covered Carriages Add-On:&lt;/strong> ESL-flagged&lt;/li>
 &lt;li>&lt;strong>Lanterns Add-On:&lt;/strong> ESL-flagged&lt;/li>
 &lt;/ul>
-&lt;h5 id="carriage-and-ferry-travel-overhaul---cathedral-npcs-facegen-patchhttpswwwnexusmodscomskyrimspecialeditionmods43514tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43514?tab=files">Carriage and Ferry Travel Overhaul - Cathedral NPCs Facegen Patch&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Carriage and Ferry Travel Overhaul - Cathedral NPCs Facegen Patch&lt;/li>
-&lt;/ul>
 &lt;h5 id="miscellaneous-tweaks-collectionhttpswwwnexusmodscomskyrimspecialeditionmods38348tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38348/?tab=files">Miscellaneous Tweaks Collection&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Misc Tweaks - Better Ancient Knowledge Perk&lt;/li>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Misc Tweaks - Better Horses&lt;/li>
@@ -4269,13 +4404,40 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Adopt Aventus Aretino&lt;/li>
 &lt;/ul>
-&lt;h5 id="immersive-patrolshttpswwwnexusmodscomskyrimspecialeditionmods718tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/718?tab=files">Immersive Patrols&lt;/a>&lt;/h5>
+&lt;h5 id="diverse-skyrimhttpswwwnexusmodscomskyrimspecialeditionmods7707tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/7707?tab=files">DIVERSE SKYRIM&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> DIVERSE SKYRIM SSE&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and/or folder(s):
+&lt;ul>
+&lt;li>&lt;code>DIVERSE SKYRIM.bsa&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The archive contains the facegen files which we will regenerate later on.&lt;/p>
+&lt;/blockquote>
+&lt;h5 id="immersive-patrolshttpswwwnexusmodscomskyrimspecialeditionmods718tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/718?tab=files">Immersive Patrols&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Patrols Lite&lt;/li>
 &lt;/ul>
+&lt;h4 id="additional-files">Additional Files&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and / or folder(s):
+&lt;ul>
+&lt;li>&lt;code>Immersive Patrols II.bsa&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The BSA contains facegen files which we will later regenerate in higher quality.&lt;/p>
+&lt;/blockquote>
 &lt;h5 id="immersive-patrols-simplifiedhttpswwwnexusmodscomskyrimspecialeditionmods32765tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32765?tab=files">Immersive Patrols Simplified&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Patrols II Simplified&lt;/li>
 &lt;/ul>
@@ -4283,18 +4445,13 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Immersive Patrols Version:&lt;/strong> Lite&lt;/li>
 &lt;li>&lt;strong>Patches:&lt;/strong> No Merchants&lt;/li>
-&lt;/ul>
-&lt;h5 id="immersive-patrols---cathedral-npcs-facegen-patchhttpswwwnexusmodscomskyrimspecialeditionmods43514tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43514?tab=files">Immersive Patrols - Cathedral NPCs Facegen Patch&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Patrols II Lite - Cathedral NPCs Facegen Patch&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Improved Vanilla Quests</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/improved-vanilla-quests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/improved-vanilla-quests/</guid><description>
 &lt;h5 id="timing-is-everythinghttpswwwnexusmodscomskyrimspecialeditionmods25464tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25464?tab=files">Timing Is Everything&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Timing is Everything SE - FISS version&lt;/li>
 &lt;/ul>
-&lt;h5 id="timing-is-everythinghttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Timing Is Everything&lt;/a>&lt;/h5>
+&lt;h5 id="timing-is-everything---tpf-presethttpswwwnexusmodscomskyrimspecialeditionmods26092tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Timing Is Everything - TPF Preset&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Timing Is Everything - Custom Preset&lt;/li>
@@ -4514,7 +4671,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>&lt;del>Equippable Spell Tomes&lt;/del>&lt;/li>
 &lt;li>&lt;del>Female Mannequins&lt;/del>&lt;/li>
 &lt;li>&lt;del>Flora Respawn Fix&lt;/del>&lt;/li>
-&lt;li>&lt;del>Humans, Mer, and Beastfolk&lt;/del> &amp;raquo; &lt;code>enabled by default, uncheck the box&lt;/code>&lt;/li>
+&lt;li>&lt;del>Humans, Mer, and Beastfolk&lt;/del>&lt;/li>
 &lt;li>&lt;del>Immersive Laundry&lt;/del>&lt;/li>
 &lt;li>&lt;del>Interesting NPCs&lt;/del>&lt;/li>
 &lt;li>&lt;del>Konahrik&amp;rsquo;s Accountrements&lt;/del>&lt;/li>
@@ -4570,13 +4727,8 @@ SetGS fSandboxCylinderBottom -576
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h5 id="obscures-college-of-winterhold---cathedral-npcs-facegen-patchhttpswwwnexusmodscomskyrimspecialeditionmods43514tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43514?tab=files">Obscure&amp;rsquo;s College of Winterhold - Cathedral NPCs Facegen Patch&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Obscure&amp;rsquo;s College of Winterhold - Cathedral NPCs Facegen Patch&lt;/li>
-&lt;/ul>
 &lt;h5 id="immersive-college-npcshttpswwwnexusmodscomskyrimspecialeditionmods9252tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9252?tab=files">Immersive College NPCs&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Immersive College NPCs&lt;/li>
 &lt;/ul>
@@ -4584,18 +4736,24 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>Change nothing and click &lt;strong>Install&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;h5 id="immersive-college-npcs---cathedral-npcs-facegen-patchhttpswwwnexusmodscomskyrimspecialeditionmods43514tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43514?tab=files">Immersive College NPCs - Cathedral NPCs Facegen Patch&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
+&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Immersive College NPCs - Cathedral NPCs Facegen Patch&lt;/li>
+&lt;li>Delete the following file(s) and / or folder(s):
+&lt;ul>
+&lt;li>&lt;code>ICNs_ImmersiveCollegeNPCs.bsa&lt;/code>&lt;/li>
 &lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The BSA contains facegen files which we will later regenerate in higher quality.&lt;/p>
+&lt;/blockquote>
 &lt;h5 id="improved-college-entry---questline-tweakshttpswwwnexusmodscomskyrimspecialeditionmods22184tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22184?tab=files">Improved College Entry - Questline Tweaks&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Improved College Entry&lt;/li>
 &lt;/ul>
 &lt;h5 id="misc-college-of-winterhold-tweakshttpswwwnexusmodscomskyrimspecialeditionmods22653tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22653?tab=files">Misc College of Winterhold Tweaks&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Misc. College of Winterhold Tweaks&lt;/li>
 &lt;/ul>
@@ -4688,12 +4846,12 @@ SetGS fSandboxCylinderBottom -576
 &lt;p>The &lt;strong>Early Elementalist&lt;/strong> module allows you to Wait in the Hall of Elements. This is done by removing the &amp;ldquo;Can&amp;rsquo;t Wait&amp;rdquo; flag in that cell. Because this record has to be forwarded into the Conflict Resolution Patch anyway (to patch it with changes from other mods, namely Luminosity), there is no point in keeping the original Early Elementalist ESP as it would be completely overwritten. In short - skip the option, it is already implemented in the CRP.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="choose-your-own-arch-magehttpswwwnexusmodscomskyrimspecialeditionmods30887tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30887?tab=files">Choose Your Own Arch-Mage&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Choose Your Own Arch-Mage&lt;/li>
 &lt;/ul>
 &lt;h5 id="finding-velehk-sainhttpswwwnexusmodscomskyrimspecialeditionmods19815tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19815?tab=files">Finding Velehk Sain&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Finding Velehk Sain&lt;/li>
 &lt;/ul>

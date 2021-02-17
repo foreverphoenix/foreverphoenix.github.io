@@ -568,19 +568,18 @@
 &lt;hr>
 &lt;h4 id="continue-with-the-additional-toolsskyrim-seinitial-setupadditional-tools-page">Continue with the &lt;a href="https://thephoenixflavour.com/skyrim-se/initial-setup/additional-tools/">Additional Tools&lt;/a> page.&lt;/h4></description></item><item><title>Skyrim-Se: Additional Tools</title><link>https://thephoenixflavour.com/skyrim-se/initial-setup/additional-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/initial-setup/additional-tools/</guid><description>
 &lt;h2 id="sseedit">SSEEdit&lt;/h2>
-&lt;h3 id="installation">Installation&lt;/h3>
 &lt;ul>
 &lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/164/">SSEEdit&lt;/a> manually from the Nexus.&lt;/li>
 &lt;li>Create a new folder: &lt;code>Your Modding Folder\Tools\SSEEdit&lt;/code>.&lt;/li>
 &lt;li>Open the downloaded archive and extract everything into the new folder.&lt;/li>
 &lt;li>Open Mod Organizer 2 and go into the &lt;strong>Executables&lt;/strong> settings (Tools &amp;raquo; Executables or CTRL + E).&lt;/li>
 &lt;li>Click the tiny blue plus icon to add a new executable and select &lt;strong>Add from file&lt;/strong>.&lt;/li>
-&lt;li>Navigate to &lt;code>Your Modding Folder\Tools\SSEEdit&lt;/code>and double-click &lt;strong>SSEEdit.exe&lt;/strong>.&lt;/li>
+&lt;li>Navigate to &lt;code>Your Modding Folder\Tools\SSEEdit&lt;/code> and double-click &lt;strong>SSEEdit.exe&lt;/strong>.&lt;/li>
 &lt;li>Click &lt;strong>Apply&lt;/strong> to save the new executable.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/add-sseedit-to-mo2.png" alt="Add SSEEdit to MO2">&lt;/p>
 &lt;h3 id="sseedit-cache-output">SSEEdit Cache Output&lt;/h3>
-&lt;p>Every time a new plugin is loaded into SSEEdit, a refcache file will be generated for it so that the next time it won’t have to processed again: SSEEdit can simply read the cache file, significantly shortening the startup time.&lt;/p>
+&lt;p>Every time a new plugin is loaded into SSEEdit, a refcache file will be generated for it so that the next time it won’t have to processed again: SSEEdit can simply read the cache file, significantly shortening the startup time. Whenever you update SSEEdit, the accumulated refache files will also be wiped (as they should be) and new ones will be generated and stored in the same directory when you next launch SSEEdit without you having to complete any additional steps.&lt;/p>
 &lt;p>In order to store the cached files with the program files themselves, we need to add an argument for it:&lt;/p>
 &lt;ul>
 &lt;li>Under &lt;strong>Arguments&lt;/strong>, enter the following:
@@ -593,30 +592,64 @@
 &lt;li>&lt;code>-C:&amp;quot;F:\Modding\Skyrim SE Mods\Tools\SSEEdit\cache\&amp;quot;&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>Click &lt;strong>Apply&lt;/strong> to save.&lt;/li>
+&lt;li>Click &lt;strong>Apply&lt;/strong> to save. Don&amp;rsquo;t close the window.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>Whenever you update SSEEdit, the accumulated refache files will also be wiped (as they should be) and new ones will be generated and stored in the same directory when you next launch SSEEdit without you having to complete any additional steps.&lt;/p>
+&lt;p>Note that the trailing backslash at the end is required - the file path MUST end on &lt;code>\cache\&lt;/code>.&lt;/p>
 &lt;/blockquote>
+&lt;h3 id="sseedit-backups">SSEEdit Backups&lt;/h3>
+&lt;p>After editing a plugin in SSEEdit, a backup will automatically be created. With another argument, we can define the location to which these backups will be saved to so that they are out of our way.&lt;/p>
+&lt;ul>
+&lt;li>In the &lt;strong>Arguments&lt;/strong> line, after the cache argument, press Space once before adding the second command.&lt;/li>
+&lt;li>Enter the following line after the first:
+&lt;ul>
+&lt;li>&lt;code>-B:&amp;quot;...\Your Modding Folder\Tools\SSEEdit\backups\&amp;quot;&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Replace the &lt;strong>&amp;quot;…\Your Modding Folder&amp;hellip;&amp;quot;&lt;/strong> part with the file path on your end. This is what I added:
+&lt;ul>
+&lt;li>&lt;code>-B:&amp;quot;F:\Modding\Skyrim SE Mods\Tools\SSEEdit\backups\&amp;quot;&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Click &lt;strong>Apply&lt;/strong> to save. Don&amp;rsquo;t close the window.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Again remember that the trailing backslash at the end is required - the file path MUST end on &lt;code>\backups\&lt;/code>.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/xedit-arguments.png" alt="xEdit Arguments">&lt;/p>
 &lt;h3 id="quickautoclean">QuickAutoClean&lt;/h3>
 &lt;ul>
 &lt;li>Click the tiny blue plus icon to add another new executable and select &lt;strong>Add from file&lt;/strong>.&lt;/li>
 &lt;li>Navigate to &lt;code>Your Modding Folder\Tools\SSEEdit&lt;/code>and double-click &lt;strong>SSEEditQuickAutoClean.exe&lt;/strong>.&lt;/li>
-&lt;li>&lt;strong>Optional:&lt;/strong> Change the title to something less verbose (like &amp;ldquo;SSEEdit - Quick Cleaning&amp;rdquo;).&lt;/li>
+&lt;li>Change the title to something less verbose (like &amp;ldquo;SSEEdit - Quick Cleaning&amp;rdquo;).&lt;/li>
 &lt;li>Under &lt;strong>Arguments&lt;/strong>, enter the following:
 &lt;ul>
-&lt;li>&lt;code>-DontCache&lt;/code>&lt;/li>
+&lt;li>&lt;code>-DontCache -B:&amp;quot;...\Your Modding Folder\Tools\SSEEdit\backups\&amp;quot;&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;/li>
+&lt;li>Once again, replace the &lt;strong>&amp;quot;…\Your Modding Folder&amp;hellip;&amp;quot;&lt;/strong> part with the file path on your end (same as before).&lt;/li>
 &lt;li>Click &lt;strong>OK&lt;/strong> to save and close the window.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>The &lt;strong>-DontCache&lt;/strong> argument will prevent an obscure bug that destroys parts of Apocrypha during the cleaning of Dragonborn.esm.&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/add-qac-to-mo2.png" alt="Add QuickAutoClean to MO2">&lt;/p>
+&lt;h2 id="zedit">zEdit&lt;/h2>
+&lt;p>zEdit is an alternative to xEdit with some additional features. While it is far from being a replacement, it has some neat additional features. Unfortunately cannot take advantage from most of them because zEdit does not support ESL plugins.&lt;/p>
+&lt;p>At the moment, we only need zEdit for one very small step toward the end of the guide.&lt;/p>
+&lt;ul>
+&lt;li>Download &lt;a href="https://github.com/z-edit/zedit/releases">zEdit&lt;/a> manually from the Github page (see picture below).&lt;/li>
+&lt;li>Create a new folder: &lt;code>Your Modding Folder\Tools\zEdit&lt;/code>.&lt;/li>
+&lt;li>Open the downloaded archive and extract everything to the new folder.&lt;/li>
+&lt;li>Open Mod Organizer 2 and go into the &lt;strong>Executables&lt;/strong> settings (Tools &amp;raquo; Executables or CTRL + E).&lt;/li>
+&lt;li>Click the tiny blue plus icon to add a new executable and select &lt;strong>Add from file&lt;/strong>.&lt;/li>
+&lt;li>Navigate to &lt;code>Your Modding Folder\Tools\zEdit&lt;/code> and double-click zEdit.exe.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> to save the new executable and close the window.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/zedit-download.png" alt="zEdit Download">&lt;/p>
 &lt;h2 id="cathedral-assets-optimizer-cao">Cathedral Assets Optimizer (CAO)&lt;/h2>
 &lt;p>Cathedral Assets Optimizer by Gk1 is a unified asset processing tool that can be used to extract or create BSAs, optimize assets, compress or resize textures, and more.&lt;/p>
-&lt;h3 id="installation-1">Installation&lt;/h3>
+&lt;h3 id="installation">Installation&lt;/h3>
 &lt;ul>
 &lt;li>Download the latest non-Beta version of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23316">Cathedral Assets Optimizer&lt;/a> manually from the Nexus.&lt;/li>
 &lt;li>Create a new folder: &lt;code>Your Modding Folder\Tools\Cathedral Assets Optimizer&lt;/code>.&lt;/li>
@@ -729,7 +762,6 @@
 &lt;ul>
 &lt;li>Close SSEEdit.&lt;/li>
 &lt;li>When asked to save your changes, only &lt;strong>Dawnguard.esm&lt;/strong> should appear in the list.&lt;/li>
-&lt;li>Uncheck &lt;strong>Backup plugins&lt;/strong> at the bottom if it is checked.&lt;/li>
 &lt;li>Make sure &lt;strong>Dawnguard.esm&lt;/strong> is checked, then click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;li>You’re done!&lt;/li>
 &lt;/ul>
