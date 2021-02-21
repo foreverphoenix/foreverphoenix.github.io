@@ -443,8 +443,11 @@ iSize W=1920
 &lt;/ul>
 &lt;h2 id="dyndolod">DynDOLOD&lt;/h2>
 &lt;p>There is generally no need to update DynDOLOD and re-generate LOD for every new DynDOLOD update, especially when you&amp;rsquo;re in the middle of a playthrough. However, if you change something about the landscape (the Alternate Branch Textures color for Enhanced Vanilla Trees for example), you need to re-run DynDOLOD and you should update it first.&lt;/p>
-&lt;p>&lt;strong>The instructions below are for updating DynDOLOD on an ongoing playthrough.&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>The instructions are for both &lt;strong>Wabbajack&lt;/strong> and &lt;strong>manual&lt;/strong> users. They are for updating DynDOLOD in an ongoing playthrough.&lt;/p>
+&lt;/blockquote>
 &lt;h3 id="disabling-dyndolod">Disabling DynDOLOD&lt;/h3>
+&lt;p>&lt;strong>Wabbajack user:&lt;/strong> Do not update to the new version yet. Open MO2 with your existing installation.&lt;/p>
 &lt;ul>
 &lt;li>Before you change anything in MO2, open the game and load your save.&lt;/li>
 &lt;li>Make sure you&amp;rsquo;re outside (not in an interior cell) in Tamriel.&lt;/li>
@@ -461,13 +464,14 @@ iSize W=1920
 &lt;li>Start the game, load your save and create a new save. Then quit again.&lt;/li>
 &lt;/ul>
 &lt;h3 id="updating-dyndolod">Updating DynDOLOD&lt;/h3>
+&lt;p>&lt;strong>Wabbajack users:&lt;/strong> At this point you can simply update by running Wabbajack and re-installing TPF over your existing setup. The steps below are for users of the manual guide.&lt;/p>
 &lt;ul>
 &lt;li>Download the &lt;strong>DynDOLOD Resources SE&lt;/strong> main file from the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32382?tab=files">DynDOLOD&lt;/a> mod page through MO2.&lt;/li>
-&lt;li>Re-install it (&lt;a href="https://thephoenixflavour.com/skyrim-se/mod-installation/06-graphics-baseline/">FOMOD instructions are here&lt;/a>) and &lt;strong>Replace&lt;/strong> the existing installation when prompted.&lt;/li>
+&lt;li>Re-install it (&lt;a href="https://thephoenixflavour.com/skyrim-se/mod-installation/graphics-baseline/">FOMOD instructions are here&lt;/a>) and &lt;strong>Replace&lt;/strong> the existing installation when prompted.&lt;/li>
 &lt;li>Navigate to &lt;code>Your Modding Folder\Tools\DynDOLOD&lt;/code> and delete everything inside the folder.&lt;/li>
-&lt;li>Download the &lt;strong>DynDOLOD&lt;/strong> main file &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32382?tab=files">DynDOLOD&lt;/a> mod page manually.&lt;/li>
+&lt;li>Download the &lt;strong>DynDOLOD&lt;/strong> main file from the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32382?tab=files">DynDOLOD&lt;/a> mod page manually.&lt;/li>
 &lt;li>Open the archive and extract everything into the now empty &lt;strong>DynDOLOD&lt;/strong> folder.&lt;/li>
-&lt;li>Go back to the &lt;a href="https://thephoenixflavour.com/skyrim-se/finalisation/04-dyndolod/">DynDOLOD&lt;/a> page in the Finalisation and follow all steps from &lt;strong>TexGen Configuration&lt;/strong> onwards.&lt;/li>
+&lt;li>Go back to the &lt;a href="https://thephoenixflavour.com/skyrim-se/finalisation/dyndolod/">DynDOLOD&lt;/a> page in the Finalisation and follow all steps from &lt;strong>TexGen Configuration&lt;/strong> onwards.&lt;/li>
 &lt;li>After regenerating TexGen and DynDOLOD, load your save, and continue your playthrough!&lt;/li>
 &lt;/ul>
 &lt;blockquote>
