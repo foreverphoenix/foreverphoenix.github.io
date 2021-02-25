@@ -260,7 +260,7 @@
 &lt;h2 id="installation">Installation&lt;/h2>
 &lt;p>Installing MO2 with a portable instance means all of its subdirectories will be located inside the MO2 root folder which is required for some modding tools to work properly.&lt;/p>
 &lt;ul>
-&lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6194">Mod Organizer 2&lt;/a> (the &lt;strong>Archive&lt;/strong> version) manually from the Nexus.&lt;/li>
+&lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6194">Mod Organizer 2&lt;/a> (the &lt;strong>Archive&lt;/strong> version of &lt;strong>2.3.2&lt;/strong> under &lt;strong>Old Files&lt;/strong>) manually from the Nexus.&lt;/li>
 &lt;li>Extract the archive to a new folder on the same hard drive as your Skyrim SE installation, outside the UAC protected folders.&lt;/li>
 &lt;li>Run &lt;strong>ModOrganizer.exe&lt;/strong>.&lt;/li>
 &lt;li>A window will come up - select &lt;strong>Portable&lt;/strong> (see picture below).&lt;/li>

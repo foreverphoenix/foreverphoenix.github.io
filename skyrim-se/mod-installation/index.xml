@@ -1450,61 +1450,43 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Refracting Ice Form Debris - 2.0&lt;/li>
 &lt;/ul>
-&lt;h5 id="voltagehttpswwwnexusmodscomskyrimspecialeditionmods15565tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/15565?tab=files">Voltage&lt;/a>&lt;/h5>
+&lt;h5 id="thunderbolt---hd-lightninghttpswwwnexusmodscomskyrimspecialeditionmods46024tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/46024?tab=files">Thunderbolt - HD Lightning&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> Voltage 2K&lt;/li>
-&lt;/ul>
-&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
-&lt;ul>
-&lt;li>Delete the following file(s) and / or folder(s):
-&lt;ul>
-&lt;li>&lt;code>textures\impactdecals\decalsparkburn01.dds&lt;/code>&lt;/li>
-&lt;li>&lt;code>textures\impactdecals\decalsparkburn01_g.dds&lt;/code>&lt;/li>
-&lt;li>&lt;code>textures\impactdecals\decalsparkburn01_n.dds&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>Voltage changes the colour of shock magic to a light blue which the next mod is going the revert (back to vanilla violet). These decals also use the blue colour which would be inconsistent. Remove them means decals from Deadly Spell Effects will be used instead which use the vanilla violet colour.&lt;/p>
-&lt;/blockquote>
-&lt;h5 id="voltage---zkg-chroma-packhttpswwwnexusmodscomskyrimspecialeditionmods15693tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/15693?tab=files">Voltage - ZKG Chroma Pack&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Voltage - Violet Victory&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Thunderbolt - HD Lightning&lt;/li>
 &lt;/ul>
 &lt;h5 id="elsopa-hd---dirt-blasthttpswwwnexusmodscomskyrimspecialeditionmods22342tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22342?tab=files">ElSopa HD - Dirt Blast&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> 1K ElSopa HD - Dirt Blast&lt;/li>
 &lt;/ul>
 &lt;h5 id="reduced-glow-fxhttpswwwnexusmodscomskyrimspecialeditionmods20691tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20691?tab=files">Reduced Glow FX&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Reduced Glow FX SE&lt;/li>
 &lt;/ul>
 &lt;h5 id="ljoss-enb---magelight-fixhttpswwwnexusmodscomskyrimspecialeditionmods30971tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30971?tab=files">Ljoss ENB - Magelight Fix&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Fix overbright magelight and College of Winterhold lights&lt;/li>
 &lt;/ul>
 &lt;h5 id="fire-halo-removerhttpswwwnexusmodscomskyrimspecialeditionmods28381tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28381?tab=files">Fire Halo Remover&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Fire Halo Remover&lt;/li>
 &lt;/ul>
 &lt;h5 id="less-distracting-blowing-snow-effects-for-enb-particle-patchhttpswwwnexusmodscomskyrimspecialeditionmods36198tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/36198?tab=files">Less Distracting Blowing Snow Effects for ENB Particle Patch&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Less Distracting Blowing Snow Effects 1.0&lt;/li>
 &lt;/ul>
 &lt;h5 id="glow-be-gone-skse-updatedhttpswwwnexusmodscomskyrimspecialeditionmods34148tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34148?tab=files">Glow Be Gone SKSE Updated&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> GlowBeGoneSSE-Updated&lt;/li>
 &lt;/ul>
 &lt;h5 id="glow-be-gone-skse-updated-ghostfx-workaroundhttpswwwnexusmodscomskyrimspecialeditionmods36112tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/36112/?tab=files">Glow Be Gone SKSE Updated GhostFX Workaround&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> GhostFX Workaround&lt;/li>
 &lt;/ul>
@@ -5353,13 +5335,18 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Free Look v2&lt;/li>
 &lt;/ul>
-&lt;h5 id="uninterrupted-invisibilityhttpswwwnexusmodscomskyrimspecialeditionmods21729tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21729?tab=files">Uninterrupted Invisibility&lt;/a>&lt;/h5>
+&lt;h5 id="vampires-cast-no-shadowshttpswwwnexusmodscomskyrimspecialeditionmods46107tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/46107?tab=files">Vampires Cast No Shadows&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Vampires Cast No Shadows&lt;/li>
+&lt;/ul>
+&lt;h5 id="uninterrupted-invisibilityhttpswwwnexusmodscomskyrimspecialeditionmods21729tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21729?tab=files">Uninterrupted Invisibility&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Uninterrupted Invisibility v2&lt;/li>
 &lt;/ul>
 &lt;h5 id="uninterrupted-ethereal-formhttpswwwnexusmodscomskyrimspecialeditionmods21765tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21765?tab=files">Uninterrupted Ethereal Form&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Uninterrupted Ethereal Form v2&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Sounds &amp; Music</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/sounds-music/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/sounds-music/</guid><description>
