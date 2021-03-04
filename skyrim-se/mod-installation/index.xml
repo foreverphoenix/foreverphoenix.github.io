@@ -994,7 +994,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Ruins Clutter Improved - Fixes 1.1&lt;/li>
 &lt;/ul>
-&lt;h5 id="hd-falmre-and-chaurushttpswwwnexusmodscomskyrimspecialeditionmods32301tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32301?tab=files">HD Falmre and Chaurus&lt;/a>&lt;/h5>
+&lt;h5 id="hd-falmer-and-chaurushttpswwwnexusmodscomskyrimspecialeditionmods32301tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32301?tab=files">HD Falmer and Chaurus&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> HD Falmer and Chaurus with Glow - xTxVxTx&lt;/li>
@@ -1097,8 +1097,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;/li>
 &lt;li>&lt;strong>Page 2:&lt;/strong>
 &lt;ul>
-&lt;li>
-&lt;pre>&lt;code class="language-Common" data-lang="Common">&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>&lt;del>Common Clutter&lt;/del>&lt;/li>
 &lt;li>Dragon Parts&lt;/li>
 &lt;li>&lt;del>Food&lt;/del>&lt;/li>
 &lt;li>Hagraven&lt;/li>
@@ -3541,14 +3540,8 @@ SetGS fSandboxCylinderBottom -576
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h5 id="sunhallowed-and-bloodcursed-arrows---hd-retexturehttpswwwnexusmodscomskyrimspecialeditionmods13649tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/13649?tab=files">Sunhallowed and Bloodcursed Arrows - HD Retexture&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-20">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Bloodcursed Arrows 1k&lt;/li>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Sunhallowed Arrows 1k &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
-&lt;/ul>
 &lt;h5 id="dragon-priest-weapons-improvedhttpswwwnexusmodscomskyrimmods60075tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/60075?tab=files">Dragon Priest Weapons Improved&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-21">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-20">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Dragon Priest Weapon Improved&lt;/li>
 &lt;li>&lt;strong>Update Files:&lt;/strong> Quick Update &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
@@ -3561,7 +3554,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;p>Processing the meshes with CAO results in the staff 3rd person mesh being invisble ingame. Not processing causes the dagger 1st and 3rd person meshes to be invisible. Only SSE NIF Optimizer reliably fixes all meshes.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="gemling-queen-jewelryhttpswwwnexusmodscomskyrimspecialeditionmods4294tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4294?tab=files">Gemling Queen Jewelry&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-22">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-21">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Gemling Queen Jewelry SE&lt;/li>
 &lt;/ul>
@@ -3613,7 +3606,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/mod-installation/gqj-delete-wild-edit.png" alt="Gemling Queen Jewelry - Delete Records in xEdit">&lt;/p>
 &lt;h5 id="js-circlet-replacerhttpswwwnexusmodscomskyrimspecialeditionmods8686tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8686?tab=files">JS Circlet Replacer&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-23">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-22">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> JS Circlet Replacer&lt;/li>
 &lt;/ul>
@@ -3622,7 +3615,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>Downsize the mod’s textures with Cathedral Assets Optimizer (&lt;strong>SSE - Downsize Textures&lt;/strong>).&lt;/li>
 &lt;/ul>
 &lt;h5 id="rustic-amuletshttpswwwnexusmodscomskyrimspecialeditionmods35485tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/35485?tab=files">RUSTIC AMULETS&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-24">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-23">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> RUSTIC AMULETS SE&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Unique Artifacts</title><link>https://thephoenixflavour.com/skyrim-se/mod-installation/unique-artifacts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/mod-installation/unique-artifacts/</guid><description>

@@ -538,7 +538,8 @@
 &lt;li>Double-click your new &lt;strong>enblocal.ini&lt;/strong>.&lt;/li>
 &lt;li>In the new window, click &lt;strong>Import Settings&lt;/strong> in the top bar.&lt;/li>
 &lt;li>Navigate to &lt;code>Your Modding Folder\Tools\ENBMan\Games\Skyrim SE\Binaries\ENBSeries 0.4xx&lt;/code>.&lt;/li>
-&lt;li>Double-click the &lt;strong>enblocal.ini&lt;/strong> inside to import it and check all boxes.&lt;/li>
+&lt;li>Double-click the &lt;strong>enblocal.ini&lt;/strong> inside to import it.&lt;/li>
+&lt;li>Press CTRL+A to select all settings and click the green checkmark button in the toolbar to enable them.&lt;/li>
 &lt;/ul>
 &lt;h3 id="better-hotkeys">Better Hotkeys&lt;/h3>
 &lt;p>I&amp;rsquo;m personally not a fan of the default ENB ingame hotkeys. &amp;ldquo;KeyUseEffect&amp;rdquo;, for instance, is on Shift+F12. At the same time, F12 is the Steam hotkey for &amp;ldquo;Take Screenshot&amp;rdquo;. You can see how that might result in many unwanted screenshots.&lt;/p>
