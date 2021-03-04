@@ -124,4 +124,51 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27939">Andrealphus&amp;rsquo; Gameplay Tweaks&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>Collecting all Stones of Barenziah for the &lt;a href="https://en.uesp.net/wiki/Skyrim:No_Stone_Unturned">No Stone Unturned&lt;/a> quest can be fairly annoying. To make things easier, you have the option to enable quest markers for each of the 24 stones in the SSoB MCM. The markers will only appear once the actual quest has been started which happens after bringing one of the stones to Vex in The Ragged Flaggon.&lt;/p>
-&lt;p>The quest now also requires you to play the DLC as two stones from core Skyrim locations were moved to DLC locations. The stone in Proudspire Manor can now be found in Harkon&amp;rsquo;s room in Volkihar Keep while the stone in Whiterun&amp;rsquo;s Hall of the Dead was placed in Tel Mithryn on Solstheim.&lt;/p></description></item></channel></rss>
+&lt;p>The quest now also requires you to play the DLC as two stones from core Skyrim locations were moved to DLC locations. The stone in Proudspire Manor can now be found in Harkon&amp;rsquo;s room in Volkihar Keep while the stone in Whiterun&amp;rsquo;s Hall of the Dead was placed in Tel Mithryn on Solstheim.&lt;/p>
+&lt;h2 id="quest-rewards">Quest Rewards&lt;/h2>
+&lt;p>In vanilla, some fetch or delivery quests will pay more than killing a dangerous bounty. There are some mods to try and rectify that.&lt;/p>
+&lt;h3 id="reward-changes">Reward Changes&lt;/h3>
+&lt;p>&lt;em>Vanilla Reward&lt;/em> &amp;raquo; &lt;em>TPF Reward&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://en.uesp.net/wiki/Skyrim:Enchanting_Pick-Up">Enchanting Pick-Up&lt;/a>: 250-750 Gold &amp;raquo; 25-75 Gold&lt;/li>
+&lt;li>&lt;a href="https://en.uesp.net/wiki/Skyrim:Few_and_Far_Between">Few and Far Between&lt;/a>: 250-750 Gold &amp;raquo; 50-150 Gold&lt;/li>
+&lt;li>&lt;a href="https://en.uesp.net/wiki/Skyrim:Special_Delivery_(Bolli)">Special Delivery (Bolli)&lt;/a>: 1 Silver Ingot + 1 Leveled Ingot &amp;raquo; 6-20 Gold&lt;/li>
+&lt;li>&lt;a href="https://en.uesp.net/wiki/Skyrim:Arniel%27s_Endeavor">Arniel&amp;rsquo;s Endeavour (Dwemer Cogs)&lt;/a>: 250-750 Gold &amp;raquo; 50-150 Gold&lt;/li>
+&lt;li>&lt;a href="https://en.uesp.net/wiki/Skyrim:Aftershock">Aftershock&lt;/a>: 500-1,500 Gold &amp;raquo; 25-75 Gold&lt;/li>
+&lt;li>&lt;a href="https://en.uesp.net/wiki/Skyrim:Climb_the_Steps">Climb the Steps&lt;/a>: 500-1500 Gold &amp;raquo; 25-75 Gold&lt;/li>
+&lt;li>&lt;a href="https://en.uesp.net/wiki/Skyrim:Heart_Stones">Heart Stones&lt;/a>: 250 Gold &amp;raquo; 125 Gold&lt;/li>
+&lt;li>&lt;a href="https://en.uesp.net/wiki/Skyrim:Pain_in_the_Necklace">Pain in the Necklace&lt;/a>: 500 Gold &amp;raquo; 200 Gold (per pendant)&lt;/li>
+&lt;li>&lt;a href="https://en.uesp.net/wiki/Skyrim:Elmus_Favor_Quest_(mead)">Elmus Favor Quest (mead)&lt;/a>: 400-1,200 Gold &amp;raquo; 25-75 Gold&lt;/li>
+&lt;li>&lt;a href="https://en.uesp.net/wiki/Skyrim:Elmus_Favor_Quest_(berries)">Elmus Favor Quest (berries)&lt;/a>: 250-750 Gold &amp;raquo; 25-75 Gold&lt;/li>
+&lt;li>&lt;a href="https://en.uesp.net/wiki/Skyrim:That_Was_Always_There">That Was Always There&lt;/a>: 400-1,200 Gold &amp;raquo; 25-75 Gold&lt;/li>
+&lt;li>&lt;a href="https://en.uesp.net/wiki/Skyrim:Delayed_Burial">Delayed Burial&lt;/a>: 250-750 Gold &amp;raquo; 25-75 Gold&lt;/li>
+&lt;li>&lt;a href="https://en.uesp.net/wiki/Skyrim:Search_and_Seizure">Search and Seizure&lt;/a>: 400-1,200 Gold &amp;raquo; 25-75 Gold&lt;/li>
+&lt;li>&lt;a href="https://en.uesp.net/wiki/Skyrim:Kill_the_Bandit_Leader_(Jarl)">Kill the Bandit Leader (Jarl)&lt;/a>: 500-1,500 Gold &amp;raquo; 25-75 Gold&lt;/li>
+&lt;li>&lt;a href="https://en.uesp.net/wiki/Skyrim:Sanuarach_Mine_(quest)">A Sanuarach Mine&lt;/a>: 400-1,200 Gold &amp;raquo; 25-75 Gold&lt;/li>
+&lt;li>&lt;a href="https://en.uesp.net/wiki/Skyrim:The_Dark_Brotherhood_Forever">The Dark Brotherhood Forever&lt;/a>: 400-1,200 Gold &amp;raquo; 25-75 Gold&lt;/li>
+&lt;li>&lt;a href="https://en.uesp.net/wiki/Skyrim:Fit_for_a_Jarl">Fit for a Jarl&lt;/a>: 250-750 Gold &amp;raquo; 25-75 Gold.&lt;/li>
+&lt;li>&lt;a href="https://en.uesp.net/wiki/Skyrim:Return_to_Grace">Return to Grace&lt;/a>: 250-750 Gold &amp;raquo; 25-75 Gold.&lt;/li>
+&lt;li>&lt;a href="https://en.uesp.net/wiki/Skyrim:Rare_Gifts">Rare Gifts&lt;/a>: 400-1,200 Gold &amp;raquo; 25-75 Gold&lt;/li>
+&lt;/ul>
+&lt;h3 id="rewards-by-level">Rewards By Level&lt;/h3>
+&lt;p>&lt;strong>Favor Reward Quarter&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Level 1: &lt;strong>6&lt;/strong> Gold&lt;/li>
+&lt;li>Level 10 &lt;strong>10&lt;/strong> Gold&lt;/li>
+&lt;li>Level 20: &lt;strong>12&lt;/strong> Gold&lt;/li>
+&lt;li>Level 30: &lt;strong>15&lt;/strong> Gold&lt;/li>
+&lt;li>Level 40: &lt;strong>20&lt;/strong> Gold&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Only for a single quest, Special Delivery (Bolli).&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Favor Reward Small&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Level 1: &lt;strong>25&lt;/strong> Gold&lt;/li>
+&lt;li>Level 10: &lt;strong>40&lt;/strong> Gold&lt;/li>
+&lt;li>Level 20: &lt;strong>50&lt;/strong> Gold&lt;/li>
+&lt;li>Level 30: &lt;strong>60&lt;/strong> Gold&lt;/li>
+&lt;li>Level 40: &lt;strong>75&lt;/strong> Gold&lt;/li>
+&lt;/ul>
+&lt;h3 id="dark-brotherhood">Dark Brotherhood&lt;/h3>
+&lt;p>Toward the end of the DB questline, you will receive the enormous sum of 20,000 septim with which to rebuild the Dawnstar sanctuary. What remains as the quest reward for yourself are a mere 1,000 septim. This was changed (by skepman in Economy Overhaul which is what our quest reward mod is based on) to a total of 10,000 septim of which you may keep 3,000 after spending 7,000 on the sanctuary.&lt;/p></description></item></channel></rss>

@@ -107,8 +107,13 @@
 &lt;li>Scroll to &lt;strong>Line 31&lt;/strong> and change the line to &lt;code>TintMaskResolution=1024&lt;/code>.&lt;/li>
 &lt;li>Save the file and close.&lt;/li>
 &lt;/ul>
-&lt;h2 id="npcs-plugin">NPCs Plugin&lt;/h2>
+&lt;h2 id="npcswithfaces">NPCsWithFaces&lt;/h2>
 &lt;p>The official master files have a large amount of NPC records, not all of which need facegen. For example, we don&amp;rsquo;t need to regenerate facegen for children, NPCs that have templates (use facegen from other records), or simply creatures. Thankfully, we can use zEdit and a code snippet by VictorF to filter out relevant records and copy them to a separate plugin. We will also use it to filter out NPC records with facegen from those mods that add new NPCs at the same time.&lt;/p>
+&lt;ul>
+&lt;li>Download the &lt;strong>NPCsWithFaces - zEdit Script&lt;/strong> from the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Nexus page&lt;/a> manually.&lt;/li>
+&lt;li>Open the archive and extract the script to &lt;code>Your Modding Folder\Tools\zEdit\scripts\&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="open-in-zedit">Open in zEdit&lt;/h3>
 &lt;ul>
 &lt;li>Run &lt;strong>zEdit&lt;/strong> through Mod Organizer 2.&lt;/li>
 &lt;li>The regular &lt;strong>zEdit&lt;/strong> mode and &lt;strong>Skyrim SE&lt;/strong> should be selected by default. Click &lt;strong>Start Session&lt;/strong>.&lt;/li>
@@ -116,17 +121,19 @@
 &lt;li>Right-click the highlighted plugins and select &lt;strong>Uncheck selected&lt;/strong>.&lt;/li>
 &lt;li>Now check only the following plugins:
 &lt;ul>
-&lt;li>Skyrim.esm&lt;/li>
-&lt;li>Update.esm&lt;/li>
-&lt;li>Dawnguard.esm&lt;/li>
-&lt;li>HearthFires.esm&lt;/li>
-&lt;li>Dragonborn.esm&lt;/li>
-&lt;li>Unofficial Skyrim Special Edition Patch.esp&lt;/li>
-&lt;li>DIVERSE SKYRIM.esp&lt;/li>
-&lt;li>CFTO.esp&lt;/li>
-&lt;li>Immersive Patrols II.esp&lt;/li>
-&lt;li>OCW_Obscure&amp;rsquo;s_CollegeofWinterhold.esp&lt;/li>
-&lt;li>ICNs_ImmersiveCollegeNPCs.esp&lt;/li>
+&lt;li>&lt;code>Skyrim.esm&lt;/code>&lt;/li>
+&lt;li>&lt;code>Update.esm&lt;/code>&lt;/li>
+&lt;li>&lt;code>Dawnguard.esm&lt;/code>&lt;/li>
+&lt;li>&lt;code>HearthFires.esm&lt;/code>&lt;/li>
+&lt;li>&lt;code>Dragonborn.esm&lt;/code>&lt;/li>
+&lt;li>&lt;code>Unofficial Skyrim Special Edition Patch.esp&lt;/code>&lt;/li>
+&lt;li>&lt;code>SimpleVampFixesSSE.esp&lt;/code>&lt;/li>
+&lt;li>&lt;code>NaturalHairColors.esp&lt;/code>&lt;/li>
+&lt;li>&lt;code>CFTO.esp&lt;/code>&lt;/li>
+&lt;li>&lt;code>DIVERSE SKYRIM.esp&lt;/code>&lt;/li>
+&lt;li>&lt;code>Immersive Patrols II.esp&lt;/code>&lt;/li>
+&lt;li>&lt;code>OCW_Obscure's_CollegeofWinterhold.esp&lt;/code>&lt;/li>
+&lt;li>&lt;code>ICNs_ImmersiveCollegeNPCs.esp&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>Click &lt;strong>OK&lt;/strong> to load the selected plugins.&lt;/li>
@@ -135,43 +142,23 @@
 &lt;ul>
 &lt;li>Proceed once zEdit has loaded the selected plugins (will only take a few second).&lt;/li>
 &lt;li>Right-click anywhere in the left pane and select &lt;strong>Automate&lt;/strong>.&lt;/li>
-&lt;li>Copy the snippet from below and paste it into the window:&lt;/li>
-&lt;/ul>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-java" data-lang="java">&lt;span style="color:#204a87;font-weight:bold">const&lt;/span> &lt;span style="color:#000">filename&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#000">NPCsWithFaces&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">esp&lt;/span>&lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">;&lt;/span>
-&lt;span style="color:#000">let&lt;/span> &lt;span style="color:#000">file&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">xelib&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">FileByName&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">filename&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">);&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">if&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">file&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">===&lt;/span> &lt;span style="color:#000">0&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span> &lt;span style="color:#000">file&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">xelib&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">AddFile&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">filename&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">);&lt;/span>
-&lt;span style="color:#000">xelib&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">AddAllMasters&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">file&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">);&lt;/span>
-&lt;span style="color:#000">let&lt;/span> &lt;span style="color:#000">races&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">xelib&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">GetRecords&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">0&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">,&lt;/span> &lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#000">RACE&lt;/span>&lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">,&lt;/span> &lt;span style="color:#204a87;font-weight:bold">true&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
-&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">filter&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">rec&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000">xelib&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">IsWinningOverride&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">rec&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">))&lt;/span>
-&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">filter&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">rec&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000">xelib&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">GetFlag&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">rec&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">,&lt;/span> &lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#000">DATA&lt;/span>&lt;span style="color:#a40000">\\&lt;/span>&lt;span style="color:#000">Flags&lt;/span>&lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">,&lt;/span> &lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#000">FaceGen&lt;/span> &lt;span style="color:#000">Head&lt;/span>&lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">!&lt;/span>&lt;span style="color:#000">xelib&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">GetFlag&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">rec&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">,&lt;/span> &lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#000">DATA&lt;/span>&lt;span style="color:#a40000">\\&lt;/span>&lt;span style="color:#000">Flags&lt;/span>&lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">,&lt;/span> &lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#000">Child&lt;/span>&lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">))&lt;/span>
-&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">map&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">rec&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000">xelib&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">EditorID&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">rec&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">));&lt;/span>
-&lt;span style="color:#000">let&lt;/span> &lt;span style="color:#000">npcs&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">xelib&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">GetRecords&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">0&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">,&lt;/span> &lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#000">NPC_&lt;/span>&lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">,&lt;/span> &lt;span style="color:#204a87;font-weight:bold">true&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
-&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">filter&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">rec&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000">xelib&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">IsWinningOverride&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">rec&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">))&lt;/span>
-&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">filter&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">rec&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span>
-&lt;span style="color:#ce5c00;font-weight:bold">(!&lt;/span>&lt;span style="color:#000">xelib&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">HasElement&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">rec&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">,&lt;/span> &lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#000">TPLT&lt;/span>&lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
-&lt;span style="color:#ce5c00;font-weight:bold">||&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">!&lt;/span>&lt;span style="color:#000">xelib&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">GetFlag&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">rec&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">,&lt;/span> &lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#000">ACBS&lt;/span>&lt;span style="color:#a40000">\\&lt;/span>&lt;span style="color:#000">Template&lt;/span> &lt;span style="color:#000">Flags&lt;/span>&lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">,&lt;/span> &lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#000">Use&lt;/span> &lt;span style="color:#000">Traits&lt;/span>&lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">))&lt;/span>
-&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#000">races&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">includes&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">xelib&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">GetRefEditorID&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">rec&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">,&lt;/span> &lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#000">RNAM&lt;/span>&lt;span style="color:#a40000">&amp;#39;&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">)));&lt;/span>
-&lt;span style="color:#000">npcs&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">forEach&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">rec&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000">xelib&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">CopyElement&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">rec&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">,&lt;/span> &lt;span style="color:#000">file&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">));&lt;/span>
-&lt;span style="color:#000">xelib&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>&lt;span style="color:#c4a000">CleanMasters&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>&lt;span style="color:#000">file&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">);&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>In the &lt;strong>Script&lt;/strong> line, rename &lt;strong>New Script.js&lt;/strong> to &lt;strong>NPCsWithFaces.js&lt;/strong>.&lt;/li>
-&lt;li>Click the &lt;strong>Save&lt;/strong> button to save the snippet.&lt;/li>
+&lt;li>Make sure the &lt;strong>NPCsWithFaces.js&lt;/strong> script is selected.&lt;/li>
 &lt;li>Click &lt;strong>OK&lt;/strong> to run the script.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/initial-setup/zedit-npc-script.png" alt="zEdit NPC Script">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/zedit-npc-script.png" alt="zEdit NPC Script">&lt;/p>
 &lt;h3 id="output">Output&lt;/h3>
 &lt;ul>
 &lt;li>When the plugin has been generated, zEdit will return &lt;code>Script completed&lt;/code> and you can close the tool.&lt;/li>
 &lt;li>Click &lt;strong>Save&lt;/strong> when asked (NPCsWithFaces.esp should be checked).&lt;/li>
 &lt;li>In Mod Organizer 2, scroll to the bottom and double-click the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em>.&lt;/li>
-&lt;li>Delete the (empty) &lt;strong>zEdit Backups&lt;/strong> folder if it&amp;rsquo;s there, then close the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> window.&lt;/li>
-&lt;li>Right-click the &lt;em>&lt;strong>Overview&lt;/strong>&lt;/em> and select &lt;strong>Create Mod&lt;/strong>.&lt;/li>
+&lt;li>Delete the (empty) &lt;strong>zEdit Backups&lt;/strong> folder, then close the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> window.&lt;/li>
+&lt;li>Right-click the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> and select &lt;strong>Create Mod&lt;/strong>.&lt;/li>
 &lt;li>Enter &lt;strong>NPCs With Faces&lt;/strong> as the name and click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;li>Move the new mod directly below the &lt;strong>PATCHER OUTPUT&lt;/strong> separator and activate it.&lt;/li>
-&lt;li>Load order doesn&amp;rsquo;t matter for the plugin, leave it at the bottom.&lt;/li>
+&lt;li>Load order doesn&amp;rsquo;t matter for the plugin, leave it at the bottom but make sure it&amp;rsquo;s activated.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>Make sure that the Overwrite is completely empty at this point.&lt;/p>
+&lt;p>The Overwrite must be completely empty at this point.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="regenerating-facegen">Regenerating Facegen&lt;/h2>
 &lt;p>Now we get to the heart of the matter: Rebuilding facegen for all NPCs, vanilla and mod-added. Facegen is generated in the Creation Kit and thanks to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20061">Creation Kit Fixes&lt;/a> it&amp;rsquo;s fast and easy.&lt;/p>
@@ -202,7 +189,7 @@
 &lt;li>Click &lt;strong>OK&lt;/strong> and close the Creation Kit.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>If you run into errors and crashes trying to export facegen, try going a few at a time. Highlight twenty or so NPCs, press CTRL+F4, wait until the CK returns &amp;ldquo;Done&amp;rdquo;, and move on to the next twenty.&lt;/p>
+&lt;p>If you run into errors and crashes trying to export facegen, try going a few at a time. For example, you can go through by letter, exporting for NPCs starting with A, then B, and so forth.&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/finalisation/ck-export-facegen.png" alt="Export Facegen">&lt;/p>
 &lt;h2 id="optimising-facegen">Optimising Facegen&lt;/h2>

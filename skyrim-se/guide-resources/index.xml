@@ -460,8 +460,9 @@ iSize W=1920
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/guide-resources/deactivate-dyndolod.png" alt="Deactivate DynDOLOD">&lt;/p>
 &lt;h3 id="resaving-without-dyndolod">Resaving without DynDOLOD&lt;/h3>
 &lt;ul>
-&lt;li>Back in Mod Organizer 2, delete both &lt;strong>TexGen Output&lt;/strong> and &lt;strong>DynDOLOD Output&lt;/strong>.&lt;/li>
-&lt;li>Start the game, load your save and create a new save. Then quit again.&lt;/li>
+&lt;li>Back in Mod Organizer 2, delete &lt;strong>TexGen_Output&lt;/strong>, &lt;strong>DynDOLOD_Output&lt;/strong>, and &lt;strong>SSELODGen - Occlusion Data&lt;/strong>.&lt;/li>
+&lt;li>Start the game and hit &lt;strong>Continue&lt;/strong>. Click &lt;strong>OK&lt;/strong> to the warning about missing plugins.&lt;/li>
+&lt;li>After the loading screen, stay in the interior cell, save, and quit again.&lt;/li>
 &lt;/ul>
 &lt;h3 id="updating-dyndolod">Updating DynDOLOD&lt;/h3>
 &lt;p>&lt;strong>Wabbajack users:&lt;/strong> At this point you can simply update by running Wabbajack and re-installing TPF over your existing setup. The steps below are for users of the manual guide.&lt;/p>
@@ -472,7 +473,8 @@ iSize W=1920
 &lt;li>Download the &lt;strong>DynDOLOD&lt;/strong> main file from the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32382?tab=files">DynDOLOD&lt;/a> mod page manually.&lt;/li>
 &lt;li>Open the archive and extract everything into the now empty &lt;strong>DynDOLOD&lt;/strong> folder.&lt;/li>
 &lt;li>Go back to the &lt;a href="https://thephoenixflavour.com/skyrim-se/finalisation/dyndolod/">DynDOLOD&lt;/a> page in the Finalisation and follow all steps from &lt;strong>TexGen Configuration&lt;/strong> onwards.&lt;/li>
-&lt;li>After regenerating TexGen and DynDOLOD, load your save, and continue your playthrough!&lt;/li>
+&lt;li>Continue on the &lt;a href="https://thephoenixflavour.com/skyrim-se/finalisation/occlusion/">Occlusion&lt;/a> page from the &lt;strong>Generate Occlusion Data&lt;/strong> step onwards.&lt;/li>
+&lt;li>After regenerating TexGen, DynDOLOD, and Occlusion, load your save, and continue your playthrough!&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>Since the folder wasn&amp;rsquo;t changed, there is no need to update the file paths to the TexGen and DynDOLOD executables in MO2. They are still the same.&lt;/p>
