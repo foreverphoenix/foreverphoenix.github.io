@@ -1,18 +1,109 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Appendix</title><link>https://thephoenixflavour.com/fallout/appendix/</link><description>Recent content in Appendix on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/fallout/appendix/index.xml" rel="self" type="application/rss+xml"/><item><title>Fallout: Troubleshooting</title><link>https://thephoenixflavour.com/fallout/appendix/troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/appendix/troubleshooting/</guid><description>
-&lt;h2 id="known-issues">Known Issues&lt;/h2>
-&lt;h3 id="getting-stuck-when-interacting-with-a-terminal">Getting stuck when interacting with a terminal&lt;/h3>
+&lt;h2 id="getting-stuck-when-interacting-with-a-terminal">Getting stuck when interacting with a terminal&lt;/h2>
 &lt;p>&lt;em>This is not a WTP-specific issue.&lt;/em>&lt;/p>
 &lt;p>Occasionally you may get stuck when attempting to access a terminal. This can be fixed by opening the console (tilde key, right above TAB on your keyboard) and typing in &lt;code>tcl&lt;/code>. Upon closing the console (hitting tilde again), you should be able to use the terminal. Remember to open the console and type in &lt;code>tcl&lt;/code> again to re-enable collision.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/appendix/stuck-terminal.jpg" alt="Stuck Terminal">&lt;/p>
-&lt;h3 id="subtitles-get-stuck-during-first-minutemen-quest">Subtitles get stuck during first Minutemen quest&lt;/h3>
+&lt;h2 id="subtitles-get-stuck-during-first-minutemen-quest">Subtitles get stuck during first Minutemen quest&lt;/h2>
 &lt;p>&lt;em>This is not a WTP-specific issue.&lt;/em>&lt;/p>
 &lt;p>When talking to Preston and Sturges in the Museum of Freedom, the subtitles usually get stuck for a time during the conversation. This happens in vanilla too and cannot be fixed as far as I know.&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/appendix/subtitles-stuck.jpg" alt="Subtitles Stuck">&lt;/p></description></item><item><title>Fallout: Changelog</title><link>https://thephoenixflavour.com/fallout/appendix/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/appendix/changelog/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/appendix/subtitles-stuck.jpg" alt="Subtitles Stuck">&lt;/p>
+&lt;h2 id="issues-with-the-pip-boy-map-when-playing-with-a-controller">Issues with the Pip-Boy map when playing with a controller&lt;/h2>
+&lt;p>By default, the Pip-boy UI is of a &lt;a href="https://staticdelivery.nexusmods.com/mods/1151/images/48758/48758-1609598190-107962601.jpeg">pitifully low resolution&lt;/a>. Unfortunately, increasing it will cause a bug when playing with a controller that restrict the cursor to the upper left corner on the Pip-boy map.&lt;/p>
+&lt;p>You can work around this by turning off your controlling, opening your map, then turning it back on again.&lt;/p>
+&lt;p>The alternative is to revert the high resolution tweak in the INI files. To do so, follow these instructions:&lt;/p>
+&lt;ul>
+&lt;li>Open the &lt;strong>INI Editor&lt;/strong> in Mod Organizer 2.&lt;/li>
+&lt;li>Click on the &lt;strong>fallout4prefs.ini&lt;/strong> tab.&lt;/li>
+&lt;li>Scroll down to the &lt;code>[Display]&lt;/code> section.&lt;/li>
+&lt;li>Revert the values for the Pip-boy height and width to the default (see below).&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code>uPipboyTargetHeight=700
+uPipboyTargetWidth=876
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>Click the &lt;strong>Save&lt;/strong> button at the bottom and close the window.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/fallout/appendix/map-gamepad.jpg" alt="Map Cursor Stuck">&lt;/p>
+&lt;h2 id="flickering-puddles">Flickering puddles&lt;/h2>
+&lt;p>This is a persistent issue with cubemaps. We have a fix for it, &lt;a href="https://www.nexusmods.com/fallout4/mods/46787">Fixed flickering puddles&lt;/a>, but the bug still occurs and I&amp;rsquo;m honestly clueless.&lt;/p></description></item><item><title>Fallout: Changelog</title><link>https://thephoenixflavour.com/fallout/appendix/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fallout/appendix/changelog/</guid><description>
+&lt;h2 id="release-15">Release 1.5&lt;/h2>
+&lt;blockquote>
+&lt;p>05/03/2021&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;ul>
+&lt;li>Updated Mod Organizer 2 to 2.4.0&lt;/li>
+&lt;li>Tweaked Pipboy INI settings (increased resolution, disabled fx)&lt;/li>
+&lt;li>Added Mator&amp;rsquo;s xEdit Patching Framework&lt;/li>
+&lt;li>FO4Edit cache is now saved into the Tools\FO4Edit folder&lt;/li>
+&lt;li>Updated xSE Plugin Preloader to 0.2.4&lt;/li>
+&lt;li>Changed xSE Plugin Preloader load method to OnThreadAttach&lt;/li>
+&lt;li>Updated Buffout to 1.20.3&lt;/li>
+&lt;li>Updated the Unofficial Fallout 4 Patch to 2.1.2b&lt;/li>
+&lt;li>Updated High FPS Physics Fix to 0.8.0&lt;/li>
+&lt;li>Removed additional High FPS Physics Fix INIs&lt;/li>
+&lt;li>Default settings for WTP are now 60FPS and no VSYNC&lt;/li>
+&lt;li>Documentation includes instructions to change the settings&lt;/li>
+&lt;li>Reinstalled DEF_UI and only chose DEF_HUD&lt;/li>
+&lt;li>Reverted to vanilla DEF_UI profile&lt;/li>
+&lt;li>Added FallUI&lt;/li>
+&lt;li>Added FallUI Workbench&lt;/li>
+&lt;li>Added FallUI Map&lt;/li>
+&lt;li>Re-added LooksMenu&lt;/li>
+&lt;li>Added Better Confirm Boxes for PC&lt;/li>
+&lt;li>Added TRUBY9 ULTRAWIDE DEF_UI Fix&lt;/li>
+&lt;li>Added Better Confirm Boxes for PC - Widescreen Patch&lt;/li>
+&lt;li>Added Neutral Look Up Tables LUT&lt;/li>
+&lt;li>Added Fallout 4 Enhanced Color Correction&lt;/li>
+&lt;li>Added Retro Radio Replacer&lt;/li>
+&lt;li>Added Classic Wasteland Survival Guide - Magazine Retexture&lt;/li>
+&lt;li>Added U.S. Covert Operations Manual - Magazine Retexture&lt;/li>
+&lt;li>Added Total Hack - Magazine Retexture&lt;/li>
+&lt;li>Added The Hunting Rifle Set&lt;/li>
+&lt;li>Added The Ballistic Series&lt;/li>
+&lt;li>Added Fixed Creature Death Drops&lt;/li>
+&lt;li>Added FO4 Photo Mode&lt;/li>
+&lt;li>Updated Workshop Framework to 2.0.9&lt;/li>
+&lt;li>Updated Simple Sorting Overhaul to 2.0&lt;/li>
+&lt;li>Updated Wetness Shader Fix to 3.3&lt;/li>
+&lt;li>Updated Sprint Stuttering Fix to 1.2&lt;/li>
+&lt;li>Updated Hazmat Suit Redux to 0.1&lt;/li>
+&lt;li>Updated Skeletal Adjustments for CBBE to 2.0&lt;/li>
+&lt;li>Updated What&amp;rsquo;s Your Name to 1.11.1&lt;/li>
+&lt;li>Updated Fixed and Cleaned Homeplate to 2.1&lt;/li>
+&lt;li>Updated LOST Audio Tweaks to 1.6.2&lt;/li>
+&lt;li>Updated LOST Audio Tweaks - True Storms and RAO Patch to Beta&lt;/li>
+&lt;li>Removed Pip-Boy Dual Color section&lt;/li>
+&lt;li>Removed Small Map Markers&lt;/li>
+&lt;li>Removed The Humble Hunting Rifle&lt;/li>
+&lt;li>Removed ScratchMade - New Combat Shotgun and Rifle Textures&lt;/li>
+&lt;li>Removed The Top-Notch Tommy Gun&lt;/li>
+&lt;li>Removed Assault Rifle Retexture 2K&lt;/li>
+&lt;li>Removed HUD Customisation stuff&lt;/li>
+&lt;li>Repacked the Clutter BA2s&lt;/li>
+&lt;li>Repacked the Weapon BA2s&lt;/li>
+&lt;li>Changed ENB hotkeys to mirror TPF&amp;rsquo;s&lt;/li>
+&lt;/ul>
+&lt;h4 id="simple-sorting-overhaul">Simple Sorting Overhaul&lt;/h4>
+&lt;p>As we have now switched to FallUI from DEF_INV, I updated my INNRs (naming rules) to have the same format as Ruddy&amp;rsquo;s sorting patcher that FallUI was intended for. That means mods for armors and weapons will be displayed in smaller font below the item name.&lt;/p>
+&lt;p>I did take a look at the &lt;a href="https://www.nexusmods.com/fallout4/mods/48826">Complex Sorter&lt;/a> for FallUI which would be very convenient for me but ultimately I prefer my own icons and INNRs. Plus they already cover my power armor changes and include my preferred power armor naming scheme.&lt;/p>
+&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;p>I went over all pages and fixed what I thought needed fixing. Screenshots were updated, sentences were rephrased, and instructions were clarified.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Finalisation:&lt;/strong> Added instructions for the optional LUTs.&lt;/li>
+&lt;li>&lt;strong>Finalisation:&lt;/strong> Added Controller Fix instructions (required because of an issue with FallUI).&lt;/li>
+&lt;li>&lt;strong>Finalisation:&lt;/strong> Expanded FPS and VSYNCs instructions (they are DIY now).&lt;/li>
+&lt;li>&lt;strong>New Game:&lt;/strong> Removed Hotkey instructions. No longer necessary with TPF ENB hotkeys.&lt;/li>
+&lt;li>&lt;strong>Mod Configuration:&lt;/strong> Added instructions for Photo Mode.&lt;/li>
+&lt;li>Renamed the &amp;ldquo;Documentation&amp;rdquo; section to &amp;ldquo;Resources&amp;rdquo;.&lt;/li>
+&lt;li>&lt;strong>Ultrawide:&lt;/strong> Moved this page to the Resources section.&lt;/li>
+&lt;li>&lt;strong>Customisation:&lt;/strong> Removed this section. Use the FallUI MCM to customise your UI.&lt;/li>
+&lt;li>&lt;strong>Troubleshooting:&lt;/strong> Added a note about flickering puddles.&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-141">Release 1.4.1&lt;/h2>
 &lt;blockquote>
 &lt;p>26/11/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Re-enabled Authentic Handmade Weaponry (accidentally disabled the plugin in 1.4)&lt;/li>
 &lt;/ul>
@@ -20,7 +111,7 @@
 &lt;blockquote>
 &lt;p>23/11/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-2">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Weapon Debris Crash Fix&lt;/li>
 &lt;li>Added Sprint Stuttering Fix&lt;/li>
@@ -47,7 +138,7 @@
 &lt;p>24/10/2020&lt;/p>
 &lt;/blockquote>
 &lt;p>Just a minor fix and clean-up for yesterday&amp;rsquo;s update.&lt;/p>
-&lt;h4 id="mod-changes-2">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-3">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated Bullet Counted Reload System to 1.05b&lt;/li>
 &lt;li>Updated Workshop Framework to 2.0.3&lt;/li>
@@ -58,7 +149,7 @@
 &lt;p>23/10/2020&lt;/p>
 &lt;/blockquote>
 &lt;p>This update fixes a number of issues reported by users (thanks, guys!). I am also officially changing the list name to &lt;strong>Welcome to Paradise&lt;/strong>. The website, Discord channels, and Mod Organizer 2 profile have all been edited accordingly.&lt;/p>
-&lt;h4 id="mod-changes-3">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-4">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Hopefully fixed radio songs not playing for good&lt;/li>
 &lt;li>Updated xSE Plugin Preloader to 0.2.3 (XML unchanged, let me know if there are issues)&lt;/li>
@@ -73,7 +164,7 @@
 &lt;li>Unpacked custom BA2 for Bleak Beauty, Musical Lore, More Where That Came From, and Elvani&amp;rsquo;s Track Pack&lt;/li>
 &lt;li>Fixed some purple cars by reverting them to vanilla, it&amp;rsquo;s a band-aid fix but the best I could do&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Finalisation:&lt;/strong> Removed instructions for NVIDIA Inspector.&lt;/li>
 &lt;li>&lt;strong>Finalisation:&lt;/strong> Added instructions for the newly-added High FPS Physics Fix and my pre-configured INIs.&lt;/li>
@@ -82,7 +173,7 @@
 &lt;blockquote>
 &lt;p>01/10/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-4">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-5">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Actually fixed radio tracks not playing&lt;/li>
 &lt;li>Updated xSE Plugin Preloader to 0.2&lt;/li>
@@ -92,7 +183,7 @@
 &lt;blockquote>
 &lt;p>30/09/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-5">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-6">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated Buffout to 1.12.1&lt;/li>
 &lt;li>Placed the new Buffout TBB Redist plugin in the Game Folder Files folder&lt;/li>
@@ -106,7 +197,7 @@
 &lt;li>Updated Sweet Roll 5000 and rebuilt Clutter BA2s&lt;/li>
 &lt;li>Fixed Diamond City Radio tracks not playing (thanks Archie!)&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-2">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fallout/installation/finalisation/">Finalisation&lt;/a>: Added this new page and moved the game resolution instructions here.&lt;/li>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fallout/installation/finalisation/">Finalisation&lt;/a>: Added instructions on how to force VSYNC and cap the framerate.&lt;/li>
@@ -117,7 +208,7 @@
 &lt;blockquote>
 &lt;p>27/09/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-6">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-7">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Now using Lively&amp;rsquo;s pppl.ini file&lt;/li>
 &lt;li>Updated Buffout to 1.11.0&lt;/li>
@@ -128,7 +219,7 @@
 &lt;li>Switched to the Alternative Version of Fixed Flickering Puddles (hopefully fixing black pre-war Codsworth)&lt;/li>
 &lt;li>Removed Skip raiding your own settlements (no time to troubleshoot the compilation error it causes)&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-2">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-3">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fallout/installation/wabbajack/">Wabbajack&lt;/a>: Added new section on how change the game resolution.&lt;/li>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fallout/appendix/troubleshooting/">Troubleshooting&lt;/a>: Added this page with a few known issues.&lt;/li>
