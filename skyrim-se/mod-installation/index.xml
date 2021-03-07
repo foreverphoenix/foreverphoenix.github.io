@@ -3457,6 +3457,18 @@ SetGS fSandboxCylinderBottom -576
 &lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Miscellaneous Files:&lt;/strong> Cathedral Armory - TPF Repack&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Armor Mesh Fixes SE Patch&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Double-click &lt;strong>Cathedral Armory - Armor Mesh Fixes Patch&lt;/strong> in your mod order.&lt;/li>
+&lt;li>Delete the following file(s) and / or folder(s):
+&lt;ul>
+&lt;li>&lt;code>meshes\armor\daedric\&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\armor\orcish\&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\armor\daedric\&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;h5 id="project-clarity---weapons---tpf-repackhttpswwwnexusmodscomskyrimspecialeditionmods46437tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/46437?tab=files">Project Clarity - Weapons - TPF Repack&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
@@ -3547,7 +3559,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> HD Reflective Ebony Armor and Weapons&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Delete the following file(s) and / or folder(s):
 &lt;ul>
@@ -3668,7 +3680,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions-3">Additional Instructions&lt;/h4>
 &lt;p>The plugin contains one unnecessary edit to a scroll that overwrites an edit by the USSEP.&lt;/p>
 &lt;ul>
 &lt;li>Run &lt;strong>SSEEdit&lt;/strong> through Mod Organizer 2.&lt;/li>
@@ -3684,7 +3696,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> JS Circlet Replacer&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions-3">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions-4">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Downsize the mod’s textures with Cathedral Assets Optimizer (&lt;strong>SSE - Downsize Textures&lt;/strong>).&lt;/li>
 &lt;/ul>

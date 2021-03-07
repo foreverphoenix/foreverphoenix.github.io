@@ -88,7 +88,7 @@
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/skyrim-se/appendix/black-waterfall.jpg" alt="Black Waterfall">&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/appendix/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/appendix/changelog/</guid><description>
 &lt;h2 id="release-442">Release 4.4.2&lt;/h2>
 &lt;blockquote>
-&lt;p>TBD&lt;/p>
+&lt;p>07/03/2021&lt;/p>
 &lt;/blockquote>
 &lt;p>This update contains some more 4.4 fixes but also a bigger update for the &lt;strong>Cathedral Armory - TPF Repack&lt;/strong>. Specifically, I added Armor Mesh Fixes and added meshes from the existing Cath Armory patch to my repack.&lt;/p>
 &lt;p>I also added &lt;strong>Practical Female Armor&lt;/strong> meshes patched for Cath Armory by &lt;strong>Asator&lt;/strong>. Several armors will no longer have boobplates: Nordic Carved, Elven, Steel Plate, and Wolf. These are in my opinion the worst offenders and the ones that actually annoy me. I may add PFA meshes for Ebony armor in the future.&lt;/p>
@@ -117,6 +117,7 @@
 &lt;li>&lt;strong>Valuable Items:&lt;/strong> Moved all mods that were below Business Ledger HD Retexture in CLUTTER here.&lt;/li>
 &lt;li>&lt;strong>Valuable Items:&lt;/strong> Added Drawing Knife Retexture.&lt;/li>
 &lt;li>&lt;strong>Apparel &amp;amp; Weapons:&lt;/strong> Added Armor Mesh Fixes.&lt;/li>
+&lt;li>&lt;strong>Apparel &amp;amp; Weapons:&lt;/strong> Added instructions to download the Armor Mesh Fixes patch from the Cathedral Armory mod page.&lt;/li>
 &lt;li>&lt;strong>Apparel &amp;amp; Weapons:&lt;/strong> Removed instructions to download the hotfix from LeanWolf&amp;rsquo;s Better-Shaped Weapons (will be overwritten anyway).&lt;/li>
 &lt;li>&lt;strong>Apparel &amp;amp; Weapons:&lt;/strong> Added Actual Orichalcum Orcish Equipment (undocumented 4.4 addition).&lt;/li>
 &lt;li>&lt;strong>Apperal &amp;amp; Weapons:&lt;/strong> Added JS Circlets - USSEP Patch.&lt;/li>
