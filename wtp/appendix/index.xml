@@ -25,6 +25,12 @@ uPipboyTargetWidth=876
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/appendix/map-gamepad.jpg" alt="Map Cursor Stuck">&lt;/p>
 &lt;h2 id="flickering-puddles">Flickering puddles&lt;/h2>
 &lt;p>This is a persistent issue with cubemaps. We have a fix for it, &lt;a href="https://www.nexusmods.com/fallout4/mods/46787">Fixed flickering puddles&lt;/a>, but the bug still occurs and I&amp;rsquo;m honestly clueless.&lt;/p></description></item><item><title>Wtp: Changelog</title><link>https://thephoenixflavour.com/wtp/appendix/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/appendix/changelog/</guid><description>
+&lt;h2 id="release-151">Release 1.5.1&lt;/h2>
+&lt;blockquote>
+&lt;p>08/03/2021&lt;/p>
+&lt;/blockquote>
+&lt;p>I fixed some errors in &lt;code>Power Armor Lore-Friendly Distribution.esp&lt;/code> by reverting the levelled lists for Atom Cats power armor to vanilla. That means they&amp;rsquo;ll be wearing T-60 armor again (instead of T-51). I know I had Atom Cats T-51 armor &lt;em>somewhere&lt;/em> but it seems to have gotten lost, resulting in these errors. I fully admit that this is a lazy solution but it works and that was always enough for Todd anyway.&lt;/p>
+&lt;p>While recompiling for WJ, I also updated the links to the website (see below).&lt;/p>
 &lt;h2 id="global-site-update">Global Site Update&lt;/h2>
 &lt;blockquote>
 &lt;p>08/03/2021&lt;/p>
