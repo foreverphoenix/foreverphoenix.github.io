@@ -25,6 +25,25 @@ uPipboyTargetWidth=876
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/appendix/map-gamepad.jpg" alt="Map Cursor Stuck">&lt;/p>
 &lt;h2 id="flickering-puddles">Flickering puddles&lt;/h2>
 &lt;p>This is a persistent issue with cubemaps. We have a fix for it, &lt;a href="https://www.nexusmods.com/fallout4/mods/46787">Fixed flickering puddles&lt;/a>, but the bug still occurs and I&amp;rsquo;m honestly clueless.&lt;/p></description></item><item><title>Wtp: Changelog</title><link>https://thephoenixflavour.com/wtp/appendix/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/appendix/changelog/</guid><description>
+&lt;h2 id="global-site-update">Global Site Update&lt;/h2>
+&lt;blockquote>
+&lt;p>08/03/2021&lt;/p>
+&lt;/blockquote>
+&lt;p>I finally did some spring cleaning. For the longest time it annoyed me that in my original folder structure I had categorised pages by games, for example the TPF part of the website was called &amp;ldquo;Skyrim SE&amp;rdquo; in the top menu. But what if I want to start another SE project? And you don&amp;rsquo;t want to know the chaos in my pictures folder either.&lt;/p>
+&lt;p>The reason I hesitated for so long to change the folder names is because it breaks every, single, link. And while fixing the internal links and file paths was merely a minor annoyance, fixing all external links is more difficult - especially considering that other people may link to TPF as well and those links are now broken. Of course I also need to recompile both TPF and WTP for Wabbajack to update the links that open automatically upon installing a Wabbajack list.&lt;/p>
+&lt;p>Well, I finally updated now and I&amp;rsquo;m very happy with the changes. It likely will take some time for all external links to get fix plus I suspect I may have missing some internal links and file paths.&lt;/p>
+&lt;h4 id="changes">Changes&lt;/h4>
+&lt;ul>
+&lt;li>Removed the Bioware section (see below).&lt;/li>
+&lt;li>Renamed &amp;ldquo;Skyrim SE&amp;rdquo; to &amp;ldquo;The Phoenix Flavour&amp;rdquo; (link changed from skyrim-se to tpf).&lt;/li>
+&lt;li>Renamed &amp;ldquo;Fallout 4&amp;rdquo; to &amp;ldquo;Welcome to Paradise&amp;rdquo; (link changed from fallout to wtp).&lt;/li>
+&lt;li>Updated all internal links and file paths - hopefully.&lt;/li>
+&lt;li>Cleaned up my pictures folder to remove any pictures that are no longer in the guide.&lt;/li>
+&lt;li>Updated the home page, it has two buttons now and a combination of the TPF and WTP pics.&lt;/li>
+&lt;/ul>
+&lt;h4 id="bioware">Bioware&lt;/h4>
+&lt;p>The current state of things is that I have published a guide for ME1 with a draft for an ME2 version waiting for revision. But here&amp;rsquo;s the thing: Modding Bioware games is quite different from modding Bethesda games. I&amp;rsquo;ve only really dipped my toes in it and wouldn&amp;rsquo;t call myself an expert by any stretch of the imagination. Something I often criticise about various smaller Skyrim modding &amp;ldquo;guides&amp;rdquo; is that their authors barely know what they&amp;rsquo;re doing. It occured to me that my Mass Effect &amp;ldquo;guides&amp;rdquo; are in essence the same thing &lt;del>with better formatting&lt;/del>.&lt;/p>
+&lt;p>To keep a longer story short, I have developed a strong sense of imposter syndrome over those excursions into Bioware land that is causing me a fair amount of stress. Something I&amp;rsquo;ve learned over the past couple years is that if you have too many things putting pressure on you at once, cut out everything that&amp;rsquo;s non-essential. Well, this time the scissors are for the Bioware section of the TPF website.&lt;/p>
 &lt;h2 id="release-15">Release 1.5&lt;/h2>
 &lt;blockquote>
 &lt;p>06/03/2021&lt;/p>
