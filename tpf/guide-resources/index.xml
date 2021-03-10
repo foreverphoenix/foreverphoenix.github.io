@@ -418,9 +418,10 @@ iSize W=1920
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/guide-resources/mo2-before-update.png" alt="MO2 Before Update">&lt;/p>
 &lt;h3 id="install-the-new-version">Install the new version&lt;/h3>
 &lt;ul>
-&lt;li>Download the new version of Mod Organizer 2 (Archive).&lt;/li>
+&lt;li>Download the Archive version of the Mod Organizer 2 update.&lt;/li>
 &lt;li>Open the archive and move all files into your existing directory with the left-over files.&lt;/li>
 &lt;li>Open Mod Organizer 2 as usual and you will see that your setup is fully intact.&lt;/li>
+&lt;li>Follow the instructions on the &lt;a href="https://thephoenixflavour.com/tpf/initial-setup/mod-organizer-2/">Mod Organizer 2&lt;/a> page for the setup.&lt;/li>
 &lt;/ul>
 &lt;h2 id="cathedral-assets-optimizer">Cathedral Assets Optimizer&lt;/h2>
 &lt;p>In order to update CAO without removing the custom TPF profiles, simply do the following:&lt;/p>

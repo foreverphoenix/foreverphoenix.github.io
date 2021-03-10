@@ -257,19 +257,28 @@
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/ck-script-source.png" alt="CK Script Source">&lt;/p>
 &lt;hr>
 &lt;h4 id="continue-with-the-mod-organizer-2tpfinitial-setupmod-organizer-2-page">Continue with the &lt;a href="https://thephoenixflavour.com/tpf/initial-setup/mod-organizer-2/">Mod Organizer 2&lt;/a> page.&lt;/h4></description></item><item><title>Tpf: Mod Organizer 2</title><link>https://thephoenixflavour.com/tpf/initial-setup/mod-organizer-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf/initial-setup/mod-organizer-2/</guid><description>
-&lt;h2 id="installation">Installation&lt;/h2>
-&lt;p>Installing MO2 with a portable instance means all of its subdirectories will be located inside the MO2 root folder which is required for some modding tools to work properly.&lt;/p>
+&lt;h2 id="setup">Setup&lt;/h2>
+&lt;p>Mod Organizer 2 is the king of mod managing software for Bethesda games and TPF fully relies on its features. Any claims of MO2 being especially difficult to use are essentially myths perpetuated by inexperienced users. At the end of the TPF setup, you will be able to confidently handling a large mod setup with MO2.&lt;/p>
 &lt;ul>
-&lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6194">Mod Organizer 2&lt;/a> (the &lt;strong>Archive&lt;/strong> version of &lt;strong>2.3.2&lt;/strong> under &lt;strong>Old Files&lt;/strong>) manually from the Nexus.&lt;/li>
-&lt;li>Extract the archive to a new folder on the same hard drive as your Skyrim SE installation, outside the UAC protected folders.&lt;/li>
-&lt;li>Run &lt;strong>ModOrganizer.exe&lt;/strong>.&lt;/li>
-&lt;li>A window will come up - select &lt;strong>Portable&lt;/strong> (see picture below).&lt;/li>
-&lt;li>Next you will be asked which game to set MO2 up for. Normally it should recognise your Skyrim SE installation automatically.&lt;/li>
-&lt;li>Select &lt;strong>Skyrim Special Edition&lt;/strong> in the list.&lt;/li>
+&lt;li>Download the archive version of &lt;a href="https://github.com/ModOrganizer2/modorganizer/releases/tag/v2.4.0">Mod Organizer 2&lt;/a> from Github.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/mo2-download.png" alt="MO2 Download">&lt;/p>
+&lt;h3 id="installation">Installation&lt;/h3>
+&lt;ul>
+&lt;li>Extract the archive to a new folder on the same hard drive as your Skyrim SE installation and outside the UAC protected folders.&lt;/li>
+&lt;li>Run &lt;strong>ModOrganizer.exe&lt;/strong>. Cleck &lt;strong>Next&lt;/strong> and select &lt;strong>Create a portable instance&lt;/strong>.&lt;/li>
+&lt;li>Select &lt;strong>Skyrim Special Edition&lt;/strong> in the list of games.&lt;/li>
+&lt;li>The &lt;strong>Location&lt;/strong> should already be set to the folder to which you extracted MO2.&lt;/li>
+&lt;li>Click &lt;strong>Show advanced options&lt;/strong>.&lt;/li>
+&lt;li>Change the &lt;strong>Downloads&lt;/strong> file path to &lt;code>Your Modding Folder\ARCHIVE\MO2 Downloads&lt;/code> and click &lt;strong>Next&lt;/strong>.&lt;/li>
+&lt;li>Double-check your configuration and click &lt;strong>Finish&lt;/strong>.&lt;/li>
 &lt;li>Confirm when asked to associate NXM links with MO2.&lt;/li>
 &lt;li>Click &lt;strong>No&lt;/strong> when prompted with the tutorial option.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/mo2-choose-instance.png" alt="MO2 Choose Instance">&lt;/p>
+&lt;blockquote>
+&lt;p>Since we changed the Downloads folder, your mod archives will be saved on a less important hard drive. They will not take up space on your SSD where your Mod Organizer 2 instance should be located.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/mo2-installer.png" alt="MO2 Installer">&lt;/p>
 &lt;h2 id="configuration">Configuration&lt;/h2>
 &lt;p>In the mod order (left pane), arrange the DLC as follows:&lt;/p>
 &lt;ul>
@@ -283,18 +292,16 @@
 &lt;h3 id="tweaks">Tweaks&lt;/h3>
 &lt;ul>
 &lt;li>Open the &lt;strong>Settings&lt;/strong> (Tools &amp;raquo; Settings or CTRL + S).&lt;/li>
-&lt;li>In the &lt;strong>General&lt;/strong> tab, check both boxes under &lt;strong>Download List&lt;/strong>:
+&lt;li>In the &lt;strong>General&lt;/strong> tab under &lt;strong>Download List&lt;/strong>, check the boxes for &lt;strong>Show Meta Information&lt;/strong> and &lt;strong>Compact List&lt;/strong>.&lt;/li>
+&lt;li>Switch to the &lt;strong>Workarounds&lt;/strong> tab and check &lt;strong>Enable archives parsing (experimental)&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="bsa-unpacker">BSA Unpacker&lt;/h3>
 &lt;ul>
-&lt;li>Show Meta Information&lt;/li>
-&lt;li>Compact List&lt;/li>
+&lt;li>In the &lt;strong>Plugins&lt;/strong> tab, scroll down to the &lt;strong>Plugin&lt;/strong> section and select the &lt;strong>BSA&lt;/strong> Extractor.&lt;/li>
+&lt;li>Double-click &lt;strong>only_alternate_source&lt;/strong> and set it to &lt;strong>true&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;/li>
-&lt;li>Switch to the &lt;strong>Workarounds&lt;/strong> tab and check the following option:
-&lt;ul>
-&lt;li>Enable parsing of Archives (Experimental Feature)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
+&lt;p>This will disable the automatic prompt to unpack BSAs upon installing a mod that contains BSAs &lt;em>except&lt;/em> for when that mod is from a different source (Skyrim instead of Skyrim Special Edition in this case). Since SLE BSAs must &lt;em>always&lt;/em> be unpacked that makes sense.&lt;/p>
+&lt;p>For all other mods with BSAs, we unpack them too rarely to justify having an extra click for each of them. Occasionally the guide will instruct you to unpack a BSA manually after installing the mod.&lt;/p>
 &lt;h3 id="nexus-integration">Nexus Integration&lt;/h3>
 &lt;ul>
 &lt;li>Switch to the &lt;strong>Nexus&lt;/strong> tab where you need to connect your Nexus account to Mod Organizer 2.&lt;/li>
@@ -305,17 +312,6 @@
 &lt;li>Mod Organizer 2 may ask you to restart. Click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/authorise-mo2.png" alt="Authorise MO2">&lt;/p>
-&lt;h2 id="manage-mod-downloads">Manage Mod Downloads&lt;/h2>
-&lt;p>Most people use the &amp;ldquo;With Mod Manager&amp;rdquo; download option on the Nexus and then install the mod through their mod manager’s UI. That is the fastest and simplest way to download and install mods.&lt;/p>
-&lt;p>Since we installed MO2 as a portable application, all our mod archives would normally be downloaded into a sub-directory of the (MO2) root folder – which in turn may be located on your SSD or otherwise fastest hard drive. These archives are then extracted into their own folders meaning after their installation they only use up space.&lt;/p>
-&lt;p>On the other hand, keeping the archives as backups is highly recommended as mods are occasionally taken down from the Nexus or in case something goes wrong during the installation.&lt;/p>
-&lt;p>Here is where our &lt;strong>ARCHIVE&lt;/strong> comes into play, the directory inside &lt;strong>Your Modding Folder&lt;/strong> we set up to store all the mod files on a hard drive with plenty of free space. We will now configure Mod Organizer 2 to save all downloads to that folder.&lt;/p>
-&lt;ul>
-&lt;li>Once again, open the &lt;strong>Settings&lt;/strong> in MO2 (Tools &amp;raquo; Settings or CTRL + S).&lt;/li>
-&lt;li>Switch to the &lt;strong>Paths&lt;/strong> tab.&lt;/li>
-&lt;li>Point &lt;strong>Downloads&lt;/strong> to &lt;code>Your Modding Folder\ARCHIVE\MO2 Downloads&lt;/code>.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/mo2-archive.png" alt="MO2 Archive">&lt;/p>
 &lt;h2 id="user-interface">User Interface&lt;/h2>
 &lt;p>You can now configure the UI to your liking. Personally I re-arrange the two panels so that the left one (mod order) is wider.&lt;/p>
 &lt;ul>
@@ -324,7 +320,7 @@
 &lt;li>For the main &lt;strong>Tool Bar&lt;/strong> you can decide between Icons or Text (or both), and, if you choose Icons, their size. This is up to you.&lt;/li>
 &lt;/ul>
 &lt;h3 id="dark-mode">Dark Mode&lt;/h3>
-&lt;p>If it’s the middle of the night and you prefer dark mode to go easy on your eyes, open the &lt;strong>Settings&lt;/strong> (CTRL + S) and choose a different theme under &lt;strong>Styles&lt;/strong>. Paper Black Mono or Paper Dark are the obvious choices but there are more options.&lt;/p>
+&lt;p>If it’s the middle of the night and you prefer dark mode to go easy on your eyes, open the &lt;strong>Settings&lt;/strong> (CTRL + S) and choose a different theme under &lt;strong>Styles&lt;/strong>. If I liked dark mode, I&amp;rsquo;d recommend &lt;strong>1809 Dark Mode&lt;/strong>.&lt;/p>
 &lt;h3 id="mod-order">Mod Order&lt;/h3>
 &lt;p>By right-clicking the top of the left pane, you can choose what to display in your mod order. Enable the following columns:&lt;/p>
 &lt;ul>
@@ -337,7 +333,6 @@
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/mo2-customised.png" alt="MO2 Customized">&lt;/p>
 &lt;h2 id="custom-profiles">Custom Profiles&lt;/h2>
-&lt;h3 id="vanilla">Vanilla&lt;/h3>
 &lt;ul>
 &lt;li>Open the &lt;strong>Profile&lt;/strong> settings in MO2 (Tools &amp;raquo; Profiles or CTRL+P).&lt;/li>
 &lt;li>The &lt;strong>Default&lt;/strong> profile will be selected automatically.&lt;/li>
@@ -349,9 +344,9 @@
 &lt;li>When asked to delete the existing profile-specific INI files, click &lt;strong>Yes&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>This profile is completely untouched. It uses the global INI and save files from the INI folder, and running Skyrim SE through it will be exactly like running it from Steam.&lt;/p>
+&lt;p>This profile is completely untouched. It uses the global INI and save files from the Documents\My Games folder, and running Skyrim SE through it will be exactly like running it from Steam.&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="modded">Modded&lt;/h3>
+&lt;h3 id="tpf-profile">TPF Profile&lt;/h3>
 &lt;ul>
 &lt;li>Click &lt;strong>Copy&lt;/strong> to set up a second profile based on the &lt;strong>Default&lt;/strong> one.&lt;/li>
 &lt;li>Enter &lt;strong>The Phoenix Flavour&lt;/strong> as the name.&lt;/li>
@@ -366,7 +361,7 @@
 &lt;li>In the profile list below the top left menu in MO2, select your new profile to switch to it.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>This new profile is separate from your vanilla install. It uses its own directories for INI and save files.&lt;/p>
+&lt;p>This new profile is separate from your vanilla install. It uses its own directory for INIs and save files.&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/mo2-select-new-profile.png" alt="MO2 Select New Profile">&lt;/p>
 &lt;h2 id="separators">Separators&lt;/h2>
@@ -426,7 +421,7 @@
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/skse-scripts-installation.png" alt="SKSE Scripts Installation">&lt;/p>
 &lt;h2 id="skse-ini">SKSE INI&lt;/h2>
 &lt;ul>
-&lt;li>Open the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1651">SKSE64 ini pre-download for lazy users&lt;/a> Nexus page.&lt;/li>
+&lt;li>Open the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1651?tab=files">SKSE64 ini pre-download for lazy users&lt;/a> Nexus page.&lt;/li>
 &lt;li>Click &amp;ldquo;Mod Manager Download&amp;rdquo; for the &lt;code>SKSE64 INI PRE DOWNLOAD v1.2&lt;/code> main file.&lt;/li>
 &lt;li>Back in Mod Organizer 2, switch to the &lt;strong>Downloads&lt;/strong> tab.&lt;/li>
 &lt;li>Double-click the mod there and click &lt;strong>OK&lt;/strong> to install it.&lt;/li>

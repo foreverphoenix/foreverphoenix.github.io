@@ -14,17 +14,19 @@
 &lt;li>Enter the page&amp;rsquo;s title as the name for the separator (eg &lt;strong>FIXES&lt;/strong> or &lt;strong>INTERFACE&lt;/strong>).&lt;/li>
 &lt;li>The first one, &lt;strong>ESSENTIAL MODS&lt;/strong>, is already present of course.&lt;/li>
 &lt;/ul>
+&lt;p>Separators are &lt;strong>collapsible&lt;/strong>. That means after installing all mods from one section, you can collapse the section&amp;rsquo;s separator before moving on to the next.&lt;/p>
 &lt;p>In case you&amp;rsquo;re not sure how to create a new separator anymore:&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/mo2-create-separator.png" alt="MO2 Create Separator">&lt;/p>
-&lt;h2 id="installation-instructions">Installation Instructions&lt;/h2>
+&lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>Each mod has its own section with the following instructions:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Download Instructions:&lt;/strong> Lists files to download and the Nexus link which will directly bring you to the Files section.&lt;/li>
+&lt;li>&lt;strong>FOMOD Instructions:&lt;/strong> In case the mod contains a FOMOD installer (more information on that later).&lt;/li>
 &lt;li>&lt;strong>Porting Instructions:&lt;/strong> Brief instructions if necessary for proper porting of a LE mod to SSE with the Creation Kit or CAO.&lt;/li>
 &lt;li>&lt;strong>Additional Instructions:&lt;/strong> May contain INI edits, file deletions or edits, rarely SSEEdit tweaks.&lt;/li>
 &lt;/ul>
 &lt;p>Not all mods strictly follow this template. Some have sections unique to them with extra explanations or instructions. Just follow those instructions one by one and to the letter. Sometimes they are optional (which is then clearly stated) and you can skip them.&lt;/p>
-&lt;h3 id="download-instructions">Download Instructions&lt;/h3>
+&lt;h2 id="download-instructions">Download Instructions&lt;/h2>
 &lt;ul>
 &lt;li>Almost all mods are hosted on the Nexus.&lt;/li>
 &lt;li>The link to the mod&amp;rsquo;s file section is in the &lt;strong>Download Instructions&lt;/strong> header (CTRL+Click to open in new tab.)&lt;/li>
@@ -39,32 +41,30 @@
 &lt;/li>
 &lt;li>Download the file(s) by clicking &lt;strong>Mod Manager Download&lt;/strong>. It will automatically be downloaded through Mod Organizer 2. If a mod has special requirements, they are listed in a pop-up window where you will have to click the &lt;strong>Download&lt;/strong> button again. Don’t worry about these requirements, they are included in the guide or otherwise taken care of.&lt;/li>
 &lt;/ul>
-&lt;h3 id="mod-installation">Mod Installation&lt;/h3>
-&lt;ul>
-&lt;li>After downloading a mod, switch to the &lt;strong>Downloads&lt;/strong> tab in the right pane of Mod Organizer 2 and double-click the file(s) to install.&lt;/li>
-&lt;li>This may open a FOMOD installer if the mod includes one. &lt;strong>FOMOD Instructions&lt;/strong> are provided in the guide.&lt;/li>
-&lt;/ul>
-&lt;p>After installing a mod you can rename it to reflect the version you downloaded or options you selected in the FOMOD.&lt;/p>
+&lt;h2 id="mod-installation">Mod Installation&lt;/h2>
+&lt;p>After downloading a mod, switch to the &lt;strong>Downloads&lt;/strong> tab in the right pane of Mod Organizer 2 and double-click the file(s) to install. This may open a FOMOD installer if the mod includes one. &lt;strong>FOMOD Instructions&lt;/strong> are provided in the guide.&lt;/p>
+&lt;h3 id="renaming-mods">Renaming mods&lt;/h3>
+&lt;p>During or after the installation of a mod you can rename it to reflect the version you downloaded or options you selected in the FOMOD.&lt;/p>
 &lt;ul>
 &lt;li>For retextures, it is useful to add the texture resolution: &lt;code>Embers HD 2K&lt;/code>.&lt;/li>
 &lt;li>If there are different versions, note down which one you downloaded: &lt;code>Less Ugly Tundragrass - Redder Variant&lt;/code>.&lt;/li>
 &lt;/ul>
+&lt;h3 id="several-files-from-one-mod-page">Several files from one mod page&lt;/h3>
 &lt;p>Occasionally you will be instructed to download multiple files from the same page (usually the main mod with updates or patches). When installing them, always install the main file first. The second file will by default have the same name and MO2 will ask how you want to proceed:&lt;/p>
 &lt;ul>
 &lt;li>Unless otherwise specified in the guide&amp;rsquo;s instructions, always select &lt;strong>Rename&lt;/strong> and give the file a unique name so that it doesn&amp;rsquo;t overwrite the main file. For instance, if the main file was &lt;code>Simple Children&lt;/code> and you install the patch pack from the same mod page, click &lt;strong>Rename&lt;/strong> and enter &lt;code>Simple Children - Patches&lt;/code>.&lt;/li>
 &lt;li>Rarely, you will be told to &amp;ldquo;merge with the main file&amp;rdquo; in which case you select the &lt;strong>Merge&lt;/strong> option. This will move all installed files into the mod folder of the main file, overwriting existing files.&lt;/li>
 &lt;li>Only when updating mods to a new version should you select &lt;strong>Replace&lt;/strong> which, of course, replaces all original files.&lt;/li>
 &lt;/ul>
-&lt;h3 id="basic-instructions">Basic Instructions&lt;/h3>
-&lt;p>Certain procedures - such as resaving a plugin or running a mod through the Cathedral Assets Optimizer - are repeated many times throughout the guide. After going through them for a few times, you will know them by heart but until then, please refer to the &lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/">Basic Instructions&lt;/a> page (keep it open in a separate tab).&lt;/p>
+&lt;h2 id="basic-instructions">Basic Instructions&lt;/h2>
+&lt;p>Certain procedures - such as resaving a plugin or running a mod through the Cathedral Assets Optimizer - are repeated many times throughout the guide. After going through them for a few times, you will know them by heart but until then, please refer to the &lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/">Basic Instructions&lt;/a> page which you should &lt;strong>keep open in a separate tab&lt;/strong>.&lt;/p>
 &lt;p>The linked page includes detailed explanations for the following instructions:&lt;/p>
 &lt;ul>
 &lt;li>&amp;ldquo;Resave Example.esp in the Creation Kit.&amp;rdquo;&lt;/li>
 &lt;li>&amp;ldquo;Clean Example.esp with SSEEdit.&amp;rdquo;&lt;/li>
 &lt;li>&amp;ldquo;Unpack Example.bsa through Mod Organizer 2.&amp;rdquo;&lt;/li>
-&lt;li>&amp;ldquo;Run the mod through Cathedral Assets Optimizer.&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;Run the mod through Cathedral Assets Optimizer (&amp;lt;\Profile&amp;gt;).&amp;rdquo;&lt;/li>
 &lt;li>&amp;ldquo;Run the mod through SSE NIF Optimizer.&amp;rdquo;&lt;/li>
-&lt;li>&amp;ldquo;Downsize the textures with Cathedral Assets Optimizer.&amp;rdquo;&lt;/li>
 &lt;/ul>
 &lt;p>You will also be instructed to delete, rename, or move files through the MO2 interface frequently. This is very simple:&lt;/p>
 &lt;ul>
@@ -99,6 +99,16 @@
 &lt;/li>
 &lt;li>Click &lt;strong>Yes&lt;/strong> when asked to overwrite.&lt;/li>
 &lt;/ul>
+&lt;h4 id="ini-tweaks">INI Tweaks&lt;/h4>
+&lt;ul>
+&lt;li>Double-click &lt;strong>SSE Engine Fixes&lt;/strong> in your mod order.&lt;/li>
+&lt;li>Switch to the &lt;strong>Text Files&lt;/strong> tab and select the &lt;strong>EngineFixes.toml&lt;/strong>.&lt;/li>
+&lt;li>In &lt;strong>Line 13&lt;/strong>, set &lt;strong>Regular Quicksaves&lt;/strong> to &lt;strong>true&lt;/strong>.&lt;/li>
+&lt;li>Close the window and click &lt;strong>Yes&lt;/strong> when asked to save.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>This is done so that quicksaves have proper names and stop overwriting each other.&lt;/p>
+&lt;/blockquote>
 &lt;h5 id="net-script-framework-nsfhttpswwwnexusmodscomskyrimspecialeditionmods21294tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21294?tab=files">.NET Script Framework (NSF)&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
 &lt;ul>
@@ -109,7 +119,7 @@
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> SSE Display Tweaks&lt;/li>
 &lt;/ul>
-&lt;h4 id="ini-tweaks">INI Tweaks&lt;/h4>
+&lt;h4 id="ini-tweaks-1">INI Tweaks&lt;/h4>
 &lt;ul>
 &lt;li>Double-click the mod in your mod order and switch to the &lt;strong>INI Files&lt;/strong> tab.&lt;/li>
 &lt;li>Select the &lt;strong>SSEDisplayTweaks.ini&lt;/strong> and edit the following:
@@ -132,6 +142,7 @@
 &lt;/ul>
 &lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
 &lt;p>The first set of console commands we want run automatically can be added now (more mod-related ones will come later). &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4524">Multiple Floors Sandboxing&lt;/a> merely changes two existing game settings which can simply edited through the console, thus removing the need for an additional plugin.&lt;/p>
+&lt;p>The third command will disable an effect called &amp;ldquo;character lighting&amp;rdquo; which i&lt;/p>
 &lt;ul>
 &lt;li>Double-click &lt;strong>Autorun Console Commands&lt;/strong> in Mod Organizer 2.&lt;/li>
 &lt;li>Switch to the &lt;strong>Textfiles&lt;/strong> tab and select the &lt;strong>Autorun.txt&lt;/strong> file.&lt;/li>
@@ -139,6 +150,7 @@
 &lt;/ul>
 &lt;pre>&lt;code>SetGS fSandboxCylinderTop 576
 SetGS fSandboxCylinderBottom -576
+cl off
 &lt;/code>&lt;/pre>&lt;ul>
 &lt;li>Close the window and click &lt;strong>Yes&lt;/strong> when asked to save.&lt;/li>
 &lt;/ul>
@@ -635,7 +647,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>Double-click &lt;strong>SkyHUD&lt;/strong> in your mod order.&lt;/li>
 &lt;li>In the &lt;strong>Text Files&lt;/strong> tab, select the &lt;strong>skyhud.txt&lt;/strong>.&lt;/li>
-&lt;li>In the [Interface] section, edit the following lines:
+&lt;li>In the &lt;strong>[Interface]&lt;/strong> section, edit the following lines:
 &lt;ul>
 &lt;li>&lt;code>bAltArrow=1&lt;/code>&lt;/li>
 &lt;li>&lt;code>bAltCompass=1&lt;/code>&lt;/li>
@@ -1211,7 +1223,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;/ul>
 &lt;h4 id="fomod-instructions-5">FOMOD Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Select Transparency in %:&lt;/strong> 95% (personal choice)&lt;/li>
+&lt;li>&lt;strong>Select Transparency in %:&lt;/strong> 80%&lt;/li>
 &lt;/ul></description></item><item><title>Tpf: Lighting</title><link>https://thephoenixflavour.com/tpf/mod-installation/lighting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf/mod-installation/lighting/</guid><description>
 &lt;h5 id="relighting-skyrimhttpswwwnexusmodscomskyrimspecialeditionmods8586tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8586?tab=files">Relighting Skyrim&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions">Download Instructions&lt;/h4>
@@ -2849,7 +2861,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Ancient Dwemer Metal - My patches - FINAL SE VERSION&lt;/li>
-&lt;li>&lt;strong>Update Files:&lt;/strong> Ancient Dwemer Metal - My patches - FINAL VERSION Update v2 &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Update Files:&lt;/strong> Ancient Dwemer Metal - My patches - FINAL VERSION Update v3 &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h4 id="installation-instructions">Installation Instructions&lt;/h4>
 &lt;p>Unfortunately, &amp;ldquo;Mod Manager Download&amp;rdquo; was disabled for the main file.&lt;/p>
@@ -2860,8 +2872,6 @@ SetGS fSandboxCylinderBottom -576
 &lt;li>The mod will now appear in the &lt;strong>Downloads&lt;/strong> tab.&lt;/li>
 &lt;li>Right-click it and select &lt;strong>Query Info&lt;/strong>.&lt;/li>
 &lt;li>Double-click the mod to install it as usual.&lt;/li>
-&lt;li>Right-click the &lt;strong>Data&lt;/strong> folder and select &lt;strong>Set as data directory&lt;/strong>.&lt;/li>
-&lt;li>Click &lt;strong>OK&lt;/strong> to install the mod.&lt;/li>
 &lt;/ul>
 &lt;h5 id="dwemer-ichor-barrel-2khttpswwwnexusmodscomskyrimspecialeditionmods16797tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/16797?tab=files">Dwemer Ichor Barrel 2K&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
@@ -3570,7 +3580,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>We are removing the mod&amp;rsquo;s textures in favour of aMidiaBorn&amp;rsquo;s for consistency with aMidianBorn Variants which adds gold and silver Ebony variations.&lt;/p>
+&lt;p>We are removing the mod&amp;rsquo;s textures in favour of aMidianBorn&amp;rsquo;s for consistency with aMidianBorn Variants which adds gold and silver Ebony variations.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="frankly-hd-dragonbone-and-dragonscalehttpswwwnexusmodscomskyrimspecialeditionmods25110tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25110?tab=files">Frankly HD Dragonbone and Dragonscale&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-19">Download Instructions&lt;/h4>
@@ -3633,7 +3643,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;/ul>
 &lt;h4 id="porting-instructions">Porting Instructions&lt;/h4>
 &lt;ul>
-&lt;li>Run the mod through SSE NIF Optimizer.&lt;/li>
+&lt;li>Run the mod through &lt;strong>SSE NIF Optimizer&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>Processing the meshes with CAO results in the staff 3rd person mesh being invisble ingame. Not processing causes the dagger 1st and 3rd person meshes to be invisible. Only SSE NIF Optimizer reliably fixes all meshes.&lt;/p>
@@ -4087,7 +4097,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;/ul>
 &lt;h4 id="porting-instructions-2">Porting Instructions&lt;/h4>
 &lt;ul>
-&lt;li>Run the mod through SSE NIF Optimizer.&lt;/li>
+&lt;li>Run the mod through &lt;strong>SSE NIF Optimizer&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;h5 id="ancient-dwemer-metal---missing-forgemaster-fixhttpswwwnexusmodscomskyrimspecialeditionmods38216tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38216?tab=files">Ancient Dwemer Metal - Missing Forgemaster Fix&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-26">Download Instructions&lt;/h4>
@@ -4574,8 +4584,8 @@ SetGS fSandboxCylinderBottom -576
 &lt;/li>
 &lt;li>&lt;strong>SPID Patches:&lt;/strong>
 &lt;ul>
-&lt;li>&lt;del>ROM - SPID Patch&lt;/del>&lt;/li>
-&lt;li>&lt;del>ROM - SPID DPM Patch&lt;/del>&lt;/li>
+&lt;li>ROM - SPID Patch&lt;/li>
+&lt;li>ROM - SPID DPM Patch&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>&lt;strong>Optional Patches:&lt;/strong>
