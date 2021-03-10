@@ -142,7 +142,7 @@
 &lt;/ul>
 &lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
 &lt;p>The first set of console commands we want run automatically can be added now (more mod-related ones will come later). &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4524">Multiple Floors Sandboxing&lt;/a> merely changes two existing game settings which can simply edited through the console, thus removing the need for an additional plugin.&lt;/p>
-&lt;p>The third command will disable an effect called &amp;ldquo;character lighting&amp;rdquo; which i&lt;/p>
+&lt;p>The third command will disable a fairly ugly effect called &amp;ldquo;character lighting&amp;rdquo;.&lt;/p>
 &lt;ul>
 &lt;li>Double-click &lt;strong>Autorun Console Commands&lt;/strong> in Mod Organizer 2.&lt;/li>
 &lt;li>Switch to the &lt;strong>Textfiles&lt;/strong> tab and select the &lt;strong>Autorun.txt&lt;/strong> file.&lt;/li>
@@ -2861,7 +2861,7 @@ cl off
 &lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Ancient Dwemer Metal - My patches - FINAL SE VERSION&lt;/li>
-&lt;li>&lt;strong>Update Files:&lt;/strong> Ancient Dwemer Metal - My patches - FINAL VERSION Update v3 &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Update Files:&lt;/strong> Ancient Dwemer Metal - My patches - FINAL VERSION Update v3&lt;/li>
 &lt;/ul>
 &lt;h4 id="installation-instructions">Installation Instructions&lt;/h4>
 &lt;p>Unfortunately, &amp;ldquo;Mod Manager Download&amp;rdquo; was disabled for the main file.&lt;/p>
