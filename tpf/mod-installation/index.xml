@@ -145,7 +145,7 @@
 &lt;p>The third command will disable a fairly ugly effect called &amp;ldquo;character lighting&amp;rdquo;.&lt;/p>
 &lt;ul>
 &lt;li>Double-click &lt;strong>Autorun Console Commands&lt;/strong> in Mod Organizer 2.&lt;/li>
-&lt;li>Switch to the &lt;strong>Textfiles&lt;/strong> tab and select the &lt;strong>Autorun.txt&lt;/strong> file.&lt;/li>
+&lt;li>Switch to the &lt;strong>Text Files&lt;/strong> tab and select the &lt;strong>Autorun.txt&lt;/strong> file.&lt;/li>
 &lt;li>Add the following two lines in the text field:&lt;/li>
 &lt;/ul>
 &lt;pre>&lt;code>SetGS fSandboxCylinderTop 576

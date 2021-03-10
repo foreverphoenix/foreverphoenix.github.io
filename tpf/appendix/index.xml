@@ -120,7 +120,7 @@
 &lt;/ul>
 &lt;h4 id="finalisation">Finalisation&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Wrapping Up:&lt;/strong> Renamed the FINAL PATCH separator to FINALE PATCHES.&lt;/li>
+&lt;li>&lt;strong>Wrapping Up:&lt;/strong> Renamed the FINAL PATCH separator to FINAL PATCHES.&lt;/li>
 &lt;li>&lt;strong>Facegen:&lt;/strong> Slightly reworded some instructions.&lt;/li>
 &lt;li>&lt;strong>Facegen:&lt;/strong> Added a warning about required space on your hard drive for the facegen instructions.&lt;/li>
 &lt;li>&lt;strong>Facegen:&lt;/strong> Added three missing plugins with new NPCs to the NPCsWithFaces instructions.&lt;/li>

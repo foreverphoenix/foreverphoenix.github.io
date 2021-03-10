@@ -3,7 +3,7 @@
 &lt;ul>
 &lt;li>Create a &lt;strong>FINAL PATCHES&lt;/strong> separator in Mod Organizer 2.&lt;/li>
 &lt;li>Download the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14223?tab=files">Conflict Resolution Patch&lt;/a> from the guide’s Nexus page.&lt;/li>
-&lt;li>Install it as usual, place it last below the &lt;strong>FINAL PATCH&lt;/strong> separator, and activate it.&lt;/li>
+&lt;li>Install it as usual, place it last below the &lt;strong>FINAL PATCHES&lt;/strong> separator, and activate it.&lt;/li>
 &lt;/ul>
 &lt;h2 id="load-order-txt">Load Order TXT&lt;/h2>
 &lt;p>The pre-made TXT will arrange your plugins exactly like the way they are sorted in my personal setup. This is much faster than adjusting the load order manually or setting up LOOT with custom rules.&lt;/p>
