@@ -1,0 +1,426 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Installation</title><link>https://thephoenixflavour.com/tpf-x/installation/</link><description>Recent content in Installation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/tpf-x/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>Tpf-X: Interface</title><link>https://thephoenixflavour.com/tpf-x/installation/interface/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf-x/installation/interface/</guid><description>
+&lt;h2 id="basic-mods">Basic Mods&lt;/h2>
+&lt;p>These are mods that I don&amp;rsquo;t consider good fits for base TPF but that I still use personally.&lt;/p>
+&lt;h3 id="morehud-inventory-editionhttpswwwnexusmodscomskyrimspecialeditionmods18619tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18619?tab=files">moreHUD Inventory Edition&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>This mod adds more information to the SkyUI inventory. It also fixes item cards.&lt;/p>
+&lt;p>This mod is &lt;strong>optional&lt;/strong>.&lt;/p>
+&lt;h4 id="download-instructions">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> moreHUD Inventory Edition Loose Version&lt;/li>
+&lt;/ul>
+&lt;h3 id="main-menu-design-replacerhttpswwwnexusmodscomskyrimspecialeditionmods30810tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30810?tab=files">Main Menu Design Replacer&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>This mod centers the main menu design, a change I&amp;rsquo;m personally rather fond of. It also looks very decent with TPF&amp;rsquo;s standard main menu replacer.&lt;/p>
+&lt;p>This mod is &lt;strong>optional&lt;/strong>.&lt;/p>
+&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Main Menu Design Replacer (clean)&lt;/li>
+&lt;/ul>
+&lt;h3 id="time-format-changehttpswwwnexusmodscomskyrimspecialeditionmods28921tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28921?tab=files">Time Format Change&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>As a European, I&amp;rsquo;ve always hated the 12h format of Skyrim&amp;rsquo;s clock so here&amp;rsquo;s a fix. Feel free to select whatever you want in the FOMOD, or skip this mod entirely.&lt;/p>
+&lt;p>This mod is &lt;strong>optional&lt;/strong>.&lt;/p>
+&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Time Format Changer - FOMOD Installer&lt;/li>
+&lt;/ul>
+&lt;h2 id="quickloot">QuickLoot&lt;/h2>
+&lt;p>QuickLoot implements a Fallout-4-style overlay that allows you to loot dead bodies or containers without having to go into the full menu. It is rather divisive which is why it is now &lt;strong>optional&lt;/strong>. If you don&amp;rsquo;t like QuickLoot, you can &lt;strong>skip it&lt;/strong>.&lt;/p>
+&lt;h3 id="quickloothttpswwwnexusmodscomskyrimspecialeditionmods21085tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21085?tab=files">QuickLoot&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>The main mod. If you decide to skip this, skip all mods in the QuickLoot section.&lt;/p>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> QuickLootRE&lt;/li>
+&lt;/ul>
+&lt;h3 id="no-lockpick-activate-skse---updatedhttpswwwnexusmodscomskyrimspecialeditionmods26790tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26790?tab=files">No Lockpick Activate (SKSE) - Updated&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>While not originally intended as such, this mod is an addon of sorts to &lt;strong>QuickLoot&lt;/strong>. Without it, you would be forced into the full menu upon unlocking a container even when QuickLoot is installed. With the mod, you will be able to see the QuickLoot overlay and loot through there. It does, however, also affect every other locked object so for example you have to interact with doors after unlocking them to go through.&lt;/p>
+&lt;p>Install this mod if you installed QuickLoot. Otherwise skip it.&lt;/p>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> No Lockpick Activate (SKSE) - Updated&lt;/li>
+&lt;/ul>
+&lt;h3 id="quicklootre-texture-replacerhttpswwwnexusmodscomskyrimspecialeditionmods39045tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/39045?tab=files">QuickLootRE Texture Replacer&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>The default QuickLoot design can be a little heavy&lt;/p>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> QuickLootRE Texture Replacer&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Options:&lt;/strong> Dialogue Style&lt;/li>
+&lt;/ul>
+&lt;h2 id="font-replacer">Font Replacer&lt;/h2>
+&lt;p>While I&amp;rsquo;m personally partial to the Roboto Font Replacer (which is in the main guide), I realise it&amp;rsquo;s a controversial choice and many people prefer other font replacers. I have provided instructions for my two other preferred font mods but you can essentially install any font replacer you like. If you decide to install a different font replacer, I would suggest editing the &lt;code>fontconfig.txt&lt;/code> to continue using the Consolas font in the console.&lt;/p>
+&lt;p>If you chose to install Dear Diary with its font replacer you can still overwrite with another font if that is your preference.&lt;/p>
+&lt;p>This section is completely &lt;strong>optional&lt;/strong>.&lt;/p>
+&lt;h3 id="sovngarde---a-nordic-fonthttpswwwnexusmodscomskyrimspecialeditionmods386tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/386?tab=files">Sovngarde - A Nordic Font&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>This font was specifically created for Skyrim and I used it myself for many years. It fits a more fantasy or classic RPG atmosphere and looks good when paired with Dear Diary or the regular SkyUI interface.&lt;/p>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Sovngarde - A Nordic Font Light V8.9&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Double-click &lt;strong>Sovngarde - A Nordic Font&lt;/strong> in your mod order.&lt;/li>
+&lt;li>Switch to the &lt;strong>Text Files&lt;/strong> tab and select the &lt;strong>fontconfig.txt&lt;/strong> file.&lt;/li>
+&lt;li>Create a new line below &lt;code>fontlib &amp;quot;Interface\fonts_drukaatieburti.swf&amp;quot;&lt;/code>.&lt;/li>
+&lt;li>Paste &lt;code>fontlib &amp;quot;Interface\fonts_consolas.swf&amp;quot;&lt;/code> into the new &lt;strong>Line 6&lt;/strong>.&lt;/li>
+&lt;li>In &lt;strong>Line 7&lt;/strong>, change &lt;code>&amp;quot;SovngardeConsole&amp;quot;&lt;/code> to &lt;code>&amp;quot;Consolas&amp;quot;&lt;/code>.&lt;/li>
+&lt;li>Close the window and click &lt;strong>Yes&lt;/strong> when asked to save.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>This way you can use Sovngarde&amp;rsquo;s font for most of the game with Dear Diary&amp;rsquo;s Consolas font for the console.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf-x/installation/sovngarde-consolas.png" alt="Sovngarde Consolas">&lt;/p>
+&lt;h3 id="main-font-replacement---fertigo-prohttpswwwnexusmodscomskyrimspecialeditionmods14356tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14356?tab=files">Main Font Replacement - Fertigo Pro&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>This was my first font mod of choice back in the day before Sovngarde was released. It was rather popular then and continues to hold up well as a compromise between simple and stylised.&lt;/p>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Fertigo Pro Font SSE&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Double-click &lt;strong>Main Font Replacement - Fertigo Pro&lt;/strong> in your mod order.&lt;/li>
+&lt;li>Switch to the &lt;strong>Text Files&lt;/strong> tab and select the &lt;strong>fontconfig.txt&lt;/strong> file.&lt;/li>
+&lt;li>Create a new line below &lt;code>fontlib &amp;quot;Interface\fonts_en2.swf&amp;quot;&lt;/code>.&lt;/li>
+&lt;li>Paste &lt;code>fontlib &amp;quot;Interface\fonts_consolas.swf&amp;quot;&lt;/code> into the new &lt;strong>Line 4&lt;/strong>.&lt;/li>
+&lt;li>In &lt;strong>Line 5&lt;/strong>, change &lt;code>&amp;quot;Arial&amp;quot;&lt;/code> to &lt;code>&amp;quot;Consolas&amp;quot;&lt;/code>.&lt;/li>
+&lt;li>Close the window and click &lt;strong>Yes&lt;/strong> when asked to save.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>This way you can use Fertigo Pro for most of the game with Dear Diary&amp;rsquo;s Consolas font for the console.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf-x/installation/fertigo-consolas.png" alt="Fertigo Consolas">&lt;/p></description></item><item><title>Tpf-X: Visual Upgrade</title><link>https://thephoenixflavour.com/tpf-x/installation/visual-upgrade/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf-x/installation/visual-upgrade/</guid><description>
+&lt;h2 id="about-this-section">About this section&lt;/h2>
+&lt;p>The main guide has always tried to stay as performance-friendly as possible in its choices of INI settings, mods, ENB, and so forth. Even though I&amp;rsquo;m lucky enough to own an RTX 3080 now, I wanted to keep base TPF useable for a variety of systems. However, for those with more powerful hardware there are now some additional mods.&lt;/p>
+&lt;p>There are two sections on this mod page: Grass overhaul (for Folkvangr) and ENB (for Rudy ENB). You can install either, both, or none.&lt;/p>
+&lt;h2 id="grass-overhaul">Grass Overhaul&lt;/h2>
+&lt;p>My personal favourite grass overhaul is Folkvangr nowadays and only the increased performance impact over the TPF default Veydosebrom has kept me from including it in the main guide.&lt;/p>
+&lt;p>If you choose to install Folkvangr (you can skip it if you like), expect an FPS loss of around 5-10FPS (not noticeable for me since I play capped at 60).&lt;/p>
+&lt;p>Disable the following mods in your mod order:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Veydosebrom Regions&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Veydosebrom Regions - Fall Forest&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Cathedral 3D Pine Grass&lt;/li>
+&lt;/ul>
+&lt;h3 id="folkvangr---grass-and-landscape-overhaulhttpswwwnexusmodscomskyrimspecialeditionmods44899tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/44899?tab=files">Folkvangr - Grass and Landscape Overhaul&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>An absolutely incredible grass overhaul. Does stray from vanilla quite a bit but I haven&amp;rsquo;t yet found a single place I didn&amp;rsquo;t like. I prefer it over Veydosebrom.&lt;/p>
+&lt;h4 id="download-instructions">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Folkvangr - Grass and Landscape Overhaul&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and / or folder(s):
+&lt;ul>
+&lt;li>&lt;code>Folkvangr - Grass and Landscape Overhaul.ini&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="ini-tweak">INI Tweak&lt;/h4>
+&lt;ul>
+&lt;li>Open the &lt;strong>INI Editor&lt;/strong> in Mod Organizer 2.&lt;/li>
+&lt;li>Switch to the &lt;strong>skyrimcustom.ini&lt;/strong> tab.&lt;/li>
+&lt;li>Change the following value:&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code>iMinGrassSize=60
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>Click &lt;strong>Save&lt;/strong> and close the window.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Thanks to the MO2 profile-specific INI files option, this change will only apply to the TPF-X profile and not affect the base TPF profile.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="rudy-enb">Rudy ENB&lt;/h2>
+&lt;p>At this time, Rudy ENB is probably the most feature-rich and certainly one of the most impressive ENB presets out there. It has a slew of requirements which we will need to cover also.&lt;/p>
+&lt;p>If you decide to install Rudy ENB, you need to install all other files from this section as well.&lt;/p>
+&lt;h3 id="rudy-enb---weather-tweakshttpswwwnexusmodscomskyrimspecialeditionmods39113tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/39113?tab=files">Rudy ENB - Weather Tweaks&lt;/a>&lt;/strong>&lt;/h3>
+&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Rudy ENB Cathedral Weathers required files Part I&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Rudy ENB Cathedral Weathers required files Part II &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and / or folder(s):
+&lt;ul>
+&lt;li>&lt;code>Cathedral Weathers.ini&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="rudy-enb-fileshttpswwwnexusmodscomskyrimspecialeditionmods39113tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/39113?tab=files">Rudy ENB Files&lt;/a>&lt;/strong>&lt;/h3>
+&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Rudy ENB SE for Cathedral Weathers&lt;/li>
+&lt;/ul>
+&lt;p>Download the file manually.&lt;/p>
+&lt;h4 id="installation-instructions">Installation Instructions&lt;/h4>
+&lt;p>We will extract the required files from the archive before installing them in ENB Man.&lt;/p>
+&lt;ul>
+&lt;li>In Windows Explorer, go to your temp folder: &lt;code>Your Modding Folder\temp&lt;/code>. It should be empty.&lt;/li>
+&lt;li>Open the download Rudy ENB archive.&lt;/li>
+&lt;li>Go to &lt;code>Rudy for SSE 4.0a1 CW\! Catherdral Weathers Version\[ Skyrim SE folder ]&lt;/code>.&lt;/li>
+&lt;li>Extract both files and the folder to your temp folder.&lt;/li>
+&lt;/ul>
+&lt;p>These are the base ENB files that may now be overwritten by addons.&lt;/p>
+&lt;ul>
+&lt;li>Go to &lt;code>Rudy for SSE 4.0a1 CW\! Catherdral Weathers Version\ADDONS&lt;/code>.&lt;/li>
+&lt;li>Double-click the &lt;strong>Lighting mods&lt;/strong> folder and then &lt;strong>Normal Game&lt;/strong>.&lt;/li>
+&lt;li>Open the &lt;strong>If Luminosity is placed after Window Shadows&lt;/strong> folder.&lt;/li>
+&lt;li>Extract the &lt;strong>enbseries&lt;/strong> folder into your temp folder.&lt;/li>
+&lt;li>Click &lt;strong>Yes&lt;/strong> when asked to merge folders and replace files.&lt;/li>
+&lt;/ul>
+&lt;p>This installed the ENB code for the night eye fix. The matching plugin-based tweaks will be part of the next mod.&lt;/p>
+&lt;ul>
+&lt;li>Open &lt;strong>ENB Man&lt;/strong>, the preset management tool installed during the main guide.&lt;/li>
+&lt;li>Double-click the &lt;strong>Skyrim SE&lt;/strong> profile.&lt;/li>
+&lt;li>Click the big arrow under &lt;strong>Presets&lt;/strong> and select &lt;strong>Blank Preset&lt;/strong>.&lt;/li>
+&lt;li>Enter &lt;strong>Rudy ENB for Cathedral Weathers&lt;/strong> and click the green checkmark.&lt;/li>
+&lt;li>Move the folder and both files from the temp folder into ENB Man.&lt;/li>
+&lt;li>Under &lt;strong>Binary&lt;/strong>, make sure the latest version is selected and checked.&lt;/li>
+&lt;li>Click the green checkmark at the bottom to install the preset.&lt;/li>
+&lt;li>If asked to update modified files from your previous preset, click the green checkmark.&lt;/li>
+&lt;li>Close ENB Man. Rudy ENB is now installed.&lt;/li>
+&lt;/ul>
+&lt;h3 id="misc-tweaks---night-eye-redux---enb-fixhttpswwwnexusmodscomskyrimspecialeditionmods38348tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38348?tab=files">Misc Tweaks - Night Eye Redux - ENB Fix&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>A tiny patch for Night Eye Redux, merging the tint color changes from the ENB night eye fix with the changes from NER. This allows you to use night eye with Rudy ENB.&lt;/p>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Misc Tweaks - Night Eye Redux - ENB Fix&lt;/li>
+&lt;/ul>
+&lt;h3 id="bright-snow-fix-for-enbhttpswwwnexusmodscomskyrimspecialeditionmods41737tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41737?tab=files">Bright Snow Fix for ENB&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>Lowers brightness of the snow flake texture so it&amp;rsquo;s not overblown with ENB. Didn&amp;rsquo;t find this necessary with Serio&amp;rsquo;s ENB but it helps with Rudy.&lt;/p>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Bright Snow Fix&lt;/li>
+&lt;/ul>
+&lt;h3 id="dynamic-volumetric-lighting-and-sun-shadowshttpswwwnexusmodscomskyrimspecialeditionmods44483tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/44483?tab=files">Dynamic Volumetric Lighting and Sun Shadows&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>Synchronises sun and exterior shadows. This mod is a hard requirement for Rudy ENB.&lt;/p>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Dynamic Volumetric Lighting and Sun Shadows&lt;/li>
+&lt;/ul>
+&lt;h3 id="rudy-enb---dvlass-ini">&lt;strong>Rudy ENB - DVLaSS INI&lt;/strong>&lt;/h3>
+&lt;p>Rudy comes with its own preset for DLVaSS.&lt;/p>
+&lt;h4 id="installation-instructions-1">Installation Instructions&lt;/h4>
+&lt;ul>
+&lt;li>In Mod Organizer 2, create a new empty mod: &lt;strong>Rudy ENB - DVLaSS INI&lt;/strong>.&lt;/li>
+&lt;li>Right-click the new mod and click &lt;strong>Open in Explorer&lt;/strong>.&lt;/li>
+&lt;li>Open the Rudy ENB archive (with the ENB files) once again.&lt;/li>
+&lt;li>Navigate to &lt;code>Rudy for SSE 4.0a1 CW\! Catherdral Weathers Version\ADDONS&lt;/code>.&lt;/li>
+&lt;li>Double-click the &lt;strong>Rudy ENB DVLaSS ini.rar&lt;/strong> and open the &lt;strong>Data&lt;/strong> folder inside.&lt;/li>
+&lt;li>Extract the &lt;strong>SKSE&lt;/strong> folder into the mod folder you created before.&lt;/li>
+&lt;li>In Mod Organizer 2, press F5 to refresh.&lt;/li>
+&lt;/ul>
+&lt;h3 id="dyndolod---generate-terrain-underside">&lt;strong>DynDOLOD - Generate Terrain Underside&lt;/strong>&lt;/h3>
+&lt;p>While there is a terrain underside mesh available on the DLVaSS mod page, it is recommended to use DynDOLOD to generate one for one&amp;rsquo;s setup. This is a new feature in DynDOLOD 3.0 that you need to enable now. DynDOLOD will be regenerated later on.&lt;/p>
+&lt;h4 id="ini-tweak-1">INI Tweak&lt;/h4>
+&lt;ul>
+&lt;li>Navigate to &lt;code>Your Modding Folder\Tools\DynDOLOD\Edit Scripts\DynDOLOD\&lt;/code>.&lt;/li>
+&lt;li>Open the &lt;strong>DynDOLOD_SSE.ini&lt;/strong> in Notepad++.&lt;/li>
+&lt;li>Scroll down to &lt;strong>Line 270&lt;/strong> and uncomment it (remove the semicolon &lt;code>;&lt;/code>).&lt;/li>
+&lt;li>Scroll down to &lt;strong>Line 275&lt;/strong> and change &lt;strong>TerrainUnderside=&lt;/strong> to &lt;strong>1&lt;/strong>.&lt;/li>
+&lt;li>Save and close the file.&lt;/li>
+&lt;/ul></description></item><item><title>Tpf-X: New Gear</title><link>https://thephoenixflavour.com/tpf-x/installation/new-gear/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf-x/installation/new-gear/</guid><description>
+&lt;h2 id="royal-armory">Royal Armory&lt;/h2>
+&lt;p>I&amp;rsquo;ve been interested in trying Royal Armory by PrivateEye for a long while but was put off by a few rather significant bugs and varying asset quality. Thankfully, these things have been fixed and improved by modders now.&lt;/p>
+&lt;p>Royal Armory is &lt;strong>optional&lt;/strong>. If you choose to install it, install the other two mods as well.&lt;/p>
+&lt;h3 id="royal-armory---new-artifactshttpswwwnexusmodscomskyrimspecialeditionmods6994tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6994?tab=files">Royal Armory - New Artifacts&lt;/a>&lt;/strong>&lt;/h3>
+&lt;h4 id="download-instructions">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Royal Armory V2.2&lt;/li>
+&lt;/ul>
+&lt;h3 id="privateeyes-royal-armory---reforgedhttpswwwnexusmodscomskyrimspecialeditionmods28006tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28006?tab=files">PrivateEye&amp;rsquo;s Royal Armory - Reforged&lt;/a>&lt;/strong>&lt;/h3>
+&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Royal Armory - Reforged - Main Replacer 1.1&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Loadscreen Models Update&lt;/li>
+&lt;/ul>
+&lt;h3 id="royal-armory---new-artifacts-plugin-replacerhttpswwwnexusmodscomskyrimspecialeditionmods44392tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/44392?tab=files">Royal Armory - New Artifacts Plugin Replacer&lt;/a>&lt;/strong>&lt;/h3>
+&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Royal Armory - Replacer&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Dragonfang - Penitus Logo &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Hafyllbrand - Custom Textures &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Sword of Dragonsreach - Custom Textures &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Royal Armory - Replacer Patch Hub&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions---patch-hub">FOMOD Instructions - Patch Hub&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Patches:&lt;/strong> Obscure&amp;rsquo;s College of Winterhold - Cell Setting Patch&lt;/li>
+&lt;/ul>
+&lt;h4 id="load-order-instructions">Load Order Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Place &lt;strong>Royal Armory - OCW CellSettings Patch.esp&lt;/strong> below &lt;strong>OCW_CellSettings.esp&lt;/strong>.&lt;/li>
+&lt;/ul></description></item><item><title>Tpf-X: New Companions</title><link>https://thephoenixflavour.com/tpf-x/installation/new-companions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf-x/installation/new-companions/</guid><description>
+&lt;h2 id="inigo">Inigo&lt;/h2>
+&lt;p>Everyone loves Inigo. It hurt my soul when I removed him from base TPF and I only did so after promising myself to bring him back in some way. This is where I will fulfill that promise.&lt;/p>
+&lt;h3 id="inigohttpswwwnexusmodscomskyrimspecialeditionmods1461tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1461?tab=files">Inigo&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>The smartest blue cat.&lt;/p>
+&lt;h4 id="download-instructions">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> INIGO_V2.4C SE&lt;/li>
+&lt;/ul>
+&lt;h3 id="inigo-whistle-keyhttpswwwnexusmodscomskyrimspecialeditionmods29406tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/29406?tab=files">Inigo Whistle Key&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>One major gameplay feature of Inigo&amp;rsquo;s is the ability to issue commands by whistling to him. This is something introduced during his quests and will be explained ingame in detail. Normally the Whistle is a regular power but having it on a hotkey is far more useful. I chose the V version because X is the default hotkey for toggling Immersive HUD already.&lt;/p>
+&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> InigoWhistleKeyV12-KeyV&lt;/li>
+&lt;/ul>
+&lt;h3 id="mr-dragonfly-enb-particle-lighthttpswwwnexusmodscomskyrimspecialeditionmods45664tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45664?tab=files">Mr. Dragonfly ENB Particle Light&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>Inigo wears a Dragonfly in a Jar on his belt which he frequently talks with. All vanilla Bugs in a Jar already have ENB particle lights added to them by a mod in base TPF so it&amp;rsquo;s only fitting that Mr. Dragonfly gets the same treatment.&lt;/p>
+&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Mr. Dragonfly ENB Particle Lights&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Color Options:&lt;/strong> Teal (My preference)&lt;/li>
+&lt;/ul>
+&lt;h3 id="the-phoenix-flavour---inigo-patchhttpswwwnexusmodscomskyrimspecialeditionmods14223tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14223?tab=files">The Phoenix Flavour - Inigo Patch&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>All conflicts with the rest of TPF are covered in this patch as well as a number of personal tweaks and improvements.&lt;/p>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> The Phoenix Flavour - Inigo Patch&lt;/li>
+&lt;/ul>
+&lt;h2 id="lucien">Lucien&lt;/h2>
+&lt;p>Lucien is written and voiced by Joseph Russell and incidentally features a lot of interactions with Inigo as well as a ton of other incredible features and very solid voice-acting.&lt;/p>
+&lt;h3 id="lucien---immersive-fully-voiced-male-followerhttpswwwnexusmodscomskyrimspecialeditionmods20035tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20035?tab=files">Lucien - Immersive Fully Voiced Male Follower&lt;/a>&lt;/strong>&lt;/h3>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Lucien&lt;/li>
+&lt;/ul>
+&lt;h3 id="pandorables-lucienhttpswwwnexusmodscomskyrimspecialeditionmods22598tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22598?tab=files">Pandorable&amp;rsquo;s Lucien&lt;/a>&lt;/strong>&lt;/h3>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Pandorable&amp;rsquo;s Lucien SE&lt;/li>
+&lt;/ul></description></item><item><title>Tpf-X: Player Homes</title><link>https://thephoenixflavour.com/tpf-x/installation/player-homes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf-x/installation/player-homes/</guid><description>
+&lt;h2 id="choosing-a-player-home">Choosing a player home&lt;/h2>
+&lt;p>All player homes featured here can theoretically be installed at once. However, there is very little sense in that and I highly recommend picking out the one that fits your playstyle and skipping the others. Of course you can also install all of them and pick ingame.&lt;/p>
+&lt;p>Please install all additional files for your chosen player home(s).&lt;/p>
+&lt;h2 id="creation-club">Creation Club&lt;/h2>
+&lt;p>I am currently supporting three player homes from the Creation Club, all made by Elianora. These are the mage tower, Myrwatch, the nord manor, Tundra Homestead, and the thief&amp;rsquo;s den, Shadowfoot Sanctum. The other two (Hendraheim and Dead Man&amp;rsquo;s Dread) may follow at a later date.&lt;/p>
+&lt;h3 id="unofficial-creation-club-updates---tundra-homesteadhttpswwwnexusmodscomskyrimspecialeditionmods20077tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20077?tab=files">Unofficial Creation Club Updates - Tundra Homestead&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>Install this if you have the &lt;strong>Tundra Homestead&lt;/strong> creation.&lt;/p>
+&lt;h4 id="download-instructions">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Unofficial Creation Club Updates - Tundra Homestead&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Flag the plugin as ESL in SSEEdit (no compacting required).&lt;/li>
+&lt;/ul>
+&lt;h3 id="tundra-homestead-wood-chopping-blockhttpswwwnexusmodscomskyrimspecialeditionmods42616tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/42616?tab=files">Tundra Homestead Wood Chopping Block&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>This adds a chopping block to the crafting area outside the house. Install this if you have the &lt;strong>Tundra Homestead&lt;/strong> creation.&lt;/p>
+&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Tundra Homestead Wood Chopping Block&lt;/li>
+&lt;/ul>
+&lt;h3 id="the-phoenix-flavour---cc-tundra-homestead-patchhttpswwwnexusmodscomskyrimspecialeditionmods14223tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14223?tab=files">The Phoenix Flavour - CC Tundra Homestead Patch&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>Fixes a few minor conflicts and ensures Tundra Homestead overwrites other mods&amp;rsquo; landscape changes. Install this if you have the &lt;strong>Tundra Homestead&lt;/strong> creation.&lt;/p>
+&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Miscellaneous Files:&lt;/strong> The Phoenix Flavour - CC Tundra Homestead Patch&lt;/li>
+&lt;/ul>
+&lt;h3 id="unofficial-creation-club-updates---myrwatchhttpswwwnexusmodscomskyrimspecialeditionmods19824tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19824?tab=files">Unofficial Creation Club Updates - Myrwatch&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>Install this if you have the &lt;strong>Myrwatch&lt;/strong> creation.&lt;/p>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Unofficial Creation Club Updates - Myrwatch&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Flag the plugin as ESL in SSEEdit (no compacting required).&lt;/li>
+&lt;/ul>
+&lt;h3 id="the-phoenix-flavour---cc-myrwatch-patchhttpswwwnexusmodscomskyrimspecialeditionmods14223tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14223?tab=files">The Phoenix Flavour - CC Myrwatch Patch&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>This is a very tiny patch to resolve some conflicts between Myrwatch and Realistic Water Two. Install this if you have the &lt;strong>Myrwatch&lt;/strong> creation.&lt;/p>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Miscellaneous Files:&lt;/strong> The Phoenix Flavour - Myrwatch Patch&lt;/li>
+&lt;/ul>
+&lt;h3 id="unofficial-creation-club-updates---shadowfoot-sanctumhttpswwwnexusmodscomskyrimspecialeditionmods24192tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24192?tab=files">Unofficial Creation Club Updates - Shadowfoot Sanctum&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>Install this if you have the &lt;strong>Shadowfoot Sanctum&lt;/strong> creation.&lt;/p>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Unofficial Creation Club Updates - Shadowfoot Sanctum&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
+&lt;p>In order to be able to control the load order better, we will turn the plugin from an ESM-ESL into an ESP-FE.&lt;/p>
+&lt;ul>
+&lt;li>Run &lt;strong>SSEEdit&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> to load all plugins and wait for SSEEdit to finish.&lt;/li>
+&lt;li>Select &lt;strong>JRShadowfootSanctumPatch.esl&lt;/strong> in the left pane.&lt;/li>
+&lt;li>On the right under &lt;strong>Record Flags&lt;/strong>, right-click and select &lt;strong>Edit&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>Yes I&amp;rsquo;m absolutely sure&lt;/strong> when the warning pops up.&lt;/li>
+&lt;li>Uncheck &lt;strong>ESM&lt;/strong> and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Close SSEEdit and click &lt;strong>OK&lt;/strong> to save your changes.&lt;/li>
+&lt;/ul>
+&lt;p>The plugin is now no longer an ESM.&lt;/p>
+&lt;ul>
+&lt;li>In Mod Organizer 2, double-click &lt;strong>Unofficial Creation Club Update - Shadowfoot Sanctum&lt;/strong>.&lt;/li>
+&lt;li>Switch to the &lt;strong>Filetree&lt;/strong> tab.&lt;/li>
+&lt;li>Rename the plugin from &lt;strong>JRShadowfootSanctumPatch.esl&lt;/strong> to &lt;strong>JRShadowfootSanctumPatch.esp&lt;/strong>.&lt;/li>
+&lt;/ul></description></item><item><title>Tpf-X: Miscellaneous</title><link>https://thephoenixflavour.com/tpf-x/installation/miscellaneous/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf-x/installation/miscellaneous/</guid><description>
+&lt;h2 id="my-picks">My Picks&lt;/h2>
+&lt;p>These are various mods that I like but cannot justify adding to base TPF.&lt;/p>
+&lt;h3 id="dragonborn-presence---discord-rich-presencehttpswwwnexusmodscomskyrimspecialeditionmods25287tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25287?tab=files">Dragonborn Presence - Discord Rich Presence&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>If you are familiar with Discord, you may know the rich presence feature which will add certain current activities to your profile. For instance, with the Spotify integration, you can see what someone is currently listening to. Or you can see the game they are playing. With Dragonborn Presence other people will see not only that you&amp;rsquo;re playing Skyrim but also the name and level of your character as well as where you currently are ingame.&lt;/p>
+&lt;p>This mod is &lt;strong>optional&lt;/strong>.&lt;/p>
+&lt;h4 id="download-instructions">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Dragonborn Presence&lt;/li>
+&lt;/ul>
+&lt;h4 id="installation-instructions">Installation Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Install the mod as usual through Mod Organizer 2.&lt;/li>
+&lt;li>Right-click the &lt;strong>Data&lt;/strong> folder and select &lt;strong>Set as data directory&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> to confirm and install.&lt;/li>
+&lt;li>Right-click the mod in your &lt;strong>Downloads&lt;/strong> tab and select &lt;strong>Open File&lt;/strong>.&lt;/li>
+&lt;li>Navigate to your &lt;strong>root&lt;/strong> folder: &lt;code>Steam\steamapps\common\Skyrim Special Edition&lt;/code>.&lt;/li>
+&lt;li>Extract the &lt;strong>discord-rpc.dll&lt;/strong> into your &lt;strong>root&lt;/strong> folder.&lt;/li>
+&lt;/ul>
+&lt;h3 id="dragon-claws-auto-unlockhttpswwwnexusmodscomskyrimspecialeditionmods47329tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/47329?tab=files">Dragon Claws Auto-Unlock&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>Simply auto-solves the puzzles. Look, I&amp;rsquo;ve done them a hundred times - I don&amp;rsquo;t need to &amp;ldquo;figure out&amp;rdquo; the combinations again.&lt;/p>
+&lt;p>This mod is &lt;strong>optional&lt;/strong>.&lt;/p>
+&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Dragon Claws Auto-Unlock (Sequential)&lt;/li>
+&lt;/ul>
+&lt;h3 id="no-lockpickinghttpswwwnexusmodscomskyrimspecialeditionmods32218tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32218?tab=files">No Lockpicking&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>This one &amp;hellip; may be slightly controversial. It deletes the lockpicking minigame but without ruining balancing as lockpicks will still be consumed depending on lock difficulty.&lt;/p>
+&lt;p>This mod is &lt;strong>optional&lt;/strong>.&lt;/p>
+&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> NoLockPicking v2&lt;/li>
+&lt;/ul>
+&lt;h3 id="all-no-tailshttpswwwnexusmodscomskyrimspecialeditionmods23927tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23927?tab=files">All No Tails&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>Ok, so this one is probably &lt;em>very&lt;/em> controversial. It removes tails from Khajiit and Argonians. Hear me out - what are the tails good for? They look awful, clip through clothing and armor, move weirdly. Cats have tails to help them balance but what do Khajiit with their human-like shape need them for?&lt;/p>
+&lt;p>This mod is &lt;strong>optional&lt;/strong>.&lt;/p>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> All No Tails (PC)&lt;/li>
+&lt;/ul>
+&lt;h4 id="installation-instructions-1">Installation Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Install the mod as usual through Mod Organizer 2.&lt;/li>
+&lt;li>Check only the &lt;strong>All no tails&lt;/strong> box at the top and click &lt;strong>Ok&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Flag the plugin as ESL in SSEEdit (no compacting required).&lt;/li>
+&lt;/ul>
+&lt;h2 id="simple-potions">Simple Potions&lt;/h2>
+&lt;p>Have you ever thought that potion bottles don&amp;rsquo;t need to be so fancy? No? Then you can skip this mod. Simple Potions changes the mesh for all potion vials to the same one so they only differ in colour. The textures are by Gamwich (just like RUSTIC POTIONS in base TPF). Simple Potions is &lt;strong>optional&lt;/strong> and you can skip this section.&lt;/p>
+&lt;h3 id="simple-potionshttpswwwnexusmodscomskyrimspecialeditionmods15911tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/15911?tab=files">Simple Potions&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>The main mod.&lt;/p>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Simple Potions&lt;/li>
+&lt;/ul>
+&lt;h3 id="simple-potions---compatibility-patcheshttpswwwnexusmodscomskyrimspecialeditionmods42014tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/42014?tab=files">Simple Potions - Compatibility Patches&lt;/a>&lt;/strong>&lt;/h3>
+&lt;p>This mod will cover all conflicts between Simple Potions and other TPF mods (the USSEP as well as Alchemy Food and Potions Adjustments).&lt;/p>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Simple Potions compatibility patches&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Patch for:&lt;/strong> Alchemy Food and Potions Adjustments (APFA)&lt;/li>
+&lt;/ul></description></item></channel></rss>

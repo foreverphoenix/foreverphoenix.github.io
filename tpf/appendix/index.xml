@@ -86,6 +86,261 @@
 &lt;h2 id="waterfalls-appear-black">Waterfalls appear black.&lt;/h2>
 &lt;p>This happens when playing without ENB. Disable &amp;ldquo;Bright Waterfall Fix for ENB&amp;rdquo; under the &lt;strong>LANDSCAPE&lt;/strong> separator.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/appendix/black-waterfall.jpg" alt="Black Waterfall">&lt;/p></description></item><item><title>Tpf: Changelog</title><link>https://thephoenixflavour.com/tpf/appendix/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf/appendix/changelog/</guid><description>
+&lt;h2 id="release-45">Release 4.5&lt;/h2>
+&lt;blockquote>
+&lt;p>06/04/2021&lt;/p>
+&lt;/blockquote>
+&lt;p>It is done! TPF 4.5 is the biggest update since 4.0 and I spent altogether too long chewing on it. As a result, the risk of me having missed something (typos, unfinished sentences, any sort of weirdness) is even higher than usual. Therefore I would ask you to consider TPF 4.5 a &lt;strong>beta release&lt;/strong> that will probably get some much needed polishing in 4.5.1 and potentially further small updates.&lt;/p>
+&lt;ul>
+&lt;li>Thanks to No Grass In Objects and grass cache, we now have extended grass range which allows for better distant blending.&lt;/li>
+&lt;li>TPF is now using the new DynDOLOD 3.0 which is still in Alpha but perfectly functional.&lt;/li>
+&lt;li>Some mods (Extended UI, QuickLoot) were moved to the new addon, TPF-X.&lt;/li>
+&lt;li>Added new enemy types, a better console UI, an overhaul for Shouts, tweaks for bounties and quest rewards, and more.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Removed mods:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Prince and the Pauper:&lt;/strong> While the FOMOD includes a Gamwich retexture option, most of the included clothing is still painfully low res. There &lt;em>is&lt;/em> an upscale on the Nexus but frankly it cannot really be described as a visual improvement. I prefer having a smaller collection of children&amp;rsquo;s clothing with consistently high quality textures.&lt;/li>
+&lt;li>&lt;strong>JK&amp;rsquo;s Cities Lite:&lt;/strong> Has some issues with clipping and flickering that I cannot fix (no permissions) and the author of the lite version has been inactive for a long, long time.&lt;/li>
+&lt;li>&lt;strong>Arthmoor&amp;rsquo;s town additions:&lt;/strong> Aka Arthmoor&amp;rsquo;s awkwardly squeezed in houses. They don&amp;rsquo;t look great and nobody is going to actually notice that some NPCs don&amp;rsquo;t have homes.&lt;/li>
+&lt;li>&lt;strong>Cathedral Landscapes:&lt;/strong> A great concept that never received the updates and improvements it desperately needed. We switched to other mods that offer better grass and a similar degree of distant blending with custom terrain LOD.&lt;/li>
+&lt;/ul>
+&lt;h4 id="initial-setup">Initial Setup&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>INI Files:&lt;/strong> Godrays should always be set to &amp;ldquo;High&amp;rdquo; now.&lt;/li>
+&lt;li>&lt;strong>INI Files:&lt;/strong> Removed Grass Fade tweak (covered by No Grass In Objects).&lt;/li>
+&lt;li>&lt;strong>INI Files:&lt;/strong> Added BethINI - Custom section to disable land fade for better terrain LOD transitions.&lt;/li>
+&lt;/ul>
+&lt;h4 id="mod-installation">Mod Installation&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Instructions:&lt;/strong> Removed an old reference to optional mods (that are no longer available).&lt;/li>
+&lt;li>&lt;strong>Instructions:&lt;/strong> Added note on what crossed out options in FOMOD instructions mean.&lt;/li>
+&lt;li>Split up &amp;ldquo;Balancing&amp;rdquo; once again into &amp;ldquo;Balancing &amp;amp; Crafting&amp;rdquo; and &amp;ldquo;New Content&amp;rdquo;.&lt;/li>
+&lt;li>Removed the &amp;ldquo;College of Winterhold&amp;rdquo; step. Mods were distributed among other sections.&lt;/li>
+&lt;li>Removed &amp;ldquo;Worldspace Additions&amp;rdquo;.&lt;/li>
+&lt;li>Removed &amp;ldquo;Cities &amp;amp; Villages&amp;rdquo;.&lt;/li>
+&lt;li>Removed JK&amp;rsquo;s Cities - Lite.&lt;/li>
+&lt;li>Removed Arthmoor&amp;rsquo;s Dawnstar.&lt;/li>
+&lt;li>Removed Arthmoor&amp;rsquo;s Falkreath.&lt;/li>
+&lt;li>Removed Arthmoor&amp;rsquo;s Dragon Bridge.&lt;/li>
+&lt;li>Removed Arthmoor&amp;rsquo;s Ivarstead.&lt;/li>
+&lt;li>Removed Arthmoor&amp;rsquo;s Rorikstead.&lt;/li>
+&lt;li>Removed Arthmoor&amp;rsquo;s Kynesgrove.&lt;/li>
+&lt;li>Removed Arthmoor&amp;rsquo;s Karthwasten.&lt;/li>
+&lt;li>Removed Arthmoor&amp;rsquo;s Darkwater Crossing.&lt;/li>
+&lt;li>Removed Arthmoor&amp;rsquo;s Shor&amp;rsquo;s Stone.&lt;/li>
+&lt;li>Removed Arthmoor&amp;rsquo;s Soljund&amp;rsquo;s Sinkhole.&lt;/li>
+&lt;li>Removed Arthmoor&amp;rsquo;s Whistling Mine.&lt;/li>
+&lt;li>Removed Unique Border Gates.&lt;/li>
+&lt;li>&lt;strong>Essential Mods:&lt;/strong> Added Dear Diary - Better More Informative Console.&lt;/li>
+&lt;li>&lt;strong>Essential Mods:&lt;/strong> Added console command to disable clutter physics damage to Autorun.&lt;/li>
+&lt;li>&lt;strong>Essential Mods:&lt;/strong> Updated Additional Instructions and the related screenshot for Autorun.&lt;/li>
+&lt;li>&lt;strong>Essential Mods:&lt;/strong> Added Project Clarity AIO - Skyrim Textures Redone.&lt;/li>
+&lt;li>&lt;strong>Essential Mods:&lt;/strong> Added Hooded Skeleton Corpse Fix for WACCF.&lt;/li>
+&lt;li>&lt;strong>Essential Mods:&lt;/strong> Added No Grass In Objects.&lt;/li>
+&lt;li>&lt;strong>Fixes:&lt;/strong> Added Scrambled Bugs.&lt;/li>
+&lt;li>&lt;strong>Fixes:&lt;/strong> Updated download instructions for Wiseman303&amp;rsquo;s Flora Fixes - Revamped.&lt;/li>
+&lt;li>&lt;strong>Fixes:&lt;/strong> Removed instructions for Arthmoor&amp;rsquo;s Patch Pack for Landscape Fixes For Grass Mods.&lt;/li>
+&lt;li>&lt;strong>Fixes:&lt;/strong> Added Word Wall Transparency Fix for ENB.&lt;/li>
+&lt;li>&lt;strong>Fixes:&lt;/strong> Removed Dragon Stalking Fix.&lt;/li>
+&lt;li>&lt;strong>Fixes:&lt;/strong> Added Fixed Dragon Stalking Fix.&lt;/li>
+&lt;li>&lt;strong>Tweaks:&lt;/strong> Added True Teacher Durnehviir.&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Removed Extended UI.&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Removed QuickLoot.&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Updated SkyHUD FOMOD instructions.&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Removed SkyHUD additional instructions (moved to separate profile).&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Added SkyHUD - TPF Preset.&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Added SkyHUD - Alternate White Dot Crosshair.&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Added moreHUD - TPF Preset.&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Removed moreHUD - Inventory Edition.&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Removed Immersive Bookreading and Lockpicking.&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Added instructions to change the console font for Roboto Font Replacer.&lt;/li>
+&lt;li>&lt;strong>Graphics Baseline:&lt;/strong> Added instructions to download the new 3.0 version of DynDOLOD Resources.&lt;/li>
+&lt;li>&lt;strong>Graphics Baseline:&lt;/strong> Updated the FOMOD instructions for DynDOLOD Resources.&lt;/li>
+&lt;li>&lt;strong>Graphics Baseline:&lt;/strong> Added Perfect Terrain LOD - Noise Texture.&lt;/li>
+&lt;li>&lt;strong>Graphics Baseline:&lt;/strong> Added instructions to merge the NobleSkyrimMod SMIM Patch with the main file.&lt;/li>
+&lt;li>&lt;strong>Weather:&lt;/strong> Removed ETHEREAL CLOUDS (using upscaled vanilla cloud textures from Project Clarity instead).&lt;/li>
+&lt;li>&lt;strong>Lighting:&lt;/strong> Added Shadows of Sunlight - In Small Exterior World Spaces.&lt;/li>
+&lt;li>&lt;strong>LIghting:&lt;/strong> Updated FOMOD instructions for Smoking Torches and Candles.&lt;/li>
+&lt;li>&lt;strong>Visual FX:&lt;/strong> Added Deadly Spell Impacts Transparency Fix for ENB.&lt;/li>
+&lt;li>&lt;strong>Visual FX:&lt;/strong> Removed Glow Be Gone SKSE Updated (more trouble than it&amp;rsquo;s worth).&lt;/li>
+&lt;li>&lt;strong>Visual FX:&lt;/strong> Removed Glow Be Gone SKSE Updated GhostFX Workaround.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> This step received a major overhaul. The mod order was updated.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Now using Majestic Mountains - Darkside (blends better with Northside).&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Updated download and FOMOD instructions for Majestic Mountains.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added instructions to delete the projecteddiffuse.dds from Majestic Mountains.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Updated FOMOD instructions for Majestic Mountains - Northside.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Removed additional instructions for Majestic Mountains - Northside (file gets overwritten anyway).&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added Moss Rocks.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Removed Landscapes - Cathedral Concept.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Removed Cathedral Landscapes - Recolored Vanilla Swamp Grass Addon.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Removed Cathedral Landscapes - Windhelm Bridge Fix.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Removed Cathedral Landscapes - Fixed Bridge Meshes.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Moved Cathedral - 3D Pine Grass to Trees &amp;amp; Plants.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added MystiriousDawn&amp;rsquo;s HD Skyrim Overhaul.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added Better Dirt Cliffs and Alphas.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added Nordic Coast.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added Skyrim Remastered - Glaciers and Ice.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added instructions to install the Darker Gradient Textures file for Realistic Water Two.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Removed Realistic Water Two Patch Hub.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Removed Bright Waterfall Fix for ENB.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added Blended Roads.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Moved Point The Way here.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Moved Lanterns of Skyrim II here.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Updated FOMOD instructions for Lanterns of Skyrim II.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Moved Immersive Dawnguard Dayspring Pass here.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Removed Rorikstead Basalt Cliffs.&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Removed Rorikstead Basalt Cliffs Patches.&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Added instructions to merge the Enhanced Vanilla Trees optional file with the main file.&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Added instructions to delete the billboards from Enhanced Vanilla Trees.&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Removed Enhanced Landscapes - Solstheim 3D Trees.&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Added Aspens Ablaze.&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Added Tree Bark in High Definition.&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Removed Immersive Fallen Trees.&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Removed Immersive Fallen Trees Patch.&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Added Veydosebrom Regions.&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Updated Cathedral - 3D Pine Grass additional instructions.&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Added High Poly Soul Husks.&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Added Soul Husk Retexture.&lt;/li>
+&lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Added Unique Solstheim Grass.&lt;/li>
+&lt;li>&lt;strong>Architecture:&lt;/strong> Added Whiterun Mesh Fixes.&lt;/li>
+&lt;li>&lt;strong>Misc Structures:&lt;/strong> Removed Stunning Statues of Skyrim.&lt;/li>
+&lt;li>&lt;strong>Misc Structures:&lt;/strong> Added Iconic Statues.&lt;/li>
+&lt;li>&lt;strong>Misc Structures:&lt;/strong> Removed Shrine of Azura HD.&lt;/li>
+&lt;li>&lt;strong>Misc Structures:&lt;/strong> Removed Winterhold Statue - Animated with ENB Lights.&lt;/li>
+&lt;li>&lt;strong>Interiors:&lt;/strong> Added SD&amp;rsquo;s Horn Candles.&lt;/li>
+&lt;li>&lt;strong>Dungeons:&lt;/strong> Removed CC&amp;rsquo;s Enhanced Ore Veins.&lt;/li>
+&lt;li>&lt;strong>Dungeons:&lt;/strong> Removed CC&amp;rsquo;s Enhanced Ore Veins - Fixed Iron Ore Cubemap.&lt;/li>
+&lt;li>&lt;strong>Dungeons:&lt;/strong> Removed additional instructions from Metallurgy (now using the full package).&lt;/li>
+&lt;li>&lt;strong>Dungeons:&lt;/strong> Removed Rally&amp;rsquo;s Jurgen Windcaller Tomb.&lt;/li>
+&lt;li>&lt;strong>Dungeons:&lt;/strong> Added Iconic&amp;rsquo;s Jurgen Windcalled Tomb and Horn Retexture.&lt;/li>
+&lt;li>&lt;strong>Dungeons:&lt;/strong> Added Dwemer Pipework Reworked.&lt;/li>
+&lt;li>&lt;strong>Dungeons:&lt;/strong> Added instructions to download an additional file for Ancient Dwemer Metal - My Patches.&lt;/li>
+&lt;li>&lt;strong>Dungeons:&lt;/strong> Added WEBS.&lt;/li>
+&lt;li>&lt;strong>Clutter:&lt;/strong> Added Retexture for The Scroll.&lt;/li>
+&lt;li>&lt;strong>Apparel &amp;amp; Weapons:&lt;/strong> Removed instructions to install matched color fix for Frankly HD Stormcloaks (redundant).&lt;/li>
+&lt;li>&lt;strong>Apparel &amp;amp; Weapons:&lt;/strong> Added Ancient Dwemer Metal - My Patches - No Smiling Female Helmet.&lt;/li>
+&lt;li>&lt;strong>Creatures:&lt;/strong> Added Deiform Alduin.&lt;/li>
+&lt;li>&lt;strong>Appearance:&lt;/strong> Added Expressive Facegen Morphs.&lt;/li>
+&lt;li>&lt;strong>Appearance:&lt;/strong> Added Less Bright Teeth for Expressive Facegen Morphs.&lt;/li>
+&lt;li>&lt;strong>Appearance:&lt;/strong> Removed Immersive Mouth and Teeth.&lt;/li>
+&lt;li>&lt;strong>Appearance:&lt;/strong> Removed Just Fangs from BVFE.&lt;/li>
+&lt;li>&lt;strong>Appearance:&lt;/strong> Updated Simple Children - Patches FOMOD instructions.&lt;/li>
+&lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Added Forceful Tongues - Shouts Overhaul.&lt;/li>
+&lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Updated download and FOMOD instructions for Carriage and Ferry Travel Overhaul - Fixes and Winterhold.&lt;/li>
+&lt;li>&lt;strong>Non-Player Characters:&lt;/strong> Added instructions to unpack the BSA for Hearthfire Multiple Adoptions.&lt;/li>
+&lt;li>&lt;strong>Non-Player Characters:&lt;/strong> Removed Prince and the Pauper.&lt;/li>
+&lt;li>&lt;strong>Non-Player Characters:&lt;/strong> Removed Prince and the Pauper - Hearthfire Multiple Adoptions Patch.&lt;/li>
+&lt;li>&lt;strong>Non-Player Characters:&lt;/strong> Removed DIVERSE SKYRIM.&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Added Companions Werewolf Bloodritual Scene Tweak.&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Moved Improved College Entry - Questline Tweaks here.&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Moved Finding Velehk Sain here.&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Added Sable&amp;rsquo;s Bits and Bobs - The Last Dragonborn Perk.&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Removed Andrealphus&amp;rsquo; Gameplay Tweaks (mod page was repurposed).&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Added Stones of Barenziah - Alternate Locations.&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Added Andrealphus&amp;rsquo; Tweaks - Harder Quests.&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Added Less Sniperlike NPCs.&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Added Sable&amp;rsquo;s Bits and Bobs - Steam Driven Automatons.&lt;/li>
+&lt;li>&lt;strong>Balancing:&lt;/strong> Added Less Cure Disease Potions.&lt;/li>
+&lt;li>&lt;strong>Balancing:&lt;/strong> Added Bounties Are Worthwhile - Leveled Bounty Rewards.&lt;/li>
+&lt;li>&lt;strong>Balancing:&lt;/strong> Added Bounty Preview.&lt;/li>
+&lt;li>&lt;strong>Balancing:&lt;/strong> Added Reasonable Quest Rewards.&lt;/li>
+&lt;li>&lt;strong>New Content:&lt;/strong> Moved Armor and Clothing Extension here.&lt;/li>
+&lt;li>&lt;strong>New Content:&lt;/strong> Moved Tweaks for WACCF and ACE here.&lt;/li>
+&lt;li>&lt;strong>New Content:&lt;/strong> Moved aMidianBorn Armor Variants Lite here.&lt;/li>
+&lt;li>&lt;strong>New Content:&lt;/strong> Moved Practical Female Armors - AMB AVL Patch here.&lt;/li>
+&lt;li>&lt;strong>New Content:&lt;/strong> Re-added Armor of Yngol.&lt;/li>
+&lt;li>&lt;strong>New Content:&lt;/strong> Added Civil War Deserters.&lt;/li>
+&lt;li>&lt;strong>New Content:&lt;/strong> Added Forsworn Gravesingers.&lt;/li>
+&lt;li>&lt;strong>New Content:&lt;/strong> Added Forsworn Skinchangers.&lt;/li>
+&lt;li>&lt;strong>New Content:&lt;/strong> Moved Obscure&amp;rsquo;s College of Winterhold here.&lt;/li>
+&lt;li>&lt;strong>New Content:&lt;/strong> Moved Choose Your Own Arch-Mage here.&lt;/li>
+&lt;li>&lt;strong>New Content:&lt;/strong> Moved Immersive College NPCs here.&lt;/li>
+&lt;li>&lt;strong>New Content:&lt;/strong> Moved Misc College of Winterhold Tweaks here.&lt;/li>
+&lt;li>&lt;strong>New Content:&lt;/strong> Moved Solstheim Lighthouse here.&lt;/li>
+&lt;li>&lt;strong>New Content:&lt;/strong> Moved Solstheim - Skaal Fishing Camp here.&lt;/li>
+&lt;li>&lt;strong>Miscellaneous:&lt;/strong> Moved Miscellaneous Tweaks Collection here (yes, I keep moving it, I&amp;rsquo;m sorry).&lt;/li>
+&lt;li>&lt;strong>Miscellaneous:&lt;/strong> Added instructions to download the new Misc Tweaks - More Expensive Inns.&lt;/li>
+&lt;li>&lt;strong>Miscellaneous:&lt;/strong> Added Horse Stamina HUD.&lt;/li>
+&lt;li>&lt;strong>Miscellaneous:&lt;/strong> Added Dragon Wall Wisdom - Readable Dragon Walls.&lt;/li>
+&lt;li>&lt;strong>Miscellaneous:&lt;/strong> Added Unique Dragon Aspect.&lt;/li>
+&lt;li>&lt;strong>Miscellaneous:&lt;/strong> Added Smelters for Riften and Solitude.&lt;/li>
+&lt;li>&lt;strong>Miscellaneous:&lt;/strong> Added Contraband Confiscated.&lt;/li>
+&lt;li>&lt;strong>Assorted Plugins:&lt;/strong> Removed Enhanced Death Cam (caused some unforseen issues).&lt;/li>
+&lt;li>&lt;strong>Assorted Plugins:&lt;/strong> Removed No Lockpick Activate (was only &amp;ldquo;required&amp;rdquo; for QuickLoot).&lt;/li>
+&lt;li>&lt;strong>Skeleton &amp;amp; Animations:&lt;/strong> Added Dynamic Animation Replacer.&lt;/li>
+&lt;li>&lt;strong>Skeleton &amp;amp; Animations:&lt;/strong> Added Jump Behavior Overhaul.&lt;/li>
+&lt;li>&lt;strong>Skeleton &amp;amp; Animations:&lt;/strong> Added Super Fast Get Up Animation.&lt;/li>
+&lt;li>&lt;strong>Skeleton &amp;amp; Animations:&lt;/strong> Added Faster Reanimation (undocumented 4.something addition).&lt;/li>
+&lt;/ul>
+&lt;h4 id="finalisation">Finalisation&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Wrapping Up:&lt;/strong> Added NoMoreFollowerHuntingBow.esp to the list of plugins to ESL-ify.&lt;/li>
+&lt;li>&lt;strong>Facegen:&lt;/strong> Updated list of plugins required for the NPCsWithFaces plugin as well as the CK screenshot.&lt;/li>
+&lt;li>&lt;strong>SSELODGen:&lt;/strong> Added this new page since we now generate terrain LOD with xLODGen.&lt;/li>
+&lt;li>&lt;strong>SSELODGen:&lt;/strong> Moved SSELODGen installation instructions here from the Occlusion page.&lt;/li>
+&lt;li>&lt;strong>Grass Cache:&lt;/strong> Added this page with instructions on how to generate grass cache.&lt;/li>
+&lt;li>&lt;strong>DynDOLOD:&lt;/strong> Updated all instructions for DynDOLOD 3.0.&lt;/li>
+&lt;li>&lt;strong>Occlusion:&lt;/strong> Updated the Occlusion page (it&amp;rsquo;s very short now).&lt;/li>
+&lt;li>&lt;strong>ENBSeries:&lt;/strong> Added instructions to disable distant reflections in Serio&amp;rsquo;s ENB.&lt;/li>
+&lt;/ul>
+&lt;h4 id="wabbajack">Wabbajack&lt;/h4>
+&lt;ul>
+&lt;li>Updated the instructions for launching Skyrim (renamed SKSE &amp;raquo; The Phoenix Flavour).&lt;/li>
+&lt;/ul>
+&lt;h4 id="mod-configuration">Mod Configuration&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>moreHUD:&lt;/strong> Updated MCM instructions for the new preset.&lt;/li>
+&lt;li>&lt;strong>Realistic Water Two:&lt;/strong> Removed MCM instructions (no longer necessary).&lt;/li>
+&lt;/ul>
+&lt;h4 id="gameplay-guide">Gameplay Guide&lt;/h4>
+&lt;ul>
+&lt;li>Split up into multiple pages.&lt;/li>
+&lt;li>Updated some sections (still requires a proper expansion).&lt;/li>
+&lt;/ul>
+&lt;h4 id="tpf-addons">TPF Addons&lt;/h4>
+&lt;ul>
+&lt;li>There is now only a single, top-level &lt;strong>TPF Addons&lt;/strong> page with all relevant information.&lt;/li>
+&lt;li>Removed MO2 profile and Sync Mod Order plugin instructions (now part of the TPF-X instructions).&lt;/li>
+&lt;li>Added information on the new TPF-X Addon in the Available Addons section.&lt;/li>
+&lt;li>&lt;strong>Updating Addons:&lt;/strong> Removed as I feel like it&amp;rsquo;s too vague and general, better if addon creators provide specific instructions.&lt;/li>
+&lt;li>&lt;strong>Available Addons:&lt;/strong> Content from this page is now on the Addon Primer page.&lt;/li>
+&lt;/ul>
+&lt;h4 id="conflict-resolution-patch">Conflict Resolution Patch&lt;/h4>
+&lt;ul>
+&lt;li>Removed Relighting Skyrim as a master (wasn&amp;rsquo;t necessary)&lt;/li>
+&lt;li>Removed Majestic Mountains - Moss Rocks as a master&lt;/li>
+&lt;li>Removed JKs Skyrim Lite as a master&lt;/li>
+&lt;li>Removed Arthmoor&amp;rsquo;s Falkreath as a master&lt;/li>
+&lt;li>Removed Arthmoor&amp;rsquo;s Dragon Bridge as a master&lt;/li>
+&lt;li>Removed Arthmoor&amp;rsquo;s Ivarstead as a master&lt;/li>
+&lt;li>Removed Arthmoor&amp;rsquo;s Kynesgrove as a master&lt;/li>
+&lt;li>Removed Arthmoor&amp;rsquo;s Darkwater Crossing as a master&lt;/li>
+&lt;li>Removed Unique Border Gates as a master&lt;/li>
+&lt;li>Removed Genuinely Intelligent Soul Gems as a master&lt;/li>
+&lt;li>Opening certain books will once again start the connected quest instantly instead of giving you a message box&lt;/li>
+&lt;li>Disabled a Woodcutter&amp;rsquo;s Axe placed in Riften by the USSEP clipping with the smelter added by Smelters in Riften and Solitude&lt;/li>
+&lt;li>Resolved conflicts between Reasonable Quest Rewards and other mods&lt;/li>
+&lt;li>Resolved conflicts between Less (sic) Cure Disease Potions and other mods&lt;/li>
+&lt;li>Fixed campfire texture sets (thanks Dusky!)&lt;/li>
+&lt;/ul>
+&lt;h4 id="wabbajack-installer">Wabbajack Installer&lt;/h4>
+&lt;ul>
+&lt;li>Updated Mod Organizer 2 to 2.4.1&lt;/li>
+&lt;li>Updated SSE Creation Kit Fixes to 3.2&lt;/li>
+&lt;li>Updated SSE Display Tweaks to 0.4.9-1&lt;/li>
+&lt;li>Updated the Skyrim Particle Patch&lt;/li>
+&lt;li>Updated Storm Lightning to 1.4.9&lt;/li>
+&lt;li>Updated Smoking Torches and Candles to 1.76&lt;/li>
+&lt;li>Updated Realistic Water Two to 3.1.0&lt;/li>
+&lt;li>Updated Cathedral Armory - TPF Repack to 1.1.3&lt;/li>
+&lt;li>Updated Reliquary of Myth - Artifact Overhaul to 3.8.0&lt;/li>
+&lt;li>Updated Radiant Requirements to 1.1.0&lt;/li>
+&lt;li>Updated Lightweight Smithing Tweaks to 2.3&lt;/li>
+&lt;li>Updated Misc Tweaks - Better Horses to 1.3&lt;/li>
+&lt;li>Updated Private Profile Redirector to 0.5.2&lt;/li>
+&lt;li>Updated ENBSeries (no version change)&lt;/li>
+&lt;li>Updated SSELODGen to Beta 76&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-443">Release 4.4.3&lt;/h2>
 &lt;blockquote>
 &lt;p>10/03/2021&lt;/p>
@@ -99,14 +354,14 @@
 &lt;li>Regenerate the &lt;strong>NPCsWithFaces.esp&lt;/strong> with the three added plugins and rebuild facegen.&lt;/li>
 &lt;li>Rename the &lt;strong>FINAL PATCH&lt;/strong> separator to &lt;strong>FINAL PATCHES&lt;/strong>. Makes more sense when you also have Addon patches.&lt;/li>
 &lt;/ul>
-&lt;h4 id="initial-setup">Initial Setup&lt;/h4>
+&lt;h4 id="initial-setup-1">Initial Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Mod Organizer 2:&lt;/strong> Updated download and installation instructions for MO2 2.4.0.&lt;/li>
 &lt;li>&lt;strong>Mod Organizer 2:&lt;/strong> Added the BSA Unpacker section.&lt;/li>
 &lt;li>&lt;strong>Mod Organizer 2:&lt;/strong> Removed Manage Mod Downloads section (part of the installer now).&lt;/li>
 &lt;li>&lt;strong>Skyrim Script Extender:&lt;/strong> Fixed link to the SKSE INI to also lead directly to the file section.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-1">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Instructions:&lt;/strong> Improved general layout of the page for better readability.&lt;/li>
 &lt;li>&lt;strong>Instructions:&lt;/strong> Added small note about collapsible separators.&lt;/li>
@@ -118,7 +373,7 @@
 &lt;li>&lt;strong>Dungeons:&lt;/strong> Removed part of the additional instructions for Ancient Dwemer Metal - My Patches (no longer necessary).&lt;/li>
 &lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Updated FOMOD instructions for Reliquary of Myth (now using the SPID Patches).&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-1">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Wrapping Up:&lt;/strong> Renamed the FINAL PATCH separator to FINAL PATCHES.&lt;/li>
 &lt;li>&lt;strong>Facegen:&lt;/strong> Slightly reworded some instructions.&lt;/li>
@@ -126,7 +381,7 @@
 &lt;li>&lt;strong>Facegen:&lt;/strong> Added three missing plugins with new NPCs to the NPCsWithFaces instructions.&lt;/li>
 &lt;li>&lt;strong>Facegen:&lt;/strong> Updated CK screenshot to reflect the above change.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-configuration">Mod Configuration&lt;/h4>
+&lt;h4 id="mod-configuration-1">Mod Configuration&lt;/h4>
 &lt;ul>
 &lt;li>Updated the A Matter of Time instructions to account for the script tweak disabling the clock by default.&lt;/li>
 &lt;li>Removed Storm Lightning instructions (Ultra Realistic preset is now selected by default).&lt;/li>
@@ -135,11 +390,11 @@
 &lt;ul>
 &lt;li>&lt;strong>How to Update:&lt;/strong> Slightly improved the updating instructions for Mod Organizer 2.&lt;/li>
 &lt;/ul>
-&lt;h4 id="conflict-resolution-patch">Conflict Resolution Patch&lt;/h4>
+&lt;h4 id="conflict-resolution-patch-1">Conflict Resolution Patch&lt;/h4>
 &lt;ul>
 &lt;li>Disabled the &amp;ldquo;Bless Home&amp;rdquo; spell from Hearthfire Multiple Adoptions (thanks Delta!)&lt;/li>
 &lt;/ul>
-&lt;h4 id="wabbajack-installer">Wabbajack Installer&lt;/h4>
+&lt;h4 id="wabbajack-installer-1">Wabbajack Installer&lt;/h4>
 &lt;ul>
 &lt;li>Updated the links to the website / readme in the installer&lt;/li>
 &lt;li>Updated Improved Sparks - Vanilla Grindstone to 3.0.1&lt;/li>
@@ -178,7 +433,7 @@
 &lt;li>Double-click &lt;strong>SSE Engine Fixes&lt;/strong> and set &lt;code>SleepWaitTime=&lt;/code> to &lt;code>false&lt;/code> again. This is so there is enough time for the new NPC AI Process Position Fix to do its job.&lt;/li>
 &lt;li>Regenerate &lt;strong>AllGUD&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-1">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-2">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>SSE Engine Fixes:&lt;/strong> Removed INI tweak for SSE Engine Fixes.&lt;/li>
 &lt;li>&lt;strong>Fixes:&lt;/strong> Added NPC AI Process Position Fix.&lt;/li>
@@ -210,16 +465,16 @@
 &lt;li>&lt;strong>Assorted Plugins:&lt;/strong> Added Enhanced Death Cam.&lt;/li>
 &lt;li>&lt;strong>Assorted Plugins:&lt;/strong> Added Essential Favorites.&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-1">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-2">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Wrapping Up:&lt;/strong> Removed Realistic AI Detection 2 SE Lite.esp from the list of plugins to ESL-ify.&lt;/li>
 &lt;/ul>
-&lt;h4 id="conflict-resolution-patch-1">Conflict Resolution Patch&lt;/h4>
+&lt;h4 id="conflict-resolution-patch-2">Conflict Resolution Patch&lt;/h4>
 &lt;ul>
 &lt;li>Now comes packaged with a script from AMOT that will automatically hide the clock widget until you choose to enable it&lt;/li>
 &lt;li>AMOT script by SkyAmigo, edited by Sr. Kaio. Thanks to both!&lt;/li>
 &lt;/ul>
-&lt;h4 id="wabbajack-installer-1">Wabbajack Installer&lt;/h4>
+&lt;h4 id="wabbajack-installer-2">Wabbajack Installer&lt;/h4>
 &lt;ul>
 &lt;li>Updated Equip Enchanting Fix to 1.2.3&lt;/li>
 &lt;li>Updated Storm Lightning to 1.4.8&lt;/li>
@@ -231,14 +486,14 @@
 &lt;p>04/02/2021&lt;/p>
 &lt;/blockquote>
 &lt;p>Fixed a bunch of embarrassing typos, both in the guide and in the 4.4 changelog.&lt;/p>
-&lt;h4 id="mod-installation-2">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-3">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Fixes:&lt;/strong> Added No Grass In Caves (undocumented 4.4 addition).&lt;/li>
 &lt;li>&lt;strong>Graphics Baseline:&lt;/strong> Fixed part of High Poly Project FOMOD instructions being illegible.&lt;/li>
 &lt;li>&lt;strong>Clutter:&lt;/strong> Added Deer Skull and Antlers (undocumenteed 4.4 addition).&lt;/li>
 &lt;li>&lt;strong>Apparel &amp;amp; Weapons:&lt;/strong> Actually removed Sunhallowed and Bloodcursed Weapons - HD Retexture from the page.&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-2">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-3">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>ENBSeries:&lt;/strong> Incorporated a suggested improvement to the Global INI Settings instructions.&lt;/li>
 &lt;/ul>
@@ -255,7 +510,7 @@
 &lt;li>Completely redo the &lt;a href="https://thephoenixflavour.com/tpf/finalisation/facegen">Facegen&lt;/a> step, including updating the script, regenerating the plugin, rebuilding facegen, and running the output through CAO.&lt;/li>
 &lt;li>Also regenerate AllGUD, TexGen, DynDOLOD, and Occlusion. Remember to use the &lt;a href="https://thephoenixflavour.com/tpf/guide-resources/how-to-update/#dyndolod">How To Update - DynDOLOD&lt;/a> if you&amp;rsquo;re on an ongoing playthrough.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-3">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-4">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Essential Mods:&lt;/strong> Updated INI Tweak instructions for SSE Display Tweaks.&lt;/li>
 &lt;li>&lt;strong>Graphics Baseline:&lt;/strong> Added instructions to remove two meshes from Ruins Clutter Improved.&lt;/li>
@@ -336,7 +591,7 @@
 &lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Changed download instructions for Realistic AI Detection. Sneaking is harder now.&lt;/li>
 &lt;li>&lt;strong>Balancing:&lt;/strong> Removed Armor and Clothing Extension (WACCF) - MCM Menu Fix (original mod was updated).&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-3">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-4">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Facegen:&lt;/strong> Fixed a typo.&lt;/li>
 &lt;li>&lt;strong>Facegen:&lt;/strong> Added instructions to download the zEdit script from the Nexus.&lt;/li>
@@ -344,7 +599,7 @@
 &lt;li>&lt;strong>Facegen:&lt;/strong> Adjusted instructions zEdit instructions (since the script can just be downloaded now).&lt;/li>
 &lt;li>&lt;strong>Facegen:&lt;/strong> Updated the screenshot for loading the plugin in the CK (changed load order confused people).&lt;/li>
 &lt;/ul>
-&lt;h4 id="wabbajack">Wabbajack&lt;/h4>
+&lt;h4 id="wabbajack-1">Wabbajack&lt;/h4>
 &lt;ul>
 &lt;li>Added instructions on how to uncap the framerate for people with G-Sync or FreeSync monitors.&lt;/li>
 &lt;/ul>
@@ -352,13 +607,13 @@
 &lt;ul>
 &lt;li>&lt;strong>How To Update:&lt;/strong> Added instructions to also delete and regenerate the Occlusion output in the DynDOLOD section.&lt;/li>
 &lt;/ul>
-&lt;h4 id="conflict-resolution-patch-2">Conflict Resolution Patch&lt;/h4>
+&lt;h4 id="conflict-resolution-patch-3">Conflict Resolution Patch&lt;/h4>
 &lt;ul>
 &lt;li>Reverted size change to Unique Barbas as it can cause him to get stuck.&lt;/li>
 &lt;li>Removed Aetherial Crown - Plugin Replacer as a master&lt;/li>
 &lt;li>Fixed conflicts between No Grass In Caves, Relighting Skyrim, and Realistic Water Two&lt;/li>
 &lt;/ul>
-&lt;h4 id="wabbajack-installer-2">Wabbajack Installer&lt;/h4>
+&lt;h4 id="wabbajack-installer-3">Wabbajack Installer&lt;/h4>
 &lt;ul>
 &lt;li>ENB Man is no longer packaged with the Wabbajack installer&lt;/li>
 &lt;li>Updated SSE Display Tweaks to 0.4.8-1&lt;/li>
@@ -378,28 +633,28 @@
 &lt;p>25/02/2021&lt;/p>
 &lt;/blockquote>
 &lt;p>The update is &lt;strong>save-safe&lt;/strong>. Upon loading a save, you will be warned about a &amp;ldquo;missing plugin&amp;rdquo; because the CRP was renamed. Since the plugin is still present (only under a different name) and had no direct masters, this is harmless and you can simply click OK.&lt;/p>
-&lt;h4 id="initial-setup-1">Initial Setup&lt;/h4>
+&lt;h4 id="initial-setup-2">Initial Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Mod Organizer 2:&lt;/strong> Added instructions to download the old 2.3.2 version of Mod Organizer 2.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;em>Support for MO2 2.4.0 will come eventually but we will wait until most Antivirus tools have flagged the new version as harmless in their databases. They are known to quarantine parts or the entirety of MO2, usually because of the UVFS.&lt;/em>&lt;/p>
-&lt;h4 id="mod-installation-4">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-5">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Visual FX:&lt;/strong> Removed Voltage.&lt;/li>
 &lt;li>&lt;strong>Visual FX:&lt;/strong> Removed Voltage - KZG Chroma Pack.&lt;/li>
 &lt;li>&lt;strong>Visual FX:&lt;/strong> Added Thunderbolt - HD Lightning.&lt;/li>
 &lt;li>&lt;strong>Assorted Plugins:&lt;/strong> Added Vampires Cast No Shadows.&lt;/li>
 &lt;/ul>
-&lt;h4 id="tpf-addons">TPF Addons&lt;/h4>
+&lt;h4 id="tpf-addons-1">TPF Addons&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Available Addons:&lt;/strong> Added a big (and I mean big) reminder to read the Addon Primer first.&lt;/li>
 &lt;/ul>
-&lt;h4 id="conflict-resolution-patch-3">Conflict Resolution Patch&lt;/h4>
+&lt;h4 id="conflict-resolution-patch-4">Conflict Resolution Patch&lt;/h4>
 &lt;ul>
 &lt;li>The plugin was renamed to &lt;strong>The Phoenix Flavour - Conflict Resolution Patch.esp&lt;/strong> for consistency with other Addon patches.&lt;/li>
 &lt;li>Marked dummy item for a bug fix in Enchanting Adjustments as Non-Playable (thanks to Slidikins!)&lt;/li>
 &lt;/ul>
-&lt;h4 id="wabbajack-installer-3">Wabbajack Installer&lt;/h4>
+&lt;h4 id="wabbajack-installer-4">Wabbajack Installer&lt;/h4>
 &lt;ul>
 &lt;li>Actually removed QuickLight&lt;/li>
 &lt;li>Updated Serana&amp;rsquo;s Hood Fix to 3.0.1&lt;/li>
@@ -429,7 +684,7 @@
 &lt;li>Occlusion&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>Wabbajack users:&lt;/strong> You also need to follow &lt;a href="https://thephoenixflavour.com/tpf/guide-resources/how-to-update/#dyndolod">these instructions&lt;/a> to update DynDOLOD on an ongoing save.&lt;/p>
-&lt;h4 id="mod-installation-5">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-6">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Essential Mods:&lt;/strong> Moved Static Mesh Improvement Mod to Graphics Baseline.&lt;/li>
 &lt;li>&lt;strong>Fixes:&lt;/strong> Removed instructions to install the WM&amp;rsquo;s Flora Fixes SMIM Patch (moved to Graphics Baseline.)&lt;/li>
@@ -482,7 +737,7 @@
 &lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Fixed file name in download instructions for the Timing Is Everything Preset.&lt;/li>
 &lt;li>&lt;strong>Miscellaneous:&lt;/strong> Removed QuickLight.&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-4">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-5">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Wrapping Up:&lt;/strong> Removed ImperialSoldiersEscortFix.esp from list of plugins to ESL-ify.&lt;/li>
 &lt;li>&lt;strong>Wrapping Up:&lt;/strong> Added Fixed body collision.esp to the list of plugins to ESL-ify.&lt;/li>
@@ -496,7 +751,7 @@
 &lt;li>&lt;strong>How To Update:&lt;/strong> Added support for Wabbajack users to the DynDOLOD section.&lt;/li>
 &lt;li>&lt;strong>How To Update:&lt;/strong> Fixed links and typos in the DynDOLOD section.&lt;/li>
 &lt;/ul>
-&lt;h4 id="conflict-resolution-patch-4">Conflict Resolution Patch&lt;/h4>
+&lt;h4 id="conflict-resolution-patch-5">Conflict Resolution Patch&lt;/h4>
 &lt;ul>
 &lt;li>Packaged the aMidianBorn hide armor textures to overwrite the vanilla copy in Warmth (thanks butthead!)&lt;/li>
 &lt;li>Disabled the loading screen added by Lanterns of Skyrim II&lt;/li>
@@ -505,7 +760,7 @@
 &lt;li>Increased level requirements for More Werewolves open world encounters from 10 to 16&lt;/li>
 &lt;li>Removed Enhanced Landscapes - Oaks Standalone as a master&lt;/li>
 &lt;/ul>
-&lt;h4 id="wabbajack-installer-4">Wabbajack Installer&lt;/h4>
+&lt;h4 id="wabbajack-installer-5">Wabbajack Installer&lt;/h4>
 &lt;ul>
 &lt;li>Updated Simple Offence Suppression to 2.0&lt;/li>
 &lt;li>Updated Guard Dialogue Overhaul to 2.16&lt;/li>
@@ -516,7 +771,7 @@
 &lt;blockquote>
 &lt;p>18/02/2021&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-installation-6">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-7">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Appearance:&lt;/strong> Fixed a copy-paste error.&lt;/li>
 &lt;li>&lt;strong>Appearance:&lt;/strong> Added Forsworn and Blackblood and Boethiah Tattoo (undocumented 4.2 addition).&lt;/li>
@@ -529,7 +784,7 @@
 &lt;/blockquote>
 &lt;p>This update is bringing DIY facegen instructions and an overhaul for the Appearance section. Please check this &lt;a href="https://www.patreon.com/posts/47666672">Patreon post&lt;/a> for detailed information!&lt;/p>
 &lt;p>&lt;strong>This update is save-safe.&lt;/strong> However, if you were using certain headparts (eyes primarily) added by the now removed Cathedral Player and NPC Overhaul, you may want to go back into the character creation (type &lt;code>showracemenu&lt;/code> in the console and hit Enter) and update your character. Do NOT change your race!&lt;/p>
-&lt;h4 id="initial-setup-2">Initial Setup&lt;/h4>
+&lt;h4 id="initial-setup-3">Initial Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Additional Tools:&lt;/strong> Added note that the trailing backslash at the end of the xEdit cache file path is required.&lt;/li>
 &lt;li>&lt;strong>Additional Tools:&lt;/strong> Added instructions for an argument to define a backup file path.&lt;/li>
@@ -539,7 +794,7 @@
 &lt;li>&lt;strong>Additional Tools:&lt;/strong> Updated Cathedral Assets Optimizer Profiles screenshot (profile pack was updated).&lt;/li>
 &lt;li>&lt;strong>ESM Cleaning:&lt;/strong> Removed instructions to disable backups in xEdit (they are now simply moved to a separate folder).&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-7">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-8">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Fixes:&lt;/strong> Re-added Skyrim Ultimate Eye Meshes Ruhmastered.&lt;/li>
 &lt;li>&lt;strong>Interface:&lt;/strong> Fixed link for Extended UI for Skyrim Uncapper.&lt;/li>
@@ -581,18 +836,18 @@
 &lt;li>&lt;strong>College of Winterhold:&lt;/strong> Added instructions to delete facegen files from Immersive College NPCs.&lt;/li>
 &lt;li>&lt;strong>College of Winterhold:&lt;/strong> Removed Immmersive College NPCs - Cathedral NPCs Facegen Patch.&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-5">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-6">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Facegen:&lt;/strong> Added new page with comprehensive instructions to generate facegen for TPF.&lt;/li>
 &lt;/ul>
-&lt;h4 id="conflict-resolution-patch-5">Conflict Resolution Patch&lt;/h4>
+&lt;h4 id="conflict-resolution-patch-6">Conflict Resolution Patch&lt;/h4>
 &lt;ul>
 &lt;li>Removed Cathedral NPCs as a master.&lt;/li>
 &lt;li>Fixed Hanging Elves Ear mesh to prevent all Elves Ears in a cell from displaying the harvested model after harvesting one.&lt;/li>
 &lt;li>Edited buygoldenclawscript.pex to remove leveled price. It will always cost 5000 Septims.&lt;/li>
 &lt;li>Edited QF_FreeformRiften05_00053309.pex to properly revert the amounts of pamphlets required to be handed out to vanilla.&lt;/li>
 &lt;/ul>
-&lt;h4 id="wabbajack-installer-5">Wabbajack Installer&lt;/h4>
+&lt;h4 id="wabbajack-installer-6">Wabbajack Installer&lt;/h4>
 &lt;ul>
 &lt;li>Updated Landscape Fixes for Grass Mods to 4.8&lt;/li>
 &lt;/ul>
@@ -601,7 +856,7 @@
 &lt;p>14/02/2021&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;strong>Wabbajack installer update.&lt;/strong> No changes to the manual guide. The update is &lt;em>save-safe&lt;/em> and can be applied to an ongoing playthrough.&lt;/p>
-&lt;h4 id="wabbajack-installer-6">Wabbajack Installer&lt;/h4>
+&lt;h4 id="wabbajack-installer-7">Wabbajack Installer&lt;/h4>
 &lt;ul>
 &lt;li>Updated Skyrim Uncapper - Adamant Arena to 2.10&lt;/li>
 &lt;li>Updated Blade and Blunt to 1.2.1&lt;/li>
@@ -615,7 +870,7 @@
 &lt;blockquote>
 &lt;p>13/02/2021&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-installation-8">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-9">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Food &amp;amp; Ingredients:&lt;/strong> Actually removed Unique Stros M&amp;rsquo;Kai Rum from the mod installation section.&lt;/li>
 &lt;/ul>
@@ -625,7 +880,7 @@
 &lt;/blockquote>
 &lt;p>As it turns out, the Timing Is Everything preset feature is broken. I hadn&amp;rsquo;t previously noticed it as I didn&amp;rsquo;t check &lt;em>all&lt;/em> the pages and on the &amp;ldquo;Extras&amp;rdquo; page everything seemed to work well. Umgak fixed that in scripts packaged with the CRP. The preset itself was updated for even better synergy with other mods in TPF, ensuring quests will not be available before you are capable of beating them. Details can be found on the new &lt;a href="https://thephoenixflavour.com/tpf/gameplay-guide/quests">Quests&lt;/a> page in the Gameplay Guide.&lt;/p>
 &lt;p>While working on the Quests segment of the Gameplay Guide, I noticed that it was rather inconsistent to use Andrealphus&amp;rsquo; Dawnguard DLC integration option for the Stones of Barenziah (No Stones Unturned) but not the Dragonborn DLC one. So I fixed that.&lt;/p>
-&lt;h4 id="mod-installation-9">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-10">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Landscape:&lt;/strong> Changed Blended Roads instructions to simply use the Medieval Bridges optional file.&lt;/li>
 &lt;li>&lt;strong>Food &amp;amp; Ingredients:&lt;/strong> Removed Unique Stros M&amp;rsquo;Kai Rum (encountered a CTD in connection with it that needs further investigating).&lt;/li>
@@ -635,22 +890,22 @@
 &lt;li>&lt;strong>College of Winterhold:&lt;/strong> Added instructions to select the Viewable Faction ranks patch in the Obscure&amp;rsquo;s COW FOMOD.&lt;/li>
 &lt;li>&lt;strong>Miscellaneous:&lt;/strong> Added Viewable Faction Ranks.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-configuration-1">Mod Configuration&lt;/h4>
+&lt;h4 id="mod-configuration-2">Mod Configuration&lt;/h4>
 &lt;ul>
 &lt;li>Rephrased instructions for Timing Is Everything so applying the preset no longer feels optional.&lt;/li>
 &lt;/ul>
-&lt;h4 id="gameplay-guide">Gameplay Guide&lt;/h4>
+&lt;h4 id="gameplay-guide-1">Gameplay Guide&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Quests:&lt;/strong> Added a new page to cover changes to quests, level requirements, etc.&lt;/li>
 &lt;/ul>
-&lt;h4 id="conflict-resolution-patch-6">Conflict Resolution Patch&lt;/h4>
+&lt;h4 id="conflict-resolution-patch-7">Conflict Resolution Patch&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>4.0.1:&lt;/strong> Updated for Adamant 4.2.7&lt;/li>
 &lt;li>&lt;strong>4.0.1:&lt;/strong> Fixed the preset functionality in tie_mcmscript.pex&lt;/li>
 &lt;li>&lt;strong>4.1:&lt;/strong> Reverted amount of pamphlets to be distributed in the Spread the Love quest to vanilla (30 &amp;gt; 20)&lt;/li>
 &lt;li>&lt;strong>4.1:&lt;/strong> Increased buy price for the Golden Claw from 500 to 5000 Septims&lt;/li>
 &lt;/ul>
-&lt;h4 id="wabbajack-installer-7">Wabbajack Installer&lt;/h4>
+&lt;h4 id="wabbajack-installer-8">Wabbajack Installer&lt;/h4>
 &lt;ul>
 &lt;li>Updated Adamant - A Perk Overhaul to 4.2.7&lt;/li>
 &lt;li>Updated Aetherius - A Race Overhaul to 2.4.0&lt;/li>
@@ -663,12 +918,12 @@
 &lt;p>09/02/2021&lt;/p>
 &lt;/blockquote>
 &lt;p>After a rather long Beta phase and rather more substantial updates than I had planned to do, we have finally arrived at a point where I consider 4.0 polished enough for a full release.&lt;/p>
-&lt;h4 id="initial-setup-3">Initial Setup&lt;/h4>
+&lt;h4 id="initial-setup-4">Initial Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>INI Files:&lt;/strong> Added note to ignore Skyrim not recognising newer AMD cards.&lt;/li>
 &lt;li>&lt;strong>INI Files:&lt;/strong> Increased values in View Distance tab (attempt to fix fade-in of lanterns).&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-10">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-11">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Essential Mods:&lt;/strong> Replaced the buggy Autorun Console Commands with Umgak&amp;rsquo;s remade Autorun.&lt;/li>
 &lt;li>&lt;strong>Landscape:&lt;/strong> Added Blended Roads (version packaged with Cath Landscapes is outdated).&lt;/li>
@@ -687,19 +942,19 @@
 &lt;li>&lt;strong>Miscellaneous:&lt;/strong> Added Horses for Followers.&lt;/li>
 &lt;li>&lt;strong>Sounds &amp;amp; Music:&lt;/strong> Fixed link for Phoenix - Merged Music Patch.&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-6">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-7">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>First Launch:&lt;/strong> Slightly rewrote the last bit to not make it seem as if you were done with the guide at this point.&lt;/li>
 &lt;/ul>
-&lt;h4 id="wabbajack-1">Wabbajack&lt;/h4>
+&lt;h4 id="wabbajack-2">Wabbajack&lt;/h4>
 &lt;ul>
 &lt;li>Added instructions to re-enable VSYNC for those who need it.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-configuration-2">Mod Configuration&lt;/h4>
+&lt;h4 id="mod-configuration-3">Mod Configuration&lt;/h4>
 &lt;ul>
 &lt;li>Added note about the carriage ride and a potential glitch.&lt;/li>
 &lt;/ul>
-&lt;h4 id="gameplay-guide-1">Gameplay Guide&lt;/h4>
+&lt;h4 id="gameplay-guide-2">Gameplay Guide&lt;/h4>
 &lt;ul>
 &lt;li>Added section about Radiant Requirements.&lt;/li>
 &lt;/ul>
@@ -708,7 +963,7 @@
 &lt;li>&lt;strong>Troubleshooting:&lt;/strong> Rewrote section on grass shadows or lack thereof.&lt;/li>
 &lt;li>&lt;strong>Troubleshooting:&lt;/strong> Added fix for black waterfalls.&lt;/li>
 &lt;/ul>
-&lt;h4 id="conflict-resolution-patch-7">Conflict Resolution Patch&lt;/h4>
+&lt;h4 id="conflict-resolution-patch-8">Conflict Resolution Patch&lt;/h4>
 &lt;ul>
 &lt;li>Removed Ashbound as a master.&lt;/li>
 &lt;li>Cleaned unnecessary edits from cell and worldspace records.&lt;/li>
@@ -717,7 +972,7 @@
 &lt;li>Added Dargor&amp;rsquo;s Rock to cover up a hole near the Tomb of Ysgramor.&lt;/li>
 &lt;li>Added a replacement mesh for the Skyforge HD LOD to fix it clipping outside of the city walls.&lt;/li>
 &lt;/ul>
-&lt;h4 id="wabbajack-installer-8">Wabbajack Installer&lt;/h4>
+&lt;h4 id="wabbajack-installer-9">Wabbajack Installer&lt;/h4>
 &lt;ul>
 &lt;li>Updated ENBSeries (no file version change)&lt;/li>
 &lt;li>Updated Skyrim Landscape and Water Fixes to 5.9&lt;/li>
@@ -742,14 +997,14 @@
 &lt;/blockquote>
 &lt;p>With the removal of Fuz Ro D&amp;rsquo;oh and new instructions for Keyboard Shortcuts Fix, the Clean-up page has essentially become redundant and was removed.&lt;/p>
 &lt;p>&lt;strong>Beta Testers:&lt;/strong> To update to Beta 7, delete Fuz Ro D&amp;rsquo;oh in Mod Organizer 2 (Utilities separator). Then download the new Alchemy Adjustments - TPF tweaks mod, install it, update the CRP, download the new loadorder.txt and apply it. Done!&lt;/p>
-&lt;h4 id="mod-installation-11">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-12">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Fixes:&lt;/strong> Added instructions for Keyboard Shortcuts Fix to create its LOG file manually.&lt;/li>
 &lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Fixed missing picture for EL Solstheim 3D Trees.&lt;/li>
 &lt;li>&lt;strong>Balancing:&lt;/strong> Properly added Alchemy Adjustments - TPF Tweaks.&lt;/li>
 &lt;li>&lt;strong>Utilities:&lt;/strong> Removed Fuz Ro D&amp;rsquo;oh (no longer necessary now that AS LAL was removed).&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-7">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-8">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Wrapping Up:&lt;/strong> Expanded the Check for MO2 Warnings section.&lt;/li>
 &lt;li>&lt;strong>Final Steps:&lt;/strong> Slightly restructured the page and added the A New Playthrough section.&lt;/li>
@@ -774,14 +1029,14 @@
 &lt;li>Added link to the new &lt;a href="https://www.youtube.com/playlist?list=PLj_QypS-aCNNyUBLpYsFAeCJk1Zq0xnmV">playlist&lt;/a> with music tracks added by mods in TPF.&lt;/li>
 &lt;li>Expanded the Wabbajack section and added a FLOWCHART to make it obvious which sections WJ users need to follow.&lt;/li>
 &lt;/ul>
-&lt;h4 id="initial-setup-4">Initial Setup&lt;/h4>
+&lt;h4 id="initial-setup-5">Initial Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Mod Organizer 2:&lt;/strong> Rewrote the Separator section to have DIY instructions (users make their own separators).&lt;/li>
 &lt;li>&lt;strong>ESM Cleaning:&lt;/strong> Actually fixed Dawnguard manual cleaning instructions (could have sworn I already did this).&lt;/li>
 &lt;li>&lt;strong>ESM Cleaning:&lt;/strong> Added note to uncheck SSEEdit Backups so that they don&amp;rsquo;t clutter up your Overwrite.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;em>For Beta Testers: Re-cleaning Dawnguard.esm is not necessary. The problem was that I had custom Filter profiles that I thought were default. Users didn&amp;rsquo;t have them though, so I had to rewrite the instructions without using a filter.&lt;/em>&lt;/p>
-&lt;h4 id="mod-installation-12">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-13">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Instructions:&lt;/strong> Added paragraph on creating new separators for each new page in the mod installation section.&lt;/li>
 &lt;li>&lt;strong>Essential Mods:&lt;/strong> Removed Alternate Start - Live Another Life (praise the Nine).&lt;/li>
@@ -794,7 +1049,7 @@
 &lt;li>&lt;strong>Apparel &amp;amp; Weapons:&lt;/strong> Fixed download instructions for Sunhallowed and Bloodcursed Arrows (Optional Files &amp;gt; Main Files).&lt;/li>
 &lt;li>&lt;strong>Miscellaneous:&lt;/strong> Removed Bounty Previews (late note from Beta 1, will be re-added very soon).&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-8">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-9">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Wrapping Up:&lt;/strong> Added instructions to create a new separator before installing the CRP.&lt;/li>
 &lt;li>&lt;strong>Wrapping Up:&lt;/strong> Removed sandboxcylinderheight.esp from list of plugins to ESL-ify (added to ACC).&lt;/li>
@@ -811,16 +1066,16 @@
 &lt;li>The MOD CONFIGURATION page is now a top-level page.&lt;/li>
 &lt;li>The GAMEPLAY GUIDE page is now a top-level page.&lt;/li>
 &lt;/ul>
-&lt;h4 id="wabbajack-2">Wabbajack&lt;/h4>
+&lt;h4 id="wabbajack-3">Wabbajack&lt;/h4>
 &lt;ul>
 &lt;li>Added this new top-level page with instructions for the Wabbajack version of TPF.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-configuration-3">Mod Configuration&lt;/h4>
+&lt;h4 id="mod-configuration-4">Mod Configuration&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Mod Configuration:&lt;/strong> This is now a top-level page.&lt;/li>
 &lt;li>&lt;strong>Mod Configuration:&lt;/strong> Temporarily removed the (fairly pointless) instructions for GIST. Will add proper ones in the future.&lt;/li>
 &lt;/ul>
-&lt;h4 id="gameplay-guide-2">Gameplay Guide&lt;/h4>
+&lt;h4 id="gameplay-guide-3">Gameplay Guide&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Gameplay Guide:&lt;/strong> This is now a top-level page.&lt;/li>
 &lt;li>&lt;strong>Gameplay Guide:&lt;/strong> Added a far too detailed section about the music mods added in TPF.&lt;/li>
@@ -836,11 +1091,11 @@
 &lt;ul>
 &lt;li>Updated more outdated parts of the introduction page.&lt;/li>
 &lt;/ul>
-&lt;h4 id="initial-setup-5">Initial Setup&lt;/h4>
+&lt;h4 id="initial-setup-6">Initial Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>INI Files:&lt;/strong> Reintegrated ENB-related tweaks (disabling AO, increasing particle count).&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-13">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-14">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Tweaks:&lt;/strong> Added Followers Don&amp;rsquo;t Draw Weapons.&lt;/li>
 &lt;li>&lt;strong>Tweaks:&lt;/strong> Added Multiple Floors Sandboxing.&lt;/li>
@@ -860,7 +1115,7 @@
 &lt;li>&lt;strong>Utilities:&lt;/strong> Added Spell Perk Item Distributor.&lt;/li>
 &lt;li>&lt;strong>Utilities:&lt;/strong> Removed UIExtensions (was only installed for NFF).&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-9">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-10">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Wrapping Up:&lt;/strong> Added Followers Don&amp;rsquo;t Draw Weapons.esp to the list of plugins to ESL-ify.&lt;/li>
 &lt;li>&lt;strong>Wrapping Up:&lt;/strong> Added sandboxcylinderheight.esp (Multiple Floors Sandboxing) to the list of plugins to ESL-ify.&lt;/li>
@@ -876,7 +1131,7 @@
 &lt;li>&lt;strong>ENB Tweaks:&lt;/strong> Removed this page as we are now using an already tweaked version of Serio&amp;rsquo;s ENB.&lt;/li>
 &lt;li>&lt;strong>Gameplay Guide:&lt;/strong> Removed mention of Nether&amp;rsquo;s Follower Framework.&lt;/li>
 &lt;/ul>
-&lt;h4 id="conflict-resolution-patch-8">Conflict Resolution Patch&lt;/h4>
+&lt;h4 id="conflict-resolution-patch-9">Conflict Resolution Patch&lt;/h4>
 &lt;ul>
 &lt;li>Removed playable flag from Hvergelmir&amp;rsquo;s beards added to Cathedral NPCs (they have transparency issues).&lt;/li>
 &lt;li>Removed playable flag from extra hair styles added by Aetherial Crown.&lt;/li>
@@ -887,12 +1142,12 @@
 &lt;/blockquote>
 &lt;p>Simon&amp;rsquo;s werewolf overhaul is finally out now and replaced Growl which completes our suite of SimonRim mods for gameplay. Because of this and the update Scion received, a new save is required for Beta 4.&lt;/p>
 &lt;p>I also did some reshuffling. Again. It&amp;rsquo;s better if I do it now before 4.0 is officially out.&lt;/p>
-&lt;h4 id="initial-setup-6">Initial Setup&lt;/h4>
+&lt;h4 id="initial-setup-7">Initial Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Skyrim and Steam:&lt;/strong> Updated Game Language screenshot for the new Steam UI.&lt;/li>
 &lt;li>&lt;strong>Skyrim and Steam:&lt;/strong> Updated Disable Auto Updates screenshot for the new Steam UI.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-14">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-15">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Removed Growl - Werebeasts of Skyrim.&lt;/li>
 &lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Added Manbeast - A Werewolf Overhaul.&lt;/li>
@@ -915,7 +1170,7 @@
 &lt;li>&lt;strong>Mod Configuration:&lt;/strong> Removed left-over MCM instructions for Diverse Dragons Collection.&lt;/li>
 &lt;li>&lt;strong>Gameplay Guide:&lt;/strong> Finally started working on this page.&lt;/li>
 &lt;/ul>
-&lt;h4 id="conflict-resolution-patch-9">Conflict Resolution Patch&lt;/h4>
+&lt;h4 id="conflict-resolution-patch-10">Conflict Resolution Patch&lt;/h4>
 &lt;ul>
 &lt;li>Removed the Draught of Fate Unwound from other leveled lists, now only available in Riften.&lt;/li>
 &lt;li>Lowered amount of available Draughts of Fate Unwound in Elgrim&amp;rsquo;s Inventory to 1.&lt;/li>
@@ -932,7 +1187,7 @@
 &lt;ul>
 &lt;li>Fixed an oversight in the &amp;ldquo;Included Mods&amp;rdquo; list.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-15">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-16">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Tweaks:&lt;/strong> Removed xEdit tweak for Simply Smaller Wolves (moved to the CRP).&lt;/li>
 &lt;li>&lt;strong>Interface:&lt;/strong> Added Extended UI for Skyrim Uncapper.&lt;/li>
@@ -952,7 +1207,7 @@
 &lt;li>&lt;strong>Sounds &amp;amp; Music:&lt;/strong> Fixed formatting for Phoenix - Merged Music Patch.&lt;/li>
 &lt;li>&lt;strong>Skeleton &amp;amp; Animations:&lt;/strong> Fixed incomplete file path for downloads folder.&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-10">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-11">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Cleanup:&lt;/strong> Removed note referring to the possibility of having skipped a mod (which no longer exists).&lt;/li>
 &lt;li>&lt;strong>Cleanup:&lt;/strong> Removed leftover instructions for Simply Knock (which was removed).&lt;/li>
@@ -963,7 +1218,7 @@
 &lt;li>&lt;strong>Mod Configuration:&lt;/strong> Added instructions for Timing Is Everything (loading the custom preset).&lt;/li>
 &lt;li>&lt;strong>Mod Configuration:&lt;/strong> Removed note about potential CTDs from Wonders of Weather rain splashes option (they were fixed).&lt;/li>
 &lt;/ul>
-&lt;h4 id="conflict-resolution-patch-10">Conflict Resolution Patch&lt;/h4>
+&lt;h4 id="conflict-resolution-patch-11">Conflict Resolution Patch&lt;/h4>
 &lt;ul>
 &lt;li>Fixed the bucket by the Skyforge (a better collision mesh for the wrwalltierdivide01.nif).&lt;/li>
 &lt;li>Moved some plants around the Bannered Mare to reduce clipping.&lt;/li>
@@ -976,13 +1231,13 @@
 &lt;blockquote>
 &lt;p>21/01/2021&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="initial-setup-7">Initial Setup&lt;/h4>
+&lt;h4 id="initial-setup-8">Initial Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Mod Organizer 2:&lt;/strong> Removed instructions to install deorder&amp;rsquo;s MO2 plugins (better suited to a beginner&amp;rsquo;s guide).&lt;/li>
 &lt;li>&lt;strong>ESM Cleaning:&lt;/strong> Improved instructions for cleaning Dawnguard ESM manually.&lt;/li>
 &lt;li>&lt;strong>ESM Cleaning:&lt;/strong> Fixed broken link at the bottom to the next page.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-16">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-17">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Swapped the &lt;strong>Landscape&lt;/strong> (11 &amp;gt; 10) and &lt;strong>Trees &amp;amp; Plants&lt;/strong> (10 &amp;gt; 11) steps.&lt;/li>
 &lt;li>&lt;strong>Weather:&lt;/strong> Fixed link for Wonders of Weather - Less Opaque Rain Splashes for ENB.&lt;/li>
@@ -1009,7 +1264,7 @@
 &lt;ul>
 &lt;li>Rewrote most of the page, updated the feature list, and added testimonials.&lt;/li>
 &lt;/ul>
-&lt;h4 id="initial-setup-8">Initial Setup&lt;/h4>
+&lt;h4 id="initial-setup-9">Initial Setup&lt;/h4>
 &lt;ul>
 &lt;li>Updated and rephrased many section, added screenshots and replaced some with better ones.&lt;/li>
 &lt;li>&lt;strong>Skyrim and Steam&lt;/strong>: Renamed this page (used to be called Skyrim SE which is not very specific).&lt;/li>
@@ -1017,7 +1272,7 @@
 &lt;li>&lt;strong>Skyrim and Steam&lt;/strong>: Added more detailed instructions and a screenshot for verifying that Skyrim SE is set to English.&lt;/li>
 &lt;li>&lt;strong>Additional Tools&lt;/strong>: Added instructions to add an exception to Windows Defender for CAO.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-17">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-18">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Updated many download instructions (incremented version numbers mostly).&lt;/li>
 &lt;li>Removed all (optional) and (conditional) flags.&lt;/li>
@@ -1288,7 +1543,7 @@
 &lt;li>&lt;strong>Related Mods:&lt;/strong> This section was removed. Most included mods were moved to the main Mod Installation section.&lt;/li>
 &lt;li>&lt;strong>Related Mods:&lt;/strong> Removed ENB Lights.&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-11">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-12">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Wrapping Up:&lt;/strong> Updated and expanded list of plugins to be ESL-ified.&lt;/li>
 &lt;li>&lt;strong>FNIS:&lt;/strong> Removed this page as FNIS is no longer part of TPF.&lt;/li>
@@ -1298,7 +1553,7 @@
 &lt;li>&lt;strong>DynDOLOD:&lt;/strong> Slightly updated and improved some of the instructions.&lt;/li>
 &lt;li>&lt;strong>Occlusion:&lt;/strong> Added this new page with instructions to regenerate occlusion data.&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-12">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-13">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Mod Configuration:&lt;/strong> Removed instruction for mods no longer present in the guide.&lt;/li>
 &lt;li>&lt;strong>Mod Configuration:&lt;/strong> Added instructions to bind the NFF Horse Whistle hotkey.&lt;/li>
@@ -1313,7 +1568,7 @@
 &lt;p>With this update Aetherius and Mundus were added to complement the existing suite of gameplay mods by SimonMagus. Alchemy got a much needed balancing upgrade with the switch to skepmanmods&amp;rsquo; Alchemy Potions and Food Adjustments and fighting dragons should be less of a headache now after the removal of Simply Stronger Dragons.&lt;/p>
 &lt;p>Despite the overall trend to remove customisability, I have once again re-added a page on different ENB presets as I feel that this is an easy way for me to allow personalisation. Switching ENB presets is simple, it can be done anytime. Presets are highly dependent on personal taste and I know that I personally switch all the time (haven&amp;rsquo;t had a personal favourite since Visceral ENB). Rudy ENB remains the default but there are now recommendations/links to Serio&amp;rsquo;s ENB, The Truth, Silent Horizons, and Semirealis.&lt;/p>
 &lt;p>A handful of mods were removed in anticipation of the elimination of optional mods. &lt;strong>However, TPF 3.5 still has optional mods.&lt;/strong> I have decided to push this change to the next update so that from 3.6 (or whatever I&amp;rsquo;ll call it) onwards, you will no longer be able to skip currently optional mods (they will all be mandatory).&lt;/p>
-&lt;h4 id="mod-installation-18">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-19">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Essential Mods:&lt;/strong> Reverted SSE Engine Fixes config file editing instructions to MO2 since it can now open TOML files.&lt;/li>
 &lt;li>&lt;strong>Interface:&lt;/strong> Removed Hide These Futile Quests (too confusing for people who don&amp;rsquo;t read).&lt;/li>
@@ -1334,7 +1589,7 @@
 &lt;li>&lt;strong>Related Mods:&lt;/strong> Removed mod order instructions for the TPF ENB Light Patch.&lt;/li>
 &lt;li>&lt;strong>INI Tweaks:&lt;/strong> Specified that turning on godrays (Volumetric Lighting) is recommended specifically for Rudy ENB.&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-13">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-14">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>DynDOLOD:&lt;/strong> Fixed TexGen instructions (the button actually just says EXIT instead of SAVE AND EXIT).&lt;/li>
 &lt;/ul>
@@ -1354,7 +1609,7 @@
 &lt;li>&lt;strong>Frequently Asked Questions:&lt;/strong> Restructured the page, updated and expanded it.&lt;/li>
 &lt;li>&lt;strong>Known Issues:&lt;/strong> Added this page.&lt;/li>
 &lt;/ul>
-&lt;h4 id="conflict-resolution-patch-11">Conflict Resolution Patch&lt;/h4>
+&lt;h4 id="conflict-resolution-patch-12">Conflict Resolution Patch&lt;/h4>
 &lt;ul>
 &lt;li>Fixed conflicts between Ethereal Elven Overhaul and Aetherius - A Race Overhaul.&lt;/li>
 &lt;li>Cleaned out Skyrim Alchemy Fixed as the mod was removed.&lt;/li>
@@ -1366,7 +1621,7 @@
 &lt;/blockquote>
 &lt;p>This is a quick fix-it for the recently reworked Veydosebrom. The new version no longer works with my plugin replacer / Cathedral addon - fortunately, the original Vey is still available for download.&lt;/p>
 &lt;p>A bigger update, 3.5, is currently in the works. No ETA.&lt;/p>
-&lt;h4 id="mod-installation-19">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-20">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Landscape:&lt;/strong> Updated instructions for Veydosebrom, downloading version from Old Files.&lt;/li>
 &lt;li>&lt;strong>Landscape:&lt;/strong> No longer selecting Snowy Farmhouses in the Better Dynamic Snow FOMOD (they don&amp;rsquo;t look great).&lt;/li>
@@ -1377,16 +1632,16 @@
 &lt;/blockquote>
 &lt;p>This is a fix-it for yesterday&amp;rsquo;s update because I messed up a surprising amount of stuff some of which was already fixed yesterday but were included in the changelog for completion&amp;rsquo;s sake. All I can say in my defence is that 34°C in my flat is doing things to my brain.&lt;/p>
 &lt;p>&lt;strong>Mysticism and Adamant update:&lt;/strong> Simon just released a huge update for Mysticism which is going to require us to update the CRP. Do not install the new versions of Mysticism and Adamant until Umgak had the time to update the CRP. You will be pinged on Discord or see the notification for the update on the Nexus if you are tracking TPF there. &lt;strong>Do not ask for an ETA.&lt;/strong>&lt;/p>
-&lt;h4 id="initial-setup-9">Initial Setup&lt;/h4>
+&lt;h4 id="initial-setup-10">Initial Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Skyrim Script Extender:&lt;/strong> Updated instructions, now supporting SKSE 2.0.19 (latest update).&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-20">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-21">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Apparel &amp;amp; Weapons:&lt;/strong> Actually removed the (optional) flag from Open Face Guard Helmets.&lt;/li>
 &lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Trua - Minimalistic Faiths of Skyrim is no longer optional (no, seriously this time).&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-14">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-15">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>First Launch:&lt;/strong> Removed ENB config section for Serio&amp;rsquo;s ENB that is no longer necessary with Rudy ENB.&lt;/li>
 &lt;/ul>
@@ -1400,12 +1655,12 @@
 &lt;/blockquote>
 &lt;p>With this update, we are switching to the recently released Rudy ENB for Cathedral Weathers which works better out of the box for our setup. It also utilises almost all ENB features without too much of a performance impact which is pretty impressive.&lt;/p>
 &lt;p>I&amp;rsquo;ve also finally gotten around to fixing up some &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38348/">personal tweaks&lt;/a> and putting them on Nexus. Of course they were added to the guide as well.&lt;/p>
-&lt;h4 id="initial-setup-10">Initial Setup&lt;/h4>
+&lt;h4 id="initial-setup-11">Initial Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Skyrim Script Extender:&lt;/strong> Updated instructions, now supporting SKSE 2.0.18 (latest update).&lt;/li>
 &lt;li>&lt;strong>INI Files:&lt;/strong> Added instructions to increase particle count to 1500 under BethINI Detail.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-21">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-22">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Updated download instructions for a bunch of mods (incremented version numbers).&lt;/li>
 &lt;li>&lt;strong>Tweaks:&lt;/strong> Added Miscellaneous Tweaks Collection.&lt;/li>
@@ -1431,7 +1686,7 @@
 &lt;ul>
 &lt;li>&lt;strong>How To Update:&lt;/strong> Added Skyrim Script Extender updating instructions.&lt;/li>
 &lt;/ul>
-&lt;h4 id="conflict-resolution-patch-12">Conflict Resolution Patch&lt;/h4>
+&lt;h4 id="conflict-resolution-patch-13">Conflict Resolution Patch&lt;/h4>
 &lt;ul>
 &lt;li>Fixed conflicts between Open Face Guard Helmets and WACCF.&lt;/li>
 &lt;li>Fixed conflicts between Better Shrouded Armor - Ancient Replacer Only, WACCF, and Unique Item Tweaks.&lt;/li>
@@ -1442,12 +1697,12 @@
 &lt;p>30/07/2020&lt;/p>
 &lt;/blockquote>
 &lt;p>Maintenance update.&lt;/p>
-&lt;h4 id="initial-setup-11">Initial Setup&lt;/h4>
+&lt;h4 id="initial-setup-12">Initial Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Skyrim SE:&lt;/strong> Added a note that non-English installations of Skyrim SE are not supported.&lt;/li>
 &lt;li>&lt;strong>ESM Cleaning:&lt;/strong> Removed manual cleaning instructions for Update ESM (may cause issues and 3DNPC is no longer in the guide).&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-22">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-23">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Trees &amp;amp; Plants:&lt;/strong> Added Scathecraw HD 2K.&lt;/li>
 &lt;li>&lt;strong>Buildings &amp;amp; Interiors:&lt;/strong> Updated FOMOD instructions for Obscure&amp;rsquo;s College of Winterhold (no longer using Mannequins Stay Put).&lt;/li>
@@ -1464,7 +1719,7 @@
 &lt;ul>
 &lt;li>&lt;strong>How To Update:&lt;/strong> Added this new page with instructions for updating various tools and certain mods.&lt;/li>
 &lt;/ul>
-&lt;h4 id="conflict-resolution-patch-13">Conflict Resolution Patch&lt;/h4>
+&lt;h4 id="conflict-resolution-patch-14">Conflict Resolution Patch&lt;/h4>
 &lt;ul>
 &lt;li>Fixed a conflict between Ish&amp;rsquo;s Respec Mod and Night Eye Overhaul.&lt;/li>
 &lt;li>Lowered the amount of Draughts of Fate Unwound available at Elgrim&amp;rsquo;s from 99 to 2.&lt;/li>
@@ -1479,7 +1734,7 @@
 &lt;p>15/07/2020&lt;/p>
 &lt;/blockquote>
 &lt;p>This is basically just 3.4, but fixed. As usual, the big release had plenty of oversights and little errors that were hunted down by the wonderful people on our Discord server, in particular Lively who went through the entire guide once again with a fine-toothed comb. Thanks!&lt;/p>
-&lt;h4 id="initial-setup-12">Initial Setup&lt;/h4>
+&lt;h4 id="initial-setup-13">Initial Setup&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>The Creation Kit:&lt;/strong> Updated instructions with latest version number for CK Fixes (3.x).&lt;/li>
 &lt;li>&lt;strong>INI Files:&lt;/strong> Fixed file path to INI folder in &amp;ldquo;Remove old files&amp;rdquo; step.&lt;/li>
@@ -1487,7 +1742,7 @@
 &lt;li>&lt;strong>Additional Tools:&lt;/strong> Updated the Cathedral Assets Overhaul profiles screenshot.&lt;/li>
 &lt;li>&lt;strong>ESM Cleaning:&lt;/strong> Fixed a really dumb typo (move cleaned ESMs BELOW the uncleaned ones in MO2).&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-23">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-24">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Fixed a lot of version numbers, file names, and links.&lt;/li>
 &lt;li>&lt;strong>Fixes:&lt;/strong> Updated FOMOD instructions for Landscape Fixes for Grass Mods (no longer selecting the Provincial Courier Service patch).&lt;/li>
@@ -1515,7 +1770,7 @@
 &lt;li>&lt;strong>Balancing:&lt;/strong> Moved all Morrowloot Miscellania file into one step.&lt;/li>
 &lt;li>&lt;strong>New Gear:&lt;/strong> Removed leftover, redundant mod order instructions for the WACCF - CBBE Patch.&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-15">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-16">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Wrapping Up:&lt;/strong> Updated instructions for the renamed separator (PATCHES &amp;raquo; FINAL PATCHES).&lt;/li>
 &lt;li>&lt;strong>Wrapping Up:&lt;/strong> Added instructions to enable all plugins before applying the loadorder.txt.&lt;/li>
@@ -1550,7 +1805,7 @@
 &lt;li>Changed the order of mod installation steps AGAIN. Yes, I&amp;rsquo;ve been reshuffling them with basically every major update. I&amp;rsquo;d like to think that I&amp;rsquo;m getting closer and closer to perfection, though.&lt;/li>
 &lt;li>Patches are no longer moved to the PATCHES separator. You can just leave them where they are in the installation order and the loadorder.txt will move the plugins to the correct spot.&lt;/li>
 &lt;/ul>
-&lt;h4 id="initial-setup-13">Initial Setup&lt;/h4>
+&lt;h4 id="initial-setup-14">Initial Setup&lt;/h4>
 &lt;ul>
 &lt;li>This step was renamed to Initial Setup, simply because it looks better when the name is longer. Yeah&amp;hellip;&lt;/li>
 &lt;li>&lt;strong>Mod Organizer 2:&lt;/strong> Added instructions to change the background color for the MO2 separators.&lt;/li>
@@ -1560,7 +1815,7 @@
 &lt;li>&lt;strong>Skyrim Realistic Overhaul:&lt;/strong> This step was removed completely. SRO is no longer part of the guide.&lt;/li>
 &lt;li>&lt;strong>Mod Installation:&lt;/strong> This step (containing general instructions for the mod installation) was moved to the Mod Installation section.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-24">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-25">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Essential Mods:&lt;/strong> Moved More Informative Console here (from Quality of Life).&lt;/li>
 &lt;li>&lt;strong>Fixes:&lt;/strong> Updated FOMOD instructions for Skyrim Landscape and Water Fixes (mod update).&lt;/li>
@@ -1698,7 +1953,7 @@
 &lt;li>&lt;strong>Related Mods:&lt;/strong> Added The Phoenix Flavour - ENB Light Patch (same as the patches from the pack but in one ESP).&lt;/li>
 &lt;li>The ENB FAQ step was removed.&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-16">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-17">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Wrapping Up:&lt;/strong> Moved FOMOD instructions for MCWT back to the actual mod (since now all required mods are already installed prior to MCWT itself).&lt;/li>
 &lt;li>&lt;strong>Wrapping Up:&lt;/strong> Updated the list of plugins to ESL-ify.&lt;/li>
@@ -1719,7 +1974,7 @@
 &lt;li>&lt;strong>7.2.2:&lt;/strong> Fixed download instructions for the CAO Basic Profiles pack.&lt;/li>
 &lt;li>&lt;strong>10.2.5:&lt;/strong> Fixed the link to the Basic Instructions page.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-25">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-26">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>1.2:&lt;/strong> Updated SSE Engine Fixes configuration instructions for the new TOML file.&lt;/li>
 &lt;li>&lt;strong>10.4:&lt;/strong> Added FOMOD instructions for the updated Enhanced Landscapes - Oaks Standalone.&lt;/li>
@@ -1739,7 +1994,7 @@
 &lt;ul>
 &lt;li>&lt;strong>1.5:&lt;/strong> Added instructions to install the Visual C++ redists required by Mod Organizer 2.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-26">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-27">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>1.4:&lt;/strong> Finally added some INI tweak instructions for SSE Display Fixes.&lt;/li>
 &lt;li>&lt;strong>23.1:&lt;/strong> Added note to Vanilla NPCs Ruhmastered to use a specific file name.&lt;/li>
@@ -1763,7 +2018,7 @@
 &lt;li>&lt;strong>7.2:&lt;/strong> Adjusted instructions to link to the new download location for the CAO - Basic Profiles Pack.&lt;/li>
 &lt;li>&lt;strong>9.3:&lt;/strong> Added instructions to install the new CAO - SRO Profiles Pack.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-27">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-28">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Removed Remove Sneak Attack Sounds (feature included in Immersive Sounds - Compendium).&lt;/li>
 &lt;li>Moved Frozen Electrocuted Combustion to Customisation.&lt;/li>
@@ -1796,7 +2051,7 @@
 &lt;ul>
 &lt;li>&lt;strong>Step 7:&lt;/strong> Removed the zEdit section. zEdit will be re-added to the guide once mator provides ESL support.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-28">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-29">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Removed Dwemer Spectres.&lt;/li>
 &lt;li>Removed Dwemer Spectres - EBT No Bleeding and Other Fixes.&lt;/li>
@@ -1816,7 +2071,7 @@
 &lt;p>04.06.2020&lt;/p>
 &lt;/blockquote>
 &lt;p>Maintenance update.&lt;/p>
-&lt;h4 id="mod-installation-29">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-30">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>8.1:&lt;/strong> Updated download instructions for Frozen Electrocuted Combustion (file update).&lt;/li>
 &lt;li>&lt;strong>10.1:&lt;/strong> Updated FOMOD instructions for EVT Alternate Branch Textures (file update).&lt;/li>
@@ -1830,7 +2085,7 @@
 &lt;p>Just a small maintenance update. Realistic Water Two received a big update today, then got hidden to fix oversights. It&amp;rsquo;s back up now. You can probably expect a CRP update soon, but for now here are the updated instructions.&lt;/p>
 &lt;p>For those who use Arthmoor&amp;rsquo;s additional towns from Customisation, there are now instructions for the Lanterns of Skyrim II patches. I missed them previously.&lt;/p>
 &lt;p>&lt;strong>Wabbajack users:&lt;/strong> Stop pestering Lively about fixing the installer. When mods are updated, he has to update his own setup and recompile, and that takes time. Consider the fact that he has a life that includes more than updating the installer the second a mod update drops. Plus when a mod is hidden, like RW2 was today, there is nothing anyone can do and we all have to wait for the mod author to unhide the mod page.&lt;/p>
-&lt;h4 id="mod-installation-30">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-31">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>1.9 Added instructions to delete a textures from the Particle Patch (fixes a bug where water spray would look much darker than intended).&lt;/li>
 &lt;li>9.7 Updated instructions for Realistic Water Two.&lt;/li>
@@ -1856,7 +2111,7 @@
 &lt;li>2.9 Added section on what to do with &amp;lsquo;creations&amp;rsquo; reinstalled alongside Skyrim SE.&lt;/li>
 &lt;li>6.3 Updated BethINI settings. Added screenshots.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-31">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-32">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Fixed some typos and duplicate instructions.&lt;/li>
 &lt;li>Incremented version numbers for some updated files.&lt;/li>
@@ -1933,7 +2188,7 @@
 &lt;li>Moved the Mod Installation Instructions to Setup, Step 10.&lt;/li>
 &lt;li>Moved &amp;ldquo;Step 5 - Skyrim Realistic Overhaul&amp;rdquo; from the Mod Installation section to the Setup as Step 9.&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-installation-32">Mod Installation&lt;/h4>
+&lt;h4 id="mod-installation-33">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>Removed Havok Fix (replaced with SSE Display Tweaks).&lt;/li>
 &lt;li>Removed Cutting Room Floor.&lt;/li>
@@ -2115,7 +2370,7 @@
 &lt;li>&lt;strong>39.3:&lt;/strong> Added XPMSSE Fixes - Automated Patcher.&lt;/li>
 &lt;li>&lt;strong>39.4:&lt;/strong> Added All Geared Up Derivative - AllGUD.&lt;/li>
 &lt;/ul>
-&lt;h4 id="finalisation-17">Finalisation&lt;/h4>
+&lt;h4 id="finalisation-18">Finalisation&lt;/h4>
 &lt;ul>
 &lt;li>Moved FNIS instructions to Step 2.&lt;/li>
 &lt;li>Added Step 3 for All Geared Up Derivative.&lt;/li>

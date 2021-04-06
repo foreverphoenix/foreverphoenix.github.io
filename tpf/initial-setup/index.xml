@@ -524,7 +524,7 @@
 &lt;ul>
 &lt;li>&lt;strong>Water:&lt;/strong> Check &lt;code>Reflect Objects&lt;/code>.&lt;/li>
 &lt;li>&lt;strong>Decal Quantity:&lt;/strong> Set to &lt;code>High&lt;/code>.&lt;/li>
-&lt;li>&lt;strong>Godrays&lt;/strong>: Set them to &lt;code>None&lt;/code> if you are concerned with performance.&lt;/li>
+&lt;li>&lt;strong>Godrays&lt;/strong>: Set to &lt;code>High&lt;/code>.&lt;/li>
 &lt;li>&lt;strong>Field of View:&lt;/strong> Increase this if you prefer a wider FoV.&lt;/li>
 &lt;li>&lt;strong>Particles:&lt;/strong> Increase the particle count to &lt;code>7500&lt;/code>.&lt;/li>
 &lt;li>&lt;strong>Lens Flare:&lt;/strong> Matter of taste. Personally I disable this.&lt;/li>
@@ -544,9 +544,11 @@
 &lt;li>&lt;strong>Object Fade:&lt;/strong> Set to &lt;code>12.0&lt;/code>.&lt;/li>
 &lt;li>&lt;strong>Actor Fade:&lt;/strong> Set to &lt;code>8.0&lt;/code>.&lt;/li>
 &lt;li>&lt;strong>Item Fade:&lt;/strong> Set to &lt;code>4.0&lt;/code>.&lt;/li>
-&lt;li>&lt;strong>Grass Fade:&lt;/strong> Set to &lt;code>15000&lt;/code>.&lt;/li>
 &lt;li>&lt;strong>Light Fade:&lt;/strong> Set to &lt;code>21605&lt;/code>.&lt;/li>
 &lt;/ul>
+&lt;blockquote>
+&lt;p>Grass Fade will be increased by a mod later on.&lt;/p>
+&lt;/blockquote>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/bethini-view-distance.png" alt="BethINI View Distance">&lt;/p>
 &lt;h3 id="bethini---visuals">BethINI - Visuals&lt;/h3>
 &lt;p>Continue with the eighth tab, &lt;strong>Visuals&lt;/strong>.&lt;/p>
@@ -554,6 +556,17 @@
 &lt;li>Set &lt;strong>Contrast&lt;/strong> to &lt;code>-0.1800&lt;/code>. This should eliminate the &amp;ldquo;black crush&amp;rdquo; some people are experiencing in Skyrim SE.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/bethini-visuals.png" alt="BethINI Visuals">&lt;/p>
+&lt;h3 id="bethini---custom">BethINI - Custom&lt;/h3>
+&lt;ul>
+&lt;li>Under &lt;strong>Section&lt;/strong>, select &lt;strong>Display&lt;/strong>.&lt;/li>
+&lt;li>Under &lt;strong>Settings&lt;/strong>, select &lt;strong>bEnableLandFade&lt;/strong>.&lt;/li>
+&lt;li>Change the value from &lt;strong>1&lt;/strong> to &lt;strong>0&lt;/strong>.&lt;/li>
+&lt;li>Click the &lt;strong>Save&lt;/strong> button at the bottom.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>This will make terrain LOD transitions look less awful.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/bethini-custom.png" alt="BethINI Visuals">&lt;/p>
 &lt;h2 id="save-changes">Save Changes&lt;/h2>
 &lt;ul>
 &lt;li>Return to the second tab, &lt;strong>Basic&lt;/strong>, and click &lt;code>Save and Exit&lt;/code>.&lt;/li>
@@ -642,8 +655,8 @@
 &lt;li>Click &lt;strong>OK&lt;/strong> to save the new executable and close the window.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/zedit-download.png" alt="zEdit Download">&lt;/p>
-&lt;h2 id="cathedral-assets-optimizer-cao">Cathedral Assets Optimizer (CAO)&lt;/h2>
-&lt;p>Cathedral Assets Optimizer by Gk1 is a unified asset processing tool that can be used to extract or create BSAs, optimize assets, compress or resize textures, and more.&lt;/p>
+&lt;h2 id="cathedral-assets-optimizer">Cathedral Assets Optimizer&lt;/h2>
+&lt;p>Cathedral Assets Optimizer (CAO) by Gk1 is a unified asset processing tool that can be used to extract or create BSAs, optimize assets, compress or resize textures, and more.&lt;/p>
 &lt;h3 id="installation">Installation&lt;/h3>
 &lt;ul>
 &lt;li>Download the latest non-Beta version of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23316">Cathedral Assets Optimizer&lt;/a> manually from the Nexus.&lt;/li>
