@@ -218,6 +218,30 @@
 &lt;li>Scroll down to &lt;strong>Line 270&lt;/strong> and uncomment it (remove the semicolon &lt;code>;&lt;/code>).&lt;/li>
 &lt;li>Scroll down to &lt;strong>Line 275&lt;/strong> and change &lt;strong>TerrainUnderside=&lt;/strong> to &lt;strong>1&lt;/strong>.&lt;/li>
 &lt;li>Save and close the file.&lt;/li>
+&lt;/ul></description></item><item><title>Tpf-X: Gameplay Tweaks</title><link>https://thephoenixflavour.com/tpf-x/installation/gameplay-tweaks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf-x/installation/gameplay-tweaks/</guid><description>
+&lt;h2 id="combat">Combat&lt;/h2>
+&lt;h3 id="blade-and-blunt---vanilla-difficulty-modifiershttpswwwnexusmodscomskyrimspecialeditionmods34549tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34549?tab=files">Blade and Blunt - Vanilla Difficulty Modifiers&lt;/a>&lt;/h3>
+&lt;p>With Blade and Blunt, the SimonRim combat overhaul, the difficulty is increased noticably. If, like me, you don&amp;rsquo;t necessarily appreciate harder combat situations, you can use this addon to revert the difficulty modifiers to vanilla: You will deal more damage and receive less.&lt;/p>
+&lt;p>This mod is &lt;strong>optional&lt;/strong>.&lt;/p>
+&lt;h4 id="download-instructions">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Blade and Blunt - Vanilla Difficulty Modifiers&lt;/li>
+&lt;/ul>
+&lt;h3 id="blade-and-blunt---timed-block-modulehttpswwwnexusmodscomskyrimspecialeditionmods34549tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34549?tab=files">Blade and Blunt - Timed Block Module&lt;/a>&lt;/h3>
+&lt;p>Timed Blocking is not a feature in Blade and Blunt but has now been added by popular request. The reason is that shield bashing is a far better alternative in terms of balancing: Take a chance and interrupt your foe&amp;rsquo;s power attack with a bash. If you time it just right, you will interrupt them and gain a window of opportunity. If you don&amp;rsquo;t, you will bear the full brunt of their swing. When using Timed Block on the other hand, the worst that can happen is that you mistime your block and instead of getting a timed block only block normally.&lt;/p>
+&lt;p>Whether that makes combat feel too easy or just satisfying is up to you. This mod is &lt;strong>optional&lt;/strong>.&lt;/p>
+&lt;h3 id="disable-cinematic-killshttpswwwnexusmodscomskyrimspecialeditionmods169tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/169?tab=files">Disable Cinematic Kills&lt;/a>&lt;/h3>
+&lt;p>I don&amp;rsquo;t like kill cams. This mod is &lt;strong>optional&lt;/strong>.&lt;/p>
+&lt;p>&lt;em>In case you&amp;rsquo;re wondering: Kill cams against the player are already disabled by Blade and Blunt. This is because they can be somewhat unfair and trigger even on attacks that normally wouldn&amp;rsquo;t have killed the PC.&lt;/em>&lt;/p>
+&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Disable Cinematic Kills&lt;/li>
+&lt;/ul>
+&lt;h3 id="werewolf-killcam-removerhttpswwwnexusmodscomskyrimspecialeditionmods41925tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41925?tab=files">Werewolf Killcam Remover&lt;/a>&lt;/h3>
+&lt;p>Because the previous mod doesn&amp;rsquo;t affect werewolves. This mod is &lt;strong>optional&lt;/strong>.&lt;/p>
+&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Werewolf Killcam Remover&lt;/li>
 &lt;/ul></description></item><item><title>Tpf-X: New Gear</title><link>https://thephoenixflavour.com/tpf-x/installation/new-gear/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf-x/installation/new-gear/</guid><description>
 &lt;h2 id="royal-armory">Royal Armory&lt;/h2>
 &lt;p>I&amp;rsquo;ve been interested in trying Royal Armory by PrivateEye for a long while but was put off by a few rather significant bugs and varying asset quality. Thankfully, these things have been fixed and improved by modders now.&lt;/p>
@@ -231,16 +255,16 @@
 &lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Royal Armory - Reforged - Main Replacer 1.1&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Dragonfang - Penitus Logo &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Hafyllbrand - Custom Textures &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Sword of Dragonsreach - Custom Textures &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Loadscreen Models Update&lt;/li>
 &lt;/ul>
 &lt;h3 id="royal-armory---new-artifacts-plugin-replacerhttpswwwnexusmodscomskyrimspecialeditionmods44392tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/44392?tab=files">Royal Armory - New Artifacts Plugin Replacer&lt;/a>&lt;/strong>&lt;/h3>
 &lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Royal Armory - Replacer&lt;/li>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> Dragonfang - Penitus Logo &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> Hafyllbrand - Custom Textures &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> Sword of Dragonsreach - Custom Textures &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
-&lt;li>&lt;strong>Optional Files:&lt;/strong> Royal Armory - Replacer Patch Hub&lt;/li>
+&lt;li>&lt;strong>Old Files:&lt;/strong> Royal Armory - Replacer Patch Hub&lt;/li>
 &lt;/ul>
 &lt;h4 id="fomod-instructions---patch-hub">FOMOD Instructions - Patch Hub&lt;/h4>
 &lt;ul>
@@ -381,7 +405,7 @@
 &lt;p>This mod is &lt;strong>optional&lt;/strong>.&lt;/p>
 &lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Dragon Claws Auto-Unlock (Sequential)&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Dragon Claws Auto-Unlock (Simultaneous)&lt;/li>
 &lt;/ul>
 &lt;h3 id="no-lockpickinghttpswwwnexusmodscomskyrimspecialeditionmods32218tabfiles">&lt;strong>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32218?tab=files">No Lockpicking&lt;/a>&lt;/strong>&lt;/h3>
 &lt;p>This one &amp;hellip; may be slightly controversial. It deletes the lockpicking minigame but without ruining balancing as lockpicks will still be consumed depending on lock difficulty.&lt;/p>
