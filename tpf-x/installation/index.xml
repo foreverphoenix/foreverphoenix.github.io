@@ -264,11 +264,22 @@
 &lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Royal Armory - Replacer&lt;/li>
-&lt;li>&lt;strong>Old Files:&lt;/strong> Royal Armory - Replacer Patch Hub&lt;/li>
 &lt;/ul>
-&lt;h4 id="fomod-instructions---patch-hub">FOMOD Instructions - Patch Hub&lt;/h4>
+&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Patches:&lt;/strong> Obscure&amp;rsquo;s College of Winterhold - Cell Setting Patch&lt;/li>
+&lt;li>&lt;strong>Royal Armory:&lt;/strong> Royal Armory&lt;/li>
+&lt;li>&lt;strong>Patches:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;del>Blue Palace Terrace Patch&lt;/del>&lt;/li>
+&lt;li>&lt;del>Immersive College of Winterhold Patch&lt;/del>&lt;/li>
+&lt;li>&lt;del>Obscure&amp;rsquo;s College of Winterhold Patch&lt;/del>&lt;/li>
+&lt;li>Obscure&amp;rsquo;s College of Winterhold - Cell Setting Patch&lt;/li>
+&lt;li>&lt;del>Palaces and Castles Enhanced Patch&lt;/del>&lt;/li>
+&lt;li>&lt;del>This is Jorrvaskr - Home of the Companions Patch&lt;/del>&lt;/li>
+&lt;li>&lt;del>Unique Thane Weapon Patch&lt;/del>&lt;/li>
+&lt;li>&lt;del>Unique Thane Weapon + Palaces and Castles Enhanced Patch&lt;/del>&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;h4 id="load-order-instructions">Load Order Instructions&lt;/h4>
 &lt;ul>
