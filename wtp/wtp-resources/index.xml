@@ -156,34 +156,4 @@
 &lt;h3 id="simple-crafting-station-1">Simple Crafting Station&lt;/h3>
 &lt;p>These patches tweak the crafting recipes primarily for config holotapes, moving them into the MOD CONFIG category at the crafting station as well as removing the scrap requirements.&lt;/p>
 &lt;h3 id="conflict-resolution-patch">Conflict Resolution Patch&lt;/h3>
-&lt;p>The final patch to resolve all remaining conflicts.&lt;/p></description></item><item><title>Wtp: Ultrawide Support</title><link>https://thephoenixflavour.com/wtp/wtp-resources/ultrawide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/wtp-resources/ultrawide/</guid><description>
-&lt;p>For users with a monitor resolution of 21:9 (ultrawide), manually changing the resolution is required as well as a patch for the interface.&lt;/p>
-&lt;h2 id="changing-the-resolution">Changing the resolution&lt;/h2>
-&lt;ul>
-&lt;li>Open the INI editor in Mod Organizer 2.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/installation/mo2-ini-editor.png" alt="Open INI Editor">&lt;/p>
-&lt;ul>
-&lt;li>Switch to the fallout4prefs.ini tab and scroll down to the [Display] section.&lt;/li>
-&lt;li>Replace the following two lines with the set matching your monitor resolution:
-&lt;ul>
-&lt;li>&lt;code>iSize W=&lt;/code>&lt;/li>
-&lt;li>&lt;code>iSize H=&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Click &lt;strong>Save&lt;/strong> and close the window.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>For 2560x1080&lt;/strong>&lt;/p>
-&lt;pre>&lt;code>iSize W=2560
-iSize H=1080
-&lt;/code>&lt;/pre>&lt;p>&lt;strong>For 3440x1440&lt;/strong>&lt;/p>
-&lt;pre>&lt;code>iSize W=3440
-iSize H=1440
-&lt;/code>&lt;/pre>&lt;h2 id="truby9-ultrawide">TruBy9 Ultrawide&lt;/h2>
-&lt;p>The most comprehensive widescreen fix mod for Fallout 4, &lt;a href="https://www.nexusmods.com/fallout4/mods/2463">TruBy9 Ultrawide&lt;/a>, is already pre-installed in WTP. All you need to do is activate it and some additional fixes.&lt;/p>
-&lt;ul>
-&lt;li>In Mod Organizer 2, scroll to the &lt;strong>ULTRAWIDE SUPPORT (OPTIONAL)&lt;/strong> section under &lt;strong>INTERFACE&lt;/strong>.&lt;/li>
-&lt;li>Check all mods below that separator.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h4 id="continue-with-the-new-gamewtpinstallationnew-game-page">Continue with the &lt;a href="https://thephoenixflavour.com/wtp/installation/new-game/">New Game&lt;/a> page.&lt;/h4></description></item></channel></rss>
+&lt;p>The final patch to resolve all remaining conflicts.&lt;/p></description></item></channel></rss>

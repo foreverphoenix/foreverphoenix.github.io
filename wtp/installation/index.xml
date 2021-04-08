@@ -249,37 +249,13 @@ uPipboyTargetWidth=876
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/installation/change-fps-cap.png" alt="Change FPS Cap">&lt;/p>
 &lt;h2 id="resolution">Resolution&lt;/h2>
-&lt;p>There are several relevant factors when deciding on which resolution to play at.&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>What is my monitor&amp;rsquo;s aspect ratio?&lt;/strong> Most monitors nowadays have an aspect ratio of 16:9. However, widescreen / ultrawide monitors with a 21:9 aspect ratio are also fairly common.&lt;/li>
-&lt;li>&lt;strong>What is my monitor&amp;rsquo;s resolution?&lt;/strong> You are limited by your monitor&amp;rsquo;s maximum resolution. On a 1440p monitor, you can play with a resolution of 2560x1440 or lower. Playing at 1080p on a 1440p monitor will yield better performance at the cost of image sharpness / clarity.&lt;/li>
-&lt;li>&lt;strong>What is my hardware capable of?&lt;/strong> Generally speaking, you will get the best performance playing at 1080p. However, WTP has been optimised for good performance so with decently modern hardware, you should get stable 60FPS at 1440p as well. Be warned that increasing the resolution will always impact performance.&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>&lt;strong>By default, WTP is running at 1440p.&lt;/strong>&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="changing-the-resolution">Changing the resolution&lt;/h3>
-&lt;p>If you want to play at &lt;strong>1080p&lt;/strong> or &lt;strong>2160p&lt;/strong>, you need to change the resolution in the falloutprefs.ini file. Note that playing at 4K may strongly impact performance.&lt;/p>
-&lt;ul>
-&lt;li>Click the puzzle icon in MO2 and select &lt;strong>INI Editor&lt;/strong>.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/installation/mo2-ini-editor.png" alt="Open INI Editor">&lt;/p>
-&lt;ul>
-&lt;li>Switch to the &lt;strong>fallout4prefs.ini&lt;/strong> tab and scroll down to the &lt;strong>[Display]&lt;/strong> section (see picture below).&lt;/li>
-&lt;li>Edit the following two lines with the respective values for your desired resolution:&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>For 1080p - 1920x1080:&lt;/strong>&lt;/p>
-&lt;pre>&lt;code>iSize H=1080
-iSize W=1920
-&lt;/code>&lt;/pre>&lt;p>&lt;strong>For 2160p - 3840x2160:&lt;/strong>&lt;/p>
-&lt;pre>&lt;code>iSize H=2160
-iSize W=3840
-&lt;/code>&lt;/pre>&lt;ul>
-&lt;li>Close the window and click &lt;strong>Yes&lt;/strong> to save your changes.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/installation/change-resolution.png" alt="Adjust resolution">&lt;/p>
+&lt;p>Wabbajack will automatically adjust the INI files to your current default monitor resolution.&lt;/p>
 &lt;h3 id="ultrawide-monitor">Ultrawide Monitor&lt;/h3>
-&lt;p>If you are playing on an 21:9 ultrawide monitor, please refer to the &lt;a href="https://thephoenixflavour.com/wtp/wtp-resources/ultrawide/">Ultrawide Support&lt;/a> page.&lt;/p>
+&lt;p>For compatibility with 21:9 ultrawide monitors you need to follow some extra steps to patch the interface. The most comprehensive widescreen fix mod for Fallout 4, &lt;a href="https://www.nexusmods.com/fallout4/mods/2463">TruBy9 Ultrawide&lt;/a>, is already pre-installed in WTP. All you need to do is activate it and some additional fixes.&lt;/p>
+&lt;ul>
+&lt;li>In Mod Organizer 2, expand to the &lt;strong>ULTRAWIDE SUPPORT (OPTIONAL)&lt;/strong> separator.&lt;/li>
+&lt;li>Enable all mods below that separator.&lt;/li>
+&lt;/ul>
 &lt;hr>
 &lt;h4 id="continue-with-the-new-gamewtpinstallationnew-game-page">Continue with the &lt;a href="https://thephoenixflavour.com/wtp/installation/new-game/">New Game&lt;/a> page.&lt;/h4></description></item><item><title>Wtp: New Game</title><link>https://thephoenixflavour.com/wtp/installation/new-game/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/installation/new-game/</guid><description>
 &lt;h2 id="launching-the-game">Launching the game&lt;/h2>
