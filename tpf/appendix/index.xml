@@ -161,6 +161,10 @@
 &lt;li>Updated Private Profile Redirector to 0.5.2&lt;/li>
 &lt;li>Updated ENBSeries (no version change)&lt;/li>
 &lt;li>Updated SSELODGen to Beta 76&lt;/li>
+&lt;li>&lt;strong>4.5.1.1:&lt;/strong> Replaced Harder Quest Tweaks old files&lt;/li>
+&lt;li>&lt;strong>4.5.1.2:&lt;/strong> Removed Particle Patch from downloads (it&amp;rsquo;s inlined)&lt;/li>
+&lt;li>&lt;strong>4.5.1.2:&lt;/strong> Fixed missing NPCsWithFaces archive&lt;/li>
+&lt;li>&lt;strong>4.5.1.2:&lt;/strong> Regenerated terrain LOD which fixed an issue&lt;/li>
 &lt;/ul>
 &lt;h2 id="release-45">Release 4.5&lt;/h2>
 &lt;blockquote>
