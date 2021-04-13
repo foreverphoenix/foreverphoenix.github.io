@@ -659,13 +659,14 @@
 &lt;p>Cathedral Assets Optimizer (CAO) by Gk1 is a unified asset processing tool that can be used to extract or create BSAs, optimize assets, compress or resize textures, and more.&lt;/p>
 &lt;h3 id="installation">Installation&lt;/h3>
 &lt;ul>
-&lt;li>Download the latest non-Beta version of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23316">Cathedral Assets Optimizer&lt;/a> manually from the Nexus.&lt;/li>
+&lt;li>Manually download version &lt;strong>5.0.15&lt;/strong> of the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23316">Cathedral Assets Optimizer&lt;/a> under &lt;strong>Old Files&lt;/strong>&lt;/li>
 &lt;li>Create a new folder: &lt;code>Your Modding Folder\Tools\Cathedral Assets Optimizer&lt;/code>.&lt;/li>
 &lt;li>Open the downloaded archive and extract everything into the new folder.&lt;/li>
 &lt;li>Follow &lt;a href="https://support.microsoft.com/en-us/help/4028485/windows-">these instructions&lt;/a> to add an exception for CAO to Windows Defender.&lt;/li>
 &lt;/ul>
-&lt;blockquote>
 &lt;p>You will be using CAO plenty of times during the installation of the guide, so I recommend adding it to your Windows Taskbar for quick access.&lt;/p>
+&lt;blockquote>
+&lt;p>We are using an older version because CAO 5.1.x currently has some issues. Using it later on to pack and compress facegen files would cause the game to crash.&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="profiles">Profiles&lt;/h3>
 &lt;p>With the latest versions of CAO, you can set up dedicated profiles to switch between the two primary uses of CAO at will. I created several profiles for different purposes to be used during the installation of the guide.&lt;/p>
