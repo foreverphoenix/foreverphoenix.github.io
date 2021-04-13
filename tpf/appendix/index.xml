@@ -105,6 +105,7 @@
 &lt;li>&lt;strong>Valuable Items:&lt;/strong> Removed Septim HD (coin pile mesh can cause crashes).&lt;/li>
 &lt;li>&lt;strong>Valuable Items:&lt;/strong> Added Ancient Imperial Septims.&lt;/li>
 &lt;li>&lt;strong>New Content:&lt;/strong> Removed note about Early Elementalist for Misc College of Winterhold Tweaks (no longer applies).&lt;/li>
+&lt;li>&lt;strong>Assorted Plugins:&lt;/strong> Updated download instructions for Free Look (file name changed).&lt;/li>
 &lt;/ul>
 &lt;h4 id="finalisation">Finalisation&lt;/h4>
 &lt;ul>
@@ -115,6 +116,14 @@
 &lt;li>Removed leftover edit to an Ash Spawn weapon from a mod I don&amp;rsquo;t remember.&lt;/li>
 &lt;li>Removed leftover edit to blacksmith water trough in Riften.&lt;/li>
 &lt;li>Slapped bandaid on broken glaciers on Solstheim.&lt;/li>
+&lt;/ul>
+&lt;h4 id="wabbajack">Wabbajack&lt;/h4>
+&lt;ul>
+&lt;li>Regenerated DynDOLOD&lt;/li>
+&lt;li>Updated Mundus - A Standing Stone Overhaul to 1.5.1&lt;/li>
+&lt;li>Updated Manbeast - A Werewolf Overhaul to 1.1.0&lt;/li>
+&lt;li>Updated Blade and Blunt - A Combat Overhaul to 1.3.1&lt;/li>
+&lt;li>Updated Free Look to 3.0&lt;/li>
 &lt;/ul>
 &lt;h2 id="release-451">Release 4.5.1&lt;/h2>
 &lt;blockquote>
@@ -394,7 +403,7 @@
 &lt;li>&lt;strong>Occlusion:&lt;/strong> Updated the Occlusion page (it&amp;rsquo;s very short now).&lt;/li>
 &lt;li>&lt;strong>ENBSeries:&lt;/strong> Added instructions to disable distant reflections in Serio&amp;rsquo;s ENB.&lt;/li>
 &lt;/ul>
-&lt;h4 id="wabbajack">Wabbajack&lt;/h4>
+&lt;h4 id="wabbajack-1">Wabbajack&lt;/h4>
 &lt;ul>
 &lt;li>Updated the instructions for launching Skyrim (renamed SKSE &amp;raquo; The Phoenix Flavour).&lt;/li>
 &lt;/ul>
@@ -692,7 +701,7 @@
 &lt;li>&lt;strong>Facegen:&lt;/strong> Adjusted instructions zEdit instructions (since the script can just be downloaded now).&lt;/li>
 &lt;li>&lt;strong>Facegen:&lt;/strong> Updated the screenshot for loading the plugin in the CK (changed load order confused people).&lt;/li>
 &lt;/ul>
-&lt;h4 id="wabbajack-1">Wabbajack&lt;/h4>
+&lt;h4 id="wabbajack-2">Wabbajack&lt;/h4>
 &lt;ul>
 &lt;li>Added instructions on how to uncap the framerate for people with G-Sync or FreeSync monitors.&lt;/li>
 &lt;/ul>
@@ -1039,7 +1048,7 @@
 &lt;ul>
 &lt;li>&lt;strong>First Launch:&lt;/strong> Slightly rewrote the last bit to not make it seem as if you were done with the guide at this point.&lt;/li>
 &lt;/ul>
-&lt;h4 id="wabbajack-2">Wabbajack&lt;/h4>
+&lt;h4 id="wabbajack-3">Wabbajack&lt;/h4>
 &lt;ul>
 &lt;li>Added instructions to re-enable VSYNC for those who need it.&lt;/li>
 &lt;/ul>
@@ -1159,7 +1168,7 @@
 &lt;li>The MOD CONFIGURATION page is now a top-level page.&lt;/li>
 &lt;li>The GAMEPLAY GUIDE page is now a top-level page.&lt;/li>
 &lt;/ul>
-&lt;h4 id="wabbajack-3">Wabbajack&lt;/h4>
+&lt;h4 id="wabbajack-4">Wabbajack&lt;/h4>
 &lt;ul>
 &lt;li>Added this new top-level page with instructions for the Wabbajack version of TPF.&lt;/li>
 &lt;/ul>
