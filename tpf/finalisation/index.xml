@@ -140,7 +140,7 @@
 &lt;ul>
 &lt;li>Navigate to your &lt;strong>root&lt;/strong> folder.&lt;/li>
 &lt;li>Double-click &lt;strong>skyrim64_test.ini&lt;/strong>.&lt;/li>
-&lt;li>Scroll to &lt;strong>Line 31&lt;/strong> and change the line to &lt;code>TintMaskResolution=1024&lt;/code>.&lt;/li>
+&lt;li>Scroll to &lt;strong>Line 32&lt;/strong> and change the line to &lt;code>TintMaskResolution=1024&lt;/code>.&lt;/li>
 &lt;li>Save the file and close.&lt;/li>
 &lt;/ul>
 &lt;h2 id="npcswithfaces">NPCsWithFaces&lt;/h2>
