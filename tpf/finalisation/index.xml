@@ -140,12 +140,14 @@
 &lt;ul>
 &lt;li>Navigate to your &lt;strong>root&lt;/strong> folder.&lt;/li>
 &lt;li>Double-click &lt;strong>skyrim64_test.ini&lt;/strong>.&lt;/li>
-&lt;li>Scroll to &lt;strong>Line 32&lt;/strong> and change the line to &lt;code>TintMaskResolution=1024&lt;/code>.&lt;/li>
+&lt;li>Scroll to &lt;strong>Line 33&lt;/strong> and change the line to &lt;code>TintMaskResolution=1024&lt;/code>.&lt;/li>
 &lt;li>Save the file and close.&lt;/li>
 &lt;/ul>
 &lt;h2 id="npcswithfaces">NPCsWithFaces&lt;/h2>
 &lt;p>The official master files have a large amount of NPC records, not all of which need facegen. For example, we don&amp;rsquo;t need to regenerate facegen for children, NPCs that have templates (use facegen from other records), or simply creatures. Thankfully, we can use zEdit and a code snippet by VictorF to filter out relevant records and copy them to a separate plugin. We will also use it to filter out NPC records with facegen from those mods that add new NPCs at the same time.&lt;/p>
 &lt;ul>
+&lt;li>Navigate to your zEdit directory: &lt;code>Your Modding Folder\Tools\zEdit\&lt;/code>.&lt;/li>
+&lt;li>Create a new &lt;strong>scripts&lt;/strong> folder inside.&lt;/li>
 &lt;li>Download the &lt;strong>NPCsWithFaces - zEdit Script&lt;/strong> from the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Nexus page&lt;/a> manually.&lt;/li>
 &lt;li>Open the archive and extract the script to &lt;code>Your Modding Folder\Tools\zEdit\scripts\&lt;/code>.&lt;/li>
 &lt;/ul>
@@ -603,6 +605,16 @@
 &lt;li>Double-click the &lt;strong>enblocal.ini&lt;/strong> inside to import it.&lt;/li>
 &lt;li>Press CTRL+A to select all settings and click the green checkmark button in the toolbar to enable them.&lt;/li>
 &lt;/ul>
+&lt;h3 id="fix-black-hair">Fix Black Hair&lt;/h3>
+&lt;p>There is an additional fix to improve ENB shaders on hair that is not in the INI file by default.&lt;/p>
+&lt;ul>
+&lt;li>Click the green plus icon to add a setting.&lt;/li>
+&lt;li>Enter &lt;strong>FIX&lt;/strong> under &lt;strong>Section&lt;/strong>.&lt;/li>
+&lt;li>Enter &lt;strong>FixBlackHair&lt;/strong> under &lt;strong>Setting&lt;/strong>.&lt;/li>
+&lt;li>Enter &lt;strong>true&lt;/strong> under &lt;strong>Value&lt;/strong>.&lt;/li>
+&lt;li>Check the box for the new setting.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/finalisation/enb-fixblackhair.png" alt="Fix Black Hair">&lt;/p>
 &lt;h3 id="better-hotkeys">Better Hotkeys&lt;/h3>
 &lt;p>I&amp;rsquo;m personally not a fan of the default ENB ingame hotkeys. &amp;ldquo;KeyUseEffect&amp;rdquo;, for instance, is on Shift+F12. At the same time, F12 is the Steam hotkey for &amp;ldquo;Take Screenshot&amp;rdquo;. You can see how that might result in many unwanted screenshots.&lt;/p>
 &lt;p>Check the screenshot below and mirror my values in the input section to get the following hotkeys:&lt;/p>

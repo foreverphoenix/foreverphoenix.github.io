@@ -698,11 +698,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>Double-click &lt;strong>moreHUD&lt;/strong> in your mod order.&lt;/li>
 &lt;li>Switch to the &lt;strong>Filetree&lt;/strong> tab.&lt;/li>
-&lt;li>Rename the following file:
-&lt;ul>
-&lt;li>AHZmoreHUD.&lt;strong>esp&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;/li>
+&lt;li>Rename AHZmoreHUD.&lt;strong>esl&lt;/strong> to AHZmoreHUD.&lt;strong>esp&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>This is faster than ESL-ifying the ESP version.&lt;/p>
@@ -814,19 +810,6 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Roboto Main Font Replacer&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
-&lt;ul>
-&lt;li>Double-click &lt;strong>Roboto Font Replacer&lt;/strong> in your mod order.&lt;/li>
-&lt;li>Switch to the &lt;strong>Text Files&lt;/strong> tab and select the &lt;strong>fontconfig.txt&lt;/strong> file.&lt;/li>
-&lt;li>Create a new line below &lt;code>fontlib &amp;quot;Interface\fonts_en6.swf&amp;quot;&lt;/code>.&lt;/li>
-&lt;li>Paste &lt;code>fontlib &amp;quot;Interface\fonts_consolas.swf&amp;quot;&lt;/code> into the new &lt;strong>Line 4&lt;/strong>.&lt;/li>
-&lt;li>In &lt;strong>Line 5&lt;/strong>, change &lt;code>&amp;quot;Arial&amp;quot;&lt;/code> to &lt;code>&amp;quot;Consolas&amp;quot;&lt;/code>.&lt;/li>
-&lt;li>Close the window and click &lt;strong>Yes&lt;/strong> when asked to save.&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>This way we can use Roboto for dialogue, menus, etc and Dear Diary&amp;rsquo;s Consolas font (packaged with Dear Diary - Better More Informative Console installed in the Essential Mods section) for the console.&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/mod-installation/roboto-console-font.png" alt="Roboto Console Font">&lt;/p>
 &lt;h5 id="recleaned-menuhttpswwwnexusmodscomskyrimspecialeditionmods26680tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26680?tab=files">ReCleaned Menu&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-24">Download Instructions&lt;/h4>
 &lt;ul>
@@ -837,7 +820,7 @@ SetGS fSandboxCylinderBottom -576
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> DRELDYN&amp;rsquo;s Original Main Menu Overhaul&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions-3">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Delete the following file(s) and/or folder(s):
 &lt;ul>
@@ -2012,14 +1995,16 @@ fWindGrassMultiplier=1.4
 &lt;h5 id="skyrim-flora-overhaulhttpswwwnexusmodscomskyrimspecialeditionmods2154tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2154?tab=files">Skyrim Flora Overhaul&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> SFO (No grass) v2.72G&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> SFO (No Grass)&lt;/li>
 &lt;/ul>
 &lt;h4 id="additional-instructions-7">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Delete the following file(s) and / or folder(s):
 &lt;ul>
+&lt;li>&lt;code>DynDOLOD\&lt;/code>&lt;/li>
 &lt;li>&lt;code>meshes\&lt;/code>&lt;/li>
 &lt;li>&lt;code>textures\architecture\&lt;/code>&lt;/li>
+&lt;li>&lt;code>textures\DynDOLOD\&lt;/code>&lt;/li>
 &lt;li>&lt;code>textures\landscape\&lt;/code>&lt;/li>
 &lt;li>&lt;code>textures\terrain\&lt;/code>&lt;/li>
 &lt;li>&lt;code>Skyrim Flora Overhaul.esp&lt;/code>&lt;/li>
