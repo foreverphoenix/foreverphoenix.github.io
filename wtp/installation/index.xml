@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Installation</title><link>https://thephoenixflavour.com/wtp/installation/</link><description>Recent content in Installation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/wtp/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>Wtp: Getting Started</title><link>https://thephoenixflavour.com/wtp/installation/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/installation/getting-started/</guid><description>
-&lt;h2 id="warning">Warning&lt;/h2>
-&lt;p>While Wabbajack takes care of 99% of the work, there are still some steps that need to be completed by the user. The &lt;strong>Installation&lt;/strong> section will take you through the process from start to finish and &lt;strong>you are expected to follow it to the letter&lt;/strong>.&lt;/p>
 &lt;h2 id="requirements">Requirements&lt;/h2>
+&lt;p>While Wabbajack takes care of 99% of the work, there are still some steps that need to be completed by the user. The &lt;strong>Installation&lt;/strong> section will take you through the process from start to finish and you are expected to follow it to the letter.&lt;/p>
+&lt;p>&lt;strong>You need:&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>A copy of Fallout 4 with all official DLC (Game of the Year Edition) on Steam.&lt;/li>
+&lt;li>A copy of &lt;a href="https://store.steampowered.com/sub/199943/">Fallout 4&lt;/a> with all official DLC (Game of the Year Edition) on Steam.&lt;/li>
 &lt;li>A &lt;a href="https://www.nexusmods.com/fallout4">Nexus Mods&lt;/a> account, preferably with a Premium subscription.&lt;/li>
-&lt;li>Around 38GB disc space for all mods and archives.&lt;/li>
+&lt;li>Around 25GB for WTP, 13.7GB for the downloaded mods, and 34.5GB for the base game.&lt;/li>
 &lt;/ul>
 &lt;p>Grab a cup of coffee and let&amp;rsquo;s get started.&lt;/p>
 &lt;h2 id="modding-folder">Modding Folder&lt;/h2>
@@ -27,11 +27,7 @@
 &lt;h2 id="vc-redists">VC Redists&lt;/h2>
 &lt;p>Mod Organizer 2 requires the latest Microsoft Visual C++ Redistributable.&lt;/p>
 &lt;ul>
-&lt;li>Open the &lt;a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">official VC Redists page&lt;/a> and download the following file:
-&lt;ul>
-&lt;li>&lt;strong>vc_redist.x64.exe&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;/li>
+&lt;li>Open the &lt;a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">official VC Redists page&lt;/a> and download the &lt;strong>vc_redist.x64.exe&lt;/strong>.&lt;/li>
 &lt;li>Run downloaded executable. It will guide you through the installation process.&lt;/li>
 &lt;li>You may have to restart your computer in order to finalise the installation.&lt;/li>
 &lt;/ul>
@@ -43,21 +39,14 @@
 &lt;h3 id="uac-protected-folders">UAC protected folders&lt;/h3>
 &lt;p>The reinstallation also serves the purpose of relocating the game files to a better directory. Using UAC protected folders (such as &lt;code>C:\Program Files&lt;/code> or &lt;code>C:\Program Files x86&lt;/code>) for the game or any modding tools has a risk of causing issues down the line. It is best to avoid those folders to begin with. Most Wabbajack list authors, myself included, will not provide support for people that disregard this warning and use UAC protected folders anyway.&lt;/p>
 &lt;p>Note that this does not include the Steam client. Most people will have it installed under &lt;code>C:\Program Files x86\Steam&lt;/code> which is completely fine.&lt;/p>
-&lt;h3 id="preferred-hard-drive">Preferred hard drive&lt;/h3>
-&lt;p>Fallout 4 and Mod Organizer 2 should be installed on the same hard drive. Ideally that hard drive would be an SSD to reduce loading times and eliminate stuttering.&lt;/p>
-&lt;h2 id="uninstallation">Uninstallation&lt;/h2>
 &lt;blockquote>
-&lt;p>Skip this if you do not have Fallout 4 installed.&lt;/p>
+&lt;p>Fallout 4 and Mod Organizer 2 should be installed on the same hard drive. Ideally that hard drive would be an SSD to reduce loading times and eliminate stuttering.&lt;/p>
 &lt;/blockquote>
+&lt;h2 id="uninstallation">Uninstallation&lt;/h2>
+&lt;p>If you never modded Fallout 4 and never installed other Wabbajack lists, you may skip this step. However, I still recommend you verify the game files through Steam in that case.&lt;/p>
 &lt;ul>
-&lt;li>Open Steam and go into your games library.&lt;/li>
-&lt;li>Find &lt;strong>Fallout 4&lt;/strong> in the list, right-click it and select &lt;strong>Manage&lt;/strong> &amp;raquo; &lt;strong>Uninstall&lt;/strong>.&lt;/li>
-&lt;li>Click &lt;strong>Uninstall&lt;/strong> to confirm.&lt;/li>
-&lt;li>Navigate to your Fallout 4 directory. This is most likely:
-&lt;ul>
-&lt;li>&lt;code>C:\Program File x86\Steam\steamapps\common\Fallout 4&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
+&lt;li>Uninstall &lt;strong>Fallout 4&lt;/strong> through Steam&lt;/li>
+&lt;li>Navigate to your Fallout 4 directory: &lt;code>C:\Program File x86\Steam\steamapps\common\Fallout 4&lt;/code>.&lt;/li>
 &lt;li>Delete any left-over files in this folder.&lt;/li>
 &lt;/ul>
 &lt;h3 id="ini-folder">INI Folder&lt;/h3>
@@ -78,10 +67,10 @@
 &lt;p>In order to prevent some confusion, I will refer to the Library in Steam as the &lt;strong>Game Library&lt;/strong>. It is the second of four items in the top menu in the Steam client and contains a list of all your games.&lt;/p>
 &lt;p>A &lt;strong>Steam Library&lt;/strong> on the other hand is a folder on your hard drive into which Steam games are installed. By default this would be &lt;code>C:\Program Files x86\Steam\steamapps\common\&lt;/code>. Since we do not want to have files inside a UAC protected folder like Program Files x86, we should not install Fallout 4 in the default directory. A new &lt;strong>Steam Library&lt;/strong> is required.&lt;/p>
 &lt;blockquote>
-&lt;p>It is important to note that Steam only allows one Steam Library per hard drive, although there is a workaround. If for instance you already have a Steam Library on your C drive, but you want to have your modding files on C as well, you need to create a second Steam Library manually following the instructions &lt;a href="https://steamcommunity.com/discussions/forum/1/1355112940663240029">here&lt;/a>.&lt;/p>
+&lt;p>Unfortunately Steam allows only one Steam Library per hard drive. You can find a workaround &lt;a href="https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide">here&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="creating-a-new-library">Creating a new library&lt;/h3>
-&lt;p>If you already have a separate Steam Library outside the UAC protected folders on the drive you want to install Fallout 4 and Mod Organizer 2 on, skip ahead to the next step (Reinstalling the game).&lt;/p>
+&lt;p>If you already have a separate Steam Library outside the UAC protected folders on the drive you want to install Fallout 4 and Mod Organizer 2 on, skip ahead to the next step.&lt;/p>
 &lt;p>Otherwise follow the instructions below to create a new Steam Library:&lt;/p>
 &lt;ul>
 &lt;li>Open &lt;strong>Steam&lt;/strong> and go into the &lt;strong>Settings&lt;/strong>.&lt;/li>
@@ -102,7 +91,7 @@
 &lt;ul>
 &lt;li>Open Steam and go into your &lt;strong>Game Library&lt;/strong>.&lt;/li>
 &lt;li>Find &lt;strong>Fallout 4&lt;/strong> in the list and click &lt;strong>Install&lt;/strong>.&lt;/li>
-&lt;li>As location, select the &lt;strong>Steam Library&lt;/strong> you just created and click &lt;strong>Next&lt;/strong>.&lt;/li>
+&lt;li>As location, select a &lt;strong>Steam Library&lt;/strong> in a non-UAC protected folder and click &lt;strong>Next&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;p>Wait for Fallout 4 to be downloaded before you proceed.&lt;/p>
 &lt;h3 id="regenerating-ini-files">Regenerating INI Files&lt;/h3>
@@ -141,7 +130,7 @@
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/installation/disable-hd-dlc.png" alt="Disable HD DLC">&lt;/p>
 &lt;h2 id="creation-club-content">Creation Club Content&lt;/h2>
-&lt;p>If you bought any &amp;ldquo;creations&amp;rdquo; from the Creation Club (or grabbed some while they were available for free), they may still be present in your Data folder. Since WTP does not currently support Creation Club content you need to remove the files from your &lt;strong>Data&lt;/strong> folder for the time being.&lt;/p>
+&lt;p>If you bought any &amp;ldquo;creations&amp;rdquo; from the Creation Club (or grabbed some while they were available for free), they may still be present in your Data folder. Some select &amp;ldquo;creations&amp;rdquo; are supported in WTP as of version 1.6 but I recommend you install them as separate mods later on.&lt;/p>
 &lt;ul>
 &lt;li>Navigate to &lt;code>steamapps\common\Fallout4\Data&lt;/code> and cut (CTRL + X) all files starting with &lt;strong>cc&lt;/strong>.&lt;/li>
 &lt;li>Paste (CTRL + V) all files to &lt;code>Fallout 4 Modding\Backups\Creation Club&lt;/code>.&lt;/li>
@@ -205,7 +194,7 @@
 &lt;li>Check the pictures for &lt;a href="https://www.nexusmods.com/fallout4/mods/5060">Fallout 4 Enhanced Color Correction&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;h2 id="controller-fix">Controller Fix&lt;/h2>
-&lt;p>For FallUI, the interface overhaul, I increased the Pipboy resolution in the &lt;code>fallout4prefs.ini&lt;/code> file. Unfortunately this will cause the map cursor to lock in the upper left corner when playing with a controller.&lt;/p>
+&lt;p>The resolution of the Pip-Boy interface was increased in the &lt;code>fallout4prefs.ini&lt;/code> file. Unfortunately this will cause the map cursor to lock in the upper left corner when playing with a controller.&lt;/p>
 &lt;p>If you play with a controller, follow these instructions to revert the INI tweak:&lt;/p>
 &lt;ul>
 &lt;li>Click the puzzle icon in MO2 and select &lt;strong>INI Editor&lt;/strong>.&lt;/li>
@@ -248,15 +237,6 @@ uPipboyTargetWidth=876
 &lt;li>Press &lt;strong>CTRL + S&lt;/strong> to save and close the window.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/installation/change-fps-cap.png" alt="Change FPS Cap">&lt;/p>
-&lt;h2 id="resolution">Resolution&lt;/h2>
-&lt;p>Wabbajack will automatically adjust the INI files to your current default monitor resolution.&lt;/p>
-&lt;h3 id="ultrawide-monitor">Ultrawide Monitor&lt;/h3>
-&lt;p>For compatibility with 21:9 ultrawide monitors you need to follow some extra steps to patch the interface. The most comprehensive widescreen fix mod for Fallout 4, &lt;a href="https://www.nexusmods.com/fallout4/mods/2463">TruBy9 Ultrawide&lt;/a>, is already pre-installed in WTP. All you need to do is activate it and some additional fixes.&lt;/p>
-&lt;ul>
-&lt;li>In Mod Organizer 2, expand to the &lt;strong>ULTRAWIDE SUPPORT (OPTIONAL)&lt;/strong> separator.&lt;/li>
-&lt;li>Enable all mods below that separator.&lt;/li>
-&lt;/ul>
-&lt;hr>
 &lt;h4 id="continue-with-the-new-gamewtpinstallationnew-game-page">Continue with the &lt;a href="https://thephoenixflavour.com/wtp/installation/new-game/">New Game&lt;/a> page.&lt;/h4></description></item><item><title>Wtp: New Game</title><link>https://thephoenixflavour.com/wtp/installation/new-game/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/installation/new-game/</guid><description>
 &lt;h2 id="launching-the-game">Launching the game&lt;/h2>
 &lt;p>In order to play TPF Fallout 4, you must launch &lt;strong>f4se_loader.exe&lt;/strong> through Mod Organizer 2. Otherwise your mods will not work. When you open Mod Organizer 2, F4SE (renamed to &lt;strong>Welcome to Paradise&lt;/strong> for your convenience) should be selected automatically in the executables drop-down and you can start the game by clicking &lt;strong>Run&lt;/strong>.&lt;/p>

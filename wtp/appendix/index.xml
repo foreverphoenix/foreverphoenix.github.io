@@ -24,13 +24,119 @@ uPipboyTargetWidth=876
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/appendix/map-gamepad.jpg" alt="Map Cursor Stuck">&lt;/p>
 &lt;h2 id="flickering-puddles">Flickering puddles&lt;/h2>
-&lt;p>This is a persistent issue with cubemaps. We have a fix for it, &lt;a href="https://www.nexusmods.com/fallout4/mods/46787">Fixed flickering puddles&lt;/a>, but the bug still occurs and I&amp;rsquo;m honestly clueless.&lt;/p></description></item><item><title>Wtp: Changelog</title><link>https://thephoenixflavour.com/wtp/appendix/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/appendix/changelog/</guid><description>
+&lt;p>This is a persistent issue with cubemaps. We have a fix for it, &lt;a href="https://www.nexusmods.com/fallout4/mods/46787">Fixed flickering puddles&lt;/a>, &lt;del>but the bug still occurs and I&amp;rsquo;m honestly clueless.&lt;/del> I fixed the fix in WTP 1.6 and it should be fine now.&lt;/p>
+&lt;h2 id="nights-are-too-dark">Nights are too dark&lt;/h2>
+&lt;p>You can change (night) brightness in the ENB settings. Please refer to the sticky comment on the &lt;a href="https://www.nexusmods.com/fallout4/mods/9253?tab=posts">True Nights&lt;/a> mod page for instructions (note that in WTP, the ENB GUI is open with F11).&lt;/p></description></item><item><title>Wtp: Changelog</title><link>https://thephoenixflavour.com/wtp/appendix/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/appendix/changelog/</guid><description>
+&lt;h2 id="release-16">Release 1.6&lt;/h2>
+&lt;blockquote>
+&lt;p>03/06/2021&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Starting a new game is required.&lt;/strong>&lt;/p>
+&lt;p>For this update I checked out the new &lt;strong>FallUI&lt;/strong> suite of interface replacers and took the opportunity to review WTP&amp;rsquo;s existing interface mods. I came to the decision to once again remove &lt;a href="https://www.nexusmods.com/fallout4/mods/27216">Extended Dialogue Interface&lt;/a> and revert to &lt;a href="https://www.nexusmods.com/fallout4/mods/1235">Full Dialogue Interface&lt;/a> which I like far better. After careful consideration, I decided &lt;em>against&lt;/em> including &lt;a href="https://www.nexusmods.com/fallout4/mods/51813">FallUI - HUD&lt;/a> because even with my DEF_UI HUD preset, it would make item pickup prompts look &lt;a href="https://i.imgur.com/Bd9w9VZ.jpg">weird&lt;/a> with a huge gap between the item name and the button prompts. I also removed FallUI - Map because I didn&amp;rsquo;t like it. However, FallUI - HUD and FallUI - Map are still going to be installed in case someone wants them (but are disabled by default).&lt;/p>
+&lt;p>I also removed &lt;strong>Widescreen&lt;/strong> support. I can&amp;rsquo;t test it, it&amp;rsquo;s additional headache, I&amp;rsquo;d have to write extra instructions for changing the aspect ratio in the various FallUI MCMs. Sorry to everyone on ultrawide monitors, it&amp;rsquo;s just not worth the effort to me.&lt;/p>
+&lt;p>When updating, please also move the Game Folder Files into your root folder and overwrite (ENB binaries updated).&lt;/p>
+&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;ul>
+&lt;li>Added zEdit (I needed it for one merge)&lt;/li>
+&lt;li>Added deorder&amp;rsquo;s MO2 Plugins (only useful for me)&lt;/li>
+&lt;li>Added F4 Creation Kit Fixes (only useful for me)&lt;/li>
+&lt;li>Added DEF_HUD - My Preset (smaller vanilla, crosshair to dot)&lt;/li>
+&lt;li>Added Tactical Reload&lt;/li>
+&lt;li>Added Jamaica Plain Navmesh Fix&lt;/li>
+&lt;li>Added Weston Water LOD Fix&lt;/li>
+&lt;li>Added Assaultron Left Hand Hydraulic Frame Arm Mesh Bug Fix&lt;/li>
+&lt;li>Added Perception Bug Fix&lt;/li>
+&lt;li>Added Carlisle Typewriter Mesh Fix&lt;/li>
+&lt;li>Added Car Physics Death Bug Fix&lt;/li>
+&lt;li>Added 1 Rad Bugfix&lt;/li>
+&lt;li>Added Far Harbor Marine Armor Boots Fix&lt;/li>
+&lt;li>Added Cryo Fix&lt;/li>
+&lt;li>Added Cryolator Cryo-Cell Fix&lt;/li>
+&lt;li>Added Pool Rack Fix (finally the game is playable)&lt;/li>
+&lt;li>Added X-01 Power Armor Neck and Minor Light FX Fix&lt;/li>
+&lt;li>Added FallUI - HUD (disabled by default)&lt;/li>
+&lt;li>Added Full Dialogue Interface&lt;/li>
+&lt;li>Added String Patches for Full Dialogue Interface&lt;/li>
+&lt;li>Added UNLIMITED POWER - Tesla Rifle Projectiles Create Visual Effect on Impact&lt;/li>
+&lt;li>Added Fix for Forsythia&lt;/li>
+&lt;li>Added Far Harbor Pine Branches&lt;/li>
+&lt;li>Added The Natural Bundle - Masonry Set&lt;/li>
+&lt;li>Added The Natural Bundle - Submarine Set&lt;/li>
+&lt;li>Added Defined Hightech Floor Tiles&lt;/li>
+&lt;li>Added Fix for Tiles02&lt;/li>
+&lt;li>Added ADs 2X Rez&lt;/li>
+&lt;li>Added Wall Worldmap&lt;/li>
+&lt;li>Added Globes (retexture)&lt;/li>
+&lt;li>Added Library and Subway Tokens HD Remastered&lt;/li>
+&lt;li>Added Deathclaws HD Retexture&lt;/li>
+&lt;li>Added The Flamer Project&lt;/li>
+&lt;li>Added Leafblower Junk Jet&lt;/li>
+&lt;li>Added Synthkind Redefined&lt;/li>
+&lt;li>Added Auto Lockpick&lt;/li>
+&lt;li>Added Auto Hack&lt;/li>
+&lt;li>Added Better Explosives Redux&lt;/li>
+&lt;li>Added Fortune Finder 4 Fix&lt;/li>
+&lt;li>Added Vault 88 Template - Optimised&lt;/li>
+&lt;li>Added Workshop Power Pack&lt;/li>
+&lt;li>Added Vault 88 Essentials&lt;/li>
+&lt;li>Added Vault 88 Essentials - WTP Tweaks&lt;/li>
+&lt;li>Added Whose Quest Is It Anyway&lt;/li>
+&lt;li>Added River Fix&lt;/li>
+&lt;li>Updated Mod Organizer 2 to 2.4.2&lt;/li>
+&lt;li>Updated ENBSeries to 0.455&lt;/li>
+&lt;li>Updated Buffout to 1.23.0&lt;/li>
+&lt;li>Updated Bullet Counted Reload System to 2.0&lt;/li>
+&lt;li>Updated Workshop Framework to 2.0.14a&lt;/li>
+&lt;li>Updated Wetness Shader Fix to 3.41&lt;/li>
+&lt;li>Updated Companion Stealth Distance Fix to 7.0&lt;/li>
+&lt;li>Updated FallUI Confirm Boxes to 2.1&lt;/li>
+&lt;li>Updated FallUI Workbench to 1.2.4&lt;/li>
+&lt;li>Updated Fallout 4 Ultimate Window Overhaul to 3.1&lt;/li>
+&lt;li>Updated Visible Idle Markers to 1.6&lt;/li>
+&lt;li>Updated LOST Audio Tweaks to 1.7a&lt;/li>
+&lt;li>Updated the LOST Audio Tweaks - True Storms and RAO Patch to 1.1&lt;/li>
+&lt;li>Removed Extended Dialogue Interface&lt;/li>
+&lt;li>Removed Scrolling Doesn&amp;rsquo;t Change PoV&lt;/li>
+&lt;li>Removed Valentine Jaw Sync (part of Synthkind Redefined)&lt;/li>
+&lt;li>Removed Weapon Rack Fixes (largely covered by UFO4P)&lt;/li>
+&lt;li>Removed Detailed Deathclaws&lt;/li>
+&lt;li>Removed Fallout 3 NV Feral Ghouls Replacer&lt;/li>
+&lt;li>Removed Simple Crafting Station - K-9 Harness Patch&lt;/li>
+&lt;li>Removed Sprint Engine Limitations&lt;/li>
+&lt;li>Reinstalled Fixed Flickering Puddles (was missing one file, may fix lingering issues)&lt;/li>
+&lt;li>FallUI - Map is now disabled by default&lt;/li>
+&lt;li>Rebuilt the Weapons BA2s&lt;/li>
+&lt;li>Rebuilt the Creatures BA2s&lt;/li>
+&lt;li>Deleted the broken IMAD record in True Nights to be on the safe side (I tweaked it before but can&amp;rsquo;t remember how)&lt;/li>
+&lt;li>Regenerated precombines for the area around the new Sanctuary bridge (thanks for talking me through that, Lively!)&lt;/li>
+&lt;li>Removed Fortune Finder tweaks from Loot Logic Scrounger Fortune Finder Rebalance&lt;/li>
+&lt;li>Reverted UNLIMITED POWER changes to Tesla Rifle damage, capacity, and reload speed&lt;/li>
+&lt;li>Added new &amp;lsquo;Backpack&amp;rsquo; tag to DEV_INV_TAGS.xml&lt;/li>
+&lt;li>Merged the three music plugins together and removed the separate plugins&lt;/li>
+&lt;li>Replaced the now redundant music patch with the merged plugin&lt;/li>
+&lt;li>Extracted the Fallout Suite BA2 since there is no longer a plugin to load it&lt;/li>
+&lt;li>Fixed some conflicts between Better Explosives Redux and other mods&lt;/li>
+&lt;li>Regenerated INI files from scratch&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>K-9 Harness&lt;/strong>&lt;/p>
+&lt;p>Until now fadingsignal&amp;rsquo;s K-9 Harness for Dogmeat could be crafted at the crafting station which was the original implementation. I have never been happy with this and in this update I finally did something about it. You can now find exactly &lt;em>one&lt;/em> K-9 Harness in the world. The location happens to be a police station for obvious reasons - if you want to know where exactly you can find it, double-click the new K-9 Integration Patch in Mod Organizer 2 and check the &lt;strong>Notes&lt;/strong> tab.&lt;/p>
+&lt;p>&lt;strong>Creation Club&lt;/strong>&lt;/p>
+&lt;p>WTP 1.6 adds &lt;em>optional&lt;/em> support for some &amp;ldquo;creations&amp;rdquo; (only the Modular Military Backpack so far). You can find details and instructions &lt;a href="https://thephoenixflavour.com/wtp/wtp-resources/creation-club">here&lt;/a>.&lt;/p>
+&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;ul>
+&lt;li>Updated a bunch of pages. Added stuff on the &lt;strong>Finalisation&lt;/strong> page. Don&amp;rsquo;t remember everything.&lt;/li>
+&lt;li>Added a link for LostDragonist&amp;rsquo;s Steam Library Setup Tool on the &lt;strong>Fallout 4&lt;/strong> page.&lt;/li>
+&lt;li>Removed Widescreen support stuff from the &lt;strong>Finalisation&lt;/strong> page (sorry).&lt;/li>
+&lt;li>Added new &lt;strong>Creation Club&lt;/strong> page under Resources for Modular Military Backpack support.&lt;/li>
+&lt;li>Removed the Custom Files page. All relevant documentation was moved into Mod Organizer 2 (check the Notes for each mod).&lt;/li>
+&lt;li>Linked to True Nights for instructions on how to change night brightness on &lt;strong>Troubleshooting&lt;/strong>.&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-152">Release 1.5.2&lt;/h2>
 &lt;blockquote>
 &lt;p>06/04/2021&lt;/p>
 &lt;/blockquote>
 &lt;p>This update is safe-save. Copy over the GFF into your root folder and overwrite (ENB binaries updated).&lt;/p>
-&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated Mod Organizer 2 to 2.4.1&lt;/li>
 &lt;li>Re-arranged and re-coloured MO2 separators&lt;/li>
@@ -48,7 +154,7 @@ uPipboyTargetWidth=876
 &lt;li>Added No Quest Autostart - Nuka World&lt;/li>
 &lt;li>Removed some unnecessary stuff from the Phoenix Tweaks plugin&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Finalisation:&lt;/strong> Shortened the Resolution section and moved Ultrawide tweaks to this page.&lt;/li>
 &lt;li>&lt;strong>Ultrawide:&lt;/strong> Removed this page.&lt;/li>
@@ -83,7 +189,7 @@ uPipboyTargetWidth=876
 &lt;blockquote>
 &lt;p>06/03/2021&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-2">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated Mod Organizer 2 to 2.4.0&lt;/li>
 &lt;li>Tweaked Pipboy INI settings (increased resolution, disabled fx)&lt;/li>
@@ -140,7 +246,7 @@ uPipboyTargetWidth=876
 &lt;h4 id="simple-sorting-overhaul">Simple Sorting Overhaul&lt;/h4>
 &lt;p>As we have now switched to FallUI from DEF_INV, I updated my INNRs (naming rules) to have the same format as Ruddy&amp;rsquo;s sorting patcher that FallUI was intended for. That means mods for armors and weapons will be displayed in smaller font below the item name.&lt;/p>
 &lt;p>I did take a look at the &lt;a href="https://www.nexusmods.com/fallout4/mods/48826">Complex Sorter&lt;/a> for FallUI which would be very convenient for me but ultimately I prefer my own icons and INNRs. Plus they already cover my power armor changes and include my preferred power armor naming scheme.&lt;/p>
-&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-2">Website Changes&lt;/h4>
 &lt;p>I went over all pages and fixed what I thought needed fixing. Screenshots were updated, sentences were rephrased, and instructions were clarified.&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Finalisation:&lt;/strong> Added instructions for the optional LUTs.&lt;/li>
@@ -157,7 +263,7 @@ uPipboyTargetWidth=876
 &lt;blockquote>
 &lt;p>26/11/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-2">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-3">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Re-enabled Authentic Handmade Weaponry (accidentally disabled the plugin in 1.4)&lt;/li>
 &lt;/ul>
@@ -165,7 +271,7 @@ uPipboyTargetWidth=876
 &lt;blockquote>
 &lt;p>23/11/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-3">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-4">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Weapon Debris Crash Fix&lt;/li>
 &lt;li>Added Sprint Stuttering Fix&lt;/li>
@@ -192,7 +298,7 @@ uPipboyTargetWidth=876
 &lt;p>24/10/2020&lt;/p>
 &lt;/blockquote>
 &lt;p>Just a minor fix and clean-up for yesterday&amp;rsquo;s update.&lt;/p>
-&lt;h4 id="mod-changes-4">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-5">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated Bullet Counted Reload System to 1.05b&lt;/li>
 &lt;li>Updated Workshop Framework to 2.0.3&lt;/li>
@@ -203,7 +309,7 @@ uPipboyTargetWidth=876
 &lt;p>23/10/2020&lt;/p>
 &lt;/blockquote>
 &lt;p>This update fixes a number of issues reported by users (thanks, guys!). I am also officially changing the list name to &lt;strong>Welcome to Paradise&lt;/strong>. The website, Discord channels, and Mod Organizer 2 profile have all been edited accordingly.&lt;/p>
-&lt;h4 id="mod-changes-5">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-6">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Hopefully fixed radio songs not playing for good&lt;/li>
 &lt;li>Updated xSE Plugin Preloader to 0.2.3 (XML unchanged, let me know if there are issues)&lt;/li>
@@ -218,7 +324,7 @@ uPipboyTargetWidth=876
 &lt;li>Unpacked custom BA2 for Bleak Beauty, Musical Lore, More Where That Came From, and Elvani&amp;rsquo;s Track Pack&lt;/li>
 &lt;li>Fixed some purple cars by reverting them to vanilla, it&amp;rsquo;s a band-aid fix but the best I could do&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-2">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-3">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Finalisation:&lt;/strong> Removed instructions for NVIDIA Inspector.&lt;/li>
 &lt;li>&lt;strong>Finalisation:&lt;/strong> Added instructions for the newly-added High FPS Physics Fix and my pre-configured INIs.&lt;/li>
@@ -227,7 +333,7 @@ uPipboyTargetWidth=876
 &lt;blockquote>
 &lt;p>01/10/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-6">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-7">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Actually fixed radio tracks not playing&lt;/li>
 &lt;li>Updated xSE Plugin Preloader to 0.2&lt;/li>
@@ -237,7 +343,7 @@ uPipboyTargetWidth=876
 &lt;blockquote>
 &lt;p>30/09/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-7">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-8">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated Buffout to 1.12.1&lt;/li>
 &lt;li>Placed the new Buffout TBB Redist plugin in the Game Folder Files folder&lt;/li>
@@ -251,7 +357,7 @@ uPipboyTargetWidth=876
 &lt;li>Updated Sweet Roll 5000 and rebuilt Clutter BA2s&lt;/li>
 &lt;li>Fixed Diamond City Radio tracks not playing (thanks Archie!)&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-3">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-4">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://thephoenixflavour.com/wtp/installation/finalisation/">Finalisation&lt;/a>: Added this new page and moved the game resolution instructions here.&lt;/li>
 &lt;li>&lt;a href="https://thephoenixflavour.com/wtp/installation/finalisation/">Finalisation&lt;/a>: Added instructions on how to force VSYNC and cap the framerate.&lt;/li>
@@ -262,7 +368,7 @@ uPipboyTargetWidth=876
 &lt;blockquote>
 &lt;p>27/09/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-8">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-9">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Now using Lively&amp;rsquo;s pppl.ini file&lt;/li>
 &lt;li>Updated Buffout to 1.11.0&lt;/li>
@@ -273,7 +379,7 @@ uPipboyTargetWidth=876
 &lt;li>Switched to the Alternative Version of Fixed Flickering Puddles (hopefully fixing black pre-war Codsworth)&lt;/li>
 &lt;li>Removed Skip raiding your own settlements (no time to troubleshoot the compilation error it causes)&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-4">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-5">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://thephoenixflavour.com/wtp/installation/wabbajack/">Wabbajack&lt;/a>: Added new section on how change the game resolution.&lt;/li>
 &lt;li>&lt;a href="https://thephoenixflavour.com/wtp/appendix/troubleshooting/">Troubleshooting&lt;/a>: Added this page with a few known issues.&lt;/li>
