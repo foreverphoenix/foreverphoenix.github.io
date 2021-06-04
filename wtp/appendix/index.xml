@@ -27,6 +27,18 @@ uPipboyTargetWidth=876
 &lt;p>This is a persistent issue with cubemaps. We have a fix for it, &lt;a href="https://www.nexusmods.com/fallout4/mods/46787">Fixed flickering puddles&lt;/a>, &lt;del>but the bug still occurs and I&amp;rsquo;m honestly clueless.&lt;/del> I fixed the fix in WTP 1.6 and it should be fine now.&lt;/p>
 &lt;h2 id="nights-are-too-dark">Nights are too dark&lt;/h2>
 &lt;p>You can change (night) brightness in the ENB settings. Please refer to the sticky comment on the &lt;a href="https://www.nexusmods.com/fallout4/mods/9253?tab=posts">True Nights&lt;/a> mod page for instructions (note that in WTP, the ENB GUI is open with F11).&lt;/p></description></item><item><title>Wtp: Changelog</title><link>https://thephoenixflavour.com/wtp/appendix/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/appendix/changelog/</guid><description>
+&lt;h2 id="release-161">Release 1.6.1&lt;/h2>
+&lt;blockquote>
+&lt;p>04/06/2021&lt;/p>
+&lt;/blockquote>
+&lt;p>As it turns out, I got sloppy last night. I&amp;rsquo;d already recompiled once when &lt;a href="https://www.nexusmods.com/fallout4/mods/41178">Bullet Counted Reload System&lt;/a> updated and part of the update was support for &lt;a href="https://www.nexusmods.com/fallout4/mods/49444">Tactical Reload&lt;/a>. I dropped in both, did a cursory check in xEdit, fixed some conflicts, and called it a day. Evidently I shouldn&amp;rsquo;t have done that as something about the combination has caused frequent crashes in WTP 1.6 that was reported twice so far and I was able to reproduce it on my end. Dropping Tactical Reload fixed it so at least there was an easy solution. I haven&amp;rsquo;t investigated further why exactly the crashes happen because I frankly don&amp;rsquo;t care about the mod that much and don&amp;rsquo;t have time today either.&lt;/p>
+&lt;p>This update is &lt;strong>save safe&lt;/strong>. It&amp;rsquo;s a crash fix. You&amp;rsquo;ll be asked about missing plugins when loading your save, click Yes.&lt;/p>
+&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;ul>
+&lt;li>Removed Tactical Reload&lt;/li>
+&lt;li>Replaced the TR version of BCR Lever Action Rifle with the regular one&lt;/li>
+&lt;li>Removed Tactical Reload as a master from the CRP&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-16">Release 1.6&lt;/h2>
 &lt;blockquote>
 &lt;p>03/06/2021&lt;/p>
@@ -35,7 +47,7 @@ uPipboyTargetWidth=876
 &lt;p>For this update I checked out the new &lt;strong>FallUI&lt;/strong> suite of interface replacers and took the opportunity to review WTP&amp;rsquo;s existing interface mods. I came to the decision to once again remove &lt;a href="https://www.nexusmods.com/fallout4/mods/27216">Extended Dialogue Interface&lt;/a> and revert to &lt;a href="https://www.nexusmods.com/fallout4/mods/1235">Full Dialogue Interface&lt;/a> which I like far better. After careful consideration, I decided &lt;em>against&lt;/em> including &lt;a href="https://www.nexusmods.com/fallout4/mods/51813">FallUI - HUD&lt;/a> because even with my DEF_UI HUD preset, it would make item pickup prompts look &lt;a href="https://i.imgur.com/Bd9w9VZ.jpg">weird&lt;/a> with a huge gap between the item name and the button prompts. I also removed FallUI - Map because I didn&amp;rsquo;t like it. However, FallUI - HUD and FallUI - Map are still going to be installed in case someone wants them (but are disabled by default).&lt;/p>
 &lt;p>I also removed &lt;strong>Widescreen&lt;/strong> support. I can&amp;rsquo;t test it, it&amp;rsquo;s additional headache, I&amp;rsquo;d have to write extra instructions for changing the aspect ratio in the various FallUI MCMs. Sorry to everyone on ultrawide monitors, it&amp;rsquo;s just not worth the effort to me.&lt;/p>
 &lt;p>When updating, please also move the Game Folder Files into your root folder and overwrite (ENB binaries updated).&lt;/p>
-&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added zEdit (I needed it for one merge)&lt;/li>
 &lt;li>Added deorder&amp;rsquo;s MO2 Plugins (only useful for me)&lt;/li>
@@ -136,7 +148,7 @@ uPipboyTargetWidth=876
 &lt;p>06/04/2021&lt;/p>
 &lt;/blockquote>
 &lt;p>This update is safe-save. Copy over the GFF into your root folder and overwrite (ENB binaries updated).&lt;/p>
-&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-2">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated Mod Organizer 2 to 2.4.1&lt;/li>
 &lt;li>Re-arranged and re-coloured MO2 separators&lt;/li>
@@ -189,7 +201,7 @@ uPipboyTargetWidth=876
 &lt;blockquote>
 &lt;p>06/03/2021&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-2">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-3">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated Mod Organizer 2 to 2.4.0&lt;/li>
 &lt;li>Tweaked Pipboy INI settings (increased resolution, disabled fx)&lt;/li>
@@ -263,7 +275,7 @@ uPipboyTargetWidth=876
 &lt;blockquote>
 &lt;p>26/11/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-3">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-4">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Re-enabled Authentic Handmade Weaponry (accidentally disabled the plugin in 1.4)&lt;/li>
 &lt;/ul>
@@ -271,7 +283,7 @@ uPipboyTargetWidth=876
 &lt;blockquote>
 &lt;p>23/11/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-4">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-5">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Weapon Debris Crash Fix&lt;/li>
 &lt;li>Added Sprint Stuttering Fix&lt;/li>
@@ -298,7 +310,7 @@ uPipboyTargetWidth=876
 &lt;p>24/10/2020&lt;/p>
 &lt;/blockquote>
 &lt;p>Just a minor fix and clean-up for yesterday&amp;rsquo;s update.&lt;/p>
-&lt;h4 id="mod-changes-5">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-6">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated Bullet Counted Reload System to 1.05b&lt;/li>
 &lt;li>Updated Workshop Framework to 2.0.3&lt;/li>
@@ -309,7 +321,7 @@ uPipboyTargetWidth=876
 &lt;p>23/10/2020&lt;/p>
 &lt;/blockquote>
 &lt;p>This update fixes a number of issues reported by users (thanks, guys!). I am also officially changing the list name to &lt;strong>Welcome to Paradise&lt;/strong>. The website, Discord channels, and Mod Organizer 2 profile have all been edited accordingly.&lt;/p>
-&lt;h4 id="mod-changes-6">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-7">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Hopefully fixed radio songs not playing for good&lt;/li>
 &lt;li>Updated xSE Plugin Preloader to 0.2.3 (XML unchanged, let me know if there are issues)&lt;/li>
@@ -333,7 +345,7 @@ uPipboyTargetWidth=876
 &lt;blockquote>
 &lt;p>01/10/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-7">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-8">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Actually fixed radio tracks not playing&lt;/li>
 &lt;li>Updated xSE Plugin Preloader to 0.2&lt;/li>
@@ -343,7 +355,7 @@ uPipboyTargetWidth=876
 &lt;blockquote>
 &lt;p>30/09/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-8">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-9">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated Buffout to 1.12.1&lt;/li>
 &lt;li>Placed the new Buffout TBB Redist plugin in the Game Folder Files folder&lt;/li>
@@ -368,7 +380,7 @@ uPipboyTargetWidth=876
 &lt;blockquote>
 &lt;p>27/09/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-9">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-10">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Now using Lively&amp;rsquo;s pppl.ini file&lt;/li>
 &lt;li>Updated Buffout to 1.11.0&lt;/li>
