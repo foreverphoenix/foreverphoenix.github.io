@@ -25,8 +25,8 @@
 &lt;li>Open the archive and extract the &lt;strong>loadorder.txt&lt;/strong> to &lt;code>Mod Organizer 2\profiles\The Phoenix Flavour&lt;/code>.&lt;/li>
 &lt;li>Restart Mod Organizer 2 and the changes will be applied.&lt;/li>
 &lt;/ul>
-&lt;p>After applying the loadorder.txt and restarting MO2, there should be no plugins below the &lt;strong>Conflict Resolution Patch.esp&lt;/strong> in the load order (right pane).&lt;/p>
-&lt;p>If there are other plugins below the CRP, you either made a mistake during the mod installation, or a mod was updated and the loadorder.txt is not accounting for it yet. Go back to the mod(s) in question (they will be highlighted in the mod order when you click on the plugin in the load order) and re-install them according to the instructions in the guide.&lt;/p>
+&lt;p>After applying the loadorder.txt and restarting MO2, there should be no plugins below the &lt;strong>The Phoenix Flavour - Facegen.esp&lt;/strong> in the load order (right pane).&lt;/p>
+&lt;p>If there are other plugins below the Facegen plugin, you either made a mistake during the mod installation, or a mod was updated and the loadorder.txt is not accounting for it yet. Go back to the mod(s) in question (they will be highlighted in the mod order when you click on the plugin in the load order) and re-install them according to the instructions in the guide.&lt;/p>
 &lt;p>If you are unable to resolve all issues, please join us on Discord and post your Modwat.ch link or a picture of the bottom of your load order in the &lt;code>#tpf-guide-support&lt;/code> channels.&lt;/p>
 &lt;h2 id="check-for-mo2-warnings">Check for MO2 Warnings&lt;/h2>
 &lt;p>In Mod Organizer 2, check the notification icon in the top right corner (see screenshot below). Any issues found there should be fixed now. If it is greyed out, there are no warnings and you are good to go!&lt;/p>
@@ -70,7 +70,6 @@
 &lt;li>No NPC Greetings.esp&lt;/li>
 &lt;li>Don&amp;rsquo;tTalkWithYourMouthFull.esp&lt;/li>
 &lt;li>Followers Don&amp;rsquo;t Draw Weapons.esp&lt;/li>
-&lt;li>NoMoreFollowerHuntingBow.esp&lt;/li>
 &lt;li>Random Encounter Tweaks.esp&lt;/li>
 &lt;li>dD-No Spinning Death Animation Merged.esp&lt;/li>
 &lt;li>SparklesSE.esp&lt;/li>
@@ -229,7 +228,7 @@
 &lt;h2 id="ini-adjustments">INI Adjustments&lt;/h2>
 &lt;p>Before we generate LOD with DynDOLOD, we need to tweak a few settings:&lt;/p>
 &lt;ul>
-&lt;li>Navigate to &lt;code>\Your Modding Folder\Tools\DynDOLOD\Edit Scripts\&lt;/code>.&lt;/li>
+&lt;li>Navigate to &lt;code>\Your Modding Folder\Tools\DynDOLOD\Edit Scripts\DynDOLOD\&lt;/code>.&lt;/li>
 &lt;li>Open &lt;strong>DynDOLOD_SSE.ini&lt;/strong> in Notepad++.&lt;/li>
 &lt;/ul>
 &lt;p>Enable expert mode in DynDOLOD:&lt;/p>

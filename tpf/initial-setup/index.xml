@@ -216,9 +216,9 @@
 &lt;li>When that is done, you must log-in with your Beth.net account or register a new one.&lt;/li>
 &lt;li>Once you’re logged in, check the list of game icons on the left.&lt;/li>
 &lt;li>Click the two arrows &lt;code>&amp;gt;&amp;gt;&lt;/code> at the top to open the full list.&lt;/li>
-&lt;li>Select &lt;strong>Creation Kit: Skyrim&lt;/strong> (with the white icon) and click &lt;strong>Install&lt;/strong>.&lt;/li>
+&lt;li>Select &lt;strong>Creation Kit: Skyrim&lt;/strong> (with the white icon).&lt;/li>
 &lt;li>The CK should be installed directly into your &lt;strong>root&lt;/strong> folder (see picture).&lt;/li>
-&lt;li>Wait for the files to download.&lt;/li>
+&lt;li>Click &lt;strong>Install&lt;/strong> and wait for the files to download.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/ck-installation-path.png" alt="Creation Kit Installation Path">&lt;/p>
 &lt;h2 id="disable-auto-updates">Disable Auto Updates&lt;/h2>
