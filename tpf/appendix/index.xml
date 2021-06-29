@@ -152,9 +152,7 @@
 &lt;li>&lt;strong>Creation Kit:&lt;/strong> Fixed link to Betheda.net being localised (it would open the German version, oops).&lt;/li>
 &lt;li>&lt;strong>Mod Organizer 2:&lt;/strong> Updated link and picture for MO2 2.4.2 (latest).&lt;/li>
 &lt;li>&lt;strong>Mod Organizer 2:&lt;/strong> Added a new Splash Screen section.&lt;/li>
-&lt;li>&lt;strong>INI Files:&lt;/strong> Updated BethINI - Detail instructions (increased Detail Draw Distance).&lt;/li>
-&lt;li>&lt;strong>INI Files:&lt;/strong> Updated BethINI - View Distance (re-added tweak to grass fade).&lt;/li>
-&lt;li>&lt;strong>INI Files:&lt;/strong> Updated BethINI - Visuals instructions (increased tree fade distance and tweaked grass settings).&lt;/li>
+&lt;li>&lt;strong>INI Files:&lt;/strong> Updated almost all steps in the BethINI configuration (now based on the High preset).&lt;/li>
 &lt;li>&lt;strong>Additional Tools:&lt;/strong> Updated instructions for CAO (reverted to 5.0.15).&lt;/li>
 &lt;li>&lt;strong>Additional Tools:&lt;/strong> Removed instructions for Modwat.ch (no longer necessary with Load Order Library).&lt;/li>
 &lt;/ul>

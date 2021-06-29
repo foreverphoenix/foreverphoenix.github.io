@@ -508,8 +508,8 @@
 &lt;li>Once BethINI has loaded up, go to the first tab, &lt;strong>Setup&lt;/strong>.&lt;/li>
 &lt;li>All filepaths should be configured correctly out of the box, however it’s best to double-check:
 &lt;ul>
-&lt;li>&lt;strong>Game Path&lt;/strong> should point at your &lt;strong>root&lt;/strong> folder, &lt;code>steamapps\common\Skyrim Special Edition&lt;/code>.&lt;/li>
-&lt;li>&lt;strong>Mod Organizer&lt;/strong> should point at your MO2 folder, &lt;code>{Your File Path}\Mod Organizer 2&lt;/code>.&lt;/li>
+&lt;li>&lt;strong>Game Path&lt;/strong> should point at your &lt;strong>root&lt;/strong> folder, &lt;code>\steamapps\common\Skyrim Special Edition\&lt;/code>.&lt;/li>
+&lt;li>&lt;strong>Mod Organizer&lt;/strong> should point at your MO2 folder, &lt;code>{Your File Path}\Mod Organizer 2\&lt;/code>.&lt;/li>
 &lt;li>&lt;strong>INI Path&lt;/strong> should point at your MO2 profile: &lt;code>ModOrganizer 2 &amp;gt; The Phoenix Flavour&lt;/code>.&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -524,11 +524,11 @@
 &lt;li>Set &lt;strong>Resolution&lt;/strong> to the correct value for your monitor.&lt;/li>
 &lt;li>Make sure to check &lt;strong>Recommended Tweaks&lt;/strong>.&lt;/li>
 &lt;li>&lt;strong>BethINI&lt;/strong> presets should be toggled automatically.&lt;/li>
-&lt;li>Select the &lt;strong>Medium&lt;/strong> preset.&lt;/li>
+&lt;li>Select the &lt;strong>High&lt;/strong> preset.&lt;/li>
 &lt;li>Disable both &lt;strong>VSYNC&lt;/strong> and &lt;strong>Lock Frame Rate&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>Vanilla VSYNC and frame lock are not optimal so both will be handled by mods later on. As for the selection of the &lt;strong>Medium&lt;/strong> preset, I recommend it because it&amp;rsquo;s a good balance between graphic fidelity and performance. Many of the settings can and will be changed to improve visuals but as a baseline, &lt;strong>Medium&lt;/strong> is perfect.&lt;/p>
+&lt;p>VSYNC and frame cap will be enforced by a mod later on.&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/bethini-basic.png" alt="BethINI Basic">&lt;/p>
 &lt;h3 id="bethini---interface">BethINI - Interface&lt;/h3>
@@ -545,31 +545,20 @@
 &lt;h3 id="bethini---detail">BethINI - Detail&lt;/h3>
 &lt;p>Continue with the sixth tab, &lt;strong>Detail&lt;/strong>.&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Water:&lt;/strong> Check &lt;code>Reflect Objects&lt;/code>.&lt;/li>
-&lt;li>&lt;strong>Decal Quantity:&lt;/strong> Set to &lt;code>High&lt;/code>.&lt;/li>
-&lt;li>&lt;strong>Godrays&lt;/strong>: Set to &lt;code>High&lt;/code>.&lt;/li>
-&lt;li>&lt;strong>Field of View:&lt;/strong> Increase this if you prefer a wider FoV.&lt;/li>
 &lt;li>&lt;strong>Particles:&lt;/strong> Increase the particle count to &lt;code>7500&lt;/code>.&lt;/li>
 &lt;li>&lt;strong>Lens Flare:&lt;/strong> Matter of taste. Personally I disable this.&lt;/li>
 &lt;li>&lt;strong>Anamorphic Lens Flare:&lt;/strong> Looks ugly, recommended to be turned off.&lt;/li>
-&lt;li>&lt;strong>Shadow Resolution:&lt;/strong> Set to &lt;code>2048&lt;/code> (unless you have a very slow CPU).&lt;/li>
 &lt;li>&lt;strong>Detailed Draw Distance:&lt;/strong> Set to &lt;code>3500&lt;/code>.&lt;/li>
-&lt;li>&lt;strong>Exterior Draw Distance:&lt;/strong> Set to &lt;code>8000&lt;/code>.&lt;/li>
-&lt;li>&lt;strong>Tree Shadows:&lt;/strong> Check the box for this setting.&lt;/li>
 &lt;li>&lt;strong>Ambient Occlusion:&lt;/strong> Uncheck the box for this setting (covered by ENB).&lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>&lt;strong>Object LOD&lt;/strong> reflections are broken in SSE, but the mod SSE Engine Fixes includes a fix. &lt;strong>Depth of Field&lt;/strong> should not be disabled in the INI as it will make underwater look perfectly clear. By turning DOF all the way down in the ingame settings, you can disable it without breaking underwater visuals (if you dislike the DOF and/or want to use an ENB DOF effect instead).&lt;/p>
+&lt;p>&lt;strong>Depth of Field&lt;/strong> should not be disabled in the INI as it will make underwater look perfectly clear. By turning DOF all the way down in the ingame settings, you can disable it without breaking underwater visuals (if you dislike the DOF and/or want to use an ENB DOF effect instead).&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/bethini-detail.png" alt="BethINI Detail">&lt;/p>
 &lt;h3 id="bethini---view-distance">BethINI - View Distance&lt;/h3>
 &lt;p>Continue with the seventh tab, &lt;strong>View Distance&lt;/strong>.&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Object Fade:&lt;/strong> Set to &lt;code>12.0&lt;/code>.&lt;/li>
-&lt;li>&lt;strong>Actor Fade:&lt;/strong> Set to &lt;code>8.0&lt;/code>.&lt;/li>
-&lt;li>&lt;strong>Item Fade:&lt;/strong> Set to &lt;code>4.0&lt;/code>.&lt;/li>
 &lt;li>&lt;strong>Grass Fade:&lt;/strong> Set to &lt;code>15000&lt;/code>&lt;/li>
-&lt;li>&lt;strong>Light Fade:&lt;/strong> Set to &lt;code>21605&lt;/code>.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/bethini-view-distance.png" alt="BethINI View Distance">&lt;/p>
 &lt;h3 id="bethini---visuals">BethINI - Visuals&lt;/h3>
@@ -578,7 +567,6 @@
 &lt;li>Set &lt;strong>Contrast&lt;/strong> to &lt;code>-0.1800&lt;/code>. This should eliminate the &amp;ldquo;black crush&amp;rdquo; some people are experiencing in Skyrim SE.&lt;/li>
 &lt;li>Lower &lt;strong>Grass Density&lt;/strong> to &lt;strong>20&lt;/strong>.&lt;/li>
 &lt;li>Increase &lt;strong>Grass Diversity&lt;/strong> to &lt;strong>15&lt;/strong>.&lt;/li>
-&lt;li>Set &lt;strong>Tree Detail Fade&lt;/strong> to &lt;strong>BethINI High&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/bethini-visuals.png" alt="BethINI Visuals">&lt;/p>
 &lt;h3 id="bethini---custom">BethINI - Custom&lt;/h3>
