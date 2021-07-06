@@ -655,19 +655,6 @@
 &lt;p>The &lt;strong>-DontCache&lt;/strong> argument will prevent an obscure bug that destroys parts of Apocrypha during the cleaning of Dragonborn.esm.&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/add-qac-to-mo2.png" alt="Add QuickAutoClean to MO2">&lt;/p>
-&lt;h2 id="zedit">zEdit&lt;/h2>
-&lt;p>zEdit is an alternative to xEdit with some additional features. While it is far from being a replacement, it has some neat additional features. Unfortunately cannot take advantage from most of them because zEdit does not support ESL plugins.&lt;/p>
-&lt;p>At the moment, we only need zEdit for one very small step toward the end of the guide.&lt;/p>
-&lt;ul>
-&lt;li>Download &lt;a href="https://github.com/z-edit/zedit/releases">zEdit&lt;/a> manually from the Github page (see picture below).&lt;/li>
-&lt;li>Create a new folder: &lt;code>Your Modding Folder\Tools\zEdit&lt;/code>.&lt;/li>
-&lt;li>Open the downloaded archive and extract everything to the new folder.&lt;/li>
-&lt;li>Open Mod Organizer 2 and go into the &lt;strong>Executables&lt;/strong> settings (Tools &amp;raquo; Executables or CTRL + E).&lt;/li>
-&lt;li>Click the tiny blue plus icon to add a new executable and select &lt;strong>Add from file&lt;/strong>.&lt;/li>
-&lt;li>Navigate to &lt;code>Your Modding Folder\Tools\zEdit&lt;/code> and double-click zEdit.exe.&lt;/li>
-&lt;li>Click &lt;strong>OK&lt;/strong> to save the new executable and close the window.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/zedit-download.png" alt="zEdit Download">&lt;/p>
 &lt;h2 id="cathedral-assets-optimizer">Cathedral Assets Optimizer&lt;/h2>
 &lt;p>Cathedral Assets Optimizer (CAO) by Gk1 is a unified asset processing tool that can be used to extract or create BSAs, optimize assets, compress or resize textures, and more.&lt;/p>
 &lt;h3 id="installation">Installation&lt;/h3>

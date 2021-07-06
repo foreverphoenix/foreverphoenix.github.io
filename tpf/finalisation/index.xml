@@ -360,7 +360,7 @@
 &lt;/ul>
 &lt;h3 id="import-to-enbman">Import to ENBMan&lt;/h3>
 &lt;ul>
-&lt;li>Back in ENBMan, click the arrow under &lt;strong>Binaries&lt;/strong> and select &lt;strong>Add&lt;/strong>.&lt;/li>
+&lt;li>Back in ENBMan, click the arrow under &lt;strong>Binary&lt;/strong> and select &lt;strong>Add&lt;/strong>.&lt;/li>
 &lt;li>Enter &lt;strong>ENBSeries&lt;/strong> and the version number as name (eg &lt;strong>ENBSeries 0.454&lt;/strong>).&lt;/li>
 &lt;li>Click the green checkmark to confirm.&lt;/li>
 &lt;li>Drag the three files from your temp folder into the &lt;strong>Binary&lt;/strong> window.&lt;/li>
