@@ -132,7 +132,7 @@
 &lt;h2 id="installation">Installation&lt;/h2>
 &lt;p>SSELODGen is a tool for regenerating various LOD (level-of-detail) resources. We will be using it to generate better terrain LOD (distant ground textures) since the vanilla terrain LOD is of extremely low quality. This will also improve distant grass blending. Tree LOD and object LOD are much better handled with DynDOLOD (which is done in the next step) but afterwards we will once again use SSELODGen for Occlusion generation.&lt;/p>
 &lt;ul>
-&lt;li>Download the latest version of &lt;a href="https://forum.step-project.com/topic/13451-xlodgen-terrain-lod-beta-66-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal/">SSELODGen&lt;/a> from MEGA (see screenshot for the link).&lt;/li>
+&lt;li>Download the latest version of &lt;a href="https://forum.step-project.com/topic/13451-xlodgen-terrain-lod-beta-66-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal/">&lt;strong>SSELODGen&lt;/strong>&lt;/a> from MEGA (see screenshot for the link).&lt;/li>
 &lt;li>Navigate to &lt;code>Your Modding Folder\Tools&lt;/code> and create a new &lt;strong>SSELODGen&lt;/strong> folder.&lt;/li>
 &lt;li>Open the downloaded archive, double-click the &lt;strong>xLODGen&lt;/strong> folder, and extract all files into your new directory.&lt;/li>
 &lt;/ul>
@@ -149,7 +149,7 @@
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/finalisation/add-xlodgen-to-mo2.png" alt="Add xLODGen to MO2">&lt;/p>
 &lt;h2 id="sse-terrain-tamriel">SSE-Terrain-Tamriel&lt;/h2>
 &lt;ul>
-&lt;li>In the &lt;a href="https://stepmodifications.org/forum/topic/13451-xlodgen-terrain-lod-beta-76-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal-enderalse/">SSELODGen&lt;/a> post on the STEP forum, scroll down to &lt;strong>Recommended Optionals&lt;/strong>.&lt;/li>
+&lt;li>In the &lt;a href="https://stepmodifications.org/forum/topic/13451-xlodgen-terrain-lod-beta-76-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal-enderalse/">&lt;strong>SSELODGen&lt;/strong>&lt;/a> post on the STEP forum, scroll down to &lt;strong>Recommended Optionals&lt;/strong>.&lt;/li>
 &lt;li>Click the &lt;strong>SSE-Terrain-Tamriel-Extended.esm&lt;/strong> link (see screenshot).&lt;/li>
 &lt;li>Download the file from MEGA.&lt;/li>
 &lt;li>Create a new folder: &lt;code>Mod Organizer 2\mods\SSE-Terrain-Tamriel-Extended&lt;/code>.&lt;/li>
@@ -298,7 +298,15 @@
 &lt;li>Move &lt;strong>DynDOLOD.esm&lt;/strong> below your other ESMs at the top of your load order.&lt;/li>
 &lt;li>Leave &lt;strong>DynDOLOD.esp&lt;/strong> at the very bottom as the last plugin.&lt;/li>
 &lt;li>Make sure both plugins are activated.&lt;/li>
-&lt;/ul></description></item><item><title>Tpf: Occlusion</title><link>https://thephoenixflavour.com/tpf/finalisation/occlusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf/finalisation/occlusion/</guid><description>
+&lt;/ul>
+&lt;h2 id="solstheim-ice-piles-fix">Solstheim Ice Piles Fix&lt;/h2>
+&lt;p>For whatever reason, DynDOLOD reverts a change in the &lt;strong>Skyrim Remastered - Ice and Glaciers&lt;/strong> plugin to vanilla. This in turn breaks three statics on Solstheim.&lt;/p>
+&lt;ul>
+&lt;li>Download and install the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14223?tab=files">DynDOLOD - Solstheim Ice Piles Fix&lt;/a> from the &lt;strong>Optional Files&lt;/strong> section.&lt;/li>
+&lt;li>Install it as usual in Mod Organizer 2 and active it in the mod order.&lt;/li>
+&lt;li>Leave the plugin at the bottom of your load order so that it overwrites &lt;strong>DynDOLOD.esp&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>Check this &lt;a href="https://imgsli.com/NjUxMzE">comparison slider&lt;/a> to see what the objects in question look like before and after the fix.&lt;/p></description></item><item><title>Tpf: Occlusion</title><link>https://thephoenixflavour.com/tpf/finalisation/occlusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf/finalisation/occlusion/</guid><description>
 &lt;h2 id="generate-occlusion-data">Generate Occlusion Data&lt;/h2>
 &lt;p>We already installed SSELODGen for terrain LOD earlier so we simply need to fire it up again to generate Occlusion. Occlusion essentially tells the game what is visible to the player and must be rendered while invisible objects (on the other side of a mountain for instance) don&amp;rsquo;t have to be rendered at the time.&lt;/p>
 &lt;p>This will also fix the giant hole in the Sea of Ghosts behind Winterhold.&lt;/p>
@@ -325,18 +333,17 @@
 &lt;h2 id="what-is-enbseries">What is ENBSeries?&lt;/h2>
 &lt;p>ENBSeries is a post-processing injector by Boris Vorontsov. Unlike ReShade, it is not universal but built for specific games and hooks directly into the engine. Effects are therefore highly advanced and specific to each games. ENB is also capable of fixing bugs and improving performance plus it offers additional features such as VSYNC, a screenshot hotkey, and a toggleable FPS counter.&lt;/p>
 &lt;p>The effects vary in their performance impact. A full preset, especially when Skyrim is run on high resolutions, can bring even high-end PCs to their knees. Fortunately, Skyrim SE with its generally improved performance runs a great deal better with ENBSeries presets and 60FPS+ on a reasonable resolution (1080p) are comfortably attainable on most machines.&lt;/p>
-&lt;p>TPF uses &lt;strong>Rudy ENB&lt;/strong>, a cutting edge preset for Cathedral Weathers that comes with all the bells and whistles. The performance impact is not as extreme as one might think, however.&lt;/p>
-&lt;p>&lt;em>If you still find Rudy ENB too taxing for your system, you can try out some alternatives in the Performance Guide after completing base TPF.&lt;/em>&lt;/p>
+&lt;p>TPF uses &lt;strong>Serio&amp;rsquo;s ENB&lt;/strong>, preset for Cathedral Weathers that is fairly performance-friendly and doesn&amp;rsquo;t break vanilla imagespaces (for Nighteye). For better compatibility with our lighting overhaul, we will be using a version of it tweaked specifically for the guide.&lt;/p>
 &lt;h3 id="is-installing-enbseries-mandatory">Is installing ENBSeries mandatory?&lt;/h3>
 &lt;p>Yes and no.&lt;/p>
-&lt;p>ENB and Rudy&amp;rsquo;s preset are part of the guide. You are not supposed to skip these instructions, and without them, you will not have the intended visuals. However, disabling ENBSeries is as simple as pressing a single key ingame or clicking &amp;ldquo;Uninstall&amp;rdquo; in ENB Man.&lt;/p>
+&lt;p>ENB and Serio&amp;rsquo;s preset are part of the guide. You are not supposed to skip these instructions. However, disabling ENBSeries is as simple as pressing a single key ingame or clicking &amp;ldquo;Uninstall&amp;rdquo; in ENB Man.&lt;/p>
 &lt;p>The problem is that the guide was made with ENB in mind. For example, Skyrim&amp;rsquo;s native ambient occlusion was disabled early on in the guide in favour of ENB AO. A number of mods installed up until this point are exclusively for ENB, fixing mesh brightness or adding effects.&lt;/p>
-&lt;p>Ultimately, you shouldn&amp;rsquo;t encounter any major issues when disabling ENB. If you don&amp;rsquo;t like the effect or find the performance impact too jarring, you can essentially skip this step or uninstall ENB later on. The point is that I will not be responsible for any visual inconsistencies or bugs stemming from a user&amp;rsquo;s decision not to use ENBSeries.&lt;/p>
-&lt;p>If you choose not to use ENBSeries, it is advisable to re-enable Skyrim&amp;rsquo;s native ambient occlusion and lower the particle count, both done in the SkyrimPrefs.ini file.&lt;/p>
+&lt;p>Ultimately, you shouldn&amp;rsquo;t encounter any major issues when disabling ENB. If you don&amp;rsquo;t like the effect or find the performance impact too jarring, you can essentially skip this step or uninstall ENB later on. The point is that I will not be responsible for any visual inconsistencies or bugs stemming from a user&amp;rsquo;s refusal to use ENBSeries.&lt;/p>
+&lt;p>If you choose not to use ENBSeries, it is advisable to re-enable Skyrim&amp;rsquo;s native ambient occlusion in the &lt;code>SkyrimPrefs.ini&lt;/code> file.&lt;/p>
 &lt;h2 id="enbman">ENBMan&lt;/h2>
-&lt;p>ENBMan is one of several ENB manager tools available. It happens to my favourite which is why we are using it for TPF. One downside of ENBMan is that importing files directly from archives usually doesn&amp;rsquo;t work so an extra step is required, extracting files, and then importing them in ENBMan. That&amp;rsquo;s a small inconvenience for an otherwise extremely convenient tool though.&lt;/p>
+&lt;p>ENBMan is one of several ENB manager tools available. It happens to my favourite which is why we are using it for TPF. One downside of ENBMan is that importing files directly from archives usually doesn&amp;rsquo;t work so an extra step is required, extracting files, and then importing them in ENBMan. That&amp;rsquo;s a small inconvenience for an otherwise highy convenient tool though.&lt;/p>
 &lt;ul>
-&lt;li>Download &lt;a href="https://www.nexusmods.com/skyrim/mods/57620?tab=files">ENBMan&lt;/a> (the main file) manually from the Nexus.&lt;/li>
+&lt;li>Download &lt;a href="https://www.nexusmods.com/skyrim/mods/57620?tab=files">&lt;strong>ENBMan&lt;/strong>&lt;/a> (the main file) manually from the Nexus.&lt;/li>
 &lt;li>Extract &lt;strong>ENBMan.exe&lt;/strong> to &lt;code>Your Modding Folder\Tools\ENB Man&lt;/code>.&lt;/li>
 &lt;li>Run &lt;strong>ENBMan.exe&lt;/strong> and click the green plus to add a new game.&lt;/li>
 &lt;li>Click the folder icon and point ENBMan to your &lt;strong>SkyrimSE.exe&lt;/strong> (located in your root folder).&lt;/li>
@@ -347,21 +354,15 @@
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/finalisation/enb-game-setup.png" alt="Game Setup">&lt;/p>
 &lt;h2 id="enbseries-binaries">ENBSeries Binaries&lt;/h2>
 &lt;ul>
-&lt;li>On the website for &lt;a href="http://enbdev.com/download_mod_tesskyrimse.htm">ENBSeries for Skyrim SE&lt;/a>, click on the latest version number (near the bottom).&lt;/li>
+&lt;li>On the website for &lt;a href="http://enbdev.com/download_mod_tesskyrimse.htm">&lt;strong>ENBSeries for Skyrim SE&lt;/strong>&lt;/a>, click on the latest version number (near the bottom).&lt;/li>
 &lt;li>Scroll down and click the &lt;strong>download&lt;/strong> below the changelog.&lt;/li>
 &lt;li>Open the downloaded archive and double-click the &lt;strong>WrapperVersion&lt;/strong> folder.&lt;/li>
-&lt;li>Extract the following files from the &lt;strong>WrapperVersion&lt;/strong> folder to &lt;code>Your Modding Folder\temp&lt;/code>:
-&lt;ul>
-&lt;li>d3d11.dll&lt;/li>
-&lt;li>d3dcompiler_46e.dll&lt;/li>
-&lt;li>enblocal.ini&lt;/li>
-&lt;/ul>
-&lt;/li>
+&lt;li>Extract the &lt;strong>d3d11.dll&lt;/strong>, the &lt;strong>d3dcompiler_46e.dll&lt;/strong>, and the &lt;strong>enblocal.ini&lt;/strong> to &lt;code>Your Modding Folder\temp&lt;/code>.&lt;/li>
 &lt;/ul>
 &lt;h3 id="import-to-enbman">Import to ENBMan&lt;/h3>
 &lt;ul>
-&lt;li>Back in ENBMan, click the arrow under &lt;strong>Binary&lt;/strong> and select &lt;strong>Add&lt;/strong>.&lt;/li>
-&lt;li>Enter &lt;strong>ENBSeries&lt;/strong> and the version number as name (eg &lt;strong>ENBSeries 0.454&lt;/strong>).&lt;/li>
+&lt;li>Back in ENBMan, click the arrow under &lt;strong>Binaries&lt;/strong> and select &lt;strong>Add&lt;/strong>.&lt;/li>
+&lt;li>Enter &lt;strong>ENBSeries&lt;/strong> and the version number as name (e.g. &lt;strong>ENBSeries 0.460&lt;/strong>).&lt;/li>
 &lt;li>Click the green checkmark to confirm.&lt;/li>
 &lt;li>Drag the three files from your temp folder into the &lt;strong>Binary&lt;/strong> window.&lt;/li>
 &lt;li>Click the green checkmark to confirm.&lt;/li>
@@ -379,16 +380,6 @@
 &lt;li>Double-click the &lt;strong>enblocal.ini&lt;/strong> inside to import it.&lt;/li>
 &lt;li>Press CTRL+A to select all settings and click the green checkmark button in the toolbar to enable them.&lt;/li>
 &lt;/ul>
-&lt;h3 id="fix-black-hair">Fix Black Hair&lt;/h3>
-&lt;p>There is an additional fix to improve ENB shaders on hair that is not in the INI file by default.&lt;/p>
-&lt;ul>
-&lt;li>Click the green plus icon to add a setting.&lt;/li>
-&lt;li>Enter &lt;strong>FIX&lt;/strong> under &lt;strong>Section&lt;/strong>.&lt;/li>
-&lt;li>Enter &lt;strong>FixBlackHair&lt;/strong> under &lt;strong>Setting&lt;/strong>.&lt;/li>
-&lt;li>Enter &lt;strong>true&lt;/strong> under &lt;strong>Value&lt;/strong>.&lt;/li>
-&lt;li>Check the box for the new setting.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/finalisation/enb-fixblackhair.png" alt="Fix Black Hair">&lt;/p>
 &lt;h3 id="better-hotkeys">Better Hotkeys&lt;/h3>
 &lt;p>I&amp;rsquo;m personally not a fan of the default ENB ingame hotkeys. &amp;ldquo;KeyUseEffect&amp;rdquo;, for instance, is on Shift+F12. At the same time, F12 is the Steam hotkey for &amp;ldquo;Take Screenshot&amp;rdquo;. You can see how that might result in many unwanted screenshots.&lt;/p>
 &lt;p>Check the screenshot below and mirror my values in the input section to get the following hotkeys:&lt;/p>
@@ -403,32 +394,37 @@
 &lt;/ul>
 &lt;p>This means you can quickly toggle ENB ingame with F10, open the GUI to customise the preset with F11, and bring up a nifty FPS counter anytime with F7. No default keys are affected (like F5 and F9 for Quick Save and Quick Load respectively) and screenshots you can continue to take with F12 using the Steam overlay.&lt;/p>
 &lt;blockquote>
-&lt;p>If you want different hotkeys, use &lt;a href="https://keycode.info/">this super useful website&lt;/a> to figure out any key&amp;rsquo;s numeric value.&lt;/p>
+&lt;p>If you want different hotkeys, use &lt;a href="https://keycode.info/">&lt;strong>this super useful website&lt;/strong>&lt;/a> to figure out any key&amp;rsquo;s numeric value.&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/finalisation/enb-better-hotkeys.png" alt="ENB Better Hotkeys">&lt;/p>
 &lt;h3 id="save-global-configuration">Save Global Configuration&lt;/h3>
 &lt;ul>
 &lt;li>Click the green checkmark at the bottom, then click &lt;strong>Yes&lt;/strong> to confirm and save your changes.&lt;/li>
-&lt;li>Back in the &lt;strong>Global Configuration Files&lt;/strong> window, check the box next to &lt;strong>enblocal.ini.&lt;/strong>.&lt;/li>
+&lt;li>Back in the &lt;strong>Global Configuration Files&lt;/strong> window, check the box next to &lt;strong>enblocal.ini.&lt;/strong>&lt;/li>
 &lt;li>Click the green checkmark to close the window.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/finalisation/enb-global-ini.png" alt="ENB Better Hotkeys">&lt;/p>
-&lt;h2 id="rudy-enb">Rudy ENB&lt;/h2>
+&lt;h2 id="serios-enb">Serio&amp;rsquo;s ENB&lt;/h2>
 &lt;ul>
-&lt;li>Open the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/39113?tab=files">Rudy ENB&lt;/a> mod page.&lt;/li>
-&lt;li>Download the &lt;strong>Rudy ENB SE for Cathedral Weathers&lt;/strong> main file manually.&lt;/li>
+&lt;li>Open the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30506?tab=files">&lt;strong>Serio&amp;rsquo;s ENB&lt;/strong>&lt;/a> mod page.&lt;/li>
+&lt;li>Download the &lt;strong>Serio&amp;rsquo;s ENB - TPF Edits&lt;/strong> miscellaneous file manually.&lt;/li>
 &lt;li>Open the downloaded archive and double-click the folder inside.&lt;/li>
-&lt;li>Navigate to &lt;code>! Catherdral Weathers Version\[ Skyrim SE folder ]\&lt;/code>&lt;/li>
-&lt;li>Extract everything from inside that folder to &lt;code>\Your Modding Folder\temp\&lt;/code>:&lt;/li>
+&lt;li>Extract the &lt;strong>enbseries.ini&lt;/strong>, the &lt;strong>enblocal.ini&lt;/strong>, and the &lt;strong>enbseries&lt;/strong> folder to &lt;code>Your Modding Folder\temp&lt;/code>.&lt;/li>
 &lt;/ul>
-&lt;h3 id="lighting-mod-ini">Lighting Mod INI&lt;/h3>
-&lt;p>Back in the Rudy ENB archive, nagivate to the following folder:&lt;/p>
-&lt;p>&lt;code>\ADDONS\! Lighting mods and Night Eye ENB Fix (use only one)\Normal Game\! If Luminosity is placed after Window Shadows\&lt;/code>&lt;/p>
-&lt;p>Extract the &lt;strong>enbseries&lt;/strong> folder inside into your &lt;strong>temp&lt;/strong> folder, and confirm to merge and overwrite.&lt;/p>
+&lt;h3 id="disable-distant-reflections">Disable Distant Reflections&lt;/h3>
+&lt;ul>
+&lt;li>Open the &lt;strong>enbseries.ini&lt;/strong> in a Notepad++.&lt;/li>
+&lt;li>Scroll down to &lt;strong>Line 1122&lt;/strong>.&lt;/li>
+&lt;li>Set &lt;strong>DisableDistantReflections&lt;/strong> to &lt;strong>true&lt;/strong>.&lt;/li>
+&lt;li>Hit CTRL+S to save your changes and close the window.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>This will improve the way water looks in the distance.&lt;/p>
+&lt;/blockquote>
 &lt;h3 id="create-a-new-preset">Create a new preset&lt;/h3>
 &lt;ul>
 &lt;li>In ENBMan, click the arrow under &lt;strong>Presets&lt;/strong> and select &lt;strong>Blank preset&lt;/strong>.&lt;/li>
-&lt;li>Enter a name for the new preset: &lt;code>Rudy ENB for Cathedral Weathers&lt;/code>.&lt;/li>
+&lt;li>Enter a name for the new preset: &lt;code>Serio's ENB for Cathedral Weathers 1.10&lt;/code>.&lt;/li>
 &lt;li>Click the green checkmark to confirm.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/finalisation/create-new-preset.png" alt="Create New Preset">&lt;/p>
@@ -438,14 +434,12 @@
 &lt;li>Click &lt;strong>No&lt;/strong> both times when asked to add the palettes to ENB Man.&lt;/li>
 &lt;li>Remove all files inside the &lt;strong>temp&lt;/strong> folder.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;em>Reference picture shows a different preset but the process is the same.&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/finalisation/install-enb-preset.png" alt="Import Preset Files">&lt;/p>
 &lt;h3 id="activate-the-preset">Activate the preset&lt;/h3>
 &lt;ul>
 &lt;li>Select the latest version of ENBSeries under &lt;strong>Binary&lt;/strong> and tick the checkbox.&lt;/li>
 &lt;li>Click the green checkmark at the bottom of the window to install the preset.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;em>Reference picture shows a different preset but the process is the same.&lt;/em>&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/finalisation/activate-enb-preset.png" alt="Enable Preset">&lt;/p></description></item><item><title>Tpf: First Launch</title><link>https://thephoenixflavour.com/tpf/finalisation/first-launch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf/finalisation/first-launch/</guid><description>
 &lt;h2 id="a-test-game">A Test Game&lt;/h2>
 &lt;p>All mods are installed. The ENB preset is configured correctly. DynDOLOD is generated. Now comes the moment of truth.&lt;/p>
@@ -462,12 +456,7 @@
 &lt;ul>
 &lt;li>Press &lt;strong>ESCAPE&lt;/strong> and select the &lt;strong>MCM&lt;/strong> Option.&lt;/li>
 &lt;li>Scroll down and click on &lt;strong>Immersive HUD&lt;/strong> to open the mod&amp;rsquo;s MCM.&lt;/li>
-&lt;li>In the &lt;strong>Activation&lt;/strong> tab, select the following two options:
-&lt;ul>
-&lt;li>Key press toggles&lt;/li>
-&lt;li>Link ALL SkyUI Widgets&lt;/li>
-&lt;/ul>
-&lt;/li>
+&lt;li>In the &lt;strong>Activation&lt;/strong> tab, check the &lt;strong>Key press toggles&lt;/strong> and &lt;strong>Link ALL SkyUI Widgets&lt;/strong> options.&lt;/li>
 &lt;li>You can also change the hotkey to a different one if its inconvenient for you (default is X).&lt;/li>
 &lt;/ul>
 &lt;blockquote>
@@ -486,15 +475,15 @@
 &lt;li>Activate the ENBSeries FPS counter (&lt;strong>F7&lt;/strong>) to monitor your frame rate.&lt;/li>
 &lt;li>It may be convenient to use the console in order to enable godmode (&lt;code>tgm&lt;/code>) and disable enemy AI (&lt;code>tcai&lt;/code>) for testing purposes.&lt;/li>
 &lt;li>Travel around Skyrim and visit your favourite locations (open the console and type &lt;code>tmm 1&lt;/code> to enable all map markers).&lt;/li>
-&lt;li>Especially intense areas where you frame rate might drop are:
+&lt;/ul>
+&lt;p>Especially intense areas where you frame rate might drop are:&lt;/p>
 &lt;ul>
 &lt;li>the southern forest, especially when looking down at Falkreath,&lt;/li>
 &lt;li>the swamp surrounding Morthal,&lt;/li>
 &lt;li>the bridge looking at Riverwood,&lt;/li>
 &lt;li>the Rift, particularly when approaching Riften from the south.&lt;/li>
 &lt;/ul>
-&lt;/li>
-&lt;/ul>
 &lt;p>&lt;strong>When you are satisfied, close Skyrim SE again.&lt;/strong>&lt;/p>
 &lt;p>If you encounter any bugs, performance lower than expected, or even crashes, please join us on Discord and provide us with detailed information about the problem. Any outstanding issues should be solved before diving back into Skyrim for a proper playthrough.&lt;/p>
+&lt;p>Once you are ready to begin a proper playthrough:&lt;/p>
 &lt;h4 id="continue-with-the-mod-configurationtpfmod-configuration-page">Continue with the &lt;a href="https://thephoenixflavour.com/tpf/mod-configuration/">Mod Configuration&lt;/a> page.&lt;/h4></description></item></channel></rss>

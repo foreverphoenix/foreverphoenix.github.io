@@ -590,7 +590,7 @@
 &lt;h4 id="continue-with-the-additional-toolstpfinitial-setupadditional-tools-page">Continue with the &lt;a href="https://thephoenixflavour.com/tpf/initial-setup/additional-tools/">Additional Tools&lt;/a> page.&lt;/h4></description></item><item><title>Tpf: Additional Tools</title><link>https://thephoenixflavour.com/tpf/initial-setup/additional-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf/initial-setup/additional-tools/</guid><description>
 &lt;h2 id="sseedit">SSEEdit&lt;/h2>
 &lt;ul>
-&lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/164/">SSEEdit&lt;/a> manually from the Nexus.&lt;/li>
+&lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/164/">&lt;strong>SSEEdit&lt;/strong>&lt;/a> manually from the Nexus.&lt;/li>
 &lt;li>Create a new folder: &lt;code>Your Modding Folder\Tools\SSEEdit&lt;/code>.&lt;/li>
 &lt;li>Open the downloaded archive and extract everything into the new folder.&lt;/li>
 &lt;li>Open Mod Organizer 2 and go into the &lt;strong>Executables&lt;/strong> settings (Tools &amp;raquo; Executables or CTRL + E).&lt;/li>
@@ -638,6 +638,12 @@
 &lt;p>Again remember that the trailing backslash at the end is required - the file path MUST end on &lt;code>\backups\&lt;/code>.&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/xedit-arguments.png" alt="xEdit Arguments">&lt;/p>
+&lt;h3 id="disable-warning-window">Disable Warning Window&lt;/h3>
+&lt;p>Upon attempting to edit something for the first time each session, SSEEdit will display a &lt;a href="https://tes5edit.github.io/docs/img/EditWarning.jpg">&lt;strong>warning&lt;/strong>&lt;/a> with a 3 second delay before you can close it. However, while the tool has no &amp;ldquo;undo&amp;rdquo; button, that does not mean any edits are permanent: They are only applied to the plugin in question if you explicitly save them after closing the tool. For longer sessions, it is advisable to save the plugins you are working on periodically (but this is not something you will need to do during the setup of TPF).&lt;/p>
+&lt;p>There is a command that you can add in the arguments for SSEEdit in order to disable the warning window. It will speed up the process of making quick edits such as the removal of a few records or flagging a plugin as ESL. I highly recommend adding it in your MO2 instance after the two arguments for backups and cache:&lt;/p>
+&lt;p>&lt;code>-IKnowWhatImDoing&lt;/code>&lt;/p>
+&lt;p>&lt;em>Screenshot below shows some additional executables that you will not install until later on in the guide.&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/xedit-iknowwhatimdoing.png" alt="Disable Warning">&lt;/p>
 &lt;h3 id="quickautoclean">QuickAutoClean&lt;/h3>
 &lt;ul>
 &lt;li>Click the tiny blue plus icon to add another new executable and select &lt;strong>Add from file&lt;/strong>.&lt;/li>
@@ -659,7 +665,7 @@
 &lt;p>Cathedral Assets Optimizer (CAO) by Gk1 is a unified asset processing tool that can be used to extract or create BSAs, optimize assets, compress or resize textures, and more.&lt;/p>
 &lt;h3 id="installation">Installation&lt;/h3>
 &lt;ul>
-&lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23316">Cathedral Assets Optimizer&lt;/a> &lt;strong>5.0.15&lt;/strong> manually.&lt;/li>
+&lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23316">&lt;strong>Cathedral Assets Optimizer&lt;/strong>&lt;/a> &lt;strong>5.0.15&lt;/strong> manually.&lt;/li>
 &lt;li>Create a new folder: &lt;code>Your Modding Folder\Tools\Cathedral Assets Optimizer&lt;/code>.&lt;/li>
 &lt;li>Open the downloaded archive and extract everything into the new folder.&lt;/li>
 &lt;li>Follow &lt;a href="https://support.microsoft.com/en-us/help/4028485/windows-">these instructions&lt;/a> to add an exception for CAO to Windows Defender.&lt;/li>
@@ -668,7 +674,7 @@
 &lt;h3 id="profiles">Profiles&lt;/h3>
 &lt;p>Cathedral Assets Optimiser allows you to set up dedicated profiles. I created several profiles for different purposes to be used during the installation of the guide.&lt;/p>
 &lt;ul>
-&lt;li>Download the latest version of the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Cathedral Assets Optimizer - Basic Profiles Pack&lt;/a> manually from the Nexus.&lt;/li>
+&lt;li>Download the latest version of the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">&lt;strong>Cathedral Assets Optimizer - Basic Profiles Pack&lt;/strong>&lt;/a> manually from the Nexus.&lt;/li>
 &lt;li>Open the downloaded archive.&lt;/li>
 &lt;li>Extract all folders to &lt;code>Your Modding Folder\Tools\Cathedral Assets Optimizer\profiles&lt;/code>.&lt;/li>
 &lt;/ul>
@@ -676,11 +682,11 @@
 &lt;h2 id="sse-nif-optimizer">SSE NIF Optimizer&lt;/h2>
 &lt;p>While the vast majority of SLE meshes can be fixed with Cathedral Assets Optimizer, there are some that will only work properly after running them through the original SSE NIF Optimizer.&lt;/p>
 &lt;ul>
-&lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4089">SSE NIF Optimizer&lt;/a> manually from the Nexus.&lt;/li>
+&lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4089">&lt;strong>SSE NIF Optimizer&lt;/strong>&lt;/a> manually from the Nexus.&lt;/li>
 &lt;li>Extract the executable into Your Modding Folder. It’s just a single file so no separate directory is required.&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;h4 id="continue-with-the-esm-cleaningtpfinitial-setupesm-cleaning-page">Continue with the &lt;a href="https://thephoenixflavour.com/tpf/initial-setup/esm-cleaning/">ESM Cleaning&lt;/a> page.&lt;/h4></description></item><item><title>Tpf: ESM Cleaning</title><link>https://thephoenixflavour.com/tpf/initial-setup/esm-cleaning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf/initial-setup/esm-cleaning/</guid><description>
+&lt;h4 id="continue-with-the-esm-cleaningtpfinitial-setupesm-cleaning-page">Continue with the &lt;a href="https://thephoenixflavour.com/tpf/initial-setup/esm-cleaning/">&lt;strong>ESM Cleaning&lt;/strong>&lt;/a> page.&lt;/h4></description></item><item><title>Tpf: ESM Cleaning</title><link>https://thephoenixflavour.com/tpf/initial-setup/esm-cleaning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf/initial-setup/esm-cleaning/</guid><description>
 &lt;h2 id="about-esm-cleaning">About ESM Cleaning&lt;/h2>
 &lt;p>With the release of SSEEdit 4.0, the process of cleaning plugins has been simplified substantially. Beginning with &lt;strong>Update.esm&lt;/strong>, we are going to clean the following four ESMs, Bethesda’s official master files, &lt;strong>one at a time&lt;/strong>.&lt;/p>
 &lt;ul>
@@ -754,7 +760,6 @@
 &lt;li>Navigate to &lt;code>Block 5\Sub-Block 3&lt;/code> and select the record highlighted with red: &lt;code>00016BCF RiftenRaggedFlagon&lt;/code>.&lt;/li>
 &lt;li>Scroll down in the right pane to the bottom until you can see the conflict in the line marked red.&lt;/li>
 &lt;li>Right-click &lt;code>RiftenRatwayZone [ECZN:0009FBB9]&lt;/code> in &lt;strong>Dawnguard.esm&lt;/strong> and select &lt;strong>Remove&lt;/strong> (see picture below).&lt;/li>
-&lt;li>There will be a warning, simply click &lt;strong>Yes I’m absolutely sure&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/esm-cleaning-manual-edit.png" alt="ESM Cleaning - Manual Edit">&lt;/p>
 &lt;h3 id="save-changes">Save Changes&lt;/h3>
