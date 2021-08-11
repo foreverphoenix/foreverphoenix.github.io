@@ -105,10 +105,13 @@
 &lt;p>Finally a number of mods had to be removed because they were deleted from the Nexus due to recent drama.&lt;/p>
 &lt;p>&lt;strong>About the difficulty change:&lt;/strong>&lt;/p>
 &lt;p>The vanilla difficulty modifiers addon for Blade &amp;amp; Blunt is now part of TPF. This is because occasionally users complain about tough combat while absolutely refusing to lower the game difficulty out of a misplaced sense of pride. TPF combat with Blade and Blunt (and some other mods) is more challenging than vanilla, and you should never feel bad for lowering the difficulty in order to have fun.&lt;/p>
-&lt;p>You can disable the plugin to play with Adamant&amp;rsquo;s adjusted difficulty levels for tougher combat.&lt;/p>
+&lt;p>You can disable the plugin anytime to play with Adamant&amp;rsquo;s adjusted difficulty levels for tougher combat.&lt;/p>
 &lt;h4 id="updating">Updating&lt;/h4>
 &lt;ul>
-&lt;li>Manual guide users need to update [SSELODGen] and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32382?tab=files">DynDOLOD&lt;/a>.&lt;/li>
+&lt;li>Update [SSELODGen] and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32382?tab=files">DynDOLOD&lt;/a>.&lt;/li>
+&lt;li>Regenerate all LODs as well as occlusion.&lt;/li>
+&lt;li>Update ENBSeries binaries.&lt;/li>
+&lt;li>&lt;strong>A new save is required.&lt;/strong>&lt;/li>
 &lt;/ul>
 &lt;h4 id="initial-setup">Initial Setup&lt;/h4>
 &lt;ul>
