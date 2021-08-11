@@ -91,7 +91,6 @@
 &lt;p>11/08/2021&lt;/p>
 &lt;/blockquote>
 &lt;p>With this update, we are doing some spring cleaning. Several mods that we consider to be problematic (Hearthfire Multiple Adoptions) or out of place in TPF (Reliquary of Myth, Obscure&amp;rsquo;s College of Winterhold) have been removed. On the other hand, I added &lt;strong>Apothecary&lt;/strong>, Simon and Delta&amp;rsquo;s new SimonRim alchemy and food overhaul. These changes all require &lt;strong>a new playthrough&lt;/strong> which is why this update is a major release.&lt;/p>
-&lt;p>Another notable change is the addition of the &lt;strong>vanilla modifiers&lt;/strong> addon for our combat overhaul, Blade &amp;amp; Blunt. Combat will be easier with this addon. I chose to add it because I believe that, as a v+ list, TPF combat should not be significantly harder than vanilla (though it is certainly more complex). You can simply disable the plugin if you prefer the harder difficulty.&lt;/p>
 &lt;p>The reasons for the removal of Realistic AI Detection as well as several content-related mods can be found in &lt;a href="https://www.patreon.com/posts/august-update-54701613">&lt;strong>this Patreon post&lt;/strong>&lt;/a>.&lt;/p>
 &lt;p>I also (finally) added the -IKnowWhatImDoing argument for SSEEdit (so that the warning window is skipped). I removed the &amp;ldquo;click yes to warning&amp;rdquo; instruction in as many places as I could find it, but might have missed some.&lt;/p>
 &lt;p>&lt;strong>About the ENB change:&lt;/strong>&lt;/p>
@@ -104,7 +103,7 @@
 &lt;p>With the removal of Reliquary of Myth and Unique Item Tweaks, we have once again reverted to vanilla artifacts. They are not ideal, but ROM&amp;rsquo;s effects are more suited to EnaiRim setups; they feel out of place in SimonRim. I&amp;rsquo;m confident there will be a v+ artifact overhaul released one day that can then finally cover uniques in TPF.&lt;/p>
 &lt;p>Finally a number of mods had to be removed because they were deleted from the Nexus due to recent drama.&lt;/p>
 &lt;p>&lt;strong>About the difficulty change:&lt;/strong>&lt;/p>
-&lt;p>The vanilla difficulty modifiers addon for Blade &amp;amp; Blunt is now part of TPF. This is because occasionally users complain about tough combat while absolutely refusing to lower the game difficulty out of a misplaced sense of pride. TPF combat with Blade and Blunt (and some other mods) is more challenging than vanilla, and you should never feel bad for lowering the difficulty in order to have fun.&lt;/p>
+&lt;p>The vanilla difficulty modifiers addon for Blade &amp;amp; Blunt is now part of TPF. This is because occasionally users complain about tough combat while absolutely refusing to lower the game difficulty out of a misplaced sense of pride. TPF combat with Blade and Blunt (and some other mods) is more challenging than vanilla, and you should never feel bad for lowering the difficulty in order to have fun. I believe that as a v+ list, TPF should not be (much) harder than vanilla anyway.&lt;/p>
 &lt;p>You can disable the plugin anytime to play with Adamant&amp;rsquo;s adjusted difficulty levels for tougher combat.&lt;/p>
 &lt;h4 id="updating">Updating&lt;/h4>
 &lt;ul>
