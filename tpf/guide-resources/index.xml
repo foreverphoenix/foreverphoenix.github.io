@@ -296,17 +296,29 @@
 &lt;li>Close the Creation Kit.&lt;/li>
 &lt;li>Afterwards, you can right-click the mod in MO2 and select &lt;strong>Mark converted/working&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;h2 id="cleaning-plugins">Cleaning Plugins&lt;/h2>
+&lt;h2 id="esl-ifying-plugins">ESL-ifying Plugins&lt;/h2>
 &lt;blockquote>
-&lt;p>&amp;ldquo;Clean Example.esp with SSEEdit.&amp;rdquo;&lt;/p>
+&lt;p>&amp;ldquo;ESL-ify Example.esp with SSEEdit.&amp;rdquo;&lt;/p>
 &lt;/blockquote>
-&lt;p>Very rarely a plugin may contain ITMs or deleted records in which case you need to run it through the QuickAutoClean version of SSEEdit (just like we did with the official master files).&lt;/p>
+&lt;p>While Skyrim SE, like Skyrim SE, has a hard limit of 255 plugins (ESM/ESP), plugins saved in ESL space are exempt from this, allowing us to go beyond the limit (which TPF does).&lt;/p>
 &lt;ul>
-&lt;li>Run &lt;strong>SSEEdit - Quick Cleaning&lt;/strong> through Mod Organizer 2.&lt;/li>
-&lt;li>Check only the plugin you were instructed to clean in the plugin list.&lt;/li>
-&lt;li>Click &lt;strong>OK&lt;/strong> and wait for the process to complete (&lt;code>Quick Clean mode finished&lt;/code>).&lt;/li>
-&lt;li>Close SSEEdit.&lt;/li>
+&lt;li>Run &lt;strong>SSEEdit&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> in the plugin selection window to load all your mods.&lt;/li>
+&lt;li>Wait until SSEEdit has finished loading up your plugins and returns &lt;code>Background loader: finished&lt;/code>.&lt;/li>
 &lt;/ul>
+&lt;p>If plugins add new records, their form IDs must be renumbered prior to adding the ESL flag in SSEEdit:&lt;/p>
+&lt;ul>
+&lt;li>Right-click the plugin you want to ESL-ify in the left pane and select &lt;strong>Compact FormIDs for ESL&lt;/strong>.&lt;/li>
+&lt;li>If any form IDs have to renumbered, there will be a warning window. Click &lt;strong>Yes&lt;/strong> to confirm and wait for the process to complete.&lt;/li>
+&lt;li>Otherwise you will be told that no form IDs had to be renumbered. Click &lt;strong>OK&lt;/strong> to close the notification.&lt;/li>
+&lt;/ul>
+&lt;p>Now to add the ESL flag:&lt;/p>
+&lt;ul>
+&lt;li>Right-click the empty space to the right of &lt;strong>Record Flags&lt;/strong> and select &lt;strong>Edit&lt;/strong>.&lt;/li>
+&lt;li>In the next window, check only &lt;strong>ESL&lt;/strong> and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Close &lt;strong>SSEEdit&lt;/strong> and click &lt;strong>OK&lt;/strong> to save your changes.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/guide-resources/esl-flag-plugin.png" alt="ESL Flag Plugin">&lt;/p>
 &lt;h2 id="extracting-bsas">Extracting BSAs&lt;/h2>
 &lt;blockquote>
 &lt;p>&amp;ldquo;Unpack Example.bsa through Mod Organizer 2.&amp;rdquo;&lt;/p>
@@ -320,7 +332,7 @@
 &lt;/ul>
 &lt;h2 id="optimising-sle-assets">Optimising SLE Assets&lt;/h2>
 &lt;blockquote>
-&lt;p>&amp;ldquo;Run the mod through Cathedral Assets Optimiser (Optimise SLE Assets).&amp;rdquo;&lt;/p>
+&lt;p>&amp;ldquo;Run the mod through Cathedral Assets Optimiser.&amp;rdquo;&lt;/p>
 &lt;/blockquote>
 &lt;p>Skyrim LE meshes often need to be fixed and optimised by Cathedral Assets Optimizer before they can be used in SE. We will also use CAO on mods to optimise (compress) included textures sometimes. If a Classic Skyrim mod does not have instructions to run it through CAO this is because I already did so and found that no meshes or textures needed optimising.&lt;/p>
 &lt;ul>
@@ -345,7 +357,7 @@
 &lt;/ul>
 &lt;h2 id="downsizing-textures">Downsizing Textures&lt;/h2>
 &lt;blockquote>
-&lt;p>&amp;ldquo;Run the mod through Cathedral Assets Optimizer (Downsize Textures).&amp;rdquo;&lt;/p>
+&lt;p>&amp;ldquo;Run the mod through Cathedral Assets Optimizer.&amp;rdquo;&lt;/p>
 &lt;/blockquote>
 &lt;p>At times (re)textures are only available in a size unreasonably large for regular gameplay, potentially impacting performance for those with low VRAM. In those cases we will utilise CAO to reduce the texture resolution by half.&lt;/p>
 &lt;ul>
