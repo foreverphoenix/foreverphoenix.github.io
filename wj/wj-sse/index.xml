@@ -1,0 +1,178 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Setup for Skyrim SE</title><link>https://thephoenixflavour.com/wj/wj-sse/</link><description>Recent content in Setup for Skyrim SE on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/wj/wj-sse/index.xml" rel="self" type="application/rss+xml"/><item><title>Wj: Game Setup</title><link>https://thephoenixflavour.com/wj/wj-sse/game-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wj/wj-sse/game-setup/</guid><description>
+&lt;p>All Wabbajack lists come with extensive documentation, most of which covers the preparation of your Skyrim SE installation. These steps are largely identical for every (Skyrim SE) Wabbajack list and are covered in great detail below.&lt;/p>
+&lt;p>Please refer to the documentation of your Wabbajack list before installing it and use the instructions provided. Do not follow the instructions on this page unless your list links back here.&lt;/p>
+&lt;blockquote>
+&lt;p>If you are wondering why my instructions are so much more extensive than those of most Wabbajack lists, it is because I explain many of the steps and changes in far greater detail. That does not mean Wabbajack lists&amp;rsquo; documentation is insufficient, but installation instructions are not usually a priority for them. Meanwhile this page exists solely to provide instructions that are as comprehensive and easy-to-follow as possible.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;p>The following lists currently link back to this page:&lt;/p>
+&lt;ul>
+&lt;li>None (yet)&lt;/li>
+&lt;/ul>
+&lt;h2 id="requirements">Requirements&lt;/h2>
+&lt;p>Any Wabbajack list requires you to own a Steam copy of &lt;a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/">Skyrim SE&lt;/a>. The tool will not work with pirated copies of the game. Should Discord moderators suspect that you are using a pirated copy of Skyrim upon asking for support, they will request proof of purchase. If you fail to produce any, they will remove you from the server. Piracy of any kind is not tolerated.&lt;/p>
+&lt;p>Wabbajack currently only supports &lt;strong>the latest version of Windows 10&lt;/strong>. Linux support is planned, but not currently available.&lt;/p>
+&lt;p>You also must have an account on &lt;a href="https://www.nexusmods.com/">Nexus Mods&lt;/a>. A free account is sufficient, although you would have to download mods by hand. Wabbajack helps with this by opening the pages and highlighting the files you need, but it will still take a while to download hundreds of files manually. With Nexus Premium, you can simply click install in Wabbajack and all files will be downloaded manually. This limitation with free accounts is due to the Nexus API; Wabbajack has no control over it.&lt;/p>
+&lt;h3 id="disk-space">Disk Space&lt;/h3>
+&lt;p>A good amount of free disk space is required. The documentation for your chosen Wabbajack list should indicate exactly how big the &lt;strong>mods&lt;/strong> and &lt;strong>downloads&lt;/strong> folders will be after the installation. The &lt;strong>mods&lt;/strong> folder is part of the Mod Organizer 2 setup and contains all the actual files that are loaded into the game, as such it ought to be on a fast hard drive (ideally an SSD).&lt;/p>
+&lt;p>The &lt;strong>downloads&lt;/strong> folder meanwhile contains the downloaded mod archives that are needed for reinstalling mods or updating the list, but not for playing. They can be stored on another hard drive like a slower HDD. They can also be deleted after installing the list, but in that case you would need to redownload &lt;em>all files&lt;/em> when updating the Wabbajack list.&lt;/p>
+&lt;h3 id="visual-c-redist">Visual C++ Redist&lt;/h3>
+&lt;p>The Microsoft Visual C++ Redistributable is a basic package required by Mod Organizer 2. You probably already have it installed with Windows but it is best to make sure.&lt;/p>
+&lt;ul>
+&lt;li>Open the official &lt;a href="https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0">Microsoft Visual C++ website&lt;/a>.&lt;/li>
+&lt;li>Scroll to the &lt;strong>Visual Studio 2015, 2017 and 2019&lt;/strong> section.&lt;/li>
+&lt;li>Download the following file: &lt;code>vc_redist.x64.exe&lt;/code>.&lt;/li>
+&lt;li>Run the executable, it will guide you through the installation process.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/vc-redists.png" alt="VC Redist">&lt;/p>
+&lt;h3 id="antivirus-software">Antivirus Software&lt;/h3>
+&lt;p>Plenty of antivirus software by third parties has caused Wabbajack and Mod Organizer 2 significant trouble in the past. They frequently disable or partially disable functionality of either tool by quarantining files. It is recommended to simply rely on &lt;strong>Windows Defender&lt;/strong>. You can also disable your antivirus or add exceptions for Wabbajack and Mod Organizer 2.&lt;/p>
+&lt;p>(This does not meant that that either tool is full of viruses, merely that not all third party antivirus programs out there have manually flagged the latest versions of them as harmless. If you are worried about viruses, note that the Nexus checks all uploaded files up to a certain limit for viruses using &lt;a href="https://www.virustotal.com/gui/home/upload">Virus Total&lt;/a>.)&lt;/p>
+&lt;h2 id="skyrim-cleanup">Skyrim Cleanup&lt;/h2>
+&lt;p>Wabbajack lists can only installed for clean, vanilla installations of Skyrim SE. Please remove any traces of previous modded setups before using Wabbajack. A quick and easy way to do this used to be the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30133">Skyrim Shredder&lt;/a> tool by Wabbajack team member and list author trawzified. However, the tool is currently not usable due to a Steam update so the cleaning has to be done manually.&lt;/p>
+&lt;p>If you have existing &lt;strong>Mod Organizer 2&lt;/strong> setups &lt;em>as portable instances&lt;/em>, you do not need to remove them. One of MO2&amp;rsquo;s primary features is that each portable instance is self-contained without ever touching the vanilla files, meaning they will not interfere with each other. All Wabbajack lists use MO2 with portable instances so you can install several lists alongside each other.&lt;/p>
+&lt;h3 id="uninstalling-skyrim">Uninstalling Skyrim&lt;/h3>
+&lt;p>First, we need to remove the vanilla files:&lt;/p>
+&lt;ul>
+&lt;li>Uninstall the game through Steam.&lt;/li>
+&lt;/ul>
+&lt;p>While uninstalling through Steam will remove all vanilla files from your hard drives, any mod-added files will remain in place.&lt;/p>
+&lt;ul>
+&lt;li>Navigate to where Skyrim was installed, this is likely: &lt;code>C:\Program Files x86\Steam\steamapps\common\&lt;/code>.&lt;/li>
+&lt;li>If there is still a &lt;strong>Skyrim Special Edition&lt;/strong> folder in this location, delete it.&lt;/li>
+&lt;/ul>
+&lt;p>This will leave your vanilla saves and INI files in place. They are stored under &lt;code>C:\Users\Your Username\Documents\My Games\Skyrim Special Edition\&lt;/code> and will not interfere with your Wabbajack installation as Mod Organizer 2 uses its own directories for saves and INI files. You will be able to play vanilla Skyrim with your old saves anytime by launching the game through Steam instead of MO2.&lt;/p>
+&lt;h2 id="steam-settings">Steam Settings&lt;/h2>
+&lt;p>Before we can reinstall the game, we need to adjust some settings in Steam.&lt;/p>
+&lt;ul>
+&lt;li>In Steam, open the &lt;strong>Properties&lt;/strong> for Skyrim SE.&lt;/li>
+&lt;li>In the &lt;strong>Updates&lt;/strong> tab, make sure &lt;strong>Automatic Updates&lt;/strong> is set to &lt;strong>Only update this game when I launch it&lt;/strong>.&lt;/li>
+&lt;li>In the &lt;strong>Language&lt;/strong> tab, make sure the &lt;strong>Language&lt;/strong> is set to &lt;strong>English&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="about-automatic-updates">About automatic updates&lt;/h3>
+&lt;p>Automatic updates are restricted because they can render you unable to play the game. Skyrim SE still updates on occasion when new content for the Creation Club is added or existing Creations are updated. Whenever that happens the &lt;a href="http://skse.silverlock.org/">Skyrim Script Extender&lt;/a> (SKSE) will not work until it also receives an update, and without SKSE any Wabbajack list is unplayable.&lt;/p>
+&lt;p>With the changed settings, you will still be able to launch the game through Mod Organizer 2 as usual which will not forcibly update the game and allow you to stay on the previous version for however you long you like, or until SKSE and the Wabbajack list are updated.&lt;/p>
+&lt;h3 id="english-language-requirement">English language requirement&lt;/h3>
+&lt;p>No Wabbajack lists currently support languages other than English, and attempting to run Wabbajack with non-English base files will result in a strange mix of both languages. Localisation is not as easy as editing string files; the names for most objects, etc, are defined in plugins. Patching an entire Wabbajack list for any non-English language would be a considerable amount of work.&lt;/p>
+&lt;p>&lt;strong>Non-English setups will not receive support.&lt;/strong>&lt;/p>
+&lt;h2 id="installation-directory">Installation Directory&lt;/h2>
+&lt;p>In order for Wabbajack and Mod Organizer 2 to work properly, &lt;strong>you must install Skyrim SE outside any protected folders&lt;/strong>. These folders include &lt;code>C:\Program Files\&lt;/code> or &lt;code>C:\Program Files x86\&lt;/code>. As Steam is installed into one of these folders by default and Steam games are installed within the Steam installation folder by default, you will need to adjust some settings.&lt;/p>
+&lt;p>Steam installs game files into so called &lt;strong>Libraries&lt;/strong>. These are folders in which you will then be able to install various games in. For example, here is &lt;a href="https://thephoenixflavour.com/Pictures/wj/sse/steam-library-example.png">my primary Steam Library&lt;/a>. As you can see, it is on another SSD and not located within the &lt;code>\Steam\&lt;/code> root folder. If you have Steam installed in a UAC protected folder, you will need to create a new Steam Library &lt;em>outside&lt;/em> that folder and install Skyrim SE there.&lt;/p>
+&lt;p>Folders that you should &lt;strong>not&lt;/strong> use include these:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>C:\Program Files\&lt;/code>&lt;/li>
+&lt;li>&lt;code>C:\Program Files x86\&lt;/code>&lt;/li>
+&lt;li>&lt;code>C:\Users\&lt;/code> (which includes Downloads, Documents, Desktop, etc,)&lt;/li>
+&lt;/ul>
+&lt;p>Generally speaking a top-level folder such as &lt;code>G:\Steam Games\&lt;/code> is preferable. It should also ideally be located on an &lt;strong>SSD&lt;/strong>.&lt;/p>
+&lt;h3 id="creating-a-new-steam-library">Creating a new Steam Library&lt;/h3>
+&lt;p>If you did not install Steam in any UAC protected folders or you already have an additional Steam Library outside any UAC protected folders, you can skip this step.&lt;/p>
+&lt;p>Otherwise follow these instructions to create a new Steam Library:&lt;/p>
+&lt;ul>
+&lt;li>Open &lt;strong>Steam&lt;/strong> and go into the &lt;strong>Settings&lt;/strong>.&lt;/li>
+&lt;li>In the &lt;strong>Downloads&lt;/strong> tab, select &lt;strong>Steam Library Folders&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>Add Library Folder&lt;/strong>.&lt;/li>
+&lt;li>Point it to a location somewhere outside the UAC protected folders, for example &lt;code>G:\Steam Library\&lt;/code>.&lt;/li>
+&lt;li>Close all windows when you’re done.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>It is important to note that Steam only allows one &lt;strong>Steam Library&lt;/strong> per hard drive. However, there is a workaround: If you already have a &lt;strong>Steam Library&lt;/strong> on your C:\ drive but inside a UAC protected folder and you want to have Skyrim and your mod files on the same drive, please check out &lt;a href="https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide">LostDragonist’s Steam Library Setup Tool&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/new-steam-library.png" alt="New Library">&lt;/p>
+&lt;h2 id="reinstalling-skyrim">Reinstalling Skyrim&lt;/h2>
+&lt;p>Since all preparations have now been completed, we can reinstall the game through Steam:&lt;/p>
+&lt;ul>
+&lt;li>Find &lt;strong>Skyrim&lt;/strong> in your games library and click the &lt;strong>Install&lt;/strong> button.&lt;/li>
+&lt;li>Choose a Steam Library outside UAC protected folders as the location for the install.&lt;/li>
+&lt;li>Wait until Skyrim has been fully downloaded and installed before you proceed.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>After Skyrim is installed, please launch the game once.&lt;/strong> You can start it through Steam and quit from the main menu. This will set up necessary hooks in the registry without which certain tools would not be able to detect that the game is installed.&lt;/p>
+&lt;h3 id="directories">Directories&lt;/h3>
+&lt;p>Navigate to &lt;code>\Your Steam Library\steamapps\common\Skyrim Special Edition\&lt;/code>.&lt;/p>
+&lt;p>This is your &lt;strong>root&lt;/strong> folder. It contains the executables (&lt;strong>SkyrimSE.exe&lt;/strong> and &lt;strong>SkyrimSELauncher.exe&lt;/strong>) and you will be required to install several other files into this directory later on. Mod managers such as Mod Organizer 2 do not affect this folder.&lt;/p>
+&lt;p>Within the &lt;strong>root&lt;/strong> folder you will find the &lt;strong>data&lt;/strong> folder. Open it now. This is where all vanilla game files are stored in &lt;strong>plugins&lt;/strong> (ESMs) and &lt;strong>archives&lt;/strong> (BSAs). This is also the folder in which all mod files belong. Mod Organizer 2 will not actually move files here, it creates instead a virtual version of it, meaning the actual &lt;strong>data&lt;/strong> folder will remain in its pristine vanilla state.&lt;/p>
+&lt;p>Try to remember the difference between &lt;strong>root&lt;/strong> and &lt;strong>data&lt;/strong> folder as it will make understanding any further instructions much easier.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Root:&lt;/strong> &lt;code>\Your Steam Library\steamapps\common\Skyrim Special Edition\&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Data:&lt;/strong> &lt;code>\Your Steam Library\steamapps\common\Skyrim Special Edition\Data\&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="creation-club">Creation Club&lt;/h2>
+&lt;p>The Creation Club was added for Skyrim SE and Fallout 4 in 2017. It features additional content in the form of small packages, Creations, which are sold for real-world money. By default, Wabbajack lists do not support Creations except when explicitly stated. Any Creations you own should be removed from your game files before installing a Wabbajack list. If your chosen list supports Creations, you can later re-install them as mods through Mod Organizer 2.&lt;/p>
+&lt;p>Creations you own should have been re-downloaded alongside the game when you re-installed it.&lt;/p>
+&lt;ul>
+&lt;li>Navigate to your &lt;strong>data&lt;/strong> folder.&lt;/li>
+&lt;/ul>
+&lt;p>This is where any Creations will be installed. You will recognise them by their names as they are always prefixed with &lt;strong>cc&lt;/strong> for &amp;ldquo;Creation Club&amp;rdquo; &lt;a href="https://thephoenixflavour.com/Pictures/wj/sse/data-folder-creations.png">as you can see here&lt;/a>. Creations consist of one &lt;strong>ESL&lt;/strong> plugin and one or more archives (&lt;strong>BSAs&lt;/strong>).&lt;/p>
+&lt;ul>
+&lt;li>Move any files prefixed with &lt;strong>cc&lt;/strong> out of your &lt;strong>data&lt;/strong> folder for the time being.&lt;/li>
+&lt;li>I recommend keeping them as backups somewhere on your hard drive.&lt;/li>
+&lt;/ul>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>After following all steps, you now have a properly prepared Skyrim SE installation that you can install a Wabbajack list for. Please continue with the &lt;a href="https://thephoenixflavour.com/wj/wj-sse/list-installation/">List Installation&lt;/a> page.&lt;/p></description></item><item><title>Wj: List Installation</title><link>https://thephoenixflavour.com/wj/wj-sse/list-installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wj/wj-sse/list-installation/</guid><description>
+&lt;p>This is a continuation of the &lt;a href="https://thephoenixflavour.com/wj/wj-sse/game-setup/">Game Setup&lt;/a> page which is a prerequisite. It covers the installation of any support Wabbajack list, provided you have prepared your Skyrim SE installation as outlined on the previous page.&lt;/p>
+&lt;h2 id="wabbajack">Wabbajack&lt;/h2>
+&lt;p>Similarly to the vanilla game files, Wabbajack should also not be installed in any UAC protected folders. A top-level folder such as &lt;code>C:\Wabbajack\&lt;/code> is once again recommended as the installation directory.&lt;/p>
+&lt;ul>
+&lt;li>Create a new &lt;strong>Wabbajack&lt;/strong> folder.&lt;/li>
+&lt;/ul>
+&lt;p>The Wabbajack app can be downloaded directly from the website:&lt;/p>
+&lt;ul>
+&lt;li>Click the &lt;strong>Download&lt;/strong> button on the home page of the &lt;a href="https://www.wabbajack.org/#/">Wabbajack&lt;/a> site.&lt;/li>
+&lt;li>Move the downloaded &lt;strong>Wabbajack.exe&lt;/strong> into the folder you previously created.&lt;/li>
+&lt;li>Upon launching it, the latest version of Wabbajack will be downloaded into the same directory.&lt;/li>
+&lt;/ul>
+&lt;h3 id="choosing-a-list">Choosing a list&lt;/h3>
+&lt;p>Once Wabbajack has launched, you can click the &lt;strong>Browse Modlists&lt;/strong> button to view all currently available lists. If you are following these instructions, you likely already know which mod list you want to install.&lt;/p>
+&lt;ul>
+&lt;li>Find your chosen list in the Gallery and click the download button.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>For demonstration purposes, the images are going to show the installation of The Phoenix Flavour.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wj/sse/wj-download-list.png" alt="WJ Download List">&lt;/p>
+&lt;h2 id="list-configuration">List Configuration&lt;/h2>
+&lt;p>Once the meta file for your chosen list has been downloaded, a new browser window with the list&amp;rsquo;s readme will automatically open. You can simply continue here on this page (if your list supports it to begin with).&lt;/p>
+&lt;p>Before you can begin installing the list, you need to define some file paths:&lt;/p>
+&lt;h3 id="installation-location">Installation Location&lt;/h3>
+&lt;p>The &lt;strong>Installation Location&lt;/strong> will be the folder in which Mod Organizer 2 and all mods are installed in.&lt;/p>
+&lt;ul>
+&lt;li>It should be &lt;strong>outside&lt;/strong> of aforementioned protected folders.&lt;/li>
+&lt;li>It should be on the same hard drive as your Skyrim SE installation.&lt;/li>
+&lt;li>It should be on your fastest hard drive (ideally an SSD).&lt;/li>
+&lt;li>It should be in or near the root of your drive (top-level folder).&lt;/li>
+&lt;/ul>
+&lt;p>For example, with Skyrim SE installed under &lt;code>G:\Steam Library\steamapps\common\Skyrim Special Edition&lt;/code>, a good location for the Wabbajack list would be &lt;code>G:\Modlist Name\&lt;/code>.&lt;/p>
+&lt;h3 id="download-location">Download Location&lt;/h3>
+&lt;p>The &lt;strong>Download Location&lt;/strong> will be the folder in which all downloaded mod archives are stored in. It is a sub-folder of your MO2 directory (Installation Location) by default. However, the downloaded archives are only needed for installing and updating the list, not for playing. Therefore, they do not need to be on the same hard drive as the vanilla game and installed mod files, so the 50GB+ of space they take up would be wasted on an SSD. Any HDD is perfectly sufficient to store these archives.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wj/sse/wj-install-list.png" alt="WJ Install List">&lt;/p>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>Once you have set target folders for the &lt;strong>Installation Location&lt;/strong> and &lt;strong>Download Location&lt;/strong>, the &lt;strong>Start&lt;/strong> button (arrow) to the right of the folder paths will light up. Click it to start the installation of the list. If you have Nexus Premium, simply lean back and wait for the process to be completed. It may take several hours depending on the speed of your internet connection. If you do not have Premium, Wabbajack will prompt you with the mod pages where you have to click the download button manually.&lt;/p>
+&lt;h3 id="troubleshooting">Troubleshooting&lt;/h3>
+&lt;p>While Wabbajack runs perfectly fine in most cases, an installation may fail for various reasons. If it does, diagnosing the issue is possible with the logs generated by Wabbajack which you can find within your Wabbajack installation directory in the logs folder: &lt;code>\Wabbajack\logs\&lt;/code>. The relevant log will be named &lt;strong>Wabbajack.current.log&lt;/strong> with older logs being renamed according to the time of their creation.&lt;/p>
+&lt;p>If Wabbajack fails, please try restarting it first. You will not lose any progress by closing and reopening the app.&lt;/p>
+&lt;p>If the issue persists, find the Discord support channel for your chosen list (either on the &lt;a href="https://discord.com/invite/wabbajack">Wabbajack&lt;/a> or the list author&amp;rsquo;s server) and drop the &lt;strong>Wabbajack.current.log&lt;/strong> with a request for support.&lt;/p>
+&lt;h2 id="game-folder-files">Game Folder Files&lt;/h2>
+&lt;p>Once Wabbajack has succesfully installed your list, you have one final step to complete. I already mentioned that Mod Organizer 2 only affects the &lt;strong>data&lt;/strong> folder, but not the &lt;strong>root&lt;/strong> folder. Certain files must be installed in the &lt;strong>root&lt;/strong> folder, however, and users need to move them manually.&lt;/p>
+&lt;blockquote>
+&lt;p>Some Wabbajack lists use a method to work around this and will already have moved these files for you. Check the documentation for your list to find out where you need to follow this step or not.&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Navigate to where you installed your list, e.g. &lt;code>C:\Modlist Name\&lt;/code>.&lt;/li>
+&lt;li>You will find a &lt;strong>Game Folder Files&lt;/strong> folder inside. Open it.&lt;/li>
+&lt;/ul>
+&lt;p>The contents of this folder must be copied over into your &lt;strong>root&lt;/strong> folder: &lt;code>\Your Steam Library\steamapps\common\Skyrim Special Edition&lt;/code>.&lt;/p>
+&lt;p>Please note that some lists (such as The Phoenix Flavour) contain &lt;em>multiple&lt;/em> ENB presets for you to choose from. In that case, move only the loose files from &lt;strong>Game Folder Files&lt;/strong> to your &lt;strong>root&lt;/strong> folder, then open the folder for the ENB preset you want, and copy its contents into the &lt;strong>root&lt;/strong> folder as well.&lt;/p>
+&lt;p>Alternatively, you can use an ENB manager for any ENB or ReShade presets.&lt;/p>
+&lt;h2 id="launching-the-game">Launching the Game&lt;/h2>
+&lt;p>Wabbajack lists must always be start with the &lt;strong>Skyrim Script Extender&lt;/strong> which in turn must be launched through &lt;strong>Mod Organizer 2&lt;/strong>. Remember that your mod list installation directory is simply a Mod Organizer 2 instance.&lt;/p>
+&lt;ul>
+&lt;li>Double-click the &lt;strong>ModOrganizer.exe&lt;/strong> within your mod list installation directory.&lt;/li>
+&lt;/ul>
+&lt;p>Now you can see the full setup: The mod order is on the left, likely sorted below separators that may be collapsed by default, and the load order with all plugins on the right. Above the load order (in the right pane), you can see the executables drop-down. Very likely the &lt;strong>Skyrim Script Extender&lt;/strong> was already selected here, so you can start the game by clicking &lt;strong>RUN&lt;/strong>.&lt;/p>
+&lt;blockquote>
+&lt;p>Note that some Wabbajack lists, including The Phoenix Flavour, may change the name and/or icon of the SKSE launcher. If what is selected in the executables drop-down is named after the list you installed, it is probably what you should run to start the game.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Always run SKSE through MO2 to start the game.&lt;/strong> If you launch the game through Steam or directly with the default executables (e.g. SkyrimSE.exe), your mods will not load and the game will simply be vanilla. If you run the default executables through MO2 (instead of the SKSE launcher), many mods will also not work because they require SKSE.&lt;/p>
+&lt;h2 id="final-configurations">Final Configurations&lt;/h2>
+&lt;p>Many Skyrim SE mods can be configured ingame through the &lt;strong>Mod Configuration Menu&lt;/strong> (MCM) which is part of the interface overhaul &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12604">SkyUI&lt;/a>. Wabbajack lists typically have instructions or at least recommendations in their documentations. They may also allow you to enable optional mods or switch to different profiles in Mod Organizer 2.&lt;/p>
+&lt;p>&lt;strong>Your Wabbajack list is fully installed at this point.&lt;/strong> Please return to the list&amp;rsquo;s original readme for any further instructions, MCM suggestions, and gameplay tips.&lt;/p></description></item></channel></rss>
