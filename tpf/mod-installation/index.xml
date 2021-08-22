@@ -62,7 +62,8 @@
 &lt;li>&amp;ldquo;Resave Example.esp in the Creation Kit.&amp;rdquo;&lt;/li>
 &lt;li>&amp;ldquo;ESL-ify Example.esp with SSEEdit.&amp;rdquo;&lt;/li>
 &lt;li>&amp;ldquo;Unpack Example.bsa through Mod Organizer 2.&amp;rdquo;&lt;/li>
-&lt;li>&amp;ldquo;Run the mod through Cathedral Assets Optimizer (&amp;lt;Profile&amp;gt;).&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;Optimise the mod with Cathedral Assets Optimizer.&amp;rdquo;&lt;/li>
+&lt;li>&amp;ldquo;Downsize the mod with Cathedral Assets Optimizer.&amp;rdquo;&lt;/li>
 &lt;li>&amp;ldquo;Run the mod through SSE NIF Optimizer.&amp;rdquo;&lt;/li>
 &lt;/ul>
 &lt;p>You will also be instructed to delete, rename, or move files through the MO2 interface frequently. This is very simple:&lt;/p>
@@ -282,13 +283,8 @@ SetGS fCombatProjectileRandomOffset to 70
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> WM&amp;rsquo;s Flora Fixes - Revamped (No Scripts)&lt;/li>
 &lt;/ul>
-&lt;h5 id="weapon-speed-effects-fixhttpswwwnexusmodscomskyrimspecialeditionmods27677tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27677?tab=files">Weapon Speed Effects Fix&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Weapon Speed Effects Fix&lt;/li>
-&lt;/ul>
 &lt;h5 id="skyrim-landscape-and-water-fixeshttpswwwnexusmodscomskyrimspecialeditionmods26138tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26138?tab=files">Skyrim Landscape and Water Fixes&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Skyrim Landscape and Water Fixes - FOMOD&lt;/li>
 &lt;/ul>
@@ -315,28 +311,28 @@ SetGS fCombatProjectileRandomOffset to 70
 &lt;/li>
 &lt;/ul>
 &lt;h5 id="landscape-fixes-for-grass-modshttpswwwnexusmodscomskyrimspecialeditionmods9005tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9005?tab=files">Landscape Fixes for Grass Mods&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Landscape Fixes For Grass Mods&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> z Vanilla Military Camps&lt;/li>
 &lt;/ul>
 &lt;h5 id="no-grass-in-caveshttpswwwnexusmodscomskyrimspecialeditionmods12431tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12431?tab=files">No Grass In Caves&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> No Grass In Caves&lt;/li>
 &lt;/ul>
 &lt;h5 id="labyrinthian-shalidors-maze-fixeshttpswwwnexusmodscomskyrimspecialeditionmods52239tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/52239?tab=files">Labyrinthian Shalidor&amp;rsquo;s Maze Fixes&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Labyrinthian Shalidor&amp;rsquo;s Maze Fixes&lt;/li>
 &lt;/ul>
 &lt;h5 id="assorted-mesh-fixeshttpswwwnexusmodscomskyrimspecialeditionmods32117tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32117?tab=files">Assorted Mesh Fixes&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Assorted mesh fixes&lt;/li>
 &lt;/ul>
 &lt;h5 id="skyrim-particle-patch-for-enb---assorted-mesh-fixes---solitude-mesh-fixes-patchhttpswwwnexusmodscomskyrimspecialeditionmods45597tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45597?tab=files">Skyrim Particle Patch for ENB - Assorted Mesh Fixes - Solitude Mesh Fixes Patch&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Skyrim Particle Patch for ENB - Assorted Mesh Fixes - Solitude Mesh Fixes Patch&lt;/li>
 &lt;/ul>
@@ -344,22 +340,22 @@ SetGS fCombatProjectileRandomOffset to 70
 &lt;p>The original &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/29621">Solitude Mesh Fixes&lt;/a> is no longer needed. All its tweaks are contained in Assorted Mesh Fixes and this patch.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="dlizzios-mesh-fixeshttpswwwnexusmodscomskyrimspecialeditionmods39260tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/39260?tab=files">Dlizzio&amp;rsquo;s Mesh Fixes&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Dlizzio&amp;rsquo;s Mesh Fixes&lt;/li>
 &lt;/ul>
 &lt;h5 id="dlizzios-mesh-fixes---assorted-mesh-fixes-patchhttpswwwnexusmodscomskyrimspecialeditionmods45597tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45597?tab=files">Dlizzio&amp;rsquo;s Mesh Fixes - Assorted Mesh Fixes Patch&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files&lt;/strong> Dlizzio&amp;rsquo;s Mesh Fixes - Assorted Mesh Fixes Patch&lt;/li>
 &lt;/ul>
 &lt;h5 id="college-of-winterhold-quest-start-fixeshttpswwwnexusmodscomskyrimspecialeditionmods53817tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/53817?tab=files">College of Winterhold Quest Start Fixes&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> College of Winterhold Quest Start Fixes&lt;/li>
 &lt;/ul>
 &lt;h5 id="no-animals-report-crimes-narchttpswwwnexusmodscomskyrimspecialeditionmods17946tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17946?tab=files">No Animals Report Crimes (NARC)&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> NARC Remade 1.0.3&lt;/li>
 &lt;/ul>
@@ -385,7 +381,7 @@ SetGS fCombatProjectileRandomOffset to 70
 &lt;/li>
 &lt;/ul>
 &lt;h5 id="raven-rock---fix-exit-on-horsebackhttpswwwnexusmodscomskyrimspecialeditionmods14075tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14075?tab=files">Raven Rock - Fix Exit on Horseback&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Raven Rock - Fix Exit on Horseback SE&lt;/li>
 &lt;/ul>
@@ -394,7 +390,7 @@ SetGS fCombatProjectileRandomOffset to 70
 &lt;li>ESL-ify &lt;strong>Raven Rock - Fix Exit on Horseback.esp&lt;/strong> with SSEEdit (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#esl-ifying-plugins">instructions&lt;/a>).&lt;/li>
 &lt;/ul>
 &lt;h5 id="dawnguard-dont-hunt-cured-vampireshttpswwwnexusmodscomskyrimspecialeditionmods5471tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5471?tab=files">Dawnguard Don&amp;rsquo;t Hunt Cured Vampires&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Dawnguard Dont Hunt Cured Vampires 1_0&lt;/li>
 &lt;/ul>
@@ -403,7 +399,7 @@ SetGS fCombatProjectileRandomOffset to 70
 &lt;li>ESL-ify &lt;strong>Dawnguard Dont Hunt Cured Vampires.esp&lt;/strong> with SSEEdit (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#esl-ifying-plugins">instructions&lt;/a>).&lt;/li>
 &lt;/ul>
 &lt;h5 id="charge-dialogue-fixhttpswwwnexusmodscomskyrimspecialeditionmods17716tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17716?tab=files">Charge Dialogue Fix&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Charge Dialogue Fix&lt;/li>
 &lt;/ul>
@@ -412,17 +408,17 @@ SetGS fCombatProjectileRandomOffset to 70
 &lt;li>ESL-ify &lt;strong>ChargeDialogueFix.esp&lt;/strong> with SSEEdit (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#esl-ifying-plugins">instructions&lt;/a>).&lt;/li>
 &lt;/ul>
 &lt;h5 id="rude-imperial-soldiers-escort-prisoner-fixhttpswwwnexusmodscomskyrimspecialeditionmods32332tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32332?tab=files">Rude Imperial Soldiers Escort Prisoner Fix&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rude Imperial Soldiers Escort Prisoner fix -FORM44-ESL-&lt;/li>
 &lt;/ul>
 &lt;h5 id="mannequin-managementhttpswwwnexusmodscomskyrimspecialeditionmods38221tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38221?tab=files">Mannequin Management&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-18">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Mannequin Slapper System&lt;/li>
 &lt;/ul>
 &lt;h5 id="skyrim-ultimate-eye-meshes-ruhmasteredhttpswwwnexusmodscomskyrimspecialeditionmods18147tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18147?tab=files">Skyrim Ultimate Eye Meshes Ruhmastered&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-19">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-18">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> SUEMR SSE v3.0 Meshes&lt;/li>
 &lt;li>&lt;strong>Main Files:&lt;/strong> SUEMR v3.0 Simple Vampire Fixes SSE&lt;/li>
@@ -440,22 +436,22 @@ SetGS fCombatProjectileRandomOffset to 70
 &lt;p>This is faster than downloading and ESL-ifying the ESP version.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="blackreach-tentacle-mesh-fixhttpswwwnexusmodscomskyrimspecialeditionmods43083tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43083?tab=files">Blackreach Tentacle Mesh Fix&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-20">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-19">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Blackreach Tentacle Mesh Fix&lt;/li>
 &lt;/ul>
 &lt;h5 id="sound-hammering-soundshttpswwwnexusmodscomskyrimspecialeditionmods5592tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5592?tab=files">Sound Hammering Sounds&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-21">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-20">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Sound Hammering Sounds&lt;/li>
 &lt;/ul>
 &lt;h5 id="word-wall-transparency-fix-for-enbhttpswwwnexusmodscomskyrimspecialeditionmods41463tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41463?tab=files">Word Wall Transparency Fix for ENB&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-22">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-21">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Word Wall Transparency Fix for ENB&lt;/li>
 &lt;/ul>
 &lt;h5 id="seranas-hood-fixhttpswwwnexusmodscomskyrimspecialeditionmods20243tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20243?tab=files">Serana&amp;rsquo;s Hood Fix&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-23">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-22">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Serana’s Hood Fix&lt;/li>
 &lt;/ul>
@@ -464,27 +460,27 @@ SetGS fCombatProjectileRandomOffset to 70
 &lt;li>&lt;strong>Choose Version:&lt;/strong> Realistic&lt;/li>
 &lt;/ul>
 &lt;h5 id="bug-fixeshttpswwwnexusmodscomskyrimspecialeditionmods33261tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33261?tab=files">Bug Fixes&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-24">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-23">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Bug Fixes SSE v3&lt;/li>
 &lt;/ul>
 &lt;h5 id="actor-limit-fixhttpswwwnexusmodscomskyrimspecialeditionmods32349tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32349?tab=files">Actor Limit Fix&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-25">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-24">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> ActorLimitPlugin v2&lt;/li>
 &lt;/ul>
 &lt;h5 id="npc-ai-process-position-fixhttpswwwnexusmodscomskyrimspecialeditionmods40261tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/40261?tab=files">NPC AI Process Position Fix&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-26">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-25">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> NPC AI Process Pos Fix-SSE-V4.05c&lt;/li>
 &lt;/ul>
 &lt;h5 id="equip-enchantment-fixhttpswwwnexusmodscomskyrimspecialeditionmods42839tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/42839?tab=files">Equip Enchantment Fix&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-27">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-26">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Equip Enchantment Fix&lt;/li>
 &lt;/ul>
 &lt;h5 id="keyboard-shortcuts-fixhttpswwwnexusmodscomskyrimspecialeditionmods3620tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3620?tab=files">Keyboard Shortcuts Fix&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-28">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-27">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> KeyboardShortcutsFix_SKSE64&lt;/li>
 &lt;/ul>
@@ -501,7 +497,7 @@ SetGS fCombatProjectileRandomOffset to 70
 &lt;p>The mod will later write in the LOG file to confirm the mod is working. By creating the file now, we prevent the mod from generating it on its own which would place it in the MO2 Overwrite folder from where you would have to move it back to the mod folder manually.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="hanks-gamepad-and-controller-fixeshttpswwwnexusmodscomskyrimspecialeditionmods42492tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/42492?tab=files">Hank&amp;rsquo;s Gamepad and Controller Fixes&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-29">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-28">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> hank&amp;rsquo;s gamepad and controller fixes&lt;/li>
 &lt;/ul></description></item><item><title>Tpf: Tweaks</title><link>https://thephoenixflavour.com/tpf/mod-installation/tweaks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf/mod-installation/tweaks/</guid><description>
@@ -1130,7 +1126,7 @@ SetGS fCombatProjectileRandomOffset to 70
 &lt;/ul>
 &lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
 &lt;ul>
-&lt;li>Run the mod through &lt;strong>Cathedral Assets Optimiser&lt;/strong> (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#optimising-sle-assets">instructions&lt;/a>).&lt;/li>
+&lt;li>Optimise the mod with &lt;strong>Cathedral Assets Optimiser&lt;/strong> (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#optimising-sle-assets">instructions&lt;/a>).&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>While the mod doesn&amp;rsquo;t contain any actual SLE assets, this profile will compress the uncompressed textures to save space.&lt;/p>
@@ -1995,7 +1991,7 @@ SetGS fCombatProjectileRandomOffset to 70
 &lt;h5 id="realistic-water-two-rw2httpswwwnexusmodscomskyrimspecialeditionmods2182tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2182?tab=files">Realistic Water Two (RW2)&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Realistic Water Two SE v3.1.1&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Realistic Water Two SE v3.1.2&lt;/li>
 &lt;li>&lt;strong>Miscellaneous:&lt;/strong> Realistic Water Two SE - Darker Gradient Textures&lt;/li>
 &lt;/ul>
 &lt;h4 id="fomod-instructions-5">FOMOD Instructions&lt;/h4>
@@ -2572,7 +2568,7 @@ SetGS fCombatProjectileRandomOffset to 70
 &lt;/ul>
 &lt;h4 id="porting-instructions">Porting Instructions&lt;/h4>
 &lt;ul>
-&lt;li>Run the mod through Cathedral Assets Optimizer (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#optimising-sle-assets">instructions&lt;/a>).&lt;/li>
+&lt;li>Optimise the mod with Cathedral Assets Optimizer (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#optimising-sle-assets">instructions&lt;/a>).&lt;/li>
 &lt;/ul>
 &lt;h5 id="skyland---solitudehttpswwwnexusmodscomskyrimspecialeditionmods24252tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24252?tab=files">Skyland - Solitude&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
@@ -2775,7 +2771,7 @@ SetGS fCombatProjectileRandomOffset to 70
 &lt;/ul>
 &lt;h4 id="porting-instructions">Porting Instructions&lt;/h4>
 &lt;ul>
-&lt;li>Run the mod through &lt;strong>Cathedral Assets Optimizer&lt;/strong> (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#optimising-sle-assets">instructions&lt;/a>).&lt;/li>
+&lt;li>Optimise the mod with &lt;strong>Cathedral Assets Optimizer&lt;/strong> (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#optimising-sle-assets">instructions&lt;/a>).&lt;/li>
 &lt;/ul>
 &lt;h5 id="rock-wall-texture-patches-for-high-poly-projecthttpswwwnexusmodscomskyrimspecialeditionmods34143tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34143?tab=files">Rock-Wall Texture Patches for High Poly Project&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
@@ -3455,7 +3451,7 @@ SetGS fCombatProjectileRandomOffset to 70
 &lt;/ul>
 &lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
 &lt;ul>
-&lt;li>Run the mod through &lt;strong>Cathedral Assets Optimizer&lt;/strong> (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#optimising-sle-assets">instructions&lt;/a>).&lt;/li>
+&lt;li>Optimise the mod with &lt;strong>Cathedral Assets Optimizer&lt;/strong> (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#optimising-sle-assets">instructions&lt;/a>).&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>While the mod does not contain SLE assets, this will compress the normal maps and cut the overall file size in half.&lt;/p>
@@ -3562,7 +3558,7 @@ SetGS fCombatProjectileRandomOffset to 70
 &lt;/blockquote>
 &lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
 &lt;ul>
-&lt;li>Run the mod through &lt;strong>Cathedral Assets Optimizer&lt;/strong> (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#downsizing-textures">instructions&lt;/a>).&lt;/li>
+&lt;li>Downsize the mod with &lt;strong>Cathedral Assets Optimizer&lt;/strong> (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#downsizing-textures">instructions&lt;/a>).&lt;/li>
 &lt;/ul>
 &lt;h5 id="bloodstone-chalice-rebornhttpswwwnexusmodscomskyrimmods63551tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/63551?tab=files">BLOODSTONE CHALICE REBORN&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-18">Download Instructions&lt;/h4>
@@ -4602,7 +4598,7 @@ SetGS fCombatProjectileRandomOffset to 70
 &lt;/ul>
 &lt;h4 id="porting-instructions">Porting Instructions&lt;/h4>
 &lt;ul>
-&lt;li>Run the mod through &lt;strong>Cathedral Assets Optimizer&lt;/strong> (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#optimising-sle-assets">instructions&lt;/a>).&lt;/li>
+&lt;li>Optimise the mod with &lt;strong>Cathedral Assets Optimizer&lt;/strong> (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#optimising-sle-assets">instructions&lt;/a>).&lt;/li>
 &lt;/ul>
 &lt;h5 id="hd-werewolveshttpswwwnexusmodscomskyrimmods60804tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/60804?tab=files">HD Werewolves&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
@@ -4617,7 +4613,7 @@ SetGS fCombatProjectileRandomOffset to 70
 &lt;/ul>
 &lt;h4 id="porting-instructions-1">Porting Instructions&lt;/h4>
 &lt;ul>
-&lt;li>Run the mod through &lt;strong>Cathedral Assets Optimizer&lt;/strong> (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#optimising-sle-assets">instructions&lt;/a>).&lt;/li>
+&lt;li>Optimise the mod with &lt;strong>Cathedral Assets Optimizer&lt;/strong> (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#optimising-sle-assets">instructions&lt;/a>).&lt;/li>
 &lt;/ul>
 &lt;h5 id="hd-reworked-bears-4khttpswwwnexusmodscomskyrimspecialeditionmods41028tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41028?tab=files">HD Reworked Bears 4K&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
@@ -6349,7 +6345,7 @@ No Gifting = false
 &lt;h5 id="immersive-sounds---compendium-ischttpswwwnexusmodscomskyrimspecialeditionmods523tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/523/?tab=files">Immersive Sounds - Compendium (ISC)&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Immersive Sounds Compendium SSE 2.2&lt;/li>
+&lt;li>&lt;strong>Old Files:&lt;/strong> Immersive Sounds Compendium SSE 2.2&lt;/li>
 &lt;/ul>
 &lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
 &lt;ul>
@@ -6561,7 +6557,7 @@ No Gifting = false
 &lt;/ul>
 &lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
 &lt;ul>
-&lt;li>Run the mod through &lt;strong>Cathedral Assets Optimizer&lt;/strong> (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#optimising-sle-assets">instructions&lt;/a>).&lt;/li>
+&lt;li>Optimise the mod with &lt;strong>Cathedral Assets Optimizer&lt;/strong> (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#optimising-sle-assets">instructions&lt;/a>).&lt;/li>
 &lt;/ul>
 &lt;h5 id="relaxed-sneaking-animationshttpswwwnexusmodscomskyrimspecialeditionmods37260tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/37260?tab=files">Relaxed Sneaking Animations&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
