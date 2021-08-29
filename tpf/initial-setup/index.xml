@@ -506,13 +506,12 @@
 &lt;li>After starting BethINI, you will be prompted with a window asking you to choose your game.&lt;/li>
 &lt;li>Select &lt;strong>Skyrim Special Edition&lt;/strong> from the drop-down menu.&lt;/li>
 &lt;li>Once BethINI has loaded up, go to the first tab, &lt;strong>Setup&lt;/strong>.&lt;/li>
-&lt;li>All filepaths should be configured correctly out of the box, however it’s best to double-check:
-&lt;ul>
-&lt;li>&lt;strong>Game Path&lt;/strong> should point at your &lt;strong>root&lt;/strong> folder, &lt;code>\steamapps\common\Skyrim Special Edition\&lt;/code>.&lt;/li>
-&lt;li>&lt;strong>Mod Organizer&lt;/strong> should point at your MO2 folder, &lt;code>{Your File Path}\Mod Organizer 2\&lt;/code>.&lt;/li>
-&lt;li>&lt;strong>INI Path&lt;/strong> should point at your MO2 profile: &lt;code>ModOrganizer 2 &amp;gt; The Phoenix Flavour&lt;/code>.&lt;/li>
 &lt;/ul>
-&lt;/li>
+&lt;p>All filepaths should be configured correctly out of the box, however it’s best to double-check:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Game Path&lt;/strong> should point to your root folder: &lt;code>\steamapps\common\Skyrim Special Edition\&lt;/code>.&lt;/li>
+&lt;li>&lt;strong>Mod Organizer&lt;/strong> should point to your MO2 folder: &lt;code>{Your File Path}\Mod Organizer 2\&lt;/code>.&lt;/li>
+&lt;li>&lt;strong>INI Path&lt;/strong> should point to your MO2 profile: &lt;code>ModOrganizer 2 &amp;gt; The Phoenix Flavour&lt;/code>.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>Changing the INI Path will prompt BethINI to restart. Click No when asked about using the skyrimcustom.ini file.&lt;/p>
@@ -548,6 +547,7 @@
 &lt;li>&lt;strong>Particles:&lt;/strong> Increase the particle count to &lt;code>7500&lt;/code>.&lt;/li>
 &lt;li>&lt;strong>Lens Flare:&lt;/strong> Matter of taste. Personally I disable this.&lt;/li>
 &lt;li>&lt;strong>Anamorphic Lens Flare:&lt;/strong> Looks ugly, recommended to be turned off.&lt;/li>
+&lt;li>&lt;strong>Shadow Bias:&lt;/strong> Set to &lt;code>0.7&lt;/code> to mostly fix the weird pyramid shapes in snowy regions.&lt;/li>
 &lt;li>&lt;strong>Detailed Draw Distance:&lt;/strong> Set to &lt;code>3500&lt;/code>.&lt;/li>
 &lt;li>&lt;strong>Ambient Occlusion:&lt;/strong> Uncheck the box for this setting (covered by ENB).&lt;/li>
 &lt;/ul>
@@ -558,7 +558,9 @@
 &lt;h3 id="bethini---view-distance">BethINI - View Distance&lt;/h3>
 &lt;p>Continue with the seventh tab, &lt;strong>View Distance&lt;/strong>.&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Grass Fade:&lt;/strong> Set to &lt;code>15000&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Grass Fade:&lt;/strong> Set to &lt;code>15000&lt;/code> for to increase the distance at which grass is rendered.&lt;/li>
+&lt;li>&lt;strong>Level 16:&lt;/strong> Set to &lt;code>248705&lt;/code> to prevent distant mountain peaks from looking completely white.&lt;/li>
+&lt;li>&lt;strong>Distance Multiplier:&lt;/strong> Set to &lt;code>1.500&lt;/code> to increase the distance at which landscape LOD is loaded.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/bethini-view-distance.png" alt="BethINI View Distance">&lt;/p>
 &lt;h3 id="bethini---visuals">BethINI - Visuals&lt;/h3>
