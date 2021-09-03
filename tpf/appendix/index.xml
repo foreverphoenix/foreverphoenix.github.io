@@ -99,6 +99,13 @@
 &lt;p>In short, the mod is a huge improvement for TPF.&lt;/p>
 &lt;p>&lt;strong>Removal of Ancient Pottery:&lt;/strong>&lt;/p>
 &lt;p>Mathy&amp;rsquo;s meshes from &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24039">Ancient Pottery&lt;/a> are as usual extremely high quality. However, I found that I preferred the more vanilla-like urns and more colourful pots from &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19365">Rudy HQ - Nordic Ruins&lt;/a> (which also come with high quality meshes) as well as &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/50767">Remiros&amp;rsquo; Dunmer Urns&lt;/a> (which were already in TPF).&lt;/p>
+&lt;h4 id="update-instructions">Update Instructions&lt;/h4>
+&lt;p>&lt;strong>This update is save safe.&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Update ENBSeries binaries&lt;/li>
+&lt;li>Update TPF Facegen&lt;/li>
+&lt;li>Regenerate TexGen and DynDOLOD&lt;/li>
+&lt;/ul>
 &lt;h4 id="mod-installation">Mod Installation&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Essential Mods:&lt;/strong> Updated download instructions for .NET Script Framework (file name updated).&lt;/li>
@@ -200,7 +207,7 @@
 &lt;p>This (second-to-last) section was newly added because I felt this was a category of mods that could be a little more accurately sorted. With one exception (Parapets&amp;rsquo; Auto Input Switch) it consists of mods already present in the guide. While TPF does not have mods affecting the &lt;em>camera&lt;/em> specifically, several official TPF addons do and their authors may appreciate a dedicated section.&lt;/p>
 &lt;p>&lt;strong>ENB Water Settings:&lt;/strong>&lt;/p>
 &lt;p>I have been unhappy with the strongly turquoise water in TPF for a long time and finally got around to tweaking the enbseries.ini a little to get a bluer tone. It&amp;rsquo;s not perfect and a true solution would be editing water colours in the Realistic Water Two plugin, but that&amp;rsquo;s more work and will have to be looked into another time.&lt;/p>
-&lt;h4 id="update-instructions">Update Instructions&lt;/h4>
+&lt;h4 id="update-instructions-1">Update Instructions&lt;/h4>
 &lt;p>&lt;strong>This update is save safe.&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>Update ENBSeries binaries&lt;/li>
@@ -390,7 +397,7 @@
 &lt;li>Improved Vanilla Quests&lt;/li>
 &lt;li>Combat &amp;amp; Encounters&lt;/li>
 &lt;/ul>
-&lt;h4 id="update-instructions-1">Update Instructions&lt;/h4>
+&lt;h4 id="update-instructions-2">Update Instructions&lt;/h4>
 &lt;p>&lt;strong>This update is save-safe.&lt;/strong>&lt;/p>
 &lt;p>Please update the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">CAO - Basic Profiles Pack&lt;/a>. Right-click &lt;strong>No Heavy Muscular Walk and Idle&lt;/strong> in your mod order, select &lt;strong>Reinstall&lt;/strong> and &lt;strong>Replace&lt;/strong>. Run the mod once again through CAO (Optimise SLE Assets profile). Previously, the profile did not have processing of animations enabled, meaning the mod was not properly ported. Sorry about that.&lt;/p>
 &lt;p>Please also redo all LODs (that includes terrain LOD). Instructions are &lt;a href="https://thephoenixflavour.com/tpf/guide-resources/how-to-update/">on this page&lt;/a>.&lt;/p>
@@ -1691,7 +1698,7 @@
 &lt;/blockquote>
 &lt;p>This update was originally intended to be a bit longer but there you go. Most importantly, TPF now supports MO2 2.4.0, the latest update.&lt;/p>
 &lt;p>&lt;strong>This update is save-safe.&lt;/strong>&lt;/p>
-&lt;h4 id="update-instructions-2">Update Instructions&lt;/h4>
+&lt;h4 id="update-instructions-3">Update Instructions&lt;/h4>
 &lt;p>For manual guide users only.&lt;/p>
 &lt;ul>
 &lt;li>Follow &lt;a href="https://thephoenixflavour.com/tpf/guide-resources/how-to-update/#mod-organizer-2">these instructions&lt;/a> to update your Mod Organizer 2 instance to 2.4.0 without losing your setup.&lt;/li>
