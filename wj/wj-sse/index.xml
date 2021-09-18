@@ -157,15 +157,21 @@
 &lt;h2 id="game-folder-files">Game Folder Files&lt;/h2>
 &lt;p>Once Wabbajack has succesfully installed your list, you have one final step to complete. I already mentioned that Mod Organizer 2 only affects the &lt;strong>data&lt;/strong> folder, but not the &lt;strong>root&lt;/strong> folder. Certain files must be installed in the &lt;strong>root&lt;/strong> folder, however, and users need to move them manually.&lt;/p>
 &lt;blockquote>
-&lt;p>Some Wabbajack lists (like &lt;strong>Legends of the Frost&lt;/strong>) use the &lt;a href="https://github.com/wabbajack-tools/wabbajack/wiki/Keeping-The-Game-Folder-Clean-(via-local-game-installs)">stock game system&lt;/a> and will already have moved these files for you. Check the documentation for your list to find out where you need to follow this step or not.&lt;/p>
+&lt;p>You can SKIP this step if your Wabbajack list is using the Stock Game folder system!&lt;/p>
 &lt;/blockquote>
 &lt;ul>
 &lt;li>Navigate to where you installed your list, e.g. &lt;code>C:\Modlist Name\&lt;/code>.&lt;/li>
 &lt;li>You will find a &lt;strong>Game Folder Files&lt;/strong> folder inside. Open it.&lt;/li>
 &lt;/ul>
 &lt;p>The contents of this folder must be copied over into your &lt;strong>root&lt;/strong> folder: &lt;code>\Your Steam Library\steamapps\common\Skyrim Special Edition&lt;/code>.&lt;/p>
-&lt;p>Please note that some lists (such as The Phoenix Flavour) contain &lt;em>multiple&lt;/em> ENB presets for you to choose from. In that case, move only the loose files from &lt;strong>Game Folder Files&lt;/strong> to your &lt;strong>root&lt;/strong> folder, then open the folder for the ENB preset you want, and copy its contents into the &lt;strong>root&lt;/strong> folder as well.&lt;/p>
 &lt;p>Alternatively, you can use an ENB manager for any ENB or ReShade presets.&lt;/p>
+&lt;h3 id="stock-game-folder">Stock Game Folder&lt;/h3>
+&lt;p>Some Wabbajack lists use the &lt;a href="https://github.com/wabbajack-tools/wabbajack/wiki/Keeping-The-Game-Folder-Clean-(via-local-game-installs)">Stock Game system&lt;/a> and no files must be manually. Check the documentation for your list to find out where you need to follow this step or not.&lt;/p>
+&lt;p>Wabbajack lists using the Stock Game folder system:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://thephoenixflavour.com/tpf/introduction">The Phoenix Flavour&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/lotf/introduction">Legends of the Frost&lt;/a>&lt;/li>
+&lt;/ul>
 &lt;h2 id="launching-the-game">Launching the Game&lt;/h2>
 &lt;p>Wabbajack lists must always be start with the &lt;strong>Skyrim Script Extender&lt;/strong> which in turn must be launched through &lt;strong>Mod Organizer 2&lt;/strong>. Remember that your mod list installation directory is simply a Mod Organizer 2 instance.&lt;/p>
 &lt;ul>

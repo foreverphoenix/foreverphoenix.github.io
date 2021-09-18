@@ -111,7 +111,7 @@
 &lt;h5 id="net-script-frameworkhttpswwwnexusmodscomskyrimspecialeditionmods21294tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21294?tab=files">.NET Script Framework&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> NetScriptFramework SkyrimSE v16&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> NetScriptFramework SkyrimSE v17&lt;/li>
 &lt;/ul>
 &lt;h5 id="sse-display-tweakshttpswwwnexusmodscomskyrimspecialeditionmods34705tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34705?tab=files">SSE Display Tweaks&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
@@ -274,9 +274,9 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;ul>
 &lt;li>Double-click &lt;strong>Scrambled Bugs&lt;/strong> in your mod order.&lt;/li>
 &lt;li>Switch to the &lt;strong>Text Files&lt;/strong> tab and select the &lt;strong>ScrambledBugs.json&lt;/strong> file.&lt;/li>
-&lt;li>In &lt;strong>Line 10&lt;/strong>, set &lt;strong>&amp;ldquo;magicEffectConditions&amp;rdquo;:&lt;/strong> to &lt;strong>false&lt;/strong>.&lt;/li>
-&lt;li>In &lt;strong>Line 25&lt;/strong>, set &lt;strong>&amp;ldquo;equipBestAmmo:&amp;quot;&lt;/strong> to &lt;strong>true&lt;/strong>.&lt;/li>
-&lt;li>In &lt;strong>Line 30&lt;/strong>, set &lt;strong>&amp;ldquo;underfilledSoulGems&amp;rdquo;:&lt;/strong> to &lt;strong>true&lt;/strong>.&lt;/li>
+&lt;li>In &lt;strong>Line 11&lt;/strong>, set &lt;strong>&amp;ldquo;magicEffectConditions&amp;rdquo;:&lt;/strong> to &lt;strong>false&lt;/strong>.&lt;/li>
+&lt;li>In &lt;strong>Line 30&lt;/strong>, set &lt;strong>&amp;ldquo;equipBestAmmo:&amp;quot;&lt;/strong> to &lt;strong>true&lt;/strong>.&lt;/li>
+&lt;li>In &lt;strong>Line 37&lt;/strong>, set &lt;strong>&amp;ldquo;underfilledSoulGems&amp;rdquo;:&lt;/strong> to &lt;strong>true&lt;/strong>.&lt;/li>
 &lt;li>Hit &lt;strong>CTRL+S&lt;/strong> to save and close the window.&lt;/li>
 &lt;/ul>
 &lt;h5 id="wiseman303s-flora-fixes---revampedhttpswwwnexusmodscomskyrimspecialeditionmods28197tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28197?tab=files">Wiseman303&amp;rsquo;s Flora Fixes - Revamped&lt;/a>&lt;/h5>
@@ -482,7 +482,7 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;h5 id="npc-ai-process-position-fixhttpswwwnexusmodscomskyrimspecialeditionmods40261tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/40261?tab=files">NPC AI Process Position Fix&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-26">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> NPC AI Process Pos Fix-SSE-V4.05c&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> NPC AI Process Pos Fix-SSE-V4.05d&lt;/li>
 &lt;/ul>
 &lt;h5 id="equip-enchantment-fixhttpswwwnexusmodscomskyrimspecialeditionmods42839tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/42839?tab=files">Equip Enchantment Fix&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-27">Download Instructions&lt;/h4>
@@ -1054,6 +1054,7 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;ul>
 &lt;li>&lt;del>More Growable Plants&lt;/del>&lt;/li>
 &lt;li>&lt;del>Simply Bigger Plants&lt;/del>&lt;/li>
+&lt;li>&lt;del>Skyrim 2020 by Pfuscher&lt;/del>&lt;/li>
 &lt;li>Wiseman&amp;rsquo;s Flora Fixes&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -1065,7 +1066,7 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;li>&lt;strong>Snowberries:&lt;/strong> Sufficiently Optimized Snowberries&lt;/li>
 &lt;li>&lt;strong>Juniper:&lt;/strong> 3D Juniper&lt;/li>
 &lt;li>&lt;strong>Tundra Cotton:&lt;/strong> &lt;del>Tundra Cotton by Mari&lt;/del>&lt;/li>
-&lt;li>&lt;strong>Jazbay:&lt;/strong> Jaybay by Mari&lt;/li>
+&lt;li>&lt;strong>Jazbay:&lt;/strong> Jazbay by Mari&lt;/li>
 &lt;li>&lt;strong>Canticle Tree:&lt;/strong> High Poly Canticle Tree&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>Page 3&lt;/strong>&lt;/p>
@@ -1125,6 +1126,7 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;li>&lt;del>Savage Skyrim&lt;/del>&lt;/li>
 &lt;li>Skeleton Replacer HD&lt;/li>
 &lt;li>&lt;del>SkyTEST&lt;/del>&lt;/li>
+&lt;li>Unique Barbas&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -1259,7 +1261,7 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;ul>
 &lt;li>&lt;del>Install All&lt;/del>&lt;/li>
 &lt;li>Clutter General&lt;/li>
-&lt;li>Bones&lt;/li>
+&lt;li>&lt;del>Bones&lt;/del>&lt;/li>
 &lt;li>Dead Animals&lt;/li>
 &lt;li>Display Cases&lt;/li>
 &lt;li>&lt;del>Firewood&lt;/del>&lt;/li>
@@ -2407,6 +2409,16 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - More Lights for ENB SE - Deathbells and Nirnroots&lt;/li>
 &lt;/ul>
+&lt;h4 id="additional-instructions-10">Additional Instructions&lt;/h4>
+&lt;p>To avoid blood decals being applied to these meshes, please follow &lt;a href="https://thephoenixflavour.com/tpf/guide-resources/various-tutorials/#how-to-add-the-no-decal-flag-to-meshes">these instructions&lt;/a>. It requires some manual editing in NifSkope and can theoretically be skipped.&lt;/p>
+&lt;p>Edit the following files:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>meshes\_byoh\plants\byohhouseingrddeathbell01.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\plants\floradeathbell01.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\plants\floradeathbell02.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\plants\floranirnroot01.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\plants\floranirnroot01red.nif&lt;/code>&lt;/li>
+&lt;/ul>
 &lt;h5 id="scallions-of-skyrim---high-polygon-leekshttpswwwnexusmodscomskyrimspecialeditionmods53205tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/53205?tab=files">Scallions of Skyrim - High Polygon Leeks&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-20">Download Instructions&lt;/h4>
 &lt;ul>
@@ -2426,6 +2438,16 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;h4 id="download-instructions-23">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - More Lights for ENB SE - Glowing Mushrooms&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-11">Additional Instructions&lt;/h4>
+&lt;p>To avoid blood decals being applied to these meshes, please follow &lt;a href="https://thephoenixflavour.com/tpf/guide-resources/various-tutorials/#how-to-add-the-no-decal-flag-to-meshes">these instructions&lt;/a>. It requires some manual editing in NifSkope and can theoretically be skipped.&lt;/p>
+&lt;p>Edit the following files:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>meshes\_byoh\plants\switchnodechildren\byohhouseingrdglowmushrm01_1.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\_byoh\plants\byohhouseingrdglowmushrm01.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\plants\glowingmushroom01.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\plants\glowingmushroomcluster01.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\plants\glowingmushroomsingle01.nif&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h5 id="rallys-blackreach-mushroomshttpswwwnexusmodscomskyrimspecialeditionmods29179tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/29179?tab=files">Rally&amp;rsquo;s Blackreach Mushrooms&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-24">Download Instructions&lt;/h4>
@@ -2462,7 +2484,7 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;ul>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> 2K Soul Husk for wSkeever High Poly Soul Husk&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions-10">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions-12">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Downsize the mod with &lt;strong>Cathedral Assets Optimizer&lt;/strong> (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#downsizing-textures">instructions&lt;/a>).&lt;/li>
 &lt;/ul>
@@ -2477,7 +2499,7 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rally&amp;rsquo;s Solstheim Plants 2K&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Lods for Mushroom Trees 512x512 &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions-11">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions-13">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Delete the following file(s) and / or folder(s):
 &lt;ul>
@@ -3239,43 +3261,48 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h5 id="enb-particle-lights---dwemer-lanternshttpswwwnexusmodscomskyrimspecialeditionmods24108tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24108?tab=files">ENB Particle Lights - Dwemer Lanterns&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
-&lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> ENB-ParticleLights-DwemerLanterns-1-02&lt;/li>
-&lt;/ul>
 &lt;h5 id="rudy-hq---more-lights-for-enb---bthardamzhttpswwwnexusmodscomskyrimspecialeditionmods22703tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22703?tab=files">Rudy HQ - More Lights for ENB - Bthardamz&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - More Lights for ENB SE - Bthardamz&lt;/li>
 &lt;/ul>
+&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
+&lt;p>To avoid blood decals being applied to these meshes, please follow &lt;a href="https://thephoenixflavour.com/tpf/guide-resources/various-tutorials/#how-to-add-the-no-decal-flag-to-meshes">these instructions&lt;/a>. It requires some manual editing in NifSkope and can theoretically be skipped.&lt;/p>
+&lt;p>Edit the following files:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>meshes\clutter\dwemer\dweichorbarrellfull01.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\clutter\dwemer\dweichorbarrellfull02.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\clutter\dwemer\dweichorgoo01.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\clutter\dwemer\dweichorgoo02.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\clutter\quest\da13vinegiantcluster01.nif&lt;/code>&lt;/li>
+&lt;/ul>
 &lt;h5 id="aetherium-falmer-cave-ceiling-glowhttpswwwnexusmodscomskyrimspecialeditionmods43434tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43434?tab=files">Aetherium Falmer Cave Ceiling Glow&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Aetherium Falmer Ceiling 2K&lt;/li>
 &lt;/ul>
 &lt;h5 id="skyrim-remastered---azura-and-blackreach-crystalshttpswwwnexusmodscomskyrimspecialeditionmods38371tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38371?tab=files">Skyrim Remastered - Azura and Blackreach Crystals&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Skyrim Remastered - Azura and Blackreach Crystals 2K&lt;/li>
 &lt;/ul>
 &lt;h5 id="high-poly-blackreach-mushrooms---skyrim-remastered-patchhttpswwwnexusmodscomskyrimspecialeditionmods52700tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/52700?tab=files">High Poly Blackreach Mushrooms - Skyrim Remastered Patch&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> High Poly Blackreach Mushrooms - Skyrim Remastered Patch&lt;/li>
 &lt;/ul>
 &lt;h5 id="webshttpswwwnexusmodscomskyrimspecialeditionmods4873tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4873?tab=files">WEBS&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> WEBS SE x2048&lt;/li>
 &lt;/ul>
 &lt;h5 id="hd-lava-for-dawnguardhttpswwwnexusmodscomskyrimspecialeditionmods7285tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/7285?tab=files">HD Lava for Dawnguard&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> HD Lava (4k)&lt;/li>
 &lt;/ul>
 &lt;h5 id="particle-lights-for-enb---light-orbshttpswwwnexusmodscomskyrimspecialeditionmods50737tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/50737?tab=files">Particle Lights for ENB - Light Orbs&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Particle Lights for ENB - Light Orbs - Motes&lt;/li>
 &lt;/ul>
@@ -3388,14 +3415,19 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;li>&lt;strong>Main Files:&lt;/strong> Skyrim 3D Misc - Markarth Cage&lt;/li>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Skyrim 3D Misc - Traps&lt;/li>
 &lt;/ul>
-&lt;h5 id="deer-skull-and-antlershttpswwwnexusmodscomskyrimspecialeditionmods45510tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45510?tab=files">Deer Skull and Antlers&lt;/a>&lt;/h5>
+&lt;h5 id="troll-skull-retexturehttpswwwnexusmodscomskyrimspecialeditionmods45538tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45538?tab=files">Troll Skull Retexture&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> 2K Troll Skull&lt;/li>
+&lt;/ul>
+&lt;h5 id="deer-skull-and-antlershttpswwwnexusmodscomskyrimspecialeditionmods45510tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45510?tab=files">Deer Skull and Antlers&lt;/a>&lt;/h5>
+&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> 2K Deer Skull and Antlers&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> 2K Mounted Antlers &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h5 id="rallys-nord-war-hornshttpswwwnexusmodscomskyrimspecialeditionmods46872tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/46872?tab=files">Rally&amp;rsquo;s Nord War Horns&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rallys Nord War Horns&lt;/li>
 &lt;/ul>
@@ -3409,7 +3441,7 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;li>Downsize the mod&amp;rsquo;s textures with &lt;strong>Cathedral Assets Optimiser&lt;/strong> (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#downsizing-textures">instructions&lt;/a>).&lt;/li>
 &lt;/ul>
 &lt;h5 id="rallys-civil-war-document-tubeshttpswwwnexusmodscomskyrimspecialeditionmods47637tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/47637?tab=files">Rally&amp;rsquo;s Civil War Document Tubes&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rally&amp;rsquo;s Civil War Document Tubes&lt;/li>
 &lt;/ul>
@@ -3423,7 +3455,7 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;li>Downsize the mod&amp;rsquo;s textures with &lt;strong>Cathedral Assets Optimiser&lt;/strong> (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#downsizing-textures">instructions&lt;/a>).&lt;/li>
 &lt;/ul>
 &lt;h5 id="rustic-clutter-collectionhttpswwwnexusmodscomskyrimspecialeditionmods5795tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5795?tab=files">RUSTIC CLUTTER COLLECTION&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> RUSTIC CLUTTER COLLECTION - Special Edition - 2K&lt;/li>
 &lt;/ul>
@@ -3439,7 +3471,7 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;p>The textures for the Dwemer pottery should be supplied by The Dwemer for consistency.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="rudy-hq---miscellaneoushttpswwwnexusmodscomskyrimspecialeditionmods19867tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19867?tab=files">Rudy HQ - Miscellaneous&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-18">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - Miscellaneous SE&lt;/li>
 &lt;/ul>
@@ -3497,13 +3529,13 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;li>ESL-ify &lt;strong>Rudy Nordic Pottery SSE.esp&lt;/strong> with SSEEdit (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#esl-ifying-plugins">instructions&lt;/a>).&lt;/li>
 &lt;/ul>
 &lt;h5 id="hearthfire-crafting-resourceshttpswwwnexusmodscomskyrimspecialeditionmods52423tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/52423?tab=files">Hearthfire Crafting Resources&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-18">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-19">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Hearthfire Crafting Retextures&lt;/li>
 &lt;li>&lt;strong>Optional File:&lt;/strong> Optional Lock Retexture &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h5 id="dressed-hearthfire-dollhttpswwwnexusmodscomskyrimspecialeditionmods493tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/493?tab=files">Dressed Hearthfire Doll&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-19">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-20">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Dressed Hearthfire Doll&lt;/li>
 &lt;/ul>
@@ -3514,12 +3546,12 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;li>&lt;strong>Select color of the doll&amp;rsquo;s dress:&lt;/strong> Red&lt;/li>
 &lt;/ul>
 &lt;h5 id="book-covers-skyrim-bcshttpswwwnexusmodscomskyrimspecialeditionmods901tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/901?tab=files">Book Covers Skyrim (BCS)&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-20">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-21">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Book Covers Skyrim SE - Desaturated&lt;/li>
 &lt;/ul>
 &lt;h5 id="hd-ruined-book-retexturehttpswwwnexusmodscomskyrimspecialeditionmods15742tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/15742?tab=files">HD Ruined Book Retexture&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-21">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-22">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> In case you play on a potato 1k&lt;/li>
 &lt;/ul>
@@ -3527,7 +3559,7 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;p>Don&amp;rsquo;t let the file name fool you. Resolutions of 2K and higher are absolutely pointless for a small clutter object.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="burned-book-retexturehttpswwwnexusmodscomskyrimspecialeditionmods37573tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/37573?tab=files">Burned Book Retexture&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-22">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-23">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> 1k Burned Potato&lt;/li>
 &lt;/ul>
@@ -3535,7 +3567,7 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;p>Once again, 1K is perfectly sufficient for a small clutter object.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="realistic-paperhttpswwwnexusmodscomskyrimmods937tabfiles">&lt;a href="https://www.nexusmods.com/skyrim/mods/937?tab=files">Realistic Paper&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-23">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-24">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Realistic Paper MAIN&lt;/li>
 &lt;/ul>
@@ -3551,17 +3583,18 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;p>A much better texture is included with Book Covers Skyrim.&lt;/p>
 &lt;/blockquote>
 &lt;h5 id="rustic-mapshttpswwwnexusmodscomskyrimspecialeditionmods42614tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/42614?tab=files">RUSTIC MAPS&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-24">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-25">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> RUSTIC MAPS - 2K&lt;/li>
 &lt;/ul>
 &lt;h5 id="the-business-ledgerhttpswwwnexusmodscomskyrimspecialeditionmods48561tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/48561?tab=files">The Business Ledger&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-25">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-26">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Hermaeus Mora Tax Book SD&lt;/li>
+&lt;li>&lt;strong>Optional Files:&lt;/strong> Book02lowpoly &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h5 id="retexture-for-the-scrollhttpswwwnexusmodscomskyrimspecialeditionmods46612tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/46612?tab=files">Retexture for The Scroll&lt;/a>&lt;/h5>
-&lt;h4 id="download-instructions-26">Download Instructions&lt;/h4>
+&lt;h4 id="download-instructions-27">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Retexture for The Scroll FOMOD by -ren- SE&lt;/li>
 &lt;/ul>
@@ -3618,6 +3651,17 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;ul>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Rudy HQ - More Lights for ENB SE - Patch for Rustic Soulgems&lt;/li>
 &lt;/ul>
+&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
+&lt;p>To avoid blood decals being applied to these meshes, please follow &lt;a href="https://thephoenixflavour.com/tpf/guide-resources/various-tutorials/#how-to-add-the-no-decal-flag-to-meshes">these instructions&lt;/a>. It requires some manual editing in NifSkope and can theoretically be skipped.&lt;/p>
+&lt;p>Edit the following files:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>meshes\clutter\soulgem\soulgemblack_full.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\clutter\soulgem\soulgemcommon_full.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\clutter\soulgem\soulgemgrand_full.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\clutter\soulgem\soulgemgreater_full.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\clutter\soulgem\soulgemlesser_full.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\clutter\soulgem\soulgempetty_full.nif&lt;/code>&lt;/li>
+&lt;/ul>
 &lt;h5 id="rustic-azuras-starhttpswwwnexusmodscomskyrimspecialeditionmods18345tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18345?tab=files">RUSTIC AZURAS STAR&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
 &lt;ul>
@@ -3635,7 +3679,7 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;li>&lt;strong>Main Files:&lt;/strong> RUSTIC ANIMATED POTIONS and POISONS 1K&lt;/li>
 &lt;li>&lt;strong>Update Files:&lt;/strong> SSE Meshes &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions-3">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Download the &lt;strong>Optional glow files&lt;/strong> file manually from the Optional Files section.&lt;/li>
 &lt;li>Place the downloaded archive in &lt;code>\Your Modding Folder\ARCHIVE\MO2 Downloads\&lt;/code>.&lt;/li>
@@ -3698,7 +3742,7 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions-3">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions-4">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>ESL-ify &lt;strong>GQJ_DG_vampireamuletfix.esp&lt;/strong> with SSEEdit (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#esl-ifying-plugins">instructions&lt;/a>).&lt;/li>
 &lt;/ul>
@@ -3718,7 +3762,7 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> JS Circlet Replacer&lt;/li>
 &lt;/ul>
-&lt;h4 id="additional-instructions-4">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions-5">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Downsize the mod’s textures with Cathedral Assets Optimizer (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#downsizing-textures">instructions&lt;/a>).&lt;/li>
 &lt;/ul>
@@ -3804,7 +3848,7 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;blockquote>
 &lt;p>Since we already installed other files from this mod page earlier, you will be asked whether you want to merge. Select &amp;ldquo;Rename&amp;rdquo; and enter &amp;ldquo;Draw Knife Retexture&amp;rdquo; to install this file separately.&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="additional-instructions-5">Additional Instructions&lt;/h4>
+&lt;h4 id="additional-instructions-6">Additional Instructions&lt;/h4>
 &lt;ul>
 &lt;li>Downsize the mod with &lt;strong>Cathedral Assets Optimizer&lt;/strong> (&lt;a href="https://thephoenixflavour.com/tpf/guide-resources/basic-instructions/#downsizing-textures">instructions&lt;/a>).&lt;/li>
 &lt;/ul>
@@ -3995,6 +4039,15 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;h4 id="download-instructions-19">Download Instructions&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Main Files:&lt;/strong> Rudy HQ - More Lights for ENB SE - Chaurus Eggs and Sacs&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-3">Additional Instructions&lt;/h4>
+&lt;p>To avoid blood decals being applied to these meshes, please follow &lt;a href="https://thephoenixflavour.com/tpf/guide-resources/various-tutorials/#how-to-add-the-no-decal-flag-to-meshes">these instructions&lt;/a>. It requires some manual editing in NifSkope and can theoretically be skipped.&lt;/p>
+&lt;p>Edit the following files:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>meshes\clutter\chauruseggs\eggs.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\clutter\chauruseggs\eggsacs.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\clutter\chauruseggs\eggsacs01.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\clutter\chauruseggs\eggsacs02.nif&lt;/code>&lt;/li>
 &lt;/ul></description></item><item><title>Tpf: Apparel &amp; Weapons</title><link>https://thephoenixflavour.com/tpf/mod-installation/apparel-weapons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf/mod-installation/apparel-weapons/</guid><description>
 &lt;h5 id="modular-armoryhttpswwwnexusmodscomskyrimspecialeditionmods49771tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/49771?tab=files">Modular Armory&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions">Download Instructions&lt;/h4>
@@ -4832,10 +4885,10 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;ul>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Hagraven.2k&lt;/li>
 &lt;/ul>
-&lt;h5 id="hd-reworked-mammothshttpswwwnexusmodscomskyrimspecialeditionmods23958tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23958?tab=files">HD Reworked Mammoths&lt;/a>&lt;/h5>
+&lt;h5 id="hd-reworked-mammothshttpswwwnexusmodscomskyrimspecialeditionmods55479tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/55479?tab=files">HD Reworked Mammoths&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-20">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> HD Reworked Mammoths&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> HD Reworked Mammoths 4K&lt;/li>
 &lt;/ul>
 &lt;h5 id="giant-by-kajuanhttpswwwnexusmodscomskyrimspecialeditionmods6179tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6179?tab=files">GIANT by Kajuan&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-21">Download Instructions&lt;/h4>
@@ -5062,7 +5115,18 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;li>&lt;strong>Main Files:&lt;/strong> Deiform Alduin Eye textures 2K&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Deiform Alduin 4K &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
 &lt;li>&lt;strong>Optional Files:&lt;/strong> Deiform Alduin Particle Lights &amp;raquo; &lt;code>merge with the main file&lt;/code>&lt;/li>
-&lt;/ul></description></item><item><title>Tpf: Appearance</title><link>https://thephoenixflavour.com/tpf/mod-installation/appearance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf/mod-installation/appearance/</guid><description>
+&lt;/ul>
+&lt;h4 id="additional-instructions-8">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and / or folder(s):
+&lt;ul>
+&lt;li>&lt;code>AlduinLight.esp&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The only relevant edit in the plugin is incorporated in Dragon War&amp;rsquo;s patch for.&lt;/p>
+&lt;/blockquote></description></item><item><title>Tpf: Appearance</title><link>https://thephoenixflavour.com/tpf/mod-installation/appearance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf/mod-installation/appearance/</guid><description>
 &lt;h5 id="expressive-facegen-morphshttpswwwnexusmodscomskyrimspecialeditionmods35785tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/35785?tab=files">Expressive Facegen Morphs&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions">Download Instructions&lt;/h4>
 &lt;ul>
@@ -5142,7 +5206,7 @@ SetGS fCombatAimProjectileRandomOffset 70
 &lt;h5 id="masculine-khajiit-textureshttpswwwnexusmodscomskyrimspecialeditionmods186tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/186?tab=files">Masculine Khajiit Textures&lt;/a>&lt;/h5>
 &lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Main Files:&lt;/strong> Grey Cat and Leopard Vanilla v1.1 - 4K Res Pack&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Masculine Grey Cat and Leopard (Vanilla) 4K&lt;/li>
 &lt;/ul>
 &lt;h4 id="fomod-instructions-3">FOMOD Instructions&lt;/h4>
 &lt;ul>
@@ -6648,6 +6712,9 @@ No Gifting = false
 &lt;li>&lt;strong>Soul Trap Options:&lt;/strong> Soul Suck&lt;/li>
 &lt;li>&lt;strong>Restoration Options:&lt;/strong> High Fantasy&lt;/li>
 &lt;li>&lt;strong>Firebolt Options:&lt;/strong> Swooshy&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Page 5:&lt;/strong>&lt;/p>
+&lt;ul>
 &lt;li>&lt;strong>Creature Options:&lt;/strong>
 &lt;ul>
 &lt;li>Demonic Draugr&lt;/li>
@@ -6657,7 +6724,7 @@ No Gifting = false
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>&lt;strong>Page 5:&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Page 6:&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Nirnroot Options:&lt;/strong> High Fantasy&lt;/li>
 &lt;li>&lt;strong>Misc Options:&lt;/strong>

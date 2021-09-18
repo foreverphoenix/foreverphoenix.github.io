@@ -169,33 +169,13 @@
 &lt;li>Click &lt;strong>OK&lt;/strong> to save and close the &lt;strong>Executables&lt;/strong> window.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/finalisation/texgen-dyndolod-executables.png" alt="Texgen DynDOLOD Executables">&lt;/p>
-&lt;h2 id="ini-adjustments">INI Adjustments&lt;/h2>
-&lt;p>Before we generate LOD with DynDOLOD, we need to tweak a few settings:&lt;/p>
-&lt;ul>
-&lt;li>Navigate to &lt;code>\Your Modding Folder\Tools\DynDOLOD\Edit Scripts\DynDOLOD\&lt;/code>.&lt;/li>
-&lt;li>Open &lt;strong>DynDOLOD_SSE.ini&lt;/strong> in Notepad++.&lt;/li>
-&lt;/ul>
-&lt;p>Enable expert mode in DynDOLOD:&lt;/p>
-&lt;ul>
-&lt;li>In &lt;strong>Line 8&lt;/strong>, set &lt;code>Expert=&lt;/code> to &lt;code>1&lt;/code>.&lt;/li>
-&lt;/ul>
-&lt;p>Generate a terrain underside mesh for Dynamic Volumetric Lighting and Sun Shadows:&lt;/p>
-&lt;ul>
-&lt;li>Uncomment &lt;strong>Line 274&lt;/strong> (remove the semicolon).&lt;/li>
-&lt;li>In &lt;strong>Line 279&lt;/strong>, set &lt;code>Terrain Underside=&lt;/code> to &lt;code>1&lt;/code>.&lt;/li>
-&lt;/ul>
-&lt;p>And finally:&lt;/p>
-&lt;ul>
-&lt;li>Press &lt;strong>CTRL + S&lt;/strong> to save your changes and close the window.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/finalisation/dyndolod-ini-tweaks.png" alt="DynDOLOD INI Tweaks">&lt;/p>
 &lt;h2 id="texgen">TexGen&lt;/h2>
 &lt;ul>
 &lt;li>Launch &lt;strong>TexGen&lt;/strong> through Mod Organizer 2.&lt;/li>
 &lt;li>Under &lt;strong>Stitched Object LOD Textures&lt;/strong>, set &lt;strong>Texture size&lt;/strong> to &lt;code>256&lt;/code> (increase to &lt;code>512&lt;/code> if you play at 4K).&lt;/li>
 &lt;li>Under &lt;strong>Rendered Object LOD Textures&lt;/strong>, set &lt;strong>Texture size&lt;/strong> to &lt;code>256&lt;/code> (increase to &lt;code>512&lt;/code> if you play at 4K).&lt;/li>
 &lt;li>Set &lt;strong>Units per pixel&lt;/strong> to &lt;code>11&lt;/code> (1080p), &lt;code>8&lt;/code> (1440p), or &lt;code>5.5&lt;/code> (2160p).&lt;/li>
-&lt;li>Under &lt;strong>Trees/Grass Billboards&lt;/strong>, check the boxes for &lt;strong>Tree&lt;/strong>, &lt;strong>HD Tree&lt;/strong>, and &lt;strong>Rendered&lt;/strong>.&lt;/li>
+&lt;li>Under &lt;strong>Trees/Grass Billboards&lt;/strong>, check the boxes for &lt;strong>HD Tree&lt;/strong> (&lt;strong>Trees&lt;/strong> and &lt;strong>Rendered&lt;/strong> should already be checked).&lt;/li>
 &lt;li>Click &lt;strong>Start&lt;/strong> to begin the process.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
@@ -215,12 +195,15 @@
 &lt;h3 id="run-dyndolod">Run DynDOLOD&lt;/h3>
 &lt;ul>
 &lt;li>Run &lt;strong>DynDOLOD&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Click &lt;strong>Advanced&lt;/strong> to configure DynDOLOD.&lt;/li>
 &lt;li>Make sure all worldspaces in the top left box are ticked (right-click &amp;raquo; Select all).&lt;/li>
 &lt;li>Check the boxes for both &lt;strong>Candles&lt;/strong> and &lt;strong>FX Glow&lt;/strong> at the top right.&lt;/li>
 &lt;li>Click the &lt;strong>High&lt;/strong> button to load the mesh rules preset.&lt;/li>
 &lt;li>Increase &lt;strong>Max tile size LOD&lt;/strong> to &lt;code>2048&lt;/code> if you play at 4K.&lt;/li>
 &lt;li>Increase &lt;strong>Max tile size full&lt;/strong> to &lt;code>512&lt;/code> if you play at 4K.&lt;/li>
-&lt;li>Check the &lt;strong>Ultra&lt;/strong> button at the bottom (this will uncheck &lt;strong>Generate tree LOD&lt;/strong>).&lt;/li>
+&lt;li>Check the box for &lt;strong>Ultra&lt;/strong> (this will uncheck &lt;strong>Generate tree LOD&lt;/strong> as tree LOD will now be generated as object LOD).&lt;/li>
+&lt;li>Make sure &lt;strong>Occlusion Data&lt;/strong> and &lt;strong>Plugin&lt;/strong> are checked. Set &lt;strong>Quality&lt;/strong> to &lt;code>3&lt;/code>.&lt;/li>
+&lt;li>Make sure &lt;strong>Terrain underside&lt;/strong> is checked. Keep the default settings for &lt;strong>Quality&lt;/strong> and &lt;strong>Height&lt;/strong> (&lt;code>10&lt;/code> and &lt;code>500&lt;/code> respectively).&lt;/li>
 &lt;li>Check the boxes for &lt;strong>Glow windows&lt;/strong> and &lt;strong>High&lt;/strong> for glowing windows at a distance.&lt;/li>
 &lt;li>Check the boxes for &lt;strong>Fake lights selected worlds&lt;/strong> and &lt;strong>Fake lights child world&lt;/strong>.&lt;/li>
 &lt;li>Check the box for &lt;strong>Upgrade NearGrid large references to FarGrid&lt;/strong>.&lt;/li>
@@ -238,40 +221,21 @@
 &lt;li>Refresh Mod Organizer 2 (F5) and it will appear at the bottom of your load order.&lt;/li>
 &lt;li>Place it last below the &lt;strong>PATCHER OUTPUT&lt;/strong> separator and activate it.&lt;/li>
 &lt;li>Move &lt;strong>DynDOLOD.esm&lt;/strong> below your other ESMs at the top of your load order.&lt;/li>
-&lt;li>Leave &lt;strong>DynDOLOD.esp&lt;/strong> at the very bottom as the last plugin.&lt;/li>
+&lt;li>Leave &lt;strong>DynDOLOD.esp&lt;/strong> and &lt;strong>Occlusion.esp&lt;/strong> as the final plugins at the bottom.&lt;/li>
 &lt;li>Make sure both plugins are activated.&lt;/li>
 &lt;/ul>
 &lt;h2 id="solstheim-ice-piles-fix">Solstheim Ice Piles Fix&lt;/h2>
-&lt;p>For whatever reason, DynDOLOD reverts a change in the &lt;strong>Skyrim Remastered - Ice and Glaciers&lt;/strong> plugin to vanilla. This in turn breaks three statics on Solstheim.&lt;/p>
+&lt;p>For whatever reason, DynDOLOD reverts a change in the &lt;strong>Skyrim Remastered - Ice and Glaciers&lt;/strong> plugin to vanilla. This in turn breaks some statics on Solstheim.&lt;/p>
 &lt;ul>
 &lt;li>Download and install the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14223?tab=files">DynDOLOD - Solstheim Ice Piles Fix&lt;/a> from the &lt;strong>Optional Files&lt;/strong> section.&lt;/li>
 &lt;li>Install it as usual in Mod Organizer 2 and active it in the mod order.&lt;/li>
-&lt;li>Leave the plugin at the bottom of your load order so that it overwrites &lt;strong>DynDOLOD.esp&lt;/strong>.&lt;/li>
-&lt;/ul>
-&lt;p>Check this &lt;a href="https://imgsli.com/NjUxMzE">comparison slider&lt;/a> to see what the objects in question look like before and after the fix.&lt;/p></description></item><item><title>Tpf: Occlusion</title><link>https://thephoenixflavour.com/tpf/finalisation/occlusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf/finalisation/occlusion/</guid><description>
-&lt;h2 id="generate-occlusion-data">Generate Occlusion Data&lt;/h2>
-&lt;p>We already installed SSELODGen for terrain LOD earlier so we simply need to fire it up again to generate Occlusion. Occlusion essentially tells the game what is visible to the player and must be rendered while invisible objects (on the other side of a mountain for instance) don&amp;rsquo;t have to be rendered at the time.&lt;/p>
-&lt;p>This will also fix the giant hole in the Sea of Ghosts behind Winterhold.&lt;/p>
-&lt;ul>
-&lt;li>Run &lt;strong>SSELODGen&lt;/strong> through Mod Organizer 2.&lt;/li>
-&lt;li>In the worldspaces window, check &lt;strong>Tamriel &amp;ldquo;Skyrim&amp;rdquo;&lt;/strong> and &lt;strong>DLC2SolstheimWorld &amp;ldquo;Solstheim&amp;rdquo;&lt;/strong>.&lt;/li>
-&lt;li>Uncheck all options except for &lt;strong>Occlusion&lt;/strong>.&lt;/li>
-&lt;li>Set &lt;strong>Quality&lt;/strong> to &lt;strong>3&lt;/strong>.&lt;/li>
-&lt;li>Set &lt;strong>Height&lt;/strong> to &lt;strong>100&lt;/strong>.&lt;/li>
-&lt;li>Click &lt;strong>Generate&lt;/strong> and wait for the process to complete.&lt;/li>
+&lt;li>Place the plugin below &lt;strong>DynDOLOD.esp&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>Occlusion generation is very CPU intense and will likely hold your processor load at 100% for the duration. You absolutely have to step away from your PC while it generates if you don&amp;rsquo;t want to risk a complete crash / blue screen.&lt;/p>
+&lt;p>Check this &lt;a href="https://imgsli.com/NjUxMzE">comparison slider&lt;/a> to see what the objects in question look like before and after the fix.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/finalisation/generate-occlusion-data.png" alt="Generate Occlusion Data">&lt;/p>
-&lt;h3 id="output">Output&lt;/h3>
-&lt;ul>
-&lt;li>Once SSELODGen returns &lt;strong>LOD generation complete&lt;/strong>, you can close the window.&lt;/li>
-&lt;li>Right-click the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> folder in Mod Organizer 2 and select &lt;strong>Create mod&lt;/strong>.&lt;/li>
-&lt;li>Enter &lt;strong>SSELODGen - Occlusion Data&lt;/strong> as the name and click &lt;strong>OK&lt;/strong>.&lt;/li>
-&lt;li>Activate the mod in the mod order.&lt;/li>
-&lt;li>Make sure &lt;strong>Occlusion.esp&lt;/strong> is at the bottom of your load order and active.&lt;/li>
-&lt;/ul></description></item><item><title>Tpf: ENBSeries</title><link>https://thephoenixflavour.com/tpf/finalisation/enbseries/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf/finalisation/enbseries/</guid><description>
+&lt;p>The bottom of your load order should now look like this:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/finalisation/dyndolod-load-order.png" alt="DynDOLOD Load Order">&lt;/p></description></item><item><title>Tpf: ENBSeries</title><link>https://thephoenixflavour.com/tpf/finalisation/enbseries/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf/finalisation/enbseries/</guid><description>
 &lt;h2 id="what-is-enbseries">What is ENBSeries?&lt;/h2>
 &lt;p>ENBSeries is a post-processing injector by Boris Vorontsov. Unlike ReShade, it is not universal but built for specific games and hooks directly into the engine. Effects are therefore highly advanced and specific to each games. ENB is also capable of fixing bugs and improving performance plus it offers additional features such as VSYNC, a screenshot hotkey, and a toggleable FPS counter.&lt;/p>
 &lt;p>The effects vary in their performance impact. A full preset, especially when Skyrim is run on high resolutions, can bring even high-end PCs to their knees. Fortunately, Skyrim SE with its generally improved performance runs a great deal better with ENBSeries presets and 60FPS+ on a reasonable resolution (1080p) are comfortably attainable on most machines.&lt;/p>

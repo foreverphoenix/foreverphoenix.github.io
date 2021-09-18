@@ -667,16 +667,19 @@
 &lt;p>Cathedral Assets Optimizer (CAO) by Gk1 is a unified asset processing tool that can be used to extract or create BSAs, optimize assets, compress or resize textures, and more.&lt;/p>
 &lt;h3 id="installation">Installation&lt;/h3>
 &lt;ul>
-&lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23316">&lt;strong>Cathedral Assets Optimizer&lt;/strong>&lt;/a> &lt;strong>5.0.15&lt;/strong> manually.&lt;/li>
+&lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23316">Cathedral Assets Optimizer&lt;/a> &lt;strong>5.0.15&lt;/strong> manually.&lt;/li>
 &lt;li>Create a new folder: &lt;code>Your Modding Folder\Tools\Cathedral Assets Optimizer&lt;/code>.&lt;/li>
 &lt;li>Open the downloaded archive and extract everything into the new folder.&lt;/li>
 &lt;li>Follow &lt;a href="https://support.microsoft.com/en-us/help/4028485/windows-">these instructions&lt;/a> to add an exception for CAO to Windows Defender.&lt;/li>
 &lt;/ul>
 &lt;p>You will be using CAO plenty of times during the installation of the guide, so I recommend adding it to your Windows Taskbar for quick access.&lt;/p>
+&lt;blockquote>
+&lt;p>We are using an old version because there have been some issues with the newer ones.&lt;/p>
+&lt;/blockquote>
 &lt;h3 id="profiles">Profiles&lt;/h3>
 &lt;p>Cathedral Assets Optimiser allows you to set up dedicated profiles. I created several profiles for different purposes to be used during the installation of the guide.&lt;/p>
 &lt;ul>
-&lt;li>Download the latest version of the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">&lt;strong>Cathedral Assets Optimizer - Basic Profiles Pack&lt;/strong>&lt;/a> manually from the Nexus.&lt;/li>
+&lt;li>Download the latest version of the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26092?tab=files">Cathedral Assets Optimizer - Basic Profiles Pack&lt;/a> manually from the Nexus.&lt;/li>
 &lt;li>Open the downloaded archive.&lt;/li>
 &lt;li>Extract all folders to &lt;code>Your Modding Folder\Tools\Cathedral Assets Optimizer\profiles&lt;/code>.&lt;/li>
 &lt;/ul>
@@ -684,9 +687,18 @@
 &lt;h2 id="sse-nif-optimizer">SSE NIF Optimizer&lt;/h2>
 &lt;p>While the vast majority of SLE meshes can be fixed with Cathedral Assets Optimizer, there are some that will only work properly after running them through the original SSE NIF Optimizer.&lt;/p>
 &lt;ul>
-&lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4089">&lt;strong>SSE NIF Optimizer&lt;/strong>&lt;/a> manually from the Nexus.&lt;/li>
+&lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4089">SSE NIF Optimizer&lt;/a> manually from the Nexus.&lt;/li>
 &lt;li>Extract the executable into Your Modding Folder. It’s just a single file so no separate directory is required.&lt;/li>
 &lt;/ul>
+&lt;h2 id="nifskope">NifSkope&lt;/h2>
+&lt;p>NifSkope is a great tool that allows you to quickly edit meshes in various ways (although not create new ones).&lt;/p>
+&lt;ul>
+&lt;li>Download &lt;a href="https://github.com/niftools/nifskope/releases/tag/v2.0.dev7">NifSkope&lt;/a> from Github (scroll down to &lt;strong>Assets&lt;/strong> and click the archive).&lt;/li>
+&lt;li>Create a new folder: &lt;code>\Your Modding Folder\Tools\NifSkope\&lt;/code>.&lt;/li>
+&lt;li>Open the downloaded archive and extract its contents into the new folder.&lt;/li>
+&lt;/ul>
+&lt;p>In Mod Organizer 2, add &lt;strong>NifSkope.exe&lt;/strong> as an executable like you did before with SSEEdit. No additional arguments are required.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/initial-setup/download-nifskope.png" alt="Download NifSkope">&lt;/p>
 &lt;hr>
 &lt;h4 id="continue-with-the-esm-cleaningtpfinitial-setupesm-cleaning-page">Continue with the &lt;a href="https://thephoenixflavour.com/tpf/initial-setup/esm-cleaning/">&lt;strong>ESM Cleaning&lt;/strong>&lt;/a> page.&lt;/h4></description></item><item><title>Tpf: ESM Cleaning</title><link>https://thephoenixflavour.com/tpf/initial-setup/esm-cleaning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf/initial-setup/esm-cleaning/</guid><description>
 &lt;h2 id="about-esm-cleaning">About ESM Cleaning&lt;/h2>

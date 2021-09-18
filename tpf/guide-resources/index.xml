@@ -412,7 +412,31 @@ iSize W=1920
 &lt;/code>&lt;/pre>&lt;ul>
 &lt;li>Afterwards, click the &lt;strong>Save&lt;/strong> button and close the window.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/guide-resources/change-game-resolution.png" alt="Change Game Resolution">&lt;/p></description></item><item><title>Tpf: How To Update</title><link>https://thephoenixflavour.com/tpf/guide-resources/how-to-update/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf/guide-resources/how-to-update/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/guide-resources/change-game-resolution.png" alt="Change Game Resolution">&lt;/p>
+&lt;h2 id="how-to-add-the-no-decal-flag-to-meshes">How to add the No Decal flag to meshes&lt;/h2>
+&lt;p>In their &lt;a href="https://www.nexusmods.com/skyrimspecialedition/users/93362?tab=user+files">Rudy ENB - More Lights for ENB&lt;/a> series, Rudy added particle light effects for ENB to various meshes. Unfortunately, the ENB light nodes did not have the No Decal flag added to them, meaning blood decals can be applied to them which looks &lt;a href="https://staticdelivery.nexusmods.com/mods/1704/images/55582/55582-1631610417-997186529.png">rather ugly&lt;/a>. The meshes were fixed by wankingSkeever &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/55582">here&lt;/a>, however, for the purposes of the guide, we will be fixing those meshes ourselves with NifSkope (and get to know the tool in the process).&lt;/p>
+&lt;p>These instructions are linked to at relevant points in the guide.&lt;/p>
+&lt;ul>
+&lt;li>Right-click the mod you were instructed to edit and select &lt;strong>Open in Explorer&lt;/strong>.&lt;/li>
+&lt;li>Find the &lt;strong>NIF&lt;/strong> files (meshes) in the &lt;strong>meshes&lt;/strong> folder. These need editing.&lt;/li>
+&lt;li>Run &lt;strong>NifSkope&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Open the first mesh into NifSkope (drag from Windows Explorer into the tool).&lt;/li>
+&lt;li>Expand the &lt;strong>BSFadeNode&lt;/strong> (see window in the upper left).&lt;/li>
+&lt;li>The &lt;strong>EnbParticleLight&lt;/strong> node is at the bottom of the list. Expand it.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Sometimes the EnbParticleLight node is nested within other nodes in which case you need to expand those first. The quickest way to get to the correct node is often clicking the mesh which will usually select the EnbParticleLight node and move you to the BSTriShape.&lt;/p>
+&lt;/blockquote>
+&lt;p>Here we see the &lt;strong>BSTriShape&lt;/strong> settings which is what we need to edit:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/guide-resources/nifskope-nodecal-1.png" alt="NifSkope NoDecal 1">&lt;/p>
+&lt;ul>
+&lt;li>Below the node list in the bottom left, you can see the &lt;strong>Block Details&lt;/strong>.&lt;/li>
+&lt;li>Right-click the &lt;strong>Flags&lt;/strong> line and select &lt;strong>Flags&lt;/strong> to edit them.&lt;/li>
+&lt;li>Click &lt;strong>Yes&lt;/strong> in the warning window.&lt;/li>
+&lt;li>In the &lt;strong>Flags&lt;/strong> window, check the box for &lt;strong>Bit 10: No Decals (1024)&lt;/strong> and click &lt;strong>Accept&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/guide-resources/nifskope-nodecal-2.png" alt="NifSkope NoDecal 2">&lt;/p>
+&lt;p>And that&amp;rsquo;s it! Press &lt;strong>CTRL + S&lt;/strong> to save your edits and close NifSkope. The first mesh is fixed.&lt;/p></description></item><item><title>Tpf: How To Update</title><link>https://thephoenixflavour.com/tpf/guide-resources/how-to-update/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/tpf/guide-resources/how-to-update/</guid><description>
 &lt;h2 id="mod-organizer-2">Mod Organizer 2&lt;/h2>
 &lt;p>It is possible to update Mod Organizer 2 without affecting your setup if you leave certain files and folders intact. You can do this anytime, and it will not affect your saves, mod list, or even your UI settings.&lt;/p>
 &lt;h3 id="remove-the-old-version">Remove the old version&lt;/h3>
@@ -473,7 +497,7 @@ iSize W=1920
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf/guide-resources/deactivate-dyndolod.png" alt="Deactivate DynDOLOD">&lt;/p>
 &lt;h3 id="resaving-without-dyndolod">Resaving without DynDOLOD&lt;/h3>
 &lt;ul>
-&lt;li>Back in Mod Organizer 2, delete &lt;strong>TexGen_Output&lt;/strong>, &lt;strong>DynDOLOD_Output&lt;/strong>, and &lt;strong>SSELODGen - Occlusion Data&lt;/strong>.&lt;/li>
+&lt;li>Back in Mod Organizer 2, delete &lt;strong>TexGen_Output&lt;/strong> and &lt;strong>DynDOLOD_Output&lt;/strong>.&lt;/li>
 &lt;li>Start the game and hit &lt;strong>Continue&lt;/strong>. Click &lt;strong>OK&lt;/strong> to the warning about missing plugins.&lt;/li>
 &lt;li>After the loading screen, stay in the interior cell, save, and quit again.&lt;/li>
 &lt;/ul>
@@ -486,8 +510,7 @@ iSize W=1920
 &lt;li>Download the &lt;strong>DynDOLOD&lt;/strong> main file from the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32382?tab=files">DynDOLOD&lt;/a> mod page manually.&lt;/li>
 &lt;li>Open the archive and extract everything into the now empty &lt;strong>DynDOLOD&lt;/strong> folder.&lt;/li>
 &lt;li>Go back to the &lt;a href="https://thephoenixflavour.com/tpf/finalisation/dyndolod/">DynDOLOD&lt;/a> page in the Finalisation and follow all steps from &lt;strong>TexGen Configuration&lt;/strong> onwards.&lt;/li>
-&lt;li>Continue on the &lt;a href="https://thephoenixflavour.com/tpf/finalisation/occlusion/">Occlusion&lt;/a> page from the &lt;strong>Generate Occlusion Data&lt;/strong> step onwards.&lt;/li>
-&lt;li>After regenerating TexGen, DynDOLOD, and Occlusion, load your save, and continue your playthrough!&lt;/li>
+&lt;li>After regenerating TexGen and DynDOLOD, load your save, and continue your playthrough!&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>Since the folder wasn&amp;rsquo;t changed, there is no need to update the file paths to the TexGen and DynDOLOD executables in MO2. They are still the same.&lt;/p>
