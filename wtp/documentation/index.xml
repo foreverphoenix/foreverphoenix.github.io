@@ -1,0 +1,510 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Documentation</title><link>https://thephoenixflavour.com/wtp/documentation/</link><description>Recent content in Documentation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/wtp/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Wtp: Game Folder Files</title><link>https://thephoenixflavour.com/wtp/documentation/game-folder-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/documentation/game-folder-files/</guid><description>
+&lt;p>While regular mods for Bethesda games are installed into the &lt;strong>data&lt;/strong> folder, there are some additional tools that belong into the &lt;strong>root&lt;/strong> folder. These are not automatically moved by Wabbajack. Instructions for them are included in the &lt;strong>Installation&lt;/strong> setup, this page merely serves as an overview over the files in question and their purpose.&lt;/p>
+&lt;blockquote>
+&lt;p>WTP does not use the Stock Game Folder system and likely never will.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="fallout-4-script-extender">Fallout 4 Script Extender&lt;/h3>
+&lt;p>The &lt;a href="http://f4se.silverlock.org/">Fallout 4 Script Extender (F4SE)&lt;/a> is essential to modding Fallout 4 and required by many mods. Its executable and DLLs have to be inside the root folder.&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>f4se_1_10_163.dll&lt;/code>&lt;/li>
+&lt;li>&lt;code>f4se_loader.exe&lt;/code>&lt;/li>
+&lt;li>&lt;code>f4se_steam_loader.dll&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="xse-plugin-preloader">xSE Plugin Preloader&lt;/h3>
+&lt;p>The &lt;a href="https://www.nexusmods.com/fallout4/mods/33946">xSE Plugin Preloader F4&lt;/a> is required for Buffout.&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>IpHlpAPI.dll&lt;/code>&lt;/li>
+&lt;li>&lt;code>xSE PluginPreloader.xml&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="buffout-4-tbb-redist">Buffout 4 TBB Redist&lt;/h3>
+&lt;p>&lt;a href="https://www.nexusmods.com/fallout4/mods/47359">Buffout 4&lt;/a> requires the TBB library, a small plugin that needs to be placed in the root folder.&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>tbbmalloc.dll&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="enbseries-binaries">ENBSeries Binaries&lt;/h3>
+&lt;p>The &lt;a href="http://enbdev.com/download_mod_fallout4.htm">ENBSeries for Fallout 4&lt;/a> binaries, required for ENB presets to work.&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>d3d11.dll&lt;/code>&lt;/li>
+&lt;li>&lt;code>d3dcompiler_46e.dll&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="enblocalini">enblocal.ini&lt;/h3>
+&lt;p>My personal enblocal.ini with customised hotkeys.&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>enblocal.ini&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="fallopt-enb">FallOpt ENB&lt;/h3>
+&lt;p>The &lt;a href="https://www.nexusmods.com/fallout4/mods/55662">FallOpt ENB&lt;/a> preset.&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>\enbseries\&lt;/code>&lt;/li>
+&lt;li>&lt;code>enbseries.ini&lt;/code>&lt;/li>
+&lt;/ul></description></item><item><title>Wtp: Creation Club</title><link>https://thephoenixflavour.com/wtp/documentation/creation-club/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/documentation/creation-club/</guid><description>
+&lt;h2 id="preface">Preface&lt;/h2>
+&lt;p>I am not a fan of the Creation Club, whether you want to call it paid mods or microtransactions. That being said, some of my favourite modders have worked on &amp;ldquo;creations&amp;rdquo; and there are a few I really want to play with.&lt;/p>
+&lt;p>&lt;strong>Creations are optional.&lt;/strong> WTP will never require you to spend extra money on mini DLC.&lt;/p>
+&lt;h2 id="supported-creations">Supported Creations&lt;/h2>
+&lt;p>The list is relatively short so far and while I intend to expand it in the future, I am not willing to take requests. These creations are rather pricey and I&amp;rsquo;m mostly interested in supporting those that I snatched for free anyway.&lt;/p>
+&lt;h3 id="modular-military-backpack">Modular Military Backpack&lt;/h3>
+&lt;p>The highly customisable Modular Military Backpack was created by fadingsignal (the only reason I spent money on it) and it&amp;rsquo;s the perfect companion to the K-9 Harness (also by fadingsignal). I removed the levelled list distribution so there is only a single backpack in the world which you will come across very early on in the game in Vault 111.&lt;/p>
+&lt;p>Note that because you are able to pick it up before you&amp;rsquo;ve even stepped foot in the wasteland, the backpack will invariably hurt overall balancing by awarding generous amounts of extra carry weight and other buffs. I personally don&amp;rsquo;t mind that.&lt;/p>
+&lt;p>&lt;strong>The &amp;ldquo;creation&amp;rdquo; is contained in the following files:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>ccfsvfo4001-ModularMilitaryBackpack.esl&lt;/code>&lt;/li>
+&lt;li>&lt;code>ccFSVFO4001-ModularMilitaryBackpack - Main.ba2&lt;/code>&lt;/li>
+&lt;li>&lt;code>ccFSVFO4001-ModularMilitaryBackpack - Textures.ba2&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>We previously moved all &amp;ldquo;creations&amp;rdquo; (ESL+BA2 combinations) to &lt;code>\Your Modding Folder\Backups\Creation Club\&lt;/code>. I recommend selectively installing the &amp;ldquo;creations&amp;rdquo; supported by WTP (only the Backpack currently) as mods through Mod Organizer 2.&lt;/p>
+&lt;ul>
+&lt;li>To do so, navigate to the mods folder within your Mod Organizer 2 instance: &lt;code>\Welcome To Paradise\mods\&lt;/code>.&lt;/li>
+&lt;li>Create a new folder there. Name it appropriately, e.g. &amp;ldquo;Creation Club - Modular Military Backpack&amp;rdquo;.&lt;/li>
+&lt;li>Copy the files (an ESL and one or two BA2s) into the new folder.&lt;/li>
+&lt;li>Back in Mod Organizer 2, press &lt;strong>F5&lt;/strong> to refresh.&lt;/li>
+&lt;li>The new mod will appear at the bottom of your mod order (left pane).&lt;/li>
+&lt;li>Drag it up below the &lt;strong>NEW CONTENT&lt;/strong> separator and activate it.&lt;/li>
+&lt;li>Also activate any patches available for that creation under the same separator.&lt;/li>
+&lt;/ul></description></item><item><title>Wtp: WTP Visuals</title><link>https://thephoenixflavour.com/wtp/documentation/wtp-visuals/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/documentation/wtp-visuals/</guid><description>
+&lt;h2 id="visual-changes">Visual Changes&lt;/h2>
+&lt;p>Fallout 4 was never a particularly beautiful game, but it has solid graphics. Compared to older Fallout titles, it is a great deal more colourful and &amp;ldquo;cartoonish&amp;rdquo;, no green filter like in Fallout 3 and no distinct dusty hue like in Fallout New Vegas.&lt;/p>
+&lt;p>In my changes for WTP, I have decided to stay faithful to the vanilla colours and style, opting to focus largely on improving texture quality. Any more profound changes such as a tree overhaul would have susbstantially increased the list&amp;rsquo;s complexity due to FO4&amp;rsquo;s precombine system which is the only thing that keeps performance from turning into a slide show.&lt;/p>
+&lt;h3 id="weather--lighting">Weather &amp;amp; Lighting&lt;/h3>
+&lt;p>Welcome to Paradise does not feature a fully-fledged weather overhaul, but it does include &lt;a href="https://www.nexusmods.com/fallout4/mods/31991">Clarity - A Visual Overhaul&lt;/a> which improves various visual effects to be much more pleasing. Combined with the lightweight &lt;a href="https://www.nexusmods.com/fallout4/mods/55662">FallOpt ENB&lt;/a> preset, it constitutes a solid upgrade over vanilla without changing the original style.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/wtp-day.jpg" alt="WTP Day">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/wtp-dusk.jpg" alt="WTP Dusk">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/wtp-night.jpg" alt="WTP Night">&lt;/p>
+&lt;h3 id="landscape">Landscape&lt;/h3>
+&lt;p>In keeping with the pledge to stick with the vanilla style, I added &lt;a href="https://www.nexusmods.com/fallout4/mods/9292">Lush Landscapes&lt;/a> (the &amp;ldquo;Dried&amp;rdquo; edition) as the grass overhaul which does a good job at improving vanilla&amp;rsquo;s sparse vegetation. Water was greatly improved by &lt;a href="https://www.nexusmods.com/fallout4/mods/20775">Water Enhancement Textures&lt;/a> and &lt;a href="https://www.nexusmods.com/fallout4/mods/41568">Wave Animation Vanilla Enhanced&lt;/a>.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/wtp-landscape.jpg" alt="WTP Landscape">&lt;/p>
+&lt;h2 id="texture-packs">Texture Packs&lt;/h2>
+&lt;p>In Fallout 4, loose assets can actually have a significant impact on performance and load time over BA2 packed assets, far more so than in Skyrim SE. This is why most mod authors pack up their assets in archives and it is why I have been religiously packing up most loose assets in WTP. On this page I am listing the mods that the individual textures and meshes in the custom WTP texture packs are from.&lt;/p>
+&lt;p>Note that the assets were &lt;em>not&lt;/em> repackaged and redistributed. Each of the individual mods will be downloaded for you from their original mod pages by Wabbajack, then packed up into archives to match my own setup.&lt;/p>
+&lt;h3 id="texture-pack---clutter">Texture Pack - Clutter&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/28204">Grey Tortoise Cigarettes Redux&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/1500">Bottles Label Overhaul&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/32224">Sweet Roll 5000&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/20399">Retextured Water - By Ben Ephla&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/45675">Gold Bars - FNV Dead Money Inspired Replacer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/8087">Better Ammo Boxes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/8879">Duffle Bag Retexture 2K&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/16841">Retextured First Aid Kids - Ephla&amp;rsquo;s Unique First Aid&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/12062">PatrickJr&amp;rsquo;s Redone Bobbleheads&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/49999">Classic Wasteland Survival Guide - Magazine Retexture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/53012">U.S. Covert Operations Manual Revised - Magazine Retexture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/50253">Total Hack - Magazine Retexture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/52206">Library and Subway Tokens HD Remastered&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/34246">Globes 2K&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/34014?tab=files">Wall Worldmap&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/37762">ADs 2X Rez&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="texture-pack---apparel">Texture Pack - Apparel&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/40633">Pipboy UHD 2K&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/40952">Vault Suit UHD 4K&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/524">Combat Armor No Star Decal&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/12187">Robot Armor Retextured&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/13053">Mechanist Armor Retextured&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/14340">Marine Helmet with Tactical Hood&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/14010">Piper&amp;rsquo;s Coat HR&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/36704">Better House Dress Shoes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/5021">Eyewear and Mask Retexture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/19272">Shorter Gas Masks&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="texture-pack---power-armors">Texture Pack - Power Armors&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/27917">Power Armors Redone&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/28033">Power Armors Redone Extended - CPAO Textures&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/28033">Power Armors Redone Extended - Minutemen Paint Job Textures&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/30796">Power Armor Jetpack 2K HD&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/39711">Power Armor Frame 4K UHD&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/4092">Matching White Brotherhood Rank Insignia&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="texture-pack---weapons">Texture Pack - Weapons&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/33107">10mm HD&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/24398">The Fantastic Forty Four&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/49185">The Hunting Rifle Set&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/49369">The Ballistic Series&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/2211">Scratch Made - New Double Barrel Shotgun Textures&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/48567">The Laser Series&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/37723">CC&amp;rsquo;s FUHD Institute Laser Weapons&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/48321">The Plasma Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/24506">The Meritable Minigun&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/33381">Missile Launcher HD&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/24460">The Fancy Fatman&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/41107">Gauss Rifle UHD&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/51479">The Flamer Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/31564">Cryolator HD&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/31611">Broadsider HD&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/51557">Leafblower Junk Jet&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/24813">The Delightful Deliverer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/24606">The Radical Ripper&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/38644">Grognak&amp;rsquo;s Axe&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/6960">Kremvh&amp;rsquo;s Tooth Replacer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/37749">M26 Fragmentation Grenade Replacer&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="texture-pack---creatures">Texture Pack - Creatures&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/14726">Delightful Dead Fish&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/53516">CC&amp;rsquo;s UHD Bloatflies - Reimagined&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/36533">CC&amp;rsquo;s UHD Radscorpions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/36434">CC&amp;rsquo;s Enhanced Vanilla Mirelurks&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/15038">Protectron HD&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/36045">Assaultron HD&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/37680">CC&amp;rsquo;s FUHD Sentry Bots&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/53619">CC&amp;rsquo;s Liberty Prime&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/36857">CC&amp;rsquo;s UHD Fog Crawlers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/36460">CC&amp;rsquo;s UHD Aliens&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Wtp: WTP Gameplay</title><link>https://thephoenixflavour.com/wtp/documentation/wtp-gameplay/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/documentation/wtp-gameplay/</guid><description>
+&lt;h2 id="general-changes">General Changes&lt;/h2>
+&lt;p>WTP features a good amount of quality of life improvements. These include:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/18946">Start Me Up&lt;/a>: The Basic version of this mod included in WTP allows you to skip the pre-war part of the Prologue.&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/45072">Consume Without Pickup&lt;/a>: Immediately use a Stimpak or eat that Radstag stew without having to pick it up first.&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/52723">Baka Wait Anywhere&lt;/a>: Allows you to wait anywhere without having to sit down (but with a few conditions).&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/20093">Automatically Lowered Weapons&lt;/a>: Player automatically lowers their weapon when not in combat.&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/31527">Easy Lockpicking and Hacking&lt;/a>: Only the correct word appears when hacking. Locks can be picked instantly.&lt;/li>
+&lt;/ul>
+&lt;h3 id="quest-adjustments">Quest Adjustments&lt;/h3>
+&lt;p>&lt;a href="https://www.nexusmods.com/fallout4/users/2652197?tab=user+files">No Quest Autostart series&lt;/a>: The DLC quests will no longer start automatically upon reaching the required level. You will need to either listen to the associated radio broadcast or actively go to the related location. Note that the level requirements was not removed, but the quests will no longer be automatically added to your quest log.&lt;/p>
+&lt;p>&lt;a href="https://www.nexusmods.com/fallout4/mods/25934">Keep Radiants in the Commonwealth&lt;/a>: Any radiant quests received in the Commonwealth will now always send you to locations within the Commonwealth (as opposed to DLC areas which they previously could).&lt;/p>
+&lt;p>&lt;a href="https://www.nexusmods.com/fallout4/mods/24940">Preston Garvey No Radiant Settlement Quests&lt;/a>: After taking the Castle for the Minutemen, Preston Garvey will no longer give you radiant quests with the exception of those that you cannot get through the Radio Freedom broadcasts.&lt;/p>
+&lt;p>&lt;a href="https://www.nexusmods.com/fallout4/mods/51979">Whose Quest Is It Anyway&lt;/a>: Upon attempting to remove a quest item from your inventory, you will now be notified which quest the item is locked by.&lt;/p>
+&lt;h3 id="simple-crafting-station">Simple Crafting Station&lt;/h3>
+&lt;p>All vanilla Chem Stations were renamed to &amp;ldquo;Crafting Stations&amp;rdquo; to account for the fact that you can craft pretty much anything at them. Their models were changed accordingly by &lt;a href="https://www.nexusmods.com/fallout4/mods/44691">this excellent mod&lt;/a>.&lt;/p>
+&lt;p>Holotapes to configure a few mods were moved to a unique category at Crafting Stations called MOD CONFIG. They can now be crafted for free.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/config-holotape-crafting.jpg" alt="Config Holotape Crafting">&lt;/p>
+&lt;h3 id="photo-mode">Photo Mode&lt;/h3>
+&lt;p>WTP includes the amazing &lt;a href="https://www.nexusmods.com/fallout4/mods/49997">Photo Mode&lt;/a> by reg2k. It&amp;rsquo;s the perfect tool for screenarchers, pause the game and find the perfect angle for a great picture. You can access it through ESCAPE menu or define a hotkey in the associated MCM.&lt;/p>
+&lt;h2 id="power-armor">Power Armor&lt;/h2>
+&lt;p>While WTP touches little on the gameplay side of things, I did change how power armors were distributed and how their paint jobs work to be quite different from vanilla.&lt;/p>
+&lt;h3 id="distribution">Distribution&lt;/h3>
+&lt;p>Quick summary of the changes:&lt;/p>
+&lt;ul>
+&lt;li>You will find fewer full power armors sets and more separate pieces.&lt;/li>
+&lt;li>T-45 and Raider power armor pieces will be more commonly found.&lt;/li>
+&lt;li>T-51 power armor pieces will be more commonly found.&lt;/li>
+&lt;li>T-60 power armor pieces can be found exclusively on Brotherhood troops.&lt;/li>
+&lt;li>X-01 power armor pieces are rare. There are only two full sets in the Commonwealth.&lt;/li>
+&lt;/ul>
+&lt;p>In vanilla, one may be forgiven to think that before the bombs dropped every citizen of Boston had a set of power armor stored in their backyard. There are just so bloody many of them! In order to cut down the amount of armors you find, I added &lt;a href="https://www.nexusmods.com/fallout4/mods/12050">Some Assembly Required&lt;/a> for its hand-placed power armor pieces (and removed everything else it did). In most locations where before there was a power armor frame often with a full set, you will now find separate pieces or other rare loot. Additionally, pieces of Raider, T-45, or (rarely) T-51 power armor were hand-placed in various locations around the Commonwealth.&lt;/p>
+&lt;p>Since this change means there will be far fewer frames found in the world, I added &lt;a href="https://www.nexusmods.com/fallout4/mods/20890">Restore Power Armor Frames&lt;/a> which will allow you to extract the frames from dead NPCs.&lt;/p>
+&lt;p>According to lore, &lt;strong>T-60 power armor&lt;/strong> had not yet replaced the T-51 in the standard army loadout before the bombs dropped and did not enter mass-production until the Brotherhood of Steel procured the means to do so much later on. As such it makes no sense for T-60 sets to be significantly more common than T-51 in the Commonwealth. In WTP, T-60 sets are given exclusively to Brotherhood troops. Atom Cats now wear T-45 power armor sets instead of T-60. The only T-60 set you can find outside of the Brotherhood is the &lt;a href="https://fallout.fandom.com/wiki/Tesla_T-60_armor">Tesla&lt;/a> variant from the Automatron DLC.&lt;/p>
+&lt;p>There is one full set of T-51 power armor including frame and fusion core in a heavily fortified location. See the SPOILER SECTION at the bottom if you want to know where to find it.&lt;/p>
+&lt;p>In the levelled lists, T-60 pieces were replaced by T-45 pieces and X-01 pieces were replaced by T-51 pieces.&lt;/p>
+&lt;p>As for &lt;strong>X-01 power armor&lt;/strong>, there are only two full sets to be found: One of them is the &lt;a href="https://fallout.fandom.com/wiki/Quantum_X-01_power_armor">Quantum X-01&lt;/a> from the Nuka World DLC. The second consists of regular X-01 pieces you will have to gather from various locations around the Commonwealth. Scroll to the bottom of this page to the SPOILER SECTION to find out where exactly those six pieces can be found.&lt;/p>
+&lt;h3 id="paint-jobs">Paint Jobs&lt;/h3>
+&lt;p>In vanilla, many paint jobs also have non-cosmetic effects such as stat increases. The mod &lt;a href="https://www.nexusmods.com/fallout4/mods/4619">Power Armor Materials AND Paints&lt;/a> separates these two so you can control the paint job and &amp;ldquo;material&amp;rdquo; (the non-cosmetic buffs) separately. This required some integration patching with other power armor mods added in WTP.&lt;/p>
+&lt;p>Paint jobs now all cost 2 oil and 2 steel to apply (matching the Creation Club paint jobs). They no longer increase weight or value of the armor piece and will not yield a loose mod upon swapping to a different one.&lt;/p>
+&lt;p>Additionally, paint jobs were made available for a greater variety of power armor pieces by &lt;a href="https://www.nexusmods.com/fallout4/mods/11234">Consistent Power Armor Overhaul&lt;/a> and &lt;a href="https://www.nexusmods.com/fallout4/mods/28029">Minutemen Paint Job&lt;/a>. Both of those mods are supported by the amazing &lt;a href="https://www.nexusmods.com/fallout4/mods/28033">Power Armors Redone Extended&lt;/a> so the new paint job variants are of the same style and quality as the vanilla power armors retextured by &lt;a href="https://www.nexusmods.com/fallout4/mods/27917">Power Armors Redone&lt;/a>.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Paint Jobs&lt;/th>
+&lt;th>T-45&lt;/th>
+&lt;th>T-51&lt;/th>
+&lt;th>T-60&lt;/th>
+&lt;th>X-01&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Factory&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Winterized (white)&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Military (olive)&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Brotherhood of Steel&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Minutemen&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Vault-Tec&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Railroad&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Institute&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>x&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Atom Cats&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hot Rod Flames&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hot Rod Shark&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hot Rod Hot Pink&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>x&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Vim!&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Vim! Refresh&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Sugar Bombs&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Abraxo&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>x&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>The Brotherhood of Steel paint job has multiple variants for any PA Left Arm pieces to display your rank insignia (Knight, Sentinel, Paragon). For all other pieces, there is only a single &amp;ldquo;Brotherhood of Steel&amp;rdquo; paint job as there are no rank-specific decals for them.&lt;/p>
+&lt;/blockquote>
+&lt;p>The &lt;strong>Abraxo&lt;/strong> and &lt;strong>Sugar Bombs&lt;/strong> paint jobs for the T-51 (added by the Contraptions DLC) will no longer be available by default. You need to find special promotional holotapes for each to unlock the paint jobs. Their locations are listed in the SPOILER SECTION at the bottom of this page.&lt;/p>
+&lt;p>The &lt;strong>Vault-Tec&lt;/strong> paint job for the T-45, T-51, T-60, and X-01 power armors is similarly disabled at the start of the game and can be unlocked by a holotape. You can find it in the Overseer&amp;rsquo;s office of any vault.&lt;/p>
+&lt;h3 id="other-changes">Other Changes&lt;/h3>
+&lt;p>&lt;a href="https://www.nexusmods.com/fallout4/mods/4408">Power Armor Animation Changes&lt;/a> makes entering and exiting your power armor out of combat much faster. Upon exiting your power armor frame, your fusion core will immediately be placed in your inventory thanks to &lt;a href="https://www.nexusmods.com/fallout4/mods/14773">Take Your Cores&lt;/a>. This saves you from having to grab them manually. If you leave the cores in, NPCs like your settlers may decide to take your power armor for a walk and they don&amp;rsquo;t always return it either. &lt;a href="https://www.nexusmods.com/fallout4/mods/33080">No PA Battery Pathing&lt;/a> removes the dreaded struggle of getting behind your power armor and slotting in the fusion core which in vanilla, if you get stuck, lasts up to 16 seconds.&lt;/p>
+&lt;h2 id="settlement-building">Settlement Building&lt;/h2>
+&lt;p>The building system was generally improved by the following mods:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/9424">Place Everywhere&lt;/a> removes the dreaded red outlines. You can now build anywhere and have much finer movement controls.&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/16939">New Infinite Settlement Budget Plugin&lt;/a> significantly increases the building budget (so be careful).&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/46453">Visible Idle Markers&lt;/a> helps prevent building objects on idle markers which NPCs would clip through to reach the marker.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Building objects in settlements no longer grants XP.&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>The more objects you place in a settlement (or technically the higher the overall polycount of all object gets), the more performance will degrade. With the expanded building budget it is now up to the player to decorate carefully and mind the framerate.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="scrapping-machine">Scrapping Machine&lt;/h3>
+&lt;p>The mod &lt;a href="https://www.nexusmods.com/fallout4/mods/35793">Scrapping Machine&lt;/a> adds some very useful &lt;del>washing&lt;/del> scrapping machines that you can build in your workshop. Any junk items placed inside will be broken down into their base scrap. This is extremely useful because junk broken down for components when crafting or building may cause unused base scrap to be lost.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/wtp-scrap-1.jpg" alt="WTP Scrap 1">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/wtp-scrap-2.jpg" alt="WTP Scrap 2">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/wtp-scrap-3.jpg" alt="WTP Scrap 3">&lt;/p>
+&lt;h2 id="keybinds">Keybinds&lt;/h2>
+&lt;p>WTP comes with a bunch of custom hotkeys, all of which can be configured in MCMs or INI files.&lt;/p>
+&lt;h3 id="enbseries">ENBSeries&lt;/h3>
+&lt;p>Hotkeys for ENB can be adjusted in the &lt;code>enblocal.ini&lt;/code> (located in the root folder). &lt;a href="https://keycode.info/">Here&lt;/a> is a great website to quickly figure out the keycode for any key by simply pressing it.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>F8&lt;/strong> Toggle FPS Counter&lt;/li>
+&lt;li>&lt;strong>F10&lt;/strong> Toggle ENB Effect&lt;/li>
+&lt;li>&lt;strong>F11&lt;/strong> Open ENB GUI&lt;/li>
+&lt;/ul>
+&lt;h3 id="workshop">Workshop&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Y&lt;/strong> Open the Workshop (Faster Workshop)&lt;/li>
+&lt;li>&lt;strong>F1&lt;/strong> Toggle Place Everywhere (can build objects anywhere)&lt;/li>
+&lt;li>&lt;strong>F2&lt;/strong> Toggle Snapping (requires Place Everywhere mode to be on)&lt;/li>
+&lt;/ul>
+&lt;h3 id="hud">HUD&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>V&lt;/strong> Toggle HUD (if Immersive HUD is enabled)&lt;/li>
+&lt;li>&lt;strong>H&lt;/strong> Toggle clock widget (if HoloTime is enabled)&lt;/li>
+&lt;/ul>
+&lt;h3 id="other">Other&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>P&lt;/strong> Open Photo Mode&lt;/li>
+&lt;li>&lt;strong>CTRL + B&lt;/strong> Toggle Radio&lt;/li>
+&lt;li>&lt;strong>CTRL + G&lt;/strong> Use Stimpak&lt;/li>
+&lt;/ul>
+&lt;h2 id="new-content">New Content&lt;/h2>
+&lt;h3 id="additional-music">Additional Music&lt;/h3>
+&lt;p>WTP both adds new tracks to the background music as well as to the Diamond City radio. The new additions were carefully selected to match the vanilla atmosphere so as not pull you out of the game.&lt;/p>
+&lt;p>The following mods expand the game&amp;rsquo;s soundtrack:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/14531">Musical Lore - Wasteland Edition&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/15870">Fallout Suite - Soundtrack Extension for Fallout 4&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/9663">Bleak Beauty - A Fallout 4 Fan Made OST&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The music mods&amp;rsquo; individual plugins were replaced by a patched and merged one.&lt;/p>
+&lt;/blockquote>
+&lt;p>The following mods expand the Diamond City radio tracklist:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/5467">Elvani&amp;rsquo;s Track Pack for Diamond City Radio&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/637">More Where That Came From - Diamond City Radio Edition&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="pip-boy-color-variations">Pip-Boy Color Variations&lt;/h3>
+&lt;p>&lt;a href="https://www.nexusmods.com/fallout4/mods/47858">Pip Boy Retextured&lt;/a> adds eight new colour variations (paint jobs) for the Pip Boy like the Creation ones but for free. You can change your Pip Boy&amp;rsquo;s paint job whenever you like at any Armor Workbench.&lt;/p>
+&lt;h3 id="k-9-harness">K-9 Harness&lt;/h3>
+&lt;p>I&amp;rsquo;m a huge fan of fadingsignal&amp;rsquo;s &lt;a href="https://www.nexusmods.com/fallout4/mods/17686">K-9 Harness&lt;/a> for Dogmeat so I had to add it to WTP. Instead of it being craftable, I have placed one harness in a location that fits thematically. Either trust that you will find it naturally on your travels or check the SPOILER SECTION at the bottom of this page if you want to know where it is.&lt;/p>
+&lt;h3 id="cc-modular-military-backpack">CC Modular Military Backpack&lt;/h3>
+&lt;p>Also by fadingsignal is the &lt;a href="https://fallout.fandom.com/wiki/Modular_military_backpack">Modular Military Backpack&lt;/a> which matches the K-9 Harness beautifully. It is a Creation so you will need to buy it from the Creation Club. There are instructions for installing the Creation in WTP on the &lt;a href="https://thephoenixflavour.com/wtp/wtp-resources/creation-club/">Creation Club&lt;/a> page.&lt;/p>
+&lt;p>Note that the backpack will no longer be given to you upon leaving Vault 111 and it will not be distributed either. You can find a single one within Vault 111 that you can pick up at the start of the game.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/cc-backpack.jpg" alt="CC Backpack">&lt;/p>
+&lt;h2 id="spoiler-section">SPOILER SECTION&lt;/h2>
+&lt;p>&lt;strong>PLEASE DO NOT KEEP SCROLLING IF YOU DON&amp;rsquo;T WANT TO KNOW WHERE VARIOUS RARE ITEMS ARE FOUND.&lt;/strong>&lt;/p>
+&lt;h3 id="x-01-power-armor">X-01 Power Armor&lt;/h3>
+&lt;p>You can find X-01 power armor pieces in the following locations:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://fallout.fandom.com/wiki/The_Prydwen">The Prydwen&lt;/a>: X-01 Helmet (vanilla)&lt;/li>
+&lt;li>&lt;a href="https://fallout.fandom.com/wiki/Old_Gullet_sinkhole">Old Gullet Sinkhole&lt;/a>: X-01 Left Arm&lt;/li>
+&lt;li>&lt;a href="https://fallout.fandom.com/wiki/Boxing_gym">Boxing Gym&lt;/a>: X-01 Right Armor&lt;/li>
+&lt;li>&lt;a href="https://fallout.fandom.com/wiki/Museum_of_Witchcraft">Museum of Witchcraft&lt;/a>: X-01 Torso&lt;/li>
+&lt;li>&lt;a href="https://fallout.fandom.com/wiki/Greenetech_Genetics">Greenetech Genetics&lt;/a>: X-01 Left Leg&lt;/li>
+&lt;li>&lt;a href="https://fallout.fandom.com/wiki/O%27Neill_Family_Manufacturing">O&amp;rsquo;Neill Family Manufacturing&lt;/a>: X-01 Right Leg&lt;/li>
+&lt;/ul>
+&lt;h3 id="full-t-51-set">Full T-51 Set&lt;/h3>
+&lt;p>There is a full suit of T-51 on the rooftop of the &lt;a href="https://fallout.fandom.com/wiki/35_Court">35 Court&lt;/a> in the Financial District, downtown Boston.&lt;/p>
+&lt;h3 id="pa-paint-jobs">PA Paint Jobs&lt;/h3>
+&lt;p>You can find holotapes to unlock certain power armor paint jobs in the following locations:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://fallout.fandom.com/wiki/Super_Duper_Mart_(Fallout_4)">Super-Duper Mart&lt;/a>: Sugar Bombs paint job (T-51)&lt;/li>
+&lt;li>&lt;a href="https://fallout.fandom.com/wiki/Charlestown_laundry">Charlestown Laundry&lt;/a>: Abraxo paint job (T-51)&lt;/li>
+&lt;/ul>
+&lt;h3 id="k-9-harness-1">K-9 Harness&lt;/h3>
+&lt;p>Can be found at the &lt;a href="https://fallout.fandom.com/wiki/Malden_police_station">Malden police station&lt;/a>, upstairs.&lt;/p></description></item><item><title>Wtp: MCM Settings</title><link>https://thephoenixflavour.com/wtp/documentation/mcm-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/documentation/mcm-settings/</guid><description>
+&lt;h2 id="baka-wait-anywhere">Baka Wait Anywhere&lt;/h2>
+&lt;ul>
+&lt;li>While Being Irradiated: &lt;strong>ON&lt;/strong>&lt;/li>
+&lt;li>Wait Hotkey: &lt;strong>T&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/baka-wait-anywhere-mcm.jpg" alt="Baka Wait Anywhere MCM">&lt;/p>
+&lt;h2 id="configurable-hotkeys">Configurable Hotkeys&lt;/h2>
+&lt;ul>
+&lt;li>Use Stimpak: &lt;strong>CTRL + G&lt;/strong>&lt;/li>
+&lt;li>Toggle Radio: &lt;strong>CTRL + B&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Please note that any hotkeys bound through this mod are not blacklisted in menus and will fire when renaming a weapon in the workbench for instance. Thus, it is necessary to use keys that are not letters or combinations of multiple keys. Also be aware that Toggle Workshop and Show Wait Menu are not bound because hotkeys for them are covered by other mods.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/configurable-hotkeys-mcm.jpg" alt="Configurable Hotkeys MCM">&lt;/p>
+&lt;h2 id="fallui-inventory">FallUI Inventory&lt;/h2>
+&lt;ul>
+&lt;li>Coloring was set to &lt;strong>Green light&lt;/strong> for all menus&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-inventory-mcm.jpg" alt="FallUI Inventory MCM">&lt;/p>
+&lt;h2 id="fallui-confirm-boxes">FallUI Confirm Boxes&lt;/h2>
+&lt;ul>
+&lt;li>All boxes were set to &lt;strong>96, 184, 100&lt;/strong> (same as FallUI Inventory green light color)&lt;/li>
+&lt;li>All boxes except for the Create Robot one were set to the standard design&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-confirm-boxes-mcm.jpg" alt="FallUI Confirm Boxes MCM">&lt;/p>
+&lt;h2 id="fallui-hud">FallUI HUD&lt;/h2>
+&lt;ul>
+&lt;li>Max visible messages: &lt;strong>5&lt;/strong>&lt;/li>
+&lt;li>Hide &amp;ldquo;Hold [V] to open the Workshop menu&amp;rdquo;: &lt;strong>ON&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-hud-mcm.jpg" alt="FallUI HUD MCM">&lt;/p>
+&lt;h2 id="fallui-workbench">FallUI Workbench&lt;/h2>
+&lt;ul>
+&lt;li>Auto-craft items without cost: &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;li>Brightness unavailable item: &lt;strong>25&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-workbench-mcm.jpg" alt="FallUI HUD MCM">&lt;/p>
+&lt;h2 id="faster-workshop">Faster Workshop&lt;/h2>
+&lt;p>This mod is only included for its hotkey feature as Buffout already improves the workshop loading speed.&lt;/p>
+&lt;ul>
+&lt;li>Start Workshop Mode: &lt;strong>Y&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/faster-workshop-mcm.jpg" alt="Faster Workshop MCM">&lt;/p>
+&lt;h2 id="holotime">HoloTime&lt;/h2>
+&lt;p>HoloTime is &lt;em>disabled&lt;/em> by default and needs to be turned on first.&lt;/p>
+&lt;ul>
+&lt;li>Downscaled to size .7 and relocated to the top right where it won&amp;rsquo;t clash with notifications boxes&lt;/li>
+&lt;li>Toggle HoloTime Display to &lt;strong>H&lt;/strong> (HUD needs to be enabled)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/holotime-mcm.jpg" alt="HoloTime MCM">&lt;/p>
+&lt;h2 id="immersive-hud">Immersive HUD&lt;/h2>
+&lt;p>Immersive HUD is &lt;em>disabled&lt;/em> by default and needs to be turned on first.&lt;/p>
+&lt;ul>
+&lt;li>Main Settings: &lt;strong>Immersive HUD Enabled&lt;/strong>&lt;/li>
+&lt;li>Settings Holotape &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;li>AID Toggle Items &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;li>Hotkey to Toggle HUD: &lt;strong>V&lt;/strong>&lt;/li>
+&lt;li>Crosshair - Hit Marker: &lt;strong>Always&lt;/strong>&lt;/li>
+&lt;li>Compass - Combat: &lt;strong>ON&lt;/strong>&lt;/li>
+&lt;li>Compass - Aiming: &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;li>Power Armor HUD: &lt;strong>Always On&lt;/strong>&lt;/li>
+&lt;li>Stealth Indicator: &lt;strong>Always On&lt;/strong>&lt;/li>
+&lt;li>Enemy Health: &lt;strong>Always On&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/immersive-hud-mcm.jpg" alt="Immersive HUD MCM">&lt;/p>
+&lt;h2 id="photo-mode">Photo Mode&lt;/h2>
+&lt;ul>
+&lt;li>Photo Mode Menu Position: &lt;strong>4&lt;/strong>&lt;/li>
+&lt;li>Start Photo Mode: &lt;strong>P&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/photo-mode-mcm.jpg" alt="Photo Mode MCM">&lt;/p>
+&lt;h2 id="workshop-framework">Workshop Framework&lt;/h2>
+&lt;p>As the hint in the MCM suggests, the vanilla Shelter mechanic (where settlers&amp;rsquo; happiness is reduced if the game cannot detect a roof over their bed) is buggy. I prefer disabling it altogether:&lt;/p>
+&lt;ul>
+&lt;li>Shelter Mechanic: &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Just build your settlers&amp;rsquo; beds somewhere below a roof to protect your immersion and ignore this buggy mechanic.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/workshop-framework-mcm-1.jpg" alt="Workshop Framework MCM 1">&lt;/p>
+&lt;p>Workshop Framework has a neat feature that automatically closes doors after a few seconds. Settlers are unfortunately able to open them, but will never close them again so you usually have all doors in your settlement standing wide open. Having them close automatically finally fixes that.&lt;/p>
+&lt;ul>
+&lt;li>Door Management: &lt;strong>ON&lt;/strong>&lt;/li>
+&lt;li>Auto-Close Delay: &lt;strong>10&lt;/strong> (seconds)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/workshop-framework-mcm-2.jpg" alt="Workshop Framework MCM 2">&lt;/p>
+&lt;p>Finally, I highly recommend disabling the Manage Workbench prompt:&lt;/p>
+&lt;ul>
+&lt;li>Manage Workbench &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>The Manage menu accessible at workbenches is only for scrapping stuff placed by the player and the WF layouts feature. Since TPF Fallout 4 doesn&amp;rsquo;t currently include additional layouts, I would rather people disabled this entirely to prevent confusion. If you are interested in WF layouts, re-enable the Manage Workbench option and watch kinggath&amp;rsquo;s tutorials on &lt;a href="https://www.youtube.com/watch?v=N3MGiari9xc&amp;amp;feature=emb_logo">importing&lt;/a> and &lt;a href="https://www.youtube.com/watch?v=9OVzgFzjnRw&amp;amp;feature=emb_logo">exporting&lt;/a> them. Obviously, downloading and installing layouts counts as adding mods and voids your right to get support for WTP.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/workshop-framework-mcm-3.jpg" alt="Workshop Framework MCM 3">&lt;/p></description></item></channel></rss>

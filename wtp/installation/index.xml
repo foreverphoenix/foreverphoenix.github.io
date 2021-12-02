@@ -185,14 +185,6 @@
 &lt;blockquote>
 &lt;p>I recommend adding ModOrganizer.exe to your taskbar or creating a shortcut on your Desktop for easy access.&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="luts">LUTs&lt;/h2>
-&lt;p>An easy way to customise the overall tone of the game is by changing the color palettes - through LUTs. I have included three different options of which you can choose one or none. Take a look at the mod pages and their preview pictures.&lt;/p>
-&lt;p>You can change or disable LUTs at any time.&lt;/p>
-&lt;ul>
-&lt;li>Under the &lt;strong>LUT (OPTIONAL)&lt;/strong> separator in Mod Organizer 2, check your preferred option.&lt;/li>
-&lt;li>Check the pictures for &lt;a href="https://www.nexusmods.com/fallout4/mods/1016">Neutral Look Up Tables LUT&lt;/a>.&lt;/li>
-&lt;li>Check the pictures for &lt;a href="https://www.nexusmods.com/fallout4/mods/5060">Fallout 4 Enhanced Color Correction&lt;/a>.&lt;/li>
-&lt;/ul>
 &lt;h2 id="controller-fix">Controller Fix&lt;/h2>
 &lt;p>The resolution of the Pip-Boy interface was increased in the &lt;code>fallout4prefs.ini&lt;/code> file. Unfortunately this will cause the map cursor to lock in the upper left corner when playing with a controller.&lt;/p>
 &lt;p>If you play with a controller, follow these instructions to revert the INI tweak:&lt;/p>
@@ -214,29 +206,22 @@ uPipboyTargetWidth=876
 &lt;p>One of the Creation Engine&amp;rsquo;s drawbacks is the physics engine which is tied to the frame rate. Simply put, the game breaks if it runs at more than 60FPS. However, there is a mod that allows you to unlock the frame rate by dynamically adjusting havok settings at runtime, aptly called &lt;strong>High FPS Physics Fix&lt;/strong>.&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>FPS&lt;/strong> or frames per second are how the amount of still images shown every second are measured. The higher your FPS, the more fluid the game appears. The amount of frames per second that can be rendered depends on your hardware, primarily your CPU and GPU. In my opinion, a stable 60FPS is perfect for most games, including Fallout 4. Most systems should be able to achieve a consistent 60FPS in WTP.&lt;/li>
-&lt;li>&lt;strong>VSYNC&lt;/strong> is a technique that syncs a game&amp;rsquo;s framerate to your monitor&amp;rsquo;s refresh rate (hence the name). Enabling VSYNC prevents &lt;a href="https://en.wikipedia.org/wiki/Screen_tearing">screentearing&lt;/a> at the cost of latency and is always recommended. However, if your monitor supports G-Sync or FreeSync, you do not need to enable VSYNC by other means. G-Sync and FreeSync are advanced VSYNC methods applied globally to all fullscreen applications.&lt;/li>
+&lt;li>&lt;strong>VSYNC&lt;/strong> is a technique that syncs a game&amp;rsquo;s framerate to your monitor&amp;rsquo;s refresh rate (hence the name). It prevents &lt;a href="https://en.wikipedia.org/wiki/Screen_tearing">screentearing&lt;/a> at the cost of latency and is always recommended.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>&lt;strong>By default, WTP is capped to 60 FPS. VSYNC is disabled.&lt;/strong>&lt;/p>
+&lt;p>Welcome to Paradise caps the framerate at 60 and forces VSYNC through High FPS Physics Fix.&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="enable-vsync">Enable VSYNC&lt;/h3>
-&lt;p>Unless your monitor supports G-SYNC or FreeSync, I recommend enabling VSYNC in High FPS Physics Fix. To do so, follow these instructions:&lt;/p>
-&lt;ul>
-&lt;li>Double-click &lt;strong>High FPS Physics Fix&lt;/strong> in your mod order (left pane in Mod Organizer 2).&lt;/li>
-&lt;li>Switch to the &lt;strong>INI Files&lt;/strong> tab and select the &lt;strong>HighFPSPhysicsFix.ini&lt;/strong> file.&lt;/li>
-&lt;li>In &lt;strong>Line 14&lt;/strong>, set &lt;code>EnableVSync=&lt;/code> to &lt;strong>true&lt;/strong>.&lt;/li>
-&lt;li>Press &lt;strong>CTRL + S&lt;/strong> to save and close the window.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/installation/enable-vsync.png" alt="Enable VSYNC">&lt;/p>
-&lt;h3 id="fps-cap">FPS Cap&lt;/h3>
+&lt;h3 id="adjusting-the-fps-cap">Adjusting the FPS Cap&lt;/h3>
 &lt;p>If you are unhappy with the default cap at 60FPS, you can change it. To do so, follow these instructions:&lt;/p>
 &lt;ul>
-&lt;li>Double-click &lt;strong>High FPS Physics Fix&lt;/strong> in your mod order (left pane in Mod Organizer 2).&lt;/li>
-&lt;li>Switch to the &lt;strong>INI Files&lt;/strong> tab and select the &lt;strong>HighFPSPhysicsFix.ini&lt;/strong> file.&lt;/li>
-&lt;li>In &lt;strong>Line 55&lt;/strong>, change the value for &lt;code>InGameFPS=&lt;/code> to your desired FPS cap. Set to &lt;strong>0&lt;/strong> to uncap the frame rate.&lt;/li>
+&lt;li>In Mod Organizer 2, double-click the &lt;strong>ESSENTIALS&lt;/strong> separator at the top to expand it.&lt;/li>
+&lt;li>Doubl-click &lt;strong>High FPS Physics Fix - WTP Settings&lt;/strong> which contains a custom INI for High FPS Physics Fix.&lt;/li>
+&lt;li>Switch to the &lt;strong>INI Files&lt;/strong> tab and select the &lt;strong>HighFPSPhysicsFix_Custom.ini&lt;/strong> file.&lt;/li>
+&lt;li>In &lt;strong>Line 2&lt;/strong>, change the value for &lt;code>InGameFPS=&lt;/code> to your desired FPS cap. Set to &lt;strong>0.0&lt;/strong> to uncap the frame rate.&lt;/li>
 &lt;li>Press &lt;strong>CTRL + S&lt;/strong> to save and close the window.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/installation/change-fps-cap.png" alt="Change FPS Cap">&lt;/p>
+&lt;hr>
 &lt;h4 id="continue-with-the-new-gamewtpinstallationnew-game-page">Continue with the &lt;a href="https://thephoenixflavour.com/wtp/installation/new-game/">New Game&lt;/a> page.&lt;/h4></description></item><item><title>Wtp: New Game</title><link>https://thephoenixflavour.com/wtp/installation/new-game/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/installation/new-game/</guid><description>
 &lt;h2 id="launching-the-game">Launching the game&lt;/h2>
 &lt;p>In order to play TPF Fallout 4, you must launch &lt;strong>f4se_loader.exe&lt;/strong> through Mod Organizer 2. Otherwise your mods will not work. When you open Mod Organizer 2, F4SE (renamed to &lt;strong>Welcome to Paradise&lt;/strong> for your convenience) should be selected automatically in the executables drop-down and you can start the game by clicking &lt;strong>Run&lt;/strong>.&lt;/p>
@@ -244,9 +229,9 @@ uPipboyTargetWidth=876
 &lt;h2 id="starting-a-new-save">Starting a new save&lt;/h2>
 &lt;ul>
 &lt;li>In the main menu, click &lt;strong>NEW&lt;/strong> to start a your playthrough.&lt;/li>
-&lt;li>Press 10 to temporarily toggle off ENB. It may look strange during the intro video and prologue.&lt;/li>
+&lt;li>Press &lt;strong>F10&lt;/strong> to temporarily toggle off ENB. It may look strange during the intro video and prologue.&lt;/li>
 &lt;/ul>
-&lt;p>Shortly after the character creation, you will get a prompt which is added by the mod &lt;strong>Start Me Up&lt;/strong>. You will be asked whether you want to &amp;ldquo;relive the memory&amp;rdquo;, giving you the option to skip the prologue. Do not select this option if you never played Fallout 4 before, you are going to miss some important things.&lt;/p>
+&lt;p>Shortly after the character creation, you will get a prompt which is added by the mod &lt;strong>Start Me Up&lt;/strong>. You will be asked whether you want to &amp;ldquo;relive the memory&amp;rdquo;, giving you the option to skip the prologue. &lt;strong>Do not select this option if you never played Fallout 4 before&lt;/strong>, you are going to miss some important things.&lt;/p>
 &lt;p>If you want to play the regular Fallout 4 intro (highly recommended), click &amp;ldquo;This is a memory. Let&amp;rsquo;s stay here a while&amp;rdquo; and the prologue will play out as usual. Proceed to the &lt;a href="https://thephoenixflavour.com/wtp/mod-config/">Mod Configuration&lt;/a> page after exiting the vault.&lt;/p>
 &lt;h3 id="start-me-up">Start Me Up&lt;/h3>
 &lt;blockquote>
