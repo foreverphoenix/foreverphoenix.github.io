@@ -221,8 +221,20 @@ uPipboyTargetWidth=876
 &lt;li>Press &lt;strong>CTRL + S&lt;/strong> to save and close the window.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/installation/change-fps-cap.png" alt="Change FPS Cap">&lt;/p>
+&lt;h2 id="ultrawide-support">Ultrawide Support&lt;/h2>
+&lt;blockquote>
+&lt;p>Skip this page and continue with the &lt;a href="wtp/installation/new-game/">New Game&lt;/a> instructions if you have a 16:9 monitor.&lt;/p>
+&lt;/blockquote>
+&lt;p>Since release 2.2, WTP officially supports ultrawide monitors with a &lt;strong>21:9 ratio&lt;/strong>, i.e. resolutions of &lt;strong>2560x1080&lt;/strong> or &lt;strong>3440x1440&lt;/strong>. This requires a few minor changes in Mod Organizer 2 that you should go through before starting your playthrough.&lt;/p>
+&lt;h3 id="ini-changes">INI Changes&lt;/h3>
+&lt;p>Upon installing WTP, Wabbajack should automatically detect your monitor&amp;rsquo;s default resolution and configure Fallout4Prefs.ini accordingly. However, if you wish you can check this and make sure the correct resolution is set. To do so, open the &lt;strong>INI Editor&lt;/strong> in MO2, go to the &lt;strong>Fallout4Prefs.ini&lt;/strong> tab and scroll to the &lt;strong>[Display]&lt;/strong> section.&lt;/p>
+&lt;p>If the resolution is not correct, change it and click the &lt;strong>SAVE&lt;/strong> button at the bottom before closing the window.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/installation/change-resolution.png" alt="Change Resolution">&lt;/p>
+&lt;h3 id="additional-mods">Additional Mods&lt;/h3>
+&lt;p>In Mod Organizer 2, find the &lt;strong>ULTRAWIDE SUPPORT (21-9)&lt;/strong> separator in the left pane and double-click to expand it. There are three mods below it. Activate all three by checking the boxes. This will add an additional plugin to the load order which you do not need to adjust because it is empty and only exists to load an INI file.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/installation/ultrawide-mods.png" alt="Ultrawide Mods">&lt;/p>
 &lt;hr>
-&lt;h4 id="continue-with-the-new-gamewtpinstallationnew-game-page">Continue with the &lt;a href="https://thephoenixflavour.com/wtp/installation/new-game/">New Game&lt;/a> page.&lt;/h4></description></item><item><title>Wtp: New Game</title><link>https://thephoenixflavour.com/wtp/installation/new-game/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/installation/new-game/</guid><description>
+&lt;h4 id="continue-with-the-ultrawidewtpinstallationultrawide-page">Continue with the &lt;a href="https://thephoenixflavour.com/wtp/installation/ultrawide/">Ultrawide&lt;/a> page.&lt;/h4></description></item><item><title>Wtp: New Game</title><link>https://thephoenixflavour.com/wtp/installation/new-game/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/installation/new-game/</guid><description>
 &lt;h2 id="launching-the-game">Launching the game&lt;/h2>
 &lt;p>In order to play TPF Fallout 4, you must launch &lt;strong>f4se_loader.exe&lt;/strong> through Mod Organizer 2. Otherwise your mods will not work. When you open Mod Organizer 2, F4SE (renamed to &lt;strong>Welcome to Paradise&lt;/strong> for your convenience) should be selected automatically in the executables drop-down and you can start the game by clicking &lt;strong>Run&lt;/strong>.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/installation/run-f4se.png" alt="Start Game">&lt;/p>
