@@ -67,7 +67,7 @@
 &lt;p>Fallout 4 was never a particularly beautiful game, but it has solid graphics. Compared to older Fallout titles, it is a great deal more colourful and &amp;ldquo;cartoonish&amp;rdquo;, no green filter like in Fallout 3 and no distinct dusty hue like in Fallout New Vegas.&lt;/p>
 &lt;p>In my changes for WTP, I have decided to stay faithful to the vanilla colours and style, opting to focus largely on improving texture quality. Any more profound changes such as a tree overhaul would have susbstantially increased the list&amp;rsquo;s complexity due to FO4&amp;rsquo;s precombine system which is the only thing that keeps performance from turning into a slide show.&lt;/p>
 &lt;h3 id="weather--lighting">Weather &amp;amp; Lighting&lt;/h3>
-&lt;p>Welcome to Paradise does not feature a fully-fledged weather overhaul, but it does include &lt;a href="https://www.nexusmods.com/fallout4/mods/31991">Clarity - A Visual Overhaul&lt;/a> which improves various visual effects to be much more pleasing. Combined with the lightweight &lt;a href="https://www.nexusmods.com/fallout4/mods/55662">FallOpt ENB&lt;/a> preset, it constitutes a solid upgrade over vanilla without changing the original style.&lt;/p>
+&lt;p>Welcome to Paradise includes &lt;a href="https://www.nexusmods.com/fallout4/mods/57680">Lightweight Lighting - A Weather and Interior Lighting Overhaul&lt;/a> which subtly improves lighting while retaining the original colour palette. Combined with the lightweight &lt;a href="https://www.nexusmods.com/fallout4/mods/58028">Spectrum ENB&lt;/a> preset, it constitutes a solid upgrade over vanilla without changing the original style.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/wtp-day.jpg" alt="WTP Day">&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/wtp-dusk.jpg" alt="WTP Dusk">&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/wtp-night.jpg" alt="WTP Night">&lt;/p>
@@ -382,11 +382,7 @@
 &lt;blockquote>
 &lt;p>The music mods&amp;rsquo; individual plugins were replaced by a patched and merged one.&lt;/p>
 &lt;/blockquote>
-&lt;p>The following mods expand the Diamond City radio tracklist:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/5467">Elvani&amp;rsquo;s Track Pack for Diamond City Radio&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/637">More Where That Came From - Diamond City Radio Edition&lt;/a>&lt;/li>
-&lt;/ul>
+&lt;p>&lt;a href="https://www.nexusmods.com/fallout4/mods/56898">Diamond City Radio Extended&lt;/a> adds over 140 new songs to the radio&amp;rsquo;s catalogue.&lt;/p>
 &lt;h3 id="pip-boy-color-variations">Pip-Boy Color Variations&lt;/h3>
 &lt;p>&lt;a href="https://www.nexusmods.com/fallout4/mods/47858">Pip Boy Retextured&lt;/a> adds eight new colour variations (paint jobs) for the Pip Boy like the Creation ones but for free. You can change your Pip Boy&amp;rsquo;s paint job whenever you like at any Armor Workbench.&lt;/p>
 &lt;h3 id="k-9-harness">K-9 Harness&lt;/h3>
@@ -417,6 +413,7 @@
 &lt;/ul>
 &lt;h3 id="k-9-harness-1">K-9 Harness&lt;/h3>
 &lt;p>Can be found at the &lt;a href="https://fallout.fandom.com/wiki/Malden_police_station">Malden police station&lt;/a>, upstairs.&lt;/p></description></item><item><title>Wtp: MCM Settings</title><link>https://thephoenixflavour.com/wtp/documentation/mcm-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/documentation/mcm-settings/</guid><description>
+&lt;p>&lt;strong>The MCM settings below are applied by the WTP MCM preset.&lt;/strong> They are documented here purely for my benefit and for curious users. You do not have to apply them yourself.&lt;/p>
 &lt;h2 id="baka-wait-anywhere">Baka Wait Anywhere&lt;/h2>
 &lt;ul>
 &lt;li>While Being Irradiated: &lt;strong>ON&lt;/strong>&lt;/li>
