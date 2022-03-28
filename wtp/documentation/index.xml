@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Documentation</title><link>https://thephoenixflavour.com/wtp/documentation/</link><description>Recent content in Documentation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/wtp/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Wtp: Game Folder Files</title><link>https://thephoenixflavour.com/wtp/documentation/game-folder-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/documentation/game-folder-files/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Documentation</title><link>https://thephoenixflavour.com/wtp/documentation/</link><description>Recent content in Documentation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/wtp/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Wtp: GFF &amp; INI Settings</title><link>https://thephoenixflavour.com/wtp/documentation/game-folder-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/documentation/game-folder-files/</guid><description>
 &lt;p>While regular mods for Bethesda games are installed into the &lt;strong>data&lt;/strong> folder, there are some additional tools that belong into the &lt;strong>root&lt;/strong> folder. These are not automatically moved by Wabbajack. Instructions for them are included in the &lt;strong>Installation&lt;/strong> setup, this page merely serves as an overview over the files in question and their purpose.&lt;/p>
 &lt;blockquote>
 &lt;p>WTP does not use the Stock Game Folder system and likely never will.&lt;/p>
@@ -37,7 +37,32 @@
 &lt;ul>
 &lt;li>&lt;code>\enbseries\&lt;/code>&lt;/li>
 &lt;li>&lt;code>enbseries.ini&lt;/code>&lt;/li>
-&lt;/ul></description></item><item><title>Wtp: Creation Club</title><link>https://thephoenixflavour.com/wtp/documentation/creation-club/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/documentation/creation-club/</guid><description>
+&lt;/ul>
+&lt;h2 id="ini-edits">INI Edits&lt;/h2>
+&lt;p>Based on the BethINI &lt;strong>High&lt;/strong> preset.&lt;/p>
+&lt;h3 id="fallout4ini">Fallout4.ini&lt;/h3>
+&lt;pre>&lt;code>[Display]
+fPipboyScreenEmitIntensityPA=1.25
+fPipboyScreenDiffuseIntensityPA=0.15
+[Pipboy]
+bPipboyDisableFX=1
+bPipboyEffectColorOnLight=0
+fPAEffectColorB=0.392
+fPAEffectColorG=0.722
+fPAEffectColorR=0.376
+&lt;/code>&lt;/pre>&lt;h3 id="fallout4prefsini">Fallout4Prefs.ini&lt;/h3>
+&lt;pre>&lt;code>[Display]
+uPipboyTargetHeight=1400
+uPipboyTargetWidth=1752
+[Interface]
+iHUDColorB=100
+iHUDColorG=184
+iHUDColorR=96
+[Pipboy]
+fPipboyEffectColorB=0.3920
+fPipboyEffectColorG=0.7220
+fPipboyEffectColorR=0.3760
+&lt;/code>&lt;/pre></description></item><item><title>Wtp: Creation Club</title><link>https://thephoenixflavour.com/wtp/documentation/creation-club/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/documentation/creation-club/</guid><description>
 &lt;h2 id="preface">Preface&lt;/h2>
 &lt;p>I am not a fan of the Creation Club, whether you want to call it paid mods or microtransactions. That being said, some of my favourite modders have worked on &amp;ldquo;creations&amp;rdquo; and there are a few I really want to play with.&lt;/p>
 &lt;p>&lt;strong>Creations are optional.&lt;/strong> WTP will never require you to spend extra money on mini DLC.&lt;/p>
@@ -417,8 +442,11 @@
 &lt;h2 id="baka-wait-anywhere">Baka Wait Anywhere&lt;/h2>
 &lt;ul>
 &lt;li>While Being Irradiated: &lt;strong>ON&lt;/strong>&lt;/li>
-&lt;li>Wait Hotkey: &lt;strong>T&lt;/strong>&lt;/li>
+&lt;li>Wait Hotkey: &lt;strong>CTRL + T&lt;/strong>&lt;/li>
 &lt;/ul>
+&lt;blockquote>
+&lt;p>I did not use just T as the hotkey as that would bring up the Wait menu while renaming weapons, etc, at workbenches.&lt;/p>
+&lt;/blockquote>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/baka-wait-anywhere-mcm.jpg" alt="Baka Wait Anywhere MCM">&lt;/p>
 &lt;h2 id="configurable-hotkeys">Configurable Hotkeys&lt;/h2>
 &lt;ul>
@@ -446,6 +474,15 @@
 &lt;li>Hide &amp;ldquo;Hold [V] to open the Workshop menu&amp;rdquo;: &lt;strong>ON&lt;/strong>&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-hud-mcm.jpg" alt="FallUI HUD MCM">&lt;/p>
+&lt;h2 id="fallui-map">FallUI Map&lt;/h2>
+&lt;ul>
+&lt;li>Max zoom out &lt;strong>0.3&lt;/strong>&lt;/li>
+&lt;li>Map marker scale &lt;strong>125&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>These are the recommended settings for 4K map textures which WTP has.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-map-mcm.jpg" alt="FallUI Map MCM">&lt;/p>
 &lt;h2 id="fallui-workbench">FallUI Workbench&lt;/h2>
 &lt;ul>
 &lt;li>Auto-craft items without cost: &lt;strong>OFF&lt;/strong>&lt;/li>
