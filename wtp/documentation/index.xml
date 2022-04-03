@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Documentation</title><link>https://thephoenixflavour.com/wtp/documentation/</link><description>Recent content in Documentation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/wtp/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Wtp: GFF &amp; INI Settings</title><link>https://thephoenixflavour.com/wtp/documentation/game-folder-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/documentation/game-folder-files/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Documentation</title><link>https://thephoenixflavour.com/wtp/documentation/</link><description>Recent content in Documentation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/wtp/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Wtp: Game Folder Files</title><link>https://thephoenixflavour.com/wtp/documentation/game-folder-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/documentation/game-folder-files/</guid><description>
 &lt;p>While regular mods for Bethesda games are installed into the &lt;strong>data&lt;/strong> folder, there are some additional tools that belong into the &lt;strong>root&lt;/strong> folder. These are not automatically moved by Wabbajack. Instructions for them are included in the &lt;strong>Installation&lt;/strong> setup, this page merely serves as an overview over the files in question and their purpose.&lt;/p>
 &lt;blockquote>
 &lt;p>WTP does not use the Stock Game Folder system and likely never will.&lt;/p>
@@ -37,9 +37,16 @@
 &lt;ul>
 &lt;li>&lt;code>\enbseries\&lt;/code>&lt;/li>
 &lt;li>&lt;code>enbseries.ini&lt;/code>&lt;/li>
+&lt;/ul></description></item><item><title>Wtp: INI Files</title><link>https://thephoenixflavour.com/wtp/documentation/ini-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/documentation/ini-settings/</guid><description>
+&lt;h2 id="ini-settings">INI Settings&lt;/h2>
+&lt;p>As usual, I have used &lt;a href="https://www.nexusmods.com/fallout4/mods/67">BethINI&lt;/a> to generate the INI files before adding some manual tweaks. The default INI set is based on the &lt;strong>High&lt;/strong> preset while the performance INI set uses the &lt;strong>Medium&lt;/strong> one.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>VSYNC&lt;/strong> is always turned off, it is forced through High FPS Physics Fix&lt;/li>
+&lt;li>&lt;strong>Ambient occlusion&lt;/strong> is always turned off, we are using ENB AO instead&lt;/li>
+&lt;li>&lt;strong>TAA&lt;/strong> is used for anti aliasing (as opposed to FXAA)&lt;/li>
+&lt;li>&lt;strong>Godrays&lt;/strong> are disabled in the performance INIs only&lt;/li>
 &lt;/ul>
-&lt;h2 id="ini-edits">INI Edits&lt;/h2>
-&lt;p>Based on the BethINI &lt;strong>High&lt;/strong> preset.&lt;/p>
+&lt;h2 id="additional-tweaks">Additional Tweaks&lt;/h2>
 &lt;h3 id="fallout4ini">Fallout4.ini&lt;/h3>
 &lt;pre>&lt;code>[Display]
 fPipboyScreenEmitIntensityPA=1.25
@@ -62,32 +69,111 @@ iHUDColorR=96
 fPipboyEffectColorB=0.3920
 fPipboyEffectColorG=0.7220
 fPipboyEffectColorR=0.3760
-&lt;/code>&lt;/pre></description></item><item><title>Wtp: Creation Club</title><link>https://thephoenixflavour.com/wtp/documentation/creation-club/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/documentation/creation-club/</guid><description>
-&lt;h2 id="preface">Preface&lt;/h2>
-&lt;p>I am not a fan of the Creation Club, whether you want to call it paid mods or microtransactions. That being said, some of my favourite modders have worked on &amp;ldquo;creations&amp;rdquo; and there are a few I really want to play with.&lt;/p>
-&lt;p>&lt;strong>Creations are optional.&lt;/strong> WTP will never require you to spend extra money on mini DLC.&lt;/p>
-&lt;h2 id="supported-creations">Supported Creations&lt;/h2>
-&lt;p>The list is relatively short so far and while I intend to expand it in the future, I am not willing to take requests. These creations are rather pricey and I&amp;rsquo;m mostly interested in supporting those that I snatched for free anyway.&lt;/p>
-&lt;h3 id="modular-military-backpack">Modular Military Backpack&lt;/h3>
-&lt;p>The highly customisable Modular Military Backpack was created by fadingsignal (the only reason I spent money on it) and it&amp;rsquo;s the perfect companion to the K-9 Harness (also by fadingsignal). I removed the levelled list distribution so there is only a single backpack in the world which you will come across very early on in the game in Vault 111.&lt;/p>
-&lt;p>Note that because you are able to pick it up before you&amp;rsquo;ve even stepped foot in the wasteland, the backpack will invariably hurt overall balancing by awarding generous amounts of extra carry weight and other buffs. I personally don&amp;rsquo;t mind that.&lt;/p>
-&lt;p>&lt;strong>The &amp;ldquo;creation&amp;rdquo; is contained in the following files:&lt;/strong>&lt;/p>
+&lt;/code>&lt;/pre></description></item><item><title>Wtp: MCM Settings</title><link>https://thephoenixflavour.com/wtp/documentation/mcm-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/documentation/mcm-settings/</guid><description>
+&lt;p>&lt;strong>The MCM settings below are applied by the WTP MCM preset.&lt;/strong> They are documented here purely for my benefit and for curious users. You do not have to apply them yourself.&lt;/p>
+&lt;h2 id="baka-wait-anywhere">Baka Wait Anywhere&lt;/h2>
 &lt;ul>
-&lt;li>&lt;code>ccfsvfo4001-ModularMilitaryBackpack.esl&lt;/code>&lt;/li>
-&lt;li>&lt;code>ccFSVFO4001-ModularMilitaryBackpack - Main.ba2&lt;/code>&lt;/li>
-&lt;li>&lt;code>ccFSVFO4001-ModularMilitaryBackpack - Textures.ba2&lt;/code>&lt;/li>
+&lt;li>While Being Irradiated: &lt;strong>ON&lt;/strong>&lt;/li>
+&lt;li>Wait Hotkey: &lt;strong>CTRL + T&lt;/strong>&lt;/li>
 &lt;/ul>
-&lt;h2 id="installation">Installation&lt;/h2>
-&lt;p>We previously moved all &amp;ldquo;creations&amp;rdquo; (ESL+BA2 combinations) to &lt;code>\Your Modding Folder\Backups\Creation Club\&lt;/code>. I recommend selectively installing the &amp;ldquo;creations&amp;rdquo; supported by WTP (only the Backpack currently) as mods through Mod Organizer 2.&lt;/p>
+&lt;blockquote>
+&lt;p>I did not use just T as the hotkey as that would bring up the Wait menu while renaming weapons, etc, at workbenches.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/baka-wait-anywhere-mcm.jpg" alt="Baka Wait Anywhere MCM">&lt;/p>
+&lt;h2 id="configurable-hotkeys">Configurable Hotkeys&lt;/h2>
 &lt;ul>
-&lt;li>To do so, navigate to the mods folder within your Mod Organizer 2 instance: &lt;code>\Welcome To Paradise\mods\&lt;/code>.&lt;/li>
-&lt;li>Create a new folder there. Name it appropriately, e.g. &amp;ldquo;Creation Club - Modular Military Backpack&amp;rdquo;.&lt;/li>
-&lt;li>Copy the files (an ESL and one or two BA2s) into the new folder.&lt;/li>
-&lt;li>Back in Mod Organizer 2, press &lt;strong>F5&lt;/strong> to refresh.&lt;/li>
-&lt;li>The new mod will appear at the bottom of your mod order (left pane).&lt;/li>
-&lt;li>Drag it up below the &lt;strong>NEW CONTENT&lt;/strong> separator and activate it.&lt;/li>
-&lt;li>Also activate any patches available for that creation under the same separator.&lt;/li>
-&lt;/ul></description></item><item><title>Wtp: WTP Visuals</title><link>https://thephoenixflavour.com/wtp/documentation/wtp-visuals/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/documentation/wtp-visuals/</guid><description>
+&lt;li>Use Stimpak: &lt;strong>CTRL + G&lt;/strong>&lt;/li>
+&lt;li>Toggle Radio: &lt;strong>CTRL + B&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Please note that any hotkeys bound through this mod are not blacklisted in menus and will fire when renaming a weapon in the workbench for instance. Thus, it is necessary to use keys that are not letters or combinations of multiple keys. Also be aware that Toggle Workshop and Show Wait Menu are not bound because hotkeys for them are covered by other mods.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/configurable-hotkeys-mcm.jpg" alt="Configurable Hotkeys MCM">&lt;/p>
+&lt;h2 id="fallui-inventory">FallUI Inventory&lt;/h2>
+&lt;ul>
+&lt;li>Coloring was set to &lt;strong>Green light&lt;/strong> for all menus&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-inventory-mcm.jpg" alt="FallUI Inventory MCM">&lt;/p>
+&lt;h2 id="fallui-confirm-boxes">FallUI Confirm Boxes&lt;/h2>
+&lt;ul>
+&lt;li>All boxes were set to &lt;strong>96, 184, 100&lt;/strong> (same as FallUI Inventory green light color)&lt;/li>
+&lt;li>All boxes except for the Create Robot one were set to the standard design&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-confirm-boxes-mcm.jpg" alt="FallUI Confirm Boxes MCM">&lt;/p>
+&lt;h2 id="fallui-hud">FallUI HUD&lt;/h2>
+&lt;ul>
+&lt;li>Max visible messages: &lt;strong>5&lt;/strong>&lt;/li>
+&lt;li>Hide &amp;ldquo;Hold [V] to open the Workshop menu&amp;rdquo;: &lt;strong>ON&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-hud-mcm.jpg" alt="FallUI HUD MCM">&lt;/p>
+&lt;h2 id="fallui-map">FallUI Map&lt;/h2>
+&lt;ul>
+&lt;li>Max zoom out &lt;strong>0.3&lt;/strong>&lt;/li>
+&lt;li>Map marker scale &lt;strong>125&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>These are the recommended settings for 4K map textures which WTP has.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-map-mcm.jpg" alt="FallUI Map MCM">&lt;/p>
+&lt;h2 id="fallui-workbench">FallUI Workbench&lt;/h2>
+&lt;ul>
+&lt;li>Auto-craft items without cost: &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;li>Brightness unavailable item: &lt;strong>25&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-workbench-mcm.jpg" alt="FallUI HUD MCM">&lt;/p>
+&lt;h2 id="faster-workshop">Faster Workshop&lt;/h2>
+&lt;p>This mod is only included for its hotkey feature as Buffout already improves the workshop loading speed.&lt;/p>
+&lt;ul>
+&lt;li>Start Workshop Mode: &lt;strong>Y&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/faster-workshop-mcm.jpg" alt="Faster Workshop MCM">&lt;/p>
+&lt;h2 id="holotime">HoloTime&lt;/h2>
+&lt;p>HoloTime is &lt;em>disabled&lt;/em> by default and needs to be turned on first.&lt;/p>
+&lt;ul>
+&lt;li>Downscaled to size .7 and relocated to the top right where it won&amp;rsquo;t clash with notifications boxes&lt;/li>
+&lt;li>Toggle HoloTime Display to &lt;strong>H&lt;/strong> (HUD needs to be enabled)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/holotime-mcm.jpg" alt="HoloTime MCM">&lt;/p>
+&lt;h2 id="immersive-hud">Immersive HUD&lt;/h2>
+&lt;p>Immersive HUD is &lt;em>disabled&lt;/em> by default and needs to be turned on first.&lt;/p>
+&lt;ul>
+&lt;li>Main Settings: &lt;strong>Immersive HUD Enabled&lt;/strong>&lt;/li>
+&lt;li>Settings Holotape &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;li>AID Toggle Items &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;li>Hotkey to Toggle HUD: &lt;strong>V&lt;/strong>&lt;/li>
+&lt;li>Crosshair - Hit Marker: &lt;strong>Always&lt;/strong>&lt;/li>
+&lt;li>Compass - Combat: &lt;strong>ON&lt;/strong>&lt;/li>
+&lt;li>Compass - Aiming: &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;li>Power Armor HUD: &lt;strong>Always On&lt;/strong>&lt;/li>
+&lt;li>Stealth Indicator: &lt;strong>Always On&lt;/strong>&lt;/li>
+&lt;li>Enemy Health: &lt;strong>Always On&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/immersive-hud-mcm.jpg" alt="Immersive HUD MCM">&lt;/p>
+&lt;h2 id="photo-mode">Photo Mode&lt;/h2>
+&lt;ul>
+&lt;li>Photo Mode Menu Position: &lt;strong>4&lt;/strong>&lt;/li>
+&lt;li>Start Photo Mode: &lt;strong>P&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/photo-mode-mcm.jpg" alt="Photo Mode MCM">&lt;/p>
+&lt;h2 id="workshop-framework">Workshop Framework&lt;/h2>
+&lt;p>As the hint in the MCM suggests, the vanilla Shelter mechanic (where settlers&amp;rsquo; happiness is reduced if the game cannot detect a roof over their bed) is buggy. I prefer disabling it altogether:&lt;/p>
+&lt;ul>
+&lt;li>Shelter Mechanic: &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Just build your settlers&amp;rsquo; beds somewhere below a roof to protect your immersion and ignore this buggy mechanic.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/workshop-framework-mcm-1.jpg" alt="Workshop Framework MCM 1">&lt;/p>
+&lt;p>Workshop Framework has a neat feature that automatically closes doors after a few seconds. Settlers are unfortunately able to open them, but will never close them again so you usually have all doors in your settlement standing wide open. Having them close automatically finally fixes that.&lt;/p>
+&lt;ul>
+&lt;li>Door Management: &lt;strong>ON&lt;/strong>&lt;/li>
+&lt;li>Auto-Close Delay: &lt;strong>10&lt;/strong> (seconds)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/workshop-framework-mcm-2.jpg" alt="Workshop Framework MCM 2">&lt;/p>
+&lt;p>Finally, I highly recommend disabling the Manage Workbench prompt:&lt;/p>
+&lt;ul>
+&lt;li>Manage Workbench &lt;strong>OFF&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>The Manage menu accessible at workbenches is only for scrapping stuff placed by the player and the WF layouts feature. Since TPF Fallout 4 doesn&amp;rsquo;t currently include additional layouts, I would rather people disabled this entirely to prevent confusion. If you are interested in WF layouts, re-enable the Manage Workbench option and watch kinggath&amp;rsquo;s tutorials on &lt;a href="https://www.youtube.com/watch?v=N3MGiari9xc&amp;amp;feature=emb_logo">importing&lt;/a> and &lt;a href="https://www.youtube.com/watch?v=9OVzgFzjnRw&amp;amp;feature=emb_logo">exporting&lt;/a> them. Obviously, downloading and installing layouts counts as adding mods and voids your right to get support for WTP.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/workshop-framework-mcm-3.jpg" alt="Workshop Framework MCM 3">&lt;/p></description></item><item><title>Wtp: WTP Visuals</title><link>https://thephoenixflavour.com/wtp/documentation/wtp-visuals/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/documentation/wtp-visuals/</guid><description>
 &lt;h2 id="visual-changes">Visual Changes&lt;/h2>
 &lt;p>Fallout 4 was never a particularly beautiful game, but it has solid graphics. Compared to older Fallout titles, it is a great deal more colourful and &amp;ldquo;cartoonish&amp;rdquo;, no green filter like in Fallout 3 and no distinct dusty hue like in Fallout New Vegas.&lt;/p>
 &lt;p>In my changes for WTP, I have decided to stay faithful to the vanilla colours and style, opting to focus largely on improving texture quality. Any more profound changes such as a tree overhaul would have susbstantially increased the list&amp;rsquo;s complexity due to FO4&amp;rsquo;s precombine system which is the only thing that keeps performance from turning into a slide show.&lt;/p>
@@ -437,108 +523,29 @@ fPipboyEffectColorR=0.3760
 &lt;li>&lt;a href="https://fallout.fandom.com/wiki/Charlestown_laundry">Charlestown Laundry&lt;/a>: Abraxo paint job (T-51)&lt;/li>
 &lt;/ul>
 &lt;h3 id="k-9-harness-1">K-9 Harness&lt;/h3>
-&lt;p>Can be found at the &lt;a href="https://fallout.fandom.com/wiki/Malden_police_station">Malden police station&lt;/a>, upstairs.&lt;/p></description></item><item><title>Wtp: MCM Settings</title><link>https://thephoenixflavour.com/wtp/documentation/mcm-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/documentation/mcm-settings/</guid><description>
-&lt;p>&lt;strong>The MCM settings below are applied by the WTP MCM preset.&lt;/strong> They are documented here purely for my benefit and for curious users. You do not have to apply them yourself.&lt;/p>
-&lt;h2 id="baka-wait-anywhere">Baka Wait Anywhere&lt;/h2>
+&lt;p>Can be found at the &lt;a href="https://fallout.fandom.com/wiki/Malden_police_station">Malden police station&lt;/a>, upstairs.&lt;/p></description></item><item><title>Wtp: Creation Club</title><link>https://thephoenixflavour.com/wtp/documentation/creation-club/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/wtp/documentation/creation-club/</guid><description>
+&lt;h2 id="preface">Preface&lt;/h2>
+&lt;p>I am not a fan of the Creation Club, whether you want to call it paid mods or microtransactions. That being said, some of my favourite modders have worked on &amp;ldquo;creations&amp;rdquo; and there are a few I really want to play with.&lt;/p>
+&lt;p>&lt;strong>Creations are optional.&lt;/strong> WTP will never require you to spend extra money on mini DLC.&lt;/p>
+&lt;h2 id="supported-creations">Supported Creations&lt;/h2>
+&lt;p>The list is relatively short so far and while I intend to expand it in the future, I am not willing to take requests. These creations are rather pricey and I&amp;rsquo;m mostly interested in supporting those that I snatched for free anyway.&lt;/p>
+&lt;h3 id="modular-military-backpack">Modular Military Backpack&lt;/h3>
+&lt;p>The highly customisable Modular Military Backpack was created by fadingsignal (the only reason I spent money on it) and it&amp;rsquo;s the perfect companion to the K-9 Harness (also by fadingsignal). I removed the levelled list distribution so there is only a single backpack in the world which you will come across very early on in the game in Vault 111.&lt;/p>
+&lt;p>Note that because you are able to pick it up before you&amp;rsquo;ve even stepped foot in the wasteland, the backpack will invariably hurt overall balancing by awarding generous amounts of extra carry weight and other buffs. I personally don&amp;rsquo;t mind that.&lt;/p>
+&lt;p>&lt;strong>The &amp;ldquo;creation&amp;rdquo; is contained in the following files:&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>While Being Irradiated: &lt;strong>ON&lt;/strong>&lt;/li>
-&lt;li>Wait Hotkey: &lt;strong>CTRL + T&lt;/strong>&lt;/li>
+&lt;li>&lt;code>ccfsvfo4001-ModularMilitaryBackpack.esl&lt;/code>&lt;/li>
+&lt;li>&lt;code>ccFSVFO4001-ModularMilitaryBackpack - Main.ba2&lt;/code>&lt;/li>
+&lt;li>&lt;code>ccFSVFO4001-ModularMilitaryBackpack - Textures.ba2&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;blockquote>
-&lt;p>I did not use just T as the hotkey as that would bring up the Wait menu while renaming weapons, etc, at workbenches.&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/baka-wait-anywhere-mcm.jpg" alt="Baka Wait Anywhere MCM">&lt;/p>
-&lt;h2 id="configurable-hotkeys">Configurable Hotkeys&lt;/h2>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>We previously moved all &amp;ldquo;creations&amp;rdquo; (ESL+BA2 combinations) to &lt;code>\Your Modding Folder\Backups\Creation Club\&lt;/code>. I recommend selectively installing the &amp;ldquo;creations&amp;rdquo; supported by WTP (only the Backpack currently) as mods through Mod Organizer 2.&lt;/p>
 &lt;ul>
-&lt;li>Use Stimpak: &lt;strong>CTRL + G&lt;/strong>&lt;/li>
-&lt;li>Toggle Radio: &lt;strong>CTRL + B&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>Please note that any hotkeys bound through this mod are not blacklisted in menus and will fire when renaming a weapon in the workbench for instance. Thus, it is necessary to use keys that are not letters or combinations of multiple keys. Also be aware that Toggle Workshop and Show Wait Menu are not bound because hotkeys for them are covered by other mods.&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/configurable-hotkeys-mcm.jpg" alt="Configurable Hotkeys MCM">&lt;/p>
-&lt;h2 id="fallui-inventory">FallUI Inventory&lt;/h2>
-&lt;ul>
-&lt;li>Coloring was set to &lt;strong>Green light&lt;/strong> for all menus&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-inventory-mcm.jpg" alt="FallUI Inventory MCM">&lt;/p>
-&lt;h2 id="fallui-confirm-boxes">FallUI Confirm Boxes&lt;/h2>
-&lt;ul>
-&lt;li>All boxes were set to &lt;strong>96, 184, 100&lt;/strong> (same as FallUI Inventory green light color)&lt;/li>
-&lt;li>All boxes except for the Create Robot one were set to the standard design&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-confirm-boxes-mcm.jpg" alt="FallUI Confirm Boxes MCM">&lt;/p>
-&lt;h2 id="fallui-hud">FallUI HUD&lt;/h2>
-&lt;ul>
-&lt;li>Max visible messages: &lt;strong>5&lt;/strong>&lt;/li>
-&lt;li>Hide &amp;ldquo;Hold [V] to open the Workshop menu&amp;rdquo;: &lt;strong>ON&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-hud-mcm.jpg" alt="FallUI HUD MCM">&lt;/p>
-&lt;h2 id="fallui-map">FallUI Map&lt;/h2>
-&lt;ul>
-&lt;li>Max zoom out &lt;strong>0.3&lt;/strong>&lt;/li>
-&lt;li>Map marker scale &lt;strong>125&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>These are the recommended settings for 4K map textures which WTP has.&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-map-mcm.jpg" alt="FallUI Map MCM">&lt;/p>
-&lt;h2 id="fallui-workbench">FallUI Workbench&lt;/h2>
-&lt;ul>
-&lt;li>Auto-craft items without cost: &lt;strong>OFF&lt;/strong>&lt;/li>
-&lt;li>Brightness unavailable item: &lt;strong>25&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-workbench-mcm.jpg" alt="FallUI HUD MCM">&lt;/p>
-&lt;h2 id="faster-workshop">Faster Workshop&lt;/h2>
-&lt;p>This mod is only included for its hotkey feature as Buffout already improves the workshop loading speed.&lt;/p>
-&lt;ul>
-&lt;li>Start Workshop Mode: &lt;strong>Y&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/faster-workshop-mcm.jpg" alt="Faster Workshop MCM">&lt;/p>
-&lt;h2 id="holotime">HoloTime&lt;/h2>
-&lt;p>HoloTime is &lt;em>disabled&lt;/em> by default and needs to be turned on first.&lt;/p>
-&lt;ul>
-&lt;li>Downscaled to size .7 and relocated to the top right where it won&amp;rsquo;t clash with notifications boxes&lt;/li>
-&lt;li>Toggle HoloTime Display to &lt;strong>H&lt;/strong> (HUD needs to be enabled)&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/holotime-mcm.jpg" alt="HoloTime MCM">&lt;/p>
-&lt;h2 id="immersive-hud">Immersive HUD&lt;/h2>
-&lt;p>Immersive HUD is &lt;em>disabled&lt;/em> by default and needs to be turned on first.&lt;/p>
-&lt;ul>
-&lt;li>Main Settings: &lt;strong>Immersive HUD Enabled&lt;/strong>&lt;/li>
-&lt;li>Settings Holotape &lt;strong>OFF&lt;/strong>&lt;/li>
-&lt;li>AID Toggle Items &lt;strong>OFF&lt;/strong>&lt;/li>
-&lt;li>Hotkey to Toggle HUD: &lt;strong>V&lt;/strong>&lt;/li>
-&lt;li>Crosshair - Hit Marker: &lt;strong>Always&lt;/strong>&lt;/li>
-&lt;li>Compass - Combat: &lt;strong>ON&lt;/strong>&lt;/li>
-&lt;li>Compass - Aiming: &lt;strong>OFF&lt;/strong>&lt;/li>
-&lt;li>Power Armor HUD: &lt;strong>Always On&lt;/strong>&lt;/li>
-&lt;li>Stealth Indicator: &lt;strong>Always On&lt;/strong>&lt;/li>
-&lt;li>Enemy Health: &lt;strong>Always On&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/immersive-hud-mcm.jpg" alt="Immersive HUD MCM">&lt;/p>
-&lt;h2 id="photo-mode">Photo Mode&lt;/h2>
-&lt;ul>
-&lt;li>Photo Mode Menu Position: &lt;strong>4&lt;/strong>&lt;/li>
-&lt;li>Start Photo Mode: &lt;strong>P&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/photo-mode-mcm.jpg" alt="Photo Mode MCM">&lt;/p>
-&lt;h2 id="workshop-framework">Workshop Framework&lt;/h2>
-&lt;p>As the hint in the MCM suggests, the vanilla Shelter mechanic (where settlers&amp;rsquo; happiness is reduced if the game cannot detect a roof over their bed) is buggy. I prefer disabling it altogether:&lt;/p>
-&lt;ul>
-&lt;li>Shelter Mechanic: &lt;strong>OFF&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;p>Just build your settlers&amp;rsquo; beds somewhere below a roof to protect your immersion and ignore this buggy mechanic.&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/workshop-framework-mcm-1.jpg" alt="Workshop Framework MCM 1">&lt;/p>
-&lt;p>Workshop Framework has a neat feature that automatically closes doors after a few seconds. Settlers are unfortunately able to open them, but will never close them again so you usually have all doors in your settlement standing wide open. Having them close automatically finally fixes that.&lt;/p>
-&lt;ul>
-&lt;li>Door Management: &lt;strong>ON&lt;/strong>&lt;/li>
-&lt;li>Auto-Close Delay: &lt;strong>10&lt;/strong> (seconds)&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/workshop-framework-mcm-2.jpg" alt="Workshop Framework MCM 2">&lt;/p>
-&lt;p>Finally, I highly recommend disabling the Manage Workbench prompt:&lt;/p>
-&lt;ul>
-&lt;li>Manage Workbench &lt;strong>OFF&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;p>The Manage menu accessible at workbenches is only for scrapping stuff placed by the player and the WF layouts feature. Since TPF Fallout 4 doesn&amp;rsquo;t currently include additional layouts, I would rather people disabled this entirely to prevent confusion. If you are interested in WF layouts, re-enable the Manage Workbench option and watch kinggath&amp;rsquo;s tutorials on &lt;a href="https://www.youtube.com/watch?v=N3MGiari9xc&amp;amp;feature=emb_logo">importing&lt;/a> and &lt;a href="https://www.youtube.com/watch?v=9OVzgFzjnRw&amp;amp;feature=emb_logo">exporting&lt;/a> them. Obviously, downloading and installing layouts counts as adding mods and voids your right to get support for WTP.&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/workshop-framework-mcm-3.jpg" alt="Workshop Framework MCM 3">&lt;/p></description></item></channel></rss>
+&lt;li>To do so, navigate to the mods folder within your Mod Organizer 2 instance: &lt;code>\Welcome To Paradise\mods\&lt;/code>.&lt;/li>
+&lt;li>Create a new folder there. Name it appropriately, e.g. &amp;ldquo;Creation Club - Modular Military Backpack&amp;rdquo;.&lt;/li>
+&lt;li>Copy the files (an ESL and one or two BA2s) into the new folder.&lt;/li>
+&lt;li>Back in Mod Organizer 2, press &lt;strong>F5&lt;/strong> to refresh.&lt;/li>
+&lt;li>The new mod will appear at the bottom of your mod order (left pane).&lt;/li>
+&lt;li>Drag it up below the &lt;strong>NEW CONTENT&lt;/strong> separator and activate it.&lt;/li>
+&lt;li>Also activate any patches available for that creation under the same separator.&lt;/li>
+&lt;/ul></description></item></channel></rss>
