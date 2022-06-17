@@ -91,9 +91,14 @@ fPipboyEffectColorR=0.3760
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/configurable-hotkeys-mcm.jpg" alt="Configurable Hotkeys MCM">&lt;/p>
 &lt;h2 id="fallui-inventory">FallUI Inventory&lt;/h2>
 &lt;ul>
-&lt;li>Coloring was set to &lt;strong>Green light&lt;/strong> for all menus&lt;/li>
+&lt;li>Dual colors was set to &lt;strong>OK&lt;/strong> (with white as the primary color)&lt;/li>
+&lt;li>Secondary color was set to &lt;strong>Green light&lt;/strong> for all menus&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-inventory-mcm.jpg" alt="FallUI Inventory MCM">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-inventory-mcm-1.jpg" alt="FallUI Inventory MCM 1">&lt;/p>
+&lt;ul>
+&lt;li>Go back by Pipboy/cancel key (for submenus) was set to &lt;strong>ON&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-inventory-mcm-2.jpg" alt="FallUI Inventory MCM 2">&lt;/p>
 &lt;h2 id="fallui-confirm-boxes">FallUI Confirm Boxes&lt;/h2>
 &lt;ul>
 &lt;li>All boxes were set to &lt;strong>96, 184, 100&lt;/strong> (same as FallUI Inventory green light color)&lt;/li>
@@ -108,12 +113,10 @@ fPipboyEffectColorR=0.3760
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-hud-mcm.jpg" alt="FallUI HUD MCM">&lt;/p>
 &lt;h2 id="fallui-map">FallUI Map&lt;/h2>
 &lt;ul>
+&lt;li>Local map color &lt;strong>Green light&lt;/strong>&lt;/li>
 &lt;li>Max zoom out &lt;strong>0.3&lt;/strong>&lt;/li>
-&lt;li>Map marker scale &lt;strong>125&lt;/strong>&lt;/li>
+&lt;li>Map marker scale &lt;strong>130&lt;/strong>&lt;/li>
 &lt;/ul>
-&lt;blockquote>
-&lt;p>These are the recommended settings for 4K map textures which WTP has.&lt;/p>
-&lt;/blockquote>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/fallui-map-mcm.jpg" alt="FallUI Map MCM">&lt;/p>
 &lt;h2 id="fallui-workbench">FallUI Workbench&lt;/h2>
 &lt;ul>
