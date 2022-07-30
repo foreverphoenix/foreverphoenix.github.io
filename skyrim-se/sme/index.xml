@@ -1,0 +1,342 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Skyrim Modding Essentials</title><link>https://thephoenixflavour.com/skyrim-se/sme/</link><description>Recent content in Skyrim Modding Essentials on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/skyrim-se/sme/index.xml" rel="self" type="application/rss+xml"/><item><title>Skyrim-Se: Introduction</title><link>https://thephoenixflavour.com/skyrim-se/sme/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/introduction/</guid><description>
+&lt;p>&lt;strong>Skyrim Modding Essentials&lt;/strong> is a Wabbajack utility list for Skyrim Special Edition, intended to jumpstart a new mod setup with all the required tools and basic mods. As such, it is intended for &lt;em>experienced&lt;/em> modders and no support will be provided beyond the contents of the list itself.&lt;/p>
+&lt;p>The list was made for Skyrim SE 1.6.x, though the Anniversary Edition DLC is not required.&lt;/p>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;p>Check the complete mod list and load order on &lt;a href="https://loadorderlibrary.com/lists/skyrim-modding-essentials">Load Order Library&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>A lean, basic setup clocking in at around 3.8GB plus less than 1GB of downloads.&lt;/li>
+&lt;li>Latest stable version of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6194">Mod Organizer 2&lt;/a> installed with a separate copy of the vanilla game (Stock Game Folder).&lt;/li>
+&lt;li>A collection of handy Mod Organizer 2 plugins for various purposes, &lt;a href="https://thephoenixflavour.com/sme/documentation/#mo2-plugins">see the full list here&lt;/a>.&lt;/li>
+&lt;li>All modding tools you could possibly need are included and pre-configured, &lt;a href="https://thephoenixflavour.com/sme/documentation/#modding-tools">see the full list here&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://skse.silverlock.org/">Skyrim Script Extender&lt;/a> with a correctly configured SKSE.ini file and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32444">Address Library for SKSE Plugins&lt;/a>.&lt;/li>
+&lt;li>All the essentials, including but not limited to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/53000">MCM Helper&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12604">SkyUI&lt;/a>, and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34705">SSE Display Tweaks&lt;/a>.&lt;/li>
+&lt;li>Clean MO2 setup with documentation for all changes in the Notes and further documentation on the &lt;a href="https://thephoenixflavour.com/sme/documentation/">website&lt;/a>.&lt;/li>
+&lt;li>The foundational collections of tweaks and fixes: &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17230">SSE Engine Fixes&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/51073">po3&amp;rsquo;s Tweaks&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43532">Scrambled Bugs&lt;/a>.&lt;/li>
+&lt;li>Additional fixes that should be relevant for and compatible with any setup with &lt;a href="https://thephoenixflavour.com/sme/recommendations/">further recommendations&lt;/a>.&lt;/li>
+&lt;li>Optionally includes full widescreen support with all relevant patches.&lt;/li>
+&lt;li>Optionally includes ENB binaries, premade enblocal.ini, and supplementary mods.&lt;/li>
+&lt;/ul>
+&lt;p>SME uses the Stock Game folder system. That means the setup includes a unique copy of your vanilla game, ensuring the setup is completely standalone and whatever you keep in your default installation folder will not affect the setup at all. This is a lifesaver when you keep more than one instance of MO2. Setting up all tools for Stock Game folder can be a little annoying so you&amp;rsquo;re welcome, it&amp;rsquo;s all done for you.&lt;/p>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>Please refer to the &lt;a href="https://thephoenixflavour.com/sme/installation/">Installation&lt;/a> page.&lt;/p>
+&lt;h2 id="faq">FAQ&lt;/h2>
+&lt;p>&lt;strong>What about VSYNC?&lt;/strong>&lt;/p>
+&lt;p>VSYNC is forced through SSE Display Tweaks by default which is preferable to Skyrim&amp;rsquo;s native VSYNC, or ENB VSYNC. In other words, there is nothing you need to change.&lt;/p>
+&lt;p>&lt;strong>How do I enable widescreen support?&lt;/strong>&lt;/p>
+&lt;p>Check all the mods from the Widescreen Support section. The monitor resolution should be set correctly by default.&lt;/p>
+&lt;p>&lt;strong>Are any texture replacers included?&lt;/strong>&lt;/p>
+&lt;p>No, because I wanted to keep the list as lean as possible and because there is no point. For those who wish to have improved vanilla textures, just grab &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45306">Project Clarity&lt;/a>. Everyone else has their preferred texture packs, or they&amp;rsquo;re completely nuts and hand-pick everything (don&amp;rsquo;t look at me like that, I know I&amp;rsquo;m not the only one who does it). Similarly, there are no LODs. Do &amp;lsquo;em yourself, that&amp;rsquo;s what the list is for.&lt;/p>
+&lt;p>&lt;strong>Can I suggest a mod for inclusion?&lt;/strong>&lt;/p>
+&lt;p>Yes, you can! Please do so on our &lt;a href="https://discord.gg/xCPxJFbCTS">Discord Server&lt;/a> and be aware that the likelihood that I will say &amp;ldquo;no&amp;rdquo; is quite high. Because this list has to provide a good base for &lt;em>any&lt;/em> setup, the criteria for new additions are quite strict.&lt;/p>
+&lt;h4 id="why-isnt-x-mod-included">Why isn&amp;rsquo;t X mod included?&lt;/h4>
+&lt;p>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/13956">FileAccess Interface for Skyrim SE Scripts (FISSES)&lt;/a>: Not included because it tends to become unstable when it is used to load presets for multiple MCMs. Mod authors should use &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/53000">MCM Helper&lt;/a> to make saving MCM configurations easy and convenient.&lt;/p>
+&lt;p>The mesh fixes section is very incomplete, but I refrained from adding several mods because of how sensitive to conflicts they are. Figuring out your setup&amp;rsquo;s meshes is somewhat time-consuming and depends on whether you use split meshes to minimise flickering (grab &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/53957">Flickering Meshes Fix&lt;/a>) and whether you use parallax. Additionally, many mesh fix mods have a lot of overlap with other mods which at times include them, modified or as-is. Finally, mods like &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/53653">Fixed Mesh Lighting&lt;/a> (highly recommended) include many patches which, again, depend on your own setup. Completing this section is therefore up to you.&lt;/p>
+&lt;p>(To be expanded.)&lt;/p>
+&lt;h2 id="credits">Credits&lt;/h2>
+&lt;ul>
+&lt;li>Thanks to &lt;strong>Luca&lt;/strong> for the original SMEFT list and the cover image for SME!&lt;/li>
+&lt;li>Thanks to &lt;strong>Althro&lt;/strong> for &lt;a href="https://github.com/The-Animonculory/Modding-Resources">documenting the stock game setup&lt;/a> because my dumb ass can never remember it.&lt;/li>
+&lt;/ul></description></item><item><title>Skyrim-Se: Installation</title><link>https://thephoenixflavour.com/skyrim-se/sme/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/installation/</guid><description>
+&lt;h2 id="requirements">Requirements&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/">Skyrim Special Edition&lt;/a> on Steam.&lt;/li>
+&lt;li>&lt;a href="https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/">Skyrim Special Edition: Creation Kit&lt;/a> on Steam.&lt;/li>
+&lt;li>Latest version of Windows 10 (required by Wabbajack).&lt;/li>
+&lt;li>At least a free &lt;a href="https://www.nexusmods.com/">Nexus Mods&lt;/a> account, Premium is recommended.&lt;/li>
+&lt;li>Latest drivers for your GPU (&lt;a href="https://www.nvidia.com/Download/index.aspx">NVIDIA&lt;/a> or &lt;a href="https://www.amd.com/en/support">AMD&lt;/a>).&lt;/li>
+&lt;/ul>
+&lt;h3 id="disk-space">Disk Space&lt;/h3>
+&lt;p>By itself, &lt;strong>Skyrim Modding Essentials&lt;/strong> is tiny: The mods folder is about 2.5GB and the downloads folder smaller than a gigabyte. However, since the list uses the Stock Game folder system (a standalone copy of the base game), that will add another ~13GB to the final folder size.&lt;/p>
+&lt;p>However, you should keep in mind that a decently sized mod setup can easily exceed 50 or even 100GB in size. It is recommended to install any mod setup on an &lt;strong>SSD&lt;/strong> for improved performance and faster loading times.&lt;/p>
+&lt;h3 id="mo2-prerequisites">MO2 Prerequisites&lt;/h3>
+&lt;p>Mod Organizer 2 requires the Microsoft Visual C++ Redistributable and .NET Framework 4.8, two basic packages. Chances are you already have them installed, but please grab the two installers linked below and run them. If the packages are already present on your system, the installers should notify you.&lt;/p>
+&lt;ul>
+&lt;li>Download and install &lt;a href="https://aka.ms/vs/16/release/vc_redist.x64.exe">Visual C++ 2019&lt;/a>.&lt;/li>
+&lt;li>Download and install &lt;a href="https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer">.NET Framework 4.8&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>If either of them were missing on your system, they will be installed now. Afterwards, you may be required to restart your PC.&lt;/p>
+&lt;h2 id="skyrim-se-setup">Skyrim SE Setup&lt;/h2>
+&lt;p>&lt;strong>SME requires the latest version of Skyrim SE.&lt;/strong> For clarification, this latest version is a post-AE release (currently &lt;code>1.6.353.0&lt;/code>) and unrelated to the Anniversary Edition DLC which is NOT required. If you are on any older version of Skyrim SE, please verify files through Steam to install the update. You can check the version by right-clicking the &lt;strong>SkyrimSE.exe&lt;/strong> in your game folder and going to the &lt;strong>Details&lt;/strong> tab.&lt;/p>
+&lt;p>&lt;strong>Please make sure to launch the game at least once before running Wabbajack.&lt;/strong> If you just updated or (re)installed the game, this is necessary for setting up registry keys as modding tools will otherwise be unable to recognise the game. You can quit from the main menu.&lt;/p>
+&lt;h3 id="set-language-to-english">Set language to English&lt;/h3>
+&lt;p>&lt;strong>SME requires the English language version of Skyrim SE.&lt;/strong>&lt;/p>
+&lt;p>If you are currently playing in a language other than English, please go into the settings for Skyrim SE in your Steam library and revert the language to English. After changing the language, Steam should automatically download the required files (launch the game to force the download if it doesn&amp;rsquo;t).&lt;/p>
+&lt;p>After updating the game language, please launch the game once and quit from the main menu.&lt;/p>
+&lt;blockquote>
+&lt;p>This requirement is necessary for Wabbajack. You can change the language after install SME, but remember to also update your SME Game Root folder if you do.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="creation-kit">Creation Kit&lt;/h2>
+&lt;p>In order for Wabbajack to be able to incorporate the Creation Kit properly, you need to install it first through Steam.&lt;/p>
+&lt;ul>
+&lt;li>Find the &lt;a href="https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/">Creation Kit&lt;/a> Steam page (I recommend just using the search function in the Store).&lt;/li>
+&lt;li>Click install. The files will be placed into your default game folder.&lt;/li>
+&lt;/ul>
+&lt;h2 id="wabbajack-installation">Wabbajack Installation&lt;/h2>
+&lt;p>Next up you need to install the Wabbajack tool itself:&lt;/p>
+&lt;ul>
+&lt;li>Download &lt;a href="https://www.wabbajack.org/#/">Wabbajack&lt;/a> from the official website.&lt;/li>
+&lt;li>Extract the archive to a high-level folder, e.g. &lt;code>C:\Wabbajack\&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Do not install Wabbajack into UAC protected directories.&lt;/strong> These include Program Files and Program Files x86 as well as the Downloads, Desktop, Documents, etc, folders.&lt;/p>
+&lt;p>Double-click &lt;strong>Wabbajack.exe&lt;/strong> to launch to tool. It will automatically update itself to the latest version.&lt;/p>
+&lt;h3 id="skyrim-modding-essentials">Skyrim Modding Essentials&lt;/h3>
+&lt;p>You can now install SME through Wabbajack:&lt;/p>
+&lt;ul>
+&lt;li>Click the &lt;strong>Browse Modlists&lt;/strong> button in the Wabbajack tool.&lt;/li>
+&lt;li>Find &lt;strong>Skyrim Modding Essentials&lt;/strong> in the gallery of mod lists and click the arrow button to download the installation file.&lt;/li>
+&lt;/ul>
+&lt;p>In the installation window, you will need to define two folders:&lt;/p>
+&lt;p>&lt;strong>Installation Location&lt;/strong> is where LOTF will be installed to. Choose a high-level folder such as &lt;code>C:\Skyrim Modding Essentials\&lt;/code> that is outside UAC protected folders (Program Files, Documents, etc).&lt;/p>
+&lt;p>&lt;strong>Download Loaction&lt;/strong> is where the downloaded mod archives will be stored. By default, they will be placed within your main SME folder, but you can change the file path if you want to keep the files elsewhere.&lt;/p>
+&lt;p>Once both folder locations have been set, click the button on the right to begin the installation process.&lt;/p>
+&lt;h3 id="installation-process">Installation Process&lt;/h3>
+&lt;p>If you have &lt;strong>Nexus Premium&lt;/strong>, this is all you have to do. Lean back and relax while Wabbajack downloads and installs SME for you.&lt;/p>
+&lt;p>If you only have a free Nexus account, Wabbajack will open the mod pages for you and guide you through the process of downloading all files. Afterwards, it will proceed with the installation as usual.&lt;/p>
+&lt;p>You can follow along as Wabbajack installs the list. It will display previews with summaries and links to the mods being installed. Don&amp;rsquo;t let the log irritate you. Unless the installation is aborted completely, you don&amp;rsquo;t have to worry about any warnings.&lt;/p>
+&lt;p>&lt;strong>In case the installation does fail:&lt;/strong> Try restarting Wabbajack first. You will not lose progress as the tool will pick up where it left off. Should the installation fail again, please join us on &lt;a href="https://discord.gg/xCPxJFbCTS">Discord&lt;/a>, grab the &lt;code>@SME&lt;/code> role, and post your &lt;code>wabbajack.current.log&lt;/code> in the &lt;code>#sme-support&lt;/code> channel. You can find all Wabbajack logs in your Wabbajack installation folder under &lt;code>\Wabbajack\logs\&lt;/code>.&lt;/p>
+&lt;p>In most cases the installation should complete successfully on the first try. The tool will let you know when it has.&lt;/p>
+&lt;h2 id="tool-setup">Tool Setup&lt;/h2>
+&lt;p>Almost all tools included with SME are automatically configured for you. However, there are exceptions as some tools cannot be shipped with custom profiles so you will have to create them for yourself.&lt;/p>
+&lt;h3 id="loot">LOOT&lt;/h3>
+&lt;p>If you want to configure LOOT for SME, follow these steps:&lt;/p>
+&lt;ul>
+&lt;li>Run &lt;strong>LOOT&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;/ul>
+&lt;p>This should load your default game installation folder instead of your SME Game Root folder because it uses the registry path to find the game. Updating that for SME is possible, but also inconvenient because it breaks Creation Organizer and would force you to constantly update the path when switching between different mod setups. It is easier to just modify the LOOT settings.&lt;/p>
+&lt;ul>
+&lt;li>Open the &lt;strong>Settings&lt;/strong> in LOOT.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sme/open-loot-settings.png" alt="Open LOOT Settings">&lt;/p>
+&lt;ul>
+&lt;li>Go to the &lt;strong>TES V: Skyrim Special Edition&lt;/strong> settings.&lt;/li>
+&lt;li>Change &lt;strong>Install Path&lt;/strong> to your SME Game Root folder.&lt;/li>
+&lt;li>Click &lt;strong>Apply&lt;/strong> and restart LOOT.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sme/loot-update-path.png" alt="LOOT Update Path">&lt;/p>
+&lt;p>This will update the game path for SME only thanks to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/60864">LOOT Config Loader for Mod Organizer&lt;/a> which created a separate &lt;code>settings.toml&lt;/code> for SME under &lt;code>\Mod Organizer 2\Loot Config Files\&lt;/code>. Any global instance of LOOT or installations in different mod setups will be unaffected.&lt;/p>
+&lt;h3 id="zedit">zEdit&lt;/h3>
+&lt;p>If you want to configure zEdit for SME, follow these steps:&lt;/p>
+&lt;ul>
+&lt;li>Run &lt;strong>zEdit&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Click the gears icon to open the settings.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sme/zedit-profiles-settings.png" alt="zEdit Profiles Settings">&lt;/p>
+&lt;ul>
+&lt;li>Create a new profile with &lt;strong>Skyrim SE&lt;/strong> as the game.&lt;/li>
+&lt;li>Point &lt;strong>Path&lt;/strong> at the &lt;strong>Game Root&lt;/strong> folder within your SME installation.&lt;/li>
+&lt;li>Make sure this profile is selected when using any zEdit module with SME.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sme/zedit-sme-profile.png" alt="zEdit Profiles Settings">&lt;/p></description></item><item><title>Skyrim-Se: Documentation</title><link>https://thephoenixflavour.com/skyrim-se/sme/documentation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/documentation/</guid><description>
+&lt;h2 id="creation-club">Creation Club&lt;/h2>
+&lt;p>&lt;strong>SSE Modding Essentials&lt;/strong> does not require the full AE DLC, but it does include the four free Creations (Fishing, Survival, Rare Curios, Saints &amp;amp; Seducers) because they are required dependencies for the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/266">Unofficial Skyrim Special Edition Patch&lt;/a>. They are located inside the &amp;ldquo;Creation Club Content&amp;rdquo; folder at the top of your mod order.&lt;/p>
+&lt;h3 id="creation-organizer">Creation Organizer&lt;/h3>
+&lt;p>For those who own more Creation and want to use them, I included the wonderful &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/66329">Creation Organizer&lt;/a>. In order for Creation Organizer to work, you need to have all creations you own in your default installation folder (that is, &lt;code>Steam\steamapps\common\Skyrim Special Edition\Data&lt;/code>). If you just (re)installed the game, you may need to launch it once for your owned Creations to be downloaded.&lt;/p>
+&lt;p>You can &amp;ldquo;run&amp;rdquo; Creation Organizer by clicking the option shown below. MO2 will freeze up for a while, just let it do its thing.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sme/creation-organizer.png" alt="Creation Organizer">&lt;/p>
+&lt;p>By default, the JSON is set up to move all Creations you own into the &amp;ldquo;Creation Club Content&amp;rdquo; folder which already contains the four required Creations. If you want each Creation installed to its own folder, go to &lt;code>Modding Essentials\Tools\Creation Organizer\&lt;/code> where you will find alternative JSONs. The second one is the default one from the mod page and the third is intended for Wabbajack lists (adding the [NoDelete] tag to each mod folder).&lt;/p>
+&lt;p>Pick whichever JSON you like and use it to overwrite the existing one inside &lt;code>Modding Essentials\plugins\creation_organizer\&lt;/code>. Then run Creation Organizer again through the MO2 interface. Afterwards, you can delete the &amp;ldquo;Creation Club Content&amp;rdquo; folder.&lt;/p>
+&lt;h2 id="modding-tools">Modding Tools&lt;/h2>
+&lt;p>The following tools are installed and configured for the SME Game Root folder:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/164">SSEEdit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/68518">DynDOLOD 3&lt;/a> and &lt;a href="https://stepmodifications.org/forum/topic/13451-xlodgen-terrain-lod-beta-94-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal-enderalse/">SSELODGen&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/60033">Project New Reign - Nemesis Unlimited Behaviour Engine&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4089">SSE NIF Optimizer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/974">Bethesda Archive Extractor&lt;/a>, recommended to be set as the default app for opening BSAs, very convenient!&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23316">Cathedral Assets Optimizer&lt;/a>, including my basic profiles&lt;/li>
+&lt;li>&lt;a href="https://github.com/niftools/nifskope">NifSkope&lt;/a>, both Dev 7 and the elusive Dev 8&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28773">Octagon&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/z-edit/zedit/releases">zEdit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4875">BethINI&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1918">LOOT - Load Order Optimisation Tool&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6837">Wrye Bash&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/201">BodySlide and Outfit Studio&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/52313">EasyNPC&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Terrain LOD generated with SSELODGen will be placed in &lt;code>Skyrim Modding Essentials\Tools\xLODGen\Output\&lt;/code>. Move it from there into the mods folder.&lt;/p>
+&lt;p>Though BethINI is included, I did not regenerate the INI files. The SME profile in Mod Organizer 2 is using Skyrim&amp;rsquo;s default INIs with the High preset.&lt;/p>
+&lt;p>Make backups of your load order before running Wrye Bash. It may sometimes try to deactivate your plugins and reorder them alphabetically.&lt;/p>
+&lt;p>I added LOOT because it can be quite useful for curating your own load order and master list, but please do not just click &amp;ldquo;Sort&amp;rdquo; and expect your setup to be magically perfected.&lt;/p>
+&lt;h3 id="mo2-plugins">MO2 Plugins&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/deorder/mo2-plugins">deorder&amp;rsquo;s plugins&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/site/mods/82">LostDragonist&amp;rsquo;s MO2 Plugins&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/66743">Crash Log Tools&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/69813">NIF Preview&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/60864">LOOT Config Loader&lt;/a>, see &lt;a href="https://github.com/Exit-9B/LOOTConfigLoader/blob/main/README.md">Github&lt;/a> for documentation&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/66329">Creation Organizer&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>LOOT Preventifier (from LostDragonist&amp;rsquo;s MO2 Plugins) was also included, but disabled by default.&lt;/p>
+&lt;p>When opening a tool for the first time, you may be asked to change the file path to the game in the registry. This is required for some tools like LOOT to work properly and you should click OK. For more information, check the &lt;a href="https://www.nexusmods.com/site/mods/82">mod page&lt;/a>.&lt;/p>
+&lt;h3 id="sseedit">SSEEdit&lt;/h3>
+&lt;p>Generated cache for SSEEdit will be saved to a &amp;ldquo;cache&amp;rdquo; folder within the SSEEdit installation directory (&lt;code>Modding Essentials\Tools\SSEEdit\&lt;/code>), and plugin backups will be saved to a &amp;ldquo;backups&amp;rdquo; folder within the same directory. The prompt which warns about making changes to plugins was disabled with the &lt;code>-IKnowWhatImDoing&lt;/code> argument.&lt;/p>
+&lt;p>The QuickAutoClean exe was also added with the &lt;code>-DontCache&lt;/code> argument in case you wish to clean the official master files (without this argument, the cleaning would nuke parts of Apocrypha).&lt;/p>
+&lt;p>I also installed &lt;a href="https://www.nexusmods.com/skyrim/mods/68617">mator&amp;rsquo;s xEdit Patching Framework&lt;/a> and mator&amp;rsquo;s &lt;a href="https://www.nexusmods.com/skyrim/mods/49373">Automation Tools for TES5Edit&lt;/a>.&lt;/p>
+&lt;h2 id="enbseries">ENBSeries&lt;/h2>
+&lt;p>Since many people use ENB presets, I included a set of essentials:&lt;/p>
+&lt;ul>
+&lt;li>The latest enbseries binaries with a preconfigured enblocal.ini which you can use with any preset&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/65720">Particle Patch for ENB&lt;/a> with &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/68481">Fixed Skeever Dinner Meshes&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/67841">Ghost Pile Seam Fix&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23174">ENB Helper&lt;/a> with &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/62743">ENB Helper Plus&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/62796">ENB Input Disabler&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>In the enblocal.ini, VSYNC is disabled because SSE Display Tweaks is used for VSYNC instead. The framelimit is turned off. If you want to limit your framerate, it is highly recommended to do so using SSE Display Tweaks. Finally, the hotkeys were adjusted, please check the &amp;ldquo;Hotkeys&amp;rdquo; section further down on this page for more information.&lt;/p>
+&lt;p>If you want to install an ENB, copy the three files from &lt;code>SSE Modding Essentials\Tools\ENBSeries\&lt;/code> to &lt;code>SSE Modding Essentials\Game Root\&lt;/code> (ignore the WABBAJACK_NOMATCH_INCLUDE). Then download your favourite preset and extract the preset files (enbseries.ini and the enbseries folder) into &lt;code>SSE Modding Essentials\Game Root\&lt;/code> as well.&lt;/p>
+&lt;h2 id="further-notes">Further Notes&lt;/h2>
+&lt;p>&lt;strong>Please always be careful when adding mods and familiarise yourself with the existing setup first.&lt;/strong>&lt;/p>
+&lt;p>The configuration files for various mods were left untouched except for a few cases which are marked in the MO2 notes. Enable/disable settings based on your setup and preferences.&lt;/p>
+&lt;p>I included &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/42441">Face Discoloration Fix&lt;/a> which fixes mismatched facegen at runtime. However, that doesn&amp;rsquo;t mean you should no longer worry about facegen because if you let all your facegen conflicts be handled by the plugin there is a performance impact. For the love of Talos, regenerate your facegen! Refer to &lt;a href="https://github.com/The-Animonculory/Modding-Resources/blob/main/Regenerating%20Faces%20in%20the%20Creation%20Kit.md">Althro&amp;rsquo;s Guide&lt;/a> if you are not sure how to do it.&lt;/p>
+&lt;h3 id="modders-tools">Modder&amp;rsquo;s Tools&lt;/h3>
+&lt;p>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19250">More Informative Console&lt;/a> adds debugging functionality to the console. Click on any item, static, or NPC ingame to see their Base/Ref ID and other vital data which is vital for troubleshooting and fixing up your setup.&lt;/p>
+&lt;p>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/65343">QUI&lt;/a> not only includes &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19832">Stay At The System Page&lt;/a> for Skyrim 1.6, but also adds a menu through which you can access items added by mods, sorted by plugin, all of which is highly customisable. You can open the menu ingame with &lt;strong>F8&lt;/strong> (the hotkey can be changed in the config file in MO2).&lt;/p>
+&lt;p>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30907">Where In Special Edition Am I&lt;/a> adds a convenient method to determine your exact location ingame, at least until you have DynDOLOD set up in which case its MCM has the same feature.&lt;/p>
+&lt;h3 id="hotkeys">Hotkeys&lt;/h3>
+&lt;p>The hotkeys for some of the mods/tools included in Modding Essentials were slightly tweaked in a way that I feel is more convenient. These tweaks assume that you are otherwise using the default hotkeys for quicksave/quickload (F5 and F9 respectively).&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>F7&lt;/strong> toggles the ENB FPS counter&lt;/li>
+&lt;li>&lt;strong>F8&lt;/strong> opens the QUI ingame item browser&lt;/li>
+&lt;li>&lt;strong>F9&lt;/strong> is the default quickload&lt;/li>
+&lt;li>&lt;strong>F10&lt;/strong> opens the ENB GUI&lt;/li>
+&lt;li>&lt;strong>F11&lt;/strong> toggles the ENB effect&lt;/li>
+&lt;/ul></description></item><item><title>Skyrim-Se: Recommendations</title><link>https://thephoenixflavour.com/skyrim-se/sme/recommendations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/recommendations/</guid><description>
+&lt;h2 id="assorted-fixes--tweaks">Assorted Fixes &amp;amp; Tweaks&lt;/h2>
+&lt;p>Following initial feedback, I decided to completely cut all included fixes that might not be completely compatible with any setup, or are down to personal taste. Instead I decided to add this list of my recommendations for various fixes and tweaks with some notes. Please note that me recommending these mods doesn&amp;rsquo;t mean you should install them all and assume everything works. You still need to decide for yourself what you need/want, and whether what you are adding is compatible/necessary with your setup.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18975">Unofficial Skyrim Creation Club Patch&lt;/a> to complement the USSEP.&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/49616">Unofficial Skyrim Modder&amp;rsquo;s Patch&lt;/a> to complement the USSEP. Check this one carefully before deciding to add it. Some of the tweaks/fixes listed below are already included with it.&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18994">Weapons Armor Clothing and Clutter Fixes&lt;/a>: Highly subjective and very bloated collection of various changes, but contains some extremely neat fixes and tweaks. I recommend taking it apart and using only the parts you want/need.&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/61251">LOD Unloading Bug Fix&lt;/a>, though this should NOT be necessary with DynDOLOD 3.&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27677">Weapon Speed Effects Fix&lt;/a> will require some patching or may be redundant depending your perk/shout overhauls.&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/65154">Enchantable Special Item Fix&lt;/a> will need patching for your load order.&lt;/li>
+&lt;/ul>
+&lt;h3 id="landscape-fixes">Landscape Fixes&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26138">Skyrim Landscape and Water Fixes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9005">Landscape Fixes for Grass Mods&lt;/a>, as the name suggests this mod is only required if you use a grass mod (that applies grass to more textures than vanilla).&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71562">Complementary Grass Fixes&lt;/a>, an addon for LFFGM.&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/61777">Grass Fixes for Creation Club Mods&lt;/a>, same as the above but for CCs.&lt;/li>
+&lt;/ul>
+&lt;h3 id="gameplay-tweaks">Gameplay Tweaks&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1503">Fast Travel Speed Fix&lt;/a> more closely aligns the time passed after fast travelling to what it would have been after walking on foot. Of course, you could argue taking a horse or a carriage, or taking a different route are all factors that might impact this, so it is somewhat subjective. The tweak is included in &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12125">Obsidian Weathers and Seasons&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18967">Better Jumping&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43500">Enhanced Reanimation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23581">Whose Quest Is It Anyway&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27713">Mum&amp;rsquo;s the Word&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/894">Rude Imperial Escort Fix&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5471">Dawnguard Don&amp;rsquo;t Hunt Cured Vampires&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17946">NARC Remade&lt;/a> so animals stop reporting you for crimes.&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33058">Calm Down Valdr&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/53515">Greybeard Robe Fix&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/51000">Potema&amp;rsquo;s Minion Fixlet&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17715">Don&amp;rsquo;t Talk With Your Mouth Full&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/29434">Butterflies Land True&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="display-cases">Display Cases&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/3622">Hearthfire Display Case Fix&lt;/a>: Makes display boxes much more convenient by adding activators to them. No longer will you have to manual place items. Be warned that the plugin needs to be resaved in the CK. &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18994">Weapons Armor Clothing and Clutter Fixes&lt;/a> already includes this.&lt;/li>
+&lt;li>Alternatively, I would recommend &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/70508">Immersive Display Overhaul&lt;/a> which is even more convenient since you no longer need have an item equipped to place it in/on any kind of display. However, it does require all display activators to be set up correctly following the USSEP&amp;rsquo;s example, otherwise it&amp;rsquo;ll throw errors. Display activators can be fixed fairly quickly in xEdit.&lt;/li>
+&lt;/ul>
+&lt;h3 id="animations">Animations&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5890">D13 Faster Get Up Stand Up&lt;/a> significantly increases the speed at which any actor gets back to their feet after being knocked down. Recommended to be paired with (or replaced by) &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/46714">Super Fast Get Up Animation&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2425">3rd person Dual Wield Animation Fix&lt;/a> makes the third person dual wield stance look less ridiculous. Incompatible/redundant with other animation replacers.&lt;/li>
+&lt;/ul>
+&lt;h3 id="texture-fixes">Texture Fixes&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5445">Eye Normal Map Fix&lt;/a> improves the vanilla normal maps, but may not be compatible with any replacer mod.&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18370">HD Serpentine Dragon and Mesh Fix&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="mesh-fixes">Mesh Fixes&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/53957">Flickering Meshes Fix&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/53653">Fixed Mesh Lighting&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21027">Unofficial Material Fix&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/39260">Dlizzio&amp;rsquo;s Mesh Fixes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/48120">Whiterun Mesh Fixes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/29621">Solitude Mesh Fixes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/55254">High Hrothgar Fixed&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/70148">OSHA-Compliant Sovengarde Mesh Fixes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/39704">Armor Mesh Fixes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43444">Nordic Carved Clipping Fix&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/69558">Glowing Mushroom Collision Fixes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71546">Hawk Patch - Base Object Swapper Remake&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11431">Werewolf Claws Affect Spider Webs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71524">Cumulative Fix for Eye Meshes&lt;/a>, the underwater fix removes blending on the lashes which can look really weird so you may want to use the version without that fix.&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72213">Farm Hat 01 Clipping Fix&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sme/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/changelog/</guid><description>
+&lt;h2 id="release-12">Release 1.2&lt;/h2>
+&lt;blockquote>
+&lt;p>30/07/2022&lt;/p>
+&lt;/blockquote>
+&lt;p>With this update, I migrated the SME documentation to the new Skyrim SE Lists section of the website which breaks all links. I fixed those I could think of but might have missed some in which case please let me know on Discord.&lt;/p>
+&lt;p>In other news, I disabled the Fix Game Registry Path plugin for now. It is very convenient for LOOT (which uses the registry key to locate the game), but isn&amp;rsquo;t really needed for anything else and also breaks Creation Organizer. On top of that, it becomes cumbersome to constantly update the path when swapping between modded setups. I found a different solution for making LOOT work.&lt;/p>
+&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;ul>
+&lt;li>Added Quest Journal Limit Bug Fixer&lt;/li>
+&lt;li>Added Enhanced Invisibility&lt;/li>
+&lt;li>Added Enhanced Reanimation&lt;/li>
+&lt;li>Added Combat Music Fix SKSE&lt;/li>
+&lt;li>Added Keywords Fixed&lt;/li>
+&lt;li>Added dunPOISoldiersRaidOnStart Script Tweak&lt;/li>
+&lt;li>Added Modern Toggle Walk-Run Fix - With Cobb Controlmap Fix&lt;/li>
+&lt;li>Updated Wrye Bash to 310 (non-beta)&lt;/li>
+&lt;li>Updated bundled ENBSeries binaries&lt;/li>
+&lt;li>Removed the Bashed Patch that SOMEHOW snuck into the Data folder&lt;/li>
+&lt;li>Removed Modern Toggle Walk-Run Fix&lt;/li>
+&lt;li>Fix Game Registry Path is now disabled by default&lt;/li>
+&lt;/ul>
+&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Introduction:&lt;/strong> Fixed loadorderlibrary.com link for SME under Features&lt;/li>
+&lt;li>&lt;strong>Installation:&lt;/strong> Improved the MO2 prerequisites section and added NET 4.8&lt;/li>
+&lt;li>&lt;strong>Installation:&lt;/strong> Removed the NET 5.0 requirement (no longer needed)&lt;/li>
+&lt;li>&lt;strong>Installation:&lt;/strong> Added LOOT post-installation setup instructions&lt;/li>
+&lt;li>&lt;strong>Installation:&lt;/strong> Added zEdit post-installation setup instructions&lt;/li>
+&lt;li>&lt;strong>Recommendations:&lt;/strong> Removed Blood (Green) Dragon Texture Fix (included in the USSEP)&lt;/li>
+&lt;li>&lt;strong>Recommendations:&lt;/strong> Added Farm Hat 01 Clipping Fix&lt;/li>
+&lt;/ul>
+&lt;h2 id="release-11">Release 1.1&lt;/h2>
+&lt;blockquote>
+&lt;p>21/07/2022&lt;/p>
+&lt;/blockquote>
+&lt;p>Following feedback, I decided to do some pruning where more controversial &amp;ldquo;fixes&amp;rdquo; were concerned and add a few more tools. Some of these I have not been using extensively before and while I tested them all, I cannot exclude the possibility that I missed something in the setup. If that is the case I will fix it asap.&lt;/p>
+&lt;p>Including a section of fix mods is very difficult as many are somewhat subjective or not compatible with / required for every setup. For one mod in particular, I have had people both very happy about its inclusion and completely opposed to it. So I decided to yeet most mods that could possibly be controversial and wrote up &lt;a href="https://thephoenixflavour.com/sme/recommendations">a list of recommendations&lt;/a> instead. Refer to that, please.&lt;/p>
+&lt;p>Thanks to Tyler/Night_Thastus and Parapets in particular for your feedback and recommendations!&lt;/p>
+&lt;ul>
+&lt;li>Added LOOT 0.17.0 (latest version is incompatible with MO2&amp;rsquo;s inbuilt version)&lt;/li>
+&lt;li>Added LOOT Config Loader for Mod Organizer&lt;/li>
+&lt;li>Added Wrye Bash&lt;/li>
+&lt;li>Added BodySlide and Outfit Studio&lt;/li>
+&lt;li>Added EasyNPC&lt;/li>
+&lt;li>Added LostDragonist&amp;rsquo;s MO2 Plugins&lt;/li>
+&lt;li>Added PapyrusUtils&lt;/li>
+&lt;li>Added Sound Fix for Large Sector Drives&lt;/li>
+&lt;li>Added Mage Armor Script Fix&lt;/li>
+&lt;li>Added Lights Out - Solitude Lighthouse Fix&lt;/li>
+&lt;li>Added Freed Prisoners Use Items&lt;/li>
+&lt;li>Added Scare My Enemy Bug Fix&lt;/li>
+&lt;li>Added Chillwind Depths CTD Fix&lt;/li>
+&lt;li>Added Hearthfire Creep Cluster Fix&lt;/li>
+&lt;li>Removed Fast Travel Time Scale Fix&lt;/li>
+&lt;li>Removed Hearthfire Display Case Fix&lt;/li>
+&lt;li>Removed Whose Quest Is It Anyway&lt;/li>
+&lt;li>Removed Rude Imperial Soldiers Escort Fix&lt;/li>
+&lt;li>Removed Dawnguard Don&amp;rsquo;t Hunt Cured Vampires&lt;/li>
+&lt;li>Removed Skyrim Ultimate Eye Remastered&lt;/li>
+&lt;li>Removed HD Serpentine Dragon and Mesh Fix&lt;/li>
+&lt;li>Removed Blood (Green) Dragon Texture Fix&lt;/li>
+&lt;li>Removed D13 Faster Get Up Stand Up&lt;/li>
+&lt;li>Removed 3rd Person Dual Wield Animation Fix&lt;/li>
+&lt;li>Now using the (custom) SSE Display Tweaks config to control game res (Wabbajack will set it to your native monitor resolution)&lt;/li>
+&lt;li>The Fuz Ro D-oh config file will no longer be dumped into the Overwrite&lt;/li>
+&lt;/ul>
+&lt;h2 id="release-101">Release 1.0.1&lt;/h2>
+&lt;blockquote>
+&lt;p>20/07/2022&lt;/p>
+&lt;/blockquote>
+&lt;p>Removed the accidentally included Creation manifest folder (caused installation to fail for people who don&amp;rsquo;t own AE).&lt;/p>
+&lt;h2 id="release-10">Release 1.0&lt;/h2>
+&lt;blockquote>
+&lt;p>20/07/2022&lt;/p>
+&lt;/blockquote>
+&lt;p>Initial release.&lt;/p></description></item></channel></rss>
