@@ -83,7 +83,7 @@
 &lt;blockquote>
 &lt;p>I have since upgraded to an i7 10700k and a RTX 3080 which are certainly NOT required to play WTP at a stable frame rate.&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="get-started-with-the-installationfallout-4wtpinstallation-now">Get started with the &lt;a href="https://thephoenixflavour.com/fallout-4/wtp/installation/">Installation&lt;/a> now.&lt;/h4></description></item><item><title>Fo4: Installation</title><link>https://thephoenixflavour.com/fo4/wtp/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fo4/wtp/installation/</guid><description>
+&lt;h4 id="get-started-with-the-installationfo4wtpinstallation-now">Get started with the &lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/">Installation&lt;/a> now.&lt;/h4></description></item><item><title>Fo4: Installation</title><link>https://thephoenixflavour.com/fo4/wtp/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fo4/wtp/installation/</guid><description>
 &lt;h2 id="requirements">Requirements&lt;/h2>
 &lt;p>While Wabbajack takes care of 99% of the work, there are still some steps that need to be completed by the user. The &lt;strong>Installation&lt;/strong> section will take you through the process from start to finish and you are expected to follow it to the letter.&lt;/p>
 &lt;p>&lt;strong>Welcome to Paradise requires:&lt;/strong>&lt;/p>
@@ -338,7 +338,7 @@ ccFSVFO4001-ModularMilitaryBackpack - Textures.ba2
 &lt;li>Press &lt;strong>F10&lt;/strong> to temporarily toggle off ENB. It may look strange during the intro video and prologue.&lt;/li>
 &lt;/ul>
 &lt;p>Shortly after the character creation, you will get a prompt which is added by the mod &lt;strong>Start Me Up&lt;/strong>. You will be asked whether you want to &amp;ldquo;relive the memory&amp;rdquo;, giving you the option to skip the prologue. &lt;strong>Do not select this option if you never played Fallout 4 before&lt;/strong>, you are going to miss some important things.&lt;/p>
-&lt;p>If you want to play the regular Fallout 4 intro (highly recommended), click &amp;ldquo;This is a memory. Let&amp;rsquo;s stay here a while&amp;rdquo; and the prologue will play out as usual. Proceed to the &lt;a href="https://thephoenixflavour.com/wtp/mod-config/">Mod Configuration&lt;/a> page after exiting the vault.&lt;/p>
+&lt;p>If you want to play the regular Fallout 4 intro (highly recommended), click &amp;ldquo;This is a memory. Let&amp;rsquo;s stay here a while&amp;rdquo; and the prologue will play out as usual. Proceed to the &lt;a href="https://thephoenixflavour.com/fo4/wtp/mod-config/">Mod Configuration&lt;/a> page after exiting the vault.&lt;/p>
 &lt;h3 id="start-me-up">Start Me Up&lt;/h3>
 &lt;blockquote>
 &lt;p>Intro spoilers ahead.&lt;/p>
@@ -350,11 +350,11 @@ ccFSVFO4001-ModularMilitaryBackpack - Textures.ba2
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/installation/special-stats.jpg" alt="SPECIAL stats">&lt;/p>
 &lt;h4 id="open-main-door-through-the-terminal">&lt;strong>Open main door through the terminal:&lt;/strong>&lt;/h4>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/installation/open-door.jpg" alt="Open Door">&lt;/p>
-&lt;h4 id="play-through-the-intro-as-usual-and-continue-with-the-mod-configurationfallout-4wtpmod-config-page-after-exiting-the-vault">Play through the intro as usual and continue with the &lt;a href="https://thephoenixflavour.com/fallout-4/wtp/mod-config/">Mod Configuration&lt;/a> page after exiting the vault.&lt;/h4></description></item><item><title>Fo4: Mod Config</title><link>https://thephoenixflavour.com/fo4/wtp/mod-config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fo4/wtp/mod-config/</guid><description>
+&lt;h4 id="play-through-the-intro-as-usual-and-continue-with-the-mod-configurationfo4wtpmod-config-page-after-exiting-the-vault">Play through the intro as usual and continue with the &lt;a href="https://thephoenixflavour.com/fo4/wtp/mod-config/">Mod Configuration&lt;/a> page after exiting the vault.&lt;/h4></description></item><item><title>Fo4: Mod Config</title><link>https://thephoenixflavour.com/fo4/wtp/mod-config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fo4/wtp/mod-config/</guid><description>
 &lt;h2 id="mcm-settings">MCM Settings&lt;/h2>
 &lt;p>Thanks to the &lt;a href="https://www.nexusmods.com/fallout4/mods/21497">Mod Configuration Menu&lt;/a>, many mods can now be tweaked through the MCM which can be accessed through the pause menu. For Welcome to Paradise, most settings were already adjusted and can be applied using &lt;a href="https://www.nexusmods.com/fallout4/mods/56195">MCM Settings Manager&lt;/a>.&lt;/p>
 &lt;blockquote>
-&lt;p>If you&amp;rsquo;re interested in what kind of changes the preset includes, check the &lt;a href="https://thephoenixflavour.com/fallout-4/wtp/mcm-settings/">MCM Settings&lt;/a> page.&lt;/p>
+&lt;p>If you&amp;rsquo;re interested in what kind of changes the preset includes, check the &lt;a href="https://thephoenixflavour.com/fo4/wtp/mcm-settings/">MCM Settings&lt;/a> page.&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="load-mcm-preset">Load MCM Preset&lt;/h3>
 &lt;p>&lt;strong>Please wait until after you woke up in Vault 111 before you load the WTP MCM settings.&lt;/strong>&lt;/p>
@@ -403,7 +403,7 @@ ccFSVFO4001-ModularMilitaryBackpack - Textures.ba2
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/mod-config/visible-idle-markers-config.jpg" alt="Visible Idle Markers Config">&lt;/p>
 &lt;hr>
-&lt;p>&lt;strong>Before diving into the game, I highly recommend checking out the &lt;a href="https://thephoenixflavour.com/fallout-4/wtp/documentation/">WTP Documentation&lt;/a> or at least the &lt;a href="https://thephoenixflavour.com/fallout-4/wtp/documentation/#keybinds">keybinds&lt;/a> section.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Before diving into the game, I highly recommend checking out the &lt;a href="https://thephoenixflavour.com/fo4/wtp/documentation/">WTP Documentation&lt;/a> or at least the &lt;a href="https://thephoenixflavour.com/fo4/wtp/documentation/#keybinds">keybinds&lt;/a> section.&lt;/strong>&lt;/p>
 &lt;h4 id="enjoy-your-playthrough">Enjoy your playthrough!&lt;/h4></description></item><item><title>Fo4: Documentation</title><link>https://thephoenixflavour.com/fo4/wtp/documentation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fo4/wtp/documentation/</guid><description>
 &lt;h2 id="game-folder-files">Game Folder Files&lt;/h2>
 &lt;p>While regular mods for Bethesda games are installed into the &lt;strong>data&lt;/strong> folder, there are some additional tools that belong into the &lt;strong>root&lt;/strong> folder. These are not automatically moved by Wabbajack. Instructions for them are included in the &lt;strong>Installation&lt;/strong> setup, this page merely serves as an overview over the files in question and their purpose.&lt;/p>
@@ -799,7 +799,7 @@ fPipboyEffectColorR=0.3760
 &lt;h3 id="k-9-harness">K-9 Harness&lt;/h3>
 &lt;p>I&amp;rsquo;m a huge fan of fadingsignal&amp;rsquo;s &lt;a href="https://www.nexusmods.com/fallout4/mods/17686">K-9 Harness&lt;/a> for Dogmeat so I had to add it to WTP. Instead of it being craftable, I have placed one harness in a location that fits thematically. Either trust that you will find it naturally on your travels or check the SPOILER SECTION at the bottom of this page if you want to know where it is.&lt;/p>
 &lt;h3 id="cc-modular-military-backpack">CC Modular Military Backpack&lt;/h3>
-&lt;p>Also by fadingsignal is the &lt;a href="https://fallout.fandom.com/wiki/Modular_military_backpack">Modular Military Backpack&lt;/a> which matches the K-9 Harness beautifully. It is a Creation so you will need to buy it from the Creation Club. There are instructions for installing the Creation in WTP on the &lt;a href="https://thephoenixflavour.com/fallout-4/wtp/installation/#creation-club">Installation&lt;/a> page.&lt;/p>
+&lt;p>Also by fadingsignal is the &lt;a href="https://fallout.fandom.com/wiki/Modular_military_backpack">Modular Military Backpack&lt;/a> which matches the K-9 Harness beautifully. It is a Creation so you will need to buy it from the Creation Club. There are instructions for installing the Creation in WTP on the &lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/#creation-club">Installation&lt;/a> page.&lt;/p>
 &lt;p>Note that the backpack will no longer be given to you upon leaving Vault 111 and it will not be distributed either. You can find a single one within Vault 111 that you can pick up at the start of the game.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/documentation/cc-backpack.jpg" alt="CC Backpack">&lt;/p>
 &lt;h2 id="spoiler-section">SPOILER SECTION&lt;/h2>
@@ -934,7 +934,7 @@ fPipboyEffectColorR=0.3760
 &lt;h2 id="performance-issues">Performance Issues&lt;/h2>
 &lt;p>WTP is a performance friendly setup and should run well for most users. In fact, thanks to the &lt;strong>Previsibines Repair Pack&lt;/strong>, it should run better than vanilla in some places. While WTP includes some 4K retextures, the Fallout 4 engine is actually capable of loading lower resolution versions of these when running out of VRAM. Almost all loose assets are packed into BA2 archives for better performance. I also took care not to include mods with long levelled lists containing new face presets as these can significant performance issues.&lt;/p>
 &lt;p>That being said, Fallout 4 is prone to performance issues, especially stuttering. For performance in general please keep in mind that resolutions above 1080p can incur a sizeable frame loss. 4K does not scale well. Having the game and/or MO2 installed on an HDD instead of an SSD may similarly cause frame drops or some stuttering.&lt;/p>
-&lt;p>If you are struggling with frame drops I would first recommend swapping to the &lt;strong>Performance INIs&lt;/strong>. You can find instructions &lt;a href="https://thephoenixflavour.com/fallout-4/wtp/installation/#performance-inis">here&lt;/a>.&lt;/p>
+&lt;p>If you are struggling with frame drops I would first recommend swapping to the &lt;strong>Performance INIs&lt;/strong>. You can find instructions &lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/#performance-inis">here&lt;/a>.&lt;/p>
 &lt;p>If you are still unhappy about your framerate, you can delete the &lt;strong>d3d11.dll&lt;/strong> from your Fallout 4 root folder to disable ENB.&lt;/p>
 &lt;h2 id="nate-and-nora-have-brown-faces-in-the-character-creation">Nate and Nora have brown faces in the character creation&lt;/h2>
 &lt;p>If Nate and Nora have brown faces in the character creation, you missed &lt;a href="https://thephoenixflavour.com/fallout-4/wtp/installation/#official-high-resolution-texture-pack">this step&lt;/a> instructing you NOT to install the Official High Resolution Texture Pack. Go back to the linked section, remove the HD DLC, and the issue will be gone.&lt;/p>
@@ -1070,7 +1070,7 @@ startquest radiodiamondcity
 &lt;/ul>
 &lt;h4 id="website-changes-1">Website Changes&lt;/h4>
 &lt;ul>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/documentation/mcm-settings/">MCM Settings&lt;/a>: Updated for the new changes (specifically in the FallUI mod MCMs)&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/documentation/mcm-settings/">MCM Settings&lt;/a>: Updated for the new changes (specifically in the FallUI mod MCMs)&lt;/li>
 &lt;/ul>
 &lt;h2 id="release-233">Release 2.3.3&lt;/h2>
 &lt;blockquote>
@@ -1213,8 +1213,8 @@ startquest radiodiamondcity
 &lt;/ul>
 &lt;h4 id="website-changes-5">Website Changes&lt;/h4>
 &lt;ul>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/installation/finalisation/">Finalisation&lt;/a>: Added section with instructions for ultrawide compatibility.&lt;/li>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/mod-config/">Mod Config&lt;/a>: Updated the MCM preset instructions to account for the new 21:9 preset.&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/finalisation/">Finalisation&lt;/a>: Added section with instructions for ultrawide compatibility.&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/mod-config/">Mod Config&lt;/a>: Updated the MCM preset instructions to account for the new 21:9 preset.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/installation/widescreen-main-menu.jpg" alt="Widescreen Main Menu">&lt;/p>
 &lt;h2 id="release-21">Release 2.1&lt;/h2>
@@ -1248,7 +1248,7 @@ startquest radiodiamondcity
 &lt;li>Replaced Workshop Re-arranged with smaller, more managable workshop additions.&lt;/li>
 &lt;li>New retextures, most of which were added to the WTP texture packs for better performance.&lt;/li>
 &lt;li>MCM settings can now be applied automatically via a universal WTP preset thanks to MCM Settings Manager.&lt;/li>
-&lt;li>Finally some documentation in the form of the new &lt;a href="https://thephoenixflavour.com/wtp/documentation/wtp-visuals/">WTP Visuals&lt;/a> and &lt;a href="https://thephoenixflavour.com/wtp/documentation/wtp-gameplay/">WTP Gameplay&lt;/a> pages.&lt;/li>
+&lt;li>Finally some documentation in the form of the new &lt;a href="https://thephoenixflavour.com/fo4/wtp/documentation/wtp-visuals/">WTP Visuals&lt;/a> and &lt;a href="https://thephoenixflavour.com/fo4/wtp/documentation/wtp-gameplay/">WTP Gameplay&lt;/a> pages.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>ENB and lighting changes:&lt;/strong>&lt;/p>
 &lt;p>In WTP 2.0, I removed &lt;a href="https://www.nexusmods.com/fallout4/mods/4472">True Storms&lt;/a>, &lt;a href="https://www.nexusmods.com/fallout4/mods/9253">True Nights&lt;/a>, and &lt;a href="https://www.nexusmods.com/fallout4/mods/5885">Subtle ENB&lt;/a>. The decision was not easy as I have never really played Fallout 4 &lt;em>without&lt;/em> True Storms, and I really love the murky nights with this combination of mods. Unfortunately, True Storms makes the game&amp;rsquo;s lackluster occlusion effect (intended to prevent rain and fogs in interiors) even more noticable. I also had a ton of people complain about dark nights.&lt;/p>
@@ -1399,20 +1399,20 @@ startquest radiodiamondcity
 &lt;/ul>
 &lt;h4 id="website-changes-6">Website Changes&lt;/h4>
 &lt;ul>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/installation/finalisation/">Finalisation&lt;/a>: Removed the LUTs section&lt;/li>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/installation/finalisation/">Finalisation&lt;/a>: Removed VSYNC section (it is now always enabled as it should be)&lt;/li>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/installation/finalisation/">Finalisation&lt;/a>: Updated the FPS Cap section including the screenshot&lt;/li>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/mod-config/">Mod Config&lt;/a>: Completely overhauled this page to account for automatic MCM settings loading and the new mods&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/finalisation/">Finalisation&lt;/a>: Removed the LUTs section&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/finalisation/">Finalisation&lt;/a>: Removed VSYNC section (it is now always enabled as it should be)&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/finalisation/">Finalisation&lt;/a>: Updated the FPS Cap section including the screenshot&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/mod-config/">Mod Config&lt;/a>: Completely overhauled this page to account for automatic MCM settings loading and the new mods&lt;/li>
 &lt;li>Removed the Resources section&lt;/li>
 &lt;li>Added the Documentation section&lt;/li>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/documentation/game-folder-files/">Game Folder Files&lt;/a>: Updated the page with the latest additions and changes&lt;/li>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/documentation/wtp-visuals/">WTP Visuals&lt;/a>: Added page to discuss WTP&amp;rsquo;s graphics mods, including a list of textures in the five WTP repacks&lt;/li>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/documentation/wtp-gameplay/">WTP Gameplay&lt;/a>: Added page to discuss WTP&amp;rsquo;s gameplay changes, including custom hotkeys and unique item locations&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/documentation/game-folder-files/">Game Folder Files&lt;/a>: Updated the page with the latest additions and changes&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/documentation/wtp-visuals/">WTP Visuals&lt;/a>: Added page to discuss WTP&amp;rsquo;s graphics mods, including a list of textures in the five WTP repacks&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/documentation/wtp-gameplay/">WTP Gameplay&lt;/a>: Added page to discuss WTP&amp;rsquo;s gameplay changes, including custom hotkeys and unique item locations&lt;/li>
 &lt;li>Renamed the &amp;ldquo;Troubleshooting&amp;rdquo; page to &amp;ldquo;Known Issues&amp;rdquo;&lt;/li>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/known-issues/">Known Issues&lt;/a>: Added &amp;ldquo;Invisible Spouse&amp;rdquo; bug&lt;/li>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/known-issues/">Known Issues&lt;/a>: Updated the &amp;ldquo;Flickering Puddles&amp;rdquo; bug, eliminated in WTP 2.0&lt;/li>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/known-issues/">Known Issues&lt;/a>: Removed the &amp;ldquo;Nights are too dark&amp;rdquo; section (they are no longer as dark in WTP 2.0)&lt;/li>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/known-issues/">Known Issues&lt;/a>: Added the &amp;ldquo;Load screens appear frozen&amp;rdquo; issue (which is not actually an bug)&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/known-issues/">Known Issues&lt;/a>: Added &amp;ldquo;Invisible Spouse&amp;rdquo; bug&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/known-issues/">Known Issues&lt;/a>: Updated the &amp;ldquo;Flickering Puddles&amp;rdquo; bug, eliminated in WTP 2.0&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/known-issues/">Known Issues&lt;/a>: Removed the &amp;ldquo;Nights are too dark&amp;rdquo; section (they are no longer as dark in WTP 2.0)&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/known-issues/">Known Issues&lt;/a>: Added the &amp;ldquo;Load screens appear frozen&amp;rdquo; issue (which is not actually an bug)&lt;/li>
 &lt;/ul>
 &lt;hr>
 &lt;h2 id="release-163">Release 1.6.3&lt;/h2>
@@ -1800,10 +1800,10 @@ startquest radiodiamondcity
 &lt;/ul>
 &lt;h4 id="website-changes-11">Website Changes&lt;/h4>
 &lt;ul>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/installation/finalisation/">Finalisation&lt;/a>: Added this new page and moved the game resolution instructions here.&lt;/li>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/installation/finalisation/">Finalisation&lt;/a>: Added instructions on how to force VSYNC and cap the framerate.&lt;/li>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/installation/new-game/">New Game&lt;/a>: Removed LooksMenu related instructions as that mod was removed.&lt;/li>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/installation/new-game/">New Game&lt;/a>: Added &lt;em>seriously&lt;/em> detailed instructions for Start Me Up.&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/finalisation/">Finalisation&lt;/a>: Added this new page and moved the game resolution instructions here.&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/finalisation/">Finalisation&lt;/a>: Added instructions on how to force VSYNC and cap the framerate.&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/new-game/">New Game&lt;/a>: Removed LooksMenu related instructions as that mod was removed.&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/new-game/">New Game&lt;/a>: Added &lt;em>seriously&lt;/em> detailed instructions for Start Me Up.&lt;/li>
 &lt;/ul>
 &lt;h2 id="release-11">Release 1.1&lt;/h2>
 &lt;blockquote>
@@ -1822,8 +1822,8 @@ startquest radiodiamondcity
 &lt;/ul>
 &lt;h4 id="website-changes-12">Website Changes&lt;/h4>
 &lt;ul>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/installation/wabbajack/">Wabbajack&lt;/a>: Added new section on how change the game resolution.&lt;/li>
-&lt;li>&lt;a href="https://thephoenixflavour.com/fallout-4/wtp/appendix/troubleshooting/">Troubleshooting&lt;/a>: Added this page with a few known issues.&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/wabbajack/">Wabbajack&lt;/a>: Added new section on how change the game resolution.&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/appendix/troubleshooting/">Troubleshooting&lt;/a>: Added this page with a few known issues.&lt;/li>
 &lt;/ul>
 &lt;h2 id="release-101">Release 1.0.1&lt;/h2>
 &lt;blockquote>
