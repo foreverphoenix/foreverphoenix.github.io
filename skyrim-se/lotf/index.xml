@@ -481,11 +481,13 @@ EnableComplexGrass=false
 &lt;li>Added Enhanced Invisibility&lt;/li>
 &lt;li>Added dunPOISoldiersRaidOnStart Script Tweak&lt;/li>
 &lt;li>Added Faster Reanimation&lt;/li>
+&lt;li>Updated College of Winterhold Quest Start Fixes to 0.4&lt;/li>
 &lt;li>Commented out resolution in the SSE Display Tweaks cusom INI again&lt;/li>
 &lt;/ul>
 &lt;h4 id="cc-profile">CC Profile&lt;/h4>
 &lt;ul>
 &lt;li>Updated Terrain Fixes for CC Mods to 1.2&lt;/li>
+&lt;li>Fixed missing Myrwatch Home Fix - UCCCP plugin&lt;/li>
 &lt;/ul>
 &lt;h2 id="release-28">Release 2.8&lt;/h2>
 &lt;blockquote>
