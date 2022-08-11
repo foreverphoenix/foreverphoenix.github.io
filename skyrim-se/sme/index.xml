@@ -55,9 +55,16 @@
 &lt;li>Download and install &lt;a href="https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer">.NET Framework 4.8&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;p>If either of them were missing on your system, they will be installed now. Afterwards, you may be required to restart your PC.&lt;/p>
+&lt;h3 id="synthesis-prequisities">Synthesis Prequisities&lt;/h3>
+&lt;p>The patcher tool &lt;a href="https://github.com/Mutagen-Modding/Synthesis">Synthesis&lt;/a> requires the .NET 6.0 SDK.&lt;/p>
+&lt;ul>
+&lt;li>Download the &lt;a href="https://dotnet.microsoft.com/download">.NET 6.0 SDK&lt;/a> from the official website.&lt;/li>
+&lt;li>Follow the instructions in the installer and restart your computer when prompted.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sme/net-6-sdk.png" alt="NET 6 SDK">&lt;/p>
 &lt;h2 id="skyrim-se-setup">Skyrim SE Setup&lt;/h2>
 &lt;p>&lt;strong>SME requires the latest version of Skyrim SE.&lt;/strong> For clarification, this latest version is a post-AE release (currently &lt;code>1.6.353.0&lt;/code>) and unrelated to the Anniversary Edition DLC which is NOT required. If you are on any older version of Skyrim SE, please verify files through Steam to install the update. You can check the version by right-clicking the &lt;strong>SkyrimSE.exe&lt;/strong> in your game folder and going to the &lt;strong>Details&lt;/strong> tab.&lt;/p>
-&lt;p>&lt;strong>Please make sure to launch the game at least once before running Wabbajack.&lt;/strong> If you just updated or (re)installed the game, this is necessary for setting up registry keys as modding tools will otherwise be unable to recognise the game. You can quit from the main menu.&lt;/p>
+&lt;p>&lt;strong>Please make sure to launch the game at least once before running Wabbajack.&lt;/strong> If you just updated or (re)installed the game, this is necessary for setting up registry keys as modding tools will otherwise be unable to recognise the game. You can quit from the main menu. If you own any creations beyond the four free ones, they will be downloaded as well.&lt;/p>
 &lt;h3 id="set-language-to-english">Set language to English&lt;/h3>
 &lt;p>&lt;strong>SME requires the English language version of Skyrim SE.&lt;/strong>&lt;/p>
 &lt;p>If you are currently playing in a language other than English, please go into the settings for Skyrim SE in your Steam library and revert the language to English. After changing the language, Steam should automatically download the required files (launch the game to force the download if it doesn&amp;rsquo;t).&lt;/p>
@@ -95,6 +102,9 @@
 &lt;p>You can follow along as Wabbajack installs the list. It will display previews with summaries and links to the mods being installed. Don&amp;rsquo;t let the log irritate you. Unless the installation is aborted completely, you don&amp;rsquo;t have to worry about any warnings.&lt;/p>
 &lt;p>&lt;strong>In case the installation does fail:&lt;/strong> Try restarting Wabbajack first. You will not lose progress as the tool will pick up where it left off. Should the installation fail again, please join us on &lt;a href="https://discord.gg/xCPxJFbCTS">Discord&lt;/a>, grab the &lt;code>@SME&lt;/code> role, and post your &lt;code>wabbajack.current.log&lt;/code> in the &lt;code>#sme-support&lt;/code> channel. You can find all Wabbajack logs in your Wabbajack installation folder under &lt;code>\Wabbajack\logs\&lt;/code>.&lt;/p>
 &lt;p>In most cases the installation should complete successfully on the first try. The tool will let you know when it has.&lt;/p>
+&lt;h2 id="antivirus-exclusion">Antivirus Exclusion&lt;/h2>
+&lt;p>Certain tools, e.g., &lt;strong>Nemesis&lt;/strong> and &lt;strong>Cathedral Assets Optimizer&lt;/strong>, may not properly work with antivirus programs. You will need to manually exclude them.&lt;/p>
+&lt;p>&lt;a href="https://support.microsoft.com/en-us/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26">Follow these instructions to add exclusions to Windows Defender.&lt;/a>&lt;/p>
 &lt;h2 id="tool-setup">Tool Setup&lt;/h2>
 &lt;p>Almost all tools included with SME are automatically configured for you. However, there are exceptions as some tools cannot be shipped with custom profiles so you will have to create them for yourself.&lt;/p>
 &lt;h3 id="loot">LOOT&lt;/h3>
@@ -114,6 +124,12 @@
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sme/loot-update-path.png" alt="LOOT Update Path">&lt;/p>
 &lt;p>This will update the game path for SME only thanks to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/60864">LOOT Config Loader for Mod Organizer&lt;/a> which created a separate &lt;code>settings.toml&lt;/code> for SME under &lt;code>\Mod Organizer 2\Loot Config Files\&lt;/code>. Any global instance of LOOT or installations in different mod setups will be unaffected.&lt;/p>
+&lt;h3 id="wrye-bash">Wrye Bash&lt;/h3>
+&lt;p>The argument setting the Data Folder location for WB will not be automatically adjusted by Wabbajack so you need to do it manually.&lt;/p>
+&lt;ul>
+&lt;li>In the &lt;strong>Executable Settings&lt;/strong>, modify the argument to match your Game Root folder path:&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sme/wrye-bash-setup.png" alt="Wrye Bash Setup">&lt;/p>
 &lt;h3 id="zedit">zEdit&lt;/h3>
 &lt;p>If you want to configure zEdit for SME, follow these steps:&lt;/p>
 &lt;ul>
@@ -126,7 +142,14 @@
 &lt;li>Point &lt;strong>Path&lt;/strong> at the &lt;strong>Game Root&lt;/strong> folder within your SME installation.&lt;/li>
 &lt;li>Make sure this profile is selected when using any zEdit module with SME.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sme/zedit-sme-profile.png" alt="zEdit Profiles Settings">&lt;/p></description></item><item><title>Skyrim-Se: Documentation</title><link>https://thephoenixflavour.com/skyrim-se/sme/documentation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/documentation/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sme/zedit-sme-profile.png" alt="zEdit Profiles Settings">&lt;/p>
+&lt;h3 id="bodyslide--outfit-studio">BodySlide &amp;amp; Outfit Studio&lt;/h3>
+&lt;p>In order for BodySlide/Outfit Studio to find your game files, you may need to update the folder path in the settings of the respective tool.&lt;/p>
+&lt;ul>
+&lt;li>Run &lt;strong>BodySlide&lt;/strong> or &lt;strong>Outfit Studio&lt;/strong> and go into the &lt;strong>Settings&lt;/strong>&lt;/li>
+&lt;li>Make sure the &lt;strong>Game Data Path&lt;/strong> points to your &lt;strong>Game Root&lt;/strong> folder.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sme/bodyslide-setup.png" alt="BodySlide Setup">&lt;/p></description></item><item><title>Skyrim-Se: Documentation</title><link>https://thephoenixflavour.com/skyrim-se/sme/documentation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/documentation/</guid><description>
 &lt;h2 id="creation-club">Creation Club&lt;/h2>
 &lt;p>&lt;strong>SSE Modding Essentials&lt;/strong> does not require the full AE DLC, but it does include the four free Creations (Fishing, Survival, Rare Curios, Saints &amp;amp; Seducers) because they are required dependencies for the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/266">Unofficial Skyrim Special Edition Patch&lt;/a>. They are located inside the &amp;ldquo;Creation Club Content&amp;rdquo; folder at the top of your mod order.&lt;/p>
 &lt;h3 id="creation-organizer">Creation Organizer&lt;/h3>
@@ -153,10 +176,13 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/201">BodySlide and Outfit Studio&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/52313">EasyNPC&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>Terrain LOD generated with SSELODGen will be placed in &lt;code>Skyrim Modding Essentials\Tools\xLODGen\Output\&lt;/code>. Move it from there into the mods folder.&lt;/p>
-&lt;p>Though BethINI is included, I did not regenerate the INI files. The SME profile in Mod Organizer 2 is using Skyrim&amp;rsquo;s default INIs with the High preset.&lt;/p>
+&lt;p>Terrain LOD generated with SSELODGen will be placed in &lt;code>Skyrim Modding Essentials\Tools\xLODGen\Output\&lt;/code>. Move it from there into the mods folder. It is recommended to change the xLODGen output to a location &lt;em>outside&lt;/em> your MO2 folder before generating terrain LOD.&lt;/p>
+&lt;p>Though BethINI is included, I did not regenerate the INI files. The SME profile in Mod Organizer 2 is using Skyrim&amp;rsquo;s default INIs with the High preset. Profile-specific INI files are enable.&lt;/p>
 &lt;p>Make backups of your load order before running Wrye Bash. It may sometimes try to deactivate your plugins and reorder them alphabetically.&lt;/p>
 &lt;p>I added LOOT because it can be quite useful for curating your own load order and master list, but please do not just click &amp;ldquo;Sort&amp;rdquo; and expect your setup to be magically perfected.&lt;/p>
+&lt;blockquote>
+&lt;p>For more information for LOD generation, please check &lt;a href="https://github.com/The-Animonculory/Modding-Resources/blob/main/DynDOLOD.md">Althro&amp;rsquo;s guide&lt;/a>.&lt;/p>
+&lt;/blockquote>
 &lt;h3 id="mo2-plugins">MO2 Plugins&lt;/h3>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/deorder/mo2-plugins">deorder&amp;rsquo;s plugins&lt;/a>&lt;/li>
@@ -165,9 +191,11 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/69813">NIF Preview&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/60864">LOOT Config Loader&lt;/a>, see &lt;a href="https://github.com/Exit-9B/LOOTConfigLoader/blob/main/README.md">Github&lt;/a> for documentation&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/66329">Creation Organizer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/31720">Kezyma&amp;rsquo;s Root Builder&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/60690">Kezyma&amp;rsquo;s Profile Sync&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>LOOT Preventifier (from LostDragonist&amp;rsquo;s MO2 Plugins) was also included, but disabled by default.&lt;/p>
-&lt;p>When opening a tool for the first time, you may be asked to change the file path to the game in the registry. This is required for some tools like LOOT to work properly and you should click OK. For more information, check the &lt;a href="https://www.nexusmods.com/site/mods/82">mod page&lt;/a>.&lt;/p>
+&lt;p>Many of these plugins do nothing until they&amp;rsquo;ve been configured. Check their mod pages for details.&lt;/p>
 &lt;h3 id="sseedit">SSEEdit&lt;/h3>
 &lt;p>Generated cache for SSEEdit will be saved to a &amp;ldquo;cache&amp;rdquo; folder within the SSEEdit installation directory (&lt;code>Modding Essentials\Tools\SSEEdit\&lt;/code>), and plugin backups will be saved to a &amp;ldquo;backups&amp;rdquo; folder within the same directory. The prompt which warns about making changes to plugins was disabled with the &lt;code>-IKnowWhatImDoing&lt;/code> argument.&lt;/p>
 &lt;p>The QuickAutoClean exe was also added with the &lt;code>-DontCache&lt;/code> argument in case you wish to clean the official master files (without this argument, the cleaning would nuke parts of Apocrypha).&lt;/p>
@@ -264,6 +292,30 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71524">Cumulative Fix for Eye Meshes&lt;/a>, the underwater fix removes blending on the lashes which can look really weird so you may want to use the version without that fix.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72213">Farm Hat 01 Clipping Fix&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sme/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/changelog/</guid><description>
+&lt;h2 id="release-13">Release 1.3&lt;/h2>
+&lt;blockquote>
+&lt;p>11/08/2022&lt;/p>
+&lt;/blockquote>
+&lt;p>Small maintenance update and expanded documentation.&lt;/p>
+&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;ul>
+&lt;li>Added Root Builder (MO2 plugin)&lt;/li>
+&lt;li>Added Profile Sync (MO2 plugin)&lt;/li>
+&lt;li>Updated SSE Creation Fixes Update to 3.3&lt;/li>
+&lt;li>Updated powerofthree&amp;rsquo;s Papyrus Extender to 5.2&lt;/li>
+&lt;li>Updated College of Winterhold Quest Start Fixes to 0.4&lt;/li>
+&lt;li>Updated DynDOLOD Resources to 3 Alpha 28&lt;/li>
+&lt;li>Restored proper SSE Display Tweaks Custom INI (doesn&amp;rsquo;t currently modify resolution)&lt;/li>
+&lt;/ul>
+&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Installation:&lt;/strong> Added .NET 6.0 SDK installation instructions (Synthesis prerequisite)&lt;/li>
+&lt;li>&lt;strong>Installation:&lt;/strong> Added a warning about antivirus programs and recommended setting exclusions&lt;/li>
+&lt;li>&lt;strong>Installation:&lt;/strong> Added Wrye Bash setup instructions&lt;/li>
+&lt;li>&lt;strong>Installation:&lt;/strong> Added BodySlide setup instructions&lt;/li>
+&lt;li>&lt;strong>Documentation:&lt;/strong> Added warning to generate terrain LOD to a location outside the MO2 directory&lt;/li>
+&lt;li>&lt;strong>Documentation:&lt;/strong> Added link to Althro&amp;rsquo;s guide to LOD generation&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-121">Release 1.2.1&lt;/h2>
 &lt;blockquote>
 &lt;p>31/07/2022&lt;/p>
@@ -277,7 +329,7 @@
 &lt;/blockquote>
 &lt;p>With this update, I migrated the SME documentation to the new Skyrim SE Lists section of the website which breaks all links. I fixed those I could think of but might have missed some in which case please let me know on Discord.&lt;/p>
 &lt;p>In other news, I disabled the Fix Game Registry Path plugin for now. It is very convenient for LOOT (which uses the registry key to locate the game), but isn&amp;rsquo;t really needed for anything else and also breaks Creation Organizer. On top of that, it becomes cumbersome to constantly update the path when swapping between modded setups. I found a different solution for making LOOT work.&lt;/p>
-&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Quest Journal Limit Bug Fixer&lt;/li>
 &lt;li>Added Enhanced Invisibility&lt;/li>
@@ -292,7 +344,7 @@
 &lt;li>Removed Modern Toggle Walk-Run Fix&lt;/li>
 &lt;li>Fix Game Registry Path is now disabled by default&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Introduction:&lt;/strong> Fixed loadorderlibrary.com link for SME under Features&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Improved the MO2 prerequisites section and added NET 4.8&lt;/li>
