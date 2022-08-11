@@ -18,7 +18,7 @@
 &lt;/ul>
 &lt;p>SME uses the Stock Game folder system. That means the setup includes a unique copy of your vanilla game, ensuring the setup is completely standalone and whatever you keep in your default installation folder will not affect the setup at all. This is a lifesaver when you keep more than one instance of MO2. Setting up all tools for Stock Game folder can be a little annoying so you&amp;rsquo;re welcome, it&amp;rsquo;s all done for you.&lt;/p>
 &lt;h2 id="installation">Installation&lt;/h2>
-&lt;p>Please refer to the &lt;a href="https://thephoenixflavour.com/sme/installation/">Installation&lt;/a> page.&lt;/p>
+&lt;p>Please refer to the &lt;a href="https://thephoenixflavour.com/skyrim-se/sme/installation/">Installation&lt;/a> page.&lt;/p>
 &lt;h2 id="faq">FAQ&lt;/h2>
 &lt;p>&lt;strong>What about VSYNC?&lt;/strong>&lt;/p>
 &lt;p>VSYNC is forced through SSE Display Tweaks by default which is preferable to Skyrim&amp;rsquo;s native VSYNC, or ENB VSYNC. In other words, there is nothing you need to change.&lt;/p>
