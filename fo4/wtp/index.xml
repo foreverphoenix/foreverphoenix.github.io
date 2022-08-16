@@ -445,7 +445,7 @@ fPipboyEffectColorR=0.3760
 &lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/28204">Grey Tortoise Cigarettes Redux&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/1500">Bottles Label Overhaul&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/32224">Sweet Roll 5000&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/20399">Retextured Water - By Ben Ephla&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/59380">Drinkable Water Retexture&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/45675">Gold Bars - FNV Dead Money Inspired Replacer&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/8087">Better Ammo Boxes&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/8879">Duffle Bag Retexture 2K&lt;/a>&lt;/li>
@@ -921,9 +921,45 @@ uPipboyTargetWidth=876
 &lt;h2 id="flickering-puddles">Flickering puddles&lt;/h2>
 &lt;p>&lt;del>This is a persistent issue with cubemaps. We have a fix for it, &lt;a href="https://www.nexusmods.com/fallout4/mods/46787">Fixed flickering puddles&lt;/a>, &lt;del>but the bug still occurs and I&amp;rsquo;m honestly clueless.&lt;/del> I fixed the fix in WTP 1.6 and it should be fine now although the flickering does still seem to happen during rain storms for whatever reason.&lt;/del>&lt;/p>
 &lt;p>&lt;del>Puddles were removed altogether by &lt;a href="https://www.nexusmods.com/fallout4/mods/31991">Clarity - A Visual Overhaul&lt;/a> which was added in WTP 2.0 and should eliminate the issue for good.&lt;/del>&lt;/p>
-&lt;p>&lt;strong>As of WTP 2.5, puddles were re-enabled and should no longer flicker!&lt;/strong> This is possible thanks to &lt;a href="https://www.nexusmods.com/fallout4/mods/62207?">fadingsignal&amp;rsquo;s fix&lt;/a> and an update to ENB.&lt;/p>
+&lt;p>&lt;strong>As of WTP 2.5, puddles were re-enabled and should no longer flicker!&lt;/strong> This is possible thanks to &lt;a href="https://www.nexusmods.com/fallout4/mods/62207?">fadingsignal&amp;rsquo;s fix&lt;/a> and an ENB update.&lt;/p>
 &lt;h2 id="load-screens-appear-frozen">Load screens appear frozen&lt;/h2>
-&lt;p>In loading screens, there is no spinning object and the loading symbol is not animated. This is actually not a bug, but a feature. Disabling animations in loading screens apparently increases load times. It was done in the High FPS Physics Fix custom INI file.&lt;/p></description></item><item><title>Fo4: Changelog</title><link>https://thephoenixflavour.com/fo4/wtp/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fo4/wtp/changelog/</guid><description>
+&lt;p>In loading screens, there is no spinning object and the loading symbol is not animated. This is actually not a bug, but a feature. Disabling animations in loading screens apparently increases load times. It was done in the High FPS Physics Fix custom INI file.&lt;/p>
+&lt;h2 id="empty-crafting-bench-category">Empty crafting bench category&lt;/h2>
+&lt;p>Currently (since WTP 2.6?) there is an emtpy category in the Crafting (chem) Bench. If you click on it, you CANNOT back out again so please don&amp;rsquo;t click on. I hope to be able to fix this soon.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/empty-chem-bench-category.jpg" alt="Emtpy Chem Bench Category">&lt;/p></description></item><item><title>Fo4: Changelog</title><link>https://thephoenixflavour.com/fo4/wtp/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fo4/wtp/changelog/</guid><description>
+&lt;h2 id="release-261">Release 2.6.1&lt;/h2>
+&lt;blockquote>
+&lt;p>16/08/2022&lt;/p>
+&lt;/blockquote>
+&lt;p>All I wanted to do was fix WJ installations failing due to the xLODGen archives, but then DoubleYou went and published more LOD improvements, so I had to regenerate terrain and object LODs, and things kind of escalated from there. Anyway, this is a semi-minor update that is of course safe save and makes (distant) trees look better, especially on Far Harbor.&lt;/p>
+&lt;p>&lt;strong>KNOWN ISSUE:&lt;/strong> Currently there is an empty category in the Crafting (chem) Bench. If you click it YOU CAN&amp;rsquo;T BACK OUT so, uhh, don&amp;rsquo;t click it. I have no idea what is causing it but I&amp;rsquo;ll investigate further.&lt;/p>
+&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;ul>
+&lt;li>Added BSArchPro (irrelevant for users)&lt;/li>
+&lt;li>Added Fall UI No 3D in Barter Menu&lt;/li>
+&lt;li>Added Better Landscape Grass&lt;/li>
+&lt;li>Added NukaWorld HiRez FakeRocks&lt;/li>
+&lt;li>Added Drinkable Water Retexture&lt;/li>
+&lt;li>Added Wasteland Workshop Snappable Posters&lt;/li>
+&lt;li>Added Five Wall Corners&lt;/li>
+&lt;li>Added Optimised Vanilla Tree LODs&lt;/li>
+&lt;li>Added Far Harbor 3D Tree LODs&lt;/li>
+&lt;li>Re-added Fixed Gobo Effects&lt;/li>
+&lt;li>Updated Workshop Framework to 2.2.3&lt;/li>
+&lt;li>Updated Fixed Alpha Maps to 6.1&lt;/li>
+&lt;li>Updated Targeted Textures to 1.2&lt;/li>
+&lt;li>Updated Perk Up to 1.2&lt;/li>
+&lt;li>Removed Retextured Water - By Ben Ephla&lt;/li>
+&lt;li>Removed xLODGen archives that was causing installs to fail (sorry)&lt;/li>
+&lt;li>Repacked the Texture Pack - Clutter BA2s&lt;/li>
+&lt;li>Slightly modified the Upgradable Vault Suit crafting station category for consistency&lt;/li>
+&lt;li>Regenerated terrain and object LOD&lt;/li>
+&lt;/ul>
+&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Documentation:&lt;/strong> Minor updates for newly added mods&lt;/li>
+&lt;li>&lt;strong>Known Issues:&lt;/strong> Added empty Crafting Bench category issue&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-26">Release 2.6&lt;/h2>
 &lt;blockquote>
 &lt;p>12/08/2022&lt;/p>
@@ -932,7 +968,7 @@ uPipboyTargetWidth=876
 &lt;p>WTP now features &lt;a href="https://www.nexusmods.com/fallout4/mods/62843">Perk Up - Lightweight Perk Overhaul&lt;/a>, one of a collection of mods by SpringHeelJon for his new Wabbajack list, &lt;a href="https://www.nexusmods.com/fallout4/mods/62880">FUSION&lt;/a>, which you should definitely check out!&lt;/p>
 &lt;p>I also added &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/31720">Kezyma&amp;rsquo;s Root Builder&lt;/a> which means moving the Game Folder Files is no longer required. Instead, all files that need to be inside the root folder will be moved there by the plugin when you launch the game, and removed again when you close it. Existing WTP users should clear out existing GFF files from their root folder.&lt;/p>
 &lt;p>Also I finally got around to generating custom terrain and object LOD for this update.&lt;/p>
-&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added FO4LODGen&lt;/li>
 &lt;li>Added Kezyma&amp;rsquo;s Root Builder (MO2 plugin)&lt;/li>
@@ -969,7 +1005,7 @@ uPipboyTargetWidth=876
 &lt;li>Renamed some custom plugins&lt;/li>
 &lt;li>ESL-flagged Some Assembly Required - WTP Patch&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Removed Game Folder Files instructions (no longer necessary with Root Builder)&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Removed Easy Lockpicking and Hacking section (mod removed in favour of Perk Up)&lt;/li>
@@ -983,7 +1019,7 @@ uPipboyTargetWidth=876
 &lt;p>This update is coming with some site restructuring: The entire WTP documentation was moved to the new Fallout 4 Lists section and as a result, all links are broken. I fixed those I could find, let me know if you find any that are still leading into the void. I also took the opportunity to restructure the pages somewhat, particularly the Documentation.&lt;/p>
 &lt;p>I also removed the mod Facials for Everyone because of persistent performance issues. Fallout 4 has an issue where long levelled lists for NPC templates considerably degrade performance, so Facials offered a &amp;ldquo;lite&amp;rdquo; version with a shorter LList for that reason and WTP was using that. But I still got plenty of reports for stutters that were fixed by disabling facials and decided to boot the mod.&lt;/p>
 &lt;p>Also puddles were re-enable and should no longer flicker. Yay!&lt;/p>
-&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-2">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Simple Puddle Reflection Flicker Fix&lt;/li>
 &lt;li>Added Gloomy Glass - All Transparent Materials Revised&lt;/li>
@@ -1017,7 +1053,7 @@ uPipboyTargetWidth=876
 &lt;li>Fixed load order for SyringerAmmoSimplerIngredientsAlternate.esp&lt;/li>
 &lt;li>Re-enabled puddles which should now be flicker-free at last&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-2">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Moved Requirements here and added MO2 Prerequisites sub section&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Instructions for the CC Modular Military Backpack were rewritten and moved here&lt;/li>
@@ -1033,7 +1069,7 @@ uPipboyTargetWidth=876
 &lt;p>If you don&amp;rsquo;t want to start a new game for this, you need to manually restart the quest for Diamond City Radio Extended ingame. Open the console and run the following two commands:&lt;/p>
 &lt;pre>&lt;code>stopquest radiodiamondcity
 startquest radiodiamondcity
-&lt;/code>&lt;/pre>&lt;h4 id="mod-changes-2">Mod Changes&lt;/h4>
+&lt;/code>&lt;/pre>&lt;h4 id="mod-changes-3">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Atom Cats Drag Race Start Fix&lt;/li>
 &lt;li>Added CC&amp;rsquo;s UHD APC 4K (packed into a BA2)&lt;/li>
@@ -1071,7 +1107,7 @@ startquest radiodiamondcity
 &lt;li>Fixed broken names on Far Harbor / Nuka World weapons&lt;/li>
 &lt;li>Fixed some insanely difficult to see errors in the scrap tags for three different Lit Cigar records&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-2">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-3">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/documentation/mcm-settings/">MCM Settings&lt;/a>: Updated for the new changes (specifically in the FallUI mod MCMs)&lt;/li>
 &lt;/ul>
@@ -1080,7 +1116,7 @@ startquest radiodiamondcity
 &lt;p>30/04/2022&lt;/p>
 &lt;/blockquote>
 &lt;p>Small update. Yes, it&amp;rsquo;s save-safe.&lt;/p>
-&lt;h4 id="mod-changes-3">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-4">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added DiamondTheWall Retexture (packed into a BA2)&lt;/li>
 &lt;li>Added CC&amp;rsquo;s UHD UFO 4K (packed into a BA2)&lt;/li>
@@ -1098,7 +1134,7 @@ startquest radiodiamondcity
 &lt;p>03/04/2022&lt;/p>
 &lt;/blockquote>
 &lt;p>Another minor update, mostly to address performance concerns and to fix ambient occlusion being enabled in the INIs.&lt;/p>
-&lt;h4 id="mod-changes-4">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-5">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Overboss Colter Fix (used to be part or PRP)&lt;/li>
 &lt;li>Updated Workshop Framework to 2.0.22&lt;/li>
@@ -1106,7 +1142,7 @@ startquest radiodiamondcity
 &lt;li>Disabled ambient occlusion in the default INIs (it was accidentally left enabled in the previous update, sorry about that)&lt;/li>
 &lt;li>Added a set of performance INIs that should yield a better framerate on lower end PCs&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-3">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-4">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Introduction:&lt;/strong> Moved the requirements here from the Installation page&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added the Performance INI section&lt;/li>
@@ -1118,7 +1154,7 @@ startquest radiodiamondcity
 &lt;p>28/03/2022&lt;/p>
 &lt;/blockquote>
 &lt;p>This is a quick maintenance update for WTP because I&amp;rsquo;m a dummy and deleted the enbseries zip from the CDN. I did take the opportunity to add a new, high-res map retexture which required me to adjust the MCM settings for FallUI Map a bit. While I was at it, I changed the Wait hotkey to CTRL + T so it doesn&amp;rsquo;t accidentally trigger while renaming a weapon. Finally, I also regenerated INIs with the new version of BethINI, hope I didn&amp;rsquo;t forget about any custom tweaks. I may add performance INIs in the future if people find this set to be too demanding.&lt;/p>
-&lt;h4 id="mod-changes-5">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-6">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Glass Roofs Stop Rain and Snow - Vanilla Green House Roof&lt;/li>
 &lt;li>Added Collection Improved Maps&lt;/li>
@@ -1132,7 +1168,7 @@ startquest radiodiamondcity
 &lt;li>Fixed enbseries link which took down 2.3 (very sorry about that)&lt;/li>
 &lt;li>Regenerated INI files&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-4">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-5">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>GFF &amp;amp; INI Settings:&lt;/strong> Now documenting my INI tweaks on this page.&lt;/li>
 &lt;li>&lt;strong>MCM Settings:&lt;/strong> Updated Baka Wait Anywhere settings and added FallUI Map settings.&lt;/li>
@@ -1150,7 +1186,7 @@ startquest radiodiamondcity
 &lt;li>&lt;a href="https://www.nexusmods.com/fallout4/mods/37180">Facials for Everyone&lt;/a> expands the face preset lists without affecting performance.&lt;/li>
 &lt;/ul>
 &lt;p>Please note that I have not tested this update extensively. That being said, I do not anticipate any major issues.&lt;/p>
-&lt;h4 id="mod-changes-6">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-7">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Spectrum ENB&lt;/li>
 &lt;li>Added Lightweight Lighting - A Weather and Interior Lighting Overhaul&lt;/li>
@@ -1181,7 +1217,7 @@ startquest radiodiamondcity
 &lt;li>Easy Lockpicking and Hacking is now disabled by default&lt;/li>
 &lt;li>Place Everywhere mode is now on by default&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-5">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-6">Website Changes&lt;/h4>
 &lt;p>With this update, I gave the website a much-needed once over. Most improvements are relatively minor and were not documented.&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Introduction:&lt;/strong> Slightly restructured the page and updated the feature list.&lt;/li>
@@ -1199,7 +1235,7 @@ startquest radiodiamondcity
 &lt;p>In other news, I re-added Ultrawide (21:9) support. Folks with 2560x1080 or 3440x1440 monitor resolutions will now be able to play with a properly adjusted UI.&lt;/p>
 &lt;p>&lt;strong>This update is NOT save-safe.&lt;/strong>&lt;/p>
 &lt;p>Remember to copy over Game Folder Files again to update the ENB preset.&lt;/p>
-&lt;h4 id="mod-changes-7">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-8">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added ENB Helper for Fallout 4&lt;/li>
 &lt;li>Added MCM Booster&lt;/li>
@@ -1214,7 +1250,7 @@ startquest radiodiamondcity
 &lt;li>Fixed Place Everywhere INI (keybinds were F2, F3 instead of F1, F2 - thanks, Dargor!)&lt;/li>
 &lt;li>Minor edits to the Conflict Resolution Patch&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-6">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-7">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/finalisation/">Finalisation&lt;/a>: Added section with instructions for ultrawide compatibility.&lt;/li>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/mod-config/">Mod Config&lt;/a>: Updated the MCM preset instructions to account for the new 21:9 preset.&lt;/li>
@@ -1226,7 +1262,7 @@ startquest radiodiamondcity
 &lt;/blockquote>
 &lt;p>This is a small maintenance update, largely to bring you the recent FallOpt ENB improvements.&lt;/p>
 &lt;p>This update is &lt;strong>save-safe&lt;/strong>. Please copy over game folder files once again as the ENB files updated.&lt;/p>
-&lt;h4 id="mod-changes-8">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-9">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated Workshop Framework to 2.0.18a&lt;/li>
 &lt;li>Updated MCM Settings Manager to 1.0.3&lt;/li>
@@ -1262,7 +1298,7 @@ startquest radiodiamondcity
 &lt;p>Workshop Re-arranged is a pretty great workshop overhaul. Unfortunately, it&amp;rsquo;s also extremely difficult to work with on account of its rebalancing edits which change many of the building requirements as well as junk scrap yields. I finally decided to ditch the mod and return to smaller, individual workshop additions.&lt;/p>
 &lt;p>&lt;strong>BOS Power Armor Paint Jobs:&lt;/strong>&lt;/p>
 &lt;p>I realised that without the stat changes, there is no need to have separate Knight/Paladin/Sentinel paint jobs for the power armor as they are visually identical. The exception is the Left Arm piece which displays the rank insignia. I rectified this by adding a single &amp;ldquo;Brotherhood of Steel&amp;rdquo; paint job that can be applied to any piece of power armor, then limiting the rank-specific paint job to Left Arm pieces. Problem solved!&lt;/p>
-&lt;h4 id="mod-changes-9">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-10">Mod Changes&lt;/h4>
 &lt;p>&lt;strong>New Additions&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>Added FallOpt ENB&lt;/li>
@@ -1400,7 +1436,7 @@ startquest radiodiamondcity
 &lt;li>Sort button above the load order in MO2 was removed&lt;/li>
 &lt;li>Installed NifSkope as an additional tool&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-7">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-8">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/finalisation/">Finalisation&lt;/a>: Removed the LUTs section&lt;/li>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/finalisation/">Finalisation&lt;/a>: Removed VSYNC section (it is now always enabled as it should be)&lt;/li>
@@ -1424,7 +1460,7 @@ startquest radiodiamondcity
 &lt;/blockquote>
 &lt;p>This update finally brings back WTP after an extended downtime due to Nexit. I was extremely unhappy to remove the Stormy Nights main menu replacer and Full Dialogue Interface (for which the string patch was taken down), but there is nothing to be done. I apologise that it took me so long to bring WTP back, it remains more of a smaller side project for me and sadly I have not felt the Fallout 4 itch in quite some time. Nevertheless, the list has always been doing surprisingly well, much better than I had expected, so I will definitely continue to maintain it.&lt;/p>
 &lt;p>This is update is &lt;strong>not save-safe&lt;/strong>. Please copy over the Game Folder Files into your root folder once again as the ENB binaries were updated.&lt;/p>
-&lt;h4 id="mod-changes-10">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-11">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Disabled frame limit in enblocal.ini (oversight from when I reinstalled ENBSeries in 1.6.2)&lt;/li>
 &lt;li>Enabled VSYNC in High FPS Physics Fix (should always be on)&lt;/li>
@@ -1447,7 +1483,7 @@ startquest radiodiamondcity
 &lt;/blockquote>
 &lt;p>This is just a quick update to fix two minor issues and update a couple of mods. Since Wabbajack updated to 2.5.0.0, I had to recompile anyway.&lt;/p>
 &lt;p>Update your &lt;strong>Game Folder Files&lt;/strong> to get the new ENBSeries binaries. The update is &lt;strong>save safe&lt;/strong>.&lt;/p>
-&lt;h4 id="mod-changes-11">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-12">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated ENBSeries to 0.458&lt;/li>
 &lt;li>Updated the Unofficial Fallout 4 Patch to 2.1.3&lt;/li>
@@ -1465,7 +1501,7 @@ startquest radiodiamondcity
 &lt;/blockquote>
 &lt;p>As it turns out, I got sloppy last night. I&amp;rsquo;d already recompiled once when &lt;a href="https://www.nexusmods.com/fallout4/mods/41178">Bullet Counted Reload System&lt;/a> updated and part of the update was support for &lt;a href="https://www.nexusmods.com/fallout4/mods/49444">Tactical Reload&lt;/a>. I dropped in both, did a cursory check in xEdit, fixed some conflicts, and called it a day. Evidently I shouldn&amp;rsquo;t have done that as something about the combination has caused frequent crashes in WTP 1.6 that was reported twice so far and I was able to reproduce it on my end. Dropping Tactical Reload fixed it so at least there was an easy solution. I haven&amp;rsquo;t investigated further why exactly the crashes happen because I frankly don&amp;rsquo;t care about the mod that much and don&amp;rsquo;t have time today either.&lt;/p>
 &lt;p>This update is &lt;strong>save safe&lt;/strong>. It&amp;rsquo;s a crash fix. You&amp;rsquo;ll be asked about missing plugins when loading your save, click Yes.&lt;/p>
-&lt;h4 id="mod-changes-12">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-13">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Removed Tactical Reload&lt;/li>
 &lt;li>Replaced the TR version of BCR Lever Action Rifle with the regular one&lt;/li>
@@ -1479,7 +1515,7 @@ startquest radiodiamondcity
 &lt;p>For this update I checked out the new &lt;strong>FallUI&lt;/strong> suite of interface replacers and took the opportunity to review WTP&amp;rsquo;s existing interface mods. I came to the decision to once again remove &lt;a href="https://www.nexusmods.com/fallout4/mods/27216">Extended Dialogue Interface&lt;/a> and revert to &lt;a href="https://www.nexusmods.com/fallout4/mods/1235">Full Dialogue Interface&lt;/a> which I like far better. After careful consideration, I decided &lt;em>against&lt;/em> including &lt;a href="https://www.nexusmods.com/fallout4/mods/51813">FallUI - HUD&lt;/a> because even with my DEF_UI HUD preset, it would make item pickup prompts look &lt;a href="https://i.imgur.com/Bd9w9VZ.jpg">weird&lt;/a> with a huge gap between the item name and the button prompts. I also removed FallUI - Map because I didn&amp;rsquo;t like it. However, FallUI - HUD and FallUI - Map are still going to be installed in case someone wants them (but are disabled by default).&lt;/p>
 &lt;p>I also removed &lt;strong>Widescreen&lt;/strong> support. I can&amp;rsquo;t test it, it&amp;rsquo;s additional headache, I&amp;rsquo;d have to write extra instructions for changing the aspect ratio in the various FallUI MCMs. Sorry to everyone on ultrawide monitors, it&amp;rsquo;s just not worth the effort to me.&lt;/p>
 &lt;p>When updating, please also move the Game Folder Files into your root folder and overwrite (ENB binaries updated).&lt;/p>
-&lt;h4 id="mod-changes-13">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-14">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added zEdit (I needed it for one merge)&lt;/li>
 &lt;li>Added deorder&amp;rsquo;s MO2 Plugins (only useful for me)&lt;/li>
@@ -1566,7 +1602,7 @@ startquest radiodiamondcity
 &lt;p>Until now fadingsignal&amp;rsquo;s K-9 Harness for Dogmeat could be crafted at the crafting station which was the original implementation. I have never been happy with this and in this update I finally did something about it. You can now find exactly &lt;em>one&lt;/em> K-9 Harness in the world. The location happens to be a police station for obvious reasons - if you want to know where exactly you can find it, double-click the new K-9 Integration Patch in Mod Organizer 2 and check the &lt;strong>Notes&lt;/strong> tab.&lt;/p>
 &lt;p>&lt;strong>Creation Club&lt;/strong>&lt;/p>
 &lt;p>WTP 1.6 adds &lt;em>optional&lt;/em> support for some &amp;ldquo;creations&amp;rdquo; (only the Modular Military Backpack so far). You can find details and instructions &lt;a href="https://thephoenixflavour.com/fallout-4/wtp/wtp-resources/creation-club">here&lt;/a>.&lt;/p>
-&lt;h4 id="website-changes-8">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-9">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated a bunch of pages. Added stuff on the &lt;strong>Finalisation&lt;/strong> page. Don&amp;rsquo;t remember everything.&lt;/li>
 &lt;li>Added a link for LostDragonist&amp;rsquo;s Steam Library Setup Tool on the &lt;strong>Fallout 4&lt;/strong> page.&lt;/li>
@@ -1580,7 +1616,7 @@ startquest radiodiamondcity
 &lt;p>06/04/2021&lt;/p>
 &lt;/blockquote>
 &lt;p>This update is safe-save. Copy over the GFF into your root folder and overwrite (ENB binaries updated).&lt;/p>
-&lt;h4 id="mod-changes-14">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-15">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated Mod Organizer 2 to 2.4.1&lt;/li>
 &lt;li>Re-arranged and re-coloured MO2 separators&lt;/li>
@@ -1598,7 +1634,7 @@ startquest radiodiamondcity
 &lt;li>Added No Quest Autostart - Nuka World&lt;/li>
 &lt;li>Removed some unnecessary stuff from the Phoenix Tweaks plugin&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-9">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-10">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Finalisation:&lt;/strong> Shortened the Resolution section and moved Ultrawide tweaks to this page.&lt;/li>
 &lt;li>&lt;strong>Ultrawide:&lt;/strong> Removed this page.&lt;/li>
@@ -1633,7 +1669,7 @@ startquest radiodiamondcity
 &lt;blockquote>
 &lt;p>06/03/2021&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-15">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-16">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated Mod Organizer 2 to 2.4.0&lt;/li>
 &lt;li>Tweaked Pipboy INI settings (increased resolution, disabled fx)&lt;/li>
@@ -1690,7 +1726,7 @@ startquest radiodiamondcity
 &lt;h4 id="simple-sorting-overhaul">Simple Sorting Overhaul&lt;/h4>
 &lt;p>As we have now switched to FallUI from DEF_INV, I updated my INNRs (naming rules) to have the same format as Ruddy&amp;rsquo;s sorting patcher that FallUI was intended for. That means mods for armors and weapons will be displayed in smaller font below the item name.&lt;/p>
 &lt;p>I did take a look at the &lt;a href="https://www.nexusmods.com/fallout4/mods/48826">Complex Sorter&lt;/a> for FallUI which would be very convenient for me but ultimately I prefer my own icons and INNRs. Plus they already cover my power armor changes and include my preferred power armor naming scheme.&lt;/p>
-&lt;h4 id="website-changes-10">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-11">Website Changes&lt;/h4>
 &lt;p>I went over all pages and fixed what I thought needed fixing. Screenshots were updated, sentences were rephrased, and instructions were clarified.&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Finalisation:&lt;/strong> Added instructions for the optional LUTs.&lt;/li>
@@ -1707,7 +1743,7 @@ startquest radiodiamondcity
 &lt;blockquote>
 &lt;p>26/11/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-16">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-17">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Re-enabled Authentic Handmade Weaponry (accidentally disabled the plugin in 1.4)&lt;/li>
 &lt;/ul>
@@ -1715,7 +1751,7 @@ startquest radiodiamondcity
 &lt;blockquote>
 &lt;p>23/11/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-17">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-18">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Weapon Debris Crash Fix&lt;/li>
 &lt;li>Added Sprint Stuttering Fix&lt;/li>
@@ -1742,7 +1778,7 @@ startquest radiodiamondcity
 &lt;p>24/10/2020&lt;/p>
 &lt;/blockquote>
 &lt;p>Just a minor fix and clean-up for yesterday&amp;rsquo;s update.&lt;/p>
-&lt;h4 id="mod-changes-18">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-19">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated Bullet Counted Reload System to 1.05b&lt;/li>
 &lt;li>Updated Workshop Framework to 2.0.3&lt;/li>
@@ -1753,7 +1789,7 @@ startquest radiodiamondcity
 &lt;p>23/10/2020&lt;/p>
 &lt;/blockquote>
 &lt;p>This update fixes a number of issues reported by users (thanks, guys!). I am also officially changing the list name to &lt;strong>Welcome to Paradise&lt;/strong>. The website, Discord channels, and Mod Organizer 2 profile have all been edited accordingly.&lt;/p>
-&lt;h4 id="mod-changes-19">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-20">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Hopefully fixed radio songs not playing for good&lt;/li>
 &lt;li>Updated xSE Plugin Preloader to 0.2.3 (XML unchanged, let me know if there are issues)&lt;/li>
@@ -1768,7 +1804,7 @@ startquest radiodiamondcity
 &lt;li>Unpacked custom BA2 for Bleak Beauty, Musical Lore, More Where That Came From, and Elvani&amp;rsquo;s Track Pack&lt;/li>
 &lt;li>Fixed some purple cars by reverting them to vanilla, it&amp;rsquo;s a band-aid fix but the best I could do&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-11">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-12">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Finalisation:&lt;/strong> Removed instructions for NVIDIA Inspector.&lt;/li>
 &lt;li>&lt;strong>Finalisation:&lt;/strong> Added instructions for the newly-added High FPS Physics Fix and my pre-configured INIs.&lt;/li>
@@ -1777,7 +1813,7 @@ startquest radiodiamondcity
 &lt;blockquote>
 &lt;p>01/10/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-20">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-21">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Actually fixed radio tracks not playing&lt;/li>
 &lt;li>Updated xSE Plugin Preloader to 0.2&lt;/li>
@@ -1787,7 +1823,7 @@ startquest radiodiamondcity
 &lt;blockquote>
 &lt;p>30/09/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-21">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-22">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated Buffout to 1.12.1&lt;/li>
 &lt;li>Placed the new Buffout TBB Redist plugin in the Game Folder Files folder&lt;/li>
@@ -1801,7 +1837,7 @@ startquest radiodiamondcity
 &lt;li>Updated Sweet Roll 5000 and rebuilt Clutter BA2s&lt;/li>
 &lt;li>Fixed Diamond City Radio tracks not playing (thanks Archie!)&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-12">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-13">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/finalisation/">Finalisation&lt;/a>: Added this new page and moved the game resolution instructions here.&lt;/li>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/finalisation/">Finalisation&lt;/a>: Added instructions on how to force VSYNC and cap the framerate.&lt;/li>
@@ -1812,7 +1848,7 @@ startquest radiodiamondcity
 &lt;blockquote>
 &lt;p>27/09/2020&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-22">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-23">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Now using Lively&amp;rsquo;s pppl.ini file&lt;/li>
 &lt;li>Updated Buffout to 1.11.0&lt;/li>
@@ -1823,7 +1859,7 @@ startquest radiodiamondcity
 &lt;li>Switched to the Alternative Version of Fixed Flickering Puddles (hopefully fixing black pre-war Codsworth)&lt;/li>
 &lt;li>Removed Skip raiding your own settlements (no time to troubleshoot the compilation error it causes)&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-13">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-14">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/wabbajack/">Wabbajack&lt;/a>: Added new section on how change the game resolution.&lt;/li>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/appendix/troubleshooting/">Troubleshooting&lt;/a>: Added this page with a few known issues.&lt;/li>
