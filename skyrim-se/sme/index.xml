@@ -78,6 +78,9 @@
 &lt;li>Find the &lt;a href="https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/">Creation Kit&lt;/a> Steam page (I recommend just using the search function in the Store).&lt;/li>
 &lt;li>Click install. The files will be placed into your default game folder.&lt;/li>
 &lt;/ul>
+&lt;blockquote>
+&lt;p>&lt;strong>This step is mandatory.&lt;/strong> Not having the CK installed or having the wrong version accounts for most failed installations reported on Discord.&lt;/p>
+&lt;/blockquote>
 &lt;h2 id="wabbajack-installation">Wabbajack Installation&lt;/h2>
 &lt;p>Next up you need to install the Wabbajack tool itself:&lt;/p>
 &lt;ul>
@@ -104,6 +107,7 @@
 &lt;p>In most cases the installation should complete successfully on the first try. The tool will let you know when it has.&lt;/p>
 &lt;h2 id="antivirus-exclusion">Antivirus Exclusion&lt;/h2>
 &lt;p>Certain tools, e.g., &lt;strong>Nemesis&lt;/strong> and &lt;strong>Cathedral Assets Optimizer&lt;/strong>, may not properly work with antivirus programs. You will need to manually exclude them.&lt;/p>
+&lt;p>Also add an exclusion for &lt;code>C:\Users\&amp;lt;UserName&amp;gt;\Appdata\Local\Nemesis&lt;/code> to prevent random errors while running Nemesis.&lt;/p>
 &lt;p>&lt;a href="https://support.microsoft.com/en-us/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26">Follow these instructions to add exclusions to Windows Defender.&lt;/a>&lt;/p>
 &lt;h2 id="tool-setup">Tool Setup&lt;/h2>
 &lt;p>Almost all tools included with SME are automatically configured for you. However, there are exceptions as some tools cannot be shipped with custom profiles so you will have to create them for yourself.&lt;/p>
@@ -130,6 +134,15 @@
 &lt;li>In the &lt;strong>Executable Settings&lt;/strong>, modify the argument to match your Game Root folder path:&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sme/wrye-bash-setup.png" alt="Wrye Bash Setup">&lt;/p>
+&lt;h3 id="synthesis">Synthesis&lt;/h3>
+&lt;p>For Synthesis to correctly read your Game Root folder, you need to update the file path in the settings:&lt;/p>
+&lt;ul>
+&lt;li>Upon first launching Synthesis, you will be asked which game you want to manage.&lt;/li>
+&lt;li>Select &lt;strong>Skyrim&lt;/strong> and then &lt;strong>Skyrim Special Edition&lt;/strong>.&lt;/li>
+&lt;li>Click the little gear icon in the upper right corner to open the &lt;strong>Settings&lt;/strong>.&lt;/li>
+&lt;li>Go to &lt;strong>Profiles&lt;/strong> and update the &lt;strong>Data Folder Location&lt;/strong> to match your Game Root folder path.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sme/synthesis-setup.png" alt="Synthesis Setup">&lt;/p>
 &lt;h3 id="zedit">zEdit&lt;/h3>
 &lt;p>If you want to configure zEdit for SME, follow these steps:&lt;/p>
 &lt;ul>
@@ -292,12 +305,33 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71524">Cumulative Fix for Eye Meshes&lt;/a>, the underwater fix removes blending on the lashes which can look really weird so you may want to use the version without that fix.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72213">Farm Hat 01 Clipping Fix&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sme/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/changelog/</guid><description>
+&lt;h2 id="release-14">Release 1.4&lt;/h2>
+&lt;blockquote>
+&lt;p>19/08/2022&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;ul>
+&lt;li>Added UIExtension&lt;/li>
+&lt;li>Added Hearthfires Houses Building Fix&lt;/li>
+&lt;li>Updated Synthesis to 0.23.7&lt;/li>
+&lt;li>Updated Assorted Mesh Fixes to 0.69&lt;/li>
+&lt;li>Fixed file structure for Keyboard Shortcuts Fixes (mod will actually work now)&lt;/li>
+&lt;li>Fixed Profile Sync failing when mod names contain special symbols&lt;/li>
+&lt;li>Root Builder is now disabled by default (as was originally intended)&lt;/li>
+&lt;li>Sync Mod Order is now disabled by default (succeeded by Profile Sync)&lt;/li>
+&lt;/ul>
+&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Installation:&lt;/strong> Added a note about the CK installation being mandatory&lt;/li>
+&lt;li>&lt;strong>Installation:&lt;/strong> Added a note to also set an AV exclusion for the appdata Nemesis folder&lt;/li>
+&lt;li>&lt;strong>Installation:&lt;/strong> Added Synthesis setup instructions&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-13">Release 1.3&lt;/h2>
 &lt;blockquote>
 &lt;p>11/08/2022&lt;/p>
 &lt;/blockquote>
 &lt;p>Small maintenance update and expanded documentation.&lt;/p>
-&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Root Builder (MO2 plugin)&lt;/li>
 &lt;li>Added Profile Sync (MO2 plugin)&lt;/li>
@@ -307,7 +341,7 @@
 &lt;li>Updated DynDOLOD Resources to 3 Alpha 28&lt;/li>
 &lt;li>Restored proper SSE Display Tweaks Custom INI (doesn&amp;rsquo;t currently modify resolution)&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added .NET 6.0 SDK installation instructions (Synthesis prerequisite)&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added a warning about antivirus programs and recommended setting exclusions&lt;/li>
@@ -329,7 +363,7 @@
 &lt;/blockquote>
 &lt;p>With this update, I migrated the SME documentation to the new Skyrim SE Lists section of the website which breaks all links. I fixed those I could think of but might have missed some in which case please let me know on Discord.&lt;/p>
 &lt;p>In other news, I disabled the Fix Game Registry Path plugin for now. It is very convenient for LOOT (which uses the registry key to locate the game), but isn&amp;rsquo;t really needed for anything else and also breaks Creation Organizer. On top of that, it becomes cumbersome to constantly update the path when swapping between modded setups. I found a different solution for making LOOT work.&lt;/p>
-&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-2">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Quest Journal Limit Bug Fixer&lt;/li>
 &lt;li>Added Enhanced Invisibility&lt;/li>
@@ -344,7 +378,7 @@
 &lt;li>Removed Modern Toggle Walk-Run Fix&lt;/li>
 &lt;li>Fix Game Registry Path is now disabled by default&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-2">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Introduction:&lt;/strong> Fixed loadorderlibrary.com link for SME under Features&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Improved the MO2 prerequisites section and added NET 4.8&lt;/li>
