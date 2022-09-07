@@ -29,7 +29,7 @@
 &lt;li>&lt;strong>New Quests:&lt;/strong> &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/15996">Project AHO&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4155">Clockwork&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1179">The Forgotten City&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6180">Undeath&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4301">Moon and Star&lt;/a> etc.;&lt;/li>
 &lt;li>&lt;strong>Followers:&lt;/strong> &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/29194">Interesting NPCs&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1461">Inigo&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20035">Lucien&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11278">Auri&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19075">Kaidan&lt;/a> etc.;&lt;/li>
 &lt;li>&lt;strong>Landscape:&lt;/strong> &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/66903">Seasonal Landscapes&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11052">Majestic Mountains&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/50961">Happy Little Trees&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2182">Realistic Water Two&lt;/a> etc.;&lt;/li>
-&lt;li>&lt;strong>Lightning:&lt;/strong> &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24791">Cathedral Weathers&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8586">Relightning Skyrim&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/16830">Luminosity Lightning Overhaul - The Cathedral Concept&lt;/a>;&lt;/li>
+&lt;li>&lt;strong>Lightning:&lt;/strong> &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24791">Cathedral Weathers&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8586">Relighting Skyrim&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/16830">Luminosity Lightning Overhaul - The Cathedral Concept&lt;/a>;&lt;/li>
 &lt;li>&lt;strong>ENB:&lt;/strong> &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/35082">PI-CHO ENB&lt;/a>;&lt;/li>
 &lt;li>&lt;strong>Minor Cities&amp;rsquo; Overhauls:&lt;/strong> Cities of the North series&amp;rsquo; mods by &lt;a href="https://www.nexusmods.com/skyrimspecialedition/users/19519279?tab=user+files">JPSteel2&lt;/a>, The Great Cities series&amp;rsquo; mods by &lt;a href="https://www.nexusmods.com/skyrimspecialedition/users/10182460?tab=user+files">soldierofwar&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25718">Rorikstead Basalt Cliffs&lt;/a> etc.;&lt;/li>
 &lt;li>&lt;strong>Upgrades for Major Cities:&lt;/strong> &lt;a href="https://www.nexusmods.com/skyrimspecialedition/users/1305814?tab=user+files">Jkrojmal&lt;/a>&amp;lsquo;s interior overhauls, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20514">Obscure&amp;rsquo;s College of Winterhold&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2414">Snazzy Furniture and Clutter Overhaul&lt;/a> etc.;&lt;/li>
@@ -42,7 +42,7 @@
 &lt;li>&amp;hellip;&lt;/li>
 &lt;/ul>
 &lt;br>
-&lt;p>&lt;a href="https://loadorderlibrary.com/lists/the-phoenix-flavour-dragons-edition" style="background: rgb(255, 153, 0) none repeat scroll 0% 0%; border-radius: 1000px; padding: 12px 25px; color: rgb(255, 255, 255); display: inline-block; font: bold 15px / 1 &amp;quot;Roboto&amp;quot;, sans-serif; text-align: center; text-shadow: rgb(220, 134, 134) 1px 1px;">Modlist&lt;/a>&lt;/p>
+&lt;p>&lt;a class="btn btn-primary mr-3 mb-4" style="color:#FFFBFF; background: #FF9900; border-color: #FF9900;" href="https://loadorderlibrary.com/lists/the-phoenix-flavour-dragons-edition">Modlist&lt;/a>&lt;/p>
 &lt;h2 id="recommended-hardware">Recommended Hardware&lt;/h2>
 &lt;p>Overall modded Skyrim is highly GPU-dependent. A fast card with plenty of VRAM will considerably improve performance. Installing the game on an SSD will improve load times dramatically and prevent stutter.&lt;/p>
 &lt;ul>
@@ -54,11 +54,14 @@
 &lt;p>Overall Dragon&amp;rsquo;s Edition needs a bit more resources than its parent, but at the same time not as much as the most popular modlists for high-end PCs&amp;rsquo; users. Everything from modern mid-end PC to high-end PC should run the modlist well without any problems.&lt;/p>
 &lt;p>Widescreen and controller support is included.&lt;/p>
 &lt;br>
-&lt;p>&lt;a href="../installation-guide" style="background: rgb(255, 153, 0) none repeat scroll 0% 0%; border-radius: 1000px; padding: 12px 25px; color: rgb(255, 255, 255); display: inline-block; font: bold 15px / 1 &amp;quot;Roboto&amp;quot;, sans-serif; text-align: center; text-shadow: rgb(183, 132, 132) 1px 1px;">Installation Guide&lt;/a>&lt;/p>
-&lt;p>&lt;a href="../gameplay-guide" style="background: rgb(255, 153, 0) none repeat scroll 0% 0%; border-radius: 1000px; padding: 12px 25px; color: rgb(255, 255, 255); display: inline-block; font: bold 15px / 1 &amp;quot;Roboto&amp;quot;, sans-serif; text-align: center; text-shadow: rgb(183, 132, 132) 1px 1px;">Gameplay Guide&lt;/a>&lt;/p>
-&lt;p>&lt;a href="../faq" style="background: rgb(255, 153, 0) none repeat scroll 0% 0%; border-radius: 1000px; padding: 12px 25px; color: rgb(255, 255, 255); display: inline-block; font: bold 15px / 1 &amp;quot;Roboto&amp;quot;, sans-serif; text-align: center; text-shadow: rgb(183, 132, 132) 1px 1px;">Frequently Asked Questions&lt;/a>&lt;/p>
-&lt;p>&lt;a href="../bug-reporting" style="background: rgb(255, 153, 0) none repeat scroll 0% 0%; border-radius: 1000px; padding: 12px 25px; color: rgb(255, 255, 255); display: inline-block; font: bold 15px / 1 &amp;quot;Roboto&amp;quot;, sans-serif; text-align: center; text-shadow: rgb(183, 132, 132) 1px 1px;">Bug Reporting&lt;/a>&lt;/p>
-&lt;p>&lt;a href="../changelog" style="background: rgb(255, 153, 0) none repeat scroll 0% 0%; border-radius: 1000px; padding: 12px 25px; color: rgb(255, 255, 255); display: inline-block; font: bold 15px / 1 &amp;quot;Roboto&amp;quot;, sans-serif; text-align: center; text-shadow: rgb(183, 132, 132) 1px 1px;">Changelog&lt;/a>&lt;/p>
+&lt;div class="mx-auto">
+&lt;br>
+&lt;a class="btn btn-primary mr-3 mb-4" style="color:#FFFBFF; background: #FF9900; border-color: #FF9900;" href="../installation-guide">Installation Guide&lt;/a>
+&lt;a class="btn btn-primary mr-3 mb-4" style="color:#FFFBFF; background: #FF9900; border-color: #FF9900;" href="../gameplay-guide">Gameplay Guide&lt;/a>
+&lt;a class="btn btn-primary mr-3 mb-4" style="color:#FFFBFF; background: #FF9900; border-color: #FF9900;" href="../faq">Frequently Asked Questions&lt;/a>
+&lt;a class="btn btn-primary mr-3 mb-4" style="color:#FFFBFF; background: #FF9900; border-color: #FF9900;" href="../bug-reporting">Bug Reporting&lt;/a>
+&lt;a class="btn btn-primary mr-3 mb-4" style="color:#FFFBFF; background: #FF9900; border-color: #FF9900;" href="../changelog">Changelog&lt;/a>
+&lt;/div>
 &lt;br>
 &lt;p>&lt;a href="https://ko-fi.com/H2H6ABHYO">&lt;img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi">&lt;/a>&lt;/p></description></item><item><title>Skyrim-Se: Installation Guide</title><link>https://thephoenixflavour.com/skyrim-se/tpf-de/installation-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/tpf-de/installation-guide/</guid><description>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/tpf-de/Banner.webp" alt="image">&lt;/p>
@@ -211,9 +214,8 @@ which you can also shape in much more ways) in character creation menu and then 
 &lt;p>If you want to use hair with physics for men, you will find instructions on how to get them a bit later. For better results with those, equip bald hair style now.&lt;/p>
 &lt;hr>
 &lt;p>After you get control over movements of your character, don’t go anywhere right away.
-It will be awesome if you wait for a pop-up about finishing things setting up to appear before doing anything else.
-Don&amp;rsquo;t be scared if you saw parts of your body during the movement (and/or after you finished creating your character), that will go away, when you will regain full control of your character after talking with Ralof or Hadvar.&lt;/p>
-&lt;p>Then another pop-up will appear, which allows to allocate 35 skill points to whatever skill trees your character is going to use during their adventure (5 points per step, max 10 points in one tree). When you have chosen a tree, which you would like to put your points into by pressing &lt;code>Enter&lt;/code> or just clicking on it, then press &lt;code>Tab&lt;/code> to continue allocating points. After spending all the points, you will see that &lt;em>COMPLETE&lt;/em> option is chosen by default, so just press &lt;code>Tab&lt;/code> button once again to finish the allocation. Next you will be able to allocate 60 points for your base health, magicka and stamina in the same manner (10 points per step, max 130 points for one attribute).&lt;/p>
+It will be awesome if you wait for a pop-up about finishing things setting up to appear before doing anything else.&lt;/p>
+&lt;p>Then after talking with Ralof or Hadvar another pop-up will appear, which allows to allocate 35 skill points to whatever skill trees your character is going to use during their adventure (5 points per step, max 10 points in one tree). When you have chosen a tree, which you would like to put your points into by pressing &lt;code>Enter&lt;/code> or just clicking on it, then press &lt;code>Tab&lt;/code> to continue allocating points. After spending all the points, you will see that &lt;em>COMPLETE&lt;/em> option is chosen by default, so just press &lt;code>Tab&lt;/code> button once again to finish the allocation. Next you will be able to allocate 60 points for your base health, magicka and stamina in the same manner (10 points per step, max 130 points for one attribute).&lt;/p>
 &lt;p>Now you can turn on the following mods to decide if you would want to use them. They affect just the visual side of the game.
 If you aren&amp;rsquo;t a fan, just press the same button once again to turn them off.&lt;/p>
 &lt;ul>
@@ -233,7 +235,7 @@ If you aren&amp;rsquo;t a fan, just press the same button once again to turn the
 &lt;p>If the ENB isn&amp;rsquo;t for you and you want to change it, delete modpack&amp;rsquo;s &lt;em>enbseries&lt;/em> folder and &lt;em>enbseries.ini&lt;/em> file from the fork&amp;rsquo;s &lt;em>Stock Game&lt;/em> folder first. You do not need to replace &lt;em>enblocal.ini&lt;/em>.&lt;/p>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>&lt;strong>About fast traveling&lt;/strong> - By default fast travel is disabled, because it becomes much more interesting that way (you travel and discover much more) and there are plenty of ways to travel around - as in vanilla (horses, carriages, boats), paragliding, spells and another mean, which is tied to a quest (don&amp;rsquo;t want to spoil that). If you still aren&amp;rsquo;t sold, feel free to reenable it by disabling &lt;em>Disable Fast Travel SKSE - No Janky Map UI&lt;/em> mod under the &lt;em>INTERFACE EXTENDED&lt;/em> separator.&lt;/li>
+&lt;li>&lt;strong>About fast travelling&lt;/strong> - By default fast travel is disabled, because it becomes much more interesting that way (you travel and discover much more) and there are plenty of ways to travel around - as in vanilla (horses, carriages, boats), paragliding, spells and another mean, which is tied to a quest (don&amp;rsquo;t want to spoil that). If you still aren&amp;rsquo;t sold, feel free to reenable it by disabling &lt;em>Disable Fast Travel SKSE - No Janky Map UI&lt;/em> mod under the &lt;em>INTERFACE EXTENDED&lt;/em> separator.&lt;/li>
 &lt;/ul>
 &lt;hr>
 &lt;blockquote>
@@ -254,7 +256,7 @@ please use &lt;em>#tpf-de-feedback&lt;/em> channel.&lt;/p>
 &lt;p>If you want to learn more about what the modpack offers and what actually many of the mods do, check &lt;a href="../gameplay-guide">&lt;em>Gameplay Guide&lt;/em>&lt;/a>.&lt;/p>
 &lt;p>Before asking additional questions be sure to check the gameplay guide mentioned before and &lt;a href="../faq">&lt;em>Frequently Asked Questions&lt;/em>&lt;/a>.&lt;/p>
 &lt;p>If you have experienced a bug during your walkthrough, jump in &lt;a href="../bug-reporting">&lt;em>Reporting Bugs&lt;/em>&lt;/a> section first to learn how to report it properly.&lt;/p>
-&lt;p>If you want to help me, don&amp;rsquo;t forget to endorse the fork’s page on Nexus, share some beautiful screenshots from the list and write something positive for me to read (I am happy to hear from people in Discord too). If you want to help even more, you can donate by pressing the button right below. On Ko-fi I also tend to tease big upcoming updates from time to time.&lt;/p>
+&lt;p>If you want to help me, don&amp;rsquo;t forget to endorse the fork’s page on Nexus, share some beautiful screenshots from the list and write something positive for me to read in Discord. If you are able and want to help even more, you can donate by pressing the button right below. On Ko-fi I also tend to tease big upcoming updates from time to time.&lt;/p>
 &lt;p>&lt;a href="https://ko-fi.com/H2H6ABHYO">&lt;img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi">&lt;/a>&lt;/p>
 &lt;p>Posts regarding updates for the modlist will be available in both TPF&amp;rsquo;s and Wabbajack&amp;rsquo;s Discord servers and, of course, in &lt;a href="../changelog">&lt;em>Changelog&lt;/em>&lt;/a>.&lt;/p></description></item><item><title>Skyrim-Se: Gameplay Guide</title><link>https://thephoenixflavour.com/skyrim-se/tpf-de/gameplay-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/tpf-de/gameplay-guide/</guid><description>
 &lt;p>This guide highlights major gameplay mods included in The Phoenix Flavour - Dragon&amp;rsquo;s Edition, while also giving you some pointers on how to start your new adventures.
@@ -268,7 +270,7 @@ In some way it isn&amp;rsquo;t an alternative start, but at the same time it is.
 &lt;h2 id="gameplay-overhauls">Gameplay Overhauls&lt;/h2>
 &lt;p>Overall:&lt;/p>
 &lt;ul>
-&lt;li>Leveling is slower than in vanilla, but you receive more perk points as you level up.&lt;/li>
+&lt;li>Levelling is slower than in vanilla, but you receive more perk points as you level up.&lt;/li>
 &lt;li>Combat is more difficult than in vanilla, but feels more fair.&lt;/li>
 &lt;li>Like in vanilla, you are limited to one follower at a time (if we don&amp;rsquo;t count followers with their own unique AI like Inigo and Lucien).&lt;/li>
 &lt;/ul>
@@ -280,7 +282,7 @@ In some way it isn&amp;rsquo;t an alternative start, but at the same time it is.
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30191">Adamant - A Perk Overhaul&lt;/a> - Some key features include spells and perks that finally scale and remain strong options in the late game, shouts that will also scale in strength based on your Speech level and advance your Speech skill, removal of Arcane Blacksmith perk and its availability for payer right from the beginning, splitting the smithing perk tree into a crafting and a tempering branch
 and perks that activate when wearing a full set of heavy or light armor work with only three pieces worn (no need for a helmet).&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/59790">Hand To Hand - An Adamant Addon&lt;/a> - Merges Lockpicking and Pickpocketing into a single skill and adds a new perk tree for Hand to Hand combat. Merging Lockpicking and Pickpocketing into a single tree improves thief gameplay by reducing the number of non-combat skills that players need to invest in. It also creates space to add a new, fully integrated perk tree for Hand to Hand. This allows for full support for unarmed combat as a legitimate and competitive gameplay style, while also untethering unarmed from either light or heavy armor.&lt;/li>
-&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33411">Mundus - A Standing Stone Overhaul&lt;/a> - Greater powers given by some of the stones have been removed in favor of passive abilities that will define and support various builds. The more powerful stones often have downsides, in order to give you a choice between building around these downsides in exchange for powerful buffs or avoiding these downsides in exchange for more modest buffs. Additionally, Guardian Stones no longer provide experience bonuses, which often encouraged players not to trade them out for more interesting gameplay bonuses.&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33411">Mundus - A Standing Stone Overhaul&lt;/a> - Greater powers given by some of the stones have been removed in favour of passive abilities that will define and support various builds. The more powerful stones often have downsides, in order to give you a choice between building around these downsides in exchange for powerful buffs or avoiding these downsides in exchange for more modest buffs. Additionally, Guardian Stones no longer provide experience bonuses, which often encouraged players not to trade them out for more interesting gameplay bonuses.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/52130">Apothecary - An Alchemy Overhaul&lt;/a> - Significantly reduces the gold value of both player-created potions and generic potions while ensuring that the player still levels at a faster rate than vanilla. In addition, the mod rebalances generic potions so that their strongest and weakest variants match the potency of player-created potions. Finally, it removes several useless or poorly implemented effects in order to make room for more interesting new effects without adding new ingredients.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/57138">Thaumaturgy - An Enchanting Overhaul&lt;/a> - Now most skill enchantments can only be placed on two items, reducing the massive power creep offered by armour enchantments. Magnitude values for fortifying many skills were extremely high in vanilla and have been significantly reduced (do you remember 50% magicka regeneration right from the beginning of the game?). New weakness enhancements can be put on weapons to allow spellswords to buff the damage of their spells and even poisons, which now can damage even draugr and automatons if their resistances are cut down. College robes with school-based enchantments have a unique enchantment that gives 25% cost reduction to level-appropriate spells from their specific school.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/54099">Pilgrim - A Religion Overhaul&lt;/a> - After you pray at the shrine, you won&amp;rsquo;t get cured from any disease, but
@@ -306,7 +308,7 @@ you will have only 40% chance to break a lockpick. That&amp;rsquo;s the easiest 
 But if you as total rookie will try to pick a master lock, be prepared to always lose at least 15 lockpicks. Sounds reasonable for me, maybe you should lose even more.
 And that also works in other way - if you are a master thief (your lockpicking skill is big enough),
 you will get only 40% chance to break a lockpick on almost any chest.&lt;/li>
-&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/42026">Reading Is Good&lt;/a> - Makes us become smarter in an immersive way by giving us a permanent boost to a leveling speed in a skill, which we have read about.&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/42026">Reading Is Good&lt;/a> - Makes us become smarter in an immersive way by giving us a permanent boost to a levelling speed in a skill, which we have read about.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/62613">Party Damage Control&lt;/a> - If you have 3 or more members inside your party, be ready that you all will deal much less damage than before. For example, if you have 3 members in your party (you + 2 people), you all will deal for 30% less physical damage, if there are 4 members - for 60% less physical damage and so on. A must have for balance.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/49681">Open World Loot&lt;/a> - Rebalance of Skyrim&amp;rsquo;s loot system. It attempts to maintain the same open world feel of Skyrim while adjusting the levels certain items appear and makes it so Daedric and other special weapons must be acquired from special quests only. No longer will iron equipment be completely irrelevant in a matter of a few hours.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/47115">Simple Smithing Overhaul&lt;/a> - Simply makes all recipes consistent with each other. I also used it to patch our armour and weapons mods&amp;rsquo; recipes.&lt;/li>
@@ -359,7 +361,6 @@ while introducing some disadvantages of getting gear with help of others such as
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/56367">Even better map&lt;/a> - Try to use the map in a place like Blackreach and you will be pleasantly surprised. Also try zooming it all way out and then in.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17563">Add items from mods to your inventory&lt;/a> - A mod, which makes it possible to test all items other mods have to
 offer inside their plugins. I have added it for people to know that there is an option like that and for your own testing purposes (can&amp;rsquo;t decide, which armour I would like to get more, let me see and then I will reload my earlier save). I hope you won’t use it for cheating.&lt;/li>
-&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/58955">Light adjustments for your character&lt;/a> - You will need to use &lt;em>AddItemMenu&lt;/em> again, but this time type the word &lt;code>light&lt;/code>. &lt;em>Character Light&lt;/em> allows use to make better screenshots if we want lightning of our character to be a bit different and can also be used in an ordinary gameplay if you wish as the mod doesn&amp;rsquo;t use scripts. It works even on followers, but then you should give them the corresponding NPC lightning item.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21085">Looting quickly&lt;/a> - One of the best additions to Fallout 4 (FO4) was the looting menu,
 which appears right when you move your cursor over lootable item without need to open game&amp;rsquo;s full menu. This mod allows us to use this addition,
 but in Skyrim.&lt;/li>
@@ -496,7 +497,7 @@ follower.&lt;/li>
 in a better way was removed from Nexus, going to deal with that later,
 the late game quest, considered you should have gotten it after one
 Dragonborn quest).&lt;/li>
-&lt;li>&lt;strong>The Cause&lt;/strong> - Creation&amp;rsquo;s questline really suffered from the lack of voice acting and that&amp;rsquo;s why the mod&amp;rsquo;s dungeons were turned into normal locations that you can stumble across and explore at your leisure. Find an entrance east from Falkreath or enter in the are from Bruma&amp;rsquo;s side. Enemies are still going to be hard (before the quest of The Cause started automatically after reaching level 46). Also better explore well as there will be a key around for a very interesting location in Skyrim associated with daedra.&lt;/li>
+&lt;li>&lt;strong>The Cause&lt;/strong> - Creation&amp;rsquo;s questline really suffered from the lack of voice acting and that&amp;rsquo;s why the mod&amp;rsquo;s dungeons were turned into normal locations that you can stumble across and explore at your leisure. Find an entrance east from Falkreath or enter in the are from Bruma&amp;rsquo;s side. Enemies are still going to be hard (before the quest of The Cause started automatically after reaching level 46). Also better explore well as there will be a key around for a very interesting location in Skyrim associated with Daedra.&lt;/li>
 &lt;li>&lt;strong>The Ice Blade of the Monarch&lt;/strong> - Can be started any time in &lt;em>Pilgrim&amp;rsquo;s
 Trench&lt;/em> northeast of The Tower Stone, hard mod.&lt;/li>
 &lt;li>&lt;strong>The Tournament of the Ten Bloods&lt;/strong> - Can be started after reading &lt;em>The
@@ -550,14 +551,25 @@ while exploring. I hope you were intrigued about something from the modpack and 
 &lt;/blockquote>
 &lt;ol>
 &lt;li>Downscale your resolution if you are playing on 1440p or bigger monitor by applying the settings from the installation guide. Check those &lt;a href="../installation-guide#configurations">here&lt;/a>. Try your changes in the game. Stop if it is enough.&lt;/li>
-&lt;li>Change our PI-CHO ENB to the more performance friendly one. Those ENBs aren&amp;rsquo;t as beautiful, but they are great for gameplay and don&amp;rsquo;t go so hard on your computer. You can find the instructions about how to remove the current ENB &lt;a href="../installation-guide#in-game-adjustments">here&lt;/a> in quick tips. The most performance friendly ones I know are Truth ENB, Serio&amp;rsquo;s ENB and Cathedral Minimalist ENB. It is up to you to find them, choose the best one for you and then follow the chosen one&amp;rsquo;s instructions to apply it to your game. If you need some assistance to change it, feel free to ask in &lt;a href="https://discord.gg/m5kMrnHpwm">TPF Discord server&lt;/a>&amp;lsquo;s &lt;em>#enb-talk&lt;/em> channel. Try your changes in the game. Stop if it is enough.&lt;/li>
+&lt;li>Change our PI-CHO ENB to its more performance friendly version or to completely different ENB, which are meant to be more performance friendly. Those ENBs aren&amp;rsquo;t as beautiful, but they are great for gameplay and don&amp;rsquo;t go so hard on your computer. You can find the instructions about how to remove the current ENB &lt;a href="../installation-guide#in-game-adjustments">here&lt;/a> in quick tips. The most performance friendly ones I know are Truth ENB, Serio&amp;rsquo;s ENB and Cathedral Minimalist ENB. It is up to you to find them, choose the best one for you and then follow the chosen one&amp;rsquo;s instructions to apply it to your game. If you need some assistance to change it, feel free to ask in &lt;a href="https://discord.gg/m5kMrnHpwm">TPF Discord server&lt;/a>&amp;lsquo;s &lt;em>#enb-talk&lt;/em> channel. Try your changes in the game. Stop if it is enough.&lt;/li>
 &lt;li>Setup resolution scale according to the same instructions in the installation guide &lt;a href="../installation-guide#configurations">here&lt;/a>.&lt;/li>
 &lt;/ol>
 &lt;hr>
 &lt;blockquote>
 &lt;p>Can I play with a controller instead of mouse and keyboard?&lt;/p>
 &lt;/blockquote>
-&lt;p>Yep, it should be as easy as connecting a controller. The only potential issue would be lack of bindable hotkeys for mods.&lt;/p></description></item><item><title>Skyrim-Se: Bug Reporting</title><link>https://thephoenixflavour.com/skyrim-se/tpf-de/bug-reporting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/tpf-de/bug-reporting/</guid><description>
+&lt;p>Yep, it should be as easy as connecting a controller. The only potential issue would be lack of bindable hotkeys for mods.&lt;/p>
+&lt;hr>
+&lt;blockquote>
+&lt;p>Can I change in-game real time clock format to 12 hour one?&lt;/p>
+&lt;/blockquote>
+&lt;ol>
+&lt;li>Press on &lt;em>INTERFACE&lt;/em> separator.&lt;/li>
+&lt;li>Double click on &lt;em>KenMOD - Time On Loading Screen&lt;/em> mod.&lt;/li>
+&lt;li>Choose &lt;em>Text files&lt;/em> tab.&lt;/li>
+&lt;li>In line 4, change &lt;em>&amp;amp;twelveHourClock&lt;/em> parameter to &lt;code>1&lt;/code>.&lt;/li>
+&lt;li>Press on &lt;em>Save&lt;/em> button or use &lt;code>Ctrl&lt;/code> + &lt;code>S&lt;/code> shortcut.&lt;/li>
+&lt;/ol></description></item><item><title>Skyrim-Se: Bug Reporting</title><link>https://thephoenixflavour.com/skyrim-se/tpf-de/bug-reporting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/tpf-de/bug-reporting/</guid><description>
 &lt;p>To better understand and fix problems related to the modpack I would need to get a decent report, not something like &lt;em>nothing is working wtf help plz&lt;/em>.
 In my opinion, it is a fair request, so, please, try your best to follow these simple rules and principles of bug reporting.&lt;/p>
 &lt;blockquote>
@@ -619,6 +631,77 @@ see all the data about the guard from console in &lt;em>#tpf-de-wabbajack-suppor
 &lt;p>A person has sent me a crashlog in &lt;em>#tpf-de-crash-reports&lt;/em>.&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;em>I am on the unmodified version 1.0 of TPF DE. If I try to enter into Whiterun, the game crashes. Tried to enter 2 more times, but the issue is still there. Crashlogs were all the same.&lt;/em>&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/tpf-de/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/tpf-de/changelog/</guid><description>
+&lt;h2 id="release-291">Release 2.9.1&lt;/h2>
+&lt;blockquote>
+&lt;p>07.09.2022&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Is save compatible.&lt;/strong>&lt;/p>
+&lt;p>Just an update for some mods, fixes and tweaks for better gameplay. The biggest addition this time would be an introduction of a toggable friendly fire blocker, which mages are probably going to enjoy the most. Be sure to check the full changelog if you would like to learn more.&lt;/p>
+&lt;h3 id="added-mods">Added Mods&lt;/h3>
+&lt;ul>
+&lt;li>Simple Offence Suppression MCM - Block Friendly Fire&lt;/li>
+&lt;li>Simple Offence Suppression Block Friendly Fire - Add-on&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Now you will do no damage to neutral NPCs by default. Press &lt;code>O&lt;/code> to toggle friendly fire. If you disable friendly fire, allies will still tolerate you if you hit them, but only during combat. Feel free to report if you feel that I need to introduce some changes to this system.&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Pristine Vanilla Movement&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Some people didn&amp;rsquo;t like our running and sprinting animations, so I have decided to come back to neutral classics, but not without the upgrade.&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Pretty Combat Animations - Magic Left Hand + Staff Right Hand Sprinting&lt;/li>
+&lt;/ul>
+&lt;h3 id="removed-mods">Removed Mods&lt;/h3>
+&lt;ul>
+&lt;li>Elegant Candlelight&lt;/li>
+&lt;li>Strange Runes&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Considering the fact that it can play not so well with a bunch of mods including even gameplay ones like Adamant and Mysticism.&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Undeath - XPMSSE - Strange Runes - Skeleton Patch&lt;/li>
+&lt;li>Goetia Animations - Sprint&lt;/li>
+&lt;li>Goetia Animations - Male Walk And Run&lt;/li>
+&lt;li>Goetia Animations - Female Walk And Run&lt;/li>
+&lt;/ul>
+&lt;h3 id="changes">Changes&lt;/h3>
+&lt;ul>
+&lt;li>Turned off Gilded restoration time on new saves.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Apparently that led to CTDs some people were experiencing. Thanks to JustIChris. To use this option on existing saves, open CLockwork&amp;rsquo;s MCM and change Gilded resurrection time to 0.&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Turned on player&amp;rsquo;s killmove immunity.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>It should have been turned on right from the beginning, but I guess I have forgotten about that. It also will resolve issues with CTDs some users were having, when NPCs gutted them out.&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Fixed Serana&amp;rsquo;s hair being blue with hood.&lt;/li>
+&lt;li>Fixed some rocks looking oddly in Shatterstone Scar.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Thanks to Prizz.&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Nerfed Aligning the Matrix Weave spell.&lt;/li>
+&lt;li>Added a note about how to build correctly Lakeview Manor.&lt;/li>
+&lt;li>Made Pickaxe of the Impatient behave like other axes.&lt;/li>
+&lt;/ul>
+&lt;h3 id="updated-mods">Updated Mods&lt;/h3>
+&lt;ul>
+&lt;li>Serana Dialogue Add-On&lt;/li>
+&lt;li>Undeath - Classical Lichdom&lt;/li>
+&lt;li>Undeath Classical Lichdom - The Ascension&lt;/li>
+&lt;li>Xelzaz - Custom Fully Voiced Argonian Telvanni Follower&lt;/li>
+&lt;li>Remiel - Custom Voiced Dwemer Specialist and Companion&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;h2 id="release-29">Release 2.9&lt;/h2>
 &lt;blockquote>
 &lt;p>07.08.2022&lt;/p>
@@ -632,7 +715,7 @@ see all the data about the guard from console in &lt;em>#tpf-de-wabbajack-suppor
 &lt;li>Civil War Champions&lt;/li>
 &lt;li>Nordic Jewelry&lt;/li>
 &lt;/ul>
-&lt;h3 id="added-mods">Added Mods&lt;/h3>
+&lt;h3 id="added-mods-1">Added Mods&lt;/h3>
 &lt;ul>
 &lt;li>Creation Club - The Cause - Daedric Horse Burning Hooves&lt;/li>
 &lt;li>FadingSignal&amp;rsquo;s Hide UI - Improved&lt;/li>
@@ -669,7 +752,7 @@ see all the data about the guard from console in &lt;em>#tpf-de-wabbajack-suppor
 &lt;li>Pandorable&amp;rsquo;s Valerica&lt;/li>
 &lt;li>Choose Your Starting Skills&lt;/li>
 &lt;/ul>
-&lt;h3 id="removed-mods">Removed Mods&lt;/h3>
+&lt;h3 id="removed-mods-1">Removed Mods&lt;/h3>
 &lt;ul>
 &lt;li>Iron Dusk&amp;rsquo;s Laboratory - Saddlebags&lt;/li>
 &lt;li>Seasonal Aspen Trees&lt;/li>
@@ -709,7 +792,7 @@ see all the data about the guard from console in &lt;em>#tpf-de-wabbajack-suppor
 &lt;blockquote>
 &lt;p>I guess bringing Charmers of the Reach meshes wasn&amp;rsquo;t a good plan from my part. I just love how close to vanilla, but still beautiful Serana looks with it, thou maybe our Serana needs to have a bit more mature look, which is offered by Pandorable&amp;rsquo;s Serana.&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="changes">Changes&lt;/h3>
+&lt;h3 id="changes-1">Changes&lt;/h3>
 &lt;ul>
 &lt;li>Fixed Solitude&amp;rsquo;s Castle Dour look from exteriors and a bit of Markarth looking funky during winter.&lt;/li>
 &lt;li>Toned down maximum brightness in interiors.&lt;/li>
@@ -722,7 +805,7 @@ see all the data about the guard from console in &lt;em>#tpf-de-wabbajack-suppor
 &lt;li>Added Lawbringer patch to the new Silent Moons Camp.&lt;/li>
 &lt;li>Many other fixes.&lt;/li>
 &lt;/ul>
-&lt;h3 id="updated-mods">Updated Mods&lt;/h3>
+&lt;h3 id="updated-mods-1">Updated Mods&lt;/h3>
 &lt;ul>
 &lt;li>Landscape Fixes For Grass Mods&lt;/li>
 &lt;li>DynDOLOD Resources&lt;/li>
