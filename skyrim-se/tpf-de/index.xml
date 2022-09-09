@@ -631,6 +631,19 @@ see all the data about the guard from console in &lt;em>#tpf-de-wabbajack-suppor
 &lt;p>A person has sent me a crashlog in &lt;em>#tpf-de-crash-reports&lt;/em>.&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;em>I am on the unmodified version 1.0 of TPF DE. If I try to enter into Whiterun, the game crashes. Tried to enter 2 more times, but the issue is still there. Crashlogs were all the same.&lt;/em>&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/tpf-de/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/tpf-de/changelog/</guid><description>
+&lt;h2 id="release-292">Release 2.9.2&lt;/h2>
+&lt;blockquote>
+&lt;p>09.09.2022&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Is save compatible, but before updating you need to reset your perk points. Check the gameplay guide to learn how to do that.&lt;/strong>&lt;/p>
+&lt;p>This time just an update to fix some sort of Nexus issues related to Adamant by just updating it.&lt;/p>
+&lt;h3 id="updated-mods">Updated Mods&lt;/h3>
+&lt;ul>
+&lt;li>Mysticism - A Magic Overhaul&lt;/li>
+&lt;li>Adamant - A Perk Overhaul&lt;/li>
+&lt;li>Hand to Hand - An Adamant Addon&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;h2 id="release-291">Release 2.9.1&lt;/h2>
 &lt;blockquote>
 &lt;p>07.09.2022&lt;/p>
@@ -693,7 +706,7 @@ see all the data about the guard from console in &lt;em>#tpf-de-wabbajack-suppor
 &lt;li>Added a note about how to build correctly Lakeview Manor.&lt;/li>
 &lt;li>Made Pickaxe of the Impatient behave like other axes.&lt;/li>
 &lt;/ul>
-&lt;h3 id="updated-mods">Updated Mods&lt;/h3>
+&lt;h3 id="updated-mods-1">Updated Mods&lt;/h3>
 &lt;ul>
 &lt;li>Serana Dialogue Add-On&lt;/li>
 &lt;li>Undeath - Classical Lichdom&lt;/li>
@@ -805,7 +818,7 @@ see all the data about the guard from console in &lt;em>#tpf-de-wabbajack-suppor
 &lt;li>Added Lawbringer patch to the new Silent Moons Camp.&lt;/li>
 &lt;li>Many other fixes.&lt;/li>
 &lt;/ul>
-&lt;h3 id="updated-mods-1">Updated Mods&lt;/h3>
+&lt;h3 id="updated-mods-2">Updated Mods&lt;/h3>
 &lt;ul>
 &lt;li>Landscape Fixes For Grass Mods&lt;/li>
 &lt;li>DynDOLOD Resources&lt;/li>
