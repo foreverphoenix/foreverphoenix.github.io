@@ -925,10 +925,7 @@ uPipboyTargetWidth=876
 &lt;p>&lt;del>Puddles were removed altogether by &lt;a href="https://www.nexusmods.com/fallout4/mods/31991">Clarity - A Visual Overhaul&lt;/a> which was added in WTP 2.0 and should eliminate the issue for good.&lt;/del>&lt;/p>
 &lt;p>&lt;strong>As of WTP 2.5, puddles were re-enabled and should no longer flicker!&lt;/strong> This is possible thanks to &lt;a href="https://www.nexusmods.com/fallout4/mods/62207?">fadingsignal&amp;rsquo;s fix&lt;/a> and an ENB update.&lt;/p>
 &lt;h2 id="load-screens-appear-frozen">Load screens appear frozen&lt;/h2>
-&lt;p>In loading screens, there is no spinning object and the loading symbol is not animated. This is actually not a bug, but a feature. Disabling animations in loading screens apparently increases load times. It was done in the High FPS Physics Fix custom INI file.&lt;/p>
-&lt;h2 id="empty-crafting-bench-category">Empty crafting bench category&lt;/h2>
-&lt;p>Currently (since WTP 2.6?) there is an emtpy category in the Crafting (chem) Bench. If you click on it, you CANNOT back out again so please don&amp;rsquo;t click on. I hope to be able to fix this soon.&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/empty-chem-bench-category.jpg" alt="Emtpy Chem Bench Category">&lt;/p></description></item><item><title>Fo4: Changelog</title><link>https://thephoenixflavour.com/fo4/wtp/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fo4/wtp/changelog/</guid><description>
+&lt;p>In loading screens, there is no spinning object and the loading symbol is not animated. This is actually not a bug, but a feature. Disabling animations in loading screens apparently increases load times. It was done in the High FPS Physics Fix custom INI file.&lt;/p></description></item><item><title>Fo4: Changelog</title><link>https://thephoenixflavour.com/fo4/wtp/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fo4/wtp/changelog/</guid><description>
 &lt;h2 id="release-264">Release 2.6.4&lt;/h2>
 &lt;blockquote>
 &lt;p>09/09/2022&lt;/p>
@@ -950,6 +947,10 @@ uPipboyTargetWidth=876
 &lt;li>Fixed missing sorting tag for the Yellow Slicker Hat&lt;/li>
 &lt;li>Changed sorting tag for Blood Packs from [Raw] to (Aid)&lt;/li>
 &lt;li>Regenerated terrain and object LOD&lt;/li>
+&lt;/ul>
+&lt;h4 id="website">Website&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Known Issues:&lt;/strong> Removed &amp;ldquo;Empty crafting bench category&amp;rdquo; issue (should now be resolved)&lt;/li>
 &lt;/ul>
 &lt;h2 id="release-263">Release 2.6.3&lt;/h2>
 &lt;blockquote>
