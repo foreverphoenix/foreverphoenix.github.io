@@ -316,7 +316,7 @@
 &lt;blockquote>
 &lt;p>28/09/2022&lt;/p>
 &lt;/blockquote>
-&lt;p>For the forseeable future, SME will continue to use &lt;strong>SSE 1.6.535&lt;/strong> until all mods have been updated. However, I recompiled with the latest version of Skyrim in my Steam folder, meaning that users also need to have the latest version to install SME. Wabbajack will downgrade the copy of the game in your Game Root folder. This way, you don&amp;rsquo;t have to downgrade your Steam installation.&lt;/p>
+&lt;p>For the forseeable future, SME will continue to use &lt;strong>SSE 1.6.353&lt;/strong> until all mods have been updated. However, I recompiled with the latest version of Skyrim in my Steam folder, meaning that users also need to have the latest version to install SME. Wabbajack will downgrade the copy of the game in your Game Root folder. This way, you don&amp;rsquo;t have to downgrade your Steam installation.&lt;/p>
 &lt;h4 id="mod-changes">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Console Commands Extender&lt;/li>
