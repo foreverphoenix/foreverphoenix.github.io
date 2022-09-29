@@ -305,6 +305,13 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71524">Cumulative Fix for Eye Meshes&lt;/a>, the underwater fix removes blending on the lashes which can look really weird so you may want to use the version without that fix.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72213">Farm Hat 01 Clipping Fix&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sme/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/changelog/</guid><description>
+&lt;h2 id="release-151">Release 1.5.1&lt;/h2>
+&lt;blockquote>
+&lt;p>29/09/2022&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Fixed Wabbajack installer failing on missing CCs&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-15">Release 1.5&lt;/h2>
 &lt;blockquote>
 &lt;p>28/09/2022&lt;/p>
