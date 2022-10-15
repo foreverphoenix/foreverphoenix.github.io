@@ -76,7 +76,8 @@
 &lt;p>In order for Wabbajack to be able to incorporate the Creation Kit properly, you need to install it first through Steam.&lt;/p>
 &lt;ul>
 &lt;li>Find the &lt;a href="https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/">Creation Kit&lt;/a> Steam page (I recommend just using the search function in the Store).&lt;/li>
-&lt;li>Click install. The files will be placed into your default game folder.&lt;/li>
+&lt;li>Click install. Select the Steam Library (hard drive) where Skyrim SE is located as well.&lt;/li>
+&lt;li>The files will be placed into your default game folder.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>&lt;strong>This step is mandatory.&lt;/strong> Not having the CK installed or having the wrong version accounts for most failed installations reported on Discord.&lt;/p>
@@ -305,6 +306,32 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71524">Cumulative Fix for Eye Meshes&lt;/a>, the underwater fix removes blending on the lashes which can look really weird so you may want to use the version without that fix.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72213">Farm Hat 01 Clipping Fix&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sme/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/changelog/</guid><description>
+&lt;h2 id="release-152">Release 1.5.2&lt;/h2>
+&lt;blockquote>
+&lt;p>15/10/2022&lt;/p>
+&lt;/blockquote>
+&lt;p>Just the most recent mod updates. SME is still on 1.6.353&lt;/p>
+&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;ul>
+&lt;li>Added Crash Logger SSE AE VR&lt;/li>
+&lt;li>Updated DynDOLOD to 3 Alpha 102&lt;/li>
+&lt;li>Updated Cathedral Assets Optimizer to 5.3.14&lt;/li>
+&lt;li>Updated Address Library for SKSE Plugins to 8&lt;/li>
+&lt;li>Updated SSE Display Tweaks to 0.5.12&lt;/li>
+&lt;li>Updated powerofthree&amp;rsquo;s Papyrus Extender to 1.5.3&lt;/li>
+&lt;li>Updated MCM Helper to 1.4&lt;/li>
+&lt;li>Updated QUI to 1.3.1.1&lt;/li>
+&lt;li>Updated Spell Perk Item Distributor (SPID) to 0.6.3&lt;/li>
+&lt;li>Updated Sound Fix for Large Sector Drives to 4.0&lt;/li>
+&lt;li>Updated powerofthree&amp;rsquo;s Tweaks to 1.7.5&lt;/li>
+&lt;li>Updated Enhanced Visibility to 1.3.0&lt;/li>
+&lt;li>Updated Enhanced Reanimation to 1.5.1&lt;/li>
+&lt;li>Removed Crash Logger&lt;/li>
+&lt;/ul>
+&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Installation:&lt;/strong> Added note that the CK should be installed on the same drive / in the same Steam Library as Skyrim SE&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-151">Release 1.5.1&lt;/h2>
 &lt;blockquote>
 &lt;p>29/09/2022&lt;/p>
@@ -317,7 +344,7 @@
 &lt;p>28/09/2022&lt;/p>
 &lt;/blockquote>
 &lt;p>For the forseeable future, SME will continue to use &lt;strong>SSE 1.6.353&lt;/strong> until all mods have been updated. However, I recompiled with the latest version of Skyrim in my Steam folder, meaning that users also need to have the latest version to install SME. Wabbajack will downgrade the copy of the game in your Game Root folder. This way, you don&amp;rsquo;t have to downgrade your Steam installation.&lt;/p>
-&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Console Commands Extender&lt;/li>
 &lt;li>Added HelpExtender&lt;/li>
@@ -350,7 +377,7 @@
 &lt;blockquote>
 &lt;p>19/08/2022&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-2">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added UIExtension&lt;/li>
 &lt;li>Added Hearthfires Houses Building Fix&lt;/li>
@@ -361,7 +388,7 @@
 &lt;li>Root Builder is now disabled by default (as was originally intended)&lt;/li>
 &lt;li>Sync Mod Order is now disabled by default (succeeded by Profile Sync)&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added a note about the CK installation being mandatory&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added a note to also set an AV exclusion for the appdata Nemesis folder&lt;/li>
@@ -372,7 +399,7 @@
 &lt;p>11/08/2022&lt;/p>
 &lt;/blockquote>
 &lt;p>Small maintenance update and expanded documentation.&lt;/p>
-&lt;h4 id="mod-changes-2">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-3">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Root Builder (MO2 plugin)&lt;/li>
 &lt;li>Added Profile Sync (MO2 plugin)&lt;/li>
@@ -382,7 +409,7 @@
 &lt;li>Updated DynDOLOD Resources to 3 Alpha 28&lt;/li>
 &lt;li>Restored proper SSE Display Tweaks Custom INI (doesn&amp;rsquo;t currently modify resolution)&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-2">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added .NET 6.0 SDK installation instructions (Synthesis prerequisite)&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added a warning about antivirus programs and recommended setting exclusions&lt;/li>
@@ -404,7 +431,7 @@
 &lt;/blockquote>
 &lt;p>With this update, I migrated the SME documentation to the new Skyrim SE Lists section of the website which breaks all links. I fixed those I could think of but might have missed some in which case please let me know on Discord.&lt;/p>
 &lt;p>In other news, I disabled the Fix Game Registry Path plugin for now. It is very convenient for LOOT (which uses the registry key to locate the game), but isn&amp;rsquo;t really needed for anything else and also breaks Creation Organizer. On top of that, it becomes cumbersome to constantly update the path when swapping between modded setups. I found a different solution for making LOOT work.&lt;/p>
-&lt;h4 id="mod-changes-3">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-4">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Quest Journal Limit Bug Fixer&lt;/li>
 &lt;li>Added Enhanced Invisibility&lt;/li>
@@ -419,7 +446,7 @@
 &lt;li>Removed Modern Toggle Walk-Run Fix&lt;/li>
 &lt;li>Fix Game Registry Path is now disabled by default&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-2">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-3">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Introduction:&lt;/strong> Fixed loadorderlibrary.com link for SME under Features&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Improved the MO2 prerequisites section and added NET 4.8&lt;/li>
