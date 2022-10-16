@@ -306,18 +306,11 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71524">Cumulative Fix for Eye Meshes&lt;/a>, the underwater fix removes blending on the lashes which can look really weird so you may want to use the version without that fix.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72213">Farm Hat 01 Clipping Fix&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sme/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/changelog/</guid><description>
-&lt;h2 id="release-153">Release 1.5.3&lt;/h2>
-&lt;blockquote>
-&lt;p>16/10/2022&lt;/p>
-&lt;/blockquote>
-&lt;ul>
-&lt;li>Restored accidentally deleted custom presets for Cathedral Assets Optimizer&lt;/li>
-&lt;/ul>
 &lt;h2 id="release-152">Release 1.5.2&lt;/h2>
 &lt;blockquote>
 &lt;p>15/10/2022&lt;/p>
 &lt;/blockquote>
-&lt;p>Just the most recent mod updates. SME is still on 1.6.353.&lt;/p>
+&lt;p>Just the most recent mod updates. SME is still on 1.6.353&lt;/p>
 &lt;h4 id="mod-changes">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Crash Logger SSE AE VR&lt;/li>
