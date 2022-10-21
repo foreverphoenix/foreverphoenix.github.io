@@ -168,7 +168,7 @@
 &lt;/blockquote>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/wtp/installation/regenerate-inis.png" alt="Regenerate INIs">&lt;/p>
 &lt;h2 id="future-updates">Future Updates&lt;/h2>
-&lt;p>The most important mod for most Bethesda games is the &lt;strong>Script Extender&lt;/strong>, a resource that is in turn required for many key mods. The &lt;strong>Fallout 4 Script Extender&lt;/strong> (F4SE) is &lt;em>version dependent&lt;/em>. It requires a specific version of Fallout 4. For instance, F4SE &lt;code>0.6.21&lt;/code> &lt;em>requires&lt;/em> Fallout 4 &lt;code>1.10.163&lt;/code>, and will not work with any other version of the game.&lt;/p>
+&lt;p>The most important mod for most Bethesda games is the &lt;strong>Script Extender&lt;/strong>, a resource that is in turn required for many key mods. The &lt;strong>Fallout 4 Script Extender&lt;/strong> (F4SE) is &lt;em>version dependent&lt;/em>. It requires a specific version of Fallout 4. For instance, F4SE &lt;code>0.6.23&lt;/code> &lt;em>requires&lt;/em> Fallout 4 &lt;code>1.10.163&lt;/code>, and will not work with any other version of the game.&lt;/p>
 &lt;p>Unfortunately any update for the Creation Club requires the game executables to be updated which breaks F4SE every time. When that happens, the Script Extender team usually updates F4SE within a few days. Any F4SE plugins will have to be updated by their respective authors as well which can take several weeks.&lt;/p>
 &lt;p>In order to prevent Creation Club updates from interrupting your playthrough and breaking your game, we are going to disable automatic updates in Steam. We are also going to backup the current version&amp;rsquo;s executables so you can restore them at any time.&lt;/p>
 &lt;h3 id="disable-auto-updates">Disable Auto Updates&lt;/h3>
@@ -196,7 +196,7 @@
 &lt;h2 id="wabbajack-installation">Wabbajack Installation&lt;/h2>
 &lt;ul>
 &lt;li>Download the &lt;a href="https://www.wabbajack.org/#/">Wabbajack&lt;/a> executable from the official website.&lt;/li>
-&lt;li>Move the downloaded file to &lt;code>Fallout 4 Modding\Wabbajack&lt;/code>.&lt;/li>
+&lt;li>Move the downloaded file to a convenient location &lt;strong>outside&lt;/strong> any UAC-protected folders.&lt;/li>
 &lt;li>Double-click &lt;strong>Wabbajack.exe&lt;/strong>. It will automatically download and install the latest version.&lt;/li>
 &lt;/ul>
 &lt;h3 id="downloading-wtp">Downloading WTP&lt;/h3>
@@ -946,6 +946,10 @@ uPipboyTargetWidth=876
 &lt;li>Added the {Scrap} sorting tag to two shipments added by the Wasteland Workshop DLC&lt;/li>
 &lt;li>Fixed the sorting patch for Ketaro&amp;rsquo;s Missing Magazines (oops)&lt;/li>
 &lt;/ul>
+&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Installation:&lt;/strong> Clarified ideal folder location for the Wabbajack executable&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-265">Release 2.6.5&lt;/h2>
 &lt;blockquote>
 &lt;p>15/10/2022&lt;/p>
@@ -1066,7 +1070,7 @@ uPipboyTargetWidth=876
 &lt;li>Slightly modified the Upgradable Vault Suit crafting station category for consistency&lt;/li>
 &lt;li>Regenerated terrain and object LOD&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Documentation:&lt;/strong> Minor updates for newly added mods&lt;/li>
 &lt;li>&lt;strong>Known Issues:&lt;/strong> Added empty Crafting Bench category issue&lt;/li>
@@ -1116,7 +1120,7 @@ uPipboyTargetWidth=876
 &lt;li>Renamed some custom plugins&lt;/li>
 &lt;li>ESL-flagged Some Assembly Required - WTP Patch&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-2">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Removed Game Folder Files instructions (no longer necessary with Root Builder)&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Removed Easy Lockpicking and Hacking section (mod removed in favour of Perk Up)&lt;/li>
@@ -1164,7 +1168,7 @@ uPipboyTargetWidth=876
 &lt;li>Fixed load order for SyringerAmmoSimplerIngredientsAlternate.esp&lt;/li>
 &lt;li>Re-enabled puddles which should now be flicker-free at last&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-2">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-3">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Moved Requirements here and added MO2 Prerequisites sub section&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Instructions for the CC Modular Military Backpack were rewritten and moved here&lt;/li>
@@ -1218,7 +1222,7 @@ startquest radiodiamondcity
 &lt;li>Fixed broken names on Far Harbor / Nuka World weapons&lt;/li>
 &lt;li>Fixed some insanely difficult to see errors in the scrap tags for three different Lit Cigar records&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-3">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-4">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/documentation/mcm-settings/">MCM Settings&lt;/a>: Updated for the new changes (specifically in the FallUI mod MCMs)&lt;/li>
 &lt;/ul>
@@ -1253,7 +1257,7 @@ startquest radiodiamondcity
 &lt;li>Disabled ambient occlusion in the default INIs (it was accidentally left enabled in the previous update, sorry about that)&lt;/li>
 &lt;li>Added a set of performance INIs that should yield a better framerate on lower end PCs&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-4">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-5">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Introduction:&lt;/strong> Moved the requirements here from the Installation page&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added the Performance INI section&lt;/li>
@@ -1279,7 +1283,7 @@ startquest radiodiamondcity
 &lt;li>Fixed enbseries link which took down 2.3 (very sorry about that)&lt;/li>
 &lt;li>Regenerated INI files&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-5">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-6">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>GFF &amp;amp; INI Settings:&lt;/strong> Now documenting my INI tweaks on this page.&lt;/li>
 &lt;li>&lt;strong>MCM Settings:&lt;/strong> Updated Baka Wait Anywhere settings and added FallUI Map settings.&lt;/li>
@@ -1328,7 +1332,7 @@ startquest radiodiamondcity
 &lt;li>Easy Lockpicking and Hacking is now disabled by default&lt;/li>
 &lt;li>Place Everywhere mode is now on by default&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-6">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-7">Website Changes&lt;/h4>
 &lt;p>With this update, I gave the website a much-needed once over. Most improvements are relatively minor and were not documented.&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Introduction:&lt;/strong> Slightly restructured the page and updated the feature list.&lt;/li>
@@ -1361,7 +1365,7 @@ startquest radiodiamondcity
 &lt;li>Fixed Place Everywhere INI (keybinds were F2, F3 instead of F1, F2 - thanks, Dargor!)&lt;/li>
 &lt;li>Minor edits to the Conflict Resolution Patch&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-7">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-8">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/finalisation/">Finalisation&lt;/a>: Added section with instructions for ultrawide compatibility.&lt;/li>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/mod-config/">Mod Config&lt;/a>: Updated the MCM preset instructions to account for the new 21:9 preset.&lt;/li>
@@ -1547,7 +1551,7 @@ startquest radiodiamondcity
 &lt;li>Sort button above the load order in MO2 was removed&lt;/li>
 &lt;li>Installed NifSkope as an additional tool&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-8">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-9">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/finalisation/">Finalisation&lt;/a>: Removed the LUTs section&lt;/li>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/finalisation/">Finalisation&lt;/a>: Removed VSYNC section (it is now always enabled as it should be)&lt;/li>
@@ -1713,7 +1717,7 @@ startquest radiodiamondcity
 &lt;p>Until now fadingsignal&amp;rsquo;s K-9 Harness for Dogmeat could be crafted at the crafting station which was the original implementation. I have never been happy with this and in this update I finally did something about it. You can now find exactly &lt;em>one&lt;/em> K-9 Harness in the world. The location happens to be a police station for obvious reasons - if you want to know where exactly you can find it, double-click the new K-9 Integration Patch in Mod Organizer 2 and check the &lt;strong>Notes&lt;/strong> tab.&lt;/p>
 &lt;p>&lt;strong>Creation Club&lt;/strong>&lt;/p>
 &lt;p>WTP 1.6 adds &lt;em>optional&lt;/em> support for some &amp;ldquo;creations&amp;rdquo; (only the Modular Military Backpack so far). You can find details and instructions &lt;a href="https://thephoenixflavour.com/fallout-4/wtp/wtp-resources/creation-club">here&lt;/a>.&lt;/p>
-&lt;h4 id="website-changes-9">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-10">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated a bunch of pages. Added stuff on the &lt;strong>Finalisation&lt;/strong> page. Don&amp;rsquo;t remember everything.&lt;/li>
 &lt;li>Added a link for LostDragonist&amp;rsquo;s Steam Library Setup Tool on the &lt;strong>Fallout 4&lt;/strong> page.&lt;/li>
@@ -1745,7 +1749,7 @@ startquest radiodiamondcity
 &lt;li>Added No Quest Autostart - Nuka World&lt;/li>
 &lt;li>Removed some unnecessary stuff from the Phoenix Tweaks plugin&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-10">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-11">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Finalisation:&lt;/strong> Shortened the Resolution section and moved Ultrawide tweaks to this page.&lt;/li>
 &lt;li>&lt;strong>Ultrawide:&lt;/strong> Removed this page.&lt;/li>
@@ -1837,7 +1841,7 @@ startquest radiodiamondcity
 &lt;h4 id="simple-sorting-overhaul">Simple Sorting Overhaul&lt;/h4>
 &lt;p>As we have now switched to FallUI from DEF_INV, I updated my INNRs (naming rules) to have the same format as Ruddy&amp;rsquo;s sorting patcher that FallUI was intended for. That means mods for armors and weapons will be displayed in smaller font below the item name.&lt;/p>
 &lt;p>I did take a look at the &lt;a href="https://www.nexusmods.com/fallout4/mods/48826">Complex Sorter&lt;/a> for FallUI which would be very convenient for me but ultimately I prefer my own icons and INNRs. Plus they already cover my power armor changes and include my preferred power armor naming scheme.&lt;/p>
-&lt;h4 id="website-changes-11">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-12">Website Changes&lt;/h4>
 &lt;p>I went over all pages and fixed what I thought needed fixing. Screenshots were updated, sentences were rephrased, and instructions were clarified.&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Finalisation:&lt;/strong> Added instructions for the optional LUTs.&lt;/li>
@@ -1915,7 +1919,7 @@ startquest radiodiamondcity
 &lt;li>Unpacked custom BA2 for Bleak Beauty, Musical Lore, More Where That Came From, and Elvani&amp;rsquo;s Track Pack&lt;/li>
 &lt;li>Fixed some purple cars by reverting them to vanilla, it&amp;rsquo;s a band-aid fix but the best I could do&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-12">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-13">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Finalisation:&lt;/strong> Removed instructions for NVIDIA Inspector.&lt;/li>
 &lt;li>&lt;strong>Finalisation:&lt;/strong> Added instructions for the newly-added High FPS Physics Fix and my pre-configured INIs.&lt;/li>
@@ -1948,7 +1952,7 @@ startquest radiodiamondcity
 &lt;li>Updated Sweet Roll 5000 and rebuilt Clutter BA2s&lt;/li>
 &lt;li>Fixed Diamond City Radio tracks not playing (thanks Archie!)&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-13">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-14">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/finalisation/">Finalisation&lt;/a>: Added this new page and moved the game resolution instructions here.&lt;/li>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/finalisation/">Finalisation&lt;/a>: Added instructions on how to force VSYNC and cap the framerate.&lt;/li>
@@ -1970,7 +1974,7 @@ startquest radiodiamondcity
 &lt;li>Switched to the Alternative Version of Fixed Flickering Puddles (hopefully fixing black pre-war Codsworth)&lt;/li>
 &lt;li>Removed Skip raiding your own settlements (no time to troubleshoot the compilation error it causes)&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-14">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-15">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/installation/wabbajack/">Wabbajack&lt;/a>: Added new section on how change the game resolution.&lt;/li>
 &lt;li>&lt;a href="https://thephoenixflavour.com/fo4/wtp/appendix/troubleshooting/">Troubleshooting&lt;/a>: Added this page with a few known issues.&lt;/li>
