@@ -235,6 +235,7 @@ If you aren&amp;rsquo;t a fan, just press the same button once again to turn the
 &lt;p>If the ENB isn&amp;rsquo;t for you and you want to change it, delete modpack&amp;rsquo;s &lt;em>enbseries&lt;/em> folder and &lt;em>enbseries.ini&lt;/em> file from the fork&amp;rsquo;s &lt;em>Stock Game&lt;/em> folder first. You do not need to replace &lt;em>enblocal.ini&lt;/em>.&lt;/p>
 &lt;/blockquote>
 &lt;ul>
+&lt;li>&lt;strong>About friendly fire&lt;/strong> - You will do no damage to neutral and friendly NPCs by default. Press &lt;code>O&lt;/code> (letter) to toggle friendly fire. If you disable friendly fire, allies will still tolerate you if you hit them, but mainly during combat.&lt;/li>
 &lt;li>&lt;strong>About fast travelling&lt;/strong> - By default fast travel is disabled, because it becomes much more interesting that way (you travel and discover much more) and there are plenty of ways to travel around - as in vanilla (horses, carriages, boats), paragliding, spells and another mean, which is tied to a quest (don&amp;rsquo;t want to spoil that). If you still aren&amp;rsquo;t sold, feel free to reenable it by disabling &lt;em>Disable Fast Travel SKSE - No Janky Map UI&lt;/em> mod under the &lt;em>INTERFACE EXTENDED&lt;/em> separator.&lt;/li>
 &lt;/ul>
 &lt;hr>
@@ -361,6 +362,7 @@ while introducing some disadvantages of getting gear with help of others such as
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/56367">Even better map&lt;/a> - Try to use the map in a place like Blackreach and you will be pleasantly surprised. Also try zooming it all way out and then in.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17563">Add items from mods to your inventory&lt;/a> - A mod, which makes it possible to test all items other mods have to
 offer inside their plugins. I have added it for people to know that there is an option like that and for your own testing purposes (can&amp;rsquo;t decide, which armour I would like to get more, let me see and then I will reload my earlier save). I hope you won’t use it for cheating.&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41774">Do not kill anyone accidentally&lt;/a> - Mages in Skyrim suffer from their success as they can accidentally make friendly or neutral NPCs hostile towards themselves, while fighting with their enemies. Now you will do no damage to these NPCs by default. Press &lt;code>O&lt;/code> (letter) to toggle friendly fire. If you disable friendly fire, allies will still tolerate you if you hit them, but mainly during combat.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21085">Looting quickly&lt;/a> - One of the best additions to Fallout 4 (FO4) was the looting menu,
 which appears right when you move your cursor over lootable item without need to open game&amp;rsquo;s full menu. This mod allows us to use this addition,
 but in Skyrim.&lt;/li>
