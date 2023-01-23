@@ -1,0 +1,475 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Slidikins' Strenuous Skyrim</title><link>https://thephoenixflavour.com/skyrim-se/sss/</link><description>Recent content in Slidikins' Strenuous Skyrim on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/skyrim-se/sss/index.xml" rel="self" type="application/rss+xml"/><item><title>Skyrim-Se: Introduction</title><link>https://thephoenixflavour.com/skyrim-se/sss/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/introduction/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/sss.png" alt="Slidikins&amp;rsquo; Strenuous Skyrim">&lt;/p>
+&lt;p>&lt;strong>Slidikins’ Strenuous Skyrim (SSS)&lt;/strong> is an extension of &lt;strong>&lt;a href="https://thephoenixflavour.com/tpf/introduction/">The Phoenix Flavour (TPF)&lt;/a>&lt;/strong>, The Phoenix Flavour itself is not required as everything you need will be provided through &lt;a href="installation%20Guide.md">Wabbajack installation&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>What to expect from The Phoenix Flavour:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>A Better Skyrim:&lt;/strong> The guide includes hundreds of mods across several dozen categories, all carefully selected to fit Phoenix’s vision of a lore-friendly, improved but not radically changed Skyrim. The Phoenix Flavour strives to provide a solid upgrade of the vanilla experience with modern visuals and rebalanced gameplay.&lt;/li>
+&lt;li>&lt;strong>Custom Files and Patches:&lt;/strong> Both the final patch as well as some patches and plugin replacers installed during the mod setup have been made specifically for the guide by Umgak and Phoenix. They ensure compatibility as well as consistency between all included mods.&lt;/li>
+&lt;li>&lt;strong>Performance:&lt;/strong> The Phoenix Flavour was created for gameplay rather than screen-archery and will for most people deliver solid framerates on a 1080p monitor resolution. For higher resolutions, better hardware is required. Through INI changes, reasonable texture resolutions, a performance-friendly grass overhaul as well as a skippable ENB section and the choice to use lower settings in DynDOLOD, you can tweak your game until you reach a stable framerate.&lt;/li>
+&lt;li>&lt;strong>Stability:&lt;/strong> Skyrim SE itself is already very stable compared to Classic Skyrim. You may still experience the occasional freeze or crash, but they will be very rare (perhaps once every 20 to 30 hours). These happen in Vanilla and they will happen in TPF.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Key differences between SSS and base TPF:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Survival Mode:&lt;/strong> It uses &lt;a href="https://en.uesp.net/wiki/Skyrim:Survival_Mode">&lt;em>Survival Mode&lt;/em>&lt;/a> from the Creation Club, meaning you’ll need to eat, sleep, and keep warm alongside other changes.&lt;/li>
+&lt;li>&lt;strong>Reduced HUD:&lt;/strong> Your HUD will be minimized to limit on-screen information. You’ll no longer see enemy information or active effects while in combat, for example, and will need to use your intuition and context clues to assess your opponents.&lt;/li>
+&lt;li>&lt;strong>Strict Level Cap:&lt;/strong> Maximum level is 50 with a total of 55 perk points granted. Use them wisely. Additionally, skills also can not be made Legendary.&lt;/li>
+&lt;li>&lt;strong>Equipment Upkeep:&lt;/strong> The level cap puts more importance on your equipment choices. Weapon and armor tempering degrades over time as well. If you’re not proficient in the crafting skills you can commission what you need through &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/61015">&lt;em>Honed Metal&lt;/em>&lt;/a>.&lt;/li>
+&lt;li>&lt;strong>Preparedness Rewarded:&lt;/strong> Enemies will learn additional perks and spells as they level, making for harder encounters. Bringing the right tools for the job&amp;ndash;along with accounting for &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45253">&lt;em>Resistances and Weaknesses&lt;/em>&lt;/a>&amp;ndash;will go a long way towards preventing stalls in your adventures.&lt;/li>
+&lt;/ul>
+&lt;br>
+&lt;p>&lt;a href="https://loadorderlibrary.com/lists/slidikins-strenuous-skyrim" style="background: rgb(132, 155, 182) none repeat scroll 0% 0%; border-radius: 1000px; padding: 12px 25px; color: rgb(0, 0, 0); display: inline-block; font: bold 15px / 1 &amp;quot;Roboto&amp;quot;, sans-serif; text-align: center; text-shadow: rgb(202, 202, 202) 1px 1px;">Full Modlist&lt;/a>&lt;/p>
+&lt;h4 id="to-get-started-head-to-the--installation-guideskyrim-sesssinstallation-guide-">To get started, head to the &amp;raquo; &lt;a href="https://thephoenixflavour.com/skyrim-se/sss/installation-guide">Installation Guide&lt;/a> &amp;laquo;&lt;/h4></description></item><item><title>Skyrim-Se: Installation Guide</title><link>https://thephoenixflavour.com/skyrim-se/sss/installation-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/installation-guide/</guid><description>
+&lt;h2 id="requirements">Requirements&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/">Skyrim Special Edition&lt;/a> on Steam&lt;/li>
+&lt;li>A &lt;a href="https://www.nexusmods.com/">Nexus Mods&lt;/a> Account&lt;/li>
+&lt;li>&lt;a href="https://aka.ms/vs/16/release/vc_redist.x64.exe">Visual C++ 2019&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer">.NET Framework 4.8&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>A Nexus Premium subscription is highly recommended for a significantly faster and easier installation. Without Premium, you will need to manually click &amp;ldquo;download&amp;rdquo; for every mod while Premium allows Wabbajack to automatically download everything for you.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="skyrim-se-setup">Skyrim SE Setup&lt;/h2>
+&lt;h3 id="update-the-game">Update the Game&lt;/h3>
+&lt;p>&lt;strong>Slidikins&amp;rsquo; Strenuous Skyrim requires the latest version of Skyrim SE.&lt;/strong>&lt;/p>
+&lt;p>During installation, your vanilla files will be copied into SSS&amp;rsquo; folder and patched if necessary. In order for this to work you will need to have the current Steam installation of the game.&lt;/p>
+&lt;p>If you are unsure if your Steam installation is up to date, follow these steps:&lt;/p>
+&lt;ul>
+&lt;li>Open your Steam Library and navigate to &lt;strong>The Elder Scrolls V: Skyrim Special Edition&lt;/strong>&lt;/li>
+&lt;li>Right click and select &lt;strong>Properties&amp;hellip;&lt;/strong>&lt;/li>
+&lt;li>Under &lt;strong>Local Files&lt;/strong>, select &lt;strong>Verify integrity of game files&amp;hellip;&lt;/strong>&lt;/li>
+&lt;li>Wait for the process to identify and obtain any files it requires.&lt;/li>
+&lt;/ul>
+&lt;h3 id="set-language-to-english">Set Language to English&lt;/h3>
+&lt;p>&lt;strong>SSS requires the English language version of Skyrim SE.&lt;/strong>&lt;/p>
+&lt;p>If you are currently playing in a language other than English, please go into the settings for Skyrim SE in your Steam library and revert the language to English. After changing the language, Steam should automatically download the required files (launch the game to force the download if it doesn’t).&lt;/p>
+&lt;p>After updating the game language, please launch the game once and quit from the main menu.&lt;/p>
+&lt;blockquote>
+&lt;p>The &lt;a href="https://store.steampowered.com/app/1746860/The_Elder_Scrolls_V_Skyrim_Anniversary_Upgrade/">Skyrim Anniversary Upgrade&lt;/a> is not used in SSS. If prompted, it&amp;rsquo;s recommended that you do not download and enable it. If you do, that&amp;rsquo;s alright, the installer will ignore the extra files.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="wabbajack-installation">Wabbajack Installation&lt;/h2>
+&lt;p>Next, you&amp;rsquo;ll need to install the Wabbajack tool itself:&lt;/p>
+&lt;ul>
+&lt;li>Download &lt;a href="https://www.wabbajack.org/">Wabbajack&lt;/a> from the official website.&lt;/li>
+&lt;li>Extract to a high level folder (i.e. &lt;code>C:\Wabbajack\&lt;/code>).&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>&lt;strong>Do not install Wabbajack into UAC protected directories.&lt;/strong> These include &lt;code>Program Files&lt;/code> and &lt;code>Program Files x86&lt;/code> as well as the Downloads, Desktop, Documents, etc., folders.&lt;/p>
+&lt;/blockquote>
+&lt;p>Double-click &lt;strong>Wabbajack.exe&lt;/strong> to launch to tool. It will automatically update itself to the latest version.&lt;/p>
+&lt;h3 id="choosing-the-list">Choosing the List&lt;/h3>
+&lt;ul>
+&lt;li>Click the &lt;strong>Browse Modlists&lt;/strong> button in the Wabbajack tool.&lt;/li>
+&lt;li>Find &lt;strong>Slidikins&amp;rsquo; Strenuous Skyrim&lt;/strong> in the gallery and click the arrow to download the installation file.&lt;/li>
+&lt;li>Once downloaded, the button will change to a sideways arrow. Click it again.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/installation/sss-on-wj.png" alt="Wabbajack Gallery">&lt;/p>
+&lt;h3 id="configuration">Configuration&lt;/h3>
+&lt;p>Before you can begin installing the list, you need to define two file paths:&lt;/p>
+&lt;p>The &lt;strong>Installation Location&lt;/strong> is where Mod Organizer 2 and all of the mods will be installed. Choose a high-level folder such as &lt;code>C:\Slidikins' Strenuous Skyrim&lt;/code> that is outside UAC protected folders (Program Files, Documents, etc.) that&amp;rsquo;s on your fastest drive, such as an SSD.&lt;/p>
+&lt;p>The &lt;strong>Download Location&lt;/strong> is where the downloaded mod archives will be stored. By default, they will be placed within your installation folder. I recommend you instead place them elsewhere, such as an HDD with plenty of space. They are not needed for running the game.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/installation/sss-installation-wj.png" alt="List Configuration">&lt;/p>
+&lt;h3 id="installation-process">Installation Process&lt;/h3>
+&lt;p>Once you have set target folders for the &lt;strong>Installation Location&lt;/strong> and &lt;strong>Download Location&lt;/strong>, the &lt;strong>Start&lt;/strong> button (arrow) to the right of the folder paths will light up. Click it to start installation. If you have Nexus Premium the process will be automatic. It may take several hours depending on the speed of your internet connection. If you do not have Premium, Wabbajack will prompt you with the mod pages where you&amp;rsquo;ll have to click each download button manually.&lt;/p>
+&lt;blockquote>
+&lt;p>You can follow along as Wabbajack installs the list. It will display summaries and links to the mods being installed. Don’t let the log worry you. Unless the installation is aborted completely the warnings are inconsequential.&lt;/p>
+&lt;/blockquote>
+&lt;p>While Wabbajack runs perfectly fine most of the time, an installation may fail for various reasons. &lt;strong>If it does, try restarting Wabbajack first.&lt;/strong> You will not lose progress as it will pick up where it left off. Should it fail again, please join us on &lt;a href="https://discord.gg/xCPxJFbCTS">Discord&lt;/a>, grab the &lt;code>@SSS&lt;/code> role, and post your &lt;code>wabbajack.current.log&lt;/code> in the &lt;code>#sss-support&lt;/code> channel. You can find all Wabbajack logs in your Wabbajack folder under &lt;code>\Wabbajack\logs\&lt;/code>.&lt;/p>
+&lt;h2 id="playing-the-game">Playing the Game&lt;/h2>
+&lt;p>Navigate to your &lt;strong>Slidikins&amp;rsquo; Strenuous Skyrim&lt;/strong> folder and launch &lt;strong>ModOrganizer.exe&lt;/strong> within. In the top right drop-down menu, &lt;strong>Slidikins&amp;rsquo; Strenuous Skyrim&lt;/strong> (a renamed &lt;code>skse64_loader.exe&lt;/code>) should already be selected and you can now launch the game by clicking &lt;strong>► Run&lt;/strong>.&lt;/p>
+&lt;blockquote>
+&lt;p>Slidikins&amp;rsquo; Strenuous Skyrim uses the &lt;strong>Stock Game Folder&lt;/strong> system. You don&amp;rsquo;t have to move anything around as you would in some other lists.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/installation/launch-sss.png" alt="Launching the Game">&lt;/p>
+&lt;h3 id="mcm-instructions">MCM Instructions&lt;/h3>
+&lt;p>There are a large number of Mod Configuration Menus (MCMs) in this list. &lt;strong>Thankfully, presets are automatically applied so you don&amp;rsquo;t need to edit anything manually.&lt;/strong> These are the recommended settings for enjoying Slidikins&amp;rsquo; Strenuous Skyrim; give them a try before changing them around.&lt;/p>
+&lt;h3 id="performance-profile">Performance Profile&lt;/h3>
+&lt;p>If the list is too demanding out of the box, there is an alternative Performance profile intended for lower-end systems. This profile uses alternatives to the more intensive features (grass, LODs, ENB) to provide similar visuals at a lower cost.&lt;/p>
+&lt;blockquote>
+&lt;p>Note that saves are profile-specific. You can switch from the regular to the performance profile mid-playthrough, but you would have to copy over the saves from &lt;code>\Slidikins' Strenuous Skyrim\profiles\Slidikins' Strenuous Skyrim\saves\&lt;/code> to &lt;code>\Slidikins' Strenuous Skyrim\profiles\Slidikins' Strenuous Skyrim (Performance)\saves\&lt;/code> manually. Ignore the warnings when resuming your adventure.&lt;/p>
+&lt;/blockquote>
+&lt;p>See the picture below for how to switch profiles in MO2:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/installation/swap-mo2-profile.png" alt="Swapping Profiles">&lt;/p>
+&lt;h3 id="gameplay-guide">Gameplay Guide&lt;/h3>
+&lt;p>The &lt;a href="https://thephoenixflavour.com/skyrim-se/sss/gameplay-guide">Gameplay Guide&lt;/a> highlights some of the key differences between vanilla Skyrim and SSS. It does not cover every single change made by the hundreds of mods in the list as that would be far too long. Read it if you don&amp;rsquo;t want to be left out in the cold.&lt;/p>
+&lt;h4 id="have-fun">Have fun!&lt;/h4></description></item><item><title>Skyrim-Se: Gameplay Guide</title><link>https://thephoenixflavour.com/skyrim-se/sss/gameplay-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/gameplay-guide/</guid><description>
+&lt;p>If you&amp;rsquo;ve installed &lt;strong>Slidikins&amp;rsquo; Strenuous Skyrim&lt;/strong>, chances are you&amp;rsquo;ve just added hundreds of mods without the opportunity to read each one&amp;rsquo;s description thoroughly. To save you some time and to help you get adjusted, I&amp;rsquo;ll try to boil down the essentials of what you need to know going into the game.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Note:&lt;/strong> Though the list aims to have a &amp;ldquo;vanilla&amp;rdquo; feel, several mechanics and quests have been adjusted. Guides written for the original game will be misleading. I recommend you push those guides and videos aside and discover &lt;strong>Slidikins&amp;rsquo; Strenuous Skyrim&lt;/strong> firsthand.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="1-reduced-hud">1. Reduced HUD&lt;/h2>
+&lt;p>The first thing you&amp;rsquo;ll probably notice when you take control of the Prisoner is a lack of on-screen information. By default, the only HUD element that is always displayed is your Health Bar (and attached Shout Meter). Stamina and Magicka Bars appear whenever they are changing being used, and the Crosshair will dynamically appear when needed, such as with a ranged weapon or spell.&lt;/p>
+&lt;p>Enemy information is completely hidden from you as the player. You&amp;rsquo;ll no longer be able to see the health of an enemy or their level. You won&amp;rsquo;t even be able to see their name in most situations. Keep that in mind as &lt;strong>some enemies may be quite strong compared to those around them&lt;/strong>. Proceed with caution and always have a backup plan in case you find yourself outmatched.&lt;/p>
+&lt;p>Lastly, activation prompts have been removed. Most of the time the UI will give no indication you&amp;rsquo;re about to steal an item. (Stealth indicators are also removed so it&amp;rsquo;s up to you to determine if you&amp;rsquo;re hidden or not.) Locked containers and doors won&amp;rsquo;t broadcast their difficulty either. You&amp;rsquo;ll need to try your hand at it and decide for yourself if it&amp;rsquo;s worth the lockpicks.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Tip:&lt;/strong> If you do get caught committing crimes (shame on you!), don&amp;rsquo;t reload! Getting caught is part of the criminal&amp;rsquo;s journey and can enhance your roleplay experience. Skipping town for awhile will gradually lower your bounty (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11452">&lt;em>Wergild Depreciation&lt;/em>&lt;/a>). A silver tongue will also help with the occassional bribe.&lt;/p>
+&lt;/blockquote>
+&lt;p>In general, expect the game to tell you far less information, leaving you to infer a lot of it on your own.&lt;/p>
+&lt;h4 id="relevant-control-changes">Relevant Control Changes&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Journal:&lt;/strong> &lt;code>F4&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Quick Inventory:&lt;/strong> &lt;code>F2&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Quick Magic:&lt;/strong> &lt;code>F3&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Quick Stats:&lt;/strong> &lt;code>F1&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Toggle Compass:&lt;/strong> &lt;code>X&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Favorite Groups 1-4:&lt;/strong> &lt;code>9&lt;/code>,&lt;code>0&lt;/code>, &lt;code>-&lt;/code>, and &lt;code>=&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Horse Hotkey:&lt;/strong> &lt;code>H&lt;/code> (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/54225">&lt;em>Simplest Horses&lt;/em>&lt;/a>)&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-survival-and-exploration">2. Survival and Exploration&lt;/h2>
+&lt;p>This list will automatically enable &lt;a href="https://en.uesp.net/wiki/Skyrim:Survival_Mode">&lt;em>Survival Mode&lt;/em>&lt;/a> at the end of the Helgen. You&amp;rsquo;ll be expected to engage with its mechanics, specifically &lt;em>eating&lt;/em>, &lt;em>sleeping&lt;/em>, and &lt;em>keeping warm&lt;/em>.&lt;/p>
+&lt;h3 id="hunger">Hunger&lt;/h3>
+&lt;p>Fuel for your adventurer, food will be a near-constant concern on your journey. Neglecting to eat will lower your maximum Stamina, slow your Magicka Regeneration, and eventually affect your physical prowess. Luckily, food is somewhat abundant in Skyrim if you know where to look.&lt;/p>
+&lt;ul>
+&lt;li>Fruits and vegetables are commonly found in barrels all around the region.&lt;/li>
+&lt;li>Hunt wild animals for meat if you prefer protein in your diet, or utilize &lt;a href="https://en.uesp.net/wiki/Skyrim:Fishing">&lt;em>Fishing&lt;/em>&lt;/a> to source from the waters of Skyrim.&lt;/li>
+&lt;li>With a dash of salt you can cook the above into more filling meals that give larger regeneration bonuses.&lt;/li>
+&lt;li>Different types of foods given different bonuses, each lasting 30 real-time minutes. A varied diet can have a profound effect on your dungeon crawling.&lt;/li>
+&lt;li>If you have a heavy coin pouch you can simply buy ingredients or fully cooked meals from vendors to save yourself time.&lt;/li>
+&lt;/ul>
+&lt;h3 id="fatigue">Fatigue&lt;/h3>
+&lt;p>Soon after being left to your own devices you will find yourself being Lethargic or Tired and in need of sleep. Several options are available to you though you may want to act fast before the penalties to your maximum Magicka and Stamina Regeneration make it harder to fight effectively. Your experience rate will also drop when you are fatigued and improve when you&amp;rsquo;re rested.&lt;/p>
+&lt;ul>
+&lt;li>A multitude of bedrolls are scattered around Skyrim. You won&amp;rsquo;t wake up Well Rested, but it&amp;rsquo;s free.&lt;/li>
+&lt;li>Sleeping in town is another option. However, the cost of an inn depends on the location, ranging from reasonable to highway robbery.&lt;/li>
+&lt;li>Of course, you can always take what you want from the local brigands. Bandit camps typically have a warm, indoor bed to enjoy once the owners have been evicted.&lt;/li>
+&lt;li>Eventually you&amp;rsquo;ll want to purchase an official residence for something dependable and reliable.&lt;/li>
+&lt;/ul>
+&lt;h3 id="cold">Cold&lt;/h3>
+&lt;p>Skyrim is a cold, northern environment and ignoring the elements will lead to your downfall. Your Health is directly at risk when succumbing to the cold but there are ways of dealing with it.&lt;/p>
+&lt;ul>
+&lt;li>Avoid the obvious. Snowstorms clearly mean freezing temperatures, as are lakes and rivers in snowy regions. Stay out of them.&lt;/li>
+&lt;li>Purchasing or cooking hot soups and stews can warm you up as needed along your travels.&lt;/li>
+&lt;li>Wearing clothes with a lot of coverage and/or fur will leave you warmer than other options. Conversely, metal armor is more susceptible to lower temperatures. Heavy armor users may want to carry a change of clothes for the road.&lt;/li>
+&lt;li>The winter months will be colder than the rest of the year. Factor that into your preparations.&lt;/li>
+&lt;/ul>
+&lt;h3 id="other-notes">Other Notes&lt;/h3>
+&lt;ul>
+&lt;li>Your Health won&amp;rsquo;t regenerate on its own. You&amp;rsquo;ll need to utilize other sources of regeneration to recover, such as food, potions, perks, or Restoration magic.&lt;/li>
+&lt;li>Containers are no longer bottomless. If you want to hoard goods and materials you&amp;rsquo;ll need to find a suitable location with enough chests for your stash. (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/13826">&lt;em>Container and Arrow Weight Restrictions&lt;/em>&lt;/a>])&lt;/li>
+&lt;li>Similarly, your Carry Weight has been reduced, encouraging you to reconsider what&amp;rsquo;s worth leaving the house with as well as what&amp;rsquo;s worth picking up in a dungeon.&lt;/li>
+&lt;li>Imperial Septims won&amp;rsquo;t be found in places where it wouldn&amp;rsquo;t make sense. You&amp;rsquo;ll find foreign or ancient coins in their place. Merchants can exchange these for Septims at various rates. (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/51439">&lt;em>C.O.I.N. - Coins of Interesting Natures&lt;/em>&lt;/a>)&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-reading">Additional Reading&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/56374">&lt;em>Survival Mode Improved&lt;/em>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/52130">&lt;em>Apothecary Food and Drink Addon&lt;/em>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-crafting">3. Crafting&lt;/h2>
+&lt;p>The hard limit on player level (Lv50) and perk points (55 total) makes it harder to invest in multiple crafting skills while at the same time makes it more worthwhile to utilize them all. As you make your mark on Skyrim, don&amp;rsquo;t be afraid to pour some of your earnings into crafted goods you can not create yourself.&lt;/p>
+&lt;h3 id="alchemy">Alchemy&lt;/h3>
+&lt;p>Alchemical goods can be found in almost every settlement at the general store if not a dedicated apothecary. Many of the available potion effects last for a minute or longer and provide percentage-based buffs making them viable at all levels of play. You can always craft your own alchemy potions and poisons as well, combining useful effects to save on Carry Weight. Even without perk investment it&amp;rsquo;s worth your while to dabble in Alchemy. Ingredients can be found everywhere so there&amp;rsquo;s nothing to lose!&lt;/p>
+&lt;h3 id="smithing">Smithing&lt;/h3>
+&lt;p>With the exception of the quintessential Mage, most adventurers will get some benefit from Smithing. Higher tier weapons and armor have been removed from the random loot lists so your options for obtaining them are limited to hunting very specific enemies, crafting them yourself, or commissioning the work from a blacksmith. These same weapons and armor will degrade with use and require occasional tempering to maintain their quality (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/74790">&lt;em>Simple Degradation&lt;/em>&lt;/a>). A master at the craft can add +10 to the base damage/armor of equipment with a single ingot. If you&amp;rsquo;re not up to the task, you can and should pay a blacksmith to do that for you too.&lt;/p>
+&lt;h3 id="enchanting">Enchanting&lt;/h3>
+&lt;p>Enchanting will give you the extra oomph you need to go from good to great, no matter your playstyle. Novice enchanters can add noticeable boosts to their gear but it&amp;rsquo;s a long investment before one can get rival the skill of an adept or expert enchanter. Until then, feel free to pay them for their work. The price tag can be daunting but the benefits of a well picked enchantment are priceless.&lt;/p>
+&lt;h4 id="additional-reading-1">Additional Reading&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/51254">&lt;em>Honed Metal&lt;/em>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/57138">&lt;em>Thaumaturgy - An Enchanting Overhaul&lt;/em>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/52130">&lt;em>Apothecary - An Alchemy Overhaul&lt;/em>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="4-combat">4. Combat&lt;/h2>
+&lt;p>Removing combat related HUD elements alone increases difficulty but keep in mind there are additional changes to combat under the hood. For starters, you&amp;rsquo;ll be more vulnerable when on the offensive, such as power attacking, drawing a bow, or casting a spell. A poorly timed attack could send you to an early grave so pick your spots carefully.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Tip:&lt;/strong> Even though health bars were removed, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/46501">&lt;em>Just Blood&lt;/em>&lt;/a> will add increasing bloody overlays on enemies as a rough indicator of their Health. Keep an eye out for this subtle effect.&lt;/p>
+&lt;/blockquote>
+&lt;p>On top of that, enemies have been placed into tiers and you&amp;rsquo;ll want to build your strength up before tackling some of them. For example, Falmer and Dwemer ruins are best avoided until Lv20 or so, and Daedra until Lv30. Of course, this is just a general rule, but keep that in mind if you run into a figurative wall on your adventures. Dragons in particular are much tougher than they are in the vanilla game, with their levels soaring far higher than your Lv50 cap. But you&amp;rsquo;re Dovahkiin, you&amp;rsquo;ll figure it out. Learning and paying attention to the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45253">&lt;em>Resistances and Weaknesses&lt;/em>&lt;/a> of an enemy will be a huge boon in your favor when tackling challenging creatures.&lt;/p>
+&lt;h3 id="followers">Followers&lt;/h3>
+&lt;p>It sounds like the deck is stacked against you, and in many ways it is. But you don&amp;rsquo;t have to go it alone. Keep in mind the following changes when bringing a follower along:&lt;/p>
+&lt;ul>
+&lt;li>NPCs, including followers, use ammo the same as you. If your follower uses a bow, make sure to keep them supplied with arrows.&lt;/li>
+&lt;li>Followers who run out of Health will be in a &amp;ldquo;downed&amp;rdquo; state for 2 minutes unless healed by Restoration magic. Enemies will ignore them in this state. (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41228">&lt;em>STAYDOWN&lt;/em>&lt;/a>)&lt;/li>
+&lt;li>Mercenaries will charge more for their services based on factors such as their level. (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45677">&lt;em>Dynamic Mercenary Fees&lt;/em>&lt;/a>)&lt;/li>
+&lt;/ul>
+&lt;h4 id="relevant-control-changes-1">Relevant Control Changes&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Lock On:&lt;/strong> &lt;code>Middle Mouse Button&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Cycle Targets:&lt;/strong> &lt;code>Mouse Scroll Wheel Up/Down&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Locking on is a convenient way to keep an enemy centered on your screen in first-person or third-person perspective. It&amp;rsquo;s a completely optional mechanic and offers no mechanical advantage otherwise.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="additional-reading-2">Additional Reading&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34549">&lt;em>Blade &amp;amp; Blunt - A Combat Overhaul&lt;/em>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33487">&lt;em>Arena - An Encounter Zone Overhaul&lt;/em>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/51310">&lt;em>Dragon War - A Dragon Overhaul&lt;/em>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="tips--tricks">Tips &amp;amp; Tricks&lt;/h2>
+&lt;p>As you can probably infer from the name of this addon, your adventure in Skyrim will have its difficult moments. Here are some tips that I’ve found useful for making the journey in one piece.&lt;/p>
+&lt;h3 id="early-game-level-1---10">Early Game (Level 1 - 10)&lt;/h3>
+&lt;h4 id="take-it-easy-and-start-small">Take it Easy and Start Small&lt;/h4>
+&lt;p>You’ve just escaped Helgen by the skin of your teeth. You don’t have much to your name, and you don’t have nifty perks that deliver the pain to your enemies. Take a moment to collect yourself in town. Craft a bit and make a little money to get yourself started. The Skyrim Uncapper is configured to give less character exp for your crafting skills, so there’s no need to worry about overleveling yourself out of the gate. There will be plenty of time to delve into dungeons later. Make sure you’re properly equipped now.&lt;/p>
+&lt;h4 id="stay-in-range-of-whiterun">Stay in Range of Whiterun&lt;/h4>
+&lt;p>The urge to explore is strong but try to fight it off in the early game. There is plenty to do in Whiterun Hold once you’ve reached Riverwood, and that content should get you to Level 10 without too many hitches. A &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17576">&lt;em>Missives&lt;/em>&lt;/a> board can be found in Whiterun if you need additional tasks. Bleak Falls Barrow can be handled easily by Level 5, though you may want to wait until you’re closer to Level 10 before tackling Dragon Rising. Also, buy Breezehome. All of the other homes are more expensive and you’ll need someplace reliable to store your valuables until you can afford them.&lt;/p>
+&lt;h3 id="mid-game-level-10---30">Mid Game (Level 10 - 30)&lt;/h3>
+&lt;h4 id="buy-a-horse">Buy a Horse&lt;/h4>
+&lt;p>Okay, now forget what I just said about staying local. It’s time to explore and get into the thick of it! Time passes fast on the overworld so unless you want to spend all of daylight traveling from Point A to Point B, invest in a horse to shorten your travel times. And if you’re really going far I recommend making use of the carriages from time to time. Since your carry weight (and that of your follower) is halved, horses are also the best way to move a lot of supplies from one place to another. (Press &lt;code>H&lt;/code> while looking at the horse to use its saddlebags.)&lt;/p>
+&lt;h4 id="join-a-faction">Join a Faction&lt;/h4>
+&lt;p>Go find yourself a faction (i.e. The Companions) that suits your character and sign up. Their quests will support the skills you’re looking to improve. As you progress through the tier, also consider signing up for the Stormcloaks or the Imperial Legion if you have a stake in the civil war. Their quests are less focused but they’ll provide plenty of targets to practice on for more experience.&lt;/p>
+&lt;h3 id="late-game-level-30---50">Late Game (Level 30 - 50)&lt;/h3>
+&lt;h4 id="utilize-crafting">Utilize Crafting&lt;/h4>
+&lt;p>Seriously, I can’t stress this enough. In the late game you may be dealing with areas that are scaled high above your Level 50 limit, some at that point before you reach the cap. You’ll want every advantage you can get to bridge the gap and most of those advantages are obtained through crafting. If you ignored this early on, now’s a good time to reconsider it. If on Master or Legendary difficulty, you might even need to make different equipment sets for different types of enemies.&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sss/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/changelog/</guid><description>
+&lt;h2 id="release-4160">Release 4.16.0&lt;/h2>
+&lt;blockquote>
+&lt;p>2023-01-23&lt;/p>
+&lt;/blockquote>
+&lt;p>I&amp;rsquo;ll be clear: &lt;strong>this is a new chapter for Slidikins&amp;rsquo; Strenuous Skyrim.&lt;/strong> I&amp;rsquo;ve decided to rip off the proverbial band-aid and bring the list up to date to Skyrim SE 1.6.640. With that comes a handful of changes and a lot of new opportunities. Since a new game would&amp;rsquo;ve been required anyway, I also took the liberty of cramming in a ton of mods that also would&amp;rsquo;ve meant starting fresh. The end result is this monster of a changelog that I promise is totally the same SSS you&amp;rsquo;ve come to enjoy. Let&amp;rsquo;s get into it!&lt;/p>
+&lt;h4 id="mod-substitutions">Mod Substitutions&lt;/h4>
+&lt;p>Not every SKSE plugin made the jump to 1.6.640. Most of them have been replaced with something comparable, such as &lt;em>PlayerPayCrimeGold Tweak&lt;/em> filling in for &lt;em>No Crime Teleport&lt;/em>. In two cases a substitute didn&amp;rsquo;t exist (such as &lt;em>SSE Gameplay Tweaks&lt;/em>). It&amp;rsquo;s unfortunate but the features lost weren&amp;rsquo;t vital to the list.&lt;/p>
+&lt;p>Outside of SKSE plugins there were a few more changes. wSkeever&amp;rsquo;s &lt;em>Simplicity of Snow&lt;/em> and &lt;em>Shaders of Solstheim&lt;/em> took over for &lt;em>Better Dynamic Snow/Ash&lt;/em>. &lt;em>The Dragon Cult&lt;/em> replaced &lt;em>Haugbui&lt;/em> which was a fine mod but not the best fit in comparison. You&amp;rsquo;ll see a few others like these in the details below, such as the Lux series that&amp;rsquo;s taken over the lighting.&lt;/p>
+&lt;h4 id="visual-changes">Visual Changes&lt;/h4>
+&lt;p>Since building the list off of TPF the philosophy has mostly been &amp;ldquo;focus on gameplay mods, let TPF handle the visuals.&amp;rdquo; That has changed&amp;hellip; slightly. I&amp;rsquo;ve been stepping out of that box a bit to include things such as MystiriousDawn&amp;rsquo;s parallax landscape textures, &lt;em>Seasons of Skyrim&lt;/em>, and borrowing from TPF 5.0&amp;rsquo;s unreleased modlist. (Yes, that means ENB Complex Parallax is enabled in the regular profile.)&lt;/p>
+&lt;p>Even so, I don&amp;rsquo;t like focusing on visuals and don&amp;rsquo;t think this will lead to drastic changes in how the game looks. Expect to find more nuggets of visual changes here and there in future updates. &lt;em>Lux&lt;/em> (and &lt;em>Lux Via&lt;/em> and &lt;em>Lux Orbis&lt;/em>) are the latest mods grabbed from TPF 5.0. Lighting will be noticeably different and stealth mechanics have changed slightly because of it. It&amp;rsquo;ll probably be too easy still, but it&amp;rsquo;s a work in progress.&lt;/p>
+&lt;h4 id="quest-expansions">Quest Expansions&lt;/h4>
+&lt;p>JaySerpa&amp;rsquo;s mods have always been on the cusp of making it into the list. I love pretty much all of their ideas but I have to ask myself, &amp;ldquo;Does this fit Vanilla+?&amp;rdquo; at every release. Well, the needle has moved to &amp;ldquo;Yes&amp;rdquo; for a lot of them, specifically the quest expansions. Alongside those you&amp;rsquo;ll find other mods that enhance the existing quests of the game such as &lt;em>Headhunter&lt;/em>, &lt;em>Destination Weddings&lt;/em>, and &lt;em>Extended Cut - Saints &amp;amp; Seducers&lt;/em>. That&amp;rsquo;s right, &lt;em>Saints &amp;amp; Seducers&lt;/em> is now part of the list!&lt;/p>
+&lt;h4 id="branching-further">Branching Further&lt;/h4>
+&lt;p>With these and other changes, SSS has distanced itself from TPF that much more. It&amp;rsquo;s still a TPF fork at its core but it&amp;rsquo;s become impossible to convert TPF 4.16 to SSS 4.16 without a digital scalpel and a ton of time. As such, SSS&amp;rsquo; manual guide has been retired and installation is available only through Wabbajack. This will allow me to pile in some smaller mods (such as wSkeever&amp;rsquo;s various fixes) without making installation more tedious, so expect to see these branches diverge even further as TPF 5.0 develops.&lt;/p>
+&lt;p>I haven&amp;rsquo;t done justice to all of the changes in 4.16. Take a peek at the details below for a full list. There are some real gems in there.&lt;/p>
+&lt;details>
+&lt;p>Updated for &lt;a href="https://github.com/Codygits/TPF-Updates/releases/tag/4.16.0">TPF 4.16.0&lt;/a>&lt;/p>
+&lt;h4 id="changes">Changes&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Creation Club Content:&lt;/strong> Added Saints and Seducers&lt;/li>
+&lt;li>&lt;strong>Essential Mods:&lt;/strong> Removed .NET Script Framework&lt;/li>
+&lt;li>&lt;strong>Essential Mods:&lt;/strong> Added Crash Logger&lt;/li>
+&lt;li>&lt;strong>Fixes:&lt;/strong> Removed Dlizzio&amp;rsquo;s Mesh Fixes - Assorted Mesh Fixes Patch&lt;/li>
+&lt;li>&lt;strong>Fixes:&lt;/strong> Removed Skyrim Particle Patch for ENB - Assorted Mesh Fixes - Solitude Mesh Fixes Patch&lt;/li>
+&lt;li>&lt;strong>Fixes:&lt;/strong> Added Animation Queue Fix&lt;/li>
+&lt;li>&lt;strong>Fixes:&lt;/strong> Added Beard Mask Fix&lt;/li>
+&lt;li>&lt;strong>Fixes:&lt;/strong> Added Enchantable Special Item Fix&lt;/li>
+&lt;li>&lt;strong>Fixes:&lt;/strong> Added Sound Fix for Large Sector Drives&lt;/li>
+&lt;li>&lt;strong>Tweaks:&lt;/strong> Removed SSE Gameplay Tweaks&lt;/li>
+&lt;li>&lt;strong>Tweaks:&lt;/strong> Removed No Crime Teleport&lt;/li>
+&lt;li>&lt;strong>Tweaks:&lt;/strong> Added PlayerPayCrimeGold Tweak&lt;/li>
+&lt;li>&lt;strong>Tweaks:&lt;/strong> Added Whiterun Watchtower Doesn&amp;rsquo;t Start Broken&lt;/li>
+&lt;li>&lt;strong>Tweaks:&lt;/strong> Added Wade in Water&lt;/li>
+&lt;li>&lt;strong>Tweaks:&lt;/strong> Added Wade in Water Redone&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Added HD Local Map&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Added Show Player in Menus&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Adjusted positioning of Ammo Widget and Oxygen Meter&lt;/li>
+&lt;li>&lt;strong>Graphics Baseline:&lt;/strong> Removed SMIM - Assorted Mesh Fixes Patch&lt;/li>
+&lt;li>&lt;strong>Graphics Baseline:&lt;/strong> Added Far Object LOD Improvement Project&lt;/li>
+&lt;li>&lt;strong>Seasons of Skyrim:&lt;/strong> Added EC Vanilla Tweaks - Winter Unending&lt;/li>
+&lt;li>&lt;strong>Weather:&lt;/strong> Added Cathedral Weathers and Seasons - Unofficial Update&lt;/li>
+&lt;li>&lt;strong>Weather:&lt;/strong> Added Rain Extinguishes Fires&lt;/li>
+&lt;li>&lt;strong>Lighting:&lt;/strong> Removed Lanterns of Skyrim II&lt;/li>
+&lt;li>&lt;strong>Lighting:&lt;/strong> Removed Luminosity Lighting Overhaul&lt;/li>
+&lt;li>&lt;strong>Lighting:&lt;/strong> Added Lux&lt;/li>
+&lt;li>&lt;strong>Lighting:&lt;/strong> Added Lux Orbis&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Removed Better Dynamic Snow&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Removed Better Dynamic Ash&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Removed Point the Way&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Removed MystiriousDawn&amp;rsquo;s HD Skyrim Overhaul - Landscape Textures 2K&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added Simplicity of Snow&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added Shaders of Solstheim - Ash and Moss&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added Lux Via&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added eFPS - Lux Via Patch&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added Tundra - HD Texture Replacer with Parallax&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added Dirt - HD Texture Replacer with Parallax&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added River Stone - HD Texture Replacer with Parallax&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added Snow - HD Texture Replacer with Parallax&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added Pine Forest - HD Texture Replacer with Parallax&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added Coast and Marsh - HD Texture Replacer with Parallax&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added Fall Forest - HD Texture Replacer with Parallax&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added Field Grass - HD Texture Replacer with Parallax&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added Volcanic Tundra - HD Texture Replacer with Parallax&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Added Reach - HD Texture Replacer with Parallax&lt;/li>
+&lt;li>&lt;strong>Architecture:&lt;/strong> Added Skyrim Objects SMIMed - Warmaiden&amp;rsquo;s Holes&lt;/li>
+&lt;li>&lt;strong>Architecture:&lt;/strong> Added Whiterun Cobblestone - HD Texture Replacer&lt;/li>
+&lt;li>&lt;strong>Architecture:&lt;/strong> Added Windhelm Bridge Stairs&lt;/li>
+&lt;li>&lt;strong>Architecture:&lt;/strong> Added Simplicity of Settlements - Dragon Bridge&lt;/li>
+&lt;li>&lt;strong>Clutter:&lt;/strong> Removed Yee Haaaa Horse Saddle Retexture&lt;/li>
+&lt;li>&lt;strong>Clutter:&lt;/strong> Removed Imperial Saddle Retexture&lt;/li>
+&lt;li>&lt;strong>Clutter:&lt;/strong> Removed Shadowmere Saddle Retexture&lt;/li>
+&lt;li>&lt;strong>Food &amp;amp; Ingredients:&lt;/strong> Added Garlic - A Garlic Mod&lt;/li>
+&lt;li>&lt;strong>Apparel &amp;amp; Weapons:&lt;/strong> Added Dynamic Armor Variants&lt;/li>
+&lt;li>&lt;strong>Apparel &amp;amp; Weapons:&lt;/strong> Added Dynamic Lowered Hoods&lt;/li>
+&lt;li>&lt;strong>Creatures:&lt;/strong> Removed Dawnguard Rewritten - Arvak&lt;/li>
+&lt;li>&lt;strong>Creatures:&lt;/strong> Added zzjay&amp;rsquo;s Horse Overhaul&lt;/li>
+&lt;li>&lt;strong>Creatures:&lt;/strong> Added Slightly Better - Arvak&lt;/li>
+&lt;li>&lt;strong>Creatures:&lt;/strong> Added Arvak Burning Hooves Restored&lt;/li>
+&lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Removed Simple Werewolf Favourite Howls Menu&lt;/li>
+&lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Removed More Expensive Transmute for Mysticism&lt;/li>
+&lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Added Mysticism - Survival Spells Addon&lt;/li>
+&lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Added Aetherius- Starting Spells Addon&lt;/li>
+&lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Added Saints and Seducers - Mysticism Rebalance&lt;/li>
+&lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Added Extended Cut Saints and Seducers - Mysticism Rebalance&lt;/li>
+&lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Added Precision Creatures&lt;/li>
+&lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Added Zim&amp;rsquo;s Trainers Expansion&lt;/li>
+&lt;li>&lt;strong>Loot &amp;amp; Crafting:&lt;/strong> Removed Bounties Are Worthwhile - Leveled Bounty Rewards&lt;/li>
+&lt;li>&lt;strong>Loot &amp;amp; Crafting:&lt;/strong> Added Oblivion - An Atronach Forge Overhaul&lt;/li>
+&lt;li>&lt;strong>Loot &amp;amp; Crafting:&lt;/strong> Added Oblivion - Book Covers Skyrim Patch&lt;/li>
+&lt;li>&lt;strong>Non Player Characters:&lt;/strong> Added Forsworn and Thalmor Lines Expansion&lt;/li>
+&lt;li>&lt;strong>Non Player Characters:&lt;/strong> Added Carriages and Stables Dialogue Bundle&lt;/li>
+&lt;li>&lt;strong>Non Player Characters:&lt;/strong> Added Carriages and Stables Dialogue Bundle - CFTO Patch&lt;/li>
+&lt;li>&lt;strong>Assorted Plugins:&lt;/strong> Removed Sales Overflow Solved for real this time&lt;/li>
+&lt;li>&lt;strong>Assorted Plugins:&lt;/strong> Added No Lockpick Activate&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Removed The Paarthurnax Resolution&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Removed Reasonable Quest Rewards - Bounties Are Worthwhile Patch&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Added Paarthurnax - Quest Expansion&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Added Improved College Entry - Questline Tweaks&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Added Nilheim - Misc Quest Expansion&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Added Caught Red Handed - Quest Expansion&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Added House of Horrors - Quest Expansion&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Added The Only Cure - Quest Expansion&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Added The Whispering Door - Quest Expansion&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Added Skyrim Extended Cut - Saints and Seducers&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Added Missives are in Skyrim&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Added Headhunter - Bounties Redone&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Added Destination Weddings&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Added Destination Weddings - Compatibility Patches&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Added Fishing - Reduced Cut&lt;/li>
+&lt;li>&lt;strong>Improved Vanilla Quests:&lt;/strong> Added Streamlined Fishing&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Removed Haugbui - A Draugr Overhaul&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Removed Haugbui - Better-Shaped Weapons Patch&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Removed Haugbui - SimonRim Patch&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Removed Haugbui - CC Fishing Patch&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Removed Haugbui - WACCF Patch&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Added Blade and Blunt - Sneak Addon&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Added Cannibal Draugr on Solstheim&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Added The Dragon Cult - A Draugr Overhaul&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Added Resistances and Weaknesses - NPC Armaments&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Added Dragon War - Variants&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Added Seeking Out Sneaks&lt;/li>
+&lt;li>&lt;strong>Miscellaneou:&lt;/strong> Removed Miscellaneous Tweaks Collection - No Starting Spells&lt;/li>
+&lt;li>&lt;strong>Miscellaneous:&lt;/strong> Removed Iron Dusk&amp;rsquo;s Laboratory - Saddlebags&lt;/li>
+&lt;li>&lt;strong>Miscellaneous:&lt;/strong> Added Simplest Horses&lt;/li>
+&lt;li>&lt;strong>Assorted Plugins:&lt;/strong> Removed Better Stealing&lt;/li>
+&lt;li>&lt;strong>Assorted Plugins:&lt;/strong> Removed Uninterrupted Invisibility&lt;/li>
+&lt;li>&lt;strong>Assorted Plugins:&lt;/strong> Removed Uninterrupted Ethereal Form&lt;/li>
+&lt;li>&lt;strong>Assorted Plugins:&lt;/strong> Removed Crafting Skill Leveling Overhaul&lt;/li>
+&lt;li>&lt;strong>Assorted Plugins:&lt;/strong> Removed Fish Anywhere With Water&lt;/li>
+&lt;li>&lt;strong>Assorted Plugins:&lt;/strong> Added Mum&amp;rsquo;s the Word&lt;/li>
+&lt;li>&lt;strong>Assorted Plugins:&lt;/strong> Added Enhanced Invisibility&lt;/li>
+&lt;li>&lt;strong>Assorted Plugins:&lt;/strong> Added Missile&amp;rsquo;s Immersive Equipment Display Presets&lt;/li>
+&lt;li>&lt;strong>Assorted Plugins:&lt;/strong> Added Missile&amp;rsquo;s Immersive Equipment Display Presets - Better Head Hunter Displays While Mounted&lt;/li>
+&lt;li>&lt;strong>Sound FX:&lt;/strong> Added Acoustic Space Improvement Fixes&lt;/li>
+&lt;li>&lt;strong>Skeletons &amp;amp; Animations:&lt;/strong> Removed Read the Room&lt;/li>
+&lt;li>&lt;strong>Skeletons &amp;amp; Animations:&lt;/strong> Added Nemesis Creature Behaviour Compatibility&lt;/li>
+&lt;li>&lt;strong>Skeleton &amp;amp; Animations:&lt;/strong> Added Faster Horse Dismount&lt;/li>
+&lt;li>&lt;strong>Skeleton &amp;amp; Animations:&lt;/strong> Added Take a Seat&lt;/li>
+&lt;li>&lt;strong>Controls &amp;amp; Camera:&lt;/strong> Removed Alternate Conversation Camera Plus&lt;/li>
+&lt;li>&lt;strong>Controls &amp;amp; Camera:&lt;/strong> Added Improved Alternate Conversation Camera&lt;/li>
+&lt;li>&lt;strong>Utilities:&lt;/strong> Added ENB Helper Plus&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Added weights to currency added by C.O.I.N. to match Septim weights&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Added FallowstoneCaveWorldEnd &lt;code>000204C7&lt;/code> overwrite for Shadows of Sunlight.&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Removed a ton of old records that have been changed by either Mysticism, AOS, or both.&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Updated FVS_VelehkHeart values to match earlier Apothecary update&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Adjusted values in Zim&amp;rsquo;s Trainers Expansion to prevent exploits&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Adjusted Sneak gamesettings in a number of ways&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution (Creation Club):&lt;/strong> Removed MAG_flameCloak &lt;code>0003AE9F&lt;/code> as it&amp;rsquo;s covered in Mysticism - Survival Spells Addon&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution (Creation Club):&lt;/strong> Removed DLC2FoodHorkerAshYamStew &lt;code>0403CD5B&lt;/code> to let the new Survival Mode Improved patch do its job&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution (Creation Club):&lt;/strong> Patched two SECSS ingredients with Apothecary&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution (Creation Club):&lt;/strong> Removed edits to the Steed Stone and Extra Pockets&lt;/li>
+&lt;li>&lt;strong>FaceGen:&lt;/strong> Removed extraneous data from TPF&amp;rsquo;s FaceGen data (it&amp;rsquo;s much smaller now!)&lt;/li>
+&lt;/ul>
+&lt;h4 id="updates">Updates&lt;/h4>
+&lt;ul>
+&lt;li>Updated xLODGEN to 97&lt;/li>
+&lt;li>Updated DynDOLOD to 3.00 Alpha-111&lt;/li>
+&lt;li>Updated Synthesis to 0.25.3&lt;/li>
+&lt;li>Updated SSE NIF Optimizer to 3.2.0&lt;/li>
+&lt;li>Updated numerous SKSE Plugins to the respective AE version
+&lt;ul>
+&lt;li>Disabled Keyboard Shortcuts Fix until it&amp;rsquo;s compatible&lt;/li>
+&lt;li>Disabled NVIDIA Reflex Support until it&amp;rsquo;s compatible&lt;/li>
+&lt;li>Disabled Don&amp;rsquo;t Stay in the Water until it&amp;rsquo;s compatible&lt;/li>
+&lt;li>Disabled Wash That Blood Off 2 until it&amp;rsquo;s compatible&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Updated Address Library for SKSE Plugins to 8.0&lt;/li>
+&lt;li>Updated SSE Engine Fixes to 6.1.1&lt;/li>
+&lt;li>Updated Weapons Armor Clothing and Clutter Fixes to 2.9.2&lt;/li>
+&lt;li>Updated Particle Patch for ENB to 1.2.2&lt;/li>
+&lt;li>Updated Skyrim Landscape and Water Fixes to 7.4&lt;/li>
+&lt;li>Updated Assorted Mesh Fixes to 0.77.1&lt;/li>
+&lt;li>Updated Bug Fixes SSE to 8&lt;/li>
+&lt;li>Updated Actor Limit Fix to 7&lt;/li>
+&lt;li>Updated Equip Enchantment Fix to 1.3.6&lt;/li>
+&lt;li>Updated Mfg Fix to 1.6.1&lt;/li>
+&lt;li>Updated ENB Light Inventory Fix to 1.1.1&lt;/li>
+&lt;li>Updated Shadow Boost to 1.3&lt;/li>
+&lt;li>Updated Shadow Diffusion (now Soft Shadows) to 1.1&lt;/li>
+&lt;li>Updated Papyrus Tweaks to 3.3&lt;/li>
+&lt;li>Updated Reading is Good to 1.1.2&lt;/li>
+&lt;li>Updated Fix Note Icon for SkyUI to 1.2.6&lt;/li>
+&lt;li>Updated moreHUD to 5.2.2.0&lt;/li>
+&lt;li>Updated Nordic UI - Miscellaneous Patches to 1.8.1&lt;/li>
+&lt;li>Updated Contextual Crosshair to 1.3&lt;/li>
+&lt;li>Updated A Clear Map of Skyrim and Other Worlds to 4.0&lt;/li>
+&lt;li>Updated Forget Spell to 1.2.5&lt;/li>
+&lt;li>Updated DynDOLOD Resources to 3.00 Alpha-30&lt;/li>
+&lt;li>Updated Simple Activate SKSE to 1.4.1&lt;/li>
+&lt;li>Updated Far Object LOD Improvement Project to 1.1&lt;/li>
+&lt;li>Updated Frozen Electrocuted Combustion to 5.1&lt;/li>
+&lt;li>Updated Realistic Water Two to 5.6&lt;/li>
+&lt;li>Updated FYX - Water Splash to 1.0.1.1&lt;/li>
+&lt;li>Updated Skyrim Flora Overhaul - Plant Textures to 2.73b&lt;/li>
+&lt;li>Updated Iconic Statues 4K to 1.2.1&lt;/li>
+&lt;li>Updated Mysticism - A Magic Overhaul to 2.2.1&lt;/li>
+&lt;li>Updated Adamant - A Perk Overhaul to 5.7.4&lt;/li>
+&lt;li>Updated Adamant - Hand to Hand Addon to 1.3.6&lt;/li>
+&lt;li>Updated Aetherius - A Race Overhaul to 2.9.1&lt;/li>
+&lt;li>Updated Scion - A Vampire Overhaul to 2.1.2&lt;/li>
+&lt;li>Updated Manbeast - A Werewofl Overhaul to 2.0&lt;/li>
+&lt;li>Updated Forceful Tongue - Shouts Overhaul to 3.0.8&lt;/li>
+&lt;li>Updated Pilgrim - A Religion Overhaul to 1.1.1&lt;/li>
+&lt;li>Updated Survival Mode Improved to 1.0.7&lt;/li>
+&lt;li>Updated Precision to 2.0.4&lt;/li>
+&lt;li>Updated Armor and Clothing Extension to 1.5.1&lt;/li>
+&lt;li>Updated Ancient Nord Stalhrim to 1.2.3&lt;/li>
+&lt;li>Updated Trade and Barter - Adamant Patch with a hotfix&lt;/li>
+&lt;li>Updated Armor and Clothing Extension - Spell Perk Item Distributor Patch to 1.4&lt;/li>
+&lt;li>Updated Simple Degradation - NPC Tempering to 1.4.1&lt;/li>
+&lt;li>Updated C.O.I.N. - Coins of Interesting Natures to 2.1.0.2&lt;/li>
+&lt;li>Updated Bandit Lines Expansion to 1.06&lt;/li>
+&lt;li>Updated NPCs Wear Amulets of Mara to 2.02&lt;/li>
+&lt;li>Updated Civil War Lines Expansion to 1.05&lt;/li>
+&lt;li>Updated The Choice is Yours to 2.6&lt;/li>
+&lt;li>Updated Encounter Zones Unlocked to 1.5.4&lt;/li>
+&lt;li>Updated Resistances and Weaknesses to 1.0&lt;/li>
+&lt;li>Updated Enchantments and Potions Work for NPCs to 1.0.2&lt;/li>
+&lt;li>Updated NPCs Learn Skills and Spells to 1.2&lt;/li>
+&lt;li>Updated Blade and Blunt - A Combat Overhaul to 2.1&lt;/li>
+&lt;li>Updated Archery Rebalance (formerly Quintessential Quivers) to 1.7&lt;/li>
+&lt;li>Updated Horse Stamina HUD to 1.0.4&lt;/li>
+&lt;li>Updated Unequip Quiver to 2.1.1&lt;/li>
+&lt;li>Updated Audio Overhaul for Skyrim to 4.0.1&lt;/li>
+&lt;li>Updated Regional Sounds Expansion to 2.0&lt;/li>
+&lt;li>Updated Reverb Interior Sounds Expansion to 1.4&lt;/li>
+&lt;li>Updated Simple Dual Sheath to 1.5.4&lt;/li>
+&lt;li>Updated Sleeping Expanded to 1.22&lt;/li>
+&lt;li>Updated Dynamic Animation Replacer to 1.1.3&lt;/li>
+&lt;li>Updated Auto Input Switch to 1.2&lt;/li>
+&lt;li>Updated Classic Sprinting Redone to 2.3&lt;/li>
+&lt;li>Updated Better Jumping to 1.8.6&lt;/li>
+&lt;li>Updated Better Third Person Selection to 0.5.8&lt;/li>
+&lt;li>Updated JContainers to 4.2.3&lt;/li>
+&lt;li>Updated powerofthree&amp;rsquo;s Papyrus Extender to 5.4.1&lt;/li>
+&lt;li>Updated FileAccess Interface for Skyrim SE to 1.4.1b&lt;/li>
+&lt;li>Updated ConsoleUtils to 1.4&lt;/li>
+&lt;li>Updated ENB Helper to 2.2&lt;/li>
+&lt;li>Updated Spell Perk Item Distributor to 6.3&lt;/li>
+&lt;li>Updated Console Commands Extender to 1.11&lt;/li>
+&lt;li>Updated Keyword Item Distributor to 2.2&lt;/li>
+&lt;li>Updated Base Object Swapper to 2.5.1&lt;/li>
+&lt;li>Updated Sound Record Distributor to 1.3&lt;/li>
+&lt;li>Updated ENBSeries to v0.384&lt;/li>
+&lt;li>Updated Blade and Blunt - Vanilla Difficulty Modifiers to 2.0&lt;/li>
+&lt;/ul>
+&lt;h4 id="outputs">Outputs&lt;/h4>
+&lt;ul>
+&lt;li>Regenerated Nemesis&lt;/li>
+&lt;li>Regenerated xLODGEN&lt;/li>
+&lt;li>Regenerated TexGen&lt;/li>
+&lt;li>Regenerated DynDOLOD (and Performance)&lt;/li>
+&lt;/ul>
+&lt;/details>
+&lt;hr>
+&lt;h4 id="previous-changes-dating-back-release-43-can-be-found-herehttpsgithubcomamigoliathslidikins-strenuous-skyrimblobmainchangelogmd">Previous changes dating back Release 4.3 can be found &lt;a href="https://github.com/Amigoliath/Slidikins-Strenuous-Skyrim/blob/main/Changelog.md">here&lt;/a>&lt;/h4></description></item><item><title>Skyrim-Se: Example Builds</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/</guid><description>
+&lt;p>Below are a list of character builds I&amp;rsquo;ve personally created and use in the list. They aren&amp;rsquo;t necessarily the most &lt;em>optimized&lt;/em> builds, but they are &lt;em>viable&lt;/em> and I still get to have a satisfying amount of role-play. Please use them for inspiration or guidance in creating your own characters.&lt;/p>
+&lt;p>In each build you&amp;rsquo;ll find a list of 55 perks (the hard limit in SSS) and recommendations for standing stones, deity worship, and enchantment choices. I&amp;rsquo;ve also included a spellbook of key spells and shouts for each build. I have omitted specific equipment recommendations and alchemical combinations for now. Those may come in future updates.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Note:&lt;/strong> While these are named after classes from earlier Elder Scrolls games, that was just a starting concept. The end result tends to be slightly different as I try to incorporate Combat, Magic, and Stealth elements into every build for versatility.&lt;/p>
+&lt;/blockquote></description></item></channel></rss>
