@@ -236,16 +236,17 @@
 &lt;/ul>
 &lt;h4 id="updates">Updates&lt;/h4>
 &lt;ul>
-&lt;li>Updated NVIDIA Reflex Support to 1.1.2 (73)&lt;/li>
-&lt;li>Updated Dwemer Gates Don&amp;rsquo;t Reset to 1.3.7 (78)&lt;/li>
-&lt;li>Updated Papyrus Tweaks to 4.0 (100)&lt;/li>
-&lt;li>Updated Rally&amp;rsquo;s Nord War Horns to 1.3 (440)&lt;/li>
-&lt;li>Updated Pilgrim - A Religion Overhaul to 1.1.2 (671)&lt;/li>
-&lt;li>Updated Honed Metal Revoiced to 1.8 (720)&lt;/li>
-&lt;li>Updated The Choice Is Yours to 2.7 (760)&lt;/li>
+&lt;li>Updated NVIDIA Reflex Support to 1.1.2&lt;/li>
+&lt;li>Updated Dwemer Gates Don&amp;rsquo;t Reset to 1.3.7&lt;/li>
+&lt;li>Updated Papyrus Tweaks to 4.0&lt;/li>
+&lt;li>Updated Rally&amp;rsquo;s Nord War Horns to 1.3&lt;/li>
+&lt;li>Updated Pilgrim - A Religion Overhaul to 1.1.2&lt;/li>
+&lt;li>Updated Honed Metal Revoiced to 1.8&lt;/li>
+&lt;li>Updated The Choice Is Yours to 2.7&lt;/li>
 &lt;/ul>
 &lt;h4 id="outputs">Outputs&lt;/h4>
 &lt;ul>
+&lt;li>Regenerated Left Hand Meshes&lt;/li>
 &lt;li>Regenerated Nemesis&lt;/li>
 &lt;/ul>
 &lt;/details>
@@ -498,6 +499,7 @@
 &lt;/ul>
 &lt;h4 id="outputs-1">Outputs&lt;/h4>
 &lt;ul>
+&lt;li>Regenerated Left Hand Meshes&lt;/li>
 &lt;li>Regenerated Nemesis&lt;/li>
 &lt;li>Regenerated xLODGEN&lt;/li>
 &lt;li>Regenerated TexGen&lt;/li>
