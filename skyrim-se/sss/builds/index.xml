@@ -362,9 +362,9 @@ Red Mountain’s Wisdom: Your Fire Resistance is increased by 50%, and your sp
 &lt;li>&lt;strong>Attributes:&lt;/strong>&lt;br>
 Resource management is crucial. Health keeps you alive on the frontline, Stamina is needed for your fists, and you need enough Magicka to cast your spells. Get what you need and don&amp;rsquo;t be wasteful when using it.
 &lt;ul>
-&lt;li>&lt;strong>Health:&lt;/strong> 4 (45%)&lt;/li>
-&lt;li>&lt;strong>Magicka:&lt;/strong> 2 (25%)&lt;/li>
-&lt;li>&lt;strong>Stamina:&lt;/strong> 3 (30%)&lt;/li>
+&lt;li>&lt;strong>Health:&lt;/strong> 5&lt;/li>
+&lt;li>&lt;strong>Magicka:&lt;/strong> 2&lt;/li>
+&lt;li>&lt;strong>Stamina:&lt;/strong> 3&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -384,8 +384,8 @@ Resource management is crucial. Health keeps you alive on the frontline, Stamina
 &lt;p>&lt;em>Heavy armor would only slow you down. Let your mastery of the arcane shield you.&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Philosopher 1 (10):&lt;/strong> Alteration spells cost 25% less Magicka.&lt;/li>
-&lt;li>&lt;strong>Mage Robes 1 (20):&lt;/strong> You have 50% extra Magicka Regeneration while wearing robes.&lt;/li>
-&lt;li>&lt;strong>Mage Armor 1 (30):&lt;/strong> Armor spells are 50% stronger while wearing robes.&lt;/li>
+&lt;li>&lt;strong>Mage Robes 1 (20):&lt;/strong> You have 50% extra Magicka Regeneration while not wearing an armored chest piece.&lt;/li>
+&lt;li>&lt;strong>Mage Armor 1 (30):&lt;/strong> Armor spells are 50% stronger while not wearing an armored chest piece.&lt;/li>
 &lt;/ul>
 &lt;h4 id="conjuration">Conjuration&lt;/h4>
 &lt;ul>
@@ -424,8 +424,8 @@ Resource management is crucial. Health keeps you alive on the frontline, Stamina
 &lt;li>&lt;strong>Balance 1 (30):&lt;/strong> Alteration spells last 50% longer.&lt;/li>
 &lt;li>&lt;strong>Stability (40):&lt;/strong> You resist 50% of incoming stagger while under the effects of an armor spell.&lt;/li>
 &lt;li>&lt;strong>Philosopher (50):&lt;/strong> Alteration spells cost 50% less Magicka.&lt;/li>
-&lt;li>&lt;strong>Mage Robes 2 (60):&lt;/strong> You have 100% extra Magicka Regeneration while wearing robes.&lt;/li>
-&lt;li>&lt;strong>Balance 2 (60):&lt;/strong> Alteration spells last 100% longer.&lt;/li>
+&lt;li>&lt;strong>Mage Robes 2 (60):&lt;/strong> You have 100% extra Magicka Regeneration while not wearing an armored chest piece.&lt;/li>
+&lt;li>&lt;strong>Spell Strike 1 (60):&lt;/strong> Unarmed attacks deal elemental damage while under the effects of an elemental shield spell.&lt;/li>
 &lt;li>&lt;strong>Spell Shield (70):&lt;/strong> You have 25% Magic Resistance while under the effect of an armor spell.&lt;/li>
 &lt;/ul>
 &lt;h4 id="conjuration-1">Conjuration&lt;/h4>
@@ -469,10 +469,11 @@ Resource management is crucial. Health keeps you alive on the frontline, Stamina
 &lt;p>Now is the time for your trial and your reward. Unlock &lt;em>Cultist Rank 2&lt;/em> as soon as you&amp;rsquo;re able and complete your pilgrimage to elevate your fighting style. Meanwhile, your flames grow hotter and hotter still, comparable to a dragon&amp;rsquo;s as you deliver devastating unarmed strikes.&lt;/p>
 &lt;details>
 &lt;h4 id="alteration-2">Alteration&lt;/h4>
-&lt;p>&lt;em>Your control is to the point where magicka from others can be used to your benefit.&lt;/em>&lt;/p>
+&lt;p>&lt;em>Your magic fully envelopes you, boosting your offense and defense immensely.&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Mage Armor 2 (70):&lt;/strong> Armor spells are 100% stronger while wearing robes.&lt;/li>
-&lt;li>&lt;strong>Spell Sip (90):&lt;/strong> You have a 25% chance to absorb the Magicka from incoming spells while under the effect of an armor spell.&lt;/li>
+&lt;li>&lt;strong>Balance 2 (60):&lt;/strong> Alteration spells last 100% longer.&lt;/li>
+&lt;li>&lt;strong>Mage Armor 2 (70):&lt;/strong> Armor spells are 100% stronger while not wearing an armored chest piece.&lt;/li>
+&lt;li>&lt;strong>Spell Strike 2 (90):&lt;/strong> Unarmed attacks deal even more elemental damage while under the effects of an elemental shield spell.&lt;/li>
 &lt;/ul>
 &lt;h4 id="conjuration-2">Conjuration&lt;/h4>
 &lt;p>&lt;em>Having met your challenge, welcome the assistance of powerful ancestors.&lt;/em>&lt;/p>
@@ -505,8 +506,7 @@ Resource management is crucial. Health keeps you alive on the frontline, Stamina
 &lt;ul>
 &lt;li>&lt;strong>Light Feet 2 (70):&lt;/strong> You move 20% faster while unarmed.&lt;/li>
 &lt;li>&lt;strong>Momentum 2 (70):&lt;/strong> Unarmed attacks are 40% faster.&lt;/li>
-&lt;li>&lt;strong>Finisher (80):&lt;/strong> Your unarmed power attacks deal 50% extra damage against targets that fall below half Health. &lt;/li>
-&lt;li>&lt;strong>Heavy Blows 2 (90):&lt;/strong> Your unarmed strikes deal extra Stamina damage, and prevent enemies from regenerating Stamina for 10 seconds.   &lt;/li>
+&lt;li>&lt;strong>Finisher (80):&lt;/strong> Your unarmed power attacks deal 50% extra damage against targets that fall below half Health.&lt;/li>
 &lt;/ul>
 &lt;h4 id="sneak-2">Sneak&lt;/h4>
 &lt;p>&lt;em>Slip unnoticed into place and land a devastating opening blow.&lt;/em>&lt;/p>
@@ -563,8 +563,8 @@ Resource management is crucial. Health keeps you alive on the frontline, Stamina
 Your main source of armor throughout your adventures. With perks, this will give you stagger resistance, magic resistance, and magic absorption, making you incredibly beefy in robes.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Ash Form (Adept+):&lt;/strong> &lt;em>Encases an enemy in ash for 30 seconds. Attacking the enemy will break this spell.&lt;/em>&lt;br>
-Temporarily remove an enemy from the equation while you deal with others. Make sure to choose a distant enemy else your &lt;em>Fire Cloak&lt;/em> or other effects may free them prematurely.&lt;/p>
+&lt;p>&lt;strong>Fire Shell (Adept+):&lt;/strong> &lt;em>Your Fire Resistance is increased by 50% for 120 seconds.&lt;/em>&lt;br>
+You&amp;rsquo;re not using this for the extra Fire Resistance, though it&amp;rsquo;s nice. You&amp;rsquo;re using it to empower your unarmed strikes with &lt;em>Spell Strike&lt;/em>. Grab that perk as soon as you hit 60 Alteration.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Weakness to Fire (Expert):&lt;/strong> &lt;em>You reduce enemy Fire Resistance by 50% for 60 seconds.&lt;/em>&lt;br>
@@ -879,7 +879,7 @@ You&amp;rsquo;ll need health to stand toe to toe with foes, magicka to maintain 
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-ritual.webp">
 &lt;h4 id="the-ritual">The Ritual&lt;/h4>
 &lt;p>&lt;em>&lt;strong>Mother’s Sorrow:&lt;/strong>&lt;/em> &lt;em>You can summon or reanimate one additional minion, but your summoning and reanimation spells last half as long.&lt;/em>&lt;/p>
-&lt;p>Bodies are plentiful enough. Don&amp;rsquo;t get attached to them and raise as many as you need to overpower your enemies. This trade is even more beneficial in the late game when your summons are more powerful and last even longer&lt;/p>
+&lt;p>Bodies are plentiful enough. Don&amp;rsquo;t get attached to them and raise as many as you need to overpower your enemies. This trade is even more beneficial in the late game when your summons are more powerful and last even longer.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-tower.webp">
 &lt;h4 id="the-tower">The Tower&lt;/h4>
 &lt;p>&lt;em>&lt;strong>Warden’s Wall:&lt;/strong>&lt;/em> &lt;em>Your Armor Rating is increased by 100, and you reflect 100% of incoming melee damage back at your attacker.&lt;/em>&lt;/p>
@@ -1185,15 +1185,15 @@ Stamina will be vital in consistently firing your bow and sprinting to safer loc
 &lt;/blockquote>
 &lt;p>Wherever you come from originally you recognize the Nine Divines of the Imperial Pantheon. Few families are so rooted in the Empire as yours, after all. Of the Nine, three in particular speak to you in your journeys. &lt;strong>Kynareth&lt;/strong> is often the patron of travelers like yourself. It was &lt;strong>Julianos&lt;/strong> who urged you to leave your home in search of history&amp;rsquo;s forgotten lessons. And you can never forget the ubituitous &lt;strong>Akatosh&lt;/strong>, god-defender of the Empire who commands you to worship the Nine.&lt;/p>
 &lt;details>
-&lt;h4 id="kynareth">Kynareth&lt;/h4>
-&lt;p>&lt;em>Your Stamina is increased by 25.&lt;/em>&lt;/p>
-&lt;p>Extra stamina is always useful and the shrine can be found early on in Whiterun. You can&amp;rsquo;t go wrong with this choice. At some point you may feel that your Stamina Regeneration makes the extra Stamina less useful. If that happens consider switching to another deity.&lt;/p>
-&lt;h4 id="julianos">Julianos&lt;/h4>
-&lt;p>&lt;em>Your Magicka is increased by 25%.&lt;/em>&lt;/p>
-&lt;p>Alternatively, a boost to your Magicka may be the difference needed to cast a higher tier spell. This option is especially suitable when leaning into life at the College of Winterhold as you&amp;rsquo;ll be more in touch with your magical studies there.&lt;/p>
 &lt;h4 id="akatosh">Akatosh&lt;/h4>
 &lt;p>&lt;em>You gain 10% more experience.&lt;/em>&lt;/p>
 &lt;p>You can never go wrong with the chief deity as he&amp;rsquo;ll provide you with a solid experience boost. Faster leveling means faster access to powerful perks that will keep your adventures moving smoothly.&lt;/p>
+&lt;h4 id="julianos">Julianos&lt;/h4>
+&lt;p>&lt;em>Your Magicka is increased by 25.&lt;/em>&lt;/p>
+&lt;p>Alternatively, a boost to your Magicka may be the difference needed to cast a higher tier spell. This option is especially suitable when leaning into life at the College of Winterhold as you&amp;rsquo;ll be more in touch with your magical studies there.&lt;/p>
+&lt;h4 id="kynareth">Kynareth&lt;/h4>
+&lt;p>&lt;em>Your Stamina is increased by 25.&lt;/em>&lt;/p>
+&lt;p>Extra stamina is always useful and the shrine can be found early on in Whiterun. You can&amp;rsquo;t go wrong with this choice. At some point you may feel that your Stamina Regeneration makes the extra Stamina less useful. If that happens consider switching to another deity.&lt;/p>
 &lt;/details>
 &lt;h2 id="spellbook">Spellbook&lt;/h2>
 &lt;blockquote>
@@ -1326,9 +1326,9 @@ Orsinium's Heir: Your Health is increased by 50 and your Health Regeneration is 
 &lt;li>&lt;strong>Attributes:&lt;/strong>&lt;br>
 Almost everything you do will require Magicka but you can&amp;rsquo;t ignore your other attributes just in case things go awry.
 &lt;ul>
-&lt;li>&lt;strong>Health:&lt;/strong> 2 (20%)&lt;/li>
-&lt;li>&lt;strong>Magicka:&lt;/strong> 5 (50%)&lt;/li>
-&lt;li>&lt;strong>Stamina:&lt;/strong> 3 (30%)&lt;/li>
+&lt;li>&lt;strong>Health:&lt;/strong> 2&lt;/li>
+&lt;li>&lt;strong>Magicka:&lt;/strong> 5&lt;/li>
+&lt;li>&lt;strong>Stamina:&lt;/strong> 3&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -1485,14 +1485,14 @@ Almost everything you do will require Magicka but you can&amp;rsquo;t ignore you
 &lt;h4 id="the-mage-guardian">The Mage (Guardian)&lt;/h4>
 &lt;p>&lt;em>&lt;strong>Path of Wisdom:&lt;/strong>&lt;/em> &lt;em>Your Magicka is increased by 50, and your spells and enchantments cost 10% less.&lt;/em>&lt;/p>
 &lt;p>You&amp;rsquo;ll want a large Magicka pool and this provides one early in the game. It doesn&amp;rsquo;t help your martial side at all but it&amp;rsquo;s the best option of the three stones.&lt;/p>
-&lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-shadow.webp">
-&lt;h4 id="the-shadow">The Shadow&lt;/h4>
-&lt;p>&lt;em>&lt;strong>Moonshadow:&lt;/strong>&lt;/em> &lt;em>You are 25% harder to detect while sneaking, and you deal 25% more damage with sneak attacks and spells.&lt;/em>&lt;/p>
-&lt;p>Sneaking, sneak attacks, and sneak spells are pretty much your modus operandi in full. This stone benefits everything you aim to do which makes it a safe mid-to-late-game option.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-apprentice.webp">
 &lt;h4 id="the-apprentice">The Apprentice&lt;/h4>
 &lt;p>&lt;em>&lt;strong>Elfborn:&lt;/strong>&lt;/em> &lt;em>Your Magicka regenerates twice as fast, but your Magic Resistance is reduced by 25%.&lt;/em>&lt;/p>
 &lt;p>Aptly named for this build, this stone leans into the glass cannon concept. Your Magicka pool will greatly benefit from this blessing however you may find yourself promptly cooked by opposing mages if they discover you.&lt;/p>
+&lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-shadow.webp">
+&lt;h4 id="the-shadow">The Shadow&lt;/h4>
+&lt;p>&lt;em>&lt;strong>Moonshadow:&lt;/strong>&lt;/em> &lt;em>You are 25% harder to detect while sneaking, and you deal 25% more damage with sneak attacks and spells.&lt;/em>&lt;/p>
+&lt;p>Sneaking, sneak attacks, and sneak spells are pretty much your modus operandi in full. This stone benefits everything you aim to do which makes it a safe mid-to-late-game option.&lt;/p>
 &lt;/details>
 &lt;h2 id="faith">Faith&lt;/h2>
 &lt;blockquote>
@@ -1517,7 +1517,7 @@ Almost everything you do will require Magicka but you can&amp;rsquo;t ignore you
 &lt;details>
 &lt;img align="right" width="100" height="100" src="https://thephoenixflavour.com/Pictures/sss/builds/skill-alteration.webp">
 &lt;h3 id="alteration-3">Alteration&lt;/h3>
-&lt;p>Use the school of alteration to bolster your own defenses just in case. Also use it to scout out and make your enemies vulnerable. Alteration is a powerful toolbox in the right hands and your hands look plenty capable.&lt;/p>
+&lt;p>Use the school of alteration to bolster your own defenses just in case. Also use it to scout ahead and to make your enemies vulnerable. Alteration is a powerful toolbox in the right hands and your hands look plenty capable.&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;strong>Oakflesh (Novice+):&lt;/strong> &lt;em>Your Armor Rating is increased by 40 for 120 seconds.&lt;/em>&lt;br>

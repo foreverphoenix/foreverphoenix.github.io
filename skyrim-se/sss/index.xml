@@ -114,6 +114,8 @@
 &lt;li>&lt;strong>Toggle Compass:&lt;/strong> &lt;code>X&lt;/code>&lt;/li>
 &lt;li>&lt;strong>Favorite Groups 1-4:&lt;/strong> &lt;code>9&lt;/code>,&lt;code>0&lt;/code>, &lt;code>-&lt;/code>, and &lt;code>=&lt;/code>&lt;/li>
 &lt;li>&lt;strong>Horse Hotkey:&lt;/strong> &lt;code>H&lt;/code> (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/54225">&lt;em>Simplest Horses&lt;/em>&lt;/a>)&lt;/li>
+&lt;li>&lt;strong>Toggle 1st/3rd Person View:&lt;/strong> &lt;code>F&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Toggle Close/Far 3rd Person View:&lt;/strong> &lt;code>↑&lt;/code> (in 3rd Person View)&lt;/li>
 &lt;/ul>
 &lt;h2 id="2-survival-and-exploration">2. Survival and Exploration&lt;/h2>
 &lt;p>This list will automatically enable &lt;a href="https://en.uesp.net/wiki/Skyrim:Survival_Mode">&lt;em>Survival Mode&lt;/em>&lt;/a> at the end of the Helgen. You&amp;rsquo;ll be expected to engage with its mechanics, specifically &lt;em>eating&lt;/em>, &lt;em>sleeping&lt;/em>, and &lt;em>keeping warm&lt;/em>.&lt;/p>
@@ -177,7 +179,7 @@
 &lt;h3 id="followers">Followers&lt;/h3>
 &lt;p>It sounds like the deck is stacked against you, and in many ways it is. But you don&amp;rsquo;t have to go it alone. Keep in mind the following changes when bringing a follower along:&lt;/p>
 &lt;ul>
-&lt;li>NPCs, including followers, use ammo the same as you. If your follower uses a bow, make sure to keep them supplied with arrows.&lt;/li>
+&lt;li>NPCs, including followers, use ammo the same way you do. If your follower uses a bow, make sure to keep them supplied with arrows.&lt;/li>
 &lt;li>Followers who run out of Health will be in a &amp;ldquo;downed&amp;rdquo; state for 2 minutes unless healed by Restoration magic. Enemies will ignore them in this state. (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41228">&lt;em>STAYDOWN&lt;/em>&lt;/a>)&lt;/li>
 &lt;li>Mercenaries will charge more for their services based on factors such as their level. (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45677">&lt;em>Dynamic Mercenary Fees&lt;/em>&lt;/a>)&lt;/li>
 &lt;/ul>
@@ -202,14 +204,188 @@
 &lt;p>You’ve just escaped Helgen by the skin of your teeth. You don’t have much to your name, and you don’t have nifty perks that deliver the pain to your enemies. Take a moment to collect yourself in town. Craft a bit and make a little money to get yourself started. The Skyrim Uncapper is configured to give less character exp for your crafting skills, so there’s no need to worry about overleveling yourself out of the gate. There will be plenty of time to delve into dungeons later. Make sure you’re properly equipped now.&lt;/p>
 &lt;h4 id="stay-in-range-of-whiterun">Stay in Range of Whiterun&lt;/h4>
 &lt;p>The urge to explore is strong but try to fight it off in the early game. There is plenty to do in Whiterun Hold once you’ve reached Riverwood, and that content should get you to Level 10 without too many hitches. A &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17576">&lt;em>Missives&lt;/em>&lt;/a> board can be found in Whiterun if you need additional tasks. Bleak Falls Barrow can be handled easily by Level 5, though you may want to wait until you’re closer to Level 10 before tackling Dragon Rising. Also, buy Breezehome. All of the other homes are more expensive and you’ll need someplace reliable to store your valuables until you can afford them.&lt;/p>
+&lt;h4 id="bring-a-light">Bring a Light&lt;/h4>
+&lt;p>&lt;em>Lux&lt;/em> (and its related mods) change interior lighting so that light comes from the visible, reasonable sources. Torches, candles, windows, etc. and so on. This makes certain areas, such as dungeons, quite dark at times. Fires on the road can also be put out by storms. Carry a source of light with you (such as a torch) so that you don&amp;rsquo;t find yourself lost in the shadows.&lt;/p>
 &lt;h3 id="mid-game-level-10---30">Mid Game (Level 10 - 30)&lt;/h3>
+&lt;h4 id="find-a-follower">Find a Follower&lt;/h4>
+&lt;p>If you haven&amp;rsquo;t already, consider choosing someone to accompany you on your adventures. Ideally they should complement your skill set. If you&amp;rsquo;re a frontliner, consider a follower good at archery (and supply them with arrows!) or magic. Or vice versa if you like to attack from range. Just remember to provide them with quality equipment as their usefulness will plummet if they can&amp;rsquo;t keep up in fights.&lt;/p>
 &lt;h4 id="buy-a-horse">Buy a Horse&lt;/h4>
 &lt;p>Okay, now forget what I just said about staying local. It’s time to explore and get into the thick of it! Time passes fast on the overworld so unless you want to spend all of daylight traveling from Point A to Point B, invest in a horse to shorten your travel times. And if you’re really going far I recommend making use of the carriages from time to time. Since your carry weight (and that of your follower) is halved, horses are also the best way to move a lot of supplies from one place to another. (Press &lt;code>H&lt;/code> while looking at the horse to use its saddlebags.)&lt;/p>
 &lt;h4 id="join-a-faction">Join a Faction&lt;/h4>
 &lt;p>Go find yourself a faction (i.e. The Companions) that suits your character and sign up. Their quests will support the skills you’re looking to improve. As you progress through the tier, also consider signing up for the Stormcloaks or the Imperial Legion if you have a stake in the civil war. Their quests are less focused but they’ll provide plenty of targets to practice on for more experience.&lt;/p>
 &lt;h3 id="late-game-level-30---50">Late Game (Level 30 - 50)&lt;/h3>
+&lt;h4 id="spent-your-septims">Spent Your Septims&lt;/h4>
+&lt;p>At this point you probably have a hole burning in your pocket from a pile of extra septims. Spend it! You get 5 training opportunities per level, use your gold to bump skills towards a perk you desperately need. Or buy high quality equipment that just isn&amp;rsquo;t appearing for you in boss chests. Don&amp;rsquo;t hoard your wealth like the dragons you&amp;rsquo;re meant to kill; put your money to good use.&lt;/p>
 &lt;h4 id="utilize-crafting">Utilize Crafting&lt;/h4>
-&lt;p>Seriously, I can’t stress this enough. In the late game you may be dealing with areas that are scaled high above your Level 50 limit, some at that point before you reach the cap. You’ll want every advantage you can get to bridge the gap and most of those advantages are obtained through crafting. If you ignored this early on, now’s a good time to reconsider it. If on Master or Legendary difficulty, you might even need to make different equipment sets for different types of enemies.&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sss/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/changelog/</guid><description>
+&lt;p>I can’t stress this enough. In the late game you might deal with areas that are scaled high above your Level 50 limit, some at that point before you reach the cap. You’ll want every advantage you can get to bridge the gap and most of those advantages are obtained through crafting. If you ignored this early on, now’s a good time to reconsider it. If on Master or Legendary difficulty, you might even need to make different equipment sets for different types of enemies.&lt;/p>
+&lt;h4 id="adjust-the-difficulty-if-needed">Adjust the Difficulty if Needed&lt;/h4>
+&lt;p>If combat is becoming too easy at this point, think about increasing the difficulty. I personally change it from Expert (the list default) to Master at Level 30, then again to Legendary at Level 50 when my perk build is complete. This will lower your damage given (and increase damage taken), encouraging you to find ways to boost your abilities further while maintaning a challenge.&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sss/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/changelog/</guid><description>
+&lt;h2 id="release-4161-rc-1">Release 4.16.1 RC 1&lt;/h2>
+&lt;blockquote>
+&lt;p>2023-02-04&lt;/p>
+&lt;/blockquote>
+&lt;p>This update should really be called &lt;em>Slidikins&amp;rsquo; Strenuous Skyrim Release 5.0 RC 4&lt;/em> as it&amp;rsquo;s essentially a complete rebuild of the list based off of &lt;em>The Phoenix Flavour 5.0 RC 4&lt;/em> (which is currently unavailable). The changes in 4.15.5 was the first step towards this goal. The jump to SSE 1.6.640 in 4.16 put me within spitting distance. So, while I know that it&amp;rsquo;s only been a week since that jump, I&amp;rsquo;ve decided to go the rest of the way.&lt;/p>
+&lt;p>The core of the list hasn&amp;rsquo;t changed. It&amp;rsquo;s still a Simonrim-centered TPF modlist with &lt;em>Survival Mode&lt;/em> and my other choices, but TPF 5.0 has decided to venture off into the previously labeled &amp;ldquo;TPF-X&amp;rdquo; realm of added content. This update follows TPF down that path&amp;hellip; some of the way. You&amp;rsquo;ll find your Vanilla+ experience peppered with &lt;strong>new enemies, new equipment, expanded quests, more crafting options, and more&lt;/strong>. What you won&amp;rsquo;t find are the new worldscapes (areas), followers, or any content that requires the &lt;a href="https://store.steampowered.com/app/1746860/The_Elder_Scrolls_V_Skyrim_Anniversary_Upgrade">Anniversary Upgrade&lt;/a>. If you have that, keep an eye out for TPF&amp;rsquo;s release as it will integrate most of it very well.&lt;/p>
+&lt;p>There&amp;rsquo;s a lot of changes here. Seriously. The folder count went from ~800 to ~1400. The plugin count is through the roof. Part of that is due to the conflict resolution patches being separated out by section instead of being altogether. This might not be the case in the final release, however there&amp;rsquo;s no reason not to leave it as is with the way ESL plugins work.&lt;/p>
+&lt;p>Anyway, a not-so-shortlist of sectional changes can be found below. Please, &lt;em>please&lt;/em> let me know if you run into any issues. I almost guarantee that you will. I want to fix them.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>This update is absolutely not save-safe.&lt;/strong> It is likely that future release candidates will be but not guaranteed. If you want to safely continue your character on v4.16.0.1, my advice would be to manually update SimonMagus&amp;rsquo; mods so long as they&amp;rsquo;re labeled save-safe and you&amp;rsquo;ll be in good shape.&lt;/p>
+&lt;/blockquote>
+&lt;details>
+&lt;h4 id="changes">Changes&lt;/h4>
+&lt;p>This changelog is structured differently because of how much has changed. Instead of an itemized list, I&amp;rsquo;ll go through section by section and list some key differences from each, compared to &lt;a href="https://loadorderlibrary.com/lists/the-phoenix-flavour-50-wip">TPF 5.0 RC 4&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Utilities:&lt;/strong> No big changes here. This section consists of pre-requisites for other mods, most of which were already in the list. I did not carry over &lt;em>Optional Quick Start&lt;/em> from TPF 5.0 as I&amp;rsquo;m not a fan of the implementation.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Essential Mods:&lt;/strong> Phoenix created her own &lt;em>Weapons &amp;amp; Armor Overhaul&lt;/em> that supercedes &lt;em>WACCF&lt;/em> here, otherwise this section is mostly untouched. Numerous mods from this section have been moved to sections below.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>SKSE Plugins:&lt;/strong> The section has been moved higher. There are a number of new plugins, almost all of which are small quality of life fixes such as &lt;em>Stagger Direction Fix&lt;/em> or &lt;em>Alchemy Plus&lt;/em>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Fixes &amp;amp; Tweaks:&lt;/strong> Can you believe there are so many things to fix after USSEP? And it&amp;rsquo;s all in here. Again, not going to get into the weeds over things that are small bug fixes. &amp;ldquo;It just works.&amp;rdquo;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Controls &amp;amp; Camera:&lt;/strong> This section also moved upwards. &lt;em>Sprint Swimming&lt;/em> is the newest addition here, otherwise it&amp;rsquo;s the same as before. I&amp;rsquo;ve switched away from the &lt;em>EasyEase Preset&lt;/em> to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/82481">SmoothCam Vanilla Enhanced 2&lt;/a> with very minor changes.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Interface:&lt;/strong> I kept &lt;em>Toggle Compass Hotkey&lt;/em> over &lt;em>Ultimate Immersion Toggle&lt;/em>. I&amp;rsquo;ve also reverted back to regular &lt;em>SkyUI&lt;/em> as the default interface. This allows for more consistency with &lt;em>CoMAP&lt;/em> and &lt;em>Constructible Object Custom Keyword System&lt;/em>, both new additions in this update. There is an optional &lt;em>Nordic UI&lt;/em> section for those who still want the old look but it&amp;rsquo;s not at the same level of consistency. Widescreen support is still present for 21x9 monitors (&lt;em>SkyUI&lt;/em> only; for other ratios or &lt;em>Nordic UI&lt;/em> support you have to install it on your own). I&amp;rsquo;ve tried my best to make sure both UI looks work with the same configuration file.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Graphic Baseline:&lt;/strong> Not much to say here. The Performance Profile does not utilize &lt;em>High Poly Project&lt;/em> otherwise it&amp;rsquo;s not an exciting section to talk about. To look at is a different story.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Mesh Improvements:&lt;/strong> Likewise, TPF 5.0 just makes things look prettier here and I saw no reason to change these choices.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Weather &amp;amp; Lighting:&lt;/strong> This is the first major departure from TPF 5.0. I&amp;rsquo;ve switched &lt;em>Obsidian Weathers&lt;/em> out for &lt;em>RAID Weathers&lt;/em> but left everything else the same. Previous versions of the list did not have reliable stealth mechanics which was a sore spot given the reduced HUD. By switching back to &lt;em>RAID&lt;/em> and &lt;em>RAID Weathers&lt;/em> sneaking around is tough but fair, the way I intended.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Fire &amp;amp; Visual FX:&lt;/strong> I&amp;rsquo;ve added &lt;em>R.A.S.S. - Rain Ash and Snow Shaders&lt;/em> on top of TPF 5.0. I&amp;rsquo;ve also kept all of my previous additions such as &lt;em>Frozen Electrocuted Combusion&lt;/em>. I&amp;rsquo;m borderline on R.A.S.S. so please let me know what you think.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Landscape:&lt;/strong> I kept pretty much everything here, the most noticeable of which was &lt;em>Enhanced Landscapes&lt;/em> to make exploring a bit more memorable. Then I added a bunch of MystiriousDawn&amp;rsquo;s new HD Parallax textures.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Trees, Grass, &amp;amp; Plants:&lt;/strong> Essentially the same as TPF 5.0, which is the same as TPF 4.0 with the addition of &lt;em>Happy Little Trees&lt;/em> and some of the &lt;em>Cathedral - 3D&lt;/em> plants.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Appearance:&lt;/strong> Unchanged as this section was adopted by SSS in earlier versions.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Architecture:&lt;/strong> No real changes from TPF 5.0 aside from &lt;em>Rally&amp;rsquo;s Market Stalls&lt;/em>. Things look good here.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Misc Structures:&lt;/strong> Again, no real changes. For the most part I&amp;rsquo;ve always agree with Phoenix&amp;rsquo;s visuals and that hasn&amp;rsquo;t changed.&lt;em>Daedric Shrines&lt;/em> was put here as the only addition from a later section of the list.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Interiors:&lt;/strong> Nothing to say here that hasn&amp;rsquo;t already been said.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Dungeons:&lt;/strong> The retexture section of the changelog is quite boring, isn&amp;rsquo;t it?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Clutter:&lt;/strong> I should note that TPF 5.0 switched from the desaturated version of &lt;em>Book Covers Skyrim&lt;/em> to the saturated version. All the books in the game will be brighter than before.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Valuables:&lt;/strong> For some reason &lt;em>Security Overhaul SKSE&lt;/em> was moved here. Otherwise, nothing interesting to note.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Food &amp;amp; Ingredients:&lt;/strong> I&amp;rsquo;ve added &lt;em>Garlic - A Garlic Mod&lt;/em> to the section. It came out after the last release candidate but I feel that Phoenix would&amp;rsquo;ve loved it.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Apparel &amp;amp; Weapons:&lt;/strong> Unchanged from TPF 5.0 as it was already incorporated into SSS awhile back.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Creatures:&lt;/strong> Unchanged from TPF 5.0.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Gameplay Overhauls:&lt;/strong> The SimonRim core of TPF remains untouched.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Balance &amp;amp; Crafting:&lt;/strong> TPF 5.0 expands the crafting a good amount and SSS followed it all the way down that road. The biggest thing to note here is that TPF 5.0 modifies the Smithing tree along with its other changes. &lt;em>Honed Metal&lt;/em> has not been adjusted to compensate so there may be some weirdness with the blacksmith services.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Non-Player Characters:&lt;/strong> Children get more clothes with &lt;em>Prince and the Pauper&lt;/em> returning to the list. Vigilants as well. Otherwise, this is a mostly unchanged section that introduces a few small tweaks to the list.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Improved Vanilla Quests:&lt;/strong> TPF 5.0 fleshes this section out even more with a lot of minor tweaks. &lt;em>At Your Own Pace&lt;/em> has been added for the main quest and the College of Winterhold. The other factions have gotten some attention as well to improve their quest pacing.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Nothing really changed here. Like Gameplay Overhauls, the core of the list hasn&amp;rsquo;t changed.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Miscellaneous:&lt;/strong> Phoenix added a number of small mods to this section such as &lt;em>Jarrin Root for Babette&lt;/em>. &lt;em>Left Hand Rings&lt;/em> is included so that the Bond of Matrimony can be worn without taking up a valuable enchantment slot. One that I didn&amp;rsquo;t take was &lt;em>Another Redbelly Mine Mod&lt;/em> because, put frankly, I don&amp;rsquo;t care all too much about the dialogue conflict here. It&amp;rsquo;s an easy mine to enter, let&amp;rsquo;s leave it as an iron mine like all the other easy mines to enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Skeleton &amp;amp; Animations:&lt;/strong> I left this mostly unchanged which is a departure from TPF 5.0 because it added &lt;em>Movement Behavior Overhaul&lt;/em> and &lt;em>Animated Armoury&lt;/em>. The former was glitchy for me and I didn&amp;rsquo;t think the latter fit the current vision of the list and there are no added weapon types here, so I dropped them. &lt;em>Precision&lt;/em> returns, however, as it was not the true source of the previous issue.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Sound FX:&lt;/strong> I know less about sound than I do visuals. This section was left as is.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Creation Club:&lt;/strong> This list only uses the 4 free Creations that came with Anniversary Edition so the others have been removed, drastically slimming down the next few sections.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Creation Club Base:&lt;/strong> I did my best to preserve what could be used here with the above limitation which wasn&amp;rsquo;t much. In addition, previous enhancements to &lt;em>Saints and Seducers&lt;/em>, &lt;em>Survival Mode&lt;/em>, and &lt;em>Fishing&lt;/em> were moved here.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Creation Club Assets:&lt;/strong> Unchanged from TPF 5.0 aside from the aforementioend trim.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Creation Club Patches:&lt;/strong> Included everything necessary for the utilized Creations.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Creation Club Integreation:&lt;/strong> This has been reduced to Phoenix&amp;rsquo;s patches and &lt;em>Mysticism - Survival Spells Addon&lt;/em>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Beyond Skyrim Bruma, Wyrmstooth, City Overhauls, Other Locations, Interior Overhauls, and New Player Homes:&lt;/strong> Not included in SSS.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>New &amp;amp; Expanded Quests:&lt;/strong> Some of these were introduced in the last update. Most, actually. I did not add &lt;em>Cheesemod for EVERYONE&lt;/em> and &lt;em>New Treasure Hunt&lt;/em>, however.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>New Mechanics:&lt;/strong> &lt;em>Hand to Hand&lt;/em> and &lt;em>Pilgrim&lt;/em>, among others, were already in the list. I&amp;rsquo;ve added &lt;em>Skyrim Wayshrines&lt;/em> and &lt;em>BA Bard Songs&lt;/em>. &lt;em>Wayshrines&lt;/em> provides another alternative to fast traveling but you&amp;rsquo;ll incur fatigue in exchange for the transmission. Left out were some CC-dependent mechanics, &lt;em>Take A Peek&lt;/em>, &lt;em>Skyrim&amp;rsquo;s Got Talent&lt;/em>, and &lt;em>Skyrim&amp;rsquo;s Paraglider&lt;/em>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>New Items:&lt;/strong> A lot. I mean, there&amp;rsquo;s a lot of new, lore friendly gear to outfit yourself with here. Before it was just &lt;em>Royal Armory&lt;/em> and &lt;em>Ancient Nord Stahlrim&lt;/em>. Now it&amp;rsquo;s a proper section.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>New Creatures:&lt;/strong> This was called &amp;ldquo;New NPCs &amp;amp; Creatures&amp;rdquo; in TPF 5.0 but I didn&amp;rsquo;t carry over a single NPC so just ignore that first part. You still get plenty of new monsters to fight and a handful more alchemical ingredients to play around with from this section.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>New Animations:&lt;/strong> In addition to the previous animations I&amp;rsquo;ve added to the list, TPF 5.0 adds almost all of Verolevi&amp;rsquo;s animations (with &lt;em>Conditional Armor Type Animations&lt;/em>) to the game. In action all of these new animations looked nice and made sense, so I left them in.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>New Music:&lt;/strong> Nothing has changed here.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Content Integration:&lt;/strong> Without certain CC mods the &lt;em>Crossbow Integration&lt;/em> part of this section got neutered but I kept what I could. You should also see more Bonemold and Chitin and merchants will have more gear from across Tamriel even if you can&amp;rsquo;t go there yourself.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Lux, Lux Orbis, &amp;amp; Lux Via:&lt;/strong> These mods are so big they need their own section. I&amp;rsquo;ve included everything that was necessary given the other choices in the modlist.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="updates">Updates&lt;/h4>
+&lt;ul>
+&lt;li>Updated Crash Logger to 1.8&lt;/li>
+&lt;li>Updated Spell Perk Item Distributor to 6.4&lt;/li>
+&lt;li>Updated Cathedral Weathers and Seasons - Unofficial Update to 2.40&lt;/li>
+&lt;li>Updated Particle Patch for ENB to 1.2.3&lt;/li>
+&lt;li>Updated Assorted Mesh Fixes to 0.78&lt;/li>
+&lt;li>Updated Aetherius - A Race Overhaul to 2.10.3&lt;/li>
+&lt;li>Updated Mundus - A Standing Stone Overhaul to 1.9.1&lt;/li>
+&lt;li>Updated Snowy Surfaces Sound Collision and Aesthetics to 1.6.1&lt;/li>
+&lt;li>Updated Hand to Hand - An Adamant Addon to 1.4.2&lt;/li>
+&lt;li>Updated NPC Animation Remix to 1.2.1&lt;/li>
+&lt;/ul>
+&lt;h4 id="outputs">Outputs&lt;/h4>
+&lt;ul>
+&lt;li>Regenerated everything&lt;/li>
+&lt;/ul>
+&lt;/details>
 &lt;h2 id="release-41601">Release 4.16.0.1&lt;/h2>
 &lt;blockquote>
 &lt;p>2023-01-27&lt;/p>
@@ -224,7 +400,7 @@
 &lt;/ul>
 &lt;p>A new save is not required. You will receive a warning about &lt;code>Precision.esp&lt;/code> that can be ignored.&lt;/p>
 &lt;details>
-&lt;h4 id="changes">Changes&lt;/h4>
+&lt;h4 id="changes-1">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Architecture:&lt;/strong> Added Windhelm Fence 3D&lt;/li>
 &lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Removed Precision&lt;/li>
@@ -234,7 +410,7 @@
 &lt;li>&lt;strong>Configuration:&lt;/strong> Lowered SkillFormulaCaps to 100 (this won&amp;rsquo;t change much of anything as Simonrim bonuses tend not to give raw skill boosts, I&amp;rsquo;m just cleaning up the file)&lt;/li>
 &lt;li>&lt;strong>Configuration:&lt;/strong> Adjusted Scrambled Bugs settings to match Simon&amp;rsquo;s suggestions for his gameplay suite&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates">Updates&lt;/h4>
+&lt;h4 id="updates-1">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated NVIDIA Reflex Support to 1.1.2&lt;/li>
 &lt;li>Updated Dwemer Gates Don&amp;rsquo;t Reset to 1.3.7&lt;/li>
@@ -244,7 +420,7 @@
 &lt;li>Updated Honed Metal Revoiced to 1.8&lt;/li>
 &lt;li>Updated The Choice Is Yours to 2.7&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs">Outputs&lt;/h4>
+&lt;h4 id="outputs-1">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Left Hand Meshes&lt;/li>
 &lt;li>Regenerated Nemesis&lt;/li>
@@ -268,7 +444,7 @@
 &lt;p>I haven&amp;rsquo;t done justice to all of the changes in 4.16. Take a peek at the details below for a full list. There are some real gems in there.&lt;/p>
 &lt;details>
 &lt;p>Updated for &lt;a href="https://github.com/Codygits/TPF-Updates/releases/tag/4.16.0">TPF 4.16.0&lt;/a>&lt;/p>
-&lt;h4 id="changes-1">Changes&lt;/h4>
+&lt;h4 id="changes-2">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Creation Club Content:&lt;/strong> Added Saints and Seducers&lt;/li>
 &lt;li>&lt;strong>Essential Mods:&lt;/strong> Removed .NET Script Framework&lt;/li>
@@ -403,7 +579,7 @@
 &lt;li>&lt;strong>Conflict Resolution (Creation Club):&lt;/strong> Removed edits to the Steed Stone and Extra Pockets&lt;/li>
 &lt;li>&lt;strong>FaceGen:&lt;/strong> Removed extraneous data from TPF&amp;rsquo;s FaceGen data (it&amp;rsquo;s much smaller now!)&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-1">Updates&lt;/h4>
+&lt;h4 id="updates-2">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated xLODGEN to 97&lt;/li>
 &lt;li>Updated DynDOLOD to 3.00 Alpha-111&lt;/li>
@@ -497,7 +673,7 @@
 &lt;li>Updated ENBSeries to v0.384&lt;/li>
 &lt;li>Updated Blade and Blunt - Vanilla Difficulty Modifiers to 2.0&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-1">Outputs&lt;/h4>
+&lt;h4 id="outputs-2">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Left Hand Meshes&lt;/li>
 &lt;li>Regenerated Nemesis&lt;/li>
