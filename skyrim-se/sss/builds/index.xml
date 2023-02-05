@@ -190,14 +190,14 @@ Most of what you do will require Magicka so you don&amp;rsquo;t want to ignore i
 &lt;h4 id="the-mage-guardian">The Mage (Guardian)&lt;/h4>
 &lt;p>&lt;em>&lt;strong>Path of Wisdom:&lt;/strong>&lt;/em> &lt;em>Your Magicka is increased by 50, and your spells and enchantments cost 10% less.&lt;/em>&lt;/p>
 &lt;p>The Mage Stone is the ideal starting stone for you. Though the agent is technically a Stealth class the benefits of the Thief Stone aren&amp;rsquo;t too beneficial. Feel free to carry this blessing into the mid game.&lt;/p>
+&lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-serpent.webp">
+&lt;h4 id="the-serpent">The Serpent&lt;/h4>
+&lt;p>&lt;em>&lt;strong>Serpent’s Kiss:&lt;/strong>&lt;/em> &lt;em>Your Poison Resistance is increased by 50%, your potions last 50% longer, and your poisons last for two additional hits.&lt;/em>&lt;/p>
+&lt;p>The Serpent Stone is hit or miss for this build, ironically. An additional hit of poison can be great if you&amp;rsquo;re stabbing your victims instead of reverse pickpocketing. Otherwise this does next to nothing for you.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-shadow.webp">
 &lt;h4 id="the-shadow">The Shadow&lt;/h4>
 &lt;p>&lt;em>&lt;strong>Moonshadow:&lt;/strong>&lt;/em> &lt;em>You are 25% harder to detect while sneaking, and you deal 25% more damage with sneak attacks and spells.&lt;/em>&lt;/p>
-&lt;p>If you run into problems sneaking the Shadow Stone is your best friend. It will help you stay hidden and boost your spellpower at the same time.&lt;/p>
-&lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-serpent.webp">
-&lt;h4 id="the-serpent">The Serpent&lt;/h4>
-&lt;p>&lt;em>&lt;strong>Serpent’s Kiss:&lt;/strong>&lt;/em> &lt;em>Your Poison Resistance is increased by 50%, your potions last 50% longer, and your poisons last for an additional hit.&lt;/em>&lt;/p>
-&lt;p>The Serpent Stone is hit or miss for this build, ironically. An additional hit of poison can be great if you&amp;rsquo;re stabbing your victims instead of reverse pickpocketing. Otherwise this does next to nothing for you.&lt;/p>
+&lt;p>If you run into problems sneaking, the Shadow Stone is your best friend. It will help you stay hidden and boost your spellpower at the same time.&lt;/p>
 &lt;/details>
 &lt;h2 id="faith">Faith&lt;/h2>
 &lt;blockquote>
@@ -356,7 +356,7 @@ Red Mountain’s Wisdom: Your Fire Resistance is increased by 50%, and your sp
 &lt;ul>
 &lt;li>&lt;strong>Offensive:&lt;/strong> Destruction, Hand to Hand&lt;/li>
 &lt;li>&lt;strong>Defensive:&lt;/strong> Alteration, Enchanting&lt;/li>
-&lt;li>&lt;strong>Utility:&lt;/strong> Conjuration&lt;/li>
+&lt;li>&lt;strong>Utility:&lt;/strong> Conjuration, Sneak&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>&lt;strong>Attributes:&lt;/strong>&lt;br>
@@ -1832,14 +1832,14 @@ You&amp;rsquo;ll get a large boost to Stamina from your race and the Thief Stone
 &lt;h4 id="the-thief-guardian">The Thief (Guardian)&lt;/h4>
 &lt;p>&lt;em>&lt;strong>Cheater’s Luck:&lt;/strong>&lt;/em> &lt;em>Your Stamina is increased by 50, you move 10% faster, and you take 50% less damage from falling.&lt;/em>&lt;/p>
 &lt;p>Extra Stamina is just what you need out of the gate. The extra movespeed helps you get into your opponents&amp;rsquo; faces and chase them down if they retreat. This blessing is equivalent to &lt;em>Kynareth&amp;rsquo;s&lt;/em> later on when you have &lt;em>Pilgrim (Rank 2)&lt;/em>, coincidentally. It&amp;rsquo;s almost as if Tava herself is watching over you.&lt;/p>
-&lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-lady.webp">
-&lt;h4 id="the-lady">The Lady&lt;/h4>
-&lt;p>&lt;em>&lt;strong>Lady’s Grace:&lt;/strong>&lt;/em> &lt;em>Your Health, Magicka and Stamina Regeneration are increased by 50%, and by an additional 50% when you fall below half Health.&lt;/em>&lt;/p>
-&lt;p>Later on you&amp;rsquo;ll have enough Stamina in your pool and Stamina Regeneration will be more important. Lady&amp;rsquo;s Grace will boost your overall endurance so you can keep raging on the frontlines. &lt;em>The Lover&lt;/em> is an alternative that&amp;rsquo;s much better for Stamina overall if you don&amp;rsquo;t mind neglecting Health and Magicka.&lt;/p>
-&lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-tower.webp">
-&lt;h4 id="the-tower">The Tower&lt;/h4>
-&lt;p>&lt;em>&lt;strong>Warden’s Wall:&lt;/strong>&lt;/em> &lt;em>Your Armor Rating is increased by 100, and you reflect 100% of incoming melee damage back at your attacker.&lt;/em>&lt;/p>
-&lt;p>Bolster your defenses and turn your opponent&amp;rsquo;s strength against them in one blessing. Provided you can survive the hits this is a fantastic late-game standing stone and a necessary core to a damage reflection version of the build.&lt;/p>
+&lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-lover.webp">
+&lt;h4 id="the-lover">The Lover&lt;/h4>
+&lt;p>&lt;em>&lt;strong>Lover&amp;rsquo;s Touch:&lt;/strong>&lt;/em> &lt;em>Your Stamina regenerates twice as fast, but you cannot gain any bonuses from sleeping.&lt;/em>&lt;/p>
+&lt;p>Later on you&amp;rsquo;ll have enough Stamina in your pool and Stamina Regeneration will be more important. Lover&amp;rsquo;s Touch will give you plenty of Stamina Regeneration to work with, allowing you to continue your onslaught for much longer.&lt;/p>
+&lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-steed.webp">
+&lt;h4 id="the-steed">The Steed&lt;/h4>
+&lt;p>&lt;em>&lt;strong>Charioteer:&lt;/strong>&lt;/em> *You move 20% faster and your Carry Weight is increased by 100. *&lt;/p>
+&lt;p>Movement speed gets you into your preferred range quickly and allows you to weave in and out of attacks with more ease. The Steed will not only help you out immensely in that regard but it will boost your Carry Weight a large amount as well, allowing you to bring back more spoils from your victories.&lt;/p>
 &lt;/details>
 &lt;h2 id="faith">Faith&lt;/h2>
 &lt;blockquote>
@@ -1855,11 +1855,11 @@ You&amp;rsquo;ll get a large boost to Stamina from your race and the Thief Stone
 &lt;p>Tava, the goddess of air, weather and sun is thematically the true option for this build. With &lt;em>Pilgirm (Rank 2)&lt;/em> you&amp;rsquo;ll be granted extra speed from the goddess. Use it along with other boosts to stay in your opponents&amp;rsquo; faces where it&amp;rsquo;s most perilous for them.&lt;/p>
 &lt;h4 id="tall-papa">Tall Papa&lt;/h4>
 &lt;p>&lt;em>You gain 20% more experience. You have an additional unique effect based on your Standing Stone.&lt;/em>&lt;/p>
-&lt;p>Tall Papa&amp;rsquo;s&amp;rsquo; experience bonus is almost always beneficial. His additional effect can be hit or miss. If utilizing reflect mechanics he can be an especially solid choice with the &lt;em>Tower Stone&lt;/em>.&lt;/p>
+&lt;p>Tall Papa&amp;rsquo;s&amp;rsquo; experience bonus is almost always beneficial. His additional effects are all useful as well, especially for &lt;em>Steed Stone&lt;/em> users who want as much speed as possible.&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>The Lady Stone:&lt;/strong> You have 25 extra Health, Magicka, and Stamina. &lt;/li>
 &lt;li>&lt;strong>The Thief Stone:&lt;/strong> You spend 25% less Stamina when power attacking or drawing a bow.&lt;/li>
-&lt;li>&lt;strong>The Tower Stone:&lt;/strong> You reflect 100% of incoming melee damage back at your opponent.&lt;/li>
+&lt;li>&lt;strong>The Steed Stone:&lt;/strong> You move 10% faster, and your carry weight is increased by 50.&lt;/li>
 &lt;/ul>
 &lt;/details>
 &lt;h2 id="spellbook">Spellbook&lt;/h2>
@@ -1951,14 +1951,14 @@ The main effect will help you quickly close the distance with archers and mages 
 &lt;ul>
 &lt;li>&lt;strong>Fortify Power Attacks:&lt;/strong> &lt;em>You deal 25% more damage with power attacks.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Fortify Destruction Cost:&lt;/strong> &lt;em>Your Destruction spells cost 25% less.&lt;/em>&lt;/li>
-&lt;li>&lt;strong>Reflect Damage:&lt;/strong> &lt;em>You reflect 50% of incoming melee damage back at your attacker.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Reflect Fortify Armor Rating:&lt;/strong> &lt;em>Your Armor Rating is increased by 100.&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>Most of your damage will come from melee power attacks so it&amp;rsquo;s a safe choice to go with. If that&amp;rsquo;s not available, making your Shock spells easier to cast can be useful. Lastly, if going for the damage reflection variation, you can get another boost here.&lt;/p>
+&lt;p>Most of your damage will come from melee power attacks so it&amp;rsquo;s a safe choice to go with. If that&amp;rsquo;s not available, making your Shock spells easier to cast can be useful. Failing either, it never hurts to bolster your armor in case you&amp;rsquo;re hit.&lt;/p>
 &lt;h4 id="chest">Chest&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Resist Magic:&lt;/strong> &lt;em>Your Magic Resistance is increased by 25%.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Fortify Power Attacks:&lt;/strong> &lt;em>You deal 25% more damage with power attacks.&lt;/em>&lt;/li>
-&lt;li>&lt;strong>Reflect Damage:&lt;/strong> &lt;em>You reflect 50% of incoming melee damage back at your attacker.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Destruction Cost:&lt;/strong> &lt;em>Your Destruction spells cost 25% less.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>Being out in the open makes you an easy target for magic users. Improving your general resistance will allow you to eat the damage and continue your assault, most likely healing yourself in the process. Otherwise, this shares options with your head.&lt;/p>
 &lt;h4 id="gloves">Gloves&lt;/h4>

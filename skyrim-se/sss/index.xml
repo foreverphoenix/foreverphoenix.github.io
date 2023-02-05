@@ -147,7 +147,7 @@
 &lt;h3 id="other-notes">Other Notes&lt;/h3>
 &lt;ul>
 &lt;li>Your Health won&amp;rsquo;t regenerate on its own. You&amp;rsquo;ll need to utilize other sources of regeneration to recover, such as food, potions, perks, or Restoration magic.&lt;/li>
-&lt;li>Containers are no longer bottomless. If you want to hoard goods and materials you&amp;rsquo;ll need to find a suitable location with enough chests for your stash. (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/13826">&lt;em>Container and Arrow Weight Restrictions&lt;/em>&lt;/a>])&lt;/li>
+&lt;li>Containers are no longer bottomless. If you want to hoard goods and materials you&amp;rsquo;ll need to find a suitable location with enough chests for your stash. (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/13826">&lt;em>Container and Arrow Weight Restrictions&lt;/em>&lt;/a>)&lt;/li>
 &lt;li>Similarly, your Carry Weight has been reduced, encouraging you to reconsider what&amp;rsquo;s worth leaving the house with as well as what&amp;rsquo;s worth picking up in a dungeon.&lt;/li>
 &lt;li>Imperial Septims won&amp;rsquo;t be found in places where it wouldn&amp;rsquo;t make sense. You&amp;rsquo;ll find foreign or ancient coins in their place. Merchants can exchange these for Septims at various rates. (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/51439">&lt;em>C.O.I.N. - Coins of Interesting Natures&lt;/em>&lt;/a>)&lt;/li>
 &lt;/ul>
@@ -163,7 +163,7 @@
 &lt;h3 id="smithing">Smithing&lt;/h3>
 &lt;p>With the exception of the quintessential Mage, most adventurers will get some benefit from Smithing. Higher tier weapons and armor have been removed from the random loot lists so your options for obtaining them are limited to hunting very specific enemies, crafting them yourself, or commissioning the work from a blacksmith. These same weapons and armor will degrade with use and require occasional tempering to maintain their quality (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/74790">&lt;em>Simple Degradation&lt;/em>&lt;/a>). A master at the craft can add +10 to the base damage/armor of equipment with a single ingot. If you&amp;rsquo;re not up to the task, you can and should pay a blacksmith to do that for you too.&lt;/p>
 &lt;h3 id="enchanting">Enchanting&lt;/h3>
-&lt;p>Enchanting will give you the extra oomph you need to go from good to great, no matter your playstyle. Novice enchanters can add noticeable boosts to their gear but it&amp;rsquo;s a long investment before one can get rival the skill of an adept or expert enchanter. Until then, feel free to pay them for their work. The price tag can be daunting but the benefits of a well picked enchantment are priceless.&lt;/p>
+&lt;p>Enchanting will give you the extra oomph you need to go from good to great, no matter your playstyle. Novice enchanters can add noticeable boosts to their gear but it&amp;rsquo;s a long investment before one can rival the skill of an adept or expert enchanter. Until then, feel free to pay them for their work. The price tag can be daunting but the benefits of a well picked enchantment are priceless.&lt;/p>
 &lt;h4 id="additional-reading-1">Additional Reading&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/51254">&lt;em>Honed Metal&lt;/em>&lt;/a>&lt;/li>
@@ -203,7 +203,7 @@
 &lt;h4 id="take-it-easy-and-start-small">Take it Easy and Start Small&lt;/h4>
 &lt;p>You’ve just escaped Helgen by the skin of your teeth. You don’t have much to your name, and you don’t have nifty perks that deliver the pain to your enemies. Take a moment to collect yourself in town. Craft a bit and make a little money to get yourself started. The Skyrim Uncapper is configured to give less character exp for your crafting skills, so there’s no need to worry about overleveling yourself out of the gate. There will be plenty of time to delve into dungeons later. Make sure you’re properly equipped now.&lt;/p>
 &lt;h4 id="stay-in-range-of-whiterun">Stay in Range of Whiterun&lt;/h4>
-&lt;p>The urge to explore is strong but try to fight it off in the early game. There is plenty to do in Whiterun Hold once you’ve reached Riverwood, and that content should get you to Level 10 without too many hitches. A &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17576">&lt;em>Missives&lt;/em>&lt;/a> board can be found in Whiterun if you need additional tasks. Bleak Falls Barrow can be handled easily by Level 5, though you may want to wait until you’re closer to Level 10 before tackling Dragon Rising. Also, buy Breezehome. All of the other homes are more expensive and you’ll need someplace reliable to store your valuables until you can afford them.&lt;/p>
+&lt;p>The urge to explore is strong but try to fight it off in the early game. There is plenty to do in Whiterun Hold once you’ve reached Riverwood, and that content should get you to Level 10 without too many hitches. A &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17576">&lt;em>Missives&lt;/em>&lt;/a> board can be found in Whiterun if you need additional tasks. Bleak Falls Barrow can be handled easily by Level 5, though you may want to wait until you’re in the Level 10-15 range before tackling Dragon Rising. Also, buy Breezehome. All of the other homes are more expensive and you’ll need someplace reliable to store your valuables until you can afford them.&lt;/p>
 &lt;h4 id="bring-a-light">Bring a Light&lt;/h4>
 &lt;p>&lt;em>Lux&lt;/em> (and its related mods) change interior lighting so that light comes from the visible, reasonable sources. Torches, candles, windows, etc. and so on. This makes certain areas, such as dungeons, quite dark at times. Fires on the road can also be put out by storms. Carry a source of light with you (such as a torch) so that you don&amp;rsquo;t find yourself lost in the shadows.&lt;/p>
 &lt;h3 id="mid-game-level-10---30">Mid Game (Level 10 - 30)&lt;/h3>
@@ -220,12 +220,38 @@
 &lt;p>I can’t stress this enough. In the late game you might deal with areas that are scaled high above your Level 50 limit, some at that point before you reach the cap. You’ll want every advantage you can get to bridge the gap and most of those advantages are obtained through crafting. If you ignored this early on, now’s a good time to reconsider it. If on Master or Legendary difficulty, you might even need to make different equipment sets for different types of enemies.&lt;/p>
 &lt;h4 id="adjust-the-difficulty-if-needed">Adjust the Difficulty if Needed&lt;/h4>
 &lt;p>If combat is becoming too easy at this point, think about increasing the difficulty. I personally change it from Expert (the list default) to Master at Level 30, then again to Legendary at Level 50 when my perk build is complete. This will lower your damage given (and increase damage taken), encouraging you to find ways to boost your abilities further while maintaning a challenge.&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sss/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/changelog/</guid><description>
+&lt;h2 id="release-4161-rc-2">Release 4.16.1 RC 2&lt;/h2>
+&lt;blockquote>
+&lt;p>2023-02-05&lt;/p>
+&lt;/blockquote>
+&lt;p>Whoops, that was a quick update. This one&amp;rsquo;s short but impactful. If your character plans on doing a lot of sneaking around I&amp;rsquo;d advise restarting. You don&amp;rsquo;t have to but the values won&amp;rsquo;t be the intended. If not, you probably won&amp;rsquo;t notice too much difference other than the lighting.&lt;/p>
+&lt;p>&lt;em>EVLaS&lt;/em> is gone for now. Will it come back? Possibly, but it would require a workable adjustment for &lt;em>The Vanilla ENB Two&lt;/em> in order to prevent some of the intense outdoor shadows you may have encountered. Even with that fix, the shaodws the mod produces don&amp;rsquo;t actually affect your current light level, so hiding in them won&amp;rsquo;t make you stealthier. It&amp;rsquo;s misleading and in a game with no other indicators, not good design. So I had to drop it.&lt;/p>
+&lt;p>I also updated &lt;em>DWTD&lt;/em> values so that &lt;em>R.A.I.D.&lt;/em>&amp;lsquo;s settings properly pass through. Since &lt;em>RAID Weathers&lt;/em> was designed with stealth in mind, some of DWTD&amp;rsquo;s features were doubling down on what NPCs were already experiencing. I&amp;rsquo;ve turned off some of those features and left others, such as NPCs hearing less in the rain or searching a small radius in bad weathers.&lt;/p>
+&lt;p>R.A.S.S. was removed because it was on the fence to begin with, half of the mod was turned off and the other half wasn&amp;rsquo;t looking great in action. &lt;em>S.W.I.F.T.&lt;/em> was removed because it trivialized some of the established methods of fast traveling (carriage, ferry, spells) that existed through other mods. The mod itself is great but it doesn&amp;rsquo;t fit the list.&lt;/p>
+&lt;p>All in all, an update centered around mods with initializations.&lt;/p>
+&lt;details>
+&lt;ul>
+&lt;li>&lt;strong>Weather &amp;amp; Lighting:&lt;/strong> Removed Enhanced Volumetric Lighting and Shadows (EVLaS) ?&lt;/li>
+&lt;li>&lt;strong>Fire &amp;amp; Visual FX:&lt;/strong> Removed R.A.S.S. - Rain Ash And Snow Shaders&lt;/li>
+&lt;li>&lt;strong>Fire &amp;amp; Visual FX:&lt;/strong> R.A.S.S. - Rain Ash And Snow Shaders - Settings Loader&lt;/li>
+&lt;li>&lt;strong>Architecture:&lt;/strong> Fixed Windhelm Bridge Stairs&amp;hellip; again&lt;/li>
+&lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Edited Dynamic Weather and Time Based Detection to properly detect RAID 3 plugins and set the correct settings&lt;/li>
+&lt;li>&lt;strong>Skeletons &amp;amp; Animations:&lt;/strong> Restored Missile&amp;rsquo;s Immersive Equipment Display Presets&lt;/li>
+&lt;li>&lt;strong>New Mechanics:&lt;/strong> Removed Skyrim Wayshrines - Immersive Fast Travel&lt;/li>
+&lt;li>&lt;strong>ENB:&lt;/strong> Increased &lt;em>AmbientLightingIntensityInteriorDay&lt;/em> and &lt;em>AmbientLightingIntensityInteriorNight&lt;/em> to &lt;code>1.00&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h4 id="outputs">Outputs&lt;/h4>
+&lt;ul>
+&lt;li>Regenerated&lt;/li>
+&lt;li>Regenerated DynDOLOD (and Performance)&lt;/li>
+&lt;/ul>
+&lt;/details>
 &lt;h2 id="release-4161-rc-1">Release 4.16.1 RC 1&lt;/h2>
 &lt;blockquote>
 &lt;p>2023-02-04&lt;/p>
 &lt;/blockquote>
 &lt;p>This update should really be called &lt;em>Slidikins&amp;rsquo; Strenuous Skyrim Release 5.0 RC 4&lt;/em> as it&amp;rsquo;s essentially a complete rebuild of the list based off of &lt;em>The Phoenix Flavour 5.0 RC 4&lt;/em> (which is currently unavailable). The changes in 4.15.5 was the first step towards this goal. The jump to SSE 1.6.640 in 4.16 put me within spitting distance. So, while I know that it&amp;rsquo;s only been a week since that jump, I&amp;rsquo;ve decided to go the rest of the way.&lt;/p>
-&lt;p>The core of the list hasn&amp;rsquo;t changed. It&amp;rsquo;s still a Simonrim-centered TPF modlist with &lt;em>Survival Mode&lt;/em> and my other choices, but TPF 5.0 has decided to venture off into the previously labeled &amp;ldquo;TPF-X&amp;rdquo; realm of added content. This update follows TPF down that path&amp;hellip; some of the way. You&amp;rsquo;ll find your Vanilla+ experience peppered with &lt;strong>new enemies, new equipment, expanded quests, more crafting options, and more&lt;/strong>. What you won&amp;rsquo;t find are the new worldscapes (areas), followers, or any content that requires the &lt;a href="https://store.steampowered.com/app/1746860/The_Elder_Scrolls_V_Skyrim_Anniversary_Upgrade">Anniversary Upgrade&lt;/a>. If you have that, keep an eye out for TPF&amp;rsquo;s release as it will integrate most of it very well.&lt;/p>
+&lt;p>The core of the list hasn&amp;rsquo;t changed. It&amp;rsquo;s still a Simonrim-centered TPF modlist with &lt;em>Survival Mode&lt;/em> and my other choices, but TPF 5.0 has decided to venture off into the previously labeled &amp;ldquo;TPF-X&amp;rdquo; realm of added content. This update follows TPF down that path&amp;hellip; some of the way. You&amp;rsquo;ll find your Vanilla+ experience peppered with &lt;strong>new enemies, new equipment, expanded quests, more crafting options, and more&lt;/strong>. What you won&amp;rsquo;t find are the new worldspaces (areas), followers, or any content that requires the &lt;a href="https://store.steampowered.com/app/1746860/The_Elder_Scrolls_V_Skyrim_Anniversary_Upgrade">Anniversary Upgrade&lt;/a>. If you have that, keep an eye out for TPF&amp;rsquo;s release as it will integrate most of it very well.&lt;/p>
 &lt;p>There&amp;rsquo;s a lot of changes here. Seriously. The folder count went from ~800 to ~1400. The plugin count is through the roof. Part of that is due to the conflict resolution patches being separated out by section instead of being altogether. This might not be the case in the final release, however there&amp;rsquo;s no reason not to leave it as is with the way ESL plugins work.&lt;/p>
 &lt;p>Anyway, a not-so-shortlist of sectional changes can be found below. Please, &lt;em>please&lt;/em> let me know if you run into any issues. I almost guarantee that you will. I want to fix them.&lt;/p>
 &lt;blockquote>
@@ -381,7 +407,7 @@
 &lt;li>Updated Hand to Hand - An Adamant Addon to 1.4.2&lt;/li>
 &lt;li>Updated NPC Animation Remix to 1.2.1&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs">Outputs&lt;/h4>
+&lt;h4 id="outputs-1">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated everything&lt;/li>
 &lt;/ul>
@@ -420,7 +446,7 @@
 &lt;li>Updated Honed Metal Revoiced to 1.8&lt;/li>
 &lt;li>Updated The Choice Is Yours to 2.7&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-1">Outputs&lt;/h4>
+&lt;h4 id="outputs-2">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Left Hand Meshes&lt;/li>
 &lt;li>Regenerated Nemesis&lt;/li>
@@ -673,7 +699,7 @@
 &lt;li>Updated ENBSeries to v0.384&lt;/li>
 &lt;li>Updated Blade and Blunt - Vanilla Difficulty Modifiers to 2.0&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-2">Outputs&lt;/h4>
+&lt;h4 id="outputs-3">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Left Hand Meshes&lt;/li>
 &lt;li>Regenerated Nemesis&lt;/li>
