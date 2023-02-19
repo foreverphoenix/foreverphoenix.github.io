@@ -14,32 +14,35 @@
 &lt;li>Includes a plethora of additional fixes and tweaks for a smoother vanilla-like experience.&lt;/li>
 &lt;li>Fixed green-tinted blonde hair, weirdly bright falling leaves at night, and more.&lt;/li>
 &lt;li>&lt;strong>More lush trees, actually 3D roads, less oily water&lt;/strong>, and many other visual improvements.&lt;/li>
-&lt;li>Vanilla-like but higher quality textures for many objects provided by &lt;a href="https://www.moddb.com/mods/skyrim-realistic-overhaul">Skyrim Realistic Overhaul&lt;/a>.&lt;/li>
+&lt;li>High quality texture overhaul for many objects provided by &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34179">Skyland AIO&lt;/a>.&lt;/li>
 &lt;li>All remaining textures replaced by cleaned and upscaled versions, courtesy of the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/users/34739755?tab=user+files">Project Clarity&lt;/a> series.&lt;/li>
-&lt;li>Improved weathers with &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24439">Wander - A Weather Mod&lt;/a> or &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12125">Obsidian Weathers and Seasons&lt;/a>.&lt;/li>
-&lt;li>Optional support and detailed installation instructions for &lt;a href="https://www.afkmods.com/index.php?/files/file/2241-the-truth-enb/">The Truth ENB&lt;/a>.&lt;/li>
-&lt;li>Modern interface thanks to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12604">SkyUI&lt;/a>. The HUD is toggleable with &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/54035">Hide UI&lt;/a>. Better &lt;a href="https://imgsli.com/NzAzOTc">Reading UI&lt;/a>.&lt;/li>
+&lt;li>Improved weathers and lighting with &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/63116">RAID Weathers&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/77525">Weather Is Sacred ENB&lt;/a>.&lt;/li>
+&lt;li>Modern interface thanks to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12604">SkyUI&lt;/a>. The HUD is toggleable with &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/62117">Ultimate Immersion Toggle&lt;/a>. Better &lt;a href="https://imgsli.com/NzAzOTc">Reading UI&lt;/a>.&lt;/li>
 &lt;li>More resource management-oriented combat with &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34549">Blade and Blunt&lt;/a> (and vanilla damage modifiers).&lt;/li>
-&lt;li>Better sound quality with the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18115">Unofficial High Definition Audio Project&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12466">Audio Overhaul for Skyrim&lt;/a>.&lt;/li>
-&lt;li>&lt;strong>Optional Creation Club support&lt;/strong> (to be gradually expanded until all Creations are integrated).&lt;/li>
-&lt;li>&lt;strong>Optional Performance profile&lt;/strong> with potato-friendly INI settings and DynDOLOD configuration.&lt;/li>
-&lt;li>&lt;strong>Optional Widescreen support&lt;/strong> for 2560x1080 or 3440x1440 monitors.&lt;/li>
+&lt;li>Better sound quality with &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12466">Audio Overhaul for Skyrim&lt;/a>.&lt;/li>
+&lt;li>&lt;strong>Optional GOG support&lt;/strong> (for the GOG version of Skyrim SE).&lt;/li>
+&lt;li>&lt;strong>Optional Performance profile&lt;/strong> (with potato-friendly INI settings and DynDOLOD configuration).&lt;/li>
+&lt;li>&lt;strong>Optional Widescreen support&lt;/strong> (for 2560x1080 or 3440x1440 monitors).&lt;/li>
 &lt;/ul>
 &lt;p>Legends of the Frost features rebuilt terrain LOD with &lt;a href="https://stepmodifications.org/forum/topic/13451-xlodgen-terrain-lod-beta-84-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal-enderalse/?ct=1629204990">SSELODGen&lt;/a> as well as highly improved object LOD and hybrid tree LOD generated with &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32382">DynDOLOD&lt;/a>. All facegen for vanilla NPCs was recreated at twice the vanilla resolution with higher quality assets.&lt;/p>
 &lt;p>Please check the &lt;a href="https://thephoenixflavour.com/skyrim-se/lotf/documentation/">Documentation&lt;/a> for more details on the included mods, or check out the &lt;a href="https://loadorderlibrary.com/lists/legends-of-the-frost">Load Order Library&lt;/a> page for the full mod list and load order.&lt;/p>
 &lt;hr>
 &lt;p>&lt;strong>Check out DroppedIceCream&amp;rsquo;s amazing showcase for LOTF:&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>Note that it was made for a pre-3.0 version of LOTF and the graphics HAVE changed.&lt;/p>
+&lt;/blockquote>
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/_Hru8F0QRwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
 &lt;h3 id="performance">Performance&lt;/h3>
-&lt;p>LOTF has &lt;strong>no significant performance impact&lt;/strong>. It was not designed to be a &amp;ldquo;lite&amp;rdquo; list but the absence of a fully-featured ENB preset as well as the optional performance tweaks should still make the list more than playable on all but the weakest PCs. While I relied almost exclusively on &lt;strong>Skyrim Realistic Overhaul&lt;/strong> and &lt;strong>Project Clarity&lt;/strong> for textures with largely vanilla-sized textures, DynDOLOD does increase the amount of VRAM required.&lt;/p>
-&lt;p>I personally play @1440p60FPS on a rather high-end PC (i7 10700k, RTX 3080) and barely ever dropped below 144FPS when I uncapped the framerate for testing purposes.&lt;/p>
-&lt;p>Since LOTF 2.0, there is now an optional &lt;strong>performance profile&lt;/strong> included. While this profile and Creation Club support are mutually exclusive, it may be a great alternative for people on very low-end hardware. The INI settings were toned down and DynDOLOD was regenerated on Medium without hybrid/ultra tree LOD.&lt;/p>
+&lt;p>LOTF has &lt;strong>no significant performance impact&lt;/strong>. It was not designed to be a &amp;ldquo;lite&amp;rdquo; list but the absence of a fully-featured ENB preset as well as the optional performance tweaks should still make the list more than playable on all but the weakest PCs. While I relied almost exclusively on &lt;strong>Skyland AIO&lt;/strong> and &lt;strong>Project Clarity&lt;/strong> for textures with largely vanilla-sized textures, DynDOLOD does increase the amount of VRAM required.&lt;/p>
+&lt;p>I personally play @1440p60FPS on a rather high-end PC (i7 10700k, RTX 3080) and barely ever dropped below 144FPS when I uncapped the framerate for testing purposes. The framerate is capped at 60FPS by default which should be very achievable for most PCs.&lt;/p>
+&lt;p>Since LOTF 2.0, there is now an optional &lt;strong>performance profile&lt;/strong> included. The INI settings were toned down and DynDOLOD was regenerated on Medium with less demanding mesh rules for trees.&lt;/p>
 &lt;h3 id="about-the-name">About the name&lt;/h3>
-&lt;p>Just like my Fallout 4 list is named after one of my favourite songs, I picked &amp;ldquo;Legends of the Frost&amp;rdquo; as tribute to the incredible &lt;a href="https://www.youtube.com/channel/UCSfoxYTlCPFfglckBLrjpsA">Miracle of Sound&lt;/a> (he&amp;rsquo;s brilliant and you should check him out!). Way back in 2012, he collaborated with the equally amazing &lt;a href="https://www.youtube.com/user/malufenix">Malukah&lt;/a> on a Skyrim-themed song called, you guessed it, &lt;a href="https://www.youtube.com/watch?v=0FLQ4rACE-0">Legends of the Frost&lt;/a>. It&amp;rsquo;s one of his older songs, but it holds up very well and I love how perfectly he captured the atmosphere of the game (as he always does).&lt;/p>
+&lt;p>Just like my Fallout 4 list is named after one of my favourite songs, I picked &amp;ldquo;Legends of the Frost&amp;rdquo; as tribute to the incredible &lt;a href="https://www.youtube.com/channel/UCSfoxYTlCPFfglckBLrjpsA">Miracle of Sound&lt;/a> (he&amp;rsquo;s brilliant and you should check him out!). Way back in 2012, he collaborated with the equally amazing &lt;a href="https://www.youtube.com/user/malufenix">Malukah&lt;/a> on a Skyrim-themed song called, you guessed it, &lt;a href="https://www.youtube.com/watch?v=0FLQ4rACE-0">Legends of the Frost&lt;/a>. Though it is one of his older songs, it holds up very well and I love how perfectly he captured the atmosphere of the game (as he always does).&lt;/p>
 &lt;h4 id="to-install-lotf-please-follow-the-installation-guideskyrim-selotfinstallation">To install LOTF, please follow the &lt;a href="https://thephoenixflavour.com/skyrim-se/lotf/installation/">Installation Guide&lt;/a>.&lt;/h4></description></item><item><title>Skyrim-Se: Installation</title><link>https://thephoenixflavour.com/skyrim-se/lotf/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/lotf/installation/</guid><description>
 &lt;h2 id="requirements">Requirements&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/">Skyrim Special Edition&lt;/a> on Steam.&lt;/li>
+&lt;li>Skyrim Special Edition on &lt;a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/">Steam&lt;/a> &lt;strong>or&lt;/strong> &lt;a href="https://www.gog.com/en/game/the_elder_scrolls_v_skyrim_special_edition">GOG&lt;/a>.&lt;/li>
+&lt;li>The &lt;strong>Anniversary Edition DLC&lt;/strong> (or all Creations bought separately).&lt;/li>
 &lt;li>Latest version of Windows 10 (required by Wabbajack).&lt;/li>
 &lt;li>At least a free &lt;a href="https://www.nexusmods.com/">Nexus Mods&lt;/a> account, Premium is recommended.&lt;/li>
 &lt;li>Latest drivers for your GPU (&lt;a href="https://www.nvidia.com/Download/index.aspx">NVIDIA&lt;/a> or &lt;a href="https://www.amd.com/en/support">AMD&lt;/a>).&lt;/li>
@@ -48,7 +51,7 @@
 &lt;p>A Nexus Premium subscription is highly recommended for a significantly faster and easier installation. Without Premium, you will need to click download for every mod while Premium allows Wabbajack to automatically download everything for you.&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="disk-space">Disk Space&lt;/h3>
-&lt;p>&lt;strong>Legends of the Frost&lt;/strong> currently requires &lt;strong>~76GB&lt;/strong> of free disk space for the list installation and another &lt;strong>~47GB&lt;/strong> for the downloaded archives. It is recommended to install LOTF on an &lt;strong>SSD&lt;/strong>.&lt;/p>
+&lt;p>&lt;strong>Legends of the Frost&lt;/strong> currently requires &lt;strong>~34GB&lt;/strong> of free disk space for the list installation and another &lt;strong>~26GB&lt;/strong> for the downloaded archives. It is recommended to install LOTF on an &lt;strong>SSD&lt;/strong>.&lt;/p>
 &lt;p>The initial installation process will be faster if the downloaded archives are also on an SSD. They can be moved to a different drive afterwards as they are not necessary for gameplay, only for updating the list. If you delete them, you will have to redownload them if you want to update LOTF so it&amp;rsquo;s recommended to keep them.&lt;/p>
 &lt;h3 id="mo2-prerequisites">MO2 Prerequisites&lt;/h3>
 &lt;p>Mod Organizer 2 requires the Microsoft Visual C++ Redistributable and .NET Framework 4.8, two basic packages. Chances are you already have them installed, but please grab the two installers linked below and run them. If the packages are already present on your system, the installers should notify you.&lt;/p>
@@ -57,27 +60,134 @@
 &lt;li>Download and install &lt;a href="https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer">.NET Framework 4.8&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;p>If either of them were missing on your system, they will be installed now. Afterwards, you may be required to restart your PC.&lt;/p>
-&lt;h2 id="skyrim-se-setup">Skyrim SE Setup&lt;/h2>
-&lt;p>&lt;strong>LOTF requires the latest version of Skyrim SE.&lt;/strong> For clarification, this latest version is a post-AE release (currently &lt;code>1.6.353.0&lt;/code>). A copy of your vanilla executables downgraded to 1.5.97.0 will be placed in LOTF&amp;rsquo;s custom stock game folder, but in order to install the list you need to have an up-to-date Steam installation of the game. The Skyrim AE DLC itself is not required and not supported outside the optional Creation Club profile (instructions on how to use that will be linked later).&lt;/p>
-&lt;ul>
-&lt;li>If you are on &lt;strong>Skyrim SE 1.6.353.0&lt;/strong>, you can install LOTF without any further steps.&lt;/li>
-&lt;li>If you are on any older version, please verify files through Steam to install the update.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Please make sure to launch the game at least once before running Wabbajack.&lt;/strong> If you just updated or (re)installed the game, this is necessary for setting up registry keys as modding tools will otherwise be unable to recognise the game. You can quit from the main menu.&lt;/p>
-&lt;h3 id="set-language-to-english">Set language to English&lt;/h3>
-&lt;p>&lt;strong>LOTF requires the English language version of Skyrim SE.&lt;/strong>&lt;/p>
-&lt;p>If you are currently playing in a language other than English, please go into the settings for Skyrim SE in your Steam library and revert the language to English. After changing the language, Steam should automatically download the required files (launch the game to force the download if it doesn&amp;rsquo;t).&lt;/p>
-&lt;p>After updating the game language, please launch the game once and quit from the main menu.&lt;/p>
+&lt;h2 id="steam-installation">Steam Installation&lt;/h2>
 &lt;blockquote>
-&lt;p>If you own the Anniversary Edition DLC, the game will download all creations on first launch. This may take a few minutes.&lt;/p>
+&lt;p>&lt;strong>Skip this step if you are using the GOG version of Skyrim SE.&lt;/strong> Note that if, for whatever reason, you have both Steam and GOG version installed, Wabbajack will prioritise the Steam version.&lt;/p>
 &lt;/blockquote>
+&lt;p>&lt;strong>LOTF requires the latest version of Skyrim SE.&lt;/strong> This is currently &lt;code>1.6.640.0&lt;/code> on Steam.&lt;/p>
+&lt;p>Because LOTF is using the default game folder (with the Root Builder plugin), it is crucial that this folder is located &lt;strong>outside&lt;/strong> any UAC-protected folders. To ensure this is the case and that no left-over files from previous mod setups can interfere with LOTF, I recommend doing a full clean install of the game.&lt;/p>
+&lt;p>If you never modded Skyrim SE and/or never installed other Wabbajack lists, you may skip the full reinstall. However, I still recommend you verify the game files through Steam.&lt;/p>
+&lt;ul>
+&lt;li>Uninstall &lt;strong>Skyrim SE&lt;/strong> through Steam.&lt;/li>
+&lt;li>Navigate to the Steam directory where Skyrim SE was previously installed.&lt;/li>
+&lt;li>If there is still a &lt;code>\Steam\steamapps\common\Skyrim Special Edition\&lt;/code> folder, delete it.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>When uninstalling a game through Steam, only vanilla files are removed. Mod-added files must be deleted manually.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="ini-folder">INI Folder&lt;/h3>
+&lt;p>Other game files are located inside the so-called &lt;strong>INI Folder&lt;/strong> which should be cleaned out as well. It contains your &lt;strong>savegames&lt;/strong> as well as the game’s INI files and, if you modded Skyrim before, SKSE plugin logs.&lt;/p>
+&lt;ul>
+&lt;li>Navigate to the INI Folder: &lt;code>C:\Users\{Your User Name}\Documents\My Games\Skyrim Special Edition\&lt;/code>.&lt;/li>
+&lt;li>If you have an ongoing vanilla playthrough, back up the &lt;strong>Saves&lt;/strong> folder.&lt;/li>
+&lt;li>Delete everything inside the &lt;strong>Skyrim Special Edition&lt;/strong> folder.&lt;/li>
+&lt;/ul>
+&lt;h3 id="set-language-to-english">Set language to English&lt;/h3>
+&lt;p>&lt;strong>LOTF requires the English language version of Skyrim SE.&lt;/strong> If you are currently playing in a language other than English, please go into the settings for Skyrim SE in your Steam library and revert the language to English.&lt;/p>
+&lt;h3 id="installation-directory">Installation Directory&lt;/h3>
+&lt;p>The reinstallation also serves the purpose of relocating the game files to a better directory. Using UAC protected folders (such as &lt;code>C:\Program Files\&lt;/code> or &lt;code>C:\Program Files x86\&lt;/code>) for the game or any modding tools has a risk of causing issues down the line. It is best to avoid those folders to begin with.&lt;/p>
+&lt;blockquote>
+&lt;p>Most Wabbajack list curators, myself included, will not provide support for people that disregard this warning and use UAC protected folders anyway.&lt;/p>
+&lt;/blockquote>
+&lt;p>Note that this does not include the Steam client. Most people will have it installed under &lt;code>C:\Program Files x86\Steam\&lt;/code> which is completely fine.&lt;/p>
+&lt;p>Skyrim SE and Legends of the Frost (Mod Organizer 2) should be installed on the same hard drive. Ideally that hard drive would be an SSD to reduce loading times and eliminate stuttering.&lt;/p>
+&lt;h3 id="steam-library">Steam Library&lt;/h3>
+&lt;p>In order to prevent some confusion, I will refer to the Library in Steam as the &lt;strong>Game Library&lt;/strong>. It is the second of four items in the top menu in the Steam client and contains a list of all your games.&lt;/p>
+&lt;p>A &lt;strong>Steam Library&lt;/strong> on the other hand is a folder on your hard drive into which Steam games are installed. By default, this would be &lt;code>C:\Program Files x86\Steam\steamapps\common\&lt;/code>. Since we do not want to have files inside a UAC protected folder like &lt;code>Program Files x86&lt;/code>, we should not install Skyrim SE in the default directory. A new &lt;strong>Steam Library&lt;/strong> is required.&lt;/p>
+&lt;blockquote>
+&lt;p>Unfortunately Steam allows only one Steam Library per hard drive. You can find a workaround &lt;a href="https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide">here&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>If you already have a separate Steam Library outside the UAC protected folders on the drive you want to install Skyrim SE and LOTF on, skip ahead to the next step.&lt;/strong>&lt;/p>
+&lt;p>Otherwise follow the instructions below to create a new Steam Library:&lt;/p>
+&lt;ul>
+&lt;li>Open &lt;strong>Steam&lt;/strong> and go into the &lt;strong>Settings&lt;/strong>.&lt;/li>
+&lt;li>In the Downloads tab, select &lt;strong>Steam Library Folders&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>Add Library Folder&lt;/strong>.&lt;/li>
+&lt;li>Point it to a location somewhere outside the UAC protected folders, e.g. &lt;code>G:\Steam Library\&lt;/code>.&lt;/li>
+&lt;li>Close all windows when you’re done.&lt;/li>
+&lt;/ul>
+&lt;h3 id="reinstallation">Reinstallation&lt;/h3>
+&lt;p>Now we can re-install Skyrim SE:&lt;/p>
+&lt;ul>
+&lt;li>Open Steam and go into your &lt;strong>Game Library&lt;/strong>.&lt;/li>
+&lt;li>Find &lt;strong>Skyrim Special Edtion&lt;/strong> in the list and click &lt;strong>Install&lt;/strong>.&lt;/li>
+&lt;li>As location, select a &lt;strong>Steam Library&lt;/strong> in a non-UAC protected folder and click &lt;strong>Next&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>Wait for the download to complete before you proceed.&lt;/p>
+&lt;h3 id="ini-files--creations">INI Files &amp;amp; Creations&lt;/h3>
+&lt;p>After re-installing the game, it is important to launch it at least once through Steam so that the registry keys are set up, allowing Wabbajack and Mod Organizer to find the game. Upon launching the game, the default set of INI files will also be regenerated.&lt;/p>
+&lt;ul>
+&lt;li>Find &lt;strong>Skyrim Special Edtion&lt;/strong> in your &lt;strong>Games Library&lt;/strong> and hit &lt;strong>Play&lt;/strong>.&lt;/li>
+&lt;li>You will be prompted with a notification that Skyrim SE is configuring your video options, click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> again in the next window.&lt;/li>
+&lt;/ul>
+&lt;p>The preset that is selected now will be irrelevant. LOTF uses its own set of INI files.&lt;/p>
+&lt;ul>
+&lt;li>Click &lt;strong>Play&lt;/strong> to launch the game.&lt;/li>
+&lt;/ul>
+&lt;p>In the main menu, you should be prompted with a message box, informing you that the AE DLC Creations would not be downloaded.&lt;/p>
+&lt;ul>
+&lt;li>Click &lt;strong>OK&lt;/strong> and wait for the download to complete.&lt;/li>
+&lt;li>Exit the game.&lt;/li>
+&lt;/ul>
+&lt;h3 id="future-proofing">Future Proofing&lt;/h3>
+&lt;p>Updates to Skyrim SE will break the Skyrim Script Extender and a variety of mods, and render you unable to play until those mods have been updated in turn. To prevent this from happening, I recommend changing the game&amp;rsquo;s update behaviour in Steam.&lt;/p>
+&lt;p>This way, you will be able to postpone an update indefinitely as long as you always launch the game through Mod Organizer 2.&lt;/p>
+&lt;ul>
+&lt;li>Open Steam and find &lt;strong>Skyrim Special Edtion&lt;/strong> in your &lt;strong>Game Library&lt;/strong>.&lt;/li>
+&lt;li>Right-click it and select &lt;strong>Properties&lt;/strong>&lt;/li>
+&lt;li>In the &lt;strong>Updates&lt;/strong> tab, change &lt;strong>Automatic updates&lt;/strong> to &lt;strong>Only update this game when I launch it&lt;/strong>.&lt;/li>
+&lt;li>Close the &lt;strong>Properties&lt;/strong> window.&lt;/li>
+&lt;/ul>
+&lt;h2 id="gog-installation">GOG Installation&lt;/h2>
+&lt;blockquote>
+&lt;p>Skip this step if you installed Skyrim SE through Steam.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>LOTF requires the latest version of Skyrim SE.&lt;/strong> This is currently &lt;code>1.6.659.0&lt;/code> on GOG.&lt;/p>
+&lt;p>Because LOTF is using the default game folder (with the Root Builder plugin), it is crucial that this folder is located &lt;strong>outside&lt;/strong> any UAC-protected folders. To ensure this is the case and that no left-over files from previous mod setups can interfere with LOTF, I recommend doing a full clean install of the game.&lt;/p>
+&lt;ul>
+&lt;li>Uninstall &lt;strong>Skyrim Special Edition&lt;/strong> through GOG Galaxy.&lt;/li>
+&lt;li>Navigate to the directory where Skyrim SE was previously installed.&lt;/li>
+&lt;li>If there is still a &lt;code>\Skyrim Special Edition\&lt;/code> folder, delete it.&lt;/li>
+&lt;/ul>
+&lt;p>(It is possible that only vanilla files are removed by the uninstallation process while mod-added files must be deleted manually.)&lt;/p>
+&lt;h3 id="ini-folder-1">INI Folder&lt;/h3>
+&lt;p>Other game files are located inside the so-called &lt;strong>INI Folder&lt;/strong> which should be cleaned out as well. It contains your &lt;strong>savegames&lt;/strong> as well as the game’s INI files and, if you modded Skyrim before, SKSE plugin logs.&lt;/p>
+&lt;ul>
+&lt;li>Navigate to the INI Folder: &lt;code>C:\Users\{Your User Name}\Documents\My Games\Skyrim Special Edition\&lt;/code>.&lt;/li>
+&lt;li>If you have an ongoing vanilla playthrough, back up the &lt;strong>Saves&lt;/strong> folder.&lt;/li>
+&lt;li>Delete everything inside the &lt;strong>Skyrim Special Edition&lt;/strong> folder.&lt;/li>
+&lt;/ul>
+&lt;h3 id="set-language-to-english-1">Set language to English&lt;/h3>
+&lt;p>&lt;strong>LOTF requires the English language version of Skyrim SE.&lt;/strong> If you previously switched to a language other than English, please follow these instructions:&lt;/p>
+&lt;ul>
+&lt;li>In GOG Galaxy, open the &lt;strong>Skyrim Special Edition&lt;/strong> page.&lt;/li>
+&lt;li>Click the configuration button next to &lt;strong>Play&lt;/strong>.&lt;/li>
+&lt;li>Select &lt;strong>Manage installation&lt;/strong> &amp;gt; &lt;strong>Configure&lt;/strong>.&lt;/li>
+&lt;li>Set &lt;strong>Language&lt;/strong> to &lt;strong>English&lt;/strong> and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="reinstallation-1">Reinstallation&lt;/h3>
+&lt;p>Now we can re-install Skyrim SE through GOG Galaxy. When choosing an installation directory, keep the following in mind:&lt;/p>
+&lt;ul>
+&lt;li>Skyrim SE must be located &lt;strong>outside&lt;/strong> any UAC-protected folders, e.g. &lt;code>C:\Program Files\&lt;/code> or &lt;code>C:\Program Files x86\&lt;/code>.&lt;/li>
+&lt;li>Skyrim SE should be located &lt;strong>on the same hard drive&lt;/strong> that you will be installing LOTF on.&lt;/li>
+&lt;/ul>
+&lt;p>Ideally, install the game on an SSD for improved loading times.&lt;/p>
+&lt;p>Wait for the download to complete before you proceed.&lt;/p>
+&lt;h3 id="regenerating-inis">Regenerating INIs&lt;/h3>
+&lt;p>After re-installing Skyrim SE, it is important to launch it once so that the registry keys are set up, allowing Wabbajack and Mod Organizer to find the game. Upon launching the game, the default set of INI files will also be regenerated.&lt;/p>
+&lt;ul>
+&lt;li>Find &lt;strong>Skyrim Special Edtion&lt;/strong> in your &lt;strong>Games Library&lt;/strong> and hit &lt;strong>Play&lt;/strong>.&lt;/li>
+&lt;li>You will be prompted with a notification that Skyrim SE is configuring your video options, click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> again in the next window, then quit the launcher.&lt;/li>
+&lt;/ul>
 &lt;h2 id="wabbajack-installation">Wabbajack Installation&lt;/h2>
-&lt;p>Next up you need to install the Wabbajack tool itself:&lt;/p>
+&lt;p>Next up, you need to install the Wabbajack tool itself:&lt;/p>
 &lt;ul>
 &lt;li>Download &lt;a href="https://www.wabbajack.org/#/">Wabbajack&lt;/a> from the official website.&lt;/li>
-&lt;li>Extract the archive to a high-level folder, e.g. &lt;code>C:\Wabbajack\&lt;/code>.&lt;/li>
+&lt;li>Extract the archive to a high-level folder, e.g. &lt;code>G:\Wabbajack\&lt;/code>.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;strong>Do not install Wabbajack into UAC protected directories.&lt;/strong> These include Program Files and Program Files x86 as well as the Downloads, Desktop, Documents, etc, folders.&lt;/p>
+&lt;p>&lt;strong>Do not install Wabbajack into UAC protected directories.&lt;/strong> These include &lt;code>\Program Files\&lt;/code> and &lt;code>\Program Files x86\&lt;/code> as well as the Downloads, Desktop, Documents, etc, folders.&lt;/p>
 &lt;p>Double-click &lt;strong>Wabbajack.exe&lt;/strong> to launch to tool. It will automatically update itself to the latest version.&lt;/p>
 &lt;h3 id="legends-of-the-frost">Legends of the Frost&lt;/h3>
 &lt;p>You can now install LOTF through Wabbajack:&lt;/p>
@@ -88,7 +198,7 @@
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/installation/lotf-on-wj.png" alt="LOTF on WJ">&lt;/p>
 &lt;p>In the installation window, you will need to define two folders:&lt;/p>
 &lt;p>&lt;strong>Installation Location&lt;/strong> is where LOTF will be installed to. Choose a high-level folder such as &lt;code>C:\Legends of the Frost\&lt;/code> that is outside UAC protected folders (Program Files, Documents, etc).&lt;/p>
-&lt;p>&lt;strong>Download Loaction&lt;/strong> is where the downloaded mod archives will be stored. By default, they will be placed within your main LOTF folder, but you can change the file path if you want to keep the files elsewhere.&lt;/p>
+&lt;p>&lt;strong>Download Location&lt;/strong> is where the downloaded mod archives will be stored. By default, they will be placed within your main LOTF folder, but you can change the file path if you want to keep the files elsewhere.&lt;/p>
 &lt;p>Once both folder locations have been set, click the button on the right to begin the installation process.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/installation/lotf-installation-wj.png" alt="LOTF Installation WJ">&lt;/p>
 &lt;h3 id="installation-process">Installation Process&lt;/h3>
@@ -98,46 +208,33 @@
 &lt;p>&lt;strong>In case the installation does fail:&lt;/strong> Try restarting Wabbajack first. You will not lose progress as the tool will pick up where it left off. Should the installation fail again, please join us on &lt;a href="https://discord.gg/xCPxJFbCTS">Discord&lt;/a>, grab the &lt;code>@LOTF&lt;/code> role, and post your &lt;code>wabbajack.current.log&lt;/code> in the &lt;code>#lotf-support&lt;/code> channel. You can find all Wabbajack logs in your Wabbajack installation folder under &lt;code>\Wabbajack\logs\&lt;/code>.&lt;/p>
 &lt;p>In most cases the installation should complete successfully on the first try. The tool will let you know when it has.&lt;/p>
 &lt;h2 id="playing-lotf">Playing LOTF&lt;/h2>
-&lt;p>Navigate to your &lt;strong>Legends of the Frost&lt;/strong> folder and launch the &lt;strong>ModOrganizer.exe&lt;/strong> within. In the top right drop-down menu, &lt;strong>Legends of the Frost&lt;/strong> (a renamed &lt;code>skse64_loader.exe&lt;/code>) should already be selected and you can now launch the game by clicking &lt;strong>Run&lt;/strong>.&lt;/p>
+&lt;p>Navigate to your &lt;strong>Legends of the Frost&lt;/strong> folder and launch the &lt;strong>ModOrganizer.exe&lt;/strong> within. In the top right drop-down menu, &lt;strong>Skyrim Script Extender&lt;/strong> should already be selected and you can now launch the game by clicking &lt;strong>Run&lt;/strong>.&lt;/p>
 &lt;blockquote>
-&lt;p>Legends of the Frost uses the &lt;strong>Stock Game Folder&lt;/strong> system. There are no Game Folder Files to move manually.&lt;/p>
+&lt;p>&lt;strong>GOG people:&lt;/strong> Double-click the &lt;code>GOG Support&lt;/code> separator in MO2 and activate all four mods grouped below it before launching the game.&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/installation/launch-lotf.png" alt="Play LOTF">&lt;/p>
 &lt;h3 id="mcm-instructions">MCM Instructions&lt;/h3>
 &lt;p>LOTF only has a handful of Mod Configuration Menus (MCMs). &lt;strong>Presets are automatically applied so you don&amp;rsquo;t need to edit anything manually.&lt;/strong> I strongly recommend not changing anything in the MCMs unless you have something specific in mind.&lt;/p>
-&lt;h3 id="customisation">Customisation&lt;/h3>
-&lt;p>Before you begin a new playthrough, you may want to check out the tweaks and optional mods that are supported for LOTF on the &lt;a href="https://thephoenixflavour.com/skyrim-se/lotf/customisation">Customisation&lt;/a> page.&lt;/p>
-&lt;p>It is &lt;em>highly recommended&lt;/em> to add &lt;strong>The Truth ENB&lt;/strong> to LOTF for much improved visuals. &lt;a href="https://thephoenixflavour.com/skyrim-se/lotf/enb-for-lotf/">Instructions here&lt;/a>.&lt;/p>
-&lt;p>Additionally, there are two extra profiles included with the base LOTF one in Mod Organizer 2.&lt;/p>
-&lt;ul>
-&lt;li>If you own &lt;strong>Creation Club&lt;/strong> content / the AE DLC, you can use the LOTF CC profile. &lt;a href="https://thephoenixflavour.com/skyrim-se/lotf/creation-club/">Instructions here&lt;/a>.&lt;/li>
-&lt;li>If your system is on the lower mid end, you may want to try the &lt;strong>Performance&lt;/strong> profile.&lt;/li>
-&lt;/ul>
-&lt;blockquote>
+&lt;h3 id="performance-profile">Performance Profile&lt;/h3>
+&lt;p>If your system is on the lower mid end, you may want to try the &lt;strong>Performance&lt;/strong> profile.&lt;/p>
 &lt;p>Note that saves are profile-specific. You can switch from the regular to the performance profile mid-playthrough, but you would have to copy over the saves from &lt;code>\Legends of the Frost\profiles\Legends of the Frost\saves\&lt;/code> to &lt;code>\Legends of the Frost\profiles\Legends of the Frost - Performance\saves\&lt;/code> manually. Please do not attempt to switch from the CC profile to either the regular or performance profile in an ongoing playthrough.&lt;/p>
-&lt;/blockquote>
 &lt;p>Check the picture below to see how to switch to a different profile in MO2:&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/customisation/swap-mo2-profile.png" alt="Swap MO2 Profile">&lt;/p></description></item><item><title>Skyrim-Se: Customisation</title><link>https://thephoenixflavour.com/skyrim-se/lotf/customisation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/lotf/customisation/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/installation/lotf-performance-profile.png" alt="Swap MO2 Profile">&lt;/p>
+&lt;h3 id="customisation">Customisation&lt;/h3>
+&lt;p>Before you begin a new playthrough, you may want to check out the tweaks and optional mods that are supported for LOTF on the &lt;a href="https://thephoenixflavour.com/skyrim-se/lotf/customisation">Customisation&lt;/a> page.&lt;/p></description></item><item><title>Skyrim-Se: Customisation</title><link>https://thephoenixflavour.com/skyrim-se/lotf/customisation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/lotf/customisation/</guid><description>
 &lt;h2 id="performance-inis">Performance INIs&lt;/h2>
-&lt;p>If you want to squeeze some extra frames out of LOTF, but also want to keep the 3D tree LOD from the regular profile or the AE support from the Creation Club profile, you can do so by copying over the INI files from the Performance profile. Among other things, the Performance INIs have lowered settings for distant terrain, renders grass and shadows at a shorter distance, and disables volumetric lighting (godrays). They still have the default shadow resolution (2K) and ambient occlusion enabled.&lt;/p>
+&lt;p>If you are looking to squeeze a few extra frames out of LOTF, but also want to keep the better LODs from the regular profile, you can do so by copying over the INI files from the Performance profile. Among other things, the Performance INIs have lowered settings for distant terrain, renders grass and shadows at a shorter distance, and disables volumetric lighting (godrays).&lt;/p>
 &lt;ul>
 &lt;li>Navigate to &lt;code>\Legends of the Frost\profiles\Legends of the Frost - Performance\&lt;/code>.&lt;/li>
 &lt;li>Copy the &lt;strong>Skyrim.ini&lt;/strong> and &lt;strong>SkyrimPrefs.ini&lt;/strong> inside.&lt;/li>
-&lt;/ul>
-&lt;p>If you want to play on the regular (non-CC) profile, paste the INIs to:&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>\Legends of the Frost\profiles\Legends of the Frost\&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;p>If you want to play on the Creation Club profile, paste the INIs to:&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>\Legends of the Frost\profiles\Legends of the Frost - Creation Club\&lt;/code>&lt;/li>
+&lt;li>Paste the INIs to &lt;code>\Legends of the Frost\profiles\Legends of the Frost\&lt;/code>.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>Confirm to overwrite existing INIs.&lt;/strong>&lt;/p>
 &lt;h2 id="higher-or-uncapped-fps">Higher or Uncapped FPS&lt;/h2>
 &lt;p>Thanks to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34705">SSE Display Tweaks&lt;/a>, it is absolutely possible to play Skyrim SE at above 60FPS without breaking the game. In my experience, the likelyhood of (minor) physics bugs occuring increases with the framerate which is why I personally prefer capping at 60FPS. You can also try capping at 75FPS or 90FPS if you really want a higher framerate. Due to LOTF&amp;rsquo;s performance-friendly nature, you should be able to achieve such framerates on most PCs.&lt;/p>
 &lt;p>To change the FPS cap, you need to edit the INI file for SSE Display Tweaks:&lt;/p>
 &lt;ul>
-&lt;li>In &lt;strong>Mod Organizer 2&lt;/strong>, expand the &lt;strong>ESSENTIALS&lt;/strong> separator.&lt;/li>
+&lt;li>In &lt;strong>Mod Organizer 2&lt;/strong>, expand the &lt;strong>Essential Mods&lt;/strong> separator.&lt;/li>
 &lt;li>Double-click &lt;strong>SSE Display Tweaks - LOTF Settings&lt;/strong>.&lt;/li>
 &lt;li>Switch to the &lt;strong>INI Files&lt;/strong> tab and select the &lt;strong>SSEDisplayTweaks.ini&lt;/strong>.&lt;/li>
 &lt;li>Change the value for &lt;code>FramerateLimit=&lt;/code> to your liking.&lt;/li>
@@ -146,208 +243,30 @@
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/customisation/lotf-uncap-framerate.png" alt="LOTF Uncap Framerate">&lt;/p>
 &lt;h2 id="widescreen-support">Widescreen Support&lt;/h2>
 &lt;p>The user interface mods included with LOTF (as well as the vanilla Skyrim UI) are optimised for 16:9 monitors (i.e., resolutions like 1920x1080, 2560x1440, 3840×2160). Anyone playing on ultrawide monitors (2560x1080 or 3440x1440) will need a few extra patches in order to make the user interface scale properly. These are preinstalled in LOTF and need only be activated.&lt;/p>
+&lt;p>Wabbajack will already have correctly set your resolution in the INI files so no manual adjustments are required.&lt;/p>
 &lt;ul>
-&lt;li>Enable all four widescreen patches below the &lt;strong>INTERFACE&lt;/strong> separator:&lt;/li>
+&lt;li>Enable all mods grouped below the &lt;strong>Widescreen Patches&lt;/strong> separator:&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/customisation/enable-widescreen-patches.png" alt="Enable Widescreen Patches">&lt;/p>
-&lt;h2 id="obsidian-weathers">Obsidian Weathers&lt;/h2>
-&lt;p>By default, LOTF is running &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24439">Wander - A Weather Overhaul&lt;/a>; however, you can swap this out with the pre-installed &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12125">Obsidian Weathers and Seasons&lt;/a>. For best results, also install &lt;strong>The Truth ENB&lt;/strong> (see &lt;a href="https://thephoenixflavour.com/skyrim-se/lotf/enb-for-lotf/">ENB for LOTF&lt;/a> page).&lt;/p>
-&lt;blockquote>
-&lt;p>&lt;strong>Important:&lt;/strong> If you are swapping mid-playthrough, you need to first force a default (vanilla) weather through the console (type &lt;code>fw 81a&lt;/code> and press Enter), then go into an interior cell. Save the game, close it. Disable Wander, Wander Less Intense Fogs, and AOS Wander Patch. Load your save and save again. Quit. Enable Obsidian Weathers and related mods. Load your save and resume your playthrough.&lt;/p>
-&lt;/blockquote>
-&lt;ul>
-&lt;li>Double-click the &lt;strong>WEATHER &amp;amp; LIGHTING&lt;/strong> separator to expand it.&lt;/li>
-&lt;li>Disable the Wander related mods and enable the Obsidian Weathers related mods:&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/customisation/obsidian-weathers-1.png" alt="Obsidian Weathers 1">&lt;/p>
-&lt;ul>
-&lt;li>Double-click the &lt;strong>SOUNDS &amp;amp; MUSIC&lt;/strong> separator to expand it.&lt;/li>
-&lt;li>Disable the AOS Wander Patch and enable the AOS Obsidian Patch:&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/customisation/obsidian-weathers-2.png" alt="Obsidian Weathers 2">&lt;/p>
-&lt;ul>
-&lt;li>In the load order, position the new plugins as shown below:&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/customisation/obsidian-weathers-3.png" alt="Obsidian Weathers 3">&lt;/p>
-&lt;h2 id="interface-adjustments">Interface Adjustments&lt;/h2>
-&lt;h3 id="enable-roboto-font-replacer">Enable Roboto Font Replacer&lt;/h3>
-&lt;p>I am personally partial to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1779">Roboto&lt;/a> for my font in Skyrim. You can enable (or disable) the font replacer any time:&lt;/p>
-&lt;ul>
-&lt;li>In &lt;strong>Mod Organizer 2&lt;/strong>, expand the &lt;strong>INTERFACE&lt;/strong> separator.&lt;/li>
-&lt;li>Check the mod &lt;strong>Roboto Font Replacer&lt;/strong>.&lt;/li>
-&lt;/ul>
-&lt;h3 id="enable-dot-crosshair">Enable dot crosshair&lt;/h3>
-&lt;p>If you prefer a subtle dot over the vanilla crosshair, follow these steps:&lt;/p>
-&lt;ul>
-&lt;li>In &lt;strong>Mod Organizer 2&lt;/strong>, expand the &lt;strong>INTERFACE&lt;/strong> separator.&lt;/li>
-&lt;li>Check the mod &lt;strong>SkyHUD - White Dot Crosshair&lt;/strong>.&lt;/li>
-&lt;/ul>
-&lt;h3 id="enable-24h-time-format">Enable 24h time format&lt;/h3>
-&lt;p>If you prefer a 24h time format over the 12h one (e.g., 23h instead of 11pm), do this:&lt;/p>
-&lt;ul>
-&lt;li>In &lt;strong>Mod Organizer 2&lt;/strong>, expand the &lt;strong>INTERFACE&lt;/strong> separator.&lt;/li>
-&lt;li>Check the mod &lt;strong>Time Format Changer&lt;/strong>.&lt;/li>
-&lt;/ul>
-&lt;h3 id="access-the-creation-club">Access the Creation Club&lt;/h3>
-&lt;p>If you want to access the Creation Club through the main menu, do the following:&lt;/p>
-&lt;ul>
-&lt;li>In &lt;strong>Mod Organizer 2&lt;/strong>, expand the &lt;strong>INTERFACE&lt;/strong> separator.&lt;/li>
-&lt;li>Uncheck the mod &lt;strong>ReCleaned Menu&lt;/strong>.&lt;/li>
-&lt;/ul>
-&lt;h2 id="gameplay-adjustments">Gameplay Adjustments&lt;/h2>
-&lt;h3 id="change-sprinting-from-toggle-to-hold">Change sprinting from toggle to hold&lt;/h3>
-&lt;p>If you want to be able to hold the Sprint key to sprint instead of press it once to toggle, do this:&lt;/p>
-&lt;ul>
-&lt;li>In &lt;strong>Mod Organizer 2&lt;/strong>, expand the &lt;strong>IMPROVED CONTROLS&lt;/strong> separator.&lt;/li>
-&lt;li>Check the mod &lt;strong>Classic Sprinting Redone&lt;/strong>.&lt;/li>
-&lt;/ul>
-&lt;h3 id="skip-lockpicking">Skip Lockpicking&lt;/h3>
-&lt;p>If you are tired of the lockpicking minigame, I included a mod to skip it. Interacting with a locked container will unlock it, but consume lockpicks based on the lock difficulty.&lt;/p>
-&lt;ul>
-&lt;li>In &lt;strong>Mod Organizer 2&lt;/strong>, expand the &lt;strong>SKSE &amp;amp; NET PLUGINS&lt;/strong> separator.&lt;/li>
-&lt;li>Check the mod &lt;strong>No Lock Picking&lt;/strong>.&lt;/li>
-&lt;/ul>
-&lt;h3 id="increase-combat-difficulty">Increase combat difficulty&lt;/h3>
-&lt;p>If you find combat to be too easy, it is advisable to disable the Blade &amp;amp; Blunt vanilla damage modifiers plugin before increasing the difficulty through the game settings:&lt;/p>
-&lt;ul>
-&lt;li>In &lt;strong>Mod Organizer 2&lt;/strong>, expand the &lt;strong>GAMEPLAY&lt;/strong> separator.&lt;/li>
-&lt;li>Uncheck the mod &lt;strong>Blade and Bunt - Vanilla Difficulty Modifiers&lt;/strong>.&lt;/li>
-&lt;/ul>
-&lt;h3 id="enable-barenziah-quest-markers">Enable Barenziah Quest Markers&lt;/h3>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/customisation/lotf-widescreen-support.png" alt="LOTF Widescreen Support">&lt;/p>
+&lt;h2 id="optional-tweaks">Optional Tweaks&lt;/h2>
+&lt;p>LOTF features a handful of additional mods that are disabled by default, but may be enabled at any time. You can find them grouped below the &lt;strong>Optional Tweaks&lt;/strong> separator.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/customisation/lotf-optional-tweaks.png" alt="LOTF Widescreen Support">&lt;/p>
+&lt;h2 id="enable-barenziah-quest-markers">Enable Barenziah Quest Markers&lt;/h2>
 &lt;p>Finding all 24 Stones of Barenziah during the &lt;a href="https://en.uesp.net/wiki/Skyrim:No_Stone_Unturned">No Stone Unturned&lt;/a> quest can be a bit of a slog. If you would prefer quest markers to show you exactly where the stones are located, turn on this option in the &lt;strong>SSoB&lt;/strong> MCM:&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/lotf-ssob-mcm.jpg" alt="SSoB MCM">&lt;/p></description></item><item><title>Skyrim-Se: ENB for LOTF</title><link>https://thephoenixflavour.com/skyrim-se/lotf/enb-for-lotf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/lotf/enb-for-lotf/</guid><description>
-&lt;p>&lt;strong>The Truth ENB&lt;/strong> is a fantastic preset. The only reason it is not shipped with LOTF by default is because its author left the Nexus for AFKMods which unfortunately does not have the server capacity to support Wabbajack. Thus, the preset needs to be downloaded manually by any user wishing to install it.&lt;/p>
-&lt;p>I personally believe that the extra steps required for the Truth ENB are more than worth it as the preset looks amazing, especially with Obsidian Weathers (though it looks good with Wander as well).&lt;/p>
-&lt;p>Check the &lt;a href="https://thephoenixflavour.com/skyrim-se/lotf/screenshots/">Screenshots&lt;/a> page for examples. The LOTF Obsidian section has pictures taken with Truth ENB.&lt;/p>
-&lt;h2 id="download-the-truth-enb">Download The Truth ENB&lt;/h2>
-&lt;p>The preset can be downloaded from AFKMods:&lt;/p>
-&lt;ul>
-&lt;li>Create an account on the &lt;a href="https://www.afkmods.com/">AFKMods&lt;/a> website.&lt;/li>
-&lt;li>Open the page for the &lt;a href="https://www.afkmods.com/index.php?/files/file/2241-the-truth-enb/">Truth ENB&lt;/a> preset and click the &lt;strong>Download this file&lt;/strong> button.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/customisation/truth-enb-1.png" alt="Truth ENB 1">&lt;/p>
-&lt;h3 id="regular-vs-lite">Regular vs Lite&lt;/h3>
-&lt;p>ENB is inherently performance-hungry and the regular version of The Truth can certainly have a considerable impact on weaker systems. If you are worried about performance, consider selecting the lite preset instead. You can pair it with the performance INIs for even better performance at the cost of visual quality.&lt;/p>
-&lt;ul>
-&lt;li>Download either the regular or the lite preset.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/customisation/truth-preset-choice.png" alt="Truth ENB Preset Choice">&lt;/p>
-&lt;h2 id="preset-installation">Preset Installation&lt;/h2>
-&lt;p>Install the preset to the LOTF Stock Game folder:&lt;/p>
-&lt;ul>
-&lt;li>Navigate to &lt;code>/Legends of the Frost/Stock Game/&lt;/code> (this is LOTF&amp;rsquo;s copy of the base game).&lt;/li>
-&lt;li>Open the downloaded The Truth ENB archive.&lt;/li>
-&lt;li>Extract the &lt;strong>enbseries&lt;/strong> folder and &lt;strong>enbseries.ini&lt;/strong> file into your Stock Game folder.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/customisation/enb-preset-installation.png" alt="ENB Preset Installation">&lt;/p>
-&lt;h3 id="enb-binaries">ENB Binaries&lt;/h3>
-&lt;p>In order for any ENB preset to work, you also need the binaries which I have included in the LOTF installation. You simply need to move them into the root of your Stock Game folder.&lt;/p>
-&lt;ul>
-&lt;li>Navigate to &lt;code>/Legends of the Frost/Stock Game/ENB Binaries&lt;/code>.&lt;/li>
-&lt;li>Copy the INI and DLL files into the &lt;code>/Stock Game/&lt;/code> folder.&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>The &lt;strong>enblocal.ini&lt;/strong> contains my personal configuration, including more convenient hotkeys.&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/customisation/enb-binaries-installation.png" alt="ENB Binaries Installation">&lt;/p>
-&lt;h2 id="preset-customisation">Preset Customisation&lt;/h2>
-&lt;p>Most basic ENB features and settings can be configured within the &lt;strong>enbseries.ini&lt;/strong> which you can find in your &lt;strong>Stock Game&lt;/strong> folder.&lt;/p>
-&lt;ul>
-&lt;li>Open &lt;strong>enbseries.ini&lt;/strong> in a text editor such as Notepad or Notepad++.&lt;/li>
-&lt;/ul>
-&lt;h3 id="new-features">New Features&lt;/h3>
-&lt;p>In recent updates, some new features were added to ENBSeries, one of which is &lt;strong>Complex Grass&lt;/strong> which unfortunately may be activated by default. To prevent that, simply add the new settings to the configuration file as disabled.&lt;/p>
-&lt;ul>
-&lt;li>In the &lt;strong>enbseries.ini&lt;/strong>, scroll to the &lt;strong>[EFFECT]&lt;/strong> section.&lt;/li>
-&lt;li>Add the following two lines at the bottom (below &lt;code>EnableReflection&lt;/code>):&lt;/li>
-&lt;/ul>
-&lt;pre>&lt;code>EnableTerrainParallax=false
-EnableComplexGrass=false
-&lt;/code>&lt;/pre>&lt;ul>
-&lt;li>Press &lt;strong>CTRL&lt;/strong> + &lt;strong>S&lt;/strong> to save your change.&lt;/li>
-&lt;/ul>
-&lt;h3 id="wet-surfaces">Wet Surfaces&lt;/h3>
-&lt;p>I am personally not a fan of the &amp;lsquo;rainy wet surfaces&amp;rsquo; feature enabled in Truth ENB. Check the preview pictures on the mod page or try it ingame and come to your own conclusion. If you want to disable it, here is how you do it:&lt;/p>
-&lt;ul>
-&lt;li>In the &lt;strong>enbseries.ini&lt;/strong>, scroll to the &lt;strong>[EFFECT]&lt;/strong> section.&lt;/li>
-&lt;li>Change &lt;code>EnableRainWetSurfaces=&lt;/code> to &lt;code>false&lt;/code>.&lt;/li>
-&lt;li>Press &lt;strong>CTRL&lt;/strong> + &lt;strong>S&lt;/strong> to save your change.&lt;/li>
-&lt;/ul>
-&lt;h2 id="ini-adjustments">INI Adjustments&lt;/h2>
-&lt;p>To better accommodate the new ENB preset, we need to tweak some INI settings. This can most easily be done through MO2.&lt;/p>
-&lt;ul>
-&lt;li>Open the &lt;strong>INI Editor&lt;/strong> in Mod Organizer 2:&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/customisation/open-ini-editor.png" alt="Open INI Editor">&lt;/p>
-&lt;h3 id="64bit-render-target">64bit Render Target&lt;/h3>
-&lt;p>This is a recommended tweak for The Truth ENB.&lt;/p>
-&lt;ul>
-&lt;li>In the &lt;strong>SkyrimPrefs.ini&lt;/strong> tab, scroll to the &lt;strong>[Display]&lt;/strong> section.&lt;/li>
-&lt;li>Change &lt;code>bUse64bitsHDRRenderTarget=&lt;/code> to &lt;code>1&lt;/code>.&lt;/li>
-&lt;li>Click the &lt;strong>Save&lt;/strong> button at the bottom.&lt;/li>
-&lt;/ul>
-&lt;h3 id="ambient-occlusion">Ambient Occlusion&lt;/h3>
-&lt;blockquote>
-&lt;p>&lt;strong>Skip this if you are using the LITE preset.&lt;/strong> It does not have Ambient Occlusion enabled.&lt;/p>
-&lt;/blockquote>
-&lt;p>LOTF&amp;rsquo;s INIs (Default and Performance) both have Ambient Occlusion enabled. In the regular version of The Truth ENB, the superior (albeit more performance-hungry) ENB version of Ambient Occlusion is enabled and should replace Skyrim&amp;rsquo;s.&lt;/p>
-&lt;ul>
-&lt;li>In the &lt;strong>SkyrimPrefs.ini&lt;/strong> tab, scroll to the &lt;strong>[Display]&lt;/strong> section.&lt;/li>
-&lt;li>Change &lt;code>bSAOEnable=&lt;/code> to &lt;code>0&lt;/code>.&lt;/li>
-&lt;li>Click the &lt;strong>Save&lt;/strong> button at the bottom.&lt;/li>
-&lt;/ul>
-&lt;h3 id="volumetric-lighting">Volumetric Lighting&lt;/h3>
-&lt;blockquote>
-&lt;p>&lt;strong>Skip this if you are using the performance INIs.&lt;/strong> They do not have volumetric lighting enabled.&lt;/p>
-&lt;/blockquote>
-&lt;p>In LOTF&amp;rsquo;s default INIs, volumetric lighting, or godrays, is enabled. It is recommend to disable the feature in favour of The Truth&amp;rsquo;s better looking ENB godrays.&lt;/p>
-&lt;ul>
-&lt;li>In the &lt;strong>SkyrimPrefs.ini&lt;/strong> tab, scroll to the &lt;strong>[Display]&lt;/strong> section.&lt;/li>
-&lt;li>Change &lt;code>bVolumetricLightingEnable=&lt;/code> to &lt;code>0&lt;/code>.&lt;/li>
-&lt;li>Click the &lt;strong>Save&lt;/strong> button at the bottom.&lt;/li>
-&lt;/ul>
-&lt;h2 id="better-candle-light">Better Candle Light&lt;/h2>
-&lt;blockquote>
-&lt;p>&lt;strong>Skip this if you are using the LITE preset.&lt;/strong> It does not have Complex Particle Lights enabled.&lt;/p>
-&lt;/blockquote>
-&lt;p>The mod &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/55856">Radiant - Candles&lt;/a> uses the Complex Particle Lights feature from ENB to substantially improve candle light. If you installed the regular version of The Truth ENB, you can now enable the mod.&lt;/p>
-&lt;ul>
-&lt;li>In Mod Organizer 2, double-click the &lt;strong>WEATHER &amp;amp; LIGHTING&lt;/strong> separator to expand it.&lt;/li>
-&lt;li>Enable the &lt;strong>Radiant - Candles&lt;/strong> mod.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/customisation/enb-candle-lights.jpg" alt="ENB Candle Lights">&lt;/p></description></item><item><title>Skyrim-Se: Creation Club</title><link>https://thephoenixflavour.com/skyrim-se/lotf/creation-club/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/lotf/creation-club/</guid><description>
-&lt;h2 id="cc-support">CC Support&lt;/h2>
-&lt;p>If you own Creations or the full Anniversary Edition DLC, you have the option to add them to the LOTF CC profile. &lt;strong>Be aware that not all Creations are supported yet.&lt;/strong> Creations will be located inside your default root folder and can be installed in Mod Organizer 2 like other mods.&lt;/p>
-&lt;p>To see which Creations are currently supported by LOTF, check the &lt;a href="https://docs.google.com/spreadsheets/d/1vPH-HsEsVcw-ipbHl3Am0FL0jwF6JiR7Z-8zqWcKWvU/edit?usp=sharing">spreadsheet&lt;/a>.&lt;/p>
-&lt;ul>
-&lt;li>Navigate to &lt;code>\Steam\steamapps\common\Skyrim Special Edition\Data\&lt;/code>.&lt;/li>
-&lt;/ul>
-&lt;p>This folder should contain all Creations you own. You can recognise the ESPs and BSAs by the &lt;code>cc&lt;/code> prefix in their names. If there are no Creations in this folder, you may need to update SSE or verify game files in Steam.&lt;/p>
-&lt;p>Anniversary Edition owners need to launch the game once through Steam. The Creations will then be downloaded. This should already have been done during the initial &lt;a href="https://thephoenixflavour.com/skyrim-se/lotf/installation/">Installation&lt;/a>.&lt;/p>
-&lt;p>If you do not own the Anniversary Edition DLC, you may need to download the Creations separately from the Creation Club. In order to access the Creation Club through the main menu, disable the mod &lt;strong>ReCleaned Menu&lt;/strong> under the &lt;strong>INTERFACE&lt;/strong> separator in MO2 (or simply launch the unmodded game through Steam).&lt;/p>
-&lt;h2 id="installation">Installation&lt;/h2>
-&lt;p>Start Mod Organizer 2 and switch to the &lt;strong>Legends of the Frost - Creation Club&lt;/strong> profile.&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/customisation/swap-mo2-profile.png" alt="Swap MO2 Profile">&lt;/p>
-&lt;p>Click the puzzle icon in the top icon bar and select &lt;strong>Creation Organizer&lt;/strong>. Wait while all supported creations are imported into Mod Organizer 2. A new mod called &lt;strong>[No Delete] Creation Club&lt;/strong> will show up at the bottom of your mod order (the left pane) containing all creations. It will be enabled by default and you are good to go!&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/installation/creation-organizer.png" alt="Creation Organizer">&lt;/p></description></item><item><title>Skyrim-Se: Documentation</title><link>https://thephoenixflavour.com/skyrim-se/lotf/documentation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/lotf/documentation/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/lotf-ssob-mcm.jpg" alt="SSoB MCM">&lt;/p></description></item><item><title>Skyrim-Se: Documentation</title><link>https://thephoenixflavour.com/skyrim-se/lotf/documentation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/lotf/documentation/</guid><description>
 &lt;p>&lt;strong>Legends of the Frost&lt;/strong> contains all of the most important baseline mods, including:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/266">Unofficial Skyrim Special Edition Patch&lt;/a>: A ton of bug and consistency fixes of all kinds.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17230">SSE Engine Fixes&lt;/a>: Enables achievements with mods, fixes lip sync as well as many other bugs and crashes.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34705">SSE Display Tweaks&lt;/a>: Decouples physics engine and framerate. Improves performance in borderless-fullscreen.&lt;/li>
-&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18994">Weapons Armor Clothing and Clutter Fixes&lt;/a>: Fixes a ton of issues and inconsistencies in gear progression and related assets.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26138">Skyrim Landscape and Grass Fixes&lt;/a>: Closes many gaps in the landscape and eliminates many other visual bugs.&lt;/li>
 &lt;/ul>
 &lt;p>In addition to these, there are several dozen other bug fix mods including many mesh fixes as well as a bunch of tweaks.&lt;/p>
 &lt;h2 id="weather--lighting">Weather &amp;amp; Lighting&lt;/h2>
-&lt;p>After some testing, I settled on &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24439">Wander - A Weather Overhaul&lt;/a> which turned out to be an incredibly underrated mod with some serious improvements to vanilla weathers. The mod&amp;rsquo;s weathers, their colours and variance are spot on. Nights are darker, but not unplayable. I decreased the strength of the fog obscuring distant terrain, one of the mod&amp;rsquo;s main features, as it looks infinitely better than in vanilla with LOTF&amp;rsquo;s regenerated terrain, tree, and object LODs.&lt;/p>
-&lt;p>For interiors I combined &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8586">Relighting Skyrim&lt;/a> with its lightbulb adjustments and fixes with &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/46383">Ambiance&lt;/a>. Together these two mods tone down vanilla&amp;rsquo;s often overly bright interiors, again without making them unplayable, as well as reduce the ambient light without actual sources.&lt;/p>
-&lt;hr>
-&lt;p>Since LOTF 2.0, you also have the option to swap the weather overhaul to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12125">Obsidian Weathers and Seasons&lt;/a>. Obsidian looks absolutely stunning (especially when combined with The Truth ENB, see below), arguably more an overhaul of vanilla than Wander which puts stronger emphasis on colours. Please refer to the &lt;a href="https://thephoenixflavour.com/skyrim-se/lotf/customisation/">Customisation&lt;/a> page if you&amp;rsquo;re interested in giving Obsidian a shot.&lt;/p>
-&lt;h3 id="the-truth-enb">The Truth ENB&lt;/h3>
-&lt;p>LOTF originally had no ENB as the intended preset, &lt;a href="https://www.afkmods.com/index.php?/files/file/2241-the-truth-enb/">The Truth ENB&lt;/a>, was removed from the Nexus. I was using a different preset for a time, but ultimately decided that nothing was going to come close to The Truth (heh). Since LOTF 2.3, the list no longer has an ENB preset installed by default; however, detailed instructions for installing The Truth ENB are provided on the &lt;a href="https://thephoenixflavour.com/skyrim-se/lotf/enb-for-lotf/">ENB for LOTF&lt;/a> page and the list is intended to be played with that preset.&lt;/p>
-&lt;p>Using The Truth ENB with Complex Particle Lights enabled allows you to use the amazing &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/55856">Radiant - Candles&lt;/a> mod. You can find a comparison slider showing off the effect &lt;a href="https://imgsli.com/NzcwMjA">here&lt;/a>.&lt;/p>
-&lt;p>You no longer need to open the console when editing the ENB ingame. &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/62796">ENB Input Disabler&lt;/a> blocks every other input while the GUI is open.&lt;/p>
+&lt;p>Since LOTF 3.0, the list is using the excellent &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/63116">RAID Weathers&lt;/a> overhaul which is a departure from vanilla compared to our previous &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24439">Wander - A Weather Overhaul&lt;/a>. Its weathers are diverse and genuinely gorgeous, plus RAID Weathers is optimised for stealth gameplay in combination with &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2345">Realistic AI Detection&lt;/a>. Note that nights are fairly dark with RAID Weathers and you may need to carry some torches.&lt;/p>
+&lt;p>For interiors I combined &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8586">Relighting Skyrim&amp;rsquo;s&lt;/a> lightbulb adjustments and fixes with &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/46383">Ambiance&lt;/a>. Together these two mods tone down vanilla&amp;rsquo;s often overly bright interiors, again without making them unplayable.&lt;/p>
+&lt;p>Finally, the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/77525">Weather Is Sacred ENB&lt;/a> preset is adding ambient occlusion, better shadows, and improved lighting on grass. It also enables grass collision and complex particle light for the amazing &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/55856">Radiant - Candles&lt;/a> mod. You can find a comparison slider showing off the effect &lt;a href="https://imgsli.com/NzcwMjA">here&lt;/a>.&lt;/p>
+&lt;p>You no longer need to open the console when editing the ENB: &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/62796">ENB Input Disabler&lt;/a> blocks every other input while the GUI is open.&lt;/p>
 &lt;hr>
 &lt;p>The hotkeys to toggle ENB on/off, open the GUI, or display the FPS meter defined in my &lt;code>enblocal.ini&lt;/code> are the same as in TPF and WTP:&lt;/p>
 &lt;ul>
@@ -357,26 +276,28 @@ EnableComplexGrass=false
 &lt;/ul>
 &lt;p>All other functions (screenshot, FPS cap, toggle DOF) were disabled. I recommend taking screenshots with Steam by pressing F12.&lt;/p>
 &lt;h2 id="textures--meshes">Textures &amp;amp; Meshes&lt;/h2>
-&lt;p>This section was the hardest one for me to limit myself. In my personal opinion, there are two choices when starting to replace textures in Skyrim: Either stick strictly to the vanilla style using primarily upscaled textures, or go all in with hundreds of hand-made, high-quality textures. Naturally, I went with the latter for Legends of the Frost and chose &lt;a href="https://www.nexusmods.com/skyrimspecialedition/users/34739755?tab=user+files">Project Clarity&lt;/a> and &lt;a href="https://www.moddb.com/mods/skyrim-realistic-overhaul">Skyrim Realistic Overhaul&lt;/a> to make up the bulk of the replaced textures (and the overall filesize).&lt;/p>
+&lt;p>This section was the hardest one for me to limit myself. In my personal opinion, there are two choices when starting to replace textures in Skyrim: Either stick strictly to the vanilla style using primarily upscaled textures, or go all in with hundreds of hand-made, high-quality textures.&lt;/p>
+&lt;p>So in LOTF 3.0 I decided to go for the third option and added &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34179">Skyland AIO&lt;/a>. Like RAID Weathers over Wander, Skyland AIO is a departure from vanilla compared to &lt;a href="https://www.moddb.com/mods/skyrim-realistic-overhaul">Skyrim Realistic Overhaul&lt;/a> which LOTF previously used; however, it yields a massive visual improvement while maintaining consistency. Meanwhile, the gaps are filled by &lt;a href="https://www.nexusmods.com/skyrimspecialedition/users/34739755?tab=user+files">Project Clarity&lt;/a>.&lt;/p>
 &lt;p>(If you are wondering why vanilla textures were not an option, watch &lt;a href="https://youtu.be/nHkCJcUJkTM">this video&lt;/a>.)&lt;/p>
 &lt;p>Beyond these major overhauls, I elected to add only those mods that I consider absolutely essential for fixing various eye sores. This includes &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/659">Static Mesh Improvement Mod&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8834">Blended Roads&lt;/a> as well as &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11052">Majestic Mountains&lt;/a>. Water was hugely improved by &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2182">Realistic Water Two&lt;/a>.&lt;/p>
-&lt;p>Most flora-related textures are covered by &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26104">Cathedral - Plants&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26103">Cathedral - Mushrooms&lt;/a>. I did add &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11008">Enhanced Vanilla Trees&lt;/a> to the mix, using the lush version for improved meshes and textures, and vastly improved LOD resources, but with the same colours as vanilla trees. With &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/37890">HD Vanilla Tree Bark - ESRGAN AI Upscale&lt;/a>, their bark textures were significantly improved.&lt;/p>
-&lt;p>LOTF&amp;rsquo;s current grass overhaul is from &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18162">Enhanced Landscape&lt;/a> (though the rest of the Enhanced Landscapes package is not included). Its grass module matches Skyrim&amp;rsquo;s original style beautifully and has some great visual synergy with Skyrim Realistic Overhaul&amp;rsquo;s landscape textures.&lt;/p>
+&lt;p>I also added &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11008">Enhanced Vanilla Trees&lt;/a> to the mix, using the lush version for improved meshes and textures, and vastly improved LOD resources, but with the same colours as vanilla trees. With &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/37890">HD Vanilla Tree Bark - ESRGAN AI Upscale&lt;/a>, bark textures were significantly improved.&lt;/p>
+&lt;p>LOTF uses the grass module for &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21954">Cathedral Landscape&lt;/a> to overhaul vegetation without ruining performance. I fully acknowledge that the mod is not perfect (looking at you, Morthal Swamp).&lt;/p>
 &lt;h2 id="character-appearance">Character Appearance&lt;/h2>
-&lt;p>NPC faces (and hair) in Skyrim were never particularly appealing so I added a number of mods to freshen them up. Both males and females now have higher poly hands and feet instead of the &lt;a href="https://i.redd.it/0wp849fgwcv01.png">vanilla abominations&lt;/a>. I added &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8505">Tempered Skins for Females&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/7902">Tempered Skins for Males&lt;/a>. For eyes, both meshes and textures were improved by &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18147">Skyrim Ultimate Eyemeshes Ruhmastered&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/36063">Authentic Eyes&lt;/a> respectively.&lt;/p>
+&lt;p>NPC faces (and hair) in Skyrim were never particularly appealing so I added a number of mods to freshen them up. Both males and females now have higher poly hands and feet instead of the &lt;a href="https://i.redd.it/0wp849fgwcv01.png">vanilla abominations&lt;/a>. I added &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8505">Tempered Skins for Females&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/7902">Tempered Skins for Males&lt;/a> plus &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/54573">Tempered Racial Textures&lt;/a>. For eyes, both meshes and textures were improved by &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18147">Skyrim Ultimate Eyemeshes Ruhmastered&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/36063">Authentic Eyes&lt;/a> respectively.&lt;/p>
 &lt;p>Thanks to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/46299">Natural Hair Colors&lt;/a>, blonde hair will no longer have a sickly green tinge. &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41863">High Poly Vanilla Hair&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrim/mods/36510">Superior Lore-Friendly Hair&lt;/a> offer further improvements. Retextures for brows as well as tintmasks (scars, warpaint, and dirt) are included in &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/36985">Xenius Character Enhancements&lt;/a>. The tintmasks are largely in 2K which you will be able to see in game thanks to a modified &lt;strong>SKSE.ini&lt;/strong> enabling higher resolution tintmasks.&lt;/p>
-&lt;p>Lastly, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22789">Simple Children&lt;/a> was installed alongside the TRI files from &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5916">TK Children&lt;/a> for less potato-headed offspring.&lt;/p>
-&lt;p>&lt;strong>Facegen was regenerated for all NPCs.&lt;/strong> That means not only will they have twice the vanilla resolution (512 &amp;gt; 1024), but all previously installed mods will apply to NPCs as well. Premade facegen for children is included with Simple Children.&lt;/p>
+&lt;p>Lastly, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72389">Skyrim Children Refine&lt;/a> was installed alongside the textures from &lt;a href="https://www.nexusmods.com/skyrim/mods/63353/">RUSTIC CHILDREN&lt;/a> for less potato-headed offspring.&lt;/p>
+&lt;p>&lt;strong>Facegen was regenerated for all NPCs.&lt;/strong> That means not only do they have twice the vanilla resolution (512 &amp;gt; 1024), but all previously installed mods are applied to NPCs as well. Premade facegen for children is included with Skyrim Children Refine.&lt;/p>
 &lt;h2 id="interface--controls">Interface &amp;amp; Controls&lt;/h2>
 &lt;p>Beyond the general lighting, there is one other aspect of vanilla Skyrim that I wanted thoroughly overhauled: The console-optimised interface. &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12604">SkyUI&lt;/a> is absolutely essentially for many reasons, but primarily because it hugely improves the various menus visually and functionally. It also works perfectly fine with a controller.&lt;/p>
 &lt;p>Speaking of controllers, I added &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/54309">Auto Input Switch&lt;/a> which allows you to use your keyboard while your controller is connected. &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1428">Better MessageBox Controls&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1429">Better Dialogue Controls&lt;/a> further improve controls. &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/19832">Stay At The System Page&lt;/a> brings back Skyrim LE behaviour where pressing ESCAPE would bring you to the Systems menu instead of the Journal.&lt;/p>
-&lt;p>Because the vanilla cursor looks a tad oversized, I added &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20617">Smaller Vanilla Cursor&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/463">SkyHUD&lt;/a> (with the Vanilla Small preset) to shrink it a little. The crosshair will only be visible when you need it (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/63980">Contextual Crosshair&lt;/a>). When riding your horse you will be able to see its Stamina drain with &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/47076">Horse Stamina HUD&lt;/a>. Thanks to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/54035">FadingSignal&amp;rsquo;s Hide UI - Improved&lt;/a>, you can toggle your entire HUD whenever you wish.&lt;/p>
+&lt;p>Because the vanilla cursor looks a tad oversized, I added &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20617">Smaller Vanilla Cursor&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/463">SkyHUD&lt;/a> (with the Vanilla Small preset) to shrink it a little. The crosshair will only be visible when you need it (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/63980">Contextual Crosshair&lt;/a>). Thanks to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/62117">Ultiamte Immersion Toggle&lt;/a>, you can toggle your entire HUD whenever you wish.&lt;/p>
 &lt;p>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12688">moreHUD&lt;/a> adds various new elements to the UI: For example, you will be able to see your enemy&amp;rsquo;s level as well as the size of their soul for potential capturing. Read books will be marked with a special icon and upon hovering over skill books, you will see a preview of the skill they improve. The book interface itself looks &lt;a href="https://imgsli.com/NzAzOTc">better&lt;/a> now thanks to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/50202">Convenient Reading UI&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrim/mods/937">Realistic Paper&lt;/a>.&lt;/p>
-&lt;p>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5804">A Quality World Map&lt;/a> greatly improves the quality and usability of the world map. The game will no longer prompt you with a message box asking if you&amp;rsquo;re sure when crafting certain items or exiting crafting menus thanks to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24898">Yes Im Sure&lt;/a> and when attempting to drop quest items &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23581">Whose Quest Is It Anyway&lt;/a> will notify you which quest is binding the item to your inventory.&lt;/p>
+&lt;p>The game will no longer prompt you with a message box asking if you&amp;rsquo;re sure when crafting certain items or exiting crafting menus thanks to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24898">Yes Im Sure&lt;/a> and when attempting to drop quest items &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23581">Whose Quest Is It Anyway&lt;/a> will notify you which quest is binding the item to your inventory.&lt;/p>
+&lt;p>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/56367">A Clear World Map for Skyrim and Other Worlds&lt;/a> not only improves the Skyrim world map, but also adds new maps for worldspaces that previously had none (i.e. Blackreach, the Soul Cairn, and the Forgotten Vale). Map markers were improved and expanded by &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/56123">CoMAP - Common Map Marker Addon Project&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24104">Atlas Map Markers&lt;/a>.&lt;/p>
 &lt;p>As background in the main menu you will see one of my favourite replacers: &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6992">DRELDYN&amp;rsquo;s Original Main Menu Overhaul&lt;/a>. The menu was reduced to only the necessary options by &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26680">ReCleaned Menu&lt;/a>, and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4634">Loading Screen Smoke Removed&lt;/a> removes the ugly background smoke effect. &lt;a href="https://github.com/KenneyNL/Skyrim-Mods/tree/main/Time%20On%20Loading%20Screen">KenMOD Time On Loading Screen&lt;/a> adds a tiny clock with your current system time to the loading screens. For my fellow Europeans, I added &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28921">Time Format Changer&lt;/a> which is an optional mod (disabled by default) and can be enabled to change the 12h clock to a 24h one.&lt;/p>
 &lt;h2 id="gameplay--difficulty">Gameplay &amp;amp; Difficulty&lt;/h2>
-&lt;p>There is only a single major gameplay overhaul included in Legends of the Frost: &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34549">Blade and Blunt - A Combat Overhaul&lt;/a> greatly enhances combat so that resource management (specifically Stamina) becomes central to every fight. I did add the vanilla damage modifiers addon so that combat does not become significantly harder. Please refer to the mod page for up-to-date details on everything the mod does. I also added &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/51310">Dragon War - A Dragon Overhaul&lt;/a> for its dragon AI improvements only.&lt;/p>
-&lt;p>&lt;strong>Perks, standing stones, and racial traits remain vanilla.&lt;/strong> That means any vanilla character builds will most likely work fine in LOTF. (Please note that some smithing perks were adjusted by WACCF.)&lt;/p>
+&lt;p>There is only a single major gameplay overhaul included in Legends of the Frost: &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34549">Blade and Blunt - A Combat Overhaul&lt;/a> greatly enhances combat so that resource management (specifically Stamina) becomes central to every fight. I did add the vanilla damage modifiers addon so that combat does not become significantly harder. Please refer to the mod page for up-to-date details on everything the mod does.&lt;/p>
+&lt;p>&lt;strong>Perks, standing stones, and racial traits remain vanilla.&lt;/strong> That means any vanilla character builds should work fine in LOTF.&lt;/p>
 &lt;p>With &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17592">Improved Traps&lt;/a> traps now create detection events when they are triggered (meaning they can alert enemies) and you have additional ways to disarm traps. Fortunately, followers will no longer trigger traps thanks to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2755">Follower Trap Safety&lt;/a>.&lt;/p>
 &lt;p>Because of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43532">Scrambled Bugs&lt;/a>, you will no longer be able to underfill soul gems: For instance, if you have no Empty Lesser Soul Gems in your inventory, a captured lesser soul will be lost rather than placed in an Empty Greater Soul Gem. The same mod will also make it so your &lt;em>best&lt;/em> arrows or bolts are equipped upon switching to a ranged weapon instead of your &lt;em>worst&lt;/em> (which is vanilla behaviour).&lt;/p>
 &lt;p>I am personally a big fan of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/50049">Simple Dual Sheath&lt;/a> so that all equipped weapons are properly shown on the player and NPCs. This required the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1988">XP32 Maximum Skeleton&lt;/a> replacer as well as &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/60033">Project New Reign - Nemesis Ultimate Behavior Engine&lt;/a>. I also chose to add the mod &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45579">Draw 2&lt;/a> so that equip/unequip animations match the weapon positions. Since I did not include the full XPMSSE and RaceMenu with NiOverride there will be no save bloat.&lt;/p>
@@ -390,85 +311,67 @@ EnableComplexGrass=false
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4382">No Thieves Guild Grind&lt;/a>: The amount of radiant quests required to fully upgrade the Ragged Flaggon was reduced from 125 to 12.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43766">The Paarthurnax Resolution&lt;/a>: The Paarthurnax quest will now have a proper conclusion if you choose not to obey the Blades.&lt;/li>
 &lt;/ul>
-&lt;p>AS for NPCs, I added some general quality of life fixes. They will flee dragon and vampire attackes thanks to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2272">Run For Your Lives&lt;/a>. Various lines of dialogue were improved by &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28904">Misc Dialogue Edits&lt;/a> which largely adds conditions to make them more appropriate to the situation. &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23107">Tavern AI Fix&lt;/a> prevents innkeepers from showing you to your room unless you specifically ask them to. From &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/53364">Dawnguard - Tweaks and Enhancements&lt;/a> I extracted the option to ask Serana to stop raising corpses (this can be reverted via the same dialogue).&lt;/p>
+&lt;p>AS for NPCs, I added some general quality of life fixes. They will flee dragon and vampire attackes thanks to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2272">Run For Your Lives&lt;/a>. Various lines of dialogue were improved by &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28904">Misc Dialogue Edits&lt;/a> which largely adds conditions to make them more appropriate to the situation. &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23107">Tavern AI Fix&lt;/a> prevents innkeepers from showing you to your room unless you specifically ask them to.&lt;/p>
 &lt;h2 id="miscellaneous">Miscellaneous&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/37236">Simple Player Home Improvements&lt;/a>: Various visual and quality of life changes and additions for all vanilla player homes.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2656">Faster Mining Plus&lt;/a>: Mining now requires only one strike per ore (instead of three).&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38348">Night Eye Redux&lt;/a>: The Night Eye power for Khajiit now lasts until turned off manually instead of 60s/day.&lt;/li>
-&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38348">No Starting Spells&lt;/a>: You will no longer have spells added to your character at the start of the game.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2482">NPCs Run and Walk At Your Pace&lt;/a>: NPCs walking speed now matches your own instead of being &lt;em>slightly&lt;/em> slower.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/10927">Bard Instrumentals Mostly - Sing Rarely&lt;/a>: Bards in inns will mostly play instrumentals unless you request a song.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/38221">Mannequin Management&lt;/a>: This &lt;em>should&lt;/em> fix the mannequins&amp;rsquo; creepy habit of moving around when you are not looking.&lt;/li>
-&lt;/ul>
-&lt;h2 id="creation-club">Creation Club&lt;/h2>
-&lt;p>Some Creations are supported in a separate and optional profile as of LOTF 2.0. I intend to ultimately support all Creations so that the LOTF CC profile becomes a great way to experience the new content in a lightly modded environment. I did include the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18975">Unofficial Creation Club Patches&lt;/a> where appropriate and installed kartoffel&amp;rsquo;s &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/58801">Creation Club Anniversary Cleaned and Upscaled&lt;/a> textures as well as several of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/users/61720101?tab=user+files">TateTaylor&amp;rsquo;s amazing CC integration mods&lt;/a>.&lt;/p>
-&lt;p>You can find a full list of all Creations currently supported by LOTF as well as instructions on how to use the CC profile on the &lt;a href="https://thephoenixflavour.com/skyrim-se/lotf/creation-club/">Creation Club&lt;/a> page.&lt;/p></description></item><item><title>Skyrim-Se: Screenshots</title><link>https://thephoenixflavour.com/skyrim-se/lotf/screenshots/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/lotf/screenshots/</guid><description>
+&lt;/ul></description></item><item><title>Skyrim-Se: Screenshots</title><link>https://thephoenixflavour.com/skyrim-se/lotf/screenshots/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/lotf/screenshots/</guid><description>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-main-menu.jpg" alt="LOTF Main Menu">&lt;/p>
-&lt;h2 id="lotf-wander">LOTF Wander&lt;/h2>
-&lt;h3 id="leaving-helgen">Leaving Helgen&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-leaving-helgen.jpg" alt="LOTF Leaving Helgen">&lt;/p>
-&lt;h3 id="riverwood">Riverwood&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-riverwood.jpg" alt="LOTF Riverwood">&lt;/p>
-&lt;h3 id="bleakfalls-barrow">Bleakfalls Barrow&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-bleakfalls-barrow.jpg" alt="LOTF Bleakfalls Barrow">&lt;/p>
-&lt;h3 id="whiterun-city">Whiterun City&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-whiterun-city.jpg" alt="LOTF Whiterun City">&lt;/p>
-&lt;h3 id="nocturnal-swamp">Nocturnal Swamp&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-nocturnal-swamp.jpg" alt="LOTF Nocturnal Swamp">&lt;/p>
-&lt;h3 id="tundra-road">Tundra Road&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-tundra-road.jpg" alt="LOTF Tundra Road">&lt;/p>
-&lt;h3 id="rift-forest">Rift Forest&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-rift-forest.jpg" alt="LOTF Rift Forest">&lt;/p>
-&lt;h3 id="volcanic-tundra">Volcanic Tundra&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-volcanic-tundra.jpg" alt="LOTF Volcanic Tundra">&lt;/p>
-&lt;h3 id="solitude-gates">Solitude Gates&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-solitude-gates.jpg" alt="LOTF Solitude Gates">&lt;/p>
-&lt;h3 id="distant-solitude">Distant Solitude&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-distant-solitude.jpg" alt="LOTF Distant Solitude">&lt;/p>
-&lt;h3 id="rift-lake">Rift Lake&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-rift-lake.jpg" alt="LOTF Rift Lake">&lt;/p>
-&lt;h3 id="meridias-temple">Meridia&amp;rsquo;s Temple&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-meridias-temple.jpg" alt="LOTF Meridia&amp;rsquo;s Temple">&lt;/p>
-&lt;h3 id="falkreath-forest">Falkreath Forest&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-falkreath-forest.jpg" alt="LOTF Falkreath Forest">&lt;/p>
-&lt;h3 id="whiterun-tundra">Whiterun Tundra&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-whiterun-tundra.jpg" alt="LOTF Whiterun Tundra">&lt;/p>
-&lt;h3 id="rainy-ruins">Rainy Ruins&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-rainy-ruins.jpg" alt="LOTF Rainy Ruins">&lt;/p>
-&lt;h3 id="valtheim-view">Valtheim View&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-valtheim-view.jpg" alt="LOTF Valtheim View">&lt;/p>
-&lt;h3 id="hidden-path">Hidden Path&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-hidden-path.jpg" alt="LOTF Hidden Path">&lt;/p>
-&lt;h3 id="solitude-arch">Solitude Arch&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-solitude-arch.jpg" alt="LOTF Solitude Arch">&lt;/p>
-&lt;h3 id="frosty-night">Frosty Night&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-frosty-night.jpg" alt="LOTF Frosty Night">&lt;/p>
-&lt;h3 id="nordic-ruin">Nordic Ruin&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-nordic-ruin.jpg" alt="LOTF Nordic Ruin">&lt;/p>
-&lt;h3 id="nighttime-tundra">Nighttime Tundra&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-nighttime-tundra.jpg" alt="Nighttime Tundra">&lt;/p>
-&lt;h3 id="blood-moon">Blood Moon&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-blood-moon.jpg" alt="Blood Moon">&lt;/p>
-&lt;h3 id="darkwater-lake">Darkwater Lake&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-darkwater-lake.jpg" alt="Darkwater Lake">&lt;/p>
-&lt;h2 id="lotf-obsidian">LOTF Obsidian&lt;/h2>
-&lt;h3 id="water-reflections">Water Reflections&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-water-reflections.jpg" alt="Water Reflections">&lt;/p>
-&lt;h3 id="dreary-markarth">Dreary Markarth&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-dreary-markarth.jpg" alt="Dreary Markarth">&lt;/p>
-&lt;h3 id="reach-night">Reach Night&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-reach-night.jpg" alt="Reach Night">&lt;/p>
-&lt;h3 id="skyhaven-temple">Skyhaven Temple&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-skyhaven-temple.jpg" alt="Skyhaven Temple">&lt;/p>
-&lt;h3 id="dwemer-dungeon">Dwemer Dungeon&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-dwemer-dungeon.jpg" alt="Dwemer Dungeon">&lt;/p>
-&lt;h3 id="snowy-sky">Snowy Sky&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-snowy-sky.jpg" alt="Snowy Sky">&lt;/p>
-&lt;h3 id="morthal-night">Morthal Night&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-morthal-night.jpg" alt="Morthal Night">&lt;/p>
-&lt;h3 id="valthume-dungeon">Valthume Dungeon&lt;/h3>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/lotf-valthume-dungeon.jpg" alt="Valthume Dungeon">&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/lotf/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/lotf/changelog/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/1.jpg" alt="LOTF Screenshot">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/2.jpg" alt="LOTF Screenshot">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/3.jpg" alt="LOTF Screenshot">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/4.jpg" alt="LOTF Screenshot">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/5.jpg" alt="LOTF Screenshot">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/6.jpg" alt="LOTF Screenshot">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/7.jpg" alt="LOTF Screenshot">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/8.jpg" alt="LOTF Screenshot">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/9.jpg" alt="LOTF Screenshot">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/10.jpg" alt="LOTF Screenshot">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/11.jpg" alt="LOTF Screenshot">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/12.jpg" alt="LOTF Screenshot">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/13.jpg" alt="LOTF Screenshot">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/14.jpg" alt="LOTF Screenshot">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/15.jpg" alt="LOTF Screenshot">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/16.jpg" alt="LOTF Screenshot">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/17.jpg" alt="LOTF Screenshot">&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/lotf/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/lotf/changelog/</guid><description>
+&lt;h2 id="release-30">Release 3.0&lt;/h2>
+&lt;blockquote>
+&lt;p>19/02/2023&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>This update requires a new game.&lt;/strong>&lt;/p>
+&lt;p>LOTF 3.0 is the culmination of a year&amp;rsquo;s worth of updates and expansions, finally wrapping up the list as a complete vanilla-like experience. It was extended to cover the entirety of the Anniversary Edition content, i.e. all creations; however, my philosophy on creations in LOTF has somewhat changed. All integration mods were removed, leaving only fixes and tweaks which is more in line with LOTF&amp;rsquo;s overall concept. You get a plug-and-play experience of the original thing, a little prettier and minus some annoyances.&lt;/p>
+&lt;p>&lt;em>This update took a ridiculously long time to complete. I originally scheduled it for September 4, 2022, which would have been the one year anniversary of the list, but then university happened (oh no! how could I have possibly forseen that?) and everything got derailed. Specifically, this means that all work on LOTF 3.0 was done with significant gaps in between sessions and often at times when I hadn&amp;rsquo;t done any modding in a bit. Then, in January 2023, I tore it all down and started from scratch. Development on this version was turbulent to say the least, but I am quite pleased with the result and hope you will be, too!&lt;/em>&lt;/p>
+&lt;h4 id="major-changes">Major Changes&lt;/h4>
+&lt;p>&lt;em>This is not an exhaustive list of changes.&lt;/em>&lt;/p>
+&lt;p>&lt;a href="https://loadorderlibrary.com/lists/legends-of-the-frost">Full mod list on Load Order Library&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Skyrim version:&lt;/strong> Now running Skyrim SE 1.6.640 with SKSE 2.2.3 (latest), updated all relevant mods.&lt;/li>
+&lt;li>&lt;strong>Creations:&lt;/strong> All creations are supported and &lt;em>required&lt;/em>; light tweaks were added, integration removed.&lt;/li>
+&lt;li>&lt;strong>Files:&lt;/strong> Using Root Builder to manage the root folder files, fully self-contained and no more manually moving files.&lt;/li>
+&lt;li>&lt;strong>Overall size:&lt;/strong> Slimmed down the list, no copy of the game files and no tools are included (68GB &amp;gt; 34GB).&lt;/li>
+&lt;li>&lt;strong>Ease of use:&lt;/strong> LOTF 3.0 is more plug-and-play and less customisable than previous versions.&lt;/li>
+&lt;li>&lt;strong>Compatibility:&lt;/strong> Optional support for the GOG version and for Windows 7 users was added.&lt;/li>
+&lt;li>&lt;strong>WACCF:&lt;/strong> Yes, by popular request, the mod &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18994">Weapons, Armor, Clothing and Clutter Fixes&lt;/a> was removed.&lt;/li>
+&lt;li>&lt;strong>Better visuals:&lt;/strong> Both textures (Skyland!) and distant terrain (snow!) saw substantial improvements.&lt;/li>
+&lt;li>&lt;strong>World map:&lt;/strong> Higher quality version of the Skyrim map plus new maps + markers for other worldspaces.&lt;/li>
+&lt;/ul>
+&lt;p>LOTF 3.0 switched from &lt;strong>Wander&lt;/strong> to &lt;strong>RAID Weathers&lt;/strong> which is a gorgeous weather overhaul with the added benefit of having been optimised for stealth gameplay in combination with &lt;strong>Realistic AI Detection&lt;/strong>. As such LOTF is now one of relatively few mod lists with a weather + lighting combination specifically for balanced detection.&lt;/p>
+&lt;p>Considering the enormous amount of relatively minor mesh tweaks released recently, I had to reconsider my approach to such mods. Ultimately, I decided to take the same one as with retextures; that is, use a small amount of comprehensive mesh overhauls without diving too deeply into the tiny tweaks with a great deal of overlap requiring careful mod order management and occasionally patches. To keep LOTF from becoming too bloated, I removed some minor (though noticable) mesh tweaks and refrained from adding new ones. Not to worry though, SMIM and Assorted Mesh Fixes are here to stay.&lt;/p>
+&lt;p>I decided to remove &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18115">Unofficial High Definition Audio Project&lt;/a> as it adds a whopping 8.3GBs and was thus the single largest mod. I understand that the audiophiles among you may be unhappy (you can easily re-add it!), but in the interest of slimming down the list it was a fairly easy decision.&lt;/p>
+&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;p>The documentation for 3.0 was be heavily reworked:&lt;/p>
+&lt;ul>
+&lt;li>The &lt;a href="https://thephoenixflavour.com/skyrim-se/lotf/installation/">Installation&lt;/a> page now once again covers a full clean install for Skyrim SE as LOTF 3.0 is using the default game folder. Instructions for the GOG version were added as well.&lt;/li>
+&lt;li>The &lt;a href="https://thephoenixflavour.com/skyrim-se/lotf/customisation/">Customisation&lt;/a> was updated to reflect the updated widescreen support and optional tweaks sections.&lt;/li>
+&lt;li>The &lt;a href="https://thephoenixflavour.com/skyrim-se/lotf/documentation/">Documentation&lt;/a> was updated for LOTF 3.0 changes (though it could still use some expanding).&lt;/li>
+&lt;li>The &lt;a href="https://thephoenixflavour.com/skyrim-se/lotf/screenshots/">Screenshots&lt;/a> were replaced with new shots from LOTF 3.0 with RAID Weathers + WISE ENB.&lt;/li>
+&lt;li>The instructions for adding Creations, Obsidian Weathers, and The Truth ENB were all removed as they are now redundant.&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-29">Release 2.9&lt;/h2>
 &lt;blockquote>
 &lt;p>11/08/2022&lt;/p>
@@ -933,7 +836,7 @@ EnableComplexGrass=false
 &lt;li>Moved Static Mesh Improvement Mod below the TEXTURE BASE separator&lt;/li>
 &lt;li>Inlined the Obsidian Weathers MCM Preset (must have been missing entirely before)&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Creation Club:&lt;/strong> Updated the list of supported creations.&lt;/li>
 &lt;/ul>
@@ -969,7 +872,7 @@ EnableComplexGrass=false
 &lt;li>Disabled the Sort Plugins button in MO2 (another change lost after updating)&lt;/li>
 &lt;/ul>
 &lt;p>&lt;em>Note that while I did update DynDOLOD, I did not regenerate LODs for this update.&lt;/em>&lt;/p>
-&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-2">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Updated latest version number.&lt;/li>
 &lt;/ul>
@@ -978,7 +881,7 @@ EnableComplexGrass=false
 &lt;p>02/01/2022&lt;/p>
 &lt;/blockquote>
 &lt;p>Of course I forgot to update the SSE version shenanigans in the Installation instructions and probably caused quite a bit of headache because of that. LOTF 2.x requires the &lt;em>latest&lt;/em> version of Skyrim SE installed in your Steam folder. Thanks to JanuarySnow for reminding me!&lt;/p>
-&lt;h4 id="website-changes-2">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-3">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Fixed a fairly critical oversight, clarified that latest SSE version is required for installing LOTF&lt;/li>
 &lt;/ul>
@@ -1134,7 +1037,7 @@ EnableComplexGrass=false
 &lt;li>Added The Cause - Rare Curios Patch&lt;/li>
 &lt;li>Added The Cause - Flawed Varla Stone Integration&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-3">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-4">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added references to the new optional profiles.&lt;/li>
 &lt;li>&lt;strong>Customisation:&lt;/strong> Slightly shuffled the contents of this page around.&lt;/li>
@@ -1157,7 +1060,7 @@ EnableComplexGrass=false
 &lt;li>Updated Charge Dialogue Fix to 1.2&lt;/li>
 &lt;li>Updated Assorted Mesh Fixes to 0.34&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-4">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-5">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Updated required version of SSE to 1.6.323 (latest)&lt;/li>
 &lt;/ul>
@@ -1205,7 +1108,7 @@ EnableComplexGrass=false
 &lt;li>Reduced size of map markers by 25%&lt;/li>
 &lt;li>Changed the Mod Organizer 2 executable icon&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-5">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-6">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Updated link to NVIDIA drivers to point to the English page rather than the German one&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added Microsoft .NET 5.0 to the requirements section&lt;/li>
@@ -1234,7 +1137,7 @@ EnableComplexGrass=false
 &lt;li>Removed SMIM - Assorted Mesh Fixes Patch (redundant)&lt;/li>
 &lt;li>Actually included the Blended Roads - Simplicity of Snow Patch&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-6">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-7">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Newly added with all instructions for LOTF, including the AE downgrade patcher&lt;/li>
 &lt;li>&lt;strong>Screenshots:&lt;/strong> Added new screenshots and headings for the side bar so the page is easier to navigate&lt;/li>
@@ -1319,7 +1222,7 @@ EnableComplexGrass=false
 &lt;li>Fixed a few minor plugin conflicts&lt;/li>
 &lt;li>Regenerated DynDOLOD&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-7">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-8">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Introduction:&lt;/strong> Added a warning about the new requirement of the .NET 5.0 Runtime.&lt;/li>
 &lt;li>&lt;strong>Customisation:&lt;/strong> Updated font replacer instructions, Roboto is now &lt;em>disabled&lt;/em> by default&lt;/li>
@@ -1384,7 +1287,7 @@ EnableComplexGrass=false
 &lt;li>Generated the Blacksmith Forge Water Patch&lt;/li>
 &lt;li>Regenerated TexGen and DynDOLOD&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-8">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-9">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Customisation:&lt;/strong> Added &amp;ldquo;Change sprinting from toggle to hold&amp;rdquo; option&lt;/li>
 &lt;li>&lt;strong>Documentation:&lt;/strong> Updated accordingly for the recent mod changes.&lt;/li>
@@ -1417,7 +1320,7 @@ EnableComplexGrass=false
 &lt;li>Replaced the MO2 splash screen with one specifically made for LOTF&lt;/li>
 &lt;li>Actually hid the terrain LOD files overwriting AQWM&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-9">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-10">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Introduction:&lt;/strong> Removed LOTF in numbers section. No point maintaining this.&lt;/li>
 &lt;li>&lt;strong>Introduction:&lt;/strong> Added ENB Hotkeys section.&lt;/li>
@@ -1478,7 +1381,7 @@ EnableComplexGrass=false
 &lt;li>New colour theme for the MO2 separators&lt;/li>
 &lt;li>New MO2 splash screen replacer&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-10">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-11">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated the Introduction (noted that LOTF uses the Stock Game folder system)&lt;/li>
 &lt;li>Updated the Documentation (removal of Apothecary and Arena, etc).&lt;/li>
@@ -1491,24 +1394,20 @@ EnableComplexGrass=false
 &lt;ul>
 &lt;li>Initial release for Wabbajack testing.&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: FAQ</title><link>https://thephoenixflavour.com/skyrim-se/lotf/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/lotf/faq/</guid><description>
-&lt;h2 id="why-is-lotf-as-a-lite-list-so-big-in-terms-of-file-size">Why is LOTF as a &amp;lsquo;lite&amp;rsquo; list so big in terms of file size?&lt;/h2>
-&lt;p>There are several reasons for the large file size requirement: Mods are nowhere near as optimised to save space as assets for games usually are. Of course, mod assets can also be compressed and BSA-packed but that makes them significantly more annoying to work with. Where possible, I did pack up bigger mods.&lt;/p>
-&lt;p>For the biggest files in LOTF - Skyrim Realistic Overhaul and Project Clarity, the texture overhauls - I already deleted all duplicate files and packed the rest in BSAs. The Project Clarity suite of mods (upscaling and tweaking vanilla textures) is still almost 10GB in total. In addition, the various LOD outputs, etc, add another 15GB, partially because there are multiple DynDOLOD outputs.&lt;/p>
-&lt;p>The total file size also counts the ~3GB (and rising) required for the Creation Club files.&lt;/p>
 &lt;h2 id="are-lotf-updates-save-safe--can-i-continue-my-playthrough">Are LOTF updates save-safe / can I continue my playthrough?&lt;/h2>
 &lt;p>All LOTF updates will be, for the time being, save-safe and you can continue your playthrough after updating. This is due to the fact that I am myself doing a full playthrough with the setup.&lt;/p>
-&lt;p>I anticipate that this will last for the entire of the 2.x era during which I am gradually adding all Creation Club content. After that I have some ideas and plans for a 3.0 update which may well require a new game when it comes - but that is quite far in the future.&lt;/p>
+&lt;p>&lt;del>I anticipate that this will last for the entire of the 2.x era during which I am gradually adding all Creation Club content. After that I have some ideas and plans for a 3.0 update which may well require a new game when it comes - but that is quite far in the future.&lt;/del>&lt;/p>
+&lt;p>&lt;strong>3.0 requires a new save&lt;/strong>; however, subsequent 3.x releases should all be save safe.&lt;/p>
 &lt;h2 id="how-can-i-improve-performance--increase-my-frame-rate">How can I improve performance / increase my frame rate?&lt;/h2>
 &lt;p>There are several options.&lt;/p>
-&lt;p>If you mostly have some issues with frame drops in exteriors, I recommend replacing your INIs with the performance set. You can find instructions for that &lt;a href="https://thephoenixflavour.com/lotf/customisation/#performance-inis">here&lt;/a>. If this does not help enough, I recommend swapping to the Performance profile in MO2, although please note that if you were on the CC profile previously, you need to start a new playthrough (switching from the default to the performance profile is fine and you can continue your save).&lt;/p>
-&lt;p>In case you are using The Truth ENB, you can also try switching to the Lite version of the preset or disable the ENB altogether by removing the files from your Stock Game folder.&lt;/p>
+&lt;p>If you mostly have some issues with frame drops in exteriors, I recommend replacing your INIs with the performance set. You can find instructions for that &lt;a href="https://thephoenixflavour.com/lotf/customisation/#performance-inis">here&lt;/a>. If this does not help enough, I recommend swapping to the Performance profile in MO2.&lt;/p>
 &lt;h2 id="i-encountered-a-bug--issue--inconsistency-what-do-i-do">I encountered a bug / issue / inconsistency. What do I do?&lt;/h2>
-&lt;p>Please join us on &lt;a href="https://discord.gg/xCPxJFbCTS">Discord&lt;/a> and grab the &lt;strong>@LOTF&lt;/strong> role. Post about what you encountered in the &lt;code>#lotf-support&lt;/code> channel in the Legends of the Frost section. Add screenshot(s) if appropriate.&lt;/p>
+&lt;p>Please join us on &lt;a href="https://discord.gg/xCPxJFbCTS">Discord&lt;/a> and grab the &lt;strong>@Legends of the Frost&lt;/strong> role. Post about what you encountered in the &lt;code>#lotf-support&lt;/code> channel in the Legends of the Frost section. Add screenshot(s) if appropriate.&lt;/p>
 &lt;p>If there is no immediate response, please be patient. I or someone else will respond to you when we&amp;rsquo;re around.&lt;/p>
 &lt;h2 id="oh-no-the-game-crashed-what-do-i-do">Oh no, the game crashed! What do I do?&lt;/h2>
 &lt;p>Generally speaking, a single random crash is no cause for worry. I usually start investigating if there is a second crash within a few hours or the crash is repeatable. That being said, I have had no crashes at all in some 90 hours of playing LOTF, so any crash reports are welcome.&lt;/p>
 &lt;ul>
-&lt;li>To submit crash reports, please join us on &lt;a href="https://discord.gg/xCPxJFbCTS">Discord&lt;/a> and grab the &lt;strong>@LOTF&lt;/strong> role.&lt;/li>
+&lt;li>To submit crash reports, please join us on &lt;a href="https://discord.gg/xCPxJFbCTS">Discord&lt;/a> and grab the &lt;strong>@Legends of the Frost&lt;/strong> role.&lt;/li>
 &lt;li>Find the &lt;code>#lotf-support&lt;/code> channel in the Legends of the Frost section.&lt;/li>
 &lt;li>Drop your most recent crashlog &lt;code>Crash-202x-xxxx.txt&lt;/code> into this channel.&lt;/li>
 &lt;li>Briefly describe the circumstances under which it happened.&lt;/li>
@@ -1518,13 +1417,10 @@ EnableComplexGrass=false
 &lt;p>Do not report crashes that occured in a modified setup of LOTF (with added / removed mods). &lt;strong>Modified setups are not supported.&lt;/strong>&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="what-is-that-weird-blur--depth-of-field-effect-ingame">What is that weird blur / depth of field effect ingame?&lt;/h2>
-&lt;p>Although it is possible to disable Skyrim&amp;rsquo;s questionable depth of field in the INIs, doing so breaks underwater visuals (makes underwater look perfectly clear). However, I still strongly recommend turning down the DOF slider all the way down ingame. If you want a depth of field effect for pretty screenshots, you can enable DOF in The Truth ENB.&lt;/p>
+&lt;p>Although it is possible to disable Skyrim&amp;rsquo;s questionable depth of field in the INIs, doing so breaks underwater visuals (makes underwater look perfectly clear). However, I still strongly recommend turning down the DOF slider all the way down ingame. If you want a depth of field effect for pretty screenshots, you can enable DOF in Weather Is Sacred ENB.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/faq/turn-down-dof.jpg" alt="Turn down DOF">&lt;/p>
-&lt;h2 id="bloom-is-too-strong--snow-too-bright-with-the-truth-enb">Bloom is too strong / snow too bright with The Truth ENB.&lt;/h2>
-&lt;p>The Truth ENB comes with a fairly strong bloom effect by default. This can be decreased by switching to single-pass bloom in the enbbloom.fx file. You can open the ENB GUI ingame by pressing &lt;strong>F10&lt;/strong>, then expand the &lt;strong>ENBLOOM.FX&lt;/strong> section, and switch from multipass to singlepass bloom. Make sure to click the &lt;strong>SAVE CONFIGURATION&lt;/strong> button on the left afterwards.&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/faq/enb-decrease-bloom.jpg" alt="Turn down DOF">&lt;/p>
 &lt;h2 id="can-i-add-my-own-mods-on-top-of-lotf">Can I add my own mods on top of LOTF?&lt;/h2>
-&lt;p>If you&amp;rsquo;re asking, then probably not.&lt;/p>
+&lt;p>If you have to ask, probably not.&lt;/p>
 &lt;p>Regardless of whether you are building a custom setup or modifying an existing one (like LOTF), you need to understand how mods function, how they interact, and how they can be edited. Adding mods is not a matter of dropping them in MO2 and doing a cursory ingame check. Issues may not present themselves immediately or you may have inadvertently broken something else.&lt;/p>
 &lt;p>&lt;strong>There is no support for modifying setups or issues occuring in a modified setup.&lt;/strong>&lt;/p>
 &lt;p>That being said, modding is fun and you should learn it! There are some great resources out there that you can start out with:&lt;/p>
