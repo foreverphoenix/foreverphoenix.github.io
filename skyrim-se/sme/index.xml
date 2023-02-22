@@ -306,13 +306,97 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71524">Cumulative Fix for Eye Meshes&lt;/a>, the underwater fix removes blending on the lashes which can look really weird so you may want to use the version without that fix.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72213">Farm Hat 01 Clipping Fix&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sme/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/changelog/</guid><description>
+&lt;h2 id="release-20">Release 2.0&lt;/h2>
+&lt;blockquote>
+&lt;p>TBD&lt;/p>
+&lt;/blockquote>
+&lt;p>After a long hiatus, here&amp;rsquo;s a major update for y&amp;rsquo;all.&lt;/p>
+&lt;ul>
+&lt;li>Updated to SSE 1.6.640.0 (Steam) / SSE 1.6.659 (GOG)&lt;/li>
+&lt;li>Root Builder is now enabled by default&lt;/li>
+&lt;li>Cleaned non-vanilla files out of the Stock Game Folder&lt;/li>
+&lt;/ul>
+&lt;p>I also re-arranged some separators.&lt;/p>
+&lt;p>FYI, one of the added mods (Rock Traps Trigger Fixes) requires a new game.&lt;/p>
+&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;ul>
+&lt;li>Added updated MO2 plugin for GOG support&lt;/li>
+&lt;li>Added Creation Organizer&lt;/li>
+&lt;li>Added CK Fixes Update&lt;/li>
+&lt;li>Added FormList Manipulator&lt;/li>
+&lt;li>Added Payload Interpreter&lt;/li>
+&lt;li>Added Unique Map Weather&lt;/li>
+&lt;li>Added Keyboard Shortcuts Fix (SKSE Preloader)&lt;/li>
+&lt;li>Added Papyrus Tweaks NG&lt;/li>
+&lt;li>Added ConsolePlusPlus&lt;/li>
+&lt;li>Added Combat Music Fix NG&lt;/li>
+&lt;li>Added Animation Queue Fix&lt;/li>
+&lt;li>Added Magic Student (WIChangeLocation04) Quest Fix&lt;/li>
+&lt;li>Added Rock Traps Trigger Fixes&lt;/li>
+&lt;li>Added DynDOLOD - DLL&lt;/li>
+&lt;li>Added DynDOLOD - Scripts&lt;/li>
+&lt;li>Added Dynamic Animation Casting - NG&lt;/li>
+&lt;li>Updated Root Builder to 4.4.2&lt;/li>
+&lt;li>Updated Profile Sync to 1.1.1&lt;/li>
+&lt;li>Updated Crash Logger SSE AE VR to 1.8.0&lt;/li>
+&lt;li>Updated ENBSeries Binaries to 0.488&lt;/li>
+&lt;li>Updated PapyrusUtil SE - Modders Scripting Utility Functions (Steam) to 4.4&lt;/li>
+&lt;li>Updated Papyrus Extender to 5.5.0&lt;/li>
+&lt;li>Updated JContainers to 4.2.3&lt;/li>
+&lt;li>Updated Spell Perk Item Distributor (SPID) to 6.4.0&lt;/li>
+&lt;li>Updated Keyword Item Distributor to 2.2.0&lt;/li>
+&lt;li>Updated Sound Record Distributor to 1.3.0&lt;/li>
+&lt;li>Updated Base Object Swapper to 2.5.1&lt;/li>
+&lt;li>Updated MergeMapper to 1.4.0&lt;/li>
+&lt;li>Updated Scaleform Translation Plus Plus to 1.6.0&lt;/li>
+&lt;li>Updated Fuz Ro D-oh - Silent Voice to 2.3&lt;/li>
+&lt;li>Updated QUI to 0.3.2&lt;/li>
+&lt;li>Updated SSE Engine Fixes to 6.1.1&lt;/li>
+&lt;li>Updated Fix Note Icon for SkyUI to 1.2.6&lt;/li>
+&lt;li>Updated RaceMenu to 0.4.19.14&lt;/li>
+&lt;li>Updated More Informative Console to 1.1.0&lt;/li>
+&lt;li>Updated ConsoleUtilSSE to 1.4&lt;/li>
+&lt;li>Updated Console Commands Extender to 1.11&lt;/li>
+&lt;li>Updated NVIDIA Reflex Support to 1.1.2&lt;/li>
+&lt;li>Updated Auto Input Switch to 1.2.0&lt;/li>
+&lt;li>Updated Bug Fixes SSE to 9&lt;/li>
+&lt;li>Updated powerofthree&amp;rsquo;s Tweaks to 1.8.0&lt;/li>
+&lt;li>Updated Scrambled Bugs to 20&lt;/li>
+&lt;li>Updated Equip Enchantment Fix to 1.3.6&lt;/li>
+&lt;li>Updated Actor Limit Fix to 8&lt;/li>
+&lt;li>Updated NPC AI Process Position Fix - NG to 1.1.1&lt;/li>
+&lt;li>Updated Animated Static Reload Fix - NG to 1.0.1&lt;/li>
+&lt;li>Updated HD Local Map to 1.0.2&lt;/li>
+&lt;li>Updated Mfg Fix to 1.6.1&lt;/li>
+&lt;li>Updated Shadow Boost to 1.3&lt;/li>
+&lt;li>Updated ENB Helper to 2.2&lt;/li>
+&lt;li>Updated ENB Input Disabler to 1.0.3&lt;/li>
+&lt;li>Updated ENB Helper Plus to 1.0.4&lt;/li>
+&lt;li>Updated Particle Patch for ENB to 1.2.3&lt;/li>
+&lt;li>Updated CritterSpawn Congestion Fix to 1.3&lt;/li>
+&lt;li>Updated Assorted Mesh Fixes to 0.78&lt;/li>
+&lt;li>Updated DynDOLOD Resources to 3 Alpha 31&lt;/li>
+&lt;li>Updated Animation Motion Revolution to 1.5.3&lt;/li>
+&lt;li>Updated Dynamic Animation Replacer to 1.1.3&lt;/li>
+&lt;li>Updated SSE NIF Optimizer to 3.2.0&lt;/li>
+&lt;li>Updated Synthesis to 0.25.3&lt;/li>
+&lt;li>Updated zEdit to 0.6.7&lt;/li>
+&lt;li>Removed Creation Organizer&lt;/li>
+&lt;li>Removed Show Animation Command (no 1.6.640+ support)&lt;/li>
+&lt;li>Removed Keyboard Shortcuts Fix&lt;/li>
+&lt;li>Removed Combat Music Fix SKSE&lt;/li>
+&lt;li>Config files are now all separated from their &amp;ldquo;parent&amp;rdquo; mod and suffixed with &amp;ldquo;- Settings&amp;rdquo;&lt;/li>
+&lt;li>Enabled SleepWaitTime in the SSE Engine Fixes - Settings&lt;/li>
+&lt;li>Moved ENB files into MO2 (using Root Builder folder structures)&lt;/li>
+&lt;li>Fixed zEdit file path&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-16">Release 1.6&lt;/h2>
 &lt;blockquote>
 &lt;p>03/11/2022&lt;/p>
 &lt;/blockquote>
 &lt;p>Another round of mod and tool updates.&lt;/p>
 &lt;p>Note on Crash Logger: The latest version (1.2.0) does not currently work with SSE 1.6.353.0 so SME is using 1.1.0.&lt;/p>
-&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Sound Record Distributor&lt;/li>
 &lt;li>Added Recursion Monitor&lt;/li>
@@ -342,7 +426,7 @@
 &lt;p>15/10/2022&lt;/p>
 &lt;/blockquote>
 &lt;p>Just the most recent mod updates. SME is still on 1.6.353.&lt;/p>
-&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-2">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Crash Logger SSE AE VR&lt;/li>
 &lt;li>Updated DynDOLOD to 3 Alpha 102&lt;/li>
@@ -375,7 +459,7 @@
 &lt;p>28/09/2022&lt;/p>
 &lt;/blockquote>
 &lt;p>For the forseeable future, SME will continue to use &lt;strong>SSE 1.6.353&lt;/strong> until all mods have been updated. However, I recompiled with the latest version of Skyrim in my Steam folder, meaning that users also need to have the latest version to install SME. Wabbajack will downgrade the copy of the game in your Game Root folder. This way, you don&amp;rsquo;t have to downgrade your Steam installation.&lt;/p>
-&lt;h4 id="mod-changes-2">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-3">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Console Commands Extender&lt;/li>
 &lt;li>Added HelpExtender&lt;/li>
@@ -408,7 +492,7 @@
 &lt;blockquote>
 &lt;p>19/08/2022&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-3">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-4">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added UIExtension&lt;/li>
 &lt;li>Added Hearthfires Houses Building Fix&lt;/li>
@@ -430,7 +514,7 @@
 &lt;p>11/08/2022&lt;/p>
 &lt;/blockquote>
 &lt;p>Small maintenance update and expanded documentation.&lt;/p>
-&lt;h4 id="mod-changes-4">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-5">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Root Builder (MO2 plugin)&lt;/li>
 &lt;li>Added Profile Sync (MO2 plugin)&lt;/li>
@@ -462,7 +546,7 @@
 &lt;/blockquote>
 &lt;p>With this update, I migrated the SME documentation to the new Skyrim SE Lists section of the website which breaks all links. I fixed those I could think of but might have missed some in which case please let me know on Discord.&lt;/p>
 &lt;p>In other news, I disabled the Fix Game Registry Path plugin for now. It is very convenient for LOOT (which uses the registry key to locate the game), but isn&amp;rsquo;t really needed for anything else and also breaks Creation Organizer. On top of that, it becomes cumbersome to constantly update the path when swapping between modded setups. I found a different solution for making LOOT work.&lt;/p>
-&lt;h4 id="mod-changes-5">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-6">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Quest Journal Limit Bug Fixer&lt;/li>
 &lt;li>Added Enhanced Invisibility&lt;/li>
