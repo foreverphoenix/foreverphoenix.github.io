@@ -306,6 +306,38 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71524">Cumulative Fix for Eye Meshes&lt;/a>, the underwater fix removes blending on the lashes which can look really weird so you may want to use the version without that fix.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72213">Farm Hat 01 Clipping Fix&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sme/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/changelog/</guid><description>
+&lt;h2 id="release-22">Release 2.2&lt;/h2>
+&lt;blockquote>
+&lt;p>10/03/2023&lt;/p>
+&lt;/blockquote>
+&lt;p>It has recently been brought to my attention that the latest version of the Creation Kit and the updated version of CK Fixes &lt;em>may&lt;/em> have some lingering issues. As a matter of precaution I decided to (for the time being) roll back to CK 1.5.73 and the original CK Fixes.&lt;/p>
+&lt;p>Regarding the removal of Mannequin Management: Technically, the mod should have been redundant since Skyrim 1.6.629.0 in which Beth slapped the Immobile flag on the MannakinRace record (an undocumented change, of course). This should (?) resolve the issue.&lt;/p>
+&lt;ul>
+&lt;li>Added ACMOS Road Generator&lt;/li>
+&lt;li>Added Creation Kit Fixes&lt;/li>
+&lt;li>Added Wider MCM Menu for SkyUI&lt;/li>
+&lt;li>Added Skyrim Ultimate Eye Meshes Ruhmastered&lt;/li>
+&lt;li>Added Ore Vein Texture Fix&lt;/li>
+&lt;li>Added Ore Vein Cube Map and Shader Fixes&lt;/li>
+&lt;li>Added Whiterun Fence Base Seam Fix&lt;/li>
+&lt;li>Added Farm Hat 01 Clipping Fix&lt;/li>
+&lt;li>Added Guild Master&amp;rsquo;s Armor First Person Texture Fix&lt;/li>
+&lt;li>Added Glowing Mushroom Collision Fixes&lt;/li>
+&lt;li>Added No More Swimming In Air - Fixed Floating SwimIdle&lt;/li>
+&lt;li>Added Wider MCM Menu for SkyUI - Widescreen Fix (disabled by default)&lt;/li>
+&lt;li>Added ENB IMOD Separator (disabled by default)&lt;/li>
+&lt;li>Updated DynDOLOD to 3 Alpha 118&lt;/li>
+&lt;li>Removed Creation Kit Fixes Update&lt;/li>
+&lt;li>Removed Mannequin Management&lt;/li>
+&lt;li>Removed Cumulative Fix for Eye Meshes&lt;/li>
+&lt;li>Actually applied my custom ENB hotkeys as outlined in the documentation (oops)&lt;/li>
+&lt;li>Fixed minor issue in the mesh from Hearthfire Creep Cluster Fix to prevent random CTDs&lt;/li>
+&lt;li>Deleted change to the iron ore smelting recipe from Hearthfire Houses Building Fix&lt;/li>
+&lt;li>Restored some erroneously deleted meshes in Labyrinthian Shalidor&amp;rsquo;s Maze Fixes&lt;/li>
+&lt;li>Reinstalled the Particle Patch for ENB to select the BSA-packed version&lt;/li>
+&lt;li>Removed redundant copy of the ENB binaries from the Tools folder&lt;/li>
+&lt;li>Rolled back the Creation Kit to 1.5.73&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-211">Release 2.1.1&lt;/h2>
 &lt;blockquote>
 &lt;p>23/02/2023&lt;/p>
