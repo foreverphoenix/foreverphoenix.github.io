@@ -1,4 +1,312 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Example Builds</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/</link><description>Recent content in Example Builds on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/skyrim-se/sss/builds/index.xml" rel="self" type="application/rss+xml"/><item><title>Skyrim-Se: Argonian Agent</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/argonian-agent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/argonian-agent/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Example Builds</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/</link><description>Recent content in Example Builds on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/skyrim-se/sss/builds/index.xml" rel="self" type="application/rss+xml"/><item><title>Skyrim-Se: Altmer Pilgrim</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/altmer-pilgrim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/altmer-pilgrim/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/builds/altmer-pilgrim-art.png" alt="Altmer Pilgrim">&lt;/p>
+&lt;p>As an acolyte, you were once tasked with the protection of sacred artifacts and shrines in the Summerset Isles. Once rumors spread of the brewing civil war in Skyrim, you feared for the safety of the ancient lore that lay within lands afar. As an expert in history and protector of lore, you felt that the potential loss of these precious artifacts would be a great tragedy.&lt;/p>
+&lt;p>To you, venturing into Skyrim was a simple extension of your duty to the temple. As dangerous as the trip was, you felt that you were well prepared with a diplomatic and persuasive tongue that would provide the funding you needed to embark on your mission. Furthermore, your extensive knowledge of Tamrielic history led you to believe that you were well suited for navigating the political and social landscape of Skyrim.&lt;/p>
+&lt;p>That knowledge is also why, despite your lawful and honorable intentions, you attempted to cross into the region illegally. You&amp;rsquo;re quickly understanding that your presence in Skyrim may be met with hostility and that many will confuse you for a Thalmor agent. However, you&amp;rsquo;re resolved that the greater good is worth the risk, and you are willing to do whatever it takes to protect the lore of Tamriel.&lt;/p>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Complexity:&lt;/strong> Low&lt;/li>
+&lt;li>&lt;strong>Race:&lt;/strong> &lt;a href="##" title="Major Skill: Enchanting
+Minor Skills: Alteration, Conjuration, Destruction, Illusion, Restoration
+Highborn: Your Magicka is increased by 50 and your Magicka Regeneration is increased by 50%.">High Elf&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Skills:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>Offensive:&lt;/strong> One-handed, Speech&lt;/li>
+&lt;li>&lt;strong>Defensive:&lt;/strong> Block, Light Armor, Restoration&lt;/li>
+&lt;li>&lt;strong>Utility:&lt;/strong> Smithing&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Attributes:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>Health:&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Magicka:&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Stamina:&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>The Pilgrim is a stalwart fighter, standing with conviction on the front lines with a mace in one hand and a shield in the other. In that sense they play not unlike your typical sword and board character, however they utilize Restoration to imbue themselves with buffing magic and Speech to make the most from their newfound shouting abilities. Speech will also help the Pilgrim make money and, with a little bit of Smithing chops, generate some lucrative business. The Pilgrim struggles with ranged combat, relying on shouts with cooldown timers or un-perked options when forced to fight at a distance.&lt;/p>
+&lt;h2 id="perks">Perks&lt;/h2>
+&lt;blockquote>
+&lt;p>Full perk information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30191">Adamant&lt;/a> description page.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="early-game-holy-wanderer">Early Game: Holy Wanderer&lt;/h3>
+&lt;p>A close call with the Imperial headsman was a harrowing introduction to Skyrim. Put it behind you and get your bearings, there&amp;rsquo;s a lot of work to be done here.&lt;/p>
+&lt;details>
+&lt;h4 id="block">Block&lt;/h4>
+&lt;p>&lt;em>Shields won&amp;rsquo;t always save you from an incoming power attack just yet but that doesn&amp;rsquo;t mean they&amp;rsquo;re ineffective.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Gladiator (10):&lt;/strong> Blocking is 25% more effective.&lt;/li>
+&lt;li>&lt;strong>Discipline (20):&lt;/strong> Blocking with a shield reduces incoming arrow damage by 50%.&lt;/li>
+&lt;/ul>
+&lt;h4 id="light-armor">Light Armor&lt;/h4>
+&lt;p>&lt;em>Light armor is best for travel and your people have always excelled in it.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Scout 1 (10):&lt;/strong> Light armor is 25% more effective.&lt;/li>
+&lt;li>&lt;strong>Agility 1 (20):&lt;/strong> You gain 50% Stamina Regeneration while wearing a light armor chest piece.&lt;/li>
+&lt;/ul>
+&lt;h4 id="one-handed">One-handed&lt;/h4>
+&lt;p>&lt;em>Blunt weapons such as maces allow you to break down your enemies with less mess.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Skirmisher 1 (10):&lt;/strong> One-handed weapons do 25% more damage.&lt;/li>
+&lt;li>&lt;strong>Armor Breaker 1 (20):&lt;/strong> Maces reduce enemy armor rating by 150 for 10 seconds.&lt;/li>
+&lt;li>&lt;strong>Fighter’s Stance 1 (30):&lt;/strong> Power attacks with one-handed weapons deal 25% extra damage and have a chance to decapitate your enemies.&lt;/li>
+&lt;/ul>
+&lt;h4 id="restoration">Restoration&lt;/h4>
+&lt;p>&lt;em>Novice Restoration won&amp;rsquo;t offer you anything later on but for now it&amp;rsquo;s a valuable lifeline.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Healer 1 (10):&lt;/strong> Restoration spells cost 25% less Magicka.&lt;/li>
+&lt;li>&lt;strong>Recovery 1 (20):&lt;/strong> Healing spells are 50% stronger.&lt;/li>
+&lt;/ul>
+&lt;h4 id="smithing">Smithing&lt;/h4>
+&lt;p>&lt;em>Your smithing will be limited to maintaining your gear and crafting valuable jewelry.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Craftsman 1 (10):&lt;/strong> You can temper all items by one additional tier.&lt;/li>
+&lt;/ul>
+&lt;h4 id="speech">Speech&lt;/h4>
+&lt;p>&lt;em>This will later be one of your key skills but you can&amp;rsquo;t focus on it right this moment.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Merchant 1 (10):&lt;/strong> You receive 25% better prices.&lt;/li>
+&lt;/ul>
+&lt;/details>
+&lt;h3 id="mid-game-devoted-orator">Mid Game: Devoted Orator&lt;/h3>
+&lt;p>It&amp;rsquo;s about time to get down to business. The Civil War is heating up and you&amp;rsquo;ve got to outpace the destruction. If vampires are getting in the way, consider joining &lt;strong>The Dawnguard&lt;/strong> to help a former Vigilant of Stendarr fight them back.&lt;/p>
+&lt;details>
+&lt;h4 id="block-1">Block&lt;/h4>
+&lt;p>&lt;em>You&amp;rsquo;re pretty good with a shield. Don&amp;rsquo;t be afraid to hold it out in front of you while advancing&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Defensive Maneuvers (30):&lt;/strong> Blocking no longer slows your movement.&lt;/li>
+&lt;li>&lt;strong>Deflection (40):&lt;/strong> Blocking with a shield reduces incoming magic damage by 50%.&lt;/li>
+&lt;li>&lt;strong>Gladiator 2 (50):&lt;/strong> Blocking is 50% more effective.&lt;/li>
+&lt;/ul>
+&lt;h4 id="light-armor-1">Light Armor&lt;/h4>
+&lt;p>&lt;em>A second line of defense in case your shield isn&amp;rsquo;t enough. And a source of stamina.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Specialist 1 (30):&lt;/strong> You receive a 25% armor bonus while wearing a light armor chest piece.&lt;/li>
+&lt;li>&lt;strong>Unhindered (40):&lt;/strong> Your armor weighs nothing and doesn’t slow you down while wearing a light armor chest piece.&lt;/li>
+&lt;li>&lt;strong>Athletics 1 (40):&lt;/strong> You move 10% faster while wearing a light armor chest piece.&lt;/li>
+&lt;li>&lt;strong>Scout 2 (50):&lt;/strong> Light armor is 50% more effective.&lt;/li>
+&lt;li>&lt;strong>Agility 2 (60):&lt;/strong> You gain 100% Stamina Regeneration while wearing a light armor chest piece.&lt;/li>
+&lt;/ul>
+&lt;h4 id="one-handed-1">One-handed&lt;/h4>
+&lt;p>&lt;em>Extra damage against staggered targets complements your first shout beautifully.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Bell Ringer 1 (40):&lt;/strong> Maces deal 25% extra damage to staggered targets.&lt;/li>
+&lt;li>&lt;strong>Skirmisher 2 (50):&lt;/strong> One-handed weapons do 50% more damage.&lt;/li>
+&lt;li>&lt;strong>Fighter’s Stance 2 (60):&lt;/strong> Power attacks with one-handed weapons deal 50% extra damage and have a chance to decapitate your enemies.
+ &lt;/li>
+&lt;/ul>
+&lt;h4 id="restoration-1">Restoration&lt;/h4>
+&lt;p>&lt;em>It wouldn&amp;rsquo;t be a Pilgrim build without the Pilgrim perks, now would it?&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Pilgrim 1 (30):&lt;/strong> Divine shrines are twice as strong.&lt;/li>
+&lt;li>&lt;strong>Illumination (40):&lt;/strong> Regeneration and Attunement spells last three times as long when dual cast.&lt;/li>
+&lt;li>&lt;strong>Healer 2 (50):&lt;/strong> Restoration spells cost 50% less Magicka.&lt;/li>
+&lt;li>&lt;strong>Pilgrim 2 (60):&lt;/strong> Divine shrines are twice as strong and you receive additional bonuses when you pray at their shrines.&lt;/li>
+&lt;/ul>
+&lt;h4 id="smithing-1">Smithing&lt;/h4>
+&lt;p>&lt;em>Improved tempering not only gives you more oomph in your equipment, it can make your refurbished loot more valuable.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Blacksmith (30):&lt;/strong> You can temper all items by one additional tier.&lt;/li>
+&lt;li>&lt;strong>Craftsman 2 (50):&lt;/strong> You can temper all items by two additional tiers.&lt;/li>
+&lt;/ul>
+&lt;h4 id="speech-1">Speech&lt;/h4>
+&lt;p>&lt;em>Hone your Voice and it&amp;rsquo;ll help you reach new heights. (And not just High Hrothgar.)&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Silver Tongue (20):&lt;/strong> You are much more likely to succeed at persuasion and intimidation, and you can bribe guards to ignore crimes.&lt;/li>
+&lt;li>&lt;strong>Deep Breath 1 (30):&lt;/strong> Your Shouts are 50% stronger.&lt;/li>
+&lt;li>&lt;strong>Ancient Voice (40):&lt;/strong> Your Shouts last twice as long.&lt;/li>
+&lt;li>&lt;strong>Merchant (50):&lt;/strong> You receive 50% better prices.&lt;/li>
+&lt;li>&lt;strong>Stormcrown 1 (60):&lt;/strong> Your Shout cooldown is decreased by 25%.&lt;/li>
+&lt;/ul>
+&lt;/details>
+&lt;h3 id="late-game-lorekeeper">Late Game: Lorekeeper&lt;/h3>
+&lt;p>If anything threatens the knowledge held within Skyrim it&amp;rsquo;ll have to get through you first. You&amp;rsquo;ve cultivated your power to extreme levels, mastering the voice alongside your combat prowess and restorative magic. Use it to bring all of Skyrim&amp;rsquo;s artifacts under your protection.&lt;/p>
+&lt;details>
+&lt;h4 id="block-2">Block&lt;/h4>
+&lt;p>&lt;em>A passive method of staggering your opponents? An absolute treat for your mace!&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Blocking Expertise (60):&lt;/strong> Blocking costs 50% less Stamina.&lt;/li>
+&lt;li>&lt;strong>Determination (70):&lt;/strong> Blocking with a shield has a 50% chance to stagger your attacker.
+ &lt;/li>
+&lt;/ul>
+&lt;h4 id="light-armor-2">Light Armor&lt;/h4>
+&lt;p>&lt;em>With all of these perks, Stamina should be more than plentiful.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Adrenaline (60):&lt;/strong> You sprint 20% faster and spend 50% less Stamina when sprinting while wearing a light armor chest piece.&lt;/li>
+&lt;li>&lt;strong>Specialist 2 (70):&lt;/strong> You receive a 50% armor bonus while wearing a light armor chest piece.&lt;/li>
+&lt;li>&lt;strong>Endurance (80):&lt;/strong> You spend 25% less Stamina when power attacking or drawing a bow while wearing a light armor chest piece.&lt;/li>
+&lt;li>&lt;strong>Athletics 2 (90):&lt;/strong> You move 20% faster when wearing three pieces of light armor.&lt;/li>
+&lt;li>&lt;strong>Second Wind (100):&lt;/strong> Your Stamina regenerates twice as fast when you fall below half Stamina while wearing a light armor chest piece.&lt;/li>
+&lt;/ul>
+&lt;h4 id="one-handed-2">One-handed&lt;/h4>
+&lt;p>&lt;em>Your blows will be doing serious internal damage at this point. Enemies won&amp;rsquo;t withstand your attacks for long.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Flourish (70):&lt;/strong> You attack 20% faster with One-handed weapons.&lt;/li>
+&lt;li>&lt;strong>Armor Breaker 2 (70):&lt;/strong> Maces reduce enemy armor rating by 300 for 10 seconds.&lt;/li>
+&lt;li>&lt;strong>Execute (80):&lt;/strong> Power Attacks with One-handed weapons deal 50% extra damage against target who fall below half Health.&lt;/li>
+&lt;li>&lt;strong>Bell Ringer 2 (90):&lt;/strong> Maces deal 50% extra damage to staggered targets.&lt;/li>
+&lt;li>&lt;strong>Onslaught (100):&lt;/strong> Repeated power attacks against a single target with One-handed weapons deal up to double damage.
+ &lt;/li>
+&lt;/ul>
+&lt;h4 id="restoration-2">Restoration&lt;/h4>
+&lt;p>&lt;em>Duration buffs for your most-used spells and even more Health Regeneration.&lt;/em>*&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Repose (60):&lt;/strong> Regeneration, Attunement, and Circle spells last twice as long.&lt;/li>
+&lt;li>&lt;strong>Recovery 2 (70):&lt;/strong> Healing spells are 100% stronger.
+ &lt;/li>
+&lt;/ul>
+&lt;h4 id="smithing-2">Smithing&lt;/h4>
+&lt;p>&lt;em>Your ability to repair items would impress Eorlund Gray-Mane himself.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Armorer (70):&lt;/strong> You can temper all items by one additional tier.&lt;/li>
+&lt;li>&lt;strong>Forgemaster (90):&lt;/strong> You can temper all items by one additional tier.
+ &lt;/li>
+&lt;/ul>
+&lt;h4 id="speech-2">Speech&lt;/h4>
+&lt;p>&lt;em>Your Voice is nearly as dangerous as your weapon, don&amp;rsquo;t hold back on using it.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Supply and Demand 1 (30):&lt;/strong> Merchants have extra gold.&lt;/li>
+&lt;li>&lt;strong>Supply and Demand 2 (60):&lt;/strong> Merchants have even more extra gold for bartering.&lt;/li>
+&lt;li>&lt;strong>Deep Breath 2 (70):&lt;/strong> Your Shouts are 100% stronger.&lt;/li>
+&lt;li>&lt;strong>Dragon of the North (80):&lt;/strong> Your Shouts have a 50% chance to have no cooldown.&lt;/li>
+&lt;li>&lt;strong>Investor (80):&lt;/strong> You can invest in a shopkeeper’s business to increase their available gold.&lt;/li>
+&lt;li>&lt;strong>Stormcrown 2 (90):&lt;/strong> Your Shout cooldown is decreased by 50%.&lt;/li>
+&lt;/ul>
+&lt;/details>
+&lt;h2 id="standing-stones">Standing Stones&lt;/h2>
+&lt;blockquote>
+&lt;p>Full standing stone information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33411">Mundus&lt;/a> description page.&lt;/p>
+&lt;/blockquote>
+&lt;details>
+&lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-warrior.webp">
+&lt;h4 id="the-warrior-guardian">The Warrior (Guardian)&lt;/h4>
+&lt;p>&lt;em>&lt;strong>Warborn:&lt;/strong>&lt;/em> &lt;em>Your Health is increased by 50, and blocking is 25% more effective.&lt;/em>&lt;/p>
+&lt;p>Despite being a Stealth class, the Pilgrim is best served by the Warrior. A shieldbearer benefits greatly from the blocking bonus and the extra health allows you to spend your early attribute points elsewhere if necessary.&lt;/p>
+&lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-atronach.webp">
+&lt;h4 id="the-atronach">The Atronach&lt;/h4>
+&lt;p>&lt;em>&lt;strong>Sorcerer’s Oath:&lt;/strong>&lt;/em> &lt;em>Your Magicka is increased by 100, and you have a 25% chance to absorb the Magicka from incoming spells. However, you cannot regenerate Magicka in combat.&lt;/em>&lt;/p>
+&lt;p>The Atronach runs counter to your racial bonus but with mace and shield in hand you won&amp;rsquo;t be casting much of anything in the middle of combat. Use the extra Magicka to set up buffs, then draw your weapons and strike.&lt;/p>
+&lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-lady.webp">
+&lt;h4 id="the-lady">The Lady&lt;/h4>
+&lt;p>&lt;em>&lt;strong>Lady’s Grace:&lt;/strong>&lt;/em> &lt;em>Your Health, Magicka and Stamina Regeneration are increased by 50%, and by an additional 50% when you fall below half Health, Magicka, or Stamina.&lt;/em>&lt;/p>
+&lt;p>The Lady is a solid option for those who want to be versatile and switch from physical to magical more readily. This standing stone will boost your regeneration rates as they&amp;rsquo;re needed, making sure you have enough Stamina and Magicka in the tank when you swap modes.&lt;/p>
+&lt;/details>
+&lt;h2 id="faith">Faith&lt;/h2>
+&lt;blockquote>
+&lt;p>Full religion information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/54099">Pilgrim&lt;/a> description page.&lt;/p>
+&lt;/blockquote>
+&lt;p>Being drawn to the sacred, you can easily claim to be a follower of all of the Eight when asked. But everyone has their favorites to turn to in hard times and yours are &lt;strong>Trinimac&lt;/strong>, &lt;strong>Y&amp;rsquo;ffre&lt;/strong>, and &lt;strong>Stendarr&lt;/strong>. The former is how you&amp;rsquo;d love to see yourself: as a champion of Auri-El and the entire pantheon. The others have fueled your drive to preserve and protect throughout your life.&lt;/p>
+&lt;details>
+&lt;h4 id="jephre">Jephre&lt;/h4>
+&lt;p>&lt;em>Your Stamina regeneration is increased by 25/50%. / You spend 25% less Stamina when power attacking or drawing a bow.&lt;/em>&lt;/p>
+&lt;p>On the other side of the coin is Jephre the Singer who&amp;rsquo;ll strengthen your physical aspects. More Stamina and less needed for power attacks will allow you to slam your mace into more faces per minute. The God of Songs and Stories definitely wants you to protect the world they&amp;rsquo;ve grown.&lt;/p>
+&lt;h4 id="stendarr">Stendarr&lt;/h4>
+&lt;p>&lt;em>Your Health Regeneration is increased by 25/50%. / Blocking with a shield reduces incoming magic damage by 50%.&lt;/em>&lt;/p>
+&lt;p>The God of Mercy will gladly lend his steadfastness to the devout, making you more resilient on the frontlines. Health Regeneration complements spells such as Regeneration well and the secondary benefit is perfect for the shield you&amp;rsquo;re already carrying.&lt;/p>
+&lt;h4 id="trinimac">Trinimac&lt;/h4>
+&lt;p>&lt;em>Your Health is increased by 25/50. / You take 25% less damage while power attacking, drawing a bow, or casting a spell.&lt;/em>&lt;/p>
+&lt;p>You can&amp;rsquo;t help but look up to the Golden Champion and doing so will bless you with increased health for your adventure. Later on Trinimac supports a more reckless offense if you want to block less and swing your mace more.&lt;/p>
+&lt;/details>
+&lt;h2 id="spellbook">Spellbook&lt;/h2>
+&lt;blockquote>
+&lt;p>Full magic information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27839">Mysticism&lt;/a> description page. Additionally, dragon shout information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/36276">Forceful Tongue&lt;/a> description page.&lt;/p>
+&lt;/blockquote>
+&lt;details>
+&lt;img align="right" width="100" height="100" src="https://thephoenixflavour.com/Pictures/sss/builds/skill-restoration.webp">
+&lt;h3 id="restoration-3">Restoration&lt;/h3>
+&lt;p>Restoration is the only school of magic truly utilized by the Pilgrim and most of it is fire-and-forget due to the fact that you&amp;rsquo;ll have your hands full with your weapon and shield most of the time. Sun and Turn Undead spells are nice to have in your back pocket, especially when doing Dawnguard content, but they&amp;rsquo;re not your focus.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Regeneration (Apprentice+):&lt;/strong> &lt;em>Restores 2 Health per second for 120 seconds.&lt;/em>&lt;br>
+Without a hand free for active healing, you&amp;rsquo;ll rely on this to provide you with substantial regeneration on the frontline.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Attunement (Adept+):&lt;/strong> &lt;em>Your Health is increased by 50 for 120 seconds.&lt;/em>&lt;br>
+Essentially free Health given how long this spell lasts with your Restoration perks.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Circle of Strength (Adept+):&lt;/strong> &lt;em>Creates a circle on the ground that lasts for 120 seconds. Restores 10 Health per second inside the circle.&lt;/em>&lt;br>
+Honestly any and all Circle spells are your friend here. Vitality and Strength especially allow you to stand your ground in a tough fight.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="dragon-shouts">Dragon Shouts&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Fire Breath:&lt;/strong> &lt;em>Deals 30\60\120 Fire Damage. Targets on fire take extra damage over time.&lt;/em>&lt;br>
+With your Speech perks, the offensive shouts will be especially potent. Go with this, Frost Breath, Soul Tear, or Cyclone depending on how you&amp;rsquo;re feeling or what you&amp;rsquo;re fighting.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Marked for Death:&lt;/strong> &lt;em>Deals 5 damage, reduces enemy Magic Resistance by 25% and Armor Rating by 150 for 10\20\30 seconds.&lt;/em>
+Your mace already strips the enemy of their armor for more damage, it only makes sense to reduce it even further, especially when you can keep the effect up almost 100% of the time.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Unrelenting Force:&lt;/strong> &lt;em>Targets are staggered\thrown away. Deals 30\40\50 damage.&lt;/em>&lt;br>
+The very first shout you&amp;rsquo;ll have in your arsenal and one of your best. With the &lt;em>Bell Ringer&lt;/em> perk you&amp;rsquo;ll do at least 25% extra damage to those staggered by your shout, and your Speech perks will give it tremendous abuse potential.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/details>
+&lt;h2 id="enchantments">Enchantments&lt;/h2>
+&lt;blockquote>
+&lt;p>Full enchanting information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/57138">Thaumaturgy&lt;/a> description page.&lt;/p>
+&lt;/blockquote>
+&lt;details>
+&lt;h4 id="weapon">Weapon&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Damage Armor:&lt;/strong> &lt;em>Reduces enemy Armor Rating by 150 for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Damage Weapon:&lt;/strong> &lt;em>Reduces enemy weapon damage by 25% for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Absorb Health:&lt;/strong> &lt;em>Absorbs 20 Health.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;p>These may seem like boring selections but they get the job done. Negative armor values increase damage taken so stripping off as much as you can is a huge damage boost. Alternatively, help your own sustainability with the other options.&lt;/p>
+&lt;h4 id="shield">Shield&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Resist Magic:&lt;/strong> &lt;em>Your Magic Resistance is increased by 25%.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Block:&lt;/strong> &lt;em>Reduces enemy Armor Rating by 150 for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Health:&lt;/strong> &lt;em>Reduces enemy weapon damage by 25% for 30 seconds.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;p>Your shield gives you an extra enchantment slot to play around with. Use it for the coveted Resist Magic if you can. Failing that, the other listed options will help keep you alive as well.&lt;/p>
+&lt;h4 id="head">Head&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Fortify Shouts:&lt;/strong> &lt;em>Your Shouts are 50% stronger.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Block:&lt;/strong> &lt;em>You block 25% more damage.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Restoration Cost:&lt;/strong> &lt;em>Your Restoration spells cost 25% less.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;p>Fortify Block and Restoration Cost can be a lifesaver early on. As you get more comfortable in the mid to late game, do yourself a favor and buff your shouts even further.&lt;/p>
+&lt;h4 id="chest">Chest&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Resist Magic:&lt;/strong> &lt;em>Your Magic Resistance is increased by 25%.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Power Attacks:&lt;/strong> &lt;em>You deal 25% more damage with power attacks.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Restoration Cost:&lt;/strong> &lt;em>Your Restoration spells cost 25% less.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;p>The Pilgrim is a character that hides behind their shield. Sometimes that shield will be hit with spells. Block can help with that but you&amp;rsquo;ll want as much protection as you can get. Failing that, more damage from your power attacks is never a bad choice.&lt;/p>
+&lt;h4 id="gloves">Gloves&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Fortify One-handed:&lt;/strong> &lt;em>You deal 25% extra damage with One-handed weapons.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Magicka:&lt;/strong> &lt;em>Your Magicka is increased by 50.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Resist [Element]:&lt;/strong> &lt;em>Your [Element] Resistance is increased by 50%.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;p>The obvious choice is to boost your main source of damage. If you don&amp;rsquo;t have enough Magicka to dual-cast your buffs for triple duration, you might consider Fortify Magicka to help you bridge the gap.&lt;/p>
+&lt;h4 id="boots">Boots&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Fortify Carry Weight:&lt;/strong> &lt;em>Your Carry Weight is increased by 50.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Stamina Regeneration:&lt;/strong> &lt;em>Your Stamina Regeneration is increased by 50%.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Resist [Element]:&lt;/strong> &lt;em>Your [Element] Resistance is increased by 50%.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;p>None of these are must-haves so you can play around with your options. Carry Weight is always nice to have and it can help with bringing home extra loot to sell. Stamina Regeneration will help you block and attack more readily. And elemental resist never hurts to have.&lt;/p>
+&lt;h4 id="necklace">Necklace&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Fortify Shouts:&lt;/strong> &lt;em>Your Shouts are 50% stronger.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Resist Magic:&lt;/strong> &lt;em>Your Magic Resistance is increased by 25%.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Block:&lt;/strong> &lt;em>You block 25% more damage.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;p>Fortify Shouts is the choice by a mile but Resist Magic is always a welcome stat boost. Fortify Restoration Power is available but on the spells you&amp;rsquo;re casting it won&amp;rsquo;t make as big an effect as the other options.&lt;/p>
+&lt;h4 id="ring">Ring&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Fortify One-handed:&lt;/strong> &lt;em>You deal 25% extra damage with One-handed weapons.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Resist Magic:&lt;/strong> &lt;em>Your Magic Resistance is increased by 25%.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Resist [Element]:&lt;/strong> &lt;em>Your [Element] Resistance is increased by 50%.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;p>Another place to boost your main source of damage. If you haven&amp;rsquo;t reached 75% Magic Resistance this is another slot that can help you get there. If for whatever reason you don&amp;rsquo;t have either enchantment, boosting an elemental Resistance is fine in the meantime.&lt;/p>
+&lt;/details></description></item><item><title>Skyrim-Se: Argonian Agent</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/argonian-agent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/argonian-agent/</guid><description>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/builds/argonian-agent-art.png" alt="Argonian Agent">&lt;/p>
 &lt;p>Ulfric Stormcloak made his stance perfectly clear when he barred Argonians from living inside the safety of Windhelm&amp;rsquo;s walls. You were a second class citizen of Skyrim at best. If he has his way, if he wins this war he&amp;rsquo;s picked with the Imperials, you might find yourself not a citizen at all. You live a life that barely qualifies as living, either used as a pack mule for the city or too doped on skooma to be of any use to the Nords. You preferred the former, holding your tongue and working the docks, waiting and hoping for an opportunity to seize something better.&lt;/p>
 &lt;p>It presented itself in the form of a Stormcloak supply run. Or that&amp;rsquo;s what you thought it was when you had a friend pack you into a crate and load it up into a wagon. The plan was to let yourself out at nightfall and slip off into the woods, perhaps relocating to Riften where your street knowledge could be put to use. But the plan didn&amp;rsquo;t account for Ulfric being part of the escort, let alone the Imperials ambushing it. But maybe, with continued patience, another opportunity will come&amp;hellip;&lt;/p>
@@ -244,7 +552,7 @@ If they can&amp;rsquo;t see you they have no choice but to attack someone else. 
 A useful spell to have in your back pocket if you have a pressing need for less attention.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Command (Adept+):&lt;/strong> &lt;em>Living targets up to level 15 are placed under your command for 30 seconds.&lt;/em>&lt;br>
+&lt;p>&lt;strong>Command (Adept+):&lt;/strong> &lt;em>Living targets up to level 15 are placed under your command for 30 seconds.&lt;/em>
 This gives you more control than &lt;em>Frenzy&lt;/em> but you&amp;rsquo;ll have to do something with your new companion before their senses return.&lt;/p>
 &lt;/li>
 &lt;li>
@@ -296,7 +604,7 @@ This shout has wonderful uptime, starting at 66% and hitting 100% at the second 
 &lt;li>&lt;strong>Poison Damage:&lt;/strong> &lt;em>Deals 4 Poison Damage per second for 10 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Paralyze:&lt;/strong> &lt;em>Living targets up to level 40 have a 25% chance to be paralyzed for 10 seconds.&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>Your weapon is just a vessle for your poisons so you&amp;rsquo;ll definitely want to make your stab victim more susceptible to whatever you laced it with. Extra Poison doesn&amp;rsquo;t hurt (you) but it doesn&amp;rsquo;t benefit from perks. Lastly, paralysis can prevent a counter attack while the Poison does its work.&lt;/p>
+&lt;p>Your weapon is just a vessel for your poisons so you&amp;rsquo;ll definitely want to make your stab victim more susceptible to whatever you laced it with. Extra Poison doesn&amp;rsquo;t hurt (you) but it doesn&amp;rsquo;t benefit from perks. Lastly, paralysis can prevent a counter attack while the Poison does its work.&lt;/p>
 &lt;h4 id="head">Head&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Fortify Illusion Cost:&lt;/strong> &lt;em>Your Illusion spells cost 25% less.&lt;/em>&lt;/li>
