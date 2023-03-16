@@ -306,6 +306,31 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71524">Cumulative Fix for Eye Meshes&lt;/a>, the underwater fix removes blending on the lashes which can look really weird so you may want to use the version without that fix.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72213">Farm Hat 01 Clipping Fix&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sme/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/changelog/</guid><description>
+&lt;h2 id="release-23">Release 2.3&lt;/h2>
+&lt;blockquote>
+&lt;p>16/03/2023&lt;/p>
+&lt;/blockquote>
+&lt;p>With this update I am including relevant ModGroups I created while working on Aurora / TPF. The CC ones are not for any of the four mandatory ones so they are off by default and they may also use different CRCs since I slightly modified some plugins. In that case, you can quickly update them in xEdit (or just disable all ModGroups altogether if they are not part of your workflow).&lt;/p>
+&lt;ul>
+&lt;li>Added Initially Disable - SSEEdit Script&lt;/li>
+&lt;li>Added ModGroups file for several creations (hiding conflicts with the official master files)&lt;/li>
+&lt;li>Added ModGroups file for the Unofficial Skyrim Creation Club Content Patch&lt;/li>
+&lt;li>Added ModGroups file for Myrwatch - Editable Home Cells (Cell Bug Workaround)&lt;/li>
+&lt;li>Added Sunder and Wraithguard - Editable Vault Cell (Cell Bug Workaround) - USCCCP Patch&lt;/li>
+&lt;li>Added Scrambled Bugs - Script Effect Archetype Crash Fix&lt;/li>
+&lt;li>Added ModGroups file for Chillwind Depths CTD Fix&lt;/li>
+&lt;li>Added Sprint Sneak Movement Fix&lt;/li>
+&lt;li>Updated DynDOLOD to 3 Alpha 119&lt;/li>
+&lt;li>Updated Quest Journal Limit Fixer to 0.2.1&lt;/li>
+&lt;li>Updated Scrambled Bugs to 21.0&lt;/li>
+&lt;li>Updated Scrambled Bugs - Settings&lt;/li>
+&lt;li>Updated Rock Traps Trigger Fixes to 1.2&lt;/li>
+&lt;li>Updated Bug Fixes SSE to 10.0&lt;/li>
+&lt;li>Updated Actor Limit Fix to 9.0&lt;/li>
+&lt;li>Updated DynDOLOD Resources to 3 Alpha 32&lt;/li>
+&lt;li>Moved USSEP ModGroups file to separate mod folder&lt;/li>
+&lt;li>Expanded USSEP ModGroups to hide some conflicts with CCs&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-22">Release 2.2&lt;/h2>
 &lt;blockquote>
 &lt;p>10/03/2023&lt;/p>
