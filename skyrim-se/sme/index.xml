@@ -6,13 +6,13 @@
 &lt;ul>
 &lt;li>A lean, basic setup clocking in at around 3.8GB plus less than 1GB of downloads.&lt;/li>
 &lt;li>Latest stable version of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6194">Mod Organizer 2&lt;/a> installed with a separate copy of the vanilla game (Stock Game Folder).&lt;/li>
-&lt;li>A collection of handy Mod Organizer 2 plugins for various purposes, &lt;a href="https://thephoenixflavour.com/sme/documentation/#mo2-plugins">see the full list here&lt;/a>.&lt;/li>
-&lt;li>All modding tools you could possibly need are included and pre-configured, &lt;a href="https://thephoenixflavour.com/sme/documentation/#modding-tools">see the full list here&lt;/a>.&lt;/li>
+&lt;li>A collection of handy Mod Organizer 2 plugins for various purposes, &lt;a href="https://thephoenixflavour.com/skyrim-se/sme/documentation/#mo2-plugins">see the full list here&lt;/a>.&lt;/li>
+&lt;li>All modding tools you could possibly need are included and pre-configured, &lt;a href="https://thephoenixflavour.com/skyrim-se/sme/documentation/#modding-tools">see the full list here&lt;/a>.&lt;/li>
 &lt;li>&lt;a href="https://skse.silverlock.org/">Skyrim Script Extender&lt;/a> with a correctly configured SKSE.ini file and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32444">Address Library for SKSE Plugins&lt;/a>.&lt;/li>
 &lt;li>All the essentials, including but not limited to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/53000">MCM Helper&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12604">SkyUI&lt;/a>, and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34705">SSE Display Tweaks&lt;/a>.&lt;/li>
-&lt;li>Clean MO2 setup with documentation for all changes in the Notes and further documentation on the &lt;a href="https://thephoenixflavour.com/sme/documentation/">website&lt;/a>.&lt;/li>
+&lt;li>Clean MO2 setup with documentation for all changes in the Notes and further documentation on the &lt;a href="https://thephoenixflavour.com/skyrim-se/sme/documentation/">website&lt;/a>.&lt;/li>
 &lt;li>The foundational collections of tweaks and fixes: &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17230">SSE Engine Fixes&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/51073">po3&amp;rsquo;s Tweaks&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43532">Scrambled Bugs&lt;/a>.&lt;/li>
-&lt;li>Additional fixes that should be relevant for and compatible with any setup with &lt;a href="https://thephoenixflavour.com/sme/recommendations/">further recommendations&lt;/a>.&lt;/li>
+&lt;li>Additional fixes that should be relevant for and compatible with any setup with &lt;a href="https://thephoenixflavour.com/skyrim-se/sme/recommendations/">further recommendations&lt;/a>.&lt;/li>
 &lt;li>Optionally includes full widescreen support with all relevant patches.&lt;/li>
 &lt;li>Optionally includes ENB binaries, premade enblocal.ini, and supplementary mods.&lt;/li>
 &lt;/ul>
@@ -306,6 +306,25 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71524">Cumulative Fix for Eye Meshes&lt;/a>, the underwater fix removes blending on the lashes which can look really weird so you may want to use the version without that fix.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72213">Farm Hat 01 Clipping Fix&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sme/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/changelog/</guid><description>
+&lt;h2 id="release-231">Release 2.3.1&lt;/h2>
+&lt;blockquote>
+&lt;p>08/04/2023&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Website:&lt;/strong> Fixed a bunch of broken links in the features list on the &lt;a href="https://thephoenixflavour.com/skyrim-se/sme/introduction/">Introduction&lt;/a> page. Thanks to /u/onedoor for making me aware!&lt;/p>
+&lt;ul>
+&lt;li>Added SkyUI - Survival Mode Integration - Widescreen Fix (disabled by default)&lt;/li>
+&lt;li>Added Dragonactorscript Infinite Loop Fix&lt;/li>
+&lt;li>Updated Synthesis to 0.25.4&lt;/li>
+&lt;li>Updated DynDOLOD to 3 Alpha 122&lt;/li>
+&lt;li>Updated Spell Perk Item Distributor to 6.5.1&lt;/li>
+&lt;li>Updated Sprint Sneak Movement Speed Fix to 1.1.1&lt;/li>
+&lt;li>Updated DynDOLOD Resources to 33 Alpha 33&lt;/li>
+&lt;li>Updated ENBSeries Binaries (no version number change)&lt;/li>
+&lt;li>Removed Race Menu - Widescreen Fix (not needed anymore)&lt;/li>
+&lt;li>Separated config files from Enhanced Invisibility and Enhanced Reanimation&lt;/li>
+&lt;li>Config Files for Enhanced Invisibility and Enhanced Reanimation are no longer modified&lt;/li>
+&lt;li>Flagged SkyUI_SE.esp as ESL&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-23">Release 2.3&lt;/h2>
 &lt;blockquote>
 &lt;p>16/03/2023&lt;/p>
