@@ -74,7 +74,7 @@
 &lt;blockquote>
 &lt;p>You can follow along as Wabbajack installs the list. It will display summaries and links to the mods being installed. Don’t let the log worry you. Unless the installation is aborted completely the warnings are inconsequential.&lt;/p>
 &lt;/blockquote>
-&lt;p>While Wabbajack runs perfectly fine most of the time, an installation may fail for various reasons. &lt;strong>If it does, try restarting Wabbajack first.&lt;/strong> You will not lose progress as it will pick up where it left off. Should it fail again, please join us on &lt;a href="https://discord.gg/xCPxJFbCTS">Discord&lt;/a>, grab the &lt;code>@SSS&lt;/code> role, and post your &lt;code>wabbajack.current.log&lt;/code> in the &lt;code>#sss-support&lt;/code> channel. You can find all Wabbajack logs in your Wabbajack folder under &lt;code>\Wabbajack\logs\&lt;/code>.&lt;/p>
+&lt;p>While Wabbajack runs perfectly fine most of the time, an installation may fail for various reasons. &lt;strong>If it does, try restarting Wabbajack first.&lt;/strong> You will not lose progress as it will pick up where it left off. Should it fail again, please join us on &lt;a href="https://discord.gg/xCPxJFbCTS">Discord&lt;/a>, grab the &lt;code>Slidikins' Strenuous Skyrim&lt;/code> role, and post your &lt;code>wabbajack.current.log&lt;/code> in the &lt;code>#sss-support&lt;/code> channel. You can find all Wabbajack logs in your Wabbajack folder under &lt;code>\Wabbajack\logs\&lt;/code>.&lt;/p>
 &lt;h2 id="playing-the-game">Playing the Game&lt;/h2>
 &lt;p>Navigate to your &lt;strong>Slidikins&amp;rsquo; Strenuous Skyrim&lt;/strong> folder and launch &lt;strong>ModOrganizer.exe&lt;/strong> within. In the top right drop-down menu, &lt;strong>Slidikins&amp;rsquo; Strenuous Skyrim&lt;/strong> (a renamed &lt;code>skse64_loader.exe&lt;/code>) should already be selected and you can now launch the game by clicking &lt;strong>► Run&lt;/strong>.&lt;/p>
 &lt;blockquote>
@@ -220,6 +220,31 @@
 &lt;p>I can’t stress this enough. In the late game you might deal with areas that are scaled high above your Level 50 limit, some at that point before you reach the cap. You’ll want every advantage you can get to bridge the gap and most of those advantages are obtained through crafting. If you ignored this early on, now’s a good time to reconsider it. If on Master or Legendary difficulty, you might even need to make different equipment sets for different types of enemies.&lt;/p>
 &lt;h4 id="adjust-the-difficulty-if-needed">Adjust the Difficulty if Needed&lt;/h4>
 &lt;p>If combat is becoming too easy at this point, think about increasing the difficulty. I personally change it from Expert (the list default) to Master at Level 30, then again to Legendary at Level 50 when my perk build is complete. This will lower your damage given (and increase damage taken), encouraging you to find ways to boost your abilities further while maintaning a challenge.&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sss/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/changelog/</guid><description>
+&lt;h2 id="release-4170">Release 4.17.0&lt;/h2>
+&lt;blockquote>
+&lt;p>2023-04-17&lt;/p>
+&lt;/blockquote>
+&lt;p>There&amp;rsquo;s no changelog here. There was one, once. It was massive and I lost itin the ether. After that there were hundreds of other changes made. I should do better. Another time, perhaps.&lt;/p>
+&lt;p>But this is a &lt;strong>huge&lt;/strong> update, make no mistake. If you&amp;rsquo;re coming from 4.16.0.&lt;em>x&lt;/em>, just &lt;strong>make a new save file&lt;/strong>. It&amp;rsquo;s not save-safe. If you&amp;rsquo;re coming from 4.16.1.&lt;em>x&lt;/em> &lt;strong>you probably should also make anew save&lt;/strong> but it&amp;rsquo;s possibly salvageable. So what&amp;rsquo;s changed?&lt;/p>
+&lt;p>As I mentioned in the last release candidate, Phoenix is back and they&amp;rsquo;ve changed their approach to TPF 5.0. It will be built on &lt;strong>Aurora&lt;/strong> which is built on &lt;strong>Skyrim Modding Essentials&lt;/strong>. This makes it very streamlined for Phoenix, building each list right on top of the other. So I&amp;rsquo;ve gone ahead and tossed out pretty much everything visual and also made this list based off of Aurora&amp;rsquo;s release candidate (RC5 currently). It looks fantastic and the textures were selected with a lot more care than I&amp;rsquo;m capable of. I still kept RAID Weathers (and RAID), Water for ENB, and The Vanilla ENB Two, so it&amp;rsquo;s not exactly the same as Aurora, but it&amp;rsquo;s close.&lt;/p>
+&lt;p>The gameplay sections have moved around in anticipation for TPF 5.0. Phoenix has been posting their documentation and I can see how things are formatted for the future. I don&amp;rsquo;t know which mods will be in TPF 5.0 so I&amp;rsquo;ve more or less smashed the current gameplay mod sections into their new separators and called it a day. When TPF comes out I will take notes on what direction Phoenix went in and adjust, but this list may just continue being an Aurora fork.&lt;/p>
+&lt;ul>
+&lt;li>Could I have been more discerning and gone through every mod to see if I still liked it? Sure.&lt;/li>
+&lt;li>Will I do that at a later date? Probably.&lt;/li>
+&lt;li>What&amp;rsquo;s this then? I suppose technically it&amp;rsquo;s still a SSS 5.0 beta, but the official WJ download has been neglected for awhile so I thought to bring everyone up to speed with this release.&lt;/li>
+&lt;li>Does this need more polish? On the back end, sure. The game should play great and look great. I just need to clean things up from an organization perspective.&lt;/li>
+&lt;/ul>
+&lt;p>No, seriously, at some point I&amp;rsquo;ll get around to cleaning up the load order and sorting out the CR patches to look less work-in-progress. But since the list is based off of two of Phoenix&amp;rsquo;s release candidates, perhaps work-in-progress is how it&amp;rsquo;s supposed to look.&lt;/p>
+&lt;p>Overall, I&amp;rsquo;ve taken Phoenix&amp;rsquo;s visual overhaul from Aurora, trimmed down the added equipment from TPF 5.0, but otherwise kept its bug fixes and changes to quests/NPCs until TPF 5.0 is officially released. At which point I&amp;rsquo;ll decide if I&amp;rsquo;m going to be a fork off Aurora or a fork off TPF and tweak accordingly.&lt;/p>
+&lt;p>tl;dr changes from 4.16.2 RC 1:&lt;/p>
+&lt;ul>
+&lt;li>Visuals overhauled to match Aurora RC5&lt;/li>
+&lt;li>Phoenix&amp;rsquo;s Weapons &amp;amp; Armor Overhaul removed in lieu for a restored Weapons, Clothing, and Clutter Fixes&lt;/li>
+&lt;li>Some of the added weapons and armor (e.g. Stalhrim Extra Crafting) was removed until balance can be better achieved&lt;/li>
+&lt;li>Optional difficulty modules removed, Aurora optionals maintained&lt;/li>
+&lt;/ul>
+&lt;p>Thanks for listening to my TED Talk.&lt;/p>
+&lt;p>Seriously though, &lt;strong>start a new save file.&lt;/strong>&lt;/p>
 &lt;h2 id="release-4162-rc-1">Release 4.16.2 RC 1&lt;/h2>
 &lt;blockquote>
 &lt;p>2023-03-05&lt;/p>
