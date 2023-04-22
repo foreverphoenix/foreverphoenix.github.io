@@ -70,7 +70,7 @@
 &lt;p>If you are currently playing in a language other than English, please go into the settings for Skyrim SE in your Steam library and revert the language to English. After changing the language, Steam should automatically download the required files (launch the game to force the download if it doesn&amp;rsquo;t).&lt;/p>
 &lt;p>After updating the game language, please launch the game once and quit from the main menu.&lt;/p>
 &lt;blockquote>
-&lt;p>This requirement is necessary for Wabbajack. You can change the language after install SME, but remember to also update your SME Game Root folder if you do.&lt;/p>
+&lt;p>This requirement is necessary for Wabbajack. You can change the language after installing SME, but remember to also update your SME Game Root folder if you do.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="creation-kit">Creation Kit&lt;/h2>
 &lt;p>In order for Wabbajack to be able to incorporate the Creation Kit properly, you need to install it first through Steam.&lt;/p>
@@ -97,8 +97,8 @@
 &lt;li>Find &lt;strong>Skyrim Modding Essentials&lt;/strong> in the gallery of mod lists and click the arrow button to download the installation file.&lt;/li>
 &lt;/ul>
 &lt;p>In the installation window, you will need to define two folders:&lt;/p>
-&lt;p>&lt;strong>Installation Location&lt;/strong> is where LOTF will be installed to. Choose a high-level folder such as &lt;code>C:\Skyrim Modding Essentials\&lt;/code> that is outside UAC protected folders (Program Files, Documents, etc).&lt;/p>
-&lt;p>&lt;strong>Download Loaction&lt;/strong> is where the downloaded mod archives will be stored. By default, they will be placed within your main SME folder, but you can change the file path if you want to keep the files elsewhere.&lt;/p>
+&lt;p>&lt;strong>Installation Location&lt;/strong> is where SME will be installed to. Choose a high-level folder such as &lt;code>C:\Skyrim Modding Essentials\&lt;/code> that is outside UAC protected folders (Program Files, Documents, etc).&lt;/p>
+&lt;p>&lt;strong>Download Location&lt;/strong> is where the downloaded mod archives will be stored. By default, they will be placed within your main SME folder, but you can change the file path if you want to keep the files elsewhere.&lt;/p>
 &lt;p>Once both folder locations have been set, click the button on the right to begin the installation process.&lt;/p>
 &lt;h3 id="installation-process">Installation Process&lt;/h3>
 &lt;p>If you have &lt;strong>Nexus Premium&lt;/strong>, this is all you have to do. Lean back and relax while Wabbajack downloads and installs SME for you.&lt;/p>
@@ -106,12 +106,13 @@
 &lt;p>You can follow along as Wabbajack installs the list. It will display previews with summaries and links to the mods being installed. Don&amp;rsquo;t let the log irritate you. Unless the installation is aborted completely, you don&amp;rsquo;t have to worry about any warnings.&lt;/p>
 &lt;p>&lt;strong>In case the installation does fail:&lt;/strong> Try restarting Wabbajack first. You will not lose progress as the tool will pick up where it left off. Should the installation fail again, please join us on &lt;a href="https://discord.gg/xCPxJFbCTS">Discord&lt;/a>, grab the &lt;code>@SME&lt;/code> role, and post your &lt;code>wabbajack.current.log&lt;/code> in the &lt;code>#sme-support&lt;/code> channel. You can find all Wabbajack logs in your Wabbajack installation folder under &lt;code>\Wabbajack\logs\&lt;/code>.&lt;/p>
 &lt;p>In most cases the installation should complete successfully on the first try. The tool will let you know when it has.&lt;/p>
-&lt;h2 id="antivirus-exclusion">Antivirus Exclusion&lt;/h2>
-&lt;p>Certain tools, e.g., &lt;strong>Nemesis&lt;/strong> and &lt;strong>Cathedral Assets Optimizer&lt;/strong>, may not properly work with antivirus programs. You will need to manually exclude them.&lt;/p>
-&lt;p>Also add an exclusion for &lt;code>C:\Users\&amp;lt;UserName&amp;gt;\Appdata\Local\Nemesis&lt;/code> to prevent random errors while running Nemesis.&lt;/p>
-&lt;p>&lt;a href="https://support.microsoft.com/en-us/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26">Follow these instructions to add exclusions to Windows Defender.&lt;/a>&lt;/p>
 &lt;h2 id="tool-setup">Tool Setup&lt;/h2>
 &lt;p>Almost all tools included with SME are automatically configured for you. However, there are exceptions as some tools cannot be shipped with custom profiles so you will have to create them for yourself.&lt;/p>
+&lt;h3 id="cathedral-assets-optimizer">Cathedral Assets Optimizer&lt;/h3>
+&lt;p>&lt;strong>Cathedral Assets Optimizer&lt;/strong> may not properly work with antivirus programmes unless it is manually excluded.&lt;/p>
+&lt;p>&lt;a href="https://support.microsoft.com/en-us/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26">Follow these instructions to add exclusions to Windows Defender.&lt;/a>&lt;/p>
+&lt;h3 id="nemesis">Nemesis&lt;/h3>
+&lt;p>Nemesis is required for animation mods, but is unfortunately prone to throwing errors during generation. In my experience the most reliable way to make it work is setting the executable to &lt;strong>Windows 8 compatibility mode&lt;/strong>. I also added an exception to Windows Defender (and you may need to do the same for any other Antivirus software).&lt;/p>
 &lt;h3 id="loot">LOOT&lt;/h3>
 &lt;p>If you want to configure LOOT for SME, follow these steps:&lt;/p>
 &lt;ul>
@@ -222,7 +223,10 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23174">ENB Helper&lt;/a> with &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/62743">ENB Helper Plus&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/62796">ENB Input Disabler&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>In the enblocal.ini, VSYNC is disabled because SSE Display Tweaks is used for VSYNC instead. The framelimit is turned off. If you want to limit your framerate, it is highly recommended to do so using SSE Display Tweaks. Finally, the hotkeys were adjusted, please check the &amp;ldquo;Hotkeys&amp;rdquo; section further down on this page for more information.&lt;/p>
-&lt;p>If you want to install an ENB, copy the three files from &lt;code>SSE Modding Essentials\Tools\ENBSeries\&lt;/code> to &lt;code>SSE Modding Essentials\Game Root\&lt;/code> (ignore the WABBAJACK_NOMATCH_INCLUDE). Then download your favourite preset and extract the preset files (enbseries.ini and the enbseries folder) into &lt;code>SSE Modding Essentials\Game Root\&lt;/code> as well.&lt;/p>
+&lt;p>If you want to install an ENB, enable the &lt;strong>ENBSeries - Binaries&lt;/strong> and &lt;strong>ENBSeries - Settings&lt;/strong> &amp;lsquo;mods&amp;rsquo; in Mod Organizer 2. To add a preset, create a new empty mod with a folder called &lt;strong>Root&lt;/strong> inside - &lt;code>\SME\mods\&amp;lt;Preset Name&amp;gt;\Root\&lt;/code> - and extract the &lt;strong>enbseries.ini&lt;/strong> and &lt;strong>enbseries&lt;/strong> from a downloaded preset to this location.&lt;/p>
+&lt;blockquote>
+&lt;p>Thanks to the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/31720">Root Builder&lt;/a> plugin, any files located in &lt;code>\mods\&amp;lt;mod name&amp;gt;\Root\&lt;/code> will be moved to the actual Root folder when an executable is run through MO2 (like when you start the game via SKSE). This allows you to use MO2 to manage root folder files.&lt;/p>
+&lt;/blockquote>
 &lt;h2 id="further-notes">Further Notes&lt;/h2>
 &lt;p>&lt;strong>Please always be careful when adding mods and familiarise yourself with the existing setup first.&lt;/strong>&lt;/p>
 &lt;p>The configuration files for various mods were left untouched except for a few cases which are marked in the MO2 notes. Enable/disable settings based on your setup and preferences.&lt;/p>
@@ -306,6 +310,29 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71524">Cumulative Fix for Eye Meshes&lt;/a>, the underwater fix removes blending on the lashes which can look really weird so you may want to use the version without that fix.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72213">Farm Hat 01 Clipping Fix&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sme/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/changelog/</guid><description>
+&lt;h2 id="release-232">Release 2.3.2&lt;/h2>
+&lt;blockquote>
+&lt;p>22/04/2023&lt;/p>
+&lt;/blockquote>
+&lt;p>Small maintenance update with some much-needed fixes for the documentation.&lt;/p>
+&lt;ul>
+&lt;li>Added Mod Organizer 2 Splash Screen - Intro Title Style&lt;/li>
+&lt;li>Updated xLODGen to 98&lt;/li>
+&lt;li>Updated Spell Perk Item Distributor to 6.5.2&lt;/li>
+&lt;li>Updated Keyword Item Distributor to 3.0.2&lt;/li>
+&lt;li>Updated FormList Manipulator - FLM to 1.6.0&lt;/li>
+&lt;li>Updated DynDOLOD Resources to 3 Alpha 34&lt;/li>
+&lt;li>Updated ENBSeries Binaries (no version number change)&lt;/li>
+&lt;li>Set Pause to True in the QUI TOML (game will be paused while viewing the plugin explorer)&lt;/li>
+&lt;/ul>
+&lt;h3 id="website-changes">Website Changes&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Installation:&lt;/strong> Fixed a bunch of typos&lt;/li>
+&lt;li>&lt;strong>Installation:&lt;/strong> Removed Antivirus Exclusion section&lt;/li>
+&lt;li>&lt;strong>Installation:&lt;/strong> Added Tools Setup &amp;gt; Cathedral Assets Optimizer section&lt;/li>
+&lt;li>&lt;strong>Installation:&lt;/strong> Added Tools Setup &amp;gt; Nemesis section&lt;/li>
+&lt;li>&lt;strong>Documentation:&lt;/strong> Updated ENB instructions for Root Builder&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-231">Release 2.3.1&lt;/h2>
 &lt;blockquote>
 &lt;p>08/04/2023&lt;/p>
@@ -318,7 +345,7 @@
 &lt;li>Updated DynDOLOD to 3 Alpha 122&lt;/li>
 &lt;li>Updated Spell Perk Item Distributor to 6.5.1&lt;/li>
 &lt;li>Updated Sprint Sneak Movement Speed Fix to 1.1.1&lt;/li>
-&lt;li>Updated DynDOLOD Resources to 33 Alpha 33&lt;/li>
+&lt;li>Updated DynDOLOD Resources to 3 Alpha 33&lt;/li>
 &lt;li>Updated ENBSeries Binaries (no version number change)&lt;/li>
 &lt;li>Removed Race Menu - Widescreen Fix (not needed anymore)&lt;/li>
 &lt;li>Separated config files from Enhanced Invisibility and Enhanced Reanimation&lt;/li>
@@ -553,7 +580,7 @@
 &lt;li>Updated Enhanced Reanimation to 1.5.1&lt;/li>
 &lt;li>Removed Crash Logger&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added note that the CK should be installed on the same drive / in the same Steam Library as Skyrim SE&lt;/li>
 &lt;/ul>
@@ -613,7 +640,7 @@
 &lt;li>Root Builder is now disabled by default (as was originally intended)&lt;/li>
 &lt;li>Sync Mod Order is now disabled by default (succeeded by Profile Sync)&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-2">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added a note about the CK installation being mandatory&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added a note to also set an AV exclusion for the appdata Nemesis folder&lt;/li>
@@ -634,7 +661,7 @@
 &lt;li>Updated DynDOLOD Resources to 3 Alpha 28&lt;/li>
 &lt;li>Restored proper SSE Display Tweaks Custom INI (doesn&amp;rsquo;t currently modify resolution)&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-2">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-3">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added .NET 6.0 SDK installation instructions (Synthesis prerequisite)&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added a warning about antivirus programs and recommended setting exclusions&lt;/li>
@@ -671,7 +698,7 @@
 &lt;li>Removed Modern Toggle Walk-Run Fix&lt;/li>
 &lt;li>Fix Game Registry Path is now disabled by default&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-3">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-4">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Introduction:&lt;/strong> Fixed loadorderlibrary.com link for SME under Features&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Improved the MO2 prerequisites section and added NET 4.8&lt;/li>
