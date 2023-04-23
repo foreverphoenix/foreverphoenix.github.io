@@ -1,0 +1,98 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Aurora - A Visual Overhaul</title><link>https://thephoenixflavour.com/skyrim-se/aur/</link><description>Recent content in Aurora - A Visual Overhaul on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/skyrim-se/aur/index.xml" rel="self" type="application/rss+xml"/><item><title>Skyrim-Se: Introduction</title><link>https://thephoenixflavour.com/skyrim-se/aur/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/aur/introduction/</guid><description>
+&lt;p>&lt;strong>Aurora&lt;/strong> is a Wabbajack visuals-only list for Skyrim Special Edition with an emphasis on consistency. It is based on &lt;a href="https://thephoenixflavour.com/skyrim-se/aur/introduction/">Skyrim Modding Essentials&lt;/a> and contains the same fixes and tools, including widescreen support; however, no changes were made to gameplay, interface, content integration, etc.&lt;/p>
+&lt;p>Due to the nature of the list, I expect that most users will use it as a base for their own setup. As such, it requires the same disclaimer as SME: I will provide no support whatsoever for anything beyond the setup itself, I am not responsible for your modifications. That being said, Aurora is fully documented which should help in building off it.&lt;/p>
+&lt;blockquote>
+&lt;p>Skyrim SE 1.6.x on Steam and the full Anniversary Edition DLC are required.&lt;/p>
+&lt;/blockquote>
+&lt;p>Aurora is &lt;a href="https://publish.obsidian.md/tpf/home">fully documented&lt;/a>.&lt;/p>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;p>Check the complete mod list and load order on &lt;a href="https://loadorderlibrary.com/lists/aurora">Load Order Library&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>Fully self-contained setup thanks to Stock Game folder + &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/31720">Root Builder&lt;/a>&lt;/li>
+&lt;li>Base setup: &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4796">Rudy ENB&lt;/a> for &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12125">Obsidian Weathers&lt;/a> and &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/43158">Lux&lt;/a>&lt;/li>
+&lt;li>Hundreds of handpicked mesh and texture replacers of reasonable poly count / resolution&lt;/li>
+&lt;li>Some customisation options (alternatives to mods in the base setup that you can optionally enable)&lt;/li>
+&lt;li>All facegen regenerated for much higher quality and to incorporate relevant mods (i.e., retextured tintmasks)&lt;/li>
+&lt;li>Pregenerated LODs&lt;/li>
+&lt;/ul>
+&lt;h3 id="not-included">Not Included&lt;/h3>
+&lt;ul>
+&lt;li>NPC overhauls with face edits and new hair meshes&lt;/li>
+&lt;li>Any new character customisation options (or any new content in general)&lt;/li>
+&lt;li>City / interior overhauls (such as JK&amp;rsquo;s Skyrim or JK&amp;rsquo;s interiors)&lt;/li>
+&lt;li>Parallax and / or complex parallax&lt;/li>
+&lt;li>Seasons of Skyrim&lt;/li>
+&lt;/ul>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>Please refer to the &lt;a href="https://thephoenixflavour.com/skyrim-se/aur/installation/">Installation&lt;/a> page.&lt;/p></description></item><item><title>Skyrim-Se: Installation</title><link>https://thephoenixflavour.com/skyrim-se/aur/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/aur/installation/</guid><description>
+&lt;h2 id="requirements">Requirements&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/">Skyrim Special Edition&lt;/a> on Steam, including the AE DLC.&lt;/li>
+&lt;li>&lt;a href="https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/">Skyrim Special Edition: Creation Kit&lt;/a> on Steam.&lt;/li>
+&lt;li>Latest version of Windows 10 (required by Wabbajack).&lt;/li>
+&lt;li>At least a free &lt;a href="https://www.nexusmods.com/">Nexus Mods&lt;/a> account, Premium is recommended.&lt;/li>
+&lt;li>Latest drivers for your GPU (&lt;a href="https://www.nvidia.com/Download/index.aspx">NVIDIA&lt;/a> or &lt;a href="https://www.amd.com/en/support">AMD&lt;/a>).&lt;/li>
+&lt;/ul>
+&lt;h3 id="disk-space">Disk Space&lt;/h3>
+&lt;p>The full setup, including a copy of the vanilla game in the Stock Game folder, clocks in at around &lt;strong>~77GB&lt;/strong> with an additional &lt;strong>~58GBs&lt;/strong> of downloads. It is recommended to install any mod setup on an &lt;strong>SSD&lt;/strong> for improved performance and faster loading times.&lt;/p>
+&lt;h3 id="mo2-prerequisites">MO2 Prerequisites&lt;/h3>
+&lt;p>Mod Organizer 2 requires the Microsoft Visual C++ Redistributable and .NET Framework 4.8, two basic packages. Chances are you already have them installed, but please grab the two installers linked below and run them. If the packages are already present on your system, the installers should notify you.&lt;/p>
+&lt;ul>
+&lt;li>Download and install &lt;a href="https://aka.ms/vs/16/release/vc_redist.x64.exe">Visual C++ 2019&lt;/a>.&lt;/li>
+&lt;li>Download and install &lt;a href="https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer">.NET Framework 4.8&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>If either of them were missing on your system, they will be installed now. Afterwards, you may be required to restart your PC.&lt;/p>
+&lt;h3 id="synthesis-prequisities">Synthesis Prequisities&lt;/h3>
+&lt;p>The patcher tool &lt;a href="https://github.com/Mutagen-Modding/Synthesis">Synthesis&lt;/a> requires the .NET 6.0 SDK. You can skip this if you do not intend to use Synthesis.&lt;/p>
+&lt;ul>
+&lt;li>Download the &lt;a href="https://dotnet.microsoft.com/download">.NET 6.0 SDK&lt;/a> from the official website.&lt;/li>
+&lt;li>Follow the instructions in the installer and restart your computer when prompted.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sme/net-6-sdk.png" alt="NET 6 SDK">&lt;/p>
+&lt;h2 id="skyrim-se-setup">Skyrim SE Setup&lt;/h2>
+&lt;p>&lt;strong>Aurora requires the latest version of Skyrim SE.&lt;/strong> For clarification, this latest version is a post-AE release (currently &lt;code>1.6.640.0&lt;/code>) and unrelated to the Anniversary Edition DLC which is NOT required. If you are on any older version of Skyrim SE, please verify files through Steam to install the update. You can check the version by right-clicking the &lt;strong>SkyrimSE.exe&lt;/strong> in your game folder and going to the &lt;strong>Details&lt;/strong> tab.&lt;/p>
+&lt;p>&lt;strong>Please make sure to launch the game at least once before running Wabbajack.&lt;/strong> If you just updated or (re)installed the game, this is necessary for setting up registry keys as modding tools will otherwise be unable to recognise the game. You can quit from the main menu. If you own any creations beyond the four free ones, they will be downloaded as well.&lt;/p>
+&lt;h3 id="set-language-to-english">Set language to English&lt;/h3>
+&lt;p>&lt;strong>Aurora requires the English language version of Skyrim SE.&lt;/strong>&lt;/p>
+&lt;p>If you are currently playing in a language other than English, please go into the settings for Skyrim SE in your Steam library and revert the language to English. After changing the language, Steam should automatically download the required files (launch the game to force the download if it doesn&amp;rsquo;t).&lt;/p>
+&lt;p>After updating the game language, please launch the game once and quit from the main menu.&lt;/p>
+&lt;blockquote>
+&lt;p>This requirement is necessary for Wabbajack. You can change the language after installing Aurora, but remember to also update your Game Root folder if you do and that various mods will require translations for consistency.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="creation-kit">Creation Kit&lt;/h2>
+&lt;p>In order for Wabbajack to be able to incorporate the Creation Kit properly, you need to install it first through Steam.&lt;/p>
+&lt;ul>
+&lt;li>Find the &lt;a href="https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/">Creation Kit&lt;/a> Steam page (I recommend just using the search function in the Store).&lt;/li>
+&lt;li>Click install. Select the Steam Library (hard drive) where Skyrim SE is located as well.&lt;/li>
+&lt;li>The files will be placed into your default game folder.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>&lt;strong>This step is mandatory.&lt;/strong> Not having the CK installed or having the wrong version accounts for most failed installations reported on Discord.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="wabbajack-installation">Wabbajack Installation&lt;/h2>
+&lt;p>Next up you need to install the Wabbajack tool itself:&lt;/p>
+&lt;ul>
+&lt;li>Download &lt;a href="https://www.wabbajack.org/#/">Wabbajack&lt;/a> from the official website.&lt;/li>
+&lt;li>Extract the archive to a high-level folder, e.g. &lt;code>C:\Wabbajack\&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Do not install Wabbajack into UAC protected directories.&lt;/strong> These include Program Files and Program Files x86 as well as the Downloads, Desktop, Documents, etc, folders.&lt;/p>
+&lt;p>Double-click &lt;strong>Wabbajack.exe&lt;/strong> to launch to tool. It will automatically update itself to the latest version.&lt;/p>
+&lt;h3 id="aurora">Aurora&lt;/h3>
+&lt;p>You can now install SME through Wabbajack:&lt;/p>
+&lt;ul>
+&lt;li>Click the &lt;strong>Browse Modlists&lt;/strong> button in the Wabbajack tool.&lt;/li>
+&lt;li>Find &lt;strong>Aurora&lt;/strong> in the gallery of mod lists and click the arrow button to download the installation file.&lt;/li>
+&lt;/ul>
+&lt;p>In the installation window, you will need to define two folders:&lt;/p>
+&lt;p>&lt;strong>Installation Location&lt;/strong> is where Aurora will be installed to. Choose a high-level folder such as &lt;code>C:\Aurora\&lt;/code> that is outside UAC protected folders (Program Files, Documents, etc).&lt;/p>
+&lt;p>&lt;strong>Download Location&lt;/strong> is where the downloaded mod archives will be stored. By default, they will be placed within your main Aurora folder, but you can change the file path if you want to keep the files elsewhere.&lt;/p>
+&lt;p>Once both folder locations have been set, click the button on the right to begin the installation process.&lt;/p>
+&lt;h3 id="installation-process">Installation Process&lt;/h3>
+&lt;p>If you have &lt;strong>Nexus Premium&lt;/strong>, this is all you have to do. Lean back and relax while Wabbajack downloads and installs Aurora for you.&lt;/p>
+&lt;p>If you only have a free Nexus account, Wabbajack will open the mod pages for you and guide you through the process of downloading all files. Afterwards, it will proceed with the installation as usual.&lt;/p>
+&lt;p>You can follow along as Wabbajack installs the list. It will display previews with summaries and links to the mods being installed. Don&amp;rsquo;t let the log irritate you. Unless the installation is aborted completely, you don&amp;rsquo;t have to worry about any warnings.&lt;/p>
+&lt;p>&lt;strong>In case the installation does fail:&lt;/strong> Try restarting Wabbajack first. You will not lose progress as the tool will pick up where it left off. Should the installation fail again, please join us on &lt;a href="https://discord.gg/xCPxJFbCTS">Discord&lt;/a>, grab the &lt;code>@Aurora&lt;/code> role, create a post in the &lt;code>#aurora-forum&lt;/code>, and share your &lt;code>wabbajack.current.log&lt;/code>. You can find all Wabbajack logs in your Wabbajack installation folder under &lt;code>\Wabbajack\&amp;lt;version number&amp;gt;\logs\&lt;/code>.&lt;/p>
+&lt;p>In most cases the installation should complete successfully on the first try. The tool will let you know when it has.&lt;/p>
+&lt;h2 id="tool-setup">Tool Setup&lt;/h2>
+&lt;p>Almost all tools included with Aurora are automatically configured for you. However, there are exceptions as some tools cannot be shipped with custom profiles so you will have to create them for yourself. If you want to build your own setup off of Aurora, please refer to the &lt;a href="https://thephoenixflavour.com/skyrim-se/sme/installation/#tool-setup">Tool Setup&lt;/a> section in the SME documentation for further instructions.&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/aur/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/aur/changelog/</guid><description>
+&lt;p>All changelogs for Aurora can be found in the &lt;a href="https://publish.obsidian.md/tpf/lists/aurora">Obsidian documentation&lt;/a>.&lt;/p></description></item></channel></rss>
