@@ -220,12 +220,42 @@
 &lt;p>I can’t stress this enough. In the late game you might deal with areas that are scaled high above your Level 50 limit, some at that point before you reach the cap. You’ll want every advantage you can get to bridge the gap and most of those advantages are obtained through crafting. If you ignored this early on, now’s a good time to reconsider it. If on Master or Legendary difficulty, you might even need to make different equipment sets for different types of enemies.&lt;/p>
 &lt;h4 id="adjust-the-difficulty-if-needed">Adjust the Difficulty if Needed&lt;/h4>
 &lt;p>If combat is becoming too easy at this point, think about increasing the difficulty. I personally change it from Expert (the list default) to Master at Level 30, then again to Legendary at Level 50 when my perk build is complete. This will lower your damage given (and increase damage taken), encouraging you to find ways to boost your abilities further while maintaning a challenge.&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sss/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/changelog/</guid><description>
+&lt;h2 id="release-41701">Release 4.17.0.1&lt;/h2>
+&lt;blockquote>
+&lt;p>2023-04-23&lt;/p>
+&lt;/blockquote>
+&lt;p>There were a few issues with the release of 4.17. Thank you SAEL in particular for catching the bulk of them and bringing them to my attention. The root cause of some was the Embers XD 2.7.4 beta, rather, the existing patches that did not account for it. Since I went through the trouble of fixing those, the beta stays in this version despite it being temporarily &amp;ldquo;retired&amp;rdquo; by mindflux on the Nexus. If that causes issues, I&amp;rsquo;ll revert back to 2.7.3 and undo the fixes.&lt;/p>
+&lt;p>More importantly, &lt;em>NPCs Learn Skills and Spells&lt;/em> has been removed. It was a fun experiment but now that Lawless and The Dragon Cult exist, we have a lot more intention with the enemy overhauling. We don&amp;rsquo;t need SPID buffing up the enemies even more, and it turns out it was buffing them much more than intended. Sorry to everyone who ran into Lv1 bandits summoning atronachs, that should be fixed now.&lt;/p>
+&lt;p>Otherwise, it&amp;rsquo;s a small update that follows its base list, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/898050">Aurora&lt;/a>, in its official 1.0 release! Congrats to Phoenix for delivering another solid modlist to the community.&lt;/p>
+&lt;p>&lt;strong>This update is save-safe.&lt;/strong>&lt;/p>
+&lt;details>
+&lt;h4 id="changes">Changes&lt;/h4>
+&lt;ul>
+&lt;li>Applied changes from &lt;a href="https://thephoenixflavour.com/skyrim-se/sme/changelog/#release-232">Skyrim Modding Essentials 2.3.2&lt;/a> and &lt;a href="https://publish.obsidian.md/tpf/meta/changelogs/aurora/aur-1-0">Aurora 1.0&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Utilities &amp;amp; Frameworks:&lt;/strong> Added Beautifully Overhauled and Objectively Better Icons Enriched for SkyUI&lt;/li>
+&lt;li>&lt;strong>ElSopa&amp;rsquo;s Potions Redone:&lt;/strong> Added ElSopa - Potions Redone - Apothecary Patch&lt;/li>
+&lt;li>&lt;strong>Magic &amp;amp; Perks:&lt;/strong> Removed NPCs Learn Skills and Spells (as it&amp;rsquo;s incorrectly processing NPCs)&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Resolved differences between Embers XD and Frozen Electrocuted Combustion for FireFXShader &lt;code>0001B212&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Resolved differences between Embers XD and No Edge Glow for DarkElfAncestorWrathFXShader &lt;code>0010F56C&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h4 id="updates">Updates&lt;/h4>
+&lt;ul>
+&lt;li>Updated Keyword Item Distributor to 3.0.2&lt;/li>
+&lt;li>Updated Mesh Patches for Lux Orbis to 1.5.2&lt;/li>
+&lt;li>Updated Embers XD to 2.7.4 Beta (No Version Change)&lt;/li>
+&lt;li>Updated Stones of Solitude - Majestic Mountains Rocks to 1.2.1&lt;/li>
+&lt;li>Updated Icy Mesh Remaster to 2.12&lt;/li>
+&lt;li>Updated Immersive Rejections to 1.1&lt;/li>
+&lt;li>Updated Lawless - SimonRim Patch to 1.6.2&lt;/li>
+&lt;li>Updated The Dragon Cult - A Draugr Overhaul to 1.3.2&lt;/li>
+&lt;/ul>
+&lt;/details>
 &lt;h2 id="release-4170">Release 4.17.0&lt;/h2>
 &lt;blockquote>
 &lt;p>2023-04-17&lt;/p>
 &lt;/blockquote>
-&lt;p>There&amp;rsquo;s no changelog here. There was one, once. It was massive and I lost itin the ether. After that there were hundreds of other changes made. I should do better. Another time, perhaps.&lt;/p>
-&lt;p>But this is a &lt;strong>huge&lt;/strong> update, make no mistake. If you&amp;rsquo;re coming from 4.16.0.&lt;em>x&lt;/em>, just &lt;strong>make a new save file&lt;/strong>. It&amp;rsquo;s not save-safe. If you&amp;rsquo;re coming from 4.16.1.&lt;em>x&lt;/em> &lt;strong>you probably should also make anew save&lt;/strong> but it&amp;rsquo;s possibly salvageable. So what&amp;rsquo;s changed?&lt;/p>
+&lt;p>There&amp;rsquo;s no changelog here. There was one, once. It was massive and I lost it in the ether. After that there were hundreds of other changes made. I should do better. Another time, perhaps.&lt;/p>
+&lt;p>But this is a &lt;strong>huge&lt;/strong> update, make no mistake. If you&amp;rsquo;re coming from 4.16.0.&lt;em>x&lt;/em>, just &lt;strong>make a new save file&lt;/strong>. It&amp;rsquo;s not save-safe. If you&amp;rsquo;re coming from 4.16.1.&lt;em>x&lt;/em> &lt;strong>you probably should also make a new save&lt;/strong> but it&amp;rsquo;s possibly salvageable. So what&amp;rsquo;s changed?&lt;/p>
 &lt;p>As I mentioned in the last release candidate, Phoenix is back and they&amp;rsquo;ve changed their approach to TPF 5.0. It will be built on &lt;strong>Aurora&lt;/strong> which is built on &lt;strong>Skyrim Modding Essentials&lt;/strong>. This makes it very streamlined for Phoenix, building each list right on top of the other. So I&amp;rsquo;ve gone ahead and tossed out pretty much everything visual and also made this list based off of Aurora&amp;rsquo;s release candidate (RC5 currently). It looks fantastic and the textures were selected with a lot more care than I&amp;rsquo;m capable of. I still kept RAID Weathers (and RAID), Water for ENB, and The Vanilla ENB Two, so it&amp;rsquo;s not exactly the same as Aurora, but it&amp;rsquo;s close.&lt;/p>
 &lt;p>The gameplay sections have moved around in anticipation for TPF 5.0. Phoenix has been posting their documentation and I can see how things are formatted for the future. I don&amp;rsquo;t know which mods will be in TPF 5.0 so I&amp;rsquo;ve more or less smashed the current gameplay mod sections into their new separators and called it a day. When TPF comes out I will take notes on what direction Phoenix went in and adjust, but this list may just continue being an Aurora fork.&lt;/p>
 &lt;ul>
@@ -239,7 +269,7 @@
 &lt;p>tl;dr changes from 4.16.2 RC 1:&lt;/p>
 &lt;ul>
 &lt;li>Visuals overhauled to match Aurora RC5&lt;/li>
-&lt;li>Phoenix&amp;rsquo;s Weapons &amp;amp; Armor Overhaul removed in lieu for a restored Weapons, Clothing, and Clutter Fixes&lt;/li>
+&lt;li>Phoenix&amp;rsquo;s Weapons &amp;amp; Armor Overhaul removed in lieu for a restored Weapons, Armor, Clothing, and Clutter Fixes&lt;/li>
 &lt;li>Some of the added weapons and armor (e.g. Stalhrim Extra Crafting) was removed until balance can be better achieved&lt;/li>
 &lt;li>Optional difficulty modules removed, Aurora optionals maintained&lt;/li>
 &lt;/ul>
@@ -255,7 +285,7 @@
 &lt;p>&lt;strong>This update is safe-save.&lt;/strong> Just save in an interior cell before updating due to the change in DynDOLOD outputs.&lt;/p>
 &lt;p>Also, full disclosure, Lux updated everything in the final moments before pushing this update so I haven&amp;rsquo;t had time to properly test out the changes (which haven&amp;rsquo;t even been posted at this time) or re-run the LODs. There might be minor issues. This is precisely the type of thing I want to avoid by letting Phoenix handle the visuals.&lt;/p>
 &lt;details>
-&lt;h4 id="changes">Changes&lt;/h4>
+&lt;h4 id="changes-1">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>SKSE Plugins:&lt;/strong> Added Inventory Interface Information Injector&lt;/li>
 &lt;li>&lt;strong>SKSE Plugins:&lt;/strong> Added Recipe Auto-Learn&lt;/li>
@@ -282,7 +312,7 @@
 &lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Added Locational Encounter Zones&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Hid &amp;lsquo;Combat End Reset&amp;rsquo;spell from Seeking Out Sneaks from the effects menu&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates">Updates&lt;/h4>
+&lt;h4 id="updates-1">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated DynDOLOD to 3.00 Alpha-118&lt;/li>
 &lt;li>Updated ENBSeries to 0.488&lt;/li>
@@ -339,7 +369,7 @@
 &lt;p>It&amp;rsquo;s been a little over a week and I&amp;rsquo;ve a short trip coming up so I wanted to put out an update before then. Thank you everyone that&amp;rsquo;s been helping me test so far (and big thanks to Berna for finding some bugs to squash!) but I don&amp;rsquo;t think it&amp;rsquo;s quite ready for a full release just yet. This update is mostly just updates to existing mods, however one of those mods is &lt;em>The Vanilla ENB Two&lt;/em> which had a huge update since RC 2 came out. Overall it&amp;rsquo;s an amazing step forward and I love how it looks but it does come with a bit of a performance hit. I&amp;rsquo;m not sure if I tweaked the Performance Profile enough to compensate, but let me know if the hit&amp;rsquo;s too much compared to the last release (and 4.16.0, even) so I can see what I can do about dialing it back.&lt;/p>
 &lt;p>&lt;strong>This update is save safe.&lt;/strong> Nothing new has been generated. Have fun!&lt;/p>
 &lt;details>
-&lt;h4 id="changes-1">Changes&lt;/h4>
+&lt;h4 id="changes-2">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Weather &amp;amp; Lighting:&lt;/strong> Removed Pouring Rain&lt;/li>
 &lt;li>&lt;strong>Interiors:&lt;/strong> Added Skyland Common and Upper Furniture&lt;/li>
@@ -350,7 +380,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Fixed Lunar Armory loadscreen (also thanks to Berna)&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Removed &lt;code>textures/landscape/grass/columbine.dds&lt;/code> from the ENB Complex Grass collection (hat trick for Berna)&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-1">Updates&lt;/h4>
+&lt;h4 id="updates-2">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated powerofthree&amp;rsquo;s Papyrus Extender to 5.5&lt;/li>
 &lt;li>Updated Bash Bug Fix to 2.1.1&lt;/li>
@@ -382,7 +412,7 @@
 &lt;p>R.A.S.S. was removed because it was on the fence to begin with, half of the mod was turned off and the other half wasn&amp;rsquo;t looking great in action. &lt;em>S.W.I.F.T.&lt;/em> was removed because it trivialized some of the established methods of fast traveling (carriage, ferry, spells) that existed through other mods. The mod itself is great but it doesn&amp;rsquo;t fit the list.&lt;/p>
 &lt;p>All in all, an update centered around mods with initializations.&lt;/p>
 &lt;details>
-&lt;h4 id="changes-2">Changes&lt;/h4>
+&lt;h4 id="changes-3">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Weather &amp;amp; Lighting:&lt;/strong> Removed Enhanced Volumetric Lighting and Shadows (EVLaS)&lt;/li>
 &lt;li>&lt;strong>Fire &amp;amp; Visual FX:&lt;/strong> Removed R.A.S.S. - Rain Ash And Snow Shaders&lt;/li>
@@ -410,7 +440,7 @@
 &lt;p>&lt;strong>This update is absolutely not save-safe.&lt;/strong> It is likely that future release candidates will be but not guaranteed. If you want to safely continue your character on v4.16.0.1, my advice would be to manually update SimonMagus&amp;rsquo; mods so long as they&amp;rsquo;re labeled save-safe and you&amp;rsquo;ll be in good shape.&lt;/p>
 &lt;/blockquote>
 &lt;details>
-&lt;h4 id="changes-3">Changes&lt;/h4>
+&lt;h4 id="changes-4">Changes&lt;/h4>
 &lt;p>This changelog is structured differently because of how much has changed. Instead of an itemized list, I&amp;rsquo;ll go through section by section and list some key differences from each, compared to &lt;a href="https://loadorderlibrary.com/lists/the-phoenix-flavour-50-wip">TPF 5.0 RC 4&lt;/a>.&lt;/p>
 &lt;ul>
 &lt;li>
@@ -546,7 +576,7 @@
 &lt;p>&lt;strong>Lux, Lux Orbis, &amp;amp; Lux Via:&lt;/strong> These mods are so big they need their own section. I&amp;rsquo;ve included everything that was necessary given the other choices in the modlist.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-2">Updates&lt;/h4>
+&lt;h4 id="updates-3">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated Crash Logger to 1.8&lt;/li>
 &lt;li>Updated Spell Perk Item Distributor to 6.4&lt;/li>
@@ -578,7 +608,7 @@
 &lt;/ul>
 &lt;p>A new save is not required. You will receive a warning about &lt;code>Precision.esp&lt;/code> that can be ignored.&lt;/p>
 &lt;details>
-&lt;h4 id="changes-4">Changes&lt;/h4>
+&lt;h4 id="changes-5">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Architecture:&lt;/strong> Added Windhelm Fence 3D&lt;/li>
 &lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Removed Precision&lt;/li>
@@ -588,7 +618,7 @@
 &lt;li>&lt;strong>Configuration:&lt;/strong> Lowered SkillFormulaCaps to 100 (this won&amp;rsquo;t change much of anything as Simonrim bonuses tend not to give raw skill boosts, I&amp;rsquo;m just cleaning up the file)&lt;/li>
 &lt;li>&lt;strong>Configuration:&lt;/strong> Adjusted Scrambled Bugs settings to match Simon&amp;rsquo;s suggestions for his gameplay suite&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-3">Updates&lt;/h4>
+&lt;h4 id="updates-4">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated NVIDIA Reflex Support to 1.1.2&lt;/li>
 &lt;li>Updated Dwemer Gates Don&amp;rsquo;t Reset to 1.3.7&lt;/li>
@@ -622,7 +652,7 @@
 &lt;p>I haven&amp;rsquo;t done justice to all of the changes in 4.16. Take a peek at the details below for a full list. There are some real gems in there.&lt;/p>
 &lt;details>
 &lt;p>Updated for &lt;a href="https://github.com/Codygits/TPF-Updates/releases/tag/4.16.0">TPF 4.16.0&lt;/a>&lt;/p>
-&lt;h4 id="changes-5">Changes&lt;/h4>
+&lt;h4 id="changes-6">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Creation Club Content:&lt;/strong> Added Saints and Seducers&lt;/li>
 &lt;li>&lt;strong>Essential Mods:&lt;/strong> Removed .NET Script Framework&lt;/li>
@@ -757,7 +787,7 @@
 &lt;li>&lt;strong>Conflict Resolution (Creation Club):&lt;/strong> Removed edits to the Steed Stone and Extra Pockets&lt;/li>
 &lt;li>&lt;strong>FaceGen:&lt;/strong> Removed extraneous data from TPF&amp;rsquo;s FaceGen data (it&amp;rsquo;s much smaller now!)&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-4">Updates&lt;/h4>
+&lt;h4 id="updates-5">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated xLODGEN to 97&lt;/li>
 &lt;li>Updated DynDOLOD to 3.00 Alpha-111&lt;/li>
