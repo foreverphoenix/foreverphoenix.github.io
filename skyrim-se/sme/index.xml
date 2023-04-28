@@ -310,6 +310,19 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71524">Cumulative Fix for Eye Meshes&lt;/a>, the underwater fix removes blending on the lashes which can look really weird so you may want to use the version without that fix.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72213">Farm Hat 01 Clipping Fix&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sme/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/changelog/</guid><description>
+&lt;h2 id="release-233">Release 2.3.3&lt;/h2>
+&lt;blockquote>
+&lt;p>28/04/2023&lt;/p>
+&lt;/blockquote>
+&lt;p>Small update to add DynDOLOD NG for people who would like to try out the experimental version (with the large ref bug workarounds). Only use it if you know what you are doing and remember it requires all plugins to be &amp;lsquo;cleaned&amp;rsquo; of deleted references. Also added a super neat MO2 plugin, LOOT Warning Checker, that is helpful for finding plugins that need &amp;lsquo;cleaning&amp;rsquo; for DynDOLOD NG.&lt;/p>
+&lt;ul>
+&lt;li>Added LOOT Warning Checker MO2 Plugin&lt;/li>
+&lt;li>Added DynDOLOD NG&lt;/li>
+&lt;li>Updated DynDOLOD to 3 Alpha 125&lt;/li>
+&lt;li>Updated DynDOLOD Scripts to 2.82.5&lt;/li>
+&lt;li>Updated DynDOLOD Resources to 3 Alpha 35&lt;/li>
+&lt;li>Removed Nchuanthumz Papyrus Load Fix (part of USCCCP)&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-232">Release 2.3.2&lt;/h2>
 &lt;blockquote>
 &lt;p>22/04/2023&lt;/p>
