@@ -159,12 +159,10 @@
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sme/zedit-sme-profile.png" alt="zEdit Profiles Settings">&lt;/p>
 &lt;h3 id="bodyslide--outfit-studio">BodySlide &amp;amp; Outfit Studio&lt;/h3>
-&lt;p>In order for BodySlide/Outfit Studio to find your game files, you may need to update the folder path in the settings of the respective tool.&lt;/p>
-&lt;ul>
-&lt;li>Run &lt;strong>BodySlide&lt;/strong> or &lt;strong>Outfit Studio&lt;/strong> and go into the &lt;strong>Settings&lt;/strong>&lt;/li>
-&lt;li>Make sure the &lt;strong>Game Data Path&lt;/strong> points to your &lt;strong>Game Root&lt;/strong> folder.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sme/bodyslide-setup.png" alt="BodySlide Setup">&lt;/p></description></item><item><title>Skyrim-Se: Documentation</title><link>https://thephoenixflavour.com/skyrim-se/sme/documentation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/documentation/</guid><description>
+&lt;p>When you first launch BodySlide through Mod Organizer 2, it will likely detect and want to use your default game paths:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sme/bodyslide-1.png" alt="BodySlide 1">&lt;/p>
+&lt;p>Change the file path to the &lt;code>\Data\&lt;/code> folder within the SME &lt;code>\Game Root\&lt;/code> folder and click &lt;strong>Choose Game&lt;/strong>.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sme/bodyslide-2.png" alt="BodySlide 2">&lt;/p></description></item><item><title>Skyrim-Se: Documentation</title><link>https://thephoenixflavour.com/skyrim-se/sme/documentation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/documentation/</guid><description>
 &lt;h2 id="creation-club">Creation Club&lt;/h2>
 &lt;p>&lt;strong>SSE Modding Essentials&lt;/strong> does not require the full AE DLC, but it does include the four free Creations (Fishing, Survival, Rare Curios, Saints &amp;amp; Seducers) because they are required dependencies for the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/266">Unofficial Skyrim Special Edition Patch&lt;/a>. They are located inside the &amp;ldquo;Creation Club Content&amp;rdquo; folder at the top of your mod order.&lt;/p>
 &lt;h3 id="creation-organizer">Creation Organizer&lt;/h3>
@@ -310,6 +308,38 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71524">Cumulative Fix for Eye Meshes&lt;/a>, the underwater fix removes blending on the lashes which can look really weird so you may want to use the version without that fix.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72213">Farm Hat 01 Clipping Fix&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sme/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/changelog/</guid><description>
+&lt;h2 id="release-24">Release 2.4&lt;/h2>
+&lt;blockquote>
+&lt;p>08/05/2023&lt;/p>
+&lt;/blockquote>
+&lt;p>With this update I am adding quite a few script-related fixes and improvements that I had previously been wary of. The simple reason for this that I am utterly clueless when it comes to Papyrus or really code of any kind, so I am stuck with trusting the mod authors know what they do which is not so easy because it is my responsibility that SME offers as solid a base as possible. On the other hand, nearly all of the additions are script modifications by ferrari365 who takes the time to explain their edits which is extremely helpful. I also had a close look at the respective comment sections (though user reports are generally unreliable) and decided that it should be safe enough to add their mods.&lt;/p>
+&lt;h3 id="mod-changes">Mod Changes&lt;/h3>
+&lt;ul>
+&lt;li>Added Vanilla Script (Micro)Optimizations&lt;/li>
+&lt;li>Added Mannequin Management&lt;/li>
+&lt;li>Added Beneath Bronze Waters Start Fix&lt;/li>
+&lt;li>Added dunfolgunthurbossbattle Script Fix&lt;/li>
+&lt;li>Added The Taste of Death Improved Shutdown&lt;/li>
+&lt;li>Added Soul Cairn Script Tweaks&lt;/li>
+&lt;li>Added dlc2tribalwerebearscript Fix&lt;/li>
+&lt;li>Added dlc2dunfrostmoontriggerscript Optimization&lt;/li>
+&lt;li>Added dlc2dunnchardarkdoorseal Script Infinite Loop Fix&lt;/li>
+&lt;li>Added dlc2dunseekerinvisscript Fix&lt;/li>
+&lt;li>Added dlc2miraakscript Fix&lt;/li>
+&lt;li>Added Bone Wolf Shutdown Fix&lt;/li>
+&lt;li>Added lilebonymaces Patches&lt;/li>
+&lt;li>Updated DynDOLOD to 3 Alpha 127&lt;/li>
+&lt;li>Updated Universal Cured Serana Eye Fix to 0.2&lt;/li>
+&lt;li>Updated DynDOLOD Resources to 3 Alpha 36&lt;/li>
+&lt;li>Removed wideadbodycleanupscript Crash Fix&lt;/li>
+&lt;li>Created new &lt;strong>Script Fixes&lt;/strong> separator&lt;/li>
+&lt;li>Created new &lt;strong>Late Loader&lt;/strong> separator&lt;/li>
+&lt;li>Moved the BodySlide / Outfit Studio installation from the Tools folder to a mod folder&lt;/li>
+&lt;/ul>
+&lt;h3 id="website-changes">Website Changes&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Installation:&lt;/strong> (Hopefully) fixed the BodySlide setup instructions&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-233">Release 2.3.3&lt;/h2>
 &lt;blockquote>
 &lt;p>28/04/2023&lt;/p>
@@ -338,7 +368,7 @@
 &lt;li>Updated ENBSeries Binaries (no version number change)&lt;/li>
 &lt;li>Set Pause to True in the QUI TOML (game will be paused while viewing the plugin explorer)&lt;/li>
 &lt;/ul>
-&lt;h3 id="website-changes">Website Changes&lt;/h3>
+&lt;h3 id="website-changes-1">Website Changes&lt;/h3>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Fixed a bunch of typos&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Removed Antivirus Exclusion section&lt;/li>
@@ -428,7 +458,7 @@
 &lt;/blockquote>
 &lt;p>So turns out that I, at some point, fucked up the SSE Display Tweaks config file which should NOT replace the default one, but add to it. Even if you are not installing this update (which should be true for all existing users), please rename the config file in the SSE Display Tweaks - Settings mod to &lt;strong>SSEDisplayTweaks_Custom.ini&lt;/strong> and reinstall the main SSE Display Tweaks mod to restore the full INI. Sorry for the inconvenience.&lt;/p>
 &lt;p>Also I re-arranged the separators again, distributing the CC-related mods to existing sections. They are still of by default though.&lt;/p>
-&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Staves (Creation) - Minor Fixes&lt;/li>
 &lt;li>Added CC Horse Armor Stays Token&lt;/li>
@@ -441,7 +471,7 @@
 &lt;/blockquote>
 &lt;p>I have begun work on a visuals-only mod list based on SME and immediately felt the need to improve the baseline. After deciding to adopt a standardised system of separators across my various setups, I modified the ones in SME accordingly and, while I was at it, I also switched up the garish colours. MO2 is prettier now, yay.&lt;/p>
 &lt;p>Most importantly, I added the &lt;strong>Essential Mods - Creation Club&lt;/strong> section with a handful of mods that I consider, well, essential when using any creations. They are all optional and disabled by default; the AE DLC is no requirement for SME.&lt;/p>
-&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-2">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Unofficial Skyrim Creation Club Content Patch&lt;/li>
 &lt;li>Added Myrwatch - Editable Home Cells (Cell Bug Workaround)&lt;/li>
@@ -468,7 +498,7 @@
 &lt;/ul>
 &lt;p>I also re-arranged some separators.&lt;/p>
 &lt;p>FYI, one of the added mods (Rock Traps Trigger Fixes) requires a new game.&lt;/p>
-&lt;h4 id="mod-changes-2">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-3">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added updated MO2 plugin for GOG support&lt;/li>
 &lt;li>Added Creation Organizer&lt;/li>
@@ -546,7 +576,7 @@
 &lt;/blockquote>
 &lt;p>Another round of mod and tool updates.&lt;/p>
 &lt;p>Note on Crash Logger: The latest version (1.2.0) does not currently work with SSE 1.6.353.0 so SME is using 1.1.0.&lt;/p>
-&lt;h4 id="mod-changes-3">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-4">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Sound Record Distributor&lt;/li>
 &lt;li>Added Recursion Monitor&lt;/li>
@@ -576,7 +606,7 @@
 &lt;p>15/10/2022&lt;/p>
 &lt;/blockquote>
 &lt;p>Just the most recent mod updates. SME is still on 1.6.353.&lt;/p>
-&lt;h4 id="mod-changes-4">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-5">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Crash Logger SSE AE VR&lt;/li>
 &lt;li>Updated DynDOLOD to 3 Alpha 102&lt;/li>
@@ -593,7 +623,7 @@
 &lt;li>Updated Enhanced Reanimation to 1.5.1&lt;/li>
 &lt;li>Removed Crash Logger&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-2">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added note that the CK should be installed on the same drive / in the same Steam Library as Skyrim SE&lt;/li>
 &lt;/ul>
@@ -609,7 +639,7 @@
 &lt;p>28/09/2022&lt;/p>
 &lt;/blockquote>
 &lt;p>For the forseeable future, SME will continue to use &lt;strong>SSE 1.6.353&lt;/strong> until all mods have been updated. However, I recompiled with the latest version of Skyrim in my Steam folder, meaning that users also need to have the latest version to install SME. Wabbajack will downgrade the copy of the game in your Game Root folder. This way, you don&amp;rsquo;t have to downgrade your Steam installation.&lt;/p>
-&lt;h4 id="mod-changes-5">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-6">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Console Commands Extender&lt;/li>
 &lt;li>Added HelpExtender&lt;/li>
@@ -642,7 +672,7 @@
 &lt;blockquote>
 &lt;p>19/08/2022&lt;/p>
 &lt;/blockquote>
-&lt;h4 id="mod-changes-6">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-7">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added UIExtension&lt;/li>
 &lt;li>Added Hearthfires Houses Building Fix&lt;/li>
@@ -653,7 +683,7 @@
 &lt;li>Root Builder is now disabled by default (as was originally intended)&lt;/li>
 &lt;li>Sync Mod Order is now disabled by default (succeeded by Profile Sync)&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-2">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-3">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added a note about the CK installation being mandatory&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added a note to also set an AV exclusion for the appdata Nemesis folder&lt;/li>
@@ -664,7 +694,7 @@
 &lt;p>11/08/2022&lt;/p>
 &lt;/blockquote>
 &lt;p>Small maintenance update and expanded documentation.&lt;/p>
-&lt;h4 id="mod-changes-7">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-8">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Root Builder (MO2 plugin)&lt;/li>
 &lt;li>Added Profile Sync (MO2 plugin)&lt;/li>
@@ -674,7 +704,7 @@
 &lt;li>Updated DynDOLOD Resources to 3 Alpha 28&lt;/li>
 &lt;li>Restored proper SSE Display Tweaks Custom INI (doesn&amp;rsquo;t currently modify resolution)&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-3">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-4">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added .NET 6.0 SDK installation instructions (Synthesis prerequisite)&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added a warning about antivirus programs and recommended setting exclusions&lt;/li>
@@ -696,7 +726,7 @@
 &lt;/blockquote>
 &lt;p>With this update, I migrated the SME documentation to the new Skyrim SE Lists section of the website which breaks all links. I fixed those I could think of but might have missed some in which case please let me know on Discord.&lt;/p>
 &lt;p>In other news, I disabled the Fix Game Registry Path plugin for now. It is very convenient for LOOT (which uses the registry key to locate the game), but isn&amp;rsquo;t really needed for anything else and also breaks Creation Organizer. On top of that, it becomes cumbersome to constantly update the path when swapping between modded setups. I found a different solution for making LOOT work.&lt;/p>
-&lt;h4 id="mod-changes-8">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-9">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Quest Journal Limit Bug Fixer&lt;/li>
 &lt;li>Added Enhanced Invisibility&lt;/li>
@@ -711,7 +741,7 @@
 &lt;li>Removed Modern Toggle Walk-Run Fix&lt;/li>
 &lt;li>Fix Game Registry Path is now disabled by default&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-4">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-5">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Introduction:&lt;/strong> Fixed loadorderlibrary.com link for SME under Features&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Improved the MO2 prerequisites section and added NET 4.8&lt;/li>
