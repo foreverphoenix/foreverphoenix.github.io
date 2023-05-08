@@ -308,12 +308,20 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71524">Cumulative Fix for Eye Meshes&lt;/a>, the underwater fix removes blending on the lashes which can look really weird so you may want to use the version without that fix.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72213">Farm Hat 01 Clipping Fix&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sme/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/changelog/</guid><description>
+&lt;h2 id="release-241">Release 2.4.1&lt;/h2>
+&lt;blockquote>
+&lt;p>08/05/2023&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Updated ENBSeries Binaries (no version number change)&lt;/li>
+&lt;li>Deleted scripts from DynDOLOD Resources (yes, I forgot again)&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-24">Release 2.4&lt;/h2>
 &lt;blockquote>
 &lt;p>08/05/2023&lt;/p>
 &lt;/blockquote>
 &lt;p>With this update I am adding quite a few script-related fixes and improvements that I had previously been wary of. The simple reason for this that I am utterly clueless when it comes to Papyrus or really code of any kind, so I am stuck with trusting the mod authors know what they do which is not so easy because it is my responsibility that SME offers as solid a base as possible. On the other hand, nearly all of the additions are script modifications by ferrari365 who takes the time to explain their edits which is extremely helpful. I also had a close look at the respective comment sections (though user reports are generally unreliable) and decided that it should be safe enough to add their mods.&lt;/p>
-&lt;h3 id="mod-changes">Mod Changes&lt;/h3>
+&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Vanilla Script (Micro)Optimizations&lt;/li>
 &lt;li>Added Mannequin Management&lt;/li>
@@ -336,7 +344,7 @@
 &lt;li>Created new &lt;strong>Late Loader&lt;/strong> separator&lt;/li>
 &lt;li>Moved the BodySlide / Outfit Studio installation from the Tools folder to a mod folder&lt;/li>
 &lt;/ul>
-&lt;h3 id="website-changes">Website Changes&lt;/h3>
+&lt;h4 id="website-changes">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> (Hopefully) fixed the BodySlide setup instructions&lt;/li>
 &lt;/ul>
@@ -368,7 +376,7 @@
 &lt;li>Updated ENBSeries Binaries (no version number change)&lt;/li>
 &lt;li>Set Pause to True in the QUI TOML (game will be paused while viewing the plugin explorer)&lt;/li>
 &lt;/ul>
-&lt;h3 id="website-changes-1">Website Changes&lt;/h3>
+&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Fixed a bunch of typos&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Removed Antivirus Exclusion section&lt;/li>
