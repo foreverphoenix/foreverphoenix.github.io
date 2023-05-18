@@ -648,6 +648,318 @@ This shout has wonderful uptime, starting at 66% and hitting 100% at the second 
 &lt;li>&lt;strong>Fortify Sneak:&lt;/strong> &lt;em>You are 25% better at sneaking.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>Unfortunately for you, the ring slot is capable of fortifying all of your key skills. If it&amp;rsquo;s a tough decision on which one you go with, think about the method with which you kill the most enemies.&lt;/p>
+&lt;/details></description></item><item><title>Skyrim-Se: Bosmer Mage</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/bosmer-mage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/bosmer-mage/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/builds/bosmer-mage-art.png" alt="Bosmer Mage">&lt;/p>
+&lt;h2 id="backstory">Backstory&lt;/h2>
+&lt;p>You grew up in Valenwood where you were taught to follow the Green Pact, a sacred code that forbids the consumption of any plant material. However, an insatiable curiosity led you to question its validity. Why can&amp;rsquo;t you clip a flower for its restorative qualities but you can buy the same clipping from a trader? Why are you doomed to the Ooze while the trader walks without consequence? They called you an oath-breaker for your inquiries and you were cast out.&lt;/p>
+&lt;p>It didn&amp;rsquo;t take long to find brethren in your travels. You soon met a group of oath-breakers searching for the fabled Cradle of Ilmyris. You joined them, learning new survival skills and exploring the wilderness with your new companions. However, your hunger for knowledge put you on a path of questionable morals and you were ultimately cast out for the second time.&lt;/p>
+&lt;p>Feeling scorned and with no one to turn to, you looked towards Skyrim as a land without the restrictions that held you back in Valenwood. You heard rumors of powerful magical artifacts hidden in the northern ruins, and saw an opportunity to gain the knowledge and power you so desperately craved. With nothing left to lose, you set out to cross the border and begin a new chapter in your quest.&lt;/p>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Complexity:&lt;/strong> Moderate&lt;/li>
+&lt;li>&lt;strong>Race:&lt;/strong> &lt;a href="##" title="Major Skill: Archery
+Minor Skills: Light Armor, Lockpicking, One-handed, Pickpocket, Sneak
+Green Pact: You are 25% harder to detect while sneaking, and you deal 25% more damage with sneak attacks and spells.">Wood Elf&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Skills:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>Offensive:&lt;/strong> Destruction&lt;/li>
+&lt;li>&lt;strong>Defensive:&lt;/strong> Alteration&lt;/li>
+&lt;li>&lt;strong>Utility:&lt;/strong> Alchemy, Enchanting, Sneak&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Attributes:&lt;/strong>&lt;br>
+You&amp;rsquo;re a mage with very little need for Magicka. Your points are best spent bolstering your endurance.
+&lt;ul>
+&lt;li>&lt;strong>Health:&lt;/strong> 2&lt;/li>
+&lt;li>&lt;strong>Magicka:&lt;/strong> 0&lt;/li>
+&lt;li>&lt;strong>Stamina:&lt;/strong> 3&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>The Bosmer Mage starts their journey as one would expect: wearing robes and flinging spells with both hands. But instead of investing in Magicka and spell cost reduction perks, they opt to pour their efforts into Enchanting, using scrolls and staves to do their casting for them. This allows the Bosmer to stay nimble and out of harm&amp;rsquo;s way while still being a devastating master of Destruction.&lt;/p>
+&lt;h2 id="perks">Perks&lt;/h2>
+&lt;blockquote>
+&lt;p>Full perk information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30191">Adamant&lt;/a> description page.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="early-game-apostate">Early Game: Apostate&lt;/h3>
+&lt;p>With no home in Valenwood to return to, you&amp;rsquo;ve no choice but to make the most of whatever you can get from Skyrim.&lt;/p>
+&lt;details>
+&lt;h4 id="alchemy">Alchemy&lt;/h4>
+&lt;p>&lt;em>The Green Pact has no sway here, not that you ever cared for it. Consume nature all you&amp;rsquo;d like.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Herbalist 1 (10):&lt;/strong> Potions and poisons you make are 25% stronger.&lt;/li>
+&lt;li>&lt;strong>Experimenter (20):&lt;/strong> Eating an ingredient reveals all of its effects.&lt;/li>
+&lt;li>&lt;strong>Concentration 1 (30):&lt;/strong> Potions last 50% longer.
+ &lt;/li>
+&lt;/ul>
+&lt;h4 id="alteration">Alteration&lt;/h4>
+&lt;p>&lt;em>Magic will be your only defense and unfortunately you can spare little towards that end right now.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Philosopher (10):&lt;/strong> Alteration spells cost 25% less Magicka.
+ &lt;/li>
+&lt;/ul>
+&lt;h4 id="destruction">Destruction&lt;/h4>
+&lt;p>&lt;em>The school of destruction is your weapon of choice. Make sure you&amp;rsquo;re adept in all of its applications.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Elementalist 1 (10):&lt;/strong> Destruction spells cost 25% less Magicka.&lt;/li>
+&lt;li>&lt;strong>Augmented Flames 1 (30):&lt;/strong> Fire spells deal 25% more damage.&lt;/li>
+&lt;li>&lt;strong>Augmented Frost 1 (30):&lt;/strong> Frost spells deal 25% more damage.&lt;/li>
+&lt;li>&lt;strong>Augmented Shock 1 (30):&lt;/strong> Shock spells deal 25% more damage.
+ &lt;/li>
+&lt;/ul>
+&lt;h4 id="enchanting">Enchanting&lt;/h4>
+&lt;p>&lt;em>Practice where you&amp;rsquo;re able to. You&amp;rsquo;ll have proper enchanting supplies soon enough.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Artificer 1 (10):&lt;/strong> New enchantments are 25% stronger.
+ &lt;/li>
+&lt;/ul>
+&lt;h4 id="sneak">Sneak&lt;/h4>
+&lt;p>&lt;em>Striking from the shadows will get you the most from your spells.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Agent 1 (10):&lt;/strong> You are 25% harder to detect while sneaking.&lt;/li>
+&lt;li>&lt;strong>Silent Casting (20):&lt;/strong> Your spells are silent to others.&lt;/li>
+&lt;/ul>
+&lt;/details>
+&lt;h3 id="mid-game-elemental-savant">Mid Game: Elemental Savant&lt;/h3>
+&lt;p>The lessons taught to you by the other oath-bringers have sunk in and you&amp;rsquo;re now a respectable mage. The College of Winterhold is an obvious destination for continued learning, though the rumors of vampire attacks has piqued your interest in a darker power. One certainly worth seeking out.&lt;/p>
+&lt;details>
+&lt;h4 id="alchemy-1">Alchemy&lt;/h4>
+&lt;p>&lt;em>Your potions are your secret weapon. Experiment and find the most advantageous brews.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Green Thumb 1 (40):&lt;/strong> You gather one extra ingredient from plants.&lt;/li>
+&lt;li>&lt;strong>Herbalist 2 (50):&lt;/strong> Potions and poisons you make are 50% stronger.&lt;/li>
+&lt;li>&lt;strong>Potency 1 (60):&lt;/strong> Potions you mix are 25% stronger.&lt;/li>
+&lt;li>&lt;strong>Concentration 2 (70):&lt;/strong> Potions last 100% longer.
+ &lt;/li>
+&lt;/ul>
+&lt;h4 id="alteration-1">Alteration&lt;/h4>
+&lt;p>&lt;em>You&amp;rsquo;ll need to use your Magicka to cast armor spells until you&amp;rsquo;ve amassed scrolls for the job.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Mage Robes 1 (20):&lt;/strong> You have 50% extra Magicka Regeneration while wearing robes.&lt;/li>
+&lt;li>&lt;strong>Balance 1 (30):&lt;/strong> Alteration spells last 50% longer.&lt;/li>
+&lt;li>&lt;strong>Mage Armor 1 (30):&lt;/strong> Armor spells are 50% stronger while wearing robes.&lt;/li>
+&lt;li>&lt;strong>Stability (40):&lt;/strong> You resist 50% of incoming stagger while under the effects of an armor spell.
+ &lt;/li>
+&lt;/ul>
+&lt;h4 id="destruction-1">Destruction&lt;/h4>
+&lt;p>&lt;em>You can consider yourself adept with all three elements but your ambition will demand even more mastery.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Firebrand 1 (60):&lt;/strong> Fire spells brand enemies for 10 seconds. Branded targets take 25% extra damage from fire spells.&lt;/li>
+&lt;li>&lt;strong>North Wind 1 (60):&lt;/strong> When you have a frost spell equipped, you reduce the Frost Resistance of all nearby enemies by up to 50%.&lt;/li>
+&lt;li>&lt;strong>Unstable Current 1 (60):&lt;/strong> Shock spells have a 25% chance to deal double damage.&lt;/li>
+&lt;li>&lt;strong>Augmented Flames 2 (70):&lt;/strong> Fire spells deal 50% more damage.&lt;/li>
+&lt;li>&lt;strong>Augmented Frost 2 (70):&lt;/strong> Frost spells deal 50% more damage.&lt;/li>
+&lt;li>&lt;strong>Augmented Shock 2 (70):&lt;/strong> Shock spells deal 50% more damage.&lt;/li>
+&lt;/ul>
+&lt;h4 id="enchanting-1">Enchanting&lt;/h4>
+&lt;p>&lt;em>With this you should be able to switch to enchanted spellcasting, giving your Magicka a well deserved break.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Seeker 1 (20):&lt;/strong> Scrolls last three times as long.&lt;/li>
+&lt;li>&lt;strong>Jewelry Enchanter (30):&lt;/strong> New enchantments on jewelry are 25% stronger.&lt;/li>
+&lt;li>&lt;strong>Conduit (40):&lt;/strong> Staff enchantments consume 50% less charge.&lt;/li>
+&lt;li>&lt;strong>Armor Enchanter (40):&lt;/strong> New enchantments on armor are 25% stronger.&lt;/li>
+&lt;li>&lt;strong>Artificer 2 (50):&lt;/strong> New enchantments are 50% stronger.
+ &lt;/li>
+&lt;/ul>
+&lt;h4 id="sneak-1">Sneak&lt;/h4>
+&lt;p>&lt;em>Play further into your innate Bosmeri agility and slip through the shadows with ease.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Trespasser (30):&lt;/strong> You no longer trigger traps, and you can execute a silent roll while sneaking.&lt;/li>
+&lt;li>&lt;strong>Shadow Casting 1 (40):&lt;/strong> Damage-dealing spells are 50% stronger while sneaking and undetected.&lt;/li>
+&lt;li>&lt;strong>Agent 2 (50):&lt;/strong> You are 50% harder to detect while sneaking.&lt;/li>
+&lt;/ul>
+&lt;/details>
+&lt;h3 id="late-game-lord-of-chaos">Late Game: Lord of Chaos&lt;/h3>
+&lt;p>You&amp;rsquo;ve come a long way. More powerful than most that have come before you but convinced there&amp;rsquo;s still another level yet to climb. With staff in hand, you&amp;rsquo;re free to go wherever you please in your search for knowledge, confident you can erase anything that stands in your way.&lt;/p>
+&lt;details>
+&lt;h4 id="alchemy-2">Alchemy&lt;/h4>
+&lt;p>&lt;em>Potion perfection. You create the best concoctions with tremendous efficiency.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Green Thumb 2 (80):&lt;/strong> You gather two extra ingredients from plants.&lt;/li>
+&lt;li>&lt;strong>Potency 2 (90):&lt;/strong> Potions you mix are 50% stronger.&lt;/li>
+&lt;li>&lt;strong>Chemist (100):&lt;/strong> Create twice as many potions and poisons from the same number of ingredients.&lt;/li>
+&lt;/ul>
+&lt;h4 id="alteration-2">Alteration&lt;/h4>
+&lt;p>&lt;em>With simple robes and Alteration scrolls you&amp;rsquo;ll be able to provide yourself with a solid defense.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Balance 2 (60):&lt;/strong> Alteration spells last 100% longer.&lt;/li>
+&lt;li>&lt;strong>Spell Shield (70):&lt;/strong> You have 25% Magic Resistance while under the effect of an armor spell.&lt;/li>
+&lt;li>&lt;strong>Mage Armor 2 (70):&lt;/strong> Armor spells are 100% stronger while wearing robes.&lt;/li>
+&lt;li>&lt;strong>Meditation (80):&lt;/strong> Spells and enchantments cost 10% less while wearing robes.&lt;/li>
+&lt;li>&lt;strong>Spell Sip (90):&lt;/strong> You have a 25% chance to absorb the Magicka from incoming spells while under the effect of an armor spell.
+ &lt;/li>
+&lt;/ul>
+&lt;h4 id="destruction-2">Destruction&lt;/h4>
+&lt;p>&lt;em>Your Destruction spells will eliminate all that stand before you.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Combustion (80):&lt;/strong> Fire spells ignite enemies, dealing extra damage over 10 seconds.&lt;/li>
+&lt;li>&lt;strong>Permafrost (80):&lt;/strong> Frost spells reduce enemy attack damage by 25% for 10 seconds.&lt;/li>
+&lt;li>&lt;strong>Static Field (80):&lt;/strong> Shock spells prevent their targets from regenerating Magicka for 10 seconds.&lt;/li>
+&lt;li>&lt;strong>Firebrand 2 (90):&lt;/strong> Fire spells brand enemies for 10 seconds. Branded targets take 50% extra damage from fire spells.&lt;/li>
+&lt;li>&lt;strong>Unstable Current 2 (90):&lt;/strong> Shock spells have a 50% chance to deal double damage.&lt;/li>
+&lt;li>&lt;strong>Wildfire (100):&lt;/strong> Fire spells have a chance to incinerate targets when they fall below half Health.&lt;/li>
+&lt;li>&lt;strong>Deep Freeze (100):&lt;/strong> Frost spells have a chance to freeze targets who fall below half Health.&lt;/li>
+&lt;li>&lt;strong>Power Surge (100):&lt;/strong> Shock spells have a chance to overload targets who fall below half Health.
+ &lt;/li>
+&lt;/ul>
+&lt;h4 id="enchanting-2">Enchanting&lt;/h4>
+&lt;p>&lt;em>Your enchanted equipment is unrivaled, whether it be scroll, staff, jewelry, or clothing.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Channeler (70):&lt;/strong> Staves now regenerate some of their lost charge over time.&lt;/li>
+&lt;li>&lt;strong>Seeker 2 (70):&lt;/strong> Scrolls last five times as long.&lt;/li>
+&lt;li>&lt;strong>Insightful Enchanter (80):&lt;/strong> Skill enchantments are 25% stronger.&lt;/li>
+&lt;li>&lt;strong>Twin Secrets (100):&lt;/strong> You can place two enchantments on a single item.
+ &lt;/li>
+&lt;/ul>
+&lt;h4 id="sneak-2">Sneak&lt;/h4>
+&lt;p>&lt;em>Hit even harder from the shadows and slip away more gracefully when they come looking for the source.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Infiltrator (60):&lt;/strong> You move 25% faster while sneaking.&lt;/li>
+&lt;li>&lt;strong>Shadow Casting 2 (70):&lt;/strong> Damage-dealing spells are 100% stronger while sneaking and undetected.&lt;/li>
+&lt;/ul>
+&lt;/details>
+&lt;h2 id="standing-stones">Standing Stones&lt;/h2>
+&lt;blockquote>
+&lt;p>Full standing stone information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33411">Mundus&lt;/a> description page.&lt;/p>
+&lt;/blockquote>
+&lt;details>
+&lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-mage.webp">
+&lt;h4 id="the-mage-guardian">The Mage (Guardian)&lt;/h4>
+&lt;p>&lt;em>&lt;strong>Path of Wisdom:&lt;/strong>&lt;/em> &lt;em>Your Magicka is increased by 50, and your spells and enchantments cost 10% less.&lt;/em>&lt;/p>
+&lt;p>You won&amp;rsquo;t have much to your name starting out so you&amp;rsquo;ll have to do things the old fashioned way. This will give you enough Magicka to get off your feet without having to invest in it.&lt;/p>
+&lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-atronach.webp">
+&lt;h4 id="the-atronach">The Atronach&lt;/h4>
+&lt;p>&lt;em>&lt;strong>Sorcerer’s Oath:&lt;/strong>&lt;/em> &lt;em>Your Magicka is increased by 100, and you have a 25% chance to absorb the Magicka from incoming spells. However, you cannot regenerate Magicka in combat.&lt;/em>&lt;/p>
+&lt;p>Another 100 Magicka won&amp;rsquo;t mean too much to you but 25% Spell Absorption is a fantastic defensive boon. When stacked with high Magic Resistance and &lt;em>Spell Sip&lt;/em>, enemy casters will be pests at best.&lt;/p>
+&lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-serpent.webp">
+&lt;h4 id="the-serpent">The Serpent&lt;/h4>
+&lt;p>&lt;em>&lt;strong>Serpent’s Kiss:&lt;/strong>&lt;/em> *Your Poison Resistance is increased by 50%, your potions last 50% longer, and your poisons last for two additional hits. *&lt;/p>
+&lt;p>Extra Poison Resistance isn&amp;rsquo;t nothing but it&amp;rsquo;s not what you&amp;rsquo;re here for. A 50% duration boost on your already potent potions will save you plenty of vials in the long run.&lt;/p>
+&lt;/details>
+&lt;h2 id="faith">Faith&lt;/h2>
+&lt;blockquote>
+&lt;p>Full religion information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/54099">Pilgrim&lt;/a> description page.&lt;/p>
+&lt;/blockquote>
+&lt;p>The Bosmer are Y&amp;rsquo;ffre&amp;rsquo;s people but you&amp;rsquo;ve long since turned your back on him and his Pact. It was the call of &lt;strong>Herma-Mora&lt;/strong> that put you on your current quest for forbidden knowledge, and the promises of &lt;strong>Clavicus Vile&lt;/strong> that keep you walking it. As your mind opened to new possibilities, you heard of the Natural Order and &lt;strong>Peryite&lt;/strong>. All three promise rewards but you&amp;rsquo;re not fool enough to worship any of them to the degree they ask of you.&lt;/p>
+&lt;details>
+&lt;h4 id="clavicus-vile">Clavicus Vile&lt;/h4>
+&lt;p>&lt;em>Buying and selling prices are 10% better.&lt;/em>&lt;/p>
+&lt;p>Clavicus Vile sings promises of wealth and status and can help you navigate the markets of Skyrim better than what your upbringing prepared you for. If you&amp;rsquo;re on the hunt to purchase powerful staves, let this Daedric Prince help with the negotiations.&lt;/p>
+&lt;h4 id="hermaeus-mora">Hermaeus Mora&lt;/h4>
+&lt;p>&lt;em>You have a 5% chance to absorb the Magicka from incoming spells.&lt;/em>&lt;/p>
+&lt;p>Herma-Mora gives little for your half-hearted devotion but the Spell Absorption can add up nicely with other sources. If you&amp;rsquo;re looking to manipulate your luck on the battlefield, you&amp;rsquo;ll need the Lord of Fate and Knowledge on your side.&lt;/p>
+&lt;h4 id="peryite">Peryite&lt;/h4>
+&lt;p>&lt;em>Your potions last 25% longer.&lt;/em>&lt;/p>
+&lt;p>Peryite may be one of the weakest of the Princes but he still knows enough about the Green to help you squeeze that much more from your potions.&lt;/p>
+&lt;/details>
+&lt;h2 id="spellbook">Spellbook&lt;/h2>
+&lt;blockquote>
+&lt;p>Full magic information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27839">Mysticism&lt;/a> description page. Additionally, dragon shout information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/36276">Forceful Tongue&lt;/a> description page.&lt;/p>
+&lt;/blockquote>
+&lt;details>
+&lt;img align="right" width="100" height="100" src="https://thephoenixflavour.com/Pictures/sss/builds/skill-alteration.webp">
+&lt;h3 id="alteration-3">Alteration&lt;/h3>
+&lt;p>Enchanted staves have limited support for this school of magic but scrolls are around to save the day. You&amp;rsquo;ll want to carry a handful of useful buffs in scroll form as their durations will be supercharged by your perks. In the early game, use your Magicka to cast Novice and Apprentice level spells.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Scroll of Oakflesh (Novice+):&lt;/strong> &lt;em>Your Armor Rating is increased by 40 for 120 seconds.&lt;/em>&lt;br>
+Armor spell staves aren&amp;rsquo;t available so you&amp;rsquo;ll need to rely on scrolls for your protection needs. With all of your perks these should last quite a long time and are definitely worth the trouble.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Scroll of Feather (Apprentice+):&lt;/strong> &lt;em>Your Carry Weight is increased by 50 for 120 seconds.&lt;/em>&lt;br>
+Keep a few of these handy just in case you find yourself overburdened on the road. The stamina drain from carrying too much is simply not something you can tolerate.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Scroll of Weight of the World (Master):&lt;/strong> &lt;em>Reduces enemy Movement Speed and Attack Speed in a large area by 50% for 60 seconds.&lt;/em>
+With an unfurling of this scroll you can bring a room of enemies to a crawl, and that&amp;rsquo;s before your frost magic has had its way with them. It&amp;rsquo;s one worth carrying around in your back pocket, so to speak.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;img align="right" width="100" height="100" src="https://thephoenixflavour.com/Pictures/sss/builds/skill-destruction.webp">
+&lt;h3 id="destruction-3">Destruction&lt;/h3>
+&lt;p>As an elementalist you have the option of choosing fire, frost, or shock magic in any situation. You&amp;rsquo;ll also have Vampiric options should you want to drain Health from your victims instead. Instead of listing 3 recommended spells, here are three go-to spell types:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Missile (Apprentice+):&lt;/strong> &lt;em>Firebolt / Ice Spike / Lightning Bolt&lt;/em>&lt;br>
+These are single target bursts of respectable damage at range. You&amp;rsquo;ll be using these often to pick off targets from afar while undetected. Carry one staff of every element for these as it&amp;rsquo;s your bread and butter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Area Missile (Adept+):&lt;/strong> &lt;em>Fireball / Ice Storm / Chain Lightning&lt;/em>
+The area spells behave a little differently from each other but they&amp;rsquo;re useful for clearing out a mob should you be fortunate enough to find one clumped together. &lt;em>Fireball&lt;/em> is a solid go-to in this category as successive casts will benefit from &lt;em>Firebrand&lt;/em>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Wall (Expert):&lt;/strong> &lt;em>Wall of Flames / Wall of Frost / Wall of Storms&lt;/em>&lt;br>
+A late addition to your toolkit but a good one. &lt;em>Wall of Frost&lt;/em> is especially useful as it will also slow anyone who walks through the wall approaching you, giving you an opportunity to widen the distance.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;img align="right" width="100" height="100" src="https://thephoenixflavour.com/Pictures/sss/builds/skill-restoration.webp">
+&lt;h3 id="dragon-shouts">Dragon Shouts&lt;/h3>
+&lt;p>Being the Dragonborn was unexpected but you&amp;rsquo;re not one to turn down a chance at greatness. Experiment with your voice. After all, there&amp;rsquo;s nothing to lose from learning more Words of Power.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Dragon Aspect&lt;sup>DB&lt;/sup>:&lt;/strong> &lt;em>You deal 50% more damage with power attacks and your Destruction and Restoration spells are 25% stronger. \ Your Armor Rating is increased by 150 and Magic Resistance is increased by 25%. \ Your Shout cooldown is reduced by 25% for 300 seconds. When you enter in combat, you call an Ancient Dragonborn to your side.&lt;/em>&lt;br>
+This does a lot and each word provides a benefit to you. More damage from your spells, more magic resistance to protect you from retaliation, and a temporary melee-focused ally. The only downside to this shout for you is what you have to do to learn it.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Marked For Death:&lt;/strong> &lt;em>Deals 5 damage, reduces enemy Magic Resistance by 25% and Armor Rating by 150 for 10\20\30 seconds.&lt;/em>&lt;br>
+Shouts can do a variety of things, but few can make your enemies take more damage from your magical onslaught.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Soul Tear&lt;sup>DG&lt;/sup>:&lt;/strong> &lt;em>Deals 30\60\120 damage. Fills a soul gem if the target dies within 10\20\30 seconds. \Permanently reanimates a corpse up to level 50.&lt;/em>&lt;br>
+This fills a void left by your perk selection. Damage combined with a Soul Trap effect allows you to fill your gems without swapping staves. With the final word you can turn your victims into allies which is nicely thematic for a vampire.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/details>
+&lt;h2 id="enchantments">Enchantments&lt;/h2>
+&lt;blockquote>
+&lt;p>Full enchanting information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/57138">Thaumaturgy&lt;/a> description page.&lt;/p>
+&lt;/blockquote>
+&lt;details>
+&lt;h4 id="weapon">Weapon&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>None:&lt;/strong> &lt;em>This build does not use physical weaponry.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;h4 id="head">Head&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Fortify Potion Duration:&lt;/strong> &lt;em>Your potions last 50% longer.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Soul Harvest:&lt;/strong> &lt;em>When a target dies within 50 feet, fill a soul gem.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Stamina Regeneration:&lt;/strong> &lt;em>Your Stamina Regeneration is increased by 50%.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;p>You can make your potions last even longer with this slot, which is always beneficial. Alternatively, you need soul gems in order to keep your staves powered and Soul Harvest is an easy way to keep them filled. As a third option, boosting your Stamina Regeneration will keep you from running out while sneaking.&lt;/p>
+&lt;h4 id="chest">Chest&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Resist Magic:&lt;/strong> &lt;em>Your Magic Resistance is increased by 25%.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Armor Rating:&lt;/strong> &lt;em>Your Armor Rating is increased by 100.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Health Regeneration:&lt;/strong> &lt;em>Your Health Regeneration is increased by 50%.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;p>If you aren&amp;rsquo;t at 75% Magic Resistance this is a great slot for getting caught up. Otherwise you can bolster your Armor Rating or Health Regeneration for other forms of survivability.&lt;/p>
+&lt;h4 id="gloves">Gloves&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Fortify Sneak Attacks:&lt;/strong> &lt;em>You deal 25% more damage with sneak attacks and spells.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Potion Duration:&lt;/strong> &lt;em>Your potions last 50% longer.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Resist [Element]:&lt;/strong> &lt;em>Your [Element] Resistance is increased by 50%.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;p>Sneak Spell Attacks make up the bulk of your damage when things go well so make sure to boost it here while you can. More Potion Duration is also great too. If you don&amp;rsquo;t have access to those you can round off your elemental Resistance.&lt;/p>
+&lt;h4 id="boots">Boots&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Fortify Sneak:&lt;/strong> &lt;em>You are 25% better at sneaking.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Muffle:&lt;/strong> &lt;em>You make 50% less noise while moving.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Resist [Element]:&lt;/strong> &lt;em>Your [Element] Resistance is increased by 50%.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;p>Sneaking is something you do often so it&amp;rsquo;s only natural for your footwear choices to revolve around it. The sneakier you are, the more havok you can wreak without anyone counterattacking. It&amp;rsquo;s a win/win.&lt;/p>
+&lt;h4 id="necklace">Necklace&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Fortify Destruction Power:&lt;/strong> &lt;em>Your Destruction spells are 25% stronger.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Alteration Duration:&lt;/strong> &lt;em>Your Alteration spells last 50% longer.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Resist Magic:&lt;/strong> *Your Magic Resistance is increased by 25%. *&lt;/li>
+&lt;/ul>
+&lt;p>Necklace has plenty for you to enjoy. As mostly all of your damage is from Destruction magic, boosting that is your #1 priority. After that you have the luxury to experiment with other choices, but Alteration Duration will make your scrolls last even longer.&lt;/p>
+&lt;h4 id="ring">Ring&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Fortify Destruction Power:&lt;/strong> &lt;em>Your Destruction spells are 25% stronger.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Sneak Attacks:&lt;/strong> &lt;em>You deal 25% more damage with sneak attacks and spells.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Sneak:&lt;/strong> &lt;em>You are 25% better at sneaking.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;p>This slot is even more competitive than the necklace. Again, a boost to your bread and butter can not be ignored, but there&amp;rsquo;s another damage boost to be had. If you can&amp;rsquo;t take advantage of those two, remaining hidden is a high priority.&lt;/p>
 &lt;/details></description></item><item><title>Skyrim-Se: Dunmer Monk</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/dunmer-monk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/dunmer-monk/</guid><description>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/builds/dunmer-monk-art.png" alt="Dunmer Battlemage">&lt;/p>
 &lt;h2 id="backstory">Backstory&lt;/h2>
