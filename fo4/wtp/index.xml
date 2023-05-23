@@ -956,6 +956,32 @@ uPipboyTargetWidth=876
 &lt;p>&lt;strong>As of WTP 2.5, puddles were re-enabled and should no longer flicker!&lt;/strong> This is possible thanks to &lt;a href="https://www.nexusmods.com/fallout4/mods/62207?">fadingsignal&amp;rsquo;s fix&lt;/a> and an ENB update.&lt;/p>
 &lt;h2 id="load-screens-appear-frozen">Load screens appear frozen&lt;/h2>
 &lt;p>In loading screens, there is no spinning object and the loading symbol is not animated. This is actually not a bug, but a feature. Disabling animations in loading screens apparently increases load times. It was done in the High FPS Physics Fix custom INI file.&lt;/p></description></item><item><title>Fo4: Changelog</title><link>https://thephoenixflavour.com/fo4/wtp/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fo4/wtp/changelog/</guid><description>
+&lt;h2 id="release-282">Release 2.8.2&lt;/h2>
+&lt;blockquote>
+&lt;p>23/05/2023&lt;/p>
+&lt;/blockquote>
+&lt;p>Maintenance update, save safe.&lt;/p>
+&lt;ul>
+&lt;li>Added Mesh Bounds Fix&lt;/li>
+&lt;li>Added Northern Foothills Rocks Fix&lt;/li>
+&lt;li>Added Enhanced Vanilla Rocks&lt;/li>
+&lt;li>Added Enhanced Vanilla Plants&lt;/li>
+&lt;li>Added Craftable Pride Flags&lt;/li>
+&lt;li>Updated ENBSeries to 0.489&lt;/li>
+&lt;li>Updated Fallout Priority - F4SE Plugin to 3.4.0&lt;/li>
+&lt;li>Updated Workshop Framework to 2.3.5a&lt;/li>
+&lt;li>Updated Fallout 4 Particle Patch - No More Glowing Objects to 1.2&lt;/li>
+&lt;li>Updated Targeted Textures - Vanilla Textures Upscaled Fixed and Sized to 2.2&lt;/li>
+&lt;li>Updated Fallout 4 Ultimate Window Overhaul to 4.1.2&lt;/li>
+&lt;li>Updated Blasted Billboards - A Weathered Billboard Overhaul to 1.2.1&lt;/li>
+&lt;li>Updated Peeling Posters - Weathered Paper Based Signs to 1.1.1&lt;/li>
+&lt;li>Updated Frame Job - A Power Armor Frame Retexture to 1.2&lt;/li>
+&lt;li>Updated Curated Companions to 3.2&lt;/li>
+&lt;li>Removed Natural Rocks 2K&lt;/li>
+&lt;li>Removed Blasted Billboards - A Weathered Billboard Overhaul - FOLIP Patch (redundant with TexGen)&lt;/li>
+&lt;li>Removed Peeling Posters - Weathered Paper Based Signs - FOLIP Patch (redundant with TexGen)&lt;/li>
+&lt;li>Regenerated LODs&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-281">Release 2.8.1&lt;/h2>
 &lt;blockquote>
 &lt;p>10/04/2023&lt;/p>
