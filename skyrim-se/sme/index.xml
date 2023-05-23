@@ -308,6 +308,21 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71524">Cumulative Fix for Eye Meshes&lt;/a>, the underwater fix removes blending on the lashes which can look really weird so you may want to use the version without that fix.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72213">Farm Hat 01 Clipping Fix&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sme/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/changelog/</guid><description>
+&lt;h2 id="release-242">Release 2.4.2&lt;/h2>
+&lt;blockquote>
+&lt;p>23/05/2023&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Added World Encounter Hostility Fix&lt;/li>
+&lt;li>Added RemoveAllItems Freeze Fix&lt;/li>
+&lt;li>Added Neloth&amp;rsquo;s Experimental Subject Quest dlc2ttr4a Fix&lt;/li>
+&lt;li>Updated LOOT Warning Checker MO2 Plugin to 1.2.4-beta&lt;/li>
+&lt;li>Updated MergeMapper to 1.5.0&lt;/li>
+&lt;li>Updated Universal Cured Serana Eye Fix to 0.4&lt;/li>
+&lt;li>Updated Assorted Mesh Fixes to 0.79&lt;/li>
+&lt;li>Updated DynDOLOD to 3 Alpha 128&lt;/li>
+&lt;li>Removed some errant files from the Overwrite folder&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-241">Release 2.4.1&lt;/h2>
 &lt;blockquote>
 &lt;p>08/05/2023&lt;/p>
