@@ -215,11 +215,6 @@
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/installation/launch-lotf.png" alt="Play LOTF">&lt;/p>
 &lt;h3 id="mcm-instructions">MCM Instructions&lt;/h3>
 &lt;p>LOTF only has a handful of Mod Configuration Menus (MCMs). &lt;strong>Presets are automatically applied so you don&amp;rsquo;t need to edit anything manually.&lt;/strong> I strongly recommend not changing anything in the MCMs unless you have something specific in mind.&lt;/p>
-&lt;h3 id="performance-profile">Performance Profile&lt;/h3>
-&lt;p>If your system is on the lower mid end, you may want to try the &lt;strong>Performance&lt;/strong> profile.&lt;/p>
-&lt;p>Note that saves are profile-specific. You can switch from the regular to the performance profile mid-playthrough, but you would have to copy over the saves from &lt;code>\Legends of the Frost\profiles\Legends of the Frost\saves\&lt;/code> to &lt;code>\Legends of the Frost\profiles\Legends of the Frost - Performance\saves\&lt;/code> manually. Please do not attempt to switch from the CC profile to either the regular or performance profile in an ongoing playthrough.&lt;/p>
-&lt;p>Check the picture below to see how to switch to a different profile in MO2:&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/installation/lotf-performance-profile.png" alt="Swap MO2 Profile">&lt;/p>
 &lt;h3 id="customisation">Customisation&lt;/h3>
 &lt;p>Before you begin a new playthrough, you may want to check out the tweaks and optional mods that are supported for LOTF on the &lt;a href="https://thephoenixflavour.com/skyrim-se/lotf/customisation">Customisation&lt;/a> page.&lt;/p></description></item><item><title>Skyrim-Se: Customisation</title><link>https://thephoenixflavour.com/skyrim-se/lotf/customisation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/lotf/customisation/</guid><description>
 &lt;h2 id="performance-inis">Performance INIs&lt;/h2>
@@ -330,19 +325,39 @@
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/15.jpg" alt="LOTF Screenshot">&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/16.jpg" alt="LOTF Screenshot">&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/lotf/screenshots/17.jpg" alt="LOTF Screenshot">&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/lotf/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/lotf/changelog/</guid><description>
+&lt;h2 id="release-321">Release 3.2.1&lt;/h2>
+&lt;blockquote>
+&lt;p>30/05/2023&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;ul>
+&lt;li>Added Dual Casting Fix&lt;/li>
+&lt;li>Added ICR Updated Meshes (merged with Icy Cave Remaster)&lt;/li>
+&lt;li>Updated Unofficial Skyrim Special Edition Patch to 4.2.9a&lt;/li>
+&lt;li>Updated High Gate Ruins Puzzle Reset Fix to 0.3&lt;/li>
+&lt;li>Updated World Encounter Hostility Fix to 0.3&lt;/li>
+&lt;li>Updated Grass Sampler Fix to 1.0.1&lt;/li>
+&lt;li>Updated TAA Deblur to 1.0.1&lt;/li>
+&lt;li>ReShade is now disabled by default to prevent warnings about missing shaders&lt;/li>
+&lt;li>Enabled AO in the backup of the default SkyrimPrefs.ini to match the active version&lt;/li>
+&lt;/ul>
+&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Installation:&lt;/strong> Removed a section about the performance profile (which was removed)&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-32">Release 3.2&lt;/h2>
 &lt;blockquote>
 &lt;p>21/05/2023&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;strong>Requires a new save.&lt;/strong>&lt;/p>
-&lt;p>As far as LOTF updates go, this is a big one. It adds the final two &amp;lsquo;features&amp;rsquo; I had wanted in the list and will (presumably?) be the last &amp;lsquo;major&amp;rsquo; update to the list for the forseeable future. Other than mod updates, minor additions, and fixes if necessary, I have no further plans for LOTF.&lt;/p>
+&lt;p>As far as LOTF updates go, this is a big one. It adds the final two &amp;lsquo;features&amp;rsquo; I had wanted in the list and will (presumably?) be the last &lt;em>major&lt;/em> update for the forseeable future. Other than mod updates, minor additions, and fixes if necessary, I have no further plans for LOTF.&lt;/p>
 &lt;ul>
 &lt;li>Replaced ENB with the Community Shader suite. Enjoy the performance boost! No ReShade preset included yet because I haven&amp;rsquo;t found one that I&amp;rsquo;m 100% happy with.&lt;/li>
 &lt;li>Regenerated DynDOLOD with the NG plugin which means (hopefully) no more large ref bugs. This required &amp;lsquo;cleaning&amp;rsquo; plugins which has also been done.&lt;/li>
 &lt;/ul>
 &lt;p>The ENB lights related mods removed in this update will be re-added once ENB light support is added to the Community Shader suite.&lt;/p>
 &lt;p>I also added a bunch of script fixes, some tweaks for specific eyesores (shrubs and juniper trees), and the gorgeous Icy Cave Remaster because vanilla ice caves are ugly as sin.&lt;/p>
-&lt;h4 id="mod-changes">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Vanilla Script (micro)Optimizations&lt;/li>
 &lt;li>Added DynDOLOD Scripts and DLL (NG)&lt;/li>
@@ -427,7 +442,7 @@
 &lt;/blockquote>
 &lt;p>In addition to a number of mod updates, LOTF 3.1 is adding the new(ish) &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/85702">Inventory Interface Information Injector&lt;/a>, a mod to disable the bugged werewolf killmove, and a few other improvements that complement the setup. I also reverted to the (very pretty) default textures from Majestic Mountains as the Skyland textures (which I also quite like) were not made for MM 4. LODs were regenerated accordingly, also for Icy Mesh Remaster and Skyland updates.&lt;/p>
 &lt;p>I have also removed the DynDOLOD performance output. The standard output is already using medium mesh rules and should be appropriate for most users. If you struggle with performance, you can always switch to the performance INI set for an extra ~10-15FPS. If that is not sufficient, disable the ENB preset. I adjusted the instructions for using the &lt;a href="https://thephoenixflavour.com/skyrim-se/lotf/customisation/#performance-inis">performance INIs&lt;/a> accordingly. This also means LOTF only has a single profile now.&lt;/p>
-&lt;h4 id="mod-changes-1">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-2">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added LOTF-themed splash screen for Mod Organizer 2&lt;/li>
 &lt;li>Added Keyword Item Distributor&lt;/li>
@@ -488,7 +503,7 @@
 &lt;p>I swapped back to Enhanced Landscapes Grass, for one. During 3.0 development I went back and forth a lot, to the point where my inability to settle on a grass overhaul was a major reason for why it took me so long to finish the update. Ultimately, I just kind of gave up and stuck with Cath Landscape; however, following some feedback and comparisons between EL/Cath, I decided to switch back after all. EL Grass is the better fit for LOTF.&lt;/p>
 &lt;p>In addition, I also tweaked some aspects of the UI. Item descriptions should no longer be cut off and, while I was at it, I also downsized some of the other widgets.&lt;/p>
 &lt;p>&lt;strong>This update is save safe.&lt;/strong>&lt;/p>
-&lt;h4 id="mod-changes-2">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-3">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Custom Window&lt;/li>
 &lt;li>Added Enhanced Landscapes - Grass Overhaul&lt;/li>
@@ -530,7 +545,7 @@
 &lt;p>LOTF 3.0 switched from &lt;strong>Wander&lt;/strong> to &lt;strong>RAID Weathers&lt;/strong> which is a gorgeous weather overhaul with the added benefit of having been optimised for stealth gameplay in combination with &lt;strong>Realistic AI Detection&lt;/strong>. As such LOTF is now one of relatively few mod lists with a weather + lighting combination specifically for balanced detection.&lt;/p>
 &lt;p>Considering the enormous amount of relatively minor mesh tweaks released recently, I had to reconsider my approach to such mods. Ultimately, I decided to take the same one as with retextures; that is, use a small amount of comprehensive mesh overhauls without diving too deeply into the tiny tweaks with a great deal of overlap requiring careful mod order management and occasionally patches. To keep LOTF from becoming too bloated, I removed some minor (though noticable) mesh tweaks and refrained from adding new ones. Not to worry though, SMIM and Assorted Mesh Fixes are here to stay.&lt;/p>
 &lt;p>I decided to remove &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18115">Unofficial High Definition Audio Project&lt;/a> as it adds a whopping 8.3GBs and was thus the single largest mod. I understand that the audiophiles among you may be unhappy (you can easily re-add it!), but in the interest of slimming down the list it was a fairly easy decision.&lt;/p>
-&lt;h4 id="website-changes">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
 &lt;p>The documentation for 3.0 was be heavily reworked:&lt;/p>
 &lt;ul>
 &lt;li>The &lt;a href="https://thephoenixflavour.com/skyrim-se/lotf/installation/">Installation&lt;/a> page now once again covers a full clean install for Skyrim SE as LOTF 3.0 is using the default game folder. Instructions for the GOG version were added as well.&lt;/li>
@@ -553,7 +568,7 @@
 &lt;li>Saturalia Holiday Pack&lt;/li>
 &lt;li>Wild Horses&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-changes-3">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-4">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Kezyma&amp;rsquo;s Profile Sync&lt;/li>
 &lt;li>Added Ore Vein Texture Fix&lt;/li>
@@ -577,7 +592,7 @@
 &lt;p>31/07/2022&lt;/p>
 &lt;/blockquote>
 &lt;p>In 2.8, I switched to SSE Display Tweaks for controlling the monitor resolution; however, as it turns out this does not currently seem to work in Wabbajack. Apologies for the inconvenience - I reverted the change for now.&lt;/p>
-&lt;h4 id="mod-changes-4">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-5">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Combat Music Fix SKSE&lt;/li>
 &lt;li>Added Enhanced Reanimation&lt;/li>
@@ -605,7 +620,7 @@
 &lt;li>Necromantic Grimoire&lt;/li>
 &lt;li>Staves&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-changes-5">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-6">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Sound Fix for Large Sector Drives&lt;/li>
 &lt;li>Added Freed Prisoner Uses Items&lt;/li>
@@ -652,7 +667,7 @@
 &lt;li>Redguard Elite Armaments&lt;/li>
 &lt;li>Nordic Jewelry&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-changes-6">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-7">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Use Or Take SKSE&lt;/li>
 &lt;li>Updated Read Or Take SKSE to 1.1&lt;/li>
@@ -685,7 +700,7 @@
 &lt;li>Fishing&lt;/li>
 &lt;li>Farming&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-changes-7">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-8">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added NIF Preview (irrelevant for users)&lt;/li>
 &lt;li>Added Optimized USSEP Valdr Quest&lt;/li>
@@ -723,7 +738,7 @@
 &lt;li>The Contest&lt;/li>
 &lt;li>Civil War Champions&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-changes-8">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-9">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Project Clarity - Effects Textures Redone - Hotfix 3.2.6&lt;/li>
 &lt;li>Added Better Blended Mushrooms&lt;/li>
@@ -755,7 +770,7 @@
 &lt;li>Horse Armor - Steel&lt;/li>
 &lt;/ul>
 &lt;p>I also integrated the excellent new &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/66329">Creation Organizer&lt;/a> which vastly simplifies the process of installing creations for those who own the Anniversary Edition DLC.&lt;/p>
-&lt;h4 id="mod-changes-9">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-10">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Ghost Pile Seam Fix&lt;/li>
 &lt;li>Added Critter Spawn Congestion Fix&lt;/li>
@@ -816,7 +831,7 @@
 &lt;/ul>
 &lt;p>Check out the &lt;a href="https://docs.google.com/spreadsheets/d/1vPH-HsEsVcw-ipbHl3Am0FL0jwF6JiR7Z-8zqWcKWvU/edit?usp=sharing">new spreadsheet&lt;/a> to see which creations are support by LOTF, including links to the UESP.net pages with instructions on how to find the content ingame.&lt;/p>
 &lt;p>Also the patches for ultrawide support were never actually included with the WJ installation and I fixed that now. Sorry!&lt;/p>
-&lt;h4 id="mod-changes-10">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-11">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Proving Honor Companions Quest Progression Fix&lt;/li>
 &lt;li>Added King Olaf&amp;rsquo;s Fire Festival Not Ending Fix&lt;/li>
@@ -854,7 +869,7 @@
 &lt;p>27/03/2022&lt;/p>
 &lt;/blockquote>
 &lt;p>Some fixes for 2.3.&lt;/p>
-&lt;h4 id="mod-changes-11">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-12">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Oxygen Meter 2&lt;/li>
 &lt;li>Updated Assorted Mesh Fixes to 0.46&lt;/li>
@@ -888,7 +903,7 @@
 &lt;li>Goldbrand&lt;/li>
 &lt;li>Dwarven Armored Mudcrab&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-changes-12">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-13">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Windhelm Fences 3D&lt;/li>
 &lt;li>Added Bleak Falls Barrow - No Ice Meshes in Troll Pit&lt;/li>
@@ -961,7 +976,7 @@
 &lt;li>Support for the following creations: Expanded Crossbows, Elite Crossbows, Nix-Hound&lt;/li>
 &lt;li>Fixed messed up landscape at the entrance to Rielle (part of The Cause)&lt;/li>
 &lt;/ul>
-&lt;h4 id="mod-changes-13">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-14">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Base Object Swapper&lt;/li>
 &lt;li>Added ENB Input Disabler&lt;/li>
@@ -1003,7 +1018,7 @@
 &lt;li>Moved Static Mesh Improvement Mod below the TEXTURE BASE separator&lt;/li>
 &lt;li>Inlined the Obsidian Weathers MCM Preset (must have been missing entirely before)&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-1">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-2">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Creation Club:&lt;/strong> Updated the list of supported creations.&lt;/li>
 &lt;/ul>
@@ -1012,7 +1027,7 @@
 &lt;p>07/01/2022&lt;/p>
 &lt;/blockquote>
 &lt;p>I hadn&amp;rsquo;t planned to update LOTF again, but the recent SSE update made it necessary. This update was compiled with SSE 1.6.353.0 which is the latest version so please do not use the downgrade patcher.&lt;/p>
-&lt;h4 id="mod-changes-14">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-15">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Optional Round Farmhouse Posts&lt;/li>
 &lt;li>Added Major Cities Mesh Overhaul&lt;/li>
@@ -1039,7 +1054,7 @@
 &lt;li>Disabled the Sort Plugins button in MO2 (another change lost after updating)&lt;/li>
 &lt;/ul>
 &lt;p>&lt;em>Note that while I did update DynDOLOD, I did not regenerate LODs for this update.&lt;/em>&lt;/p>
-&lt;h4 id="website-changes-2">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-3">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Updated latest version number.&lt;/li>
 &lt;/ul>
@@ -1048,7 +1063,7 @@
 &lt;p>02/01/2022&lt;/p>
 &lt;/blockquote>
 &lt;p>Of course I forgot to update the SSE version shenanigans in the Installation instructions and probably caused quite a bit of headache because of that. LOTF 2.x requires the &lt;em>latest&lt;/em> version of Skyrim SE installed in your Steam folder. Thanks to JanuarySnow for reminding me!&lt;/p>
-&lt;h4 id="website-changes-3">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-4">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Fixed a fairly critical oversight, clarified that latest SSE version is required for installing LOTF&lt;/li>
 &lt;/ul>
@@ -1058,7 +1073,7 @@
 &lt;/blockquote>
 &lt;p>So the initial 2.0 release was unplayable, cool.&lt;/p>
 &lt;p>After fixing 2.0 and realising that I was still unable to compile, I found out that at some point I had yeeted my backup of the modified Minimal ENB for Obsidian Weathers that LOTF has been using alongside Wander. I ultimately just reinstalled the preset and applied the tweaks that I still remembered but it&amp;rsquo;s probably not all of them. I honestly don&amp;rsquo;t know. Either way, I recommend The Truth ENB and the only reason it&amp;rsquo;s not the default preset is because it was taken off the Nexus.&lt;/p>
-&lt;h4 id="mod-changes-15">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-16">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Obsidian Weathers and related mods are now actually included&lt;/li>
 &lt;li>Replaced texture BSAs in Stock Game folder with UPOT (Unofficial Performance Optimised Textures)&lt;/li>
@@ -1204,7 +1219,7 @@
 &lt;li>Added The Cause - Rare Curios Patch&lt;/li>
 &lt;li>Added The Cause - Flawed Varla Stone Integration&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-4">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-5">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added references to the new optional profiles.&lt;/li>
 &lt;li>&lt;strong>Customisation:&lt;/strong> Slightly shuffled the contents of this page around.&lt;/li>
@@ -1220,14 +1235,14 @@
 &lt;p>22/11/2021&lt;/p>
 &lt;/blockquote>
 &lt;p>Quick update to fix issues with ENB, it should download properly now. Sorry for the inconvenience!&lt;/p>
-&lt;h4 id="mod-changes-16">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-17">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Compiled with and requiring SSE 1.6.323 (latest)&lt;/li>
 &lt;li>Updated ENBSeries binaries (no version number change)&lt;/li>
 &lt;li>Updated Charge Dialogue Fix to 1.2&lt;/li>
 &lt;li>Updated Assorted Mesh Fixes to 0.34&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-5">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-6">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Updated required version of SSE to 1.6.323 (latest)&lt;/li>
 &lt;/ul>
@@ -1239,7 +1254,7 @@
 &lt;p>&lt;strong>Yes, I intend to update LOTF to SSE 1.6.318 / AE.&lt;/strong> However, quite a few mods need updating first (currently the counter is at 13/40 and rising steadily). For more information on LOTF 2.0 / AE, please check my &lt;a href="https://www.patreon.com/posts/november-2021-58852886">November 2021 Update&lt;/a> post on Patreon.&lt;/p>
 &lt;p>The Immersive HUD MCM is now automated for anyone starting a new game (it does nothing for ongoing playthroughs). I also fixed the moreHUD Settings Loader (made a dumb mistake) so it should work as expected now.&lt;/p>
 &lt;p>&lt;strong>LATE NOTE:&lt;/strong> LOTF 1.6 actually requires Skyrim SE 1.6.318.0 in your own root folder in order to install it. Updated the instructions accordingly.&lt;/p>
-&lt;h4 id="mod-changes-17">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-18">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added SkyUI Ghost Bug Fix&lt;/li>
 &lt;li>Added Animated Static Reload Fix&lt;/li>
@@ -1275,7 +1290,7 @@
 &lt;li>Reduced size of map markers by 25%&lt;/li>
 &lt;li>Changed the Mod Organizer 2 executable icon&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-6">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-7">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Updated link to NVIDIA drivers to point to the English page rather than the German one&lt;/li>
 &lt;li>&lt;strong>Installation:&lt;/strong> Added Microsoft .NET 5.0 to the requirements section&lt;/li>
@@ -1289,7 +1304,7 @@
 &lt;/blockquote>
 &lt;p>This is mostly a maintenance update although I did add the fantastic &lt;strong>CoMAP&lt;/strong> by Jelidity and Parapets as well as a brand-new installation guide. It is much shorter than the previous one on account of the Stock Game Folder system allowing us to skip several steps. It also accounts for the AE downgrade patcher.&lt;/p>
 &lt;p>Please for the love of Talos don&amp;rsquo;t ask me when LOTF will get AE support.&lt;/p>
-&lt;h4 id="mod-changes-18">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-19">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Common Marker Addon Project (CoMAP)&lt;/li>
 &lt;li>Updated SSEEdit to 4.0.4&lt;/li>
@@ -1304,7 +1319,7 @@
 &lt;li>Removed SMIM - Assorted Mesh Fixes Patch (redundant)&lt;/li>
 &lt;li>Actually included the Blended Roads - Simplicity of Snow Patch&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-7">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-8">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Installation:&lt;/strong> Newly added with all instructions for LOTF, including the AE downgrade patcher&lt;/li>
 &lt;li>&lt;strong>Screenshots:&lt;/strong> Added new screenshots and headings for the side bar so the page is easier to navigate&lt;/li>
@@ -1315,7 +1330,7 @@
 &lt;/blockquote>
 &lt;p>The butterfly update: In LOTF 1.4.2, I am adding some mods that improve critters in the world, how they move and where they can land. Did you know that Monarch butterfly wings were &lt;a href="https://staticdelivery.nexusmods.com/mods/110/images/54485-2-1401481905.jpg">upside down&lt;/a> in vanilla?&lt;/p>
 &lt;p>Also you no longer get my custom keybinds. I fixed that.&lt;/p>
-&lt;h4 id="mod-changes-19">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-20">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Umgak&amp;rsquo;s Hanging Elves Ear Mesh Fix&lt;/li>
 &lt;li>Added Wiseman303&amp;rsquo;s Critter Fixes&lt;/li>
@@ -1332,7 +1347,7 @@
 &lt;p>16/10/2021&lt;/p>
 &lt;/blockquote>
 &lt;p>After yesterday&amp;rsquo;s larger update, I have some fixes and previously missed mod updates for you today. Save safe, etc.&lt;/p>
-&lt;h4 id="mod-changes-20">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-21">Mod Changes&lt;/h4>
 &lt;p>Note that I only updated DynDOLOD and the DynDOLOD Resources, but did not regenerate LODs.&lt;/p>
 &lt;ul>
 &lt;li>Updated Skyrim Landscape and Water Fixes to 6.3&lt;/li>
@@ -1358,7 +1373,7 @@
 &lt;li>&lt;strong>Simplicity of Snow&lt;/strong> vastly improves the visuals and logic of projected snow on various objects. As a lightweight replacement for the more involved Better Dynamic Snow and No Snow Under Rooftops mods, it is well suited for LOTF&amp;rsquo;s lightweight nature.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>The latest version of the .NET 5.0 Runtime is required.&lt;/strong> This is because of the Scrambled Bugs update which now relies upon this. Please download it from &lt;a href="https://dotnet.microsoft.com/download/dotnet/5.0/runtime">the official website&lt;/a> and install it before updating LOTF.&lt;/p>
-&lt;h4 id="mod-changes-21">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-22">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added WEBS&lt;/li>
 &lt;li>Added High Gate Ruins Puzzle Reset Fix&lt;/li>
@@ -1389,7 +1404,7 @@
 &lt;li>Fixed a few minor plugin conflicts&lt;/li>
 &lt;li>Regenerated DynDOLOD&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-8">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-9">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Introduction:&lt;/strong> Added a warning about the new requirement of the .NET 5.0 Runtime.&lt;/li>
 &lt;li>&lt;strong>Customisation:&lt;/strong> Updated font replacer instructions, Roboto is now &lt;em>disabled&lt;/em> by default&lt;/li>
@@ -1400,7 +1415,7 @@
 &lt;p>19/09/2021&lt;/p>
 &lt;/blockquote>
 &lt;p>Just a quick update to fix the current issues with downloading ENB and some outputs.&lt;/p>
-&lt;h4 id="mod-changes-22">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-23">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated ENBSeries binaries to 0.463&lt;/li>
 &lt;li>Updated Spell Perk Item Distributor to 5.0.3&lt;/li>
@@ -1413,7 +1428,7 @@
 &lt;p>15/09/2021&lt;/p>
 &lt;/blockquote>
 &lt;p>This is a smaller update and will likely be the last one for the time being. I fixed the message when trying to drop a quest message so it does not just now show the raw string (was missing a dependency), removed the mod causing the purple waterfalls (couldn&amp;rsquo;t be bothered to find the missing texture), updated a bunch of mods, and regenerated TexGen, DynDOLOD, and Occlusion with the latest version of DynDOLOD. I believe LOTF is in a pretty good place for now.&lt;/p>
-&lt;h4 id="mod-changes-23">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-24">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added Scaleform Translation Plus Plus&lt;/li>
 &lt;li>Added LeanWolf&amp;rsquo;s Dawnbreaker ENB meshes&lt;/li>
@@ -1436,7 +1451,7 @@
 &lt;/blockquote>
 &lt;p>After some deliberation, I swapped out the previous skin overhauls (Lucid and Vitruvia) for the Tempered Skins combination. They are closer to vanilla and look better with LOTF&amp;rsquo;s lighting.&lt;/p>
 &lt;p>I also fixed the purple waterfalls and improved the &lt;a href="https://imgsli.com/NzAzOTc">book interface&lt;/a>.&lt;/p>
-&lt;h4 id="mod-changes-24">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-25">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added ENB Helper&lt;/li>
 &lt;li>Added Realistic Paper&lt;/li>
@@ -1454,7 +1469,7 @@
 &lt;li>Generated the Blacksmith Forge Water Patch&lt;/li>
 &lt;li>Regenerated TexGen and DynDOLOD&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-9">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-10">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Customisation:&lt;/strong> Added &amp;ldquo;Change sprinting from toggle to hold&amp;rdquo; option&lt;/li>
 &lt;li>&lt;strong>Documentation:&lt;/strong> Updated accordingly for the recent mod changes.&lt;/li>
@@ -1471,7 +1486,7 @@
 &lt;p>Thankfully, @Shade088 from our Discord server recommended &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/37098">Minimal ENB for Obsidian Weathers&lt;/a> which turns out to be the perfect alternative. It does not affect colours (so you can also use it with any weather mod), but implements all those little improvements that ENB can bring to the table such as ambient occlusion. @Shade088 also provided tweaked water values to hide the distant water seams so I didn&amp;rsquo;t even have to figure these out myself.&lt;/p>
 &lt;p>Since LOTF is using the Stock Game folder system, ENB is already installed for you and you do not have to move any files.&lt;/p>
 &lt;p>&lt;strong>This update is save-safe.&lt;/strong>&lt;/p>
-&lt;h4 id="mod-changes-25">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-26">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Added deorder&amp;rsquo;s MO2 plugins (largely for myself)&lt;/li>
 &lt;li>Added Minimal ENB for Obsidian Weathers&lt;/li>
@@ -1487,7 +1502,7 @@
 &lt;li>Replaced the MO2 splash screen with one specifically made for LOTF&lt;/li>
 &lt;li>Actually hid the terrain LOD files overwriting AQWM&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-10">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-11">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Introduction:&lt;/strong> Removed LOTF in numbers section. No point maintaining this.&lt;/li>
 &lt;li>&lt;strong>Introduction:&lt;/strong> Added ENB Hotkeys section.&lt;/li>
@@ -1502,7 +1517,7 @@
 &lt;p>04/09/2021&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;strong>First public release of LOTF.&lt;/strong>&lt;/p>
-&lt;h4 id="mod-changes-26">Mod Changes&lt;/h4>
+&lt;h4 id="mod-changes-27">Mod Changes&lt;/h4>
 &lt;ul>
 &lt;li>Now using the Stock Game folder system&lt;/li>
 &lt;li>Now packaging all tools with the WJ installer&lt;/li>
@@ -1548,7 +1563,7 @@
 &lt;li>New colour theme for the MO2 separators&lt;/li>
 &lt;li>New MO2 splash screen replacer&lt;/li>
 &lt;/ul>
-&lt;h4 id="website-changes-11">Website Changes&lt;/h4>
+&lt;h4 id="website-changes-12">Website Changes&lt;/h4>
 &lt;ul>
 &lt;li>Updated the Introduction (noted that LOTF uses the Stock Game folder system)&lt;/li>
 &lt;li>Updated the Documentation (removal of Apothecary and Arena, etc).&lt;/li>
