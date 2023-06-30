@@ -1,5 +1,4 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Example Builds</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/</link><description>Recent content in Example Builds on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/skyrim-se/sss/builds/index.xml" rel="self" type="application/rss+xml"/><item><title>Skyrim-Se: Altmer Pilgrim</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/altmer-pilgrim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/altmer-pilgrim/</guid><description>
-&lt;link href="../style.css" rel="stylesheet">&lt;/link>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/builds/altmer-pilgrim.png" alt="Altmer Pilgrim">&lt;/p>
 &lt;p>As a devoted apprentice, you once had a special duty in the Summerset Isles: safeguarding precious artifacts and sacred shrines. When rumors of a brewing war in Skyrim reached your ears, worry gripped your heart. You knew that ancient knowledge and lore existed in faraway lands, and you feared for their safety.&lt;/p>
 &lt;p>To you, it seemed natural to extend your duty beyond the temple and journey into Skyrim. Though the journey was perilous, you believed you were well-prepared. Your way with words and knack for persuasion would secure the necessary funds for your mission. Moreover, your vast knowledge of Tamriel&amp;rsquo;s history made you confident in your ability to navigate Skyrim&amp;rsquo;s troubled politics and society.&lt;/p>
@@ -241,26 +240,26 @@ Honestly any and all Circle spells are your friend here. Vitality and Strength e
 &lt;h4 id="dragon-aspectsupdbsup">Dragon Aspect&lt;sup>DB&lt;/sup>&lt;/h4>
 &lt;p>&lt;em>Cooldown: 180/240/300 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="MUL">MUL&lt;/span> &lt;strong>Mul:&lt;/strong> &lt;em>Increases Armor Rating by 50 for 600 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="Qah">Q4&lt;/span> &lt;strong>Qah:&lt;/strong> &lt;em>Increases Armor Rating by 100 for 600 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="DiiV">D3V&lt;/span> &lt;strong>Diiv:&lt;/strong> &lt;em>Increases Armor Rating by 100 and Magic Resistance by 25% for 600 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Mul:&lt;/strong> &lt;em>Increases Armor Rating by 50 for 600 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Qah:&lt;/strong> &lt;em>Increases Armor Rating by 100 for 600 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Diiv:&lt;/strong> &lt;em>Increases Armor Rating by 100 and Magic Resistance by 25% for 600 seconds.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>You&amp;rsquo;re a pretty stalwart fighter and this shout makes you even moreso. The meditation will remove the shout cooldown completely, and &lt;em>Epistolary Acumen&lt;/em> can bolster it further however you need.&lt;/p>
 &lt;h4 id="marked-for-death">Marked for Death&lt;/h4>
 &lt;p>&lt;em>Cooldown: 60/90/120 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="KRii">KR3&lt;/span> &lt;strong>Krii:&lt;/strong> &lt;em>Reduces enemy Health by 50 and Armor Rating by 50 for 30 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="LUN">LUN&lt;/span> &lt;strong>Lun:&lt;/strong> &lt;em>Reduces enemy Health by 75 and Armor Rating by 100 for 30 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="AUS">AUS&lt;/span> &lt;strong>Aus:&lt;/strong> &lt;em>Reduces enemy Health by 100 and Armor Rating by 150 for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Krii:&lt;/strong> &lt;em>Reduces enemy Health by 50 and Armor Rating by 50 for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Lun:&lt;/strong> &lt;em>Reduces enemy Health by 75 and Armor Rating by 100 for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Aus:&lt;/strong> &lt;em>Reduces enemy Health by 100 and Armor Rating by 150 for 30 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Marked for Death reduces enemy Magic Resistance by up to 25%.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>Your mace already strips the enemy of their armor for more damage, it only makes sense to reduce it even further.&lt;/p>
 &lt;h4 id="unrelenting-force">Unrelenting Force&lt;/h4>
 &lt;p>&lt;em>Cooldown: 10/20/30 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="FUS">FUS&lt;/span> &lt;strong>Fus:&lt;/strong> &lt;em>Deals a 75% stagger to enemies.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="RO">RO&lt;/span> &lt;strong>Ro:&lt;/strong> &lt;em>Deals a 100% stagger to enemies.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="Dah">D4&lt;/span> &lt;strong>Dah:&lt;/strong> &lt;em>Deals a 100% stagger and ragdolls enemies.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fus:&lt;/strong> &lt;em>Deals a 75% stagger to enemies.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Ro:&lt;/strong> &lt;em>Deals a 100% stagger to enemies.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Dah:&lt;/strong> &lt;em>Deals a 100% stagger and ragdolls enemies.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Unrelenting Force deals additional damage and breaks through wards.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>The very first shout you&amp;rsquo;ll have in your arsenal and one of your best. With the &lt;em>Bell Ringer&lt;/em> perk you&amp;rsquo;ll do at least 25% extra damage to those staggered by this shout.&lt;/p>
@@ -327,7 +326,6 @@ Honestly any and all Circle spells are your friend here. Vitality and Strength e
 &lt;/ul>
 &lt;p>Another place to boost your main source of damage. Ideally you have 75% Magic Resistance from your other slots. If so, you can boost an elemental resistance. If not, consider &lt;em>Resist Magic&lt;/em> here as well. If for whatever reason you don&amp;rsquo;t have either enchantment, boosting your buff durations even longer is always an option.&lt;/p>
 &lt;/details></description></item><item><title>Skyrim-Se: Argonian Agent</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/argonian-agent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/argonian-agent/</guid><description>
-&lt;link href="../style.css" rel="stylesheet">&lt;/link>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/builds/argonian-agent.png" alt="Argonian Agent">&lt;/p>
 &lt;p>In the land of Skyrim, a great conflict raged between Ulfric Stormcloak and the Imperials. Ulfric was a powerful figure who believed that certain people, like the Argonians, should not be allowed to live within the protective walls of Windhelm. As an Argonian, you were treated as a lesser citizen, and if Ulfric&amp;rsquo;s side won the war, you feared you might not be considered a citizen at all.&lt;/p>
 &lt;p>Your life was a struggle, barely qualifying as a life. Sometimes you were made to carry heavy loads for the city, like a pack mule. Many turned to skooma, a dangerous substance that made you useless to the Nords. You preferred the laborious work at the docks, hoping for a chance to escape this difficult existence and find something better.&lt;/p>
@@ -605,27 +603,27 @@ If reverse pickpocket isn&amp;rsquo;t possible you&amp;rsquo;ll still be in rang
 &lt;h4 id="kynes-peace">Kyne&amp;rsquo;s Peace&lt;/h4>
 &lt;p>&lt;em>Cooldown: 60/90/120 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="KaaN">K1N&lt;/span> &lt;strong>Kaan:&lt;/strong> &lt;em>Calms targets up to level 20 for 30 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="DREM">DREM&lt;/span> &lt;strong>Drem:&lt;/strong> &lt;em>Calms targets up to level 30 for 30 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="OV">OV&lt;/span> &lt;strong>Ov:&lt;/strong> &lt;em>Calms targets up to level 40 for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Kaan:&lt;/strong> &lt;em>Calms targets up to level 20 for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Drem:&lt;/strong> &lt;em>Calms targets up to level 30 for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Ov:&lt;/strong> &lt;em>Calms targets up to level 40 for 30 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Kyne’s Peace works on the undead, Daedra, and Dwarven automatons.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>An alternative to &lt;em>Bend Will&lt;/em> that&amp;rsquo;s easier to access. Calming an enemy will give you a chance to hide and reset the situation when it goes off the rails.&lt;/p>
 &lt;h4 id="poison-breath">Poison Breath&lt;/h4>
 &lt;p>&lt;em>Cooldown: 60/90/120 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="LaaS">L1S&lt;/span> &lt;strong>Laas:&lt;/strong> &lt;em>Deals 7.5 Poison damage per second for 10 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="SLEN">SLEN&lt;/span> &lt;strong>Slen:&lt;/strong> &lt;em>Deals 11.25 Poison damage per second for 10 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="AUS">AUS&lt;/span> &lt;strong>Aus:&lt;/strong> &lt;em>Deals 15 Poison damage per second for 10 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Laas:&lt;/strong> &lt;em>Deals 7.5 Poison damage per second for 10 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Slen:&lt;/strong> &lt;em>Deals 11.25 Poison damage per second for 10 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Aus:&lt;/strong> &lt;em>Deals 15 Poison damage per second for 10 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Poison Breath deals double damage to enemies who fall below half Health.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>Thematically perfect for a poison master and not a bad panic button to hit whenever enemies detect you and get in your face.&lt;/p>
 &lt;h4 id="slow-time">Slow Time&lt;/h4>
 &lt;p>&lt;em>Cooldown: 180/240/300 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="TiiD">T3D&lt;/span> &lt;strong>Tiid:&lt;/strong> &lt;em>Slows time by 50% for 10 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="KLO">KLO&lt;/span> &lt;strong>Klo:&lt;/strong> &lt;em>Slows time by 50% for 20 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="UL">UL&lt;/span> &lt;strong>Ul:&lt;/strong> &lt;em>Slows time by 50% for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Tiid:&lt;/strong> &lt;em>Slows time by 50% for 10 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Klo:&lt;/strong> &lt;em>Slows time by 50% for 20 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Ul:&lt;/strong> &lt;em>Slows time by 50% for 30 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> Slow Time is twice as strong.&lt;/li>
 &lt;/ul>
 &lt;p>Slow Time&amp;rsquo;s effect doesn&amp;rsquo;t cover damage over time such as poison, which is the majority of your damage. In other words, this shout makes your poison work through your victims at an accelerated pace while helping you sidestep pretty much anything coming your way.&lt;/p>
@@ -685,7 +683,6 @@ If reverse pickpocket isn&amp;rsquo;t possible you&amp;rsquo;ll still be in rang
 &lt;/ul>
 &lt;p>Unfortunately for you, the ring slot is capable of fortifying all of your key skills. If it&amp;rsquo;s a tough decision on which one you go with, think about the method with which you kill the most enemies.&lt;/p>
 &lt;/details></description></item><item><title>Skyrim-Se: Bosmer Mage</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/bosmer-mage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/bosmer-mage/</guid><description>
-&lt;link href="../style.css" rel="stylesheet">&lt;/link>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/builds/bosmer-mage.png" alt="Bosmer Mage">&lt;/p>
 &lt;h2 id="backstory">Backstory&lt;/h2>
 &lt;p>In the ancient land of Valenwood, your home, you grew up following the Green Pact. This sacred code forbade the consumption of plant materials. But your insatiable curiosity questioned its wisdom. Why could you not pluck a flower for its healing properties, while traders could sell the same clipping without consequence? These inquiries branded you an oath-breaker, and you were cast out.&lt;/p>
@@ -928,7 +925,6 @@ The area spells behave a little differently from each other but they&amp;rsquo;r
 A late addition to your toolkit but a good one. &lt;em>Wall of Frost&lt;/em> is especially useful as it will also slow anyone who walks through the wall approaching you, giving you an opportunity to widen the distance.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;img align="right" width="100" height="100" src="https://thephoenixflavour.com/Pictures/sss/builds/skill-restoration.webp">
 &lt;/details>
 &lt;h2 id="dragon-shouts">Dragon Shouts&lt;/h2>
 &lt;blockquote>
@@ -938,27 +934,27 @@ A late addition to your toolkit but a good one. &lt;em>Wall of Frost&lt;/em> is 
 &lt;h4 id="animal-ally">Animal Ally&lt;/h4>
 &lt;p>&lt;em>Cooldown: 60/90/120 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="RaaN">R1N&lt;/span> &lt;strong>Raan:&lt;/strong> &lt;em>Summons a wolf for 60 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="Mir">M7&lt;/span> &lt;strong>Mir:&lt;/strong> &lt;em>Summons a sabre cat for 60 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="Tah">T4&lt;/span> &lt;strong>Tah:&lt;/strong> &lt;em>Summons a bear for 60 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Raan:&lt;/strong> &lt;em>Summons a wolf for 60 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Mir:&lt;/strong> &lt;em>Summons a sabre cat for 60 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Tah:&lt;/strong> &lt;em>Summons a bear for 60 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Your Animal Ally&amp;rsquo;s Armor Rating is increased by 150, and their Magic Resistance is increased by 25%.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>A facsimile of the vanilla &lt;em>Command Animal&lt;/em> power Bosmer had that&amp;rsquo;s useful for keeping some distance between you and your enemies in a fight.&lt;/p>
 &lt;h4 id="dismay">Dismay&lt;/h4>
 &lt;p>&lt;em>Cooldown: 60/90/120 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="FaaS">F1S&lt;/span> &lt;strong>Faas:&lt;/strong> &lt;em>Living targets up to level 20 flee combat for 30 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="RU">RU&lt;/span> &lt;strong>Ru:&lt;/strong> &lt;em>Living targets up to level 30 flee combat for 30 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="MaaR">M1R&lt;/span> &lt;strong>Maar:&lt;/strong> &lt;em>Living targets up to level 40 flee combat for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Faas:&lt;/strong> &lt;em>Living targets up to level 20 flee combat for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Ru:&lt;/strong> &lt;em>Living targets up to level 30 flee combat for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Maar:&lt;/strong> &lt;em>Living targets up to level 40 flee combat for 30 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Dismay works on the undead, Daedra, and Dwarven automatons.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>Sometimes raining down chaos alone doesn&amp;rsquo;t instill the panic you were hoping for. Use this to encourage your victims into the right mindset.&lt;/p>
 &lt;h4 id="soul-tearsupdgsup">Soul Tear&lt;sup>DG&lt;/sup>&lt;/h4>
 &lt;p>&lt;em>Cooldown: 120/150/180 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="Rii">R3&lt;/span> &lt;strong>Rii:&lt;/strong> &lt;em>Deals 5 Magic damage per second for 10 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="VaaZ">V1Z&lt;/span> &lt;strong>Vaaz:&lt;/strong> &lt;em>Deals 7.5 Magic damage per second for 10 seconds. If the target dies, fills a soul gem.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="ZOL">ZOL&lt;/span> &lt;strong>Zol:&lt;/strong> &lt;em>Deals 10 Magic damage per second for 10 seconds. If the target dies, fills a soul gem and reanimates their corpse.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Rii:&lt;/strong> &lt;em>Deals 5 Magic damage per second for 10 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Vaaz:&lt;/strong> &lt;em>Deals 7.5 Magic damage per second for 10 seconds. If the target dies, fills a soul gem.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Zol:&lt;/strong> &lt;em>Deals 10 Magic damage per second for 10 seconds. If the target dies, fills a soul gem and reanimates their corpse.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Soul Tear deals extra damage over 10 seconds.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>This fills a void left by your perk selection. Damage combined with a Soul Trap effect allows you to fill your gems without swapping staves. With the final word you can turn your victims into allies which is also thematic for a vampire.&lt;/p>
@@ -1015,7 +1011,6 @@ A late addition to your toolkit but a good one. &lt;em>Wall of Frost&lt;/em> is 
 &lt;/ul>
 &lt;p>This slot is even more competitive than the necklace. Again, a boost to your bread and butter can not be ignored, but there&amp;rsquo;s another damage boost to be had. If you can&amp;rsquo;t take advantage of those two, remaining hidden is a high priority.&lt;/p>
 &lt;/details></description></item><item><title>Skyrim-Se: Breton Warrior</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/breton-warrior/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/breton-warrior/</guid><description>
-&lt;link href="../style.css" rel="stylesheet">&lt;/link>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/builds/breton-warrior.png" alt="Breton Warrior">&lt;/p>
 &lt;p>In the city of Evermore, you were born into a noble family, carrying the weight of certain expectations. Being the third child, one of these expectations was to bring honor to your family by serving in a knightly order. Your education was a whirlwind of lessons, ranging from studying the history of Tamriel to learning archery, finances, swordsmanship, and even the magical arts.&lt;/p>
 &lt;p>But becoming a knight didn&amp;rsquo;t happen as you hoped. The years passed, and the orders overlooked you. They believed you needed to improve your skills before seeking membership again. To you, that meant finding a real battlefield to test yourself, rather than the staged skirmishes at the provincial borders.&lt;/p>
@@ -1255,27 +1250,27 @@ With your defenses, Health pool, and Natural Health regeneration, sometimes it w
 &lt;h4 id="dragon-aspectsupdbsup">Dragon Aspect&lt;sup>DB&lt;/sup>&lt;/h4>
 &lt;p>&lt;em>Cooldown: 180/240/300 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="MUL">MUL&lt;/span> &lt;strong>Mul:&lt;/strong> &lt;em>Increases Armor Rating by 50 for 600 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="Qah">Q4&lt;/span> &lt;strong>Qah:&lt;/strong> &lt;em>Increases Armor Rating by 100 for 600 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="DiiV">D3V&lt;/span> &lt;strong>Diiv:&lt;/strong> &lt;em>Increases Armor Rating by 100 and Magic Resistance by 25% for 600 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Mul:&lt;/strong> &lt;em>Increases Armor Rating by 50 for 600 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Qah:&lt;/strong> &lt;em>Increases Armor Rating by 100 for 600 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Diiv:&lt;/strong> &lt;em>Increases Armor Rating by 100 and Magic Resistance by 25% for 600 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Dragon Aspect does not trigger a Shout cooldown.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>The perfect defensive shout for a defensive warrior. Extra Armor Rating in its first two words and then a lovely amount of Magic Resistance with its final word. Add the meditation and it becomes completely free to use. The only downside is how hard it is to obtain.&lt;/p>
 &lt;h4 id="lightning-breath">Lightning Breath&lt;/h4>
 &lt;p>&lt;em>Cooldown: 60/90/120 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="STRUN">STRUN&lt;/span> &lt;strong>Strun:&lt;/strong> &lt;em>Deals 50 Shock damage to Health and Magicka.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="GaaR">G1R&lt;/span> &lt;strong>Gaar:&lt;/strong> &lt;em>Deals 75 Shock damage to Health and Magicka.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="KEST">KEST&lt;/span> &lt;strong>Kest:&lt;/strong> &lt;em>Deals 100 Shock damage to Health and Magicka.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Strun:&lt;/strong> &lt;em>Deals 50 Shock damage to Health and Magicka.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Gaar:&lt;/strong> &lt;em>Deals 75 Shock damage to Health and Magicka.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Kest:&lt;/strong> &lt;em>Deals 100 Shock damage to Health and Magicka.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Lightning Breath deals extra Magicka damage over 30 seconds.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>The warrior lacks ranged options, making them especially vulnerable to enemies who cast spells at a distance. Lightning Breath works to drain them of Magicka to use for that, especially so with the meditation.&lt;/p>
 &lt;h4 id="subdue">Subdue&lt;/h4>
 &lt;p>&lt;em>Cooldown: 60/90/120 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="ZUN">ZUN&lt;/span> &lt;strong>Zun:&lt;/strong> &lt;em>Reduces enemy weapon damage by 25% for 20 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="HaaL">H1L&lt;/span> &lt;strong>Haal:&lt;/strong> &lt;em>Reduces enemy weapon damage by 25% for 40 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="ViiK">V3K&lt;/span> &lt;strong>Viik:&lt;/strong> &lt;em>Reduces enemy weapon damage by 25% for 60 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Zun:&lt;/strong> &lt;em>Reduces enemy weapon damage by 25% for 20 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Haal:&lt;/strong> &lt;em>Reduces enemy weapon damage by 25% for 40 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Viik:&lt;/strong> &lt;em>Reduces enemy weapon damage by 25% for 60 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Subdue reduces enemy weapon damage by an additional 25%.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>You&amp;rsquo;re already quite sturdy but robbing your opponents of their weapon damage makes you that much more durable. Consider this your bread and butter shout to use in boss rooms to make sure you aren&amp;rsquo;t overpowered.&lt;/p>
@@ -1342,7 +1337,6 @@ With your defenses, Health pool, and Natural Health regeneration, sometimes it w
 &lt;/ul>
 &lt;p>A boost to your main damage source is always worth taking. Standing toe to toe with enemies is a great way of contracting diseases. If you don&amp;rsquo;t have resistance from another source, consider this enchantment or a lot of &lt;em>Potions of Cure Disease&lt;/em> are in your future.&lt;/p>
 &lt;/details></description></item><item><title>Skyrim-Se: Dunmer Monk</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/dunmer-monk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/dunmer-monk/</guid><description>
-&lt;link href="../style.css" rel="stylesheet">&lt;/link>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/builds/dunmer-monk.png" alt="Dunmer Battlemage">&lt;/p>
 &lt;h2 id="backstory">Backstory&lt;/h2>
 &lt;p>In the days of old, when Hosgunn Crossed-Daggers became Jarl of Riften, your heart was burdened with memories of the chaos that ensued. The city you once called home had turned into a place of unrest and despair. The protests erupted like wildfire, curfews gripped the streets, and whispers of hasty executions permeated the taverns. It became clear to you that the city was plagued by a sickness that couldn&amp;rsquo;t be ignored. And so, with a heavy heart, you made the decision to leave.&lt;/p>
@@ -1617,27 +1611,27 @@ Without Alchemy or Restoration your biggest hurdle might be healing yourself. Th
 &lt;h4 id="drain-vitalitysupdgsup">Drain Vitality&lt;sup>DG&lt;/sup>&lt;/h4>
 &lt;p>&lt;em>Cooldown: 60/90/120 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="GaaN">G1N&lt;/span> &lt;strong>Gaan:&lt;/strong> &lt;em>Absorbs 5 Magicka per second for 30 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="Lah">L4&lt;/span> &lt;strong>Lah:&lt;/strong> &lt;em>Absorbs 5 Magicka and Stamina per second for 30 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="HaaS">H1S&lt;/span> &lt;strong>Haas:&lt;/strong> &lt;em>Absorbs 5 Health, Magicka, and Stamina per second for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Gaan:&lt;/strong> &lt;em>Absorbs 5 Magicka per second for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Lah:&lt;/strong> &lt;em>Absorbs 5 Magicka and Stamina per second for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Haas:&lt;/strong> &lt;em>Absorbs 5 Health, Magicka, and Stamina per second for 30 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Drain Vitality absorbs twice as much Health, Magicka, and Stamina.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>An alternative to the &lt;em>Vampiric&lt;/em> spells if you want to keep your hands empty. The meditation will double its effect, vastly improving your endurance in combat at the expense of your enemies.&lt;/p>
 &lt;h4 id="elemental-fury">Elemental Fury&lt;/h4>
 &lt;p>&lt;em>Cooldown: 60/90/120 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="SU">SU&lt;/span> &lt;strong>Su:&lt;/strong> &lt;em>Move and attack 10% faster for 30 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="GRah">GR4&lt;/span> &lt;strong>Grah:&lt;/strong> &lt;em>Move and attack 15% faster for 30 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="DUN">DUN&lt;/span> &lt;strong>Dun:&lt;/strong> &lt;em>Move and attack 20% faster for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Su:&lt;/strong> &lt;em>Move and attack 10% faster for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Grah:&lt;/strong> &lt;em>Move and attack 15% faster for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Dun:&lt;/strong> &lt;em>Move and attack 20% faster for 30 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Elemental Fury reduces the cost of power attacking and drawing a bow by 25%.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>Increased mobility is right up the monk&amp;rsquo;s alley and extra attack speed is icing on the cake. The meditation is only useful if you couldn&amp;rsquo;t resist the urge to pick up a bow.&lt;/p>
 &lt;h4 id="fire-breath">Fire Breath&lt;/h4>
 &lt;p>&lt;em>Cooldown: 30/45/60 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="YOL">YOL&lt;/span> &lt;strong>Yol:&lt;/strong> &lt;em>Deals 50 Fire damage. Enemies on fire take extra damage over time.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="TooR">T8R&lt;/span> &lt;strong>Toor:&lt;/strong> &lt;em>Deals 75 Fire damage. Enemies on fire take extra damage over time.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="SHUL">SHUL&lt;/span> &lt;strong>Shul:&lt;/strong> &lt;em>Deals 100 Fire damage. Enemies on fire take extra damage over time.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Yol:&lt;/strong> &lt;em>Deals 50 Fire damage. Enemies on fire take extra damage over time.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Toor:&lt;/strong> &lt;em>Deals 75 Fire damage. Enemies on fire take extra damage over time.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Shul:&lt;/strong> &lt;em>Deals 100 Fire damage. Enemies on fire take extra damage over time.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Fire Breath ignites enemies and leaves a trail of fire on the ground.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>This does not benefit from your Destruction perks but it&amp;rsquo;s still the most suitable offensive shout you can choose from. The flame trails left by the meditation won&amp;rsquo;t bother you much at all with natural resistance and Fire Shell.&lt;/p>
@@ -1690,7 +1684,6 @@ Without Alchemy or Restoration your biggest hurdle might be healing yourself. Th
 &lt;/ul>
 &lt;p>A very contested enchantment slot for the monk. Both of your damage boosts are options here alongside all the resists. Grab what you can and play it by ear as you reach plateaus. Or carry multiple rings for multiple situations.&lt;/p>
 &lt;/details></description></item><item><title>Skyrim-Se: Imperial Thief</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/imperial-thief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/imperial-thief/</guid><description>
-&lt;link href="../style.css" rel="stylesheet">&lt;/link>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/builds/imperial-thief.png" alt="Imperial Thief">&lt;/p>
 &lt;p>In the busy city of Cyrodiil, where you were born and grew up, your heart yearned for adventure and mischief. Though your parents owned a hunting store called The Falcon&amp;rsquo;s Roost, they insisted you help them instead of exploring the world beyond. Many believed your charm would make you a successful merchant, but you craved something more thrilling than the mundane life within the city walls.&lt;/p>
 &lt;p>When news of a civil war reached you, an idea sparked in your mind. You packed a bag, slung a bow across your shoulder, and set off towards the north. Along the way, you practiced with the tools you used to sell, pretending to be a skilled woodsman. You hoped to reach Skyrim, where the chaos of the war between the Stormcloaks and the Imperial Legion could provide cover for your secret plans.&lt;/p>
@@ -1927,27 +1920,27 @@ Turning one enemy against their friends does wonders for thinning the herd. Just
 &lt;h4 id="battle-fury">Battle Fury&lt;/h4>
 &lt;p>&lt;em>Cooldown: 60/90/120 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="MID">MID&lt;/span> &lt;strong>Raan:&lt;/strong> &lt;em>All nearby allies move and attack 10% faster for 60 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="Vur">V6&lt;/span> &lt;strong>Mir:&lt;/strong> &lt;em>All nearby allies move and attack 15% faster for 60 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="SH1N">SH1N&lt;/span> &lt;strong>Shaan:&lt;/strong> &lt;em>All nearby allies move and attack 20% faster for 60 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Raan:&lt;/strong> &lt;em>All nearby allies move and attack 10% faster for 60 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Mir:&lt;/strong> &lt;em>All nearby allies move and attack 15% faster for 60 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Shaan:&lt;/strong> &lt;em>All nearby allies move and attack 20% faster for 60 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Battle Fury increases the Armor Rating of all nearby allies by up to 150.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>Another buff to add on top of &lt;em>Courage&lt;/em> and your bard song. Even better if you have more than one ally, but even with just a follower this can greatly improve their effectiveness in combat.&lt;/p>
 &lt;h4 id="become-ethereal">Become Ethereal&lt;/h4>
 &lt;p>&lt;em>Cooldown: 60/90/120 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="FeiM">F2M&lt;/span> &lt;strong>Feim:&lt;/strong> &lt;em>You become ethereal for 10 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="Zii">Z3&lt;/span> &lt;strong>Zii:&lt;/strong> &lt;em>You become ethereal for 20 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="GRON">GRON&lt;/span> &lt;strong>Gron:&lt;/strong> &lt;em>You become ethereal for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Feim:&lt;/strong> &lt;em>You become ethereal for 10 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Zii:&lt;/strong> &lt;em>You become ethereal for 20 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Gron:&lt;/strong> &lt;em>You become ethereal for 30 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Become Ethereal restores Health over time.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>If the action gets too hot, use this to guarantee some safety and reposition as needed. With meditation it can also be used to restore Health whenever you need.&lt;/p>
 &lt;h4 id="call-dragon">Call Dragon&lt;/h4>
 &lt;p>&lt;em>Cooldown: 5/10/300 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="OD">OD&lt;/span> &lt;strong>Od:&lt;/strong> &lt;em>No effect.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="ah">4&lt;/span> &lt;strong>Ah:&lt;/strong> &lt;em>No effect.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="ViiNG">V3NG&lt;/span> &lt;strong>Viing:&lt;/strong> &lt;em>Summons Odahviing.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Od:&lt;/strong> &lt;em>No effect.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Ah:&lt;/strong> &lt;em>No effect.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Viing:&lt;/strong> &lt;em>Summons Odahviing.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>This is quite situational as you need to complete the main quest and it only works outdoors, but it&amp;rsquo;s perfect for difficult fights such as other dragons. An essential ally that lasts until the fight&amp;rsquo;s over? Summon him, buff him up, and get out of his way.&lt;/p>
 &lt;/details>
@@ -2006,7 +1999,6 @@ Turning one enemy against their friends does wonders for thinning the herd. Just
 &lt;/ul>
 &lt;p>A very contested slot, you&amp;rsquo;ll want to give priority to &lt;em>Fortify Sneak Attacks&lt;/em>. The other options are nice icing on the cake but nothing trumps your desire to take enemies out of the equation with as few arrows as possible.&lt;/p>
 &lt;/details></description></item><item><title>Skyrim-Se: Khajiit Deathknight</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/khajiit-deathknight/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/khajiit-deathknight/</guid><description>
-&lt;link href="../style.css" rel="stylesheet">&lt;/link>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/builds/khajiit-deathknight.png" alt="Khajiit Deatthknight">&lt;/p>
 &lt;h2 id="backstory">Backstory&lt;/h2>
 &lt;p>Since you can remember, people called you a &amp;ldquo;stray cat.&amp;rdquo; The Nords who said those words were mean and unkind. You&amp;rsquo;re an orphan, far away from your supposed home in Elsweyr, a place you know nothing about. Instead, you&amp;rsquo;re familiar with Markarth&amp;rsquo;s tall stone walls, the bustling markets of Whiterun, and the gentle breeze in the Rift. Skyrim feels like your home, but no matter where you go, you&amp;rsquo;re always seen as an outsider.&lt;/p>
@@ -2265,27 +2257,27 @@ Especially potent if you went the Mannimarco route, this will keep your horde mo
 &lt;h4 id="battle-fury">Battle Fury&lt;/h4>
 &lt;p>&lt;em>Cooldown: 60/90/120 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="MID">MID&lt;/span> &lt;strong>Raan:&lt;/strong> &lt;em>All nearby allies move and attack 10% faster for 60 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="Vur">V6&lt;/span> &lt;strong>Mir:&lt;/strong> &lt;em>All nearby allies move and attack 15% faster for 60 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="SH1N">SH1N&lt;/span> &lt;strong>Shaan:&lt;/strong> &lt;em>All nearby allies move and attack 20% faster for 60 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Raan:&lt;/strong> &lt;em>All nearby allies move and attack 10% faster for 60 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Mir:&lt;/strong> &lt;em>All nearby allies move and attack 15% faster for 60 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Shaan:&lt;/strong> &lt;em>All nearby allies move and attack 20% faster for 60 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Battle Fury increases the Armor Rating of all nearby allies by up to 150.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>Your minions count as allies and they tend to carry weapons. A 20% boost is nothing to sneeze at, especially with a 50% or better uptime. The meditation adds a substaintial amount of armor to them all as well.&lt;/p>
 &lt;h4 id="soul-tearsupdgsup">Soul Tear&lt;sup>DG&lt;/sup>&lt;/h4>
 &lt;p>&lt;em>Cooldown: 120/150/180 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="Rii">R3&lt;/span> &lt;strong>Rii:&lt;/strong> &lt;em>Deals 5 Magic damage per second for 10 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="VaaZ">V1Z&lt;/span> &lt;strong>Vaaz:&lt;/strong> &lt;em>Deals 7.5 Magic damage per second for 10 seconds. If the target dies, fills a soul gem.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="ZOL">ZOL&lt;/span> &lt;strong>Zol:&lt;/strong> &lt;em>Deals 10 Magic damage per second for 10 seconds. If the target dies, fills a soul gem and reanimates their corpse.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Rii:&lt;/strong> &lt;em>Deals 5 Magic damage per second for 10 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Vaaz:&lt;/strong> &lt;em>Deals 7.5 Magic damage per second for 10 seconds. If the target dies, fills a soul gem.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Zol:&lt;/strong> &lt;em>Deals 10 Magic damage per second for 10 seconds. If the target dies, fills a soul gem and reanimates their corpse.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Soul Tear deals extra damage over 10 seconds.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>Damages enemies, fills your soul gems, and can raise a corpse automatically for you with the 3rd word? Talk about efficiency! Don&amp;rsquo;t hesitate to open up encounters with this one as you&amp;rsquo;ll turn an enemy on their friends.&lt;/p>
 &lt;h4 id="summon-durnehviirsupdgsup">Summon Durnehviir&lt;sup>DG&lt;/sup>&lt;/h4>
 &lt;p>&lt;em>Cooldown: 5/10/300 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="Dur">D6&lt;/span> &lt;strong>Dur:&lt;/strong> &lt;em>No effect.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="NEH">NEH&lt;/span> &lt;strong>Neh:&lt;/strong> &lt;em>No effect.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="ViiR">V3R&lt;/span> &lt;strong>Viir:&lt;/strong> &lt;em>Summons Durnehviir.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Dur:&lt;/strong> &lt;em>No effect.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Neh:&lt;/strong> &lt;em>No effect.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Viir:&lt;/strong> &lt;em>Summons Durnehviir.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>Your whole schtick is using what you find and you found a dragon. Better yet, you found a dragon that can summon more allies to fight alongside you. Use this for the hard fights, just remember that Durnehviir counts towards your summon limit when you think of reanimating anything else.&lt;/p>
 &lt;/details>
@@ -2344,7 +2336,6 @@ Especially potent if you went the Mannimarco route, this will keep your horde mo
 &lt;/ul>
 &lt;p>If you don&amp;rsquo;t have disease resistance elsewhere in the build, grab it. Otherwise, boost your main source of damage or bolster your magic defense.&lt;/p>
 &lt;/details></description></item><item><title>Skyrim-Se: Nord Witchhunter</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/nord-witchhunter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/nord-witchhunter/</guid><description>
-&lt;link href="../style.css" rel="stylesheet">&lt;/link>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/builds/nord-witchhunter.png" alt="Nord Witchhunter">&lt;/p>
 &lt;h2 id="backstory">Backstory&lt;/h2>
 &lt;p>Your family has an ancient lineage, stretching back to the days of Uriel Septim VI. They were esteemed residents of Winterhold, where they served Ulfe Gersen with honor and rose to prominence. In those times, they embraced magic without fear, wielding spells as Nords now wield their sturdy steel axes. But as the years passed, an aversion to magic took root, triggered by the catastrophic Great Collapse. This event shattered your family&amp;rsquo;s peaceful existence, forcing them to abandon their cherished home and endure hardships throughout the empire. Your parents remain tight-lipped about those tumultuous times, although a few prized possessions they managed to retain ignite your curiosity about what once was.&lt;/p>
@@ -2352,7 +2343,7 @@ Especially potent if you went the Mannimarco route, this will keep your horde mo
 &lt;p>You find yourself torn between the allure of rediscovering your family&amp;rsquo;s history and the urgent call to serve your homeland. The path ahead is treacherous and uncertain, with perils awaiting at every turn. Yet, armed with the stories of your ancestors and the remnants of their magical legacy, you are determined to carve out your destiny amidst the chaos and strife that awaits in Skyrim.&lt;/p>
 &lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
-&lt;li>&lt;strong>Complexity:&lt;/strong> Low&lt;/li>
+&lt;li>&lt;strong>Complexity:&lt;/strong> Moderate&lt;/li>
 &lt;li>&lt;strong>Race:&lt;/strong> &lt;a href="##" title="Major Skill: Two-handed
 Minor Skills: Block, Heavy Armor, Light Armor, Smithing, Speech
 Nordic Heritage: Your Frost Resistance is increased by 50%, and you take 25% less damage while power attacking, drawing a bow, or casting a spell.">Nord&lt;/a>&lt;/li>
@@ -2366,9 +2357,9 @@ Nordic Heritage: Your Frost Resistance is increased by 50%, and you take 25% les
 &lt;li>&lt;strong>Attributes:&lt;/strong>&lt;br>
 Stamina will be vital in consistently firing your bow and sprinting to safer locations if the enemy gets close. Also, the boost in Magicka from the Atronach Stone allows you to focus your points elsewhere.
 &lt;ul>
-&lt;li>&lt;strong>Health:&lt;/strong> 3 (30%)&lt;/li>
-&lt;li>&lt;strong>Magicka:&lt;/strong> 2 (25%)&lt;/li>
-&lt;li>&lt;strong>Stamina:&lt;/strong> 4 (45%)&lt;/li>
+&lt;li>&lt;strong>Health:&lt;/strong> 3&lt;/li>
+&lt;li>&lt;strong>Magicka:&lt;/strong> 2&lt;/li>
+&lt;li>&lt;strong>Stamina:&lt;/strong> 4&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -2603,26 +2594,26 @@ Due to your atronach&amp;rsquo;s resistance you can freely cast this in an area 
 &lt;h4 id="call-of-valor">Call of Valor&lt;/h4>
 &lt;p>&lt;em>Cooldown: 180/180/180 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="HUN">HUN&lt;/span> &lt;strong>Hun:&lt;/strong> &lt;em>Summons Gormlaith Golden-Hilt for 60 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="KaaL">K1L&lt;/span> &lt;strong>Kaal:&lt;/strong> &lt;em>Summons Felldir the Old for 60 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="ZooR">Z8R&lt;/span> &lt;strong>Zoor:&lt;/strong> &lt;em>Summons Hakon One-Eye for 60 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Hun:&lt;/strong> &lt;em>Summons Gormlaith Golden-Hilt for 60 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Kaal:&lt;/strong> &lt;em>Summons Felldir the Old for 60 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Zoor:&lt;/strong> &lt;em>Summons Hakon One-Eye for 60 seconds.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>Frost Atronachs are great but Nord heroes are even better and still in theme. Since they count towards the same conjuration limit, this is a good backup plan should you be short on magicka for summoning. They have access to shouts such as &lt;em>Unrelenting Force&lt;/em> so they can sometimes be a better ally for crowd control than your usual ally.&lt;/p>
 &lt;h4 id="frost-breath">Frost Breath&lt;/h4>
 &lt;p>&lt;em>Cooldown: 30/45/60 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="FO">FO&lt;/span> &lt;strong>Fo:&lt;/strong> &lt;em>Deals 50 Frost damage to Health and Stamina.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="KRah">KR4&lt;/span> &lt;strong>Krah:&lt;/strong> &lt;em>Deals 75 Frost damage to Health and Stamina.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="DiiN">D3N&lt;/span> &lt;strong>Diin:&lt;/strong> &lt;em>Deals 100 Frost damage to Health and Stamina.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fo:&lt;/strong> &lt;em>Deals 50 Frost damage to Health and Stamina.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Krah:&lt;/strong> &lt;em>Deals 75 Frost damage to Health and Stamina.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Diin:&lt;/strong> &lt;em>Deals 100 Frost damage to Health and Stamina.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Frost Breath deals extra Stamina damage over 30 seconds.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>Very much in theme for the build. It won&amp;rsquo;t benefit from your perks but it will replace a spell in an emergency, especially if you want to keep your bow out at the time. Keep it equipped for emergencies.&lt;/p>
 &lt;h4 id="ice-form">Ice Form&lt;/h4>
 &lt;p>&lt;em>Cooldown: 60/90/120 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="iiZ">3Z&lt;/span> &lt;strong>Iiz:&lt;/strong> &lt;em>Reduces enemy Movement and Attack Speed by 25% for 20 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="SLEN">SLEN&lt;/span> &lt;strong>Slen:&lt;/strong> &lt;em>Reduces enemy Movement and Attack Speed by 25% for 40 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="NUS">NUS&lt;/span> &lt;strong>Nus:&lt;/strong> &lt;em>Reduces enemy Movement and Attack Speed by 25% for 60 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Iiz:&lt;/strong> &lt;em>Reduces enemy Movement and Attack Speed by 25% for 20 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Slen:&lt;/strong> &lt;em>Reduces enemy Movement and Attack Speed by 25% for 40 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Nus:&lt;/strong> &lt;em>Reduces enemy Movement and Attack Speed by 25% for 60 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Ice Form has a chance to encase enemies in ice for 10 seconds.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>An excellent crowd control option. A 25% malus is very noticeable and buys you a lot of space. With the meditation this has a chance of freezing them outright for 10 seconds, giving you even more time.&lt;/p>
@@ -2682,7 +2673,6 @@ Due to your atronach&amp;rsquo;s resistance you can freely cast this in an area 
 &lt;/ul>
 &lt;p>The ring slot is similar to your necklace. Use it to shore up your defenses against the arcane or, if you&amp;rsquo;re feeling secure, boost your Frost damage further. This is another place where you can carry multiple options without weighing yourself down.&lt;/p>
 &lt;/details></description></item><item><title>Skyrim-Se: Orsimer Nightblade</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/orsimer-nightblade/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/orsimer-nightblade/</guid><description>
-&lt;link href="../style.css" rel="stylesheet">&lt;/link>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/builds/orsimer-nightblade.png" alt="Orsimer Nightblade">&lt;/p>
 &lt;h2 id="backstory">Backstory&lt;/h2>
 &lt;p>The very first time your fascination with magic sprouted, the Chief let out a hearty laugh. His laugh echoed through the air, like the booming voice of a seasoned warrior. &amp;ldquo;Why would you put faith in spells when a finely crafted blade made of orichalcum can do the job?&amp;rdquo; he pondered aloud. The Chief&amp;rsquo;s forgewife chimed in, jesting over the rhythmic pounding of her hammer. Magic was an afterthought within the stronghold, except for the wise women—though you certainly did not fall into that esteemed category. And so, when the moment arrived, you expressed gratitude to your elders for teaching you the art of blacksmithing and combat. Following the path of many orcs before you, you decided to venture beyond the stronghold. The customary life simply did not suit you. Perchance, in another place, you might discover your true home.&lt;/p>
@@ -2952,26 +2942,26 @@ This line of spells gets more and more reliable with every tier. Use it for that
 &lt;h4 id="aura-whisper">Aura Whisper&lt;/h4>
 &lt;p>&lt;em>Cooldown: 30/45/60 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="LaaS">L1S&lt;/span> &lt;strong>Laas:&lt;/strong> &lt;em>You detect all nearby living creatures for 30 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="Yah">Y4&lt;/span> &lt;strong>Yah:&lt;/strong> &lt;em>You detect all nearby living and dead creatures for 30 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="Nir">N7&lt;/span> &lt;strong>Nir:&lt;/strong> &lt;em>You detect all nearby creatures for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Laas:&lt;/strong> &lt;em>You detect all nearby living creatures for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Yah:&lt;/strong> &lt;em>You detect all nearby living and dead creatures for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Nir:&lt;/strong> &lt;em>You detect all nearby creatures for 30 seconds.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>Like &lt;em>Detect Life&lt;/em>, it&amp;rsquo;s much easier to hide from enemies if you know where they are. There&amp;rsquo;s no meditation for this shout but the uptime makes it very convenient.&lt;/p>
 &lt;h4 id="marked-for-death">Marked for Death&lt;/h4>
 &lt;p>&lt;em>Cooldown: 60/90/120 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="KRii">KR3&lt;/span> &lt;strong>Krii:&lt;/strong> &lt;em>Reduces enemy Health by 50 and Armor Rating by 50 for 30 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="LUN">LUN&lt;/span> &lt;strong>Lun:&lt;/strong> &lt;em>Reduces enemy Health by 75 and Armor Rating by 100 for 30 seconds.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="AUS">AUS&lt;/span> &lt;strong>Aus:&lt;/strong> &lt;em>Reduces enemy Health by 100 and Armor Rating by 150 for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Krii:&lt;/strong> &lt;em>Reduces enemy Health by 50 and Armor Rating by 50 for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Lun:&lt;/strong> &lt;em>Reduces enemy Health by 75 and Armor Rating by 100 for 30 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Aus:&lt;/strong> &lt;em>Reduces enemy Health by 100 and Armor Rating by 150 for 30 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Marked for Death reduces enemy Magic Resistance by up to 25%.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>If you can mark them without being discovered, the debuffs to their defenses will make enemies even more susceptible to your sneak attacks. The meditation will make the chaos damage from your bound weapons even better to boot.&lt;/p>
 &lt;h4 id="throw-voice">Throw Voice&lt;/h4>
 &lt;p>&lt;em>Cooldown: 30/20/10 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="ZUL">ZUL&lt;/span> &lt;strong>Zul:&lt;/strong> &lt;em>Throws voice.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="Mey">M9&lt;/span> &lt;strong>Mey:&lt;/strong> &lt;em>Throws voice.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="GUT">GUT&lt;/span> &lt;strong>Gut:&lt;/strong> &lt;em>Throws voice.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Zul:&lt;/strong> &lt;em>Throws voice.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Mey:&lt;/strong> &lt;em>Throws voice.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Gut:&lt;/strong> &lt;em>Throws voice.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>Simple and with a short cooldown with all 3 words. You excel at taking enemies out one by one so use this to isolate your targets when needed.&lt;/p>
 &lt;/details>
@@ -3023,7 +3013,6 @@ This line of spells gets more and more reliable with every tier. Use it for that
 &lt;/ul>
 &lt;p>Take the boost to your bread and butter attack. If that&amp;rsquo;s unavailable, become more stealthy to get more of those bread and butter attacks. And if that is also unavailable, &lt;em>Calm&lt;/em> your way into free sneak attacks.&lt;/p>
 &lt;/details></description></item><item><title>Skyrim-Se: Redguard Barbarian</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/redguard-barbarian/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/redguard-barbarian/</guid><description>
-&lt;link href="../style.css" rel="stylesheet">&lt;/link>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/builds/redguard-barbarian.png" alt="Redguard Barbarian">&lt;/p>
 &lt;h2 id="backstory">Backstory&lt;/h2>
 &lt;p>In Sentinel, a city steeped in ancient wisdom, a saying echoes through the hearts of its people: &amp;ldquo;The strongest steel is forged in the fiercest fires.&amp;rdquo; These words, older than time itself, resonated with you as you tirelessly trained alongside the valiant warriors of Tava&amp;rsquo;s tribe. However, the once-proud order had withered, dwindling in size until it no longer retained its former glory. It was a mere shadow, a remnant of what it used to be. The elders seemed content with mediocrity, lacking the spark needed to ignite greatness. And so, you set forth in search of that vital flame, elsewhere.&lt;/p>
@@ -3317,26 +3306,26 @@ This does not work with &lt;em>Respite&lt;/em> but can help with sustainability 
 &lt;h4 id="cyclonesupdbsup">Cyclone&lt;sup>DB&lt;/sup>&lt;/h4>
 &lt;p>&lt;em>Cooldown: 60/90/120 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="VEN">VEN&lt;/span> &lt;strong>Ven:&lt;/strong> &lt;em>Deals 50 Magic damage and knocks down enemies in a small area.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="GaaR">G1R&lt;/span> &lt;strong>Gaar:&lt;/strong> &lt;em>Deals 75 Magic damage and knocks down enemies in a large area.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="Nir">N7&lt;/span> &lt;strong>Nos:&lt;/strong> &lt;em>Deals 100 Magic damage and knocks down enemies in a massive area.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Ven:&lt;/strong> &lt;em>Deals 50 Magic damage and knocks down enemies in a small area.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Gaar:&lt;/strong> &lt;em>Deals 75 Magic damage and knocks down enemies in a large area.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Nos:&lt;/strong> &lt;em>Deals 100 Magic damage and knocks down enemies in a massive area.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Cyclone deals extra damage over 10 seconds.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>More thematic than &lt;em>Unrelenting Force&lt;/em> but with a longer cooldown. In exchange, it packs a strong punch that will definitely help clear a room.&lt;/p>
 &lt;h4 id="storm-call">Storm Call&lt;/h4>
 &lt;p>&lt;em>Cooldown: 180/240/300 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="STRUN">STRUN&lt;/span> &lt;strong>Strun:&lt;/strong> &lt;em>Calls a storm for 30 seconds. Lightning bolts from the storm deal 50 damage.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="Bah">B4&lt;/span> &lt;strong>Bah:&lt;/strong> &lt;em>Calls a storm for 45 seconds. Lightning bolts from the storm deal 75 damage.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="NOS">NOS&lt;/span> &lt;strong>Qo:&lt;/strong> &lt;em>Calls a storm for 60 seconds. Lightning bolts from the storm deal 100 damage.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Strun:&lt;/strong> &lt;em>Calls a storm for 30 seconds. Lightning bolts from the storm deal 50 damage.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Bah:&lt;/strong> &lt;em>Calls a storm for 45 seconds. Lightning bolts from the storm deal 75 damage.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Qo:&lt;/strong> &lt;em>Calls a storm for 60 seconds. Lightning bolts from the storm deal 100 damage.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>If you&amp;rsquo;re not traveling with a companion, this is your go-to offensive shout. Call down Tava&amp;rsquo;s rage to devastate the battlefield as you dance through it. If you are traveling with a companion this will probably kill them.&lt;/p>
 &lt;h4 id="whirlwind-sprint">Whirlwind Sprint&lt;/h4>
 &lt;p>&lt;em>Cooldown: 10/20/30 seconds&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="WULD">WULD&lt;/span> &lt;strong>Wuld:&lt;/strong> &lt;em>Rush forward by 30 feet.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="Nah">N4&lt;/span> &lt;strong>Nah:&lt;/strong> &lt;em>Rush forward by 40 feet.&lt;/em>&lt;/li>
-&lt;li>&lt;span style="line-height:1.0; font-family:DragonscriptRegular; font-size:large" title="KEST">KEST&lt;/span> &lt;strong>Kest:&lt;/strong> &lt;em>Rush forward by 50 feet.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Wuld:&lt;/strong> &lt;em>Rush forward by 30 feet.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Nah:&lt;/strong> &lt;em>Rush forward by 40 feet.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Kest:&lt;/strong> &lt;em>Rush forward by 50 feet.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>This will help you quickly close the distance with archers and mages, putting you in position to do what you&amp;rsquo;re best at.&lt;/p>
 &lt;/details>
