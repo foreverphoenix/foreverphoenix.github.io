@@ -1,0 +1,61 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Knowledge Base</title><link>https://thephoenixflavour.com/bg/knowledge-base/</link><description>Recent content in Knowledge Base on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/bg/knowledge-base/index.xml" rel="self" type="application/rss+xml"/><item><title>Bg: Creation Club</title><link>https://thephoenixflavour.com/bg/knowledge-base/creation-club/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/creation-club/</guid><description>
+&lt;p>&lt;em>Wow, such empty.&lt;/em>&lt;/p></description></item><item><title>Bg: Mod Managers</title><link>https://thephoenixflavour.com/bg/knowledge-base/mod-managers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/mod-managers/</guid><description>
+&lt;h2 id="mod-organizer-2">Mod Organizer 2&lt;/h2>
+&lt;p>&lt;strong>Mod Organizer 2 (MO2)&lt;/strong> is the only mod manager supported by this guide. You are expected to use it when following the instructions.&lt;/p>
+&lt;h3 id="why-mo2">Why MO2?&lt;/h3>
+&lt;p>Your mod manager is the heart and soul of your setup. &lt;strong>The steps you go through in building that setup are often specific to the tool you choose.&lt;/strong> Vortex is used differently from Mod Organizer 2, particularly with regards to load and mod order management.&lt;/p>
+&lt;p>While this guide is intended to teach you the concepts of load order and mod order in general, it is also important to learn how maintaining and expanding your setup works in the practical sense. Accommodating multiple different mod managers would require many sections to be written twice.&lt;/p>
+&lt;p>The MO2 versus Vortex question is hotly debated in the community. In my &lt;em>personal opinion&lt;/em>, Vortex has come a long way but its approach to load and mod order management is critically flawed. In addition to that, many quality of life features that I use frequently in Mod Organizer 2 are missing altogether. This is why this guide is built around Mod Organizer 2.&lt;/p>
+&lt;h2 id="vortex">Vortex&lt;/h2>
+&lt;h2 id="nexus-mod-manager">Nexus Mod Manager&lt;/h2>
+&lt;h2 id="wrye-bash">Wrye Bash&lt;/h2></description></item><item><title>Bg: Modding Guides</title><link>https://thephoenixflavour.com/bg/knowledge-base/modding-guides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/modding-guides/</guid><description>
+&lt;p>&lt;em>Wow, such empty.&lt;/em>&lt;/p></description></item><item><title>Bg: Nexus Premium</title><link>https://thephoenixflavour.com/bg/knowledge-base/nexus-premium/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/nexus-premium/</guid><description>
+&lt;p>&lt;a href="https://users.nexusmods.com/register/memberships">Nexus Premium&lt;/a> is a paid subscription that grants certain perks to users, including removal of all ads and faster downloads. The Nexus has also added an additional click to the process of downloading a file which includes a countdown and an ad for the Premium membership to further incentivise purchasing a subscription.&lt;/p>
+&lt;p>I recommend holding off on Premium until you have progressed enough in your modding journey to know that you will stick with it for a while. When building a larger mod setup, paying for a month or so of Premium can be well worth the asking price. It is also a great way of giving back to the Nexus for their service, especially for those of us with ad blockers installed.&lt;/p></description></item><item><title>Bg: Nexus Virus Check</title><link>https://thephoenixflavour.com/bg/knowledge-base/nexus-virus-check/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/nexus-virus-check/</guid><description>
+&lt;p>All files that are uploaded to the Nexus will automatically be checked for viruses by &lt;a href="https://www.virustotal.com/gui/home/upload">VirusTotal&lt;/a>.&lt;/p>
+&lt;p>You can view the report by clicking the &lt;strong>checkmark&lt;/strong> in front of the file name.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/nexus-virus-check-green.png" alt="Nexus green">&lt;/p>
+&lt;p>Files that exceed 250MB in size are manually verified. Occasionally, VirusTotal will detect &lt;em>false positives&lt;/em> which usually happens with tools (see Mod Organizer 2) in which case the file is also manually verified.&lt;/p>
+&lt;h2 id="mod-organizer-2">Mod Organizer 2&lt;/h2>
+&lt;p>Mod Organizer 2 has been known to set off Antivirus software, usually due to the way that the UVFS is implemented. At times, it may still be flagged by one of the AVs used by VirusTotal in which case it will be manually verified by the Nexus that it is safe to use.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/mo2-virus-total.png" alt="MO2 Virus Total">&lt;/p></description></item><item><title>Bg: Skyrim Versions</title><link>https://thephoenixflavour.com/bg/knowledge-base/skyrim-versions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/skyrim-versions/</guid><description>
+&lt;p>Skyrim has been updated and re-released many times on many platforms since its initial launch in 2011. Significant differences exists between the available versions which affect modding.&lt;/p>
+&lt;h2 id="skyrim-le--skyrim-se">Skyrim LE / Skyrim SE&lt;/h2>
+&lt;p>There are two &amp;lsquo;main&amp;rsquo; versions of Skyrim:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Skyrim Legendary Edition (SLE)&lt;/strong> is the version originally released in 2011 and packaged with its three DLC (Dawnguard, Hearthfire, Dragonborn).&lt;/li>
+&lt;li>&lt;strong>Skyrim Special Edition (SSE)&lt;/strong> is a remaster released in 2016, also packaged with all DLC. One of its core features was a major engine upgrade.&lt;/li>
+&lt;/ul>
+&lt;p>The original Skyrim ran on a 32bit version of the &lt;em>Creation Engine&lt;/em> which limited the game to 4GB of RAM and generally made it more difficult to build a stable, modded setup.&lt;/p>
+&lt;p>Skyrim SE was given the 64bit engine upgrade originally built for &lt;em>Fallout 4&lt;/em> which improved various rendering techniques for visual improvements but also increased stability. It is generally easier to mod Skyrim SE. However, certain kinds of SLE mod require to be &lt;strong>ported&lt;/strong> before they work properly in SSE and it took several years for the modding community to fully move on to the new version.&lt;/p>
+&lt;p>Nowadays, most mods are being developed and released for SSE exclusively. The only reason to choose SLE over SSE is performance as it will run better on extremely low-end systems.&lt;/p>
+&lt;h3 id="creation-club">Creation Club&lt;/h3>
+&lt;p>The Creation Club was one of the main selling points for the Skyrim SE release. It is effectively a microtransaction store selling mini-DLC, some created by Bethesda developers, others by popular modders hired by Bethesda.&lt;/p>
+&lt;p>For more details, see &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/creation-club/">Creation Club&lt;/a>.&lt;/p>
+&lt;h3 id="skyrim-ae">Skyrim AE&lt;/h3>
+&lt;p>Skyrim Anniversary Edition (SAE) was released in 2021 and is often described as a third version of the game, after SLE and SSE. This is fundamentally incorrect. &lt;strong>Skyrim AE has no meaningful technical differences from SSE&lt;/strong> and is simply packaged with all Creation Club content. It is, in effect, a regular SSE update with some additional content.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+With the exception of mods that always need to be updated when the game updates (i.e., SKSE and SKSE plugins), mods do not need to be ported from SSE to SAE.
+&lt;/div>
+&lt;h3 id="storefronts">Storefronts&lt;/h3>
+&lt;p>Skyrim SE is available from multiple sources:&lt;/p>
+&lt;ul>
+&lt;li>Steam&lt;/li>
+&lt;li>GOG&lt;/li>
+&lt;li>XBOX Game Pass&lt;/li>
+&lt;/ul>
+&lt;p>SKSE is available for the &lt;strong>Steam&lt;/strong> and &lt;strong>GOG&lt;/strong> versions, but &lt;u>not&lt;/u> for the &lt;strong>Game Pass&lt;/strong> version. However, because there is a separate version of SKSE, not all mods with SKSE plugins offer compatibility for the GOG version of Skyrim SE.&lt;/p>
+&lt;p>&lt;strong>The Steam version of Skyrim SE is the best option for modding.&lt;/strong>&lt;/p>
+&lt;h2 id="consoles">Consoles&lt;/h2>
+&lt;p>The original Skyrim LE was also ported to &lt;strong>PlayStation 3&lt;/strong> and &lt;strong>XBOX 360&lt;/strong>. These console versions were not moddable.&lt;/p>
+&lt;p>Skyrim SE was released for the next generation of consoles, &lt;strong>PlayStation 4&lt;/strong> and &lt;strong>XBOX One&lt;/strong> in 2016 with a major difference being that on these platforms modding was made possible through the Bethesda.net infrastructure.&lt;/p>
+&lt;p>Skyrim SE (as part of the Anniversary Edition) was ported to &lt;strong>PlayStation 5&lt;/strong> and &lt;strong>XBOX Series X/S&lt;/strong> in 2021 and is moddable in the same way as in the previous generation.&lt;/p>
+&lt;p>Skyrim SE was also ported to the &lt;strong>Nintendo Switch&lt;/strong> in 2017. Modding is possible in a limited fashion if custom firmware has been installed on the device which carries its own risks.&lt;/p>
+&lt;p>Skyrim SE can be modded on a &lt;strong>Steam Deck&lt;/strong>; however, there are some limitation due to the Deck running on Linux.&lt;/p>
+&lt;div class="alert alert-primary" role="alert">
+While technically possible, &lt;u>modding on PlayStation and XBOX is not comparable to modding on PC&lt;/u> due to the hard limit on space and the lack of access to the root folder which makes it impossible to use advanced mods/tools like SKSE and ENB.
+&lt;/div>
+&lt;h2 id="vr">VR&lt;/h2>
+&lt;p>A VR version of Skyrim was released for Windows and PlayStation VR. Though based on Skyrim SE, it has various technical differences, requires its own version of SKSE, and is not always compatible with Skyrim SE mods.&lt;/p></description></item><item><title>Bg: Wabbajack</title><link>https://thephoenixflavour.com/bg/knowledge-base/wabbajack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/wabbajack/</guid><description>
+&lt;p>&lt;em>Wow, such empty.&lt;/em>&lt;/p>
+&lt;p>note that wj is only a shortcut if you modify nothing&lt;/p></description></item></channel></rss>

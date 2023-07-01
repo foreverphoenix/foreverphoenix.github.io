@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Recommended Mods</title><link>https://thephoenixflavour.com/bg/recommended-mods/</link><description>Recent content in Recommended Mods on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/bg/recommended-mods/index.xml" rel="self" type="application/rss+xml"/><item><title>Bg: SSE Display Tweaks</title><link>https://thephoenixflavour.com/bg/recommended-mods/sse-display-tweaks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/recommended-mods/sse-display-tweaks/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers how to install and configure SSE Display Tweaks.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/additional-modules/skyrim-script-extender">Skyrim Script Extender&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="about-the-mod">About the mod&lt;/h2>
+&lt;p>If you have a very high-res monitor (i.e., 4K) you may want to consider running the game at a lower resolution. Skyrim scales badly and even with powerful hardware, it can be a challenge to achieve 60FPS in a heavily modded game at 1440p. With mid-tier hardware I would recommend going no higher than 1440p.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+If you set a resolution in the SSE Display Tweaks custom INI that is &lt;strong>lower&lt;/strong> than your monitor&amp;rsquo;s native resolution, you also need to add the following line:
+&lt;/div>
+&lt;pre>&lt;code>BorderlessUpscale=true
+&lt;/code>&lt;/pre>&lt;p>Performance adjustments such as this one can also be left for later when you have a better idea of what your modded setup runs like.&lt;/p></description></item><item><title>Bg: SSE Engine Fixes</title><link>https://thephoenixflavour.com/bg/recommended-mods/sse-engine-fixes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/recommended-mods/sse-engine-fixes/</guid><description>
+&lt;p>Such Empty&lt;/p>
+&lt;p>note that sleepwait is only for testing&lt;/p></description></item></channel></rss>

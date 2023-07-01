@@ -1,0 +1,621 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Additional Modules</title><link>https://thephoenixflavour.com/bg/additional-modules/</link><description>Recent content in Additional Modules on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/bg/additional-modules/index.xml" rel="self" type="application/rss+xml"/><item><title>Bg: Clean Install</title><link>https://thephoenixflavour.com/bg/additional-modules/clean-install/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/clean-install/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers how to perform a clean install of Skyrim SE, removing all traces of a previous installation of Skyrim and reinstalling the game in a suitable directory.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> None&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="uninstalling-skyrim">Uninstalling Skyrim&lt;/h2>
+&lt;p>If you currently have Skyrim installed, find the game in your Steam Library.&lt;/p>
+&lt;ul>
+&lt;li>Right-click it and select &lt;strong>Manage&lt;/strong> &amp;gt; &lt;strong>Uninstall&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>Uninstall&lt;/strong> again in the message box that follows to confirm.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/uninstall-skyrim.png" alt="Uninstall Skyrim">&lt;/p>
+&lt;h3 id="creation-kit">Creation Kit&lt;/h3>
+&lt;p>If you had the &lt;strong>Creation Kit&lt;/strong> for Skyrim SE installed through Steam, uninstall it in the same way.&lt;/p>
+&lt;h2 id="mod-files">Mod Files&lt;/h2>
+&lt;div class="alert alert-warning" role="alert">
+Skip this step if you never modded Skyrim before.
+&lt;/div>
+&lt;p>Steam will uninstall all vanilla files, but it will not touch mods. Any leftover files added by mods must be deleted manually.&lt;/p>
+&lt;p>Navigate to where the game was installed which is likely:&lt;/p>
+&lt;p>&lt;code>C:\Program Files x86\Steam\steamapps\common\&lt;/code>&lt;/p>
+&lt;p>If there is still a &lt;strong>Skyrim Special Edition&lt;/strong> folder in this location, delete it.&lt;/p>
+&lt;h2 id="documents-folder">Documents Folder&lt;/h2>
+&lt;div class="alert alert-warning" role="alert">
+Skip this step if you never ran Skyrim SE on this PC before (folder would not exist).
+&lt;/div>
+&lt;p>Next, we will take a look at the &lt;strong>Documents&lt;/strong> folder. Navigate to:&lt;/p>
+&lt;p>&lt;code>C:\Users\&amp;lt;Your User Name&amp;gt;\Documents\My Games\Skyrim Special Edition\&lt;/code>&lt;/p>
+&lt;p>This directory may contain multiple files and folders:&lt;/p>
+&lt;ul>
+&lt;li>The &lt;strong>Skyrim.ini&lt;/strong> and &lt;strong>SkyrimPrefs.ini&lt;/strong> are the game’s primary configuration files.&lt;/li>
+&lt;li>There may also be a &lt;strong>saves&lt;/strong> folder which, you guessed it, contains your save games.&lt;/li>
+&lt;li>Lastly, the Documents folder may also include mod-generated files such as logs.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>&lt;strong>Warning:&lt;/strong> If you have save files that you want to keep, back them up now.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Delete the entire Skyrim Special Edition folder.&lt;/strong>&lt;/p>
+&lt;p>The folder and INI files will be regenerated upon launching the game after the reinstallation.&lt;/p>
+&lt;div class="alert alert-success" role="alert">
+And that is all. Skyrim SE is now completely removed from your system.
+&lt;/div>
+&lt;h2 id="game-language">Game Language&lt;/h2>
+&lt;p>Skyrim supports a bunch of different languages natively, but mods do not. Since many mods also do not require translations in the first place and some of the ones that do have third-party translations available, it is theoretically possible to play modded in Skyrim in a language other than English.&lt;/p>
+&lt;p>However, it would complicate your setup immensely. Translations, where available, may be outdated or incomplete. They may not cover voice acting. They may require editing of dozens of texture templates in Photoshop. They may not exist for some of your mods at all.&lt;/p>
+&lt;p>Translating any records (and certain textures!) untouched by existing patches plus fixing conflicts between translations and mods will add a hefty amount of work on top of everything else. &lt;strong>I do not recommend it, especially not for a beginner.&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>An English-language installation of Skyrim is &lt;u>mandatory&lt;/u> for this guide.&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Right-click &lt;strong>The Elder Scrolls V: Skyrim Special Edition&lt;/strong> in your Steam games library.&lt;/li>
+&lt;li>Select &lt;strong>Properties&lt;/strong> and switch to the &lt;strong>Language&lt;/strong> tab.&lt;/li>
+&lt;li>Ensure that the language is set to &lt;strong>English&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/steam-skyrim-english.png" alt="english">&lt;/p>
+&lt;h2 id="installation-directory">Installation Directory&lt;/h2>
+&lt;p>&lt;strong>The location Skyrim is installed to matters.&lt;/strong>&lt;/p>
+&lt;p>For one, it is highly recommended to install the game to your fastest drive, ideally an SSD, which will reduce load times. Running Skyrim from an HDD may negatively impact performance, causing stuttering and frame drops.&lt;/p>
+&lt;p>Additionally, Skyrim must not be located within any UAC-protected folders.&lt;/p>
+&lt;h3 id="uac-protected-folders">UAC-Protected Folders&lt;/h3>
+&lt;p>Your Steam installation is probably located under &lt;code>C:\Program Files x86\Steam\&lt;/code> and, by default, all Steam games are installed inside the Steam directory under &lt;code>\Steam\steamapps\common\&amp;lt;Game&amp;gt;\&lt;/code>.&lt;/p>
+&lt;p>The problem is that &lt;code>C:\Program Files\&lt;/code> and &lt;code>C:\Program Files x86\&lt;/code> are so-called &lt;strong>UAC-protected folders&lt;/strong> (UAC = user account control). UAC-protected folders in Windows are special because they require admin privileges for read/write permissions which can break various modding tools.&lt;/p>
+&lt;p>&lt;strong>Because of this, Skyrim SE must be installed to a location outside any UAC-protected folders.&lt;/strong>&lt;/p>
+&lt;h3 id="steam-libraries">Steam Libraries&lt;/h3>
+&lt;p>When installing a game through Steam, you can select any of your &lt;strong>Steam Libraries&lt;/strong> as the installation folder. The default Steam Library is within the Steam installation itself.&lt;/p>
+&lt;p>If you installed Steam in&lt;code> C:\Program Files x86\&lt;/code> you will need to create a new Steam Library in a different location.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+Skip ahead to &lt;strong>Reinstalling Skyrim&lt;/strong> if you already have a second Steam Library outside UAC-protected folders.
+&lt;/div>
+&lt;p>By default, you can only have one Steam Library per hard drive. If you want to create a second Steam Library on the same hard drive that you installed Steam on, please use LostDragonist’s &lt;a href="https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide">Steam Library Setup Tool&lt;/a> and follow the instructions from the link.&lt;/p>
+&lt;p>If you want to create a new Steam Library on another hard drive, follow these steps:&lt;/p>
+&lt;ul>
+&lt;li>Open the &lt;strong>Settings&lt;/strong> in Steam and go to the &lt;strong>Storage&lt;/strong> tab.&lt;/li>
+&lt;li>Find the little ➕ icon near the top to add a new &lt;strong>Steam Library&lt;/strong>.&lt;/li>
+&lt;li>Select the desired hard drive.&lt;/li>
+&lt;/ul>
+&lt;p>Once set up, the new Steam Library can be selected as the installation directory upon installing a new game.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/add-steam-library.png" alt="Add Steam Library">&lt;/p>
+&lt;h2 id="reinstalling-skyrim">Reinstalling Skyrim&lt;/h2>
+&lt;p>Now you can reinstall Skyrim. Find the game in the Steam Library tab and click the big blue Install button.&lt;/p>
+&lt;p>&lt;strong>As the installation location choose a Steam Library on your fastest hard drive and outside UAC-protected folders.&lt;/strong>&lt;/p>
+&lt;p>Proceed when the download is completed.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/install-skyrim.png" alt="Install Skyrim">&lt;/p>
+&lt;h2 id="test-run">Test Run&lt;/h2>
+&lt;p>At this point, we should see if Skyrim launches properly. Running the game once serves multiple purposes:&lt;/p>
+&lt;ul>
+&lt;li>The &lt;code>\Documents\My Games\Skyrim Special Edition\&lt;/code> folder including its INI files will be regenerated.&lt;/li>
+&lt;li>The registry keys will be set up which is required for modding tools to recognise your installation.&lt;/li>
+&lt;li>Certain issues with your vanilla game can be detected now (i.e., file corruption during the installation).&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Always remember to launch Skyrim once after updating or reinstalling it, or after verifying game files.&lt;/strong>&lt;/p>
+&lt;p>Launch the game through Steam.&lt;/p>
+&lt;p>A message box will pop up, informing you that Skyrim SE will now be configured based on your hardware. If Skyrim is unable to detect your hardware, it is likely because you have a newer graphics card which is not recognised; you can ignore the warning.&lt;/p>
+&lt;ul>
+&lt;li>Click &lt;strong>OK&lt;/strong> twice to confirm (INI file edits are covered in a different article).&lt;/li>
+&lt;li>Click the &lt;strong>PLAY&lt;/strong> option in the launcher and wait until you are in the Skyrim main menu.&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-warning" role="alert">
+&lt;strong>Anniversary Edition:&lt;/strong> Skyrim will prompt you with a message box, then proceed to download the creations. Wait for it to finish.
+&lt;/div>
+&lt;p>Quit the game from the main menu.&lt;/p>
+&lt;div class="alert alert-success" role="alert">
+If you got this far, everything appears to be running smoothly and you are ready to start modding.
+&lt;/div>
+&lt;hr>
+&lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-1bgcore-modulestep1nexus-mods">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step1/#nexus-mods">Step 1&lt;/a>.&lt;/h4>
+&lt;h4 id="recommended-next-step-mo2-setupbgadditional-modulesmo2-setup">Recommended next step: &lt;a href="https://thephoenixflavour.com/bg/additional-modules/mo2-setup/">MO2 Setup&lt;/a>.&lt;/h4></description></item><item><title>Bg: Downgrade Skyrim</title><link>https://thephoenixflavour.com/bg/additional-modules/downgrade-skyrim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/downgrade-skyrim/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers how to revert to an older version of Skyrim.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/additional-modules/clean-install">Clean Install&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;p>If there has been a recent Skyrim SE update, this guide (and possibly the rest of the modding community) may not have caught up yet in which case &lt;u>downgrading to the last supported version of Skyrim is recommended&lt;/u>. The process is made painless by halgari’s automatic downgrade patcher.&lt;/p>
+&lt;ul>
+&lt;li>Determine which version of &lt;strong>Skyrim SE&lt;/strong> you are on and which version you require (&lt;a href="https://thephoenixflavour.com/bg/additional-modules/skyrim-script-extender/#version-check">instructions&lt;/a>).&lt;/li>
+&lt;li>Download the corresponding full patcher from &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/57618?tab=files">the mod page&lt;/a> (click &lt;strong>Manual Download&lt;/strong>).
+&lt;ul>
+&lt;li>You will probably find the required version under &lt;strong>Old Files&lt;/strong> (use CTRL+F to search).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Move the downloaded executable to your installation under &lt;code>\Steam\steamapps\common\Skyrim Special Edition\&lt;/code>.&lt;/li>
+&lt;li>Run the executable and wait for it to finish (should take only a few seconds).&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-info" role="alert">
+Alternatively, you can use halgari’s &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/61756">Unofficial Skyrim Downloader&lt;/a>. I will add instructions for this at a later date.
+&lt;/div>
+&lt;p>To prevent Skyrim from automatically updating, consider &lt;a href="https://thephoenixflavour.com/bg/additional-modules/update-proofing">Update Proofing&lt;/a> the game.&lt;/p></description></item><item><title>Bg: Managing Creations</title><link>https://thephoenixflavour.com/bg/additional-modules/managing-creations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/managing-creations/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers the installation of Curation Club and importing Creations into MO2.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/additional-modules/mo2-setup">MO2 Setup&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="curation-club">Curation Club&lt;/h2>
+&lt;p>&lt;strong>Curation Club&lt;/strong> is a plugin for Mod Organizer 2 which simplifies importing Creations as mods.&lt;/p>
+&lt;ul>
+&lt;li>Download the latest main file of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/60552?tab=files">Curation Club&lt;/a> (click &lt;strong>Mod Manager Download&lt;/strong>).&lt;/li>
+&lt;li>In MO2, switch to the &lt;strong>Downloads&lt;/strong> tab in the right pane.&lt;/li>
+&lt;li>Right-click the downloaded mod and select &lt;strong>Open File&lt;/strong>.&lt;/li>
+&lt;li>Extract the &lt;strong>curationclub&lt;/strong> folder to &lt;code>\Mod Organizer 2\plugins\&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-warning" role="alert">
+To quickly access the &lt;strong>plugins&lt;/strong> folder, you can click &lt;a href="https://thephoenixflavour.com/Pictures/bg/mo2-plugins-folder-shortcut.png">the folder icon&lt;/a> above the left pane and select &lt;strong>Open MO2 Plugins Folder&lt;/strong>.
+&lt;/div>
+&lt;ul>
+&lt;li>Restart Mod Organizer 2.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/managing-creations/curation-club-installation.png" alt="Curation Club Installation">&lt;/p>
+&lt;h2 id="importing-creations">Importing Creations&lt;/h2>
+&lt;p>Running &lt;strong>Curation Club&lt;/strong> through Mod Organizer 2 will now import all creations present in your default (Steam) installation folder into Mod Organizer 2 where you can manage them like any other mod.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+Because &lt;strong>Curation Club&lt;/strong> moves the creations out of the data folder rather than creating copies, you may want to create a backup first. Just copy all files starting with cc from &lt;code>\Steam\steamapps\common\Skyrim Special Edition\Data\&lt;/code> to a convenient location.
+&lt;/div>
+&lt;p>Run &lt;strong>Curation Club&lt;/strong>.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/managing-creations/run-curation-club.png" alt="Run CC">&lt;/p>
+&lt;p>The default naming scheme &lt;code>Creation Club - {creation}&lt;/code> is perfect for me (but feel free to change it to your preferences).&lt;/p>
+&lt;p>If you are following the Core Module or if you are already using Root Builder, check the box for &lt;strong>Root Builder Support&lt;/strong>.&lt;/p>
+&lt;p>Click &lt;strong>OK&lt;/strong> to import your creations.&lt;/p>
+&lt;div class="alert alert-success" role="alert">
+You can now manage your Creations through Mod Organizer 2 like any other mod.
+&lt;/div>
+&lt;hr>
+&lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-1bgcore-modulestep1free-creations">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step1/#free-creations">Step 1&lt;/a>.&lt;/h4></description></item><item><title>Bg: MO2 Setup</title><link>https://thephoenixflavour.com/bg/additional-modules/mo2-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/mo2-setup/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers the installation and basic configuration of Mod Organizer 2.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/additional-modules/clean-install/">Clean Install&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="mo2-prerequisites">MO2 Prerequisites&lt;/h2>
+&lt;p>Mod Organizer 2 has two prerequisites.&lt;/p>
+&lt;p>While you may already have them install, I recommend (re)installing them to be sure:&lt;/p>
+&lt;ul>
+&lt;li>Download &lt;a href="https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer">.NET Framework 4.8&lt;/a> and follow the instructions in the installer.&lt;/li>
+&lt;li>Download the &lt;a href="https://aka.ms/vs/16/release/vc_redist.x64.exe">Microsoft Visual C++ Redistributable&lt;/a> and follow the instructions in the installer.&lt;/li>
+&lt;/ul>
+&lt;p>To finalise the installation you may be required to restart your PC.&lt;/p>
+&lt;h2 id="downloading-mo2">Downloading MO2&lt;/h2>
+&lt;p>Mod Organizer 2 is hosted on the Nexus and on Github.&lt;/p>
+&lt;ul>
+&lt;li>Open the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6194">Mod Organizer 2&lt;/a> Nexus page.&lt;/li>
+&lt;li>Switch to the &lt;strong>Files&lt;/strong> tab.&lt;/li>
+&lt;li>Click the &lt;strong>Manual Download&lt;/strong> button for &lt;strong>Mod Organizer 2&lt;/strong> under &lt;strong>Main Files&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>If you do not have &lt;strong>Nexus Premium&lt;/strong>, you will need to click &lt;strong>Download&lt;/strong> again on the next page after a brief countdown.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/mo2-setup/download-mo2.png" alt="Download MO2">&lt;/p>
+&lt;h2 id="installing-mo2">Installing MO2&lt;/h2>
+&lt;p>Save the downloaded executable to a convenient location and double-click it.&lt;/p>
+&lt;p>If there is a Windows warning, click &lt;strong>More Info&lt;/strong> and &lt;strong>Run anyway&lt;/strong>.&lt;/p>
+&lt;div class="alert alert-primary" role="alert">
+Worried about catching a virus? Read about the &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/nexus-virus-check/">Nexus Virus Check&lt;/a>.
+&lt;/div>
+&lt;h3 id="installer-configuration">Installer Configuration&lt;/h3>
+&lt;p>In the MO2 installer, accept the license agreement and proceed to the next page.&lt;/p>
+&lt;p>You will be asked where to install Mod Organizer 2.&lt;/p>
+&lt;ul>
+&lt;li>Once again, &lt;strong>selecting an SSD or NVME is highly recommended&lt;/strong> as it will improve load times and in-game performance.&lt;/li>
+&lt;li>&lt;strong>The MO2 folder will contain all your mods&lt;/strong> which may add up to &lt;strong>100GB&lt;/strong> and more.&lt;/li>
+&lt;/ul>
+&lt;p>For now, make sure you have &lt;u>at least 50GB of free space&lt;/u> on whichever hard drive you choose. That will be sufficient to get started.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/mo2-setup/mo2-installation-directory.png" alt="MO2 Installation Directory">&lt;/p>
+&lt;p>For the rest of the installer, you can simply keep clicking &lt;strong>Next&lt;/strong> to install the tool with all components into your chosen directory.&lt;/p>
+&lt;p>Click &lt;strong>Finish&lt;/strong> once all files have been extracted. Mod Organizer 2 will be launched automatically so you can proceed with the next step.&lt;/p>
+&lt;h3 id="instance-setup">Instance Setup&lt;/h3>
+&lt;p>After the initial installation process, the &lt;strong>Instance Manager&lt;/strong> will open where we will create a new &lt;strong>portable instance&lt;/strong>. These are self-contained and allow you to run as many copies of Mod Organizer 2 as you like, for various games or different setups.&lt;/p>
+&lt;p>(I personally run five or more instances at any given time, for both Skyrim SE and Fallout 4, none of which interfere with each other.)&lt;/p>
+&lt;p>Click the &lt;strong>Create new instance&lt;/strong> button to proceed.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/mo2-setup/mo2-new-instance.png" alt="MO2 New Instance">&lt;/p>
+&lt;ul>
+&lt;li>Click &lt;strong>Next&lt;/strong> in the configuration window.&lt;/li>
+&lt;li>Select &lt;strong>Create a portable instance&lt;/strong> on the next page.&lt;/li>
+&lt;li>On the next page in the configuration wizard, select &lt;strong>Skyrim Special Edition&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>Next&lt;/strong> again on the following page to confirm using your MO2 installation folder for all sub directories.&lt;/li>
+&lt;li>Click &lt;strong>Connect to Nexus&lt;/strong>* and switch to the browser to authorise MO2 to connect your account.
+&lt;ul>
+&lt;li>In the MO2 installer, you should see: &lt;strong>Linked with Nexus successfully&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Proceed to the next step and click &lt;strong>Finish&lt;/strong> to finalise your new MO2 instance.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;font size="2">**If you are not prompted to connect MO2 to the Nexus, you have likely already done this for a previous MO2 installation.*&lt;/font>&lt;/p>
+&lt;h3 id="first-launch">First Launch&lt;/h3>
+&lt;p>Mod Organizer 2 should launch automatically.&lt;/p>
+&lt;ul>
+&lt;li>Click &lt;strong>No&lt;/strong> when asked to see the tutorial.
+&lt;ul>
+&lt;li>We will go over the various parts of MO2 in this guide.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>If asked whether MO2 should handle NXM links, click &lt;strong>Yes&lt;/strong>.
+&lt;ul>
+&lt;li>This allows automatic downloads from the Nexus through MO2.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Before we do anything else, let&amp;rsquo;s disable the log at the bottom. We are not going to need it.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/mo2-setup/disable-mo2-log.png" alt="disable mo2 log">&lt;/p>
+&lt;blockquote>
+&lt;p>I also recommend right-clicking the MO2 icon on your taskbar and &lt;strong>pinning&lt;/strong> it for quick access.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="mo2-settings">MO2 Settings&lt;/h2>
+&lt;p>Open the &lt;strong>Settings&lt;/strong> by clicking the first icon on the right in the toolbar.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/mo2-setup/mo2-open-settings.png" alt="MO2 Open Settings">&lt;/p>
+&lt;h3 id="settings-general">Settings: General&lt;/h3>
+&lt;p>Under &lt;strong>Download List&lt;/strong>, I highly recommend checking &lt;strong>Show meta information&lt;/strong> and &lt;strong>Compact list&lt;/strong>. This will affect the Downloads tab in the right pane of MO2 where all downloaded files will appear. As the list grows, a more compact view with information about the file version and type will become invaluable.&lt;/p>
+&lt;blockquote>
+&lt;p>Check out the &lt;a href="https://i.imgur.com/BW4F4tD.png">default settings&lt;/a> versus the &lt;a href="https://i.imgur.com/eNnzd6p.png">compact settings&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;p>I personally do not use the &lt;strong>Hide downloads after installation&lt;/strong> option. Of course, the list of downloads in my MO2 setups is hundreds of files long, and yes, hiding files after installing them would keep the downloads tab clean. All hidden mods can quickly be made visible again by ticking the &lt;strong>Hidden files&lt;/strong> box at the bottom of the &lt;strong>Downloads&lt;/strong> tab, and individual files can be hidden and unhidden at will. Personally, I prefer the simplicity of simply leaving everything visible and using the search bar to find what I am looking for. Once you start installing mods, you should make your own choice.&lt;/p>
+&lt;h3 id="settings-themes">Settings: Themes&lt;/h3>
+&lt;p>While I personally prefer light mode in the majority of my apps and programs, I realise that my opinion is rather unpopular. Under &lt;strong>Style&lt;/strong>, you can try out various other themes. If you are looking for a simple dark theme, I recommend the &lt;strong>1809 Dark Mode&lt;/strong> option for now. It is similar to the default light theme and will make following along with my screenshots easier.&lt;/p>
+&lt;blockquote>
+&lt;p>Make sure to restart MO2 after changing the theme.&lt;/p>
+&lt;/blockquote>
+&lt;p>The &lt;strong>Colors&lt;/strong> section below affects the colors in which mods and separators will light up when highlighting them. I strongly suggest not tampering with them until you have a proper understanding of mod order and asset conflicts.&lt;/p>
+&lt;h3 id="settings-paths">Settings: Paths&lt;/h3>
+&lt;p>Since we set up MO2 as a portable instance, all file paths to the various directories are currently within the MO2 installation itself: &lt;code>/%BASE_DIR%/&lt;/code>, the base directory. We already discussed the potential size of the mods folder, which can easily exceed 50GB, but should nevertheless be located on a fast drive, ideally an SSD.&lt;/p>
+&lt;p>However, &lt;strong>the downloaded archives from which the mods are installed do NOT need to be on an SSD&lt;/strong>. They are only required for the initial installation and merely serve as backups afterwards.&lt;/p>
+&lt;p>Keeping the archives is nevertheless recommended as you may want to reinstall a mod later on to choose different options if they come with an installer, or simply to restore it to the vanilla state if you modified it. Hence, I recommend changing the &lt;strong>Downloads&lt;/strong> directory to a different drive. Pick the hard drive with the most amount of space; any HDD will do.*&lt;/p>
+&lt;p>&lt;font size="2">**It should be noted that keeping downloaded archives on a faster drive may speed up mod installation, including for Wabbajack list. Nevertheless, SSD / NVME space is precious and I personally prefer to use it for more mods or other games.*&lt;/font>&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+This is a recommendation, not a requirement. Manage your disk space as you see fit.
+&lt;/div>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/mo2-setup/mo2-downloads-folder.png" alt="Downloads Folder">&lt;/p>
+&lt;hr>
+&lt;div class="alert alert-success" role="alert">
+If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step1/#ui-overview">Step 1&lt;/a>.
+&lt;/div></description></item><item><title>Bg: Root Builder</title><link>https://thephoenixflavour.com/bg/additional-modules/root-builder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/root-builder/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers the purpose and installation of the Root Builder plugin for MO2.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/additional-modules/mo2-setup">MO2 Setup&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="about-root-builder">About Root Builder&lt;/h2>
+&lt;p>&lt;strong>Root Builder&lt;/strong> is a plugin for Mod Organizer 2.&lt;/p>
+&lt;p>It allows us to install and manage files that must go into the root folder through Mod Organizer 2. When we launch the game or any tool through Mod Organizer 2, all root folder files will be &lt;em>temporarily&lt;/em> moved into the actual root folder by the plugin. When the game or tool is closed, those files will automatically be removed again from the root folder. Pretty neat, huh?&lt;/p>
+&lt;p>There are multiple advantages to using &lt;strong>Root Builder&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>The root folder will always stay clean and vanilla, and there will be no overlap between multiple modded setups.&lt;/li>
+&lt;li>This allows you to run a personal setup and a Wabbajack list independently from each other.*&lt;/li>
+&lt;li>All files are managed through Mod Organizer 2 for easy activation/deactivation, version control, custom notes, etc.&lt;/li>
+&lt;li>(Potential support for the GOG version of Skyrim in this guide later on!)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;font size=2>**All setups must run the same version of Skyrim to share a root folder. However, most Wabbajack lists that are not on the latest version use the Stock Game folder system (see below) and will thus not interfere at all.*&lt;/font>&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+If we were to dump all root folder files into the root folder it would quickly become difficult to tell which files are vanilla and which are mod-added, and, if they are mod-added, which version is currently installed. This gets nowhere near as bad as an unmanaged data folder, but it is inconvenient and we do not like inconvenience.
+&lt;/div>
+&lt;p>&lt;strong>With Mod Organizer 2 and Root Builder we can build an almost completely self-contained modded setup.*&lt;/strong>&lt;/p>
+&lt;p>&lt;font size=2>**We could use the Stock Game folder system and create an entire new copy of the vanilla game files (i.e., the root folder) to make the setup fully self-contained. However, that would add about 13GB of files without offering any meaningful benefits for most regular users.*&lt;/font>&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Is Root Builder perfect? I would not say that. However, the issues that I have encountered with the plugin (in about a year of heavy use) are very minor and easy to fix. While not everyone likes the plugin, I personally find it invaluable and highly recommend it.
+&lt;/div>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>&lt;strong>Root Builder&lt;/strong> is hosted on the Nexus.&lt;/p>
+&lt;ul>
+&lt;li>Download the latest version of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/31720?tab=files">Root Builder&lt;/a> (click &lt;strong>Mod Manager Download&lt;/strong>).&lt;/li>
+&lt;li>In Mod Organizer 2, switch to the &lt;strong>Downloads&lt;/strong> tab in the right pane.&lt;/li>
+&lt;li>Right-click the downloaded mod and select &lt;strong>Open File&lt;/strong>.&lt;/li>
+&lt;li>Extract the &lt;strong>rootbuilder&lt;/strong> folder to &lt;code>\Mod Organizer 2\plugins\&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-warning" role="alert">
+To quickly access the &lt;strong>plugins&lt;/strong> folder, you can click &lt;a href="https://thephoenixflavour.com/Pictures/bg/mo2-plugins-folder-shortcut.png">the folder icon&lt;/a> above the left pane and select &lt;strong>Open MO2 Plugins Folder&lt;/strong>.
+&lt;/div>
+&lt;p>Restart Mod Organizer 2.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/root-builder-installation.png" alt="Root Builder Installation">&lt;/p>
+&lt;hr>
+&lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-2bgcore-modulestep2mo2-separators">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step2/#mo2-separators">Step 2&lt;/a>.&lt;/h4></description></item><item><title>Bg: Skyrim Script Extender</title><link>https://thephoenixflavour.com/bg/additional-modules/skyrim-script-extender/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/skyrim-script-extender/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers the Skyrim Script Extender, including the importance of Skyrim versions as well as the installation of SKSE with Root Builder and of related mods.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/additional-modules/mo2-setup">MO2 Setup&lt;/a>, &lt;a href="https://thephoenixflavour.com/bg/additional-modules/root-builder/">Root Builder&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="the-skyrim-script-extender">The Skyrim Script Extender&lt;/h2>
+&lt;p>If you have any previous modding experience at all, you will likely have heard of the &lt;strong>Skyrim Script Extender&lt;/strong>, or &lt;strong>SKSE&lt;/strong> for short. Of all the mods and tools out there, the Script Extender is definitely among the most vital ones: It extends the scripting capabilities of the engine, allowing mod authors to implement features that would not have been possible otherwise.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+&lt;strong>SKSE is required by many mods, including most of the essentials.&lt;/strong> Modding Skyrim on XBOX or PS5 is not comparable to modding on PC largely because SKSE cannot be installed on consoles. The same is true for the PC Game Pass version of Skyrim.
+&lt;/div>
+&lt;p>A popular example of an SKSE-dependent feature is the &lt;strong>Mod Configuration Menu&lt;/strong>, or &lt;strong>MCM&lt;/strong> for short, which is part of the UI overhaul mod &lt;strong>SkyUI&lt;/strong>. There are also a multitude of SKSE-based plugins which, among other things, fix engine-level bugs that could not have been addressed otherwise.&lt;/p>
+&lt;h3 id="skse-and-skyrim-updates">SKSE and Skyrim Updates&lt;/h3>
+&lt;p>All updates to &lt;strong>Skyrim SE&lt;/strong> change the main executable, &lt;strong>SkyrimSE.exe&lt;/strong>, which requires the &lt;strong>Script Extender&lt;/strong> to be updated in turn because it is &lt;u>version-dependent&lt;/u> and will only work with the specific version of Skyrim SE it was compiled for. For example, SKSE SE version &lt;strong>2.0.20&lt;/strong> functions only with the last pre-Anniversary Edition version of Skyrim SE, &lt;strong>1.5.97&lt;/strong>. The new SKSE AE was made for the post-AE versions of Skyrim SE.&lt;/p>
+&lt;p>Whenever Skyrim updates, the modding community tends to catch up within a few weeks to months. Staying indefinitely on an older version will eventually mean that you cannot use newer mods or update existing mods. Therefore it makes sense to move on to the current version once all (or at least most) of the mods in your setup have been updated.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Skyrim SE 1.5.97:&lt;/strong> Last pre-AE version of Skyrim SE (requires SKSE 2.0.20)&lt;/li>
+&lt;li>&lt;strong>Skyrim SE 1.6.317:&lt;/strong> Skyrim SE patch that accompanied the AE release (requires SKSE 2.1.0)&lt;/li>
+&lt;li>&lt;strong>Skyrim SE 1.6.353:&lt;/strong> Post-AE version of Skyrim SE with most mods ported (requires SKSE 2.1.5)&lt;/li>
+&lt;li>&lt;strong>Skyrim SE 1.6.640:&lt;/strong> Current version of Skyrim SE (requires SKSE 2.2.3) &amp;laquo; &lt;u>this is what we are running&lt;/u>&lt;/li>
+&lt;/ul>
+&lt;p>(&lt;a href="https://en.uesp.net/wiki/Skyrim:Special_Edition_Patch">Full Skyrim SE version history with changelogs&lt;/a>.)&lt;/p>
+&lt;p>The issue of version dependency not only affects SKSE and the base game, but also SKSE and SKSE plugins. While some SKSE-dependent mods only use functions added by SKSE in their scripts and do not require a specific version of SKSE to actually work, there are also the so-called &lt;strong>SKSE plugins&lt;/strong>*. These files with the &lt;strong>.dll&lt;/strong> extension are dependent on a specific SKSE version the same way SKSE is dependent on a specific Skyrim SE version.&lt;/p>
+&lt;p>&lt;font size=2>**SKSE plugins (DLLs) are not to be confused with Skyrim plugins (ESMs, ESPs, ESLs). The former are written in C or C++ and specific to the Script Extender. The latter are created in the Creation Kit or community-made tools, and specific to Creation Engine games.*&lt;/font>&lt;/p>
+&lt;h2 id="downloading-skse">Downloading SKSE&lt;/h2>
+&lt;p>Before we install SKSE, we need to know which version of the game we are running by performing a &lt;a href="https://thephoenixflavour.com/bg/additional-modules/skyrim-version-check/">Skyrim Version Check&lt;/a>.&lt;/p>
+&lt;p>Please also follow the instructions for &lt;a href="https://thephoenixflavour.com/bg/additional-modules/update-proofing">Update Proofing&lt;/a> Skyrim.&lt;/p>
+&lt;p>Once we figure out which version of Skyrim we have installed, we know which version of SKSE to grab. The Script Extender is available on its &lt;a href="https://skse.silverlock.org/">official website&lt;/a> and on the Nexus.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+Read carefully and make sure you are downloading the correct file.
+&lt;/div>
+&lt;ul>
+&lt;li>Download the &lt;strong>Skyrim Script Extender&lt;/strong> for &lt;strong>Steam&lt;/strong> from the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30379?tab=files">Nexus page&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>The current version of SKSE for AE, build 2.x.x, should correlate with the current Skyrim SE version, runtime 1.6.xxx.&lt;/p>
+&lt;h2 id="installing-skse">Installing SKSE&lt;/h2>
+&lt;p>SKSE is an unusual mod in that it consists of both &lt;strong>root folder files&lt;/strong> and &lt;strong>data folder files&lt;/strong>. We will use the &lt;a href="https://thephoenixflavour.com/bg/additional-modules/">Root Builder&lt;/a> plugin in order to manage all parts of the mod in Mod Organizer 2.&lt;/p>
+&lt;h3 id="new-separator">New Separator&lt;/h3>
+&lt;div class="alert alert-warning" role="alert">
+The instructions below are intended for those following the Core Module.
+&lt;/div>
+&lt;p>For the next batch of mods, we will want a new separator:&lt;/p>
+&lt;ul>
+&lt;li>Create a new separator in Mod Organizer 2 (&lt;a href="https://thephoenixflavour.com/Pictures/bg/mo2-create-separator.png">reference picture&lt;/a>) and name it &lt;strong>Script Extender&lt;/strong>.&lt;/li>
+&lt;li>Leave it at the bottom of the left pane, below the &lt;strong>Creation Club&lt;/strong> separator.&lt;/li>
+&lt;/ul>
+&lt;h3 id="root-folder-files">Root Folder Files&lt;/h3>
+&lt;p>To manage SKSE through MO2, we first need a new mod folder.&lt;/p>
+&lt;ul>
+&lt;li>In Mod Organizer 2, click the &lt;a href="https://thephoenixflavour.com/Pictures/bg/create-empty-mod.png">crossed tools icon&lt;/a> above the mod order and select &lt;strong>Create empty mod&lt;/strong>.&lt;/li>
+&lt;li>Enter &lt;strong>Skyrim Script Extender&lt;/strong> as the name and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Right-click your new mod in the mod order and select &lt;strong>Open in Explorer&lt;/strong>.&lt;/li>
+&lt;li>In the Explorer, right-click and select &lt;strong>New&lt;/strong> &amp;raquo; &lt;strong>Folder&lt;/strong> (or press Shift + CTRL + N).&lt;/li>
+&lt;li>Name the new folder &lt;strong>Root&lt;/strong> and open it.&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-info" role="alert">
+&lt;strong>Root Builder&lt;/strong> copies all files inside &lt;code>\Mod Organizer 2\mods\&amp;lt;Mod Name&amp;gt;\Root\&lt;/code> into the root folder when launching an application through Mod Organizer 2 and removes them after the application is closed again.
+&lt;/div>
+&lt;ul>
+&lt;li>Open the SKSE archive you previously downloaded.&lt;/li>
+&lt;li>Extract &lt;strong>skse64_1_6_xxx.dll&lt;/strong> and &lt;strong>skse64_loader.exe&lt;/strong> to &lt;code>\Mod Organizer 2\mods\Skyrim Script Extender\Root\&lt;/code>.*&lt;/li>
+&lt;/ul>
+&lt;p>&lt;font size=2>**There used to be a third DLL, skse64_steam_loader.dll, that was part of SKSE but is no longer required as of SKSE 2.2.3.*&lt;/font>&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/skse-root-folder.png" alt="SKSE Root">&lt;/p>
+&lt;p>Back in Mod Organizer 2, the new &lt;strong>Skyrim Script Extender&lt;/strong> mod will be greyed out because MO2 does not recognise the Root folder as a valid mod directory. This is just a UI limitation and nothing to worry about.&lt;/p>
+&lt;ul>
+&lt;li>Right-click the new mod and select &lt;strong>Ignore missing data&lt;/strong>.&lt;/li>
+&lt;li>Check the box to activate it.&lt;/li>
+&lt;/ul>
+&lt;h3 id="skse-executable">SKSE Executable&lt;/h3>
+&lt;p>A minor disadvantage of adding SKSE in this fashion is that MO2 will not automatically recognise it. We need to set up the executable manually.&lt;/p>
+&lt;ul>
+&lt;li>Open the &lt;strong>Executables&lt;/strong> settings in Mod Organizer 2.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/mo2-executables-settings.png" alt="Open Executable Settings">&lt;/p>
+&lt;ul>
+&lt;li>Click the small blue plus icon and select &lt;strong>Add empty&lt;/strong>.&lt;/li>
+&lt;li>Enter &lt;strong>Skyrim Script Extender&lt;/strong> as the &lt;strong>Title&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>For the &lt;strong>Binary&lt;/strong> path you need to insert the file path that &lt;em>will&lt;/em> be correct &lt;em>after&lt;/em> running Root Builder (which is the root folder). Of course, the SKSE executable is not currently located there. That is why we need to do this manually.&lt;/p>
+&lt;ul>
+&lt;li>For &lt;strong>Binary&lt;/strong> enter &lt;code>Drive:\path\to\root\skse64_loader.exe&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;p>(You can copy &amp;amp; paste the file path from the settings for the game executables above.)&lt;/p>
+&lt;p>For me, the file path is:&lt;/p>
+&lt;pre>&lt;code>G:\Steam Library\steamapps\common\Skyrim Special Edition\skse64_loader.exe
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>Optionally, move the new executable to the top of the list.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> to save your changes and close the window.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/mo2-skse-executable.png" alt="SKSE Exec">&lt;/p>
+&lt;h3 id="skse-scripts">SKSE Scripts&lt;/h3>
+&lt;p>Going back to the downloaded SKSE archive, you will notice two folders inside: &lt;strong>Data&lt;/strong> and &lt;strong>src&lt;/strong>. The latter is short for &amp;ldquo;source&amp;rdquo;, meaning it contains the source code for mod authors which we do not need.&lt;/p>
+&lt;p>The &lt;strong>Data&lt;/strong> folder contains scripts which are a required component of SKSE. Those scripts are regular assets belonging into the &lt;strong>data folder&lt;/strong> and can therefore be handled by Mod Organizer 2 as usual. We can add them to the existing &lt;strong>Skyrim Script Extender&lt;/strong> mod folder.&lt;/p>
+&lt;ul>
+&lt;li>Inside the downloaded SKSE archive, double-click the &lt;strong>Data&lt;/strong> folder.&lt;/li>
+&lt;li>Extract the &lt;strong>Scripts&lt;/strong> folder to &lt;code>\Mod Organizer 2\mods\Skyrim Script Extender\&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>When you now launch SKSE through Mod Organizer 2, the executable and two DLLs will be temporarily copied into the actual root folder by the Root Builder plugin.&lt;/p>
+&lt;p>Meanwhile, the scripts will be loaded in MO2’s virtual data folder and recognised by the game just as if you had installed them directly into the actual data folder. Unchecking the mod in MO2 is sufficient to completely disable it.&lt;/p>
+&lt;div class="alert alert-success" role="alert">
+This is how the entirety of SKSE can be installed through Mod Organizer 2.
+&lt;/div>
+&lt;h2 id="skse-ini">SKSE INI&lt;/h2>
+&lt;p>Two of SKSE&amp;rsquo;s features need to be enabled in an INI file:&lt;/p>
+&lt;p>&lt;strong>iTintTextureResolution&lt;/strong> allows you to adjust the texture resolution of tint masks. By default, Skyrim&amp;rsquo;s tint masks (this includes war paints, make-up, or dirt masks applied to faces) can only have a resolution of 512 x 512 pixels which can look very blurry. Even if you install 2048 x 2048 pixel (2K) retextures, they will look like 512 x 512 in-game.&lt;/p>
+&lt;p>&lt;strong>ClearInvalidRegistrations&lt;/strong> is intended to clean up orphaned OnUpdate() events and prevent saves from bloating or breaking as a result of uninstalling certain mods.&lt;/p>
+&lt;h3 id="creating-skse-ini">Creating SKSE INI&lt;/h3>
+&lt;p>The SKSE INI must be located under &lt;code>\Data\SKSE\SKSE.ini&lt;/code>. We can use Mod Organizer 2 and create it from scratch.&lt;/p>
+&lt;ul>
+&lt;li>Click the &lt;a href="https://thephoenixflavour.com/Pictures/bg/create-empty-mod.png">crossed tools icon&lt;/a> above the mod order and select &lt;strong>Create empty mod&lt;/strong>.&lt;/li>
+&lt;li>Name the new mod &lt;strong>Skyrim Script Extender - SKSE INI&lt;/strong> and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Right-click the new mod and select &lt;strong>Open in Explorer&lt;/strong>.&lt;/li>
+&lt;li>Inside the new mod folder, create another new folder called &lt;strong>SKSE&lt;/strong>.&lt;/li>
+&lt;li>Within that &lt;strong>SKSE&lt;/strong> folder, right-click and select &lt;strong>New&lt;/strong> &amp;raquo; &lt;strong>Text Document&lt;/strong>.&lt;/li>
+&lt;li>Rename the new file to &lt;strong>SKSE.ini&lt;/strong>.
+&lt;ul>
+&lt;li>Make sure to change the file extension from TXT to INI.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>After changing the file extension and confirming, a warning window will pop up. Click &lt;strong>Yes&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/skse-ini-creation.png" alt="SKSE INI Creation">&lt;/p>
+&lt;h3 id="skse-ini-edits-for-skse">SKSE INI Edits for SKSE&lt;/h3>
+&lt;p>Next, we need to populate our new INI file.&lt;/p>
+&lt;ul>
+&lt;li>Go back into &lt;strong>Mod Organizer 2&lt;/strong> and press F5 to refresh.&lt;/li>
+&lt;li>Double-click &lt;strong>SKSE INI&lt;/strong> in your mod order and switch to the &lt;strong>INI Files&lt;/strong> tab.&lt;/li>
+&lt;li>Select the &lt;code>\SKSE\SKSE.ini&lt;/code> file.&lt;/li>
+&lt;li>Copy and paste the following into the empty file:&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code>[Display]
+iTintTextureResolution=2048
+[General]
+ClearInvalidRegistrations=1
+&lt;/code>&lt;/pre>
+&lt;div class="alert alert-info" role="alert">
+You can set the texture resolution for face tints to any resolution you like, although anything above 2048 (2K) is simply overkill unless you are planning to take a lot of close-up screenshots. Keep in mind that you will also have to install higher resolution retextures for tint masks later on for this setting to make a difference.
+&lt;/div>
+&lt;ul>
+&lt;li>Hit &lt;strong>CTRL+S&lt;/strong> to save your edits and close the window.&lt;/li>
+&lt;li>Check the box for the new mod to enable it.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/skse-ini-mo2.png" alt="SKSE INI Creation">&lt;/p>
+&lt;h3 id="other-skse-ini-settings">Other SKSE INI Settings&lt;/h3>
+&lt;div class="alert alert-warning" role="alert">
+The below INI settings &lt;strong>should not&lt;/strong> be added to your SKSE INI. The section is FYI only and can be skipped.
+&lt;/div>
+&lt;p>Beyond the two settings that we added, there are other options that are largely relics of the SLE days.&lt;/p>
+&lt;p>One allows you to adjust memory allocation, but while memory was a real issue in Skyrim LE, the 64bit engine upgrade in Skyrim SE all but solved the problem. The settings were very recently enabled in SKSE for SE; however, most people use the memory manager from SSE Engine Fixes instead (another mod, to be installed soon).&lt;/p>
+&lt;pre>&lt;code>[Memory]
+DefaultHeapInitialAllocMB=
+ScrapHeapSizeMB=
+&lt;/code>&lt;/pre>&lt;p>There is also an option to enable diagnostics. I am not entirely certain if this is valid in SKSE for SE to begin with (the changelog makes no mention of it), but it would be irrelevant anyway. What it logs are missing master files and missing plugins in a save. You will be able to see the former in Mod Organizer 2 and the latter upon attempting to load a save after disabling plugins that it relies on.&lt;/p>
+&lt;pre>&lt;code>[General]
+EnableDiagnostics=1
+&lt;/code>&lt;/pre>&lt;h2 id="address-library-for-skse">Address Library for SKSE&lt;/h2>
+&lt;p>To alleviate the problem of SKSE and SKSE plugins breaking with every Skyrim update, &lt;strong>meh321&lt;/strong> (the author of a number of groundbreaking mods) released &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32444">Address Library for SKSE&lt;/a>. This modder&amp;rsquo;s resource &lt;u>allows SKSE plugins to become version independent from SKSE&lt;/u> by storing their offsets in a separate database.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Due to the substantial changes that were made to the SkyrimSE.exe in the AE update, patch &lt;strong>1.6.317.0&lt;/strong>, there is now a new version of Address Library exclusively for post-AE Skyrim SE, covering versions &lt;strong>1.6.x&lt;/strong>. Various SKSE plugins for SKSE AE were updated to use this version of Address Library.
+&lt;/div>
+&lt;ul>
+&lt;li>Open the Nexus page for &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32444">Address Library for SKSE&lt;/a> and switch to the &lt;strong>Files&lt;/strong> tab.&lt;/li>
+&lt;li>Locate the &lt;strong>All in one (Anniversary Edition)&lt;/strong> main file and click the &lt;strong>Mod Manager Download&lt;/strong> button.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/address-library-download.png" alt="Address Library Download">&lt;/p>
+&lt;ul>
+&lt;li>In the right pane of Mod Organizer 2, switch to the &lt;strong>Downloads&lt;/strong> tab.&lt;/li>
+&lt;li>Double-click the downloaded file and click &lt;strong>OK&lt;/strong> to install the mod.&lt;/li>
+&lt;li>It will now appear in your mod order. Check the box to activate it.&lt;/li>
+&lt;/ul>
+&lt;h2 id="test-run">Test Run&lt;/h2>
+&lt;p>Finally, we should give SKSE a test run.&lt;/p>
+&lt;p>&lt;strong>SKSE only functions properly if Skyrim SE is launched via skse_loader.exe.&lt;/strong>&lt;/p>
+&lt;p>Also remember that the game must always be launched via Mod Organizer 2 in order for it to recognise the virtual data folder.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+Always start the game by running the Script Extender through Mod Organizer 2.
+&lt;/div>
+&lt;ul>
+&lt;li>Make sure all new mods are checked in the left pane.&lt;/li>
+&lt;li>Select the &lt;strong>Skyrim Script Extender&lt;/strong> from the executables drop-down menu.&lt;/li>
+&lt;li>Click &lt;strong>Run&lt;/strong> to launch the Skyrim Script Extender through Mod Organizer 2.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/mo2-run-skse.png" alt="MO2 Run SKSE">&lt;/p>
+&lt;p>Instead of opening the launcher, running the game through SKSE will bring you into the main menu directly.&lt;/p>
+&lt;p>Once you are in the main menu, open the &lt;strong>console&lt;/strong>, a dev tool that will become quite handy, particularly for troubleshooting. You can bring it up by pressing the &lt;strong>tilde&lt;/strong> key (location marked in blue below, in case you have trouble finding it):&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/tilde.jpg" alt="Tilde">&lt;/p>
+&lt;ul>
+&lt;li>In the console, type &lt;strong>skse&lt;/strong> and hit &lt;strong>Enter&lt;/strong> (capitalisation is irrelevant).&lt;/li>
+&lt;li>It should return the version of SKSE you just installed.&lt;/li>
+&lt;li>If everything works, close the console (press the tilde key again).&lt;/li>
+&lt;li>Quit the game.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/skse-check-ingame-ae.jpg" alt="SKSE Check">&lt;/p>
+&lt;hr>
+&lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-2bgcore-modulestep2meta-files">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step2/#meta-files">Step 2&lt;/a>.&lt;/h4></description></item><item><title>Bg: Skyrim Version Check</title><link>https://thephoenixflavour.com/bg/additional-modules/skyrim-version-check/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/skyrim-version-check/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers how to check the currently installed version of Skyrim.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/additional-modules/clean-install">Clean Install&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;p>Follow these steps to find out which version of Skyrim you currently have installed:&lt;/p>
+&lt;ul>
+&lt;li>Navigate to &lt;code>\Steam\steamapps\common\Skyrim Special Edition\&lt;/code>.&lt;/li>
+&lt;li>Right-click the &lt;strong>SkyrimSE.exe&lt;/strong> inside and select &lt;strong>Properties&lt;/strong>.&lt;/li>
+&lt;li>Switch to the &lt;strong>Details&lt;/strong> tab and check under &lt;strong>Product version&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/sse-1-6-640.png" alt="Version Check">&lt;/p>
+&lt;div class="alert alert-success" role="alert">
+&lt;strong>Currently recommended version:&lt;/strong> Skyrim SE 1.6.640 (Steam).
+&lt;/div>
+&lt;div class="alert alert-warning" role="alert">
+If your version of Skyrim SE does not correspond to the version specified above, you need to &lt;a href="https://thephoenixflavour.com/bg/additional-modules/downgrade-skyrim">downgrade&lt;/a>.
+&lt;/div></description></item><item><title>Bg: SSEEdit Setup</title><link>https://thephoenixflavour.com/bg/additional-modules/sseedit-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/sseedit-setup/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers the installation of SSEEdit for Mod Organizer 2.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/additional-modules/mo2-setup/">MO2 Setup&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="about-sseedit">About SSEEdit&lt;/h2>
+&lt;p>xEdit is a tool for viewing and modifying Bethesda plugins.&lt;/p>
+&lt;p>Versions of it exist for most Bethesda games, not only Skyrim SE, and its name changes depending on the game: For example, xEdit for Skyrim SE is known as &lt;strong>SSEEdit&lt;/strong> while xEdit for Skyrim LE was called &lt;strong>TES5Edit&lt;/strong> and &lt;strong>FO4Edit&lt;/strong> is used in Fallout 4 modding.&lt;/p>
+&lt;p>Once you have installed the programme, you can use it for any game that is supported by either changing the name of the executable, or starting it with a specific argument such as &lt;code>-sse&lt;/code> for Skyrim SE.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+You will see the tool referred to as SSEEdit or xEdit interchangeably. Both mean the same thing.
+&lt;/div>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>SSEEdit is hosted on the Nexus:&lt;/p>
+&lt;ul>
+&lt;li>Download the latest version of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/164">SSEEdit&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="installation-directory">Installation Directory&lt;/h3>
+&lt;div class="alert alert-warning" role="alert">
+The instructions below are &lt;em>mostly&lt;/em> intended for those following the Core Module.
+&lt;/div>
+&lt;p>I recommend keeping all your modding tools in one &lt;strong>Tools&lt;/strong> folder&lt;/p>
+&lt;p>When it comes to picking an installation directory for tools, you can either create a folder inside the MO2 directory, i.e., &lt;code>\Mod Organizer 2\Tools\&lt;/code>, or in a different location &lt;u>on the same drive&lt;/u>.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+While tool authors often warn against running tools from within the MO2 directory, Wabbajack list authors have done just that for years with no issues that I am aware of. If you want to be on the safe side, pick a directory outside of your MO2 installation.
+&lt;/div>
+&lt;ul>
+&lt;li>Create a &lt;strong>Tools&lt;/strong> folder &lt;u>on the same drive&lt;/u> as your Mod Organizer 2 installation.&lt;/li>
+&lt;li>Inside your &lt;strong>Tools&lt;/strong> folder, create a &lt;strong>SSEEdit&lt;/strong> folder*.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;font size=2>**I like to append the version number to my tool folders (SSEEdit 4.0.4) so I am better able to track which version of my tools I have installed.*&lt;/font>&lt;/p>
+&lt;h2 id="mo2-integration">MO2 Integration&lt;/h2>
+&lt;p>Plugins are data folder files which means &lt;strong>SSEEdit&lt;/strong> must be run through Mod Organizer 2 in order to access its virtual data folder.&lt;/p>
+&lt;ul>
+&lt;li>In Mod Organizer 2, click the &lt;a href="https://thephoenixflavour.com/Pictures/bg/mo2-executables-settings.png">gears icon&lt;/a> in the Toolbar to open the &lt;strong>Executables&lt;/strong> settings.&lt;/li>
+&lt;li>Click the small blue plus icon and select &lt;strong>Add from file&lt;/strong>.&lt;/li>
+&lt;li>Navigate to &lt;code>\Tools\SSEEdit\&lt;/code> and double-click &lt;strong>SSEEdit.exe&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> to add the executable to Mod Organizer 2.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/add-sseedit-to-mo2.png" alt="Add xEdit">&lt;/p>
+&lt;h3 id="toolbar">Toolbar&lt;/h3>
+&lt;p>SSEEdit should be automatically selected in the executables drop-down (if not, select it).&lt;/p>
+&lt;p>For maximum convenience, I recommend clicking the &lt;strong>Shortcut&lt;/strong> drop-down below the &lt;strong>Run&lt;/strong> button and selecting &lt;strong>Toolbar and Menu&lt;/strong>.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Click the SSEEdit icon in the Toolbar has the same effect as selecting it from the executables drop-down and clicking &lt;strong>Run&lt;/strong>, except it is obviously faster. I recommend doing this for every tool.
+&lt;/div>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/mo2-xedit-shortcut.png" alt="Shortcut">&lt;/p>
+&lt;h2 id="sseedit-ref-cache">SSEEdit Ref Cache&lt;/h2>
+&lt;p>When loading up your plugins in SSEEdit, the tool will spend a considerable amount of time processing all records. To cut down on the loading time, SSEEdit creates a &lt;strong>ref cache&lt;/strong> (caching reference records for each plugin) which reduces the startup time from several minutes to twenty seconds or less.&lt;/p>
+&lt;p>I recommend saving the cache files into the &lt;strong>SSEEdit&lt;/strong> folder.&lt;/p>
+&lt;ul>
+&lt;li>In Mod Organizer 2, click the &lt;a href="https://thephoenixflavour.com/Pictures/bg/mo2-executables-settings.png">gears icon&lt;/a> in the Toolbar to open the &lt;strong>Executables&lt;/strong> settings.&lt;/li>
+&lt;li>Select &lt;strong>SSEEdit&lt;/strong> in the list of executables.&lt;/li>
+&lt;li>Under &lt;strong>Arguments&lt;/strong> add the &lt;code>-c:&amp;quot;filepath&amp;quot;&lt;/code> argument along with the file path.&lt;/li>
+&lt;/ul>
+&lt;p>Your file path will, of course, depend on where you installed SSEEdit. It must end in a &lt;code>\cache\&lt;/code> folder. This folder does not have to exist, it will be created by SSEEdit upon generating the first cache files. &lt;u>The file path must end on a trailing backslash.&lt;/u>&lt;/p>
+&lt;p>For me, the argument looks like this:&lt;/p>
+&lt;pre>&lt;code>-c:&amp;quot;G:\Modding Tools\SSEEdit\cache\&amp;quot;
+&lt;/code>&lt;/pre>&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/sseedit-refcache-argument.png" alt="xEdit Refcache">&lt;/p>
+&lt;h3 id="generating-ref-cache">Generating Ref Cache&lt;/h3>
+&lt;p>Launch SSEEdit through Mod Organizer 2 and click &lt;strong>OK&lt;/strong> in the &lt;strong>Plugin Selection Window&lt;/strong> to load all your currently installed plugins. This will take a moment as SSEEdit builds the cache files.&lt;/p>
+&lt;p>You can quit once the log at the bottom returns &lt;code>Background loader: finished&lt;/code> or once you are prompted to activate ModGroups.&lt;/p>
+&lt;p>Check your &lt;code>\Tools\SSEEdit\cache\&lt;/code> folder to make sure the files were saved to the correct location.&lt;/p>
+&lt;hr>
+&lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-3bgcore-modulestep3">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step3">Step 3&lt;/a>.&lt;/h4></description></item><item><title>Bg: Update Proofing</title><link>https://thephoenixflavour.com/bg/additional-modules/update-proofing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/update-proofing/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers how to prevent Skyrim from automatically updating.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/additional-modules/clean-install">Clean Install&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;p>The version-specific nature of SKSE and related mods makes forced updates of the base game quite disruptive. They can completely break a modded setup, potentially rendering you unable to play until the modding scene has caught up.&lt;/p>
+&lt;p>Fortunately, update-proofing Skyrim is simple:&lt;/p>
+&lt;ul>
+&lt;li>In your games library in Steam, right-click &lt;strong>The Elder Scrolls V: Skyrim Special Edition&lt;/strong>.&lt;/li>
+&lt;li>Select &lt;strong>Properties&lt;/strong> and switch to the &lt;strong>Updates&lt;/strong> tab.&lt;/li>
+&lt;li>Make sure &lt;strong>Automatic updates&lt;/strong> are set to &lt;strong>Only update this game when I launch it&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/update-proofing.png" alt="update proofing">&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+Of course, this would still force you to update whenever you attempt to launch the game through its default executables. However, SKSE comes with its own launcher which you must always use to launch the game for it to work properly. Launching the game through SKSE will &lt;u>not&lt;/u> prompt Steam to update, meaning you can stay on an older version of the game for as long as you desire.
+&lt;/div></description></item></channel></rss>
