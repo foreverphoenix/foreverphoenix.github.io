@@ -131,6 +131,9 @@ You can use &lt;a href="https://thephoenixflavour.com/Pictures/bg/mo2-open-game-
 &lt;h3 id="data-folder">Data Folder&lt;/h3>
 &lt;p>The &lt;strong>data folder&lt;/strong> is located inside the &lt;strong>root folder&lt;/strong>. Open it now.&lt;/p>
 &lt;p>The &lt;strong>data folder&lt;/strong> contains all game files which are split into &lt;strong>plugins (ESMs)&lt;/strong> and &lt;strong>archives (BSAs)&lt;/strong>. There are five &lt;strong>ESMs&lt;/strong> containing all game data and 18 &lt;strong>BSAs&lt;/strong> containing all assets. They are used by the engine to build the game.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+The five ESMs are also referred to as the &lt;strong>official master files&lt;/strong>.
+&lt;/div>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/skyrim-data-folder.png" alt="Data Folder">&lt;/p>
 &lt;h2 id="data-folder-files">Data Folder Files&lt;/h2>
 &lt;p>The basic structure of mods is the same as the basic structure of the official game files.&lt;/p>
@@ -239,14 +242,11 @@ Here you can also see the other data saved in the meta files, including version 
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
-&lt;ul>
-&lt;li>Essential Mods&lt;/li>
-&lt;/ul>
+&lt;p>This step covers the basic architecture of Bethesda plugins and how they can be modified.&lt;/p>
 &lt;/blockquote>
 &lt;/div>
-&lt;p>In the previous step we learned that there are two kinds of mod files: Plugins and assets. The Core Module mostly covers plugins.&lt;/p>
-&lt;p>We will start by installing an example mod.&lt;/p>
 &lt;h2 id="unofficial-skyrim-special-edition-patch">Unofficial Skyrim Special Edition Patch&lt;/h2>
+&lt;p>We will start by installing an example mod.&lt;/p>
 &lt;p>The &lt;strong>Unofficial Skyrim Special Edition Patch&lt;/strong> (USSEP) is an ambitious project aiming to squash the various bugs and inconsistencies never addressed by Bethesda. It is probably the single most popular Skyrim mod in existence.&lt;/p>
 &lt;div class="alert alert-info" role="alert">
 The USSEP is not without controversy. Many of its changes have been criticised for being out-of-scope which is rarely received well by the somewhat eccentric project lead. Nevertheless, I highly recommend the mod, especially to newcomers, because it does fix a lot and because not using it limits your options where other mods are concerned.
@@ -270,6 +270,9 @@ The USSEP requires the four free creations which is why earlier instructions ens
 &lt;p>After enabling the USSEP, a new plugin will appear in the &lt;strong>Plugins&lt;/strong> tab in the right pane which is also called the &lt;strong>load order&lt;/strong>. Currently, the USSEP is at the bottom of the load order. All other files above are greyed out because they are official game files (vanilla and creations) because their load order position are hardcoded and cannot be changed.&lt;/p>
 &lt;h3 id="dependencies">Dependencies&lt;/h3>
 &lt;p>By adding one plugin as a &lt;strong>master&lt;/strong> to another plugin, you can modify its contents. However, the dependent plugin will now require its master to function. All plugins require at least &lt;strong>Skyrim.esm&lt;/strong> because most game data is defined in that plugin.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Because all mods require one or more of the five vanilla ESMs they are known as the &lt;strong>official master files&lt;/strong>.
+&lt;/div>
 &lt;p>You can view a plugin&amp;rsquo;s masters by hovering over it in the MO2 UI:&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/ussep-masters.png" alt="USSEP Masters">&lt;/p>
 &lt;p>If a master is missing, MO2 will promptly warn you. Uncheck one of the four free creations in the mod order to trigger the warning.&lt;/p>
@@ -412,4 +415,197 @@ Mod authors frequently prefix their &lt;strong>EditorIDs&lt;/strong> with their 
 &lt;p>Theoretically we could simply right-click and delete the book&amp;rsquo;s base record. However, the reference record placing the book in the Temple of Kynareth links back to the book&amp;rsquo;s base record and would throw an error if the base record it references was deleted. These kinds of errors can cause crashes and other issues.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/ussep-book-error.png" alt="Book Error">&lt;/p>
 &lt;p>Instead, it is much better to leave the base record in place and disable the REFR record.&lt;/p>
-&lt;p>&lt;em>TBC&lt;/em>&lt;/p></description></item></channel></rss>
+&lt;h2 id="finding-the-refr">Finding the REFR&lt;/h2>
+&lt;p>One way to find the REFR record would be to search for the Ref Form ID like we did before. However, there is another way of quickly tracking down referenced records:&lt;/p>
+&lt;ul>
+&lt;li>With the &lt;strong>USSEPUnwantedEffectsRemoverBook&lt;/strong> record selected, click the &lt;strong>Referenced By (1)&lt;/strong> tab at the bottom of the right pane.&lt;/li>
+&lt;li>Double-click the one REFR record listed here to immediately switch to it.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/find-refr-records.png" alt="Find REFR">&lt;/p>
+&lt;p>There we go. Under the blue highlight (because it is currently selected), the record in the left pane has no coloured background (meaning it is new and not overwritten) and in &lt;em>italics&lt;/em> (meaning it is injected):&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/ussep-book-ref.png" alt="Find REFR">&lt;/p>
+&lt;p>Under &lt;strong>NAME - Base&lt;/strong> in the right pane, you can see the full name of the book record (consisting of EDID, Name, Signature, and BaseID). If you scroll further down, there is the &lt;strong>DATA - Position/Rotation&lt;/strong> section which defines the book&amp;rsquo;s exact placement. This would best be edited in the Creation Kit where you have a visual preview.&lt;/p>
+&lt;p>Various other parameters are greyed out because they are unused.&lt;/p>
+&lt;h3 id="creating-a-new-layer">Creating a new layer&lt;/h3>
+&lt;p>While it is entirely possible to edit the REFR record directly, it would mean that you would have to do it all over again whenever the USSEP updated. For any edit like this (and later on for patches) I highly recommend creating new plugins instead of directly editing the mod(s) in question. It is also much easier to keep track of custom changes if they are in separate plugins.&lt;/p>
+&lt;ul>
+&lt;li>Right-click the &lt;strong>Unofficial Skyrim Special Edition Patch.esp&lt;/strong> column in the right pane.&lt;/li>
+&lt;li>Select &lt;strong>Copy as override into &amp;hellip;&lt;/strong> to copy the layer into another plugin.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/sseedit-create-layer.png" alt="Create Layer">&lt;/p>
+&lt;p>The &lt;a href="https://thephoenixflavour.com/Pictures/bg/core-module/sseedit-warning-window.png">warning window&lt;/a> that now appears will always show up the first time you edit anything in an SSEEdit session. It can be turned off and I recommend doing that eventually.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+When making changes, it is important to know that &lt;strong>there is no &amp;ldquo;Undo&amp;rdquo; button in SSEEdit&lt;/strong>. If you make a mistake, you need to restore the previous state manually or close without saving your changes and start over. It is possible to save manually during a longer session.
+&lt;/div>
+&lt;ul>
+&lt;li>Click &lt;strong>Yes I&amp;rsquo;m absolutely sure&lt;/strong> to acknowledge the warning and proceed.&lt;/li>
+&lt;li>A new window will pop up with various different plugins that the record can be copied into.&lt;/li>
+&lt;li>Check the &lt;strong>&amp;lt;new file&amp;gt;.esp&lt;/strong> option and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Enter &lt;strong>Disable USSEP Book&lt;/strong> as the name of the new plugin and click &lt;strong>OK&lt;/strong> once more.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/sseedit-new-plugin.png" alt="New Plugin">&lt;/p>
+&lt;p>A new plugin was created and will appear at the bottom of the plugin list in the left pane.&lt;/p>
+&lt;p>Scroll down and expand its &lt;strong>Cell&lt;/strong> records until you find the REFR record added by the USSEP. As you can see it is highlighted in green since the original record was overwritten now:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/ussep-book-itm.png" alt="Book ITM">&lt;/p>
+&lt;h3 id="identical-to-master">Identical to Master&lt;/h3>
+&lt;p>In the new plugin, the font colour is grey instead of purple. &lt;strong>That means the record is an ITM, or Identical to Master.&lt;/strong>&lt;/p>
+&lt;p>The master for the REFR record is &lt;strong>Update.esm&lt;/strong> (because it is an injected form) and the master for the book referenced in the REFR record is the USSEP (because the book record originates in the USSEP). For that reason, both the USSEP and Update.esm are required. Skyrim.esm is also added as a master to any new plugin.&lt;/p>
+&lt;p>You can see the full list of masters if you click on &lt;strong>File Header&lt;/strong>.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/ussep-book-masters.png" alt="Book ITM">&lt;/p>
+&lt;p>Because nothing has (yet) been changed in the new layer, it is still &lt;em>identical to all its masters&lt;/em> and therefore an &lt;strong>ITM&lt;/strong>. ITMs are often (but not always) unnecessary and potentially disruptive (because they can override and negate other mods&amp;rsquo; changes) which is why they usually merit further investigation.&lt;/p>
+&lt;p>This particular record will, of course, be modified.&lt;/p>
+&lt;h3 id="adding-a-record-flag">Adding a record flag&lt;/h3>
+&lt;p>In order to disable the book ingame, we can use a &lt;strong>Record Flag&lt;/strong>. Scroll up to the top of the record in the right pane to find the &lt;strong>Record Flags&lt;/strong> line which is currently empty.&lt;/p>
+&lt;ul>
+&lt;li>Right-click the empty space next to &lt;strong>Record Flags&lt;/strong> and select &lt;strong>Edit&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/sseedit-add-record-flag.png" alt="Add Record Flag">&lt;/p>
+&lt;p>A new window will pop up with a list of options that you can check. Near the top of that list is a &lt;strong>Delete&lt;/strong> option which is not the one you should choose. Flagging records as deleted will cause crashes if they are referenced by other records and it is considered best practice to always use the &lt;strong>Initially Disabled&lt;/strong> flag instead.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+&lt;strong>Initially Disabled&lt;/strong> means a record can potentially be re-enabled by a script later on. For example, certain coffins are flagged as initially disabled. If an NPC dies, their coffin in the Hall of the Dead of their home city will be enabled and thus become visible to the player.
+&lt;/div>
+&lt;ul>
+&lt;li>Check the box for &lt;strong>Initially Disabled&lt;/strong> and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/initially-disabled-flag.png" alt="Disable Flag">&lt;/p>
+&lt;h3 id="saving-your-changes">Saving your changes&lt;/h3>
+&lt;p>Saving changes made in SSEEdit is a slightly unintuitive process: You actually have to &lt;em>close&lt;/em> the tool to be prompted to save what you changed (unless you save manually).&lt;/p>
+&lt;ul>
+&lt;li>Close &lt;strong>SSEEdit&lt;/strong> (click the red X in the upper right corner).&lt;/li>
+&lt;li>A window with all plugins edited in that session will pop up. Only the &lt;strong>Disable USSEP Book.esp&lt;/strong> should be listed here.&lt;/li>
+&lt;li>Make sure that the new plugin we created is checked and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="the-overwrite">The Overwrite&lt;/h2>
+&lt;p>Whenever a file is generated by a tool that is run through Mod Organizer 2, it will &amp;lsquo;catch&amp;rsquo; these files in a folder called the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em>. That, as it happens, is where our new plugin ended up, and it is why &lt;a href="https://thephoenixflavour.com/Pictures/bg/core-module/overwrite-warning.png">a warning popped up in MO2&lt;/a>.&lt;/p>
+&lt;p>The &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> is located at the bottom of the mod folder which means its contents will &lt;u>always&lt;/u> overwrite the rest of the mod order (hence the name). Because it always overwrites, the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> should &lt;u>never&lt;/u> be more than a temporary location that is cleaned up as soon as possible.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+The actual location of the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> accessible through the MO2 UI is &lt;code>\Mod Organizer 2\overwrite\&lt;/code>.
+&lt;/div>
+&lt;ul>
+&lt;li>Double-click the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> at the bottom of your mod order to open it.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/overwrite-contents.png" alt="Overwrite Contents">&lt;/p>
+&lt;h3 id="managing-overwrite-files">Managing Overwrite Files&lt;/h3>
+&lt;p>Since we only have a single file in the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em>, we can very easily convert its content into a new mod:&lt;/p>
+&lt;ul>
+&lt;li>Close the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> window again.&lt;/li>
+&lt;li>Right-click the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> and select &lt;strong>Create Mod&lt;/strong>.&lt;/li>
+&lt;li>Name it &lt;strong>Disable USSEP Book&lt;/strong> and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Move your new mod directly below the &lt;strong>Unofficial Skyrim Special Edition Patch&lt;/strong> and activate it.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/overwrite-create-mod.png" alt="Overwrite Contents">&lt;/p>
+&lt;h2 id="ingame-test">Ingame Test&lt;/h2>
+&lt;p>Now that we have created our first plugin tweak and cleaned everything up, it is time to jump in-game again to check if the plugin works as intended.&lt;/p>
+&lt;ul>
+&lt;li>Launch the &lt;strong>Skyrim Script Extender&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Select &lt;strong>Continue&lt;/strong> in the main menu to load your previously created save.&lt;/li>
+&lt;/ul>
+&lt;p>And &amp;hellip; gone!&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/ussep-book-removed.jpg" alt="Overwrite Contents">&lt;/p>
+&lt;h3 id="conclusion">Conclusion&lt;/h3>
+&lt;p>You may wonder why we went through the process of digging through SSEEdit to disable a completely inconsequential feature before we even talked about load order and plugin types.&lt;/p>
+&lt;p>&lt;strong>This step was never about the book.&lt;/strong>&lt;/p>
+&lt;p>With everything we learned about plugins, dependencies, and layers, &lt;strong>load order&lt;/strong> should be more than a theoretical concept now. It is a tangible thing that you have seen in action. You looked at records and edits, you created your own overwriting layer to make a change, and you saw the in-game effect.&lt;/p>
+&lt;p>When we discuss plugin types and load order in the next step, these concepts will hopefully make more sense with the knowledge on plugin structure that we have now gained.&lt;/p>
+&lt;hr>
+&lt;h4 id="please-continue-with-step-4bgcore-modulestep4">Please continue with &lt;a href="https://thephoenixflavour.com/bg/core-module/step4/">Step 4&lt;/a>.&lt;/h4></description></item><item><title>Bg: Step 4</title><link>https://thephoenixflavour.com/bg/core-module/step4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/core-module/step4/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This step covers&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="plugin-types">Plugin Types&lt;/h2>
+&lt;p>You may have noticed that we have plugins with three different extensions in our load order.&lt;/p>
+&lt;ul>
+&lt;li>Skyrim.&lt;strong>esm&lt;/strong>&lt;/li>
+&lt;li>ccBGSSSE037-Curios.&lt;strong>esl&lt;/strong>&lt;/li>
+&lt;li>Unofficial Skyrim Special Edition Patch.&lt;strong>esp&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-info" role="alert">
+&lt;strong>ESP&lt;/strong>, &lt;strong>ESM&lt;/strong>, and &lt;strong>ESL&lt;/strong> files are Bethesda plugins. They share the same basic structure of records with Form IDs arranged in layers and overwrite each other according to their load order.
+&lt;/div>
+&lt;p>There are, however, notable differences between them which we will discuss in this step.&lt;/p>
+&lt;h2 id="esp-and-esm-plugins">ESP and ESM Plugins&lt;/h2>
+&lt;p>&lt;strong>Elder Scrolls Plugins&lt;/strong> (ESP) like our previously created &lt;strong>Disable USSEP Book.esp&lt;/strong> are the most common type of plugin. If you create a mod in the Creation Kit, it will be exported in this format and most plugin-based mods use a simple ESP. In the load order in MO2 they will appear without any text decoration (like bold or italic).&lt;/p>
+&lt;p>&lt;strong>Elder Scrolls Master&lt;/strong> plugins (ESM) appear in &lt;em>&lt;strong>bold italics&lt;/strong>&lt;/em> in Mod Organizer 2 - see, for example, the official master files. They will always load above ESPs and therefore ESPs will always overwrite them in case of conflicts. If you try to swap the load order of the USSEP and our modification for it in MO2 you will notice that you cannot place an ESP above an ESM.&lt;/p>
+&lt;h3 id="plugin-limit">Plugin Limit&lt;/h3>
+&lt;p>&lt;strong>The total number of ESM and ESP plugins in your load order cannot exceed 256 plugins.&lt;/strong>&lt;/p>
+&lt;p>This is due to the hexadecimal system used to define them: Each plugin&amp;rsquo;s &lt;strong>Index&lt;/strong> (the first two characters in their form ID) is made up of a combination of two numbers and letters which in turn is based on their load order. The hexadecimal system has 16 unique characters and there are exactly 256 possible combinations for two characters from 00 to FF (see table below).&lt;/p>
+&lt;p>The hexadecimal &lt;strong>FF&lt;/strong> is the decimal &lt;strong>255&lt;/strong>, so the maximum amount of plugins from 0 (00) to 255 (FF) is 256.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/hexadecimalchart.png" alt="Hexadecimal Chart">&lt;/p>
+&lt;p>In Skyrim LE the plugin limit could be overcome by merging the records of multiple plugins into a single one.&lt;/p>
+&lt;p>In Skyrim SE plugin merging has become redundant for all but the largest of load orders thanks to the new ESL format of plugins introduced with the 2016 engine update.&lt;/p>
+&lt;h2 id="esl-plugins">ESL Plugins&lt;/h2>
+&lt;p>&lt;strong>Elder Scrolls Light&lt;/strong> plugins (ESL) were initially added for the Creation Club (Fallout 4 and Skyrim SE) and they were a game-changer for the modding scene because the plugin limit for ESLs is about ten times that as for ESPs and ESMs.&lt;/p>
+&lt;p>All ESL plugins have the index &lt;code>FE:xxx&lt;/code>. The hexadecimal FE is the decimal 254, so &lt;strong>all ESL plugins load in plugin slot 254.&lt;/strong>&lt;/p>
+&lt;p>This is possible because their index was extended to the third, fourth, and fifth character in their eight character form ID: An ESL&amp;rsquo;s index could be &lt;code>FE:000&lt;/code> or &lt;code>FE:08F&lt;/code>. Thus, &lt;strong>the limit for ESLs is a whopping 4096 plugins&lt;/strong> - which is why we no longer need to merge plugins.&lt;/p>
+&lt;h3 id="plugin-capacity">Plugin Capacity&lt;/h3>
+&lt;p>The downside of ESLs is that they can store fewer records.&lt;/p>
+&lt;p>Remember that each record must have a unique Form ID. ESLs only have three digits left for a combination of the 16 hexadecimal characters whereas ESPs and ESMs have six digits. This means every ESL can only store 4096 unique Form IDs of which the first 2048 are reserved by the engine.&lt;/p>
+&lt;p>The remaining 2048 slots are still more than enough for small- to medium-size mods. Many separate ESL plugins are infinitely easier to handle than a few big plugin merges (imagine having many small drawers for screws of different types and sizes instead of dumping all of them into a single big drawer).&lt;/p>
+&lt;p>Additionally, this limit only affects &lt;u>new&lt;/u> records, i.e., records defined in the ESL plugin. There is no limit on how many records defined in &lt;em>other&lt;/em> plugins an ESL can hold. Many mods, especially patches, function mostly by editing existing (vanilla or mod-added) records and adding few or no new records of their own. These types of plugins are especially suited to being ESL-ified.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+&lt;strong>Summary:&lt;/strong> You can install up to &lt;u>4096&lt;/u> ESL plugins which can contain up to &lt;u>2048&lt;/u> new Form IDs each.
+&lt;/div>
+&lt;h2 id="plugin-flags">Plugin Flags&lt;/h2>
+&lt;p>We learned that &lt;strong>ESM&lt;/strong> plugins are distinguished in the load order by being displayed in &lt;em>&lt;strong>bold italics&lt;/strong>&lt;/em>.&lt;/p>
+&lt;p>But here is something strange: The &lt;strong>Unofficial Skyrim Special Edition Patch.esp&lt;/strong> is displayed in &lt;em>&lt;strong>bold italics&lt;/strong>&lt;/em> in our MO2 load order tab when it actually has the ESP file extension.&lt;/p>
+&lt;p>So, is it an ESM or an ESP? Actually, it is both. This is where &lt;strong>Plugin Flags&lt;/strong> come into play.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Plugins can either be a full ESP, ESL, or ESM, &lt;strong>OR&lt;/strong> they can be any combination of the three.
+&lt;/div>
+&lt;p>That sounds a little confusing, so let&amp;rsquo;s break it down.&lt;/p>
+&lt;h3 id="esm-esl">ESM-ESL&lt;/h3>
+&lt;p>Imagine you created a mod that is a resource to be used by other mods: It just contains a few keywords, maybe a dozen records. You can easily use the ESL format for this plugin.&lt;/p>
+&lt;p>However, your resource is also a &lt;strong>master&lt;/strong> to various dependent plugins which should be lower in the mod order, so preferably your plugin should load very early. It therefore makes sense to flag it as an ESM to automatically place it in the ESM space at the top of the load order.&lt;/p>
+&lt;p>The result is an &lt;strong>ESM-ESL&lt;/strong> which will show up as &lt;em>&lt;strong>Example.esl&lt;/strong>&lt;/em> in the load order - like &lt;em>&lt;strong>ccBGSSSE037-Curios.esl&lt;/strong>&lt;/em>.&lt;/p>
+&lt;h3 id="esm-esp">ESM-ESP&lt;/h3>
+&lt;p>Now imagine your example mod is definitely one that should load very early to be overwritten by other mods but you have far too many original Form IDs to use the ESL format.&lt;/p>
+&lt;p>In that case, you can either opt for a full ESM or an ESP that is flagged as an ESM, that is, an &lt;strong>ESM-ESP&lt;/strong> - like the &lt;em>&lt;strong>Unofficial Skyrim Special Edition Patch.esp&lt;/strong>&lt;/em>.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+To my knowledge, there is no functional difference between a regular ESM and an ESM-ESP.
+&lt;/div>
+&lt;h3 id="esp-esl">ESP-ESL&lt;/h3>
+&lt;p>Finally, you may have a plugin that is just fine to load in ESP space because it is not intended as a sort of baseline or framework. If it does not contain many new Form IDs, you can usually flag the plugin as an ESL, turning it into an &lt;strong>ESP-ESL&lt;/strong> or &lt;strong>ESP-FE&lt;/strong> (because ESLs always have an Index beginning with FE).&lt;/p>
+&lt;p>Which plugins can be flagged as ESL and how this can be done will be discussed in the following steps.&lt;/p>
+&lt;h2 id="creating-an-esl">Creating an ESL&lt;/h2>
+&lt;p>Should you ever find yourself reaching the ESP/ESM plugin limit, you will no longer be able to launch the game - try to avoid that.&lt;/p>
+&lt;p>You can track your plugins via the neat little counter above your load order (hover for details):&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/plugin-counter.png" alt="Plugin Counter">&lt;/p>
+&lt;p>With 9 plugins currently counting toward the 256 hard limit, we are in no danger of breaking the game anytime soon. Then again, load orders have the tendency to balloon to obscene dimensions so it is tends to be a good idea to ESL-ify as many plugins as possible.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Plugins with few or no original records, like patches that mostly modify other mods, are best suited to the ESL format.
+&lt;/div>
+&lt;p>Hey, that sounds like our &lt;strong>Disable USSEP Book.esp&lt;/strong> which only modifies a single reference.&lt;/p>
+&lt;ul>
+&lt;li>Load up your load order in SSEEdit.&lt;/li>
+&lt;/ul>
+&lt;h3 id="plugin-header">Plugin Header&lt;/h3>
+&lt;p>Plugin Type is determined by file extension and plugin flags. You can see the file extension in the left pane and plugin flag(s) in the &lt;strong>Plugin Header&lt;/strong> which is what you see when you select a plugin in SSEEdit.&lt;/p>
+&lt;p>Below, you can see the &lt;strong>Plugin Header&lt;/strong> of our &lt;strong>Disable USSEP Book.esp&lt;/strong>. It is a bog-standard ESP, so there are no plugin flags (or Record Flags as they are called here).&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/esp-plugin-header.png" alt="ESP Plugin Header">&lt;/p>
+&lt;p>If you select the &lt;strong>Unofficial Skyrim Special Edition Patch.esp&lt;/strong>, you will see that it is flagged as an &lt;strong>ESM&lt;/strong>.&lt;/p>
+&lt;p>Two of the CC plugins, &lt;strong>ccBGSSSE037-Curios.esl&lt;/strong> and &lt;strong>ccQDRSSE001-SurvivalMode.esl&lt;/strong>, are additionally flagged as &lt;strong>ESLs&lt;/strong>.&lt;/p>
+&lt;h3 id="esl-flagging">ESL-Flagging&lt;/h3>
+&lt;p>Going back to our &lt;strong>Disable USSEP Book.esp&lt;/strong>, we can now simply turn it into an ESL (that is, an ESP-ESL because it still has the ESP file extension) by adding the flag.&lt;/p>
+&lt;ul>
+&lt;li>In the &lt;strong>Plugin Header&lt;/strong>, right-click the empty space under &lt;strong>Record Flags&lt;/strong> and select &lt;strong>Edit&lt;/strong>.&lt;/li>
+&lt;li>Confirm when the warning window pops up.&lt;/li>
+&lt;li>Check the box for &lt;strong>ESL&lt;/strong> and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Close SSEEdit. Make sure &lt;strong>Disable USSEP Book.esp&lt;/strong> is checked and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/esl-flag-plugin.png" alt="ESL Flag">&lt;/p>
+&lt;p>Back in MO2, our plugin now appears in &lt;em>italics&lt;/em> in the load order and the little yellow icon 🟡 that appeared in the &lt;strong>Flags&lt;/strong> column for the plugin confirms that it is ESL-flagged. You can also check this by hovering over it. And, of course, you can see the &lt;strong>FE&lt;/strong> index.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/esl-flag-mo2.png" alt="ESL Flag">&lt;/p>
+&lt;h2 id="esm-space-and-references">ESM Space and References&lt;/h2>
+&lt;p>A major differences between plugins in ESM and ESP space is how references are handled.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Full ESLs load in ESM space, that is, they are forced to the top of the load order.
+&lt;/div>
+&lt;h3 id="persistent-vs-temporary">Persistent vs Temporary&lt;/h3>
+&lt;p>There are two types of references:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Temporary references&lt;/strong> only load into memory when the player is close by and are unloaded when they are no longer needed.&lt;/li>
+&lt;li>&lt;strong>Persistent references&lt;/strong> are always loaded into memory upon launching the game, regardless of player proximity.&lt;/li>
+&lt;/ul></description></item></channel></rss>

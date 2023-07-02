@@ -393,20 +393,14 @@ The instructions below are intended for those following the Core Module.
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/mo2-executables-settings.png" alt="Open Executable Settings">&lt;/p>
 &lt;ul>
-&lt;li>Click the small blue plus icon and select &lt;strong>Add empty&lt;/strong>.&lt;/li>
-&lt;li>Enter &lt;strong>Skyrim Script Extender&lt;/strong> as the &lt;strong>Title&lt;/strong>.&lt;/li>
-&lt;/ul>
-&lt;p>For the &lt;strong>Binary&lt;/strong> path you need to insert the file path that &lt;em>will&lt;/em> be correct &lt;em>after&lt;/em> running Root Builder (which is the root folder). Of course, the SKSE executable is not currently located there. That is why we need to do this manually.&lt;/p>
-&lt;ul>
-&lt;li>For &lt;strong>Binary&lt;/strong> enter &lt;code>Drive:\path\to\root\skse64_loader.exe&lt;/code>.&lt;/li>
-&lt;/ul>
-&lt;p>(You can copy &amp;amp; paste the file path from the settings for the game executables above.)&lt;/p>
-&lt;p>For me, the file path is:&lt;/p>
-&lt;pre>&lt;code>G:\Steam Library\steamapps\common\Skyrim Special Edition\skse64_loader.exe
-&lt;/code>&lt;/pre>&lt;ul>
-&lt;li>Optionally, move the new executable to the top of the list.&lt;/li>
+&lt;li>Click the small blue plus icon and select &lt;strong>Add from file&lt;/strong>.&lt;/li>
+&lt;li>Navigate to &lt;code>\Mod Organizer 2\mods\Skyrim Script Extender\Root\&lt;/code> and double-click the &lt;strong>skse64_loader.exe&lt;/strong>.&lt;/li>
+&lt;li>(Optional) Rename the executable in MO2 to &lt;strong>Skyrim Script Extender&lt;/strong> and move it to the top of the list.&lt;/li>
 &lt;li>Click &lt;strong>OK&lt;/strong> to save your changes and close the window.&lt;/li>
 &lt;/ul>
+&lt;div class="alert alert-info" role="alert">
+The &lt;strong>Redirect&lt;/strong> feature in &lt;strong>Root Builder&lt;/strong> will automatically move an executable file from a mod folder into the root folder if it is launched through MO2. This is why we can simply point MO2 at the mod folder here.
+&lt;/div>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/mo2-skse-executable.png" alt="SKSE Exec">&lt;/p>
 &lt;h3 id="skse-scripts">SKSE Scripts&lt;/h3>
 &lt;p>Going back to the downloaded SKSE archive, you will notice two folders inside: &lt;strong>Data&lt;/strong> and &lt;strong>src&lt;/strong>. The latter is short for &amp;ldquo;source&amp;rdquo;, meaning it contains the source code for mod authors which we do not need.&lt;/p>
