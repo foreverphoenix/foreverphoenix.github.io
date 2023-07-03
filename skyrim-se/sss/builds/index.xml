@@ -1031,9 +1031,9 @@ Spell Warding: Your Magic Resistance is increased by 25%, and you have a 15% cha
 &lt;/ul>
 &lt;/li>
 &lt;li>&lt;strong>Attributes:&lt;/strong>&lt;br>
-You&amp;rsquo;ll have high defenses but you&amp;rsquo;ll still need enough base Health to take the hits to begin with. After that, Stamina allows you to swing your greatsword and cleave your enemies. Lastly, make sure you have enough Magicka to cast a few Alteration buffs for the situation.
+You&amp;rsquo;ll have high defenses but you&amp;rsquo;ll still need enough base Health to take the hits to begin with. After that, Stamina allows you to swing your greatsword and cleave your enemies. Lastly, make sure you have enough Magicka to cast a few Alteration buffs for the situation. 200 should be sufficient in the endgame.
 &lt;ul>
-&lt;li>&lt;strong>Health:&lt;/strong> 3&lt;/li>
+&lt;li>&lt;strong>Health:&lt;/strong> 2&lt;/li>
 &lt;li>&lt;strong>Magicka:&lt;/strong> 1&lt;/li>
 &lt;li>&lt;strong>Stamina:&lt;/strong> 2&lt;/li>
 &lt;/ul>
@@ -1191,7 +1191,7 @@ You&amp;rsquo;ll have high defenses but you&amp;rsquo;ll still need enough base 
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-warrior.webp">
 &lt;h4 id="the-warrior-guardian">The Warrior (Guardian)&lt;/h4>
 &lt;p>&lt;em>&lt;strong>Warborn:&lt;/strong>&lt;/em> &lt;em>Your Health is increased by 50, and blocking and bashing are 25% more effective.&lt;/em>&lt;/p>
-&lt;p>What&amp;rsquo;s there not to like? Your guardian stone gives you plenty of Health and makes two options you can perform with your greatsword better.&lt;/p>
+&lt;p>What&amp;rsquo;s there not to like? Your guardian stone gives you plenty of Health and makes two things you can do with your greatsword better.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-lord.webp">
 &lt;h4 id="the-lord">The Lord&lt;/h4>
 &lt;p>&lt;em>&lt;strong>Blood of the North:&lt;/strong>&lt;/em> &lt;em>Your Health Regeneration is increased by 100%, and your Magic Resistance is increased by 25%.&lt;/em>&lt;/p>
@@ -1205,9 +1205,8 @@ You&amp;rsquo;ll have high defenses but you&amp;rsquo;ll still need enough base 
 &lt;blockquote>
 &lt;p>Full religion information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/54099">Pilgrim&lt;/a> description page.&lt;/p>
 &lt;/blockquote>
-&lt;p>[desc]&lt;/p>
-&lt;details>
 &lt;p>Though you did not make it into one of the templar knightly orders, you were raised to learn and worship the gods. This includes the Eight Divines such as &lt;strong>Arkay&lt;/strong> and &lt;strong>Stendarr&lt;/strong> that are widely worshiped in Breton culture, but also the elven gods of your ancestors such as &lt;strong>Magnus&lt;/strong>.&lt;/p>
+&lt;details>
 &lt;h4 id="arkay">Arkay&lt;/h4>
 &lt;p>&lt;em>Your Health is increased by 25.&lt;/em>&lt;/p>
 &lt;p>A warrior lives on the edge between life and death and, as such, they are intimately familiar with Arkay and his teachings. If you honor him, he will grant you extra life so that you can serve up more death to your enemies. A fair trade.&lt;/p>
@@ -1217,7 +1216,6 @@ You&amp;rsquo;ll have high defenses but you&amp;rsquo;ll still need enough base 
 &lt;h4 id="stendarr">Stendarr&lt;/h4>
 &lt;p>&lt;em>Your Health Regeneration is increased by 25.&lt;/em>&lt;/p>
 &lt;p>Knowing when to swing and when to stow your blade is essential for a proper warrior and following Stendarr shows a dedication towards justice. In return, the Steadfast God will help you stay on your feet longer with Health Regeneration.&lt;/p>
-&lt;p>[desc]&lt;/p>
 &lt;/details>
 &lt;h2 id="spellbook">Spellbook&lt;/h2>
 &lt;blockquote>
@@ -1336,7 +1334,33 @@ With your defenses, Health pool, and Natural Health regeneration, sometimes it w
 &lt;li>&lt;strong>Fortify Alteration Duration:&lt;/strong> &lt;em>Your Alteration spells last 50% longer.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>A boost to your main damage source is always worth taking. Standing toe to toe with enemies is a great way of contracting diseases. If you don&amp;rsquo;t have resistance from another source, consider this enchantment or a lot of &lt;em>Potions of Cure Disease&lt;/em> are in your future.&lt;/p>
-&lt;/details></description></item><item><title>Skyrim-Se: Dunmer Monk</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/dunmer-monk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/dunmer-monk/</guid><description>
+&lt;/details>
+&lt;h2 id="useful-potions">Useful Potions&lt;/h2>
+&lt;blockquote>
+&lt;p>Full alchemy information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/52130">Apothecary&lt;/a> description page.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="potion-of-persistence">Potion of Persistence&lt;/h4>
+&lt;p>&lt;strong>Example:&lt;/strong> &lt;em>Dragon&amp;rsquo;s Tongue / Juvenile Mudcrab / Lavender&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Fortify Carry Weight (300 seconds)&lt;/li>
+&lt;li>Fortify Two-handed (60 seconds)&lt;/li>
+&lt;li>Fortify Stamina Regeneration (300 seconds)&lt;/li>
+&lt;/ul>
+&lt;p>A large number of accessible ingredients can brew this potion but the &lt;em>Juvenile Mudcrab&lt;/em> is the key ingredient holding all three effects. The Carry Weight boost isn&amp;rsquo;t all too useful mid-dungeon but think of it as icing on the cake.&lt;/p>
+&lt;h4 id="draught-of-drubbing">Draught of Drubbing&lt;/h4>
+&lt;p>&lt;strong>Example:&lt;/strong> &lt;em>Bleeding Crown / Green Hairstreak Wing / Luna Moth Wing&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Fortify Block (60 seconds)&lt;/li>
+&lt;li>Fortify Power Attacks (60 seconds)&lt;/li>
+&lt;/ul>
+&lt;p>This simple potion is easily crafted through a number of easy to find ingredients. Just remember that &lt;em>Fortify Block&lt;/em> affects your bashing as well, which adds an extra damage boost when you have stamina for it.&lt;/p>
+&lt;h4 id="vial-of-vigor">Vial of Vigor&lt;/h4>
+&lt;p>&lt;strong>Example:&lt;/strong> &lt;em>Blue Mountain Flower / Namiras Rot / Nordic Barnacle&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>Fortify Health (300 seconds)&lt;/li>
+&lt;li>Fortify Health Regeneration (300 seconds)&lt;/li>
+&lt;/ul>
+&lt;p>A quicker form of healing might be appealing but your many sources of Health Regeneration are already your lifeblood. This gives you more of it, and more Health, for 5 whole minutes.&lt;/p></description></item><item><title>Skyrim-Se: Dunmer Monk</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/dunmer-monk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/dunmer-monk/</guid><description>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/builds/dunmer-monk.png" alt="Dunmer Battlemage">&lt;/p>
 &lt;h2 id="backstory">Backstory&lt;/h2>
 &lt;p>In the days of old, when Hosgunn Crossed-Daggers became Jarl of Riften, your heart was burdened with memories of the chaos that ensued. The city you once called home had turned into a place of unrest and despair. The protests erupted like wildfire, curfews gripped the streets, and whispers of hasty executions permeated the taverns. It became clear to you that the city was plagued by a sickness that couldn&amp;rsquo;t be ignored. And so, with a heavy heart, you made the decision to leave.&lt;/p>
@@ -1616,7 +1640,7 @@ Without Alchemy or Restoration your biggest hurdle might be healing yourself. Th
 &lt;li>&lt;strong>Haas:&lt;/strong> &lt;em>Absorbs 5 Health, Magicka, and Stamina per second for 30 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Drain Vitality absorbs twice as much Health, Magicka, and Stamina.&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>An alternative to the &lt;em>Vampiric&lt;/em> spells if you want to keep your hands empty. The meditation will double its effect, vastly improving your endurance in combat at the expense of your enemies.&lt;/p>
+&lt;p>An alternative to the &lt;em>Vampiric&lt;/em> spells if you want to keep your hands empty. The meditation will double its effect, vastly improving your endurance in combat at the expense of your enemies&amp;rsquo;.&lt;/p>
 &lt;h4 id="elemental-fury">Elemental Fury&lt;/h4>
 &lt;p>&lt;em>Cooldown: 60/90/120 seconds&lt;/em>&lt;/p>
 &lt;ul>
@@ -2002,7 +2026,7 @@ Turning one enemy against their friends does wonders for thinning the herd. Just
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/builds/khajiit-deathknight.png" alt="Khajiit Deatthknight">&lt;/p>
 &lt;h2 id="backstory">Backstory&lt;/h2>
 &lt;p>Since you can remember, people called you a &amp;ldquo;stray cat.&amp;rdquo; The Nords who said those words were mean and unkind. You&amp;rsquo;re an orphan, far away from your supposed home in Elsweyr, a place you know nothing about. Instead, you&amp;rsquo;re familiar with Markarth&amp;rsquo;s tall stone walls, the bustling markets of Whiterun, and the gentle breeze in the Rift. Skyrim feels like your home, but no matter where you go, you&amp;rsquo;re always seen as an outsider.&lt;/p>
-&lt;p>Your life has been spent moving from one hold to another, carrying a shovel on your shoulder. You were ready to do the dirty jobs that nobody else wanted. Most of the time, you ended up digging graves, breaking through frozen soil to bury unfortunate souls or recover misplaced heirlooms of clueless milkdrinkers. It was dull and degrading work, and your patrons often ignored you, just like everything else left behind in the forgotten barrows. But amidst the filth, you saw something more.&lt;/p>
+&lt;p>Your life has been spent moving from one hold to another, carrying a shovel on your shoulder. You were ready to do the dirty jobs that nobody else wanted. Most of the time, you end up digging graves, breaking through frozen soil to bury unfortunate souls or recover misplaced heirlooms of clueless milkdrinkers. It was dull and degrading work, and your patrons often ignored you, just like everything else left behind in the forgotten barrows. But amidst the filth, you saw something more.&lt;/p>
 &lt;p>You saw ancient Nord armor and weapons that could be salvaged and used. You saw gems waiting to be mined and corpses that could be raised if you dared to practice the forbidden art of necromancy. You were willing to be patient, gathering strength in Skyrim&amp;rsquo;s dusty crypts until you became a force that no one could ignore.&lt;/p>
 &lt;p>But first, you need to escape from these bindings. It seems that these Imperials are just the latest in a long line of people who mistake you for a foreigner in this land.&lt;/p>
 &lt;h2 id="summary">Summary&lt;/h2>
@@ -2262,7 +2286,7 @@ Especially potent if you went the Mannimarco route, this will keep your horde mo
 &lt;li>&lt;strong>Shaan:&lt;/strong> &lt;em>All nearby allies move and attack 20% faster for 60 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Battle Fury increases the Armor Rating of all nearby allies by up to 150.&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>Your minions count as allies and they tend to carry weapons. A 20% boost is nothing to sneeze at, especially with a 50% or better uptime. The meditation adds a substaintial amount of armor to them all as well.&lt;/p>
+&lt;p>Your minions count as allies and they tend to carry weapons. A 20% boost is nothing to sneeze at, especially with a 50% or better uptime. The meditation adds a substantial amount of armor to them all as well.&lt;/p>
 &lt;h4 id="soul-tearsupdgsup">Soul Tear&lt;sup>DG&lt;/sup>&lt;/h4>
 &lt;p>&lt;em>Cooldown: 120/150/180 seconds&lt;/em>&lt;/p>
 &lt;ul>

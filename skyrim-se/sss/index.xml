@@ -219,17 +219,60 @@
 &lt;p>I can’t stress this enough. In the late game you might deal with areas that are scaled high above your Level 50 limit, some at that point before you reach the cap. You’ll want every advantage you can get to bridge the gap and most of those advantages are obtained through crafting. If you ignored this early on, now’s a good time to reconsider it. If on Master or Legendary difficulty, you might even need to make different equipment sets for different types of enemies.&lt;/p>
 &lt;h4 id="and-draughts-of-fate-unwound">And Draughts of Fate Unwound&lt;/h4>
 &lt;p>Combining the previous two tips into one, don&amp;rsquo;t be afraid to use your excess cash on Draughts of Fate Unwound from apothecaries. These will refund all of your perk points, allowing you to redistribute them in ways that are more useful to your current goals. Can&amp;rsquo;t comission the highest tier gear? Use a draughtand craft it yourself. Already crafted everything you need and no longer want the crafting perks? Use a draught and spend those points on other skills. (For this reason it&amp;rsquo;s not a bad idea to level all 3 crafting skills regardless of your build.)&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sss/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/changelog/</guid><description>
+&lt;h2 id="release-41801">Release 4.18.0.1&lt;/h2>
+&lt;blockquote>
+&lt;p>2023-07-03&lt;/p>
+&lt;/blockquote>
+&lt;p>Just a quick fix for a few issues I noticed personally. For starters, I&amp;rsquo;ve removed multiple Apothecary patches in lieu of a unified Anniversary Update patch. That should make the recipes more consistent and up to date. Then I noticed a lot of issues with the &lt;em>New Armory Series - Lunar Weapons&lt;/em> integration. That&amp;rsquo;s on me as I didn&amp;rsquo;t properly check over it after reverting away from the TPF 5.0 beta. They should have the proper enchantments and tooltips now, and vanilla Silent Moons weapons should no longer appear.&lt;/p>
+&lt;p>Other than that, tiny quality of life changes. Stealing items undetected will give Sneak exp based on the value of what was stolen. Potions are no longer distractingly bright (but still emit some light). And &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/91701">Photo Mode&lt;/a>! Access it from the System Menu or just hit &lt;code>P&lt;/code>.&lt;/p>
+&lt;p>&lt;strong>This update is save-safe for 4.18 users.&lt;/strong>&lt;/p>
+&lt;details>
+&lt;h4 id="changes">Changes&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>SKSE Plugins - Tweaks:&lt;/strong> Added Skill of Sneaking&lt;/li>
+&lt;li>&lt;strong>Interface:&lt;/strong> Added Photo Mode&lt;/li>
+&lt;li>&lt;strong>ElSopa&amp;rsquo;s Potions Redone:&lt;/strong> Added ElSopa Potions Redone - Less Emissive and Fixed Inventory Size&lt;/li>
+&lt;li>&lt;strong>ElSopa&amp;rsquo;s Potions Redone:&lt;/strong> Added ElSopa Potions Redone - Less Emissive and Fixed Inventory Size - Xtudo ELIF Patch&lt;/li>
+&lt;li>&lt;strong>Alchemy, Cooking, &amp;amp; Farming:&lt;/strong> Removed Apothecary - Fishing Patch&lt;/li>
+&lt;li>&lt;strong>Alchemy, Cooking, &amp;amp; Farming:&lt;/strong> Removed Apothecary - Rare Curios Patch&lt;/li>
+&lt;li>&lt;strong>Alchemy, Cooking, &amp;amp; Farming:&lt;/strong> Removed Apothecary - Saints and Seducers Patch&lt;/li>
+&lt;li>&lt;strong>Alchemy, Cooking, &amp;amp; Farming:&lt;/strong> Removed Apothecary - Hearthfire Crispy Dumplings Patch&lt;/li>
+&lt;li>&lt;strong>Alchemy, Cooking, &amp;amp; Farming:&lt;/strong> Added Apothecary Anniversary Update&lt;/li>
+&lt;li>&lt;strong>Alchemy, Cooking, &amp;amp; Farming:&lt;/strong> Added Apothecary Anniversary Update - Food and Drink Addon&lt;/li>
+&lt;li>&lt;strong>Survival &amp;amp; Fishing:&lt;/strong> Removed Apothecary - Food and Drink Addon - Survival Mode Patch&lt;/li>
+&lt;li>&lt;strong>Saints &amp;amp; Seducers:&lt;/strong> Added Apothecary Anniversary Update - SECSS&lt;/li>
+&lt;li>&lt;strong>New Items:&lt;/strong> Removed Ancient Nord Stalhrim - Ebony Assets&lt;/li>
+&lt;li>&lt;strong>Final Patches:&lt;/strong> Edited Enchantable Special Item Fix - TPF Patch to include Lunar Weapons, adjusted incorrect Silver Weapons stats&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution Patch:&lt;/strong> Removed Cooked Boar Meat removal as it&amp;rsquo;s properly handled by the Apothecary Anniversary Update&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution Patch:&lt;/strong> Removed Poisoned Apple recipe edits to no longer require Solvency (Alchemy 60)&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution Patch:&lt;/strong> Incorporated necessary Apothecary - Hearthfire Crispy Dumplings Patch changes&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution Patch:&lt;/strong> Modified New Armory Series - Lunar Weapons effects to better match Thaumaturgy&lt;/li>
+&lt;/ul>
+&lt;h4 id="updates">Updates&lt;/h4>
+&lt;ul>
+&lt;li>Updated MQ105SprintTriggerScript Fix to 1.0.1&lt;/li>
+&lt;li>Updated Assorted Mesh Fixes to 0.83&lt;/li>
+&lt;li>Updated Lux (main plugin) to 6.2&lt;/li>
+&lt;li>Updated Lux Orbis (main plugin) to 3.3&lt;/li>
+&lt;li>Updated Embers XD to 2.7.7&lt;/li>
+&lt;li>Updated Adamant - A Perk Overhaul to 5.8.2&lt;/li>
+&lt;li>Updated Stormcrown - A Shout Overhaul to 1.1.7&lt;/li>
+&lt;li>Updated Simplicity of Seeding to 0.4&lt;/li>
+&lt;li>Updated Ancient Nord Stalhrim to 1.2.4.1&lt;/li>
+&lt;li>Updated Tamrielic Distribution to 1.3.3.1&lt;/li>
+&lt;/ul>
+&lt;/details>
 &lt;h2 id="release-4180">Release 4.18.0&lt;/h2>
 &lt;blockquote>
 &lt;p>2023-06-29&lt;/p>
 &lt;/blockquote>
 &lt;p>This update has been simmering for a long time and I apologize to everyone who&amp;rsquo;s had to wait patiently while its aroma drifted over them. But the wait is over: &lt;strong>4.18 is here!&lt;/strong>&lt;/p>
-&lt;p>Let&amp;rsquo;s start with the visuals. I&amp;rsquo;ve removed some more deviations I&amp;rsquo;ve made from Aurora such as &lt;em>eFPS&lt;/em> and &lt;em>Enhanced Landscapes&lt;/em> so that the visuals are more in line with Phoenix&amp;rsquo;s amazing work. I&amp;rsquo;ve also switched back to &lt;em>Realistic Water Two&lt;/em> which is Aurora&amp;rsquo;s water mod of choice. We&amp;rsquo;re still using RAID Weathers and The Vanilla ENB 2 since I want stealth mechanics to remain predictable in a game with no stealth meter. &lt;em>Frozen Electrocuted Combustion&lt;/em> has also been removed. It&amp;rsquo;s a good mod but there are some weird interactions and ultimately the effects take away some of visual oomph of the late-game Destruction perks. (I still haven&amp;rsquo;t sorted out the LOD unload bug in the winter, unfortunately. If you experience it, just save and reload where you are.)&lt;/p>
-&lt;p>Gameplay is where the meat of the update lies. &lt;em>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/90659">Stormcrown&lt;/a>&lt;/em> has been added alongside the &lt;em>Adamant - Bard Perks Addon&lt;/em> to move shouts into a perk tree everyone can benefit from and add more functionality to Speech tree respectively. As such, shouts as a whole have a different approach compared to &lt;em>Forceful Tongue&amp;rsquo;s&lt;/em> and I&amp;rsquo;ve updated the Example Builds section to account for the changes. Enemy resistances have also changed slightly with a switch to &lt;em>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/59394">Enemy Resistance Tweaks&lt;/a>&lt;/em>. Last but not least of the big gameplay changes is the removal of &lt;em>Honed Metal&lt;/em>. It&amp;rsquo;s been in the list a long time but it&amp;rsquo;s been hard to balance it the way I&amp;rsquo;ve wanted &lt;em>and&lt;/em> its features are quickly becoming redundant. Instead of removing it in a few months I&amp;rsquo;ve decided to rip the bandaid off now. The &lt;a href="https://thephoenixflavour.com/skyrim-se/sss/gameplay-guide">gameplay guide&lt;/a> has been updated to reflect this as well.&lt;/p>
+&lt;p>Let&amp;rsquo;s start with the visuals. I&amp;rsquo;ve removed some more deviations I&amp;rsquo;ve made from Aurora such as &lt;em>eFPS&lt;/em> and &lt;em>Enhanced Landscapes&lt;/em> so that the visuals are more in line with Phoenix&amp;rsquo;s amazing work. I&amp;rsquo;ve also switched back to &lt;em>Realistic Water Two&lt;/em> which is Aurora&amp;rsquo;s water mod of choice. We&amp;rsquo;re still using RAID Weathers and The Vanilla ENB 2 since I want stealth mechanics to remain predictable in a game with no stealth meter. &lt;em>Frozen Electrocuted Combustion&lt;/em> has also been removed. It&amp;rsquo;s a good mod but there are some weird interactions and ultimately the effects take away some of the visual oomph of the late-game Destruction perks. (I still haven&amp;rsquo;t sorted out the LOD unload bug in the winter, unfortunately. If you experience it, just save and reload where you are.)&lt;/p>
+&lt;p>Gameplay is where the meat of the update lies. &lt;em>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/90659">Stormcrown&lt;/a>&lt;/em> has been added alongside the &lt;em>Adamant - Bard Perks Addon&lt;/em> to move shouts into a perk tree everyone can benefit from and add more functionality to Speech tree respectively. As such, shouts as a whole have a different approach compared to &lt;em>Forceful Tongue&lt;/em> and I&amp;rsquo;ve updated the Example Builds section to account for the changes. Enemy resistances have also changed slightly with a switch to &lt;em>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/59394">Enemy Resistance Tweaks&lt;/a>&lt;/em>. Last but not least of the big gameplay changes is the removal of &lt;em>Honed Metal&lt;/em>. It&amp;rsquo;s been in the list a long time but it&amp;rsquo;s been hard to balance it the way I&amp;rsquo;ve wanted &lt;em>and&lt;/em> its features are quickly becoming redundant. Instead of removing it in a few months I&amp;rsquo;ve decided to rip the bandaid off now. The &lt;a href="https://thephoenixflavour.com/skyrim-se/sss/gameplay-guide">gameplay guide&lt;/a> has been updated to reflect this as well.&lt;/p>
 &lt;p>&lt;strong>THIS UPDATE IS NOT SAVE-SAFE.&lt;/strong> Please start a new game. Please.&lt;/p>
 &lt;p>(Unless you&amp;rsquo;ve been using the 4.17.1 beta. Then you can install this after first Uninstalling Honed Metal via its MCM. &lt;em>Stormcrown&lt;/em> also made some changes since 1.1.4 that might result in funkiness so a new game is &lt;em>encouraged&lt;/em> but not required.)&lt;/p>
 &lt;details>
-&lt;h4 id="changes">Changes&lt;/h4>
+&lt;h4 id="changes-1">Changes&lt;/h4>
 &lt;ul>
 &lt;li>Applied changes from &lt;a href="https://publish.obsidian.md/tpf/meta/changelogs/sme/sme-2-4-2">Skyrim Modding Essentials 2.4.2&lt;/a>, &lt;a href="https://thephoenixflavour.com/skyrim-se/sme/changelog/#release-243">2.4.3&lt;/a>, and &lt;a href="https://publish.obsidian.md/tpf/meta/changelogs/aur/aur-1-3">Aurora 1.3&lt;/a>&lt;/li>
 &lt;li>&lt;strong>Utilities &amp;amp; Frameworks:&lt;/strong> Removed Constructible Object Custom Keyword System - Separate Weapon and Armor&lt;/li>
@@ -241,7 +284,7 @@
 &lt;li>&lt;strong>(Optional) Nordic UI:&lt;/strong> Removed NORDIC UI - Compass Navigation Overhaul&lt;/li>
 &lt;li>&lt;strong>Mesh Improvements:&lt;/strong> Removed Better Windhelm Ground Meshes - Valunstrad&lt;/li>
 &lt;li>&lt;strong>Mesh Improvements:&lt;/strong> Removed Solitude Objects SMIMed - Solitude Well&lt;/li>
-&lt;li>&lt;strong>Mesh Improvements:&lt;/strong> Removed olitude Objects SMIMed - Castle Dour Spire&lt;/li>
+&lt;li>&lt;strong>Mesh Improvements:&lt;/strong> Removed Solitude Objects SMIMed - Castle Dour Spire&lt;/li>
 &lt;li>&lt;strong>Yuril&amp;rsquo;s Mesh Edits:&lt;/strong> Removed FYX - Eastern Empire Company Building - eFPS Patch&lt;/li>
 &lt;li>&lt;strong>Graphics Baseline:&lt;/strong> Removed eFPS - Exterior FPS Boost&lt;/li>
 &lt;li>&lt;strong>Graphics Baseline:&lt;/strong> Removed Unofficial eFPS Patches&lt;/li>
@@ -322,7 +365,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Resolved MAGShockImpact02 &lt;code>00059ED8&lt;/code> in a different way&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Cleaned up files that were no longer needed (hopefully!)&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates">Updates&lt;/h4>
+&lt;h4 id="updates-1">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated Fluency Themes to 1.4&lt;/li>
 &lt;li>Updated Root Builder to 4.4.3&lt;/li>
@@ -420,7 +463,7 @@
 &lt;p>The changelog looks lengthy but there aren&amp;rsquo;t too many big changes. Just some gameplay updates to be aware of, such as the Blade and Blunt - Health Regeneration Addon. With this, you will regenerate Health back to 50% regardless of Survival mechanics, but you&amp;rsquo;ll still need other means of recovery if you want to get back to full Health.&lt;/p>
 &lt;p>There&amp;rsquo;s also a known LOD bug that&amp;rsquo;s most noticeable in the Winter season. If you notice weird flickering or floating snow in your travels, just save and reload in place and it should fix itself. Hopefully this is fully fixed in newer versions of DynDOLOD, but for now it&amp;rsquo;s something we have to live with.&lt;/p>
 &lt;details>
-&lt;h4 id="changes-1">Changes&lt;/h4>
+&lt;h4 id="changes-2">Changes&lt;/h4>
 &lt;ul>
 &lt;li>Cleaned up archives list, should lower the download size a fair amount&lt;/li>
 &lt;li>Applied changes from &lt;a href="https://publish.obsidian.md/tpf/meta/changelogs/sme/sme-2-3-3">Skyrim Modding Essentials 2.3.3&lt;/a>, &lt;a href="https://publish.obsidian.md/tpf/meta/changelogs/sme/sme-2-4">2.4&lt;/a>, and &lt;a href="https://publish.obsidian.md/tpf/meta/changelogs/sme/sme-2-4-1">2.4.1&lt;/a> and &lt;a href="https://publish.obsidian.md/tpf/meta/changelogs/aur/aur-1-1">Aurora 1.1&lt;/a> and &lt;a href="https://publish.obsidian.md/tpf/meta/changelogs/aur/aur-1-2">1.2&lt;/a>&lt;/li>
@@ -448,7 +491,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Resolved Leveled List conflict between Apothecary and Ish&amp;rsquo;s Respec Mod &lt;code>0009CD41&lt;/code>&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Disabled EVG Conditional Idles&amp;rsquo; shield cover animations by default&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-1">Updates&lt;/h4>
+&lt;h4 id="updates-2">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated Spell Perk Item Distributor to 6.6.1&lt;/li>
 &lt;li>Updated MergeMapper to 1.5&lt;/li>
@@ -506,7 +549,7 @@
 &lt;p>Otherwise, it&amp;rsquo;s a small update that follows its base list, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/898050">Aurora&lt;/a>, in its official 1.0 release! Congrats to Phoenix for delivering another solid modlist to the community.&lt;/p>
 &lt;p>&lt;strong>This update is save-safe.&lt;/strong>&lt;/p>
 &lt;details>
-&lt;h4 id="changes-2">Changes&lt;/h4>
+&lt;h4 id="changes-3">Changes&lt;/h4>
 &lt;ul>
 &lt;li>Applied changes from &lt;a href="https://thephoenixflavour.com/skyrim-se/sme/changelog/#release-232">Skyrim Modding Essentials 2.3.2&lt;/a> and &lt;a href="https://publish.obsidian.md/tpf/meta/changelogs/aurora/aur-1-0">Aurora 1.0&lt;/a>&lt;/li>
 &lt;li>&lt;strong>Utilities &amp;amp; Frameworks:&lt;/strong> Added Beautifully Overhauled and Objectively Better Icons Enriched for SkyUI&lt;/li>
@@ -515,7 +558,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Resolved differences between Embers XD and Frozen Electrocuted Combustion for FireFXShader &lt;code>0001B212&lt;/code>&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Resolved differences between Embers XD and No Edge Glow for DarkElfAncestorWrathFXShader &lt;code>0010F56C&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-2">Updates&lt;/h4>
+&lt;h4 id="updates-3">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated Keyword Item Distributor to 3.0.2&lt;/li>
 &lt;li>Updated Mesh Patches for Lux Orbis to 1.5.2&lt;/li>
@@ -562,7 +605,7 @@
 &lt;p>&lt;strong>This update is safe-save.&lt;/strong> Just save in an interior cell before updating due to the change in DynDOLOD outputs.&lt;/p>
 &lt;p>Also, full disclosure, Lux updated everything in the final moments before pushing this update so I haven&amp;rsquo;t had time to properly test out the changes (which haven&amp;rsquo;t even been posted at this time) or re-run the LODs. There might be minor issues. This is precisely the type of thing I want to avoid by letting Phoenix handle the visuals.&lt;/p>
 &lt;details>
-&lt;h4 id="changes-3">Changes&lt;/h4>
+&lt;h4 id="changes-4">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>SKSE Plugins:&lt;/strong> Added Inventory Interface Information Injector&lt;/li>
 &lt;li>&lt;strong>SKSE Plugins:&lt;/strong> Added Recipe Auto-Learn&lt;/li>
@@ -589,7 +632,7 @@
 &lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Added Locational Encounter Zones&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Hid &amp;lsquo;Combat End Reset&amp;rsquo;spell from Seeking Out Sneaks from the effects menu&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-3">Updates&lt;/h4>
+&lt;h4 id="updates-4">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated DynDOLOD to 3.00 Alpha-118&lt;/li>
 &lt;li>Updated ENBSeries to 0.488&lt;/li>
@@ -646,7 +689,7 @@
 &lt;p>It&amp;rsquo;s been a little over a week and I&amp;rsquo;ve a short trip coming up so I wanted to put out an update before then. Thank you everyone that&amp;rsquo;s been helping me test so far (and big thanks to Berna for finding some bugs to squash!) but I don&amp;rsquo;t think it&amp;rsquo;s quite ready for a full release just yet. This update is mostly just updates to existing mods, however one of those mods is &lt;em>The Vanilla ENB Two&lt;/em> which had a huge update since RC 2 came out. Overall it&amp;rsquo;s an amazing step forward and I love how it looks but it does come with a bit of a performance hit. I&amp;rsquo;m not sure if I tweaked the Performance Profile enough to compensate, but let me know if the hit&amp;rsquo;s too much compared to the last release (and 4.16.0, even) so I can see what I can do about dialing it back.&lt;/p>
 &lt;p>&lt;strong>This update is save safe.&lt;/strong> Nothing new has been generated. Have fun!&lt;/p>
 &lt;details>
-&lt;h4 id="changes-4">Changes&lt;/h4>
+&lt;h4 id="changes-5">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Weather &amp;amp; Lighting:&lt;/strong> Removed Pouring Rain&lt;/li>
 &lt;li>&lt;strong>Interiors:&lt;/strong> Added Skyland Common and Upper Furniture&lt;/li>
@@ -657,7 +700,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Fixed Lunar Armory loadscreen (also thanks to Berna)&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Removed &lt;code>textures/landscape/grass/columbine.dds&lt;/code> from the ENB Complex Grass collection (hat trick for Berna)&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-4">Updates&lt;/h4>
+&lt;h4 id="updates-5">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated powerofthree&amp;rsquo;s Papyrus Extender to 5.5&lt;/li>
 &lt;li>Updated Bash Bug Fix to 2.1.1&lt;/li>
@@ -689,7 +732,7 @@
 &lt;p>R.A.S.S. was removed because it was on the fence to begin with, half of the mod was turned off and the other half wasn&amp;rsquo;t looking great in action. &lt;em>S.W.I.F.T.&lt;/em> was removed because it trivialized some of the established methods of fast traveling (carriage, ferry, spells) that existed through other mods. The mod itself is great but it doesn&amp;rsquo;t fit the list.&lt;/p>
 &lt;p>All in all, an update centered around mods with initializations.&lt;/p>
 &lt;details>
-&lt;h4 id="changes-5">Changes&lt;/h4>
+&lt;h4 id="changes-6">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Weather &amp;amp; Lighting:&lt;/strong> Removed Enhanced Volumetric Lighting and Shadows (EVLaS)&lt;/li>
 &lt;li>&lt;strong>Fire &amp;amp; Visual FX:&lt;/strong> Removed R.A.S.S. - Rain Ash And Snow Shaders&lt;/li>
@@ -717,7 +760,7 @@
 &lt;p>&lt;strong>This update is absolutely not save-safe.&lt;/strong> It is likely that future release candidates will be but not guaranteed. If you want to safely continue your character on v4.16.0.1, my advice would be to manually update SimonMagus&amp;rsquo; mods so long as they&amp;rsquo;re labeled save-safe and you&amp;rsquo;ll be in good shape.&lt;/p>
 &lt;/blockquote>
 &lt;details>
-&lt;h4 id="changes-6">Changes&lt;/h4>
+&lt;h4 id="changes-7">Changes&lt;/h4>
 &lt;p>This changelog is structured differently because of how much has changed. Instead of an itemized list, I&amp;rsquo;ll go through section by section and list some key differences from each, compared to &lt;a href="https://loadorderlibrary.com/lists/the-phoenix-flavour-50-wip">TPF 5.0 RC 4&lt;/a>.&lt;/p>
 &lt;ul>
 &lt;li>
@@ -853,7 +896,7 @@
 &lt;p>&lt;strong>Lux, Lux Orbis, &amp;amp; Lux Via:&lt;/strong> These mods are so big they need their own section. I&amp;rsquo;ve included everything that was necessary given the other choices in the modlist.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-5">Updates&lt;/h4>
+&lt;h4 id="updates-6">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated Crash Logger to 1.8&lt;/li>
 &lt;li>Updated Spell Perk Item Distributor to 6.4&lt;/li>
@@ -885,7 +928,7 @@
 &lt;/ul>
 &lt;p>A new save is not required. You will receive a warning about &lt;code>Precision.esp&lt;/code> that can be ignored.&lt;/p>
 &lt;details>
-&lt;h4 id="changes-7">Changes&lt;/h4>
+&lt;h4 id="changes-8">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Architecture:&lt;/strong> Added Windhelm Fence 3D&lt;/li>
 &lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Removed Precision&lt;/li>
@@ -895,7 +938,7 @@
 &lt;li>&lt;strong>Configuration:&lt;/strong> Lowered SkillFormulaCaps to 100 (this won&amp;rsquo;t change much of anything as Simonrim bonuses tend not to give raw skill boosts, I&amp;rsquo;m just cleaning up the file)&lt;/li>
 &lt;li>&lt;strong>Configuration:&lt;/strong> Adjusted Scrambled Bugs settings to match Simon&amp;rsquo;s suggestions for his gameplay suite&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-6">Updates&lt;/h4>
+&lt;h4 id="updates-7">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated NVIDIA Reflex Support to 1.1.2&lt;/li>
 &lt;li>Updated Dwemer Gates Don&amp;rsquo;t Reset to 1.3.7&lt;/li>
@@ -929,7 +972,7 @@
 &lt;p>I haven&amp;rsquo;t done justice to all of the changes in 4.16. Take a peek at the details below for a full list. There are some real gems in there.&lt;/p>
 &lt;details>
 &lt;p>Updated for &lt;a href="https://github.com/Codygits/TPF-Updates/releases/tag/4.16.0">TPF 4.16.0&lt;/a>&lt;/p>
-&lt;h4 id="changes-8">Changes&lt;/h4>
+&lt;h4 id="changes-9">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Creation Club Content:&lt;/strong> Added Saints and Seducers&lt;/li>
 &lt;li>&lt;strong>Essential Mods:&lt;/strong> Removed .NET Script Framework&lt;/li>
@@ -1064,7 +1107,7 @@
 &lt;li>&lt;strong>Conflict Resolution (Creation Club):&lt;/strong> Removed edits to the Steed Stone and Extra Pockets&lt;/li>
 &lt;li>&lt;strong>FaceGen:&lt;/strong> Removed extraneous data from TPF&amp;rsquo;s FaceGen data (it&amp;rsquo;s much smaller now!)&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-7">Updates&lt;/h4>
+&lt;h4 id="updates-8">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated xLODGEN to 97&lt;/li>
 &lt;li>Updated DynDOLOD to 3.00 Alpha-111&lt;/li>
