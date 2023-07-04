@@ -271,10 +271,61 @@ Worried about catching a virus? Read about the &lt;a href="https://thephoenixfla
 This is a recommendation, not a requirement. Manage your disk space as you see fit.
 &lt;/div>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/mo2-setup/mo2-downloads-folder.png" alt="Downloads Folder">&lt;/p>
+&lt;h2 id="new-profile">New Profile&lt;/h2>
+&lt;p>One of MO2&amp;rsquo;s many lovely features is the ability to create an indefinite amount of self-contained &lt;strong>profiles&lt;/strong>.&lt;/p>
+&lt;p>Every profile has its own:&lt;/p>
+&lt;ul>
+&lt;li>Load order&lt;/li>
+&lt;li>Mod Order&lt;/li>
+&lt;li>Saves (optional)&lt;/li>
+&lt;li>INI Files (optional)&lt;/li>
+&lt;/ul>
+&lt;h3 id="create-new-profile">Create New Profile&lt;/h3>
+&lt;p>Open the MO2 profiles settings by clicking the ID card icon in the &lt;strong>Toolbar&lt;/strong>.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/mo2-profiles-settings.png" alt="MO2 Profiles Settings">&lt;/p>
+&lt;p>Click the &lt;strong>Create&lt;/strong> button and enter a name for your profile.&lt;/p>
+&lt;p>I recommend naming your profile after the central mod or theme of the modlist you intend to build, like &lt;strong>Legacy of the Dragonborn&lt;/strong>, &lt;strong>SimonRim&lt;/strong>, or &lt;strong>Survival&lt;/strong>. There is also nothing stopping you from simply calling it &lt;strong>Modded&lt;/strong> as opposed to the unmodded &lt;strong>Default&lt;/strong> profile.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+If you are following the &lt;strong>Core Module&lt;/strong>, you can name it that.
+&lt;/div>
+&lt;p>Whether you check the &lt;strong>Default Game INI Settings&lt;/strong> is really up to you. I recommend leaving the option enabled and running BethINI later on to modify your INIs.&lt;/p>
+&lt;ul>
+&lt;li>Click &lt;strong>OK&lt;/strong> to create your new profile.&lt;/li>
+&lt;li>I recommend enabling the &lt;strong>Use profile-specific Save Games&lt;/strong> option at the bottom (while having your new profile selected).&lt;/li>
+&lt;li>Click &lt;strong>Select&lt;/strong> to quickly switch to your new profile.&lt;/li>
+&lt;/ul>
+&lt;h2 id="interface-adjustments">Interface Adjustments&lt;/h2>
+&lt;p>Below are my personal adjustments to the Mod Organizer 2 interface. Take them as suggestions (or ignore them).&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+If you are following the &lt;strong>Core Module&lt;/strong> please do copy at least my changes to the categories displayed in the left pane.
+&lt;/div>
+&lt;h3 id="the-right-pane">The Right Pane&lt;/h3>
+&lt;p>The &lt;em>right pane&lt;/em> of Mod Organizer 2 features a number of tabs, none of which require much space to properly display. I typically reduce it take up about a fourth of the entire interface, dragging around the columns in the &lt;strong>Plugins&lt;/strong> tab so that all options are comfortably displayed without wasting too much space on the &lt;strong>Mod Index&lt;/strong> column.&lt;/p>
+&lt;h3 id="the-left-pane">The Left Pane&lt;/h3>
+&lt;p>The &lt;em>left pane&lt;/em> of Mod Organizer 2 displays the &lt;strong>mod order&lt;/strong>.&lt;/p>
+&lt;p>Clicking on the sorting columns above the mod order, you will see a number of options.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/adjust-mo2-columns.png" alt="MO Columns">&lt;/p>
+&lt;ul>
+&lt;li>✔️&lt;strong>Conflicts:&lt;/strong> Displays little icons to show overwrites.&lt;/li>
+&lt;li>✔️&lt;strong>Flags:&lt;/strong> Not necessary, but recommended. Shows if notes are appended to a mod.*&lt;/li>
+&lt;li>✔️&lt;strong>Content:&lt;/strong> Very helpful because it shows you which types of assets are contained in a mod.&lt;/li>
+&lt;li>❌&lt;strong>Category:&lt;/strong> Uses Nexus categories by default. Separators are better for sorting.**&lt;/li>
+&lt;li>❌&lt;strong>Nexus ID:&lt;/strong> The ID of the respective mod (which is the combination of numbers at the end of its URL).&lt;/li>
+&lt;li>✔️&lt;strong>Source Game:&lt;/strong> Useful when mixing Skyrim LE and Skyrim SE mods which is not very common anymore.&lt;/li>
+&lt;li>✔️&lt;strong>Version:&lt;/strong> Helpful for tracking updates.&lt;/li>
+&lt;li>❌&lt;strong>Installation:&lt;/strong> Displays the date of installation. Not sure what you would need this for.&lt;/li>
+&lt;li>✔️&lt;strong>Priority:&lt;/strong> Shows the position in the mod order. Does not hurt to leave on.&lt;/li>
+&lt;li>✔️&lt;strong>Notes:&lt;/strong> See short notes at a glance. (AKA my favourite thing about MO2.)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;font size=2>**There are also flags to remind you of endorsing mods and to show the tracking status. The tracking feature never worked properly for me and the only mods I have not endorsed are my own, so I typically disable both &lt;strong>Endorsement Integration&lt;/strong> and &lt;strong>Tracking Integration&lt;/strong> in the MO2 settings (Nexus tab). Disable these features or leave them active, it is up to you.*&lt;/font>&lt;/p>
+&lt;p>&lt;font size=2>***You can also create a set of custom categories (instructions forthcoming).*&lt;/font>&lt;/p>
+&lt;h3 id="my-mo2-layout">My MO2 Layout&lt;/h3>
+&lt;p>After some re-arranging of columns and ratios, this is what my MO2 instance (on a 1080p monitor) looks like:&lt;/p>
+&lt;p>(&lt;a href="https://thephoenixflavour.com/Pictures/bg/additional-modules/mo2-my-layout.png">Click here to view the picture in full size.&lt;/a>)&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/mo2-my-layout.png" alt="My Layout">&lt;/p>
 &lt;hr>
-&lt;div class="alert alert-success" role="alert">
-If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step1/#ui-overview">Step 1&lt;/a>.
-&lt;/div></description></item><item><title>Bg: Root Builder</title><link>https://thephoenixflavour.com/bg/additional-modules/root-builder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/root-builder/</guid><description>
+&lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-1bgcore-modulestep1ui-overview">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step1/#ui-overview">Step 1&lt;/a>.&lt;/h4></description></item><item><title>Bg: References</title><link>https://thephoenixflavour.com/bg/additional-modules/persistent-temporary-refs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/persistent-temporary-refs/</guid><description>
+&lt;p>Test&lt;/p></description></item><item><title>Bg: Root Builder</title><link>https://thephoenixflavour.com/bg/additional-modules/root-builder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/root-builder/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>

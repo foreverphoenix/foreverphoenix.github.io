@@ -290,7 +290,7 @@ SSEEdit does not replace the Creation Kit, nor does the Creation Kit replace SSE
 &lt;p>Please refer to the &lt;a href="https://thephoenixflavour.com/bg/additional-modules/sseedit-setup/">SSEEdit Setup&lt;/a> module for installation instructions.&lt;/p>
 &lt;h2 id="the-unwanted-effects-book">The Unwanted Effects Book&lt;/h2>
 &lt;p>Equipped with SSEEdit and an example mod, we can now take a look at a practical example demonstrating how plugins are structured.&lt;/p>
-&lt;p>Enter the &lt;strong>Unwanted Effects Book&lt;/strong>&amp;hellip;&lt;/p>
+&lt;p>Enter the &lt;strong>Unwanted Effects Book&lt;/strong>.&lt;/p>
 &lt;p>Among vanilla Skyrim&amp;rsquo;s colourful assortment of bugs are certain active effects, applied by spells for instance, that may get &amp;ldquo;stuck&amp;rdquo; on the player after they are supposed to expire. The &lt;strong>Unofficial Skyrim Special Edition Patch&lt;/strong> fixes these effects, but it also adds an option for the player to rid themselves of any leftovers. Initially, this fix could be accessed through a shrine in the Temple of Kynareth in Whiterun, but was later moved to a book added to the player&amp;rsquo;s inventory upon loading the game. Following complaints about a lack of immersion, a compromise was finally reached by placing the book in the Temple of Kynareth.&lt;/p>
 &lt;p>Using books or powers in order to access or customise a mod&amp;rsquo;s functionality was rather common before the Script Extender and SkyUI came along, although nowadays such options have largely been moved to dedicated mod configuration menus. With the release of Skyrim SE and the introduction of mods on consoles, many mod authors had to revert to these old workarounds as it is impossible to install files outside the data folder on consoles, and thus impossible to install the Skyrim Script Extender. The USSEP team does not want to move the option to an MCM or make it available only through the (in-game) console as that would not work for the XBOX and Playstation ports of the mod.&lt;/p>
 &lt;p>However, for us PC players, the book is mostly redundant. If you ever find yourself stuck with an active effect, you can get the book through the console very easily, so there is no need to have it lying around in the game world or lugging it around with you. Does it really break immersion? Some players are vehemently opposed to having any sort mod config items in the world. Others probably never noticed the book in the first place.&lt;/p>
@@ -383,12 +383,12 @@ Moving the book instead of disabling would not be possible because the base reco
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/ussep-book-details.png" alt="USSEP Book Details">&lt;/p>
 &lt;p>From the index &lt;code>00&lt;/code> we can tell that the record originates in &lt;strong>Skyrim.esm&lt;/strong>. We can see the book&amp;rsquo;s full Form ID in the first column in the left pane of SSEEdit.&lt;/p>
-&lt;p>The second column is the &lt;strong>EditorID&lt;/strong> (EDID) which is &lt;code>DB07Journal&lt;/code>. This is another way to refer to a record (which is also used in scripts sometimes). Almost all records contain references to other records which consist of their EditorID, their Signature (the record category they belong to), and their Form ID.&lt;/p>
+&lt;p>The second column is the &lt;strong>Editor ID&lt;/strong> (EDID) which is &lt;code>DB07Journal&lt;/code>. This is another way to refer to a record (which is also used in scripts sometimes). Almost all records contain references to other records which consist of their EditorID, their Signature (the record category they belong to), and their Form ID.&lt;/p>
 &lt;p>The third column displays the &lt;strong>Name&lt;/strong> of the record, i.e., &lt;code>Cicero’s Journal - Final Volume&lt;/code>, which is also the name you will see ingame. Not all records have names. Names are also not unique. They are easier to understand, but not always useful for identifying a record.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/sseedit-columns-left.png" alt="xEdit">&lt;/p>
 &lt;h3 id="layers--priority">Layers &amp;amp; Priority&lt;/h3>
 &lt;p>Let&amp;rsquo;s have a look at the right pane now which displays more details.&lt;/p>
-&lt;p>As you can see, both the right pane side and the record name in the left pane are highlighted in green. &lt;strong>Green means that the original record is overwritten by one or more plugins &lt;em>without&lt;/em> creating critical conflicts.&lt;/strong>&lt;/p>
+&lt;p>As you can see, both the right pane side and the record name in the left pane are highlighted in green. &lt;strong>Green means that the original record is overwritten by one or more plugins &lt;u>without&lt;/u> creating critical conflicts.&lt;/strong>&lt;/p>
 &lt;p>You can see the original record as defined by Skyrim.esm in the first column, then the USSEP version in the second column. These columns correspond to the plugins and are sorted in the order of the plugins.&lt;/p>
 &lt;div class="alert alert-warning" role="alert">
 Each of these columns can be thought of as a &lt;strong>layer&lt;/strong>. Each layer completely overwrites the earlier ones.
@@ -409,7 +409,7 @@ Plugins overwrite each other in the order they are loaded in. Skyrim will only r
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/sseedit-search-formid.png" alt="Search FormID">&lt;/p>
 &lt;p>You will notice that, unlike the other book records, this one is displayed in white (highlighted blue in my screenshot because it is currently selected). &lt;strong>White records are records that are not overwritten:&lt;/strong> The book was newly added by the USSEP, it was defined in its plugin, and no other plugin affects it.&lt;/p>
 &lt;div class="alert alert-info" role="alert">
-Mod authors frequently prefix their &lt;strong>EditorIDs&lt;/strong> with their name or the mod name. This makes them easier to find.
+Mod authors frequently prefix their &lt;strong>Editor IDs&lt;/strong> with their name or the mod name. This makes them easier to find.
 &lt;/div>
 &lt;p>So what are we going to do with the book?&lt;/p>
 &lt;p>Theoretically we could simply right-click and delete the book&amp;rsquo;s base record. However, the reference record placing the book in the Temple of Kynareth links back to the book&amp;rsquo;s base record and would throw an error if the base record it references was deleted. These kinds of errors can cause crashes and other issues.&lt;/p>
@@ -440,7 +440,7 @@ When making changes, it is important to know that &lt;strong>there is no &amp;ld
 &lt;ul>
 &lt;li>Click &lt;strong>Yes I&amp;rsquo;m absolutely sure&lt;/strong> to acknowledge the warning and proceed.&lt;/li>
 &lt;li>A new window will pop up with various different plugins that the record can be copied into.&lt;/li>
-&lt;li>Check the &lt;strong>&amp;lt;new file&amp;gt;.esp&lt;/strong> option and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Check the &lt;strong>&amp;lt;new file&amp;gt;.esp&lt;/strong> option &lt;u>without ESM or ESL&lt;/u> and click &lt;strong>OK&lt;/strong>.&lt;/li>
 &lt;li>Enter &lt;strong>Disable USSEP Book&lt;/strong> as the name of the new plugin and click &lt;strong>OK&lt;/strong> once more.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/sseedit-new-plugin.png" alt="New Plugin">&lt;/p>
@@ -512,7 +512,7 @@ The actual location of the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> acces
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
-&lt;p>This step covers&lt;/p>
+&lt;p>This step covers the three plugin types (ESP, ESM, ESL), their differences, and how one can be converted to another with special emphasis on creating ESLs.&lt;/p>
 &lt;/blockquote>
 &lt;/div>
 &lt;h2 id="plugin-types">Plugin Types&lt;/h2>
@@ -522,9 +522,7 @@ The actual location of the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> acces
 &lt;li>ccBGSSSE037-Curios.&lt;strong>esl&lt;/strong>&lt;/li>
 &lt;li>Unofficial Skyrim Special Edition Patch.&lt;strong>esp&lt;/strong>&lt;/li>
 &lt;/ul>
-&lt;div class="alert alert-info" role="alert">
-&lt;strong>ESP&lt;/strong>, &lt;strong>ESM&lt;/strong>, and &lt;strong>ESL&lt;/strong> files are Bethesda plugins. They share the same basic structure of records with Form IDs arranged in layers and overwrite each other according to their load order.
-&lt;/div>
+&lt;p>&lt;strong>ESP&lt;/strong>, &lt;strong>ESM&lt;/strong>, and &lt;strong>ESL&lt;/strong> files are Bethesda plugins. They share the same basic structure of records with Form IDs arranged in layers and overwrite each other according to their load order.&lt;/p>
 &lt;p>There are, however, notable differences between them which we will discuss in this step.&lt;/p>
 &lt;h2 id="esp-and-esm-plugins">ESP and ESM Plugins&lt;/h2>
 &lt;p>&lt;strong>Elder Scrolls Plugins&lt;/strong> (ESP) like our previously created &lt;strong>Disable USSEP Book.esp&lt;/strong> are the most common type of plugin. If you create a mod in the Creation Kit, it will be exported in this format and most plugin-based mods use a simple ESP. In the load order in MO2 they will appear without any text decoration (like bold or italic).&lt;/p>
@@ -546,9 +544,9 @@ The actual location of the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> acces
 &lt;p>The remaining 2048 slots are still more than enough for small- to medium-size mods. Many separate ESL plugins are infinitely easier to handle than a few big plugin merges (imagine having many small drawers for screws of different types and sizes instead of dumping all of them into a single big drawer).&lt;/p>
 &lt;p>Additionally, this limit only affects &lt;u>new&lt;/u> records, i.e., records defined in the ESL plugin. There is no limit on how many records defined in &lt;em>other&lt;/em> plugins an ESL can hold. Many mods, especially patches, function mostly by editing existing (vanilla or mod-added) records and adding few or no new records of their own. These types of plugins are especially suited to being ESL-ified.&lt;/p>
 &lt;div class="alert alert-info" role="alert">
-&lt;strong>Summary:&lt;/strong> You can install up to &lt;u>4096&lt;/u> ESL plugins which can contain up to &lt;u>2048&lt;/u> new Form IDs each.
+&lt;strong>Summary:&lt;/strong> You can install up to &lt;u>4096&lt;/u> ESL plugins which can contain up to &lt;u>2048&lt;/u> new records / Form IDs each.
 &lt;/div>
-&lt;h2 id="plugin-flags">Plugin Flags&lt;/h2>
+&lt;h2 id="hybrid-plugins">Hybrid Plugins&lt;/h2>
 &lt;p>We learned that &lt;strong>ESM&lt;/strong> plugins are distinguished in the load order by being displayed in &lt;em>&lt;strong>bold italics&lt;/strong>&lt;/em>.&lt;/p>
 &lt;p>But here is something strange: The &lt;strong>Unofficial Skyrim Special Edition Patch.esp&lt;/strong> is displayed in &lt;em>&lt;strong>bold italics&lt;/strong>&lt;/em> in our MO2 load order tab when it actually has the ESP file extension.&lt;/p>
 &lt;p>So, is it an ESM or an ESP? Actually, it is both. This is where &lt;strong>Plugin Flags&lt;/strong> come into play.&lt;/p>
@@ -560,6 +558,9 @@ Plugins can either be a full ESP, ESL, or ESM, &lt;strong>OR&lt;/strong> they ca
 &lt;p>Imagine you created a mod that is a resource to be used by other mods: It just contains a few keywords, maybe a dozen records. You can easily use the ESL format for this plugin.&lt;/p>
 &lt;p>However, your resource is also a &lt;strong>master&lt;/strong> to various dependent plugins which should be lower in the mod order, so preferably your plugin should load very early. It therefore makes sense to flag it as an ESM to automatically place it in the ESM space at the top of the load order.&lt;/p>
 &lt;p>The result is an &lt;strong>ESM-ESL&lt;/strong> which will show up as &lt;em>&lt;strong>Example.esl&lt;/strong>&lt;/em> in the load order - like &lt;em>&lt;strong>ccBGSSSE037-Curios.esl&lt;/strong>&lt;/em>.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+ESM-ESL plugins are also called &lt;strong>Light Masters&lt;/strong>. Most creations use this format, with the exception of those that require for Form IDs which are full ESMs instead.
+&lt;/div>
 &lt;h3 id="esm-esp">ESM-ESP&lt;/h3>
 &lt;p>Now imagine your example mod is definitely one that should load very early to be overwritten by other mods but you have far too many original Form IDs to use the ESL format.&lt;/p>
 &lt;p>In that case, you can either opt for a full ESM or an ESP that is flagged as an ESM, that is, an &lt;strong>ESM-ESP&lt;/strong> - like the &lt;em>&lt;strong>Unofficial Skyrim Special Edition Patch.esp&lt;/strong>&lt;/em>.&lt;/p>
@@ -601,11 +602,415 @@ Plugins with few or no original records, like patches that mostly modify other m
 &lt;h2 id="esm-space-and-references">ESM Space and References&lt;/h2>
 &lt;p>A major differences between plugins in ESM and ESP space is how references are handled.&lt;/p>
 &lt;div class="alert alert-info" role="alert">
-Full ESLs load in ESM space, that is, they are forced to the top of the load order.
+Full ESLs are always ESM-flagged and therefore load in ESM space.
 &lt;/div>
 &lt;h3 id="persistent-vs-temporary">Persistent vs Temporary&lt;/h3>
 &lt;p>There are two types of references:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Temporary references&lt;/strong> only load into memory when the player is close by and are unloaded when they are no longer needed.&lt;/li>
 &lt;li>&lt;strong>Persistent references&lt;/strong> are always loaded into memory upon launching the game, regardless of player proximity.&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/temporary-persistent-refs.png" alt="Refs">&lt;/p>
+&lt;p>The cap for references that are active at the same time is 1048576, anything above that will cause issues and instability.&lt;/p>
+&lt;p>The way references are handled is the most important difference between plugins in ESP space (.ESP with or without ESL flag) and plugins in ESM space (any plugin with ESM-flag: ESM, ESL, ESM-ESP). &lt;strong>Temporary references in ESP space are actually handled like persistent references and always loaded at the start of the game.&lt;/strong> You can see how adding a great number of temporary references to ESP plugins could quickly bring the overall amount of active references closer to the cap.&lt;/p>
+&lt;p>Temporary references defined in ESM space but overwritten by a plugin in ESP space will also be always active. This makes sense if you think about how layers work and how the game only really cares about the one that overwrites.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Large mods that add their own worldspaces and / or overhaul the vanilla ones by adding or modifying many references should be ESM-ified so that their considerable number of temporary references is not always active.
+&lt;/div>
+&lt;p>(There is a mod which will warn you when you approach the active references cap, we will install it later.)&lt;/p>
+&lt;h3 id="moving-into-esm-space">Moving into ESM Space&lt;/h3>
+&lt;p>The book disabled in our custom plugin is a temporary reference. While I am not sure if an &lt;em>initially disabled&lt;/em> reference is still being loaded, we are going to pretend it is for the sake of the argument.&lt;/p>
+&lt;p>Right now, our plugin is an ESP-FE so all references it contains are loaded, regardless of whether they are temporary or persistent.&lt;/p>
+&lt;p>Since it is already flagged as an ESL, the only missing piece to make it a full ESL is the file extension.&lt;/p>
+&lt;ul>
+&lt;li>Double-click &lt;strong>Disable USSEP Book&lt;/strong> in your mod order and switch to the &lt;strong>Filetree&lt;/strong> tab.&lt;/li>
+&lt;/ul>
+&lt;p>(This view is where you can see the contents of the mod folder.)&lt;/p>
+&lt;ul>
+&lt;li>Rename the file extension of the plugin to &lt;strong>.esl&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/esp-to-esl.png" alt="ESP to ESL">&lt;/p>
+&lt;p>After renaming a plugin (name or file extension), MO2 will disable in the load order, so make sure to enable it again.&lt;/p>
+&lt;p>The plugin is now being recognised as a full ESL which means it belongs in ESM space. Where before you were unable to change its load order position, you can now drag it above the USSEP which is also in ESM space. Of course, the book plugin should stay &lt;u>below&lt;/u> the USSEP plugin because it requires that as a master and plugins must always load below their masters.&lt;/p>
+&lt;p>Let&amp;rsquo;s hop into the game to make sure this worked. You know the drill: Use &lt;code>coc whiteruntempleofkynareth&lt;/code> from the main menu to quickly jump to the correct cell, then check the room to the left.&lt;/p>
+&lt;p>But, oh no! The book is back. What could possibly have gone wrong?&lt;/p>
+&lt;h3 id="onam-records">ONAM Records&lt;/h3>
+&lt;p>Turning an ESL-flagged ESP into a full ESL by changing the file extension works in 99% of cases - unless the plugin overwrites a reference. When that is the case, the affected references have to be added to the list of &lt;strong>Overriden Forms (ONAM)&lt;/strong> in the plugin header.&lt;/p>
+&lt;p>If you create an ESM space plugin or flag a plugin as ESM in SSEEdit, this happens automatically. Unfortunately, we cheated a little by simply changing the file name extension so we are actually missing the ONAM entries which means the game skips our plugin&amp;rsquo;s modification to the temporary reference.&lt;/p>
+&lt;ul>
+&lt;li>Load up your plugins in SSEEdit.&lt;/li>
+&lt;li>Select the &lt;strong>Disable USSEP Book.esl&lt;/strong> to view its &lt;strong>Plugin Header&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>Here, you can see that the ONAM sub record is empty.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/missing-onams.png" alt="Missing ONAMs">&lt;/p>
+&lt;p>The solution to the problem is manually ESM-flagging the plugin SSEEdit so the ONAM list is populated. The plugin will still be an ESL and not count toward the 256 plugin limit, so there is no downside to doing this.&lt;/p>
+&lt;ul>
+&lt;li>Right-click the &lt;strong>Record Flags&lt;/strong> and also check the box for &lt;strong>ESM&lt;/strong> in addition to the &lt;strong>ESL&lt;/strong> flag.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/esl-esm.png" alt="ESL ESM">&lt;/p>
+&lt;p>We now have an ESM-flagged ESL. Close SSEEdit and save your change.&lt;/p>
+&lt;p>When you re-open the plugin in SSEEdit and check the &lt;strong>Plugin Header&lt;/strong>, you will see that SSEEdit automatically added the affected temporary ref to the list.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/onam-added.png" alt="ONAM Added">&lt;/p>
+&lt;p>Finally, jump back into the game, &lt;code>coc whiteruntempleofkynareth&lt;/code>, and, sure enough, the plugin works again.&lt;/p>
+&lt;h2 id="esls-and-cells">ESLs and Cells&lt;/h2>
+&lt;p>Any plugin can be turned into an ESL (ESP-FE or full ESL) &lt;u>with one exception&lt;/u>. A demonstration is in order.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+Unfortunately, for this example the easiest option is to simply use the &lt;strong>Myrwatch Tower&lt;/strong> creation, so if you happen to not own it, you will only be to read this section as opposed to following along.
+&lt;/div>
+&lt;ul>
+&lt;li>Double-click the &lt;strong>Creation Club&lt;/strong> separator in MO2 and enable the &lt;strong>Myrwatch&lt;/strong> creation.&lt;/li>
+&lt;li>Load up your plugins in &lt;strong>SSEEdit&lt;/strong> and double-click &lt;strong>cceejsse002-tower.esl&lt;/strong> to expand it.&lt;/li>
+&lt;/ul>
+&lt;h3 id="cell-records">CELL Records&lt;/h3>
+&lt;p>In the Myrwatch plugin, you can see two types of records: &lt;strong>Cells&lt;/strong> (interior locations) and &lt;strong>Worldspaces&lt;/strong> (the outside world). Both consist of &lt;strong>CELL&lt;/strong> records populated by persistent and temporary references.&lt;/p>
+&lt;ul>
+&lt;li>Expand the &lt;strong>Cell&lt;/strong> record category and navigate to &lt;strong>Block 7&lt;/strong> &amp;raquo; &lt;strong>Sub-Block 0&lt;/strong> &amp;raquo; &lt;code>[FE00183B] ccEEJSSE002MageTowerMain &amp;quot;Myrwatch&amp;quot;&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;p>This is a CELL record (see the &lt;strong>Signature&lt;/strong> at the top).&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/myrwatch-cell-record.png" alt="CELL Record">&lt;/p>
+&lt;p>We will use this CELL as our guinea pig. Remember that you can quickly jump to any cell using the &lt;code>coc&lt;/code> command if you have the cell&amp;rsquo;s &lt;strong>Editor ID&lt;/strong> which is &lt;code>ccEEJSSE002MageTowerMain&lt;/code> in this case.&lt;/p>
+&lt;ul>
+&lt;li>Launch the game and run &lt;code>coc ccEEJSSE002MageTowerMain&lt;/code> through the console.&lt;/li>
+&lt;/ul>
+&lt;p>Yep, we are in the tower. It looks really comfy, I hope nothing bad will happen to it.&lt;/p>
+&lt;ul>
+&lt;li>Quickly close the game by running &lt;code>qqq&lt;/code> through the console.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/myrwatch.jpg" alt="Myrwatch">&lt;/p>
+&lt;h3 id="creating-appleesl">Creating Apple.esl&lt;/h3>
+&lt;p>Now it is time to horribly break the CELL for demonstration purposes.&lt;/p>
+&lt;ul>
+&lt;li>Jump back into SSEEdit and find the &lt;code>ccEEJSSE002MageTowerMain&lt;/code> CELL record again.
+&lt;ul>
+&lt;li>&lt;em>Tip: Search for the Form ID to quickly focus on the record.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Expand the &lt;strong>CELL&lt;/strong> record and look at the &lt;strong>Temporary&lt;/strong> references inside.&lt;/li>
+&lt;li>Select the random &lt;code>FoodApple02 &amp;quot;Green Apple&amp;quot; [ALCH:00064B2F]&lt;/code> near the top.&lt;/li>
+&lt;/ul>
+&lt;p>An apple a day is important and all that, but what if you prefer red over green apples? We can easily switch that out.&lt;/p>
+&lt;ul>
+&lt;li>Right-click the top of the &lt;strong>cceejsse002-tower.esl&lt;/strong> in the right pane and select &lt;strong>Copy as override into&lt;/strong>.&lt;/li>
+&lt;li>Confirm when the warning window pops up.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/myrwatch-cell-new-layer.png" alt="CELL Record">&lt;/p>
+&lt;p>So, given that we are modifying a single record, using the ESL format seems appropriate. When creating an ESL plugin through SSEEdit, it will automatically be given the ESM flag as well so that any modifying temporary refs are added to the ONAM list.&lt;/p>
+&lt;ul>
+&lt;li>Pick the bottom option, &lt;strong>&amp;lt;new file&amp;gt;.esl&lt;/strong>, and name your new plugin &lt;strong>Apple&lt;/strong> (or something equally creative).&lt;/li>
+&lt;/ul>
+&lt;p>In our new &lt;strong>Apple.esl&lt;/strong> layer we can now modify the base object placed in this temporary reference.&lt;/p>
+&lt;ul>
+&lt;li>Double-click the &lt;code>FoodApple02 &amp;quot;Green Apple&amp;quot; [ALCH:00064B2F]&lt;/code> base object in the new layer.&lt;/li>
+&lt;li>Click the little arrow to expand the drop-down menu and select &lt;code>FoodApple &amp;quot;Red Apple&amp;quot; [ALCH:00064B2E]&lt;/code> from the list.&lt;/li>
+&lt;li>Close SSEEdit and save your new plugin.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/change-base-record.png" alt="CELL Record">&lt;/p>
+&lt;h3 id="gazing-into-the-abyss">Gazing into the abyss&lt;/h3>
+&lt;p>Back in MO2, the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> will have caught your new plugin. Since we are (spoiler alert) not going to keep it, you can leave it in its temporary location, but do remember to activate the plugin in the load order.&lt;/p>
+&lt;p>Once again, jump ingame and &lt;code>coc ccEEJSSE002MageTowerMain&lt;/code>.&lt;/p>
+&lt;p>Oh, no.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/myrwatch-broken.jpg" alt="Myrwatch">&lt;/p>
+&lt;h3 id="conclusion">Conclusion&lt;/h3>
+&lt;p>After closing the game with &lt;code>qqq&lt;/code>, you can delete &lt;strong>Apple.esl&lt;/strong> from your &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> simply because it could never work. Also remember to disable &lt;strong>Myrwatch&lt;/strong> again in the mod order.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+Modifying a CELL that is created in an ESL utterly breaks that CELL. This is unfixable.
+&lt;/div>
+&lt;p>In other words, while a CELL record &lt;u>can&lt;/u> be created in an ESL, it &lt;u>cannot&lt;/u> be overwritten. This has important implications when ESL-ifying plugins to circumvent the 256 ESP/ESM limit because it means that you should generally &lt;strong>avoid ESL-ifying any plugin in which a new CELL is created&lt;/strong>.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+There is a &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/64108">mod&lt;/a> which duplicates all Myrwatch CELLs in a regular ESM which is used by mods modifying the tower to circumvent the problem. The only creations that add new CELLs as full ESLs are Myrwatch and Sunder &amp;amp; Wraithguard.
+&lt;/div>
+&lt;h2 id="renumbering-form-ids">Renumbering Form IDs&lt;/h2>
+&lt;p>One final concern about ESL plugins concerns the Form ID format. This is only an issue when &lt;u>converting&lt;/u> a regular ESM or ESP into an ESL. Remember that an ESP has a Form ID with six out of eight unique characters, i.e., &lt;code>xx03A88F&lt;/code>, while an ESL&amp;rsquo;s Index extends to the fifth character, i.e., &lt;code>xxxxx88F&lt;/code>.&lt;/p>
+&lt;p>When you want to turn &lt;u>an ESP that adds new Forms&lt;/u> into an ESL, you have to &lt;strong>compact Form IDs&lt;/strong> before you can add the ESL flag.&lt;/p>
+&lt;p>We need an example mod for this:&lt;/p>
+&lt;ul>
+&lt;li>Create a new separator in Mod Organizer 2 and name it &lt;strong>Grass Overhaul&lt;/strong>.&lt;/li>
+&lt;li>Leave it at the bottom of the mod order.&lt;/li>
+&lt;li>Download and install &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12431?tab=files">No Grass In Caves&lt;/a>.
+&lt;ul>
+&lt;li>&lt;em>Grab the first main file, without compatibility for lighting mods.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-info" role="alert">
+This mod removes grass from caves (duh) because grass mods tend to increase the density. More grass also means more grass in very dark areas where the lack of ambient light causes the grass to look black.
+&lt;/div>
+&lt;h3 id="compacting-form-ids-1">Compacting Form IDs 1&lt;/h3>
+&lt;p>After installing and activating the new mod, another plugin (a normal ESP) will show up in the load order.&lt;/p>
+&lt;p>&lt;strong>Go ahead and load up your plugins in SSEEdit.&lt;/strong>&lt;/p>
+&lt;p>Checking our new mod, we will notice that it not only removes grass, but also adds new flora to make up for that. Statics like these plants are lit differently from grass (they can be affected by point lighting, cast by, for example, a torch and will not look black in low ambient light areas).&lt;/p>
+&lt;p>As we would expect, the Form IDs for the temporary references added by the mod begin with the plugin&amp;rsquo;s two-character Index, &lt;code>08&lt;/code>.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/esp-form-ids.png" alt="ESP Forms">&lt;/p>
+&lt;p>Trying to add the ESL flag and save the plugin would cause SSEEdit to throw the following error:&lt;/p>
+&lt;pre>&lt;code>[00:00] Saving: NoGrassINCaves.esp.save.2023_07_04_10_44_50
+[00:00] Error saving NoGrassINCaves.esp.save.2023_07_04_10_44_50: Record [REFR:080148ED] (places TreeSwordFern01 [TREE:000B73B8] in GRUP Cell Temporary Children of BlindCliffCaveCOC [CELL:00021EFA] (in BlindCliffCaveWorld &amp;quot;Blind Cliff Cave&amp;quot; [WRLD:00020DCB] at -36,4)) has invalid ObjectID 0148ED for a light module. You will not be able to save this file with ESL flag active
+[00:00] Errors have occured. At least one file was not saved.
+&lt;/code>&lt;/pre>&lt;p>The Form IDs are, in other words, not the correct format for ESL space. Thankfully, this is something SSEEdit can adjust for us.&lt;/p>
+&lt;ul>
+&lt;li>Right-click the plugin in the left pane and click &lt;strong>Compact FormIDs for ESL&lt;/strong>.&lt;/li>
+&lt;li>Confirm when the warning window pops up.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/compact-form-ids.png" alt="Compact Form IDs">&lt;/p>
+&lt;h3 id="risks-of-compacting">Risks of Compacting&lt;/h3>
+&lt;p>Another warning will follow and this one merits some discussion.&lt;/p>
+&lt;p>Remember that records are identified by their Form IDs, also by other plugins. If we renumber the Form IDs here and later install a mod that touches the hand-placed flora from No Grass In Caves that second mod would dissolve into a mess of errors because it would be unable to locate the original records it was trying to edit. For example, it was looking for &lt;code>08002FE7&lt;/code> but that Form is now &lt;code>FE00381E&lt;/code>.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Compacting a plugin&amp;rsquo;s Form IDs will break any plugins that it is a master for.
+&lt;/div>
+&lt;p>There are two possible solutions:&lt;/p>
+&lt;ol>
+&lt;li>Avoid compacting Form IDs in plugins that are likely a master to many other plugins (i.e., that have many patches).&lt;/li>
+&lt;li>Compact Form IDs in plugins only when their dependent plugins are also present in SSEEdit at the time.&lt;/li>
+&lt;/ol>
+&lt;p>In the latter case, those dependent plugins would be updated automatically.&lt;/p>
+&lt;h3 id="compacting-form-ids-2">Compacting Form IDs 2&lt;/h3>
+&lt;p>Since I never encountered a mod that modifies No Grass In Caves&amp;rsquo; hand-placed flora, I will go ahead and click &lt;strong>Yes&lt;/strong> to the warning about changing Form ID. The process will only take a few seconds.&lt;/p>
+&lt;p>Afterwards, you can add the ESL flag in the &lt;strong>Plugin Header&lt;/strong>. Close SSEEdit and save your changes.&lt;/p>
+&lt;h3 id="documenting-changes">Documenting Changes&lt;/h3>
+&lt;p>ESL-flagging a plugin (regardless of whether Form IDs are compacted) obviously always requires modifying the original plugin which is something we could so far avoid by overwriting with new plugins. Of course, any changes you make to a given plugin are lost upon updating.&lt;/p>
+&lt;p>This does not necessarily mean that you should never change an original plugin (though try to do it only if there is no other option), but I recommend documenting the changes you made.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+&lt;strong>This step is optional.&lt;/strong> I understand that I am unusually obsessed with documenting everything, but I do strongly believe that it is worth the effort. You cannot possibly remember all your custom edits for several hundreds or thousands of mods.
+&lt;/div>
+&lt;p>Mod Organizer 2 features a very helpful &lt;strong>Notes&lt;/strong> tab for each mod.&lt;/p>
+&lt;ul>
+&lt;li>Double-click &lt;strong>No Grass In Caves&lt;/strong> in your mod order and switch to the &lt;strong>Notes&lt;/strong> tab on the far right.&lt;/li>
+&lt;/ul>
+&lt;p>There are two empty spaces here for notes. The bottom one offers ample room for detailed jottings, whatever you are looking to document, while the top one is better suited to a few short keywords which will be visible at a glance in the mod order&amp;rsquo;s &lt;strong>Notes&lt;/strong> column.&lt;/p>
+&lt;ul>
+&lt;li>Add &lt;code>Compacted Form IDs and ESL-flagged the plugin.&lt;/code> to the space at the top.&lt;/li>
+&lt;/ul>
+&lt;p>Once you close the window, the note will show up in your mod order.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/ngic-mo2-note.png" alt="Compact Form IDs">&lt;/p>
+&lt;hr>
+&lt;h4 id="please-continue-with-step-5bgcore-modulestep5">Please continue with &lt;a href="https://thephoenixflavour.com/bg/core-module/step5/">Step 5&lt;/a>.&lt;/h4></description></item><item><title>Bg: Step 5</title><link>https://thephoenixflavour.com/bg/core-module/step5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/core-module/step5/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This step covers the three types of conflicts between plugins and how to address them.&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="understanding-conflicts">Understanding Conflicts&lt;/h2>
+&lt;p>Plugins interact with each other in various ways. As we have learned, if multiple plugins modify the same record, the game will only consider the changes from the plugin which loads last.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+Multiple plugins making different changes to the same record create a &lt;strong>conflict&lt;/strong>.
+&lt;/div>
+&lt;p>A load order must always be checked for conflicts and many conflicts need to be addressed in some way in a process that is known as conflict resolution. This process can be &lt;em>partially&lt;/em> automated; however, that is not something I will cover in this guide. If you understand manual conflict resolution, you will automatically (hah!) be able to figure out automation tools.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Conflict resolution is one of the most important and most time-consuming steps in building a modded setup, alongside consistency patching and asset management.
+&lt;/div>
+&lt;p>In this step we will discuss three types of conflicts, when and why they arise, how to recognise and assess them, and how to address them. In order to do so, we need to install a few additional mods first which will provide us with examples.&lt;/p>
+&lt;h2 id="example-mods-for-cr">Example Mods for CR&lt;/h2>
+&lt;h3 id="mo2-separators">MO2 Separators&lt;/h3>
+&lt;p>Because we like doing things systematically and in a clean fashion, we will start by adding a few new separators in Mod Organizer 2 to sort the mods that will be added in the next step:&lt;/p>
+&lt;p>&lt;strong>Create the following separators in Mod Organizer 2:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Lighting&lt;/li>
+&lt;li>Water&lt;/li>
+&lt;/ul>
+&lt;p>Move both above the &lt;strong>Grass Overhaul&lt;/strong> separator in the mod order.&lt;/p>
+&lt;h3 id="realistic-water-two">Realistic Water Two&lt;/h3>
+&lt;p>Realistic Water Two is one of the most popular water overhauls and happens to be my personal favourites. Installing it now does not tether you to RW2, you can always uninstall it and use something else later on.&lt;/p>
+&lt;ul>
+&lt;li>Download and install &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2182?tab=files">Realistic Water Two&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>Wait, what is that?&lt;/p>
+&lt;p>We are looking at our first &lt;strong>FOMOD installer&lt;/strong>. The acronym hails from the Fallout New Vegas days and stands for &lt;strong>F&lt;/strong>allout &lt;strong>Mod&lt;/strong> Archive. It allows for a modular installation which may include optional files like patches. Mods with FOMOD installers are common.&lt;/p>
+&lt;ul>
+&lt;li>For the time being, simply click &lt;strong>Next&lt;/strong> and &lt;strong>Install&lt;/strong>.&lt;/li>
+&lt;li>Drop the mod below the &lt;strong>Water&lt;/strong> separator and activate it.&lt;/li>
+&lt;/ul>
+&lt;h3 id="relighting-skyrim">Relighting Skyrim&lt;/h3>
+&lt;p>Relighting Skyrim is a low-impact lighting overhaul focusing on fixing light sources and adding new ones where vanilla is missing them. Once again, you are free to replace it with a different mod later on.&lt;/p>
+&lt;ul>
+&lt;li>Download and install &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8586?tab=files">Relighting Skyrim&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>Here is another FOMOD installer.&lt;/p>
+&lt;ul>
+&lt;li>Click &lt;strong>Install&lt;/strong> to keep the default selections (full version with USSEP support).&lt;/li>
+&lt;li>Drop the mod below the &lt;strong>Lighting&lt;/strong> separator and activate it.&lt;/li>
+&lt;/ul>
+&lt;h3 id="mod-order">Mod Order&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Official Master Files&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Creation Club&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Script Extender&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Essential Mods&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Lighting&lt;/strong>
+&lt;ul>
+&lt;li>Relighting Skyrim&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Water&lt;/strong>
+&lt;ul>
+&lt;li>Realistic Water Two&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Grass Overhaul&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="load-order">Load Order&lt;/h3>
+&lt;p>Plugins highlighted in &lt;mark>green&lt;/mark> are new additions.&lt;/p>
+&lt;ul>
+&lt;li>(Official Master Files + Creations)&lt;/li>
+&lt;li>&lt;em>&lt;strong>Unofficial Skyrim Special Edition Patch.esp&lt;/strong>&lt;/em>&lt;/li>
+&lt;li>&lt;em>&lt;strong>Disable USSEP Book.esl&lt;/strong>&lt;/em>&lt;/li>
+&lt;li>&lt;mark>&lt;em>&lt;strong>RealisticWaterTwo - Resources.esm&lt;/strong>&lt;/em>&lt;/mark>&lt;/li>
+&lt;li>&lt;mark>RealisticWaterTwo.esp&lt;/mark>&lt;/li>
+&lt;li>&lt;em>NoGrassINCaves.esp&lt;/em>&lt;/li>
+&lt;li>&lt;mark>RelightingSkyrim_SSE.esp&lt;/mark>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;font size=2>*Yes, this load order is terrible. That will be the point of the exercise!*&lt;/font>&lt;/p>
+&lt;h2 id="finding-conflicts">Finding Conflicts&lt;/h2>
+&lt;p>Conflicts can be identified by applying a filter in SSEEdit.&lt;/p>
+&lt;ul>
+&lt;li>Load up your plugins in SSEEdit.&lt;/li>
+&lt;li>Right-click anywhere in the left pane and select &lt;strong>Apply Filter&lt;/strong>.&lt;/li>
+&lt;li>Click the &lt;strong>Add&lt;/strong> button at the top to create a new filter.&lt;/li>
+&lt;li>Name it &lt;strong>Conflict Resolution&lt;/strong> and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>Your new filter will be selected automatically. We will want to check the following options:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/cr-filter.png" alt="CR Filter">&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+The two options near the top will visualise conflicts which makes finding them infinitely easier. Flattening CELL records helps with viewing the Cell and Worldspace categories without having to click through blocks and sub-blocks.
+&lt;/div>
+&lt;ul>
+&lt;li>Click the &lt;strong>Save&lt;/strong> button at the top to save the new preset.&lt;/li>
+&lt;li>Click the &lt;strong>Filter&lt;/strong> button at the bottom to apply it.&lt;/li>
+&lt;/ul>
+&lt;p>This will take about a minute. You can proceed once the log returns &lt;code>Done: Applying Filter&lt;/code>.&lt;/p>
+&lt;h2 id="harmless-conflicts">Harmless Conflicts&lt;/h2>
+&lt;p>As you can see, our load order is very colourful now, meaning there are a lot of conflicts.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+Plugin interactions (conflicts) are common and not all conflicts are harmful. In fact, most conflict are fully intentional. The process of reviewing conflicts is not about making everything &amp;ldquo;green&amp;rdquo; in SSEEdit, but assessing which conflicts are &lt;u>not&lt;/u> intentional.
+&lt;/div>
+&lt;p>Conflict resolution therefore requires an understanding of &lt;u>why&lt;/u> a given plugin is making certain changes and you will run into situations where you simply do not know what an edit means. In such cases, use common sense, refer to the mod page, or ask in the comments.&lt;/p>
+&lt;p>Let’s have a look at a harmless conflict that is intentional and requires no intervention:&lt;/p>
+&lt;ul>
+&lt;li>In SSEEdit, search for the &lt;strong>Form ID&lt;/strong> &lt;code>000695BC&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/find-harmless-conflict.png" alt="Find Harmless Conflict">&lt;/p>
+&lt;p>SSEEdit will take us to the matching record which is a reference defined in &lt;em>Skyrim.esm&lt;/em> placing a copy of the static &lt;strong>IceCandleLight01&lt;/strong> in a cell in the &lt;a href="https://en.uesp.net/wiki/Skyrim:Kilkreath_Ruins">Kilkreath Ruins&lt;/a> dungeon.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+This record and others are highlighted in red in the left pane because they contain conflicts.
+&lt;/div>
+&lt;p>Specifically, changes from &lt;strong>Update.esm&lt;/strong> are being overwritten by &lt;strong>RelightingSkyrim_SSE.esp&lt;/strong>:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/rs-update-conflict.png" alt="Find Harmless Conflict">&lt;/p>
+&lt;p>So what in Talos&amp;rsquo; name means &amp;ldquo;Unknown&amp;rdquo; which is where the conflict is located? Nobody knows. Most record types have some of these &amp;ldquo;unknown&amp;rdquo; values and they can be largely ignored. They are data in the plugin which are not decoded / defined in SSEEdit, presumably something generated by the CK.&lt;/p>
+&lt;p>Common sense tells us that conflicts between mods and their master files are generally intentional. They would not require the master if they were not trying to change something about it.&lt;/p>
+&lt;p>It also tells us that &lt;strong>Relighting Skyrim&lt;/strong> probably has good reasons for modifying data related to light as that is within the scope of the mod. For example, the records below our current example are four copies of &lt;code>IceTorch01NS_FastDesat&lt;/code> placed in the same cell where &lt;strong>Update.esm&lt;/strong> changes the &lt;code>Fade 1.35+/-&lt;/code> value, and this change is overwritten once again by &lt;strong>RelightingSkyrim_SSE.esp&lt;/strong>. That is obviously intentional.&lt;/p>
+&lt;p>Finally, we can tell that the reference object (the candle) is being disabled anyway, so even if &lt;strong>Update.esm&lt;/strong> were making relevant changes (i.e. to the position of the candle) it would not matter as it would not show up in game at all.&lt;/p>
+&lt;div class="alert alert-success" role="alert">
+In conclusion: The conflict is harmless and intentional. There is no cause for action.
+&lt;/div>
+&lt;h2 id="conflicts-requiring-load-order-changes">Conflicts requiring load order changes&lt;/h2>
+&lt;p>As for conflicts which require intervention, there are two subtypes: One can be fixed by changing the load order, the other requires a patch.&lt;/p>
+&lt;p>Let us first look at a conflict that can be resolved by adjusting the load order.&lt;/p>
+&lt;ul>
+&lt;li>In SSEEdit, search for the FormID &lt;code>002C965&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;p>This will take us to the parent record for the Darkwater Pass worldspace, highlighted in bright red. A conflict!&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/worldspace-conflict.png" alt="Worldspace Conflict">&lt;/p>
+&lt;h3 id="cell-record-itms">CELL Record ITMs&lt;/h3>
+&lt;p>If you look at the &lt;strong>RelightingSkyrim_SSE.esp&lt;/strong> layer, you will see the grey font and recognise it as an &lt;strong>ITM&lt;/strong> record (identical to master). That means it is a copy of the same record from &lt;strong>Skyrim.esm&lt;/strong> with zero modifications. It currently overwrites &lt;strong>RealisticWaterTwo.esp&lt;/strong>, negating its change to &lt;code>NAM2 - Water&lt;/code>.&lt;/p>
+&lt;p>Does that mean Relighting Skyrim is a &amp;ldquo;bad&amp;rdquo; mod because it includes an ITM?&lt;/p>
+&lt;p>No. In fact, this ITM is perfectly normal.&lt;/p>
+&lt;p>Previously, we discussed that the &lt;strong>Cell&lt;/strong> and &lt;strong>Worldspace&lt;/strong> categories consist of &lt;strong>CELL&lt;/strong> records which in turn contain references.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+When a plugin edits a reference it will also contain a copy of the CELL record which the reference is located in.
+&lt;/div>
+&lt;p>This copy is typically an ITM as nothing is changed within it. A good example is our previously created &lt;strong>Disable USSEP Book.esl&lt;/strong>:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/cell-record-itms.png" alt="Cell Record ITMs">&lt;/p>
+&lt;h3 id="late-loaders">Late Loaders&lt;/h3>
+&lt;p>Though CELL record ITMs records are common, the implications are important to understand: Even if a plugin only makes a tiny adjustment to a pebble in a stream somewhere in the Falkreath forest, it &lt;u>will&lt;/u> contain ITM copies of the CELL and the worldspace&amp;rsquo;s parent record where it potentially overwrites other plugins that actually modify the parent record.&lt;/p>
+&lt;p>That is exactly what is happening in our initial example, &lt;code>002C965&lt;/code>, where Relighting Skyrim contains an ITM copy of the parent record of the Darkwater Pass worldspace and unnecessarily reverts the Realistic Water Two edit back to vanilla.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Fortunately, the amount of plugins modifying CELL parent records is comparatively small. They are usually found in water, lighting, audio, and map mods.
+&lt;/div>
+&lt;p>&lt;strong>Realistic Water Two&lt;/strong> is one such mod with numerous edits to parent records. We can easily resolve most potential conflicts by loading the plugin very late in the load order, below other mods which are more likely to contain only ITMs of the same parent records. That way, no conflicts will arise to begin with.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Plugins that are supposed to be placed late in the load order to avoid unnecessary conflicts are referred to as &lt;strong>late loaders&lt;/strong>.
+&lt;/div>
+&lt;h3 id="load-order-adjustment">Load Order Adjustment&lt;/h3>
+&lt;p>Our example conflict between &lt;strong>Relighting Skyrim&lt;/strong> and &lt;strong>Realistic Water Two&lt;/strong> - and a second one in the &lt;em>Frostmere Depths&lt;/em> worldspace - can thus be resolved by simply adjusting the load order.&lt;/p>
+&lt;p>The same is true for current conflicts between &lt;strong>Relighting Skyrim&lt;/strong> and &lt;strong>No Grass In Caves&lt;/strong> which you can see if you expand the latter mod&amp;rsquo;s Worldspace section. It adds the &lt;strong>No Grass&lt;/strong> flag to multiple parent records which is negated by ITMs in RS. Switching their load order will allow NGIC to overwrite RS and solve the problem.&lt;/p>
+&lt;p>&lt;font size=2>*As you may have noticed, NGIC also has conflicts with RW2 that are not so easily resolved. We will consider those soon.*&lt;/font>&lt;/p>
+&lt;ul>
+&lt;li>Close &lt;strong>SSEEdit&lt;/strong>.&lt;/li>
+&lt;li>Drag and drop &lt;strong>NoGrassINCaves.esp&lt;/strong> &lt;u>below&lt;/u> &lt;strong>RelightingSkyrim_SSE.esp&lt;/strong>.&lt;/li>
+&lt;li>Drag and drop &lt;strong>RealisticWaterTwo.esp&lt;/strong> to the bottom of your load order.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/load-order-adjustment.png" alt="Load Order Adjustment">&lt;/p>
+&lt;ul>
+&lt;li>Reopen SSEEdit.&lt;/li>
+&lt;li>Double-click &lt;strong>RealisticWaterTwo.esp&lt;/strong> and check the &lt;strong>Worldspace&lt;/strong> category.&lt;/li>
+&lt;/ul>
+&lt;p>Both &lt;em>Darkwater Pass&lt;/em> and &lt;em>Frostmere Depths&lt;/em> are now highlighted in yellow, meaning that Realistic Water Two modified the original records without creating conflicts. The &lt;em>BlindCliffCaveWorld&lt;/em> and &lt;em>FallowstoneCaveWorldStart&lt;/em> worldspace parent records have conflicts which will be addressed in the next step.&lt;/p>
+&lt;p>Finally, the conflict in &lt;em>DLC2SolstheimWorld&lt;/em> is caused by the Fishing creation which modified, probably accidentally, the parent record. That is annoying, but since the changes are reverted back to vanilla by later plugins, it does not matter.*&lt;/p>
+&lt;p>&lt;font size=2>**If you cannot see the conflict with the Fishing creation, you probably enabled the USSEP ModGroup.*&lt;/font>&lt;/p>
+&lt;h2 id="conflicts-requiring-patches">Conflicts requiring patches&lt;/h2>
+&lt;p>Finally, there are conflicts of the type which are unintentional and can only be resolved by a patch.&lt;/p>
+&lt;p>This is the case when multiple plugins modify the same record and you wish to retain changes from several of them: An additional layer must be created where all these changes are consolidated, creating a &lt;strong>patch&lt;/strong>.&lt;/p>
+&lt;ul>
+&lt;li>Double-click &lt;strong>NoGrassInCaves.esp&lt;/strong> in the left pane.&lt;/li>
+&lt;li>Expand the &lt;strong>Worldspace&lt;/strong> category.&lt;/li>
+&lt;/ul>
+&lt;p>Here we can see that nearly all parent records in this plugin have conflicts though it is winning most of them without creating conflicts (green font on yellow background). If you check the green records, you can see that No Grass In Caves is also a typical late loader as it does modify the parent records and is correctly overwriting the ITMs in other plugins.&lt;/p>
+&lt;p>However, conflicts do appear in two of the parent records: &lt;em>BlindCliffCaveWorld&lt;/em> and &lt;em>FallowstoneCaveWorldStart&lt;/em>. Looking at these records, you will notice that both No Grass In Caves and Realistic Water Two are making relevant changes, but Realistic Water Two is winning the conflict because it is placed lower in the load order. If the positions were reversed, No Grass In Caves would win, but then the water changes would not appear in game.&lt;/p>
+&lt;p>&lt;strong>In order for both mods to function as intended, a patch is required.&lt;/strong>&lt;/p>
+&lt;h3 id="creating-a-patch">Creating a patch&lt;/h3>
+&lt;p>Just as we did earlier to disable the USSEP book, we need to create a new layer (a new plugin) to apply our changes to.&lt;/p>
+&lt;ul>
+&lt;li>Select one of the two worldspace parent records containing a conflict.&lt;/li>
+&lt;li>Right-click the &lt;strong>RealisticWaterTwo.esp&lt;/strong> layer (column) in the right pane.&lt;/li>
+&lt;li>Select &lt;strong>Copy as override into&lt;/strong> and confirm when the warning pops up.&lt;/li>
+&lt;li>In the plugin selection window, select the &lt;strong>&amp;lt;new file&amp;gt;.esp&lt;/strong> template &lt;u>with the ESL flag&lt;/u> and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>At this point, we have two options: Either we create a &lt;strong>Conflict Resolution Patch.esp&lt;/strong> where this and future conflicts are collected and resolved. This is a common practice and one that I used for a long time. However, I have since come to the conclusion that it is better to create many separate patches instead.&lt;/p>
+&lt;p>Why is that?&lt;/p>
+&lt;p>&lt;strong>Separate patches are much easier to manage.&lt;/strong> When mods are removed, you do not have to modify one big plugin, removing references and cleaning masters. You only have to disable the specific patches for it. They are also easier to update when a mod was updated.&lt;/p>
+&lt;p>Because we can ESL-flag these small patches, we can literally create hundreds and thousands of tiny patches without ever having to merge them together.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+In conclusion: I strongly recommend creating &lt;u>separate&lt;/u> patches to address conflicts between different mods.
+&lt;/div>
+&lt;ul>
+&lt;li>Name your new plugin &lt;strong>Realistic Water Two - No Grass In Caves Patch&lt;/strong> and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>Of course, there is still a conflict in our newly created patch. To resolve this, simply drag (forward) the changes under &lt;code>DATA - Flags (sorted)&lt;/code> from the &lt;strong>NoGrassInCaves.esp&lt;/strong> column into our new patch:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/resolve-worldspace-conflict.png" alt="Resolve Worldspace Conflict">&lt;/p>
+&lt;p>The record should now be displayed in green. (The copy in the expanded &lt;strong>NoGrassInCaves.esp&lt;/strong> plugin is still red, but that is because the UI does not update everywhere. If you click on it, the conflict is shown as resolved there, too).&lt;/p>
+&lt;p>Now repeat the process for the second conflicting parent record. When choosing where to create a new layer, do not select a new plugin, but use the existing patch instead.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/copy-into-patch.png" alt="Resolve Worldspace Conflict">&lt;/p>
+&lt;p>Finally, forward the remaining edit in the second record into the patch plugin. All is pretty and green now.&lt;/p>
+&lt;p>Close &lt;strong>SSEEdit&lt;/strong> and click &lt;strong>OK&lt;/strong> to save your new plugin.&lt;/p>
+&lt;h3 id="cleanup">Cleanup&lt;/h3>
+&lt;p>As usual, the Mod Organizer 2 caught our new plugin.&lt;/p>
+&lt;ul>
+&lt;li>Right-click the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> and select &lt;strong>Create Mod&lt;/strong>.&lt;/li>
+&lt;li>Enter &lt;strong>Realistic Water Two - No Grass In Caves Patch&lt;/strong> as the name and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Leave the new mod &lt;u>below&lt;/u> &lt;strong>Realistic Water Two&lt;/strong> and activate it.&lt;/li>
+&lt;/ul>
+&lt;p>In the load order, the new plugin will appear at the bottom automatically, located below both its masters.&lt;/p>
+&lt;p>In the &lt;strong>Notes&lt;/strong> tab in MO2, I added a quick &lt;code>Resolves minor worldspace parent record conflicts.&lt;/code> for the new patch to remind myself of what it does. Once you have a couple hundred custom patches flying around you will be very grateful to your past self for having some documentation, trust me on that.&lt;/p>
+&lt;h2 id="a-note-on-loot">A Note on LOOT&lt;/h2>
+&lt;div class="alert alert-info" role="alert">
+The following section discusses my views on a tool called LOOT. Feel free to move on to &lt;a href="https://thephoenixflavour.com/bg/core-module/step6/">Step 6&lt;/a> if you are not interested.
+&lt;/div>
+&lt;p>By now, you may have been wondering when I was going to mention LOOT. Is that not how load order is managed?&lt;/p>
+&lt;p>Okay, here is the thing.&lt;/p>
+&lt;p>&lt;strong>Figuring out the ideal load order is hard, actually.&lt;/strong> It is time-consuming, especially for large load orders - TPF has well over 1,000 plugins, and it is far from the biggest setup out there. I spend a lot of time, hours upon hours, in SSEEdit, looking at conflicts to figure out which are harmless, which can be resolved through load order adjustments, and which require patches.&lt;/p>
+&lt;p>It is thus unsurprising that efforts have been made to automate this process. The tool BOSS was made for sorting plugins in the Oblivion modding days; it has since been superseded by LOOT.&lt;/p>
+&lt;p>Drawing on a user-created masterlist, LOOT attempts to sort your plugins in a way that minimises conflicts. This is inherently imperfect as it would be impossible to create a database accounting for every single mod and possible conflict.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+LOOT is capable of one thing: Solving load order conflicts &lt;u>if&lt;/u> the conflict in question is on the masterlist. LOOT cannot create patches or even discover conflicts by itself.
+&lt;/div>
+&lt;p>That does not mean LOOT is bad, period.&lt;/p>
+&lt;p>&lt;strong>What is bad is the widespread notion that modding = installing mods &amp;raquo; running LOOT &amp;raquo; playing the game.&lt;/strong>&lt;/p>
+&lt;p>You can observe the result of this idea every day on the Skyrim modding subreddit, in Nexus comments, on various Discord servers. It is unfortunately reinforced by many mod authors who recommend running LOOT on their mod pages without clarifying that simply running LOOT does not a functional modded setup make. Plenty of &amp;ldquo;modding guides&amp;rdquo; further perpetuate this idea.&lt;/p>
+&lt;p>👏 &lt;strong>LOOT will not fix your load order.&lt;/strong> 👏&lt;/p>
+&lt;p>That being said, LOOT &lt;u>can&lt;/u> speed up the process of fixing your load order by improving your baseline. Some of the most talented mod authors and list curators I know are using LOOT with a multitude of custom rules to manage their load order and consider this the most efficient way.&lt;/p>
+&lt;p>&lt;font size=2>*I do want to stress that LOOT was never &lt;u>marketed&lt;/u> as this magical fix-all solution. It is the community hivemind that has portrayed it as such.*&lt;/font>&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+This guide will use LOOT later on, though not for load order management. I personally do not consider custom LOOT sorting rules, groups, etc worth the effort which is my &lt;u>subjective opinion based on my own experiences&lt;/u> and not an objective fact. However, since I happen to be writing this guide, my subjective opinions &lt;em>are&lt;/em> relevant.
+&lt;/div>
+&lt;hr>
+&lt;h4 id="please-continue-with-step-6bgcore-modulestep6">Please continue with &lt;a href="https://thephoenixflavour.com/bg/core-module/step6/">Step 6&lt;/a>.&lt;/h4></description></item></channel></rss>
