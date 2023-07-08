@@ -308,6 +308,38 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71524">Cumulative Fix for Eye Meshes&lt;/a>, the underwater fix removes blending on the lashes which can look really weird so you may want to use the version without that fix.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72213">Farm Hat 01 Clipping Fix&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sme/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/changelog/</guid><description>
+&lt;h2 id="release-250">Release 2.5.0&lt;/h2>
+&lt;blockquote>
+&lt;p>08/07/2023&lt;/p>
+&lt;/blockquote>
+&lt;p>This update brings a few notable additions, including the new &lt;strong>Open Animation Replacer&lt;/strong> as the successor to DAR. I also found the &lt;strong>Rogue Master Detector&lt;/strong> quite helpful and encourage you to check its log as rogue masters can be difficult to detect.&lt;/p>
+&lt;ul>
+&lt;li>Added SkyUI 3D Item Offset Fix &amp;mdash; &lt;em>disable on non-16:9 monitors&lt;/em>&lt;/li>
+&lt;li>Added Rogue Master Detector&lt;/li>
+&lt;li>Added Universal Unwanted Effects Clearer&lt;/li>
+&lt;li>Added Assorted Animation Fixes&lt;/li>
+&lt;li>Added Fish Plaque Fixes and Improvements&lt;/li>
+&lt;li>Added MQ105SprintTriggerScript Fix&lt;/li>
+&lt;li>Added DLC2AudioRepeaterActivator01Script Tweak&lt;/li>
+&lt;li>Added Save Unbaker&lt;/li>
+&lt;li>Added Camera Persistence Fixes&lt;/li>
+&lt;li>Added Open Animation Replacer&lt;/li>
+&lt;li>Updated Kezyma&amp;rsquo;s Root Builder to 4.4.3&lt;/li>
+&lt;li>Updated Payload Interpreter to 1.1.0&lt;/li>
+&lt;li>Updated ConsolePlusPlus to 1.3.0&lt;/li>
+&lt;li>Updated Assorted Mesh Fixes to 0.83&lt;/li>
+&lt;li>Updated DynDOLOD Resources to 3 Alpha 37&lt;/li>
+&lt;li>Updated xLODGen Resource SSE Terrain Tamriel to 2.0&lt;/li>
+&lt;li>Updated DragonActorScript Infinite Loop Fix to 1.3.2&lt;/li>
+&lt;li>Updated ENBSeries Binaries to 0.494&lt;/li>
+&lt;li>Updated Particle Patch for ENB to 1.2.4&lt;/li>
+&lt;li>Updated Dynamic Animation Casting NG to 3.2.4&lt;/li>
+&lt;li>Updated Cathedral Assets Optimizer to 5.3.15&lt;/li>
+&lt;li>Updated Synthesis to 0.25.4&lt;/li>
+&lt;li>Removed Dynamic Animation Replacer&lt;/li>
+&lt;li>SkyUI Survival Mode Integration is now enabled by default&lt;/li>
+&lt;li>Survival Mode Prompt Removed is now enabled by default&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-243">Release 2.4.3&lt;/h2>
 &lt;blockquote>
 &lt;p>30/05/2023&lt;/p>
