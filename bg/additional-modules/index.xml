@@ -129,12 +129,68 @@ If you got this far, everything appears to be running smoothly and you are ready
 &lt;div class="alert alert-info" role="alert">
 Alternatively, you can use halgari’s &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/61756">Unofficial Skyrim Downloader&lt;/a>. I will add instructions for this at a later date.
 &lt;/div>
-&lt;p>To prevent Skyrim from automatically updating, consider &lt;a href="https://thephoenixflavour.com/bg/additional-modules/update-proofing">Update Proofing&lt;/a> the game.&lt;/p></description></item><item><title>Bg: Managing Creations</title><link>https://thephoenixflavour.com/bg/additional-modules/managing-creations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/managing-creations/</guid><description>
+&lt;p>To prevent Skyrim from automatically updating, consider &lt;a href="https://thephoenixflavour.com/bg/additional-modules/update-proofing">Update Proofing&lt;/a> the game.&lt;/p></description></item><item><title>Bg: Extracting BSAs</title><link>https://thephoenixflavour.com/bg/additional-modules/extracting-bsas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/extracting-bsas/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers various methods of extracting BSAs.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> Depends on the method&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="extraction-methods">Extraction Methods&lt;/h2>
+&lt;p>You need to extract a BSA if:&lt;/p>
+&lt;ol>
+&lt;li>You want to install a Skyrim LE mod that contains a BSA (it would crash the game).&lt;/li>
+&lt;li>You want assets from the BSA to overwrite loose files.&lt;/li>
+&lt;li>You want to selectively modify or remove assets from the BSA.&lt;/li>
+&lt;/ol>
+&lt;p>(Going through MO2 is easily the most convenient option. Use BAE for selective extraction or for BSAs outside of MO2.)&lt;/p>
+&lt;h3 id="through-mod-organizer-2">Through Mod Organizer 2&lt;/h3>
+&lt;p>If a mod is already installed via Mod Organizer 2, you can extract it through the MO2 interface.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+Please make sure you have &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/92044?">BSA Extractor 2&lt;/a> installed. Check the &lt;a href="https://thephoenixflavour.com/bg/tool-setup/mo2/#bsa-extractor-2">Mod Organizer 2&lt;/a> page for instructions.
+&lt;/div>
+&lt;ul>
+&lt;li>In Mod Organizer 2, switch to the &lt;strong>Archives&lt;/strong> tab.&lt;/li>
+&lt;/ul>
+&lt;p>Here, you will find all currently installed archives (BSAs). If they are checked, it means there is a plugin of the same name to load it.&lt;/p>
+&lt;ul>
+&lt;li>Right-click the BSA and select &lt;strong>Extract&lt;/strong>.
+&lt;ul>
+&lt;li>&lt;em>If a mod has multiple BSAs and you want to extract all of them, right-click the &lt;strong>mod name&lt;/strong> instead.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Navigate to &lt;code>\Mod Organizer 2\mods\&amp;lt;mod name&amp;gt;\&lt;/code> and confirm.&lt;/li>
+&lt;/ul>
+&lt;p>This will extract the BSA into the mod folder. You can delete the BSA afterwards.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+You can also extract the BSA to a different location or a new mod folder if you only want partial/temporary access.
+&lt;/div>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/extracting-archives/extract-through-mo2.png" alt="Extract through MO2">&lt;/p>
+&lt;h3 id="via-bethesda-archive-extractor">Via Bethesda Archive Extractor&lt;/h3>
+&lt;p>&lt;a href="https://thephoenixflavour.com/bg/tool-setup/bae/">Bethesda Archive Extractor&lt;/a> is probably the most versatile tool for extracting BSAs (perhaps the name gave it away). It allows you to unpack one BSA at a time, either in its entirety or in parts. You can also extract files and folders via simple drag-and-drop.&lt;/p>
+&lt;p>The instructions linked above cover how to set BAE as the default app for BSAs.&lt;/p>
+&lt;ul>
+&lt;li>View any BSA by double-clicking it or by going through the MO2 &lt;strong>Filetree&lt;/strong>, right-clicking the BSA, and selecting &lt;strong>Open&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>Extract&lt;/strong> to select a target folder to extract all currently checked assets to (all assets are checked by default).&lt;/li>
+&lt;/ul>
+&lt;p>Uncheck the BSA and check files or folders to selectively extract from the archive:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/extracting-archives/bae-selective-extraction.png" alt="BAE Selective Extraction">&lt;/p>
+&lt;h3 id="via-cathedral-assets-optimizer">Via Cathedral Assets Optimizer&lt;/h3>
+&lt;p>You can create a dedicated profile in &lt;a href="https://thephoenixflavour.com/bg/tool-setup/cao/">Cathedral Assets Optimizer&lt;/a> for extracting BSAs.&lt;/p>
+&lt;ul>
+&lt;li>Click the &lt;strong>New&lt;/strong> button to create a new profile and use the &lt;strong>SSE&lt;/strong> profile as the basis.&lt;/li>
+&lt;li>Disable everything except for the &lt;strong>Extract BSA&lt;/strong> and &lt;strong>Delete Backups&lt;/strong> options in the &lt;strong>BSA&lt;/strong> tab.&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-info" role="alert">
+&lt;strong>Delete Backups:&lt;/strong> CAO will usually create backups of the extracted BSAs in the same folder. If you want to recover the BSAs it is usually easier to reinstall the mod through Mod Organizer 2 which is why I recommend setting CAO to delete the backups.
+&lt;/div>
+&lt;p>To extract a BSA using CAO, click &lt;strong>Open Directory&lt;/strong> and navigate to the location of the BSA. Click &lt;strong>Select Folder&lt;/strong>. CAO will extract the assets from &lt;u>all BSAs within that folder&lt;/u> into the same folder.&lt;/p></description></item><item><title>Bg: Managing Creations</title><link>https://thephoenixflavour.com/bg/additional-modules/managing-creations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/managing-creations/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
 &lt;p>This module covers the installation of Curation Club and importing Creations into MO2.&lt;p>
-&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/additional-modules/mo2-setup">MO2 Setup&lt;/a>&lt;/p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/mo2/">Mod Organizer 2&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;/div>
 &lt;h2 id="curation-club">Curation Club&lt;/h2>
@@ -166,171 +222,80 @@ Because &lt;strong>Curation Club&lt;/strong> moves the creations out of the data
 You can now manage your Creations through Mod Organizer 2 like any other mod.
 &lt;/div>
 &lt;hr>
-&lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-1bgcore-modulestep1free-creations">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step1/#free-creations">Step 1&lt;/a>.&lt;/h4></description></item><item><title>Bg: MO2 Setup</title><link>https://thephoenixflavour.com/bg/additional-modules/mo2-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/mo2-setup/</guid><description>
+&lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-1bgcore-modulestep1free-creations">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step1/#free-creations">Step 1&lt;/a>.&lt;/h4></description></item><item><title>Bg: Optimising SLE Assets</title><link>https://thephoenixflavour.com/bg/additional-modules/optimising-sle-assets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/optimising-sle-assets/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
-&lt;p>This module covers the installation and basic configuration of Mod Organizer 2.&lt;p>
-&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/additional-modules/clean-install/">Clean Install&lt;/a>&lt;/p>
+&lt;p>This module covers how to use CAO for porting textures, meshes, and animations to Skyrim SE.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/cao/">Cathedral Assets Optimizer&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;/div>
-&lt;h2 id="mo2-prerequisites">MO2 Prerequisites&lt;/h2>
-&lt;p>Mod Organizer 2 has two prerequisites.&lt;/p>
-&lt;p>While you may already have them install, I recommend (re)installing them to be sure:&lt;/p>
+&lt;h2 id="optimising-with-cao">Optimising with CAO&lt;/h2>
+&lt;p>You can process textures, meshes, and animations with &lt;strong>Cathedral Assets Optimizer&lt;/strong>.&lt;/p>
+&lt;p>I recommend creating a new profile first.&lt;/p>
 &lt;ul>
-&lt;li>Download &lt;a href="https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer">.NET Framework 4.8&lt;/a> and follow the instructions in the installer.&lt;/li>
-&lt;li>Download the &lt;a href="https://aka.ms/vs/16/release/vc_redist.x64.exe">Microsoft Visual C++ Redistributable&lt;/a> and follow the instructions in the installer.&lt;/li>
+&lt;li>Open &lt;strong>Cathedral Assets Optimizer&lt;/strong>.&lt;/li>
+&lt;li>Click the &lt;strong>New&lt;/strong> button to create a new profile and name it &lt;strong>SSE - Optimise SLE Assets&lt;/strong>.&lt;/li>
+&lt;li>Use the default &lt;strong>SSE&lt;/strong> profile as the basis.&lt;/li>
+&lt;li>Configure as shown in the pictures below.&lt;/li>
 &lt;/ul>
-&lt;p>To finalise the installation you may be required to restart your PC.&lt;/p>
-&lt;h2 id="downloading-mo2">Downloading MO2&lt;/h2>
-&lt;p>Mod Organizer 2 is hosted on the Nexus and on Github.&lt;/p>
-&lt;ul>
-&lt;li>Open the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6194">Mod Organizer 2&lt;/a> Nexus page.&lt;/li>
-&lt;li>Switch to the &lt;strong>Files&lt;/strong> tab.&lt;/li>
-&lt;li>Click the &lt;strong>Manual Download&lt;/strong> button for &lt;strong>Mod Organizer 2&lt;/strong> under &lt;strong>Main Files&lt;/strong>.&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>If you do not have &lt;strong>Nexus Premium&lt;/strong>, you will need to click &lt;strong>Download&lt;/strong> again on the next page after a brief countdown.&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/mo2-setup/download-mo2.png" alt="Download MO2">&lt;/p>
-&lt;h2 id="installing-mo2">Installing MO2&lt;/h2>
-&lt;p>Save the downloaded executable to a convenient location and double-click it.&lt;/p>
-&lt;p>If there is a Windows warning, click &lt;strong>More Info&lt;/strong> and &lt;strong>Run anyway&lt;/strong>.&lt;/p>
-&lt;div class="alert alert-primary" role="alert">
-Worried about catching a virus? Read about the &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/nexus-virus-check/">Nexus Virus Check&lt;/a>.
-&lt;/div>
-&lt;h3 id="installer-configuration">Installer Configuration&lt;/h3>
-&lt;p>In the MO2 installer, accept the license agreement and proceed to the next page.&lt;/p>
-&lt;p>You will be asked where to install Mod Organizer 2.&lt;/p>
-&lt;ul>
-&lt;li>Once again, &lt;strong>selecting an SSD or NVME is highly recommended&lt;/strong> as it will improve load times and in-game performance.&lt;/li>
-&lt;li>&lt;strong>The MO2 folder will contain all your mods&lt;/strong> which may add up to &lt;strong>100GB&lt;/strong> and more.&lt;/li>
-&lt;/ul>
-&lt;p>For now, make sure you have &lt;u>at least 50GB of free space&lt;/u> on whichever hard drive you choose. That will be sufficient to get started.&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/mo2-setup/mo2-installation-directory.png" alt="MO2 Installation Directory">&lt;/p>
-&lt;p>For the rest of the installer, you can simply keep clicking &lt;strong>Next&lt;/strong> to install the tool with all components into your chosen directory.&lt;/p>
-&lt;p>Click &lt;strong>Finish&lt;/strong> once all files have been extracted. Mod Organizer 2 will be launched automatically so you can proceed with the next step.&lt;/p>
-&lt;h3 id="instance-setup">Instance Setup&lt;/h3>
-&lt;p>After the initial installation process, the &lt;strong>Instance Manager&lt;/strong> will open where we will create a new &lt;strong>portable instance&lt;/strong>. These are self-contained and allow you to run as many copies of Mod Organizer 2 as you like, for various games or different setups.&lt;/p>
-&lt;p>(I personally run five or more instances at any given time, for both Skyrim SE and Fallout 4, none of which interfere with each other.)&lt;/p>
-&lt;p>Click the &lt;strong>Create new instance&lt;/strong> button to proceed.&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/mo2-setup/mo2-new-instance.png" alt="MO2 New Instance">&lt;/p>
-&lt;ul>
-&lt;li>Click &lt;strong>Next&lt;/strong> in the configuration window.&lt;/li>
-&lt;li>Select &lt;strong>Create a portable instance&lt;/strong> on the next page.&lt;/li>
-&lt;li>On the next page in the configuration wizard, select &lt;strong>Skyrim Special Edition&lt;/strong>.&lt;/li>
-&lt;li>Click &lt;strong>Next&lt;/strong> again on the following page to confirm using your MO2 installation folder for all sub directories.&lt;/li>
-&lt;li>Click &lt;strong>Connect to Nexus&lt;/strong>* and switch to the browser to authorise MO2 to connect your account.
-&lt;ul>
-&lt;li>In the MO2 installer, you should see: &lt;strong>Linked with Nexus successfully&lt;/strong>.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Proceed to the next step and click &lt;strong>Finish&lt;/strong> to finalise your new MO2 instance.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;font size="2">**If you are not prompted to connect MO2 to the Nexus, you have likely already done this for a previous MO2 installation.*&lt;/font>&lt;/p>
-&lt;h3 id="first-launch">First Launch&lt;/h3>
-&lt;p>Mod Organizer 2 should launch automatically.&lt;/p>
-&lt;ul>
-&lt;li>Click &lt;strong>No&lt;/strong> when asked to see the tutorial.
-&lt;ul>
-&lt;li>We will go over the various parts of MO2 in this guide.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>If asked whether MO2 should handle NXM links, click &lt;strong>Yes&lt;/strong>.
-&lt;ul>
-&lt;li>This allows automatic downloads from the Nexus through MO2.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>Before we do anything else, let&amp;rsquo;s disable the log at the bottom. We are not going to need it.&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/mo2-setup/disable-mo2-log.png" alt="disable mo2 log">&lt;/p>
-&lt;blockquote>
-&lt;p>I also recommend right-clicking the MO2 icon on your taskbar and &lt;strong>pinning&lt;/strong> it for quick access.&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="mo2-settings">MO2 Settings&lt;/h2>
-&lt;p>Open the &lt;strong>Settings&lt;/strong> by clicking the first icon on the right in the toolbar.&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/mo2-setup/mo2-open-settings.png" alt="MO2 Open Settings">&lt;/p>
-&lt;h3 id="settings-general">Settings: General&lt;/h3>
-&lt;p>Under &lt;strong>Download List&lt;/strong>, I highly recommend checking &lt;strong>Show meta information&lt;/strong> and &lt;strong>Compact list&lt;/strong>. This will affect the Downloads tab in the right pane of MO2 where all downloaded files will appear. As the list grows, a more compact view with information about the file version and type will become invaluable.&lt;/p>
-&lt;blockquote>
-&lt;p>Check out the &lt;a href="https://i.imgur.com/BW4F4tD.png">default settings&lt;/a> versus the &lt;a href="https://i.imgur.com/eNnzd6p.png">compact settings&lt;/a>.&lt;/p>
-&lt;/blockquote>
-&lt;p>I personally do not use the &lt;strong>Hide downloads after installation&lt;/strong> option. Of course, the list of downloads in my MO2 setups is hundreds of files long, and yes, hiding files after installing them would keep the downloads tab clean. All hidden mods can quickly be made visible again by ticking the &lt;strong>Hidden files&lt;/strong> box at the bottom of the &lt;strong>Downloads&lt;/strong> tab, and individual files can be hidden and unhidden at will. Personally, I prefer the simplicity of simply leaving everything visible and using the search bar to find what I am looking for. Once you start installing mods, you should make your own choice.&lt;/p>
-&lt;h3 id="settings-themes">Settings: Themes&lt;/h3>
-&lt;p>While I personally prefer light mode in the majority of my apps and programs, I realise that my opinion is rather unpopular. Under &lt;strong>Style&lt;/strong>, you can try out various other themes. If you are looking for a simple dark theme, I recommend the &lt;strong>1809 Dark Mode&lt;/strong> option for now. It is similar to the default light theme and will make following along with my screenshots easier.&lt;/p>
-&lt;blockquote>
-&lt;p>Make sure to restart MO2 after changing the theme.&lt;/p>
-&lt;/blockquote>
-&lt;p>The &lt;strong>Colors&lt;/strong> section below affects the colors in which mods and separators will light up when highlighting them. I strongly suggest not tampering with them until you have a proper understanding of mod order and asset conflicts.&lt;/p>
-&lt;h3 id="settings-paths">Settings: Paths&lt;/h3>
-&lt;p>Since we set up MO2 as a portable instance, all file paths to the various directories are currently within the MO2 installation itself: &lt;code>/%BASE_DIR%/&lt;/code>, the base directory. We already discussed the potential size of the mods folder, which can easily exceed 50GB, but should nevertheless be located on a fast drive, ideally an SSD.&lt;/p>
-&lt;p>However, &lt;strong>the downloaded archives from which the mods are installed do NOT need to be on an SSD&lt;/strong>. They are only required for the initial installation and merely serve as backups afterwards.&lt;/p>
-&lt;p>Keeping the archives is nevertheless recommended as you may want to reinstall a mod later on to choose different options if they come with an installer, or simply to restore it to the vanilla state if you modified it. Hence, I recommend changing the &lt;strong>Downloads&lt;/strong> directory to a different drive. Pick the hard drive with the most amount of space; any HDD will do.*&lt;/p>
-&lt;p>&lt;font size="2">**It should be noted that keeping downloaded archives on a faster drive may speed up mod installation, including for Wabbajack list. Nevertheless, SSD / NVME space is precious and I personally prefer to use it for more mods or other games.*&lt;/font>&lt;/p>
-&lt;div class="alert alert-warning" role="alert">
-This is a recommendation, not a requirement. Manage your disk space as you see fit.
-&lt;/div>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/mo2-setup/mo2-downloads-folder.png" alt="Downloads Folder">&lt;/p>
-&lt;h2 id="new-profile">New Profile&lt;/h2>
-&lt;p>One of MO2&amp;rsquo;s many lovely features is the ability to create an indefinite amount of self-contained &lt;strong>profiles&lt;/strong>.&lt;/p>
-&lt;p>Every profile has its own:&lt;/p>
-&lt;ul>
-&lt;li>Load order&lt;/li>
-&lt;li>Mod Order&lt;/li>
-&lt;li>Saves (optional)&lt;/li>
-&lt;li>INI Files (optional)&lt;/li>
-&lt;/ul>
-&lt;h3 id="create-new-profile">Create New Profile&lt;/h3>
-&lt;p>Open the MO2 profiles settings by clicking the ID card icon in the &lt;strong>Toolbar&lt;/strong>.&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/mo2-profiles-settings.png" alt="MO2 Profiles Settings">&lt;/p>
-&lt;p>Click the &lt;strong>Create&lt;/strong> button and enter a name for your profile.&lt;/p>
-&lt;p>I recommend naming your profile after the central mod or theme of the modlist you intend to build, like &lt;strong>Legacy of the Dragonborn&lt;/strong>, &lt;strong>SimonRim&lt;/strong>, or &lt;strong>Survival&lt;/strong>. There is also nothing stopping you from simply calling it &lt;strong>Modded&lt;/strong> as opposed to the unmodded &lt;strong>Default&lt;/strong> profile.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/optimising-sle-assets/cao-extract-bsa.png" alt="CAO Extract BSA">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/optimising-sle-assets/cao-optimise-meshes.png" alt="CAO Optimise Meshes">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/optimising-sle-assets/cao-optimise-textures.png" alt="CAO Optimise Textures">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/optimising-sle-assets/cao-optimise-animations.png" alt="CAO Optimise Animations">&lt;/p>
+&lt;h3 id="usage">Usage&lt;/h3>
+&lt;p>You can run any Skyrim LE mod containing meshes, textures, &lt;u>or&lt;/u> animation files through CAO using this profile.&lt;/p>
+&lt;p>If the assets are still packed in a BSA, they will be extracted and the archive deleted as it would crash Skyrim SE otherwise. You can use the CAO &lt;a href="https://thephoenixflavour.com/bg/tool-setup/cao/#create-bsa-profile">Create BSA profile&lt;/a> to repack the assets after processing if you so wish.&lt;/p>
+&lt;p>Should a mesh still have issues after processing (causing crashes or visual bugs), try using a higher level of optimisation.&lt;/p></description></item><item><title>Bg: Porting SLE Plugins</title><link>https://thephoenixflavour.com/bg/additional-modules/porting-sle-plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/porting-sle-plugins/</guid><description>
 &lt;div class="alert alert-info" role="alert">
-If you are following the &lt;strong>Core Module&lt;/strong>, you can name it that.
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers how to use the Creation Kit and SSEEdit for porting plugins.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/creation-kit/">Creation Kit&lt;/a>, &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sseedit/">SSEEdit&lt;/a>&lt;/p>
+&lt;/blockquote>
 &lt;/div>
-&lt;p>Whether you check the &lt;strong>Default Game INI Settings&lt;/strong> is really up to you. I recommend leaving the option enabled and running BethINI later on to modify your INIs.&lt;/p>
-&lt;ul>
-&lt;li>Click &lt;strong>OK&lt;/strong> to create your new profile.&lt;/li>
-&lt;li>I recommend enabling the &lt;strong>Use profile-specific Save Games&lt;/strong> option at the bottom (while having your new profile selected).&lt;/li>
-&lt;li>Click &lt;strong>Select&lt;/strong> to quickly switch to your new profile.&lt;/li>
-&lt;/ul>
-&lt;h2 id="interface-adjustments">Interface Adjustments&lt;/h2>
-&lt;p>Below are my personal adjustments to the Mod Organizer 2 interface. Take them as suggestions (or ignore them).&lt;/p>
-&lt;div class="alert alert-warning" role="alert">
-If you are following the &lt;strong>Core Module&lt;/strong> please do copy at least my changes to the categories displayed in the left pane.
+&lt;h2 id="form-version">Form Version&lt;/h2>
+&lt;p>All plugins that were created for Skyrim LE should at least be resaved in the Skyrim SE Creation Kit.&lt;/p>
+&lt;p>In Skyrim SE, some records in the vanilla game files have the new &lt;strong>form version 44&lt;/strong> as opposed to the previous &lt;strong>form version 43&lt;/strong> and it has been discovered that the form version of user-made SLE plugins changes from 43 to 44 when resaving them in the Creation Kit. If this is not done, the plugin &lt;u>may&lt;/u> cause issues when loaded in Skyrim SE (including save game corruption and apparently crashes).&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Form version 43 in SSE plugins are not always problematic. Refer to this &lt;a href="https://davidjcobb.github.io/skyrim-writings/articles/form-versions-43-and-44.html">excellent article&lt;/a> by DavidJCobb if you are interested in learning about the difference between form versions and when it matters.
 &lt;/div>
-&lt;h3 id="the-right-pane">The Right Pane&lt;/h3>
-&lt;p>The &lt;em>right pane&lt;/em> of Mod Organizer 2 features a number of tabs, none of which require much space to properly display. I typically reduce it take up about a fourth of the entire interface, dragging around the columns in the &lt;strong>Plugins&lt;/strong> tab so that all options are comfortably displayed without wasting too much space on the &lt;strong>Mod Index&lt;/strong> column.&lt;/p>
-&lt;h3 id="the-left-pane">The Left Pane&lt;/h3>
-&lt;p>The &lt;em>left pane&lt;/em> of Mod Organizer 2 displays the &lt;strong>mod order&lt;/strong>.&lt;/p>
-&lt;p>Clicking on the sorting columns above the mod order, you will see a number of options.&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/adjust-mo2-columns.png" alt="MO Columns">&lt;/p>
+&lt;h3 id="mo2-warning">MO2 Warning&lt;/h3>
+&lt;p>Mod Organizer 2 will detect plugins with Form Version 43 when they are present in the load order. Again, this does not necessarily mean that the plugin contains corrupted data, but it should be resaved to be safe.&lt;/p>
+&lt;p>Using xEdit scripts to check for wrong form versions in your load order is unnecessary given the MO2 warning.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/porting-sle-plugins/mo2-form-43-warning.png" alt="MO2 Warning">&lt;/p>
+&lt;h3 id="sseedit-plugin-header">SSEEdit Plugin Header&lt;/h3>
+&lt;p>You can see a plugin&amp;rsquo;s form version in the &lt;strong>Plugin Header&lt;/strong> in SSEEdit:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/porting-sle-plugins/form-version-43.png" alt="Wrong Form Version">&lt;/p>
+&lt;h3 id="resaving-plugins">Resaving Plugins&lt;/h3>
+&lt;p>Converting a plugin is as easy as opening and saving it in the SSE Creation Kit. This should be done with &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20061">SSE Creation Kit Fixes&lt;/a> installed as the CK still misses some forms that require conversion.&lt;/p>
 &lt;ul>
-&lt;li>✔️&lt;strong>Conflicts:&lt;/strong> Displays little icons to show overwrites.&lt;/li>
-&lt;li>✔️&lt;strong>Flags:&lt;/strong> Not necessary, but recommended. Shows if notes are appended to a mod.*&lt;/li>
-&lt;li>✔️&lt;strong>Content:&lt;/strong> Very helpful because it shows you which types of assets are contained in a mod.&lt;/li>
-&lt;li>❌&lt;strong>Category:&lt;/strong> Uses Nexus categories by default. Separators are better for sorting.**&lt;/li>
-&lt;li>❌&lt;strong>Nexus ID:&lt;/strong> The ID of the respective mod (which is the combination of numbers at the end of its URL).&lt;/li>
-&lt;li>✔️&lt;strong>Source Game:&lt;/strong> Useful when mixing Skyrim LE and Skyrim SE mods which is not very common anymore.&lt;/li>
-&lt;li>✔️&lt;strong>Version:&lt;/strong> Helpful for tracking updates.&lt;/li>
-&lt;li>❌&lt;strong>Installation:&lt;/strong> Displays the date of installation. Not sure what you would need this for.&lt;/li>
-&lt;li>✔️&lt;strong>Priority:&lt;/strong> Shows the position in the mod order. Does not hurt to leave on.&lt;/li>
-&lt;li>✔️&lt;strong>Notes:&lt;/strong> See short notes at a glance. (AKA my favourite thing about MO2.)&lt;/li>
+&lt;li>Run the &lt;strong>Creation Kit&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Click the little folder icon in the toolbar to open a plugin.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;font size=2>**There are also flags to remind you of endorsing mods and to show the tracking status. The tracking feature never worked properly for me and the only mods I have not endorsed are my own, so I typically disable both &lt;strong>Endorsement Integration&lt;/strong> and &lt;strong>Tracking Integration&lt;/strong> in the MO2 settings (Nexus tab). Disable these features or leave them active, it is up to you.*&lt;/font>&lt;/p>
-&lt;p>&lt;font size=2>***You can also create a set of custom categories (instructions forthcoming).*&lt;/font>&lt;/p>
-&lt;h3 id="my-mo2-layout">My MO2 Layout&lt;/h3>
-&lt;p>After some re-arranging of columns and ratios, this is what my MO2 instance (on a 1080p monitor) looks like:&lt;/p>
-&lt;p>(&lt;a href="https://thephoenixflavour.com/Pictures/bg/additional-modules/mo2-my-layout.png">Click here to view the picture in full size.&lt;/a>)&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/mo2-my-layout.png" alt="My Layout">&lt;/p>
-&lt;hr>
-&lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-1bgcore-modulestep1ui-overview">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step1/#ui-overview">Step 1&lt;/a>.&lt;/h4></description></item><item><title>Bg: References</title><link>https://thephoenixflavour.com/bg/additional-modules/persistent-temporary-refs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/persistent-temporary-refs/</guid><description>
-&lt;p>Test&lt;/p></description></item><item><title>Bg: Root Builder</title><link>https://thephoenixflavour.com/bg/additional-modules/root-builder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/root-builder/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/porting-sle-plugins/ck-open-plugin.png" alt="CK Open Plugin">&lt;/p>
+&lt;p>You can only ever load one active plugin in the Creation Kit. If you have multiple SLE plugins, resave them one at a time.&lt;/p>
+&lt;ul>
+&lt;li>Select the plugin you wish to resave and click &lt;strong>Set as Active File&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> to load the plugin.&lt;/li>
+&lt;/ul>
+&lt;p>This will load the plugin and its masters. Wait until the CK says &amp;ldquo;done&amp;rdquo;.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/porting-sle-plugins/ck-done-loading.png" alt="CK Done">&lt;/p>
+&lt;ul>
+&lt;li>Click the &lt;a href="https://thephoenixflavour.com/Pictures/bg/additional-modules/porting-sle-plugins/ck-save-plugin.png">Save icon&lt;/a> in the toolbar.&lt;/li>
+&lt;li>Close the Creation Kit.&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-success" role="alert">
+And that&amp;rsquo;s it! The plugin has been resaved successfully.
+&lt;/div>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/porting-sle-plugins/form-version-44.png" alt="Correct Form Version">&lt;/p>
+&lt;h2 id="water-flow">Water Flow&lt;/h2>
+&lt;h2 id="landscape">Landscape&lt;/h2></description></item><item><title>Bg: Root Builder</title><link>https://thephoenixflavour.com/bg/additional-modules/root-builder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/root-builder/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
 &lt;p>This module covers the purpose and installation of the Root Builder plugin for MO2.&lt;p>
-&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/additional-modules/mo2-setup">MO2 Setup&lt;/a>&lt;/p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/mo2/">Mod Organizer 2&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;/div>
 &lt;h2 id="about-root-builder">About Root Builder&lt;/h2>
@@ -371,7 +336,7 @@ To quickly access the &lt;strong>plugins&lt;/strong> folder, you can click &lt;a
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
 &lt;p>This module covers the Skyrim Script Extender, including the importance of Skyrim versions as well as the installation of SKSE with Root Builder and of related mods.&lt;p>
-&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/additional-modules/mo2-setup">MO2 Setup&lt;/a>, &lt;a href="https://thephoenixflavour.com/bg/additional-modules/root-builder/">Root Builder&lt;/a>&lt;/p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/mo2/">Mod Organizer 2&lt;/a>, &lt;a href="https://thephoenixflavour.com/bg/additional-modules/root-builder/">Root Builder&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;/div>
 &lt;h2 id="the-skyrim-script-extender">The Skyrim Script Extender&lt;/h2>
@@ -578,74 +543,7 @@ Always start the game by running the Script Extender through Mod Organizer 2.
 &lt;/div>
 &lt;div class="alert alert-warning" role="alert">
 If your version of Skyrim SE does not correspond to the version specified above, you need to &lt;a href="https://thephoenixflavour.com/bg/additional-modules/downgrade-skyrim">downgrade&lt;/a>.
-&lt;/div></description></item><item><title>Bg: SSEEdit Setup</title><link>https://thephoenixflavour.com/bg/additional-modules/sseedit-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/sseedit-setup/</guid><description>
-&lt;div class="alert alert-info" role="alert">
-&lt;h4 class="alert-heading">Summary&lt;/h4>
-&lt;blockquote>
-&lt;p>This module covers the installation of SSEEdit for Mod Organizer 2.&lt;p>
-&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/additional-modules/mo2-setup/">MO2 Setup&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;/div>
-&lt;h2 id="about-sseedit">About SSEEdit&lt;/h2>
-&lt;p>xEdit is a tool for viewing and modifying Bethesda plugins.&lt;/p>
-&lt;p>Versions of it exist for most Bethesda games, not only Skyrim SE, and its name changes depending on the game: For example, xEdit for Skyrim SE is known as &lt;strong>SSEEdit&lt;/strong> while xEdit for Skyrim LE was called &lt;strong>TES5Edit&lt;/strong> and &lt;strong>FO4Edit&lt;/strong> is used in Fallout 4 modding.&lt;/p>
-&lt;p>Once you have installed the programme, you can use it for any game that is supported by either changing the name of the executable, or starting it with a specific argument such as &lt;code>-sse&lt;/code> for Skyrim SE.&lt;/p>
-&lt;div class="alert alert-info" role="alert">
-You will see the tool referred to as SSEEdit or xEdit interchangeably. Both mean the same thing.
-&lt;/div>
-&lt;h2 id="installation">Installation&lt;/h2>
-&lt;p>SSEEdit is hosted on the Nexus:&lt;/p>
-&lt;ul>
-&lt;li>Download the latest version of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/164">SSEEdit&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;h3 id="installation-directory">Installation Directory&lt;/h3>
-&lt;div class="alert alert-warning" role="alert">
-The instructions below are &lt;em>mostly&lt;/em> intended for those following the Core Module.
-&lt;/div>
-&lt;p>I recommend keeping all your modding tools in one &lt;strong>Tools&lt;/strong> folder&lt;/p>
-&lt;p>When it comes to picking an installation directory for tools, you can either create a folder inside the MO2 directory, i.e., &lt;code>\Mod Organizer 2\Tools\&lt;/code>, or in a different location &lt;u>on the same drive&lt;/u>.&lt;/p>
-&lt;div class="alert alert-info" role="alert">
-While tool authors often warn against running tools from within the MO2 directory, Wabbajack list authors have done just that for years with no issues that I am aware of. If you want to be on the safe side, pick a directory outside of your MO2 installation.
-&lt;/div>
-&lt;ul>
-&lt;li>Create a &lt;strong>Tools&lt;/strong> folder &lt;u>on the same drive&lt;/u> as your Mod Organizer 2 installation.&lt;/li>
-&lt;li>Inside your &lt;strong>Tools&lt;/strong> folder, create a &lt;strong>SSEEdit&lt;/strong> folder*.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;font size=2>**I like to append the version number to my tool folders (SSEEdit 4.0.4) so I am better able to track which version of my tools I have installed.*&lt;/font>&lt;/p>
-&lt;h2 id="mo2-integration">MO2 Integration&lt;/h2>
-&lt;p>Plugins are data folder files which means &lt;strong>SSEEdit&lt;/strong> must be run through Mod Organizer 2 in order to access its virtual data folder.&lt;/p>
-&lt;ul>
-&lt;li>In Mod Organizer 2, click the &lt;a href="https://thephoenixflavour.com/Pictures/bg/mo2-executables-settings.png">gears icon&lt;/a> in the Toolbar to open the &lt;strong>Executables&lt;/strong> settings.&lt;/li>
-&lt;li>Click the small blue plus icon and select &lt;strong>Add from file&lt;/strong>.&lt;/li>
-&lt;li>Navigate to &lt;code>\Tools\SSEEdit\&lt;/code> and double-click &lt;strong>SSEEdit.exe&lt;/strong>.&lt;/li>
-&lt;li>Click &lt;strong>OK&lt;/strong> to add the executable to Mod Organizer 2.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/add-sseedit-to-mo2.png" alt="Add xEdit">&lt;/p>
-&lt;h3 id="toolbar">Toolbar&lt;/h3>
-&lt;p>SSEEdit should be automatically selected in the executables drop-down (if not, select it).&lt;/p>
-&lt;p>For maximum convenience, I recommend clicking the &lt;strong>Shortcut&lt;/strong> drop-down below the &lt;strong>Run&lt;/strong> button and selecting &lt;strong>Toolbar and Menu&lt;/strong>.&lt;/p>
-&lt;div class="alert alert-info" role="alert">
-Click the SSEEdit icon in the Toolbar has the same effect as selecting it from the executables drop-down and clicking &lt;strong>Run&lt;/strong>, except it is obviously faster. I recommend doing this for every tool.
-&lt;/div>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/mo2-xedit-shortcut.png" alt="Shortcut">&lt;/p>
-&lt;h2 id="sseedit-ref-cache">SSEEdit Ref Cache&lt;/h2>
-&lt;p>When loading up your plugins in SSEEdit, the tool will spend a considerable amount of time processing all records. To cut down on the loading time, SSEEdit creates a &lt;strong>ref cache&lt;/strong> (caching reference records for each plugin) which reduces the startup time from several minutes to twenty seconds or less.&lt;/p>
-&lt;p>I recommend saving the cache files into the &lt;strong>SSEEdit&lt;/strong> folder.&lt;/p>
-&lt;ul>
-&lt;li>In Mod Organizer 2, click the &lt;a href="https://thephoenixflavour.com/Pictures/bg/mo2-executables-settings.png">gears icon&lt;/a> in the Toolbar to open the &lt;strong>Executables&lt;/strong> settings.&lt;/li>
-&lt;li>Select &lt;strong>SSEEdit&lt;/strong> in the list of executables.&lt;/li>
-&lt;li>Under &lt;strong>Arguments&lt;/strong> add the &lt;code>-c:&amp;quot;filepath&amp;quot;&lt;/code> argument along with the file path.&lt;/li>
-&lt;/ul>
-&lt;p>Your file path will, of course, depend on where you installed SSEEdit. It must end in a &lt;code>\cache\&lt;/code> folder. This folder does not have to exist, it will be created by SSEEdit upon generating the first cache files. &lt;u>The file path must end on a trailing backslash.&lt;/u>&lt;/p>
-&lt;p>For me, the argument looks like this:&lt;/p>
-&lt;pre>&lt;code>-c:&amp;quot;G:\Modding Tools\SSEEdit\cache\&amp;quot;
-&lt;/code>&lt;/pre>&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/sseedit-refcache-argument.png" alt="xEdit Refcache">&lt;/p>
-&lt;h3 id="generating-ref-cache">Generating Ref Cache&lt;/h3>
-&lt;p>Launch SSEEdit through Mod Organizer 2 and click &lt;strong>OK&lt;/strong> in the &lt;strong>Plugin Selection Window&lt;/strong> to load all your currently installed plugins. This will take a moment as SSEEdit builds the cache files.&lt;/p>
-&lt;p>You can quit once the log at the bottom returns &lt;code>Background loader: finished&lt;/code> or once you are prompted to activate ModGroups.&lt;/p>
-&lt;p>Check your &lt;code>\Tools\SSEEdit\cache\&lt;/code> folder to make sure the files were saved to the correct location.&lt;/p>
-&lt;hr>
-&lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-3bgcore-modulestep3">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step3">Step 3&lt;/a>.&lt;/h4></description></item><item><title>Bg: Update Proofing</title><link>https://thephoenixflavour.com/bg/additional-modules/update-proofing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/update-proofing/</guid><description>
+&lt;/div></description></item><item><title>Bg: Update Proofing</title><link>https://thephoenixflavour.com/bg/additional-modules/update-proofing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/update-proofing/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>

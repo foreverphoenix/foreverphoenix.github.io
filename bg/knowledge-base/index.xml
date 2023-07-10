@@ -18,7 +18,61 @@
 &lt;p>Files that exceed 250MB in size are manually verified. Occasionally, VirusTotal will detect &lt;em>false positives&lt;/em> which usually happens with tools (see Mod Organizer 2) in which case the file is also manually verified.&lt;/p>
 &lt;h2 id="mod-organizer-2">Mod Organizer 2&lt;/h2>
 &lt;p>Mod Organizer 2 has been known to set off Antivirus software, usually due to the way that the UVFS is implemented. At times, it may still be flagged by one of the AVs used by VirusTotal in which case it will be manually verified by the Nexus that it is safe to use.&lt;/p>
-&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/mo2-virus-total.png" alt="MO2 Virus Total">&lt;/p></description></item><item><title>Bg: Skyrim Versions</title><link>https://thephoenixflavour.com/bg/knowledge-base/skyrim-versions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/skyrim-versions/</guid><description>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/mo2-virus-total.png" alt="MO2 Virus Total">&lt;/p></description></item><item><title>Bg: Phoenix on LOOT</title><link>https://thephoenixflavour.com/bg/knowledge-base/phoenix-on-loot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/phoenix-on-loot/</guid><description>
+&lt;h2 id="preface">Preface&lt;/h2>
+&lt;p>This section covers &lt;u>my personal opinion&lt;/u> on the tool LOOT. The short version is that I think the tool is severely misunderstood by a significant part of the community, especially newcomers. You need to take its limitations into account if you want to use it.&lt;/p>
+&lt;p>In order to understand what I am talking about a basic understanding of load order, plugins, and conflicts is required.&lt;/p>
+&lt;h2 id="loot-and-load-order">LOOT and Load Order&lt;/h2>
+&lt;p>So, here is the thing.&lt;/p>
+&lt;p>&lt;strong>Figuring out the ideal load order is hard, actually.&lt;/strong> It is time-consuming, especially for large load orders: For example, TPF has well over 1,000 plugins, and it is far from the biggest setup out there. I spend a lot of time, hours upon hours, in SSEEdit, looking at conflicts to figure out which are harmless, which can be resolved through load order adjustments, and which require patches.&lt;/p>
+&lt;p>It is thus unsurprising that efforts have been made to automate this process. The tool BOSS was made for sorting plugins in the Oblivion modding days; it has since been superseded by LOOT.&lt;/p>
+&lt;p>Drawing on a user-created masterlist, LOOT attempts to sort your plugins in a way that minimises conflicts. This is inherently imperfect as it would be impossible to create a database accounting for every single mod and possible conflict.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+LOOT is capable of one thing: Solving load order conflicts &lt;u>if&lt;/u> the conflict in question is on the masterlist. LOOT cannot create patches or even discover conflicts by itself.
+&lt;/div>
+&lt;p>That does not mean LOOT is bad, period.&lt;/p>
+&lt;p>&lt;strong>What is bad is the widespread notion that modding = installing mods &amp;raquo; running LOOT &amp;raquo; playing the game.&lt;/strong>&lt;/p>
+&lt;p>You can observe the result of this idea every day on the Skyrim modding subreddit, in Nexus comments, on various Discord servers. It is unfortunately reinforced by many mod authors who recommend running LOOT on their mod pages without clarifying that simply running LOOT does not a functional modded setup make. Plenty of &amp;ldquo;modding guides&amp;rdquo; further perpetuate this idea.&lt;/p>
+&lt;p>👏 &lt;strong>LOOT will not fix your load order.&lt;/strong> 👏&lt;/p>
+&lt;p>That being said, LOOT &lt;u>can&lt;/u> speed up the process of fixing your load order by improving your baseline. Some of the most talented mod authors and list curators I know are using LOOT with a multitude of custom rules to manage their load order and consider this the most efficient way.&lt;/p>
+&lt;p>&lt;font size=2>*I do want to stress that LOOT was never &lt;u>marketed&lt;/u> as this magical fix-all solution. It is the community hivemind that has portrayed it as such.*&lt;/font>&lt;/p></description></item><item><title>Bg: Porting SLE Mods</title><link>https://thephoenixflavour.com/bg/knowledge-base/porting-sle-mods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/porting-sle-mods/</guid><description>
+&lt;h2 id="differences-by-file-type">Differences by File Type&lt;/h2>
+&lt;p>Not all mods made for Skyrim LE will work out-of-the-box in Skyrim SE. A fair amount of them will need porting.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+A mod being available on the Skyrim SE Nexus does not automatically mean it was ported properly (or at all).
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;strong>Plugins:&lt;/strong> Must always be ported using the CK. Occasionally require manual updates.&lt;/li>
+&lt;li>&lt;strong>Archives:&lt;/strong> Must always be unpacked or they will crash the game. Can be repacked afterwards.&lt;/li>
+&lt;li>&lt;strong>SKSE Plugins:&lt;/strong> Must always be ported for the newest version of SKSE.&lt;/li>
+&lt;li>&lt;strong>Meshes:&lt;/strong> Should be processed with SSE NIF Optimizer / Cathedral Assets Optimizer (though not always necessary).&lt;/li>
+&lt;li>&lt;strong>Textures:&lt;/strong> Some older formats must be changed to avoid crashes. Compression recommended.&lt;/li>
+&lt;li>&lt;strong>Animations:&lt;/strong> Should be processed with Cathedral Assets Optimizer.&lt;/li>
+&lt;li>&lt;strong>Scripts:&lt;/strong> No porting steps required.&lt;/li>
+&lt;/ul>
+&lt;h3 id="plugins">Plugins&lt;/h3>
+&lt;p>Plugins created for Skyrim LE must always be ported. This requires the &lt;a href="https://thephoenixflavour.com/bg/tool-setup/creation-kit/">Creation Kit&lt;/a> and sometimes &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sseedit/">SSEEdit&lt;/a> for additional steps.&lt;/p>
+&lt;p>Check the &lt;a href="https://thephoenixflavour.com/bg/additional-modules/porting-sle-plugins/">Porting SLE Plugins&lt;/a> page for instructions.&lt;/p>
+&lt;h3 id="archives">Archives&lt;/h3>
+&lt;p>Archives (BSAs) created for Skyrim LE must always be extracted. They will otherwise crash Skyrim SE on launch.&lt;/p>
+&lt;p>Please consult the article on &lt;a href="https://thephoenixflavour.com/bg/additional-modules/extracting-bsas/">Extracting BSAs&lt;/a> for instructions.&lt;/p>
+&lt;h3 id="textures">Textures&lt;/h3>
+&lt;p>Textures created for Skyrim LE sometimes need to be compressed or changed to a different format for Skyrim SE.&lt;/p>
+&lt;p>Since Skyrim SE, the engine supports the &lt;strong>BC7 compression format&lt;/strong> which combines the small file size of a compressed texture while retaining nearly the same quality as an uncompressed texture of an older format. Textures for Skyrim LE were sometimes left uncompressed for better visual quality, but should be compressed to BC7 for use in Skyrim SE.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+Only &lt;u>uncompressed&lt;/u> textures can be compressed to BC7. If a texture is already formatted as a DXT5/BC3, recompressing it to BC7 will not improve the quality or save any more space.
+&lt;/div>
+&lt;p>Textures can be processed with CAO for optimisation. Instructions can be found &lt;a href="https://thephoenixflavour.com/bg/additional-modules/optimising-sle-assets/">here&lt;/a>.&lt;/p>
+&lt;h3 id="meshes">Meshes&lt;/h3>
+&lt;p>Meshes created for Skyrim LE often need to be optimised for Skyrim SE. They may crash the game or cause visual issues otherwise.&lt;/p>
+&lt;p>You can use either &lt;a href="https://thephoenixflavour.com/bg/tool-setup/cao/">Cathedral Assets Optimizer&lt;/a> or &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sse-nif-optimizer/">SSE NIF Optimizer&lt;/a> for optimising meshes. CAO includes NIFOpt though the latter still has some useful additional options that cannot be accessed through CAO (e.g., more detailed logs and removal of parallax).&lt;/p>
+&lt;p>Instructions for processing with CAO can be found &lt;a href="https://thephoenixflavour.com/bg/additional-modules/optimising-sle-assets/">here&lt;/a>.&lt;/p>
+&lt;h3 id="animations">Animations&lt;/h3>
+&lt;p>Animations created for Skyrim LE need to be optimised for Skyrim SE.&lt;/p>
+&lt;p>Animations can be processed with CAO for optimisation. Instructions can be found &lt;a href="https://thephoenixflavour.com/bg/additional-modules/optimising-sle-assets/">here&lt;/a>.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+You cannot port FNIS animations this way, only vanilla replacers.
+&lt;/div></description></item><item><title>Bg: Skyrim Versions</title><link>https://thephoenixflavour.com/bg/knowledge-base/skyrim-versions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/skyrim-versions/</guid><description>
 &lt;p>Skyrim has been updated and re-released many times on many platforms since its initial launch in 2011. Significant differences exists between the available versions which affect modding.&lt;/p>
 &lt;h2 id="skyrim-le--skyrim-se">Skyrim LE / Skyrim SE&lt;/h2>
 &lt;p>There are two &amp;lsquo;main&amp;rsquo; versions of Skyrim:&lt;/p>
