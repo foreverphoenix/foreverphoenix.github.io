@@ -287,7 +287,7 @@ A missing master is always a &lt;strong>critical issue&lt;/strong> and must be f
 &lt;div class="alert alert-info" role="alert">
 SSEEdit does not replace the Creation Kit, nor does the Creation Kit replace SSEEdit. The tool to use always depends on the type of plugin you are working on and what you are trying to do. For example, for the vast majority of tweaks, edits, and patches, SSEEdit is the way to go because it is very good at visualising conflicts and interactions.
 &lt;/div>
-&lt;p>Please refer to the &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sseedit/">SSEEdit Setup&lt;/a> module for installation instructions.&lt;/p>
+&lt;p>Set up a &lt;a href="https://thephoenixflavour.com/bg/tool-setup/tools-folder/">Tools Folder&lt;/a> and install &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sseedit/">SSEEdit&lt;/a>.&lt;/p>
 &lt;h2 id="the-unwanted-effects-book">The Unwanted Effects Book&lt;/h2>
 &lt;p>Equipped with SSEEdit and an example mod, we can now take a look at a practical example demonstrating how plugins are structured.&lt;/p>
 &lt;p>Enter the &lt;strong>Unwanted Effects Book&lt;/strong>.&lt;/p>

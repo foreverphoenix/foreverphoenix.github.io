@@ -1,4 +1,75 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Knowledge Base</title><link>https://thephoenixflavour.com/bg/knowledge-base/</link><description>Recent content in Knowledge Base on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/bg/knowledge-base/index.xml" rel="self" type="application/rss+xml"/><item><title>Bg: Creation Club</title><link>https://thephoenixflavour.com/bg/knowledge-base/creation-club/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/creation-club/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Knowledge Base</title><link>https://thephoenixflavour.com/bg/knowledge-base/</link><description>Recent content in Knowledge Base on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/bg/knowledge-base/index.xml" rel="self" type="application/rss+xml"/><item><title>Bg: Building a setup</title><link>https://thephoenixflavour.com/bg/knowledge-base/building-a-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/building-a-setup/</guid><description>
+&lt;h2 id="preface">Preface&lt;/h2>
+&lt;p>On this page I am detailing my process when building a new modded setup. This is more intended as a general guideline rather than a set of hard-and-fast rules and how you approach building a setup can (should!) depend heavily on what you specifically intend to create. That being said, I hope this can serve as a blueprint in case you are unsure how to proceed.&lt;/p>
+&lt;h2 id="initial-setup">Initial Setup&lt;/h2>
+&lt;p>A new setup always begins with a good amount of spring-cleaning and basic steps.&lt;/p>
+&lt;p>Use this time to think about mods and themes for the setup you want to build: Are you going for heavily overhauled visuals with tough survival gameplay? Are you interested in EnaiRim extravaganza with Legacy of the Dragonborn? Are you looking to try every quest mod on the Nexus? You still have plenty of time to make up your mind.&lt;/p>
+&lt;ol>
+&lt;li>Perform a &lt;a href="https://thephoenixflavour.com/bg/additional-modules/clean-install/">Clean Install&lt;/a> of Skyrim SE.&lt;/li>
+&lt;li>Set up a new instance of &lt;a href="https://thephoenixflavour.com/bg/tool-setup/mo2/">Mod Organizer 2&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/bg/additional-modules/managing-creations/">Import your Creations&lt;/a> into Mod Organizer 2.
+&lt;ul>
+&lt;li>&lt;em>If you are on the fence about Creations, read the section below.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Optional:&lt;/strong> Install &lt;a href="https://thephoenixflavour.com/bg/additional-modules/root-builder/">Root Builder&lt;/a> for Mod Organizer 2.
+&lt;ul>
+&lt;li>&lt;em>Root Builder is required for various modules/articles available here and I highly recommend installing it.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Install the &lt;a href="https://thephoenixflavour.com/bg/additional-modules/skyrim-script-extender/">Skyrim Script Extender&lt;/a> and related mods.&lt;/li>
+&lt;li>Set up a &lt;a href="https://thephoenixflavour.com/bg/tool-setup/tools-folder/">Tools Folder&lt;/a> and install necessary tools (see section below).&lt;/li>
+&lt;/ol>
+&lt;h3 id="creation-club">Creation Club&lt;/h3>
+&lt;p>At this point everyone owns at least the four free Creations (Fishing, Survival, Rare Curios, Saints &amp;amp; Seducers), though not everyone picked up the remaining Creations or the full Anniversary Edition DLC.&lt;/p>
+&lt;p>Forgoing the AE DLC should not negatively impact your modding experience but skipping the four free Creations is difficult as nn increasing amount of mods, including the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/266">Unofficial Skyrim Special Edition Patch&lt;/a>, now require them. Skipping the USSEP significantly complicates matters simply because it is in turn required by a vast amount of mods.&lt;/p>
+&lt;p>Even if you are completely opposed to using the four free Creations, I recommend installing them. Survival Mode can be easily neutralised by &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/59049">disabling the prompt&lt;/a> and the mediocre Saints &amp;amp; Seducers quest can be completely replaced with &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72772">a full remake&lt;/a>. Finally, the Fishing quests can be removed by installing the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/80379">reduced cut&lt;/a>. This may be a good compromise between removing poor quality Creation content from your game while still being able to keep the plugins as master files to dependent mods like the USSEP.&lt;/p>
+&lt;h3 id="tools">Tools&lt;/h3>
+&lt;p>The only tool that everyone should install before touching mods is &lt;a href="https://thephoenixflavour.com/bg/tool-setup/">SSEEdit&lt;/a>. Yes, you need it, no matter what. Most other tools are situational and can be installed later on when they are needed.&lt;/p>
+&lt;p>For now, I would recommend setting up at least the following:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://thephoenixflavour.com/bg/tool-setup/">SSEEdit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/bg/tool-setup/creation-kit/">Creation Kit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/bg/tool-setup/cao/">Cathedral Assets Optimizer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/bg/tool-setup/bae/">Bethesda Archive Extractor&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="basic-mods">Basic Mods&lt;/h2>
+&lt;p>If, at this point, you are still uncertain about central mods and themes for your new setup, there is no need to worry as there is more baseline work to be. What is considered an &amp;ldquo;essential&amp;rdquo; mods is actually more subjective and controversial than one might assume which is why I largely give recommendations.&lt;/p>
+&lt;ul>
+&lt;li>Recommendations: &lt;a href="https://thephoenixflavour.com/bg/recommended-mods/utilities-frameworks">Utilities &amp;amp; Frameworks&lt;/a>&lt;/li>
+&lt;li>Recommendations: &lt;a href="https://thephoenixflavour.com/bg/recommended-mods/essential-mods">Essential Mods&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>As you begin to build up your mod order, try to keep it nice and clean by making heavy use of &lt;strong>separators&lt;/strong>. If you do not have a system of your own for sorting mods, you can use &lt;a href="https://thephoenixflavour.com/bg/recommended-mods/separators/">mine&lt;/a> for inspiration.&lt;/p>
+&lt;h2 id="standard-procedure">Standard Procedure&lt;/h2>
+&lt;p>In case it needs to be said:&lt;/p>
+&lt;ul>
+&lt;li>Read (or at least skim) the mod page for every mod you install. &lt;u>Check the Requirements tab.&lt;/u>&lt;/li>
+&lt;li>Check the comment section for pinned comments and read some of the newest comments.&lt;/li>
+&lt;li>Check the bugs section.&lt;/li>
+&lt;/ul>
+&lt;p>Every time you add a new mod &lt;strong>determine if the mod does what you want it to do in a way that is sensible.&lt;/strong> You should have checked through &lt;u>every single mod&lt;/u> you install eventually. Look at the plugins in SSEEdit and the assets in Mod Organizer 2. Manage conflicts when they appear.&lt;/p>
+&lt;h3 id="plugin-management">Plugin Management&lt;/h3>
+&lt;p>There is no exact rule on often you should hop into SSEEdit, but doing it every ten or so plugins can be helpful.&lt;/p>
+&lt;p>When you discover conflicts or potential consistency issues, remember to check the Nexus (including patch collections) for pre-existing patches. If none exists to solve your problem, you can either create it yourself, remove one of the mods, or ignore the problem if it is minor enough.&lt;/p>
+&lt;p>I highly recommend creating &lt;strong>small patches&lt;/strong> and &lt;strong>ModGroups&lt;/strong> as you work through your load order.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+It is also possible to install the majority of your mods first before really diving into SSEEdit, sorting out your current list of plugins by adjusting the load order and creating patches, before adding to it more slowly. Do whatever works best for you.
+&lt;/div>
+&lt;h3 id="asset-management">Asset Management&lt;/h3>
+&lt;h3 id="ingame-testing">Ingame Testing&lt;/h3>
+&lt;p>Ingame testing is never sufficient to build a modded setup. You &lt;u>cannot&lt;/u> avoid SSEEdit.&lt;/p>
+&lt;p>That being said, I highly recommend the occasional &lt;code>coc riverwood&lt;/code> to ensure that the game properly launches - if not, you should have a limited amount of possible culprits if you do it often enough which may speed up the troubleshooting process.&lt;/p>
+&lt;p>Ingame testing is crucial for building the visual overhaul of a setup. You will want to spend a good amount of time running around Skyrim to see if you like your current combination of mods.&lt;/p>
+&lt;p>Otherwise, I recommend ingame testing as one of the last steps in building your setup, long after you have worked through SSEEdit. There are many issues that you will never notice in SSEEdit - mostly related to clipping objects or inconsistencies between mods - that you can best see in the actual game.&lt;/p>
+&lt;h2 id="visual-baseline">Visual Baseline&lt;/h2>
+&lt;p>If you care at all about visuals, I recommend creating a nice baseline before moving on to the core of your list. Your combination of weather + lighting overhauls with ENB or Community Shaders will determine the overhaul atmosphere and style of the visuals.&lt;/p>
+&lt;p>The first decisions you will have to make are:&lt;/p>
+&lt;ul>
+&lt;li>Decide if you want parallax / complex materials.&lt;/li>
+&lt;li>Decide if you want to use ENB or Community Shaders.&lt;/li>
+&lt;/ul>
+&lt;h3 id="ini-configuration">INI Configuration&lt;/h3>
+&lt;h2 id="central-theme">Central Theme&lt;/h2></description></item><item><title>Bg: Creation Club</title><link>https://thephoenixflavour.com/bg/knowledge-base/creation-club/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/creation-club/</guid><description>
 &lt;p>&lt;em>Wow, such empty.&lt;/em>&lt;/p></description></item><item><title>Bg: Mod Managers</title><link>https://thephoenixflavour.com/bg/knowledge-base/mod-managers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/mod-managers/</guid><description>
 &lt;h2 id="mod-organizer-2">Mod Organizer 2&lt;/h2>
 &lt;p>&lt;strong>Mod Organizer 2 (MO2)&lt;/strong> is the only mod manager supported by this guide. You are expected to use it when following the instructions.&lt;/p>

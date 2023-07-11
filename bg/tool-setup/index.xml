@@ -1,9 +1,38 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Tool Setup</title><link>https://thephoenixflavour.com/bg/tool-setup/</link><description>Recent content in Tool Setup on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/bg/tool-setup/index.xml" rel="self" type="application/rss+xml"/><item><title>Bg: Bethesda Archive Extractor</title><link>https://thephoenixflavour.com/bg/tool-setup/bae/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/bae/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Tool Setup</title><link>https://thephoenixflavour.com/bg/tool-setup/</link><description>Recent content in Tool Setup on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/bg/tool-setup/index.xml" rel="self" type="application/rss+xml"/><item><title>Bg: Tools Folder</title><link>https://thephoenixflavour.com/bg/tool-setup/tools-folder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/tools-folder/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers choosing a folder for modding tools.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> None&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="creating-a-tools-folder">Creating a Tools folder&lt;/h2>
+&lt;p>I recommend keeping all your modding tools in one &lt;strong>Tools&lt;/strong> folder.&lt;/p>
+&lt;p>When it comes to picking an installation directory for tools, there are two choices:&lt;/p>
+&lt;ol>
+&lt;li>Inside the MO2 directory: &lt;code>\Mod Organizer 2\Tools\&lt;/code>.&lt;/li>
+&lt;li>Inside a new high-level folder: &lt;code>Drive:\Tools\&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>The Tools folder must be &lt;u>on the same drive&lt;/u> as Mod Organizer 2.&lt;/p>
+&lt;div class="alert alert-success" role="alert">
+Create a Tools folder in a location of your choice before going through other Tool Setup modules.
+&lt;/div>
+&lt;h3 id="inside-mo2">Inside MO2&lt;/h3>
+&lt;p>While tool authors often warn against running tools from within the MO2 directory, Wabbajack list authors have done just that for years with no issues that I am aware of.&lt;/p>
+&lt;p>That being said, keeping tools within your MO2 instance is mostly useful if you want to include them in a Wabbajack list.&lt;/p>
+&lt;h3 id="outside-mo2">Outside MO2&lt;/h3>
+&lt;p>I recommend using a centralised, shared folder for every setup that is not supposed to become a Wabbajack list. Advantages include the ability to share tools between setups and even games (Skyrim SE and Fallout 4 share many tools) and easier updating.&lt;/p>
+&lt;h2 id="version-numbers">Version Numbers&lt;/h2>
+&lt;p>When adding to your Tools folder, I recommend including the version number in the name of the folder to better be able to keep track of which versions you installed. This does require you to update the folder name in the MO2 executable settings after updating a tool, but that becomes routine quickly enough.&lt;/p>
+&lt;p>Below, you can see my shared Tools folder:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/tool-setup/my-tools-folder.png" alt="My Tools Folder">&lt;/p>
+&lt;hr>
+&lt;h4 id="if-you-are-currently-working-through-the-core-module-continue-with-sseeditbgtool-setupsseedit">If you are currently working through the Core Module, continue with &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sseedit/">SSEEdit&lt;/a>.&lt;/h4></description></item><item><title>Bg: Bethesda Archive Extractor</title><link>https://thephoenixflavour.com/bg/tool-setup/bae/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/bae/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
 &lt;p>This module covers the installation of Bethesda Archive Extractor.&lt;p>
-&lt;strong>Prerequisite(s):&lt;/strong> None&lt;/p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/tools-folder/">Tools Folder&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;/div>
 &lt;h2 id="about-bethesda-archive-extractor">About Bethesda Archive Extractor&lt;/h2>
@@ -32,7 +61,7 @@
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
 &lt;p>This module covers the installation of Cathedral Assets Optimizer and setting up a profile to create BSAs.&lt;p>
-&lt;strong>Prerequisite(s):&lt;/strong> None&lt;/p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/tools-folder/">Tools Folder&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;/div>
 &lt;h2 id="about-cathedral-assets-optimizer">About Cathedral Assets Optimizer&lt;/h2>
@@ -41,7 +70,7 @@
 &lt;p>While CAO is meant to modify mods, it should target separate modding folders as opposed to being run on an entire setup. Do not try to launch it through Mod Organizer 2.&lt;/p>
 &lt;ul>
 &lt;li>Download the latest stable version from the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23316?tab=files">Nexus page&lt;/a>.&lt;/li>
-&lt;li>Create a folder called &lt;strong>Cathedral Assets Optimizer&lt;/strong> in your &lt;strong>Modding Tools&lt;/strong> directory.&lt;/li>
+&lt;li>Create a folder called &lt;strong>Cathedral Assets Optimizer&lt;/strong> in your &lt;strong>Tools&lt;/strong> folder.&lt;/li>
 &lt;li>Extract the downloaded archive into the new folder.&lt;/li>
 &lt;/ul>
 &lt;p>For quick access, I recommend &lt;strong>pinning&lt;/strong> the executable to your taskbar.&lt;/p>
@@ -76,7 +105,28 @@ If memory serves, Skyrim LE BSAs were limited to 2GB while Fallout 4 BSAs can be
 &lt;/div>
 &lt;h3 id="other-tabs">Other Tabs&lt;/h3>
 &lt;p>I recommend leaving everything &lt;u>disabled&lt;/u> in the other three tabs.&lt;/p>
-&lt;p>This is because I find it to be generally easier to do one &lt;em>thing&lt;/em> at a time. Check through one mod at a time, run it through Octagon if you find that its textures are missing mipmaps, then run it through CAO to pack it into a BSA if necessary. Being very deliberate about how you modify files and going step-by-step can help avoid seemingly inexplicable issues down the line.&lt;/p></description></item><item><title>Bg: Creation Kit</title><link>https://thephoenixflavour.com/bg/tool-setup/creation-kit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/creation-kit/</guid><description>
+&lt;p>This is because I find it to be generally easier to do one &lt;em>thing&lt;/em> at a time. Check through one mod at a time, run it through Octagon if you find that its textures are missing mipmaps, then run it through CAO to pack it into a BSA if necessary. Being very deliberate about how you modify files and going step-by-step can help avoid seemingly inexplicable issues down the line.&lt;/p></description></item><item><title>Bg: Crash Log Tools</title><link>https://thephoenixflavour.com/bg/tool-setup/crash-log-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/crash-log-tools/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers the Mod Organizer 2 plugin Crash Log Tools.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/mo2/">Mod Organizer 2&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="about-crash-log-tools">About Crash Log Tools&lt;/h2>
+&lt;p>&lt;strong>Crash Log Tools&lt;/strong> is a plugin for Mod Organizer 2 which adds the ability to view crash logs generated by &lt;a href="https://thephoenixflavour.com/bg/recommended-mods/utilities-frameworks/#crash-logger">Crash Logger&lt;/a> directly through the MO2 UI. This is far more convenient than navigating manually to where the logs are saved under &lt;code>\Documents\My Games\Skyrim Special Edition\SKSE\&lt;/code>.&lt;/p>
+&lt;p>In addition, the plugin will attempt to label known addresses in crash logs which may help with tracking down the cause of a crash.&lt;/p>
+&lt;h3 id="installation">Installation&lt;/h3>
+&lt;p>Crash Log Tools is available on the Nexus.&lt;/p>
+&lt;ul>
+&lt;li>Download the latest version of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/66743?tab=files">Crash Log Tools&lt;/a>.&lt;/li>
+&lt;li>Use the &lt;a href="https://thephoenixflavour.com/Pictures/bg/mo2-plugins-folder-shortcut.png">shortcut&lt;/a> to open the MO2 Plugins folder.&lt;/li>
+&lt;li>&lt;strong>Close Mod Organizer 2.&lt;/strong>&lt;/li>
+&lt;li>Extract the downloaded archive into the &lt;strong>plugins&lt;/strong> folder.&lt;/li>
+&lt;li>Re-open Mod Organizer 2.&lt;/li>
+&lt;/ul>
+&lt;p>You should now be able to access &lt;strong>Crash Log Tools&lt;/strong> through the Toolbar:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/tool-setup/crash-log-tools/crash-log-tools-mo2.png" alt="Crash Log Tools">&lt;/p></description></item><item><title>Bg: Creation Kit</title><link>https://thephoenixflavour.com/bg/tool-setup/creation-kit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/creation-kit/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
@@ -376,7 +426,7 @@ If you are following the &lt;strong>Core Module&lt;/strong> please do copy at le
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
 &lt;p>This module covers the installation of SSE NIF Optimizer.&lt;p>
-&lt;strong>Prerequisite(s):&lt;/strong> None&lt;/p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/tools-folder/">Tools Folder&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;/div>
 &lt;h2 id="about-sse-nif-optimizer">About SSE NIF Optimizer&lt;/h2>
@@ -391,7 +441,7 @@ If you are following the &lt;strong>Core Module&lt;/strong> please do copy at le
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
 &lt;p>This module covers the installation of SSEEdit for Mod Organizer 2.&lt;p>
-&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/mo2/">Mod Organizer 2&lt;/a>&lt;/p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/mo2/">Mod Organizer 2&lt;/a>, &lt;a href="https://thephoenixflavour.com/bg/tool-setup/tools-folder/">Tools Folder&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;/div>
 &lt;h2 id="about-sseedit">About SSEEdit&lt;/h2>
@@ -405,21 +455,9 @@ You will see the tool referred to as SSEEdit or xEdit interchangeably. Both mean
 &lt;p>SSEEdit is hosted on the Nexus:&lt;/p>
 &lt;ul>
 &lt;li>Download the latest version of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/164">SSEEdit&lt;/a>.&lt;/li>
+&lt;li>Create a folder called &lt;strong>SSEEdit&lt;/strong> in your &lt;strong>Tools&lt;/strong> folder.&lt;/li>
+&lt;li>Extract the downloaded archive into the new folder.&lt;/li>
 &lt;/ul>
-&lt;h3 id="installation-directory">Installation Directory&lt;/h3>
-&lt;div class="alert alert-warning" role="alert">
-The instructions below are &lt;em>mostly&lt;/em> intended for those following the Core Module.
-&lt;/div>
-&lt;p>I recommend keeping all your modding tools in one &lt;strong>Tools&lt;/strong> folder&lt;/p>
-&lt;p>When it comes to picking an installation directory for tools, you can either create a folder inside the MO2 directory, i.e., &lt;code>\Mod Organizer 2\Tools\&lt;/code>, or in a different location &lt;u>on the same drive&lt;/u>.&lt;/p>
-&lt;div class="alert alert-info" role="alert">
-While tool authors often warn against running tools from within the MO2 directory, Wabbajack list authors have done just that for years with no issues that I am aware of. If you want to be on the safe side, pick a directory outside of your MO2 installation.
-&lt;/div>
-&lt;ul>
-&lt;li>Create a &lt;strong>Tools&lt;/strong> folder &lt;u>on the same drive&lt;/u> as your Mod Organizer 2 installation.&lt;/li>
-&lt;li>Inside your &lt;strong>Tools&lt;/strong> folder, create a &lt;strong>SSEEdit&lt;/strong> folder*.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;font size=2>**I like to append the version number to my tool folders (SSEEdit 4.0.4) so I am better able to track which version of my tools I have installed.*&lt;/font>&lt;/p>
 &lt;h2 id="mo2-integration">MO2 Integration&lt;/h2>
 &lt;p>Plugins are data folder files which means &lt;strong>SSEEdit&lt;/strong> must be run through Mod Organizer 2 in order to access its virtual data folder.&lt;/p>
 &lt;ul>
@@ -460,12 +498,12 @@ Please skip this if you are currently following the Core Module.
 &lt;pre>&lt;code>-IKnowWhatImDoing
 &lt;/code>&lt;/pre>&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/tool-setup/sseedit/disable-warning-window.png" alt="Disable Warning Window">&lt;/p>
 &lt;hr>
-&lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-3bgcore-modulestep3">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step3">Step 3&lt;/a>.&lt;/h4></description></item><item><title>Bg: Synthesis</title><link>https://thephoenixflavour.com/bg/tool-setup/synthesis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/synthesis/</guid><description>
+&lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-3bgcore-modulestep3the-unwanted-effects-book">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step3/#the-unwanted-effects-book">Step 3&lt;/a>.&lt;/h4></description></item><item><title>Bg: Synthesis</title><link>https://thephoenixflavour.com/bg/tool-setup/synthesis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/synthesis/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
 &lt;p>This module covers the installation of Synthesis.&lt;p>
-&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/mo2/">Mod Organizer 2&lt;/a>&lt;/p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/mo2/">Mod Organizer 2&lt;/a>, &lt;a href="https://thephoenixflavour.com/bg/tool-setup/tools-folder/">Tools Folder&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;/div>
 &lt;h2 id="about-synthesis">About Synthesis&lt;/h2>
