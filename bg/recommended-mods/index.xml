@@ -298,6 +298,11 @@ Borderless=true
 &lt;p>I also recommend using SSE Display Tweaks to set your resolution. A widescreen resolution is possible though you will need to install patches for UI mods.&lt;/p>
 &lt;p>Add the following line to your custom INI in the [Render] section and fill in your monitor resolution (1920x1080, 2560x1440, etc):&lt;/p>
 &lt;pre>&lt;code>Resolution=
+&lt;/code>&lt;/pre>&lt;h4 id="downscaling">Downscaling&lt;/h4>
+&lt;p>Skyrim does not scale well at higher resolutions and a quick performance boost can be gained by downscaling the game to a resolution lower than the monitor&amp;rsquo;s native resolution. This does noticeably impact visual fidelty, however.&lt;/p>
+&lt;p>You can read more about monitor resolutions and performance &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/resolution/">here&lt;/a>.&lt;/p>
+&lt;p>To downscale set your desired resolution (see above) and add the following line:&lt;/p>
+&lt;pre>&lt;code>BorderlessUpscale=true
 &lt;/code>&lt;/pre>&lt;h4 id="framerate-cap">Framerate Cap&lt;/h4>
 &lt;p>As noted earlier, you can safely increase the framerate limit beyond 60FPS with SSE Display Tweaks installed. By default, the limit is 240FPS. You should, however, be aware that achieving a framerate above 100FPS with a decently modded game requires very good hardware, especially on resolutions above 1080p.&lt;/p>
 &lt;p>I personally cap at 60FPS regardless as that is enough for me. A good compromise could be 72FPS or 90FPS.&lt;/p>

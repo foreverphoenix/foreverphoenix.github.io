@@ -56,7 +56,27 @@ Create a Tools folder in a location of your choice before going through other To
 &lt;p>This will immediately open whichever BSA you picked in BAE. As you can see, there is a filtering option and you have the ability to browse and unpack files. See &lt;a href="https://thephoenixflavour.com/bg/additional-modules/extracting-bsas/#via-bethesda-archive-extractor">Extracting BSAs&lt;/a> for more information.&lt;/p>
 &lt;div class="alert alert-info" role="alert">
 &lt;strong>Tip:&lt;/strong> Double-clicking a BSA in Mod Organizer 2 will open MO2&amp;rsquo;s own preview window which also has a filtering option and useful information about compression. However, if you right-click the BSA and select &lt;strong>Open&lt;/strong>, it will use the default app (BAE) instead.
-&lt;/div></description></item><item><title>Bg: Cathedral Assets Optimizer</title><link>https://thephoenixflavour.com/bg/tool-setup/cao/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/cao/</guid><description>
+&lt;/div></description></item><item><title>Bg: BethINI</title><link>https://thephoenixflavour.com/bg/tool-setup/bethini/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/bethini/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers the installation of BethINI.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/tools-folder/">Tools Folder&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="about-bethini">About BethINI&lt;/h2>
+&lt;p>BethINI is a tool for modifying the vanilla INI files: Skyrim.ini, SkyrimPrefs.ini, and (optionally) SkyrimCustom.ini. Its optimised settings are based on extensive testing by DoubleYouC, a member of the STEP team.&lt;/p>
+&lt;p>The tool can be used for Oblivion and Fallout (NV/3/4) in addition to Skyrim (LE/SE).&lt;/p>
+&lt;h3 id="installation">Installation&lt;/h3>
+&lt;p>BethINI is available on the Nexus. Do not try to run it through Mod Organizer 2.&lt;/p>
+&lt;ul>
+&lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/4875">BethINI&lt;/a> from its Nexus page.&lt;/li>
+&lt;li>Create a folder called &lt;strong>BethINI&lt;/strong> in your &lt;strong>Modding Tools&lt;/strong> directory.&lt;/li>
+&lt;li>Extract the downloaded archive into the new folder.&lt;/li>
+&lt;/ul>
+&lt;p>Always remember to &lt;u>close&lt;/u> Mod Organizer 2 before running BethINI.&lt;/p>
+&lt;h3 id="configuration">Configuration&lt;/h3>
+&lt;p>Please consult the &lt;a href="https://thephoenixflavour.com/bg/additional-modules/ini-config/">INI Files&lt;/a> page for more information and instructions.&lt;/p></description></item><item><title>Bg: Cathedral Assets Optimizer</title><link>https://thephoenixflavour.com/bg/tool-setup/cao/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/cao/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>

@@ -1,76 +1,54 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Knowledge Base</title><link>https://thephoenixflavour.com/bg/knowledge-base/</link><description>Recent content in Knowledge Base on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/bg/knowledge-base/index.xml" rel="self" type="application/rss+xml"/><item><title>Bg: Building a setup</title><link>https://thephoenixflavour.com/bg/knowledge-base/building-a-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/building-a-setup/</guid><description>
-&lt;h2 id="preface">Preface&lt;/h2>
-&lt;p>On this page I am detailing my process when building a new modded setup. This is more intended as a general guideline rather than a set of hard-and-fast rules and how you approach building a setup can (should!) depend heavily on what you specifically intend to create. That being said, I hope this can serve as a blueprint in case you are unsure how to proceed.&lt;/p>
-&lt;h2 id="initial-setup">Initial Setup&lt;/h2>
-&lt;p>A new setup always begins with a good amount of spring-cleaning and basic steps.&lt;/p>
-&lt;p>Use this time to think about mods and themes for the setup you want to build: Are you going for heavily overhauled visuals with tough survival gameplay? Are you interested in EnaiRim extravaganza with Legacy of the Dragonborn? Are you looking to try every quest mod on the Nexus? You still have plenty of time to make up your mind.&lt;/p>
-&lt;ol>
-&lt;li>Perform a &lt;a href="https://thephoenixflavour.com/bg/additional-modules/clean-install/">Clean Install&lt;/a> of Skyrim SE.&lt;/li>
-&lt;li>Set up a new instance of &lt;a href="https://thephoenixflavour.com/bg/tool-setup/mo2/">Mod Organizer 2&lt;/a>.&lt;/li>
-&lt;li>&lt;a href="https://thephoenixflavour.com/bg/additional-modules/managing-creations/">Import your Creations&lt;/a> into Mod Organizer 2.
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Knowledge Base</title><link>https://thephoenixflavour.com/bg/knowledge-base/</link><description>Recent content in Knowledge Base on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/bg/knowledge-base/index.xml" rel="self" type="application/rss+xml"/><item><title>Bg: Creation Club</title><link>https://thephoenixflavour.com/bg/knowledge-base/creation-club/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/creation-club/</guid><description>
+&lt;p>&lt;em>Wow, such empty.&lt;/em>&lt;/p></description></item><item><title>Bg: INI Files</title><link>https://thephoenixflavour.com/bg/knowledge-base/ini-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/ini-files/</guid><description>
+&lt;h2 id="vanilla-ini-files">Vanilla INI Files&lt;/h2>
+&lt;p>Various settings for Skyrim can be configured in a set of INI files:&lt;/p>
 &lt;ul>
-&lt;li>&lt;em>If you are on the fence about Creations, read the section below.&lt;/em>&lt;/li>
+&lt;li>Skyrim.ini&lt;/li>
+&lt;li>SkyrimPrefs.ini&lt;/li>
 &lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Optional:&lt;/strong> Install &lt;a href="https://thephoenixflavour.com/bg/additional-modules/root-builder/">Root Builder&lt;/a> for Mod Organizer 2.
-&lt;ul>
-&lt;li>&lt;em>Root Builder is required for various modules/articles available here and I highly recommend installing it.&lt;/em>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Install the &lt;a href="https://thephoenixflavour.com/bg/additional-modules/skyrim-script-extender/">Skyrim Script Extender&lt;/a> and related mods.&lt;/li>
-&lt;li>Set up a &lt;a href="https://thephoenixflavour.com/bg/tool-setup/tools-folder/">Tools Folder&lt;/a> and install necessary tools (see section below).&lt;/li>
-&lt;/ol>
-&lt;h3 id="creation-club">Creation Club&lt;/h3>
-&lt;p>At this point everyone owns at least the four free Creations (Fishing, Survival, Rare Curios, Saints &amp;amp; Seducers), though not everyone picked up the remaining Creations or the full Anniversary Edition DLC.&lt;/p>
-&lt;p>Forgoing the AE DLC should not negatively impact your modding experience but skipping the four free Creations is difficult as nn increasing amount of mods, including the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/266">Unofficial Skyrim Special Edition Patch&lt;/a>, now require them. Skipping the USSEP significantly complicates matters simply because it is in turn required by a vast amount of mods.&lt;/p>
-&lt;p>Even if you are completely opposed to using the four free Creations, I recommend installing them. Survival Mode can be easily neutralised by &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/59049">disabling the prompt&lt;/a> and the mediocre Saints &amp;amp; Seducers quest can be completely replaced with &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72772">a full remake&lt;/a>. Finally, the Fishing quests can be removed by installing the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/80379">reduced cut&lt;/a>. This may be a good compromise between removing poor quality Creation content from your game while still being able to keep the plugins as master files to dependent mods like the USSEP.&lt;/p>
-&lt;h3 id="tools">Tools&lt;/h3>
-&lt;p>The only tool that everyone should install before touching mods is &lt;a href="https://thephoenixflavour.com/bg/tool-setup/">SSEEdit&lt;/a>. Yes, you need it, no matter what. Most other tools are situational and can be installed later on when they are needed.&lt;/p>
-&lt;p>For now, I would recommend setting up at least the following:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://thephoenixflavour.com/bg/tool-setup/">SSEEdit&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://thephoenixflavour.com/bg/tool-setup/creation-kit/">Creation Kit&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://thephoenixflavour.com/bg/tool-setup/cao/">Cathedral Assets Optimizer&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://thephoenixflavour.com/bg/tool-setup/bae/">Bethesda Archive Extractor&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="basic-mods">Basic Mods&lt;/h2>
-&lt;p>If, at this point, you are still uncertain about central mods and themes for your new setup, there is no need to worry as there is more baseline work to be. What is considered an &amp;ldquo;essential&amp;rdquo; mods is actually more subjective and controversial than one might assume which is why I largely give recommendations.&lt;/p>
-&lt;ul>
-&lt;li>Recommendations: &lt;a href="https://thephoenixflavour.com/bg/recommended-mods/utilities-frameworks">Utilities &amp;amp; Frameworks&lt;/a>&lt;/li>
-&lt;li>Recommendations: &lt;a href="https://thephoenixflavour.com/bg/recommended-mods/essential-mods">Essential Mods&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>As you begin to build up your mod order, try to keep it nice and clean by making heavy use of &lt;strong>separators&lt;/strong>. If you do not have a system of your own for sorting mods, you can use &lt;a href="https://thephoenixflavour.com/bg/recommended-mods/separators/">mine&lt;/a> for inspiration.&lt;/p>
-&lt;h2 id="standard-procedure">Standard Procedure&lt;/h2>
-&lt;p>In case it needs to be said:&lt;/p>
-&lt;ul>
-&lt;li>Read (or at least skim) the mod page for every mod you install. &lt;u>Check the Requirements tab.&lt;/u>&lt;/li>
-&lt;li>Check the comment section for pinned comments and read some of the newest comments.&lt;/li>
-&lt;li>Check the bugs section.&lt;/li>
-&lt;/ul>
-&lt;p>Every time you add a new mod &lt;strong>determine if the mod does what you want it to do in a way that is sensible.&lt;/strong> You should have checked through &lt;u>every single mod&lt;/u> you install eventually. Look at the plugins in SSEEdit and the assets in Mod Organizer 2. Manage conflicts when they appear.&lt;/p>
-&lt;h3 id="plugin-management">Plugin Management&lt;/h3>
-&lt;p>There is no exact rule on often you should hop into SSEEdit, but doing it every ten or so plugins can be helpful.&lt;/p>
-&lt;p>When you discover conflicts or potential consistency issues, remember to check the Nexus (including patch collections) for pre-existing patches. If none exists to solve your problem, you can either create it yourself, remove one of the mods, or ignore the problem if it is minor enough.&lt;/p>
-&lt;p>I highly recommend creating &lt;strong>small patches&lt;/strong> and &lt;strong>ModGroups&lt;/strong> as you work through your load order.&lt;/p>
+&lt;p>Both can be found in the &lt;code>\Documents\My Games\Skyrim Special Edition\&lt;/code> folder.&lt;/p>
+&lt;p>These INI files were regenerated during the &lt;a href="https://thephoenixflavour.com/bg/additional-modules/clean-install/">Clean Install&lt;/a> and a performance preset (low, medium, high, etc) was applied when opening the launcher for the first time.&lt;/p>
+&lt;p>There is also a &lt;code>SkyrimCustom.ini&lt;/code> which does not exist in vanilla but can be created in the same directory to overwrite the other two INIs.&lt;/p>
 &lt;div class="alert alert-info" role="alert">
-It is also possible to install the majority of your mods first before really diving into SSEEdit, sorting out your current list of plugins by adjusting the load order and creating patches, before adding to it more slowly. Do whatever works best for you.
+You can restore the set of vanilla INIs in the Documents folder by deleting them and launching the game through Steam. In the Launcher, you will be informed that the game will configure your settings (applying a preset) after which you can quit.
 &lt;/div>
-&lt;h3 id="asset-management">Asset Management&lt;/h3>
-&lt;h3 id="ingame-testing">Ingame Testing&lt;/h3>
-&lt;p>Ingame testing is never sufficient to build a modded setup. You &lt;u>cannot&lt;/u> avoid SSEEdit.&lt;/p>
-&lt;p>That being said, I highly recommend the occasional &lt;code>coc riverwood&lt;/code> to ensure that the game properly launches - if not, you should have a limited amount of possible culprits if you do it often enough which may speed up the troubleshooting process.&lt;/p>
-&lt;p>Ingame testing is crucial for building the visual overhaul of a setup. You will want to spend a good amount of time running around Skyrim to see if you like your current combination of mods.&lt;/p>
-&lt;p>Otherwise, I recommend ingame testing as one of the last steps in building your setup, long after you have worked through SSEEdit. There are many issues that you will never notice in SSEEdit - mostly related to clipping objects or inconsistencies between mods - that you can best see in the actual game.&lt;/p>
-&lt;h2 id="visual-baseline">Visual Baseline&lt;/h2>
-&lt;p>If you care at all about visuals, I recommend creating a nice baseline before moving on to the core of your list. Your combination of weather + lighting overhauls with ENB or Community Shaders will determine the overhaul atmosphere and style of the visuals.&lt;/p>
-&lt;p>The first decisions you will have to make are:&lt;/p>
+&lt;h3 id="valid-settings">Valid Settings&lt;/h3>
+&lt;p>Not all settings are valid in all INI files.&lt;/p>
 &lt;ul>
-&lt;li>Decide if you want parallax / complex materials.&lt;/li>
-&lt;li>Decide if you want to use ENB or Community Shaders.&lt;/li>
+&lt;li>&lt;strong>Skyrim.ini&lt;/strong> can modify all settings valid in the game &lt;u>except&lt;/u> those specific to the Launcher.&lt;/li>
+&lt;li>&lt;strong>SkyrimCustom.ini&lt;/strong> can modify all settings valid in the game &lt;u>except&lt;/u> those specific to the Launcher.&lt;/li>
+&lt;li>&lt;strong>SkyrimPrefs.ini&lt;/strong> can modify a limited range of settings (&lt;a href="https://stepmodifications.org/wiki/SkyrimSE:SkyrimPrefs_INI">documented here&lt;/a>).&lt;/li>
 &lt;/ul>
-&lt;h3 id="ini-configuration">INI Configuration&lt;/h3>
-&lt;h2 id="central-theme">Central Theme&lt;/h2></description></item><item><title>Bg: Creation Club</title><link>https://thephoenixflavour.com/bg/knowledge-base/creation-club/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/creation-club/</guid><description>
-&lt;p>&lt;em>Wow, such empty.&lt;/em>&lt;/p></description></item><item><title>Bg: Mod Managers</title><link>https://thephoenixflavour.com/bg/knowledge-base/mod-managers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/mod-managers/</guid><description>
+&lt;p>The catch is that duplicate INI settings are overwritten in the following order:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>SkyrimPrefs.ini&lt;/strong> &amp;raquo; &lt;strong>SkyrimCustom.ini&lt;/strong> &amp;raquo; &lt;strong>Skyrim.ini&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-info" role="alert">
+For example, if &lt;strong>bFXAAEnabled=&lt;/strong> is set to &lt;strong>1&lt;/strong> in the &lt;strong>Skyrim.ini&lt;/strong> and set to &lt;strong>0&lt;/strong> in the &lt;strong>SkyrimPrefs.ini&lt;/strong>, the latter will overwrite and FXAA will be off (0) ingame.
+&lt;/div>
+&lt;h3 id="plugin-inis">Plugin INIs&lt;/h3>
+&lt;p>INIs can also be attached to &lt;strong>plugins&lt;/strong> (ESP, ESL, ESM). Similar to BSAs, they are loaded if they have the same name as the plugin.&lt;/p>
+&lt;p>Any setting that is &lt;u>not valid&lt;/u> in the &lt;strong>SkyrimPrefs.ini&lt;/strong> can be added to a plugin INI.&lt;/p>
+&lt;p>Plugins that load INI files are displayed with a paper clip icon in the load order.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/ini-files/plugin-with-ini.png" alt="Plugin with INI">&lt;/p>
+&lt;h2 id="ini-files-and-mo2">INI Files and MO2&lt;/h2>
+&lt;h3 id="profile-specific-inis">Profile-Specific INIs&lt;/h3>
+&lt;p>Going forward, I recommend not bothering at all with the default set of INIs, nor with the Settings in the launcher through which some of their lines can be modified.&lt;/p>
+&lt;p>Instead, make use of your &lt;u>profile-specific INIs&lt;/u> in Mod Organizer 2. Each profile in a MO2 instance can hold a unique set of INIs that will replace the default ones when the game is started with that profile selected.&lt;/p>
+&lt;p>To enable profile-specific INI files, open the &lt;a href="https://thephoenixflavour.com/Pictures/bg/tool-setup/mo2/mo2-profiles-settings.png">profile settings&lt;/a> and ensure &lt;strong>Use profile-specific Game INI files&lt;/strong> is enabled. These INI files will be saved under &lt;code>\Mod Organizer 2\profiles\&amp;lt;your profile&amp;gt;\&lt;/code>.&lt;/p>
+&lt;p>&lt;a href="https://thephoenixflavour.com/bg/tool-setup/bethini/">BethINI&lt;/a> is able to target profile-specific INIs.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+When &lt;em>copying&lt;/em> a profile in Mod Organizer 2, the profile-specific INI files will also be copied.
+&lt;/div>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/ini-files/mo2-profile-specific-inis.png" alt="Profile Specific INIs">&lt;/p>
+&lt;h3 id="modifying-inis-through-mo2">Modifying INIs through MO2&lt;/h3>
+&lt;p>You can view and edit all INI files through the INI Editor in Mod Organizer 2. It will display the profile-specific set if that option is enabled, and the default set from the Documents folder if it is not.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+When modifying INIs through the INI Editor always remember to click the &lt;strong>Save&lt;/strong> button at the bottom.
+&lt;/div>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/mo2-open-ini-editor.png" alt="MO2 Open INI Editor">&lt;/p>
+&lt;h2 id="ini-configuration">INI Configuration&lt;/h2>
+&lt;p>I recommend customising the INI files using the tool &lt;strong>BethINI&lt;/strong>. You can find instructions &lt;a href="https://thephoenixflavour.com/bg/additional-modules/ini-config/">here&lt;/a>.&lt;/p></description></item><item><title>Bg: Mod Managers</title><link>https://thephoenixflavour.com/bg/knowledge-base/mod-managers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/mod-managers/</guid><description>
 &lt;h2 id="mod-organizer-2">Mod Organizer 2&lt;/h2>
 &lt;p>&lt;strong>Mod Organizer 2 (MO2)&lt;/strong> is the only mod manager supported by this guide. You are expected to use it when following the instructions.&lt;/p>
 &lt;h3 id="why-mo2">Why MO2?&lt;/h3>
@@ -143,6 +121,30 @@ Only &lt;u>uncompressed&lt;/u> textures can be compressed to BC7. If a texture i
 &lt;p>Animations can be processed with CAO for optimisation. Instructions can be found &lt;a href="https://thephoenixflavour.com/bg/additional-modules/optimising-sle-assets/">here&lt;/a>.&lt;/p>
 &lt;div class="alert alert-warning" role="alert">
 You cannot port FNIS animations this way, only vanilla replacers.
+&lt;/div></description></item><item><title>Bg: Resolution</title><link>https://thephoenixflavour.com/bg/knowledge-base/resolution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/resolution/</guid><description>
+&lt;h2 id="resolution">Resolution&lt;/h2>
+&lt;p>Monitors display images by rendering millions of tiny square pixels. Rendering more pixels increases image sharpness but requires more hardware power.&lt;/p>
+&lt;p>Pixels are arranged on most modern consumer monitors in a 16:9 ratio with other ratios, such as 16:10, 21:9, or 32:9, being quite rare. 5:4 and 4:3 ratios are essentially deprecated.&lt;/p>
+&lt;p>Common &lt;strong>16:9&lt;/strong> resolutions include 1920x1080, 2560x1440, and 3440x2160. They may be abbreviated as 1080p, 1440p, and 2160p, respectively.&lt;/p>
+&lt;p>Common &lt;strong>21:9&lt;/strong> or &lt;strong>widescreen&lt;/strong> resolutions include 2560x1080 and 3440x1440.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+The 3440x2160 pixels resolution is also commonly referred to as 4K which is currently the largest resolution used in gaming (with 8K still being very rare).
+&lt;/div>
+&lt;h3 id="performance">Performance&lt;/h3>
+&lt;p>Skyrim is known to scale badly at higher resolutions, especially when heavily modded. Running the game with overhauled graphics and an ENB preset at 1440p or higher resolutions requires high end hardware to run at a stable 60FPS.&lt;/p>
+&lt;p>An easy boost to performance at the cost of sharpness is gained by running the game at a resolution that is &lt;em>lower&lt;/em> than the monitor&amp;rsquo;s native resolution. For example, if performance is very low on a 2160p monitor, you can try downscaling to 1440p. This can be done with &lt;a href="https://thephoenixflavour.com/bg/recommended-mods/essential-mods/#sse-display-tweaks">SSE Display Tweaks&lt;/a>.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Downscaling will noticeably affect visual fidelity and other measures of performance optimisation should be taken first. When downscaling, you can counter the blurriness by using ENB or ReShade to add sharpening.
+&lt;/div>
+&lt;h3 id="interface">Interface&lt;/h3>
+&lt;p>The vanilla interface and nearly all interface mods are made for the standard 16:9 ratio and will be cut off or misaligned on monitors with other ratios.&lt;/p>
+&lt;p>The &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/1778">Complete Widescreen Fix&lt;/a> mod page offers patches for vanilla, SkyUI, and a variety of mods. Other interface mods may offer widescreen patches separately. These are largely for 21:9 monitors.&lt;/p>
+&lt;h3 id="textures">Textures&lt;/h3>
+&lt;p>There is a common misconception that 4K textures (with a resolution of 4096x4096 pixels) are unnecessary on non-4K monitors. &lt;strong>This is false.&lt;/strong>&lt;/p>
+&lt;p>If you view a 4096x4096 pixels &lt;em>flat image&lt;/em> on a 1440p screen you will indeed be unable to display all pixels at the same time. However, textures are not used as flat images in the game; they are wrapped around 3D objects called meshes.&lt;/p>
+&lt;p>Looking at a large mesh (like a part of a mountain) you only see a &lt;em>portion&lt;/em> of the texture that is applied to it. Depending on the size of the object and how closely you approach it, even a 4K texture can start to appear blurry on a 1080p monitor because you are zooming in on a very small part of it.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+4K textures on a 1080p or 1440p monitor are very much noticeable on large objects and not at all redundant.
 &lt;/div></description></item><item><title>Bg: Skyrim Versions</title><link>https://thephoenixflavour.com/bg/knowledge-base/skyrim-versions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/skyrim-versions/</guid><description>
 &lt;p>Skyrim has been updated and re-released many times on many platforms since its initial launch in 2011. Significant differences exists between the available versions which affect modding.&lt;/p>
 &lt;h2 id="skyrim-le--skyrim-se">Skyrim LE / Skyrim SE&lt;/h2>
