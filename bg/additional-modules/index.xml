@@ -107,7 +107,55 @@ If you got this far, everything appears to be running smoothly and you are ready
 &lt;/div>
 &lt;hr>
 &lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-1bgcore-modulestep1nexus-mods">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step1/#nexus-mods">Step 1&lt;/a>.&lt;/h4>
-&lt;h4 id="recommended-next-step-mo2-setupbgadditional-modulesmo2-setup">Recommended next step: &lt;a href="https://thephoenixflavour.com/bg/additional-modules/mo2-setup/">MO2 Setup&lt;/a>.&lt;/h4></description></item><item><title>Bg: Downgrade Skyrim</title><link>https://thephoenixflavour.com/bg/additional-modules/downgrade-skyrim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/downgrade-skyrim/</guid><description>
+&lt;h4 id="recommended-next-step-mo2-setupbgadditional-modulesmo2-setup">Recommended next step: &lt;a href="https://thephoenixflavour.com/bg/additional-modules/mo2-setup/">MO2 Setup&lt;/a>.&lt;/h4></description></item><item><title>Bg: Creating ESL Plugins</title><link>https://thephoenixflavour.com/bg/additional-modules/creating-esl-plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/creating-esl-plugins/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers how to flag plugins as ESL and compact Form IDs if necessary.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sseedit/">SSEEdit&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="about-esl-plugins">About ESL Plugins&lt;/h2>
+&lt;p>Before starting to ESL-ify plugins in your load order, I strongly suggest familiarising yourself with the format and when/how it should be used. Refer to the &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/plugin-basics/">Plugin Basics&lt;/a> and &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/esl-plugins/">ESL Plugins&lt;/a> articles.&lt;/p>
+&lt;h3 id="esl-checklist">ESL Checklist&lt;/h3>
+&lt;p>You can ESL-ify a plugin if:&lt;/p>
+&lt;ol>
+&lt;li>It contains fewer than 2048 new records (or none at all).&lt;/li>
+&lt;li>It contains new records, but the Form IDs only use the final three characters.&lt;/li>
+&lt;li>It does not contain new CELL records.&lt;/li>
+&lt;/ol>
+&lt;p>If a plugin contains new records and the Form IDs use more than the final three characters, they need to be &lt;strong>compacted&lt;/strong> first. Remember that compacting Form IDs will break all dependencies.&lt;/p>
+&lt;h2 id="esl-ifying">ESL-ifying&lt;/h2>
+&lt;p>You can apply the ESL flag to any ESP or ESM plugin in SSEEdit.&lt;/p>
+&lt;ul>
+&lt;li>Load your plugins into SSEEdit.&lt;/li>
+&lt;/ul>
+&lt;h3 id="form-ids">Form IDs&lt;/h3>
+&lt;p>First, you need to find out whether the plugin&amp;rsquo;s Form IDs are compatible with the ESL format.&lt;/p>
+&lt;ul>
+&lt;li>Right-click the plugin you wish to ESL-ify and select &lt;strong>Compact FormIDs for ESL&lt;/strong>.
+&lt;ul>
+&lt;li>&lt;em>This will trigger the general warning window if you did not disable it.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>If the plugin contains no new Form IDs or only Form IDs that only use the final three characters, SSEEdit will return that there was &lt;a href="https://thephoenixflavour.com/bg/additional-modules/creating-esl-plugins/sseedit-nothing-to-do.png">nothing to do&lt;/a>. The plugin can be safely ESL-ified.&lt;/p>
+&lt;p>If the plugin contains new Form IDs that need to be reformatted (compacted), &lt;a href="https://thephoenixflavour.com/bg/additional-modules/creating-esl-plugins/sseedit-renumber-formids.png">SSEEdit will notify you&lt;/a> about the amount of records that need their Form IDs renumbered and that this will break dependencies. If you are certain that there are no dependencies or that all dependencies are currently active and loaded, go ahead and click &lt;strong>Yes&lt;/strong> to continue.&lt;/p>
+&lt;h3 id="esl-flag">ESL Flag&lt;/h3>
+&lt;p>After compacting Form IDs or ensuring that there are no incompatible Form IDs, you can add the ESL flag.&lt;/p>
+&lt;ul>
+&lt;li>Select the plugin you wish to ESL-ify to open the &lt;strong>File Header&lt;/strong> in the right pane.&lt;/li>
+&lt;li>Right-click the empty space next to &lt;strong>Record Flags&lt;/strong> and select &lt;strong>Edit&lt;/strong>.&lt;/li>
+&lt;li>Check &lt;strong>ESL&lt;/strong> in the window that pops up and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Close SSEEdit and save your change(s).&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/esl-flag-plugin.png" alt="ESL Flagging">&lt;/p>
+&lt;h2 id="full-esl">Full ESL&lt;/h2>
+&lt;p>Adding the ESL flag to an ESP will create an ESP-FE hybrid that loads in ESP space but does not count toward the 256 ESM/ESP plugin limit. If you want to move the plugin into ESM space, you need to rename its file extension from &lt;strong>.ESP&lt;/strong> to &lt;strong>.ESL&lt;/strong>. This will create a full ESL.&lt;/p>
+&lt;p>If the plugin overwrites &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/references">references&lt;/a>, you &lt;u>must&lt;/u> also add the &lt;strong>ESM&lt;/strong> flag in SSEEdit to ensure that the list of Overriden Forms is populated and the plugin works as intended. I would generally recommend ESM-flagging full ESLs as they are all meant to load in ESM space and there is no downside to doing this.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Read more about &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/references/#overriden-forms-onam">Overriden Forms&lt;/a>.
+&lt;/div></description></item><item><title>Bg: Downgrade Skyrim</title><link>https://thephoenixflavour.com/bg/additional-modules/downgrade-skyrim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/downgrade-skyrim/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
@@ -185,7 +233,38 @@ You can also extract the BSA to a different location or a new mod folder if you 
 &lt;div class="alert alert-info" role="alert">
 &lt;strong>Delete Backups:&lt;/strong> CAO will usually create backups of the extracted BSAs in the same folder. If you want to recover the BSAs it is usually easier to reinstall the mod through Mod Organizer 2 which is why I recommend setting CAO to delete the backups.
 &lt;/div>
-&lt;p>To extract a BSA using CAO, click &lt;strong>Open Directory&lt;/strong> and navigate to the location of the BSA. Click &lt;strong>Select Folder&lt;/strong>. CAO will extract the assets from &lt;u>all BSAs within that folder&lt;/u> into the same folder.&lt;/p></description></item><item><title>Bg: INI Configuration</title><link>https://thephoenixflavour.com/bg/additional-modules/ini-config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/ini-config/</guid><description>
+&lt;p>To extract a BSA using CAO, click &lt;strong>Open Directory&lt;/strong> and navigate to the location of the BSA. Click &lt;strong>Select Folder&lt;/strong>. CAO will extract the assets from &lt;u>all BSAs within that folder&lt;/u> into the same folder.&lt;/p></description></item><item><title>Bg: Filter for Conflicts</title><link>https://thephoenixflavour.com/bg/additional-modules/filter-for-conflicts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/filter-for-conflicts/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers how to create and apply a filter for conflicts in SSEEdit.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sseedit/">SSEEdit&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="sseedit-filter">SSEEdit Filter&lt;/h2>
+&lt;p>SSEEdit has an indepth, customisable filter system with the ability to save settings as presets. A &lt;em>filter for conflicts&lt;/em> can be extremely helpful for &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/conflict-management/">Conflict Management&lt;/a>.&lt;/p>
+&lt;h3 id="conflict-resolution-filter">Conflict Resolution Filter&lt;/h3>
+&lt;p>Conflicts can be identified by applying a filter in SSEEdit.&lt;/p>
+&lt;ul>
+&lt;li>Load up your plugins in SSEEdit.&lt;/li>
+&lt;li>Right-click anywhere in the left pane and select &lt;strong>Apply Filter&lt;/strong>.&lt;/li>
+&lt;li>Click the &lt;strong>Add&lt;/strong> button at the top to create a new filter.&lt;/li>
+&lt;li>Name it &lt;strong>Conflict Resolution&lt;/strong> and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>Your new filter will be selected automatically. Check the following options:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/cr-filter.png" alt="CR Filter">&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+The two options near the top will visualise conflicts which makes finding them infinitely easier. Flattening CELL records helps with viewing the Cell and Worldspace categories without having to click through blocks and sub-blocks.
+&lt;/div>
+&lt;ul>
+&lt;li>Click the &lt;strong>Save&lt;/strong> button at the top to save the new preset.&lt;/li>
+&lt;li>Click the &lt;strong>Filter&lt;/strong> button at the bottom to apply it.&lt;/li>
+&lt;/ul>
+&lt;p>This may take several minutes. You can proceed once the log returns &lt;code>Done: Applying Filter&lt;/code>.&lt;/p>
+&lt;p>If you wish to remove the filter, right-click in the left pane and select &lt;strong>Remove Filter&lt;/strong>.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+The next time you wish to filter for conflicts, right-click in the left pane, select &lt;strong>Apply Filter&lt;/strong>, make sure your preset is selected, and click &lt;strong>OK&lt;/strong>.
+&lt;/div></description></item><item><title>Bg: INI Configuration</title><link>https://thephoenixflavour.com/bg/additional-modules/ini-config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/ini-config/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
@@ -419,7 +498,142 @@ And that&amp;rsquo;s it! The plugin has been resaved successfully.
 &lt;/div>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/porting-sle-plugins/form-version-44.png" alt="Correct Form Version">&lt;/p>
 &lt;h2 id="water-flow">Water Flow&lt;/h2>
-&lt;h2 id="landscape">Landscape&lt;/h2></description></item><item><title>Bg: Root Builder</title><link>https://thephoenixflavour.com/bg/additional-modules/root-builder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/root-builder/</guid><description>
+&lt;h2 id="landscape">Landscape&lt;/h2></description></item><item><title>Bg: Regenerating Facegen</title><link>https://thephoenixflavour.com/bg/additional-modules/regenerating-facegen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/regenerating-facegen/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers how to use the Creation Kit to regenerate facegen for all NPCs.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/creation-kit/">Creation Kit&lt;/a>, &lt;a href="https://thephoenixflavour.com/bg/tool-setup/synthesis/">Synthesis&lt;/a>, &lt;a href="https://thephoenixflavour.com/bg/tool-setup/cao/">Cathedral Assets Optimizer&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="about-facegen">About Facegen&lt;/h2>
+&lt;p>Please check the &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/facegen/">Facegen&lt;/a> article for more information about facegen.&lt;/p>
+&lt;p>You should regenerate facegen when:&lt;/p>
+&lt;ol>
+&lt;li>Changes to Head Parts, Tint Layers, etc, were made in the NPC&amp;rsquo;s record.&lt;/li>
+&lt;li>New meshes for head parts (hair, eyes, mouth) were installed.&lt;/li>
+&lt;li>New textures for tint masks (make up, war paints, dirt overlays) were installed.&lt;/li>
+&lt;/ol>
+&lt;p>I recommend regenerating facegen for all NPCs (vanilla and mod-added) as one of the final steps when building a setup. The process is detailed below.&lt;/p>
+&lt;p>If you only need to regenerate facegen for specific NPCs, please check &lt;a href="https://thephoenixflavour.com/bg/additional-modules/regenerating-facegen/#regenerating-specific-facegen">the instructions at the bottom of this page&lt;/a>.&lt;/p>
+&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;p>Before you regenerate facegen please ensure that &lt;strong>conflict resolution is completed&lt;/strong> at least for NPC records. The Synthesis patcher will pull data from the final overwriting record, so if NPC-modifying records are currently being overwritten and reverted to vanilla you would end up with mismatched facegen if you resolved the conflict later.&lt;/p>
+&lt;p>Any asset replacers for head parts and tint masks as well as any plugins modifying NPC appearance should be installed before regenerating facegen. All mods adding new NPCs should also be installed for perfect consistency across the board.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+I recommend &lt;u>deleting&lt;/u> any facegen files from mods that add new NPCs as they will now be regenerated using assets from your setup to be consistent with each other and with the vanilla NPCs.
+&lt;/div>
+&lt;h3 id="ck-fixes-ini-tweak">CK Fixes INI Tweak&lt;/h3>
+&lt;p>By default, the Creation Kit will generate facetint textures of 512x512 resolution which yields small file sizes but looks fairly blurry. The resolution can be increased using &lt;a href="https://thephoenixflavour.com/bg/tool-setup/creation-kit/#creation-kit-fixes">SSE Creation Kit Fixes&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>Double-click &lt;strong>SSE Creation Kit Fixes&lt;/strong> in your mod order.&lt;/li>
+&lt;li>Switch to the &lt;strong>INI Files&lt;/strong> tab and select the &lt;strong>skyrim64_test.ini&lt;/strong>.&lt;/li>
+&lt;li>Modify the following line:&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code>[CreationKit_FaceGen]
+TintMaskResolution=1024
+&lt;/code>&lt;/pre>&lt;p>You can further increase the resolution to &lt;code>2048&lt;/code> if you intend to build a setup mostly for screenarchery and closeup pictures. Any resolution above &lt;code>1024&lt;/code> is overkill for normal gameplay and will generate very large files.&lt;/p>
+&lt;p>&lt;strong>Remember to save your change before closing the window.&lt;/strong>&lt;/p>
+&lt;p>&lt;font size=2>*I also added &lt;code>Increased tint mask resolution to 1024.&lt;/code> to the Notes tab for the mod.*&lt;/font>&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+Remember that the vanilla game will only display tint masks in 512x512 resolution unless you added the appropriate tweak to the &lt;a href="https://thephoenixflavour.com/bg/additional-modules/skyrim-script-extender/#skse-ini-edits-for-skse">SKSE.ini&lt;/a>.
+&lt;/div>
+&lt;h2 id="synthesis-patcher">Synthesis Patcher&lt;/h2>
+&lt;p>To speed up the process of regenerating facegen for all NPCs that are present, we are going to use a very handy &lt;a href="https://github.com/KingKai-1906/Synth-NPCs-Face-Data">Synthesis patcher&lt;/a> by Sr. Kaio made for this express purpose. It will copy all NPC records into a single output plugin which can then be loaded into the Creation Kit for exporting facegen.&lt;/p>
+&lt;ul>
+&lt;li>Run &lt;strong>Synthesis&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Create a new group (see picture) and name it &lt;strong>Facegen Helper&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/synthesis-new-group.png" alt="Synthesis New Group">&lt;/p>
+&lt;ul>
+&lt;li>Add a &lt;a href="https://thephoenixflavour.com/Pictures/bg/synthesis-add-patcher-from-git.png">patcher from Git&lt;/a> and switch to &lt;strong>Input&lt;/strong>.&lt;/li>
+&lt;li>As the repository link, enter &lt;code>https://github.com/caiobraz/Synth-NPCs-Face-Data&lt;/code>.&lt;/li>
+&lt;li>Select &lt;strong>SynthNPCsWithFaces.csproj&lt;/strong> from the &lt;strong>Projects&lt;/strong> drop-down.&lt;/li>
+&lt;li>Click the blue checkmark to confirm.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/regenerating-facegen/add-synth-patcher.png" alt="Add Synth Patcher">&lt;/p>
+&lt;p>Give Synthesis a moment to import the new patcher. Once it is &lt;mark>Ready&lt;/mark>, run the patcher.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/regenerating-facegen/synth-patcher-ready.png" alt="Synth Patcher Ready">&lt;/p>
+&lt;p>Generating the plugin should only take a few seconds, depending on how many plugins are present.&lt;/p>
+&lt;p>Close Synthesis when it is done.&lt;/p>
+&lt;h3 id="patcher-output">Patcher Output&lt;/h3>
+&lt;p>Back in Mod Organizer 2, the newly generated plugin will have been caught by the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em>.&lt;/p>
+&lt;ul>
+&lt;li>Ensure no other files are located in the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> before right-clicking it and selecting &lt;strong>Create mod&lt;/strong>.&lt;/li>
+&lt;li>Name your new mod &lt;strong>Facegen Helper&lt;/strong> and confirm.&lt;/li>
+&lt;/ul>
+&lt;p>I recommend keeping an &lt;strong>Outputs&lt;/strong> separator at the bottom of your mod order and placing the new plugin here.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Feel free to jump into SSEEdit and have a look at the plugin&amp;rsquo;s contents. It should contain copies of all NPC records (and therefore require all plugins that add NPCs) as well as all head parts so they are also loaded. Conveniently, the patcher.
+&lt;/div>
+&lt;h2 id="exporting-facegen">Exporting Facegen&lt;/h2>
+&lt;p>With the helper plugin in place, we can now jump into the &lt;strong>Creation Kit&lt;/strong> to export facegen.&lt;/p>
+&lt;ul>
+&lt;li>Make sure the &lt;strong>Facegen Helper&lt;/strong> plugin is active in the load order.&lt;/li>
+&lt;li>Your &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> should be completely clean and empty.&lt;/li>
+&lt;li>Run the &lt;strong>Creation Kit&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Click the little &lt;a href="https://thephoenixflavour.com/Pictures/bg/additional-modules/porting-sle-plugins/ck-open-plugin.png">folder icon&lt;/a> in the toolbar to open a plugin.&lt;/li>
+&lt;li>Select &lt;strong>Facegen Helper.esp&lt;/strong> and click &lt;strong>Set as Active File&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>Confirm and wait for the Creation Kit to load up the plugin. Proceed once it is &lt;a href="https://thephoenixflavour.com/Pictures/bg/additional-modules/porting-sle-plugins/ck-done-loading.png">done&lt;/a>.&lt;/p>
+&lt;h3 id="npc-records">NPC Records&lt;/h3>
+&lt;p>NPC records can be found under &lt;strong>Actors&lt;/strong> &amp;raquo; &lt;strong>Actor&lt;/strong> in the Creation Kit where you can see a long list of NPCs that are currently part of the active plugin and any loaded masters.&lt;/p>
+&lt;ul>
+&lt;li>Check the box to &lt;strong>Show only active (*) forms&lt;/strong> near the top left in the Creation Kit.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/regenerating-facegen/ck-show-only-active-forms.png" alt="Active Forms">&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+This is partially why we are using a helper plugin: Only NPC records present in the active plugin will show up in the list, filtering out any records that do not need to have facegen exported (such as children).
+&lt;/div>
+&lt;p>Facegen can be exported by selecting one or several NPCs and pressing CTRL + F4. Now you can go through and select NPCs to export facegen one race at a time.*&lt;/p>
+&lt;p>&lt;font size=2>**Going one race at a time is a completely arbitrary way of splitting up the sheer amount NPCs so you do not try to export all at once and risk crashing the Creation Kit. You can also go for roughly 50-100 at a time.*&lt;/font>&lt;/p>
+&lt;p>&lt;strong>You must &lt;u>skip&lt;/u> &lt;mark>NordRaceAstrid&lt;/mark> (between NordRace and NordRaceVampire).&lt;/strong> Selecting her will break all facegen.&lt;/p>
+&lt;ul>
+&lt;li>Sort the NPC records by &lt;strong>Race&lt;/strong> (click the column and feel free to expand it).&lt;/li>
+&lt;li>Select the first NPC of a race, press and hold SHIFT, scroll down to the last NPC and select it.&lt;/li>
+&lt;li>Press &lt;strong>CTRL + F4&lt;/strong> to export facegen for all highlighted NPCs and confirm.&lt;/li>
+&lt;/ul>
+&lt;p>For every batch of NPCs you will have to wait a moment for the Creation Kit to process all records.&lt;/p>
+&lt;p>Close the Creation Kit once you have exported facegen for all NPCs.&lt;/p>
+&lt;h2 id="managing-the-output">Managing the output&lt;/h2>
+&lt;p>At least 16GB of facegen files will now sit in your &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> in Mod Organizer 2. To bring down the total file size, I recommend packing all files into BSAs.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Packing the assets into archives means that they will be overwritten by any loose facegen files. This is why I recommended deleting other mods&amp;rsquo; facegen files earlier.
+&lt;/div>
+&lt;ul>
+&lt;li>Right-click the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> and select &lt;strong>Create Mod&lt;/strong>.&lt;/li>
+&lt;li>Name the new mod &lt;strong>Facegen Output&lt;/strong> or similar and confirm.
+&lt;ul>
+&lt;li>&lt;em>Note that the name will be used by CAO for the BSAs and plugins created in the next step.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Activate the new mod in the load order.&lt;/li>
+&lt;/ul>
+&lt;h3 id="creating-bsas">Creating BSAs&lt;/h3>
+&lt;p>Use the &lt;a href="https://thephoenixflavour.com/bg/tool-setup/cao/#create-bsa-profile">Create BSA&lt;/a> profile in &lt;strong>Cathedral Assets Optimizer&lt;/strong> to pack up the assets.&lt;/p>
+&lt;ul>
+&lt;li>Open &lt;strong>Cathedral Assets Optimizer&lt;/strong> and select the &lt;strong>SSE - Create BSA&lt;/strong> profile.
+&lt;ul>
+&lt;li>&lt;em>For instructions on how to create this profile, see the link above.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Click &lt;strong>Open Directory&lt;/strong> and navigate to the mod folder: &lt;code>\Mod Organizer 2\mods\Facegen Output\&lt;/code>.&lt;/li>
+&lt;li>Select the folder and click &lt;strong>Run&lt;/strong> in Cathedral Assets Optimizer.&lt;/li>
+&lt;/ul>
+&lt;p>Packing 16GB+ worth of assets will take a few minutes and I recommend stepping away in the meantime. You can check the tool&amp;rsquo;s progress in the log tab.&lt;/p>
+&lt;h3 id="finalisation">Finalisation&lt;/h3>
+&lt;p>Once CAO has completed you can close it and return to Mod Organizer 2. Press F5 to refresh the UI.&lt;/p>
+&lt;p>The loose files will have been replaced with a set of plugins and archives. Make sure the plugins are active in the load order and that assets are overwriting correctly. If you have other BSA-packed facegen that you want to overwrite, place the plugins those BSAs are attached to below the Facegen Output plugins. Loose files will already overwrite.&lt;/p>
+&lt;p>&lt;strong>Disable Facegen Helper.&lt;/strong> The patch is only necessary for exporting facegen.&lt;/p>
+&lt;p>Feel free to hop ingame and admire the results!&lt;/p>
+&lt;h2 id="regenerating-specific-facegen">Regenerating specific facegen&lt;/h2>
+&lt;p>If you only need to export facegen for specific NPCs, you do not need to generate any Synthesis patches. Do be sure that the NPC&amp;rsquo;s record is not being unintentionally overwritten and modify the &lt;strong>SSE Creation Kit Fixes&lt;/strong> INI &lt;a href="https://thephoenixflavour.com/bg/additional-modules/regenerating-facegen/#ck-fixes-ini-tweak">as detailed above&lt;/a>. Make sure all asset replacers for head parts and tint masks are active as well and delete existing facegen for that NPC.&lt;/p>
+&lt;ul>
+&lt;li>Load up the plugin in which the NPC is created in the &lt;strong>Creation Kit&lt;/strong> (this can be a vanilla master file or a mod).&lt;/li>
+&lt;li>Find the NPC(s) in question under &lt;strong>Actors&lt;/strong> &amp;raquo; &lt;strong>Actor&lt;/strong> and select it/them.&lt;/li>
+&lt;li>Hit &lt;strong>CTRL + F4&lt;/strong> to export facegen and confirm.&lt;/li>
+&lt;/ul>
+&lt;p>Wait for the CK to process everything and close it when it is done.&lt;/p>
+&lt;p>In Mod Organizer 2, be sure to move the facegen assets out of the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em>. You can place them in the original mod&amp;rsquo;s folder or in a separate one (the latter is recommended because otherwise you have to repeat the process when the mod is updated).&lt;/p></description></item><item><title>Bg: Root Builder</title><link>https://thephoenixflavour.com/bg/additional-modules/root-builder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/root-builder/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>

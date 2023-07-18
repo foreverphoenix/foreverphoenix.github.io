@@ -536,8 +536,8 @@ The actual location of the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> acces
 &lt;p>In Skyrim SE plugin merging has become redundant for all but the largest of load orders thanks to the new ESL format of plugins introduced with the 2016 engine update.&lt;/p>
 &lt;h2 id="esl-plugins">ESL Plugins&lt;/h2>
 &lt;p>&lt;strong>Elder Scrolls Light&lt;/strong> plugins (ESL) were initially added for the Creation Club (Fallout 4 and Skyrim SE) and they were a game-changer for the modding scene because the plugin limit for ESLs is about ten times that as for ESPs and ESMs.&lt;/p>
-&lt;p>All ESL plugins have the index &lt;code>FE:xxx&lt;/code>. The hexadecimal FE is the decimal 254, so &lt;strong>all ESL plugins load in plugin slot 254.&lt;/strong>&lt;/p>
-&lt;p>This is possible because their index was extended to the third, fourth, and fifth character in their eight character form ID: An ESL&amp;rsquo;s index could be &lt;code>FE:000&lt;/code> or &lt;code>FE:08F&lt;/code>. Thus, &lt;strong>the limit for ESLs is a whopping 4096 plugins&lt;/strong> - which is why we no longer need to merge plugins.&lt;/p>
+&lt;p>All ESL plugins have the index &lt;code>FExxx&lt;/code>. The hexadecimal FE is the decimal 254, so &lt;strong>all ESL plugins load in plugin slot 254.&lt;/strong>&lt;/p>
+&lt;p>This is possible because their index was extended to the third, fourth, and fifth character in their eight character form ID: An ESL&amp;rsquo;s index could be &lt;code>FE000&lt;/code> or &lt;code>FE08F&lt;/code>. Thus, &lt;strong>the limit for ESLs is a whopping 4096 plugins&lt;/strong> - which is why we no longer need to merge plugins.&lt;/p>
 &lt;h3 id="plugin-capacity">Plugin Capacity&lt;/h3>
 &lt;p>The downside of ESLs is that they can store fewer records.&lt;/p>
 &lt;p>Remember that each record must have a unique Form ID. ESLs only have three digits left for a combination of the 16 hexadecimal characters whereas ESPs and ESMs have six digits. This means every ESL can only store 4096 unique Form IDs of which the first 2048 are reserved by the engine.&lt;/p>
@@ -611,9 +611,9 @@ Full ESLs are always ESM-flagged and therefore load in ESM space.
 &lt;li>&lt;strong>Persistent references&lt;/strong> are always loaded into memory upon launching the game, regardless of player proximity.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/temporary-persistent-refs.png" alt="Refs">&lt;/p>
-&lt;p>The cap for references that are active at the same time is 1048576, anything above that will cause issues and instability.&lt;/p>
+&lt;p>The cap for references that are active at the same time is &lt;strong>1048576&lt;/strong>. Anything above that will cause issues and instability.&lt;/p>
 &lt;p>The way references are handled is the most important difference between plugins in ESP space (.ESP with or without ESL flag) and plugins in ESM space (any plugin with ESM-flag: ESM, ESL, ESM-ESP). &lt;strong>Temporary references in ESP space are actually handled like persistent references and always loaded at the start of the game.&lt;/strong> You can see how adding a great number of temporary references to ESP plugins could quickly bring the overall amount of active references closer to the cap.&lt;/p>
-&lt;p>Temporary references defined in ESM space but overwritten by a plugin in ESP space will also be always active. This makes sense if you think about how layers work and how the game only really cares about the one that overwrites.&lt;/p>
+&lt;p>Temporary references defined in ESM space but overwritten by a plugin in ESP space will also be always active. This makes sense if you think about how layers work and how the game only really cares about the one that overwrites all others.&lt;/p>
 &lt;div class="alert alert-info" role="alert">
 Large mods that add their own worldspaces and / or overhaul the vanilla ones by adding or modifying many references should be ESM-ified so that their considerable number of temporary references is not always active.
 &lt;/div>
@@ -753,7 +753,7 @@ This mod removes grass from caves (duh) because grass mods tend to increase the 
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/compact-form-ids.png" alt="Compact Form IDs">&lt;/p>
 &lt;h3 id="risks-of-compacting">Risks of Compacting&lt;/h3>
 &lt;p>Another warning will follow and this one merits some discussion.&lt;/p>
-&lt;p>Remember that records are identified by their Form IDs, also by other plugins. If we renumber the Form IDs here and later install a mod that touches the hand-placed flora from No Grass In Caves that second mod would dissolve into a mess of errors because it would be unable to locate the original records it was trying to edit. For example, it was looking for &lt;code>08002FE7&lt;/code> but that Form is now &lt;code>FE00381E&lt;/code>.&lt;/p>
+&lt;p>Remember that records are identified by their Form IDs, also by other plugins. If we renumber the Form IDs here and later install a mod that touches the hand-placed flora from &lt;em>No Grass In Caves&lt;/em> that second mod would dissolve into a mess of errors because it would be unable to locate the original records it was trying to edit. For example, it was looking for &lt;code>08002FE7&lt;/code> but that Form is now &lt;code>FE00381E&lt;/code>.&lt;/p>
 &lt;div class="alert alert-info" role="alert">
 Compacting a plugin&amp;rsquo;s Form IDs will break any plugins that it is a master for.
 &lt;/div>
@@ -957,6 +957,7 @@ Plugins that are supposed to be placed late in the load order to avoid unnecessa
 &lt;p>Here we can see that nearly all parent records in this plugin have conflicts though it is winning most of them without creating conflicts (green font on yellow background). If you check the green records, you can see that No Grass In Caves is also a typical late loader as it does modify the parent records and is correctly overwriting the ITMs in other plugins.&lt;/p>
 &lt;p>However, conflicts do appear in two of the parent records: &lt;em>BlindCliffCaveWorld&lt;/em> and &lt;em>FallowstoneCaveWorldStart&lt;/em>. Looking at these records, you will notice that both No Grass In Caves and Realistic Water Two are making relevant changes, but Realistic Water Two is winning the conflict because it is placed lower in the load order. If the positions were reversed, No Grass In Caves would win, but then the water changes would not appear in game.&lt;/p>
 &lt;p>&lt;strong>In order for both mods to function as intended, a patch is required.&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/rw2-ngic-conflict.png" alt="RW2 NGIC Conflict">&lt;/p>
 &lt;h3 id="creating-a-patch">Creating a patch&lt;/h3>
 &lt;p>Just as we did earlier to disable the USSEP book, we need to create a new layer (a new plugin) to apply our changes to.&lt;/p>
 &lt;ul>
@@ -977,6 +978,7 @@ In conclusion: I strongly recommend creating &lt;u>separate&lt;/u> patches to ad
 &lt;/ul>
 &lt;p>Of course, there is still a conflict in our newly created patch. To resolve this, simply drag (forward) the changes under &lt;code>DATA - Flags (sorted)&lt;/code> from the &lt;strong>NoGrassInCaves.esp&lt;/strong> column into our new patch:&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/resolve-worldspace-conflict.png" alt="Resolve Worldspace Conflict">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/rw2-ngic-resolved.png" alt="RW2 NGIC Resolved">&lt;/p>
 &lt;p>The record should now be displayed in green. (The copy in the expanded &lt;strong>NoGrassInCaves.esp&lt;/strong> plugin is still red, but that is because the UI does not update everywhere. If you click on it, the conflict is shown as resolved there, too).&lt;/p>
 &lt;p>Now repeat the process for the second conflicting parent record. When choosing where to create a new layer, do not select a new plugin, but use the existing patch instead.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/copy-into-patch.png" alt="Resolve Worldspace Conflict">&lt;/p>
@@ -1034,7 +1036,7 @@ When creating ModGroups in the following steps, note that I have my own system b
 &lt;li>&lt;strong>Optional:&lt;/strong> Plugins marked as optional do not have to be present for the ModGroup to be valid.&lt;/li>
 &lt;li>&lt;strong>Target:&lt;/strong> Conflicts in this plugin can be hidden.&lt;/li>
 &lt;li>&lt;strong>Source:&lt;/strong> Overwriting records in this plugin will hide the overwritten records in previous plugins.&lt;/li>
-&lt;li>&lt;strong>Forbidden:&lt;/strong> Plugins marked as optional will invalidate the ModGroup if present.&lt;/li>
+&lt;li>&lt;strong>Forbidden:&lt;/strong> Plugins marked as forbidden will invalidate the ModGroup if present.&lt;/li>
 &lt;li>&lt;strong>Ignore LO:&lt;/strong> If empty, the load order of the plugins must be as listed in the ModGroup for it to be valid.
 &lt;ul>
 &lt;li>&lt;em>Always:&lt;/em> Any load order is valid&lt;/li>

@@ -175,7 +175,7 @@ If memory serves, Skyrim LE BSAs were limited to 2GB while Fallout 4 BSAs can be
 &lt;h2 id="mo2-integration">MO2 Integration&lt;/h2>
 &lt;h3 id="steam-appid">Steam AppID&lt;/h3>
 &lt;p>Close and re-open &lt;strong>Mod Organizer 2&lt;/strong>. It should automatically recognise the presence of the Creation Kit which should appear in the executables drop-down.&lt;/p>
-&lt;p>Before you can run the CK through MO2, you need to manually add its Steam App ID in the &lt;a href="https://thephoenixflavour.com/Pictures/bg/additional-modules/creation-kit/mo2-executables-settings.png">executable settings&lt;/a>:&lt;/p>
+&lt;p>Before you can run the Creation Kit through MO2, you need to manually add its Steam AppID &lt;code>1946180&lt;/code> in the &lt;a href="https://thephoenixflavour.com/Pictures/bg/additional-modules/creation-kit/mo2-executables-settings.png">executable settings&lt;/a>:&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/tool-setup/ck/ck-steam-appid.png" alt="CK MO2 Shortcut">&lt;/p>
 &lt;h3 id="mo2-shortcut">MO2 Shortcut&lt;/h3>
 &lt;p>I recommend selecting the Creation Kit from the drop-down and adding a shortcut to the &lt;strong>Toolbar&lt;/strong> for quick access.&lt;/p>
@@ -257,9 +257,6 @@ You can leave the two new &amp;ldquo;mods&amp;rdquo; disabled in MO2 until you s
 &lt;li>Refresh MO2 with F5, right-click the mod, and select &lt;strong>Ignore missing data&lt;/strong>.&lt;/li>
 &lt;li>Move the mod below &lt;strong>Tweaked Creation Kit INI&lt;/strong> and activate it.&lt;/li>
 &lt;/ul>
-&lt;div class="alert alert-info" role="alert">
-If the wrong version number bothers you like it bothers me, you can double-click the mod and change it to &lt;strong>3.2&lt;/strong> in the &lt;strong>Nexus&lt;/strong> tab.
-&lt;/div>
 &lt;h2 id="separate-ck-exe">Separate CK EXE&lt;/h2>
 &lt;div class="alert alert-info" role="alert">
 This step is optional. It is intended for Wabbajack curators of lists that require the CK.
@@ -441,7 +438,39 @@ If you are following the &lt;strong>Core Module&lt;/strong> please do copy at le
 &lt;p>(&lt;a href="https://thephoenixflavour.com/Pictures/bg/tool-setup/mo2/mo2-my-layout.png">Click here to view the picture in full size.&lt;/a>)&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/tool-setup/mo2/mo2-my-layout.png" alt="My Layout">&lt;/p>
 &lt;hr>
-&lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-1bgcore-modulestep1ui-overview">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step1/#ui-overview">Step 1&lt;/a>.&lt;/h4></description></item><item><title>Bg: SSE NIF Optimizer</title><link>https://thephoenixflavour.com/bg/tool-setup/sse-nif-optimizer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/sse-nif-optimizer/</guid><description>
+&lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-1bgcore-modulestep1ui-overview">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step1/#ui-overview">Step 1&lt;/a>.&lt;/h4></description></item><item><title>Bg: NifSkope</title><link>https://thephoenixflavour.com/bg/tool-setup/nifskope/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/nifskope/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers the installation of NifSkope.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/additional-modules/mo2/">Mod Organizer 2&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="about-nifskope">About NifSkope&lt;/h2>
+&lt;p>NifSkope is a tool for previewing and modifying meshes. It covers the vast majority of use cases when building a setup, including changing texture paths and flags. Note that it is not meant for creating &lt;em>new&lt;/em> meshes.&lt;/p>
+&lt;h3 id="installation">Installation&lt;/h3>
+&lt;p>NifSkope is available on Github.&lt;/p>
+&lt;ul>
+&lt;li>Download the latest version of &lt;a href="https://github.com/hexabits/nifskope/releases">NifSkope&lt;/a>.&lt;/li>
+&lt;li>Create a folder called &lt;strong>NifSkope&lt;/strong> in your &lt;strong>Modding Tools&lt;/strong> directory.&lt;/li>
+&lt;li>Extract the downloaded archive into the new folder.&lt;/li>
+&lt;/ul>
+&lt;h3 id="mo2-integration">MO2 Integration&lt;/h3>
+&lt;p>While meshes can be opened separately in NifSkope, you will not be able to preview them with their textures unless NifSkope can find the data folder. Because of this, the programme must be run through Mod Organizer 2.&lt;/p>
+&lt;ul>
+&lt;li>Go into the &lt;a href="https://thephoenixflavour.com/Pictures/bg/mo2-executables-settings.png">executable settings&lt;/a> in Mod Organizer 2.&lt;/li>
+&lt;li>Click the small blue plus icon and select &lt;strong>Add from file&lt;/strong>.&lt;/li>
+&lt;li>Navigate to &lt;code>\Modding Tools\NifSkope\&lt;/code> and double-click &lt;strong>NifSkope.exe&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>I recommend adding a shortcut for NifSkope to the MO2 toolbar.&lt;/p>
+&lt;h3 id="default-app">Default App&lt;/h3>
+&lt;p>By setting .NIF files (meshes) to always open in NifSkope, you can speed up the process of previewing meshes in Mod Organizer 2. Instead of having to launch NifSkope and then dragging and dropping the mesh into the window, you can right-click meshes in Mod Organizer 2 and select &lt;strong>Open with VFS&lt;/strong>. This will open them in NifSkope while giving access to the VFS, meaning that textures will be loaded correctly.&lt;/p>
+&lt;ul>
+&lt;li>Right-click any mesh and select &lt;strong>Open with&lt;/strong>.&lt;/li>
+&lt;li>Make sure &lt;strong>Always use this app to open .nif files&lt;/strong> is checked.&lt;/li>
+&lt;li>Select &lt;strong>More apps&lt;/strong> &amp;raquo; &lt;strong>Look for another app on this PC&lt;/strong>.&lt;/li>
+&lt;li>Navigate to &lt;code>\Modding Tools\NifSkope\&lt;/code> and double-click &lt;strong>NifSkope.exe&lt;/strong>.&lt;/li>
+&lt;/ul></description></item><item><title>Bg: SSE NIF Optimizer</title><link>https://thephoenixflavour.com/bg/tool-setup/sse-nif-optimizer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/sse-nif-optimizer/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>

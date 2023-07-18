@@ -224,6 +224,13 @@ Keep in mind that my separator system is a perpetual work-in-progress that chang
 &lt;p>Crash Logger is absolutely essential for troubleshooting. While the logs can be hard to read, they are crucial for tracking down issues. The linked version is up-to-date for SSE, AE, and VR, and will write to &lt;code>\Documents\My Games\Skyrim Special Edition\SKSE\&lt;/code>.&lt;/p>
 &lt;p>I recommend pairing the plugin with &lt;a href="https://thephoenixflavour.com/bg/tool-setup/crash-log-tools/">Crash Log Tools&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Requirements:&lt;/strong> Skyrim Script Extender, Address Library for SKSE&lt;/p>
+&lt;h5 id="rogue-master-detectorhttpswwwnexusmodscomskyrimspecialeditionmods93040">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/93040">Rogue Master Detector&lt;/a>&lt;/h5>
+&lt;div class="alert alert-info" role="alert">
+&lt;strong>Recommended.&lt;/strong> Very useful in any setup.
+&lt;/div>
+&lt;p>Rogue Master Detector is an SKSE plugin which finds and logs masters that are loaded out of order. While missing masters cause errors, there are no &lt;em>visible&lt;/em> errors when a plugin is loaded &lt;u>above&lt;/u> its master. SSEEdit will automatically fix the load order, but the game will not, and out-of-order plugins will not function properly.&lt;/p>
+&lt;p>After launching the game, Rogue Master Detector creates a log file under &lt;code>\Documents\My Games\Skyrim Special Edition\SKSE\&lt;/code> with any out-of-order plugins listed inside. Check the log and fix the load order if necessary.&lt;/p>
+&lt;p>&lt;strong>Requirements:&lt;/strong> Skyrim Script Extender, Address Library for SKSE&lt;/p>
 &lt;h5 id="skyuihttpswwwnexusmodscomskyrimspecialeditionmods12604">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12604">SkyUI&lt;/a>&lt;/h5>
 &lt;div class="alert alert-success" role="alert">
 &lt;strong>Essential.&lt;/strong> Everyone should install this mod.
@@ -263,13 +270,7 @@ KeyboardToggle = 66
 &lt;p>If you play on controller and prefer quick access to the Journal over quick access to the System Menu, you can set the default option for the system button back to the Journal in the &lt;strong>QUI_Custom.toml&lt;/strong>:&lt;/p>
 &lt;pre>&lt;code>[JournalMenu]
 DefaultPage = 0
-&lt;/code>&lt;/pre>&lt;p>&lt;u>Remember to save your changes before closing the window.&lt;/u>&lt;/p>
-&lt;h5 id="rogue-master-detectorhttpswwwnexusmodscomskyrimspecialeditionmods93040">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/93040">Rogue Master Detector&lt;/a>&lt;/h5>
-&lt;div class="alert alert-success" role="alert">
-&lt;strong>Essential.&lt;/strong> Everyone should install this mod.
-&lt;/div>
-&lt;p>Rogue Master Detector logs any misplaced master files, i.e., plugins that are placed before their masters. These can be difficult to detect otherwise as MO2 will not throw any warnings and SSEEdit will automatically fix the load order while the game does not. The log is written to &lt;code>\Documents\My Games\Skyrim Special Edition\SKSE\&lt;/code>.&lt;/p>
-&lt;p>&lt;strong>Requirements:&lt;/strong> Skyrim Script Extender&lt;/p></description></item><item><title>Bg: Essential Mods</title><link>https://thephoenixflavour.com/bg/recommended-mods/essential-mods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/recommended-mods/essential-mods/</guid><description>
+&lt;/code>&lt;/pre>&lt;p>&lt;u>Remember to save your changes before closing the window.&lt;/u>&lt;/p></description></item><item><title>Bg: Essential Mods</title><link>https://thephoenixflavour.com/bg/recommended-mods/essential-mods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/recommended-mods/essential-mods/</guid><description>
 &lt;h5 id="sse-display-tweakshttpswwwnexusmodscomskyrimspecialeditionmods34705">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34705">SSE Display Tweaks&lt;/a>&lt;/h5>
 &lt;div class="alert alert-success" role="alert">
 &lt;strong>Essential.&lt;/strong> Everyone should install this mod.
@@ -331,4 +332,10 @@ Borderless=true
 &lt;p>I usually place the SKSE Preloader as the last mod below my &lt;strong>Skyrim Script Extender&lt;/strong> separator.&lt;/p>
 &lt;div class="alert alert-warning" role="alert">
 If you previously installed &lt;a href="https://thephoenixflavour.com/bg/tool-setup/creation-kit/#creation-kit-fixes">SSE Creation Kit Fixes&lt;/a>, it will conflict with the SKSE Preloader because both contain tbb.dll and tbbmalloc.dll (my Google-Fu tells me these are Intel libraries). A &lt;a href="https://thephoenixflavour.com/Pictures/bg/recommended-mods/essential-mods/tbb-comparison.png">comparison&lt;/a> reveals that the SKSE Preloader appears to include a newer version of those libraries which is why I let it overwrite.
-&lt;/div></description></item></channel></rss>
+&lt;/div></description></item><item><title>Bg: Console Improvements</title><link>https://thephoenixflavour.com/bg/recommended-mods/console-improvements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/recommended-mods/console-improvements/</guid><description>
+&lt;h5 id="more-informative-consolehttpswwwnexusmodscomskyrimspecialeditionimages197667">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/images/197667">More Informative Console&lt;/a>&lt;/h5>
+&lt;div class="alert alert-success" role="alert">
+&lt;strong>Essential.&lt;/strong> Everyone should install this mod.
+&lt;/div>
+&lt;p>More Informative Console turns the console from a decently useful into an invaluable dev tool. Its most immediate usecase is checking the Form ID of a given object (it helpfully displays both Base and Ref ID) or to see which mesh the object is using, but it can display a variety of other information, including an NPC&amp;rsquo;s factions, inventory, etc.&lt;/p>
+&lt;p>&lt;strong>Requirements:&lt;/strong> Skyrim Script Extender, Address Library for SKSE&lt;/p></description></item></channel></rss>

@@ -1,5 +1,208 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Knowledge Base</title><link>https://thephoenixflavour.com/bg/knowledge-base/</link><description>Recent content in Knowledge Base on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/bg/knowledge-base/index.xml" rel="self" type="application/rss+xml"/><item><title>Bg: Creation Club</title><link>https://thephoenixflavour.com/bg/knowledge-base/creation-club/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/creation-club/</guid><description>
-&lt;p>&lt;em>Wow, such empty.&lt;/em>&lt;/p></description></item><item><title>Bg: INI Files</title><link>https://thephoenixflavour.com/bg/knowledge-base/ini-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/ini-files/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Knowledge Base</title><link>https://thephoenixflavour.com/bg/knowledge-base/</link><description>Recent content in Knowledge Base on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/bg/knowledge-base/index.xml" rel="self" type="application/rss+xml"/><item><title>Bg: Asset Basics</title><link>https://thephoenixflavour.com/bg/knowledge-base/asset-basics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/asset-basics/</guid><description>
+&lt;h2 id="about-assets">About Assets&lt;/h2>
+&lt;p>This article summarises some basic knowledge about &lt;strong>assets&lt;/strong>.&lt;/p>
+&lt;p>Mods (and the game data of the vanilla game) consists of two basic file types: &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/plugin-basics/">Plugins&lt;/a> and &lt;strong>assets&lt;/strong>.&lt;/p>
+&lt;h3 id="asset-types">Asset Types&lt;/h3>
+&lt;p>All asset types must be located in the &lt;strong>data folder&lt;/strong> in a top-level folder of the same name (i.e., &lt;code>\Skyrim Special Edition\Data\Textures\&lt;/code>). The following file types are recognised by the game:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Textures&lt;/strong> (.DDS)&lt;/li>
+&lt;li>&lt;strong>Meshes&lt;/strong> (.NIF)&lt;/li>
+&lt;li>&lt;strong>Scripts&lt;/strong> (.PEX)&lt;/li>
+&lt;li>&lt;strong>Animations&lt;/strong> (.HKX)&lt;/li>
+&lt;li>&lt;strong>Interface&lt;/strong> (.SWF)&lt;/li>
+&lt;li>&lt;strong>SKSE\Plugin&lt;/strong> (.DLL)&lt;/li>
+&lt;li>&lt;strong>Sound\Voice&lt;/strong> (.FUZ)&lt;/li>
+&lt;li>&lt;strong>Sound\FX&lt;/strong> (.WAV)&lt;/li>
+&lt;li>&lt;strong>Music&lt;/strong> (.XWM)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;font size=2>*The list is not 100% complete, but these are the important ones.*&lt;/font>&lt;/p>
+&lt;p>Different asset types handle very differently from each other (unlike plugins) and more time is required to learn how to substantially modify them. On the other hand, sound design, 3D modelling, etc, are (again, unlike plugins) widely applicable skills and not unique to Bethesda&amp;rsquo;s Creation Engine.&lt;/p>
+&lt;p>Generally speaking, you do not need to become as adept at modifying different types of assets as you do at modifying plugins in order to build a solid setup.&lt;/p>
+&lt;h2 id="bethesda-softworks-archives">Bethesda Softworks Archives&lt;/h2>
+&lt;p>Assets can be present in two forms: as &lt;strong>loose files&lt;/strong> or &lt;strong>BSA-packed&lt;/strong>. Loose files &lt;u>always&lt;/u> overwrite packed assets.&lt;/p>
+&lt;p>&lt;strong>Bethesda Softworks Archives&lt;/strong> (BSA) are essentially 7ZIP or WinRAR archives for Creation Engine assets. All vanilla assets are packed into the 17 BSAs in the data folder which are compressed to save space. Many mods are also published with their assets packed into a BSA.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+In Skyrim SE, BSAs have a size limit of &lt;strong>2GB&lt;/strong>.
+&lt;/div>
+&lt;h3 id="bsa-types">BSA Types&lt;/h3>
+&lt;p>There are two types of BSAs:&lt;/p>
+&lt;ul>
+&lt;li>Example.bsa&lt;/li>
+&lt;li>Example - Textures.bsa&lt;/li>
+&lt;/ul>
+&lt;p>Obviously, the latter type is intended specifically for textures. Use the regular type for all other kinds of assets.&lt;/p>
+&lt;p>BSAs can be &lt;strong>compressed&lt;/strong> or &lt;strong>uncompressed&lt;/strong>. Looking at the vanilla BSAs, you will notice that archives containing textures and meshes are &lt;em>compressed&lt;/em> while all others are &lt;em>uncompressed&lt;/em>. I recommend mirroring this logic when creating new BSAs.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+There are also some additional flags uncovered by fireundubh &lt;a href="https://wiki.fireundubh.com/skyrim/bsa-flags">as documented here&lt;/a>.
+&lt;/div>
+&lt;h3 id="loading-bsas">Loading BSAs&lt;/h3>
+&lt;p>&lt;strong>A BSA always requires a plugin with the same name to be loaded.&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Example.esp&lt;/em> (or ESL/ESM) can load &lt;em>Example.bsa&lt;/em> and &lt;em>Example - Textures.bsa&lt;/em>, but no more than that. If the name does not match exactly the BSA will not be loaded.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+The vanilla BSAs are actually loaded via the &lt;strong>Skyrim.ini&lt;/strong> file and it should be &lt;em>technically&lt;/em> possible to load additional BSAs by adding them to the INI. However, this is not particularly convenient so it is not done.
+&lt;/div>
+&lt;h3 id="manipulating-bsas">Manipulating BSAs&lt;/h3>
+&lt;p>You can preview BSAs through Mod Organizer 2 or with &lt;a href="https://thephoenixflavour.com/bg/tool-setup/bae/">Bethesda Archive Extractor&lt;/a>. Different ways of extracting BSAs are described &lt;a href="https://thephoenixflavour.com/bg/additional-modules/extracting-bsas/">here&lt;/a> while creating a &lt;strong>Cathedral Assets Optimizer&lt;/strong> profile for re-packing BSAs is detailed &lt;a href="https://thephoenixflavour.com/bg/tool-setup/cao/#create-bsa-profile">here&lt;/a>.&lt;/p>
+&lt;h2 id="mod-order">Mod Order&lt;/h2>
+&lt;p>Similar to how plugins overwrite each other according to their placement in the &lt;strong>load order&lt;/strong>, so do assets overwrite each other according to their placement in the &lt;strong>mod order&lt;/strong>.&lt;/p>
+&lt;p>The mod order is a concept created by Mod Organizer 2 and its &lt;em>virtual data folder&lt;/em> which prevents assets from irrevocably overwriting and replacing each other by placing them in separate folders.&lt;/p>
+&lt;div class="alert alert-success" role="alert">
+&lt;strong>The mod order is functionally identical to the load order:&lt;/strong> If multiple mods [plugins] contain different versions of the same asset [record], the mod [plugin] that is placed lowest will win the conflict and overwrite.
+&lt;/div>
+&lt;h3 id="bsas--load-order">BSAs &amp;amp; Load Order&lt;/h3>
+&lt;p>As a consequence of being attached to plugins, &lt;strong>BSAs adhere to load order&lt;/strong> rather than mod order. This means &lt;u>assets packed into BSAs overwrite each other in the order of their plugins&lt;/u>.&lt;/p>
+&lt;p>It makes sense to BSA-pack assets from mods that serve as a baseline intended to be overwritten. On the flipside, assets from mods that should generally overwrite are best kept as loose files.&lt;/p>
+&lt;p>You may also want to extract an archive in order to be able to compare its assets to other assets in your mod order. &lt;a href="https://thephoenixflavour.com/bg/tool-setup/nifskope/">NifSkope&lt;/a>, for example, can only load loose textures and meshes, not BSA-packed ones.&lt;/p>
+&lt;h3 id="archives--plugins">Archives &amp;amp; Plugins&lt;/h3>
+&lt;p>If you have two archives or plugins &lt;em>with the same name&lt;/em>, the one from the mod lower in the load order will overwrite and replace the other. BSAs and ESPs/ESMs/ESLs are essentially a type of asset as well and adhere to the mod order.&lt;/p></description></item><item><title>Bg: Conflict Management</title><link>https://thephoenixflavour.com/bg/knowledge-base/conflict-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/conflict-management/</guid><description>
+&lt;h2 id="about-plugin-conflicts">About Plugin Conflicts&lt;/h2>
+&lt;p>This article outlines in general terms how &lt;strong>conflicts&lt;/strong> should be managed.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+I recommend reading the article on &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/plugin-basics/">Plugin Basics&lt;/a> first.
+&lt;/div>
+&lt;p>&lt;strong>Conflicts&lt;/strong> occur when two or more plugins modify the same record in different ways. Because of how plugins are structured it is very possible and indeed normal for plugins to interact with each other, even if they seem to have wildly different purposes.&lt;/p>
+&lt;p>While &lt;u>unintentional&lt;/u> conflicts can break mods and the game in various ways, most conflicts are &lt;u>intentional&lt;/u> and require no intervention at all. One of the most important steps in building a load order is managing conflicts accordingly.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+If you are interested in why this step fails to mention LOOT, you can read up on my opinion on the tool &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/phoenix-on-loot/">here&lt;/a>.
+&lt;/div>
+&lt;h3 id="conflict-management-tool">Conflict Management Tool&lt;/h3>
+&lt;p>The ideal tool for viewing and addressing conflicts is &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sseedit/">SSEEdit&lt;/a> which allows you to compare and modify multiple plugins at the same time (unlike the Creation Kit). It is excellent at visualising plugin interaction.&lt;/p>
+&lt;p>You can find conflicts easily by &lt;a href="https://thephoenixflavour.com/bg/additional-modules/filter-for-conflicts/">applying a filter&lt;/a>.&lt;/p>
+&lt;h2 id="types-of-conflicts">Types of Conflicts&lt;/h2>
+&lt;p>There are three types of conflicts:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Harmless conflicts&lt;/strong> require no intervention because all desired changes are already present in the final layer.&lt;/li>
+&lt;li>&lt;strong>Load order conflicts&lt;/strong> occur when all desired changes are in a layer that is not yet loaded last. In this case, the plugin simply needs to be repositioned.&lt;/li>
+&lt;li>&lt;strong>Complex conflicts&lt;/strong> occur when multiple different layers contain desired changes which must be merged into a final layer (patch).&lt;/li>
+&lt;/ol>
+&lt;p>Managing conflicts requires you to understand (roughly) what a given change in a record &lt;em>does&lt;/em> and to then determine whether or not a resulting conflict is harmful.&lt;/p>
+&lt;h3 id="harmless-conflicts">Harmless Conflicts&lt;/h3>
+&lt;p>Conflict management largely boils down to applying &lt;em>common sense&lt;/em>.&lt;/p>
+&lt;p>For example, the mod &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/8586">Relighting Skyrim&lt;/a> (a lighting overhaul if the name did not give it away) conflicts with &lt;strong>Update.esm&lt;/strong> in multiple records:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/rs-update-conflict.png" alt="RS Update Conflict">&lt;/p>
+&lt;p>Since Update.esm is a &lt;em>master&lt;/em> to RelightingSkyrim_SSE.esp and the latter literally exists to modify the former, it is a pretty safe bet that these conflicts are perfectly intentional and harmless.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Conflicts arising when a plugin overwrites one of its masters is almost always intentional.
+&lt;/div>
+&lt;p>More generally, you can also assume that a lighting overhaul&amp;rsquo;s changes to light-related records are intentional, a water overhaul&amp;rsquo;s changes to water-related records are intentional, and so forth.&lt;/p>
+&lt;h3 id="load-order-conflicts">Load Order Conflicts&lt;/h3>
+&lt;p>Many records are nested within other records: For example, &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/references/">references&lt;/a> are contained within CELL records. If a plugin modifies or adds a reference, it must also include a copy of the CELL record, even if it does not modify it.&lt;/p>
+&lt;p>As a result, CELL records are often present as &lt;strong>ITMs&lt;/strong> (Identical to Master) in multiple plugins which increases the risk of accidentally overwriting a modified layer of the record. You can see an example below:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/worldspace-conflict.png" alt="Load Order Conflict">&lt;/p>
+&lt;p>Here, an &lt;u>intentional&lt;/u> change from Realistic Water Two is &lt;u>unintentionally&lt;/u> being reverted to vanilla by Relighting Skyrim.&lt;/p>
+&lt;p>The solution is to load Realistic Water Two &lt;em>below&lt;/em> Relighting Skyrim.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Conflicts arising from a plugin&amp;rsquo;s edits being reverted to vanilla by another plugin are usually unintentional and can be resolved by swapping the load order.
+&lt;/div>
+&lt;p>Mods that modify &lt;strong>CELL&lt;/strong> records (like water and lighting overhauls) are best kept near the bottom of the load order as &lt;strong>late loaders&lt;/strong> to minimise the chances of their edits being unintentionally reverted to vanilla and to keep patching to a minimum.&lt;/p>
+&lt;h3 id="complex-conflicts">Complex Conflicts&lt;/h3>
+&lt;p>Data in plugins is not particularly self-contained and a single record usually affects a variety of things. Take NPC records: They determine the NPC&amp;rsquo;s name, appearance, factions, traits, inventory, outfit, and much more. Mods that overhaul NPC appearance will inevitably clash with mods that change the contents of their inventory.&lt;/p>
+&lt;p>Below, you can see a simple example of two mods modifying a WRLD record:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/rw2-ngic-conflict.png" alt="RW2 NGIC Conflict">&lt;/p>
+&lt;p>Merely changing the load order would make one mod or the other work, but never both. A &lt;strong>patch&lt;/strong> is required to add another layer into which all desired changes can be forwarded.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/rw2-ngic-resolved.png" alt="RW2 NGIC Conflict Resolved">&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Conflicts arising from multiple plugins making different changes to the same records typically require a patch.
+&lt;/div>
+&lt;p>Note that &amp;ldquo;making stuff green&amp;rdquo; in SSEEdit is not &lt;u>always&lt;/u> the correct solution and indeed it is not always possible. You may recall that in the &lt;em>harmless conflict&lt;/em> example SSEEdit was still displaying the record in bright red to show a conflict was happening.&lt;/p>
+&lt;p>&lt;strong>Rather than focusing on making SSEEdit look green, focus on forwarding all desired changes into the final layer.&lt;/strong>&lt;/p>
+&lt;p>&lt;em>That being said, it is easier to work with a large load order if you can avoid checking the same conflicts repeatedly. This is where &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/modgroups/">ModGroups&lt;/a> come in handy.&lt;/em>&lt;/p></description></item><item><title>Bg: Creation Club</title><link>https://thephoenixflavour.com/bg/knowledge-base/creation-club/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/creation-club/</guid><description>
+&lt;p>&lt;em>Wow, such empty.&lt;/em>&lt;/p></description></item><item><title>Bg: ESL Plugins</title><link>https://thephoenixflavour.com/bg/knowledge-base/esl-plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/esl-plugins/</guid><description>
+&lt;h2 id="about-esl-plugins">About ESL Plugins&lt;/h2>
+&lt;p>This article summarises some basic knowledge about &lt;strong>ESL Plugins&lt;/strong>.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+I recommend reading the article on &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/plugin-basics/">Plugin Basics&lt;/a> first.
+&lt;/div>
+&lt;p>The &lt;strong>ESL&lt;/strong> plugin format was added in the Creation Engine&amp;rsquo;s 64bit upgrade for Fallout 4 and Skyrim Special Edition. It does not work in the 32bit version of the engine that Skyrim LE is running on.&lt;/p>
+&lt;p>The format was added to allow for dozens, potentially hundreds of new plugins for the official &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/creation-club/">Creation Club&lt;/a>, but has proved a godsent for the modding community as well. It circumvents the 256 plugin limit by reducing the size of the plugins.&lt;/p>
+&lt;h2 id="esl-form-ids">ESL Form IDs&lt;/h2>
+&lt;p>The Form IDs in ESP and ESM plugins consist of the changeable two-character &lt;strong>Index&lt;/strong> and six permanent characters unique to the record. This creates the 256 plugin limit.&lt;/p>
+&lt;p>Meanwhile, ESL plugins have a five-character &lt;strong>Index:&lt;/strong> &lt;code>FExxx&lt;/code>. The hexadecimal FE is the decimal 254 which means that all ESL plugins load in a single ESP/ESM plugin slot (254).&lt;/p>
+&lt;p>&lt;strong>A total of 4096 ESLs can be loaded at the same time.&lt;/strong>&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+ESL-ified ESPs are also called ESP-FEs because of the ESL Index.
+&lt;/div>
+&lt;h3 id="plugin-capacity">Plugin Capacity&lt;/h3>
+&lt;p>The downside of ESLs is that they can store fewer unique Form IDs because they only have three permanent characters as opposed to six in ESPs/ESMs. Every ESL can only store 4096 unique Form IDs of which the first 2048 are reserved by the engine.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+This limit affects only &lt;u>new records&lt;/u>. There is no limit on how many records defined in &lt;em>other&lt;/em> plugins can be copied into an ESL (or any other plugin type for that matter).
+&lt;/div>
+&lt;h2 id="creating-an-esl">Creating an ESL&lt;/h2>
+&lt;p>Even a moderately-sized load order will quickly reach the 256 ESP/ESM limit, especially through small patches and minor tweaks. Using ESLs is unavoidable (and thankfully many mods now come with ESL plugins right out of the gate).&lt;/p>
+&lt;p>A plugin can be turned into an ESL by adding the ESL flag to it. Specific instructions can be found &lt;a href="https://thephoenixflavour.com/bg/additional-modules/creating-esl-plugins/">here&lt;/a>.&lt;/p>
+&lt;h3 id="plugins-without-new-records">Plugins without new records&lt;/h3>
+&lt;p>If a plugin (ESP or ESM) does &lt;u>not&lt;/u> add any new records (Form IDs), it can always be ESL-flagged. This is typically the case for patches of all kinds and minor tweaks for vanilla or other mods.&lt;/p>
+&lt;h3 id="plugins-with-new-records">Plugins with new records&lt;/h3>
+&lt;p>If a plugin (ESP or ESM) &lt;u>does&lt;/u> add new records (Form IDs), they may need to be compacted before ESL-flagging.&lt;/p>
+&lt;p>Think about the differences in the Form ID format: While an ESP/ESM Form ID can have six character (+Index), an ESL can only have three (+Index). If there are Form IDs in the mod you wish to ESL-ify that extend beyond the final three characters, they have to be renumbered first to make room for the ESL Index.&lt;/p>
+&lt;p>&lt;strong>Remember that a plugin can only be ESL-ified if it has less than 2048 new records.&lt;/strong>&lt;/p>
+&lt;p>Notably, not &lt;u>all&lt;/u> plugins with new records need compacting. For example, in SkyUI_SE.esp, the new Form IDs only use the final three characters which means the first five characters are already freed up for the ESL Index and no change is required before adding the ESL flag:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/esl-plugins/skyui-forms.png" alt="SkyUI Forms">&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Never ESL-ify a plugin that adds a new interior CELL or you will &lt;a href="https://thephoenixflavour.com/Pictures/bg/core-module/myrwatch-broken.jpg">completely break it&lt;/a> as soon as another plugin attempts to modify it in any way.
+&lt;/div>
+&lt;h2 id="compacting-form-ids">Compacting Form IDs&lt;/h2>
+&lt;p>When ESL-ifying a plugin that contains new record, you must compact its Form IDs first. This carries a risk:&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+By renumbering Form IDs you will break the plugins&amp;rsquo;s dependencies. Any plugin that requires it as a &lt;em>master&lt;/em> will be unable to find the original records that it is modifying, resulting in a wave of errors that will probably crash the game.
+&lt;/div>
+&lt;p>You can avoid this by doing the following:&lt;/p>
+&lt;ol>
+&lt;li>Avoid compacting Form IDs in plugins that are likely a master to many other plugins (i.e., that have many patches).&lt;/li>
+&lt;li>Compact Form IDs in plugins only when all of their dependent plugins are also present in SSEEdit at the time.&lt;/li>
+&lt;/ol>
+&lt;p>In the latter case, those dependent plugins would be updated automatically.&lt;/p>
+&lt;h2 id="esl-or-esp-fe">ESL or ESP-FE&lt;/h2>
+&lt;p>When should you create a full ESL and when is an ESP-FE sufficient?&lt;/p>
+&lt;p>The difference lies in the fact that a full ESL loads in ESM space. It handles &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/references/">references&lt;/a> differently and will always be forced to the top of the load order.&lt;/p>
+&lt;p>If a given plugin does not contain CELL records with (temporary) references and does not need to load early because of dependencies or to be overwritten by other mods, creating an &lt;strong>ESP-FE&lt;/strong> is sufficient.&lt;/p>
+&lt;p>Otherwise, create a &lt;strong>full ESL&lt;/strong>.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Also remember that a full ESL will load in ESM space. For a plugin that happens to have a master that is an ESP, it would be impossible to load below the master as a full ESL, so it can only be turned into an ESP-FE.
+&lt;/div></description></item><item><title>Bg: Facegen</title><link>https://thephoenixflavour.com/bg/knowledge-base/facegen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/facegen/</guid><description>
+&lt;h2 id="what-is-facegen">What is Facegen?&lt;/h2>
+&lt;p>&lt;strong>Facegen&lt;/strong> is data generated with the Creation Kit that defines an NPC&amp;rsquo;s appearance, specifically of its head. It consists of a &lt;strong>mesh&lt;/strong> and a &lt;strong>texture&lt;/strong> named after the NPC&amp;rsquo;s Form ID.&lt;/p>
+&lt;p>For example, the &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/plugin-basics/#form-ids">Form ID&lt;/a> for &lt;strong>Serana&amp;rsquo;s&lt;/strong> NPC record is &lt;code>02002B6C&lt;/code>. Her appearance is defined in this record which the Creation Kit uses to generate facegen data for her.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/facegen/serana-in-xedit.png" alt="Serana">&lt;/p>
+&lt;p>Her facegen thus consists of:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>\meshes\actors\character\facegendata\facegeom\dawnguard.esm\00002b6c.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>\textures\actors\character\facegendata\facetint\dawnguard.esm\00002b6c.dds&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-info" role="alert">
+You may have noticed that the &lt;strong>Index&lt;/strong> (first two characters) in the Form ID names of these files does not match the plugin (Dawnguard should have the Index 02). This is because the Index is defined by the load order. If it were part of the facegen assets&amp;rsquo; filenames, they would have to be renamed or regenerated every time the load order changed. To prevent this, facegen files always have the Index 00, but are tied to the name of the plugin in which the NPC originates.
+&lt;/div>
+&lt;p>This is what you see when you preview the mesh in NifSkope:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/facegen/serana-facegen.png" alt="Serana">&lt;/p>
+&lt;h3 id="black-face-bug">Black Face Bug&lt;/h3>
+&lt;p>The infamous &amp;ldquo;black face bug&amp;rdquo; is what occurs when facegen assets are either missing (the above mentioned texture and/or mesh cannot be found), or mismatched (the mesh does not match the head parts defined in the record). When the facetint texture is not loaded, NPC&amp;rsquo;s faces will simply appear dark brown or black.&lt;/p>
+&lt;p>Mismatched facegen typically happens when using a mod that modifies the appearance of an NPC in a plugin and contains new facegen data based on those modifications, but the plugin is then overwritten by another. This can be fixed with a very simple conflict resolution patch forwarding the first plugins&amp;rsquo;s appearance changes and merging them with whatever the second plugin does.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Facegen can be regenerated at runtime by &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/42441">Face Discoloration Fix&lt;/a> which will prevent the black face bug. Please note that doing so is slower than loading pregenerated facegen so I still recommend pregenerating facegen in the Creation Kit even when using the mod.
+&lt;/div>
+&lt;h3 id="managing-facegen-assets">Managing Facegen Assets&lt;/h3>
+&lt;p>Facegen assets are regular assets that adhere to overwrite rules in the Mod Organizer 2 mod order. They can be installed as loose files or packed into BSAs in which case loose facegen files overwrite BSA-packed ones.&lt;/p>
+&lt;p>As you can see from the file paths for facegen assets, you need to be careful when renaming plugins that contain new NPCs or changing their Form IDs. Doing so would break all facegen associated with the plugins or forms, and you would have to either rename the folder or files.&lt;/p>
+&lt;h2 id="regenerating-facegen">Regenerating Facegen&lt;/h2>
+&lt;p>Facegen needs to be regenerated when:&lt;/p>
+&lt;ol>
+&lt;li>Changes to Head Parts, Tint Layers, etc, were made in the NPC&amp;rsquo;s record.&lt;/li>
+&lt;li>New meshes for head parts (hair, eyes, mouth) were installed.&lt;/li>
+&lt;li>New textures for tint masks (make up, war paints, dirt overlays) were installed.&lt;/li>
+&lt;/ol>
+&lt;p>New head part or tint mask assets will not cause the black face bug, but they will also not appear on NPCs until their facegen is regenerated with those assets installed.&lt;/p>
+&lt;h3 id="autogenerated-facegen">Autogenerated Facegen&lt;/h3>
+&lt;p>The Creation Kit likes to generate facegen even when a plugin made no changes that require it. Fortunately, &lt;a href="https://thephoenixflavour.com/bg/tool-setup/creation-kit/#creation-kit-fixes">SSE Creation Kit Fixes&lt;/a> already disables this in its INI file:&lt;/p>
+&lt;pre>&lt;code>[CreationKit_FaceGen]
+DisableAutoFaceGen=true
+&lt;/code>&lt;/pre>&lt;p>I recommend leaving autogeneration disabled and manually exporting facegen when it is truly necessary.&lt;/p>
+&lt;h3 id="custom-facegen">Custom Facegen&lt;/h3>
+&lt;p>I recommend regenerating and exporting facegen for all NPCs (vanilla and mod-added) as one of the final steps in building a setup. This will apply higher-quality assets to NPCs&amp;rsquo; faces which can go a long way toward increasing quality &lt;em>and&lt;/em> consistency. It is also not particularly complicated or time-consuming.&lt;/p>
+&lt;p>If you are using NPC overhauls, I still recommend regenerating facegen for the remaining NPCs as they rarely cover &lt;em>all&lt;/em> NPCs in the vanilla game, and certainly not those added by other mods. You can either delete overlapping facegen or simply make sure that your facegen output is being overwritten by whichever mods you installed.&lt;/p>
+&lt;p>You can find instructions on how to regenerate facegen &lt;a href="https://thephoenixflavour.com/bg/additional-modules/regenerating-facegen/">here&lt;/a>.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Do not attempt to regenerate facegen for &lt;strong>children&lt;/strong> the same way. As there are few children in the game, using a pre-made overhaul from the Nexus is perfectly sufficient.
+&lt;/div></description></item><item><title>Bg: INI Files</title><link>https://thephoenixflavour.com/bg/knowledge-base/ini-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/ini-files/</guid><description>
 &lt;h2 id="vanilla-ini-files">Vanilla INI Files&lt;/h2>
 &lt;p>Various settings for Skyrim can be configured in a set of INI files:&lt;/p>
 &lt;ul>
@@ -58,7 +261,103 @@ When modifying INIs through the INI Editor always remember to click the &lt;stro
 &lt;h2 id="vortex">Vortex&lt;/h2>
 &lt;h2 id="nexus-mod-manager">Nexus Mod Manager&lt;/h2>
 &lt;h2 id="wrye-bash">Wrye Bash&lt;/h2></description></item><item><title>Bg: Modding Guides</title><link>https://thephoenixflavour.com/bg/knowledge-base/modding-guides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/modding-guides/</guid><description>
-&lt;p>&lt;em>Wow, such empty.&lt;/em>&lt;/p></description></item><item><title>Bg: Nexus Premium</title><link>https://thephoenixflavour.com/bg/knowledge-base/nexus-premium/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/nexus-premium/</guid><description>
+&lt;p>&lt;em>Wow, such empty.&lt;/em>&lt;/p></description></item><item><title>Bg: ModGroups</title><link>https://thephoenixflavour.com/bg/knowledge-base/modgroups/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/modgroups/</guid><description>
+&lt;h2 id="about-modgroups">About ModGroups&lt;/h2>
+&lt;p>This article summarises some basic information on &lt;strong>ModGroups&lt;/strong>.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+I recommend reading the article on &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/conflict-management/">Conflict Management&lt;/a> first.
+&lt;/div>
+&lt;p>&lt;strong>ModGroups&lt;/strong> are a purely cosmetic feature of &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sseedit/">SSEEdit&lt;/a>. They are meant to selectively hide conflicts that have already been reviewed and were found to be intentional, and do not affect the game at all.&lt;/p>
+&lt;p>When working through a large load order, some conflicts will disappear after changing the position of a plugin or creating a patch, but the majority is typically intentional which means SSEEdit with a filter for conflicts will always look like a rainbow - like there is still a lot of work to be done.&lt;/p>
+&lt;p>Rather than constantly coming back to the same record only to conclude that its conflict(s) require no intervention, it can be helpful to create a ModGroup that &lt;em>hides&lt;/em> those conflicts.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Please consult the official &lt;a href="https://tes5edit.github.io/docs/4-modgroups.html">ModGroups documentation&lt;/a> on the Tome of xEdit site with any further questions.
+&lt;/div>
+&lt;h3 id="comparison">Comparison&lt;/h3>
+&lt;p>&lt;strong>Before:&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/conflicts-pre-modgroups.png" alt="Conflicts Pre-ModGroups">&lt;/p>
+&lt;p>&lt;strong>After:&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/conflicts-post-modgroups.png" alt="Conflicts Post-ModGroups">&lt;/p>
+&lt;h2 id="creating-modgroups">Creating ModGroups&lt;/h2>
+&lt;p>ModGroups are created in SSEEdit, ideally after &lt;a href="https://thephoenixflavour.com/bg/additional-modules/filter-for-conflicts/">filtering for conflicts&lt;/a>. If you have determined that all conflicts between a given pair of plugins (or a larger group) are fully intentional, you can create a new ModGroup for them.&lt;/p>
+&lt;ul>
+&lt;li>Highlight both/all plugins in the left pane.&lt;/li>
+&lt;li>Right-click the selected plugins and select &lt;strong>Create ModGroup&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="crc32s">CRC32s&lt;/h3>
+&lt;p>You will be asked whether you wish to include current CRC32s.&lt;/p>
+&lt;p>&lt;a href="https://en.wikipedia.org/wiki/Cyclic_redundancy_check">CRCs&lt;/a> are fragments of code that can be used to identify and compare files. You can see the current CRCs of your loaded plugins in the left pane in SSEEdit:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/modgroups/crcs.png" alt="CRCs">&lt;/p>
+&lt;p>The CRC of a plugin will change when the plugin is modified (when it is renamed, ESL-flagged, records are edited/added/removed, etc). Including the current CRCs in the ModGroup means that it will &lt;u>only&lt;/u> be valid for &lt;em>these specific versions&lt;/em> of the plugins and break if a mod was modified (either by you or by the author in an update).&lt;/p>
+&lt;p>While updating CRCs in ModGroups is not particularly time-consuming, I nevertheless find it more convenient &lt;u>not&lt;/u> to include the CRCs. This does mean that ModGroups may, at times, hide conflicts you have not yet reviewed after an updated to a plugin, though you can always do routine checks without ModGroups loaded later on.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+My personal recommendation is not to include CRCs, but ultimately this is up to you.
+&lt;/div>
+&lt;h3 id="modgroup-flags">ModGroup Flags&lt;/h3>
+&lt;p>Next, you will be able to modify various settings. You can change them by clicking in the cell for the column and row of the setting and plugin, respectively.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Optional:&lt;/strong> Plugins marked as optional do not have to be present for the ModGroup to be valid.&lt;/li>
+&lt;li>&lt;strong>Target:&lt;/strong> Conflicts in this plugin can be hidden.&lt;/li>
+&lt;li>&lt;strong>Source:&lt;/strong> Overwriting records in this plugin will hide the overwritten records in previous plugins.&lt;/li>
+&lt;li>&lt;strong>Forbidden:&lt;/strong> Plugins marked as forbidden will invalidate the ModGroup if present.&lt;/li>
+&lt;li>&lt;strong>Ignore LO:&lt;/strong> If empty, the load order of the plugins must be as listed in the ModGroup for it to be valid.
+&lt;ul>
+&lt;li>&lt;em>Always:&lt;/em> Any load order is valid&lt;/li>
+&lt;li>&lt;em>In Block:&lt;/em> Must adhere to load order of all plugins with this flag&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-info" role="alert">
+For a more detailed overview, check the &lt;a href="https://tes5edit.github.io/docs/4-modgroups.html#ModGroupFlags">Tome of xEdit&lt;/a>.
+&lt;/div>
+&lt;h3 id="naming-scheme">Naming Scheme&lt;/h3>
+&lt;p>After adjusting the flags you need to enter a name for your new ModGroup at the top. The short version is: Name your Modgroup whatever you like.&lt;/p>
+&lt;p>Now, the long version.&lt;/p>
+&lt;p>If you use ModGroups a lot, you will probably create several dozen for a decently-sized load order in which case it makes sense to adhere to some kind of system. For example, I name my ModGroups after the plugins they contain, starting with the &lt;strong>Source&lt;/strong> plugin, then going through the target plugins in the order they are loaded in.&lt;/p>
+&lt;p>My ModGroup for the two plugins from Realistic Water Two and the official master files (minus Skyrim.esm which cannot have critical conflicts) is named as follows:&lt;/p>
+&lt;ul>
+&lt;li>RealisticWaterTwo-OfficialMasterFiles-RealisticWaterTwoESM
+&lt;ul>
+&lt;li>&lt;em>ModGroup for RealisticWaterTwo.esp, RealisticWaterTwo - Resources.esm, and the official master files&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>If a patch is included, I usually combine the names of the target mods:&lt;/p>
+&lt;ul>
+&lt;li>RealisticWaterTwoMyrwatch-CCMyrwatch-RealisticWaterTwo
+&lt;ul>
+&lt;li>&lt;em>ModGroup for Realistic Water Two, its CC Myrwatch Patch, and the Myrwatch creation itself&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>This is a system that works &lt;em>for me&lt;/em>. Please feel free to come up with your own as I would not call mine the objectively &amp;ldquo;best&amp;rdquo; by any stretch of the imagination.&lt;/p>
+&lt;h3 id="source-mod">Source Mod&lt;/h3>
+&lt;p>After entering a name for your ModGroup and click &lt;strong>OK&lt;/strong>, you will be asked which plugin to &amp;ldquo;store&amp;rdquo; the ModGroup with.&lt;/p>
+&lt;p>To understand what this means, you need to know that a .modgroups file is essentially a text file with the names of the plugins inside. The file itself is named after the plugin it is associated with and only loads if that plugin is present. This is similar to plugin INIs and BSAs.&lt;/p>
+&lt;p>&lt;strong>Every ModGroup needs to be attached to a plugin.&lt;/strong>&lt;/p>
+&lt;p>My ModGroups are always made for one specific plugin with the idea that if I remove the plugin, I also remove the ModGroup. This kind of modularity enables a good amount of flexibility where removing a mod does not force me to redo a number of ModGroups.&lt;/p>
+&lt;p>I recommend adopting a similar system with as few Source plugins as possible per ModGroup and storing each ModGroup with the Source plugin that is lowest in the load order.&lt;/p>
+&lt;ul>
+&lt;li>Select a plugin from the list, check it, and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> again to activate your ModGroup.&lt;/li>
+&lt;/ul>
+&lt;h2 id="modgroups-in-mo2">ModGroups in MO2&lt;/h2>
+&lt;p>ModGroup files will, as usual, be caught by the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> after closing SSEEdit.&lt;/p>
+&lt;p>From there, you can either move the files to a &lt;strong>ModGroups&lt;/strong> mod folder &lt;u>or&lt;/u> create separate mod folders for each mod&amp;rsquo;s ModGroups (this will only be one file unless that mod has more than one plugin).&lt;/p>
+&lt;p>As you may have guessed, I prefer the modularity and flexibility of separate mod folders:&lt;/p>
+&lt;ul>
+&lt;li>Realistic Water Two&lt;/li>
+&lt;li>Realistic Water Two - ModGroups&lt;/li>
+&lt;li>GKB Waves Reborn&lt;/li>
+&lt;li>GKB Waves Reborn - ModGroups&lt;/li>
+&lt;/ul>
+&lt;p>Handle your own ModGroups as you see fit.&lt;/p>
+&lt;h2 id="editing-modgroups">Editing ModGroups&lt;/h2>
+&lt;p>ModGroups can be modified in two ways:&lt;/p>
+&lt;ol>
+&lt;li>Directly through the &lt;strong>SSEEdit&lt;/strong> interface by right-click in the left pane and selecting &lt;strong>Edit ModGroup&lt;/strong>. This will allow you to change ModGroup flags but you cannot add or remove plugins.&lt;/li>
+&lt;li>Indirectly through a &lt;strong>text editor&lt;/strong>. The .modgroups files can be opened in Notepad++ and similar software and edited there. This way, you &lt;em>can&lt;/em> add or remove plugins (as well as rename plugins or change CRCs).&lt;/li>
+&lt;/ol></description></item><item><title>Bg: Nexus Premium</title><link>https://thephoenixflavour.com/bg/knowledge-base/nexus-premium/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/nexus-premium/</guid><description>
 &lt;p>&lt;a href="https://users.nexusmods.com/register/memberships">Nexus Premium&lt;/a> is a paid subscription that grants certain perks to users, including removal of all ads and faster downloads. The Nexus has also added an additional click to the process of downloading a file which includes a countdown and an ad for the Premium membership to further incentivise purchasing a subscription.&lt;/p>
 &lt;p>I recommend holding off on Premium until you have progressed enough in your modding journey to know that you will stick with it for a while. When building a larger mod setup, paying for a month or so of Premium can be well worth the asking price. It is also a great way of giving back to the Nexus for their service, especially for those of us with ad blockers installed.&lt;/p></description></item><item><title>Bg: Nexus Virus Check</title><link>https://thephoenixflavour.com/bg/knowledge-base/nexus-virus-check/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/nexus-virus-check/</guid><description>
 &lt;p>All files that are uploaded to the Nexus will automatically be checked for viruses by &lt;a href="https://www.virustotal.com/gui/home/upload">VirusTotal&lt;/a>.&lt;/p>
@@ -70,7 +369,8 @@ When modifying INIs through the INI Editor always remember to click the &lt;stro
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/mo2-virus-total.png" alt="MO2 Virus Total">&lt;/p></description></item><item><title>Bg: Phoenix on LOOT</title><link>https://thephoenixflavour.com/bg/knowledge-base/phoenix-on-loot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/phoenix-on-loot/</guid><description>
 &lt;h2 id="preface">Preface&lt;/h2>
 &lt;p>This section covers &lt;u>my personal opinion&lt;/u> on the tool LOOT. The short version is that I think the tool is severely misunderstood by a significant part of the community, especially newcomers. You need to take its limitations into account if you want to use it.&lt;/p>
-&lt;p>In order to understand what I am talking about a basic understanding of load order, plugins, and conflicts is required.&lt;/p>
+&lt;p>&lt;font size=2>*Since I do not personally use LOOT for load order management, doing so is not covered anywhere on this site.*&lt;/font>&lt;/p>
+&lt;p>In order to understand what I am talking about a basic understanding of load order, plugins, and conflicts is required. I recommend reading the articles on &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/plugin-basics/">Plugin Basics&lt;/a> and &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/conflict-management/">Conflict Management&lt;/a> as primers.&lt;/p>
 &lt;h2 id="loot-and-load-order">LOOT and Load Order&lt;/h2>
 &lt;p>So, here is the thing.&lt;/p>
 &lt;p>&lt;strong>Figuring out the ideal load order is hard, actually.&lt;/strong> It is time-consuming, especially for large load orders: For example, TPF has well over 1,000 plugins, and it is far from the biggest setup out there. I spend a lot of time, hours upon hours, in SSEEdit, looking at conflicts to figure out which are harmless, which can be resolved through load order adjustments, and which require patches.&lt;/p>
@@ -84,7 +384,163 @@ LOOT is capable of one thing: Solving load order conflicts &lt;u>if&lt;/u> the c
 &lt;p>You can observe the result of this idea every day on the Skyrim modding subreddit, in Nexus comments, on various Discord servers. It is unfortunately reinforced by many mod authors who recommend running LOOT on their mod pages without clarifying that simply running LOOT does not a functional modded setup make. Plenty of &amp;ldquo;modding guides&amp;rdquo; further perpetuate this idea.&lt;/p>
 &lt;p>👏 &lt;strong>LOOT will not fix your load order.&lt;/strong> 👏&lt;/p>
 &lt;p>That being said, LOOT &lt;u>can&lt;/u> speed up the process of fixing your load order by improving your baseline. Some of the most talented mod authors and list curators I know are using LOOT with a multitude of custom rules to manage their load order and consider this the most efficient way.&lt;/p>
-&lt;p>&lt;font size=2>*I do want to stress that LOOT was never &lt;u>marketed&lt;/u> as this magical fix-all solution. It is the community hivemind that has portrayed it as such.*&lt;/font>&lt;/p></description></item><item><title>Bg: Porting SLE Mods</title><link>https://thephoenixflavour.com/bg/knowledge-base/porting-sle-mods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/porting-sle-mods/</guid><description>
+&lt;p>&lt;font size=2>*I do want to stress that LOOT was never &lt;u>marketed&lt;/u> as this magical fix-all solution. It is the community hivemind that has portrayed it as such.*&lt;/font>&lt;/p></description></item><item><title>Bg: Plugin Basics</title><link>https://thephoenixflavour.com/bg/knowledge-base/plugin-basics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/plugin-basics/</guid><description>
+&lt;h2 id="about-plugins">About Plugins&lt;/h2>
+&lt;p>This article summarises some basic knowledge about &lt;strong>plugins&lt;/strong>.&lt;/p>
+&lt;p>Mods (and the game data of the vanilla game) consists of two basic file types: &lt;strong>Plugins&lt;/strong> and &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/asset-basics/">assets&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Plugins&lt;/strong> with the extensions &lt;strong>.esm&lt;/strong>, &lt;strong>.esp&lt;/strong>, or &lt;strong>.esl&lt;/strong> are a file type specific to the Creation Engine.* They can be created, viewed, and modified in the official &lt;a href="https://thephoenixflavour.com/bg/tool-setup/creation-kit/">Creation Kit&lt;/a> and the community tool &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sseedit/">SSEEdit&lt;/a>.&lt;/p>
+&lt;p>&lt;font size=2>**All of Bethesda Game Studios&amp;rsquo; games and Obsidian&amp;rsquo;s Fallout New Vegas are developed in the Creation Engine.*&lt;/font>&lt;/p>
+&lt;p>Plugins populate the &lt;strong>load order&lt;/strong>. Managing the load order and editing plugins for compatibility and consistency with each other is a major part of building a modded setup.&lt;/p>
+&lt;h2 id="records">Records&lt;/h2>
+&lt;p>Plugins contain game data in the form of &lt;strong>records&lt;/strong>. Each plugin can contain hundreds and thousands of records which are split up into a variety of categories. All vanilla records are defined in the five &lt;strong>official master files:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Skyrim.esm&lt;/li>
+&lt;li>Update.esm&lt;/li>
+&lt;li>Dawnguard.esm&lt;/li>
+&lt;li>HearthFires.esm&lt;/li>
+&lt;li>Dragonborn.esm&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-info" role="alert">
+The first plugin contains data from the vanilla game. The third, fourth, and fifth contain data from the three DLCs. Update.esm is used for offical post-release patches, mostly to overwrite and modify Skyrim.esm.
+&lt;/div>
+&lt;h3 id="example">Example&lt;/h3>
+&lt;p>&lt;strong>Alvor&lt;/strong> is the blacksmith from Riverwood whom you meet after completing the prologue. Since this NPC (Non-Player Character) was part of the vanilla game, he is &lt;u>defined&lt;/u> in &lt;strong>Skyrim.esm&lt;/strong>.&lt;/p>
+&lt;p>His NPC record defines Alvor&amp;rsquo;s name, his appearance, voice, race, faction membership, inventory contents, outfit, and much more. Below, you can see the top of Alvor&amp;rsquo;s NPC record when viewed in SSEEdit.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/plugin-basics/alvor-record.png" alt="Alvor Record">&lt;/p>
+&lt;h2 id="form-ids">Form IDs&lt;/h2>
+&lt;p>Every &lt;strong>record&lt;/strong> can be identified by its unique &lt;strong>Form ID&lt;/strong>. Form IDs consist of 8 &lt;a href="https://en.wikipedia.org/wiki/Hexadecimal">hexadecimal&lt;/a> numbers (1-9 and A-F). The first two characters are the &lt;strong>Index&lt;/strong> which changes depending on load order position while the remaining six characters are unique to the record.&lt;/p>
+&lt;p>Example: The Form ID for Alvor&amp;rsquo;s NPC record is &lt;code>00013475&lt;/code>.&lt;/p>
+&lt;h3 id="index">Index&lt;/h3>
+&lt;p>Skyrim.esm &lt;u>always&lt;/u> loads first so its Index stays &lt;code>00&lt;/code> and it is always followed by Update.esm with the index &lt;code>01&lt;/code>. In the Skyrim LE days, it was possible to only one &lt;em>some&lt;/em> of the DLC, so the Index of the remaining master files depended on which you owned.&lt;/p>
+&lt;p>If you only owned the &lt;strong>Dragonborn&lt;/strong> DLC, this would be your load order:&lt;/p>
+&lt;ul>
+&lt;li>&lt;mark>[00]&lt;/mark> Skyrim.esm&lt;/li>
+&lt;li>&lt;mark>[01]&lt;/mark> Update.esm&lt;/li>
+&lt;li>&lt;mark>[02]&lt;/mark> Dragonborn.esm&lt;/li>
+&lt;/ul>
+&lt;p>In Skyrim SE, which contains all DLC, this is your load order:&lt;/p>
+&lt;ul>
+&lt;li>&lt;mark>[00]&lt;/mark> Skyrim.esm&lt;/li>
+&lt;li>&lt;mark>[01]&lt;/mark> Update.esm&lt;/li>
+&lt;li>&lt;mark>[02]&lt;/mark> Dawnguard.esm&lt;/li>
+&lt;li>&lt;mark>[03]&lt;/mark> HearthFires.esm&lt;/li>
+&lt;li>&lt;mark>[04]&lt;/mark> Dragonborn.esm&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-warning" role="alert">
+Because each Form ID can only be used once per plugin and each plugin has a unique Index, there can never be two identical Form IDs.
+&lt;/div>
+&lt;h3 id="plugin-limit">Plugin Limit&lt;/h3>
+&lt;p>The two-character Index creates an important limitation: &lt;strong>The load order cannot exceed 256 ESM and ESP plugins.&lt;/strong>&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Why? Because the hexadecimal system has 16 unique characters and there are exactly 256 possible combinations of these characters for the two-character Index. The hexadecimal &lt;strong>FF&lt;/strong> is the decimal &lt;strong>255&lt;/strong>, so the maximum amount of plugins from 0 (00) to 255 (FF) is 256 (&lt;a href="https://thephoenixflavour.com/Pictures/bg/core-module/hexadecimalchart.png">see this table&lt;/a> for a good visualisation).
+&lt;/div>
+&lt;p>The load order limit can be circumvented in two ways:&lt;/p>
+&lt;ol>
+&lt;li>Merging multiple smaller plugins together to create a single bigger one.&lt;/li>
+&lt;li>Using the ESL file format.&lt;/li>
+&lt;/ol>
+&lt;p>Since ESL plugins were added in Skyrim SE, merging has become largely redundant. ESLs will be discussed extensively further down on this page.&lt;/p>
+&lt;h2 id="layers">Layers&lt;/h2>
+&lt;p>SSEEdit visualises plugins as &lt;strong>layers&lt;/strong> which makes it easy to understand interaction between plugins. Each plugin contains one version of a record (either the original or a copy) which is equal to one layer.&lt;/p>
+&lt;p>Below, you can see a record that is &lt;u>defined&lt;/u> in Skyrim.esm and &lt;u>modified&lt;/u> in Update.esm:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/plugin-basics/plugin-layers.png" alt="Plugin Layers">&lt;/p>
+&lt;p>&lt;strong>The game only reads the final overwriting version of each record.&lt;/strong>&lt;/p>
+&lt;p>Both Skyrim.esm and Update.esm modify the same record, but only the layer from Update.esm will be loaded into the game because it is loaded last. Any previous layers will be completely ignored.&lt;/p>
+&lt;h3 id="implications">Implications&lt;/h3>
+&lt;p>Because plugins overwrite each other according to the order they are loaded in and only one plugin can modify a record, it is important to ensure that the correct plugin is placed last.&lt;/p>
+&lt;p>&lt;strong>The correct load order is crucial for mods to function as intended.&lt;/strong>&lt;/p>
+&lt;h2 id="conflicts">Conflicts&lt;/h2>
+&lt;p>A &lt;strong>conflict&lt;/strong> occurs when multiple plugins modify the same record in different ways. While SSEEdit will visualise conflicts in alarming shades of red and orange, not all conflicts are actually harmful. In fact, most conflicts are fully intentional and indeed unavoidable.&lt;/p>
+&lt;p>Below, you can see a perfectly harmless &lt;em>critical conflict&lt;/em> arising from the fact that both &lt;strong>Dawnguard.esm&lt;/strong> and &lt;strong>HearthFires.esm&lt;/strong> modified the same &lt;strong>Skyrim.esm&lt;/strong> record in different ways:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/plugin-basics/critical-conflict.png" alt="Critical Conflict">&lt;/p>
+&lt;h3 id="patches">Patches&lt;/h3>
+&lt;p>When two or more plugins make different modifications to the same record and you wish to keep (some) changes from all of them, you need to create a new &lt;strong>patch&lt;/strong>. This means consolidating all desired changes in one final layer.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Master&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Plugin A&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Plugin B&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Patch&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;del>&lt;em>Original&lt;/em>&lt;/del>&lt;/td>
+&lt;td>&lt;mark>Edit 1&lt;/mark>&lt;/td>
+&lt;td>&lt;del>&lt;em>Original&lt;/em>&lt;/del>&lt;/td>
+&lt;td>&lt;mark>Edit 1&lt;/mark>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;del>&lt;em>Original&lt;/em>&lt;/del>&lt;/td>
+&lt;td>&lt;del>Edit 2&lt;/del>&lt;/td>
+&lt;td>&lt;mark>Edit 3&lt;/mark>&lt;/td>
+&lt;td>&lt;mark>Edit 3&lt;/mark>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;del>&lt;em>Original&lt;/em>&lt;/del>&lt;/td>
+&lt;td>&lt;mark>Edit 4&lt;/mark>&lt;/td>
+&lt;td>&lt;del>Edit 5&lt;/del>&lt;/td>
+&lt;td>&lt;mark>Edit 4&lt;/mark>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;em>Original&lt;/em>&lt;/td>
+&lt;td>&lt;em>Original&lt;/em>&lt;/td>
+&lt;td>&lt;em>Original&lt;/em>&lt;/td>
+&lt;td>&lt;em>Original&lt;/em>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>This is why &lt;u>both&lt;/u> load order &lt;u>and&lt;/u> patches are required for building a functional setup.&lt;/strong>&lt;/p>
+&lt;h2 id="dependencies">Dependencies&lt;/h2>
+&lt;p>When a plugin modifies a record defined in another plugin, a &lt;strong>dependency&lt;/strong> is created.&lt;/p>
+&lt;p>Take our earlier example, Alvor: Any mod that changes his NPC record &lt;u>requires&lt;/u> Skyrim.esm as a &lt;strong>master&lt;/strong> because that is where the record originates. If Skyrim.esm were not present, this would create a &lt;em>missing master&lt;/em> error which can create various problems, including crashes.&lt;/p>
+&lt;p>&lt;strong>All plugins must have their master files loaded at all times.&lt;/strong>&lt;/p>
+&lt;h2 id="plugin-types">Plugin Types&lt;/h2>
+&lt;p>There are three different types of plugins:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Elder Scrolls Plugin&lt;/strong> (ESP) (ESP) are the most common file type. They count toward the 256 plugin limit and load at the bottom of the load order in &lt;em>ESP space&lt;/em>.&lt;/li>
+&lt;li>&lt;strong>Elder Scrolls Master&lt;/strong> (ESM) plugins always load before all ESPs at the top of the load order in &lt;em>ESM space&lt;/em>. They also count toward the 256 plugin limit and differ from ESPs primarily in how they handle &lt;em>references&lt;/em>.
+&lt;ul>
+&lt;li>&lt;em>Read more about &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/references/">references&lt;/a>.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Elder Scrolls Light&lt;/strong> (ESL) plugins typically load in &lt;em>ESM space&lt;/em> at the top of the load order. They do &lt;u>not&lt;/u> count toward the 256 plugin limit and have a smaller Form ID capacity.
+&lt;ul>
+&lt;li>&lt;em>Read more about &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/esl-plugins/">ESL Plugins&lt;/a>.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="plugin-flags">Plugin Flags&lt;/h3>
+&lt;p>The plugin type is defined by:&lt;/p>
+&lt;ol>
+&lt;li>The file extension: .ESP, .ESM, .ESL.&lt;/li>
+&lt;li>The plugin flag: ESL, ESM.&lt;/li>
+&lt;/ol>
+&lt;div class="alert alert-warning" role="alert">
+All ESMs have the ESM flag and all ESLs have the ESL flag. ESPs do not have a plugin flag.
+&lt;/div>
+&lt;p>You can view &lt;strong>Plugin Flags&lt;/strong> in SSEEdit:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/plugin-basics/plugin-flags.png" alt="Plugin Flags">&lt;/p>
+&lt;h3 id="hybrid-plugins">Hybrid Plugins&lt;/h3>
+&lt;p>&lt;strong>Hybrid plugins&lt;/strong> can be created by mixing plugin flags and file extensions:&lt;/p>
+&lt;ul>
+&lt;li>Plugins with the .ESP and .ESL file extensions can be ESM-flagged to be treated as ESMs (load in ESM space and able to unload temporary references).&lt;/li>
+&lt;li>Plugins with the .ESP and .ESM file extensions can be ESL-flagged to be treated as ESLs (no longer count toward the plugin limit at the cost of a reduced Form ID budget).&lt;/li>
+&lt;/ul>
+&lt;h3 id="load-order">Load Order&lt;/h3>
+&lt;p>The five official master files as well as any present &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/creation-club/">Creation Club&lt;/a> plugins are hard-coded to always load at the top of the load order. They are followed by ESMs and ESPs.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Skyrim.esm&lt;/strong> &amp;raquo; &lt;code>ESM&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Unofficial Skyrim Special Edition Patch.esp&lt;/strong> &amp;raquo; &lt;code>ESM-flagged ESP&lt;/code>&lt;/li>
+&lt;li>&lt;em>&lt;strong>Vanilla Script MicroOptimizations.esl&lt;/strong>&lt;/em> &amp;raquo; &lt;code>ESM-flagged ESL&lt;/code>&lt;/li>
+&lt;li>&lt;em>Unofficial Skyrim Creation Club Content Patch.esl&lt;/em> &amp;raquo; &lt;code>ESL&lt;/code>&lt;/li>
+&lt;li>SkyUI.esp &amp;raquo; &lt;code>ESP&lt;/code>&lt;/li>
+&lt;li>&lt;em>MCMHelper.esp&lt;/em> &amp;raquo; &lt;code>ESL-flagged ESP&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-warning" role="alert">
+Plugins in ESM space (ESMs, ESLs, ESM-flagged ESPs) always load &lt;u>above&lt;/u> and are overwritten by plugins in ESP space (ESPs, ESL-flagged ESPs).
+&lt;/div></description></item><item><title>Bg: Porting SLE Mods</title><link>https://thephoenixflavour.com/bg/knowledge-base/porting-sle-mods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/porting-sle-mods/</guid><description>
 &lt;h2 id="differences-by-file-type">Differences by File Type&lt;/h2>
 &lt;p>Not all mods made for Skyrim LE will work out-of-the-box in Skyrim SE. A fair amount of them will need porting.&lt;/p>
 &lt;div class="alert alert-warning" role="alert">
@@ -121,7 +577,52 @@ Only &lt;u>uncompressed&lt;/u> textures can be compressed to BC7. If a texture i
 &lt;p>Animations can be processed with CAO for optimisation. Instructions can be found &lt;a href="https://thephoenixflavour.com/bg/additional-modules/optimising-sle-assets/">here&lt;/a>.&lt;/p>
 &lt;div class="alert alert-warning" role="alert">
 You cannot port FNIS animations this way, only vanilla replacers.
-&lt;/div></description></item><item><title>Bg: Resolution</title><link>https://thephoenixflavour.com/bg/knowledge-base/resolution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/resolution/</guid><description>
+&lt;/div></description></item><item><title>Bg: References</title><link>https://thephoenixflavour.com/bg/knowledge-base/references/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/references/</guid><description>
+&lt;h2 id="about-references">About References&lt;/h2>
+&lt;p>This article summarises some basic knowledge about &lt;strong>references&lt;/strong>.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+I recommend reading the article on &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/plugin-basics/">Plugin Basics&lt;/a> first.
+&lt;/div>
+&lt;p>&lt;strong>References&lt;/strong> (REFR) records make up the vast majority of records in the vanilla game files which is why &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sseedit/">SSEEdit&lt;/a> specifically caches these records to speed up the process of opening a load order.&lt;/p>
+&lt;p>References are generally &lt;em>things&lt;/em> placed in the world: This includes items like swords or flora like shrubs as well as spawn points, trigger boxes for scripts, and activators to display button prompts. Each reference links to a base object that it is placing and controls the placement, visibility, ownership, and other traits of the object.&lt;/p>
+&lt;h3 id="base-id-versus-ref-id">Base ID versus Ref ID&lt;/h3>
+&lt;p>When viewing objects ingame through &lt;a href="https://thephoenixflavour.com/bg/recommended-mods/console-improvements/#more-informative-console">More Informative Console&lt;/a>, you will see not one but two Form IDs:&lt;/p>
+&lt;ul>
+&lt;li>The &lt;strong>Base ID&lt;/strong> is the original (weapon, NPC, tree, etc) record of the object that is placed.&lt;/li>
+&lt;li>The &lt;strong>Ref ID&lt;/strong> is the specific copy of the object you are looking at.&lt;/li>
+&lt;/ul>
+&lt;p>The distinction is important when trying to modify the reference: If you want to change its placement, you need to look at the Ref record. If you want to change the placed object, you need to look at the Base record.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/ussep-book-formid.png" alt="Form IDs">&lt;/p>
+&lt;h2 id="persistent-versus-temporary">Persistent versus Temporary&lt;/h2>
+&lt;p>There are two types of references:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Temporary references&lt;/strong> only load into memory when the player is close by and are unloaded when they are no longer needed.&lt;/li>
+&lt;li>&lt;strong>Persistent references&lt;/strong> are always loaded into memory upon launching the game, regardless of player proximity.&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-info" role="alert">
+Persistent references also appear to vary in their &lt;em>level of persistence&lt;/em>. You can read a write-up by Arthmoor on the topic &lt;a href="https://www.afkmods.com/index.php?/topic/4250-skyrim-levels-of-persistence/">here&lt;/a>.
+&lt;/div>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/core-module/temporary-persistent-refs.png" alt="Refs">&lt;/p>
+&lt;p>References being persistent has important implications for adding, updating, and removing mods in an ongoing playthrough: Depending on their level of persistence, you may need to let the CELL containing the reference(s) reset while other objects are permanently baked into the save as soon as you load the game with them.&lt;/p>
+&lt;h3 id="reference-handle-cap">Reference Handle Cap&lt;/h3>
+&lt;p>The cap for references that are active at a time is &lt;strong>1048576&lt;/strong>. Anything above that will cause issues and instability. &lt;a href="https://thephoenixflavour.com/bg/recommended-mods/essential-mods/#sse-engine-fixes">SSE Engine Fixes&lt;/a> will warn you if you are approaching the cap.&lt;/p>
+&lt;p>The amount of loaded references can be reduced by moving plugins into ESM space.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Read this &lt;a href="https://www.reddit.com/r/skyrimmods/comments/ag4wm7/psa_the_reference_handle_cap_or_diagnosing_one_of/">reddit post&lt;/a> for more information on the reference handle cap.
+&lt;/div>
+&lt;h3 id="esm-space">ESM Space&lt;/h3>
+&lt;p>The difference between ESP and ESM space largely affects references. As previously mentioned, temporary references should be &lt;em>unloaded&lt;/em> when the player has moved out of range, but this is actually only the case in ESM space.&lt;/p>
+&lt;p>&lt;strong>Temporary references in ESP space are handled like persistent references and always loaded at the start of the game.&lt;/strong>&lt;/p>
+&lt;p>This means that every temporary references added &lt;u>or&lt;/u> modified by an ESP will permanently count toward the cap. As a consequence, you are much more likely to reach the cap eventually with a big load order.&lt;/p>
+&lt;p>The solution to the problem is to ESM-flag mods with many (new or modified) temporary references. Fortunately, most mods that add large worldspaces are already shipped as ESMs so that their considerable number of temporary references is not always active.&lt;/p>
+&lt;h2 id="overriden-forms-onam">Overriden Forms (ONAM)&lt;/h2>
+&lt;p>When a plugin in ESM space overwrites references from another plugin (which is necessarily also in ESM space), the references in question must be added to the &lt;strong>Overriden Forms (ONAM)&lt;/strong> list in the Plugin Header. Otherwise, the edit to the reference will simply be ignored.&lt;/p>
+&lt;p>When you ESM-flag a plugin in SSEEdit, all overwritten references are added to this list automatically.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/references/onam.png" alt="ONAM">&lt;/p>
+&lt;h3 id="esls-and-onam">ESLs and ONAM&lt;/h3>
+&lt;p>There is an edge case where you may end up with an ESM space plugin that overwrites references without adding them to the ONAM list:&lt;/p>
+&lt;p>If you want to turn an ESL-ified ESP into a full ESL, technically all you need to do is change its file extension. However, this will place the plugin in a strange position where it is loaded in ESM space without actually having the ESM flag. If that plugin contains references, they will not be added to the Overriden Forms list and its modifications will be ignored by the game.&lt;/p>
+&lt;p>When turning an ESP or ESP-FE into a full ESL, always go through SSEEdit and also add the ESM flag. There are no downsides to this. If the plugin overwrites references, SSEEdit will populate the Overriden Forms list to make sure the mod does not break.&lt;/p></description></item><item><title>Bg: Resolution</title><link>https://thephoenixflavour.com/bg/knowledge-base/resolution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/resolution/</guid><description>
 &lt;h2 id="resolution">Resolution&lt;/h2>
 &lt;p>Monitors display images by rendering millions of tiny square pixels. Rendering more pixels increases image sharpness but requires more hardware power.&lt;/p>
 &lt;p>Pixels are arranged on most modern consumer monitors in a 16:9 ratio with other ratios, such as 16:10, 21:9, or 32:9, being quite rare. 5:4 and 4:3 ratios are essentially deprecated.&lt;/p>
