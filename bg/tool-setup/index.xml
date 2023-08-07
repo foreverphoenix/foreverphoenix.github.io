@@ -27,7 +27,23 @@ Create a Tools folder in a location of your choice before going through other To
 &lt;p>Below, you can see my shared Tools folder:&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/tool-setup/my-tools-folder.png" alt="My Tools Folder">&lt;/p>
 &lt;hr>
-&lt;h4 id="if-you-are-currently-working-through-the-core-module-continue-with-sseeditbgtool-setupsseedit">If you are currently working through the Core Module, continue with &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sseedit/">SSEEdit&lt;/a>.&lt;/h4></description></item><item><title>Bg: Bethesda Archive Extractor</title><link>https://thephoenixflavour.com/bg/tool-setup/bae/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/bae/</guid><description>
+&lt;h4 id="if-you-are-currently-working-through-the-core-module-continue-with-sseeditbgtool-setupsseedit">If you are currently working through the Core Module, continue with &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sseedit/">SSEEdit&lt;/a>.&lt;/h4></description></item><item><title>Bg: ACMOS Road Generator</title><link>https://thephoenixflavour.com/bg/tool-setup/acmos-road-generator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/acmos-road-generator/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers the installation of the ACMOS Road Generator.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/tools-folder/">Tools Folder&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="about-acmos-road-generator">About ACMOS Road Generator&lt;/h2>
+&lt;p>The &lt;strong>ACMOS Road Generator&lt;/strong> is a tool for use with &amp;ldquo;A Clear World Map for Skyrim and Other Worlds&amp;rdquo;, a map overhaul which utilises LOD generation tools for improving the quality of the 3D world map. Specifically, the Road Generator is used to add the roads to Terrain LOD generated with &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sselodgen/">SSELODGen&lt;/a>.&lt;/p>
+&lt;h3 id="installation">Installation&lt;/h3>
+&lt;p>The ACMOS Road Generator is available on the Nexus.&lt;/p>
+&lt;ul>
+&lt;li>Download the tool from the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/79205?tab=files">Nexus page&lt;/a>.&lt;/li>
+&lt;li>Create a folder called &lt;strong>ACMOS Road Generator&lt;/strong> in your &lt;strong>Modding Tools&lt;/strong> directory.&lt;/li>
+&lt;li>Extract the downloaded archive into the new folder.&lt;/li>
+&lt;/ul></description></item><item><title>Bg: Bethesda Archive Extractor</title><link>https://thephoenixflavour.com/bg/tool-setup/bae/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/bae/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
@@ -37,7 +53,7 @@ Create a Tools folder in a location of your choice before going through other To
 &lt;/div>
 &lt;h2 id="about-bethesda-archive-extractor">About Bethesda Archive Extractor&lt;/h2>
 &lt;p>&lt;strong>Bethesda Archive Extractor&lt;/strong> is a lovely tool for viewing and (selectively) extracting BSAs.&lt;/p>
-&lt;h2 id="installation">Installation&lt;/h2>
+&lt;h3 id="installation">Installation&lt;/h3>
 &lt;ul>
 &lt;li>Download &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/974?tab=files">Bethesda Archive Extractor&lt;/a> from its Nexus page.&lt;/li>
 &lt;li>Create a folder called &lt;strong>Bethesda Archive Extractor&lt;/strong> in your &lt;strong>Modding Tools&lt;/strong> directory.&lt;/li>
@@ -266,7 +282,164 @@ This step is optional. It is intended for Wabbajack curators of lists that requi
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/tool-setup/ck/separate-ck-exe.png" alt="Separate EXE">&lt;/p>
 &lt;h2 id="test-run">Test Run&lt;/h2>
 &lt;p>With everything installed, give the &lt;strong>Creation Kit&lt;/strong> a test run. Launch it through Mod Organizer 2.&lt;/p>
-&lt;p>Thanks to CK Fixes, starting up the CK should only take a few seconds. If it loads up the main window and if the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> is empty after quitting again, everything was set up correctly.&lt;/p></description></item><item><title>Bg: Mod Organizer 2</title><link>https://thephoenixflavour.com/bg/tool-setup/mo2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/mo2/</guid><description>
+&lt;p>Thanks to CK Fixes, starting up the CK should only take a few seconds. If it loads up the main window and if the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> is empty after quitting again, everything was set up correctly.&lt;/p></description></item><item><title>Bg: DynDOLOD</title><link>https://thephoenixflavour.com/bg/tool-setup/dyndolod/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/dyndolod/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers the installation of DynDOLOD.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/tools-folder/">Tools Folder&lt;/a>, &lt;a href="https://thephoenixflavour.com/bg/tool-setup/mo2">Mod Organizer 2&lt;/a>, &lt;a href="https://thephoenixflavour.com/bg/additional-modules/skyrim-script-extender">Skyrim Script Extender&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="about-dyndolod">About DynDOLOD&lt;/h2>
+&lt;p>DynDOLOD is a tool for regenerating &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/distant-lods/">distant LODs&lt;/a>, specifically &lt;strong>Object&lt;/strong>, &lt;strong>Tree&lt;/strong>, and &lt;strong>Grass LOD&lt;/strong>. It can also be used to generate &lt;strong>Occlusion&lt;/strong> instead of &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sselodgen/">SSELODGen&lt;/a>. It consists of multiple parts: The tool DynDOLOD (software), a collection of resources, scripts, and an SKSE plugin.&lt;/p>
+&lt;h3 id="prerequisites">Prerequisites&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170"> Microsoft Visual C++ Redistributable packages for Visual Studio 2015, 2017, 2019 and 2022&lt;/a>
+&lt;ul>
+&lt;li>&lt;em>Also required for &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sselodgen/">SSELODGen&lt;/a>.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">.NET 6.0&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/bg/additional-modules/skyrim-script-extender/">SKSE &amp;amp; Address Library for SKSE&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://thephoenixflavour.com/bg/recommended-mods/skyui/">SkyUI&lt;/a> for the MCM (optional, but highly recommended)&lt;/li>
+&lt;/ul>
+&lt;h3 id="dyndolod-versions">DynDOLOD Versions&lt;/h3>
+&lt;p>Though it is still officially in Alpha, &lt;strong>I recommend using DynDOLOD 3 for Skyrim SE.&lt;/strong> Instructions for DynDOLOD 2.x will not be provided.&lt;/p>
+&lt;p>Alternatively, you may choose to use &lt;strong>DynDOLOD 3 NG&lt;/strong> which is the newest version with some extra features such as a workaround for the &lt;a href="https://dyndolod.info/Help/Large-Reference-Bugs-Workarounds">Large Reference Bug&lt;/a>. As a prequisite, &lt;u>none&lt;/u> of your plugins must contain &lt;em>deleted large references&lt;/em> which is why it is generally recommended to &lt;a href="https://thephoenixflavour.com/bg/additional-modules/cleaning-plugins/">clean plugins&lt;/a> before running DynDOLOD NG as this will (among other things) undelete references.&lt;/p>
+&lt;p>If you have never generated LODs before and would like to avoid issues as much as possible, I recommend sticking with &lt;strong>regular DynDOLOD 3&lt;/strong> for now.&lt;/p>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>We start by installing the main tool, DynDOLOD, which can be used with either 3 or 3 NG.&lt;/p>
+&lt;ul>
+&lt;li>Download the latest version of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/68518?tab=files">DynDOLOD 3&lt;/a> from the Nexus page.&lt;/li>
+&lt;li>Create a folder called &lt;strong>DynDOLOD 3&lt;/strong> in your &lt;strong>Tools&lt;/strong> folder.&lt;/li>
+&lt;li>Open the &lt;strong>DynDOLOD&lt;/strong> folder inside the downloaded archive.&lt;/li>
+&lt;li>Extract its contents into the new folder.&lt;/li>
+&lt;/ul>
+&lt;p>Both executables, &lt;strong>TexGen&lt;/strong> and &lt;strong>DynDOLOD&lt;/strong>, must be added to Mod Organizer 2.&lt;/p>
+&lt;ul>
+&lt;li>Go into the &lt;a href="https://thephoenixflavour.com/Pictures/bg/mo2-executables-settings.png">executable settings&lt;/a> in Mod Organizer 2.&lt;/li>
+&lt;li>Click the small blue plus icon and select &lt;strong>Add from file&lt;/strong>.&lt;/li>
+&lt;li>Navigate to &lt;code>\Modding Tools\DynDOLOD 3\&lt;/code> and double-click &lt;strong>TexGenx64.exe&lt;/strong>.&lt;/li>
+&lt;li>Add &lt;code>-sse&lt;/code> under &lt;strong>Arguments&lt;/strong> to ensure TexGen targets the correct game.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;u>Repeat the process for DynDOLODx64.exe.&lt;/u>&lt;/p>
+&lt;p>I recommend adding both executables to the Toolbar in Mod Organizer 2 for quick access.&lt;/p>
+&lt;h3 id="dyndolod-resources">DynDOLOD Resources&lt;/h3>
+&lt;p>Next, we need the &lt;strong>DynDOLOD Resources&lt;/strong> which can installed as usual through Mod Organizer 2.&lt;/p>
+&lt;p>If one does not already exist, I recommend creating a &lt;strong>LOD Resources&lt;/strong> separator and keeping it high up in the mod order.&lt;/p>
+&lt;ul>
+&lt;li>Download the latest version of the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/52897?tab=files">DynDOLOD Resources&lt;/a> from the Nexus and install it through MO2.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;mark>I recommend copying the FOMOD choices pictured below.&lt;/mark>&lt;/p>
+&lt;p>(The first four options are visual improvements. The Low-Res LOD Textures are &lt;em>very&lt;/em> low res and there are better ways of increasing performance as these already take very little space. Desyncing flying birds is another neat visual feature while the &amp;ldquo;Holy Cow&amp;rdquo; is just a meme.)&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/tool-setup/dyndolod/dyndolod-resources-fomod.png" alt="Dyn Res FOMOD">&lt;/p>
+&lt;h3 id="dyndolod-scripts--dll">DynDOLOD Scripts &amp;amp; DLL&lt;/h3>
+&lt;p>Finally, an SKSE plugin and a set of scripts is required.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>DynDOLOD 3:&lt;/strong> Download the scripts and the DLL from the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/DynDOLOD-DLL-SE/57264?tab=files">DynDOLOD Nexus page&lt;/a>.
+&lt;ul>
+&lt;li>&lt;em>You can merge them together in MO2.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>DynDOLOD 3 NG:&lt;/strong> Download the scripts and the DLL from the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/97720?tab=files">DynDOLOD NG Nexus page&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="disable-load-screens">Disable Load Screens&lt;/h2>
+&lt;p>DynDOLOD adds two load screens to the game which reference the meme of owing your firstborns to sheson for the miracle of dynamic LODs. If you would prefer not having any meme load screens, you can block them.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+The new load screens will only appear after generating LODs with DynDOLOD which adds a set of plugins. However, you can disable the load screens pre-emptively.
+&lt;/div>
+&lt;p>&lt;mark>This requires &lt;strong>SSE Display Tweaks&lt;/strong>.&lt;/mark> Installation instructions can be found &lt;a href="https://thephoenixflavour.com/bg/recommended-mods/essential-mods/">here&lt;/a>.&lt;/p>
+&lt;p>Add the following to the &lt;em>SSEDisplayTweaks.ini&lt;/em> in &lt;strong>SSE Display Tweaks - Settings&lt;/strong>:&lt;/p>
+&lt;pre>&lt;code>[Miscellaneous]
+LoadScreenFilter=true
+LoadScreenAllow=
+LoadScreenBlock=DynDOLOD.esp
+&lt;/code>&lt;/pre>&lt;p>Remember to save your changes before closing the window.&lt;/p></description></item><item><title>Bg: LOOT</title><link>https://thephoenixflavour.com/bg/tool-setup/loot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/loot/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers the installation of the Load Order Optimisation Tool (LOOT).&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/tools-folder/">Tools Folder&lt;/a>, &lt;a href="https://thephoenixflavour.com/bg/tool-setup/mo2">Mod Organizer 2&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="about-loot">About LOOT&lt;/h2>
+&lt;p>&lt;strong>LOOT&lt;/strong> is a tool for automatically sorting plugins in the load order. Drawing on a masterlist maintained by the community, LOOT attempts to place plugins in a way that minimises unintentional conflicts.&lt;/p>
+&lt;p>&lt;u>LOOT cannot determine the ideal load order by itself.&lt;/u> You &lt;strong>must&lt;/strong> use SSEEdit and manually adjust.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Personally, I use LOOT only to quickly find plugins that need &amp;ldquo;&lt;a href="https://thephoenixflavour.com/bg/additional-modules/cleaning-plugins">cleaning&lt;/a>&amp;rdquo; as a prerequisite for &lt;a href="https://thephoenixflavour.com/bg/additional-modules/generating-lods/">generating LODs&lt;/a>. I summarised my opinion on the tool &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/phoenix-on-loot/">here&lt;/a>.
+&lt;/div>
+&lt;h3 id="loot--wabbajack">LOOT &amp;amp; Wabbajack&lt;/h3>
+&lt;p>If you are building a Wabbajack list and you wish to add optional mods that also have plugins, you may want to use Parapets&amp;rsquo; &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/60864">LOOT Config Loader&lt;/a> plugin (&lt;a href="https://github.com/Exit-9B/LOOTConfigLoader/blob/main/README.md">readme&lt;/a>). It allows you to create a custom masterlist for a portable instance of Mod Organizer 2 so that your users only have to click &lt;strong>Sort&lt;/strong> to update the load order.&lt;/p>
+&lt;p>Note that the LOOT Config Loader tool uses the version of LOOT integrated in Mod Organizer 2 which is quite outdated. To use Parapets&amp;rsquo; plugin with the full version of LOOT, you need to grab &lt;a href="https://github.com/loot/loot/releases/tag/0.17.0">version 0.17.0&lt;/a>.&lt;/p>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>LOOT is available on the Nexus.&lt;/p>
+&lt;ul>
+&lt;li>Download the installer from the &lt;a href="https://www.nexusmods.com/site/mods/439?tab=files">Nexus page&lt;/a> and run it.&lt;/li>
+&lt;li>As the installation location, you can pick your Tools folder if you care about keeping all tools in one place.&lt;/li>
+&lt;li>Keep &lt;strong>Download and install the latest masterlists&lt;/strong> checked.&lt;/li>
+&lt;li>Uncheck &lt;strong>Launch LOOT&lt;/strong> before clicking &lt;strong>Finish&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="mo2-integration">MO2 Integration&lt;/h3>
+&lt;p>LOOT requires access to the data folder and must therefore be launched through Mod Organizer 2.&lt;/p>
+&lt;ul>
+&lt;li>Open the &lt;a href="https://thephoenixflavour.com/Pictures/bg/mo2-executables-settings.png">executable settings&lt;/a> in Mod Organizer 2.&lt;/li>
+&lt;li>Click the small blue plus icon and select &lt;strong>Add from file&lt;/strong>.&lt;/li>
+&lt;li>Navigate to your &lt;strong>LOOT&lt;/strong> folder and double-click &lt;strong>LOOT.exe&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> to add the executable to Mod Organizer 2.&lt;/li>
+&lt;/ul>
+&lt;p>For improved integration into Mod Organizer 2, I recommend installing the &lt;a href="https://thephoenixflavour.com/bg/tool-setup/loot-warning-checker/">LOOT Warning Checker&lt;/a> plugin.&lt;/p>
+&lt;h2 id="mo2-sort-button">MO2 Sort Button&lt;/h2>
+&lt;p>As mentioned in the &amp;ldquo;LOOT &amp;amp; Wabbajack&amp;rdquo; section, Mod Organizer 2 has its own, stripped-down version of LOOT integrated which can be run by clicking the &lt;a href="https://thephoenixflavour.com/Pictures/bg/tool-setup/loot/loot-sort-button.png">Sort&lt;/a> button above the load order in the right pane.&lt;/p>
+&lt;p>&lt;strong>Do not use this button to sort your load order&lt;/strong> unless you have a (Wabbajack) setup with the above-mentioned LOOT Config Loader plugin and a &lt;em>custom&lt;/em> masterlist.&lt;/p>
+&lt;p>The integrated version of LOOT is &lt;u>outdated&lt;/u> and you should use the latest version installed during the previous step if you are planning to use the tool for plugin sorting.&lt;/p>
+&lt;h3 id="remove-sort-button">Remove Sort Button&lt;/h3>
+&lt;p>If the Sort button annoys you and/or you want to sure you never accidentally press it, you can remove it from the interface with a small CSS snippet.&lt;/p>
+&lt;p>Users of the default theme can do this by adding a new stylesheet:&lt;/p>
+&lt;ul>
+&lt;li>Navigate to &lt;code>\Mod Organizer 2\stylesheets\&lt;/code>.&lt;/li>
+&lt;li>Right-click anywhere and select &lt;strong>New&lt;/strong> &amp;raquo; &lt;strong>Text Document&lt;/strong>.&lt;/li>
+&lt;li>Rename the file to &lt;strong>No Sort Button.qss&lt;/strong>.
+&lt;ul>
+&lt;li>&lt;em>Remember to change the file extension.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Open the new file in a text editor such as Notepad++.&lt;/li>
+&lt;li>Paste the following:&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code>/* Sort button */
+#bossButton {
+qproperty-iconSize:0px;
+min-width:0px;
+width:0px;
+padding: 0 0 0 -30;
+}
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>Save your change and close the file.&lt;/li>
+&lt;/ul>
+&lt;p>Afterwards, you need to &lt;a href="https://thephoenixflavour.com/Pictures/bg/tool-setup/loot/remove-sort-button.png">select the new stylesheet&lt;/a> in the &lt;strong>Themes&lt;/strong> tab in the Mod Organizer 2 settings.&lt;/p>
+&lt;p>If you are using a different theme, you can modify its stylesheet file (.QSS). Open it in a text editor and use CTRL+F to see if it modifies anything about the &lt;code>#bossButton&lt;/code> component. Add the snippet from above, replacing any other code for the button.&lt;/p></description></item><item><title>Bg: LOOT Warning Checker</title><link>https://thephoenixflavour.com/bg/tool-setup/loot-warning-checker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/loot-warning-checker/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers the installation of the LOOT Warning Checker plugin for Mod Organizer 2.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/tools-folder/">Tools Folder&lt;/a>, &lt;a href="https://thephoenixflavour.com/bg/tool-setup/mo2">Mod Organizer 2&lt;/a>, &lt;a href="https://thephoenixflavour.com/bg/tool-setup/loot/">LOOT&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="about-loot-warning-checker">About LOOT Warning Checker&lt;/h2>
+&lt;p>The &lt;strong>LOOT Warning Checker&lt;/strong> plugin integrates warnings from the &lt;a href="https://thephoenixflavour.com/bg/tool-setup/loot/">LOOT&lt;/a> masterlist into the Mod Organizer 2 warnings system.&lt;/p>
+&lt;h3 id="installation">Installation&lt;/h3>
+&lt;p>LOOT Warning Checker is available on the Nexus.&lt;/p>
+&lt;ul>
+&lt;li>Download the latest version of &lt;a href="https://www.nexusmods.com/site/mods/323?tab=files">LOOT Warning Checker&lt;/a>.&lt;/li>
+&lt;li>Use the &lt;a href="https://thephoenixflavour.com/Pictures/bg/mo2-plugins-folder-shortcut.png">shortcut&lt;/a> to open the MO2 Plugins folder.&lt;/li>
+&lt;li>&lt;strong>Close Mod Organizer 2.&lt;/strong>&lt;/li>
+&lt;li>Extract the &lt;strong>LOOT-Warning-Checker&lt;/strong> folder from the downloaded archive into the &lt;strong>plugins&lt;/strong> folder.&lt;/li>
+&lt;li>Re-open Mod Organizer 2.&lt;/li>
+&lt;/ul>
+&lt;h3 id="toggle-warnings">Toggle Warnings&lt;/h3>
+&lt;p>LOOT warnings can be helpful, but they are not infallible. For example, the tool may warn you about a missing patch when, in fact, you have replaced this patch with a custom plugin specific to your load order.&lt;/p>
+&lt;p>To prevent MO2 from constantly complaining about unnecessary warnings, I recommend keeping the LOOT warnings toggled &lt;u>off&lt;/u> for the most part. You can re-enable them occasionally to see if anything relevant shows up.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/tool-setup/loot-warning-checker/disable-loot-warnings.png" alt="Disable LOOT Warnings">&lt;/p></description></item><item><title>Bg: Mod Organizer 2</title><link>https://thephoenixflavour.com/bg/tool-setup/mo2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/mo2/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
@@ -438,7 +611,25 @@ If you are following the &lt;strong>Core Module&lt;/strong> please do copy at le
 &lt;p>(&lt;a href="https://thephoenixflavour.com/Pictures/bg/tool-setup/mo2/mo2-my-layout.png">Click here to view the picture in full size.&lt;/a>)&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/tool-setup/mo2/mo2-my-layout.png" alt="My Layout">&lt;/p>
 &lt;hr>
-&lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-1bgcore-modulestep1ui-overview">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step1/#ui-overview">Step 1&lt;/a>.&lt;/h4></description></item><item><title>Bg: NifSkope</title><link>https://thephoenixflavour.com/bg/tool-setup/nifskope/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/nifskope/</guid><description>
+&lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-1bgcore-modulestep1ui-overview">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step1/#ui-overview">Step 1&lt;/a>.&lt;/h4></description></item><item><title>Bg: NIF Preview</title><link>https://thephoenixflavour.com/bg/tool-setup/nif-preview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/nif-preview/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers the Mod Organizer 2 plugin NIF Preview.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/mo2/">Mod Organizer 2&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="about-nif-preview">About NIF Preview&lt;/h2>
+&lt;p>&lt;strong>NIF Preview&lt;/strong> is a plugin for Mod Organizer 2 which adds the ability to directly view and compare NIFs (meshes), similar to the DDS Preview plugin which is included with MO2.&lt;/p>
+&lt;h3 id="installation">Installation&lt;/h3>
+&lt;p>NIF Preview is available on the Nexus.&lt;/p>
+&lt;ul>
+&lt;li>Download the latest version of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/69813?tab=files">NIF Preview&lt;/a>.&lt;/li>
+&lt;li>Use the &lt;a href="https://thephoenixflavour.com/Pictures/bg/mo2-plugins-folder-shortcut.png">shortcut&lt;/a> to open the MO2 Plugins folder.&lt;/li>
+&lt;li>&lt;strong>Close Mod Organizer 2.&lt;/strong>&lt;/li>
+&lt;li>Extract the downloaded archive into the &lt;strong>plugins&lt;/strong> folder.&lt;/li>
+&lt;li>Re-open Mod Organizer 2.&lt;/li>
+&lt;/ul></description></item><item><title>Bg: NifSkope</title><link>https://thephoenixflavour.com/bg/tool-setup/nifskope/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/nifskope/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
@@ -539,6 +730,23 @@ Click the SSEEdit icon in the Toolbar has the same effect as selecting it from t
 &lt;p>Launch SSEEdit through Mod Organizer 2 and click &lt;strong>OK&lt;/strong> in the &lt;strong>Plugin Selection Window&lt;/strong> to load all your currently installed plugins. This will take a moment as SSEEdit builds the cache files.&lt;/p>
 &lt;p>You can quit once the log at the bottom returns &lt;code>Background loader: finished&lt;/code> or once you are prompted to activate ModGroups.&lt;/p>
 &lt;p>Check your &lt;code>\Tools\SSEEdit\cache\&lt;/code> folder to make sure the files were saved to the correct location.&lt;/p>
+&lt;h2 id="quick-auto-clean">Quick Auto Clean&lt;/h2>
+&lt;p>I recommend you also install the &lt;strong>Quick Auto Clean&lt;/strong> executable in case you ever need to &lt;a href="https://thephoenixflavour.com/bg/additional-modules/cleaning-plugins/">clean plugins&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>In Mod Organizer 2, click the &lt;a href="https://thephoenixflavour.com/Pictures/bg/mo2-executables-settings.png">gears icon&lt;/a> in the Toolbar to open the &lt;strong>Executables&lt;/strong> settings.&lt;/li>
+&lt;li>Click the small blue plus icon and select &lt;strong>Add from file&lt;/strong>.&lt;/li>
+&lt;li>Navigate to &lt;code>\Tools\SSEEdit\&lt;/code> and double-click &lt;strong>SSEEditQuickAutoClean.exe&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> to add the executable to Mod Organizer 2.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;font size=2>*I like to rename the executable to &amp;ldquo;SSEEdit QAC&amp;rdquo; in the MO2 executables settings for better readability.*&lt;/font>&lt;/p>
+&lt;h3 id="-dontcache">-DontCache&lt;/h3>
+&lt;p>When cleaning Dragonborn.esm with SSEEdit QAC, parts of Apocrypha will unintentionally be modified. This can be prevented by adding the -DontCache argument to the QAC exe.&lt;/p>
+&lt;ul>
+&lt;li>In Mod Organizer 2, click the &lt;a href="https://thephoenixflavour.com/Pictures/bg/mo2-executables-settings.png">gears icon&lt;/a> in the Toolbar to open the &lt;strong>Executables&lt;/strong> settings.&lt;/li>
+&lt;li>Select &lt;strong>SSEEdit QAC&lt;/strong> in the list of executables.&lt;/li>
+&lt;li>Add &lt;code>-DontCache&lt;/code> under &lt;strong>Arguments&lt;/strong>.&lt;/li>
+&lt;li>Click &lt;strong>OK&lt;/strong> to save your change and close the window.&lt;/li>
+&lt;/ul>
 &lt;h2 id="disable-warning">Disable Warning&lt;/h2>
 &lt;div class="alert alert-info" role="alert">
 Please skip this if you are currently following the Core Module.
@@ -547,7 +755,59 @@ Please skip this if you are currently following the Core Module.
 &lt;pre>&lt;code>-IKnowWhatImDoing
 &lt;/code>&lt;/pre>&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/tool-setup/sseedit/disable-warning-window.png" alt="Disable Warning Window">&lt;/p>
 &lt;hr>
-&lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-3bgcore-modulestep3the-unwanted-effects-book">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step3/#the-unwanted-effects-book">Step 3&lt;/a>.&lt;/h4></description></item><item><title>Bg: Synthesis</title><link>https://thephoenixflavour.com/bg/tool-setup/synthesis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/synthesis/</guid><description>
+&lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-3bgcore-modulestep3the-unwanted-effects-book">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step3/#the-unwanted-effects-book">Step 3&lt;/a>.&lt;/h4></description></item><item><title>Bg: SSELODGen</title><link>https://thephoenixflavour.com/bg/tool-setup/sselodgen/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/sselodgen/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers the installation of SSELODGen.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/tools-folder/">Tools Folder&lt;/a>, &lt;a href="https://thephoenixflavour.com/bg/tool-setup/mo2">Mod Organizer 2&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="about-sselodgen">About SSELODGen&lt;/h2>
+&lt;p>SSELODGen is a tool for regenerating &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/distant-lods/">Terrain LOD&lt;/a> and &lt;strong>Occlusion&lt;/strong>. Because it is based on &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sseedit/">SSEEdit&lt;/a>, the tool is typically abbreviated to &lt;strong>xLODGen&lt;/strong> as it can be used with a variety of Creation Engine games, not just Skyrim.&lt;/p>
+&lt;h3 id="prerequisites">Prerequisites&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170"> Microsoft Visual C++ Redistributable packages for Visual Studio 2015, 2017, 2019 and 2022&lt;/a>
+&lt;ul>
+&lt;li>&lt;em>Also required for &lt;a href="https://thephoenixflavour.com/bg/tool-setup/dyndolod/">DynDOLOD&lt;/a>.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>SSELODGen can be downloaded from MEGA. A link is provided on the STEP Forum.&lt;/p>
+&lt;ul>
+&lt;li>Open the &lt;a href="https://stepmodifications.org/forum/topic/13451-xlodgen-terrain-lod-beta-98-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal-enderalse/">xLODGen&lt;/a> post on the STEP Forums.&lt;/li>
+&lt;li>Locate the download link for the latest version and download it from MEGA.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/tool-setup/sselodgen/download-sselodgen.png" alt="Download SSELODGen">&lt;/p>
+&lt;ul>
+&lt;li>Create a folder called &lt;strong>SSELODGen&lt;/strong> in your &lt;strong>Tools&lt;/strong> folder.&lt;/li>
+&lt;li>Open the folder inside the downloaded archive.&lt;/li>
+&lt;li>Extract its contents into the new folder.&lt;/li>
+&lt;/ul>
+&lt;h3 id="mo2-integration">MO2 Integration&lt;/h3>
+&lt;p>The executable must be added to Mod Organizer 2.&lt;/p>
+&lt;ul>
+&lt;li>Go into the &lt;a href="https://thephoenixflavour.com/Pictures/bg/mo2-executables-settings.png">executable settings&lt;/a> in Mod Organizer 2.&lt;/li>
+&lt;li>Click the small blue plus icon and select &lt;strong>Add from file&lt;/strong>.&lt;/li>
+&lt;li>Navigate to &lt;code>\Modding Tools\SSELODGen\&lt;/code> and double-click &lt;strong>xLODGenx64.exe&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="arguments">Arguments&lt;/h3>
+&lt;p>You need to set additional Arguments in the executable settings to define the target game and the output directory.&lt;/p>
+&lt;p>&lt;strong>The output directory &lt;u>must&lt;/u> be outside your MO2 folder.&lt;/strong> I recommend using a top-level folder. After generation of LOD has been completed, you will move the output folder back into Mod Organizer 2.&lt;/p>
+&lt;pre>&lt;code>-sse -o:&amp;quot;Drive:\Path\To\Output\&amp;quot;
+&lt;/code>&lt;/pre>&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/tool-setup/sselodgen/sselodgen-arguments.png" alt="SSELODGen Arguments">&lt;/p>
+&lt;h2 id="sse-terrain-tamriel-esm">SSE-Terrain-Tamriel ESM&lt;/h2>
+&lt;p>To allow SSELODGen to generate Terrain LOD for the unreachable edges of the world (which are still visible from a distance), you should enable the &lt;strong>SSE-Terrain-Tamriel.esm&lt;/strong> before LOD generation.&lt;/p>
+&lt;ul>
+&lt;li>Download the &lt;strong>SSE Terrain Tamriel Extend&lt;/strong> main file from the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/54680?tab=files">Nexus page&lt;/a>.&lt;/li>
+&lt;li>Install it as usual in Mod Organizer 2.
+&lt;ul>
+&lt;li>&lt;em>I recommend placing it under the &lt;strong>LOD Resources&lt;/strong> separator.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>The ESM should only be active when generating Terrain LOD.&lt;/p></description></item><item><title>Bg: Synthesis</title><link>https://thephoenixflavour.com/bg/tool-setup/synthesis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/tool-setup/synthesis/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>

@@ -110,6 +110,7 @@ Keep in mind that my separator system is a perpetual work-in-progress that chang
 &lt;h3 id="essentials">Essentials&lt;/h3>
 &lt;ul>
 &lt;li>Skyrim Script Extender&lt;/li>
+&lt;li>SkyUI&lt;/li>
 &lt;li>Utilities &amp;amp; Frameworks&lt;/li>
 &lt;li>Essential Mods&lt;/li>
 &lt;li>Console Improvements&lt;/li>
@@ -216,7 +217,83 @@ Keep in mind that my separator system is a perpetual work-in-progress that chang
 &lt;li>Integration &amp;amp; Distribution&lt;/li>
 &lt;li>Final Patches&lt;/li>
 &lt;li>Outputs&lt;/li>
-&lt;/ul></description></item><item><title>Bg: Utilities &amp; Frameworks</title><link>https://thephoenixflavour.com/bg/recommended-mods/utilities-frameworks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/recommended-mods/utilities-frameworks/</guid><description>
+&lt;/ul></description></item><item><title>Bg: SkyUI</title><link>https://thephoenixflavour.com/bg/recommended-mods/skyui/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/recommended-mods/skyui/</guid><description>
+&lt;h5 id="skyuihttpswwwnexusmodscomskyrimspecialeditionmods12604">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12604">SkyUI&lt;/a>&lt;/h5>
+&lt;div class="alert alert-success" role="alert">
+&lt;strong>Essential.&lt;/strong> Everyone should install this mod.
+&lt;/div>
+&lt;p>SkyUI is a major interface overhaul which transforms Skyrim&amp;rsquo;s console UI into one optimised for mouse and keyboard (while still being perfectly functional with controller). More information is visible at a glance and menus are far easier to navigate.&lt;/p>
+&lt;p>Most major interface overhauls are SkyUI reskins and require SkyUI as the base.&lt;/p>
+&lt;p>In addition to overhauling the interface, SkyUI also adds the &lt;strong>Mod Configuration Menu&lt;/strong>, a framework for mods to add neatly integrated customisation options accessible through the ESCAPE menu.&lt;/p>
+&lt;p>&lt;strong>Requirement(s):&lt;/strong> Skyrim Script Extender&lt;/p>
+&lt;h5 id="skyui---source-51httpsgithubcomschlangsterskyuiwiki">&lt;a href="https://github.com/schlangster/skyui/wiki">SkyUI - Source 5.1&lt;/a>&lt;/h5>
+&lt;div class="alert alert-danger" role="alert">
+&lt;strong>Situational.&lt;/strong> Only install this mod if you need it.
+&lt;/div>
+&lt;p>Source files for SkyUI are needed if you ever want to (re)compile scripts calling SkyUI functions. For example, you will need the source files to &lt;a href="https://thephoenixflavour.com/bg/additional-modules/automating-mcms/">automate MCMs&lt;/a>.&lt;/p>
+&lt;p>I recommend grabbing both the 5.1 and 5.2 source files because you need to match the version that was used to create the script when trying to recompile. It is good to have the latest version, but you may also need older versions at times.&lt;/p>
+&lt;p>&lt;u>If you are not planning on modifying any MCMs, you do not need to install the SkyUI source files.&lt;/u>&lt;/p>
+&lt;p>&lt;strong>Requirement(s):&lt;/strong> SkyUI&lt;/p>
+&lt;h4 id="installation">Installation&lt;/h4>
+&lt;p>The source files for SkyUI 5.1 are available on the SkyUI Github:&lt;/p>
+&lt;ul>
+&lt;li>Download the &lt;strong>SkyUI 5.1 SDK&lt;/strong> from the &lt;a href="https://github.com/schlangster/skyui/wiki">SkyUI Wiki&lt;/a> or use this &lt;a href="https://drive.google.com/file/d/0B4iEH8ar3jtxbFlkVzZSVHN0alk/view?resourcekey=0-bTFKQxbSl6Y_4-dZDHE0AQ">direct link&lt;/a> to the Google Drive.&lt;/li>
+&lt;li>Create a new folder under &lt;code>\Mod Organizer 2\mods\&lt;/code> and name it &lt;strong>SkyUI - Source 5.1&lt;/strong>.&lt;/li>
+&lt;li>Open the downloaded archive and extract the &lt;strong>Scripts&lt;/strong> folder into the new mod folder.&lt;/li>
+&lt;/ul>
+&lt;p>The &amp;ldquo;mod&amp;rdquo; should only be active when recompiling scripts that call SkyUI functions.&lt;/p>
+&lt;h5 id="skyui---source-52httpsgithubcommroctopusnl_online">&lt;a href="https://github.com/MrOctopus/nl_online">SkyUI - Source 5.2&lt;/a>&lt;/h5>
+&lt;div class="alert alert-danger" role="alert">
+&lt;strong>Situational.&lt;/strong> Only install this mod if you need it.
+&lt;/div>
+&lt;p>&lt;em>See description for &lt;strong>SkyUI - Source 5.1.&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Requirement(s):&lt;/strong> SkyUI&lt;/p>
+&lt;h4 id="installation-1">Installation&lt;/h4>
+&lt;p>The source files for SkyUI 5.2 were updated by Mr Never Lost (MrOctopus) and are available on Github:&lt;/p>
+&lt;ul>
+&lt;li>Download the &lt;a href="https://github.com/MrOctopus/nl_online">repository&lt;/a> by going to &lt;strong>Code&lt;/strong> &amp;raquo; &lt;strong>Download ZIP&lt;/strong> (&lt;a href="https://thephoenixflavour.com/Pictures/bg/recommended-mods/skyui/skyui-source-git.png">picture&lt;/a>).&lt;/li>
+&lt;li>Create a new folder under &lt;code>\Mod Organizer 2\mods\&lt;/code> and name it &lt;strong>SkyUI - Source 5.2&lt;/strong>.&lt;/li>
+&lt;li>Create a new &lt;strong>scripts&lt;/strong> folder inside.&lt;/li>
+&lt;li>Open the downloaded archive and open the &lt;strong>skyui&lt;/strong> folder inside.&lt;/li>
+&lt;li>Extract the &lt;strong>source&lt;/strong> folder into the new &lt;strong>scripts&lt;/strong> folder.&lt;/li>
+&lt;/ul>
+&lt;p>The &amp;ldquo;mod&amp;rdquo; should only be active when recompiling scripts that call SkyUI functions.&lt;/p>
+&lt;h5 id="skyui---flashing-savegame-fixhttpswwwnexusmodscomskyrimspecialeditionmods20406tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20406?tab=files">SkyUI - Flashing Savegame Fix&lt;/a>&lt;/h5>
+&lt;div class="alert alert-info" role="alert">
+&lt;strong>Recommended.&lt;/strong> Very useful in any setup.
+&lt;/div>
+&lt;p>This mod fixes a SkyUI a bug where the small thumbnail for saves flickers wildly in the menu. If you use any SkyUI reskin, this file will probably be overwritten.&lt;/p>
+&lt;p>&lt;u>Skip this mod if you are on widescreen.&lt;/u>&lt;/p>
+&lt;p>&lt;strong>Requirement(s):&lt;/strong> SkyUI&lt;/p>
+&lt;h5 id="fix-note-icon-for-skyuihttpswwwnexusmodscomskyrimspecialeditionmods32561tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32561?tab=files">Fix Note Icon for SkyUI&lt;/a>&lt;/h5>
+&lt;div class="alert alert-info" role="alert">
+&lt;strong>Recommended.&lt;/strong> Very useful in any setup.
+&lt;/div>
+&lt;p>This mod fixes a SkyUI a bug where the small thumbnail for saves flickers wildly in the menu. If you use any SkyUI reskin, this file will probably be overwritten.&lt;/p>
+&lt;p>&lt;font size=2>*I usually rename this mod to &amp;ldquo;SkyUI - Fix Note Icon&amp;rdquo; so it nicely matches the other SkyUI fixes. This is very optional.*&lt;/font>&lt;/p>
+&lt;p>&lt;strong>Requirement(s):&lt;/strong> Skyrim Script Extender, Address Library for SKSE, SkyUI&lt;/p>
+&lt;h5 id="skyui---ghost-item-bug-fixhttpswwwnexusmodscomskyrimspecialeditionmods49106tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/49106?tab=files">SkyUI - Ghost Item Bug Fix&lt;/a>&lt;/h5>
+&lt;div class="alert alert-info" role="alert">
+&lt;strong>Recommended.&lt;/strong> Very useful in any setup.
+&lt;/div>
+&lt;p>This mod fixes a few minor issues with SkyUI groups in the Favourites menu.&lt;/p>
+&lt;p>&lt;strong>Requirement(s):&lt;/strong> SkyUI&lt;/p>
+&lt;h5 id="skyui-3d-item-offset-fixhttpswwwnexusmodscomskyrimspecialeditionmods92602tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/92602?tab=files">SkyUI 3D Item Offset Fix&lt;/a>&lt;/h5>
+&lt;div class="alert alert-info" role="alert">
+&lt;strong>Recommended.&lt;/strong> Very useful in any setup.
+&lt;/div>
+&lt;p>This mod fixes the slightly off-centre placement of item previews in SkyUI specifically for 16:9 resolutions. The placement can be modified in the MCM, but it is easier to simply use this modified script.&lt;/p>
+&lt;p>I strongly recommend downloading the version that also support &lt;a href="https://thephoenixflavour.com/bg/recommended-mods/utilities-frameworks/#mcm-helper">MCM Helper&lt;/a> which is another essential mod. Since MCM Helper&amp;rsquo;s assets are packed into a BSA, this mod&amp;rsquo;s loose files will still overwrite, even if it is placed higher in the mod order.&lt;/p>
+&lt;p>&lt;font size=2>*Here, too, I add a hyphen to the mod name so it matches the other fixes for SkyUI: &amp;ldquo;SkyUI - 3D Item Offset Fix&amp;rdquo;.*&lt;/font>&lt;/p>
+&lt;p>&lt;u>Skip this mod if you are on widescreen.&lt;/u>&lt;/p>
+&lt;p>&lt;strong>Requirement(s):&lt;/strong> SkyUI, MCM Helper (optional)&lt;/p>
+&lt;h5 id="wider-mcm-menu-for-skyuihttpswwwnexusmodscomskyrimspecialeditionmods22825tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/22825?tab=files">Wider MCM Menu for SkyUI&lt;/a>&lt;/h5>
+&lt;div class="alert alert-info" role="alert">
+&lt;strong>Recommended.&lt;/strong> Very useful in any setup.
+&lt;/div>
+&lt;p>This mod extends the size of the MCM to be better legible. Check the screenshots and download one of the main files (I prefer the first one).&lt;/p>
+&lt;p>&lt;u>Skip this mod if you are on widescreen.&lt;/u>&lt;/p>
+&lt;p>&lt;strong>Requirement(s):&lt;/strong> SkyUI&lt;/p></description></item><item><title>Bg: Utilities &amp; Frameworks</title><link>https://thephoenixflavour.com/bg/recommended-mods/utilities-frameworks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/recommended-mods/utilities-frameworks/</guid><description>
 &lt;h5 id="crash-loggerhttpswwwnexusmodscomskyrimspecialeditionmods59818">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/59818">Crash Logger&lt;/a>&lt;/h5>
 &lt;div class="alert alert-success" role="alert">
 &lt;strong>Essential.&lt;/strong> Everyone should install this mod.
@@ -231,13 +308,12 @@ Keep in mind that my separator system is a perpetual work-in-progress that chang
 &lt;p>Rogue Master Detector is an SKSE plugin which finds and logs masters that are loaded out of order. While missing masters cause errors, there are no &lt;em>visible&lt;/em> errors when a plugin is loaded &lt;u>above&lt;/u> its master. SSEEdit will automatically fix the load order, but the game will not, and out-of-order plugins will not function properly.&lt;/p>
 &lt;p>After launching the game, Rogue Master Detector creates a log file under &lt;code>\Documents\My Games\Skyrim Special Edition\SKSE\&lt;/code> with any out-of-order plugins listed inside. Check the log and fix the load order if necessary.&lt;/p>
 &lt;p>&lt;strong>Requirements:&lt;/strong> Skyrim Script Extender, Address Library for SKSE&lt;/p>
-&lt;h5 id="skyuihttpswwwnexusmodscomskyrimspecialeditionmods12604">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12604">SkyUI&lt;/a>&lt;/h5>
+&lt;h5 id="mcm-helperhttpswwwnexusmodscomskyrimspecialeditionmods53000tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/53000?tab=files">MCM Helper&lt;/a>&lt;/h5>
 &lt;div class="alert alert-success" role="alert">
 &lt;strong>Essential.&lt;/strong> Everyone should install this mod.
 &lt;/div>
-&lt;p>SkyUI is nearly as crucial as SKSE. It not only overhauls the entire interface to be properly usable for mouse + keyboard but also adds the &lt;strong>mod configuration menu&lt;/strong> feature. Other mods can add MCMs (settings menus) which can be accessed and configured as naturally as the base game settings.&lt;/p>
-&lt;p>If you prefer (parts of) the vanilla UI, you can (selectively) overwrite SkyUI with &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12770">Hide SkyUI&lt;/a> while retaining the MCM feature. There are also various extensions and reskins for SkyUI.&lt;/p>
-&lt;p>&lt;strong>Requirements:&lt;/strong> Skyrim Script Extender&lt;/p>
+&lt;p>MCM Helper simplifies MCM creation and customisation, also by saving changes in INI files so they persist across save games.&lt;/p>
+&lt;p>&lt;strong>Requirements:&lt;/strong> Skyrim Script Extender, Address Library for SKSE, SkyUI&lt;/p>
 &lt;h5 id="quihttpswwwnexusmodscomskyrimspecialeditionmods65343">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/65343">QUI&lt;/a>&lt;/h5>
 &lt;div class="alert alert-info" role="alert">
 &lt;strong>Recommended.&lt;/strong> Very useful in any setup.
@@ -338,4 +414,23 @@ If you previously installed &lt;a href="https://thephoenixflavour.com/bg/tool-se
 &lt;strong>Essential.&lt;/strong> Everyone should install this mod.
 &lt;/div>
 &lt;p>More Informative Console turns the console from a decently useful into an invaluable dev tool. Its most immediate usecase is checking the Form ID of a given object (it helpfully displays both Base and Ref ID) or to see which mesh the object is using, but it can display a variety of other information, including an NPC&amp;rsquo;s factions, inventory, etc.&lt;/p>
-&lt;p>&lt;strong>Requirements:&lt;/strong> Skyrim Script Extender, Address Library for SKSE&lt;/p></description></item></channel></rss>
+&lt;p>&lt;strong>Requirements:&lt;/strong> Skyrim Script Extender, Address Library for SKSE&lt;/p></description></item><item><title>Bg: LOD Resources</title><link>https://thephoenixflavour.com/bg/recommended-mods/lod-resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/recommended-mods/lod-resources/</guid><description>
+&lt;h2 id="general-remarks">General Remarks&lt;/h2>
+&lt;p>LOD Resources are used to improve LODs generated with &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sselodgen/">SSELODGen&lt;/a> or &lt;a href="https://thephoenixflavour.com/bg/tool-setup/dyndolod/">DynDOLOD&lt;/a>. You always need the DynDOLOD Resources, Scripts, and DLL as well as the SSE-Terrain-Tamriel-Extend, the installation instructions for which are covered in the linked modules for the respective tools.&lt;/p>
+&lt;h3 id="mod-order">Mod Order&lt;/h3>
+&lt;ul>
+&lt;li>xLODGen Resource - SSE Terrain Tamriel&lt;/li>
+&lt;li>DynDOLOD Resources&lt;/li>
+&lt;li>DynDOLOD - Scripts and DLL
+&lt;ul>
+&lt;li>&lt;em>NG or regular.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Far Object LOD Improvement Project&lt;/li>
+&lt;/ul>
+&lt;h5 id="far-object-lod-improvement-projecthttpswwwnexusmodscomskyrimspecialeditionmods79197">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/79197">Far Object LOD Improvement Project&lt;/a>&lt;/h5>
+&lt;div class="alert alert-info" role="alert">
+&lt;strong>Recommended.&lt;/strong> Very useful in any setup (that is using DynDOLOD 3).
+&lt;/div>
+&lt;p>Far Object LOD Improvement Project (FOLIP) adds resources for DynDOLOD 3 generation. It is mainly used to add &lt;strong>roads&lt;/strong> to the map for &lt;em>A Clear Map of Skyrim and Other Worlds&lt;/em> but also adds LODs for the glowing mushrooms in Blackreach and the Tundra Homestead creation.&lt;/p>
+&lt;p>&lt;strong>Requirement(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/additional-modules/lod-occlusion/">LOD Generation&lt;/a> (effect will not be visible until LODs were rebuilt)&lt;/p></description></item></channel></rss>

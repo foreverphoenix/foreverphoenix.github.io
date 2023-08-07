@@ -37,7 +37,7 @@ There are also some additional flags uncovered by fireundubh &lt;a href="https:/
 &lt;/div>
 &lt;h3 id="loading-bsas">Loading BSAs&lt;/h3>
 &lt;p>&lt;strong>A BSA always requires a plugin with the same name to be loaded.&lt;/strong>&lt;/p>
-&lt;p>&lt;em>Example.esp&lt;/em> (or ESL/ESM) can load &lt;em>Example.bsa&lt;/em> and &lt;em>Example - Textures.bsa&lt;/em>, but no more than that. If the name does not match exactly the BSA will not be loaded.&lt;/p>
+&lt;p>&lt;em>Example.esp&lt;/em> (or ESL/ESM) can load &lt;em>Example.bsa&lt;/em> and &lt;em>Example - Textures.bsa&lt;/em>, but no more than that. If the name does not match exactly the BSA will not be loaded. The plugin does not need to have any content, it can be an empty &amp;lsquo;dummy&amp;rsquo; (in which case it should ideally be an ESP-FE).&lt;/p>
 &lt;div class="alert alert-info" role="alert">
 The vanilla BSAs are actually loaded via the &lt;strong>Skyrim.ini&lt;/strong> file and it should be &lt;em>technically&lt;/em> possible to load additional BSAs by adding them to the INI. However, this is not particularly convenient so it is not done.
 &lt;/div>
@@ -54,7 +54,96 @@ The vanilla BSAs are actually loaded via the &lt;strong>Skyrim.ini&lt;/strong> f
 &lt;p>It makes sense to BSA-pack assets from mods that serve as a baseline intended to be overwritten. On the flipside, assets from mods that should generally overwrite are best kept as loose files.&lt;/p>
 &lt;p>You may also want to extract an archive in order to be able to compare its assets to other assets in your mod order. &lt;a href="https://thephoenixflavour.com/bg/tool-setup/nifskope/">NifSkope&lt;/a>, for example, can only load loose textures and meshes, not BSA-packed ones.&lt;/p>
 &lt;h3 id="archives--plugins">Archives &amp;amp; Plugins&lt;/h3>
-&lt;p>If you have two archives or plugins &lt;em>with the same name&lt;/em>, the one from the mod lower in the load order will overwrite and replace the other. BSAs and ESPs/ESMs/ESLs are essentially a type of asset as well and adhere to the mod order.&lt;/p></description></item><item><title>Bg: Conflict Management</title><link>https://thephoenixflavour.com/bg/knowledge-base/conflict-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/conflict-management/</guid><description>
+&lt;p>If you have two archives or plugins &lt;em>with the same name&lt;/em>, the one from the mod lower in the load order will overwrite and replace the other. BSAs and ESPs/ESMs/ESLs are essentially a type of asset as well and adhere to the mod order.&lt;/p></description></item><item><title>Bg: Asset Management</title><link>https://thephoenixflavour.com/bg/knowledge-base/asset-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/asset-management/</guid><description>
+&lt;h2 id="about-asset-management">About Asset Management&lt;/h2>
+&lt;p>This article outlines in general terms how Mod Organizer 2 can be used for &lt;strong>asset management&lt;/strong>.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+I recommend reading the article on &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/asset-basics/">Asset Basics&lt;/a> first.
+&lt;/div>
+&lt;p>Mod Organizer 2 is brilliant for managing assets, mostly because of its &lt;em>virtual data folder&lt;/em> and &lt;strong>mod order&lt;/strong>. You can control assets on a per-file basis, comparing and selectively removing them when necessary.&lt;/p>
+&lt;h3 id="asset-conflicts">Asset Conflicts&lt;/h3>
+&lt;p>The left pane of Mod Organizer 2, the &lt;strong>mod order&lt;/strong>, visualises mod interaction via icons in the &lt;strong>Conflicts&lt;/strong> column. Below, you can see all possible conflicts and the icons symbolising them.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Conflicts involving BSAs will only be shown if &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/asset-management/#archive-parsing">archive parsing&lt;/a> is enabled.
+&lt;/div>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/asset-management/mo2-conflicts-all.png" alt="MO2 Asset Win">&lt;/p>
+&lt;p>You can resolve asset conflicts in three ways:&lt;/p>
+&lt;ol>
+&lt;li>By packing assets that are meant to be overwritten by other loose files in a BSA.&lt;/li>
+&lt;li>By changing the mod order so another mod overwrites.&lt;/li>
+&lt;li>By (selectively) hiding or removing assets.&lt;/li>
+&lt;/ol>
+&lt;h3 id="viewing-conflicts">Viewing Conflicts&lt;/h3>
+&lt;p>Each mod&amp;rsquo;s asset conflicts can be viewed in detail in the &lt;strong>Conflicts&lt;/strong> tab when you double-click the mod in the mod order. I recommend switching to the &lt;strong>Advanced&lt;/strong> view.&lt;/p>
+&lt;p>You will see overwriting and overwritten assets, plus all mods that are overwriting and overwritten.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Files in &lt;em>italics&lt;/em> are from BSAs.
+&lt;/div>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/asset-management/mo2-conflicts-tab.png" alt="MO2 Conflicts Tab">&lt;/p>
+&lt;h3 id="removing-assets">Removing Assets&lt;/h3>
+&lt;p>You can remove any assets by simply deleting them in the File Explorer or through the &lt;strong>Filetree&lt;/strong> tab in Mod Organizer 2. Assets &lt;u>cannot&lt;/u> be removed in the &lt;strong>Conflicts&lt;/strong> tab; however they can be &lt;em>hidden&lt;/em>.&lt;/p>
+&lt;p>Hiding assets through Mod Organizer 2 renames their file extension to &lt;strong>.mohidden&lt;/strong> which means the game will no longer recognise them. This can be undone at any time.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/asset-management/mo2-hide-asset.png" alt="MO2 Hide Asset">&lt;/p>
+&lt;p>Hiding files instead of outright deleting them can be very helpful in the early stages of building a setup where you may not be entirely sure which assets you want to use in the end. It can be annoying the dig through mod archives searching for that one texture that has been fully deleted. It is much easier to restore hidden files.&lt;/p>
+&lt;h2 id="file-preview">File Preview&lt;/h2>
+&lt;p>Textures and, with an additional plugin, meshes can be directly previewed and compared in Mod Organizer 2 (see below). Scripts can only be previewed if the source (.psc) files are present which can be opened in any text editor.&lt;/p>
+&lt;p>BSAs can also be previewed (see below).&lt;/p>
+&lt;h3 id="viewing-textures">Viewing Textures&lt;/h3>
+&lt;p>Mod Organizer 2 includes a plugin for easy texture comparison. You can double-click textures in the &lt;strong>Filetree&lt;/strong> and in the &lt;strong>Conflicts&lt;/strong> view as well as in the &lt;strong>Data&lt;/strong> tab in the right pane to open a small preview.&lt;/p>
+&lt;p>If you open the preview through the &lt;strong>Conflicts&lt;/strong> or &lt;strong>Data&lt;/strong> tab, you will be able to cycle through all &lt;u>loose&lt;/u> copies of the same file to compare them. Files packed in BSAs cannot be previewed this way.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/asset-management/texture-preview.png" alt="MO2 Texture Preview">&lt;/p>
+&lt;h3 id="viewing-meshes">Viewing Meshes&lt;/h3>
+&lt;p>Of course, viewing the flat texture does not give a good idea of what it will look like ingame. This is easier when you can see it properly applied to its mesh. Thankfully, Parapets created the &lt;a href="https://thephoenixflavour.com/bg/tool-setup/nif-preview/">NIF Preview&lt;/a> plugin which is functionally identically to the DDS preview, but used for meshes.&lt;/p>
+&lt;p>With NIF Preview installed, you can preview meshes in the same way as textures (if they are loose files). It will draw on your &lt;em>loose&lt;/em> textures as well as the vanilla BSAs.&lt;/p>
+&lt;p>NIF Preview is still currently in beta so it has the occasional issue. When it does not properly show a mesh or when you want to see more detail, you can &lt;em>right-click&lt;/em> a mesh and select &lt;strong>Open with VFS&lt;/strong> to view it in &lt;a href="https://thephoenixflavour.com/bg/tool-setup/nifskope/">NifSkope&lt;/a> (this requires having set up NifSkope as the default app for viewing NIFs).&lt;/p>
+&lt;h2 id="bsas-in-mo2">BSAs in MO2&lt;/h2>
+&lt;p>All BSAs from currently active mods are displayed in the &lt;strong>Archives&lt;/strong> tab in the right pane. They are greyed out because they cannot be enabled or disabled here, but you can tell from whether or not they are checked if they have a matching plugin to load them. If they are &lt;u>unchecked&lt;/u> they are not currently being loaded into the game.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/asset-management/mo2-archives-tab.png" alt="MO2 Archives Tab">&lt;/p>
+&lt;h3 id="bsa-preview">BSA Preview&lt;/h3>
+&lt;p>You can preview BSAs by &lt;em>double-clicking&lt;/em> them in the &lt;strong>Filetree&lt;/strong> or &lt;strong>Data&lt;/strong> tabs. If you &lt;em>right-click&lt;/em> and select &lt;strong>Open&lt;/strong>, the BSA will be opened in the default app instead which is &lt;a href="https://thephoenixflavour.com/bg/tool-setup/bae/">Bethesda Archive Extractor&lt;/a> if you installed that.&lt;/p>
+&lt;p>Both views allow you to filter by file name. The MO2 preview also allows you to see the compression level and archive types while BAE is more convenient for (selectively) extracting files (see &lt;a href="https://thephoenixflavour.com/bg/additional-modules/extracting-bsas/">Extracting BSAs&lt;/a>).&lt;/p>
+&lt;h3 id="archive-parsing">Archive Parsing&lt;/h3>
+&lt;p>I strongly recommend enabling &lt;strong>archive parsing&lt;/strong> in the MO2 &lt;a href="https://thephoenixflavour.com/Pictures/bg/tool-setup/mo2/mo2-open-settings.png">settings&lt;/a> (Workarounds tab).&lt;/p>
+&lt;p>This setting can be somewhat buggy and it will slow down Mod Organizer 2 (especially in large setups), but it is important for seeing conflicts between archives and loose files in the interface.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/mo2-archive-parsing.png" alt="Enable Archive Parsing">&lt;/p></description></item><item><title>Bg: Cleaning Plugins</title><link>https://thephoenixflavour.com/bg/knowledge-base/cleaning-plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/cleaning-plugins/</guid><description>
+&lt;h2 id="about-cleaning-plugins">About Cleaning Plugins&lt;/h2>
+&lt;p>This article discusses the importance of &amp;ldquo;cleaning&amp;rdquo; plugins.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+This step discusses what plugin cleaning does and when it should be done. You can find the instructions for cleaning plugins with SSEEdit &lt;a href="https://thephoenixflavour.com/bg/additional-modules/cleaning-plugins/">here&lt;/a>.
+&lt;/div>
+&lt;p>The process of &amp;ldquo;cleaning&amp;rdquo; plugins by undeleting and disabling references and removing ITMs can be controversial. It has been recommended as a basic step at the start of building a setup, often by people who do not fully grasp what &amp;ldquo;cleaning&amp;rdquo; does.&lt;/p>
+&lt;p>Cleaning addresses the following &lt;em>potential&lt;/em> causes of problems:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Undeleting references:&lt;/strong> References that were flagged as &amp;ldquo;Deleted&amp;rdquo; can crash the game when they are called by another record. &amp;ldquo;Cleaning&amp;rdquo; will change the flag to &amp;ldquo;Initially disabled&amp;rdquo; to prevent this.&lt;/li>
+&lt;li>&lt;strong>Removing ITMs:&lt;/strong> Identical-to-master (ITM) records are (usually) unintentional copies which can overwrite intentionally modified versions of the same record. &amp;ldquo;Cleaning&amp;rdquo; deletes them.&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-warning" role="alert">
+&lt;strong>TL;DR:&lt;/strong> In my experience, cleaning is generally unnecessary. I only do it when using &lt;a href="https://thephoenixflavour.com/bg/tool-setup/dyndolod/">DynDOLOD&lt;/a> NG.
+&lt;/div>
+&lt;h3 id="official-master-files">Official Master Files&lt;/h3>
+&lt;p>The official master files contain various deleted references and ITMs which, according to Arthmoor, will cause issues:&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+If you don&amp;rsquo;t clean the masters and aren&amp;rsquo;t using [the USSEP], there are dirty edits in some of the DLCs that will break house purchases, wreck daedric artifact quests, and raise the possibility of navmesh related crashes. So cleaning them is generally quite useful, especially in a strictly vanilla setup.
+&lt;/div>
+&lt;p>Arthmoor specifically refers to &amp;ldquo;dirty edits&amp;rdquo; (ITMs) which can occur very easily in the Creation Kit. Though I know of no specific example, an unintentional ITM from Dragonborn.esm that overwrites a vital change in HearthFires.esm can very well break the game.&lt;/p>
+&lt;p>However, Arthmoor also implied that the USSEP fixes those instances. Although this is circumstantial evidence, I did not use cleaned masters in several years (and therefore users of my Wabbajack lists did not either) and no issues were ever traced back to uncleaned plugins.&lt;/p>
+&lt;div class="alert alert-success" role="alert">
+My best judgement is that cleaning the masters is unnecessary for preventing issues &lt;em>as long as the USSEP is present&lt;/em> (which it should generally be).
+&lt;/div>
+&lt;h3 id="plugins-from-mods">Plugins from Mods&lt;/h3>
+&lt;p>Plugins added by mods can also have deleted references and ITMs. It is generally considered good practice to clean plugins before publishing them and the presence of these issues &lt;em>can&lt;/em> be an indicator of sloppiness in the creation of the mod.&lt;/p>
+&lt;p>Nevertheless, I would not consider &amp;ldquo;cleaning&amp;rdquo; plugins from mods an essential step in building a setup. While it is true that ITMs can overwrite crucial edits from other plugins, such cases would create obvious conflicts in SSEEdit that you would be expected to check for and address anyway.&lt;/p>
+&lt;p>As with the official master files, I have yet to see an example of a mod where &amp;ldquo;cleaning&amp;rdquo; fixes a specific issue.&lt;/p>
+&lt;h2 id="should-i-clean-my-plugins">Should I clean my plugins?&lt;/h2>
+&lt;p>I would not generally recommend &amp;ldquo;cleaning&amp;rdquo; plugins &lt;em>for the sake of it&lt;/em>.&lt;/p>
+&lt;p>Undeleting large references is a prerequisite for &lt;a href="https://thephoenixflavour.com/bg/tool-setup/dyndolod/">DynDOLOD&lt;/a> NG, so you &lt;u>should&lt;/u> clean plugins if you intend to use that. At the very least you need to make sure there are no deleted large references.&lt;/p>
+&lt;p>ITMs can sometimes cause unintentional conflicts, but those will be very visible in SSEEdit when you do your conflict resolution so you can address them then.&lt;/p>
+&lt;p>It is unlikely that &amp;ldquo;cleaning&amp;rdquo; ever &lt;em>breaks&lt;/em> anything, so there is nothing wrong with doing it. For the most part it just does not fix anything, either. Like other common practices in the modding scene, it is generally misunderstood and overrated.*&lt;/p>
+&lt;p>&lt;font size=2>**I am referring to those YouTube videos promising to fix all your issues and turning your modded setup into the smoothest possible experience - and then simply clean the official master files. No, this will not magically fix everything.*&lt;/font>&lt;/p>
+&lt;p>(Intentional ITMs: Some mods warn against cleaning because they claim to require an ITM, i.e., they require a vanilla record to be in its original form and not changed by other mods. It can be &lt;em>convenient&lt;/em> to keep the ITM, but removing it also does not break anything as long as you ensure there is no unintentional interaction with another mod.)&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+Cleaning plugins cannot address actual &lt;strong>errors&lt;/strong> in plugins. These &lt;u>must&lt;/u> be fixed which can only be done manually.
+&lt;/div></description></item><item><title>Bg: Conflict Management</title><link>https://thephoenixflavour.com/bg/knowledge-base/conflict-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/conflict-management/</guid><description>
 &lt;h2 id="about-plugin-conflicts">About Plugin Conflicts&lt;/h2>
 &lt;p>This article outlines in general terms how &lt;strong>conflicts&lt;/strong> should be managed.&lt;/p>
 &lt;div class="alert alert-info" role="alert">
@@ -107,7 +196,71 @@ Conflicts arising from multiple plugins making different changes to the same rec
 &lt;p>Note that &amp;ldquo;making stuff green&amp;rdquo; in SSEEdit is not &lt;u>always&lt;/u> the correct solution and indeed it is not always possible. You may recall that in the &lt;em>harmless conflict&lt;/em> example SSEEdit was still displaying the record in bright red to show a conflict was happening.&lt;/p>
 &lt;p>&lt;strong>Rather than focusing on making SSEEdit look green, focus on forwarding all desired changes into the final layer.&lt;/strong>&lt;/p>
 &lt;p>&lt;em>That being said, it is easier to work with a large load order if you can avoid checking the same conflicts repeatedly. This is where &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/modgroups/">ModGroups&lt;/a> come in handy.&lt;/em>&lt;/p></description></item><item><title>Bg: Creation Club</title><link>https://thephoenixflavour.com/bg/knowledge-base/creation-club/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/creation-club/</guid><description>
-&lt;p>&lt;em>Wow, such empty.&lt;/em>&lt;/p></description></item><item><title>Bg: ESL Plugins</title><link>https://thephoenixflavour.com/bg/knowledge-base/esl-plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/esl-plugins/</guid><description>
+&lt;h2 id="about-the-creation-club">About the Creation Club&lt;/h2>
+&lt;p>Alongside the engine upgrade, there was another major feature introduced with Skyrim Special Edition: The &lt;strong>Creation Club&lt;/strong>. This ingame cash shop offers &amp;ldquo;creations&amp;rdquo;, mini DLC, made by Bethesda developers and freelancers, many of them well-known members of the modding community. At the time of the initial roll-out, the price tags and lack of interesting content evoked memories of &lt;a href="https://knowyourmeme.com/memes/events/horse-armor">horse armor&lt;/a>.&lt;/p>
+&lt;p>The negative reaction from the modding community toward the Creation Club was compounded by the fact that while we largely wanted to ignore the Creation Club, we were unable to do so: &lt;mark>Every successive Skyrim update, including ones released solely for the Creation Club, requires crucial mods like SKSE and SKSE plugins to be update.&lt;/mark> This stirred some resentment in the community, though solutions were found in time.*&lt;/p>
+&lt;p>&lt;font size=2>**Halgari&amp;rsquo;s downgrader tool, manually preventing Steam from updating Skyrim, and Address Library for SKSE make updates easier to cope with.*&lt;/font>&lt;/p>
+&lt;p>While the initial line-up was somewhat underwhelming compared to the wealth of mods available on PC, the Creation Club was expanded over the years. Between creations, the quality varies wildly and the lack of voice acting is often glaring. Nevertheless, the asset quality and level design of some creations is excellent.&lt;/p>
+&lt;p>Since the release of the Anniversary Edition DLC (which bundled all creations together with a more reasonable $20 price tag) the uptake in the modding community has been much higher. Integration mods and patch support are easily found, and the controversy has mostly died down. &lt;strong>Separate creations or the AE DLC are increasingly a requirement for mods and Wabbajack lists.&lt;/strong>&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+It should be noted that the modding community was never the intended target group for the Creation Club. It was aimed at players who only ever played the vanilla game and who were therefore more interested in hassle-free content additions. The Creation Club was less controversial in these demographies. Meanwhile, for the longest time, nothing that was published as a creation did not already exist as a mod (and often in better quality, too).
+&lt;/div></description></item><item><title>Bg: Distant LODs</title><link>https://thephoenixflavour.com/bg/knowledge-base/distant-lods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/distant-lods/</guid><description>
+&lt;h2 id="about-distant-lods">About Distant LODs&lt;/h2>
+&lt;div class="alert alert-info" role="alert">
+This article draws heavily on and occasionally quotes from resources written by &lt;strong>sheson&lt;/strong>, the creator of &lt;a href="https://thephoenixflavour.com/bg/tool-setup/dyndolod/">DynDOLOD&lt;/a> and the authority on all things related to LODs. Please check the &lt;a href="https://dyndolod.info/">DynDOLOD website&lt;/a> for more detailed information.
+&lt;/div>
+&lt;p>In the context of Creation Engine modding, &lt;strong>distant LOD&lt;/strong> (level-of-detail) describes far-away objects and landscape. The further the object or terrain is from the player, the lower the quality in which it is rendered. This improves performance.&lt;/p>
+&lt;p>&lt;strong>LODs should be regenerated in modded setups for better quality and to integrate the installed mods.&lt;/strong>&lt;/p>
+&lt;div class="alert alert-success" role="alert">
+Contrary to popular belief, generating DynDOLOD on the Low preset should not negatively impact performance while still noticeably improving distant terrain.
+&lt;/div>
+&lt;h3 id="types-of-lod">Types of LOD&lt;/h3>
+&lt;p>There are multiple types of LOD:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://dyndolod.info/Help/Object-LOD">Object LOD&lt;/a> &amp;ldquo;are combined meshes and textures for objects that do not change and are not animated, like buildings or landscape features like mountains and rocks.&amp;rdquo;&lt;/li>
+&lt;li>&lt;a href="https://dyndolod.info/Help/Tree-LOD">Tree LOD&lt;/a> is a separate LOD system for rendering distant trees as &lt;a href="https://dyndolod.info/sites/dyndolod/files/images/tree-lod.webp">flat cardboard cutouts&lt;/a>. With DynDOLOD you can also generate much higher quality 3D or hybrid Object LOD for trees.&lt;/li>
+&lt;li>&lt;a href="https://dyndolod.info/Help/Terrain-LOD-and-Water-LOD">Terrain LOD&lt;/a> &amp;ldquo;is the distant ground and large (cell sized) bodies of water.&amp;rdquo; Regenerating it ensures that your close-up landscape textures match and blend with distant terrain.
+&lt;ul>
+&lt;li>&lt;em>The world map uses Terrain LOD meshes and textures (LOD Level 32).&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://dyndolod.info/Help/Grass-LOD">Grass LOD&lt;/a> visually extends grass into the distance without the performance cost of fully rendering it.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Terrain LOD&lt;/strong> is generated with &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sselodgen/">SSELODGen&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Object&lt;/strong> and &lt;strong>Tree LOD&lt;/strong> are generated with &lt;a href="https://thephoenixflavour.com/bg/tool-setup/dyndolod/">DynDOLOD&lt;/a>.&lt;/p>
+&lt;p>&lt;font size=2>*SSELODGen can also generate Object and Tree LOD, but not as high quality as DynDOLOD.*&lt;/font>&lt;/p>
+&lt;p>&lt;strong>Grass LOD&lt;/strong> is also generated with &lt;a href="https://thephoenixflavour.com/bg/tool-setup/dyndolod/">DynDOLOD&lt;/a> but requires some extra steps and tools.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+If you are interested in &lt;strong>Grass LOD&lt;/strong>, please consult &lt;a href="https://github.com/The-Animonculory/Modding-Resources/blob/main/Grass%20Lods.md">Althro&amp;rsquo;s guide&lt;/a>.
+&lt;/div>
+&lt;h3 id="lod-resources">LOD Resources&lt;/h3>
+&lt;p>Creating matching LODs for your mods requires additional resources. Some of those are provided on the Nexus while others, namely &lt;a href="https://dyndolod.info/Help/Tree-Grass-LOD-Billboards">billboards&lt;/a>, must be generated with TexGen specifically for your setup. Billboards are required for &lt;strong>Tree&lt;/strong> and &lt;strong>Grass LOD&lt;/strong> and must generated with TexGen before running DynDOLOD.&lt;/p>
+&lt;p>For &lt;strong>Terrain LOD&lt;/strong> generation, LOD resources may be provided by the author for improved blending. If so, overwrite the original mod with the LOD resources while running SSELODGen and &lt;em>disable them afterwards&lt;/em>.&lt;/p>
+&lt;p>DynDOLOD resources should be left &lt;u>enabled&lt;/u> after LOD generation.&lt;/p>
+&lt;p>Installation instructions for resources that should be present in any setup are covered in the &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sselodgen/">SSELODGen&lt;/a> and &lt;a href="https://thephoenixflavour.com/bg/tool-setup/dyndolod/">DynDOLOD&lt;/a> setup instructions.&lt;/p>
+&lt;h2 id="when-should-i-generate-lods">When should I generate LODs?&lt;/h2>
+&lt;p>LOD (and Occlusion) generation are generally the final steps in building a setup because all objects and assets must be present to be incorporated. DynDOLOD copies from the final layer of each plugin so all conflict resolution must be completed at this point as well.&lt;/p>
+&lt;p>That being said, I typically generate &lt;em>temporary&lt;/em> object, tree, and terrain LOD after completing my visual baseline for a setup. This allows me to approximate the level of graphical quality as well as performance I will eventually have while giving me a good backdrop for hand-picking assets and testing ENB presets. In this case I would only generate for the Tamriel worldspace to speed up the process.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+DynDOLOD uses Terrain LOD meshes to optimise Object LOD. Always generate Terrain LOD first.
+&lt;/div>
+&lt;h3 id="regenerating-terrain-lod">Regenerating Terrain LOD&lt;/h3>
+&lt;p>&lt;strong>Terrain LOD&lt;/strong> should be regenerated after changing landscape textures.&lt;/p>
+&lt;p>It is possible to regenerate Terrain LOD after beginning a playthrough because it is affected by mods (mesh and texture replacers) that can be added or removed at any time. Remove your previous output, then rerun &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sselodgen/">SSELODGen&lt;/a>.&lt;/p>
+&lt;h3 id="regenerating-object-and-tree-lod">Regenerating Object and Tree LOD&lt;/h3>
+&lt;p>&lt;strong>Object&lt;/strong> and &lt;strong>Tree LOD&lt;/strong> should be regenerated when the position of objects changed or new objects were added (for example, a new ruin was added to the Morthal swamp or some trees were resized in the Rift). Unless the LOD assets changed (for example, because you changed your tree overhaul), you do &lt;u>not&lt;/u> need to regenerate billboards with TexGen.&lt;/p>
+&lt;p>The TexGen and DynDOLOD outputs can be regenerated in an ongoing playthrough, but this requires some extra steps:&lt;/p>
+&lt;ol>
+&lt;li>Load your save and make sure you are in an exterior cell.&lt;/li>
+&lt;li>Disable DynDOLOD in the ingame MCM.&lt;/li>
+&lt;li>Go into an interior cell (like a house or a dungeon).&lt;/li>
+&lt;li>Create a manual save and exit the game.&lt;/li>
+&lt;li>Remove your old DynDOLOD output (and TexGen, if necessary).&lt;/li>
+&lt;li>Reload your save and click OK to missing plugins.&lt;/li>
+&lt;li>Create a manual save and exit the game.&lt;/li>
+&lt;li>Update DynDOLOD and regenerate the output(s).&lt;/li>
+&lt;li>Load your save and continue your playthrough.&lt;/li>
+&lt;/ol></description></item><item><title>Bg: ESL Plugins</title><link>https://thephoenixflavour.com/bg/knowledge-base/esl-plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/esl-plugins/</guid><description>
 &lt;h2 id="about-esl-plugins">About ESL Plugins&lt;/h2>
 &lt;p>This article summarises some basic knowledge about &lt;strong>ESL Plugins&lt;/strong>.&lt;/p>
 &lt;div class="alert alert-info" role="alert">
@@ -251,7 +404,63 @@ When modifying INIs through the INI Editor always remember to click the &lt;stro
 &lt;/div>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/mo2-open-ini-editor.png" alt="MO2 Open INI Editor">&lt;/p>
 &lt;h2 id="ini-configuration">INI Configuration&lt;/h2>
-&lt;p>I recommend customising the INI files using the tool &lt;strong>BethINI&lt;/strong>. You can find instructions &lt;a href="https://thephoenixflavour.com/bg/additional-modules/ini-config/">here&lt;/a>.&lt;/p></description></item><item><title>Bg: Mod Managers</title><link>https://thephoenixflavour.com/bg/knowledge-base/mod-managers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/mod-managers/</guid><description>
+&lt;p>I recommend customising the INI files using the tool &lt;strong>BethINI&lt;/strong>. You can find instructions &lt;a href="https://thephoenixflavour.com/bg/additional-modules/ini-config/">here&lt;/a>.&lt;/p></description></item><item><title>Bg: Max Height Data</title><link>https://thephoenixflavour.com/bg/knowledge-base/mhdt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/mhdt/</guid><description>
+&lt;h2 id="the-mhdt-field">The MHDT Field&lt;/h2>
+&lt;p>&lt;strong>Max Height Data (MHDT)&lt;/strong> is a possible value that can be set in &lt;strong>CELL&lt;/strong> and &lt;strong>WRLD&lt;/strong> (Worldspace) records. It may vary between plugins if it is not missing entirely and causes conflicts that have no obvious solution.&lt;/p>
+&lt;div class="alert alert-success" role="alert">
+&lt;strong>TL;DR:&lt;/strong> Max Height Data conflicts can be mostly disregarded. Ideally you would let the value from the USSEP or (when present) from DynDOLOD/Occlusion overwrite.
+&lt;/div>
+&lt;p>In many Skyrim.esm records the field is left empty while the DLC add a value:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/max-height-data/mhdt-tamriel.png" alt="MHDT Tamriel">&lt;/p>
+&lt;p>Certain mods in turn forward one of the values from the official master files, add their own, or leave the field empty again. How should these conflicts be addressed?&lt;/p>
+&lt;h3 id="what-does-mhdt-do">What does MHDT do?&lt;/h3>
+&lt;p>The following is a quote from Arthmoor (&lt;a href="https://forums.nexusmods.com/index.php?/topic/1740126-a-simple-world-patch/?p=15067621">source&lt;/a>):&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+&lt;p>This MHDT data is speculated to have something to do with dragon height data. Telling them where they can and can&amp;rsquo;t fly while airborn. Sort of serving as their navmesh. There is no solid proof of this though.&lt;/p>
+&lt;p>[&amp;hellip;]&lt;/p>
+&lt;p>With thousands of mods in the game not forwarding this data (because why would they - it requires DLC) &lt;strong>there is no way that [max height data] being missing is going to matter.&lt;/strong> Every mod would break the game. Bethesda&amp;rsquo;s own DLC would break the game, because Dragonborn&amp;rsquo;s MHDT data will clearly not be taking Dawnguard into account, and vice-versa. So just the mere presence of Dragonborn in the game should cause Castle Volkihar to get blocked.&lt;/p>
+&lt;/div>
+&lt;p>On the xEdit Discord, Arthmoor added (&lt;a href="https://discord.com/channels/471930020454072348/505059178365190146/1084213469324263526">source&lt;/a>):&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Height data in individual CELL records does matter and dragons will take it into account when those cells are loaded.
+&lt;/div>
+&lt;p>TechAngel wrote the following in a post in the STEP forum (&lt;a href="https://stepmodifications.org/forum/topic/8358-mhdt-max-height-data/?do=findComment&amp;amp;comment=240176">source&lt;/a>):&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+Max height data is merged at runtime, therefore, leaving it blank will not have any impact if the mod is not drastically changing the heights for the cells it&amp;rsquo;s editing (most mods don&amp;rsquo;t). DynDOLOD updates this data, I think, to correct heights for cells that have objects in them that extended beyond the default heights (e.g. installing a mod that has taller trees vs vanilla trees). This height data is also used to updating the occlusion data using xLODGen or DynDOLOD.
+&lt;/div>
+&lt;h3 id="mhdt-conflicts">MHDT Conflicts&lt;/h3>
+&lt;p>As TechAngel mentioned, Occlusion generated with &lt;a href="https://thephoenixflavour.com/bg/tool-setup/xlodgen">xLODGen&lt;/a> or &lt;a href="https://thephoenixflavour.com/bg/tool-setup/dyndolod/">DynDOLOD&lt;/a> as well as the DynDOLOD plugins themselves often modify Max Height Data for cells. These outputs will overwrite everything else.&lt;/p>
+&lt;p>Where DynDOLOD and xLODGen do not recalculate Max Height Data, I recommend forwarding the value from the Unofficial Skyrim Special Edition Patch.&lt;/p>
+&lt;h3 id="recalculating-mhdt">Recalculating MHDT&lt;/h3>
+&lt;p>If Max Height Data does not match placed objects, dragons may clip through tall trees or buildings in flight. You should be able to fix this by loading the plugin adding the tall objects into the Creation Kit and regenerating Max Height Data. Make sure it then overwrites any other plugins modifying the same CELL.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/knowledge-base/max-height-data/generate-mhdt-ck.png" alt="CK Generate MHDT">&lt;/p></description></item><item><title>Bg: Mod Configuration Menus</title><link>https://thephoenixflavour.com/bg/knowledge-base/mcm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/mcm/</guid><description>
+&lt;h2 id="about-mod-configuration-menus">About Mod Configuration Menus&lt;/h2>
+&lt;p>This article summarises some basic knowledge about &lt;strong>Mod Configuration Menus&lt;/strong> (MCM).&lt;/p>
+&lt;p>The Mod Configuration Menu is a new settings menu accessible from the ESCAPE menu for customising mods, replacing older customisation methods like powers, spells, or books. The framework for MCMs is added by &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/12604">SkyUI&lt;/a> which in turn requires the &lt;a href="https://thephoenixflavour.com/bg/additional-modules/skyrim-script-extender/">Skyrim Script Extender&lt;/a>.&lt;/p>
+&lt;h2 id="saving-mcm-settings">Saving MCM Settings&lt;/h2>
+&lt;p>For every new save, Mod Configuration Menus will be rolled back to the default settings which can be inconvenient, especially during testing. Reconfiguring two dozen MCMs for every &lt;code>coc riverwood&lt;/code> can be a lot of work.&lt;/p>
+&lt;p>Fortunately, MCM settings can be maintained across saves in multiple ways:&lt;/p>
+&lt;ol>
+&lt;li>By saving presets using FISS, JContainers, PapyrusUtil, or MCM Helper.&lt;/li>
+&lt;li>By using a Settings Loader mod.&lt;/li>
+&lt;li>By modifying the MCM directly in the script or plugin.&lt;/li>
+&lt;/ol>
+&lt;h3 id="saving-presets">Saving Presets&lt;/h3>
+&lt;p>Some older mods explicitly come with a preset feature powered by either &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/13956">FileAccess Interface for Skyrim SE Scripts (FISSES)&lt;/a>, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/13048">PapyrusUtil&lt;/a>, or &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/16495">JContainers&lt;/a>.&lt;/p>
+&lt;div class="alert alert-danger" role="alert">
+&lt;strong>Note that FISSES has been known to cause crashes and should no longer be used.&lt;/strong> It has been fully replaced by PapyrusUtil and MCM Helper.
+&lt;/div>
+&lt;p>The best option today for MCM presets is &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/53000">MCM Helper&lt;/a> which (among other features) saves MCM changes in readable INI files which can easily be saved as presets.&lt;/p>
+&lt;p>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/users/22822094?tab=user+files">MaskedRPGFan&lt;/a> has created &lt;strong>Settings Loader&lt;/strong> mods for various mods with MCMs which add support for either PapyrusUtil or MCM Helper for easy automation.&lt;/p>
+&lt;p>Alternatively, you can also modify MCMs directly through either plugin or script (see below).&lt;/p>
+&lt;h3 id="managing-presets">Managing Presets&lt;/h3>
+&lt;p>After installing a Settings Loader mod or any mod with MCM Helper support, you need to go ingame, configure the MCM as desired, and quit. The preset file will be in the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em>.&lt;/p>
+&lt;p>From here, I strongly recommend keeping the file in its own folder as opposed to dropping it into the original mod&amp;rsquo;s folder. This way you can avoid having to reconfigure the MCM every time the mod is updated.&lt;/p>
+&lt;h3 id="automating-mcms">Automating MCMs&lt;/h3>
+&lt;p>An alternative to using MCM Helper presets is automating MCMs by modifying them directly. This is not done as much since MCM Helper is more widely supported, but it can be still be a convenient way of permanently changing default settings in MCMs.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+See the &lt;a href="https://thephoenixflavour.com/bg/additional-modules/automatic-mcms/">Automating MCMs&lt;/a> page for instructions on how modify MCMs directly.
+&lt;/div></description></item><item><title>Bg: Mod Managers</title><link>https://thephoenixflavour.com/bg/knowledge-base/mod-managers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/mod-managers/</guid><description>
 &lt;h2 id="mod-organizer-2">Mod Organizer 2&lt;/h2>
 &lt;p>&lt;strong>Mod Organizer 2 (MO2)&lt;/strong> is the only mod manager supported by this guide. You are expected to use it when following the instructions.&lt;/p>
 &lt;h3 id="why-mo2">Why MO2?&lt;/h3>
@@ -261,7 +470,22 @@ When modifying INIs through the INI Editor always remember to click the &lt;stro
 &lt;h2 id="vortex">Vortex&lt;/h2>
 &lt;h2 id="nexus-mod-manager">Nexus Mod Manager&lt;/h2>
 &lt;h2 id="wrye-bash">Wrye Bash&lt;/h2></description></item><item><title>Bg: Modding Guides</title><link>https://thephoenixflavour.com/bg/knowledge-base/modding-guides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/modding-guides/</guid><description>
-&lt;p>&lt;em>Wow, such empty.&lt;/em>&lt;/p></description></item><item><title>Bg: ModGroups</title><link>https://thephoenixflavour.com/bg/knowledge-base/modgroups/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/modgroups/</guid><description>
+&lt;h2 id="about-modding-guides">About Modding Guides&lt;/h2>
+&lt;div class="alert alert-warning" role="alert">
+In this article I am specifically referring to &amp;ldquo;traditional&amp;rdquo; modding guides which offer a instructions for re-creating a pre-made setup consisting of a specific list of mods.
+&lt;/div>
+&lt;p>There are many guides to modding Skyrim and not all of them are valuable resources. Especially for newcomers to the hobby, it is unfortunately difficult to recognise quality, and scammers prey upon the inexperienced by selling (often literally) promises that are impossible to keep.&lt;/p>
+&lt;p>&lt;strong>Any guide that does not include file modification and custom patches can be disregarded.&lt;/strong> These steps are essential to building a stable, high quality setup. The same is true if specific installation as well as mod and load order instructions are missing.&lt;/p>
+&lt;p>&lt;mark>A collection of links to mods is not a guide.&lt;/mark>&lt;/p>
+&lt;h3 id="recommended-guides">Recommended Guides&lt;/h3>
+&lt;p>Since the advent of &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/wabbajack/">Wabbajack&lt;/a>, the popularity of traditional modding guides has receded. However, there are still multiple guides of high quality available which you can follow.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://lexyslotd.com/">Lexy&amp;rsquo;s Legacy of the Dragonborn&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://stepmodifications.org/wiki/SkyrimSE:2.2.0">STEP Guide for Skyrim SE&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23894">The Northern Experience&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dragonbornsfate.moddinglinked.com/">A Dragonborn&amp;rsquo;s Fate&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>My own manual guide, &lt;a href="https://thephoenixflavour.com/tpf/introduction/">The Phoenix Flavour&lt;/a> is &lt;u>discontinued and outdated&lt;/u>.&lt;/p></description></item><item><title>Bg: ModGroups</title><link>https://thephoenixflavour.com/bg/knowledge-base/modgroups/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/knowledge-base/modgroups/</guid><description>
 &lt;h2 id="about-modgroups">About ModGroups&lt;/h2>
 &lt;p>This article summarises some basic information on &lt;strong>ModGroups&lt;/strong>.&lt;/p>
 &lt;div class="alert alert-info" role="alert">

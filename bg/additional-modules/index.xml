@@ -1,4 +1,65 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Additional Modules</title><link>https://thephoenixflavour.com/bg/additional-modules/</link><description>Recent content in Additional Modules on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/bg/additional-modules/index.xml" rel="self" type="application/rss+xml"/><item><title>Bg: Clean Install</title><link>https://thephoenixflavour.com/bg/additional-modules/clean-install/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/clean-install/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Additional Modules</title><link>https://thephoenixflavour.com/bg/additional-modules/</link><description>Recent content in Additional Modules on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/bg/additional-modules/index.xml" rel="self" type="application/rss+xml"/><item><title>Bg: Automating MCMs</title><link>https://thephoenixflavour.com/bg/additional-modules/automating-mcms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/automating-mcms/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers how to change the default settings in a Mod Configuration Menu to avoid having to reconfigure them in every new save.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/mo2/">Mod Organizer 2&lt;/a>, &lt;a href="https://thephoenixflavour.com/bg/tool-setup/creation-kit/">Creation Kit&lt;/a>, &lt;a href="https://thephoenixflavour.com/bg/recommended-mods/skyui/">SkyUI and Source 5.1 + 5.2&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="automating-mcms">Automating MCMs&lt;/h2>
+&lt;p>In the following, I will explain how to modify a mod directly to change its default MCM options using the example of &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/2182">Realistic Water Two&lt;/a> (RW2).&lt;/p>
+&lt;p>The mod has several option features which can be toggled in the MCM, including &lt;em>ripples&lt;/em> and &lt;em>waves&lt;/em>. When I am using &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71126">GKB Waves Reborn&lt;/a>, the RW2 waves features can be disable. When I am &lt;u>not&lt;/u> using &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72115">Splashes of Storms&lt;/a>, I might as well enable RW2&amp;rsquo;s ripples on water.&lt;/p>
+&lt;h2 id="modifying-globals">Modifying Globals&lt;/h2>
+&lt;p>MCMs consist of a quest (defined in a plugin) and a script which can be linked to other records, such as &lt;em>globals&lt;/em> or &lt;em>references&lt;/em>. If a setting is controlled via a global, it is very easy to modify in the plugin:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/automating-mcms/change-global.png" alt="RW2 Change Global">&lt;/p>
+&lt;p>With the &lt;strong>Realistic Water Two - MCM Preset.esp&lt;/strong> plugin loaded, the &lt;em>ripples&lt;/em> feature will now be &lt;em>enabled&lt;/em> by default in the RW2 MCM.&lt;/p>
+&lt;h2 id="modifying-script-source">Modifying Script Source&lt;/h2>
+&lt;p>Scripts can only be modified in their source files which must be recompiled in the Creation Kit. Fortunately, &lt;strong>Realistic Water Two&lt;/strong> and many other mods containing scripts ship with the source files included (or they are available for download as optional files).&lt;/p>
+&lt;h3 id="editing-source-files">Editing Source Files&lt;/h3>
+&lt;p>As usual, I recommend creating &lt;em>copies&lt;/em> as opposed to modifying a mod directly.&lt;/p>
+&lt;ul>
+&lt;li>Create a new folder under &lt;code>\Mod Organizer 2\mods\&lt;/code> and name it &lt;strong>Realistic Water Two - MCM Settings&lt;/strong>.&lt;/li>
+&lt;li>Inside, create the &lt;code>\Scripts\Source\&lt;/code> folder structure.&lt;/li>
+&lt;li>Copy the &lt;code>\Source\Scripts\RealisticWaterTwoMCM.psc&lt;/code> from RW2 into the new &lt;strong>Source&lt;/strong> folder.&lt;/li>
+&lt;/ul>
+&lt;p>Open the new copy of &lt;strong>RealisticWaterTwoMCM.psc&lt;/strong> in a text editor such as Notepad++ (I recommend setting the app as the default for .PSC files).&lt;/p>
+&lt;ul>
+&lt;li>Scroll down to &lt;strong>Line 40&lt;/strong> and change the following:&lt;/li>
+&lt;/ul>
+&lt;pre>&lt;code>bool SkyrimWaves = false
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>Save your change and close the file.&lt;/li>
+&lt;/ul>
+&lt;p>After recompiling the script, the &lt;em>waves&lt;/em> feature will be disabled by default.&lt;/p>
+&lt;h3 id="skyui-source">SkyUI Source&lt;/h3>
+&lt;p>When recompiling an MCM script, you need to have the SkyUI source files that were used when the MCM was originally made. This may be 5.2, 5.1, or an even older version. Generally, I would try 5.2 first. If the version is wrong, the Creation Kit log will complain about it:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/automating-mcms/wrong-skyui-source.png" alt="Wrong SkyUI Source">&lt;/p>
+&lt;h3 id="recompiling-script">Recompiling Script&lt;/h3>
+&lt;p>Before you recompile the script, check the following:&lt;/p>
+&lt;ol>
+&lt;li>The &lt;strong>Creation Kit - Source&lt;/strong> should be &lt;u>enabled&lt;/u>.&lt;/li>
+&lt;li>The &lt;strong>SkyUI - Source&lt;/strong> file set should be &lt;u>enabled&lt;/u> (5.1 for RW2).&lt;/li>
+&lt;li>The mod you are recompiling the script for should be &lt;u>disabled&lt;/u>.&lt;/li>
+&lt;/ol>
+&lt;div class="alert alert-info" role="alert">
+The third step ensures that the Creation Kit creates a new copy of the script instead of overwriting the original.
+&lt;/div>
+&lt;ul>
+&lt;li>Run the &lt;strong>Creation Kit&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Go to &lt;strong>Gameplay&lt;/strong> &amp;raquo; &lt;strong>Compile Papyrus Script&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/automating-mcms/ck-compile-script.png" alt="CK Compile Script">&lt;/p>
+&lt;p>You will be greeted by a window with a list of all present script source files.&lt;/p>
+&lt;ul>
+&lt;li>Press &lt;strong>R&lt;/strong> to quickly jump to scripts starting with that letter.&lt;/li>
+&lt;li>Check the &lt;strong>RealisticWaterTwoMCM.psc&lt;/strong> and click &lt;strong>Compile&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/automating-mcms/compile-rw2-script.png" alt="Compile RW2 Script">&lt;/p>
+&lt;p>The window will auto-close if the script was compiled successfully. Also check the &lt;a href="https://thephoenixflavour.com/Pictures/bg/additional-modules/automating-mcms/script-no-errors.png">log window&lt;/a> which should not contain any errors.&lt;/p>
+&lt;p>Close the Creation Kit.&lt;/p>
+&lt;h2 id="finalisation">Finalisation&lt;/h2>
+&lt;p>Any new plugins and/or recompiled scripts will be caught by Mod Organizer 2 in the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em>. Create &lt;a href="https://thephoenixflavour.com/Pictures/bg/additional-modules/automating-mcms/rw2-mcm-preset.png">a new mod&lt;/a> to store the file(s). Place it below the original mod and activate it.&lt;/p>
+&lt;p>Remember to disable the CK and SkyUI source files unless you have other MCM scripts to recompile.&lt;/p></description></item><item><title>Bg: Clean Install</title><link>https://thephoenixflavour.com/bg/additional-modules/clean-install/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/clean-install/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
@@ -107,7 +168,58 @@ If you got this far, everything appears to be running smoothly and you are ready
 &lt;/div>
 &lt;hr>
 &lt;h4 id="if-you-are-currently-working-through-the-core-module-return-to-step-1bgcore-modulestep1nexus-mods">If you are currently working through the Core Module, return to &lt;a href="https://thephoenixflavour.com/bg/core-module/step1/#nexus-mods">Step 1&lt;/a>.&lt;/h4>
-&lt;h4 id="recommended-next-step-mo2-setupbgadditional-modulesmo2-setup">Recommended next step: &lt;a href="https://thephoenixflavour.com/bg/additional-modules/mo2-setup/">MO2 Setup&lt;/a>.&lt;/h4></description></item><item><title>Bg: Creating ESL Plugins</title><link>https://thephoenixflavour.com/bg/additional-modules/creating-esl-plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/creating-esl-plugins/</guid><description>
+&lt;h4 id="recommended-next-step-mo2-setupbgadditional-modulesmo2-setup">Recommended next step: &lt;a href="https://thephoenixflavour.com/bg/additional-modules/mo2-setup/">MO2 Setup&lt;/a>.&lt;/h4></description></item><item><title>Bg: Cleaning Plugins</title><link>https://thephoenixflavour.com/bg/additional-modules/cleaning-plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/cleaning-plugins/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers how to &amp;ldquo;clean&amp;rdquo; plugins, including the official master files and creations, with SSEEdit.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sseedit/">SSEEdit&lt;/a> (including Quick Auto Clean), &lt;a href="https://thephoenixflavour.com/bg/tool-setup/loot/">LOOT&lt;/a> (optional), &lt;a href="https://thephoenixflavour.com/bg/tool-setup/loot-warning-checker">LOOT Warning Checker&lt;/a> (optional)&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="quick-auto-clean">Quick Auto Clean&lt;/h2>
+&lt;div class="alert alert-warning" role="alert">
+If you are unsure whether you should &amp;ldquo;clean&amp;rdquo; any plugins, read &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/cleaning-plugins/">this article&lt;/a> first.
+&lt;/div>
+&lt;p>Plugin &amp;ldquo;cleaning&amp;rdquo; used to be a semi-involved process with multiple steps but has since been simplified. It is done with &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sseedit/">SSEEdit&lt;/a> in the &lt;strong>Quick Auto Clean&lt;/strong> mode. SSEEdit comes with a preconfigured executable for it.&lt;/p>
+&lt;p>You can clean plugins either by manually running SSEEdit in -QAC mode or by using &lt;a href="https://thephoenixflavour.com/bg/tool-setup/loot-warning-checker/">LOOT Warning Checker&lt;/a> which is slightly faster.&lt;/p>
+&lt;p>I will demonstrate both methods using the official master files as an example.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+When cleaning plugins is needed, you can use LOOT to find plugins that are &amp;ldquo;unclean&amp;rdquo;. However, keep in mind that LOOT&amp;rsquo;s masterlist is limited and may be outdated or incomplete. If you missed any plugins, DynDOLOD NG should warn you about them later.
+&lt;/div>
+&lt;h3 id="backups">Backups&lt;/h3>
+&lt;p>When modifying offical files (the official master files or creations), I am in the habit of creating &lt;em>copies&lt;/em> rather than modifying the files in the default installation folder. This has the advantage that you can move or verify files without having to repeat the process.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+In the case of an actual update to the game, (some of) the official files are usually modified in which case you do need to repeat the process with the new version(s).
+&lt;/div>
+&lt;ul>
+&lt;li>Create a new mod in MO2 and name it &lt;strong>Official Master Files - Cleaned&lt;/strong>.&lt;/li>
+&lt;li>Copy the following ESMs from your installation folder into the new mod folder:
+&lt;ul>
+&lt;li>Update.esm&lt;/li>
+&lt;li>Dawnguard.esm&lt;/li>
+&lt;li>Hearthfires.esm&lt;/li>
+&lt;li>Dragonborn.esm&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Place the new mod below the originals in Mod Organizer 2.&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-danger" role="alert">
+Skyrim.esm cannot and &lt;em>should not&lt;/em> be cleaned. It consists exclusively of new records and has no masters.
+&lt;/div>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/cleaning-plugins/overwrite-omf.png" alt="OMF Backups">&lt;/p>
+&lt;p>For creations I tend to copy all plugins that need cleaning into a similar &lt;strong>Creation Club - Cleaned&lt;/strong> mod before processing them. LOOT will tell you which creations have ITMs and/or deleted references.&lt;/p>
+&lt;p>For plugins from mods I would not create separate copies, but add to the &lt;strong>Notes&lt;/strong> tab in Mod Organizer 2 that the plugin was modified as a reminder to yourself. This way, you will know that you need to check and possibly re-clean the plugin when the mod is updated.&lt;/p>
+&lt;h3 id="manual-cleaning">Manual Cleaning&lt;/h3>
+&lt;p>Plugins can be &amp;ldquo;cleaned&amp;rdquo; with SSEEdit Quick Auto Clean &lt;u>one at a time&lt;/u>. When cleaning the official master files, start with Update.esm and proceed according to their load order (Dawnguard &amp;gt; HearthFires &amp;gt; Dragonborn). When cleaning plugins from mods, clean masters before dependencies.&lt;/p>
+&lt;ul>
+&lt;li>Run &lt;strong>SSEEdit QAC&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Check the plugin you wish to clean and click &lt;strong>OK&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/cleaning-plugins/cleaning-1.png" alt="Cleaning 1">&lt;/p>
+&lt;p>The remainder of the process is fully automated and will take a few minutes. Simply wait for SSEEdit to return &lt;code>Quick Clean mode finished&lt;/code> at which point you can close the tool.&lt;/p>
+&lt;h3 id="loot-warning-checker">LOOT Warning Checker&lt;/h3>
+&lt;p>The &lt;a href="https://thephoenixflavour.com/bg/tool-setup/loot-warning-checker/">LOOT Warning Checker&lt;/a> plugin will list all plugins that the LOOT Masterlist considers in need of cleaning with a handy &lt;strong>Fix&lt;/strong> button that will automatically run SSEEdit QAC. For plugins that are in the masterlist, this is slightly faster than launching QAC manually.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/cleaning-plugins/fix-to-clean.png" alt="Cleaning 2">&lt;/p></description></item><item><title>Bg: Creating ESL Plugins</title><link>https://thephoenixflavour.com/bg/additional-modules/creating-esl-plugins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/creating-esl-plugins/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
@@ -393,7 +505,262 @@ If BethINI asks about modifying the &lt;strong>SkyrimCustom.ini&lt;/strong>, I r
 &lt;/ul>
 &lt;h3 id="bethini-finalisation">BethINI: Finalisation&lt;/h3>
 &lt;p>When you are happy with your changes, return to the &lt;strong>Basic&lt;/strong> tab and click &lt;strong>Save and Exit&lt;/strong>.&lt;/p>
-&lt;p>You can always re-run BethINI to modify the settings.&lt;/p></description></item><item><title>Bg: Managing Creations</title><link>https://thephoenixflavour.com/bg/additional-modules/managing-creations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/managing-creations/</guid><description>
+&lt;p>You can always re-run BethINI to modify the settings.&lt;/p></description></item><item><title>Bg: LOD &amp; Occlusion</title><link>https://thephoenixflavour.com/bg/additional-modules/lod-occlusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/lod-occlusion/</guid><description>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Summary&lt;/h4>
+&lt;blockquote>
+&lt;p>This module covers regeneration of Tree and Object LOD with DynDOLOD as well as Terrain LOD and Occlusion with SSELODGen. ACMOS instructions are optionally available.&lt;p>
+&lt;strong>Prerequisite(s):&lt;/strong> &lt;a href="https://thephoenixflavour.com/bg/tool-setup/mo2/">Mod Organizer 2&lt;/a>, &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sselodgen/">SSELODGen&lt;/a>, &lt;a href="https://thephoenixflavour.com/bg/tool-setup/dyndolod/">DynDOLOD&lt;/a>, &lt;a href="https://thephoenixflavour.com/bg/tool-setup/acmos-road-generator/">ACMOS Road Generator&lt;/a> (optional)&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;h2 id="regenerating-lods--occlusion">Regenerating LODs &amp;amp; Occlusion&lt;/h2>
+&lt;p>As the final step in building a modded setup, you should regenerate all &lt;a href="https://thephoenixflavour.com/bg/knowledge-base/distant-lods/">distant LODs&lt;/a> (Terrain, Tree, Object). This will integrate your installed mods so distant terrain will match your close-up landscape textures, distant trees will use the models from your tree overhaul, buildings will be visible at a distance, and so forth.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+Please note that the current instructions expect you to generate &lt;a href="https://dyndolod.info/Help/Ultra-Tree-LOD">ultra tree LOD&lt;/a> which has a performance impact but looks &lt;a href="https://dyndolod.info/sites/dyndolod/files/images/3d-ultra-tree.webp">much better&lt;/a> than regular tree LOD. The extent of the performance impact can be modulated via the tree mesh rules.
+&lt;/div>
+&lt;p>Additionally, I recommend regenerating &lt;strong>Occlusion&lt;/strong>. Occlusion is an optimisation method which unloads parts of the game when they are not visible to the player to improve performance. SSELODGen and DynDOLOD can rebuild Occlusion data for exterior cells so that their LODs are not rendered when the area is hidden from view. This also fixes errors in vanilla Occlusion data such as the infamous &lt;a href="https://dyndolod.info/sites/dyndolod/files/images/occlusion.webp">hole in the Sea of Ghosts&lt;/a>.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+For any further questions or if you are unable to resolve an issue, please consult the extremely extensive &lt;a href="https://dyndolod.info/">DynDOLOD documentation&lt;/a>. You can ask for support on the STEP forum in the &lt;a href="https://stepmodifications.org/forum/forum/223-dyndolod-xlodgen/">DynDOLOD / xLODGen section&lt;/a> as well as on our Discord server.
+&lt;/div>
+&lt;p>&lt;strong>All credits for the SSELODGen and DynDOLOD settings go to the &lt;a href="https://stepmodifications.org/wiki/SkyrimSE:2.2.0">STEP team&lt;/a>.&lt;/strong> I have relied on their recommended settings for many years because &lt;a href="https://stepmodifications.org/forum/topic/15184-xlodgen-terrain-settings-compare/page/3/#entry242523">their testing process is rigorous&lt;/a>. You may be able to get better visuals or better performance for your specific combination of mods by experimenting with the settings yourself, but that is very time-consuming.&lt;/p>
+&lt;h3 id="overview">Overview&lt;/h3>
+&lt;p>The process for regenerating full LODs is somewhat involved and will take a good amount of time. With some routine and if everything goes smoothly you should be able to complete it in 30-60 minutes. If you have many mod-added worldspaces, it may take a little longer.&lt;/p>
+&lt;p>The following steps must be completed:&lt;/p>
+&lt;ol>
+&lt;li>Regenerate Terrain LOD with SSELODGen.&lt;/li>
+&lt;li>(Optional) Add roads/paths to Terrain LOD.&lt;/li>
+&lt;li>Create billboards with TexGen.&lt;/li>
+&lt;li>Regenerate Object and Tree LOD with DynDOLOD.&lt;/li>
+&lt;li>Regenerate Occlusion with SSELODGen.&lt;/li>
+&lt;/ol>
+&lt;div class="alert alert-info" role="alert">
+When regenerating LODs early on in the construction of a setup to create a visual baseline, I recommend skipping ACMOS and Occlusion, and only generating Terrain/Tree/Object LOD for the Tamriel worldspace.
+&lt;/div>
+&lt;p>&lt;strong>A note on Occlusion:&lt;/strong> While Occlusion can also be generated with DynDOLOD at the same time as Tree and Object LODs, I find it more convenient to separate the two processes. Unlike DynDOLOD, Occlusion rarely needs to be rebuilt and you will save a lot of time by keeping your existing Occlusion output when regenerating DynDOLOD.&lt;/p>
+&lt;h3 id="map-overhauls">Map Overhauls&lt;/h3>
+&lt;p>Map overhauls require some special treatment when regenerating LODs because it uses uses &lt;strong>Terrain LOD&lt;/strong> meshes and textures (LOD Level 32) which you may not want to overwrite.&lt;/p>
+&lt;p>In addition, map overhauls also tend to have important modifications to the &lt;strong>Tamriel&lt;/strong> worldspace parent record. Make sure these edits are forwarded into the final layer before regenerating LODs.&lt;/p>
+&lt;p>When using &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5804">A Quality World Map&lt;/a> or any paper map mod, make sure to place these mods &lt;u>below&lt;/u> your SSELODGen Terrain LOD output in the mod order. They must also be present as &lt;u>loose files&lt;/u> to overwrite (instructions for unpacking BSAs can be found &lt;a href="https://thephoenixflavour.com/bg/additional-modules/extracting-bsas/">here&lt;/a>).&lt;/p>
+&lt;div class="alert alert-success" role="alert">
+&lt;p>If you choose not to use a paper world map mod, I strongly recommend &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/56367">A Clear Map of Skyrim and Other Worlds&lt;/a> (ACMOS) which utilises SSELODGen and DynDOLOD to drastically improve world map quality.&lt;/p>
+&lt;p>&lt;strong>Instructions for using ACMOS are included on this page.&lt;/strong>&lt;/p>
+&lt;/div>
+&lt;h3 id="seasons-of-skyrim">Seasons of Skyrim&lt;/h3>
+&lt;p>When using &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/62861">Seasons of Skyrim&lt;/a> with the relevant resources and related mods, LODs will be generated separately for each season. This means that the generation process will take 5 times as long and produces 5 times as many files.&lt;/p>
+&lt;p>Seasons of Skyrim support will be added to these instructions at a later date.&lt;/p>
+&lt;h3 id="prerequisites">Prerequisites&lt;/h3>
+&lt;p>Unless you are creating a temporary set of LOD files for testing, &lt;u>your mod and load order should be finalised&lt;/u> before regenerating LODs. &lt;strong>This should be the final step.&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>If using A Clear World Map for Skyrim and Other Worlds, download the &lt;a href="https://thephoenixflavour.com/bg/tool-setup/acmos-road-generator/">ACMOS Road Generator&lt;/a>.&lt;/li>
+&lt;li>I strongly recommend also installing &lt;a href="https://thephoenixflavour.com/bg/recommended-mods/lod-resources/">Far Object LOD Improvement Project&lt;/a>, especially when using ACMOS.&lt;/li>
+&lt;li>If using &lt;a href="https://thephoenixflavour.com/bg/tool-setup/dyndolod/">DynDOLOD&lt;/a> NG, remember that &lt;em>deleted large references&lt;/em> must be undeleted first (&lt;a href="https://thephoenixflavour.com/bg/additional-modules/cleaning-plugins/">cleaning plugins&lt;/a>).&lt;/li>
+&lt;/ul>
+&lt;h2 id="terrain-lod-generation">Terrain LOD Generation&lt;/h2>
+&lt;p>Terrain LOD is generated with &lt;a href="https://thephoenixflavour.com/bg/tool-setup/sselodgen/">SSELODGen&lt;/a>.&lt;/p>
+&lt;p>Make sure the &lt;strong>SSE-Terrain-Tamriel-Extend ESM&lt;/strong> is &lt;u>activated&lt;/u>. You can load the plugin at the top of your ESMs in the load order, right below the official master files and creations.&lt;/p>
+&lt;p>Also ensure that any other resources for Terrain LOD generation provided by mods are active.&lt;/p>
+&lt;h3 id="sselodgen-configuration">SSELODGen Configuration&lt;/h3>
+&lt;p>Launch SSELODGen through Mod Organizer 2.&lt;/p>
+&lt;ul>
+&lt;li>Check all worldspaces (unless you are doing temporary LODs for Tamriel only).&lt;/li>
+&lt;li>Make sure only &lt;strong>Terrain LOD&lt;/strong> is checked.&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-info" role="alert">
+The LOD Level 32 settings are specific for ACMOS, but the resulting files are mostly overwritten if you are using a different map overhaul. They should not break anything when ACMOS is not present.
+&lt;/div>
+&lt;p>&lt;strong>Gamma:&lt;/strong> Depending on your landscape texture choice, the generated Terrain LOD may be too dark compared to close-up textures. For example, the STEP team sets gamma to &lt;code>1.25&lt;/code> in combination with &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21954">Cathedral Landscapes&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Match the settings below and click Generate.&lt;/strong>&lt;/p>
+&lt;p>Settings must be configured for &lt;u>each&lt;/u> of the four LOD Levels. Switch between them via the &lt;strong>Settings for&lt;/strong> drop-down.&lt;/p>
+&lt;div class="alert alert-success" role="alert">
+Your SSELODGen configuration will be saved and you will not have to re-apply it the next time you run the tool.
+&lt;/div>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/lod-occlusion/xlodgen-level-4.png" alt="Level 4">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/lod-occlusion/xlodgen-level-8.png" alt="Level 8">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/lod-occlusion/xlodgen-level-16.png" alt="Level 16">&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/lod-occlusion/xlodgen-level-32.png" alt="Level 32">&lt;/p>
+&lt;h3 id="roads-generation">Roads Generation&lt;/h3>
+&lt;p>If using &lt;strong>A Clear Map for Skyrim and Other Worlds&lt;/strong>, generate roads and paths for the map next.&lt;/p>
+&lt;ul>
+&lt;li>Run &lt;strong>ACMOS Road Generator.exe&lt;/strong>.&lt;/li>
+&lt;li>Point &lt;strong>Path to LOD&lt;/strong> to where you generated LODs to.&lt;/li>
+&lt;li>&lt;strong>Output Path&lt;/strong> should point to the same folder so the existing files are overwritten.&lt;/li>
+&lt;li>Set &lt;strong>Select Roads&lt;/strong> to &lt;em>Paths only&lt;/em> if you installed FOLIP and &lt;em>Roads&lt;/em> if you did not.&lt;/li>
+&lt;li>Click &lt;strong>Generate&lt;/strong> and wait for the process to complete.&lt;/li>
+&lt;/ul>
+&lt;h3 id="sselodgen-output">SSELODGen Output&lt;/h3>
+&lt;p>You can now import your Terrain LOD into Mod Organizer 2.&lt;/p>
+&lt;ul>
+&lt;li>Move the &lt;strong>Output&lt;/strong> folder to &lt;code>\Mod Organizer 2\mods\&lt;/code> and rename it to &lt;strong>Terrain LOD&lt;/strong> (or similar).&lt;/li>
+&lt;li>Press F5 to refresh Mod Organizer 2.&lt;/li>
+&lt;li>Place the new mod below the &lt;strong>Outputs&lt;/strong> separator at the bottom of your mod order.&lt;/li>
+&lt;li>Activate it.&lt;/li>
+&lt;/ul>
+&lt;p>If you have map mods other than &lt;em>A Clear Map of Skyrim and Other Worlds&lt;/em>, ensure that they overwrite your Terrain LOD output. For example, you can remove the conflicting files from the output or place the map mod below it.&lt;/p>
+&lt;p>&lt;strong>Disable all SSELODGen resources.&lt;/strong> This includes the SSE-Terrain-Tamriel-Extend ESM as well as resources from mods.&lt;/p>
+&lt;h2 id="texgen">TexGen&lt;/h2>
+&lt;p>Before running DynDOLOD, we need to generate additional resources with &lt;strong>TexGen&lt;/strong>.&lt;/p>
+&lt;ul>
+&lt;li>Run &lt;strong>TexGen&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>The first two &lt;strong>LOD Textures&lt;/strong> options should be &lt;u>checked&lt;/u>. Match the resolution to yours.
+&lt;ul>
+&lt;li>&lt;em>For 1080p monitors, use the 1440p option (or 720p if you expect to have serious performance issues).&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>For billboard &lt;strong>Units per pixel&lt;/strong> also match your resolution.&lt;/li>
+&lt;li>Generate billboards for &lt;strong>Tree&lt;/strong> and &lt;strong>Rendered&lt;/strong>. Also check &lt;strong>HD Tree&lt;/strong> which is required for ultra tree LODs.&lt;/li>
+&lt;li>Leave the other settings unchanged and click &lt;strong>Start&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/lod-occlusion/texgen-settings.png" alt="TexGen Settings">&lt;/p>
+&lt;h3 id="texgen-output">TexGen Output&lt;/h3>
+&lt;p>When the process has completed, the output needs to be imported into MO2.&lt;/p>
+&lt;ul>
+&lt;li>Locate the &lt;strong>TexGen_Output&lt;/strong> folder under &lt;code>\Modding Tools\DynDOLOD\&lt;/code>.&lt;/li>
+&lt;li>Move the folder to &lt;code>\Mod Organizer 2\mods\&lt;/code>.&lt;/li>
+&lt;li>Press F5 to refresh Mod Organizer 2.&lt;/li>
+&lt;li>Place the mod below the &lt;strong>Terrain LOD&lt;/strong> output and activate it.&lt;/li>
+&lt;/ul>
+&lt;h2 id="dyndolod">DynDOLOD&lt;/h2>
+&lt;p>Before running DynDOLOD, we need to modify some of the settings:&lt;/p>
+&lt;ul>
+&lt;li>Navigate to &lt;code>\Modding Tools\DynDOLOD\Edit Scripts\DynDOLOD\&lt;/code>.&lt;/li>
+&lt;li>Open the &lt;strong>DynDOLOD_SSE.ini&lt;/strong> in a text editor.&lt;/li>
+&lt;li>In &lt;strong>Line 11&lt;/strong>, enable Expert mode by default: &lt;code>Expert=1&lt;/code>.&lt;/li>
+&lt;li>&lt;u>If using ACMOS:&lt;/u> In &lt;strong>Line 47&lt;/strong>, enable LOD Level 32 generation: &lt;code>Level32=1&lt;/code>.*&lt;/li>
+&lt;li>Save your changes and close the INI file.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;font size=2>**This will enable generation of LOD Level 32 assets for ACMOS for a higher quality world map.*&lt;/font>&lt;/p>
+&lt;h3 id="dyndolod-configuration">DynDOLOD Configuration&lt;/h3>
+&lt;p>Run &lt;strong>DynDOLOD&lt;/strong> through Mod Organizer 2.&lt;/p>
+&lt;p>&lt;u>If using DynDOLOD NG:&lt;/u> Make sure the log notes that the Large Ref Bug Workarounds are enabled:&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/lod-occlusion/large-ref-bug-workaround-enabled.png" alt="Large Ref Workarounds">&lt;/p>
+&lt;ul>
+&lt;li>Check all worldspaces (unless you are doing temporary LODs for Tamriel only).
+&lt;ul>
+&lt;li>&lt;em>Right-click &amp;raquo; Select all.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Check &lt;strong>Candles&lt;/strong> and &lt;strong>FXGlow&lt;/strong>.&lt;/li>
+&lt;li>Pick one of the three presets: &lt;strong>Low&lt;/strong>, &lt;strong>Medium&lt;/strong>, or &lt;strong>High&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>Even on less powerful PCs the &lt;strong>Low&lt;/strong> preset should not have a performance impact. The performance loss from the &lt;strong>Medium&lt;/strong> preset should be negligible on most machines at least matching the recommended specs for vanilla. The &lt;strong>High&lt;/strong> preset obviously has the most noticeable performance impact but also yields solid results.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+The overall performance impact also depends on the mesh rules which can be individually tweaked.
+&lt;/div>
+&lt;p>If you are unsure about the preset, pick &lt;strong>Medium&lt;/strong> and see how it goes. You can always regenerate DynDOLOD later if the performance impact is too much.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/lod-occlusion/dyndolod-settings-1.png" alt="Dyn Settings 1">&lt;/p>
+&lt;h3 id="tree-mesh-rules">Tree Mesh Rules&lt;/h3>
+&lt;p>The previously select &lt;strong>Preset&lt;/strong> affects the &lt;strong>Mesh Rules&lt;/strong> in the central box. These determine the level of quality for different distant objects, with some (types of) meshes having very specific settings.&lt;/p>
+&lt;ul>
+&lt;li>Scroll to the very bottom of the list.&lt;/li>
+&lt;li>Double-click the &lt;strong>tree&lt;/strong> mesh rule and apply one of the presets listed below.&lt;/li>
+&lt;/ul>
+&lt;p>The following presets are recommended by the &lt;a href="https://stepmodifications.org/wiki/SkyrimSE:2.2.0#Performance_Examples">STEP Guide&lt;/a>. From my testing, the &lt;strong>Best Quality&lt;/strong> preset is very performance hungry indeed even on strong hardware (@1440p, i7 10700k, RTX 3080, 16GB RAM) and I prefer the &lt;strong>Performance/Quality&lt;/strong> preset. Once again, I would recommend it as a baseline that you can adjust later on.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>LOD Level 4&lt;/th>
+&lt;th>LOD Level 8&lt;/th>
+&lt;th>LOD Level 16&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Best Performance&lt;/td>
+&lt;td>&lt;code>Billboard4&lt;/code>&lt;/td>
+&lt;td>&lt;code>Billboard4&lt;/code>&lt;/td>
+&lt;td>&lt;code>Billboard1&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;mark>Performance / Quality&lt;/mark>&lt;/td>
+&lt;td>&lt;code>Level0&lt;/code>&lt;/td>
+&lt;td>&lt;code>Level4&lt;/code>&lt;/td>
+&lt;td>&lt;code>Level1&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Best Quality&lt;/td>
+&lt;td>&lt;code>Level0&lt;/code>&lt;/td>
+&lt;td>&lt;code>Level1&lt;/code>&lt;/td>
+&lt;td>&lt;code>Level2&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/lod-occlusion/tree-mesh-rules.png" alt="Tree Mesh Rules">&lt;/p>
+&lt;p>&lt;mark>&lt;u>If you are using ACMOS&lt;/u> also change the &lt;strong>LOD Level 32&lt;/strong> settings for the following mesh rules:&lt;/mark>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>tree&lt;/strong> to &lt;code>Billboard6&lt;/code>&lt;/li>
+&lt;li>&lt;strong>/&lt;/strong> (catch-all) to &lt;code>Level0&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/lod-occlusion/mesh-rules.png" alt="Mesh Rules">&lt;/p>
+&lt;h3 id="additional-settings">Additional Settings&lt;/h3>
+&lt;p>Follow the instructions below to modify the DynDOLOD settings at the bottom.&lt;/p>
+&lt;ul>
+&lt;li>Uncheck &lt;strong>Occlusion data&lt;/strong>. We will generate Occlusion with SSELODGen.&lt;/li>
+&lt;li>Check &lt;strong>Ultra&lt;/strong>. This will disable regular tree LOD.&lt;/li>
+&lt;li>Check &lt;strong>Glow Windows&lt;/strong> and &lt;strong>High&lt;/strong>.&lt;/li>
+&lt;li>Check &lt;strong>Upgrade NearGrid References to FarGrid&lt;/strong>.&lt;/li>
+&lt;li>Check &lt;strong>Fake lights child world&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;u>If you use &lt;strong>DynDOLOD NG&lt;/strong>&lt;/u> also modify the following two options:&lt;/p>
+&lt;ul>
+&lt;li>Check &lt;strong>Large reference bugs workarounds&lt;/strong>.&lt;/li>
+&lt;li>Uncheck &lt;strong>Downgrade FarGrid references to NearGrid&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;u>If you play at &lt;strong>4K&lt;/strong>&lt;/u> increase the resolution of the generated files:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Max tile size LOD&lt;/strong> to &lt;code>2048&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Max tile size full&lt;/strong> to &lt;code>512&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Max tile size billboard&lt;/strong> to &lt;code>512&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/lod-occlusion/dyndolod-settings-2.png" alt="Dyn Settings 2">&lt;/p>
+&lt;h3 id="preset">Preset&lt;/h3>
+&lt;p>The DynDOLOD configuration resets between runs, but you can change it as a preset to save time. &lt;strong>This is optional&lt;/strong>.&lt;/p>
+&lt;ul>
+&lt;li>Click the &lt;strong>Save Preset&lt;/strong> button on the bottom left in DynDOLOD.&lt;/li>
+&lt;/ul>
+&lt;p>I recommend saving the preset &lt;em>not&lt;/em> into the DynDOLOD Presets folder but outside of your DynDOLOD installation (for example into the Modding Tools folder). This way, you will not accidentally delete it when updating DynDOLOD.&lt;/p>
+&lt;p>You can also rename it to reflect your mesh rule preset choice or the specific setup you created it for.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+The next time you regenerate DynDOLOD, you can import your settings via the &lt;strong>Load Preset&lt;/strong> button. You can still adjust them; however, any changes you make will &lt;u>not&lt;/u> be automatically saved in the preset.
+&lt;/div>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/lod-occlusion/dyndolod-save-preset.png" alt="DynDOLOD Save Preset">&lt;/p>
+&lt;h3 id="dyndolod-generation">DynDOLOD Generation&lt;/h3>
+&lt;p>&lt;mark>After configuring all settings, click &lt;strong>Run&lt;/strong> to start the LOD generation.&lt;/mark> This may take 10-15 minutes or longer, depending on your settings and the size of your setup.&lt;/p>
+&lt;p>Once DynDOLOD has completed, it may open an HTML with errors in a browser window. &lt;strong>Do not ignore these logs.&lt;/strong> They can be very helpful for troubleshooting and I suggest you address them immediately, then re-run DynDOLOD.&lt;/p>
+&lt;p>&lt;font size=2>*I intend to add instructions on how to deal with the most common issues at a later date. Refer to the &lt;a href="https://dyndolod.info/">DynDOLOD documentation&lt;/a> in the meantime.*&lt;/font>&lt;/p>
+&lt;h3 id="dyndolod-output">DynDOLOD Output&lt;/h3>
+&lt;p>When the process has completed, the output needs to be imported into MO2.&lt;/p>
+&lt;ul>
+&lt;li>Locate the &lt;strong>DynDOLOD_Output&lt;/strong> folder under &lt;code>\Modding Tools\DynDOLOD\&lt;/code>.&lt;/li>
+&lt;li>Move the folder to &lt;code>\Mod Organizer 2\mods\&lt;/code>.&lt;/li>
+&lt;li>Press F5 to refresh Mod Organizer 2.&lt;/li>
+&lt;li>Place the mod below the &lt;strong>TexGen Output&lt;/strong> and activate it.&lt;/li>
+&lt;li>Load &lt;strong>DynDOLOD.esm&lt;/strong> as the last ESM and &lt;strong>DynDOLOD.esp&lt;/strong> at the bottom of your load order.&lt;/li>
+&lt;/ul>
+&lt;h2 id="occlusion">Occlusion&lt;/h2>
+&lt;p>Finally, we will generate Occlusion with SSELODGen.&lt;/p>
+&lt;ul>
+&lt;li>Run &lt;strong>SSELODGen&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>In the right pane, &lt;em>right-click&lt;/em> &amp;raquo; &lt;strong>Select all&lt;/strong>.&lt;/li>
+&lt;li>&lt;u>Uncheck&lt;/u> &lt;strong>Terrain LOD&lt;/strong> and &lt;u>check&lt;/u> &lt;strong>Occlusion&lt;/strong> instead.&lt;/li>
+&lt;li>Increase the &lt;strong>Quality&lt;/strong> to &lt;strong>3&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;div class="alert alert-info" role="alert">
+Increasing the quality will improve performance by occluding more areas at the cost of a longer generation time. Since you will rarely regenerate Occlusion, taking the time now is worth it.
+&lt;/div>
+&lt;p>The other settings should be left unchanged according to the &lt;a href="https://dyndolod.info/Help/Occlusion-Data">documentation&lt;/a>.&lt;/p>
+&lt;p>Click &lt;strong>Generate&lt;/strong> and &lt;u>step away&lt;/u> while SSELODGen is running. Occlusion generation can be very resource-intense and it is safer not to touch your keyboard until it has completed.&lt;/p>
+&lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/bg/additional-modules/lod-occlusion/occlusion-settings.png" alt="Occlusion Settings">&lt;/p>
+&lt;h3 id="occlusion-output">Occlusion Output&lt;/h3>
+&lt;p>When the process has completed, the output needs to be imported into MO2.&lt;/p>
+&lt;ul>
+&lt;li>Check the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> in Mod Organizer 2. It should only contain &lt;strong>Occlusion.esp&lt;/strong>.&lt;/li>
+&lt;li>Right-click the &lt;em>&lt;strong>Overwrite&lt;/strong>&lt;/em> and select &lt;strong>Create Mod&lt;/strong>.&lt;/li>
+&lt;li>Name your new mod &lt;strong>Occlusion&lt;/strong> (or similar).&lt;/li>
+&lt;li>Place it below &lt;strong>DynDOLOD Output&lt;/strong> and activate it.&lt;/li>
+&lt;li>Leave the plugin at the bottom of your load order, right below &lt;strong>DynDOLOD.esp&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;mark>All LODs have been regenerated! Feel free to jump ingame and marvel at the effect.&lt;/mark>&lt;/p></description></item><item><title>Bg: Managing Creations</title><link>https://thephoenixflavour.com/bg/additional-modules/managing-creations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/bg/additional-modules/managing-creations/</guid><description>
 &lt;div class="alert alert-info" role="alert">
 &lt;h4 class="alert-heading">Summary&lt;/h4>
 &lt;blockquote>
@@ -698,7 +1065,7 @@ To quickly access the &lt;strong>plugins&lt;/strong> folder, you can click &lt;a
 &lt;li>&lt;strong>Skyrim SE 1.6.640:&lt;/strong> Current version of Skyrim SE (requires SKSE 2.2.3) &amp;laquo; &lt;u>this is what we are running&lt;/u>&lt;/li>
 &lt;/ul>
 &lt;p>(&lt;a href="https://en.uesp.net/wiki/Skyrim:Special_Edition_Patch">Full Skyrim SE version history with changelogs&lt;/a>.)&lt;/p>
-&lt;p>The issue of version dependency not only affects SKSE and the base game, but also SKSE and SKSE plugins. While some SKSE-dependent mods only use functions added by SKSE in their scripts and do not require a specific version of SKSE to actually work, there are also the so-called &lt;strong>SKSE plugins&lt;/strong>*. These files with the &lt;strong>.dll&lt;/strong> extension are dependent on a specific SKSE version the same way SKSE is dependent on a specific Skyrim SE version.&lt;/p>
+&lt;p>The issue of version dependency not only affects SKSE and the base game, but also SKSE and SKSE plugins. While some SKSE-dependent mods only use functions added by SKSE in their scripts and do not require a specific version of SKSE to actually work, there are also the so-called &lt;strong>SKSE plugins&lt;/strong>*. These files with the &lt;strong>.DLL&lt;/strong> extension are dependent on a specific SKSE version the same way SKSE is dependent on a specific Skyrim SE version.&lt;/p>
 &lt;p>&lt;font size=2>**SKSE plugins (DLLs) are not to be confused with Skyrim plugins (ESMs, ESPs, ESLs). The former are written in C or C++ and specific to the Script Extender. The latter are created in the Creation Kit or community-made tools, and specific to Creation Engine games.*&lt;/font>&lt;/p>
 &lt;h2 id="downloading-skse">Downloading SKSE&lt;/h2>
 &lt;p>Before we install SKSE, we need to know which version of the game we are running by performing a &lt;a href="https://thephoenixflavour.com/bg/additional-modules/skyrim-version-check/">Skyrim Version Check&lt;/a>.&lt;/p>
