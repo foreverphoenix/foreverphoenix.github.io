@@ -1,6 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Skyrim Modding Essentials</title><link>https://thephoenixflavour.com/skyrim-se/sme/</link><description>Recent content in Skyrim Modding Essentials on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="https://thephoenixflavour.com/skyrim-se/sme/index.xml" rel="self" type="application/rss+xml"/><item><title>Skyrim-Se: Introduction</title><link>https://thephoenixflavour.com/skyrim-se/sme/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/introduction/</guid><description>
 &lt;p>&lt;strong>Skyrim Modding Essentials&lt;/strong> is a Wabbajack utility list for Skyrim Special Edition, intended to jumpstart a new mod setup with all the required tools and basic mods. As such, it is intended for &lt;em>experienced&lt;/em> modders and no support will be provided beyond the contents of the list itself.&lt;/p>
 &lt;p>The list was made for Skyrim SE 1.6.x, though the Anniversary Edition DLC is not required.&lt;/p>
+&lt;p>Support is available on the &lt;a href="https://discord.gg/xRrHRsb5e9">Aetherius Modding&lt;/a> Discord server.&lt;/p>
 &lt;h2 id="features">Features&lt;/h2>
 &lt;p>Check the complete mod list and load order on &lt;a href="https://loadorderlibrary.com/lists/skyrim-modding-essentials">Load Order Library&lt;/a>.&lt;/p>
 &lt;ul>
@@ -27,7 +28,7 @@
 &lt;p>&lt;strong>Are any texture replacers included?&lt;/strong>&lt;/p>
 &lt;p>No, because I wanted to keep the list as lean as possible and because there is no point. For those who wish to have improved vanilla textures, just grab &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45306">Project Clarity&lt;/a>. Everyone else has their preferred texture packs, or they&amp;rsquo;re completely nuts and hand-pick everything (don&amp;rsquo;t look at me like that, I know I&amp;rsquo;m not the only one who does it). Similarly, there are no LODs. Do &amp;lsquo;em yourself, that&amp;rsquo;s what the list is for.&lt;/p>
 &lt;p>&lt;strong>Can I suggest a mod for inclusion?&lt;/strong>&lt;/p>
-&lt;p>Yes, you can! Please do so on our &lt;a href="https://discord.gg/xCPxJFbCTS">Discord Server&lt;/a> and be aware that the likelihood that I will say &amp;ldquo;no&amp;rdquo; is quite high. Because this list has to provide a good base for &lt;em>any&lt;/em> setup, the criteria for new additions are quite strict.&lt;/p>
+&lt;p>Yes, you can! Please do so on our &lt;a href="https://discord.gg/xRrHRsb5e9">Discord Server&lt;/a> and be aware that the likelihood that I will say &amp;ldquo;no&amp;rdquo; is quite high. Because this list has to provide a good base for &lt;em>any&lt;/em> setup, the criteria for new additions are quite strict.&lt;/p>
 &lt;h4 id="why-isnt-x-mod-included">Why isn&amp;rsquo;t X mod included?&lt;/h4>
 &lt;p>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/13956">FileAccess Interface for Skyrim SE Scripts (FISSES)&lt;/a>: Not included because it tends to become unstable when it is used to load presets for multiple MCMs. Mod authors should use &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/53000">MCM Helper&lt;/a> to make saving MCM configurations easy and convenient.&lt;/p>
 &lt;p>The mesh fixes section is very incomplete, but I refrained from adding several mods because of how sensitive to conflicts they are. Figuring out your setup&amp;rsquo;s meshes is somewhat time-consuming and depends on whether you use split meshes to minimise flickering (grab &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/53957">Flickering Meshes Fix&lt;/a>) and whether you use parallax. Additionally, many mesh fix mods have a lot of overlap with other mods which at times include them, modified or as-is. Finally, mods like &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/53653">Fixed Mesh Lighting&lt;/a> (highly recommended) include many patches which, again, depend on your own setup. Completing this section is therefore up to you.&lt;/p>
@@ -206,11 +207,13 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/66329">Creation Organizer&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/31720">Kezyma&amp;rsquo;s Root Builder&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/60690">Kezyma&amp;rsquo;s Profile Sync&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/site/mods/608">MO2 Load Order Checker&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/site/mods/323">LOOT Warning Checker&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>LOOT Preventifier (from LostDragonist&amp;rsquo;s MO2 Plugins) was also included, but disabled by default.&lt;/p>
 &lt;p>Many of these plugins do nothing until they&amp;rsquo;ve been configured. Check their mod pages for details.&lt;/p>
 &lt;h3 id="sseedit">SSEEdit&lt;/h3>
-&lt;p>Generated cache for SSEEdit will be saved to a &amp;ldquo;cache&amp;rdquo; folder within the SSEEdit installation directory (&lt;code>Modding Essentials\Tools\SSEEdit\&lt;/code>), and plugin backups will be saved to a &amp;ldquo;backups&amp;rdquo; folder within the same directory. The prompt which warns about making changes to plugins was disabled with the &lt;code>-IKnowWhatImDoing&lt;/code> argument.&lt;/p>
+&lt;p>Generated cache for SSEEdit will be saved to a &amp;ldquo;cache&amp;rdquo; folder within the SSEEdit installation directory (&lt;code>\Skyrim Modding Essentials\Tools\SSEEdit\&lt;/code>), and plugin backups will be saved to a &amp;ldquo;backups&amp;rdquo; folder within the same directory. The prompt which warns about making changes to plugins was disabled with the &lt;code>-IKnowWhatImDoing&lt;/code> argument.&lt;/p>
 &lt;p>The QuickAutoClean exe was also added with the &lt;code>-DontCache&lt;/code> argument in case you wish to clean the official master files (without this argument, the cleaning would nuke parts of Apocrypha).&lt;/p>
 &lt;p>I also installed &lt;a href="https://www.nexusmods.com/skyrim/mods/68617">mator&amp;rsquo;s xEdit Patching Framework&lt;/a> and mator&amp;rsquo;s &lt;a href="https://www.nexusmods.com/skyrim/mods/49373">Automation Tools for TES5Edit&lt;/a>.&lt;/p>
 &lt;h2 id="enbseries">ENBSeries&lt;/h2>
@@ -293,7 +296,6 @@
 &lt;h3 id="mesh-fixes">Mesh Fixes&lt;/h3>
 &lt;ul>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/53957">Flickering Meshes Fix&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/53653">Fixed Mesh Lighting&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21027">Unofficial Material Fix&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/39260">Dlizzio&amp;rsquo;s Mesh Fixes&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/48120">Whiterun Mesh Fixes&lt;/a>&lt;/li>
@@ -308,6 +310,57 @@
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/71524">Cumulative Fix for Eye Meshes&lt;/a>, the underwater fix removes blending on the lashes which can look really weird so you may want to use the version without that fix.&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/72213">Farm Hat 01 Clipping Fix&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sme/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sme/changelog/</guid><description>
+&lt;h2 id="release-260">Release 2.6.0&lt;/h2>
+&lt;blockquote>
+&lt;p>30/08/2023&lt;/p>
+&lt;/blockquote>
+&lt;p>I removed Vanilla Script (Micro) Optimizations at least for the time being. It seems to have some issues with the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/92845">adoption system&lt;/a> and the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/96823">latest version of the USSEP&lt;/a> and I decided that these and possible other problems are not worth the minor improvements.&lt;/p>
+&lt;ul>
+&lt;li>Added Load Order Checker&lt;/li>
+&lt;li>Added DPI Scaling Fix&lt;/li>
+&lt;li>Added Green Water Cubemap Fix&lt;/li>
+&lt;li>Added Simply Optimised Scripts AIO&lt;/li>
+&lt;li>Added MQ104PlayerScript Fix&lt;/li>
+&lt;li>Added Creep Cluster Collision Fixes&lt;/li>
+&lt;li>Added Death Hound Loading Screen Eye Fix&lt;/li>
+&lt;li>Added Load Screen Shading Fix&lt;/li>
+&lt;li>Added WIDeadBodyCleanupScript Crash Fix&lt;/li>
+&lt;li>Updated DynDOLOD to 3 Alpha 138&lt;/li>
+&lt;li>Updated powerofthree&amp;rsquo;s Papyrus Extender to 5.6.1&lt;/li>
+&lt;li>Updated Base Object Swapper to 2.6.1&lt;/li>
+&lt;li>Updated Keyword Item Distributor to 3.0.4&lt;/li>
+&lt;li>Updated Formlist Manipulator to 1.7.1&lt;/li>
+&lt;li>Updated Universal Unwanted Effects Clearer to 0.3.1&lt;/li>
+&lt;li>Updated Unofficial Skyrim Creation Club Content Patch to 7.7&lt;/li>
+&lt;li>Updated Keyboard Shortcuts Fix to 1.0.0.4&lt;/li>
+&lt;li>Updated RemoveAllItems Freeze Fix to 1.1.0&lt;/li>
+&lt;li>Updated Assorted Mesh Fixes to 0.90&lt;/li>
+&lt;li>Updated DynDOLOD Resources to 3 Alpha 41&lt;/li>
+&lt;li>Updated DynDOLOD Scripts and DLL to 2.82.8 / 2.45&lt;/li>
+&lt;li>Updated DynDOLOD NG to 3 Alpha 12&lt;/li>
+&lt;li>Updated ENBSeries Binaries (no version number change)&lt;/li>
+&lt;li>Updated Particle Patch for ENB to 1.2.6&lt;/li>
+&lt;li>Updated Word Wall Transparency Fix for ENB to 0.3&lt;/li>
+&lt;li>Updated BodySlide and Outfit Studio to 5.6.3&lt;/li>
+&lt;li>Updated Assorted Animation Fixes to 1.02&lt;/li>
+&lt;li>Removed Rogue Master Detector&lt;/li>
+&lt;li>Removed Vanilla Script (Micro) Optimization&lt;/li>
+&lt;li>Removed dunFolgunthurBossBattle Script Fix&lt;/li>
+&lt;li>Removed Shroud Hearth Barrow Script Fix&lt;/li>
+&lt;li>Removed Soul Cairn Script Tweaks&lt;/li>
+&lt;li>Removed The Taste of Death Improved Shutdown&lt;/li>
+&lt;li>Removed DLC2TribalWerebearScript Fix&lt;/li>
+&lt;li>Removed DLC2dunNchardakDoorSeal Script Infinite Loop Fix&lt;/li>
+&lt;li>Removed DLC2dunSeekerInvisScript Fix&lt;/li>
+&lt;li>Removed DLC2MiraakScript Fix&lt;/li>
+&lt;li>Removed DLC2dunFrostmoonTriggerScript Optimization&lt;/li>
+&lt;li>Removed DLC2PillarBuilderActorScript Tweak&lt;/li>
+&lt;li>Removed DLC2AudioRepeaterActivator01Script Tweak&lt;/li>
+&lt;li>Removed MQ105SprintTriggerScript Fix&lt;/li>
+&lt;li>Removed Hearthfire Creep Cluster Fix&lt;/li>
+&lt;li>Removed ENB IMOD Separator&lt;/li>
+&lt;li>Removed lilebonymace&amp;rsquo;s Patches&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-250">Release 2.5.0&lt;/h2>
 &lt;blockquote>
 &lt;p>08/07/2023&lt;/p>
