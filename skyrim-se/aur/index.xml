@@ -91,10 +91,11 @@
 &lt;p>If you have &lt;strong>Nexus Premium&lt;/strong>, this is all you have to do. Lean back and relax while Wabbajack downloads and installs Aurora for you.&lt;/p>
 &lt;p>If you only have a free Nexus account, Wabbajack will open the mod pages for you and guide you through the process of downloading all files. Afterwards, it will proceed with the installation as usual.&lt;/p>
 &lt;p>You can follow along as Wabbajack installs the list. It will display previews with summaries and links to the mods being installed. Don&amp;rsquo;t let the log irritate you. Unless the installation is aborted completely, you don&amp;rsquo;t have to worry about any warnings.&lt;/p>
-&lt;p>&lt;strong>In case the installation does fail:&lt;/strong> Try restarting Wabbajack first. You will not lose progress as the tool will pick up where it left off. Should the installation fail again, please join us on &lt;a href="https://discord.gg/xCPxJFbCTS">Discord&lt;/a>, grab the &lt;code>@Aurora&lt;/code> role, create a post in the &lt;code>#aurora-forum&lt;/code>, and share your &lt;code>wabbajack.current.log&lt;/code>. You can find all Wabbajack logs in your Wabbajack installation folder under &lt;code>\Wabbajack\&amp;lt;version number&amp;gt;\logs\&lt;/code>.&lt;/p>
+&lt;p>&lt;strong>In case the installation does fail:&lt;/strong> Try restarting Wabbajack first. You will not lose progress as the tool will pick up where it left off. Should the installation fail again, please join us on &lt;a href="https://discord.gg/xRrHRsb5e9">Discord&lt;/a>, grab the &lt;code>@Aurora&lt;/code> role, create a post in the &lt;code>#aurora-forum&lt;/code>, and share your &lt;code>wabbajack.current.log&lt;/code>. You can find all Wabbajack logs in your Wabbajack installation folder under &lt;code>\Wabbajack\&amp;lt;version number&amp;gt;\logs\&lt;/code>.&lt;/p>
 &lt;p>In most cases the installation should complete successfully on the first try. The tool will let you know when it has.&lt;/p>
 &lt;h2 id="tool-setup">Tool Setup&lt;/h2>
 &lt;p>Almost all tools included with Aurora are automatically configured for you. However, there are exceptions as some tools cannot be shipped with custom profiles so you will have to create them for yourself. If you want to build your own setup off of Aurora, please refer to the &lt;a href="https://thephoenixflavour.com/skyrim-se/sme/installation/#tool-setup">Tool Setup&lt;/a> section in the SME documentation for further instructions.&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/aur/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/aur/changelog/</guid><description>
+&lt;p>&lt;em>Changelogs on this page are taken from my personal documentation, hence the formatting. Full documentation including changelogs with functional links is available as an &lt;a href="https://obsidian.md/">Obsidian MD&lt;/a> vault on the Aurora Nexus page.&lt;/em>&lt;/p>
 &lt;h2 id="release-150">Release 1.5.0&lt;/h2>
 &lt;blockquote>
 &lt;p>05/09/2023&lt;/p>
@@ -103,7 +104,6 @@
 &lt;p>With this update, I am removing AUR-X (the optional mods) from Aurora. Some of them will be part of [[yolviing-a-simonrim-experience]] and/or [[legacy-of-the-kitchensink]] instead.&lt;/p>
 &lt;p>Aurora now includes some changes to vanilla keybinds. Check the [[ingame-hotkeys]] documentation for details.&lt;/p>
 &lt;p>Regarding [[ethereal-elven-overhaul]], it became clear that fixing the neck seam issues would require skin colour tweaks (see linked page for details). For vanilla NPCs, these are included in the full EEO plugin, along with various other changes. Concerns about consistency with mod-added NPCs and the possibility of them having neck seams as well caused me to drop the mod.&lt;/p>
-&lt;p>(Full documentation including changelogs with functional links is available as an &lt;a href="https://obsidian.md/">Obsidian MD&lt;/a> vault on the Aurora Nexus page.)&lt;/p>
 &lt;h4 id="additions">Additions&lt;/h4>
 &lt;ul>
 &lt;li>Added [[yurils-additional-resources]]&lt;/li>
