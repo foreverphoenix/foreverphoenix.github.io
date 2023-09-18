@@ -3,7 +3,7 @@
 &lt;p>&lt;strong>Welcome to Paradise&lt;/strong> (WTP) is a lightweight Wabbajack mod list for Fallout 4. Mods were selected to improve existing parts of the game rather than outright replacing them, although some aspects were edited more heavily than others. The setup was built with gameplay-friendly performance in mind and can run at a stable 60FPS @1440p on reasonably modern hardware.&lt;/p>
 &lt;p>WTP comes with an extensive documentation (of which you are reading the Introduction right now) and you are expected to read all pages in the &lt;strong>Installation&lt;/strong> section as well as the &lt;strong>Mod Config&lt;/strong> page.&lt;/p>
 &lt;ul>
-&lt;li>Join us on the official &lt;a href="https://discord.gg/xCPxJFbCTS">Discord server&lt;/a> for support, feedback, and modding discussions.&lt;/li>
+&lt;li>Join us on the official &lt;a href="https://discord.gg/xRrHRsb5e9">Discord server&lt;/a> for support, feedback, and modding discussions.&lt;/li>
 &lt;li>You can find a list of all included mods on the &lt;a href="https://loadorderlibrary.com/lists/welcome-to-paradise">Load Order Library&lt;/a> page.&lt;/li>
 &lt;li>Support me on &lt;a href="https://www.patreon.com/thephoenixflavour">Patreon&lt;/a> or donate via &lt;a href="https://www.paypal.com/paypalme/ThePhoenixFlavour?locale.x=de_DE">PayPal&lt;/a>.&lt;/li>
 &lt;/ul>
@@ -223,7 +223,7 @@
 &lt;/blockquote>
 &lt;h2 id="wtp-installation">WTP Installation&lt;/h2>
 &lt;p>&lt;strong>After filling in the installation and download directories, click the Start button on the left.&lt;/strong> If you have Nexus Premium, you can lean back while Wabbajack downloads the required mod files and installs the setup. Otherwise, you will have to click through the mod pages and download manually (Wabbajack will guide you).&lt;/p>
-&lt;p>Should anything go wrong during the installation process, please find the &lt;strong>Wabbajack.current.log&lt;/strong> file inside &lt;code>\Wabbajack\&amp;lt;version number&amp;gt;\logs\&lt;/code>. Upload it (drag and drop) into the &lt;code>#wtp-support&lt;/code> channel on our &lt;a href="https://discord.com/invite/BpwXX5f">Discord server&lt;/a>.&lt;/p>
+&lt;p>Should anything go wrong during the installation process, please find the &lt;strong>Wabbajack.current.log&lt;/strong> file inside &lt;code>\Wabbajack\&amp;lt;version number&amp;gt;\logs\&lt;/code>. Create a new post in the &lt;code>#wtp-support&lt;/code> forum on our &lt;a href="https://discord.com/invite/xRrHRsb5e9">Discord server&lt;/a> and upload the log there.&lt;/p>
 &lt;p>Once the download and installation process has finished successfully, Wabbajack will inform you about it and you can proceed.&lt;/p>
 &lt;h2 id="mod-organizer-2">Mod Organizer 2&lt;/h2>
 &lt;p>All mods are installed in Mod Organizer 2 which is required to play the setup. You must always launch F4SE through MO2.&lt;/p>
@@ -956,6 +956,40 @@ uPipboyTargetWidth=876
 &lt;p>&lt;strong>As of WTP 2.5, puddles were re-enabled and should no longer flicker!&lt;/strong> This is possible thanks to &lt;a href="https://www.nexusmods.com/fallout4/mods/62207?">fadingsignal&amp;rsquo;s fix&lt;/a> and an ENB update.&lt;/p>
 &lt;h2 id="load-screens-appear-frozen">Load screens appear frozen&lt;/h2>
 &lt;p>In loading screens, there is no spinning object and the loading symbol is not animated. This is actually not a bug, but a feature. Disabling animations in loading screens apparently increases load times. It was done in the High FPS Physics Fix custom INI file.&lt;/p></description></item><item><title>Fo4: Changelog</title><link>https://thephoenixflavour.com/fo4/wtp/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/fo4/wtp/changelog/</guid><description>
+&lt;h2 id="release-283">Release 2.8.3&lt;/h2>
+&lt;blockquote>
+&lt;p>18/09/2023&lt;/p>
+&lt;/blockquote>
+&lt;p>This update should be save-safe.&lt;/p>
+&lt;p>Because Diamond City Radio Extended was updated you need to restart its quest. Open the console and run the following commands:&lt;/p>
+&lt;pre>&lt;code>stopquest radiodiamondcity
+startquest radiodiamondcity
+&lt;/code>&lt;/pre>&lt;p>I fixed various item naming rule issues (melee weapon mods not being separated from weapon name, Silver Submachine Gun, Heavy/Sturdy ruleset being above legendary for armor, Vault-Tec Workshop pipboys). Unfortunately, these will not work retroactively; however, you can manually add tags to your armors, weapons, and clothing by renaming them at a workbench.&lt;/p>
+&lt;p>A tweak was added to significantly reduce the chance of finding empty ammo containers.&lt;/p>
+&lt;ul>
+&lt;li>Added BSA Extractor 2&lt;/li>
+&lt;li>Added Deliverer Glow Sights Fix&lt;/li>
+&lt;li>Added Guard Post Animation Tweak - No More Finger Guns&lt;/li>
+&lt;li>Added Thicket Excavations Sign&lt;/li>
+&lt;li>Added Fabulous Fire Extinguisher&lt;/li>
+&lt;li>Added Colorful Disco Ball&lt;/li>
+&lt;li>Added WTP - More Ammo&lt;/li>
+&lt;li>Added Baka Fullscreen Pip-Boy and Quick-Boy (optional, disabled by default)&lt;/li>
+&lt;li>Added Realistic Movement Speed (optional, disabled by default)&lt;/li>
+&lt;li>Updated ENBSeries Binaries to 0.489&lt;/li>
+&lt;li>Updated Buffout 4 to 1.28.6&lt;/li>
+&lt;li>Updated Workshop Framework to 2.3.13&lt;/li>
+&lt;li>Updated Ultimate Window Overhaul Redone to 1.4.4&lt;/li>
+&lt;li>Updated Baka Wait Anywhere to 1.4&lt;/li>
+&lt;li>Updated Perk Up - Lightweight Perk Overhaul to 1.5&lt;/li>
+&lt;li>Updated Perennial Power Armor - Lightweight Power Armor Rebalance to 1.3&lt;/li>
+&lt;li>Updated Diamond City Radio Extended to 5.01&lt;/li>
+&lt;li>Updated Discord Rich Presence to 5&lt;/li>
+&lt;li>Updated Previsibines Repair Pack - Main to 69&lt;/li>
+&lt;li>Updated Previsibines Repair Pack - Updates to 69.5.1&lt;/li>
+&lt;li>Removed Previsibines Repair Pack - LOST Audio Tweaks Patch (no longer needed)&lt;/li>
+&lt;li>Reinstalled F4SE&lt;/li>
+&lt;/ul>
 &lt;h2 id="release-282">Release 2.8.2&lt;/h2>
 &lt;blockquote>
 &lt;p>23/05/2023&lt;/p>
