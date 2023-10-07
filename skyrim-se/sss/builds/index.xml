@@ -26,7 +26,7 @@ Your racial boost to Magicka goes a long way but you&amp;rsquo;ll need a little 
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>The Pilgrim is a stalwart fighter, standing with conviction on the front lines with a mace in one hand and a shield in the other. In that sense they play not unlike your typical sword and board character, however they utilize Restoration to imbue themselves with buffing magic and Speech to make the most from their newfound shouting abilities. Speech will also help the Pilgrim make money and, with a little bit of Smithing chops, generate some lucrative business. The Pilgrim struggles with ranged combat, typically relying on un-perked options when forced to fight at a distance. Worshippers of Auri-El can eliminate that weakness later in their adventure, others will have to find other solutions such as shouts or carrying bows.&lt;/p>
+&lt;p>The Pilgrim is a stalwart fighter, standing with conviction on the front lines with a mace in one hand and a shield in the other. In that sense they play not unlike your typical sword and board character, however they utilize Restoration to imbue themselves with buffing magic and Speech to make the most from their newfound shouting abilities. Speech will also help the Pilgrim make money and, with a little bit of Smithing chops, generate some lucrative business. The Pilgrim struggles with ranged combat, typically relying on un-perked options when forced to fight at a distance. Worshippers of Auri-El can eliminate that weakness later in their adventure; others will have to find other solutions such as shouts or carrying bows.&lt;/p>
 &lt;h2 id="perks">Perks&lt;/h2>
 &lt;blockquote>
 &lt;p>Full perk information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30191">Adamant&lt;/a> description page.&lt;/p>
@@ -151,7 +151,7 @@ Your racial boost to Magicka goes a long way but you&amp;rsquo;ll need a little 
  &lt;/li>
 &lt;/ul>
 &lt;h4 id="restoration-2">Restoration&lt;/h4>
-&lt;p>&lt;em>Duration buffs for your most-used spells and even more Health Regeneration.&lt;/em>*&lt;/p>
+&lt;p>&lt;em>Duration buffs for your most-used spells and even more Health Regeneration.&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Repose (60):&lt;/strong> Regeneration, Attunement, and Circle spells last twice as long.&lt;/li>
 &lt;li>&lt;strong>Recovery 2 (70):&lt;/strong> Healing spells are 100% stronger.&lt;/li>
@@ -243,6 +243,7 @@ Honestly any and all Circle spells are your friend here. Vitality and Strength e
 &lt;li>&lt;strong>Mul:&lt;/strong> &lt;em>Increases Armor Rating by 50 for 600 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Qah:&lt;/strong> &lt;em>Increases Armor Rating by 100 for 600 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Diiv:&lt;/strong> &lt;em>Increases Armor Rating by 100 and Magic Resistance by 25% for 600 seconds.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Dragon Aspect does not trigger a Shout cooldown.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>You&amp;rsquo;re a pretty stalwart fighter and this shout makes you even moreso. The meditation will remove the shout cooldown completely, and &lt;em>Epistolary Acumen&lt;/em> can bolster it further however you need.&lt;/p>
 &lt;h4 id="marked-for-death">Marked for Death&lt;/h4>
@@ -518,11 +519,11 @@ Most of what you do will require Magicka so you don&amp;rsquo;t want to ignore i
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-mage.webp">
 &lt;h4 id="the-mage-guardian">The Mage (Guardian)&lt;/h4>
 &lt;p>&lt;em>&lt;strong>Path of Wisdom:&lt;/strong>&lt;/em> &lt;em>Your Magicka is increased by 50, and your spells and enchantments cost 10% less.&lt;/em>&lt;/p>
-&lt;p>The Mage Stone is the ideal starting stone for you. Though the agent is technically a Stealth class the benefits of the Thief Stone aren&amp;rsquo;t too beneficial. Feel free to carry this blessing into the mid game.&lt;/p>
+&lt;p>The Mage Stone is the ideal starting stone for you. Though the agent is technically a Stealth class, the benefits of the Thief Stone aren&amp;rsquo;t too beneficial. Feel free to carry this blessing into the mid game.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-serpent.webp">
 &lt;h4 id="the-serpent">The Serpent&lt;/h4>
 &lt;p>&lt;em>&lt;strong>Serpent’s Kiss:&lt;/strong>&lt;/em> &lt;em>Your Poison Resistance is increased by 50%, your potions last 50% longer, and your poisons last for two additional hits.&lt;/em>&lt;/p>
-&lt;p>The Serpent Stone is hit or miss for this build, ironically. An additional hit of poison can be great if you&amp;rsquo;re stabbing your victims instead of reverse pickpocketing. Otherwise this does next to nothing for you.&lt;/p>
+&lt;p>The Serpent Stone is hit or miss for this build, ironically. An additional hit of poison can be great if you&amp;rsquo;re stabbing your victims instead of reverse pickpocketing. Otherwise, this does next to nothing for you.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-shadow.webp">
 &lt;h4 id="the-shadow">The Shadow&lt;/h4>
 &lt;p>&lt;em>&lt;strong>Moonshadow:&lt;/strong>&lt;/em> &lt;em>You are 25% harder to detect while sneaking, and you deal 25% more damage with sneak attacks and spells.&lt;/em>&lt;/p>
@@ -1039,7 +1040,7 @@ You&amp;rsquo;ll have high defenses but you&amp;rsquo;ll still need enough base 
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>The Breton Warrior is a juggernaut. Clad in heavy armor with an extra layer of Alteration magic alongside the innate protection of a Breton, it&amp;rsquo;s nigh impossible to attain higher defenses. Once secured, you&amp;rsquo;re free to cut your enemies down one by one, or in groups with cleaving power attacks. When your targets are out of reach, take out your crossbolt and pelt them with bolts until they&amp;rsquo;re no longer a threat.&lt;/p>
+&lt;p>The Breton Warrior is a juggernaut. Clad in heavy armor with an extra layer of Alteration magic alongside the innate protection of a Breton, it&amp;rsquo;s nigh impossible to attain higher defenses. Once secured, you&amp;rsquo;re free to cut your enemies down one by one, or in groups with cleaving power attacks. When your targets are out of reach, take out your crossbow and pelt them with bolts until they&amp;rsquo;re no longer a threat.&lt;/p>
 &lt;h2 id="perks">Perks&lt;/h2>
 &lt;blockquote>
 &lt;p>Full perk information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30191">Adamant&lt;/a> description page.&lt;/p>
@@ -1151,7 +1152,7 @@ You&amp;rsquo;ll have high defenses but you&amp;rsquo;ll still need enough base 
 &lt;li>&lt;strong>Grim Focus 2 (90):&lt;/strong> Critical hits with bows deal five times damage.&lt;/li>
 &lt;/ul>
 &lt;h4 id="block-2">Block&lt;/h4>
-&lt;p>&lt;em>Bashing your opponents back before sweeping them away with a wide cut.&lt;/em>&lt;/p>
+&lt;p>&lt;em>Bash your opponents back before sweeping them away with a wide cut.&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Disorienting Bash (60):&lt;/strong> Bashing causes enemies to take 25% extra damage for 10 seconds.&lt;/li>
 &lt;li>&lt;strong>Deadly Bash 2 (80):&lt;/strong> Bashing does ten times more damage.&lt;/li>
@@ -1177,9 +1178,9 @@ You&amp;rsquo;ll have high defenses but you&amp;rsquo;ll still need enough base 
 &lt;h4 id="two-handed-2">Two-handed&lt;/h4>
 &lt;p>&lt;em>Sometimes you swing your greatsword so beautifully you&amp;rsquo;re the only one left to witness it.&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Deep Wounds 2 (70)::&lt;/strong> Greatswords have a 20% chance of doing critical damage.&lt;/li>
+&lt;li>&lt;strong>Deep Wounds 2 (70):&lt;/strong> Greatswords have a 20% chance of doing critical damage.&lt;/li>
 &lt;li>&lt;strong>Massacre (80)::&lt;/strong> Power attacks with Two-handed weapons 50% extra damage to targets who fall below half Health.&lt;/li>
-&lt;li>&lt;strong>Heavy Cuts 2 (90)::&lt;/strong> Critical attacks with greatswords deal five times more damage.&lt;/li>
+&lt;li>&lt;strong>Heavy Cuts 2 (90):&lt;/strong> Critical attacks with greatswords deal five times more damage.&lt;/li>
 &lt;li>&lt;strong>Rampage (100):&lt;/strong> Repeated power attacks against a single target with Two-handed weapons deal up to double damage.&lt;/li>
 &lt;/ul>
 &lt;/details>
@@ -1236,7 +1237,7 @@ If you have an idea of what&amp;rsquo;s coming in your direction, use this to sh
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Equilibrium (Adept+):&lt;/strong> &lt;em>Sacrifices Health to restore a moderate amount of Magicka and Stamina.&lt;/em>&lt;br>
-With your defenses, Health pool, and Natural Health regeneration, sometimes it will be prudent to drain your health in order to cast another spell or make more power attacks. Use your judgment, but you can take it.&lt;/p>
+With your defenses, Health pool, and natural Health Regeneration, sometimes it will be prudent to drain your health in order to cast another spell or make more power attacks. Use your judgment, but you can take it.&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;/details>
@@ -1312,7 +1313,7 @@ With your defenses, Health pool, and Natural Health regeneration, sometimes it w
 &lt;li>&lt;strong>Fortify Magicka:&lt;/strong> &lt;em>Your Magicka is increased by 50.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Fortify Magicka Regeneration:&lt;/strong> &lt;em>Your Magicka Regeneration is increased by 50%.&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>&lt;em>Fortify Two-handed&lt;/em> is a no brainer. Raising Elemental Resistance is another option here but you can cover that with Alteration&amp;rsquo;s shell spells. So instead of those enchantments boost your Magicka and Regeneration, allowing you to invest more into Stamina.&lt;/p>
+&lt;p>&lt;em>Fortify Two-handed&lt;/em> is a no brainer. Raising Elemental Resistance is another option here but you can cover that with Alteration&amp;rsquo;s shell spells. So, instead of those enchantments, boost your Magicka and Regeneration, allowing you to invest more into Stamina.&lt;/p>
 &lt;h4 id="boots">Boots&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Fortify Movement Speed:&lt;/strong> &lt;em>Your Movement Speed is increased by 20%.&lt;/em>&lt;/li>
@@ -1339,6 +1340,7 @@ With your defenses, Health pool, and Natural Health regeneration, sometimes it w
 &lt;blockquote>
 &lt;p>Full alchemy information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/52130">Apothecary&lt;/a> description page.&lt;/p>
 &lt;/blockquote>
+&lt;details>
 &lt;h4 id="potion-of-persistence">Potion of Persistence&lt;/h4>
 &lt;p>&lt;strong>Example:&lt;/strong> &lt;em>Dragon&amp;rsquo;s Tongue / Juvenile Mudcrab / Lavender&lt;/em>&lt;/p>
 &lt;ul>
@@ -1360,7 +1362,8 @@ With your defenses, Health pool, and Natural Health regeneration, sometimes it w
 &lt;li>Fortify Health (300 seconds)&lt;/li>
 &lt;li>Fortify Health Regeneration (300 seconds)&lt;/li>
 &lt;/ul>
-&lt;p>A quicker form of healing might be appealing but your many sources of Health Regeneration are already your lifeblood. This gives you more of it, and more Health, for 5 whole minutes.&lt;/p></description></item><item><title>Skyrim-Se: Dunmer Monk</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/dunmer-monk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/dunmer-monk/</guid><description>
+&lt;p>A quicker form of healing might be appealing but your many sources of Health Regeneration are already your lifeblood. This gives you more of it, and more Health, for 5 whole minutes.&lt;/p>
+&lt;/details></description></item><item><title>Skyrim-Se: Dunmer Monk</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/dunmer-monk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/dunmer-monk/</guid><description>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/builds/dunmer-monk.png" alt="Dunmer Battlemage">&lt;/p>
 &lt;h2 id="backstory">Backstory&lt;/h2>
 &lt;p>In the days of old, when Hosgunn Crossed-Daggers became Jarl of Riften, your heart was burdened with memories of the chaos that ensued. The city you once called home had turned into a place of unrest and despair. The protests erupted like wildfire, curfews gripped the streets, and whispers of hasty executions permeated the taverns. It became clear to you that the city was plagued by a sickness that couldn&amp;rsquo;t be ignored. And so, with a heavy heart, you made the decision to leave.&lt;/p>
@@ -1390,7 +1393,7 @@ Resource management is crucial. Health keeps you alive on the frontline, Stamina
 &lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>&lt;strong>Note:&lt;/strong> For unarmed perks to work both hands need to be empty. To easily do this with hotkeys, go to the &lt;em>SkyUI&lt;/em> MCM and toggle &lt;code>Unequip Hands&lt;/code> for one of the groups. That group can now be used as an Unarmed hotkey.&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> For unarmed perks to work, both hands need to be empty. To easily do this with hotkeys, go to the &lt;em>SkyUI&lt;/em> MCM and toggle &lt;code>Unequip Hands&lt;/code> for one of the groups. That group can now be used as an Unarmed hotkey.&lt;/p>
 &lt;/blockquote>
 &lt;p>You are not a wildfire; you are a deliberate, controlled burn. You deftly slip into position, starting fights on your own terms to give yourself the most advantage. Once the fight has broken out, turn up the heat with your Fire magic and a flurry of fists and eliminate your threats one by one. With the aid of Alteration magic you&amp;rsquo;ll be formidable on the frontlines, imposing and able to withstand your opponent&amp;rsquo;s counterattacks. A visit to Solstheim is a must. The island has not only the shrines for your pilgrimage but a number of spells that complement your skills. With all these tools in hand, you will make your ancestors proud.&lt;/p>
 &lt;p>Heavily consider taking on the beast blood as yet another challenge from the Daedra. Its &lt;em>Animal&lt;/em> tree of perks will grant you vital Health and Stamina Regeneration that&amp;rsquo;s lacking in the main build as well as unarmed damage and increased Movement Speed.&lt;/p>
@@ -1409,6 +1412,7 @@ Resource management is crucial. Health keeps you alive on the frontline, Stamina
 &lt;li>&lt;strong>Mage Armor 1 (30):&lt;/strong> Armor spells are 50% stronger while not wearing an armored chest piece.&lt;/li>
 &lt;/ul>
 &lt;h4 id="conjuration">Conjuration&lt;/h4>
+&lt;p>&lt;em>For now, Conjuration is simply a means of filling soul gems for your Enchanting.&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Summoner 1 (10):&lt;/strong> Conjuration spells cost 25% less Magicka.&lt;/li>
 &lt;/ul>
@@ -1543,16 +1547,16 @@ Resource management is crucial. Health keeps you alive on the frontline, Stamina
 &lt;details>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-warrior.webp">
 &lt;h4 id="the-warrior-guardian">The Warrior (Guardian)&lt;/h4>
-&lt;p>&lt;em>&lt;strong>Warborn&lt;/strong>&lt;/em> &lt;em>Your Health is increased by 50, and blocking is 25% more effective.&lt;/em>&lt;/p>
-&lt;p>At the end of the day Monk is a Combat build. You could opt for the &lt;em>Mage&lt;/em> instead but you should get used to standing toe to toe with your enemies from the start. You&amp;rsquo;ll be unable to block with your fists but the extra Health will go a long way.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Warborn:&lt;/strong>&lt;/em> &lt;em>Your Health is increased by 50, and blocking is 25% more effective.&lt;/em>&lt;/p>
+&lt;p>At the end of the day Monk is a Combat build. You could opt for the &lt;em>Mage&lt;/em> instead but you should get used to standing toe to toe with your enemies from the start. You&amp;rsquo;ll be unable to block with your fists so the extra Health will go a long way.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-lord.webp">
 &lt;h4 id="the-lord">The Lord&lt;/h4>
-&lt;p>&lt;em>&lt;strong>Blood of the North:&lt;/strong>&lt;/em> *Your Health Regeneration is increased by 100%, and your Magic Resistance is increased by 25%. *&lt;/p>
+&lt;p>&lt;em>&lt;strong>Blood of the North:&lt;/strong>&lt;/em> &lt;em>Your Health Regeneration is increased by 100%, and your Magic Resistance is increased by 25%.&lt;/em>&lt;/p>
 &lt;p>One thing this build lacks is built-in healing and the Lord provides. On top of that it adds to your Magic Resistance which is always good to have. Even moreso if you&amp;rsquo;re following Mehrunes Dagon as his blessing will be less painful to work with.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-tower.webp">
 &lt;h4 id="the-tower">The Tower&lt;/h4>
 &lt;p>&lt;em>&lt;strong>Warden’s Wall:&lt;/strong>&lt;/em> &lt;em>Your Armor Rating is increased by 100, and you reflect 100% of incoming melee damage back at your attacker.&lt;/em>&lt;/p>
-&lt;p>Extra armor on the frontlines is always useful and the damage reflect aspect just adds that much more to your offense. If you choose Sheogorath as your deity this is a perfect match.&lt;/p>
+&lt;p>Extra armor on the frontlines is always useful and the damage reflect aspect just adds that much more to your offense. If you choose Sheogorath as your deity, this is a perfect match.&lt;/p>
 &lt;/details>
 &lt;h2 id="faith">Faith&lt;/h2>
 &lt;blockquote>
@@ -1623,7 +1627,7 @@ A constant area of effect that complements your punches? Yes, please.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Vampiric Touch (Adept+):&lt;/strong> &lt;em>Absorbs 60 Health from living enemies in melee range.&lt;/em>&lt;br>
-Without Alchemy or Restoration your biggest hurdle might be healing yourself. These spells help solve that against the living at least.&lt;/p>
+Without Alchemy or Restoration, your biggest challenge might be healing yourself. These spells help solve that. Against the living at least.&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;/details>
@@ -1735,7 +1739,7 @@ Stamina is your key attribute as it&amp;rsquo;s necessary for both sneaking and 
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>At its core the Imperial Thief is the quintessential &amp;ldquo;stealth archer,&amp;rdquo; preferring to strike from far outside of an enemy&amp;rsquo;s range and remain hidden for as long as possible. Use Speech and Security to amass a large pile of septims, use it to hire and outfit a stalwart mercenary to do your bidding, and then bolster them with Illusion magic and bard songs. At times a follower may seem unnecessary but bring them along anyway as they&amp;rsquo;ll keep the enemies from focusing on you. Don&amp;rsquo;t hesitate to throw your wealth at potions and other consumables. You can afford it.&lt;/p>
+&lt;p>At its core, the Imperial Thief is the quintessential &amp;ldquo;stealth archer,&amp;rdquo; preferring to strike from far outside of an enemy&amp;rsquo;s range and remain hidden for as long as possible. Use Speech and Security to amass a large pile of septims, use it to hire and outfit a stalwart mercenary to do your bidding, and then bolster them with Illusion magic and bard songs. At times a follower may seem unnecessary but bring them along anyway as they&amp;rsquo;ll keep the enemies from focusing on you. Don&amp;rsquo;t hesitate to throw your wealth at potions and other consumables. You can afford it.&lt;/p>
 &lt;h2 id="perks">Perks&lt;/h2>
 &lt;blockquote>
 &lt;p>Full perk information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30191">Adamant&lt;/a> description page.&lt;/p>
@@ -1825,7 +1829,7 @@ Stamina is your key attribute as it&amp;rsquo;s necessary for both sneaking and 
 &lt;p>&lt;em>Make it easier to offload your ill-gotten gains.&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Bard 1 (30):&lt;/strong> Your bard songs are twice as strong.&lt;/li>
-&lt;li>&lt;strong>upply and Demand 1 (30):&lt;/strong> Merchants have extra gold for bartering.&lt;/li>
+&lt;li>&lt;strong>Supply and Demand 1 (30):&lt;/strong> Merchants have extra gold for bartering.&lt;/li>
 &lt;li>&lt;strong>Black Market (40):&lt;/strong> You can sell stolen items to any merchant.&lt;/li>
 &lt;/ul>
 &lt;/details>
@@ -1891,7 +1895,7 @@ Stamina is your key attribute as it&amp;rsquo;s necessary for both sneaking and 
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-lover.webp">
 &lt;h4 id="the-lover">The Lover&lt;/h4>
 &lt;p>&lt;em>&lt;strong>Lover&amp;rsquo;s Touch:&lt;/strong>&lt;/em> &lt;em>Your Stamina regenerates twice as fast, but you take 25% extra damage while power attacking or drawing a bow.&lt;/em>&lt;/p>
-&lt;p>The Atronach runs counter to your racial bonus but with mace and shield in hand you won&amp;rsquo;t be casting much of anything in the middle of combat. Use the extra Magicka to set up buffs, then draw your weapons and strike.&lt;/p>
+&lt;p>Once you have enough raw Stamina, regeneration becomes the higher priority. The downside to The Lover doesn&amp;rsquo;t concern you much as all since you have no intention of taking damage while drawing your bow. Later in the game you may have plenty of regeneration from your Light Armor perks and will start to see little benefit here.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-shadow.webp">
 &lt;h4 id="the-shadow">The Shadow&lt;/h4>
 &lt;p>&lt;em>&lt;strong>Moonshadow:&lt;/strong>&lt;/em> &lt;em>You are 25% harder to detect while sneaking, and you deal 25% extra damage with sneak attacks and spells.&lt;/em>&lt;/p>
@@ -2387,7 +2391,7 @@ Stamina will be vital in consistently firing your bow and sprinting to safer loc
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>Think of yourself as the quintessential ranger, except instead of having a tamed beast at your side you&amp;rsquo;ll employ the assistance of summoned daedra, most notably the Frost Atronach. These burly minions will whittle down your opponent&amp;rsquo;s stamina and speed as well as their health, soak up attacks, and ultimately make it harder for melee combatants to reach you. Meanwhile, you&amp;rsquo;ll stay safe and incredibly deadly on the back line, putting an enchanted bow to maximum effect. Destruction spells can be useful as well, but keep in mind that Magicka won&amp;rsquo;t regenerate in combat. Always keep enough in the tank for another summon.&lt;/p>
+&lt;p>Think of yourself as the quintessential ranger, except instead of having a tamed beast at your side you&amp;rsquo;ll employ the assistance of summoned daedra, most notably the Frost Atronach. These burly minions will whittle down your opponent&amp;rsquo;s stamina and speed as well as their health, soak up attacks, and ultimately make it harder for melee combatants to reach you. Meanwhile, you&amp;rsquo;ll stay safe and incredibly deadly on the back line, putting an enchanted bow to maximum effect. Destruction spells can be useful as well, but watch your Magicka levels during fights. Always keep enough in the tank for another summon.&lt;/p>
 &lt;h2 id="perks">Perks&lt;/h2>
 &lt;blockquote>
 &lt;p>Full perk information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30191">Adamant&lt;/a> description page.&lt;/p>
@@ -2548,11 +2552,11 @@ Stamina will be vital in consistently firing your bow and sprinting to safer loc
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-atronach.webp">
 &lt;h4 id="the-atronach">The Atronach&lt;/h4>
 &lt;p>&lt;em>&lt;strong>Sorcerer’s Oath:&lt;/strong>&lt;/em> &lt;em>Your Magicka is increased by 100, and you have a 25% chance to absorb the Magicka from incoming spells. However, you cannot regenerate Magicka in combat.&lt;/em>&lt;/p>
-&lt;p>Ideally you&amp;rsquo;ll be summoning your frost atronach and setting runes out of combat, making the Magicka regeneration penalty less harsh. The extra Magicka allows you to focus your attribute points elsewhere, such as more stamina for shooting.&lt;/p>
+&lt;p>Ideally you&amp;rsquo;ll be summoning your frost atronach and setting runes out of combat, making the Magicka regeneration penalty less harsh. The extra Magicka allows you to focus your attribute points elsewhere, such as in more Stamina for shooting.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-ritual.webp">
 &lt;h4 id="the-ritual">The Ritual&lt;/h4>
 &lt;p>&lt;em>&lt;strong>Mother’s Sorrow:&lt;/strong>&lt;/em> &lt;em>You can summon or reanimate one additional minion, but your summoning and reanimation spells last half as long.&lt;/em>&lt;/p>
-&lt;p>In the late game your summoning durations will be obnoxiously long. Cutting them in half for the benefit of having a 2nd or 3rd atronach is a powerful trade worth considering.&lt;/p>
+&lt;p>In the late game, your summoning durations will be obnoxiously long. Cutting them in half for the benefit of having a 2nd or 3rd atronach is a powerful trade worth considering.&lt;/p>
 &lt;/details>
 &lt;h2 id="faith">Faith&lt;/h2>
 &lt;blockquote>
@@ -2577,7 +2581,7 @@ Stamina will be vital in consistently firing your bow and sprinting to safer loc
 &lt;details>
 &lt;img align="right" width="100" height="100" src="https://thephoenixflavour.com/Pictures/sss/builds/skill-conjuration.webp">
 &lt;h3 id="conjuration-3">Conjuration&lt;/h3>
-&lt;p>Every ranger needs a companion and Conjuration provides. The summon is the star of the show, no two ways about it. The only question is how do you plan on advancing your skill to the point of binding on to this plane?&lt;/p>
+&lt;p>Every ranger needs a companion and Conjuration provides. The summon is the star of the show, no two ways about it. The only question is how do you plan on advancing your skill to the point of binding one to this plane?&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;strong>Soul Trap (Novice+):&lt;/strong> &lt;em>If a target dies within 60 seconds, fills a soul gem.&lt;/em>&lt;br>
@@ -2622,7 +2626,7 @@ Due to your atronach&amp;rsquo;s resistance you can freely cast this in an area 
 &lt;li>&lt;strong>Kaal:&lt;/strong> &lt;em>Summons Felldir the Old for 60 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Zoor:&lt;/strong> &lt;em>Summons Hakon One-Eye for 60 seconds.&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>Frost Atronachs are great but Nord heroes are even better and still in theme. Since they count towards the same conjuration limit, this is a good backup plan should you be short on magicka for summoning. They have access to shouts such as &lt;em>Unrelenting Force&lt;/em> so they can sometimes be a better ally for crowd control than your usual ally.&lt;/p>
+&lt;p>Frost Atronachs are great but Nord heroes are even better and still in theme. Since they count towards the same conjuration limit, this is a good backup plan should you be short on Magicka for summoning. They have access to shouts such as &lt;em>Unrelenting Force&lt;/em> so they can sometimes be a better ally for crowd control than your usual ally.&lt;/p>
 &lt;h4 id="frost-breath">Frost Breath&lt;/h4>
 &lt;p>&lt;em>Cooldown: 30/45/60 seconds&lt;/em>&lt;/p>
 &lt;ul>
@@ -3155,21 +3159,11 @@ You&amp;rsquo;ll get a large boost to Stamina from your race and the Thief Stone
 &lt;h4 id="smithing-1">Smithing&lt;/h4>
 &lt;p>&lt;em>This will push you into the territory of gear that can&amp;rsquo;t be obtained in the wild.&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;p>&lt;strong>Blacksmith (30):&lt;/strong> You can temper all items by one additional tier.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Journeyman Smithing (40):&lt;/strong> You can create Dwarven, Scaled, and Steel Plate items at any forge.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Craftsman 2 (50):&lt;/strong> You can temper all items by two additional tiers.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Rare Smithing (60):&lt;/strong> You can create Elven items at any forge.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Armorer (70):&lt;/strong> You can temper all items by one additional tier.&lt;/p>
-&lt;/li>
+&lt;li>&lt;strong>Blacksmith (30):&lt;/strong> You can temper all items by one additional tier.&lt;/li>
+&lt;li>&lt;strong>Journeyman Smithing (40):&lt;/strong> You can create Dwarven, Scaled, and Steel Plate items at any forge.&lt;/li>
+&lt;li>&lt;strong>Craftsman 2 (50):&lt;/strong> You can temper all items by two additional tiers.&lt;/li>
+&lt;li>&lt;strong>Rare Smithing (60):&lt;/strong> You can create Elven items at any forge.&lt;/li>
+&lt;li>&lt;strong>Armorer (70):&lt;/strong> You can temper all items by one additional tier.&lt;/li>
 &lt;/ul>
 &lt;/details>
 &lt;h3 id="late-game-tavas-storm">Late Game: Tava&amp;rsquo;s Storm&lt;/h3>
