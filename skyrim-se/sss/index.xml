@@ -66,7 +66,10 @@
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/installation/sss-on-wj.png" alt="Wabbajack Gallery">&lt;/p>
 &lt;h3 id="configuration">Configuration&lt;/h3>
 &lt;p>Before you can begin installing the list, you need to define two file paths:&lt;/p>
-&lt;p>The &lt;strong>Installation Location&lt;/strong> is where Mod Organizer 2 and all of the mods will be installed. Choose a high-level folder such as &lt;code>C:\Slidikins' Strenuous Skyrim&lt;/code> that is outside UAC protected folders (Program Files, Documents, etc.) that&amp;rsquo;s on your fastest drive, such as an SSD.&lt;/p>
+&lt;p>The &lt;strong>Installation Location&lt;/strong> is where Mod Organizer 2 and all of the mods will be installed. Choose a high-level folder such as &lt;code>C:\Slidikins Strenuous Skyrim&lt;/code> that is outside UAC protected folders (Program Files, Documents, etc.) that&amp;rsquo;s on your fastest drive, such as an SSD.&lt;/p>
+&lt;blockquote>
+&lt;p>Including the apostrophe in &lt;code>Slidikins' Strenuous Skyrim&lt;/code> can cause issues on some systems, especially if the default language isn&amp;rsquo;t English. You may want to omit it when choosing an Installation Location.&lt;/p>
+&lt;/blockquote>
 &lt;p>The &lt;strong>Download Location&lt;/strong> is where the downloaded mod archives will be stored. By default, they will be placed within your installation folder. I recommend you instead place them elsewhere, such as an HDD with plenty of space. They are not needed for running the game.&lt;/p>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/installation/sss-installation-wj.png" alt="List Configuration">&lt;/p>
 &lt;h3 id="installation-process">Installation Process&lt;/h3>
@@ -98,8 +101,8 @@
 &lt;p>&lt;strong>Note:&lt;/strong> Though the list aims to have a &amp;ldquo;vanilla&amp;rdquo; feel, several mechanics and quests have been adjusted. Guides written for the original game will be misleading. I recommend you push those guides and videos aside and discover &lt;strong>Slidikins&amp;rsquo; Strenuous Skyrim&lt;/strong> firsthand.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="1-reduced-hud">1. Reduced HUD&lt;/h2>
-&lt;p>The first thing you&amp;rsquo;ll probably notice when you take control of the Prisoner is a lack of on-screen information. By default, the only HUD element that is always displayed is your Health Bar (and attached Shout Meter). Stamina and Magicka Bars appear whenever they are changing being used, and the Crosshair will dynamically appear when needed, such as with a ranged weapon or spell.&lt;/p>
-&lt;p>Enemy information is completely hidden from you as the player. You&amp;rsquo;ll no longer be able to see the health of an enemy or their level. You won&amp;rsquo;t even be able to see their name in most situations. Keep that in mind as &lt;strong>some enemies may be quite strong compared to those around them&lt;/strong>. Proceed with caution and always have a backup plan in case you find yourself outmatched.&lt;/p>
+&lt;p>The first thing you&amp;rsquo;ll probably notice when you take control of the Prisoner is a lack of on-screen information. By default, the only HUD element that is always displayed is your Health Bar (and attached Shout Meter). Stamina and Magicka Bars appear whenever they are adjusting, and the Crosshair will dynamically appear when needed, such as with a ranged weapon or spell.&lt;/p>
+&lt;p>Enemy information is completely hidden from you as the player. You&amp;rsquo;ll no longer be able to see the health of an enemy or their level. You won&amp;rsquo;t even be able to see their name in most situations. Keep that in mind as &lt;strong>enemy strength can vary within a single area&lt;/strong>. Some foes will go down easily, others will present a challenge. Proceed with caution and always have a backup plan in case you find yourself outmatched.&lt;/p>
 &lt;p>Lastly, activation prompts have been removed. Most of the time the UI will give no indication you&amp;rsquo;re about to steal an item. (Stealth indicators are also removed so it&amp;rsquo;s up to you to determine if you&amp;rsquo;re hidden or not.) Locked containers and doors won&amp;rsquo;t broadcast their difficulty either. You&amp;rsquo;ll need to try your hand at it and decide for yourself if it&amp;rsquo;s worth the lockpicks.&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;strong>Tip:&lt;/strong> If you do get caught committing crimes (shame on you!), don&amp;rsquo;t reload! Getting caught is part of the criminal&amp;rsquo;s journey and can enhance your roleplay experience. Skipping town for awhile will gradually lower your bounty (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/11452">&lt;em>Wergild Depreciation&lt;/em>&lt;/a>). A silver tongue will also help with the occassional bribe.&lt;/p>
@@ -115,7 +118,7 @@
 &lt;li>&lt;strong>Favorite Groups 1-4:&lt;/strong> &lt;code>9&lt;/code>,&lt;code>0&lt;/code>, &lt;code>-&lt;/code>, and &lt;code>=&lt;/code>&lt;/li>
 &lt;li>&lt;strong>Horse Hotkey:&lt;/strong> &lt;code>H&lt;/code> (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/54225">&lt;em>Simplest Horses&lt;/em>&lt;/a>)&lt;/li>
 &lt;li>&lt;strong>Toggle 1st/3rd Person View:&lt;/strong> &lt;code>F&lt;/code>&lt;/li>
-&lt;li>&lt;strong>Toggle Close/Far 3rd Person View:&lt;/strong> &lt;code>↑&lt;/code> (in 3rd Person View)&lt;/li>
+&lt;li>&lt;strong>Toggle 3rd Person View Mode:&lt;/strong> &lt;code>↑&lt;/code> (in 3rd Person View)&lt;/li>
 &lt;/ul>
 &lt;h2 id="2-survival-and-exploration">2. Survival and Exploration&lt;/h2>
 &lt;p>This list will automatically enable &lt;a href="https://en.uesp.net/wiki/Skyrim:Survival_Mode">&lt;em>Survival Mode&lt;/em>&lt;/a> at the start of the game. You&amp;rsquo;ll be expected to engage with its mechanics, specifically &lt;em>eating&lt;/em>, &lt;em>sleeping&lt;/em>, and &lt;em>keeping warm&lt;/em>.&lt;/p>
@@ -124,15 +127,15 @@
 &lt;ul>
 &lt;li>Fruits and vegetables are commonly found in barrels all around the region.&lt;/li>
 &lt;li>Hunt wild animals for meat if you prefer protein in your diet, or utilize &lt;a href="https://en.uesp.net/wiki/Skyrim:Fishing">&lt;em>Fishing&lt;/em>&lt;/a> to source from the waters of Skyrim.&lt;/li>
-&lt;li>With a dash of salt you can cook the above into more filling meals that give larger regeneration bonuses.&lt;/li>
-&lt;li>Different types of foods given different bonuses, each lasting 30 real-time minutes. A varied diet can have a profound effect on your dungeon crawling.&lt;/li>
-&lt;li>If you have a heavy coin pouch you can simply buy ingredients or fully cooked meals from vendors to save yourself time.&lt;/li>
+&lt;li>With a dash of salt you can cook the above into simple meals. Merchants can provide recipes that will allow you to cook more nutritious meals.&lt;/li>
+&lt;li>Different types of foods given different bonuses, each lasting 20 real-time minutes. A varied diet can have a profound effect on your dungeon crawling.&lt;/li>
+&lt;li>If you have a heavy coin pouch, you can always buy ingredients or fully cooked meals from vendors to save yourself time.&lt;/li>
 &lt;/ul>
 &lt;h3 id="fatigue">Fatigue&lt;/h3>
-&lt;p>Soon after being left to your own devices you will find yourself being Lethargic or Tired and in need of sleep. Several options are available to you though you may want to act fast before the penalties to your maximum Magicka and Stamina Regeneration make it harder to fight effectively. Your experience rate will also drop when you are fatigued and improve when you&amp;rsquo;re rested.&lt;/p>
+&lt;p>Before long, you will find yourself Lethargic or Tired and in need of sleep. Several options are available to you though you may want to act fast before the penalties to your maximum Magicka and Stamina Regeneration make it hard to fight effectively. Your experience rate will also drop when you are fatigued and improve when you&amp;rsquo;re properly rested.&lt;/p>
 &lt;ul>
 &lt;li>A multitude of bedrolls are scattered around Skyrim. You won&amp;rsquo;t wake up Well Rested, but it&amp;rsquo;s free.&lt;/li>
-&lt;li>Sleeping in town is another option. However, the cost of an inn depends on the location, ranging from reasonable to highway robbery.&lt;/li>
+&lt;li>Sleeping in town is another option. However, the cost of an inn depends on the location, with major cities charging a premium.&lt;/li>
 &lt;li>Of course, you can always take what you want from the local brigands. Bandit camps typically have a warm, indoor bed to enjoy once the owners have been evicted.&lt;/li>
 &lt;li>Eventually you&amp;rsquo;ll want to purchase a permanent residence for something dependable and reliable.&lt;/li>
 &lt;/ul>
@@ -146,7 +149,7 @@
 &lt;/ul>
 &lt;h3 id="other-notes">Other Notes&lt;/h3>
 &lt;ul>
-&lt;li>Your Health will only regenerate to 50% on its own. You&amp;rsquo;ll need to utilize other sources of regeneration to recover further, such as food, potions, perks, or Restoration magic.&lt;/li>
+&lt;li>Your Health will only regenerate so much on its own. You&amp;rsquo;ll need to utilize other sources of regeneration to recover further, such as food, potions, perks, or Restoration magic.&lt;/li>
 &lt;li>Containers are no longer bottomless. If you want to hoard goods and materials you&amp;rsquo;ll need to find a suitable location with enough chests for your stash. (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/13826">&lt;em>Container and Arrow Weight Restrictions&lt;/em>&lt;/a>)&lt;/li>
 &lt;li>Similarly, your Carry Weight has been reduced, encouraging you to reconsider what&amp;rsquo;s worth leaving the house with as well as what&amp;rsquo;s worth picking up in a dungeon.&lt;/li>
 &lt;li>Imperial Septims won&amp;rsquo;t be found in places where it wouldn&amp;rsquo;t make sense. You&amp;rsquo;ll find foreign or ancient coins in their place. Merchants can exchange these for Septims at various rates. (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/51439">&lt;em>C.O.I.N. - Coins of Interesting Natures&lt;/em>&lt;/a>)&lt;/li>
@@ -155,13 +158,14 @@
 &lt;ul>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/56374">&lt;em>Survival Mode Improved&lt;/em>&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/96876">&lt;em>Gourmet - A Cooking Overhaul&lt;/em>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/97542">&lt;em>Candlehearth - An Inn Overhaul&lt;/em>&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="3-crafting">3. Crafting&lt;/h2>
-&lt;p>The hard limit on player level (Lv50) and perk points (55 total) makes it harder to invest in multiple crafting skills while at the same time makes it more worthwhile to utilize them all. As you make your mark on Skyrim, don&amp;rsquo;t be afraid to pour some of your earnings into crafted goods you can not create yourself.&lt;/p>
+&lt;p>The hard limit on player level (Lv50) and perk points (55 from leveling) makes it harder to invest in multiple crafting skills, while at the same time makes it more worthwhile to utilize them all. As you make your mark on Skyrim, don&amp;rsquo;t be afraid to pour some of your earnings into crafted goods you can not create yourself.&lt;/p>
 &lt;h3 id="alchemy">Alchemy&lt;/h3>
 &lt;p>Alchemical goods can be found in almost every settlement at the general store if not a dedicated apothecary. Many of the available potion effects last for a minute or longer and provide percentage-based buffs making them viable at all levels of play. You can always craft your own alchemy potions and poisons as well, combining useful effects to save on Carry Weight. Even without perk investment it&amp;rsquo;s worth your while to dabble in Alchemy. Ingredients can be found everywhere so there&amp;rsquo;s nothing to lose!&lt;/p>
 &lt;h3 id="smithing">Smithing&lt;/h3>
-&lt;p>With the exception of the quintessential Mage, most adventurers will get some benefit from Smithing. Higher tier weapons and armor have been removed from the random loot lists so your options for obtaining them are limited to hunting very specific enemies or crafting them yourself. Weapons and armor can be improved (a master at the craft can add +10 to the base damage/armor of equipment with a single ingot) but they will degrade with use back to their original stats without maintenance (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/74790">&lt;em>Simple Degradation&lt;/em>&lt;/a>).&lt;/p>
+&lt;p>With the exception of the quintessential Mage, most adventurers will get some benefit from Smithing. Higher tier weapons and armor have been removed from the random loot lists so your options for obtaining them are limited to hunting very specific enemies or crafting them yourself. Weapons and armor can be improved (a master at the craft can add +10 base damage/armor with a single ingot) but they will degrade back to their original stats as they&amp;rsquo;re used in fights (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/74790">&lt;em>Simple Degradation&lt;/em>&lt;/a>).&lt;/p>
 &lt;h3 id="enchanting">Enchanting&lt;/h3>
 &lt;p>Enchanting will give you the extra oomph you need to go from good to great, no matter your playstyle. Novice enchanters can add noticeable boosts to their gear but it&amp;rsquo;s a long investment before one can rival the skill of an adept or expert enchanter. Until then, keep an eye out for enchanted gear from merchants. The price tag can be daunting but the benefits of a well picked enchantment are worth it.&lt;/p>
 &lt;h4 id="additional-reading-1">Additional Reading&lt;/h4>
@@ -174,12 +178,12 @@
 &lt;blockquote>
 &lt;p>&lt;strong>Tip:&lt;/strong> Even though health bars were removed, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/46501">&lt;em>Just Blood&lt;/em>&lt;/a> will add increasing bloody overlays on enemies as a rough indicator of their Health. Keep an eye out for this subtle effect.&lt;/p>
 &lt;/blockquote>
-&lt;p>On top of that, enemies have been placed into tiers and you&amp;rsquo;ll want to build your strength up before tackling some of them. For example, Falmer and Dwemer ruins are best avoided until Lv20 or so, and Daedra until Lv30. Of course, this is just a general rule, but keep that in mind if you run into a figurative wall on your adventures. Dragons in particular are much tougher than they are in the vanilla game, with their levels soaring far higher than your Lv50 cap. But you&amp;rsquo;re Dovahkiin, you&amp;rsquo;ll figure it out. Learning and paying attention to the resistances of an enemy will be a huge boon in your favor when tackling challenging creatures.&lt;/p>
+&lt;p>On top of that, enemies have been placed into tiers and you&amp;rsquo;ll want to build your strength up before tackling some of them. For example, Falmer and Dwemer ruins are best avoided until Lv20 or so, and Daedra until Lv30. Of course, this is just a general rule, but keep that in mind if you run into a figurative wall on your adventures. Dragons in particular are much tougher than they are in the vanilla game, with their levels soaring higher than your Lv50 cap. But you&amp;rsquo;re Dovahkiin, you&amp;rsquo;ll figure it out. Learning and paying attention to the resistances of an enemy will be a huge boon in your favor when tackling challenging creatures.&lt;/p>
 &lt;h3 id="followers">Followers&lt;/h3>
 &lt;p>It sounds like the deck is stacked against you, and in many ways it is. But you don&amp;rsquo;t have to go it alone. Keep in mind the following changes when bringing a follower along:&lt;/p>
 &lt;ul>
 &lt;li>NPCs, including followers, use ammo the same way you do. If your follower uses a bow, make sure to keep them supplied with arrows.&lt;/li>
-&lt;li>Followers who run out of Health will be in a &amp;ldquo;downed&amp;rdquo; state for 2 minutes unless healed by Restoration magic. Enemies will ignore them in this state. (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41228">&lt;em>STAYDOWN&lt;/em>&lt;/a>)&lt;/li>
+&lt;li>Followers who run out of Health will be in a &amp;ldquo;downed&amp;rdquo; state for up to 2 minutes unless healed by Restoration magic. Enemies will ignore them in this state, redirecting their ire towards you. (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41228">&lt;em>STAYDOWN&lt;/em>&lt;/a>)&lt;/li>
 &lt;li>Mercenaries will charge more for their services based on factors such as their level. (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45677">&lt;em>Dynamic Mercenary Fees&lt;/em>&lt;/a>)&lt;/li>
 &lt;/ul>
 &lt;h4 id="relevant-control-changes-1">Relevant Control Changes&lt;/h4>
@@ -219,6 +223,155 @@
 &lt;p>I can’t stress this enough. In the late game you might deal with areas that are scaled above your Level 50 limit, some at that point before you even reach the cap. You’ll want every advantage you can get to bridge the gap and most of those advantages are obtained through crafting. If you ignored this early on, now’s a good time to reconsider it. If on Master or Legendary difficulty, you might even need to make different equipment sets for different types of enemies.&lt;/p>
 &lt;h4 id="and-draughts-of-fate-unwound">And Draughts of Fate Unwound&lt;/h4>
 &lt;p>Combining the previous two tips into one, don&amp;rsquo;t be afraid to use your excess cash on Draughts of Fate Unwound from apothecaries. These will refund all of your perk points, allowing you to redistribute them in ways that are more useful to your current goals. Can&amp;rsquo;t find the highest tier gear? Use a draught and craft it yourself. Already crafted everything you need and no longer want the crafting perks? Use a draught and spend those points on other skills. (For this reason it&amp;rsquo;s not a bad idea to level all 3 crafting skills regardless of your build.)&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sss/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/changelog/</guid><description>
+&lt;h2 id="release-4190b">Release 4.19.0b&lt;/h2>
+&lt;blockquote>
+&lt;p>2023-11-??&lt;/p>
+&lt;/blockquote>
+&lt;details>
+&lt;p>These changes are not set in stone and may change before the final release. As such, I won&amp;rsquo;t put a full patch description in here yet.&lt;/p>
+&lt;h4 id="changes">Changes&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Textures &amp;amp; Mesh Fixes:&lt;/strong> Removed Gourd Plant Mesh Fix&lt;/li>
+&lt;li>&lt;strong>SKSE Plugins - Fixes:&lt;/strong> Added Capture Warmer&lt;/li>
+&lt;li>&lt;strong>(Optional) Nordic UI:&lt;/strong> Added NORDIC UI - Compass Navigation Overhaul Patch&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Renamed TPF - Depths of Skyrim Patch to Slidikins&amp;rsquo; Strenuous Skyrim - Depths of Skyrim Patch&lt;/li>
+&lt;li>&lt;strong>Landscape:&lt;/strong> Forwarded old Depths of Skyrim entries from QW&amp;rsquo;s Grass Patch to Depths of Skyrim - SSS Patch.esp&lt;/li>
+&lt;li>&lt;strong>Lux Lighting:&lt;/strong> Modified Lux Orbis - Daedric Shrines AiO Patch to account for Pilgrim - Daedric Shrines Patch changes&lt;/li>
+&lt;li>&lt;strong>Lux Lighting:&lt;/strong> Removed &lt;code>/meshes/architecture/windhelm/whgrayquarter02.nif&lt;/code> from Lux Orbis&lt;/li>
+&lt;li>&lt;strong>Fire &amp;amp; Candles:&lt;/strong> Added FYX - Sparks React to the Wind&lt;/li>
+&lt;li>&lt;strong>Fire &amp;amp; Candles:&lt;/strong> Added FYX - Campfire Reacts to the Wind&lt;/li>
+&lt;li>&lt;strong>Snow &amp;amp; Ice:&lt;/strong> Added Simplicity of Snow - Majestic Mountains Patch&lt;/li>
+&lt;li>&lt;strong>Grass Overhaul:&lt;/strong> Removed Veydosebrom Regions&lt;/li>
+&lt;li>&lt;strong>Grass Overhaul:&lt;/strong> Removed QW’s Grass Patch&lt;/li>
+&lt;li>&lt;strong>Grass Overhaul:&lt;/strong> Removed QW Grass Patch - No Fall Forest Leaf Piles&lt;/li>
+&lt;li>&lt;strong>Grass Overhaul:&lt;/strong> Removed QW Grass Patch - Re-Enable Rocks&lt;/li>
+&lt;li>&lt;strong>Grass Overhaul:&lt;/strong> Removed QW Grass Patch - ENB Complex Grass&lt;/li>
+&lt;li>&lt;strong>Grass Overhaul:&lt;/strong> Added Origins Of Forest&lt;/li>
+&lt;li>&lt;strong>Grass Overhaul:&lt;/strong> Added Origins of Forest - ENB Complex Grass&lt;/li>
+&lt;li>&lt;strong>Grass Overhaul:&lt;/strong> Added Folkvangr - Summer Tundra&lt;/li>
+&lt;li>&lt;strong>Grass Overhaul:&lt;/strong> Added QW&amp;rsquo;s Grass Patch 2&lt;/li>
+&lt;li>&lt;strong>Grass Overhaul:&lt;/strong> Added QW&amp;rsquo;s Grass Patch 2 - ENB Complex Grass&lt;/li>
+&lt;li>&lt;strong>Plants &amp;amp; Mushrooms:&lt;/strong> Added Kabu&amp;rsquo;s Really Gourd Plant Replacer&lt;/li>
+&lt;li>&lt;strong>Xavbio&amp;rsquo;s Retextures:&lt;/strong> Added Dragon Priest Retexture&lt;/li>
+&lt;li>&lt;strong>Undead, Daedra, &amp;amp; Dragons:&lt;/strong> Removed aMidianBorn Book of Silence - Dragon Priest&lt;/li>
+&lt;li>&lt;strong>Undead, Daedra, &amp;amp; Dragons:&lt;/strong> Removed aMidianBorn Book of Silence - Dragon Priest Acolytes&lt;/li>
+&lt;li>&lt;strong>Undead, Daedra, &amp;amp; Dragons:&lt;/strong> Removed Rustic Dragons&lt;/li>
+&lt;li>&lt;strong>Undead, Daedra, &amp;amp; Dragons:&lt;/strong> Removed Frankly HD Dragon Bones&lt;/li>
+&lt;li>&lt;strong>Undead, Daedra, &amp;amp; Dragons:&lt;/strong> Removed Deiform Alduin&lt;/li>
+&lt;li>&lt;strong>Undead, Daedra, &amp;amp; Dragons:&lt;/strong> Removed Deiform Alduin - Eye Textures&lt;/li>
+&lt;li>&lt;strong>Undead, Daedra, &amp;amp; Dragons:&lt;/strong> Removed Deiform Alduin - Particle Lights&lt;/li>
+&lt;li>&lt;strong>Undead, Daedra, &amp;amp; Dragons:&lt;/strong> Added Iconic&amp;rsquo;s Dragon Retexture&lt;/li>
+&lt;li>&lt;strong>ElSopa&amp;rsquo;s Potions Redone:&lt;/strong> Merged v3.1 update with ElSopa - Potions Redone - Missing Vanilla Potions&lt;/li>
+&lt;li>&lt;strong>Crafting:&lt;/strong> Added Thaumaturgy - Player Spell Lighting Patch&lt;/li>
+&lt;li>&lt;strong>Crafting:&lt;/strong> Edited JewelryCircletOrichalcEmerald &lt;code>000166d6&lt;/code> in Jewelry Crafting Expanded to have the correct Model FileName&lt;/li>
+&lt;li>&lt;strong>Horses &amp;amp; Fast Travel:&lt;/strong> Added AE Patch to zzjay&amp;rsquo;s Horse Overhaul&lt;/li>
+&lt;li>&lt;strong>NPC Dialogue &amp;amp; Behavior:&lt;/strong> Removed Rent Room Dialogue Tweak&lt;/li>
+&lt;li>&lt;strong>NPC Dialogue &amp;amp; Behavior:&lt;/strong> Removed Windhelm Segregation - Stay At New Gnisis Cornerclub&lt;/li>
+&lt;li>&lt;strong>NPC Dialogue &amp;amp; Behavior:&lt;/strong> Added Misc Dialogue Edits - NGCDT Patch&lt;/li>
+&lt;li>&lt;strong>Enemy Overhauls:&lt;/strong> Removed Dragon War - Deiform Alduin Particle Lights Patch&lt;/li>
+&lt;li>&lt;strong>Enemy Overhauls:&lt;/strong> Added Wait Your Turn - Sands of Time Patch&lt;/li>
+&lt;li>&lt;strong>Immersion:&lt;/strong> Removed Coherent Inns Prices&lt;/li>
+&lt;li>&lt;strong>Immersion:&lt;/strong> Added Misc Dialogue Edits - Bring Meeko to Lod Patch&lt;/li>
+&lt;li>&lt;strong>Immersion:&lt;/strong> Added Soups of Skyrim - Fishing and Gourmet Patch&lt;/li>
+&lt;li>&lt;strong>Immersion:&lt;/strong> Added Candlehearth - An Inn Overhaul&lt;/li>
+&lt;li>&lt;strong>Immersion:&lt;/strong> Added Candlehearth - Tavern AI Fix Patch&lt;/li>
+&lt;li>&lt;strong>Immersion:&lt;/strong> Added Candlehearth - Unofficial Patches&lt;/li>
+&lt;li>&lt;strong>Miscellaneous:&lt;/strong> Removed Unequip Quiver&lt;/li>
+&lt;li>&lt;strong>Miscellaneous:&lt;/strong> Added Contraband Confiscation - Gourmet Patch&lt;/li>
+&lt;li>&lt;strong>Survival &amp;amp; Fishing:&lt;/strong> Swapped U Can&amp;rsquo;t Touch Fish for the Chance Edition&lt;/li>
+&lt;li>&lt;strong>City Overhauls:&lt;/strong> Added Better Windhelm Ground Meshes - Icy Windhelm&lt;/li>
+&lt;li>&lt;strong>Faction HQs:&lt;/strong> Added Obscure&amp;rsquo;s College of Winterhold - AI Overhaul Patch&lt;/li>
+&lt;li>&lt;strong>Seasons of Skyrim:&lt;/strong> Added Four Seasons - Faster Seasons of Skyrim&lt;/li>
+&lt;li>&lt;strong>Seasons of Skyrim:&lt;/strong> Added Seasonal Alchemy&lt;/li>
+&lt;li>&lt;strong>Seasons of Skyrim:&lt;/strong> Added Seasonal Alchemy Add-on&lt;/li>
+&lt;li>&lt;strong>Seasons of Skyrim:&lt;/strong> Added Seasonal Landscapes for ENB Complex Grass&lt;/li>
+&lt;li>&lt;strong>Seasons of Skyrim:&lt;/strong> Added Seasonal Landscapes - QW&amp;rsquo;s Grass Patch 2 Patch&lt;/li>
+&lt;li>&lt;strong>Seasons of Skyrim:&lt;/strong> Added Seasonal Landscapes - Whiterun Stairs Patch&lt;/li>
+&lt;li>&lt;strong>Seasons of Skyrim:&lt;/strong> Added Seasonal Landscapes - Stones of Solitude - MM Patch&lt;/li>
+&lt;li>&lt;strong>Seasons of Skyrim:&lt;/strong> Added Seasonal Landscapes - Additions&lt;/li>
+&lt;li>&lt;strong>Seasons of Skyrim:&lt;/strong> Added Seasonal Landscapes - No Dead Pine Tree Resurrection&lt;/li>
+&lt;li>&lt;strong>Seasons of Skyrim:&lt;/strong> Added Seasonal Landscapes - No Dead Pine Tree Resurrection - Happy Little Tree Fix&lt;/li>
+&lt;li>&lt;strong>Saints and Seducers:&lt;/strong> Removed Saints and Seducers - Mysticism Rebalance&lt;/li>
+&lt;li>&lt;strong>New Mechanics:&lt;/strong> Removed Pilgrim and Daedric Shrines Consistency and Tweaks&lt;/li>
+&lt;li>&lt;strong>New Mechanics:&lt;/strong> Added Pilgrim - Daedric Shrines AIO Patch&lt;/li>
+&lt;li>&lt;strong>New Mechanics:&lt;/strong> Added Pilgrim - Statue of Sithis Patch&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Edited &lt;code>000C28F4&lt;/code> to add a proximity check to Ancano&amp;rsquo;s Sparks sound effect&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Edited &lt;code>0009CD43&lt;/code> to allow alchemy merchants a higher chance to stock more potions&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Edited HUDShouting &lt;code>00064697&lt;/code> to better reflect TrueHUD&amp;rsquo;s interface&lt;/li>
+&lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Removed HUDDetection &lt;code>00064694&lt;/code> loadscreen as there&amp;rsquo;s no Sneak HUD in the list&lt;/li>
+&lt;li>&lt;strong>Configuration:&lt;/strong> Edited Immersive Equipment Displays settings to work with EVG Conditional Idles&amp;rsquo; shield cover function&lt;/li>
+&lt;li>&lt;strong>Configuration:&lt;/strong> Edited Immersive Equipment Displays settings to hide ammo when ranged weapons are not actively equipped&lt;/li>
+&lt;li>&lt;strong>Performance Profile:&lt;/strong> Enabled ElSopa&amp;rsquo;s Potion Redone section&lt;/li>
+&lt;/ul>
+&lt;h4 id="updates">Updates&lt;/h4>
+&lt;ul>
+&lt;li>Updated SSEEdit to 4.1.5&lt;/li>
+&lt;li>Updated Root Builter to 4.5.2&lt;/li>
+&lt;li>Updated DynDOLOD to Alpha-156&lt;/li>
+&lt;li>Updated KiLoader for Skyrim to 1.0.7&lt;/li>
+&lt;li>Updated Rock Traps Trigger Fixes to 1.5&lt;/li>
+&lt;li>Updated CritterSpawn Congestion Fix to 1.52&lt;/li>
+&lt;li>Updated Skyrim Landscape and Water Fixes to 8.3&lt;/li>
+&lt;li>Updated DynDOLOD - NG to Alpha-13&lt;/li>
+&lt;li>Updated Skyland Bits and Bobs - A Clutter Overhaul to 1.8&lt;/li>
+&lt;li>Updated ENB Extender for Skyrim to 1.0.3&lt;/li>
+&lt;li>Updated Lux to 6.4.1&lt;/li>
+&lt;li>Updated Thunderbolt - HD Lightning to 2.0&lt;/li>
+&lt;li>Updated Majestic Snow to 2.33&lt;/li>
+&lt;li>Updated Snowy Surfaces Sound Collision and Aesthetics to 1.6.6.2&lt;/li>
+&lt;li>Updated Simple Snow Improvements - Skyrim to 2.2&lt;/li>
+&lt;li>Updated Simple Snow Improvements - Giant Obelisks to 1.4.1&lt;/li>
+&lt;li>Updated Icy Mesh Remaster to 2.30&lt;/li>
+&lt;li>Updated Sowables of Skyrim - Leeks to 2.0&lt;/li>
+&lt;li>Updated Sowables of Skyrim - Potatoes to 2.01&lt;/li>
+&lt;li>Updated Sowables of Skyrim - Scrumptious Cabbages to 2.0&lt;/li>
+&lt;li>Updated High Poly Solstheim Mushroom Trees to 1.1&lt;/li>
+&lt;li>Updated Additional Dremora Faces to 1.3&lt;/li>
+&lt;li>Updated True Directional Movement - Modernized Third Person Gameplay to 2.2.5&lt;/li>
+&lt;li>Updated Mysticism - A Magic Overhaul to 2.3.4&lt;/li>
+&lt;li>Updated Adamant - A Perk Overhaul to 5.8.5&lt;/li>
+&lt;li>Updated Manbeast - A Werewolf Overhaul to 2.1&lt;/li>
+&lt;li>Updated Scion - A Vampire Overhaul to 2.2&lt;/li>
+&lt;li>Updated Civil War Lines Expansion to 1.1&lt;/li>
+&lt;li>Updated Dremora Lines Expansion to 1.1&lt;/li>
+&lt;li>Updated Misc Dialogue Edits to 1.9.3&lt;/li>
+&lt;li>Updated Narrative Gameplay Consistent Dialogue Tweaks to 1.9.2&lt;/li>
+&lt;li>Updated Neutral Whiterun Guards to 4.0&lt;/li>
+&lt;li>Updated Honorhall Orphanage Bugfixes and Expansion to 2.03&lt;/li>
+&lt;li>Updated Unofficial Material Fix - Improved Traps to 4.0&lt;/li>
+&lt;li>Updated Madmen - A Forsworn Overhaul to 2.0.1&lt;/li>
+&lt;li>Updated Madmen - Patch Collection to 2.0.1&lt;/li>
+&lt;li>Updated Dragon War - A Dragon Overhaul to 3.1.4&lt;/li>
+&lt;li>Updated Dragon War - Deadly Spell Impacts Patch to 3.1.4&lt;/li>
+&lt;li>Updated Bring Meeko to Lod to 1.0b&lt;/li>
+&lt;li>Updated Beyond Skyrim Morrowind - Bonemold Weapon Pack to 1.2&lt;/li>
+&lt;li>Updated Falmer Equip Armor to 1.0.8&lt;/li>
+&lt;li>Updated Immersive Death Cycle to 1.03&lt;/li>
+&lt;li>Updated Dragon War - Durnehviir Resurrected Patch to 3.1.4&lt;/li>
+&lt;li>Updated Dragon War - Audio Overhaul for Skyrim Patch to 3.1.4&lt;/li>
+&lt;li>Updated Immersive Sounds Compendium - Sound Record Distributor to 2.3.1&lt;/li>
+&lt;li>Updated Fishing - WACCF Patch to 4.0&lt;/li>
+&lt;li>Updated Icy Windhelm to 2.4&lt;/li>
+&lt;li>Updated Sowables of Skyrim - Leeks - Snowy Version to 2.0&lt;/li>
+&lt;li>Updated Sowables of Skyrim - Potatoes - Snowy Version to 2.01&lt;/li>
+&lt;li>Updated Sowables of Skyrim - Scrumptious Cabbages - Snowy Version to 2.0&lt;/li>
+&lt;li>Updated Extended Cut Saints and Seducers - Mysticism Rebalance to 2.01&lt;/li>
+&lt;li>Updated Skyrim Extended Cut - Saints and Seducers - WACCF Patch to 4.0&lt;/li>
+&lt;li>Updated Thaumaturgy - WACCF ACE Patch to 4.0&lt;/li>
+&lt;li>Updated Beyond Skyrim Morrowind - Bonemold Weapon Pack - WACCF Patch to 4.0&lt;/li>
+&lt;li>Updated Beyond Skyrim Morrowind - Bonemold Weapon Pack - Thaumaturgy WACCF Patch to 4.0&lt;/li>
+&lt;li>Updated Beyond Skyrim Morrowind - Bonemold Weapon Pack - Tamrielic Distribution WACCF Patch to 4.0&lt;/li>
+&lt;li>Updated Dawnguard Arsenal - WACCF Patch to 4.0&lt;/li>
+&lt;li>Updated UNDERDOG Animatons to 1.9.6&lt;/li>
+&lt;/ul>
+&lt;h4 id="outputs">Outputs&lt;/h4>
+&lt;ul>
+&lt;li>Regenerated Synthesis Patches&lt;/li>
+&lt;li>Regenerated LODGen&lt;/li>
+&lt;li>Regenerated TexGen&lt;/li>
+&lt;li>Regenerated DynDOLOD (and Performance)&lt;/li>
+&lt;/ul>
+&lt;/details>
 &lt;h2 id="release-41807">Release 4.18.0.7&lt;/h2>
 &lt;blockquote>
 &lt;p>2023-10-07&lt;/p>
@@ -230,7 +383,7 @@
 &lt;p>&lt;strong>Pro-tip:&lt;/strong> Artificer&amp;rsquo;s Oghma Infinium grants two extra perk points when read, raising the maximum number of perks to 57 for those who progress through the main quest to that point. This may be a valuable bump for most builds.&lt;/p>
 &lt;/blockquote>
 &lt;details>
-&lt;h4 id="changes">Changes&lt;/h4>
+&lt;h4 id="changes-1">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Controls:&lt;/strong> Removed Sprint Swimming&lt;/li>
 &lt;li>&lt;strong>Controls:&lt;/strong> Removed Sprint Swimming MCM&lt;/li>
@@ -262,7 +415,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Copied MiddenVelehk&amp;rsquo;s &lt;code>00075C7F&lt;/code> appearance from Additional Dremora Faces&lt;/li>
 &lt;li>&lt;strong>Configuration:&lt;/strong> Fixed a handful of values in the SkyrimUncapper.ini, these were erroneously overwritten by an automatic update to the file.&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates">Updates&lt;/h4>
+&lt;h4 id="updates-1">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated Root Builder to 4.5.1&lt;/li>
 &lt;li>Updated DynDOLOD to Alpha-152&lt;/li>
@@ -303,7 +456,7 @@
 &lt;li>Updated NPC Animation Remix to 1.6.2&lt;/li>
 &lt;li>Updated SD&amp;rsquo;s Lotta Patches to 2023.9.27&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs">Outputs&lt;/h4>
+&lt;h4 id="outputs-1">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated FaceGen (again, sorry!)&lt;/li>
 &lt;li>Regenerated Slidikins&amp;rsquo; Strenuous Skyrim - Sorcerer Patch&lt;/li>
@@ -318,7 +471,7 @@
 &lt;p>Fortunately, Aurora updated in the last few days which means this update also gives you Xavbio&amp;rsquo;s newest retextures, Yuril&amp;rsquo;s &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/98260">Windhelm Graveyard&lt;/a>, and a few more fixes from SME. I also went through Aurora mod by mod and found a few small differences between the lists that were unintentional. Those have been fixed. Sadly, &lt;em>Ethereal Elven Overhaul&lt;/em> was removed for neck seam issues so the FaceGen files needed to be regenerated yet again.&lt;/p>
 &lt;p>&lt;strong>This update is save-safe.&lt;/strong>&lt;/p>
 &lt;details>
-&lt;h4 id="changes-1">Changes&lt;/h4>
+&lt;h4 id="changes-2">Changes&lt;/h4>
 &lt;ul>
 &lt;li>Applied changes from &lt;a href="https://thephoenixflavour.com/skyrim-se/sme/changelog/#release-261">Skyrim Modding Essentials 2.6.1&lt;/a> and &lt;a href="https://thephoenixflavour.com/skyrim-se/aur/changelog/#release-150">Aurora 1.5.0&lt;/a>&lt;/li>
 &lt;li>&lt;strong>Texture &amp;amp; Mesh Fixes:&lt;/strong> Removed Windhelm Entrance Offset Fix&lt;/li>
@@ -327,7 +480,7 @@
 &lt;li>&lt;strong>New Animations:&lt;/strong> Added Vanargand Animations II - Female Idle Walk And Run&lt;/li>
 &lt;li>&lt;strong>New Music:&lt;/strong> Added Yet Another Music Merge - ECSS Patch&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-1">Updates&lt;/h4>
+&lt;h4 id="updates-2">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated DynDOLOD to Alpha-142&lt;/li>
 &lt;li>Updated Crash Logger to 1.10&lt;/li>
@@ -342,7 +495,7 @@
 &lt;li>Updated Dragon War - Durnehviir Resurrected Patch to 3.1.2&lt;/li>
 &lt;li>Updated Dragon War - Audio Overhaul for Skyrim Patch to 3.1.2&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-1">Outputs&lt;/h4>
+&lt;h4 id="outputs-2">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Nemesis&lt;/li>
 &lt;li>Regenerated FaceGen&lt;/li>
@@ -356,7 +509,7 @@
 &lt;p>As &lt;em>Aurora&lt;/em> has not yet updated, certain visual releases such as Xavbio&amp;rsquo;s most recent armor retextures have not been included in this update, but they may be coming soon. In the meantime I&amp;rsquo;ll continue looking into any issues that crop up. So if you find any, please come to the &lt;a href="https://discord.gg/xRrHRsb5e9">Aetherius Modding&lt;/a> server and let me know!&lt;/p>
 &lt;p>&lt;strong>This update is save-safe.&lt;/strong>&lt;/p>
 &lt;details>
-&lt;h4 id="changes-2">Changes&lt;/h4>
+&lt;h4 id="changes-3">Changes&lt;/h4>
 &lt;ul>
 &lt;li>Applied changes from &lt;a href="https://thephoenixflavour.com/skyrim-se/sme/changelog/#release-260">Skyrim Modding Essentials 2.6.0&lt;/a>&lt;/li>
 &lt;li>&lt;strong>General Fixes:&lt;/strong> Added Excuse Me I&amp;rsquo;m Sliding Here&lt;/li>
@@ -373,7 +526,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Resolved conflicts between Fishing artifact adjustments&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Resolved conflict betweeen ElSopa&amp;rsquo;s Potions Redone and Dragon Hunting on Dragon Infusion &lt;code>000E6DF5&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-2">Updates&lt;/h4>
+&lt;h4 id="updates-3">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated DynDOLOD to Alpha-140&lt;/li>
 &lt;li>Updated Keyword Item Distributor to 3.0.4&lt;/li>
@@ -403,7 +556,7 @@
 &lt;li>Updated Icy Windhelm to 2.3&lt;/li>
 &lt;li>Updated House of Horrors - Quest Expansion to 1.12&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-2">Outputs&lt;/h4>
+&lt;h4 id="outputs-3">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Slidikins&amp;rsquo; Strenuous Skyrim - Landscape Patch&lt;/li>
 &lt;/ul>
@@ -416,7 +569,7 @@
 &lt;p>This update is save-safe.&lt;/p>
 &lt;p>* If you downloaded this update early, you may notice that the two COTN Missives patches are present but disabled in the load order. This was intentional as enabling them made the boards invisible in Falkreath and Winterhold. The cause of this was the rogue master, &lt;code>Missives.esp&lt;/code>, coming after the patches in the load order. If you move both plugins down in priority to be after &lt;code>Missives.esp&lt;/code>, you may re-enable them.&lt;/p>
 &lt;details>
-&lt;h4 id="changes-3">Changes&lt;/h4>
+&lt;h4 id="changes-4">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Script Fixes:&lt;/strong> Removed MQ105SprintTriggerScript Fix&lt;/li>
 &lt;li>&lt;strong>Script Fixes:&lt;/strong> Removed dunFolgunthurBossBattle Script Fix&lt;/li>
@@ -436,7 +589,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Restored Magnitudes to Magelight &lt;code>00043323&lt;/code> and Candlelight &lt;code>00043324&lt;/code> to prevent issue with Player Spell Lighting&lt;/li>
 &lt;li>&lt;strong>Configuration:&lt;/strong> Changed Contextual Crosshair&amp;rsquo;s INI to force crosshair on for ranged weapons and spells as it was not consistent previously&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-3">Updates&lt;/h4>
+&lt;h4 id="updates-4">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated DynDOLOD to Alpha-135&lt;/li>
 &lt;li>Updated The Taste of Death Improved Shutdown to 1.3.2&lt;/li>
@@ -463,7 +616,7 @@
 &lt;p>It&amp;rsquo;s been awhile. I was away from home for work and during that time a number of interesting mods hit the Nexus, some of them are included in this update. &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/96876">Gourmet - A Cooking Overhaul&lt;/a> takes over for Apothecary&amp;rsquo;s Food Addon. Not much has changed as far as how food works, but obtaining and making food has been overhauled quite a bit. From the author of Lawless - A Bandit Overhaul comes &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/98579">Madmen - A Forsworn Overhaul&lt;/a>, bringing some of the same enemy design philosophies to the Reach as we have with draugr and bandits (and dragons)!&lt;/p>
 &lt;p>Outside of that it&amp;rsquo;s been a few quality of life or fixes added here or there. There are some bug reports I still wish to investigate but that would require more time. For now I wanted to get this update out to fix a number that has already been accounted for.&lt;/p>
 &lt;details>
-&lt;h4 id="changes-4">Changes&lt;/h4>
+&lt;h4 id="changes-5">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>General Fixes:&lt;/strong> Added Zero Bounty Hostility Fix&lt;/li>
 &lt;li>&lt;strong>Script Fixes:&lt;/strong> Added USSEP Caravan Bug Workaround&lt;/li>
@@ -518,7 +671,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Removed edits to LItemFoodInnCommon &lt;code>00098E5F&lt;/code> and LItemFoodInnCommon10 &lt;code>0010E0E1&lt;/code>&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Removed various edits to removed Food and Drink mods&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-4">Updates&lt;/h4>
+&lt;h4 id="updates-5">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated DynDOLOD to 3.00 Alpha-134&lt;/li>
 &lt;li>Updated Synthesis to 0.26&lt;/li>
@@ -585,7 +738,7 @@
 &lt;li>Updated Jarl Sitting Animation Replacer to 2.0&lt;/li>
 &lt;li>Updated lilebonymace&amp;rsquo;s Patches to 2.33&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-3">Outputs&lt;/h4>
+&lt;h4 id="outputs-4">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Synthesis - Sorcerer Patch&lt;/li>
 &lt;li>Regenerated Nemesis&lt;/li>
@@ -603,7 +756,7 @@
 &lt;p>People who play in 1st Person mode will see some differences due to &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/93962">&lt;em>Improved Camera&lt;/em>&lt;/a>. I&amp;rsquo;m sure there are a few more settings I need to tweak for complete compatibility but, for now, I think it&amp;rsquo;s working pretty well.&lt;/p>
 &lt;p>&lt;strong>This update is save-safe!&lt;/strong> Let me know if you run into any issues. There are still a handful of inconsequential things I want to squash but no luck on those just yet.&lt;/p>
 &lt;details>
-&lt;h4 id="changes-5">Changes&lt;/h4>
+&lt;h4 id="changes-6">Changes&lt;/h4>
 &lt;ul>
 &lt;li>Applied changes from &lt;a href="https://thephoenixflavour.com/skyrim-se/sme/changelog/#release-250">Skyrim Modding Essentials 2.5.0&lt;/a> and &lt;a href="https://thephoenixflavour.com/skyrim-se/aur/changelog/#release-14">Aurora 1.4.0&lt;/a>&lt;/li>
 &lt;li>&lt;strong>Essential Mods:&lt;/strong> Added Navigator - Navmesh Fixes&lt;/li>
@@ -623,7 +776,7 @@
 &lt;li>&lt;strong>Creation Club Resolution Patch:&lt;/strong> Removed edit to ccBGSSSE037_VarlaStone (no longer needed with YASTM)&lt;/li>
 &lt;li>&lt;strong>Creation Club Resolution Patch:&lt;/strong> Adjusted Dunmeri Tunics edits to be sensible&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-5">Updates&lt;/h4>
+&lt;h4 id="updates-6">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated Weapons Armor Clothing and Clutter Fixes to 2.9.4&lt;/li>
 &lt;li>Updated Assorted Mesh Fixes to 0.85&lt;/li>
@@ -638,7 +791,7 @@
 &lt;li>Updated Hand to Hand - An Adamant Addon to 1.5.5&lt;/li>
 &lt;li>Updated Thaumaturgy - WACCF ACE Patch to 1.3&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-4">Outputs&lt;/h4>
+&lt;h4 id="outputs-5">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated FaceGen&lt;/li>
 &lt;li>Regenerated LODGen&lt;/li>
@@ -654,7 +807,7 @@
 &lt;p>Other than that, tiny quality of life changes. Stealing items undetected will give Sneak exp based on the value of what was stolen. Potions are no longer distractingly bright (but still emit some light). And &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/91701">Photo Mode&lt;/a>! Access it from the System Menu or just hit &lt;code>P&lt;/code>.&lt;/p>
 &lt;p>&lt;strong>This update is save-safe for 4.18 users.&lt;/strong>&lt;/p>
 &lt;details>
-&lt;h4 id="changes-6">Changes&lt;/h4>
+&lt;h4 id="changes-7">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>SKSE Plugins - Tweaks:&lt;/strong> Added Skill of Sneaking&lt;/li>
 &lt;li>&lt;strong>Interface:&lt;/strong> Added Photo Mode&lt;/li>
@@ -676,7 +829,7 @@
 &lt;li>&lt;strong>Conflict Resolution Patch:&lt;/strong> Modified New Armory Series - Lunar Weapons effects to better match Thaumaturgy&lt;/li>
 &lt;li>&lt;strong>Synthesis Patches:&lt;/strong> Removed Mortal Enemies Patch&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-6">Updates&lt;/h4>
+&lt;h4 id="updates-7">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated MQ105SprintTriggerScript Fix to 1.0.1&lt;/li>
 &lt;li>Updated Assorted Mesh Fixes to 0.83&lt;/li>
@@ -700,7 +853,7 @@
 &lt;p>&lt;strong>THIS UPDATE IS NOT SAVE-SAFE.&lt;/strong> Please start a new game. Please.&lt;/p>
 &lt;p>(Unless you&amp;rsquo;ve been using the 4.17.1 beta. Then you can install this after first Uninstalling Honed Metal via its MCM. &lt;em>Stormcrown&lt;/em> also made some changes since 1.1.4 that might result in funkiness so a new game is &lt;em>encouraged&lt;/em> but not required.)&lt;/p>
 &lt;details>
-&lt;h4 id="changes-7">Changes&lt;/h4>
+&lt;h4 id="changes-8">Changes&lt;/h4>
 &lt;ul>
 &lt;li>Applied changes from &lt;a href="https://publish.obsidian.md/tpf/meta/changelogs/sme/sme-2-4-2">Skyrim Modding Essentials 2.4.2&lt;/a>, &lt;a href="https://thephoenixflavour.com/skyrim-se/sme/changelog/#release-243">2.4.3&lt;/a>, and &lt;a href="https://publish.obsidian.md/tpf/meta/changelogs/aur/aur-1-3">Aurora 1.3&lt;/a>&lt;/li>
 &lt;li>&lt;strong>Utilities &amp;amp; Frameworks:&lt;/strong> Removed Constructible Object Custom Keyword System - Separate Weapon and Armor&lt;/li>
@@ -793,7 +946,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Resolved MAGShockImpact02 &lt;code>00059ED8&lt;/code> in a different way&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Cleaned up files that were no longer needed (hopefully!)&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-7">Updates&lt;/h4>
+&lt;h4 id="updates-8">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated Fluency Themes to 1.4&lt;/li>
 &lt;li>Updated Root Builder to 4.4.3&lt;/li>
@@ -891,7 +1044,7 @@
 &lt;p>The changelog looks lengthy but there aren&amp;rsquo;t too many big changes. Just some gameplay updates to be aware of, such as the Blade and Blunt - Health Regeneration Addon. With this, you will regenerate Health back to 50% regardless of Survival mechanics, but you&amp;rsquo;ll still need other means of recovery if you want to get back to full Health.&lt;/p>
 &lt;p>There&amp;rsquo;s also a known LOD bug that&amp;rsquo;s most noticeable in the Winter season. If you notice weird flickering or floating snow in your travels, just save and reload in place and it should fix itself. Hopefully this is fully fixed in newer versions of DynDOLOD, but for now it&amp;rsquo;s something we have to live with.&lt;/p>
 &lt;details>
-&lt;h4 id="changes-8">Changes&lt;/h4>
+&lt;h4 id="changes-9">Changes&lt;/h4>
 &lt;ul>
 &lt;li>Cleaned up archives list, should lower the download size a fair amount&lt;/li>
 &lt;li>Applied changes from &lt;a href="https://publish.obsidian.md/tpf/meta/changelogs/sme/sme-2-3-3">Skyrim Modding Essentials 2.3.3&lt;/a>, &lt;a href="https://publish.obsidian.md/tpf/meta/changelogs/sme/sme-2-4">2.4&lt;/a>, and &lt;a href="https://publish.obsidian.md/tpf/meta/changelogs/sme/sme-2-4-1">2.4.1&lt;/a> and &lt;a href="https://publish.obsidian.md/tpf/meta/changelogs/aur/aur-1-1">Aurora 1.1&lt;/a> and &lt;a href="https://publish.obsidian.md/tpf/meta/changelogs/aur/aur-1-2">1.2&lt;/a>&lt;/li>
@@ -919,7 +1072,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Resolved Leveled List conflict between Apothecary and Ish&amp;rsquo;s Respec Mod &lt;code>0009CD41&lt;/code>&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Disabled EVG Conditional Idles&amp;rsquo; shield cover animations by default&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-8">Updates&lt;/h4>
+&lt;h4 id="updates-9">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated Spell Perk Item Distributor to 6.6.1&lt;/li>
 &lt;li>Updated MergeMapper to 1.5&lt;/li>
@@ -960,7 +1113,7 @@
 &lt;li>Updated Hand to Hand - An Adamant Addon to 1.4.7&lt;/li>
 &lt;li>Updated Gesture Animation Remix to 2.0&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-5">Outputs&lt;/h4>
+&lt;h4 id="outputs-6">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Reuploaded Nemesis (previous upload flagged for some reason)&lt;/li>
 &lt;li>Regenerated Synthesis Patches&lt;/li>
@@ -977,7 +1130,7 @@
 &lt;p>Otherwise, it&amp;rsquo;s a small update that follows its base list, &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/898050">Aurora&lt;/a>, in its official 1.0 release! Congrats to Phoenix for delivering another solid modlist to the community.&lt;/p>
 &lt;p>&lt;strong>This update is save-safe.&lt;/strong>&lt;/p>
 &lt;details>
-&lt;h4 id="changes-9">Changes&lt;/h4>
+&lt;h4 id="changes-10">Changes&lt;/h4>
 &lt;ul>
 &lt;li>Applied changes from &lt;a href="https://thephoenixflavour.com/skyrim-se/sme/changelog/#release-232">Skyrim Modding Essentials 2.3.2&lt;/a> and &lt;a href="https://publish.obsidian.md/tpf/meta/changelogs/aurora/aur-1-0">Aurora 1.0&lt;/a>&lt;/li>
 &lt;li>&lt;strong>Utilities &amp;amp; Frameworks:&lt;/strong> Added Beautifully Overhauled and Objectively Better Icons Enriched for SkyUI&lt;/li>
@@ -986,7 +1139,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Resolved differences between Embers XD and Frozen Electrocuted Combustion for FireFXShader &lt;code>0001B212&lt;/code>&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Resolved differences between Embers XD and No Edge Glow for DarkElfAncestorWrathFXShader &lt;code>0010F56C&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-9">Updates&lt;/h4>
+&lt;h4 id="updates-10">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated Keyword Item Distributor to 3.0.2&lt;/li>
 &lt;li>Updated Mesh Patches for Lux Orbis to 1.5.2&lt;/li>
@@ -1033,7 +1186,7 @@
 &lt;p>&lt;strong>This update is safe-save.&lt;/strong> Just save in an interior cell before updating due to the change in DynDOLOD outputs.&lt;/p>
 &lt;p>Also, full disclosure, Lux updated everything in the final moments before pushing this update so I haven&amp;rsquo;t had time to properly test out the changes (which haven&amp;rsquo;t even been posted at this time) or re-run the LODs. There might be minor issues. This is precisely the type of thing I want to avoid by letting Phoenix handle the visuals.&lt;/p>
 &lt;details>
-&lt;h4 id="changes-10">Changes&lt;/h4>
+&lt;h4 id="changes-11">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>SKSE Plugins:&lt;/strong> Added Inventory Interface Information Injector&lt;/li>
 &lt;li>&lt;strong>SKSE Plugins:&lt;/strong> Added Recipe Auto-Learn&lt;/li>
@@ -1060,7 +1213,7 @@
 &lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Added Locational Encounter Zones&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Hid &amp;lsquo;Combat End Reset&amp;rsquo;spell from Seeking Out Sneaks from the effects menu&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-10">Updates&lt;/h4>
+&lt;h4 id="updates-11">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated DynDOLOD to 3.00 Alpha-118&lt;/li>
 &lt;li>Updated ENBSeries to 0.488&lt;/li>
@@ -1102,7 +1255,7 @@
 &lt;li>Updated Lux Via to 1.6&lt;/li>
 &lt;li>Updated Lux Orbis to 3.2&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-6">Outputs&lt;/h4>
+&lt;h4 id="outputs-7">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Left Hand Weapon Meshes&lt;/li>
 &lt;li>Regenerated LODGen&lt;/li>
@@ -1117,7 +1270,7 @@
 &lt;p>It&amp;rsquo;s been a little over a week and I&amp;rsquo;ve a short trip coming up so I wanted to put out an update before then. Thank you everyone that&amp;rsquo;s been helping me test so far (and big thanks to Berna for finding some bugs to squash!) but I don&amp;rsquo;t think it&amp;rsquo;s quite ready for a full release just yet. This update is mostly just updates to existing mods, however one of those mods is &lt;em>The Vanilla ENB Two&lt;/em> which had a huge update since RC 2 came out. Overall it&amp;rsquo;s an amazing step forward and I love how it looks but it does come with a bit of a performance hit. I&amp;rsquo;m not sure if I tweaked the Performance Profile enough to compensate, but let me know if the hit&amp;rsquo;s too much compared to the last release (and 4.16.0, even) so I can see what I can do about dialing it back.&lt;/p>
 &lt;p>&lt;strong>This update is save safe.&lt;/strong> Nothing new has been generated. Have fun!&lt;/p>
 &lt;details>
-&lt;h4 id="changes-11">Changes&lt;/h4>
+&lt;h4 id="changes-12">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Weather &amp;amp; Lighting:&lt;/strong> Removed Pouring Rain&lt;/li>
 &lt;li>&lt;strong>Interiors:&lt;/strong> Added Skyland Common and Upper Furniture&lt;/li>
@@ -1128,7 +1281,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Fixed Lunar Armory loadscreen (also thanks to Berna)&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Removed &lt;code>textures/landscape/grass/columbine.dds&lt;/code> from the ENB Complex Grass collection (hat trick for Berna)&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-11">Updates&lt;/h4>
+&lt;h4 id="updates-12">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated powerofthree&amp;rsquo;s Papyrus Extender to 5.5&lt;/li>
 &lt;li>Updated Bash Bug Fix to 2.1.1&lt;/li>
@@ -1160,7 +1313,7 @@
 &lt;p>R.A.S.S. was removed because it was on the fence to begin with, half of the mod was turned off and the other half wasn&amp;rsquo;t looking great in action. &lt;em>S.W.I.F.T.&lt;/em> was removed because it trivialized some of the established methods of fast traveling (carriage, ferry, spells) that existed through other mods. The mod itself is great but it doesn&amp;rsquo;t fit the list.&lt;/p>
 &lt;p>All in all, an update centered around mods with initializations.&lt;/p>
 &lt;details>
-&lt;h4 id="changes-12">Changes&lt;/h4>
+&lt;h4 id="changes-13">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Weather &amp;amp; Lighting:&lt;/strong> Removed Enhanced Volumetric Lighting and Shadows (EVLaS)&lt;/li>
 &lt;li>&lt;strong>Fire &amp;amp; Visual FX:&lt;/strong> Removed R.A.S.S. - Rain Ash And Snow Shaders&lt;/li>
@@ -1171,7 +1324,7 @@
 &lt;li>&lt;strong>New Mechanics:&lt;/strong> Removed Skyrim Wayshrines - Immersive Fast Travel&lt;/li>
 &lt;li>&lt;strong>ENB:&lt;/strong> Increased &lt;em>AmbientLightingIntensityInteriorDay&lt;/em> and &lt;em>AmbientLightingIntensityInteriorNight&lt;/em> to &lt;code>1.00&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-7">Outputs&lt;/h4>
+&lt;h4 id="outputs-8">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated DynDOLOD (and Performance)&lt;/li>
 &lt;/ul>
@@ -1188,7 +1341,7 @@
 &lt;p>&lt;strong>This update is absolutely not save-safe.&lt;/strong> It is likely that future release candidates will be but not guaranteed. If you want to safely continue your character on v4.16.0.1, my advice would be to manually update SimonMagus&amp;rsquo; mods so long as they&amp;rsquo;re labeled save-safe and you&amp;rsquo;ll be in good shape.&lt;/p>
 &lt;/blockquote>
 &lt;details>
-&lt;h4 id="changes-13">Changes&lt;/h4>
+&lt;h4 id="changes-14">Changes&lt;/h4>
 &lt;p>This changelog is structured differently because of how much has changed. Instead of an itemized list, I&amp;rsquo;ll go through section by section and list some key differences from each, compared to &lt;a href="https://loadorderlibrary.com/lists/the-phoenix-flavour-50-wip">TPF 5.0 RC 4&lt;/a>.&lt;/p>
 &lt;ul>
 &lt;li>
@@ -1324,7 +1477,7 @@
 &lt;p>&lt;strong>Lux, Lux Orbis, &amp;amp; Lux Via:&lt;/strong> These mods are so big they need their own section. I&amp;rsquo;ve included everything that was necessary given the other choices in the modlist.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-12">Updates&lt;/h4>
+&lt;h4 id="updates-13">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated Crash Logger to 1.8&lt;/li>
 &lt;li>Updated Spell Perk Item Distributor to 6.4&lt;/li>
@@ -1337,7 +1490,7 @@
 &lt;li>Updated Hand to Hand - An Adamant Addon to 1.4.2&lt;/li>
 &lt;li>Updated NPC Animation Remix to 1.2.1&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-8">Outputs&lt;/h4>
+&lt;h4 id="outputs-9">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated everything&lt;/li>
 &lt;/ul>
@@ -1356,7 +1509,7 @@
 &lt;/ul>
 &lt;p>A new save is not required. You will receive a warning about &lt;code>Precision.esp&lt;/code> that can be ignored.&lt;/p>
 &lt;details>
-&lt;h4 id="changes-14">Changes&lt;/h4>
+&lt;h4 id="changes-15">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Architecture:&lt;/strong> Added Windhelm Fence 3D&lt;/li>
 &lt;li>&lt;strong>Gameplay Overhauls:&lt;/strong> Removed Precision&lt;/li>
@@ -1366,7 +1519,7 @@
 &lt;li>&lt;strong>Configuration:&lt;/strong> Lowered SkillFormulaCaps to 100 (this won&amp;rsquo;t change much of anything as Simonrim bonuses tend not to give raw skill boosts, I&amp;rsquo;m just cleaning up the file)&lt;/li>
 &lt;li>&lt;strong>Configuration:&lt;/strong> Adjusted Scrambled Bugs settings to match Simon&amp;rsquo;s suggestions for his gameplay suite&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-13">Updates&lt;/h4>
+&lt;h4 id="updates-14">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated NVIDIA Reflex Support to 1.1.2&lt;/li>
 &lt;li>Updated Dwemer Gates Don&amp;rsquo;t Reset to 1.3.7&lt;/li>
@@ -1376,7 +1529,7 @@
 &lt;li>Updated Honed Metal Revoiced to 1.8&lt;/li>
 &lt;li>Updated The Choice Is Yours to 2.7&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-9">Outputs&lt;/h4>
+&lt;h4 id="outputs-10">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Left Hand Meshes&lt;/li>
 &lt;li>Regenerated Nemesis&lt;/li>
@@ -1400,7 +1553,7 @@
 &lt;p>I haven&amp;rsquo;t done justice to all of the changes in 4.16. Take a peek at the details below for a full list. There are some real gems in there.&lt;/p>
 &lt;details>
 &lt;p>Updated for &lt;a href="https://github.com/Codygits/TPF-Updates/releases/tag/4.16.0">TPF 4.16.0&lt;/a>&lt;/p>
-&lt;h4 id="changes-15">Changes&lt;/h4>
+&lt;h4 id="changes-16">Changes&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Creation Club Content:&lt;/strong> Added Saints and Seducers&lt;/li>
 &lt;li>&lt;strong>Essential Mods:&lt;/strong> Removed .NET Script Framework&lt;/li>
@@ -1535,7 +1688,7 @@
 &lt;li>&lt;strong>Conflict Resolution (Creation Club):&lt;/strong> Removed edits to the Steed Stone and Extra Pockets&lt;/li>
 &lt;li>&lt;strong>FaceGen:&lt;/strong> Removed extraneous data from TPF&amp;rsquo;s FaceGen data (it&amp;rsquo;s much smaller now!)&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-14">Updates&lt;/h4>
+&lt;h4 id="updates-15">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated xLODGEN to 97&lt;/li>
 &lt;li>Updated DynDOLOD to 3.00 Alpha-111&lt;/li>
@@ -1629,7 +1782,7 @@
 &lt;li>Updated ENBSeries to v0.384&lt;/li>
 &lt;li>Updated Blade and Blunt - Vanilla Difficulty Modifiers to 2.0&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-10">Outputs&lt;/h4>
+&lt;h4 id="outputs-11">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Left Hand Meshes&lt;/li>
 &lt;li>Regenerated Nemesis&lt;/li>

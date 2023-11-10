@@ -994,9 +994,9 @@ A late addition to your toolkit but a good one. &lt;em>Wall of Frost&lt;/em> is 
 &lt;ul>
 &lt;li>&lt;strong>Fortify Sneak:&lt;/strong> &lt;em>You are 25% better at sneaking.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Muffle:&lt;/strong> &lt;em>You make 50% less noise while moving.&lt;/em>&lt;/li>
-&lt;li>&lt;strong>Fortify Movement Speed:&lt;/strong> &lt;em>Your Movement Speed is increased by 20%.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Carry Weight:&lt;/strong> &lt;em>Your Carry Weight is increased by 50.&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>Sneaking is something you do often so it&amp;rsquo;s only natural for your footwear choices to revolve around it. The sneakier you are, the more havok you can wreak without anyone counterattacking. It&amp;rsquo;s a win/win.&lt;/p>
+&lt;p>Sneaking is something you do often so it&amp;rsquo;s only natural for your footwear choices to revolve around it. The sneakier you are, the more havok you can wreak without anyone counterattacking. It&amp;rsquo;s a win/win. Carry Weight is another decent option as it allows you to carry more staves and scrolls into the field.&lt;/p>
 &lt;h4 id="necklace">Necklace&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Fortify Destruction Power:&lt;/strong> &lt;em>Your Destruction spells are 25% stronger.&lt;/em>&lt;/li>
@@ -1263,7 +1263,7 @@ With your defenses, Health pool, and natural Health Regeneration, sometimes it w
 &lt;li>&lt;strong>Kest:&lt;/strong> &lt;em>Deals 100 Shock damage to Health and Magicka.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Lightning Breath deals extra Magicka damage over 30 seconds.&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>The warrior lacks ranged options, making them especially vulnerable to enemies who cast spells at a distance. Lightning Breath works to drain them of Magicka to use for that, especially so with the meditation.&lt;/p>
+&lt;p>The warrior prefers to be in melee, leaving them especially annoyed by enemies who cast spells at a distance. Lightning Breath works to drain them of Magicka to use for that, especially so with the meditation.&lt;/p>
 &lt;h4 id="subdue">Subdue&lt;/h4>
 &lt;p>&lt;em>Cooldown: 60/90/120 seconds&lt;/em>&lt;/p>
 &lt;ul>
@@ -1304,9 +1304,9 @@ With your defenses, Health pool, and natural Health Regeneration, sometimes it w
 &lt;ul>
 &lt;li>&lt;strong>Fortify Power Attacks:&lt;/strong> &lt;em>You deal 25% more damage with power attacks.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Fortify Alteration Cost:&lt;/strong> &lt;em>Your Alteration spells cost 25% less.&lt;/em>&lt;/li>
-&lt;li>&lt;strong>Resist Stagger:&lt;/strong> &lt;em>You resist 25% of incoming stagger and take 25% less damage while staggered.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Stamina:&lt;/strong> &lt;em>You resist 25% of incoming stagger and take 25% less damage while staggered.&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>Your defenses from other sources are so good you don&amp;rsquo;t need to spend this slot on boosting them. Instead, grab more damage with power attacks or make your armor spells a little cheaper. If you don&amp;rsquo;t have both stagger perks, &lt;em>Resist Stagger&lt;/em> can be useful for staying on the offensive.&lt;/p>
+&lt;p>Your defenses from other sources are so good you don&amp;rsquo;t need to spend this slot on boosting them. Instead, grab more damage with power attacks or make your armor spells a little cheaper. If those aren&amp;rsquo;t available, boost your Stamina pool to try and eke out another power attack.&lt;/p>
 &lt;h4 id="gloves">Gloves&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Fortify Two-handed:&lt;/strong> &lt;em>You deal 25% extra damage with Two-handed weapons.&lt;/em>&lt;/li>
@@ -1316,18 +1316,18 @@ With your defenses, Health pool, and natural Health Regeneration, sometimes it w
 &lt;p>&lt;em>Fortify Two-handed&lt;/em> is a no brainer. Raising Elemental Resistance is another option here but you can cover that with Alteration&amp;rsquo;s shell spells. So, instead of those enchantments, boost your Magicka and Regeneration, allowing you to invest more into Stamina.&lt;/p>
 &lt;h4 id="boots">Boots&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Fortify Movement Speed:&lt;/strong> &lt;em>Your Movement Speed is increased by 20%.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Fortify Stamina Regeneration:&lt;/strong> &lt;em>Your Stamina Regeneration is increased by 50%.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Fortify Stamina:&lt;/strong> &lt;em>Your Stamina is increased by 50.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Carry Weight:&lt;/strong> &lt;em>Your Carry Weight is increased by 50.&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>The pickings are slim for the warrior here. Movement Speed isn&amp;rsquo;t a priority but useful enough to be the top choice. Stamina and Regeneration allow you to power attack, block, and bash more, so those are the two next best options as you can never have enough.&lt;/p>
+&lt;p>The pickings are slim for the warrior here. Stamina and Regeneration allow you to power attack, block, and bash more, so those are the two next best options as you can never have enough. Carry Weight can help offset the tax of heavy armor, though that shouldn&amp;rsquo;t be an issue once you have &lt;em>Unstoppable.&lt;/em>&lt;/p>
 &lt;h4 id="necklace">Necklace&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Fortify Archery:&lt;/strong> &lt;em>You deal 25% extra damage with ranged weapons.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Fortify Alteration Duration:&lt;/strong> &lt;em>Your Alteration spells last 50% longer.&lt;/em>&lt;/li>
-&lt;li>&lt;strong>Resist Stagger:&lt;/strong> &lt;em>You resist 25% of incoming stagger and take 25% less damage while staggered.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Block:&lt;/strong> &lt;em>You block 25% more damage.&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>The boost to ranged damage is occasionally useful but enough to warrant the top spot. &lt;em>Fortify Alteration Duration&lt;/em> is a convenience choice as your Alteration spells last a good while already. And, if you&amp;rsquo;re still getting staggered, you can help mitigate that here.&lt;/p>
+&lt;p>The boost to ranged damage is occasionally useful but enough to warrant the top spot. &lt;em>Fortify Alteration Duration&lt;/em> is a convenience choice as your Alteration spells last a good while already. The last option is mostly any remaining enchantment, though Block is a key skill of yours worth boosting.&lt;/p>
 &lt;h4 id="ring">Ring&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Fortify Two-handed:&lt;/strong> &lt;em>You deal 25% extra damage with Two-handed weapons.&lt;/em>&lt;/li>
@@ -1562,7 +1562,7 @@ Resource management is crucial. Health keeps you alive on the frontline, Stamina
 &lt;blockquote>
 &lt;p>Full religion information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/54099">Pilgrim&lt;/a> description page.&lt;/p>
 &lt;/blockquote>
-&lt;p>Most Dunmer would shy away from the House of Troubles but not you. You invite the Daedra and their trials into your life, confronting them in order to reach enlightenment. &lt;strong>Malacath&lt;/strong> will test your strength, &lt;strong>Sheogorath&lt;/strong> your mental fortitude, and &lt;strong>Mehrunes Dagon&lt;/strong> the ambition of your destructive arts. Pay little heed to Molag Bal, who asks too much and gives too little.&lt;/p>
+&lt;p>Most Dunmer would shy away from the House of Troubles, but not you. You invite the Daedra and their trials into your life, confronting them in order to reach enlightenment. &lt;strong>Malacath&lt;/strong> will test your strength, &lt;strong>Sheogorath&lt;/strong> your mental fortitude, and &lt;strong>Mehrunes Dagon&lt;/strong> the ambition of your destructive arts. Pay little heed to Molag Bal, who asks too much and gives too little.&lt;/p>
 &lt;details>
 &lt;h4 id="malacath">Malacath&lt;/h4>
 &lt;p>&lt;em>You have 25/50 Stamina. / Power attacks are 50% stronger, but all other attacks are half as strong.&lt;/em>&lt;/p>
@@ -1696,7 +1696,7 @@ Without Alchemy or Restoration, your biggest challenge might be healing yourself
 &lt;li>&lt;strong>Fortify Sneak:&lt;/strong> &lt;em>You are 25% better at sneaking.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Fortify Stamina Regeneration:&lt;/strong> &lt;em>Your Stamina Regeneration is increased by 50%.&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>It&amp;rsquo;s easy to forget the Sneak aspect of the build but it&amp;rsquo;s there and can get strong support in this slot. Muffling your footsteps will allow you to wear Heavy Armor (except chest) without penalties if you want the extra protection. The build doesn&amp;rsquo;t grant any extra Stamina Regeneration on its own so you can also fit that in here if needed.&lt;/p>
+&lt;p>It&amp;rsquo;s easy to forget the Sneak aspect of the build, but it&amp;rsquo;s there and it can get strong support in this slot. Muffling your footsteps will allow you to wear Heavy Armor (except chest) without penalties if you want the extra protection. The build doesn&amp;rsquo;t grant any extra Stamina Regeneration on its own so you can also fit that in here if needed.&lt;/p>
 &lt;h4 id="necklace">Necklace&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Resist Magic:&lt;/strong> &lt;em>Your Magic Resistance is increased by 25%.&lt;/em>&lt;/li>
@@ -1945,7 +1945,7 @@ Turning one enemy against their friends does wonders for thinning the herd. Just
 &lt;p>Full dragon shout information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/90659">Stormcrown&lt;/a> description page.&lt;/p>
 &lt;/blockquote>
 &lt;details>
-&lt;h4 id="battle-fury">Battle Fury&lt;/h4>
+&lt;h4 id="battle-furysupdbsup">Battle Fury&lt;sup>DB&lt;/sup>&lt;/h4>
 &lt;p>&lt;em>Cooldown: 60/90/120 seconds&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Raan:&lt;/strong> &lt;em>All nearby allies move and attack 10% faster for 60 seconds.&lt;/em>&lt;/li>
@@ -1970,7 +1970,7 @@ Turning one enemy against their friends does wonders for thinning the herd. Just
 &lt;li>&lt;strong>Ah:&lt;/strong> &lt;em>No effect.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Viing:&lt;/strong> &lt;em>Summons Odahviing.&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>This is quite situational as you need to complete the main quest and it only works outdoors, but it&amp;rsquo;s perfect for difficult fights such as other dragons. An essential ally that lasts until the fight&amp;rsquo;s over? Summon him, buff him up, and get out of his way.&lt;/p>
+&lt;p>This is quite situational as you need to complete the main quest and it only works outdoors, but it&amp;rsquo;s perfect for difficult fights such as ones against other dragons. An essential ally that lasts until the fight&amp;rsquo;s over? Summon him, buff him up, and get out of his way.&lt;/p>
 &lt;/details>
 &lt;h2 id="enchantments">Enchantments&lt;/h2>
 &lt;blockquote>
@@ -2009,9 +2009,9 @@ Turning one enemy against their friends does wonders for thinning the herd. Just
 &lt;ul>
 &lt;li>&lt;strong>Fortify Sneak:&lt;/strong> &lt;em>You are 25% better at sneaking.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Muffle:&lt;/strong> &lt;em>You make 50% less noise while moving.&lt;/em>&lt;/li>
-&lt;li>&lt;strong>Fortify Movement Speed:&lt;/strong> &lt;em>Your Movement Speed is increased by 20%.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Carry Weight:&lt;/strong> &lt;em>Your Carry Weight is increased by 50.&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>Obvious choices for the thief. &lt;em>Fortify Sneak&lt;/em> and &lt;em>Muffle&lt;/em> will help keep you hidden, with the latter being an option if you don&amp;rsquo;t want to use the Illusion spell. While your perks grant you plenty of mobility, every Movement Speed boost means less Stamina required to sneak around.&lt;/p>
+&lt;p>Obvious choices for the thief. &lt;em>Fortify Sneak&lt;/em> and &lt;em>Muffle&lt;/em> will help keep you hidden, with the latter being an option if you don&amp;rsquo;t want to use the Illusion spell. Additional Carry Weight helps you pick a place clean without being encumbered, if that&amp;rsquo;s your style.&lt;/p>
 &lt;h4 id="necklace">Necklace&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Fortify Archery:&lt;/strong> &lt;em>You deal 25% extra damage with ranged weapons.&lt;/em>&lt;/li>
@@ -2683,9 +2683,9 @@ Due to your atronach&amp;rsquo;s resistance you can freely cast this in an area 
 &lt;ul>
 &lt;li>&lt;strong>Fortify Stamina:&lt;/strong> &lt;em>Your Stamina is increased by 50.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Fortify Stamina Regeneration:&lt;/strong> &lt;em>Your Stamina Regeneration is increased by 50%.&lt;/em>&lt;/li>
-&lt;li>&lt;strong>Fortify Movement Speed:&lt;/strong> &lt;em>Your Movement Speed is increased by 20%.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Sneak:&lt;/strong> &lt;em>You are 25% better at sneaking.&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>Extra Stamina will help you fire more arrows and run when needed. Otherwise, this slot is flexible and can bolster your resistances, carry weight, or stealth. You shouldn&amp;rsquo;t be suffering on Carry Weight or Sneak, honestly, but it&amp;rsquo;s up to you.&lt;/p>
+&lt;p>Extra Stamina will help you fire more arrows and run when needed. Otherwise, this slot is flexible and can bolster your resistances, carry weight, or stealth. While this isn&amp;rsquo;t your typical &amp;ldquo;Stealth Archer&amp;rdquo; build, the bonus to staying undetected never hurts.&lt;/p>
 &lt;h4 id="necklace">Necklace&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Fortify Archery:&lt;/strong> &lt;em>You deal 25% extra damage with ranged weapons.&lt;/em>&lt;/li>
@@ -3235,7 +3235,7 @@ You&amp;rsquo;ll get a large boost to Stamina from your race and the Thief Stone
 &lt;p>Later on you&amp;rsquo;ll have enough Stamina in your pool and Stamina Regeneration will be more important. Lover&amp;rsquo;s Touch will give you plenty of Stamina Regeneration to work with, allowing you to continue your onslaught for much longer.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-steed.webp">
 &lt;h4 id="the-steed">The Steed&lt;/h4>
-&lt;p>&lt;em>&lt;strong>Charioteer:&lt;/strong>&lt;/em> *You move 20% faster and your Carry Weight is increased by 100. *&lt;/p>
+&lt;p>&lt;em>&lt;strong>Charioteer:&lt;/strong>&lt;/em> &lt;em>You move 20% faster and your Carry Weight is increased by 100.&lt;/em>&lt;/p>
 &lt;p>Movement speed gets you into your preferred range quickly and allows you to weave in and out of attacks with more ease. The Steed will not only help you out immensely in that regard but it will boost your Carry Weight a large amount as well, allowing you to bring back more spoils from your victories.&lt;/p>
 &lt;/details>
 &lt;h2 id="faith">Faith&lt;/h2>
@@ -3254,8 +3254,8 @@ You&amp;rsquo;ll get a large boost to Stamina from your race and the Thief Stone
 &lt;p>&lt;em>You gain 20% more experience. You have an additional unique effect based on your Standing Stone.&lt;/em>&lt;/p>
 &lt;p>Tall Papa&amp;rsquo;s&amp;rsquo; experience bonus is almost always beneficial. His additional effects are all useful as well, especially for &lt;em>Steed Stone&lt;/em> users who want as much speed as possible.&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>The Lady Stone:&lt;/strong> You have 25 extra Health, Magicka, and Stamina. &lt;/li>
 &lt;li>&lt;strong>The Thief Stone:&lt;/strong> You spend 25% less Stamina when power attacking or drawing a bow.&lt;/li>
+&lt;li>&lt;strong>The Lover Stone:&lt;/strong> Your Stamina regenerates 50% faster in combat.&lt;/li>
 &lt;li>&lt;strong>The Steed Stone:&lt;/strong> You move 10% faster, and your carry weight is increased by 50.&lt;/li>
 &lt;/ul>
 &lt;/details>
@@ -3370,9 +3370,9 @@ This does not work with &lt;em>Respite&lt;/em> but can help with sustainability 
 &lt;ul>
 &lt;li>&lt;strong>Resist Magic:&lt;/strong> &lt;em>Your Magic Resistance is increased by 25%.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Fortify Power Attacks:&lt;/strong> &lt;em>You deal 25% more damage with power attacks.&lt;/em>&lt;/li>
-&lt;li>&lt;strong>Resist Stagger:&lt;/strong> &lt;em>You resist 25% of incoming stagger and take 25% less damage while staggered.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Fortify Destruction Cost:&lt;/strong> &lt;em>You resist 25% of incoming stagger and take 25% less damage while staggered.&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>Being out in the open makes you an easy target for magic users. Improving your general resistance will allow you to eat the damage and continue your assault, most likely healing yourself in the process. If you find yourself getting staggered often and unable to keep up the assault, there&amp;rsquo;s the third option.&lt;/p>
+&lt;p>Being out in the open makes you an easy target for magic users. Improving your general resistance will allow you to eat the damage and continue your assault, most likely healing yourself in the process. The third option is there for those who want to cast &lt;em>Lightning Cloak&lt;/em> with less Magicka investment.&lt;/p>
 &lt;h4 id="gloves">Gloves&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Fortify One-handed:&lt;/strong> &lt;em>You deal 25% extra damage with One-handed weapons.&lt;/em>&lt;/li>
@@ -3382,11 +3382,11 @@ This does not work with &lt;em>Respite&lt;/em> but can help with sustainability 
 &lt;p>This is a rare opportunity to boost your One-handed damage and you should take it. Alternatively, boosting your Magicka pool is worth it if it allows you to cast a more expensive spell such as &lt;em>Lightning Cloak&lt;/em>. Or you can shore up an elemental resistance as that never hurts to have.&lt;/p>
 &lt;h4 id="boots">Boots&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>Fortify Movement Speed:&lt;/strong> &lt;em>Your Movement Speed is increased by 20%.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Fortify Stamina:&lt;/strong> &lt;em>Your Stamina is increased by 50.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Fortify Stamina Regeneration:&lt;/strong> &lt;em>Your Stamina Regeneration is increased by 50%.&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Resist [Element]:&lt;/strong> &lt;em>Your [Element] Resistance is increased by 50%.&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>The options here aren&amp;rsquo;t exciting but they aren&amp;rsquo;t without usefulness. More Movement Speed keeps you on top of your enemies. And more Stamina (or regeneration) means more power attacks which means more devastation.&lt;/p>
+&lt;p>The options here aren&amp;rsquo;t exciting but they aren&amp;rsquo;t without usefulness. More Stamina (or Regeneration) means more power attacks which means more devastation. Short of that, you can always bolster your elemental defenses. Or boost your Carry Weight.&lt;/p>
 &lt;h4 id="necklace">Necklace&lt;/h4>
 &lt;ul>
 &lt;li>&lt;strong>Resist Magic:&lt;/strong> &lt;em>Your Magic Resistance is increased by 25%.&lt;/em>&lt;/li>
