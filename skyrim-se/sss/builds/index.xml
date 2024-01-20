@@ -136,7 +136,7 @@ Your racial boost to Magicka goes a long way but you&amp;rsquo;ll need a little 
 &lt;ul>
 &lt;li>&lt;strong>Adrenaline (60):&lt;/strong> You sprint 20% faster and spend 50% less Stamina when sprinting while wearing a light armor chest piece.&lt;/li>
 &lt;li>&lt;strong>Specialist 2 (70):&lt;/strong> You receive a 50% armor bonus while wearing a light armor chest piece.&lt;/li>
-&lt;li>&lt;strong>Endurance (80):&lt;/strong> You spend 25% less Stamina when power attacking or drawing a bow while wearing a light armor chest piece.&lt;/li>
+&lt;li>&lt;strong>Endurance (80):&lt;/strong> You spend 20% less Stamina when power attacking or drawing a bow while wearing a light armor chest piece.&lt;/li>
 &lt;li>&lt;strong>Athletics 2 (90):&lt;/strong> You move 20% faster when wearing three pieces of light armor.&lt;/li>
 &lt;li>&lt;strong>Second Wind (100):&lt;/strong> Your Stamina regenerates twice as fast when you fall below half Stamina while wearing a light armor chest piece.&lt;/li>
 &lt;/ul>
@@ -204,9 +204,9 @@ Your racial boost to Magicka goes a long way but you&amp;rsquo;ll need a little 
 &lt;p>The chief deity of your pantheon is never a bad way to go. Extra Magicka will let you invest more into Stamina for mace swinging. A devote follower will be able to unleash powerful Sun magic on most enemies, making up for your lack of ranged options.&lt;/p>
 &lt;h4 id="jephre">Jephre&lt;/h4>
 &lt;p>&lt;em>You gain 10/20% more experience. / You gain an additional bonus that changes based on your bard song.&lt;/em>&lt;/p>
-&lt;p>Jephre the Singer plays to the bard within you and all 3 additional bonuses are useful here. Play the flute before applying your buffs, then the drum for a defensive buff or the lute for going on the offensive. The God of Songs and Stories will help you protect the world they&amp;rsquo;ve grown.&lt;/p>
+&lt;p>Jephre the Singer plays to the bard within you and all 3 additional bonuses are useful here. The flute is very situational, but the drum is great for a defensive buff and the lute is perfect for going on the offensive. The God of Songs and Stories will help you protect the world they&amp;rsquo;ve grown.&lt;/p>
 &lt;h4 id="stendarr">Stendarr&lt;/h4>
-&lt;p>&lt;em>Your Health Regeneration is increased by 25/50%. / Blocking with a shield reduces incoming magic damage by 50%.&lt;/em>&lt;/p>
+&lt;p>&lt;em>Your Health Regeneration is increased by 25/50%. / You are 25% better at blocking and bashing.&lt;/em>&lt;/p>
 &lt;p>The God of Mercy will gladly lend his steadfastness to the devout, making you more resilient on the frontlines. Health Regeneration complements spells such as Regeneration well and the secondary benefit is perfect for the shield you&amp;rsquo;re already carrying.&lt;/p>
 &lt;/details>
 &lt;h2 id="spellbook">Spellbook&lt;/h2>
@@ -875,7 +875,7 @@ You&amp;rsquo;re a mage with very little need for Magicka. Your points are best 
 &lt;blockquote>
 &lt;p>Full religion information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/54099">Pilgrim&lt;/a> description page.&lt;/p>
 &lt;/blockquote>
-&lt;p>The Bosmer are Y&amp;rsquo;ffre&amp;rsquo;s people but you&amp;rsquo;ve long since turned your back on him and his Pact. It was the call of &lt;strong>Herma-Mora&lt;/strong> that put you on your current quest for forbidden knowledge, and the promises of &lt;strong>Clavicus Vile&lt;/strong> that keep you walking it. As your mind opened to new possibilities, you heard of the Natural Order and &lt;strong>Peryite&lt;/strong>. All three promise rewards but you&amp;rsquo;re not fool enough to worship any of them to the degree they ask of you.&lt;/p>
+&lt;p>The Bosmer are Y&amp;rsquo;ffre&amp;rsquo;s people but you&amp;rsquo;ve long since turned your back on him and his Pact. It was the call of &lt;strong>Herma-Mora&lt;/strong> that put you on your current quest for forbidden knowledge, and the promises of &lt;strong>Clavicus Vile&lt;/strong> that keep you walking it. As your mind opened to new possibilities, you even found appreciation for the ambition of &lt;strong>Mehrunes Dagon&lt;/strong>. All three promise rewards but you&amp;rsquo;re not fool enough to worship any of them to the degree they ask of you.&lt;/p>
 &lt;details>
 &lt;h4 id="clavicus-vile">Clavicus Vile&lt;/h4>
 &lt;p>&lt;em>Buying and selling prices are 10% better.&lt;/em>&lt;/p>
@@ -883,9 +883,9 @@ You&amp;rsquo;re a mage with very little need for Magicka. Your points are best 
 &lt;h4 id="hermaeus-mora">Hermaeus Mora&lt;/h4>
 &lt;p>&lt;em>You have a 5% chance to absorb the Magicka from incoming spells.&lt;/em>&lt;/p>
 &lt;p>Herma-Mora gives little for your half-hearted devotion but the Spell Absorption can add up nicely with other sources. If you&amp;rsquo;re looking to manipulate your luck on the battlefield, you&amp;rsquo;ll need the Lord of Fate and Knowledge on your side.&lt;/p>
-&lt;h4 id="peryite">Peryite&lt;/h4>
-&lt;p>&lt;em>Your potions last 25% longer.&lt;/em>&lt;/p>
-&lt;p>Peryite may be one of the weakest of the Princes but he still knows enough about the Green to help you squeeze that much more from your potions.&lt;/p>
+&lt;h4 id="mehrunes-dagon">Mehrunes Dagon&lt;/h4>
+&lt;p>&lt;em>Destruction spells cost 10% less.&lt;/em>&lt;/p>
+&lt;p>The Sovereign of Destruction sees promise in you, an ambitious destruction mage who&amp;rsquo;s open to revolution. For that, he&amp;rsquo;s willing to make your spells just a little bit easier to cast. This benefit extends to your staves as well.&lt;/p>
 &lt;/details>
 &lt;h2 id="spellbook">Spellbook&lt;/h2>
 &lt;blockquote>
@@ -1215,7 +1215,7 @@ You&amp;rsquo;ll have high defenses but you&amp;rsquo;ll still need enough base 
 &lt;p>&lt;em>You have 5% Spell Absorption.&lt;/em>&lt;/p>
 &lt;p>Leaning into your elven heritage with Magnus makes you more in tune with sorcery, allowing you to absorb your enemies&amp;rsquo; spells more frequently. As you&amp;rsquo;re likely to hit Armor Rating and Magic Resistance caps from other avenues, this bonus can be attractive in the late game.&lt;/p>
 &lt;h4 id="stendarr">Stendarr&lt;/h4>
-&lt;p>&lt;em>Your Health Regeneration is increased by 25.&lt;/em>&lt;/p>
+&lt;p>&lt;em>Your Health Regeneration is increased by 25%.&lt;/em>&lt;/p>
 &lt;p>Knowing when to swing and when to stow your blade is essential for a proper warrior and following Stendarr shows a dedication towards justice. In return, the Steadfast God will help you stay on your feet longer with Health Regeneration.&lt;/p>
 &lt;/details>
 &lt;h2 id="spellbook">Spellbook&lt;/h2>
@@ -1562,17 +1562,17 @@ Resource management is crucial. Health keeps you alive on the frontline, Stamina
 &lt;blockquote>
 &lt;p>Full religion information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/54099">Pilgrim&lt;/a> description page.&lt;/p>
 &lt;/blockquote>
-&lt;p>Most Dunmer would shy away from the House of Troubles, but not you. You invite the Daedra and their trials into your life, confronting them in order to reach enlightenment. &lt;strong>Malacath&lt;/strong> will test your strength, &lt;strong>Sheogorath&lt;/strong> your mental fortitude, and &lt;strong>Mehrunes Dagon&lt;/strong> the ambition of your destructive arts. Pay little heed to Molag Bal, who asks too much and gives too little.&lt;/p>
+&lt;p>Most Dunmer would shy away from the House of Troubles, but not you. You invite the Daedra and their trials into your life, confronting them in order to reach enlightenment. &lt;strong>Malacath&lt;/strong> will test your strength, &lt;strong>Molag Bal&lt;/strong> your mental fortitude, and &lt;strong>Mehrunes Dagon&lt;/strong> the ambition of your destructive arts. Pay little heed to Sheogorath, whose unpredictability will deprive you of sanity.&lt;/p>
 &lt;details>
 &lt;h4 id="malacath">Malacath&lt;/h4>
 &lt;p>&lt;em>You have 25/50 Stamina. / Power attacks are 50% stronger, but all other attacks are half as strong.&lt;/em>&lt;/p>
 &lt;p>If you want to lean into your Hand to Hand side, Malacath can be a strong choice. Be mindful that he doesn&amp;rsquo;t tolerate half-measures. Commit to your attacks or they won&amp;rsquo;t be effective. Position yourself well so that you can land power attacks without opening yourself up to extra damage.&lt;/p>
 &lt;h4 id="mehrunes-dagon">Mehrunes Dagon&lt;/h4>
-&lt;p>&lt;em>Destruction spells cost 10/20% less. / You reduce the Fire, Frost, and Shock Resistance of all nearby enemies by up to 50%, but your own Fire, Frost, Shock, and Poison Resistance are reduced by 50%.&lt;/em>&lt;/p>
+&lt;p>&lt;em>Destruction spells cost 10/20% less. / You reduce the Fire, Frost, and Shock Resistance of all nearby enemies by up to 25%, but your own Fire, Frost, and Shock Resistance are reduced by 50%.&lt;/em>&lt;/p>
 &lt;p>Lowering your own resistances is daunting at first but remember you&amp;rsquo;ll pick up extra resistance from your Alteration perks. The &lt;em>Lord Stone&lt;/em> and enchantments can also help negate the downside of the Flame Tyrant. With that out of the way, he delivers a very beneficial blessing.&lt;/p>
-&lt;h4 id="sheogorath">Sheogorath&lt;/h4>
-&lt;p>&lt;em>Alteration spells cost 10/20% less. / You take 50% more damage from melee weapons, but you reflect 200% of incoming melee damage back at your attacker.&lt;/em>&lt;/p>
-&lt;p>If you can overcome the penalty here, Sheogorath opens up fun possibilities for the build. Combined with the &lt;em>Tower Stone&lt;/em>, which adds armor, that&amp;rsquo;s 300% melee retaliation damage. Reduce incoming damage further with &lt;em>Disintegrate Weapon&lt;/em>, made cheaper by this blessing, and enjoy.&lt;/p>
+&lt;h4 id="molag-bal">Molag Bal&lt;/h4>
+&lt;p>&lt;em>You have 25/50 extra Magicka. / You cannot regenerate Magicka in combat, but you absorb 20 points of Magicka per second from nearby enemies.&lt;/em>&lt;/p>
+&lt;p>The Corrupter may be the riskiest Daedra to court but doing so will supercharge your magical side. Extra Magicka will allow you to cast stronger spells earlier and more frequently. And you&amp;rsquo;ll keep your reserves reliably full as you&amp;rsquo;ll be in close proximity for your punches.&lt;/p>
 &lt;/details>
 &lt;h2 id="spellbook">Spellbook&lt;/h2>
 &lt;blockquote>
@@ -1843,7 +1843,7 @@ Stamina is your key attribute as it&amp;rsquo;s necessary for both sneaking and 
 &lt;li>&lt;strong>Eagle Eye 2 (70):&lt;/strong> Bows have a 20% chance of dealing critical damage.&lt;/li>
 &lt;li>&lt;strong>Steady Hand (80):&lt;/strong> Zooming in with a bow slows down time.&lt;/li>
 &lt;li>&lt;strong>Grim Focus 2 (90):&lt;/strong> Critical hits with bows deal five times damage.&lt;/li>
-&lt;li>&lt;strong>Bullseye (100):&lt;/strong> Bows deal guaranteed critical damage to enemies at full Health.&lt;/li>
+&lt;li>&lt;strong>Lethal Shot (100):&lt;/strong> Your critical chance and critical damage with bows are doubled against enemies who fall below half Health.&lt;/li>
 &lt;/ul>
 &lt;h4 id="illusion-2">Illusion&lt;/h4>
 &lt;p>&lt;em>Command won&amp;rsquo;t grant buffs but you&amp;rsquo;ll still be able to convince many to fight for you.&lt;/em>&lt;/p>
@@ -1857,7 +1857,7 @@ Stamina is your key attribute as it&amp;rsquo;s necessary for both sneaking and 
 &lt;li>&lt;strong>Adrenaline (60):&lt;/strong> You move 20% faster when sprinting while wearing a light armor chest piece.&lt;/li>
 &lt;li>&lt;strong>Agility 2 (60):&lt;/strong> You gain 100% Stamina Regeneration when wearing a light armor chest piece.&lt;/li>
 &lt;li>&lt;strong>Specialist 2 (70):&lt;/strong> You receive a 50% armor bonus while wearing a light armor chest piece.&lt;/li>
-&lt;li>&lt;strong>Endurance (80):&lt;/strong> You spend 25% less Stamina when power attacking or drawing a bow when wearing a light armor chest piece.&lt;/li>
+&lt;li>&lt;strong>Endurance (80):&lt;/strong> You spend 20% less Stamina when power attacking or drawing a bow when wearing a light armor chest piece.&lt;/li>
 &lt;li>&lt;strong>Athletics 2 (90):&lt;/strong> You move 20% faster while wearing three pieces of light armor.&lt;/li>
 &lt;li>&lt;strong>Second Wind (100):&lt;/strong> Your Stamina regenerates twice as fast when you fall below half Stamina when wearing a light armor chest piece.&lt;/li>
 &lt;/ul>
@@ -1914,8 +1914,8 @@ Stamina is your key attribute as it&amp;rsquo;s necessary for both sneaking and 
 &lt;p>&lt;em>Your Stamina Regeneration is increased by 25%.&lt;/em>&lt;/p>
 &lt;p>You&amp;rsquo;ve always twisted the teachings of Dibella to suit your needs, but at the end of the day the Lady of Love, Beauty, Art, and Music encourages you to seek pleasure. Be sure to steal some beautiful artifacts during your travels and she&amp;rsquo;ll keep you invigorated.&lt;/p>
 &lt;h4 id="zenithar">Zenithar&lt;/h4>
-&lt;p>&lt;em>Your Carry Weight is increased by 25.&lt;/em>&lt;/p>
-&lt;p>Your love of coin naturally leads you to the God of Commerce. He does not support your deceit but praying to Zenithar will grant you deeper pockets nonetheless. Use it for carrying loot, money, potions, or whatever else you might want to keep close at hand.&lt;/p>
+&lt;p>&lt;em>Your buying and selling prices are 10% better.&lt;/em>&lt;/p>
+&lt;p>Your love of coin naturally leads you to the God of Commerce. He does not support your deceit but praying to Zenithar will grant you deeper pockets nonetheless. Consider visiting a shrine before offloading your stash of gems.&lt;/p>
 &lt;/details>
 &lt;h2 id="spellbook">Spellbook&lt;/h2>
 &lt;blockquote>
@@ -2245,14 +2245,14 @@ You&amp;rsquo;ll need Health to stand toe to toe with foes, Magicka to maintain 
 &lt;p>The Nine never answered your prayers and their priests paid you no mind except for devouts of Arkay who needed a hole dug. You idolized those who seized power for themselves like &lt;strong>Mannimarco&lt;/strong>, King of Worms. &lt;strong>Namiira&lt;/strong> of the Dark Spirits was also worth your attention as you believe she&amp;rsquo;d claim you in the afterlife. And who could forgot &lt;strong>Molagh&lt;/strong> when speaking of dominating all others?&lt;/p>
 &lt;details>
 &lt;h4 id="mannimarco">Mannimarco&lt;/h4>
-&lt;p>&lt;em>Your Conjuration spells cost 10/20% less. / You can reanimate two additional zombies, but when you do not control at least one reanimated zombie, your Armor Rating is reduced by 300 and your Magic Resistance is reduced by 50%.&lt;/em>&lt;/p>
+&lt;p>&lt;em>Your Conjuration spells cost 10/20% less. / You can reanimate one additional zombie, but when you do not control a reanimated zombie, your Armor Rating is reduced by 150 and your Magic Resistance is reduced by 25%.&lt;/em>&lt;/p>
 &lt;p>Mannimarco is an obvious choice for necromancers. The downside is barely a hurdle as you&amp;rsquo;ll be able to find a corpse nearly anywhere if not make one quickly enough. Just take care not to encounter any dragons unaccompanied.&lt;/p>
 &lt;h4 id="molag-bal">Molag Bal&lt;/h4>
 &lt;p>&lt;em>You have 25/50 extra Magicka. / You cannot regenerate Magicka in combat, but you absorb 20 points of Magicka per second from nearby enemies.&lt;/em>&lt;/p>
 &lt;p>You&amp;rsquo;re someone who loves to take what&amp;rsquo;s other&amp;rsquo;s and put it to use. Molagh helps you do that with Magicka. The downside puts a damper on your ability to raise corpses if you&amp;rsquo;re unable to drain enough from your enemies.&lt;/p>
 &lt;h4 id="namira">Namira&lt;/h4>
-&lt;p>&lt;em>You have 50/100% Disease Resistance. / When you feed on a corpse, your Health regenerates twice as fast. When you have not fed, you cannot regenerate Health.&lt;/em>&lt;/p>
-&lt;p>Namiira can be a darker turn for the build by adding another layer of usefulness to corpses. The health regeneration complements your heavy armor perks well and the disease resistance seems fitting for someone who spends lots of time in tombs.&lt;/p>
+&lt;p>&lt;em>Your Health is increased by 25/50. / When you feed on a corpse, your Health regenerates twice as fast. When you have not fed, you cannot regenerate Health.&lt;/em>&lt;/p>
+&lt;p>Namiira can be a darker turn for the build by adding another layer of usefulness to corpses. Extra Health is always useful on the frontlines and turning the corpses you can&amp;rsquo;t raise into a tremendous source of healing makes you even more durable.&lt;/p>
 &lt;/details>
 &lt;h2 id="spellbook">Spellbook&lt;/h2>
 &lt;blockquote>
@@ -2505,12 +2505,12 @@ Stamina will be vital in consistently firing your bow and sprinting to safer loc
 &lt;li>&lt;strong>Potency 2 (90):&lt;/strong> Potions you mix are 50% stronger.&lt;/li>
 &lt;/ul>
 &lt;h4 id="archery-2">Archery&lt;/h4>
-&lt;p>&lt;em>Higher crit damage and guaranteed crits at full health. What&amp;rsquo;s there not to like?&lt;/em>&lt;/p>
+&lt;p>&lt;em>Higher crit damage and greater crits against injured enemies. What&amp;rsquo;s there not to like?&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Eagle Eye 2 (70):&lt;/strong> Bows have a 20% chance of dealing critical damage.&lt;/li>
 &lt;li>&lt;strong>Steady Hand (80):&lt;/strong> Zooming in with a bow slows down time.&lt;/li>
 &lt;li>&lt;strong>Grim Focus 2 (90):&lt;/strong> Critical hits with bows deal five times damage.&lt;/li>
-&lt;li>&lt;strong>Bullseye (100):&lt;/strong> Bows deal guaranteed critical damage to enemies at full Health.&lt;/li>
+&lt;li>&lt;strong>Lethal Shot (100):&lt;/strong> Your critical chance and critical damage with bows are doubled against enemies who fall below half Health.&lt;/li>
 &lt;/ul>
 &lt;h4 id="conjuration-2">Conjuration&lt;/h4>
 &lt;p>&lt;em>Add insult to injury with an additional summon, each more powerful than before.&lt;/em>&lt;/p>
@@ -2839,7 +2839,7 @@ Almost everything you do will require Magicka but you can&amp;rsquo;t ignore you
 &lt;li>&lt;strong>Eagle Eye 2 (70):&lt;/strong> Bows have a 20% chance of dealing critical damage.&lt;/li>
 &lt;li>&lt;strong>Steady Hand (80):&lt;/strong> Zooming in with a bow slows down time.&lt;/li>
 &lt;li>&lt;strong>Grim Focus 2 (90):&lt;/strong> Critical hits with bows deal five times damage.&lt;/li>
-&lt;li>&lt;strong>Bullseye (100):&lt;/strong> Bows deal guaranteed critical damage to enemies at full Health.&lt;/li>
+&lt;li>&lt;strong>Lethal Shot (100):&lt;/strong> Your critical chance and critical damage with bows are doubled against enemies who fall below half Health.&lt;/li>
 &lt;/ul>
 &lt;h4 id="conjuration-2">Conjuration&lt;/h4>
 &lt;p>&lt;em>Yet another predictable but necessary boost to your weapons.&lt;/em>&lt;/p>
@@ -3242,20 +3242,20 @@ You&amp;rsquo;ll get a large boost to Stamina from your race and the Thief Stone
 &lt;blockquote>
 &lt;p>Full religion information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/54099">Pilgrim&lt;/a> description page.&lt;/p>
 &lt;/blockquote>
-&lt;p>Hailing from Hammerfell, you brought your beliefs with you on the Eastway and have no inclination to change your ways. &lt;strong>Tava&lt;/strong>, called Kynareth here in Skyrim, is held closest to your heart and is the source of your inner storm. Defeating the Thalmor infidels in &lt;strong>HoonDing&amp;rsquo;s&lt;/strong> name is what brought you here to begin with. And one can never forget &lt;strong>Ruptga&lt;/strong>, or Tall Papa, who is ever present.&lt;/p>
+&lt;p>Hailing from Hammerfell, you brought your beliefs with you on the Eastway and have no inclination to change your ways. &lt;strong>Tava&lt;/strong>, called Kynareth here in Skyrim, is held closest to your heart and is the source of your inner storm. &lt;strong>Dibella&lt;/strong> may also be familiar to you, especially if you consider yourself a Forebear. And for the Crowns, one can never forget &lt;strong>Ruptga&lt;/strong>, or Tall Papa, who is ever present.&lt;/p>
 &lt;details>
-&lt;h4 id="hoonding">HoonDing&lt;/h4>
-&lt;p>&lt;em>Your Stamina is increased by 50. You attack 20% faster when wielding a One-handed weapon with an empty offhand.&lt;/em>&lt;/p>
-&lt;p>HoonDing is no Tava but in the early game he&amp;rsquo;ll provide the same benefit and his cause is just as righteous. The Thalmor your people have driven out of Hammerfell need to be pushed out of Skyrim as well. His &lt;em>Pilgrim (Rank 2)&lt;/em> effect is unfortunate, however, since you&amp;rsquo;ll want to be dual-wielding at that point in your adventure.&lt;/p>
+&lt;h4 id="dibella">Dibella&lt;/h4>
+&lt;p>&lt;em>Your Stamina Regeneration is increased by 25/50%. / Your Disease Resistance is increased by 100%.&lt;/em>&lt;/p>
+&lt;p>Ever popular among Redguard women, the Lady of Love is a solid choice for this build. Extra Stamina Regeneration is always appreciated and, for those who&amp;rsquo;ve rejected the beast blood, you can still obtain its Disease Resistance.&lt;/p>
 &lt;h4 id="kynareth">Kynareth&lt;/h4>
-&lt;p>&lt;em>Your Stamina is increased by 50. You move 10% faster and take 50% less damage from falling.&lt;/em>&lt;/p>
+&lt;p>&lt;em>Your Stamina is increased by 25/50. / You move 10% faster and take 50% less damage from falling.&lt;/em>&lt;/p>
 &lt;p>Tava, the goddess of air, weather and sun is thematically the true option for this build. With &lt;em>Pilgrim (Rank 2)&lt;/em> you&amp;rsquo;ll be granted extra speed from the goddess. Use it along with other boosts to stay in your opponents&amp;rsquo; faces where it&amp;rsquo;s most perilous for them.&lt;/p>
 &lt;h4 id="tall-papa">Tall Papa&lt;/h4>
-&lt;p>&lt;em>You gain 20% more experience. You have an additional unique effect based on your Standing Stone.&lt;/em>&lt;/p>
+&lt;p>&lt;em>You gain 10/20% more experience. / You have an additional unique effect based on your Standing Stone.&lt;/em>&lt;/p>
 &lt;p>Tall Papa&amp;rsquo;s&amp;rsquo; experience bonus is almost always beneficial. His additional effects are all useful as well, especially for &lt;em>Steed Stone&lt;/em> users who want as much speed as possible.&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>The Thief Stone:&lt;/strong> You spend 25% less Stamina when power attacking or drawing a bow.&lt;/li>
-&lt;li>&lt;strong>The Lover Stone:&lt;/strong> Your Stamina regenerates 50% faster in combat.&lt;/li>
+&lt;li>&lt;strong>The Thief Stone:&lt;/strong> You spend 20% less Stamina when power attacking or drawing a bow.&lt;/li>
+&lt;li>&lt;strong>The Lover Stone:&lt;/strong> Your Stamina regenerates 50% faster.&lt;/li>
 &lt;li>&lt;strong>The Steed Stone:&lt;/strong> You move 10% faster, and your carry weight is increased by 50.&lt;/li>
 &lt;/ul>
 &lt;/details>
