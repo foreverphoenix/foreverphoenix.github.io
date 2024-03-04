@@ -522,7 +522,7 @@ Most of what you do will require Magicka so you don&amp;rsquo;t want to ignore i
 &lt;p>The Mage Stone is the ideal starting stone for you. Though the agent is technically a Stealth class, the benefits of the Thief Stone aren&amp;rsquo;t too beneficial. Feel free to carry this blessing into the mid game.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-serpent.webp">
 &lt;h4 id="the-serpent">The Serpent&lt;/h4>
-&lt;p>&lt;em>&lt;strong>Serpent’s Kiss:&lt;/strong>&lt;/em> &lt;em>Your Poison Resistance is increased by 50%, your potions last 50% longer, and your poisons last for two additional hits.&lt;/em>&lt;/p>
+&lt;p>&lt;em>&lt;strong>Serpent’s Kiss:&lt;/strong>&lt;/em> &lt;em>Your Poison Resistance is increased by 50%, your potions last 50% longer, and your poisons last for 50% more hits.&lt;/em>&lt;/p>
 &lt;p>The Serpent Stone is hit or miss for this build, ironically. An additional hit of poison can be great if you&amp;rsquo;re stabbing your victims instead of reverse pickpocketing. Otherwise, this does next to nothing for you.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-shadow.webp">
 &lt;h4 id="the-shadow">The Shadow&lt;/h4>
@@ -693,7 +693,7 @@ If reverse pickpocket isn&amp;rsquo;t possible you&amp;rsquo;ll still be in rang
 &lt;ul>
 &lt;li>&lt;strong>Complexity:&lt;/strong> Moderate&lt;/li>
 &lt;li>&lt;strong>Race:&lt;/strong> &lt;a href="##" title="Major Skill: Archery
-Minor Skills: Hand to Hand, Light Armor, One-handed, Pickpocket, Security
+Minor Skills: Hand to Hand, Light Armor, One-handed, Security, Sneak
 Green Pact: Your Movement Speed is increased by 10%, and you take 50% less damage from falling. You deal 25% extra damage with sneak attacks and spells.">Wood Elf&lt;/a>&lt;/li>
 &lt;li>&lt;strong>Skills:&lt;/strong>
 &lt;ul>
@@ -712,6 +712,7 @@ You&amp;rsquo;re a mage with very little need for Magicka. Your points are best 
 &lt;/li>
 &lt;/ul>
 &lt;p>The Bosmer Mage starts their journey as one would expect: wearing robes and flinging spells with both hands. But instead of investing in Magicka and spell cost reduction perks, they opt to pour their efforts into Enchanting, using scrolls and staves to do their casting for them. This allows the Bosmer to stay nimble and out of harm&amp;rsquo;s way while still being a devastating master of Destruction.&lt;/p>
+&lt;p>Your natural predilection for the taboo may lead you to vampirism. Explore it, but be aware that it&amp;rsquo;s a double edged sword that makes you vulnerable as it does powerful. Instill fear in those around you with &lt;em>Reign of Terror&lt;/em>, then proceed to do as you please, how you please.&lt;/p>
 &lt;h2 id="perks">Perks&lt;/h2>
 &lt;blockquote>
 &lt;p>Full perk information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30191">Adamant&lt;/a> description page.&lt;/p>
@@ -853,6 +854,40 @@ You&amp;rsquo;re a mage with very little need for Magicka. Your points are best 
 &lt;li>&lt;strong>Shadow Casting 2 (70):&lt;/strong> Damage-dealing spells are 100% stronger while sneaking and undetected.&lt;/li>
 &lt;/ul>
 &lt;/details>
+&lt;h3 id="vampire">Vampire&lt;/h3>
+&lt;blockquote>
+&lt;p>Full perk information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41639">Scion&lt;/a> description page.&lt;/p>
+&lt;/blockquote>
+&lt;p>You aren&amp;rsquo;t one to turn away from an opportunity for more power, especially one that others shun.&lt;/p>
+&lt;details>
+&lt;h4 id="vampire-bloodline">Vampire Bloodline&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Wood Elf:&lt;/strong> Your potions last 50% longer, and your poisons last for 50% more hits.&lt;/li>
+&lt;/ul>
+&lt;p>This greatly helps you in your goal of getting every drop of benefit from alchemical reagents, and works all the time.&lt;/p>
+&lt;details>
+&lt;p>Ultimately you&amp;rsquo;ll snatch all the power you can here, but your initial focus depends on your priorities and playstyle.&lt;/p>
+&lt;h4 id="vampire-perks-blood-mage">Vampire Perks: Blood Mage&lt;/h4>
+&lt;p>&lt;em>Ignore your transformation and bolster your ability to sustain Health off of others.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Nightwalker 1:&lt;/strong> You deal 25% extra damage as a Vampire Lord.&lt;/li>
+&lt;li>&lt;strong>Ancient Thirst 1:&lt;/strong> Spells that absorb Health are 25% stronger.&lt;/li>
+&lt;li>&lt;strong>False Life 1:&lt;/strong> Spells that absorb Health work on the undead.&lt;/li>
+&lt;li>&lt;strong>False Life 2:&lt;/strong> Spells that absorb Health work on the undead, Daedra, and automatons.&lt;/li>
+&lt;li>&lt;strong>Ancient Thirst 2:&lt;/strong> Spells that absorb Health are 50% stronger.&lt;/li>
+&lt;li>&lt;strong>Dread Harvest 2:&lt;/strong> Spells that absorb Health are 100% stronger against targets who fall below half Health.&lt;/li>
+&lt;/ul>
+&lt;h4 id="vampire-perks-chaos-mage">Vampire Perks: Chaos Mage&lt;/h4>
+&lt;p>&lt;em>Gain access to special Destruction spells and the extra Magicka resources to utilize them as a Vampire Lord.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Nightwalker 1:&lt;/strong> You deal 25% extra damage as a Vampire Lord.&lt;/li>
+&lt;li>&lt;strong>Underworld Lineage 1:&lt;/strong> As a Vampire Lord, you can cast the spells Frozen Wind and Lightning Flood.&lt;/li>
+&lt;li>&lt;strong>Nightwalker 2:&lt;/strong> You deal 50% extra damage as a Vampire Lord.&lt;/li>
+&lt;li>&lt;strong>Unearthly Will:&lt;/strong> As a Vampire Lord, your Health and Magicka are increased by 100.&lt;/li>
+&lt;li>&lt;strong>Potent Blood:&lt;/strong> As a Vampire Lord, your Magicka Regeneration is increased by 100%.&lt;/li>
+&lt;li>&lt;strong>Power of the Grave:&lt;/strong> As a Vampire Lord, your spells cost 25% less Magicka.&lt;/li>
+&lt;/ul>
+&lt;/details>
 &lt;h2 id="standing-stones">Standing Stones&lt;/h2>
 &lt;blockquote>
 &lt;p>Full standing stone information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33411">Mundus&lt;/a> description page.&lt;/p>
@@ -868,7 +903,7 @@ You&amp;rsquo;re a mage with very little need for Magicka. Your points are best 
 &lt;p>Another 100 Magicka won&amp;rsquo;t mean too much to you but 25% Spell Absorption is a fantastic defensive boon. When stacked with high Magic Resistance and &lt;em>Spell Sip&lt;/em>, enemy casters will be nothing more than flies.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-serpent.webp">
 &lt;h4 id="the-serpent">The Serpent&lt;/h4>
-&lt;p>&lt;em>&lt;strong>Serpent’s Kiss:&lt;/strong>&lt;/em> &lt;em>Your Poison Resistance is increased by 50%, your potions last 50% longer, and your poisons last for two additional hits.&lt;/em>&lt;/p>
+&lt;p>&lt;em>&lt;strong>Serpent’s Kiss:&lt;/strong>&lt;/em> &lt;em>Your Poison Resistance is increased by 50%, your potions last 50% longer, and your poisons last for 50% more hits.&lt;/em>&lt;/p>
 &lt;p>Extra Poison Resistance isn&amp;rsquo;t nothing but it&amp;rsquo;s not what you&amp;rsquo;re here for. A 50% duration boost on your already potent potions will save you plenty of vials in the long run.&lt;/p>
 &lt;/details>
 &lt;h2 id="faith">Faith&lt;/h2>
@@ -1021,8 +1056,8 @@ A late addition to your toolkit but a good one. &lt;em>Wall of Frost&lt;/em> is 
 &lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>Complexity:&lt;/strong> Low&lt;/li>
-&lt;li>&lt;strong>Race:&lt;/strong> &lt;a href="##" title="Major Skill: Conjuration
-Minor Skills: Alchemy, Alteration, Illusion, Restoration, Speech
+&lt;li>&lt;strong>Race:&lt;/strong> &lt;a href="##" title="Major Skill: Alteration
+Minor Skills: Alchemy, Conjuration, Illusion, Restoration, Speech
 Spell Warding: Your Magic Resistance is increased by 25%, and you have a 15% chance to absorb the Magicka from incoming spells.">Breton&lt;/a>&lt;/li>
 &lt;li>&lt;strong>Skills:&lt;/strong>
 &lt;ul>
@@ -1199,8 +1234,8 @@ You&amp;rsquo;ll have high defenses but you&amp;rsquo;ll still need enough base 
 &lt;p>Health Regeneration is your main source of healing, and the boost to Magic Resistance means you need one less source of it to reach the cap. With this, your racial bonuses, and &lt;em>Spell Shield&lt;/em>, for instance, you&amp;rsquo;d be at 75% without needing enchanting.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-steed.webp">
 &lt;h4 id="the-steed">The Steed&lt;/h4>
-&lt;p>&lt;em>&lt;strong>Charioteer:&lt;/strong>&lt;/em> &lt;em>You move 20% faster and your Carry Weight is increased by 100.&lt;/em>&lt;/p>
-&lt;p>If you feel secure in your defenses, a 20% Movement Speed boost and a Carry Weight increase can provide plenty of utility. A great choice for the late game where you&amp;rsquo;ll likely be indestructible from other sources.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Charioteer:&lt;/strong>&lt;/em> &lt;em>You no longer spend Stamina when sprinting out of combat, and your Carry Weight is increased by 100.&lt;/em>&lt;/p>
+&lt;p>If you feel secure in your defenses, the out of combat movement and Carry Weight increase can provide plenty of utility. A solid choice for the late game where you&amp;rsquo;ll likely be indestructible from other sources.&lt;/p>
 &lt;/details>
 &lt;h2 id="faith">Faith&lt;/h2>
 &lt;blockquote>
@@ -1396,7 +1431,7 @@ Resource management is crucial. Health keeps you alive on the frontline, Stamina
 &lt;p>&lt;strong>Note:&lt;/strong> For unarmed perks to work, both hands need to be empty. To easily do this with hotkeys, go to the &lt;em>SkyUI&lt;/em> MCM and toggle &lt;code>Unequip Hands&lt;/code> for one of the groups. That group can now be used as an Unarmed hotkey.&lt;/p>
 &lt;/blockquote>
 &lt;p>You are not a wildfire; you are a deliberate, controlled burn. You deftly slip into position, starting fights on your own terms to give yourself the most advantage. Once the fight has broken out, turn up the heat with your Fire magic and a flurry of fists and eliminate your threats one by one. With the aid of Alteration magic you&amp;rsquo;ll be formidable on the frontlines, imposing and able to withstand your opponent&amp;rsquo;s counterattacks. A visit to Solstheim is a must. The island has not only the shrines for your pilgrimage but a number of spells that complement your skills. With all these tools in hand, you will make your ancestors proud.&lt;/p>
-&lt;p>Heavily consider taking on the beast blood as yet another challenge from the Daedra. Its &lt;em>Animal&lt;/em> tree of perks will grant you vital Health and Stamina Regeneration that&amp;rsquo;s lacking in the main build as well as unarmed damage and increased Movement Speed.&lt;/p>
+&lt;p>Heavily consider taking on the beast blood as yet another challenge from the Daedra. Its &lt;em>Animal&lt;/em> tree of perks will grant you vital Health and Stamina Regeneration that&amp;rsquo;s lacking in the main build as well as increased unarmed damage and Movement Speed.&lt;/p>
 &lt;h2 id="perks">Perks&lt;/h2>
 &lt;blockquote>
 &lt;p>Full perk information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/30191">Adamant&lt;/a> description page.&lt;/p>
@@ -1540,6 +1575,28 @@ Resource management is crucial. Health keeps you alive on the frontline, Stamina
 &lt;li>&lt;strong>Infiltrator (60):&lt;/strong> You move 25% faster while sneaking.&lt;/li>
 &lt;/ul>
 &lt;/details>
+&lt;h3 id="werewolf">Werewolf&lt;/h3>
+&lt;blockquote>
+&lt;p>Full perk information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/44746">Manbeast&lt;/a> description page.&lt;/p>
+&lt;/blockquote>
+&lt;p>A gift from Hircine can be seen as another challenge from the Daedra. Embrace it and push yourself to new heights.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Animal Senses:&lt;/strong> For 60 seconds, you have improved night vision and you can detect nearby living creatures.&lt;/li>
+&lt;li>&lt;strong>Lycanthrope:&lt;/strong> As a werewolf, your Poison Resistance is reduced by 50%, but your Disease Resistance is increased by 100%.&lt;/li>
+&lt;/ul>
+&lt;details>
+&lt;h4 id="werewolf-perks">Werewolf Perks&lt;/h4>
+&lt;p>&lt;em>Resist the temptation to give into the power and reap its benefits in your mortal form.&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Manbeast 1:&lt;/strong> As a Werewolf, you deal 25% extra damage.&lt;/li>
+&lt;li>&lt;strong>Animal Vitality 1:&lt;/strong> Your Stamina Regeneration is increased by 50% in beast form and by 25% in mortal form.&lt;/li>
+&lt;li>&lt;strong>Animal Strength 1:&lt;/strong> Your Health Regeneration is increased by 50% in beast form and by 25% in mortal form.&lt;/li>
+&lt;li>&lt;strong>Animal Vigor 1:&lt;/strong> Your unarmed damage is increased by 10.&lt;/li>
+&lt;li>&lt;strong>Animal Vigor 2:&lt;/strong> Your unarmed damage is increased by 10 and your Movement Speed is increased by 10% in mortal form and in beast form.&lt;/li>
+&lt;li>&lt;strong>Animal Strength 2:&lt;/strong> Your Health Regeneration is increased by 100% in beast form and by 50% in mortal form.&lt;/li>
+&lt;li>&lt;strong>Animal Vitality 2:&lt;/strong> Your Stamina Regeneration is increased by 100% in beast form and by 50% in mortal form.&lt;/li>
+&lt;/ul>
+&lt;/details>
 &lt;h2 id="standing-stones">Standing Stones&lt;/h2>
 &lt;blockquote>
 &lt;p>Full standing stone information can be found on the &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33411">Mundus&lt;/a> description page.&lt;/p>
@@ -1556,7 +1613,7 @@ Resource management is crucial. Health keeps you alive on the frontline, Stamina
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-tower.webp">
 &lt;h4 id="the-tower">The Tower&lt;/h4>
 &lt;p>&lt;em>&lt;strong>Warden’s Wall:&lt;/strong>&lt;/em> &lt;em>Your Armor Rating is increased by 100, and you reflect 100% of incoming melee damage back at your attacker.&lt;/em>&lt;/p>
-&lt;p>Extra armor on the frontlines is always useful and the damage reflect aspect just adds that much more to your offense. If you choose Sheogorath as your deity, this is a perfect match.&lt;/p>
+&lt;p>Extra armor on the frontlines is always useful and the damage reflect aspect just adds that much more to your offense. If you&amp;rsquo;ve stacked Reflect Damage enchantments, this is a perfect complement.&lt;/p>
 &lt;/details>
 &lt;h2 id="faith">Faith&lt;/h2>
 &lt;blockquote>
@@ -1569,7 +1626,7 @@ Resource management is crucial. Health keeps you alive on the frontline, Stamina
 &lt;p>If you want to lean into your Hand to Hand side, Malacath can be a strong choice. Be mindful that he doesn&amp;rsquo;t tolerate half-measures. Commit to your attacks or they won&amp;rsquo;t be effective. Position yourself well so that you can land power attacks without opening yourself up to extra damage.&lt;/p>
 &lt;h4 id="mehrunes-dagon">Mehrunes Dagon&lt;/h4>
 &lt;p>&lt;em>Destruction spells cost 10/20% less. / You reduce the Fire, Frost, and Shock Resistance of all nearby enemies by up to 25%, but your own Fire, Frost, and Shock Resistance are reduced by 50%.&lt;/em>&lt;/p>
-&lt;p>Lowering your own resistances is daunting at first but remember you&amp;rsquo;ll pick up extra resistance from your Alteration perks. The &lt;em>Lord Stone&lt;/em> and enchantments can also help negate the downside of the Flame Tyrant. With that out of the way, he delivers a very beneficial blessing.&lt;/p>
+&lt;p>Lowering your own resistances is daunting at first but remember you&amp;rsquo;ll pick up extra resistance from your Alteration perks and spells. The &lt;em>Lord Stone&lt;/em> and enchantments can also help negate the downside of the Flame Tyrant. With that out of the way, he delivers a very beneficial blessing.&lt;/p>
 &lt;h4 id="molag-bal">Molag Bal&lt;/h4>
 &lt;p>&lt;em>You have 25/50 extra Magicka. / You cannot regenerate Magicka in combat, but you absorb 20 points of Magicka per second from nearby enemies.&lt;/em>&lt;/p>
 &lt;p>The Corrupter may be the riskiest Daedra to court but doing so will supercharge your magical side. Extra Magicka will allow you to cast stronger spells earlier and more frequently. And you&amp;rsquo;ll keep your reserves reliably full as you&amp;rsquo;ll be in close proximity for your punches.&lt;/p>
@@ -1581,7 +1638,7 @@ Resource management is crucial. Health keeps you alive on the frontline, Stamina
 &lt;details>
 &lt;img align="right" width="100" height="100" src="https://thephoenixflavour.com/Pictures/sss/builds/skill-alteration.webp">
 &lt;h3 id="alteration-3">Alteration&lt;/h3>
-&lt;p>Your primary benefit here is defending yourself but this school of magic offers a multitude of treats you can partake in. Don&amp;rsquo;t be shy about dabbling in its offerings, the 3 spells below barely scratch the surface of what&amp;rsquo;s useful.&lt;/p>
+&lt;p>Your primary purpose here is defending yourself but this school of magic offers a multitude of treats you can partake in. Don&amp;rsquo;t be shy about dabbling in its offerings, the 3 spells below barely scratch the surface of what&amp;rsquo;s useful.&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;strong>Oakflesh (Novice+):&lt;/strong> &lt;em>Your Armor Rating is increased by 40 for 120 seconds.&lt;/em>&lt;br>
@@ -1589,16 +1646,16 @@ Your main source of armor throughout your adventures. With perks, this will give
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Fire Shell (Adept+):&lt;/strong> &lt;em>Your Fire Resistance is increased by 50% for 120 seconds.&lt;/em>&lt;br>
-You&amp;rsquo;re not using this for the extra Fire Resistance, though it&amp;rsquo;s nice. You&amp;rsquo;re using it to empower your unarmed strikes with &lt;em>Spell Strike&lt;/em>. Grab that perk as soon as you hit 60 Alteration.&lt;/p>
+You&amp;rsquo;re not using this for the extra Resistance (though it&amp;rsquo;s nice, especially under Mehrunes Dagon). You&amp;rsquo;re using it to empower your unarmed strikes with &lt;em>Spell Strike&lt;/em>. Grab that perk as soon as you hit 60 Alteration.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Weakness to Fire (Expert):&lt;/strong> &lt;em>You reduce enemy Fire Resistance by 50% for 60 seconds.&lt;/em>&lt;br>
-With Fire being a core damage type of the build this should come as no surprise.&lt;/p>
+With Fire being a core damage type of the build this should come as no surprise. Toss this on resistant enemies and all manner of bosses where the extra damage will help shorten a long encounter.&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;img align="right" width="100" height="100" src="https://thephoenixflavour.com/Pictures/sss/builds/skill-conjuration.webp">
 &lt;h3 id="conjuration-3">Conjuration&lt;/h3>
-&lt;p>Conjuration should be viewed as a secondary spell. Its key summons are harder to acquire than others but they&amp;rsquo;ll allow you to call for aid from your ancestors down the line.&lt;/p>
+&lt;p>Conjuration should be viewed as a secondary school. Its key summons are harder to acquire than others but it&amp;rsquo;ll eventually allow you to call for aid from your ancestors.&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;strong>Soul Trap (Novice+):&lt;/strong> &lt;em>If a target dies within 60 seconds, fills a soul gem.&lt;/em>&lt;br>
@@ -1653,7 +1710,7 @@ Without Alchemy or Restoration, your biggest challenge might be healing yourself
 &lt;li>&lt;strong>Dun:&lt;/strong> &lt;em>Move and attack 20% faster for 30 seconds.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Meditation:&lt;/strong> &lt;em>Elemental Fury reduces the cost of power attacking and drawing a bow by 25%.&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>Increased mobility is right up the monk&amp;rsquo;s alley and extra attack speed is icing on the cake. The meditation is only useful if you couldn&amp;rsquo;t resist the urge to pick up a bow.&lt;/p>
+&lt;p>Increased mobility is right up the monk&amp;rsquo;s alley and extra attack speed is icing on the cake. The meditation is especially useful for followers of Malacath.&lt;/p>
 &lt;h4 id="fire-breath">Fire Breath&lt;/h4>
 &lt;p>&lt;em>Cooldown: 30/45/60 seconds&lt;/em>&lt;/p>
 &lt;ul>
@@ -1710,7 +1767,7 @@ Without Alchemy or Restoration, your biggest challenge might be healing yourself
 &lt;li>&lt;strong>Fortify Destruction Power:&lt;/strong> &lt;em>Your Destruction spells are 25% stronger.&lt;/em>&lt;/li>
 &lt;li>&lt;strong>Resist Magic:&lt;/strong> &lt;em>Your Magic Resistance is increased by 25%.&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;p>A very contested enchantment slot for the monk. Both of your damage boosts are options here alongside all the resists. Grab what you can and play it by ear as you reach plateaus. Or carry multiple rings for multiple situations.&lt;/p>
+&lt;p>A very contested enchantment slot for the monk. Both of your damage boosts are options here alongside all the resists. Grab what you can and play it by ear as you reach plateaus. Or carry multiple rings for multiple situations. Also keep in mind that the &lt;em>Ring of Hircine&lt;/em> takes this slot if you&amp;rsquo;re using it to resist transformations. It&amp;rsquo;s 100 bonus Stamina is significant, but not equal to boosting Unarmed Damage.&lt;/p>
 &lt;/details></description></item><item><title>Skyrim-Se: Imperial Thief</title><link>https://thephoenixflavour.com/skyrim-se/sss/builds/imperial-thief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/builds/imperial-thief/</guid><description>
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/builds/imperial-thief.png" alt="Imperial Thief">&lt;/p>
 &lt;p>In the busy city of Cyrodiil, where you were born and grew up, your heart yearned for adventure and mischief. Though your parents owned a hunting store called The Falcon&amp;rsquo;s Roost, they insisted you help them instead of exploring the world beyond. Many believed your charm would make you a successful merchant, but you craved something more thrilling than the mundane life within the city walls.&lt;/p>
@@ -1722,7 +1779,7 @@ Without Alchemy or Restoration, your biggest challenge might be healing yourself
 &lt;li>&lt;strong>Complexity:&lt;/strong> Low&lt;/li>
 &lt;li>&lt;strong>Race:&lt;/strong> &lt;a href="##" title="Major Skill: Speech
 Minor Skills: Block, Heavy Armor, One-handed, Restoration, Smithing
-Highborn: Your Health, Magicka, and Stamina are increased by 25. You receive 10% better prices, and you find extra gold in your travels.">Imperial&lt;/a>&lt;/li>
+Red Diamond: Your Health, Magicka, and Stamina are increased by 25. You receive 10% better prices, and you find extra gold in your travels.">Imperial&lt;/a>&lt;/li>
 &lt;li>&lt;strong>Skills:&lt;/strong>
 &lt;ul>
 &lt;li>&lt;strong>Offensive:&lt;/strong> Archery&lt;/li>
@@ -1894,7 +1951,7 @@ Stamina is your key attribute as it&amp;rsquo;s necessary for both sneaking and 
 &lt;p>Your Guardian Stone will be useful at every point of your adventure. Extra stamina and movement speed plays well into your stealth gameplay and, should situations really fall apart, you might be able to survive falls your pursuers cannot.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-lover.webp">
 &lt;h4 id="the-lover">The Lover&lt;/h4>
-&lt;p>&lt;em>&lt;strong>Lover&amp;rsquo;s Touch:&lt;/strong>&lt;/em> &lt;em>Your Stamina regenerates twice as fast, but you take 25% extra damage while power attacking or drawing a bow.&lt;/em>&lt;/p>
+&lt;p>&lt;em>&lt;strong>Lover&amp;rsquo;s Touch:&lt;/strong>&lt;/em> &lt;em>Your Stamina regenerates twice as fast, but you take 25% extra damage while power attacking, drawing a bow, or casting a spell.&lt;/em>&lt;/p>
 &lt;p>Once you have enough raw Stamina, regeneration becomes the higher priority. The downside to The Lover doesn&amp;rsquo;t concern you much as all since you have no intention of taking damage while drawing your bow. Later in the game you may have plenty of regeneration from your Light Armor perks and will start to see little benefit here.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-shadow.webp">
 &lt;h4 id="the-shadow">The Shadow&lt;/h4>
@@ -2038,7 +2095,7 @@ Turning one enemy against their friends does wonders for thinning the herd. Just
 &lt;li>&lt;strong>Complexity:&lt;/strong> Low&lt;/li>
 &lt;li>&lt;strong>Race:&lt;/strong> &lt;a href="##" title="Major Skill: Hand to Hand
 Minor Skills: Alchemy, Archery, Light Armor, Security, Sneak
-Lunar Blessing: You spend 25% less Stamina while power attacking or drawing a bow, and 50% less Stamina while sprinting.
+Lunar Blessing: You spend 20% less Stamina while power attacking or drawing a bow, and 50% less Stamina while sprinting (or sneaking).
 Night Eye: Improves the caster’s night vision for 60 seconds.">Khajiit&lt;/a>&lt;/li>
 &lt;li>&lt;strong>Skills:&lt;/strong>
 &lt;ul>
@@ -2708,9 +2765,9 @@ Due to your atronach&amp;rsquo;s resistance you can freely cast this in an area 
 &lt;h2 id="summary">Summary&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>Complexity:&lt;/strong> High&lt;/li>
-&lt;li>&lt;strong>Race:&lt;/strong> &lt;a href="##" title="Major Skill: Heavy Armor
-Minor Skills: Alchemy, Block, One-handed, Smithing, Two-handed
-Orsinium's Heir: Your Health is increased by 50 and your Health Regeneration is increased by 50%.">Orc&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Race:&lt;/strong> &lt;a href="##" title="Major Skill: Smithing
+Minor Skills: Alchemy, Block, Heavy Armor, One-handed, Two-handed
+Orsinium's Heir: Your Health is increased by 50, and your Health Regeneration is increased by 50%.">Orc&lt;/a>&lt;/li>
 &lt;li>&lt;strong>Skills:&lt;/strong>
 &lt;ul>
 &lt;li>&lt;strong>Offensive:&lt;/strong> Archery, Conjuration, One-handed&lt;/li>
@@ -3051,7 +3108,7 @@ This line of spells gets more and more reliable with every tier. Use it for that
 &lt;li>&lt;strong>Complexity:&lt;/strong> Moderate&lt;/li>
 &lt;li>&lt;strong>Race:&lt;/strong> &lt;a href="##" title="Major Skill: One-handed
 Minor Skills: Archery, Block, Light Armor, Smithing, Two-handed
-Martial Training: Your Stamina is increased by 50 and your Stamina Regeneration is increased by 50%.">Redguard&lt;/a>&lt;/li>
+Martial Training: Your Stamina is increased by 50, and your Stamina Regeneration is increased by 50%.">Redguard&lt;/a>&lt;/li>
 &lt;li>&lt;strong>Skills:&lt;/strong>
 &lt;ul>
 &lt;li>&lt;strong>Offensive:&lt;/strong> Destruction, One-handed&lt;/li>
@@ -3229,14 +3286,14 @@ You&amp;rsquo;ll get a large boost to Stamina from your race and the Thief Stone
 &lt;h4 id="the-thief-guardian">The Thief (Guardian)&lt;/h4>
 &lt;p>&lt;em>&lt;strong>Cheater’s Luck:&lt;/strong>&lt;/em> &lt;em>Your Stamina is increased by 50, you move 10% faster, and you take 50% less damage from falling.&lt;/em>&lt;/p>
 &lt;p>Extra Stamina is just what you need out of the gate. The extra movespeed helps you get into your opponents&amp;rsquo; faces and chase them down if they retreat. This blessing is equivalent to &lt;em>Kynareth&amp;rsquo;s&lt;/em> later on when you have &lt;em>Pilgrim (Rank 2)&lt;/em>, coincidentally. It&amp;rsquo;s almost as if Tava herself is watching over you.&lt;/p>
-&lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-lover.webp">
-&lt;h4 id="the-lover">The Lover&lt;/h4>
-&lt;p>&lt;em>&lt;strong>Lover&amp;rsquo;s Touch:&lt;/strong>&lt;/em> &lt;em>Your Stamina regenerates twice as fast, but you cannot gain any bonuses from sleeping.&lt;/em>&lt;/p>
-&lt;p>Later on you&amp;rsquo;ll have enough Stamina in your pool and Stamina Regeneration will be more important. Lover&amp;rsquo;s Touch will give you plenty of Stamina Regeneration to work with, allowing you to continue your onslaught for much longer.&lt;/p>
+&lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-lady.webp">
+&lt;h4 id="the-lady">The Lady&lt;/h4>
+&lt;p>&lt;em>&lt;strong>Lady’s Grace:&lt;/strong>&lt;/em> &lt;em>Your Health, Magicka and Stamina are increased by 25. When you fall below half Health, Magicka, or Stamina, you gain 50% extra Health, Magicka, or Stamina Regeneration.&lt;/em>&lt;/p>
+&lt;p>Balancing your Stamina and Magicka is the key to success and this blessing helps both tanks from emptying completely. The bonus Health Regeneration may save you in a pinch, but without more sources of it you won&amp;rsquo;t want to rely on it alone for keeping you alive.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-steed.webp">
 &lt;h4 id="the-steed">The Steed&lt;/h4>
-&lt;p>&lt;em>&lt;strong>Charioteer:&lt;/strong>&lt;/em> &lt;em>You move 20% faster and your Carry Weight is increased by 100.&lt;/em>&lt;/p>
-&lt;p>Movement speed gets you into your preferred range quickly and allows you to weave in and out of attacks with more ease. The Steed will not only help you out immensely in that regard but it will boost your Carry Weight a large amount as well, allowing you to bring back more spoils from your victories.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Charioteer:&lt;/strong>&lt;/em> &lt;em>You no longer spend Stamina when sprinting out of combat, and your Carry Weight is increased by 100.&lt;/em>&lt;/p>
+&lt;p>With enough movement speed, sprinting may be faster than riding a horse. On top of that, you&amp;rsquo;ll always be ready to fight and won&amp;rsquo;t be caught dismounting when trouble arrives. This blessing will even boost your Carry Weight by 100, which is less than what the horse offers but definitely nothing to sneeze at.&lt;/p>
 &lt;/details>
 &lt;h2 id="faith">Faith&lt;/h2>
 &lt;blockquote>
