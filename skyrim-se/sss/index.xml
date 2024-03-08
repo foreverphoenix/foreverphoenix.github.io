@@ -84,8 +84,20 @@
 &lt;p>&lt;img src="https://thephoenixflavour.com/Pictures/sss/installation/launch-sss.png" alt="Launching the Game">&lt;/p>
 &lt;h3 id="mcm-instructions">MCM Instructions&lt;/h3>
 &lt;p>There are a large number of Mod Configuration Menus (MCMs) in this list. &lt;strong>Thankfully, presets are automatically applied so you don&amp;rsquo;t need to edit anything manually.&lt;/strong> These are the recommended settings for enjoying Slidikins&amp;rsquo; Strenuous Skyrim; give them a try before changing them around.&lt;/p>
+&lt;h3 id="widescreen-support">Widescreen Support&lt;/h3>
+&lt;p>Basic support for 21:9 and 32:9 resolutions has been added for those with ultrawide monitors. To enable it:&lt;/p>
+&lt;ul>
+&lt;li>Go to the &lt;strong>(Optional) Widescreen Support&lt;/strong> section of the modlist in Mod Organizer 2&amp;rsquo;s left pane and expand it&lt;/li>
+&lt;li>Enable the two mods that correspond to your desired aspect ratio&lt;/li>
+&lt;li>Go down to the very last separator, &lt;code>-----&lt;/code>, expand it and open &lt;strong>Slidikins&amp;rsquo; Strenuous Skyrim - Configuration and Runtime Files&lt;/strong>&lt;/li>
+&lt;li>Under &lt;code>INI Files&lt;/code>, find &lt;strong>SKSE\Plugins\SSEDisplayTweaks_Custom.ini&lt;/strong>&lt;/li>
+&lt;li>Edit &lt;strong>Line 6&lt;/strong> to match your desired resolution (and removed the &lt;code>;&lt;/code>)&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>As the Configuration and Runtime files may be overwritten by future updates, you may want to place changed files in a separate mod folder, such as &lt;code>[NoDelete] Custom Configurations&lt;/code>, placed at the end.&lt;/p>
+&lt;/blockquote>
 &lt;h3 id="performance-profile">Performance Profile&lt;/h3>
-&lt;p>If the list is too demanding out of the box, there is an alternative Performance profile intended for lower-end systems. This profile uses alternatives to the more intensive features (grass, LODs, ENB) to provide similar visuals at a lower cost.&lt;/p>
+&lt;p>If the list is too demanding out of the box, there is an alternative Performance profile intended for lower-end systems. This profile uses alternatives to the more intensive features (grass, LODs, shaders) to provide similar visuals at a lower cost.&lt;/p>
 &lt;blockquote>
 &lt;p>Note that saves are profile-specific. You can switch from the regular to the performance profile mid-playthrough, but you would have to copy over the saves from &lt;code>\Slidikins' Strenuous Skyrim\profiles\Slidikins' Strenuous Skyrim\saves\&lt;/code> to &lt;code>\Slidikins' Strenuous Skyrim\profiles\Slidikins' Strenuous Skyrim (Performance)\saves\&lt;/code> manually. Ignore the warnings when resuming your adventure.&lt;/p>
 &lt;/blockquote>
@@ -143,7 +155,7 @@
 &lt;li>Avoid the obvious hazards. Snowstorms clearly mean freezing temperatures, as are lakes and rivers in snowy regions. Stay out of them.&lt;/li>
 &lt;li>Purchasing or cooking hot soups and stews can warm you up as needed along your travels.&lt;/li>
 &lt;li>Wearing clothes with a lot of coverage and/or fur will leave you warmer than other options. Conversely, metal armor is more susceptible to lower temperatures. Heavy armor users may want to carry a change of clothes for the road.&lt;/li>
-&lt;li>The winter months will be colder than the rest of the year. Factor that into your preparations.&lt;/li>
+&lt;li>The realm changes with each season, with the winter months being the coldest of the year. Factor that into your preparations.&lt;/li>
 &lt;/ul>
 &lt;h3 id="other-notes">Other Notes&lt;/h3>
 &lt;ul>
@@ -180,6 +192,7 @@
 &lt;h3 id="followers">Followers&lt;/h3>
 &lt;p>It sounds like the deck is stacked against you, and in many ways it is. But you don&amp;rsquo;t have to go it alone. Keep in mind the following changes when bringing a follower along:&lt;/p>
 &lt;ul>
+&lt;li>NPCs, including followers, use ammo the same way you do. If your follower uses a bow, make sure to keep them supplied with arrows.&lt;/li>
 &lt;li>Followers and summoned/reanimated creatures are affected by the same difficulty modifiers as you, the player. This makes them much less effective at higher levels without compensating with better equipment.&lt;/li>
 &lt;li>Followers who run out of Health will be in a &amp;ldquo;downed&amp;rdquo; state for up to 2 minutes unless healed by Restoration magic. Enemies will ignore them in this state, redirecting their ire towards you. (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/41228">&lt;em>STAYDOWN&lt;/em>&lt;/a>)&lt;/li>
 &lt;li>Mercenaries will charge more for their services based on factors such as their level. (&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/45677">&lt;em>Dynamic Mercenary Fees&lt;/em>&lt;/a>)&lt;/li>
@@ -206,10 +219,10 @@
 &lt;h4 id="stay-in-range-of-whiterun">Stay in Range of Whiterun&lt;/h4>
 &lt;p>The urge to explore is strong but try to fight it off in the early game. There is plenty to do in Whiterun Hold once you’ve reached Riverwood, and that content should get you to Level 10 without too many hitches. A &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17576">&lt;em>Missives&lt;/em>&lt;/a> board can be found in Whiterun if you need additional tasks. Bleak Falls Barrow can be handled easily by Level 5, though you may want to wait until you’re in the Level 10-15 range before tackling Dragon Rising. Also, buy Breezehome. All of the other homes are more expensive and you’ll need someplace reliable to store your valuables until you can afford them.&lt;/p>
 &lt;h4 id="bring-a-light">Bring a Light&lt;/h4>
-&lt;p>&lt;em>Lux&lt;/em> (and its related mods) change interior lighting so that light comes from the visible, reasonable sources. Torches, candles, windows, etc. and so on. This makes certain areas, such as dungeons, quite dark at times. Fires on the road can also be put out by storms. Carry a source of light with you (such as a torch) so that you don&amp;rsquo;t find yourself lost in the shadows.&lt;/p>
+&lt;p>The interior lighting is changed so that light comes from visible, reasonable sources. Torches, candles, windows, etc. and so on. This can make certain areas, such as dungeons, quite dark at times. Carry a source of light with you (such as a torch) so that you don&amp;rsquo;t find yourself lost in the shadows.&lt;/p>
 &lt;h3 id="mid-game-level-10---30">Mid Game (Level 10 - 30)&lt;/h3>
 &lt;h4 id="find-a-follower">Find a Follower&lt;/h4>
-&lt;p>If you haven&amp;rsquo;t already, consider choosing someone to accompany you on your adventures. Ideally they should complement your skill set. If you&amp;rsquo;re a frontliner, consider a follower good at archery or magic. Or vice versa if you like to attack from range. Just remember to provide them with quality equipment as their usefulness will plummet if they can&amp;rsquo;t keep up in fights.&lt;/p>
+&lt;p>If you haven&amp;rsquo;t already, consider choosing someone to accompany you on your adventures. Ideally they should complement your skill set. If you&amp;rsquo;re a frontliner, consider a follower good at archery (supply them with arrows!) or magic. Or vice versa if you like to attack from range. Just remember to provide them with quality equipment as their usefulness will plummet if they can&amp;rsquo;t keep up in fights.&lt;/p>
 &lt;h4 id="buy-a-horse">Buy a Horse&lt;/h4>
 &lt;p>Okay, now forget what I just said about staying local. It’s time to explore and get into the thick of it! Time passes fast on the overworld so unless you want to spend all of daylight traveling from Point A to Point B, invest in a horse to shorten your travel times. And if you’re really going far I recommend making use of the carriages from time to time. Since your carry weight (and that of your follower) is halved, horses are also the best way to move a lot of supplies from one place to another. (Press &lt;code>H&lt;/code> while looking at the horse to use its saddlebags.)&lt;/p>
 &lt;h4 id="join-a-faction">Join a Faction&lt;/h4>
@@ -221,6 +234,69 @@
 &lt;p>I can’t stress this enough. In the late game you might deal with areas that are scaled above your Level 50 limit, some at that point before you even reach the cap. You’ll want every advantage you can get to bridge the gap and most of those advantages are obtained through crafting. If you ignored this early on, now’s a good time to reconsider it. If on Master or Legendary difficulty, you might even need to make different equipment sets for different types of enemies.&lt;/p>
 &lt;h4 id="and-draughts-of-fate-unwound">And Draughts of Fate Unwound&lt;/h4>
 &lt;p>Combining the previous two tips into one, don&amp;rsquo;t be afraid to use your excess cash on Draughts of Fate Unwound from apothecaries. These will refund all of your perk points, allowing you to redistribute them in ways that are more useful to your current goals. Can&amp;rsquo;t find the highest tier gear? Use a draught and craft it yourself. Already crafted everything you need and no longer want the crafting perks? Use a draught and spend those points on other skills. (For this reason it&amp;rsquo;s not a bad idea to dabble in all 3 crafting skills regardless of your build as you play.)&lt;/p></description></item><item><title>Skyrim-Se: Changelog</title><link>https://thephoenixflavour.com/skyrim-se/sss/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thephoenixflavour.com/skyrim-se/sss/changelog/</guid><description>
+&lt;h2 id="release-500a2">Release 5.0.0a2&lt;/h2>
+&lt;p>Issues fixed since last Alpha:&lt;/p>
+&lt;ul>
+&lt;li>Starting the game with a controller plugged in should no longer crash the game. Nor should plugging one in after launching the game. However, you can&amp;rsquo;t switch between KB&amp;amp;M and Controller at will anymore.&lt;/li>
+&lt;li>Ultrawide options (21:9 and 32:9) are actually supported this time. Instructions on the Installation page have been updated to let people know what to do.&lt;/li>
+&lt;li>The Abandoned Shack has all of its walls once again. It shouldn&amp;rsquo;t have been &lt;em>that&lt;/em> abandoned.&lt;/li>
+&lt;li>DynDOLOD now uses the more stable DLL version. This results in a larger output file but should result in far, far fewer crashes when loading saves.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>This update is save-safe with 5.0.0a.&lt;/strong> Just make sure to save indoors where DynDOLOD isn&amp;rsquo;t active due to the new outputs.&lt;/p>
+&lt;details>
+&lt;h5 id="controls">Controls&lt;/h5>
+&lt;ul>
+&lt;li>Removed Auto Input Switch&lt;/li>
+&lt;li>Removed Modern Toggle Walk-Run Fix&lt;/li>
+&lt;li>Added Cobb Controlmap Fix&lt;/li>
+&lt;li>Modified Cobb Controlmap Fix to include Modern Toggle Walk-Run Fix changes&lt;/li>
+&lt;/ul>
+&lt;h5 id="optional-widescreen-support">(Optional) Widescreen Support&lt;/h5>
+&lt;ul>
+&lt;li>Added Convenient Dialogue UI - 21x9 Aspect Ratio Support&lt;/li>
+&lt;li>Added Convenient Dialogue UI - 32x9 Aspect Ratio Support&lt;/li>
+&lt;/ul>
+&lt;h5 id="lod-resources">LOD Resources&lt;/h5>
+&lt;ul>
+&lt;li>Removed DynDOLOD - NG&lt;/li>
+&lt;li>Added DynDOLOD - DLL&lt;/li>
+&lt;li>Added DynDOLOD - Scripts&lt;/li>
+&lt;/ul>
+&lt;h5 id="misc-structures">Misc Structures&lt;/h5>
+&lt;ul>
+&lt;li>Removed Skyrim 3D Signs&lt;/li>
+&lt;li>Removed Skyrim 3D Signs - Navigation Fix&lt;/li>
+&lt;li>Removed Skyrim 3D Signs - Missing Generic Signs Patch&lt;/li>
+&lt;li>Removed A Blacksmith Sign&lt;/li>
+&lt;li>Added Skyking Signs&lt;/li>
+&lt;/ul>
+&lt;h5 id="valuable-objects">Valuable Objects&lt;/h5>
+&lt;ul>
+&lt;li>Added Stacks of Septims - 3D Coin Piles&lt;/li>
+&lt;li>Added Ancient Imperial Septims - Stacks of Septims Patch&lt;/li>
+&lt;/ul>
+&lt;h5 id="immersion">Immersion&lt;/h5>
+&lt;ul>
+&lt;li>Added C.O.I.N. - Stacks of Septims Patch&lt;/li>
+&lt;/ul>
+&lt;h5 id="cities-of-the-north">Cities of the North&lt;/h5>
+&lt;ul>
+&lt;li>Removed COTN - Winterhold - Skyrim 3D Signs Patch&lt;/li>
+&lt;/ul>
+&lt;h4 id="updates">Updates&lt;/h4>
+&lt;ul>
+&lt;li>Updated Object Categorization Framework to 5.2&lt;/li>
+&lt;li>Updated powerofthree&amp;rsquo;s Tweaks to 1.9.2&lt;/li>
+&lt;li>Updated DALC Fix Preset to 2.2&lt;/li>
+&lt;li>Updated Fires and Embers Clipping Fix to 2.7&lt;/li>
+&lt;li>Updated Blade and Blunt - A Combat Overhaul to 3.5&lt;/li>
+&lt;li>Updated NPC Animation Remix to 1.8.2&lt;/li>
+&lt;/ul>
+&lt;h4 id="outputs">Outputs&lt;/h4>
+&lt;ul>
+&lt;li>Regenerated DynDOLOD (and Performance)&lt;/li>
+&lt;/ul>
+&lt;/details>
 &lt;h2 id="release-500ɑ">Release 5.0.0ɑ&lt;/h2>
 &lt;blockquote>
 &lt;p>2024-03-03&lt;/p>
@@ -251,6 +327,7 @@
 &lt;h5 id="frameworks">Frameworks&lt;/h5>
 &lt;ul>
 &lt;li>Removed KiLoader for Skyrim&lt;/li>
+&lt;li>Added KreatE&lt;/li>
 &lt;li>Added Constructible Object Custom Keyword System NG&lt;/li>
 &lt;li>Added Object Categorization Framework&lt;/li>
 &lt;li>Added Item Property Manipulator&lt;/li>
@@ -369,13 +446,13 @@
 &lt;li>Added NORDIC UI - Active Effects for SkyUI (just in case people enable them)&lt;/li>
 &lt;li>Added NORDIC UI - More Informative Console&lt;/li>
 &lt;/ul>
-&lt;h5 id="optional-widescreen-support">(Optional) Widescreen Support&lt;/h5>
+&lt;h5 id="optional-widescreen-support-1">(Optional) Widescreen Support&lt;/h5>
 &lt;ul>
 &lt;li>Removed SkyUI - Remove QuickSave Button - 21x9 Aspect Ratio Support&lt;/li>
 &lt;li>Removed Constructible Object Custom Keyword System - 21x9 Aspect Ratio Support&lt;/li>
 &lt;li>Added SkyUI - 32x9 Aspect Ratio Support&lt;/li>
 &lt;/ul>
-&lt;h5 id="lod-resources">LOD Resources&lt;/h5>
+&lt;h5 id="lod-resources-1">LOD Resources&lt;/h5>
 &lt;ul>
 &lt;li>Added DynDOLOD - TexGen Fixes&lt;/li>
 &lt;/ul>
@@ -467,6 +544,7 @@
 &lt;li>Added Window Shadows RT - Updated&lt;/li>
 &lt;li>Added WindowShadows - High Hrothgar Fixed Patch&lt;/li>
 &lt;li>Added Skyrim is Luminous&lt;/li>
+&lt;li>Added DALC Fix Preset&lt;/li>
 &lt;/ul>
 &lt;h5 id="fire--candles">Fire &amp;amp; Candles&lt;/h5>
 &lt;ul>
@@ -616,7 +694,7 @@
 &lt;li>Added FYX - RavenRock Docks and Fences Round Posts&lt;/li>
 &lt;li>Added Rally&amp;rsquo;s Riekling Outposts - Parallax&lt;/li>
 &lt;/ul>
-&lt;h5 id="misc-structures">Misc Structures&lt;/h5>
+&lt;h5 id="misc-structures-1">Misc Structures&lt;/h5>
 &lt;ul>
 &lt;li>Added Rally&amp;rsquo;s Handcarts - Base Object Swapper&lt;/li>
 &lt;/ul>
@@ -635,7 +713,7 @@
 &lt;li>Added Static Swaps Variety - Fishing Poles&lt;/li>
 &lt;li>Added Static Swaps Variety - Festival Flags&lt;/li>
 &lt;/ul>
-&lt;h5 id="valuable-objects">Valuable Objects&lt;/h5>
+&lt;h5 id="valuable-objects-1">Valuable Objects&lt;/h5>
 &lt;ul>
 &lt;li>Removed Rudy HQ - More Lights for ENB - Soul Gems&lt;/li>
 &lt;li>Removed Rustic Animated Potions and Poisons&lt;/li>
@@ -778,7 +856,7 @@
 &lt;li>Added Calcelmo Has Standards&lt;/li>
 &lt;li>Added Calcelmo Has Standards - Say No To Calcelmo TCIY Patch&lt;/li>
 &lt;/ul>
-&lt;h5 id="immersion">Immersion&lt;/h5>
+&lt;h5 id="immersion-1">Immersion&lt;/h5>
 &lt;ul>
 &lt;li>Removed Trade &amp;amp; Barter&lt;/li>
 &lt;li>Removed Mysticism - Trade and Barter Patch&lt;/li>
@@ -809,7 +887,7 @@
 &lt;li>Removed Better Windhelm Ground Meshes - Icy Windhelm&lt;/li>
 &lt;li>Added Dawnstar - The Hawking Horker&lt;/li>
 &lt;/ul>
-&lt;h5 id="cities-of-the-north">Cities of the North&lt;/h5>
+&lt;h5 id="cities-of-the-north-1">Cities of the North&lt;/h5>
 &lt;ul>
 &lt;li>Removed COTN - Dawnstar - Partitioned Meshes for Lighting&lt;/li>
 &lt;li>Removed COTN - Morthal - Partitioned Meshes for Lighting&lt;/li>
@@ -943,229 +1021,84 @@
 &lt;li>Edited Azurite Weathers II script to account for Four Seasons changes&lt;/li>
 &lt;li>Edited Seasonal Alchemy - Add-on scripts to account for Four Seasons changes (some critters will disappear during Winter, a few will also disappear during Autumn)&lt;/li>
 &lt;/ul>
-&lt;h3 id="updates">Updates&lt;/h3>
+&lt;h3 id="updates-1">Updates&lt;/h3>
 &lt;ul>
-&lt;li>
-&lt;p>Updated DynDOLOD to 3.00 Alpha-167&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Address Library for SKSE Plugins to 11.0 (12)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated PapyrusUtil to 4.6 (23)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated JContainers to 4.2.9 (25)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Keyword Item Distributor to 3.2 (27)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Sound Record Distributor to 1.5.1 (29)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Scaleform Translation Plus Plus to 1.8 (35)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Fuz Ro D-oh - Silent Voice to 2.5 (36)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Constructible Object Custom Keyword System to 1.1 (41)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Photo Mode to 1.3.0 (60)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Unofficial Skyrim Special Edition Patch to 4.3a (69)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Navigator - Navmesh Fixes to 1.5.6 (72)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Classic Sprinting Redone to 2.3.1 (86)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Paired Animation Improvements to 1.0.2 (101)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Open Animation Replacer to 2.1 (103)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Glowing Mushroom Collision Fixes to 1.2.1 (146)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Skyrim Landscape and Water Fixes to 8.5.2 (171)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Capture Warmer to 1.2 (200)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Oxygen Meter 2 to 1.0.7 (250)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated DynDOLOD - NG to Alpha-15 (296)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated LOD Model Library for DynDOLOD to 1.4.3 (300)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Markarth Fixed AF (FOMOD Update) (320)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated High Hrothgar Fixed to 1.07 (323)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Skyland AIO to 4.32 (340)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Skyland Bits and Bobs - A Clutter Overhaul to 1.9 (347)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Particle Patch for ENB to 1.2.8 (371)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Storm Lightning to 1.4.21 (393)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Embers XD to 2.9.6 (417)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Water In Wells - Mesh-only Animated Wells to 0.8 (485)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Rally&amp;rsquo;s Solstheim Plants to 1.2 (580)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Spice Of Life - Orc Longhouses - FYX 3D Patches to 2.0 (663)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Rally&amp;rsquo;s Crates to 1.3 (679)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Rally&amp;rsquo;s Market Stalls to 1.3 (682)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Pillows - Xtudo HD Version to 3.1 (697)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Rally&amp;rsquo;s Bees and More to 1.5 (852)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Glass Armors and Weapons Retexture to 2.1 (909)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Mysticism - A Magic Overhaul to 2.4.1 (995)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Mundus - A Standing Stone Overhaul to 1.12.2 (1000)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Mundus - A Standing Stone Overhaul - USSEP Patch to 1.12.2 (1001)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Aetherius - A Race Overhaul to 2.12.1 (1002)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Aetherius - Starting Spells Addon to 2.12.1 (1003)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Aetherius - NPC Spell Absorption Addon to 2.12.1 (1004)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Scion - A Vampire Overhaul to 2.2.2 (1007)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Stormcrown - A Shout Overhaul to 1.1.16 (1012)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Artificer - An Artifact Overhaul to 1.0.11 (1027)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Artificer - USSEP Patch to 1.0.2 (1028)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Alchemy Plus to 1.1 (1052)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Guard Dialogue Overhaul to 3.0 (1095)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Narrative Gameplay Consistent Dialogue Tweaks to 1.9.5 (1108)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Brawl Lines Expansion Patch - NGCDT Patch to 1.9.4 (1109)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Blade and Blunt - A Combat Overhaul to 3.4.2 (1148)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Lawless - A Bandit Overhaul to 2.1 (1173)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Lawless - SimonRim Patch to 2.1 (1175)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Lawless - Expanded Enemy Coverage Addon to 2.1 (1176)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Lawless - Patch Collection to 2.1 (1177)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated C.O.I.N. - Coins of Interesting Natures to 2.1.3.2 (1253)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Immersive Display Overhaul to 1.31 (1273)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated XP32 Maximum Skeleton Special Extended to 5.06 (1341)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Survival Mode Improved to 1.5.2 (1372)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Kynareth Replaces Talos - Civil War Consequence to 2.0.1 (1445)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Seasons of Skyrim to 1.8.2 (1438)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Turn of the Seasons to 1.0.7.3 (1446)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Seasonal Landscapes - Additions to 1.8.2 (1457)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Extended Cut Saints and Seducers - Mysticism Rebalance to 2.1 (1469)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated The Heart of Dibella - Quest Expansion to 1.03 (1498)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Hand to Hand - An Adamant Addon to 1.5.8 (1511)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Pilgrim - A Religion Overhaul to 1.2.2 (1517)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated East Empire Company Armor to 2.0.1 (1543)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Lepidoptera - Apothecary Patch to 1.2.2 (1573)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Gesture Animation Remix to 2.1.1 (1582)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated NPC Animation Remix to 1.8.1 (1583)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Immersive Equipping Animations to 2.02 (1629)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Updated Kryptopyr&amp;rsquo;s Patch Hub mods to 4.0.4 (1177+)&lt;/p>
-&lt;/li>
+&lt;li>Updated DynDOLOD to 3.00 Alpha-167&lt;/li>
+&lt;li>Updated Address Library for SKSE Plugins to 11.0&lt;/li>
+&lt;li>Updated PapyrusUtil to 4.6&lt;/li>
+&lt;li>Updated JContainers to 4.2.9&lt;/li>
+&lt;li>Updated Keyword Item Distributor to 3.3&lt;/li>
+&lt;li>Updated Sound Record Distributor to 1.5.1&lt;/li>
+&lt;li>Updated Scaleform Translation Plus Plus to 1.8&lt;/li>
+&lt;li>Updated Fuz Ro D-oh - Silent Voice to 2.5&lt;/li>
+&lt;li>Updated Constructible Object Custom Keyword System to 1.1&lt;/li>
+&lt;li>Updated Photo Mode to 1.3.0&lt;/li>
+&lt;li>Updated powerofthree&amp;rsquo;s Tweaks to 1.9.1&lt;/li>
+&lt;li>Updated Unofficial Skyrim Special Edition Patch to 4.3a&lt;/li>
+&lt;li>Updated Navigator - Navmesh Fixes to 1.5.6&lt;/li>
+&lt;li>Updated Classic Sprinting Redone to 2.3.1&lt;/li>
+&lt;li>Updated Paired Animation Improvements to 1.0.2&lt;/li>
+&lt;li>Updated Open Animation Replacer to 2.1&lt;/li>
+&lt;li>Updated Glowing Mushroom Collision Fixes to 1.2.1&lt;/li>
+&lt;li>Updated Skyrim Landscape and Water Fixes to 8.5.2&lt;/li>
+&lt;li>Updated Capture Warmer to 1.2&lt;/li>
+&lt;li>Updated Oxygen Meter 2 to 1.0.7&lt;/li>
+&lt;li>Updated DynDOLOD - NG to Alpha-15&lt;/li>
+&lt;li>Updated LOD Model Library for DynDOLOD to 1.4.3&lt;/li>
+&lt;li>Updated Markarth Fixed AF (FOMOD Update)&lt;/li>
+&lt;li>Updated High Hrothgar Fixed to 1.07&lt;/li>
+&lt;li>Updated Skyland AIO to 4.32&lt;/li>
+&lt;li>Updated Skyland Bits and Bobs - A Clutter Overhaul to 1.9&lt;/li>
+&lt;li>Updated Particle Patch for ENB to 1.2.8&lt;/li>
+&lt;li>Updated Storm Lightning to 1.4.21&lt;/li>
+&lt;li>Updated Embers XD to 2.9.6&lt;/li>
+&lt;li>Updated Water In Wells - Mesh-only Animated Wells to 0.8&lt;/li>
+&lt;li>Updated Rally&amp;rsquo;s Solstheim Plants to 1.2&lt;/li>
+&lt;li>Updated Spice Of Life - Orc Longhouses - FYX 3D Patches to 2.0&lt;/li>
+&lt;li>Updated Rally&amp;rsquo;s Crates to 1.3&lt;/li>
+&lt;li>Updated Rally&amp;rsquo;s Market Stalls to 1.3&lt;/li>
+&lt;li>Updated Pillows - Xtudo HD Version to 3.1&lt;/li>
+&lt;li>Updated Rally&amp;rsquo;s Bees and More to 1.5&lt;/li>
+&lt;li>Updated Glass Armors and Weapons Retexture to 2.1&lt;/li>
+&lt;li>Updated Mysticism - A Magic Overhaul to 2.4.1&lt;/li>
+&lt;li>Updated Mundus - A Standing Stone Overhaul to 1.12.2&lt;/li>
+&lt;li>Updated Mundus - A Standing Stone Overhaul - USSEP Patch to 1.12.2&lt;/li>
+&lt;li>Updated Aetherius - A Race Overhaul to 2.12.1&lt;/li>
+&lt;li>Updated Aetherius - Starting Spells Addon to 2.12.1&lt;/li>
+&lt;li>Updated Aetherius - NPC Spell Absorption Addon to 2.12.1&lt;/li>
+&lt;li>Updated Scion - A Vampire Overhaul to 2.2.2&lt;/li>
+&lt;li>Updated Stormcrown - A Shout Overhaul to 1.1.16&lt;/li>
+&lt;li>Updated Artificer - An Artifact Overhaul to 1.0.11&lt;/li>
+&lt;li>Updated Artificer - USSEP Patch to 1.0.2&lt;/li>
+&lt;li>Updated Alchemy Plus to 1.1&lt;/li>
+&lt;li>Updated Guard Dialogue Overhaul to 3.0&lt;/li>
+&lt;li>Updated Narrative Gameplay Consistent Dialogue Tweaks to 1.9.5&lt;/li>
+&lt;li>Updated Brawl Lines Expansion Patch - NGCDT Patch to 1.9.4&lt;/li>
+&lt;li>Updated Blade and Blunt - A Combat Overhaul to 3.4.2&lt;/li>
+&lt;li>Updated Kryptopyr&amp;rsquo;s Patch Hub mods to 4.0.4&lt;/li>
+&lt;li>Updated Lawless - A Bandit Overhaul to 2.1&lt;/li>
+&lt;li>Updated Lawless - SimonRim Patch to 2.1&lt;/li>
+&lt;li>Updated Lawless - Expanded Enemy Coverage Addon to 2.1&lt;/li>
+&lt;li>Updated Lawless - Patch Collection to 2.1&lt;/li>
+&lt;li>Updated C.O.I.N. - Coins of Interesting Natures to 2.1.3.2&lt;/li>
+&lt;li>Updated Immersive Display Overhaul to 1.31&lt;/li>
+&lt;li>Updated XP32 Maximum Skeleton Special Extended to 5.06&lt;/li>
+&lt;li>Updated Survival Mode Improved to 1.5.2&lt;/li>
+&lt;li>Updated Kynareth Replaces Talos - Civil War Consequence to 2.0.1&lt;/li>
+&lt;li>Updated Seasons of Skyrim to 1.8.2&lt;/li>
+&lt;li>Updated Turn of the Seasons to 1.0.7.3&lt;/li>
+&lt;li>Updated Seasonal Landscapes - Additions to 1.8.2&lt;/li>
+&lt;li>Updated Extended Cut Saints and Seducers - Mysticism Rebalance to 2.1&lt;/li>
+&lt;li>Updated The Heart of Dibella - Quest Expansion to 1.03&lt;/li>
+&lt;li>Updated Hand to Hand - An Adamant Addon to 1.5.8&lt;/li>
+&lt;li>Updated Pilgrim - A Religion Overhaul to 1.2.2&lt;/li>
+&lt;li>Updated East Empire Company Armor to 2.0.1&lt;/li>
+&lt;li>Updated Lepidoptera - Apothecary Patch to 1.2.2&lt;/li>
+&lt;li>Updated Gesture Animation Remix to 2.1.1&lt;/li>
+&lt;li>Updated NPC Animation Remix to 1.8.1&lt;/li>
+&lt;li>Updated Immersive Equipping Animations to 2.02&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs">Outputs&lt;/h4>
+&lt;h4 id="outputs-1">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Synthesis Patches&lt;/li>
 &lt;li>Regenerated LODGen&lt;/li>
@@ -1188,12 +1121,12 @@
 &lt;li>&lt;strong>Widescreen Support:&lt;/strong> Reverted SkyUI - Remove QuickSave Button - 21x9 Aspect Ratio Support back to its original version&lt;/li>
 &lt;li>&lt;strong>Configuration:&lt;/strong> Hid the Stealth Meter through SkyHUD as well as previous methods&lt;/li>
 &lt;/ul>
-&lt;h3 id="updates-1">Updates&lt;/h3>
+&lt;h3 id="updates-2">Updates&lt;/h3>
 &lt;ul>
 &lt;li>Downgraded Unofficial Skyrim Special Edition Patch to 4.9.2a&lt;/li>
 &lt;li>Updated Enemies Respect Encounter Zones to 1.4.2&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-1">Outputs&lt;/h4>
+&lt;h4 id="outputs-2">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Synthesis Patches&lt;/li>
 &lt;li>Regenerated LODGen&lt;/li>
@@ -1244,7 +1177,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Resolved many conflicts between Default Face NPCs Fixed and other mods&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Extended Skyrim Landscape and Water Fixes&amp;rsquo; HelgenMud swap to the Helgen used in the intro of the game&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-2">Updates&lt;/h4>
+&lt;h4 id="updates-3">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated Mod Organizer 2 to 2.5.0&lt;/li>
 &lt;li>Updated Root Builder to 5.0.4&lt;/li>
@@ -1314,7 +1247,7 @@
 &lt;li>Updated Adamant - Bard Perks Addon - Pilgrim Integration to 1.1&lt;/li>
 &lt;li>Updated NPC Animation Remix to 1.8&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-2">Outputs&lt;/h4>
+&lt;h4 id="outputs-3">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Synthesis Patches&lt;/li>
 &lt;li>Regenerated LODGen&lt;/li>
@@ -1347,7 +1280,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Removed some DisableDisenchant keywords from artifacts&lt;/li>
 &lt;li>&lt;strong>Performance Profile:&lt;/strong> Ensured everything was actually enabled&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-3">Updates&lt;/h4>
+&lt;h4 id="updates-4">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated DynDOLOD to 3.00 Alpha-159&lt;/li>
 &lt;li>Updated Address Library for SKSE Plugins to 9.0&lt;/li>
@@ -1490,7 +1423,7 @@
 &lt;li>&lt;strong>Configuration:&lt;/strong> Edited Immersive Equipment Displays settings to hide ammo when ranged weapons are not actively equipped&lt;/li>
 &lt;li>&lt;strong>Performance Profile:&lt;/strong> Enabled ElSopa&amp;rsquo;s Potion Redone section&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-4">Updates&lt;/h4>
+&lt;h4 id="updates-5">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated SSEEdit to 4.1.5&lt;/li>
 &lt;li>Updated Root Builter to 4.5.2&lt;/li>
@@ -1578,7 +1511,7 @@
 &lt;li>Updated Yet Another Music Merge to 1.1&lt;/li>
 &lt;li>Updated Yet Another Music Merge - ECSS Patch to 1.1-ECSS&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-3">Outputs&lt;/h4>
+&lt;h4 id="outputs-4">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Nemesis&lt;/li>
 &lt;li>Regenerated Synthesis Patches&lt;/li>
@@ -1630,7 +1563,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Copied MiddenVelehk&amp;rsquo;s &lt;code>00075C7F&lt;/code> appearance from Additional Dremora Faces&lt;/li>
 &lt;li>&lt;strong>Configuration:&lt;/strong> Fixed a handful of values in the SkyrimUncapper.ini, these were erroneously overwritten by an automatic update to the file.&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-5">Updates&lt;/h4>
+&lt;h4 id="updates-6">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated Root Builder to 4.5.1&lt;/li>
 &lt;li>Updated DynDOLOD to Alpha-152&lt;/li>
@@ -1671,7 +1604,7 @@
 &lt;li>Updated NPC Animation Remix to 1.6.2&lt;/li>
 &lt;li>Updated SD&amp;rsquo;s Lotta Patches to 2023.9.27&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-4">Outputs&lt;/h4>
+&lt;h4 id="outputs-5">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated FaceGen (again, sorry!)&lt;/li>
 &lt;li>Regenerated Slidikins&amp;rsquo; Strenuous Skyrim - Sorcerer Patch&lt;/li>
@@ -1695,7 +1628,7 @@
 &lt;li>&lt;strong>New Animations:&lt;/strong> Added Vanargand Animations II - Female Idle Walk And Run&lt;/li>
 &lt;li>&lt;strong>New Music:&lt;/strong> Added Yet Another Music Merge - ECSS Patch&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-6">Updates&lt;/h4>
+&lt;h4 id="updates-7">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated DynDOLOD to Alpha-142&lt;/li>
 &lt;li>Updated Crash Logger to 1.10&lt;/li>
@@ -1710,7 +1643,7 @@
 &lt;li>Updated Dragon War - Durnehviir Resurrected Patch to 3.1.2&lt;/li>
 &lt;li>Updated Dragon War - Audio Overhaul for Skyrim Patch to 3.1.2&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-5">Outputs&lt;/h4>
+&lt;h4 id="outputs-6">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Nemesis&lt;/li>
 &lt;li>Regenerated FaceGen&lt;/li>
@@ -1741,7 +1674,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Resolved conflicts between Fishing artifact adjustments&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Resolved conflict betweeen ElSopa&amp;rsquo;s Potions Redone and Dragon Hunting on Dragon Infusion &lt;code>000E6DF5&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-7">Updates&lt;/h4>
+&lt;h4 id="updates-8">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated DynDOLOD to Alpha-140&lt;/li>
 &lt;li>Updated Keyword Item Distributor to 3.0.4&lt;/li>
@@ -1771,7 +1704,7 @@
 &lt;li>Updated Icy Windhelm to 2.3&lt;/li>
 &lt;li>Updated House of Horrors - Quest Expansion to 1.12&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-6">Outputs&lt;/h4>
+&lt;h4 id="outputs-7">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Slidikins&amp;rsquo; Strenuous Skyrim - Landscape Patch&lt;/li>
 &lt;/ul>
@@ -1804,7 +1737,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Restored Magnitudes to Magelight &lt;code>00043323&lt;/code> and Candlelight &lt;code>00043324&lt;/code> to prevent issue with Player Spell Lighting&lt;/li>
 &lt;li>&lt;strong>Configuration:&lt;/strong> Changed Contextual Crosshair&amp;rsquo;s INI to force crosshair on for ranged weapons and spells as it was not consistent previously&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-8">Updates&lt;/h4>
+&lt;h4 id="updates-9">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated DynDOLOD to Alpha-135&lt;/li>
 &lt;li>Updated The Taste of Death Improved Shutdown to 1.3.2&lt;/li>
@@ -1886,7 +1819,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Removed edits to LItemFoodInnCommon &lt;code>00098E5F&lt;/code> and LItemFoodInnCommon10 &lt;code>0010E0E1&lt;/code>&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Removed various edits to removed Food and Drink mods&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-9">Updates&lt;/h4>
+&lt;h4 id="updates-10">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated DynDOLOD to 3.00 Alpha-134&lt;/li>
 &lt;li>Updated Synthesis to 0.26&lt;/li>
@@ -1953,7 +1886,7 @@
 &lt;li>Updated Jarl Sitting Animation Replacer to 2.0&lt;/li>
 &lt;li>Updated lilebonymace&amp;rsquo;s Patches to 2.33&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-7">Outputs&lt;/h4>
+&lt;h4 id="outputs-8">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Synthesis - Sorcerer Patch&lt;/li>
 &lt;li>Regenerated Nemesis&lt;/li>
@@ -1991,7 +1924,7 @@
 &lt;li>&lt;strong>Creation Club Resolution Patch:&lt;/strong> Removed edit to ccBGSSSE037_VarlaStone (no longer needed with YASTM)&lt;/li>
 &lt;li>&lt;strong>Creation Club Resolution Patch:&lt;/strong> Adjusted Dunmeri Tunics edits to be sensible&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-10">Updates&lt;/h4>
+&lt;h4 id="updates-11">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated Weapons Armor Clothing and Clutter Fixes to 2.9.4&lt;/li>
 &lt;li>Updated Assorted Mesh Fixes to 0.85&lt;/li>
@@ -2006,7 +1939,7 @@
 &lt;li>Updated Hand to Hand - An Adamant Addon to 1.5.5&lt;/li>
 &lt;li>Updated Thaumaturgy - WACCF ACE Patch to 1.3&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-8">Outputs&lt;/h4>
+&lt;h4 id="outputs-9">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated FaceGen&lt;/li>
 &lt;li>Regenerated LODGen&lt;/li>
@@ -2044,7 +1977,7 @@
 &lt;li>&lt;strong>Conflict Resolution Patch:&lt;/strong> Modified New Armory Series - Lunar Weapons effects to better match Thaumaturgy&lt;/li>
 &lt;li>&lt;strong>Synthesis Patches:&lt;/strong> Removed Mortal Enemies Patch&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-11">Updates&lt;/h4>
+&lt;h4 id="updates-12">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated MQ105SprintTriggerScript Fix to 1.0.1&lt;/li>
 &lt;li>Updated Assorted Mesh Fixes to 0.83&lt;/li>
@@ -2161,7 +2094,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Resolved MAGShockImpact02 &lt;code>00059ED8&lt;/code> in a different way&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Cleaned up files that were no longer needed (hopefully!)&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-12">Updates&lt;/h4>
+&lt;h4 id="updates-13">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated Fluency Themes to 1.4&lt;/li>
 &lt;li>Updated Root Builder to 4.4.3&lt;/li>
@@ -2287,7 +2220,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Resolved Leveled List conflict between Apothecary and Ish&amp;rsquo;s Respec Mod &lt;code>0009CD41&lt;/code>&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Disabled EVG Conditional Idles&amp;rsquo; shield cover animations by default&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-13">Updates&lt;/h4>
+&lt;h4 id="updates-14">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated Spell Perk Item Distributor to 6.6.1&lt;/li>
 &lt;li>Updated MergeMapper to 1.5&lt;/li>
@@ -2328,7 +2261,7 @@
 &lt;li>Updated Hand to Hand - An Adamant Addon to 1.4.7&lt;/li>
 &lt;li>Updated Gesture Animation Remix to 2.0&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-9">Outputs&lt;/h4>
+&lt;h4 id="outputs-10">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Reuploaded Nemesis (previous upload flagged for some reason)&lt;/li>
 &lt;li>Regenerated Synthesis Patches&lt;/li>
@@ -2354,7 +2287,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Resolved differences between Embers XD and Frozen Electrocuted Combustion for FireFXShader &lt;code>0001B212&lt;/code>&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Resolved differences between Embers XD and No Edge Glow for DarkElfAncestorWrathFXShader &lt;code>0010F56C&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-14">Updates&lt;/h4>
+&lt;h4 id="updates-15">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated Keyword Item Distributor to 3.0.2&lt;/li>
 &lt;li>Updated Mesh Patches for Lux Orbis to 1.5.2&lt;/li>
@@ -2428,7 +2361,7 @@
 &lt;li>&lt;strong>Combat &amp;amp; Encounters:&lt;/strong> Added Locational Encounter Zones&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Hid &amp;lsquo;Combat End Reset&amp;rsquo;spell from Seeking Out Sneaks from the effects menu&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-15">Updates&lt;/h4>
+&lt;h4 id="updates-16">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated DynDOLOD to 3.00 Alpha-118&lt;/li>
 &lt;li>Updated ENBSeries to 0.488&lt;/li>
@@ -2470,7 +2403,7 @@
 &lt;li>Updated Lux Via to 1.6&lt;/li>
 &lt;li>Updated Lux Orbis to 3.2&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-10">Outputs&lt;/h4>
+&lt;h4 id="outputs-11">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Left Hand Weapon Meshes&lt;/li>
 &lt;li>Regenerated LODGen&lt;/li>
@@ -2496,7 +2429,7 @@
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Fixed Lunar Armory loadscreen (also thanks to Berna)&lt;/li>
 &lt;li>&lt;strong>Conflict Resolution:&lt;/strong> Removed &lt;code>textures/landscape/grass/columbine.dds&lt;/code> from the ENB Complex Grass collection (hat trick for Berna)&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-16">Updates&lt;/h4>
+&lt;h4 id="updates-17">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated powerofthree&amp;rsquo;s Papyrus Extender to 5.5&lt;/li>
 &lt;li>Updated Bash Bug Fix to 2.1.1&lt;/li>
@@ -2539,7 +2472,7 @@
 &lt;li>&lt;strong>New Mechanics:&lt;/strong> Removed Skyrim Wayshrines - Immersive Fast Travel&lt;/li>
 &lt;li>&lt;strong>ENB:&lt;/strong> Increased &lt;em>AmbientLightingIntensityInteriorDay&lt;/em> and &lt;em>AmbientLightingIntensityInteriorNight&lt;/em> to &lt;code>1.00&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-11">Outputs&lt;/h4>
+&lt;h4 id="outputs-12">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated DynDOLOD (and Performance)&lt;/li>
 &lt;/ul>
@@ -2692,7 +2625,7 @@
 &lt;p>&lt;strong>Lux, Lux Orbis, &amp;amp; Lux Via:&lt;/strong> These mods are so big they need their own section. I&amp;rsquo;ve included everything that was necessary given the other choices in the modlist.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-17">Updates&lt;/h4>
+&lt;h4 id="updates-18">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated Crash Logger to 1.8&lt;/li>
 &lt;li>Updated Spell Perk Item Distributor to 6.4&lt;/li>
@@ -2705,7 +2638,7 @@
 &lt;li>Updated Hand to Hand - An Adamant Addon to 1.4.2&lt;/li>
 &lt;li>Updated NPC Animation Remix to 1.2.1&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-12">Outputs&lt;/h4>
+&lt;h4 id="outputs-13">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated everything&lt;/li>
 &lt;/ul>
@@ -2734,7 +2667,7 @@
 &lt;li>&lt;strong>Configuration:&lt;/strong> Lowered SkillFormulaCaps to 100 (this won&amp;rsquo;t change much of anything as Simonrim bonuses tend not to give raw skill boosts, I&amp;rsquo;m just cleaning up the file)&lt;/li>
 &lt;li>&lt;strong>Configuration:&lt;/strong> Adjusted Scrambled Bugs settings to match Simon&amp;rsquo;s suggestions for his gameplay suite&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-18">Updates&lt;/h4>
+&lt;h4 id="updates-19">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated NVIDIA Reflex Support to 1.1.2&lt;/li>
 &lt;li>Updated Dwemer Gates Don&amp;rsquo;t Reset to 1.3.7&lt;/li>
@@ -2744,7 +2677,7 @@
 &lt;li>Updated Honed Metal Revoiced to 1.8&lt;/li>
 &lt;li>Updated The Choice Is Yours to 2.7&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-13">Outputs&lt;/h4>
+&lt;h4 id="outputs-14">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Left Hand Meshes&lt;/li>
 &lt;li>Regenerated Nemesis&lt;/li>
@@ -2903,7 +2836,7 @@
 &lt;li>&lt;strong>Conflict Resolution (Creation Club):&lt;/strong> Removed edits to the Steed Stone and Extra Pockets&lt;/li>
 &lt;li>&lt;strong>FaceGen:&lt;/strong> Removed extraneous data from TPF&amp;rsquo;s FaceGen data (it&amp;rsquo;s much smaller now!)&lt;/li>
 &lt;/ul>
-&lt;h4 id="updates-19">Updates&lt;/h4>
+&lt;h4 id="updates-20">Updates&lt;/h4>
 &lt;ul>
 &lt;li>Updated xLODGEN to 97&lt;/li>
 &lt;li>Updated DynDOLOD to 3.00 Alpha-111&lt;/li>
@@ -2997,7 +2930,7 @@
 &lt;li>Updated ENBSeries to v0.384&lt;/li>
 &lt;li>Updated Blade and Blunt - Vanilla Difficulty Modifiers to 2.0&lt;/li>
 &lt;/ul>
-&lt;h4 id="outputs-14">Outputs&lt;/h4>
+&lt;h4 id="outputs-15">Outputs&lt;/h4>
 &lt;ul>
 &lt;li>Regenerated Left Hand Meshes&lt;/li>
 &lt;li>Regenerated Nemesis&lt;/li>

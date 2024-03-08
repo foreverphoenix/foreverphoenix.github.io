@@ -866,7 +866,7 @@ You&amp;rsquo;re a mage with very little need for Magicka. Your points are best 
 &lt;/ul>
 &lt;p>This greatly helps you in your goal of getting every drop of benefit from alchemical reagents, and works all the time.&lt;/p>
 &lt;details>
-&lt;p>Ultimately you&amp;rsquo;ll snatch all the power you can here, but your initial focus depends on your priorities and playstyle.&lt;/p>
+&lt;p>Gaining perk points here means spending more time in your Vampire Lord form. Your initial focus will depend on whether you just want to dabble or continue spending time as a Vampire Lord.&lt;/p>
 &lt;h4 id="vampire-perks-blood-mage">Vampire Perks: Blood Mage&lt;/h4>
 &lt;p>&lt;em>Ignore your transformation and bolster your ability to sustain Health off of others.&lt;/em>&lt;/p>
 &lt;ul>
@@ -877,8 +877,8 @@ You&amp;rsquo;re a mage with very little need for Magicka. Your points are best 
 &lt;li>&lt;strong>Ancient Thirst 2:&lt;/strong> Spells that absorb Health are 50% stronger.&lt;/li>
 &lt;li>&lt;strong>Dread Harvest 2:&lt;/strong> Spells that absorb Health are 100% stronger against targets who fall below half Health.&lt;/li>
 &lt;/ul>
-&lt;h4 id="vampire-perks-chaos-mage">Vampire Perks: Chaos Mage&lt;/h4>
-&lt;p>&lt;em>Gain access to special Destruction spells and the extra Magicka resources to utilize them as a Vampire Lord.&lt;/em>&lt;/p>
+&lt;h4 id="vampire-perks-vampire-lord-of-chaos">Vampire Perks: Vampire Lord of Chaos&lt;/h4>
+&lt;p>&lt;em>Embrace the transformation to gain access to special Destruction spells and the extra Magicka resources to utilize them.&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Nightwalker 1:&lt;/strong> You deal 25% extra damage as a Vampire Lord.&lt;/li>
 &lt;li>&lt;strong>Underworld Lineage 1:&lt;/strong> As a Vampire Lord, you can cast the spells Frozen Wind and Lightning Flood.&lt;/li>
@@ -886,6 +886,7 @@ You&amp;rsquo;re a mage with very little need for Magicka. Your points are best 
 &lt;li>&lt;strong>Unearthly Will:&lt;/strong> As a Vampire Lord, your Health and Magicka are increased by 100.&lt;/li>
 &lt;li>&lt;strong>Potent Blood:&lt;/strong> As a Vampire Lord, your Magicka Regeneration is increased by 100%.&lt;/li>
 &lt;li>&lt;strong>Power of the Grave:&lt;/strong> As a Vampire Lord, your spells cost 25% less Magicka.&lt;/li>
+&lt;li>And continue through the rest of the tree&amp;hellip;&lt;/li>
 &lt;/ul>
 &lt;/details>
 &lt;h2 id="standing-stones">Standing Stones&lt;/h2>
