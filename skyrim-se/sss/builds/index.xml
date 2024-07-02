@@ -186,7 +186,7 @@ Your racial boost to Magicka goes a long way but you&amp;rsquo;ll need a little 
 &lt;p>Despite being a Stealth class, the Pilgrim is best served by the Warrior. A shieldbearer benefits greatly from the blocking bonus and the extra health allows you to spend your early attribute points elsewhere if necessary.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-atronach.webp">
 &lt;h4 id="the-atronach">The Atronach&lt;/h4>
-&lt;p>&lt;em>&lt;strong>Sorcerer’s Oath:&lt;/strong>&lt;/em> &lt;em>Your Magicka is increased by 100, and you have a 25% chance to absorb the Magicka from incoming spells. However, you cannot regenerate Magicka in combat.&lt;/em>&lt;/p>
+&lt;p>&lt;em>&lt;strong>Sorcerer’s Oath:&lt;/strong>&lt;/em> &lt;em>Your Magicka is increased by 100, and you have a 20% chance to absorb the Magicka from incoming spells. However, you cannot regenerate Magicka in combat.&lt;/em>&lt;/p>
 &lt;p>The Atronach runs counter to your racial bonus but with mace and shield in hand you won&amp;rsquo;t be casting much of anything in the middle of combat. Use the extra Magicka to set up buffs, then draw your weapons and strike.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-lady.webp">
 &lt;h4 id="the-lady">The Lady&lt;/h4>
@@ -526,8 +526,8 @@ Most of what you do will require Magicka so you don&amp;rsquo;t want to ignore i
 &lt;p>The Serpent Stone is hit or miss for this build, ironically. An additional hit of poison can be great if you&amp;rsquo;re stabbing your victims instead of reverse pickpocketing. Otherwise, this does next to nothing for you.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-shadow.webp">
 &lt;h4 id="the-shadow">The Shadow&lt;/h4>
-&lt;p>&lt;em>&lt;strong>Moonshadow:&lt;/strong>&lt;/em> &lt;em>You are 25% harder to detect while sneaking, and you deal 25% more damage with sneak attacks and spells.&lt;/em>&lt;/p>
-&lt;p>If you run into problems sneaking, the Shadow Stone is your best friend. It will help you stay hidden and boost your spell power at the same time.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Moonshadow:&lt;/strong>&lt;/em> &lt;em>You move 20% faster while sneaking you deal 25% extra damage with sneak attacks.&lt;/em>&lt;/p>
+&lt;p>If you run into problems staying hidden, the Shadow Stone might be your best friend. It will help you move into the shadows swiftly and boost your spell power at the same time.&lt;/p>
 &lt;/details>
 &lt;h2 id="faith">Faith&lt;/h2>
 &lt;blockquote>
@@ -694,7 +694,7 @@ If reverse pickpocket isn&amp;rsquo;t possible you&amp;rsquo;ll still be in rang
 &lt;li>&lt;strong>Complexity:&lt;/strong> Moderate&lt;/li>
 &lt;li>&lt;strong>Race:&lt;/strong> &lt;a href="##" title="Major Skill: Archery
 Minor Skills: Hand to Hand, Light Armor, One-handed, Security, Sneak
-Green Pact: Your Movement Speed is increased by 10%, and you take 50% less damage from falling. You deal 25% extra damage with sneak attacks and spells.">Wood Elf&lt;/a>&lt;/li>
+Green Pact: You deal 25% extra damage with sneak attacks and spend 50% less Stamina when sprinting (or sneaking).">Wood Elf&lt;/a>&lt;/li>
 &lt;li>&lt;strong>Skills:&lt;/strong>
 &lt;ul>
 &lt;li>&lt;strong>Offensive:&lt;/strong> Destruction&lt;/li>
@@ -1058,7 +1058,7 @@ A late addition to your toolkit but a good one. &lt;em>Wall of Frost&lt;/em> is 
 &lt;li>&lt;strong>Complexity:&lt;/strong> Low&lt;/li>
 &lt;li>&lt;strong>Race:&lt;/strong> &lt;a href="##" title="Major Skill: Alteration
 Minor Skills: Alchemy, Conjuration, Illusion, Restoration, Speech
-Spell Warding: Your Magic Resistance is increased by 25%, and you have a 15% chance to absorb the Magicka from incoming spells.">Breton&lt;/a>&lt;/li>
+Spell Warding: Your Magic Resistance is increased by 25%, and you have a 10% chance to absorb the Magicka from incoming spells.">Breton&lt;/a>&lt;/li>
 &lt;li>&lt;strong>Skills:&lt;/strong>
 &lt;ul>
 &lt;li>&lt;strong>Offensive:&lt;/strong> Two-Handed, Archery&lt;/li>
@@ -1951,12 +1951,12 @@ Stamina is your key attribute as it&amp;rsquo;s necessary for both sneaking and 
 &lt;p>Your Guardian Stone will be useful at every point of your adventure. Extra stamina and movement speed plays well into your stealth gameplay and, should situations really fall apart, you might be able to survive falls your pursuers cannot.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-lover.webp">
 &lt;h4 id="the-lover">The Lover&lt;/h4>
-&lt;p>&lt;em>&lt;strong>Lover&amp;rsquo;s Touch:&lt;/strong>&lt;/em> &lt;em>Your Stamina regenerates twice as fast, but you take 25% extra damage while power attacking, drawing a bow, or casting a spell.&lt;/em>&lt;/p>
+&lt;p>&lt;em>&lt;strong>Lover&amp;rsquo;s Touch:&lt;/strong>&lt;/em> &lt;em>Your Stamina regenerates twice as fast, but you take 25% extra damage while power attacking or drawing a bow.&lt;/em>&lt;/p>
 &lt;p>Once you have enough raw Stamina, regeneration becomes the higher priority. The downside to The Lover doesn&amp;rsquo;t concern you much as all since you have no intention of taking damage while drawing your bow. Later in the game you may have plenty of regeneration from your Light Armor perks and will start to see little benefit here.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-shadow.webp">
 &lt;h4 id="the-shadow">The Shadow&lt;/h4>
-&lt;p>&lt;em>&lt;strong>Moonshadow:&lt;/strong>&lt;/em> &lt;em>You are 25% harder to detect while sneaking, and you deal 25% extra damage with sneak attacks and spells.&lt;/em>&lt;/p>
-&lt;p>It&amp;rsquo;s no surprise that a sneakthief would find a home under the Shadow. This stone is especially useful in the early and mid-game where the 25% boost may be the deciding factor between being undetected and having your guts spilled. In the late game you&amp;rsquo;ll still benefit from the boost to sneak attacks.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Moonshadow:&lt;/strong>&lt;/em> &lt;em>You move 20% faster while sneaking you deal 25% extra damage with sneak attacks.&lt;/em>&lt;/p>
+&lt;p>It&amp;rsquo;s no surprise that a sneakthief would find a home under the Shadow. This stone is especially useful in the early and mid-game where the speed boost can help you slip away before detection. In the late game you&amp;rsquo;ll still benefit from the boost to sneak attacks.&lt;/p>
 &lt;/details>
 &lt;h2 id="faith">Faith&lt;/h2>
 &lt;blockquote>
@@ -2095,8 +2095,8 @@ Turning one enemy against their friends does wonders for thinning the herd. Just
 &lt;li>&lt;strong>Complexity:&lt;/strong> Low&lt;/li>
 &lt;li>&lt;strong>Race:&lt;/strong> &lt;a href="##" title="Major Skill: Hand to Hand
 Minor Skills: Alchemy, Archery, Light Armor, Security, Sneak
-Lunar Blessing: You spend 20% less Stamina while power attacking or drawing a bow, and 50% less Stamina while sprinting (or sneaking).
-Night Eye: Improves the caster’s night vision for 60 seconds.">Khajiit&lt;/a>&lt;/li>
+Lunar Blessing: You move 10% faster, take 50% less damage from falling, and spend 20% less Stamina while power attacking or drawing a bow.
+Night Eye: You can see in the dark. Cast this power again to cancel its effects.">Khajiit&lt;/a>&lt;/li>
 &lt;li>&lt;strong>Skills:&lt;/strong>
 &lt;ul>
 &lt;li>&lt;strong>Offensive:&lt;/strong> Conjuration, Two-handed&lt;/li>
@@ -2608,7 +2608,7 @@ Stamina will be vital in consistently firing your bow and sprinting to safer loc
 &lt;p>Drawing a bow can be draining on stamina and the extra move speed can help distance you from an opponent. This is a great stone to start with as it&amp;rsquo;ll keep you alive until other options are available.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-atronach.webp">
 &lt;h4 id="the-atronach">The Atronach&lt;/h4>
-&lt;p>&lt;em>&lt;strong>Sorcerer’s Oath:&lt;/strong>&lt;/em> &lt;em>Your Magicka is increased by 100, and you have a 25% chance to absorb the Magicka from incoming spells. However, you cannot regenerate Magicka in combat.&lt;/em>&lt;/p>
+&lt;p>&lt;em>&lt;strong>Sorcerer’s Oath:&lt;/strong>&lt;/em> &lt;em>Your Magicka is increased by 100, and you have a 220% chance to absorb the Magicka from incoming spells. However, you cannot regenerate Magicka in combat.&lt;/em>&lt;/p>
 &lt;p>Ideally you&amp;rsquo;ll be summoning your frost atronach and setting runes out of combat, making the Magicka regeneration penalty less harsh. The extra Magicka allows you to focus your attribute points elsewhere, such as in more Stamina for shooting.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-ritual.webp">
 &lt;h4 id="the-ritual">The Ritual&lt;/h4>
@@ -2943,7 +2943,7 @@ Almost everything you do will require Magicka but you can&amp;rsquo;t ignore you
 &lt;p>Aptly named for this build, this stone leans into the glass cannon concept. Your Magicka pool will greatly benefit from this blessing however you may find yourself promptly cooked by opposing mages if they discover you.&lt;/p>
 &lt;img align="right" width="100" src="https://thephoenixflavour.com/Pictures/sss/builds/the-shadow.webp">
 &lt;h4 id="the-shadow">The Shadow&lt;/h4>
-&lt;p>&lt;em>&lt;strong>Moonshadow:&lt;/strong>&lt;/em> &lt;em>You are 25% harder to detect while sneaking, and you deal 25% more damage with sneak attacks and spells.&lt;/em>&lt;/p>
+&lt;p>&lt;em>&lt;strong>Moonshadow:&lt;/strong>&lt;/em> &lt;em>You move 20% faster while sneaking you deal 25% extra damage with sneak attacks.&lt;/em>&lt;/p>
 &lt;p>Sneaking, sneak attacks, and sneak spells are pretty much your modus operandi in full. This stone benefits everything you aim to do which makes it a safe mid-to-late-game option.&lt;/p>
 &lt;/details>
 &lt;h2 id="faith">Faith&lt;/h2>
